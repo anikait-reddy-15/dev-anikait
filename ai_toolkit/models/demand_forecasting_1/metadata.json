@@ -1,0 +1,1 @@
+{"target_column": "units_sold", "model_purpose": "In each store how many units are sold", "eval_metric": "root_mean_squared_error", "problem_type": "regression", "presets": "best_quality", "time_limit": 600, "hyperparameters": {"GBM": {}}}

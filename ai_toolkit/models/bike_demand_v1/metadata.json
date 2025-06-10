@@ -1,0 +1,1 @@
+{"target_column": "count", "model_purpose": "Forecast hourly bike rental demand to support planning and logistics.", "eval_metric": "root_mean_squared_error", "problem_type": "regression", "presets": "best_quality", "time_limit": 600, "hyperparameters": null}

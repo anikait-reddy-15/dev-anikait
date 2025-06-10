@@ -1,0 +1,1 @@
+{"target_column": "item_cnt_day", "model_purpose": "Forecast monthly product sales per store to optimize stock and logistics.", "eval_metric": "root_mean_squared_error", "problem_type": "regression", "presets": "best_quality", "time_limit": 600, "hyperparameters": null}

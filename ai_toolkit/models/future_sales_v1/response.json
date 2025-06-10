@@ -1,0 +1,122 @@
+{
+    "message": "Model 'future_sales_v1' and 'null' trained and evaluated.",
+    "evaluation_results": {
+        "root_mean_squared_error": -1.8986555274002266,
+        "mean_squared_error": -3.6048928117274324,
+        "mean_absolute_error": -0.3224355817225347,
+        "r2": 0.22808524582516132,
+        "pearsonr": 0.47774508645110786,
+        "median_absolute_error": -0.0809401273727417
+    },
+    "sample_predictions": [
+        1.173279047012329,
+        1.6490023136138916,
+        1.0743160247802734,
+        1.585307002067566,
+        1.0504266023635864,
+        1.2264273166656494,
+        1.0381934642791748,
+        1.0792574882507324,
+        1.0896961688995361,
+        1.0934170484542847
+    ],
+    "features": [
+        "date",
+        "date_block_num",
+        "shop_id",
+        "item_id",
+        "item_price"
+    ],
+    "leaderboard": [
+        {
+            "model": "LightGBMXT_BAG_L2",
+            "score_test": -1.8986555274002266,
+            "score_val": -2.496389345071021,
+            "eval_metric": "root_mean_squared_error",
+            "pred_time_test": 59.80232310295105,
+            "pred_time_val": 76.3320701122284,
+            "fit_time": 361.8542697429657,
+            "pred_time_test_marginal": 20.57822012901306,
+            "pred_time_val_marginal": 9.274381399154663,
+            "fit_time_marginal": 158.44532465934753,
+            "stack_level": 2,
+            "can_infer": true,
+            "fit_order": 5
+        },
+        {
+            "model": "WeightedEnsemble_L3",
+            "score_test": -1.8986555274002266,
+            "score_val": -2.496389345071021,
+            "eval_metric": "root_mean_squared_error",
+            "pred_time_test": 59.81632161140442,
+            "pred_time_val": 76.44730186462402,
+            "fit_time": 364.4166204929352,
+            "pred_time_test_marginal": 0.01399850845336914,
+            "pred_time_val_marginal": 0.11523175239562988,
+            "fit_time_marginal": 2.5623507499694824,
+            "stack_level": 3,
+            "can_infer": true,
+            "fit_order": 6
+        },
+        {
+            "model": "WeightedEnsemble_L2",
+            "score_test": -1.9193175309482777,
+            "score_val": -2.58026335404673,
+            "eval_metric": "root_mean_squared_error",
+            "pred_time_test": 39.27619385719299,
+            "pred_time_val": 67.15957140922546,
+            "fit_time": 206.2220265865326,
+            "pred_time_test_marginal": 0.05209088325500488,
+            "pred_time_val_marginal": 0.1018826961517334,
+            "fit_time_marginal": 2.8130815029144287,
+            "stack_level": 2,
+            "can_infer": true,
+            "fit_order": 4
+        },
+        {
+            "model": "KNeighborsDist_BAG_L1",
+            "score_test": -2.040515196237027,
+            "score_val": -2.73378950086503,
+            "eval_metric": "root_mean_squared_error",
+            "pred_time_test": 10.023934125900269,
+            "pred_time_val": 28.230400562286377,
+            "fit_time": 33.578404664993286,
+            "pred_time_test_marginal": 10.023934125900269,
+            "pred_time_val_marginal": 28.230400562286377,
+            "fit_time_marginal": 33.578404664993286,
+            "stack_level": 1,
+            "can_infer": true,
+            "fit_order": 2
+        },
+        {
+            "model": "KNeighborsUnif_BAG_L1",
+            "score_test": -2.0435518657082277,
+            "score_val": -2.6861877951033337,
+            "eval_metric": "root_mean_squared_error",
+            "pred_time_test": 10.29424238204956,
+            "pred_time_val": 28.051579475402832,
+            "fit_time": 31.806076049804688,
+            "pred_time_test_marginal": 10.29424238204956,
+            "pred_time_val_marginal": 28.051579475402832,
+            "fit_time_marginal": 31.806076049804688,
+            "stack_level": 1,
+            "can_infer": true,
+            "fit_order": 1
+        },
+        {
+            "model": "LightGBMXT_BAG_L1",
+            "score_test": -2.0579088529580627,
+            "score_val": -2.6404506742227523,
+            "eval_metric": "root_mean_squared_error",
+            "pred_time_test": 18.90592646598816,
+            "pred_time_val": 10.775708675384521,
+            "fit_time": 138.0244643688202,
+            "pred_time_test_marginal": 18.90592646598816,
+            "pred_time_val_marginal": 10.775708675384521,
+            "fit_time_marginal": 138.0244643688202,
+            "stack_level": 1,
+            "can_infer": true,
+            "fit_order": 3
+        }
+    ]
+}
