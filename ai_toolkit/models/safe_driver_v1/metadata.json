@@ -1,1 +1,0 @@
-{"target_column": "target", "model_purpose": "Predict the likelihood of a driver filing an insurance claim to improve risk assessment and underwriting.", "eval_metric": "f1", "problem_type": "binary", "presets": "best_quality", "time_limit": 600, "hyperparameters": null}

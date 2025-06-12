@@ -1,1 +1,0 @@
-{"target_column": "Exited", "model_purpose": "Bank customer will stay in bank or not", "eval_metric": "f1", "problem_type": "binary", "presets": "best_quality", "time_limit": 600, "hyperparameters": {"GBM": {}}}

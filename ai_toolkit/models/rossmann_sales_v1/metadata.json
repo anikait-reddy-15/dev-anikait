@@ -1,1 +1,0 @@
-{"target_column": "Sales", "model_purpose": "Predict daily sales for retail stores to optimize inventory planning and staffing.", "eval_metric": "root_mean_squared_error", "problem_type": "regression", "presets": "best_quality", "time_limit": 600, "hyperparameters": null}
