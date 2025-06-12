@@ -2,6 +2,7 @@ import openai
 import requests
 import random
 import json
+
 import os
 from typing import List, Dict, Union
 from dotenv import load_dotenv
