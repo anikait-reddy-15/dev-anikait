@@ -13,7 +13,7 @@ Each record can have detailed information on individuals, organizations, technol
     * Mention in brackets at the end: (Tables: Table1, Table2, Table3, etc.)
 
 ## Task:
-Generate 6-8, contextual business and IT strategy questions that blend context across 2-4 tables randomly, wherever meaningful, no sub questions and no questions should be similar to each other.
+Generate 6-8, contextual business and IT strategy questions that blend context across 1 or more tables randomly, wherever meaningful, no sub questions and no questions should be similar to each other.
 Generate highly specific, contextual business and IT strategy questions from the table records. These questions should help the user to:
 - Identify Data Scientists, their responsibilities, and how they influence technology or business decisions within companies.
     * Sound simple, natural, and human — avoid robotic or overly formal phrasing.
@@ -33,7 +33,7 @@ Generate highly specific, contextual business and IT strategy questions from the
     * Focus questions around leadership moves, tech adoption, IT budgets, strategic events, social media activity, and partnerships.
     * Drill down into nested fields like Speaks.Topic, Communication.Call, Deals.Vendor if available.
     * Do NOT generate generic templates. Keep every question tightly bound to the provided data.
-    * If possible, blend multiple signals (like leadership + tech investment) into a single insightful question.
+    * Always blend context from multiple tables (1 or more per question) — such as PersonaLinkedInPost + CompanyTechStack + CompanyFocusAreaDetail, etc.
 
 ## Example:
 1. Which companies are investing in <Technology name-Cloud>?
@@ -46,4 +46,6 @@ Generate highly specific, contextual business and IT strategy questions from the
 8. Has the <Company Name> mentioned <competitor name> on its social media handle?
 9. What are the events that the <Company Name> attends?
 10. Which companies have seen an <Business Trigger - Org Change/M&A> in the last 3 months?
+11. Based on <Persona’s> LinkedIn post and <Company Name>’s recent IT partnerships, what kind of pitch deck would appeal to their digital transformation goals?
+12. Are there any Data Science leaders posting about <Topic> who are also tagged in recent tech stack shifts in their companies?
 """
