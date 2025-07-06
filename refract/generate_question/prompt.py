@@ -1,51 +1,50 @@
 PROMPT = """
-## Context:
-You have access to structured tables containing nested fields like Personas, Org Hierarchies, Technology Investments, Business Priorities, Events, Articles, Speeches, Pitches, Deals, Tech Stacks, IT Budgets, and Communication guidelines.
-Each record can have detailed information on individuals, organizations, technologies, or business activities.
+You have access to structured tables containing nested fields such as CompanyInfo, CompanyDataCenter, CompanyDealMaster, CompanyFacebookDetail, CompanyFocusAreaDetail, CompanyHiringDetail, 
+CompanyInstagramDetail, CompanyITPartnerDetail, CompanyLeadershipExcerpt, CompanyManagementDetail, CompanyTechStack, CompanyTwitterDetail, CompanyVendorProductDetail, 
+CompanyVendorTechDetail, CompanyYoutubeDetail, IndustryBusinessTrend, IndustryITTrend, LookUpValue, PageInfo, PersonaFaceBook, PersonaInstagramProfile, PersonaLinkedinActivity, 
+PersonaLinkedinPost, PersonaLinkedInProfile, PersonaMisc, PersonaTwitterProfile, PersonaTwitterTweets, PersonaUser, PersonaYoutubeProfile, SectionData, SectionInfo, 
+SectionTitle, SocialMediaInfo, PersonaTitle.
 
-## Table Names:
-{table_names}
+Each record contains rich, specific detail on individuals, companies, technologies, or business activities.
 
-## Column Names:
-{column_names}
+Your Task:
+Generate 100 **highly specific, contextual, SQL-answerable business and IT strategy questions** from these records. These questions should help users:
 
-## For each question:
-    * Mention in brackets at the end: (Tables: Table1, Table2, Table3, etc.)
+- Identify Data Scientists, their responsibilities, and how they influence business or technology decisions.
+- Understand company-wide IT priorities, technology investments, leadership viewpoints, and strategic areas of focus.
+- Discover competitive positioning via deals, technology stack shifts, and industry benchmarks.
+- Correlate organizational behavior (e.g., hiring, leadership changes, social media posts) with technology strategy.
+- Use nested fields where available (e.g., Speaks.Topic, Deals.Vendor, PersonaLinkedinPost.PostContent, etc.)
 
-## Task:
-Generate 6-8, contextual business and IT strategy questions that blend context across 1 or more tables randomly, wherever meaningful, no sub questions and no questions should be similar to each other.
-Generate highly specific, contextual business and IT strategy questions from the table records. These questions should help the user to:
-- Identify Data Scientists, their responsibilities, and how they influence technology or business decisions within companies.
-    * Sound simple, natural, and human — avoid robotic or overly formal phrasing.
-    * Understand company-wide IT priorities, technology investments, leadership views, and strategic focus areas.
-    * Draft communication strategies such as email pitches or meeting scripts aligned with persona behaviors and org priorities.
-    * Discover competition landscape from deals, tech triggers, vendor ecosystems.
-    * Always drill into nested fields like Speaks.Topic, Communication.Call, Event.News, Deals.Vendor if available.
-    * Include 1-2 actionable prompts — like drafting an email, a memo, a write-up, or a slide deck based on the company's IT priorities or leadership changes.
+Rules:
 
-## Rules:
-    * Always use actual company names, personas, technologies, deals, budgets, or priorities from the records.
-    * Always refer to persona names, designations, and company names exactly as recorded in the data.
-    * When needed, drill into nested fields like Speaks.Professional.Topic, Communication.Call, Event.News, Deals.Vendor.
-    * Form questions that directly mention technologies, personas, IT priorities, investments, events, or competitor information.
-    * Avoid generic, template questions. Make each question deeply contextual to the available data.
-    * Always use actual company names, personas, technologies, deals, budgets, or priorities from the records.
-    * Focus questions around leadership moves, tech adoption, IT budgets, strategic events, social media activity, and partnerships.
-    * Drill down into nested fields like Speaks.Topic, Communication.Call, Deals.Vendor if available.
-    * Do NOT generate generic templates. Keep every question tightly bound to the provided data.
-    * Always blend context from multiple tables (1 or more per question) — such as PersonaLinkedInPost + CompanyTechStack + CompanyFocusAreaDetail, etc.
+1. Every question must use **1 to 5 tables randomly** — vary the combinations across questions.
+2. No two questions should rely mainly on the same table — spread usage across the schema.
+3. Questions must be **natural-language**, **clear**, and **directly answerable by SQL** — no creative writing prompts.
+4. Use real, specific schema fields: companies, personas, technologies, deals, budgets, org changes, social activity.
+5. Always reference **nested fields** wherever relevant (e.g., PersonaLinkedinPost.PostContent, CompanyLeadershipExcerpt.Speaks.Topic).
+6. Always blend tables where meaningful – e.g., PersonaLinkedinPost + CompanyTechStack + CompanyFocusAreaDetail.
+7. End every question with the tables used in this format: (Tables: Table1, Table2, Table3).
 
-## Example:
-1. Which companies are investing in <Technology name-Cloud>?
-2. Who is responsible for <Technology name - cloud> in <Company Name>?
-3. What are the strategic IT priorities of <Company Name>?
-4. Can you draft an email pitch for the <CEO> of <Company Name> which aligns with their strategic business and IT priorities?
-5. Who are <my-Company Name> key competitors in <target account/prospect - Company Name>?
-6. What is the <Company Name> budget on <Analytics>?
-7. Give me a list of IT projects or investments or initiatives or partnerships of the <Company Name> in the last 2 months?
-8. Has the <Company Name> mentioned <competitor name> on its social media handle?
-9. What are the events that the <Company Name> attends?
-10. Which companies have seen an <Business Trigger - Org Change/M&A> in the last 3 months?
-11. Based on <Persona’s> LinkedIn post and <Company Name>’s recent IT partnerships, what kind of pitch deck would appeal to their digital transformation goals?
-12. Are there any Data Science leaders posting about <Topic> who are also tagged in recent tech stack shifts in their companies?
+Example Questions:
+
+1. Which companies have mentioned adopting Snowflake in their tech stack in the past 3 months? (Tables: CompanyTechStack, CompanyInfo)
+
+2. Who are the data science leaders at companies that have increased their IT partner count in the last 6 months? (Tables: PersonaUser, PersonaTitle, CompanyITPartnerDetail)
+
+3. Which companies in the financial sector signed analytics vendor deals after major leadership changes? (Tables: CompanyDealMaster, CompanyVendorTechDetail, CompanyLeadershipExcerpt)
+
+4. What are the most common technologies used by companies that recently posted job openings for data engineering roles? (Tables: CompanyHiringDetail, CompanyTechStack)
+
+5. Which personas mentioned AI or machine learning in their LinkedIn posts and are associated with companies investing in GPU infrastructure? (Tables: PersonaLinkedinPost, PersonaUser, CompanyTechStack)
+
+6. What companies had both an increase in Twitter engagement and a shift in their focus to digital transformation this quarter? (Tables: CompanyTwitterDetail, CompanyFocusAreaDetail)
+
+7. Which vendors are supplying cybersecurity solutions to healthcare companies with a recent rise in IT hiring? (Tables: CompanyVendorTechDetail, CompanyInfo, CompanyHiringDetail)
+
+8. What technologies are commonly adopted by companies that recently promoted a new CTO or Head of Engineering? (Tables: CompanyManagementDetail, CompanyTechStack)
+
+9. Which companies published YouTube content about cloud migration and also updated their data center footprint in the last year? (Tables: CompanyYoutubeDetail, CompanyDataCenter)
+
+10. Which personas with “Director of Data Science” titles have engaged with competitor posts on Twitter in the last 30 days? (Tables: PersonaTwitterProfile, PersonaTitle, PersonaTwitterTweets)
 """

@@ -1,0 +1,15 @@
+[project]
+name = "dev-anikait"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "dotenv>=0.9.9",
+    "fastapi>=0.115.14",
+    "loguru>=0.7.3",
+    "openai>=1.93.0",
+    "pyodbc>=5.2.0",
+    "requests>=2.32.4",
+    "sqlalchemy>=2.0.41",
+]
