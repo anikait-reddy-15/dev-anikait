@@ -8,7 +8,7 @@ openai.api_key = os.getenv("OPEN_AI_API_KEY")
 
 def generate_answers():
     try:
-        with open(r"C:\Users\ASUS\Documents\Work Repositories\dev-anikait\refract\generate_question\generated_questions.json", "r", encoding="utf-8") as f:
+        with open(r"C:\Work Repos\dev-anikait\generated_questions.json", "r", encoding="utf-8") as f:
             data = json.load(f)
 
         questions = data["questions"]

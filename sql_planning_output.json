@@ -1,0 +1,245 @@
+[
+  {
+    "question": "What contracts has PayPal's CTO commented on regarding digital payments?",
+    "tables": [
+      "PersonaYoutubeProfile",
+      "CompanyDealMaster"
+    ],
+    "subtasks": [
+      {
+        "step": 1,
+        "task": "Identify the comments made by PayPal's CTO on digital payments.",
+        "table": [
+          "PersonaYoutubeProfile"
+        ]
+      },
+      {
+        "step": 2,
+        "task": "Filter contracts related to digital payments from the CompanyDealMaster.",
+        "table": [
+          "CompanyDealMaster"
+        ]
+      },
+      {
+        "step": 3,
+        "task": "Correlate the comments from the CTO with the relevant contracts.",
+        "table": [
+          "PersonaYoutubeProfile",
+          "CompanyDealMaster"
+        ]
+      }
+    ]
+  },
+  {
+    "question": "Which universities have engaged vendors for technology solutions in the last year?",
+    "tables": [
+      "CompanyDealMaster",
+      "CompanyDataCenter"
+    ],
+    "subtasks": [
+      {
+        "step": 1,
+        "task": "Identify the time frame for the last year.",
+        "table": [
+          "CompanyDealMaster"
+        ]
+      },
+      {
+        "step": 2,
+        "task": "Filter technology solution contracts from the CompanyDealMaster for universities.",
+        "table": [
+          "CompanyDealMaster"
+        ]
+      },
+      {
+        "step": 3,
+        "task": "Extract university names from the filtered contracts.",
+        "table": [
+          "CompanyDataCenter"
+        ]
+      }
+    ]
+  },
+  {
+    "question": "What are the major benefits of the RingCentral contract for Tritium?",
+    "tables": [
+      "CompanyDealMaster",
+      "CompanyDataCenter"
+    ],
+    "subtasks": [
+      {
+        "step": 1,
+        "task": "Locate the RingCentral contract details in the CompanyDealMaster.",
+        "table": [
+          "CompanyDealMaster"
+        ]
+      },
+      {
+        "step": 2,
+        "task": "Identify the benefits associated with the RingCentral contract.",
+        "table": [
+          "CompanyDealMaster"
+        ]
+      },
+      {
+        "step": 3,
+        "task": "Cross-reference with Tritium's data to confirm relevance.",
+        "table": [
+          "CompanyDataCenter"
+        ]
+      }
+    ]
+  },
+  {
+    "question": "How many active contracts involve cloud solutions in the education sector?",
+    "tables": [
+      "CompanyDealMaster",
+      "CompanyDataCenter"
+    ],
+    "subtasks": [
+      {
+        "step": 1,
+        "task": "Identify active contracts from the CompanyDealMaster.",
+        "table": [
+          "CompanyDealMaster"
+        ]
+      },
+      {
+        "step": 2,
+        "task": "Filter contracts that specifically involve cloud solutions.",
+        "table": [
+          "CompanyDealMaster"
+        ]
+      },
+      {
+        "step": 3,
+        "task": "Count the filtered contracts that are categorized under the education sector.",
+        "table": [
+          "CompanyDataCenter"
+        ]
+      }
+    ]
+  },
+  {
+    "question": "Which data centers support companies implementing SAP solutions?",
+    "tables": [
+      "CompanyDataCenter",
+      "CompanyDealMaster"
+    ],
+    "subtasks": [
+      {
+        "step": 1,
+        "task": "Identify contracts related to SAP solutions in the CompanyDealMaster.",
+        "table": [
+          "CompanyDealMaster"
+        ]
+      },
+      {
+        "step": 2,
+        "task": "Extract data center information that supports these contracts.",
+        "table": [
+          "CompanyDataCenter"
+        ]
+      },
+      {
+        "step": 3,
+        "task": "Correlate the data centers with the identified SAP contracts.",
+        "table": [
+          "CompanyDataCenter",
+          "CompanyDealMaster"
+        ]
+      }
+    ]
+  },
+  {
+    "question": "What significant technologies are used by companies in the IT deal agreements?",
+    "tables": [
+      "CompanyDealMaster",
+      "CompanyDataCenter"
+    ],
+    "subtasks": [
+      {
+        "step": 1,
+        "task": "Extract IT deal agreements from the CompanyDealMaster.",
+        "table": [
+          "CompanyDealMaster"
+        ]
+      },
+      {
+        "step": 2,
+        "task": "Identify the technologies mentioned in these agreements.",
+        "table": [
+          "CompanyDealMaster"
+        ]
+      },
+      {
+        "step": 3,
+        "task": "Cross-reference with data center capabilities to confirm technology usage.",
+        "table": [
+          "CompanyDataCenter"
+        ]
+      }
+    ]
+  },
+  {
+    "question": "Which vendor deals have been signed by educational institutions in the past year?",
+    "tables": [
+      "CompanyDealMaster",
+      "CompanyDataCenter"
+    ],
+    "subtasks": [
+      {
+        "step": 1,
+        "task": "Identify the time frame for the past year.",
+        "table": [
+          "CompanyDealMaster"
+        ]
+      },
+      {
+        "step": 2,
+        "task": "Filter vendor deals related to educational institutions from the CompanyDealMaster.",
+        "table": [
+          "CompanyDealMaster"
+        ]
+      },
+      {
+        "step": 3,
+        "task": "Extract relevant details about the vendors involved.",
+        "table": [
+          "CompanyDataCenter"
+        ]
+      }
+    ]
+  },
+  {
+    "question": "What insights does Sri Shivananda contribute regarding the future of digital payments?",
+    "tables": [
+      "PersonaYoutubeProfile",
+      "CompanyDealMaster"
+    ],
+    "subtasks": [
+      {
+        "step": 1,
+        "task": "Locate insights or comments made by Sri Shivananda on digital payments.",
+        "table": [
+          "PersonaYoutubeProfile"
+        ]
+      },
+      {
+        "step": 2,
+        "task": "Identify any related contracts or deals in the CompanyDealMaster.",
+        "table": [
+          "CompanyDealMaster"
+        ]
+      },
+      {
+        "step": 3,
+        "task": "Correlate the insights with the relevant contracts to provide context.",
+        "table": [
+          "PersonaYoutubeProfile",
+          "CompanyDealMaster"
+        ]
+      }
+    ]
+  }
+]
