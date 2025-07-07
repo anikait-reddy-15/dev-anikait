@@ -1,243 +1,182 @@
 [
   {
-    "question": "What contracts has PayPal's CTO commented on regarding digital payments?",
+    "question": "What are the recent projects Rafael Jabur Bittar shared in his LinkedIn posts related to sustainability?",
     "tables": [
-      "PersonaYoutubeProfile",
-      "CompanyDealMaster"
+      "PersonaLinkedinPost",
+      "PersonaUser"
     ],
     "subtasks": [
       {
         "step": 1,
-        "task": "Identify the comments made by PayPal's CTO on digital payments.",
+        "task": "Filter Rafael Jabur Bittar's LinkedIn posts for sustainability-related content",
         "table": [
-          "PersonaYoutubeProfile"
+          "PersonaLinkedinPost"
         ]
       },
       {
         "step": 2,
-        "task": "Filter contracts related to digital payments from the CompanyDealMaster.",
+        "task": "Identify the user profile of Rafael Jabur Bittar to ensure the correct posts are selected",
         "table": [
-          "CompanyDealMaster"
-        ]
-      },
-      {
-        "step": 3,
-        "task": "Correlate the comments from the CTO with the relevant contracts.",
-        "table": [
-          "PersonaYoutubeProfile",
-          "CompanyDealMaster"
+          "PersonaUser"
         ]
       }
     ]
   },
   {
-    "question": "Which universities have engaged vendors for technology solutions in the last year?",
+    "question": "Which technologies mentioned by Rafael Jabur Bittar support collaborative innovation in mining?",
     "tables": [
-      "CompanyDealMaster",
-      "CompanyDataCenter"
+      "PersonaLinkedinPost",
+      "CompanyTechStack"
     ],
     "subtasks": [
       {
         "step": 1,
-        "task": "Identify the time frame for the last year.",
+        "task": "Extract technologies from Rafael Jabur Bittar's LinkedIn posts related to mining",
         "table": [
-          "CompanyDealMaster"
+          "PersonaLinkedinPost"
         ]
       },
       {
         "step": 2,
-        "task": "Filter technology solution contracts from the CompanyDealMaster for universities.",
+        "task": "Identify which of these technologies are listed in the CompanyTechStack as supporting collaborative innovation",
         "table": [
-          "CompanyDealMaster"
-        ]
-      },
-      {
-        "step": 3,
-        "task": "Extract university names from the filtered contracts.",
-        "table": [
-          "CompanyDataCenter"
+          "CompanyTechStack"
         ]
       }
     ]
   },
   {
-    "question": "What are the major benefits of the RingCentral contract for Tritium?",
+    "question": "How many reactions did Rafael Jabur Bittar\u2019s posts about mining innovation receive this month?",
     "tables": [
-      "CompanyDealMaster",
-      "CompanyDataCenter"
+      "PersonaLinkedinPost"
     ],
     "subtasks": [
       {
         "step": 1,
-        "task": "Locate the RingCentral contract details in the CompanyDealMaster.",
+        "task": "Filter Rafael Jabur Bittar's LinkedIn posts for those specifically about mining innovation within the current month",
         "table": [
-          "CompanyDealMaster"
+          "PersonaLinkedinPost"
         ]
       },
       {
         "step": 2,
-        "task": "Identify the benefits associated with the RingCentral contract.",
+        "task": "Count the total reactions received on these filtered posts",
         "table": [
-          "CompanyDealMaster"
-        ]
-      },
-      {
-        "step": 3,
-        "task": "Cross-reference with Tritium's data to confirm relevance.",
-        "table": [
-          "CompanyDataCenter"
+          "PersonaLinkedinPost"
         ]
       }
     ]
   },
   {
-    "question": "How many active contracts involve cloud solutions in the education sector?",
+    "question": "Which companies in Rafael Jabur Bittar\u2019s network focus on sustainable mining technologies?",
     "tables": [
-      "CompanyDealMaster",
-      "CompanyDataCenter"
+      "PersonaLinkedinPost",
+      "CompanyTechStack"
     ],
     "subtasks": [
       {
         "step": 1,
-        "task": "Identify active contracts from the CompanyDealMaster.",
+        "task": "Identify posts by Rafael Jabur Bittar that mention companies or technologies related to sustainable mining",
         "table": [
-          "CompanyDealMaster"
+          "PersonaLinkedinPost"
         ]
       },
       {
         "step": 2,
-        "task": "Filter contracts that specifically involve cloud solutions.",
+        "task": "Cross-reference these posts with the CompanyTechStack to find companies focused on sustainable mining technologies",
         "table": [
-          "CompanyDealMaster"
-        ]
-      },
-      {
-        "step": 3,
-        "task": "Count the filtered contracts that are categorized under the education sector.",
-        "table": [
-          "CompanyDataCenter"
+          "CompanyTechStack"
         ]
       }
     ]
   },
   {
-    "question": "Which data centers support companies implementing SAP solutions?",
+    "question": "What key themes did Rafael Jabur Bittar highlight at the VPS Summit regarding digital transformation?",
     "tables": [
-      "CompanyDataCenter",
-      "CompanyDealMaster"
+      "PersonaLinkedinPost",
+      "CompanyTechStack"
     ],
     "subtasks": [
       {
         "step": 1,
-        "task": "Identify contracts related to SAP solutions in the CompanyDealMaster.",
+        "task": "Filter Rafael Jabur Bittar's LinkedIn posts for those related to the VPS Summit and digital transformation",
         "table": [
-          "CompanyDealMaster"
+          "PersonaLinkedinPost"
         ]
       },
       {
         "step": 2,
-        "task": "Extract data center information that supports these contracts.",
+        "task": "Extract key themes discussed in these posts",
         "table": [
-          "CompanyDataCenter"
-        ]
-      },
-      {
-        "step": 3,
-        "task": "Correlate the data centers with the identified SAP contracts.",
-        "table": [
-          "CompanyDataCenter",
-          "CompanyDealMaster"
+          "PersonaLinkedinPost"
         ]
       }
     ]
   },
   {
-    "question": "What significant technologies are used by companies in the IT deal agreements?",
+    "question": "In which LinkedIn posts did Rafael Jabur Bittar discuss partnerships for technological innovation?",
     "tables": [
-      "CompanyDealMaster",
-      "CompanyDataCenter"
+      "PersonaLinkedinPost",
+      "CompanyInfo"
     ],
     "subtasks": [
       {
         "step": 1,
-        "task": "Extract IT deal agreements from the CompanyDealMaster.",
+        "task": "Identify LinkedIn posts by Rafael Jabur Bittar that mention partnerships for technological innovation",
         "table": [
-          "CompanyDealMaster"
+          "PersonaLinkedinPost"
         ]
       },
       {
         "step": 2,
-        "task": "Identify the technologies mentioned in these agreements.",
+        "task": "Cross-reference these posts with company information to gather context on the partnerships mentioned",
         "table": [
-          "CompanyDealMaster"
-        ]
-      },
-      {
-        "step": 3,
-        "task": "Cross-reference with data center capabilities to confirm technology usage.",
-        "table": [
-          "CompanyDataCenter"
+          "CompanyInfo"
         ]
       }
     ]
   },
   {
-    "question": "Which vendor deals have been signed by educational institutions in the past year?",
+    "question": "What are the follower counts of Twitter profiles associated with mining industry leaders?",
     "tables": [
-      "CompanyDealMaster",
-      "CompanyDataCenter"
+      "PersonaTwitterProfile"
     ],
     "subtasks": [
       {
         "step": 1,
-        "task": "Identify the time frame for the past year.",
+        "task": "Identify Twitter profiles of mining industry leaders",
         "table": [
-          "CompanyDealMaster"
+          "PersonaTwitterProfile"
         ]
       },
       {
         "step": 2,
-        "task": "Filter vendor deals related to educational institutions from the CompanyDealMaster.",
+        "task": "Extract and list the follower counts for these identified profiles",
         "table": [
-          "CompanyDealMaster"
-        ]
-      },
-      {
-        "step": 3,
-        "task": "Extract relevant details about the vendors involved.",
-        "table": [
-          "CompanyDataCenter"
+          "PersonaTwitterProfile"
         ]
       }
     ]
   },
   {
-    "question": "What insights does Sri Shivananda contribute regarding the future of digital payments?",
+    "question": "How did Rafael Jabur Bittar\u2019s posts influence discussions about sustainable practices in mining?",
     "tables": [
-      "PersonaYoutubeProfile",
-      "CompanyDealMaster"
+      "PersonaLinkedinPost",
+      "CompanyTechStack"
     ],
     "subtasks": [
       {
         "step": 1,
-        "task": "Locate insights or comments made by Sri Shivananda on digital payments.",
+        "task": "Analyze Rafael Jabur Bittar's LinkedIn posts for mentions of sustainable practices in mining",
         "table": [
-          "PersonaYoutubeProfile"
+          "PersonaLinkedinPost"
         ]
       },
       {
         "step": 2,
-        "task": "Identify any related contracts or deals in the CompanyDealMaster.",
+        "task": "Identify how these posts relate to broader discussions or trends in the CompanyTechStack regarding sustainability",
         "table": [
-          "CompanyDealMaster"
-        ]
-      },
-      {
-        "step": 3,
-        "task": "Correlate the insights with the relevant contracts to provide context.",
-        "table": [
-          "PersonaYoutubeProfile",
-          "CompanyDealMaster"
+          "CompanyTechStack"
         ]
       }
     ]

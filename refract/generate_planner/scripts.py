@@ -15,8 +15,7 @@ def generate_plans():
         tables = data["tables"]
 
         # Prepare prompt
-        prompt = f"""
-You are a smart SQL planner. Your job is to break down natural language business/tech strategy questions into logical subtasks.
+        prompt = f'''You are a smart SQL planner. Your job is to break down natural language business/tech strategy questions into logical subtasks.
 
 You have access to these structured tables: {', '.join(tables)}.
 Each table includes business, tech, leadership, or hiring-related fields, including nested fields like social posts, IT trends, hiring roles, leadership excerpts, etc.
@@ -28,6 +27,7 @@ Important:
 - Each **subtask must include only the specific table(s)** required to complete **that individual step**.
 - Do **not** list all question-related tables inside each subtask — only what's used for that step.
 - Include a `"tables"` field at the top level with all required tables for the full question.
+- Each question must include **at least 3 subtasks** (minimum) to ensure logical breakdown. There's **no upper limit** if more steps are needed.
 
 Return format (per question):
 
@@ -87,8 +87,7 @@ Question:
 
 Questions:
 {questions}
-"""
-
+'''
 
         response = openai.chat.completions.create(
             model="gpt-4o-mini",
