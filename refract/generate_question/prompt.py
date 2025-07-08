@@ -18,17 +18,29 @@ Generate **100 unique, highly specific, SQL-answerable business and IT strategy 
 
 Rules:
 
-1. Generate exactly **100 questions**.
-2. Each question must use **different tables**, randomly chosen across the schema.
-3. Ensure table diversity — avoid repeating the same primary table across many questions.
-4. Every question must be in **natural-language**, clear, and directly answerable via SQL — no abstract or vague prompts.
-5. Use **real field references**, including nested ones like: 
+1. Generate exactly **10 questions**.
+2. **Do NOT reuse or regenerate** the following example questions:
+   - “Which companies have mentioned adopting Snowflake in their tech stack…”
+   - “Who are the data science leaders at companies that have increased…”
+   - “Which companies in the financial sector signed analytics vendor deals…”
+   - “What are the most common technologies used by companies that recently posted job openings…”
+   - “Which personas mentioned AI or machine learning in their LinkedIn posts…”
+   - “What companies had both an increase in Twitter engagement and a shift…”
+   - “Which vendors are supplying cybersecurity solutions to healthcare companies…”
+   - “What technologies are commonly adopted by companies that recently promoted a new CTO…”
+   - “Which companies published YouTube content about cloud migration…”
+   - “Which personas with 'Director of Data Science' titles have engaged with competitor posts…”
+
+3. Each question must use **different tables**, randomly chosen across the schema.
+4. Ensure table diversity — avoid repeating the same primary table across many questions.
+5. Every question must be in **natural-language**, clear, and directly answerable via SQL — no abstract or vague prompts.
+6. Use **real field references**, including nested ones like: 
    - `CompanyLeadershipExcerpt.Speaks.Topic`
    - `CompanyDealMaster.Deals.Vendor`
    - `PersonaLinkedinPost.PostContent`
    - `CompanyTechStack.Technology`
-6. Where possible, **blend tables** meaningfully. Example: Hiring + Tech Stack, Social Media + Strategic Focus, Leadership + Vendor Deals, etc.
-7. Every question should end with a table usage label in this format:  
+7. Where possible, **blend tables** meaningfully. Example: Hiring + Tech Stack, Social Media + Strategic Focus, Leadership + Vendor Deals, etc.
+8. Every question should end with a table usage label in this format:  
    **(Tables: Table1, Table2, Table3)** — list only the tables used for that question.
 
 Example Output Format:
