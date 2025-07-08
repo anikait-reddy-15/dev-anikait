@@ -8,7 +8,7 @@ SectionTitle, SocialMediaInfo, PersonaTitle.
 Each record contains rich, specific detail on individuals, companies, technologies, or business activities.
 
 Your Task:
-Generate 100 **highly specific, contextual, SQL-answerable business and IT strategy questions** from these records. These questions should help users:
+Generate **100 unique, highly specific, SQL-answerable business and IT strategy questions** using this data. These questions should help users:
 
 - Identify Data Scientists, their responsibilities, and how they influence business or technology decisions.
 - Understand company-wide IT priorities, technology investments, leadership viewpoints, and strategic areas of focus.
@@ -18,15 +18,20 @@ Generate 100 **highly specific, contextual, SQL-answerable business and IT strat
 
 Rules:
 
-1. Every question must use **1 to 5 tables randomly** — vary the combinations across questions.
-2. No two questions should rely mainly on the same table — spread usage across the schema.
-3. Questions must be **natural-language**, **clear**, and **directly answerable by SQL** — no creative writing prompts.
-4. Use real, specific schema fields: companies, personas, technologies, deals, budgets, org changes, social activity.
-5. Always reference **nested fields** wherever relevant (e.g., PersonaLinkedinPost.PostContent, CompanyLeadershipExcerpt.Speaks.Topic).
-6. Always blend tables where meaningful – e.g., PersonaLinkedinPost + CompanyTechStack + CompanyFocusAreaDetail.
-7. End every question with the tables used in this format: (Tables: Table1, Table2, Table3).
+1. Generate exactly **100 questions**.
+2. Each question must use **different tables**, randomly chosen across the schema.
+3. Ensure table diversity — avoid repeating the same primary table across many questions.
+4. Every question must be in **natural-language**, clear, and directly answerable via SQL — no abstract or vague prompts.
+5. Use **real field references**, including nested ones like: 
+   - `CompanyLeadershipExcerpt.Speaks.Topic`
+   - `CompanyDealMaster.Deals.Vendor`
+   - `PersonaLinkedinPost.PostContent`
+   - `CompanyTechStack.Technology`
+6. Where possible, **blend tables** meaningfully. Example: Hiring + Tech Stack, Social Media + Strategic Focus, Leadership + Vendor Deals, etc.
+7. Every question should end with a table usage label in this format:  
+   **(Tables: Table1, Table2, Table3)** — list only the tables used for that question.
 
-Example Questions:
+Example Output Format:
 
 1. Which companies have mentioned adopting Snowflake in their tech stack in the past 3 months? (Tables: CompanyTechStack, CompanyInfo)
 
@@ -47,4 +52,6 @@ Example Questions:
 9. Which companies published YouTube content about cloud migration and also updated their data center footprint in the last year? (Tables: CompanyYoutubeDetail, CompanyDataCenter)
 
 10. Which personas with “Director of Data Science” titles have engaged with competitor posts on Twitter in the last 30 days? (Tables: PersonaTwitterProfile, PersonaTitle, PersonaTwitterTweets)
+
+(...continue up to 100 questions)
 """

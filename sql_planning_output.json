@@ -1,135 +1,28 @@
 [
   {
-    "question": "What are the recent projects Rafael Jabur Bittar shared in his LinkedIn posts related to sustainability?",
+    "question": "Which companies have mentioned adopting Snowflake in their tech stack in the past 3 months?",
     "tables": [
-      "PersonaLinkedinPost",
-      "PersonaUser"
-    ],
-    "subtasks": [
-      {
-        "step": 1,
-        "task": "Filter Rafael Jabur Bittar's LinkedIn posts for sustainability-related content",
-        "table": [
-          "PersonaLinkedinPost"
-        ]
-      },
-      {
-        "step": 2,
-        "task": "Identify the user profile of Rafael Jabur Bittar to ensure the correct posts are selected",
-        "table": [
-          "PersonaUser"
-        ]
-      }
-    ]
-  },
-  {
-    "question": "Which technologies mentioned by Rafael Jabur Bittar support collaborative innovation in mining?",
-    "tables": [
-      "PersonaLinkedinPost",
-      "CompanyTechStack"
-    ],
-    "subtasks": [
-      {
-        "step": 1,
-        "task": "Extract technologies from Rafael Jabur Bittar's LinkedIn posts related to mining",
-        "table": [
-          "PersonaLinkedinPost"
-        ]
-      },
-      {
-        "step": 2,
-        "task": "Identify which of these technologies are listed in the CompanyTechStack as supporting collaborative innovation",
-        "table": [
-          "CompanyTechStack"
-        ]
-      }
-    ]
-  },
-  {
-    "question": "How many reactions did Rafael Jabur Bittar\u2019s posts about mining innovation receive this month?",
-    "tables": [
-      "PersonaLinkedinPost"
-    ],
-    "subtasks": [
-      {
-        "step": 1,
-        "task": "Filter Rafael Jabur Bittar's LinkedIn posts for those specifically about mining innovation within the current month",
-        "table": [
-          "PersonaLinkedinPost"
-        ]
-      },
-      {
-        "step": 2,
-        "task": "Count the total reactions received on these filtered posts",
-        "table": [
-          "PersonaLinkedinPost"
-        ]
-      }
-    ]
-  },
-  {
-    "question": "Which companies in Rafael Jabur Bittar\u2019s network focus on sustainable mining technologies?",
-    "tables": [
-      "PersonaLinkedinPost",
-      "CompanyTechStack"
-    ],
-    "subtasks": [
-      {
-        "step": 1,
-        "task": "Identify posts by Rafael Jabur Bittar that mention companies or technologies related to sustainable mining",
-        "table": [
-          "PersonaLinkedinPost"
-        ]
-      },
-      {
-        "step": 2,
-        "task": "Cross-reference these posts with the CompanyTechStack to find companies focused on sustainable mining technologies",
-        "table": [
-          "CompanyTechStack"
-        ]
-      }
-    ]
-  },
-  {
-    "question": "What key themes did Rafael Jabur Bittar highlight at the VPS Summit regarding digital transformation?",
-    "tables": [
-      "PersonaLinkedinPost",
-      "CompanyTechStack"
-    ],
-    "subtasks": [
-      {
-        "step": 1,
-        "task": "Filter Rafael Jabur Bittar's LinkedIn posts for those related to the VPS Summit and digital transformation",
-        "table": [
-          "PersonaLinkedinPost"
-        ]
-      },
-      {
-        "step": 2,
-        "task": "Extract key themes discussed in these posts",
-        "table": [
-          "PersonaLinkedinPost"
-        ]
-      }
-    ]
-  },
-  {
-    "question": "In which LinkedIn posts did Rafael Jabur Bittar discuss partnerships for technological innovation?",
-    "tables": [
-      "PersonaLinkedinPost",
+      "CompanyTechStack",
       "CompanyInfo"
     ],
     "subtasks": [
       {
         "step": 1,
-        "task": "Identify LinkedIn posts by Rafael Jabur Bittar that mention partnerships for technological innovation",
+        "task": "Filter companies that have adopted Snowflake in their tech stack.",
         "table": [
-          "PersonaLinkedinPost"
+          "CompanyTechStack"
         ]
       },
       {
         "step": 2,
-        "task": "Cross-reference these posts with company information to gather context on the partnerships mentioned",
+        "task": "Identify the companies that have made these mentions in the last 3 months.",
+        "table": [
+          "CompanyTechStack"
+        ]
+      },
+      {
+        "step": 3,
+        "task": "Retrieve detailed information about the identified companies.",
         "table": [
           "CompanyInfo"
         ]
@@ -137,45 +30,2203 @@
     ]
   },
   {
-    "question": "What are the follower counts of Twitter profiles associated with mining industry leaders?",
+    "question": "Who are the data science leaders at companies that have increased their IT partner count in the last 6 months?",
     "tables": [
-      "PersonaTwitterProfile"
+      "PersonaUser",
+      "PersonaTitle",
+      "CompanyITPartnerDetail"
     ],
     "subtasks": [
       {
         "step": 1,
-        "task": "Identify Twitter profiles of mining industry leaders",
+        "task": "Identify companies that have increased their IT partner count in the last 6 months.",
         "table": [
-          "PersonaTwitterProfile"
+          "CompanyITPartnerDetail"
         ]
       },
       {
         "step": 2,
-        "task": "Extract and list the follower counts for these identified profiles",
+        "task": "Filter data science leaders from the identified companies.",
         "table": [
-          "PersonaTwitterProfile"
+          "PersonaUser",
+          "PersonaTitle"
+        ]
+      },
+      {
+        "step": 3,
+        "task": "Match the leaders with their respective companies.",
+        "table": [
+          "PersonaUser",
+          "PersonaTitle"
         ]
       }
     ]
   },
   {
-    "question": "How did Rafael Jabur Bittar\u2019s posts influence discussions about sustainable practices in mining?",
+    "question": "Which companies in the financial sector signed analytics vendor deals after major leadership changes?",
     "tables": [
-      "PersonaLinkedinPost",
+      "CompanyDealMaster",
+      "CompanyVendorTechDetail",
+      "CompanyLeadershipExcerpt"
+    ],
+    "subtasks": [
+      {
+        "step": 1,
+        "task": "Identify analytics vendor deals signed by companies in the financial sector.",
+        "table": [
+          "CompanyDealMaster"
+        ]
+      },
+      {
+        "step": 2,
+        "task": "Filter these deals to find those that occurred after major leadership changes.",
+        "table": [
+          "CompanyLeadershipExcerpt"
+        ]
+      },
+      {
+        "step": 3,
+        "task": "Retrieve the details of the companies involved in these deals.",
+        "table": [
+          "CompanyVendorTechDetail"
+        ]
+      }
+    ]
+  },
+  {
+    "question": "What are the most common technologies used by companies that recently posted job openings for data engineering roles?",
+    "tables": [
+      "CompanyHiringDetail",
       "CompanyTechStack"
     ],
     "subtasks": [
       {
         "step": 1,
-        "task": "Analyze Rafael Jabur Bittar's LinkedIn posts for mentions of sustainable practices in mining",
+        "task": "Identify companies that have posted job openings for data engineering roles.",
+        "table": [
+          "CompanyHiringDetail"
+        ]
+      },
+      {
+        "step": 2,
+        "task": "Retrieve the technology stacks used by these companies.",
+        "table": [
+          "CompanyTechStack"
+        ]
+      },
+      {
+        "step": 3,
+        "task": "Analyze the technology data to find the most common technologies.",
+        "table": [
+          "CompanyTechStack"
+        ]
+      }
+    ]
+  },
+  {
+    "question": "Which personas mentioned AI or machine learning in their LinkedIn posts and are associated with companies investing in GPU infrastructure?",
+    "tables": [
+      "PersonaLinkedinPost",
+      "PersonaUser",
+      "CompanyTechStack"
+    ],
+    "subtasks": [
+      {
+        "step": 1,
+        "task": "Identify personas who mentioned AI or machine learning in their LinkedIn posts.",
         "table": [
           "PersonaLinkedinPost"
         ]
       },
       {
         "step": 2,
-        "task": "Identify how these posts relate to broader discussions or trends in the CompanyTechStack regarding sustainability",
+        "task": "Filter these personas by their association with companies investing in GPU infrastructure.",
         "table": [
+          "CompanyTechStack"
+        ]
+      },
+      {
+        "step": 3,
+        "task": "Retrieve detailed information about the filtered personas.",
+        "table": [
+          "PersonaUser"
+        ]
+      }
+    ]
+  },
+  {
+    "question": "What companies had both an increase in Twitter engagement and a shift in their focus to digital transformation this quarter?",
+    "tables": [
+      "CompanyTwitterDetail",
+      "CompanyFocusAreaDetail"
+    ],
+    "subtasks": [
+      {
+        "step": 1,
+        "task": "Identify companies that have seen an increase in Twitter engagement this quarter.",
+        "table": [
+          "CompanyTwitterDetail"
+        ]
+      },
+      {
+        "step": 2,
+        "task": "Filter these companies for those that have shifted their focus to digital transformation.",
+        "table": [
+          "CompanyFocusAreaDetail"
+        ]
+      },
+      {
+        "step": 3,
+        "task": "Compile a list of companies that meet both criteria.",
+        "table": [
+          "CompanyTwitterDetail",
+          "CompanyFocusAreaDetail"
+        ]
+      }
+    ]
+  },
+  {
+    "question": "Which vendors are supplying cybersecurity solutions to healthcare companies with a recent rise in IT hiring?",
+    "tables": [
+      "CompanyVendorTechDetail",
+      "CompanyInfo",
+      "CompanyHiringDetail"
+    ],
+    "subtasks": [
+      {
+        "step": 1,
+        "task": "Identify healthcare companies that have recently increased their IT hiring.",
+        "table": [
+          "CompanyHiringDetail"
+        ]
+      },
+      {
+        "step": 2,
+        "task": "Find vendors supplying cybersecurity solutions to these healthcare companies.",
+        "table": [
+          "CompanyVendorTechDetail"
+        ]
+      },
+      {
+        "step": 3,
+        "task": "Retrieve detailed information about the identified vendors.",
+        "table": [
+          "CompanyVendorTechDetail"
+        ]
+      }
+    ]
+  },
+  {
+    "question": "What technologies are commonly adopted by companies that recently promoted a new CTO or Head of Engineering?",
+    "tables": [
+      "CompanyManagementDetail",
+      "CompanyTechStack"
+    ],
+    "subtasks": [
+      {
+        "step": 1,
+        "task": "Identify companies that have recently promoted a new CTO or Head of Engineering.",
+        "table": [
+          "CompanyManagementDetail"
+        ]
+      },
+      {
+        "step": 2,
+        "task": "Retrieve the technology stacks used by these companies.",
+        "table": [
+          "CompanyTechStack"
+        ]
+      },
+      {
+        "step": 3,
+        "task": "Analyze the technology data to find the most commonly adopted technologies.",
+        "table": [
+          "CompanyTechStack"
+        ]
+      }
+    ]
+  },
+  {
+    "question": "Which companies published YouTube content about cloud migration and also updated their data center footprint in the last year?",
+    "tables": [
+      "CompanyYoutubeDetail",
+      "CompanyDataCenter"
+    ],
+    "subtasks": [
+      {
+        "step": 1,
+        "task": "Identify companies that published YouTube content about cloud migration.",
+        "table": [
+          "CompanyYoutubeDetail"
+        ]
+      },
+      {
+        "step": 2,
+        "task": "Filter these companies for those that updated their data center footprint in the last year.",
+        "table": [
+          "CompanyDataCenter"
+        ]
+      },
+      {
+        "step": 3,
+        "task": "Compile a list of companies that meet both criteria.",
+        "table": [
+          "CompanyYoutubeDetail",
+          "CompanyDataCenter"
+        ]
+      }
+    ]
+  },
+  {
+    "question": "Which personas with \u201cDirector of Data Science\u201d titles have engaged with competitor posts on Twitter in the last 30 days?",
+    "tables": [
+      "PersonaTwitterProfile",
+      "PersonaTitle",
+      "PersonaTwitterTweets"
+    ],
+    "subtasks": [
+      {
+        "step": 1,
+        "task": "Identify personas with the title 'Director of Data Science'.",
+        "table": [
+          "PersonaTitle"
+        ]
+      },
+      {
+        "step": 2,
+        "task": "Find Twitter engagement data for these personas in the last 30 days.",
+        "table": [
+          "PersonaTwitterProfile",
+          "PersonaTwitterTweets"
+        ]
+      },
+      {
+        "step": 3,
+        "task": "Filter for engagements specifically with competitor posts.",
+        "table": [
+          "PersonaTwitterProfile",
+          "PersonaTwitterTweets"
+        ]
+      }
+    ]
+  },
+  {
+    "question": "How have recent acquisitions influenced the technology stacks of companies in the e-commerce sector?",
+    "tables": [
+      "CompanyDealMaster",
+      "CompanyTechStack",
+      "CompanyInfo"
+    ],
+    "subtasks": [
+      {
+        "step": 1,
+        "task": "Identify recent acquisitions in the e-commerce sector.",
+        "table": [
+          "CompanyDealMaster"
+        ]
+      },
+      {
+        "step": 2,
+        "task": "Determine the technology stacks of the companies involved in these acquisitions.",
+        "table": [
+          "CompanyTechStack"
+        ]
+      },
+      {
+        "step": 3,
+        "task": "Analyze how these acquisitions have influenced technology choices.",
+        "table": [
+          "CompanyTechStack",
+          "CompanyInfo"
+        ]
+      }
+    ]
+  },
+  {
+    "question": "What leadership positions are most common in companies actively promoting sustainability strategies on social media?",
+    "tables": [
+      "CompanySocialMediaInfo",
+      "CompanyManagementDetail",
+      "CompanyLeadershipExcerpt"
+    ],
+    "subtasks": [
+      {
+        "step": 1,
+        "task": "Identify companies promoting sustainability strategies on social media.",
+        "table": [
+          "CompanySocialMediaInfo"
+        ]
+      },
+      {
+        "step": 2,
+        "task": "Retrieve leadership positions from these companies.",
+        "table": [
+          "CompanyManagementDetail"
+        ]
+      },
+      {
+        "step": 3,
+        "task": "Analyze the leadership data to find the most common positions.",
+        "table": [
+          "CompanyManagementDetail",
+          "CompanyLeadershipExcerpt"
+        ]
+      }
+    ]
+  },
+  {
+    "question": "Which organizations have made recent investments in machine learning platforms after hiring more data scientists?",
+    "tables": [
+      "CompanyHiringDetail",
+      "CompanyTechStack",
+      "CompanyInfo"
+    ],
+    "subtasks": [
+      {
+        "step": 1,
+        "task": "Identify organizations that have recently hired more data scientists.",
+        "table": [
+          "CompanyHiringDetail"
+        ]
+      },
+      {
+        "step": 2,
+        "task": "Find investments in machine learning platforms made by these organizations.",
+        "table": [
+          "CompanyTechStack"
+        ]
+      },
+      {
+        "step": 3,
+        "task": "Compile a list of organizations that meet both criteria.",
+        "table": [
+          "CompanyHiringDetail",
+          "CompanyTechStack",
+          "CompanyInfo"
+        ]
+      }
+    ]
+  },
+  {
+    "question": "What common business trends are highlighted by executives in the finance industry regarding data analytics?",
+    "tables": [
+      "IndustryBusinessTrend",
+      "CompanyLeadershipExcerpt"
+    ],
+    "subtasks": [
+      {
+        "step": 1,
+        "task": "Identify business trends highlighted by executives in the finance industry.",
+        "table": [
+          "IndustryBusinessTrend"
+        ]
+      },
+      {
+        "step": 2,
+        "task": "Retrieve leadership excerpts that discuss these trends.",
+        "table": [
+          "CompanyLeadershipExcerpt"
+        ]
+      },
+      {
+        "step": 3,
+        "task": "Analyze the excerpts to summarize common themes.",
+        "table": [
+          "IndustryBusinessTrend",
+          "CompanyLeadershipExcerpt"
+        ]
+      }
+    ]
+  },
+  {
+    "question": "Which companies are integrating more cloud services into their operations as mentioned in social media profiles?",
+    "tables": [
+      "SocialMediaInfo",
+      "CompanyTechStack"
+    ],
+    "subtasks": [
+      {
+        "step": 1,
+        "task": "Identify companies mentioned in social media profiles for integrating cloud services.",
+        "table": [
+          "SocialMediaInfo"
+        ]
+      },
+      {
+        "step": 2,
+        "task": "Retrieve the technology stacks of these companies to confirm cloud service integration.",
+        "table": [
+          "CompanyTechStack"
+        ]
+      },
+      {
+        "step": 3,
+        "task": "Compile a list of companies that are actively integrating cloud services.",
+        "table": [
+          "SocialMediaInfo",
+          "CompanyTechStack"
+        ]
+      }
+    ]
+  },
+  {
+    "question": "Who are the most active LinkedIn users discussing data privacy at firms that have recently undergone technological upgrades?",
+    "tables": [
+      "PersonaLinkedInProfile",
+      "CompanyTechStack",
+      "CompanyInfo"
+    ],
+    "subtasks": [
+      {
+        "step": 1,
+        "task": "Identify firms that have recently undergone technological upgrades.",
+        "table": [
+          "CompanyTechStack"
+        ]
+      },
+      {
+        "step": 2,
+        "task": "Find LinkedIn users discussing data privacy at these firms.",
+        "table": [
+          "PersonaLinkedInProfile"
+        ]
+      },
+      {
+        "step": 3,
+        "task": "Compile a list of the most active users discussing data privacy.",
+        "table": [
+          "PersonaLinkedInProfile",
+          "CompanyInfo"
+        ]
+      }
+    ]
+  },
+  {
+    "question": "What technology investments are being discussed by companies with high engagement on social media platforms?",
+    "tables": [
+      "CompanyTechStack",
+      "CompanySocialMediaInfo"
+    ],
+    "subtasks": [
+      {
+        "step": 1,
+        "task": "Identify companies with high engagement on social media platforms.",
+        "table": [
+          "CompanySocialMediaInfo"
+        ]
+      },
+      {
+        "step": 2,
+        "task": "Retrieve technology investment discussions from these companies.",
+        "table": [
+          "CompanyTechStack"
+        ]
+      },
+      {
+        "step": 3,
+        "task": "Analyze the technology discussions to summarize key investments.",
+        "table": [
+          "CompanyTechStack",
+          "CompanySocialMediaInfo"
+        ]
+      }
+    ]
+  },
+  {
+    "question": "Which tech vendors are frequently mentioned in the hiring posts of data science professionals?",
+    "tables": [
+      "CompanyHiringDetail",
+      "CompanyVendorProductDetail",
+      "PersonaTitle"
+    ],
+    "subtasks": [
+      {
+        "step": 1,
+        "task": "Identify hiring posts for data science professionals.",
+        "table": [
+          "CompanyHiringDetail"
+        ]
+      },
+      {
+        "step": 2,
+        "task": "Find mentions of tech vendors in these hiring posts.",
+        "table": [
+          "CompanyVendorProductDetail"
+        ]
+      },
+      {
+        "step": 3,
+        "task": "Compile a list of frequently mentioned tech vendors.",
+        "table": [
+          "CompanyVendorProductDetail",
+          "PersonaTitle"
+        ]
+      }
+    ]
+  },
+  {
+    "question": "What trends do data scientists discuss as key priorities at tech firms that have increased their workforce in the last year?",
+    "tables": [
+      "PersonaUser",
+      "CompanyHiringDetail",
+      "IndustryITTrend"
+    ],
+    "subtasks": [
+      {
+        "step": 1,
+        "task": "Identify tech firms that have increased their workforce in the last year.",
+        "table": [
+          "CompanyHiringDetail"
+        ]
+      },
+      {
+        "step": 2,
+        "task": "Find discussions by data scientists at these firms regarding key priorities.",
+        "table": [
+          "PersonaUser"
+        ]
+      },
+      {
+        "step": 3,
+        "task": "Analyze the discussions to summarize key trends.",
+        "table": [
+          "IndustryITTrend"
+        ]
+      }
+    ]
+  },
+  {
+    "question": "How do social media engagement levels correlate with recent technology adoption in companies focusing on AI?",
+    "tables": [
+      "CompanySocialMediaInfo",
+      "CompanyTechStack"
+    ],
+    "subtasks": [
+      {
+        "step": 1,
+        "task": "Identify companies focusing on AI and their recent technology adoption.",
+        "table": [
+          "CompanyTechStack"
+        ]
+      },
+      {
+        "step": 2,
+        "task": "Retrieve social media engagement levels for these companies.",
+        "table": [
+          "CompanySocialMediaInfo"
+        ]
+      },
+      {
+        "step": 3,
+        "task": "Analyze the correlation between engagement levels and technology adoption.",
+        "table": [
+          "CompanySocialMediaInfo",
+          "CompanyTechStack"
+        ]
+      }
+    ]
+  },
+  {
+    "question": "Which companies have engaged top-level data scientists who are advocating for operational efficiency in their posts?",
+    "tables": [
+      "PersonaUser",
+      "CompanyHiringDetail",
+      "PersonaLinkedinPost"
+    ],
+    "subtasks": [
+      {
+        "step": 1,
+        "task": "Identify top-level data scientists advocating for operational efficiency in their posts.",
+        "table": [
+          "PersonaLinkedinPost"
+        ]
+      },
+      {
+        "step": 2,
+        "task": "Find companies that have engaged these data scientists.",
+        "table": [
+          "CompanyHiringDetail"
+        ]
+      },
+      {
+        "step": 3,
+        "task": "Compile a list of companies that have engaged these professionals.",
+        "table": [
+          "PersonaUser",
+          "CompanyHiringDetail"
+        ]
+      }
+    ]
+  },
+  {
+    "question": "What types of cloud technologies are most favored by companies that recently signed significant deals with IT partners?",
+    "tables": [
+      "CompanyDealMaster",
+      "CompanyTechStack"
+    ],
+    "subtasks": [
+      {
+        "step": 1,
+        "task": "Identify companies that recently signed significant deals with IT partners.",
+        "table": [
+          "CompanyDealMaster"
+        ]
+      },
+      {
+        "step": 2,
+        "task": "Retrieve the technology stacks of these companies to find cloud technologies.",
+        "table": [
+          "CompanyTechStack"
+        ]
+      },
+      {
+        "step": 3,
+        "task": "Analyze the technology data to summarize the most favored cloud technologies.",
+        "table": [
+          "CompanyTechStack"
+        ]
+      }
+    ]
+  },
+  {
+    "question": "Which emerging technology trends are being discussed by leaders in healthcare companies on Twitter?",
+    "tables": [
+      "CompanyTwitterDetail",
+      "CompanyLeadershipExcerpt",
+      "IndustryITTrend"
+    ],
+    "subtasks": [
+      {
+        "step": 1,
+        "task": "Identify healthcare companies discussing emerging technology trends on Twitter.",
+        "table": [
+          "CompanyTwitterDetail"
+        ]
+      },
+      {
+        "step": 2,
+        "task": "Retrieve leadership excerpts that discuss these emerging trends.",
+        "table": [
+          "CompanyLeadershipExcerpt"
+        ]
+      },
+      {
+        "step": 3,
+        "task": "Analyze the discussions to summarize key emerging technology trends.",
+        "table": [
+          "IndustryITTrend"
+        ]
+      }
+    ]
+  },
+  {
+    "question": "How many data science job postings mentioned an interest in big data tools at companies that are investing heavily in IT?",
+    "tables": [
+      "CompanyHiringDetail",
+      "CompanyTechStack"
+    ],
+    "subtasks": [
+      {
+        "step": 1,
+        "task": "Identify data science job postings that mentioned big data tools.",
+        "table": [
+          "CompanyHiringDetail"
+        ]
+      },
+      {
+        "step": 2,
+        "task": "Filter these postings by companies investing heavily in IT.",
+        "table": [
+          "CompanyTechStack"
+        ]
+      },
+      {
+        "step": 3,
+        "task": "Count the number of relevant job postings.",
+        "table": [
+          "CompanyHiringDetail"
+        ]
+      }
+    ]
+  },
+  {
+    "question": "What insights from industry business trends influence the strategic focus areas of data-centric companies?",
+    "tables": [
+      "IndustryBusinessTrend",
+      "CompanyFocusAreaDetail"
+    ],
+    "subtasks": [
+      {
+        "step": 1,
+        "task": "Identify industry business trends relevant to data-centric companies.",
+        "table": [
+          "IndustryBusinessTrend"
+        ]
+      },
+      {
+        "step": 2,
+        "task": "Retrieve focus areas of data-centric companies.",
+        "table": [
+          "CompanyFocusAreaDetail"
+        ]
+      },
+      {
+        "step": 3,
+        "task": "Analyze the insights to determine influences on strategic focus areas.",
+        "table": [
+          "IndustryBusinessTrend",
+          "CompanyFocusAreaDetail"
+        ]
+      }
+    ]
+  },
+  {
+    "question": "Which companies that have shown an increase in hiring recently made changes to their data centers?",
+    "tables": [
+      "CompanyHiringDetail",
+      "CompanyDataCenter"
+    ],
+    "subtasks": [
+      {
+        "step": 1,
+        "task": "Identify companies that have recently increased their hiring.",
+        "table": [
+          "CompanyHiringDetail"
+        ]
+      },
+      {
+        "step": 2,
+        "task": "Find companies that made changes to their data centers.",
+        "table": [
+          "CompanyDataCenter"
+        ]
+      },
+      {
+        "step": 3,
+        "task": "Compile a list of companies that meet both criteria.",
+        "table": [
+          "CompanyHiringDetail",
+          "CompanyDataCenter"
+        ]
+      }
+    ]
+  },
+  {
+    "question": "What are the most common technologies used by companies experiencing significant growth in data science roles?",
+    "tables": [
+      "CompanyHiringDetail",
+      "CompanyTechStack"
+    ],
+    "subtasks": [
+      {
+        "step": 1,
+        "task": "Identify companies experiencing significant growth in data science roles.",
+        "table": [
+          "CompanyHiringDetail"
+        ]
+      },
+      {
+        "step": 2,
+        "task": "Retrieve the technology stacks used by these companies.",
+        "table": [
+          "CompanyTechStack"
+        ]
+      },
+      {
+        "step": 3,
+        "task": "Analyze the technology data to find the most common technologies.",
+        "table": [
+          "CompanyTechStack"
+        ]
+      }
+    ]
+  },
+  {
+    "question": "How do leadership perspectives on technology investments change in response to social media trends?",
+    "tables": [
+      "CompanyLeadershipExcerpt",
+      "CompanySocialMediaInfo"
+    ],
+    "subtasks": [
+      {
+        "step": 1,
+        "task": "Identify leadership perspectives on technology investments.",
+        "table": [
+          "CompanyLeadershipExcerpt"
+        ]
+      },
+      {
+        "step": 2,
+        "task": "Analyze social media trends related to technology investments.",
+        "table": [
+          "CompanySocialMediaInfo"
+        ]
+      },
+      {
+        "step": 3,
+        "task": "Correlate leadership perspectives with social media trends.",
+        "table": [
+          "CompanyLeadershipExcerpt",
+          "CompanySocialMediaInfo"
+        ]
+      }
+    ]
+  },
+  {
+    "question": "Which data specialists have shared case studies on LinkedIn about their firms' recent vendor partnerships?",
+    "tables": [
+      "PersonaLinkedinPost",
+      "CompanyDealMaster",
+      "PersonaUser"
+    ],
+    "subtasks": [
+      {
+        "step": 1,
+        "task": "Identify case studies shared on LinkedIn by data specialists.",
+        "table": [
+          "PersonaLinkedinPost"
+        ]
+      },
+      {
+        "step": 2,
+        "task": "Find vendor partnerships related to these case studies.",
+        "table": [
+          "CompanyDealMaster"
+        ]
+      },
+      {
+        "step": 3,
+        "task": "Compile a list of data specialists who shared these case studies.",
+        "table": [
+          "PersonaUser"
+        ]
+      }
+    ]
+  },
+  {
+    "question": "What common job roles are found in companies that are investing in advanced analytics solutions?",
+    "tables": [
+      "CompanyHiringDetail",
+      "CompanyTechStack"
+    ],
+    "subtasks": [
+      {
+        "step": 1,
+        "task": "Identify companies investing in advanced analytics solutions.",
+        "table": [
+          "CompanyTechStack"
+        ]
+      },
+      {
+        "step": 2,
+        "task": "Retrieve job roles from hiring details of these companies.",
+        "table": [
+          "CompanyHiringDetail"
+        ]
+      },
+      {
+        "step": 3,
+        "task": "Analyze the job roles to find common positions.",
+        "table": [
+          "CompanyHiringDetail"
+        ]
+      }
+    ]
+  },
+  {
+    "question": "Which industries have seen their data science hiring influenced by recent technological advancements?",
+    "tables": [
+      "CompanyHiringDetail",
+      "IndustryITTrend"
+    ],
+    "subtasks": [
+      {
+        "step": 1,
+        "task": "Identify industries experiencing technological advancements.",
+        "table": [
+          "IndustryITTrend"
+        ]
+      },
+      {
+        "step": 2,
+        "task": "Analyze data science hiring trends in these industries.",
+        "table": [
+          "CompanyHiringDetail"
+        ]
+      },
+      {
+        "step": 3,
+        "task": "Compile a list of industries where hiring has been influenced.",
+        "table": [
+          "CompanyHiringDetail",
+          "IndustryITTrend"
+        ]
+      }
+    ]
+  },
+  {
+    "question": "How do companies discussing digital transformation on social media approach their tech stack choices?",
+    "tables": [
+      "CompanySocialMediaInfo",
+      "CompanyTechStack"
+    ],
+    "subtasks": [
+      {
+        "step": 1,
+        "task": "Identify companies discussing digital transformation on social media.",
+        "table": [
+          "CompanySocialMediaInfo"
+        ]
+      },
+      {
+        "step": 2,
+        "task": "Retrieve technology stacks of these companies.",
+        "table": [
+          "CompanyTechStack"
+        ]
+      },
+      {
+        "step": 3,
+        "task": "Analyze the tech stack choices in relation to their digital transformation discussions.",
+        "table": [
+          "CompanySocialMediaInfo",
+          "CompanyTechStack"
+        ]
+      }
+    ]
+  },
+  {
+    "question": "What types of leadership insights emerge from companies that have partnered with vendors for technology adoption?",
+    "tables": [
+      "CompanyVendorTechDetail",
+      "CompanyLeadershipExcerpt"
+    ],
+    "subtasks": [
+      {
+        "step": 1,
+        "task": "Identify companies that have partnered with vendors for technology adoption.",
+        "table": [
+          "CompanyVendorTechDetail"
+        ]
+      },
+      {
+        "step": 2,
+        "task": "Retrieve leadership insights from these companies.",
+        "table": [
+          "CompanyLeadershipExcerpt"
+        ]
+      },
+      {
+        "step": 3,
+        "task": "Analyze the insights to summarize common themes.",
+        "table": [
+          "CompanyLeadershipExcerpt"
+        ]
+      }
+    ]
+  },
+  {
+    "question": "Which firms are leading the conversation on innovative data science projects in their LinkedIn profiles?",
+    "tables": [
+      "PersonaLinkedinProfile",
+      "CompanyInfo"
+    ],
+    "subtasks": [
+      {
+        "step": 1,
+        "task": "Identify firms with innovative data science projects discussed on LinkedIn.",
+        "table": [
+          "PersonaLinkedinProfile"
+        ]
+      },
+      {
+        "step": 2,
+        "task": "Retrieve detailed information about these firms.",
+        "table": [
+          "CompanyInfo"
+        ]
+      },
+      {
+        "step": 3,
+        "task": "Compile a list of leading firms in this conversation.",
+        "table": [
+          "PersonaLinkedinProfile",
+          "CompanyInfo"
+        ]
+      }
+    ]
+  },
+  {
+    "question": "How do recent changes in a company's IT workforce affect their technology investment strategies?",
+    "tables": [
+      "CompanyHiringDetail",
+      "CompanyTechStack"
+    ],
+    "subtasks": [
+      {
+        "step": 1,
+        "task": "Identify companies that have recently changed their IT workforce.",
+        "table": [
+          "CompanyHiringDetail"
+        ]
+      },
+      {
+        "step": 2,
+        "task": "Retrieve technology investment strategies of these companies.",
+        "table": [
+          "CompanyTechStack"
+        ]
+      },
+      {
+        "step": 3,
+        "task": "Analyze the impact of workforce changes on technology investments.",
+        "table": [
+          "CompanyHiringDetail",
+          "CompanyTechStack"
+        ]
+      }
+    ]
+  },
+  {
+    "question": "Which technologies are highlighted by data engineering leaders when discussing industry benchmarks?",
+    "tables": [
+      "PersonaUser",
+      "IndustryITTrend",
+      "CompanyTechStack"
+    ],
+    "subtasks": [
+      {
+        "step": 1,
+        "task": "Identify data engineering leaders discussing industry benchmarks.",
+        "table": [
+          "PersonaUser"
+        ]
+      },
+      {
+        "step": 2,
+        "task": "Retrieve technology mentions from these discussions.",
+        "table": [
+          "CompanyTechStack"
+        ]
+      },
+      {
+        "step": 3,
+        "task": "Analyze the technology mentions to summarize key highlights.",
+        "table": [
+          "IndustryITTrend"
+        ]
+      }
+    ]
+  },
+  {
+    "question": "What social media platforms are most used by companies to showcase their hiring needs in data science?",
+    "tables": [
+      "CompanySocialMediaInfo",
+      "CompanyHiringDetail"
+    ],
+    "subtasks": [
+      {
+        "step": 1,
+        "task": "Identify companies showcasing their hiring needs in data science.",
+        "table": [
+          "CompanyHiringDetail"
+        ]
+      },
+      {
+        "step": 2,
+        "task": "Retrieve social media platforms used by these companies.",
+        "table": [
+          "CompanySocialMediaInfo"
+        ]
+      },
+      {
+        "step": 3,
+        "task": "Analyze the platforms to find the most commonly used ones.",
+        "table": [
+          "CompanySocialMediaInfo"
+        ]
+      }
+    ]
+  },
+  {
+    "question": "Which executives are most frequently mentioning cloud computing in their public statements?",
+    "tables": [
+      "CompanyLeadershipExcerpt",
+      "CompanyTechStack"
+    ],
+    "subtasks": [
+      {
+        "step": 1,
+        "task": "Identify executives making public statements about cloud computing.",
+        "table": [
+          "CompanyLeadershipExcerpt"
+        ]
+      },
+      {
+        "step": 2,
+        "task": "Retrieve technology stacks of these executives' companies.",
+        "table": [
+          "CompanyTechStack"
+        ]
+      },
+      {
+        "step": 3,
+        "task": "Compile a list of frequently mentioning executives.",
+        "table": [
+          "CompanyLeadershipExcerpt"
+        ]
+      }
+    ]
+  },
+  {
+    "question": "How does the response to business trends in data analytics affect the technology strategies of companies?",
+    "tables": [
+      "IndustryBusinessTrend",
+      "CompanyTechStack"
+    ],
+    "subtasks": [
+      {
+        "step": 1,
+        "task": "Identify business trends in data analytics.",
+        "table": [
+          "IndustryBusinessTrend"
+        ]
+      },
+      {
+        "step": 2,
+        "task": "Retrieve technology strategies of companies responding to these trends.",
+        "table": [
+          "CompanyTechStack"
+        ]
+      },
+      {
+        "step": 3,
+        "task": "Analyze the relationship between business trends and technology strategies.",
+        "table": [
+          "IndustryBusinessTrend",
+          "CompanyTechStack"
+        ]
+      }
+    ]
+  },
+  {
+    "question": "Which companies have launched initiatives in AI after significant discussions in their leadership teams?",
+    "tables": [
+      "CompanyLeadershipExcerpt",
+      "CompanyFocusAreaDetail"
+    ],
+    "subtasks": [
+      {
+        "step": 1,
+        "task": "Identify companies that have had significant discussions about AI in their leadership teams.",
+        "table": [
+          "CompanyLeadershipExcerpt"
+        ]
+      },
+      {
+        "step": 2,
+        "task": "Find initiatives launched in AI by these companies.",
+        "table": [
+          "CompanyFocusAreaDetail"
+        ]
+      },
+      {
+        "step": 3,
+        "task": "Compile a list of companies that have launched AI initiatives.",
+        "table": [
+          "CompanyLeadershipExcerpt",
+          "CompanyFocusAreaDetail"
+        ]
+      }
+    ]
+  },
+  {
+    "question": "What is the relationship between job postings for data scientists and the overall tech stack of companies?",
+    "tables": [
+      "CompanyHiringDetail",
+      "CompanyTechStack"
+    ],
+    "subtasks": [
+      {
+        "step": 1,
+        "task": "Identify job postings for data scientists.",
+        "table": [
+          "CompanyHiringDetail"
+        ]
+      },
+      {
+        "step": 2,
+        "task": "Retrieve the overall tech stack of companies posting these jobs.",
+        "table": [
+          "CompanyTechStack"
+        ]
+      },
+      {
+        "step": 3,
+        "task": "Analyze the relationship between job postings and tech stacks.",
+        "table": [
+          "CompanyHiringDetail",
+          "CompanyTechStack"
+        ]
+      }
+    ]
+  },
+  {
+    "question": "Which vendors are being discussed by data scientists as potential partners for machine learning projects?",
+    "tables": [
+      "CompanyVendorProductDetail",
+      "PersonaUser"
+    ],
+    "subtasks": [
+      {
+        "step": 1,
+        "task": "Identify discussions by data scientists regarding potential partners for machine learning projects.",
+        "table": [
+          "PersonaUser"
+        ]
+      },
+      {
+        "step": 2,
+        "task": "Find vendors mentioned in these discussions.",
+        "table": [
+          "CompanyVendorProductDetail"
+        ]
+      },
+      {
+        "step": 3,
+        "task": "Compile a list of frequently discussed vendors.",
+        "table": [
+          "CompanyVendorProductDetail"
+        ]
+      }
+    ]
+  },
+  {
+    "question": "What insights can be drawn from industry trends regarding technology adoption in companies with notable social media visibility?",
+    "tables": [
+      "IndustryITTrend",
+      "CompanySocialMediaInfo"
+    ],
+    "subtasks": [
+      {
+        "step": 1,
+        "task": "Identify industry trends regarding technology adoption.",
+        "table": [
+          "IndustryITTrend"
+        ]
+      },
+      {
+        "step": 2,
+        "task": "Retrieve social media visibility metrics for companies in these industries.",
+        "table": [
+          "CompanySocialMediaInfo"
+        ]
+      },
+      {
+        "step": 3,
+        "task": "Analyze the insights to summarize technology adoption trends.",
+        "table": [
+          "IndustryITTrend",
+          "CompanySocialMediaInfo"
+        ]
+      }
+    ]
+  },
+  {
+    "question": "How do changes in leadership affect technology decision-making in organizations pursuing digital transformation?",
+    "tables": [
+      "CompanyLeadershipExcerpt",
+      "CompanyTechStack"
+    ],
+    "subtasks": [
+      {
+        "step": 1,
+        "task": "Identify changes in leadership within organizations pursuing digital transformation.",
+        "table": [
+          "CompanyLeadershipExcerpt"
+        ]
+      },
+      {
+        "step": 2,
+        "task": "Retrieve technology decision-making processes in these organizations.",
+        "table": [
+          "CompanyTechStack"
+        ]
+      },
+      {
+        "step": 3,
+        "task": "Analyze the impact of leadership changes on technology decisions.",
+        "table": [
+          "CompanyLeadershipExcerpt",
+          "CompanyTechStack"
+        ]
+      }
+    ]
+  },
+  {
+    "question": "Which data-driven companies are frequently posting about their machine learning initiatives on Twitter?",
+    "tables": [
+      "CompanyTwitterDetail",
+      "CompanyTechStack"
+    ],
+    "subtasks": [
+      {
+        "step": 1,
+        "task": "Identify data-driven companies posting about machine learning initiatives on Twitter.",
+        "table": [
+          "CompanyTwitterDetail"
+        ]
+      },
+      {
+        "step": 2,
+        "task": "Retrieve technology stacks of these companies to confirm their data-driven nature.",
+        "table": [
+          "CompanyTechStack"
+        ]
+      },
+      {
+        "step": 3,
+        "task": "Compile a list of frequently posting companies.",
+        "table": [
+          "CompanyTwitterDetail",
+          "CompanyTechStack"
+        ]
+      }
+    ]
+  },
+  {
+    "question": "What common focus areas emerge in the LinkedIn conversations by data science professionals at leading tech firms?",
+    "tables": [
+      "PersonaLinkedinPost",
+      "CompanyFocusAreaDetail"
+    ],
+    "subtasks": [
+      {
+        "step": 1,
+        "task": "Identify LinkedIn conversations by data science professionals at leading tech firms.",
+        "table": [
+          "PersonaLinkedinPost"
+        ]
+      },
+      {
+        "step": 2,
+        "task": "Retrieve focus areas discussed in these conversations.",
+        "table": [
+          "CompanyFocusAreaDetail"
+        ]
+      },
+      {
+        "step": 3,
+        "task": "Analyze the focus areas to summarize common themes.",
+        "table": [
+          "PersonaLinkedinPost",
+          "CompanyFocusAreaDetail"
+        ]
+      }
+    ]
+  },
+  {
+    "question": "How are recent vendor partnerships influencing the technology stacks of firms in the healthcare sector?",
+    "tables": [
+      "CompanyVendorTechDetail",
+      "CompanyTechStack"
+    ],
+    "subtasks": [
+      {
+        "step": 1,
+        "task": "Identify vendor partnerships in the healthcare sector.",
+        "table": [
+          "CompanyVendorTechDetail"
+        ]
+      },
+      {
+        "step": 2,
+        "task": "Retrieve technology stacks of firms involved in these partnerships.",
+        "table": [
+          "CompanyTechStack"
+        ]
+      },
+      {
+        "step": 3,
+        "task": "Analyze the influence of these partnerships on technology stacks.",
+        "table": [
+          "CompanyVendorTechDetail",
+          "CompanyTechStack"
+        ]
+      }
+    ]
+  },
+  {
+    "question": "Who are the top executives discussing data analysis trends and their implications for future technology investments?",
+    "tables": [
+      "CompanyLeadershipExcerpt",
+      "IndustryITTrend"
+    ],
+    "subtasks": [
+      {
+        "step": 1,
+        "task": "Identify executives discussing data analysis trends.",
+        "table": [
+          "CompanyLeadershipExcerpt"
+        ]
+      },
+      {
+        "step": 2,
+        "task": "Retrieve insights on the implications of these trends for technology investments.",
+        "table": [
+          "IndustryITTrend"
+        ]
+      },
+      {
+        "step": 3,
+        "task": "Compile a list of top executives and their insights.",
+        "table": [
+          "CompanyLeadershipExcerpt"
+        ]
+      }
+    ]
+  },
+  {
+    "question": "Which companies are using social media to announce strategic shifts in their focus toward data-driven technologies?",
+    "tables": [
+      "CompanySocialMediaInfo",
+      "CompanyFocusAreaDetail"
+    ],
+    "subtasks": [
+      {
+        "step": 1,
+        "task": "Identify companies announcing strategic shifts on social media.",
+        "table": [
+          "CompanySocialMediaInfo"
+        ]
+      },
+      {
+        "step": 2,
+        "task": "Retrieve focus areas related to data-driven technologies.",
+        "table": [
+          "CompanyFocusAreaDetail"
+        ]
+      },
+      {
+        "step": 3,
+        "task": "Compile a list of companies making these announcements.",
+        "table": [
+          "CompanySocialMediaInfo",
+          "CompanyFocusAreaDetail"
+        ]
+      }
+    ]
+  },
+  {
+    "question": "What technologies are highlighted in LinkedIn posts by hiring managers of data-focused companies?",
+    "tables": [
+      "CompanyHiringDetail",
+      "PersonaLinkedinPost"
+    ],
+    "subtasks": [
+      {
+        "step": 1,
+        "task": "Identify LinkedIn posts by hiring managers of data-focused companies.",
+        "table": [
+          "PersonaLinkedinPost"
+        ]
+      },
+      {
+        "step": 2,
+        "task": "Retrieve technology mentions from these posts.",
+        "table": [
+          "CompanyHiringDetail"
+        ]
+      },
+      {
+        "step": 3,
+        "task": "Analyze the technology mentions to summarize key highlights.",
+        "table": [
+          "CompanyHiringDetail",
+          "PersonaLinkedinPost"
+        ]
+      }
+    ]
+  },
+  {
+    "question": "How do industry-specific technology adoption rates influence the hiring trends in data science roles?",
+    "tables": [
+      "IndustryITTrend",
+      "CompanyHiringDetail"
+    ],
+    "subtasks": [
+      {
+        "step": 1,
+        "task": "Identify technology adoption rates in specific industries.",
+        "table": [
+          "IndustryITTrend"
+        ]
+      },
+      {
+        "step": 2,
+        "task": "Analyze hiring trends in data science roles within these industries.",
+        "table": [
+          "CompanyHiringDetail"
+        ]
+      },
+      {
+        "step": 3,
+        "task": "Correlate technology adoption rates with hiring trends.",
+        "table": [
+          "IndustryITTrend",
+          "CompanyHiringDetail"
+        ]
+      }
+    ]
+  },
+  {
+    "question": "Which leaders focus on integrating innovative technologies in their company's strategic plans as indicated by leadership excerpts?",
+    "tables": [
+      "CompanyLeadershipExcerpt",
+      "CompanyFocusAreaDetail"
+    ],
+    "subtasks": [
+      {
+        "step": 1,
+        "task": "Identify leadership excerpts focusing on innovative technologies.",
+        "table": [
+          "CompanyLeadershipExcerpt"
+        ]
+      },
+      {
+        "step": 2,
+        "task": "Retrieve strategic plans related to these technologies.",
+        "table": [
+          "CompanyFocusAreaDetail"
+        ]
+      },
+      {
+        "step": 3,
+        "task": "Compile a list of leaders focusing on these integrations.",
+        "table": [
+          "CompanyLeadershipExcerpt",
+          "CompanyFocusAreaDetail"
+        ]
+      }
+    ]
+  },
+  {
+    "question": "How do recent leadership changes affect the social media engagement strategies of tech firms?",
+    "tables": [
+      "CompanyLeadershipExcerpt",
+      "CompanySocialMediaInfo"
+    ],
+    "subtasks": [
+      {
+        "step": 1,
+        "task": "Identify recent leadership changes in tech firms.",
+        "table": [
+          "CompanyLeadershipExcerpt"
+        ]
+      },
+      {
+        "step": 2,
+        "task": "Retrieve social media engagement strategies of these firms.",
+        "table": [
+          "CompanySocialMediaInfo"
+        ]
+      },
+      {
+        "step": 3,
+        "task": "Analyze the impact of leadership changes on engagement strategies.",
+        "table": [
+          "CompanyLeadershipExcerpt",
+          "CompanySocialMediaInfo"
+        ]
+      }
+    ]
+  },
+  {
+    "question": "What social media trends correlate with technology investments made by organizations focusing on AI?",
+    "tables": [
+      "CompanySocialMediaInfo",
+      "CompanyTechStack"
+    ],
+    "subtasks": [
+      {
+        "step": 1,
+        "task": "Identify social media trends related to AI.",
+        "table": [
+          "CompanySocialMediaInfo"
+        ]
+      },
+      {
+        "step": 2,
+        "task": "Retrieve technology investments made by organizations focusing on AI.",
+        "table": [
+          "CompanyTechStack"
+        ]
+      },
+      {
+        "step": 3,
+        "task": "Analyze the correlation between social media trends and technology investments.",
+        "table": [
+          "CompanySocialMediaInfo",
+          "CompanyTechStack"
+        ]
+      }
+    ]
+  },
+  {
+    "question": "Which companies involved in data analysis are being publicly endorsed by vendors on social platforms?",
+    "tables": [
+      "CompanyVendorProductDetail",
+      "CompanySocialMediaInfo"
+    ],
+    "subtasks": [
+      {
+        "step": 1,
+        "task": "Identify companies involved in data analysis.",
+        "table": [
+          "CompanyVendorProductDetail"
+        ]
+      },
+      {
+        "step": 2,
+        "task": "Retrieve endorsements from vendors on social platforms.",
+        "table": [
+          "CompanySocialMediaInfo"
+        ]
+      },
+      {
+        "step": 3,
+        "task": "Compile a list of companies being publicly endorsed.",
+        "table": [
+          "CompanyVendorProductDetail",
+          "CompanySocialMediaInfo"
+        ]
+      }
+    ]
+  },
+  {
+    "question": "What insights from data science professionals highlight the importance of technology partnerships in their roles?",
+    "tables": [
+      "PersonaUser",
+      "CompanyITPartnerDetail"
+    ],
+    "subtasks": [
+      {
+        "step": 1,
+        "task": "Identify insights shared by data science professionals regarding technology partnerships.",
+        "table": [
+          "PersonaUser"
+        ]
+      },
+      {
+        "step": 2,
+        "task": "Retrieve details about technology partnerships relevant to these insights.",
+        "table": [
+          "CompanyITPartnerDetail"
+        ]
+      },
+      {
+        "step": 3,
+        "task": "Compile a summary of insights highlighting the importance of these partnerships.",
+        "table": [
+          "PersonaUser",
+          "CompanyITPartnerDetail"
+        ]
+      }
+    ]
+  },
+  {
+    "question": "How do shifts in data science hiring trends influence competitive positioning among technology firms?",
+    "tables": [
+      "CompanyHiringDetail",
+      "CompanyDealMaster"
+    ],
+    "subtasks": [
+      {
+        "step": 1,
+        "task": "Identify shifts in data science hiring trends.",
+        "table": [
+          "CompanyHiringDetail"
+        ]
+      },
+      {
+        "step": 2,
+        "task": "Analyze competitive positioning among technology firms in relation to these shifts.",
+        "table": [
+          "CompanyDealMaster"
+        ]
+      },
+      {
+        "step": 3,
+        "task": "Compile a summary of how hiring trends influence competitive positioning.",
+        "table": [
+          "CompanyHiringDetail",
+          "CompanyDealMaster"
+        ]
+      }
+    ]
+  },
+  {
+    "question": "Which platforms are preferred by firms for promoting their advancing technologies and updates?",
+    "tables": [
+      "CompanySocialMediaInfo",
+      "CompanyTechStack"
+    ],
+    "subtasks": [
+      {
+        "step": 1,
+        "task": "Identify firms promoting their technologies and updates.",
+        "table": [
+          "CompanySocialMediaInfo"
+        ]
+      },
+      {
+        "step": 2,
+        "task": "Retrieve technology stacks of these firms to confirm their advancing technologies.",
+        "table": [
+          "CompanyTechStack"
+        ]
+      },
+      {
+        "step": 3,
+        "task": "Compile a list of preferred platforms used by these firms.",
+        "table": [
+          "CompanySocialMediaInfo",
+          "CompanyTechStack"
+        ]
+      }
+    ]
+  },
+  {
+    "question": "How do data-oriented companies highlight their competitive advantage in technology via social media interactions?",
+    "tables": [
+      "CompanySocialMediaInfo",
+      "CompanyTechStack"
+    ],
+    "subtasks": [
+      {
+        "step": 1,
+        "task": "Identify data-oriented companies highlighting their competitive advantages on social media.",
+        "table": [
+          "CompanySocialMediaInfo"
+        ]
+      },
+      {
+        "step": 2,
+        "task": "Retrieve technology stacks of these companies to understand their advantages.",
+        "table": [
+          "CompanyTechStack"
+        ]
+      },
+      {
+        "step": 3,
+        "task": "Analyze social media interactions to summarize how they highlight their advantages.",
+        "table": [
+          "CompanySocialMediaInfo",
+          "CompanyTechStack"
+        ]
+      }
+    ]
+  },
+  {
+    "question": "What leadership insights come from organizations that successfully merged data science with business strategy?",
+    "tables": [
+      "CompanyLeadershipExcerpt",
+      "CompanyFocusAreaDetail"
+    ],
+    "subtasks": [
+      {
+        "step": 1,
+        "task": "Identify organizations that have successfully merged data science with business strategy.",
+        "table": [
+          "CompanyLeadershipExcerpt"
+        ]
+      },
+      {
+        "step": 2,
+        "task": "Retrieve focus areas related to this merger.",
+        "table": [
+          "CompanyFocusAreaDetail"
+        ]
+      },
+      {
+        "step": 3,
+        "task": "Compile a summary of leadership insights from these organizations.",
+        "table": [
+          "CompanyLeadershipExcerpt",
+          "CompanyFocusAreaDetail"
+        ]
+      }
+    ]
+  },
+  {
+    "question": "Which data technologies are frequently cited in social media by firms emphasizing their innovation in analytics?",
+    "tables": [
+      "CompanySocialMediaInfo",
+      "CompanyTechStack"
+    ],
+    "subtasks": [
+      {
+        "step": 1,
+        "task": "Identify firms emphasizing their innovation in analytics on social media.",
+        "table": [
+          "CompanySocialMediaInfo"
+        ]
+      },
+      {
+        "step": 2,
+        "task": "Retrieve technology mentions from these firms.",
+        "table": [
+          "CompanyTechStack"
+        ]
+      },
+      {
+        "step": 3,
+        "task": "Analyze the technology mentions to summarize frequently cited data technologies.",
+        "table": [
+          "CompanySocialMediaInfo",
+          "CompanyTechStack"
+        ]
+      }
+    ]
+  },
+  {
+    "question": "What types of hiring signals from data-driven companies might indicate an impending shift towards cloud-based solutions?",
+    "tables": [
+      "CompanyHiringDetail",
+      "CompanyTechStack"
+    ],
+    "subtasks": [
+      {
+        "step": 1,
+        "task": "Identify hiring signals from data-driven companies.",
+        "table": [
+          "CompanyHiringDetail"
+        ]
+      },
+      {
+        "step": 2,
+        "task": "Retrieve technology stacks to identify cloud-based solutions.",
+        "table": [
+          "CompanyTechStack"
+        ]
+      },
+      {
+        "step": 3,
+        "task": "Analyze the signals to determine potential shifts towards cloud solutions.",
+        "table": [
+          "CompanyHiringDetail",
+          "CompanyTechStack"
+        ]
+      }
+    ]
+  },
+  {
+    "question": "How do social media posts by executives reflect a company's commitment to integrating data ethics into their strategy?",
+    "tables": [
+      "CompanySocialMediaInfo",
+      "CompanyLeadershipExcerpt"
+    ],
+    "subtasks": [
+      {
+        "step": 1,
+        "task": "Identify social media posts by executives discussing data ethics.",
+        "table": [
+          "CompanySocialMediaInfo"
+        ]
+      },
+      {
+        "step": 2,
+        "task": "Retrieve leadership excerpts that reflect the company's strategy on data ethics.",
+        "table": [
+          "CompanyLeadershipExcerpt"
+        ]
+      },
+      {
+        "step": 3,
+        "task": "Analyze the posts and excerpts to summarize the company's commitment.",
+        "table": [
+          "CompanySocialMediaInfo",
+          "CompanyLeadershipExcerpt"
+        ]
+      }
+    ]
+  },
+  {
+    "question": "Which industries are most proactive in discussing their data science hiring initiatives on LinkedIn?",
+    "tables": [
+      "CompanyHiringDetail",
+      "IndustryITTrend"
+    ],
+    "subtasks": [
+      {
+        "step": 1,
+        "task": "Identify industries with notable data science hiring initiatives.",
+        "table": [
+          "IndustryITTrend"
+        ]
+      },
+      {
+        "step": 2,
+        "task": "Retrieve hiring details from these industries.",
+        "table": [
+          "CompanyHiringDetail"
+        ]
+      },
+      {
+        "step": 3,
+        "task": "Compile a list of proactive industries discussing their initiatives.",
+        "table": [
+          "CompanyHiringDetail",
+          "IndustryITTrend"
+        ]
+      }
+    ]
+  },
+  {
+    "question": "What comments do data scientists make on social media regarding vendor contributions to tech initiatives?",
+    "tables": [
+      "PersonaUser",
+      "CompanyVendorProductDetail"
+    ],
+    "subtasks": [
+      {
+        "step": 1,
+        "task": "Identify comments made by data scientists on social media.",
+        "table": [
+          "PersonaUser"
+        ]
+      },
+      {
+        "step": 2,
+        "task": "Retrieve vendor contributions mentioned in these comments.",
+        "table": [
+          "CompanyVendorProductDetail"
+        ]
+      },
+      {
+        "step": 3,
+        "task": "Compile a summary of comments regarding vendor contributions.",
+        "table": [
+          "PersonaUser",
+          "CompanyVendorProductDetail"
+        ]
+      }
+    ]
+  },
+  {
+    "question": "How often are emerging technology trends in data analytics reflected in executive discussions within companies?",
+    "tables": [
+      "CompanyLeadershipExcerpt",
+      "IndustryITTrend"
+    ],
+    "subtasks": [
+      {
+        "step": 1,
+        "task": "Identify emerging technology trends in data analytics.",
+        "table": [
+          "IndustryITTrend"
+        ]
+      },
+      {
+        "step": 2,
+        "task": "Retrieve executive discussions that reflect these trends.",
+        "table": [
+          "CompanyLeadershipExcerpt"
+        ]
+      },
+      {
+        "step": 3,
+        "task": "Analyze the frequency of these trends in executive discussions.",
+        "table": [
+          "CompanyLeadershipExcerpt",
+          "IndustryITTrend"
+        ]
+      }
+    ]
+  },
+  {
+    "question": "What potential collaborations are highlighted by firms pursuing significant technology investments focused on data?",
+    "tables": [
+      "CompanyDealMaster",
+      "CompanyITPartnerDetail"
+    ],
+    "subtasks": [
+      {
+        "step": 1,
+        "task": "Identify firms pursuing significant technology investments focused on data.",
+        "table": [
+          "CompanyDealMaster"
+        ]
+      },
+      {
+        "step": 2,
+        "task": "Retrieve potential collaborations related to these investments.",
+        "table": [
+          "CompanyITPartnerDetail"
+        ]
+      },
+      {
+        "step": 3,
+        "task": "Compile a summary of potential collaborations highlighted by these firms.",
+        "table": [
+          "CompanyDealMaster",
+          "CompanyITPartnerDetail"
+        ]
+      }
+    ]
+  },
+  {
+    "question": "How does the changing landscape of technology adoption affect the hiring strategies for data science roles at tech companies?",
+    "tables": [
+      "CompanyHiringDetail",
+      "CompanyTechStack"
+    ],
+    "subtasks": [
+      {
+        "step": 1,
+        "task": "Identify changes in technology adoption within tech companies.",
+        "table": [
+          "CompanyTechStack"
+        ]
+      },
+      {
+        "step": 2,
+        "task": "Retrieve hiring strategies for data science roles at these companies.",
+        "table": [
+          "CompanyHiringDetail"
+        ]
+      },
+      {
+        "step": 3,
+        "task": "Analyze the impact of technology adoption on hiring strategies.",
+        "table": [
+          "CompanyHiringDetail",
+          "CompanyTechStack"
+        ]
+      }
+    ]
+  },
+  {
+    "question": "Which personnel titles are engaged in discussions about the significance of vendor partnerships for data-driven projects?",
+    "tables": [
+      "PersonaTitle",
+      "CompanyVendorProductDetail"
+    ],
+    "subtasks": [
+      {
+        "step": 1,
+        "task": "Identify personnel titles discussing vendor partnerships for data-driven projects.",
+        "table": [
+          "PersonaTitle"
+        ]
+      },
+      {
+        "step": 2,
+        "task": "Retrieve details about these vendor partnerships.",
+        "table": [
+          "CompanyVendorProductDetail"
+        ]
+      },
+      {
+        "step": 3,
+        "task": "Compile a list of personnel titles engaged in these discussions.",
+        "table": [
+          "PersonaTitle",
+          "CompanyVendorProductDetail"
+        ]
+      }
+    ]
+  },
+  {
+    "question": "How does reflecting on past technology investments influence future hiring patterns in data-centric companies?",
+    "tables": [
+      "CompanyHiringDetail",
+      "CompanyTechStack"
+    ],
+    "subtasks": [
+      {
+        "step": 1,
+        "task": "Identify past technology investments in data-centric companies.",
+        "table": [
+          "CompanyTechStack"
+        ]
+      },
+      {
+        "step": 2,
+        "task": "Retrieve hiring patterns in these companies.",
+        "table": [
+          "CompanyHiringDetail"
+        ]
+      },
+      {
+        "step": 3,
+        "task": "Analyze the influence of past investments on future hiring patterns.",
+        "table": [
+          "CompanyHiringDetail",
+          "CompanyTechStack"
+        ]
+      }
+    ]
+  },
+  {
+    "question": "What technology-related conversations are prevalent among executives managing firms with substantial social media engagement?",
+    "tables": [
+      "CompanySocialMediaInfo",
+      "CompanyLeadershipExcerpt"
+    ],
+    "subtasks": [
+      {
+        "step": 1,
+        "task": "Identify executives managing firms with substantial social media engagement.",
+        "table": [
+          "CompanySocialMediaInfo"
+        ]
+      },
+      {
+        "step": 2,
+        "task": "Retrieve technology-related conversations from these executives.",
+        "table": [
+          "CompanyLeadershipExcerpt"
+        ]
+      },
+      {
+        "step": 3,
+        "task": "Compile a summary of prevalent technology-related conversations.",
+        "table": [
+          "CompanySocialMediaInfo",
+          "CompanyLeadershipExcerpt"
+        ]
+      }
+    ]
+  },
+  {
+    "question": "How do firms prioritize their technology investments in response to developments in industry trends and leadership feedback?",
+    "tables": [
+      "IndustryITTrend",
+      "CompanyLeadershipExcerpt",
+      "CompanyTechStack"
+    ],
+    "subtasks": [
+      {
+        "step": 1,
+        "task": "Identify developments in industry trends.",
+        "table": [
+          "IndustryITTrend"
+        ]
+      },
+      {
+        "step": 2,
+        "task": "Retrieve leadership feedback regarding technology investments.",
+        "table": [
+          "CompanyLeadershipExcerpt"
+        ]
+      },
+      {
+        "step": 3,
+        "task": "Analyze how these factors influence technology investment priorities.",
+        "table": [
+          "IndustryITTrend",
+          "CompanyLeadershipExcerpt",
           "CompanyTechStack"
         ]
       }

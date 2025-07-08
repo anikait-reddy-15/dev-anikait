@@ -63,7 +63,7 @@ def get_question(table_names: List[str]) -> str:
             model="gpt-4o-mini",
             messages=[
                 {"role": "system", "content": prompt_input},
-                {"role": "user", "content": f"Using these table records: {all_records}, create 6-8 simple, specific and under 20 words, human-like questions blending context across 2-4 tables, mentioning table names at the end of each question."}
+                {"role": "user", "content": "Generate the full list of 100 questions as instructed above."}
             ]
         )
         # return question.choices[0].message.content
