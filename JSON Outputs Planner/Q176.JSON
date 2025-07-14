@@ -1,0 +1,21 @@
+{
+  "question": "Which companies have recently invested in big data technologies and have a strong social media presence on platforms like LinkedIn?",
+  "tables": ["CompanyTechStack", "CompanySocialMediaInfo", "CompanyInfo"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies that have recently invested in big data technologies",
+      "table": ["CompanyTechStack"]
+    },
+    {
+      "step": 2,
+      "task": "Filter the list of companies to those with a strong LinkedIn presence",
+      "table": ["CompanySocialMediaInfo"]
+    },
+    {
+      "step": 3,
+      "task": "Combine the filtered results with company information to get a complete view",
+      "table": ["CompanyInfo"]
+    }
+  ]
+}

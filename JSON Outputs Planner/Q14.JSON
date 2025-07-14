@@ -1,0 +1,26 @@
+{
+  "question": "What are the technology investments made by Gentherm to support employee experience through SAP SuccessFactors?",
+  "tables": ["CompanyVendorProductDetail", "CompanyInfo"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Get Gentherm’s Company ID",
+      "table": ["CompanyVendorProductDetail"]
+    },
+    {
+      "step": 2,
+      "task": "Pull SAP SuccessFactors Data for Gentherm",
+      "table": ["CompanyInfo"]
+    },
+    {
+      "step": 3,
+      "task": "Analyze SuccessFactors Usage for People Strategy",
+      "table": []
+    },
+    {
+      "step": 4,
+      "task": "Combine Subqueries",
+      "table": []
+    }
+  ]
+}

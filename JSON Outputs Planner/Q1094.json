@@ -1,0 +1,20 @@
+{
+  "question": "What leadership insights are shared among companies investing in predictive analytics as their marketing strategies evolve?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies investing in predictive analytics.",
+      "table": ["CompanyFocusAreaDetail"]
+    },
+    {
+      "step": 2,
+      "task": "Extract leadership perspectives from excerpts.",
+      "table": ["CompanyLeadershipExcerpt"]
+    },
+    {
+      "step": 3,
+      "task": "Summarize insights shared in relation to marketing strategy.",
+      "table": ["CompanyLeadershipExcerpt", "CompanyFocusAreaDetail"]
+    }
+  ]
+}

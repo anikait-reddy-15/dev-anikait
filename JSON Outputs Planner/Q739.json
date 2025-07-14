@@ -1,0 +1,21 @@
+{
+  "question": "What vendor platforms are most commonly chosen by companies expanding their AI deployment across departments?",
+  "tables": ["CompanyVendorTechDetail", "CompanyFocusAreaDetail"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies expanding AI deployment across departments.",
+      "table": ["CompanyFocusAreaDetail"]
+    },
+    {
+      "step": 2,
+      "task": "Extract vendor platforms used by those companies.",
+      "table": ["CompanyVendorTechDetail"]
+    },
+    {
+      "step": 3,
+      "task": "Analyze commonly selected platforms among them.",
+      "table": ["CompanyVendorTechDetail"]
+    }
+  ]
+}

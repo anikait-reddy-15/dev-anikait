@@ -1,0 +1,21 @@
+{
+  "question": "What are the common IT focus areas among firms that have partnered with both AWS and Microsoft Azure?",
+  "tables": ["CompanyITPartnerDetail", "CompanyFocusAreaDetail"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify firms partnered with both AWS and Microsoft Azure. [CompanyITPartnerDetail]",
+      "table": ["CompanyITPartnerDetail"]
+    },
+    {
+      "step": 2,
+      "task": "Find the IT focus areas of those firms from CompanyFocusAreaDetail. [CompanyFocusAreaDetail]",
+      "table": ["CompanyFocusAreaDetail"]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the most common focus areas across those firms. [CompanyITPartnerDetail, CompanyFocusAreaDetail]",
+      "table": ["CompanyITPartnerDetail", "CompanyFocusAreaDetail"]
+    }
+  ]
+}

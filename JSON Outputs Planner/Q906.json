@@ -1,0 +1,21 @@
+{
+  "question": "Which automotive companies are using AI in supply chain risk management and demand planning?",
+  "tables": ["CompanyFocusAreaDetail", "CompanyInfo"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify automotive manufacturers and suppliers.",
+      "table": ["CompanyInfo"]
+    },
+    {
+      "step": 2,
+      "task": "Check for AI use in demand forecasting and risk mitigation.",
+      "table": ["CompanyFocusAreaDetail"]
+    },
+    {
+      "step": 3,
+      "task": "List automotive companies using AI in SCM.",
+      "table": ["CompanyFocusAreaDetail", "CompanyInfo"]
+    }
+  ]
+}

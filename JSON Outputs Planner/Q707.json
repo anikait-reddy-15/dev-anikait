@@ -1,0 +1,16 @@
+{
+  "question": "What are the main challenges expressed by leadership in companies implementing AI-powered customer analytics?",
+  "tables": ["CompanyLeadershipExcerpt"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Extract leadership excerpts discussing AI-powered customer analytics.",
+      "table": ["CompanyLeadershipExcerpt"]
+    },
+    {
+      "step": 2,
+      "task": "Identify main challenges mentioned.",
+      "table": ["CompanyLeadershipExcerpt"]
+    }
+  ]
+}

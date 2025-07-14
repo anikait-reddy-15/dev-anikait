@@ -1,0 +1,20 @@
+{
+  "question": "Which firms have publicly shared their technology roadmaps and what key technologies are prioritized?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Extract public roadmap or strategic posts about technology",
+      "table": ["CompanyFocusAreaDetail"]
+    },
+    {
+      "step": 2,
+      "task": "Identify key technologies mentioned in these roadmaps",
+      "table": ["CompanyTechStack"]
+    },
+    {
+      "step": 3,
+      "task": "Categorize technology priorities by firm",
+      "table": []
+    }
+  ]
+}

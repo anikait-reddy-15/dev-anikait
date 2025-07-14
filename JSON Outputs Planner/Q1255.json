@@ -1,0 +1,20 @@
+{
+  "question": "Who are the most prominent voices in cybersecurity discussions among tech company leaders?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Extract cybersecurity mentions in leadership quotes from CompanyLeadershipExcerpt",
+      "table": ["CompanyLeadershipExcerpt"]
+    },
+    {
+      "step": 2,
+      "task": "Match these excerpts to executive profiles in PersonaUser",
+      "table": ["PersonaUser"]
+    },
+    {
+      "step": 3,
+      "task": "Identify individuals with repeated or high-impact commentary on cybersecurity",
+      "table": ["CompanyLeadershipExcerpt", "PersonaUser"]
+    }
+  ]
+}

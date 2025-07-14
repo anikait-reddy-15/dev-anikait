@@ -1,0 +1,21 @@
+{
+  "question": "Which social media platforms are most influential for tech companies to share updates about their hiring of data experts?",
+  "tables": ["CompanySocialMediaInfo", "CompanyHiringDetail"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify hiring announcements made via social media",
+      "table": ["CompanySocialMediaInfo"]
+    },
+    {
+      "step": 2,
+      "task": "Filter posts relevant to data expert roles",
+      "table": ["CompanySocialMediaInfo"]
+    },
+    {
+      "step": 3,
+      "task": "Correlate hiring activity with platform engagement",
+      "table": ["CompanyHiringDetail"]
+    }
+  ]
+}

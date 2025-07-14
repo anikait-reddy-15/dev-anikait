@@ -1,0 +1,21 @@
+{
+  "question": "Who are the top influencers in companies that have both adopted DevOps practices and enhanced their LinkedIn presence?",
+  "tables": ["CompanyTechStack", "PersonaLinkedinProfile", "PersonaUser"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies that have adopted DevOps practices from CompanyTechStack. [CompanyTechStack]",
+      "table": ["CompanyTechStack"]
+    },
+    {
+      "step": 2,
+      "task": "Find personas with enhanced LinkedIn presence. [PersonaLinkedinProfile]",
+      "table": ["PersonaLinkedinProfile"]
+    },
+    {
+      "step": 3,
+      "task": "Match top influencers from those companies. [CompanyTechStack, PersonaLinkedinProfile, PersonaUser]",
+      "table": ["CompanyTechStack", "PersonaLinkedinProfile", "PersonaUser"]
+    }
+  ]
+}

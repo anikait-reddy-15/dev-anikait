@@ -1,0 +1,20 @@
+{
+  "question": "Who are the rising stars in data science whose opinions are sought after in company-wide discussions on analytics strategy?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Find individuals actively engaged in internal data discussions.",
+      "table": ["PersonaUser"]
+    },
+    {
+      "step": 2,
+      "task": "Identify mentions in leadership or management discussions.",
+      "table": ["CompanyManagementDetail"]
+    },
+    {
+      "step": 3,
+      "task": "Rank individuals based on visibility in strategic planning.",
+      "table": ["PersonaUser", "CompanyManagementDetail"]
+    }
+  ]
+}

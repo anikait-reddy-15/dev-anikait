@@ -1,0 +1,26 @@
+{
+  "question": "What technologies are being embraced by companies that have recently promoted their social media engagement strategy and hired for content roles?",
+  "tables": ["CompanyTechStack", "CompanyHiringDetail", "SocialMediaInfo"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies that have recently promoted their social media engagement strategy. [SocialMediaInfo]",
+      "table": ["SocialMediaInfo"]
+    },
+    {
+      "step": 2,
+      "task": "Identify companies that have hired for content roles. [CompanyHiringDetail]",
+      "table": ["CompanyHiringDetail"]
+    },
+    {
+      "step": 3,
+      "task": "Match the companies from both previous steps to find those that meet both criteria. [CompanyHiringDetail, SocialMediaInfo]",
+      "table": ["CompanyHiringDetail", "SocialMediaInfo"]
+    },
+    {
+      "step": 4,
+      "task": "Extract the technologies being embraced by these companies. [CompanyTechStack]",
+      "table": ["CompanyTechStack"]
+    }
+  ]
+}

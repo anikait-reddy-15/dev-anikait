@@ -1,0 +1,21 @@
+{
+  "question": "Which retail chains are leveraging AI to personalize in-store experiences through smart devices?",
+  "tables": ["CompanyFocusAreaDetail", "CompanyInfo"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify retail chains using AI for customer personalization.",
+      "table": ["CompanyFocusAreaDetail"]
+    },
+    {
+      "step": 2,
+      "task": "Filter for those using smart in-store devices.",
+      "table": ["CompanyFocusAreaDetail"]
+    },
+    {
+      "step": 3,
+      "task": "Match to retail companies and summarize strategies.",
+      "table": ["CompanyFocusAreaDetail", "CompanyInfo"]
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "question": "What are the most notable leadership changes in companies that have recently adopted new technologies in their tech stack?",
+  "tables": ["CompanyManagementDetail", "CompanyTechStack"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies that have recently adopted new technologies in their tech stack. [CompanyTechStack]",
+      "table": ["CompanyTechStack"]
+    },
+    {
+      "step": 2,
+      "task": "Gather information on leadership changes within these companies. [CompanyManagementDetail]",
+      "table": ["CompanyManagementDetail"]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the leadership changes to highlight the most notable ones. [CompanyManagementDetail]",
+      "table": ["CompanyManagementDetail"]
+    }
+  ]
+}

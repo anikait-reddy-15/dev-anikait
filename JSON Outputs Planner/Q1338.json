@@ -1,0 +1,20 @@
+{
+  "question": "What operational strategies are revealed by companies using predictive analytics in social campaigns?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies referencing predictive analytics in social media",
+      "table": ["SocialMediaInfo"]
+    },
+    {
+      "step": 2,
+      "task": "Cross-check tech stack to validate analytics tools",
+      "table": ["CompanyTechStack"]
+    },
+    {
+      "step": 3,
+      "task": "Summarize operational themes discussed or inferred",
+      "table": ["SocialMediaInfo", "CompanyTechStack"]
+    }
+  ]
+}

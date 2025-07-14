@@ -1,0 +1,21 @@
+{
+  "question": "Which aviation firms are using blockchain to verify aircraft maintenance logs and leasing records?",
+  "tables": ["CompanyFocusAreaDetail", "CompanyInfo"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify aviation firms or lessors using blockchain.",
+      "table": ["CompanyInfo"]
+    },
+    {
+      "step": 2,
+      "task": "Check for blockchain in maintenance and leasing workflows.",
+      "table": ["CompanyFocusAreaDetail"]
+    },
+    {
+      "step": 3,
+      "task": "List firms ensuring traceability with blockchain.",
+      "table": ["CompanyFocusAreaDetail", "CompanyInfo"]
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "question": "Which companies have received industry recognition for their responsible AI practices?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Review leadership excerpts and external awards mentioned therein",
+      "table": ["CompanyLeadershipExcerpt"]
+    },
+    {
+      "step": 2,
+      "task": "Extract keywords related to recognition, awards, or certifications",
+      "table": ["CompanyLeadershipExcerpt"]
+    },
+    {
+      "step": 3,
+      "task": "List companies with confirmed acknowledgments for AI ethics",
+      "table": ["CompanyLeadershipExcerpt"]
+    }
+  ]
+}

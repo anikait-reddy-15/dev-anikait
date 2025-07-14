@@ -1,0 +1,20 @@
+{
+  "question": "Who are the business leaders actively discussing the role of data analytics in shaping future company strategies on Twitter?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Find Twitter profiles of company leaders discussing analytics.",
+      "table": ["CompanyTwitterDetail"]
+    },
+    {
+      "step": 2,
+      "task": "Correlate tweets with strategic outlook from leadership excerpts.",
+      "table": ["CompanyLeadershipExcerpt"]
+    },
+    {
+      "step": 3,
+      "task": "List business leaders frequently addressing analytics and strategy.",
+      "table": ["CompanyTwitterDetail", "CompanyLeadershipExcerpt"]
+    }
+  ]
+}

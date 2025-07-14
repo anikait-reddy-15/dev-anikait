@@ -1,0 +1,21 @@
+{
+  "question": "What are the most common focus areas for organizations that have published research reports on emerging IT trends?",
+  "tables": ["CompanyFocusAreaDetail", "IndustryITTrend"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify organizations that have published research reports on emerging IT trends. [IndustryITTrend]",
+      "table": ["IndustryITTrend"]
+    },
+    {
+      "step": 2,
+      "task": "Gather focus area details from those organizations. [CompanyFocusAreaDetail]",
+      "table": ["CompanyFocusAreaDetail"]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the focus area data to determine the most common themes. [CompanyFocusAreaDetail]",
+      "table": ["CompanyFocusAreaDetail"]
+    }
+  ]
+}

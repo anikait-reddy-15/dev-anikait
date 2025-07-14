@@ -1,0 +1,20 @@
+{
+  "question": "What are the emerging business challenges communicated by tech leaders through their platforms amid increasing automation adoption?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Extract leadership communications mentioning automation.",
+      "table": ["CompanyLeadershipExcerpt"]
+    },
+    {
+      "step": 2,
+      "task": "Identify companies aligned with automation trends.",
+      "table": ["IndustryITTrend"]
+    },
+    {
+      "step": 3,
+      "task": "Analyze stated business challenges and categorize themes.",
+      "table": ["CompanyLeadershipExcerpt", "IndustryITTrend"]
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "question": "How do companies discussing digital transformation on social media approach their tech stack choices?",
+  "tables": ["CompanySocialMediaInfo", "CompanyTechStack"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies discussing digital transformation on social media",
+      "table": ["CompanySocialMediaInfo"]
+    },
+    {
+      "step": 2,
+      "task": "Retrieve technology stacks of these companies",
+      "table": ["CompanyTechStack"]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the tech stack choices in relation to their digital transformation discussions",
+      "table": ["CompanySocialMediaInfo", "CompanyTechStack"]
+    }
+  ]
+}

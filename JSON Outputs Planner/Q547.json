@@ -1,0 +1,21 @@
+{
+  "question": "Which companies have shown a significant investment in AI technologies and have leadership that frequently discusses innovation in their public forums?",
+  "tables": ["CompanyTechStack", "CompanyLeadershipExcerpt", "CompanyInfo"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies that have made significant investments in AI technologies. [CompanyTechStack]",
+      "table": ["CompanyTechStack"]
+    },
+    {
+      "step": 2,
+      "task": "Find leadership excerpts that discuss innovation from the identified companies. [CompanyLeadershipExcerpt]",
+      "table": ["CompanyLeadershipExcerpt"]
+    },
+    {
+      "step": 3,
+      "task": "Gather company information for the companies that meet the criteria. [CompanyInfo]",
+      "table": ["CompanyInfo"]
+    }
+  ]
+}

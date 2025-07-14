@@ -1,0 +1,25 @@
+{
+  "question": "What social media platforms do companies emphasize when promoting their big data capabilities?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies promoting big data capabilities",
+      "table": ["CompanyFocusAreaDetail"]
+    },
+    {
+      "step": 2,
+      "task": "Cross-check companies active on social media platforms",
+      "table": ["SocialMediaInfo"]
+    },
+    {
+      "step": 3,
+      "task": "Determine which platforms (LinkedIn, Twitter, Facebook, etc.) have the most mentions",
+      "table": ["SocialMediaInfo"]
+    },
+    {
+      "step": 4,
+      "task": "Summarize platform usage patterns by company",
+      "table": ["SocialMediaInfo"]
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "question": "How often are emerging technology trends in data analytics reflected in executive discussions within companies?",
+  "tables": ["CompanyLeadershipExcerpt", "IndustryITTrend"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Retrieve executive discussions referencing data analytics",
+      "table": ["CompanyLeadershipExcerpt"]
+    },
+    {
+      "step": 2,
+      "task": "Identify emerging technology trends related to those discussions",
+      "table": ["IndustryITTrend"]
+    },
+    {
+      "step": 3,
+      "task": "Analyze frequency and relevance of trend alignment",
+      "table": ["CompanyLeadershipExcerpt", "IndustryITTrend"]
+    }
+  ]
+}

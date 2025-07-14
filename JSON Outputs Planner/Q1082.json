@@ -1,0 +1,20 @@
+{
+  "question": "Who leads the discussions about the deployment of machine learning models in real-world applications at tech firms?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies focused on machine learning.",
+      "table": ["CompanyFocusAreaDetail"]
+    },
+    {
+      "step": 2,
+      "task": "Find relevant leaders or contributors from those companies.",
+      "table": ["PersonaUser"]
+    },
+    {
+      "step": 3,
+      "task": "Extract discussion topics linked to real-world ML deployments.",
+      "table": ["CompanyFocusAreaDetail"]
+    }
+  ]
+}

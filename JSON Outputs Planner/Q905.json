@@ -1,0 +1,21 @@
+{
+  "question": "Which telecom companies are using AI to predict network outages and proactively address service issues?",
+  "tables": ["CompanyFocusAreaDetail", "CompanyInfo"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify telecom service providers.",
+      "table": ["CompanyInfo"]
+    },
+    {
+      "step": 2,
+      "task": "Check for AI in outage prediction and service assurance.",
+      "table": ["CompanyFocusAreaDetail"]
+    },
+    {
+      "step": 3,
+      "task": "List telecom companies using AI to ensure uptime.",
+      "table": ["CompanyFocusAreaDetail", "CompanyInfo"]
+    }
+  ]
+}

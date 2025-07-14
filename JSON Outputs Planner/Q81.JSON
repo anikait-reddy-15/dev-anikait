@@ -1,0 +1,21 @@
+{
+  "question": "What companies had both an increase in Twitter engagement and a shift in their focus to digital transformation this quarter?",
+  "tables": ["CompanyTwitterDetail", "CompanyFocusAreaDetail"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies that have seen an increase in Twitter engagement this quarter",
+      "table": ["CompanyTwitterDetail"]
+    },
+    {
+      "step": 2,
+      "task": "Filter these companies for those that have shifted their focus to digital transformation",
+      "table": ["CompanyFocusAreaDetail"]
+    },
+    {
+      "step": 3,
+      "task": "Compile a list of companies that meet both criteria",
+      "table": ["CompanyTwitterDetail", "CompanyFocusAreaDetail"]
+    }
+  ]
+}

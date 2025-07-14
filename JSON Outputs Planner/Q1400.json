@@ -1,0 +1,20 @@
+{
+  "question": "How are social media platforms being used to promote AI responsibility messaging?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Extract posts from Twitter, LinkedIn, and Facebook referring to responsible AI",
+      "table": ["SocialMediaInfo"]
+    },
+    {
+      "step": 2,
+      "task": "Identify companies that frequently post about ethical practices and transparency",
+      "table": ["SocialMediaInfo"]
+    },
+    {
+      "step": 3,
+      "task": "Summarize the nature and impact of these communications",
+      "table": ["SocialMediaInfo"]
+    }
+  ]
+}

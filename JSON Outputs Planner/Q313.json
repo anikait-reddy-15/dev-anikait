@@ -1,0 +1,21 @@
+{
+  "question": "Which companies have recently experienced high engagement on LinkedIn due to their discussions around new data privacy regulations?",
+  "tables": ["PersonaLinkedinActivity", "CompanyInfo"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies that have discussed new data privacy regulations on LinkedIn. [PersonaLinkedinActivity]",
+      "table": ["PersonaLinkedinActivity"]
+    },
+    {
+      "step": 2,
+      "task": "Analyze the engagement metrics for those discussions. [PersonaLinkedinActivity]",
+      "table": ["PersonaLinkedinActivity"]
+    },
+    {
+      "step": 3,
+      "task": "Compile a list of companies with high engagement metrics. [CompanyInfo]",
+      "table": ["CompanyInfo"]
+    }
+  ]
+}

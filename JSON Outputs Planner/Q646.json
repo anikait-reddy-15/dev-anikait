@@ -1,0 +1,21 @@
+{
+  "question": "Which companies have seen an increase in LinkedIn followers alongside launching new data analytics platforms?",
+  "tables": ["CompanyLinkedinDetail", "CompanyTechStack"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies with increased LinkedIn followers.",
+      "table": ["CompanyLinkedinDetail"]
+    },
+    {
+      "step": 2,
+      "task": "Find companies that launched new data analytics platforms.",
+      "table": ["CompanyTechStack"]
+    },
+    {
+      "step": 3,
+      "task": "Match companies from both sets.",
+      "table": ["CompanyLinkedinDetail", "CompanyTechStack"]
+    }
+  ]
+}

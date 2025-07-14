@@ -1,0 +1,21 @@
+{
+  "question": "What is the correlation between companies that recently published LinkedIn content about machine learning and their tech stack investments?",
+  "tables": ["PersonaLinkedinPost", "CompanyTechStack"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies that have published LinkedIn content about machine learning. [PersonaLinkedinPost]",
+      "table": ["PersonaLinkedinPost"]
+    },
+    {
+      "step": 2,
+      "task": "Gather the tech stack investments of these companies. [CompanyTechStack]",
+      "table": ["CompanyTechStack"]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the correlation between the LinkedIn posts and tech stack investments. [CompanyTechStack]",
+      "table": ["CompanyTechStack"]
+    }
+  ]
+}

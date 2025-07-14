@@ -1,0 +1,21 @@
+{
+  "question": "Which IT partners are most commonly associated with companies that reported a strategic pivot in their tech stack over the last six months?",
+  "tables": ["CompanyITPartnerDetail", "CompanyTechStack"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies that reported a strategic pivot in their tech stack in the last six months. [CompanyTechStack]",
+      "table": ["CompanyTechStack"]
+    },
+    {
+      "step": 2,
+      "task": "Gather IT partner details associated with those companies. [CompanyITPartnerDetail]",
+      "table": ["CompanyITPartnerDetail"]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the IT partner data to find the most commonly associated partners. [CompanyITPartnerDetail]",
+      "table": ["CompanyITPartnerDetail"]
+    }
+  ]
+}

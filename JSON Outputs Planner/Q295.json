@@ -1,0 +1,21 @@
+{
+  "question": "Which companies have demonstrated increased investment in cybersecurity technologies following leadership changes in their IT department?",
+  "tables": ["CompanyTechStack", "CompanyLeadershipExcerpt", "CompanyHiringDetail"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies that have had recent leadership changes in their IT department. [CompanyLeadershipExcerpt]",
+      "table": ["CompanyLeadershipExcerpt"]
+    },
+    {
+      "step": 2,
+      "task": "Gather information on cybersecurity technology investments made by these companies. [CompanyTechStack]",
+      "table": ["CompanyTechStack"]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the investment data to determine which companies have increased their cybersecurity investments. [CompanyTechStack, CompanyHiringDetail]",
+      "table": ["CompanyTechStack", "CompanyHiringDetail"]
+    }
+  ]
+}

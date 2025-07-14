@@ -1,0 +1,21 @@
+{
+  "question": "Which pharmaceutical logistics companies are using blockchain to monitor cold chain compliance for vaccines?",
+  "tables": ["CompanyFocusAreaDetail", "CompanyInfo"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify pharma logistics firms using blockchain.",
+      "table": ["CompanyInfo"]
+    },
+    {
+      "step": 2,
+      "task": "Check for use in cold chain monitoring and compliance.",
+      "table": ["CompanyFocusAreaDetail"]
+    },
+    {
+      "step": 3,
+      "task": "List firms ensuring vaccine safety with blockchain.",
+      "table": ["CompanyFocusAreaDetail", "CompanyInfo"]
+    }
+  ]
+}

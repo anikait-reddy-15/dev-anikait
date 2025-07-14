@@ -1,0 +1,21 @@
+{
+  "question": "What are the primary AI technologies used by companies that have recently invested in big data analytics?",
+  "tables": ["CompanyTechStack", "CompanyDealMaster"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies that have made recent investments in big data analytics. [CompanyDealMaster]",
+      "table": ["CompanyDealMaster"]
+    },
+    {
+      "step": 2,
+      "task": "Filter the list of companies to get their respective tech stacks. [CompanyTechStack]",
+      "table": ["CompanyTechStack"]
+    },
+    {
+      "step": 3,
+      "task": "Extract the primary AI technologies from the tech stacks of these companies. [CompanyTechStack]",
+      "table": ["CompanyTechStack"]
+    }
+  ]
+}

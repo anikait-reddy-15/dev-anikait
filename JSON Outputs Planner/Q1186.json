@@ -1,0 +1,20 @@
+{
+  "question": "What vendor partnerships are driving cloud innovation in recently funded companies?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify recently funded companies",
+      "table": ["CompanyInfo"]
+    },
+    {
+      "step": 2,
+      "task": "Filter vendor relationships with cloud relevance",
+      "table": ["CompanyVendorTechDetail"]
+    },
+    {
+      "step": 3,
+      "task": "Analyze vendor roles in cloud-related deployments",
+      "table": ["CompanyDealMaster"]
+    }
+  ]
+}

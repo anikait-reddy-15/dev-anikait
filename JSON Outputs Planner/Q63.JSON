@@ -1,0 +1,21 @@
+{
+  "question": "Which technologies are top financial firms focusing on following industry shifts?",
+  "tables": ["IndustryITTrend", "CompanyTechStack"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify industry shifts from the IT trends that impact the financial sector",
+      "table": ["IndustryITTrend"]
+    },
+    {
+      "step": 2,
+      "task": "List technologies currently being adopted by top financial firms",
+      "table": ["CompanyTechStack"]
+    },
+    {
+      "step": 3,
+      "task": "Analyze how the identified technologies align with the recent industry shifts",
+      "table": ["IndustryITTrend", "CompanyTechStack"]
+    }
+  ]
+}

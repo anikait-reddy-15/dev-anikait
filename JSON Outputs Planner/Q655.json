@@ -1,0 +1,16 @@
+{
+  "question": "Who are the influencers posting regularly about data privacy policies on LinkedIn?",
+  "tables": ["PersonaLinkedinPost", "PersonaUser"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Find LinkedIn posts discussing data privacy policies.",
+      "table": ["PersonaLinkedinPost"]
+    },
+    {
+      "step": 2,
+      "task": "Identify influencers behind these posts.",
+      "table": ["PersonaUser"]
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "question": "How do data-oriented companies highlight their competitive advantage in technology via social media interactions?",
+  "tables": ["CompanySocialMediaInfo", "CompanyTechStack"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify data-oriented companies posting about technology",
+      "table": ["CompanySocialMediaInfo"]
+    },
+    {
+      "step": 2,
+      "task": "Retrieve their tech stack to assess competitive positioning",
+      "table": ["CompanyTechStack"]
+    },
+    {
+      "step": 3,
+      "task": "Analyze how social posts communicate their advantage",
+      "table": ["CompanySocialMediaInfo", "CompanyTechStack"]
+    }
+  ]
+}

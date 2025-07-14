@@ -1,0 +1,21 @@
+{
+  "question": "Which vendors are being discussed by data scientists as potential partners for machine learning projects?",
+  "tables": ["CompanyVendorProductDetail", "PersonaUser"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify discussions by data scientists regarding potential partners for machine learning projects",
+      "table": ["PersonaUser"]
+    },
+    {
+      "step": 2,
+      "task": "Find vendors mentioned in these discussions",
+      "table": ["CompanyVendorProductDetail"]
+    },
+    {
+      "step": 3,
+      "task": "Compile a list of frequently discussed vendors",
+      "table": ["PersonaUser", "CompanyVendorProductDetail"]
+    }
+  ]
+}

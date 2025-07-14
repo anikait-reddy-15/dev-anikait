@@ -1,0 +1,20 @@
+{
+  "question": "How do partnership expansions among companies relate to increased hiring in their data divisions?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies with recent partnership expansions from CompanyITPartnerDetail",
+      "table": ["CompanyITPartnerDetail"]
+    },
+    {
+      "step": 2,
+      "task": "Retrieve recent hiring records from CompanyHiringDetail",
+      "table": ["CompanyHiringDetail"]
+    },
+    {
+      "step": 3,
+      "task": "Correlate partnership activity with hiring volume and roles in data departments",
+      "table": ["CompanyITPartnerDetail", "CompanyHiringDetail"]
+    }
+  ]
+}

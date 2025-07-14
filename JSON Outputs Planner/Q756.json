@@ -1,0 +1,21 @@
+{
+  "question": "Which executives are involved in strategic AI decisions at companies actively pursuing digital twin technology?",
+  "tables": ["PersonaUser", "CompanyFocusAreaDetail"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies pursuing digital twin technology.",
+      "table": ["CompanyFocusAreaDetail"]
+    },
+    {
+      "step": 2,
+      "task": "Find executives involved in strategic AI decisions at these companies.",
+      "table": ["PersonaUser"]
+    },
+    {
+      "step": 3,
+      "task": "Match relevant executives to digital twin-focused companies.",
+      "table": ["PersonaUser", "CompanyFocusAreaDetail"]
+    }
+  ]
+}

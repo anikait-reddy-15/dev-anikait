@@ -1,0 +1,21 @@
+{
+  "question": "Which social media platforms are most utilized by company leaders who recently signed vendor agreements for cloud computing solutions?",
+  "tables": ["SocialMediaInfo", "CompanyDealMaster", "CompanyLeadershipExcerpt"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify company leaders who signed vendor agreements for cloud computing solutions.",
+      "table": ["CompanyDealMaster", "CompanyLeadershipExcerpt"]
+    },
+    {
+      "step": 2,
+      "task": "Extract social media usage data for those identified leaders.",
+      "table": ["SocialMediaInfo"]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the data to determine the most utilized platforms.",
+      "table": ["SocialMediaInfo"]
+    }
+  ]
+}

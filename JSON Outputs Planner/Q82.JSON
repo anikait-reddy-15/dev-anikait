@@ -1,0 +1,21 @@
+{
+  "question": "Which vendors are supplying cybersecurity solutions to healthcare companies with a recent rise in IT hiring?",
+  "tables": ["CompanyVendorTechDetail", "CompanyInfo", "CompanyHiringDetail"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify healthcare companies that have recently increased their IT hiring",
+      "table": ["CompanyHiringDetail", "CompanyInfo"]
+    },
+    {
+      "step": 2,
+      "task": "Find vendors supplying cybersecurity solutions to these healthcare companies",
+      "table": ["CompanyVendorTechDetail"]
+    },
+    {
+      "step": 3,
+      "task": "Retrieve detailed information about the identified vendors",
+      "table": ["CompanyVendorTechDetail"]
+    }
+  ]
+}

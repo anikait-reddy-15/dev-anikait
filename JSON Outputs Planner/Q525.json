@@ -1,0 +1,26 @@
+{
+  "question": "How do the vendor selections align with the strategic focus areas of firms that have issued recent job postings for analytics positions?",
+  "tables": ["CompanyDealMaster", "CompanyFocusAreaDetail", "CompanyHiringDetail"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify firms with recent job postings for analytics roles. [CompanyHiringDetail]",
+      "table": ["CompanyHiringDetail"]
+    },
+    {
+      "step": 2,
+      "task": "Extract strategic focus areas of these firms. [CompanyFocusAreaDetail]",
+      "table": ["CompanyFocusAreaDetail"]
+    },
+    {
+      "step": 3,
+      "task": "Identify vendor selections from deal data. [CompanyDealMaster]",
+      "table": ["CompanyDealMaster"]
+    },
+    {
+      "step": 4,
+      "task": "Analyze alignment between vendors and strategic areas. [CompanyDealMaster, CompanyFocusAreaDetail]",
+      "table": ["CompanyDealMaster", "CompanyFocusAreaDetail"]
+    }
+  ]
+}

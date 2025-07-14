@@ -1,0 +1,20 @@
+{
+  "question": "What metrics are being used to evaluate ethical performance of AI systems?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Extract leadership excerpts discussing ethical benchmarks or KPIs",
+      "table": ["CompanyLeadershipExcerpt"]
+    },
+    {
+      "step": 2,
+      "task": "Categorize common metrics (e.g., fairness score, accuracy-diversity tradeoff)",
+      "table": ["CompanyLeadershipExcerpt"]
+    },
+    {
+      "step": 3,
+      "task": "List companies using these metrics in formal evaluation frameworks",
+      "table": ["CompanyLeadershipExcerpt"]
+    }
+  ]
+}

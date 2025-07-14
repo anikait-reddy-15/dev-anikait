@@ -1,0 +1,21 @@
+{
+  "question": "What are the emerging IT trends observed in companies that have significantly increased their cloud infrastructure investments?",
+  "tables": ["IndustryITTrend", "CompanyTechStack"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies that have significantly increased their cloud infrastructure investments.",
+      "table": ["CompanyTechStack"]
+    },
+    {
+      "step": 2,
+      "task": "Gather data on emerging IT trends relevant to these companies.",
+      "table": ["IndustryITTrend"]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the trends in relation to the identified companies.",
+      "table": ["IndustryITTrend", "CompanyTechStack"]
+    }
+  ]
+}

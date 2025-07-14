@@ -1,0 +1,20 @@
+{
+  "question": "What patterns are visible in the hiring of data analysts by companies emphasizing data privacy?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies with a strong focus on data privacy",
+      "table": ["CompanyFocusAreaDetail"]
+    },
+    {
+      "step": 2,
+      "task": "Extract hiring data for roles related to data analysis",
+      "table": ["CompanyHiringDetail"]
+    },
+    {
+      "step": 3,
+      "task": "Match hiring trends with privacy-focused companies",
+      "table": ["CompanyFocusAreaDetail", "CompanyHiringDetail"]
+    }
+  ]
+}

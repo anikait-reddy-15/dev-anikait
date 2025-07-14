@@ -1,0 +1,16 @@
+{
+  "question": "Who are the key decision-makers discussing digital transformation in healthcare on Twitter?",
+  "tables": ["PersonaTwitterProfile", "CompanyInfo"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify Twitter profiles discussing digital transformation in healthcare.",
+      "table": ["PersonaTwitterProfile"]
+    },
+    {
+      "step": 2,
+      "task": "Match profiles with healthcare companies.",
+      "table": ["CompanyInfo"]
+    }
+  ]
+}

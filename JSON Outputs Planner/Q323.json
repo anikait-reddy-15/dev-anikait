@@ -1,0 +1,21 @@
+{
+  "question": "Which personas are discussing emerging technologies in their YouTube videos, and how does this relate to their companies' strategic focus areas?",
+  "tables": ["PersonaYoutubeProfile", "CompanyFocusAreaDetail"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify personas discussing emerging technologies in their YouTube videos. [PersonaYoutubeProfile]",
+      "table": ["PersonaYoutubeProfile"]
+    },
+    {
+      "step": 2,
+      "task": "Gather information on the strategic focus areas of their respective companies. [CompanyFocusAreaDetail]",
+      "table": ["CompanyFocusAreaDetail"]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the relationship between the discussed technologies and the companies' focus areas. [CompanyFocusAreaDetail]",
+      "table": ["CompanyFocusAreaDetail"]
+    }
+  ]
+}

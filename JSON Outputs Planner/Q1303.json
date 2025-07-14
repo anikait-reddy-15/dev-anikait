@@ -1,0 +1,20 @@
+{
+  "question": "Which data scientists are influencing IT purchasing decisions through thought leadership content?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify data scientists publishing thought leadership content",
+      "table": ["PersonaUser", "PersonaMisc"]
+    },
+    {
+      "step": 2,
+      "task": "Link identified individuals with their roles in IT strategy or purchasing",
+      "table": ["PersonaUser", "CompanyLeadershipExcerpt"]
+    },
+    {
+      "step": 3,
+      "task": "Determine if their content correlates with IT purchasing patterns",
+      "table": ["CompanyDealMaster"]
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "question": "Who are the data science practitioners at firms that published strategic outlooks regarding industry trends?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Find firms with published strategic outlooks using IndustryBusinessTrend",
+      "table": ["IndustryBusinessTrend"]
+    },
+    {
+      "step": 2,
+      "task": "Identify data science practitioners at these firms from PersonaUser",
+      "table": ["PersonaUser"]
+    },
+    {
+      "step": 3,
+      "task": "List data scientists with links to those companies and industry trend documents",
+      "table": ["PersonaUser", "IndustryBusinessTrend"]
+    }
+  ]
+}

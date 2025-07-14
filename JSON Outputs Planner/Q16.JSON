@@ -1,0 +1,26 @@
+{
+  "question": "What initiatives is LPL Financial pursuing to improve financial compliance using the IDEA auditing tool?",
+  "tables": ["CompanyVendorProductDetail", "CompanyVendorTechDetail", "CompanyInfo"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Confirm IDEA tool usage by LPL Financial",
+      "table": ["CompanyVendorProductDetail"]
+    },
+    {
+      "step": 2,
+      "task": "Identify initiatives linked to compliance and auditing",
+      "table": ["CompanyVendorTechDetail"]
+    },
+    {
+      "step": 3,
+      "task": "Filter both by LPL Financial Company ID",
+      "table": ["CompanyInfo"]
+    },
+    {
+      "step": 4,
+      "task": "Highlight how IDEA supports compliance goals",
+      "table": []
+    }
+  ]
+}

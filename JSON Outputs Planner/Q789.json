@@ -1,0 +1,21 @@
+{
+  "question": "Which AI strategies are adopted by public sector organizations working on urban planning?",
+  "tables": ["CompanyFocusAreaDetail", "CompanyInfo"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify public sector organizations involved in urban planning.",
+      "table": ["CompanyInfo"]
+    },
+    {
+      "step": 2,
+      "task": "Extract their AI strategy details.",
+      "table": ["CompanyFocusAreaDetail"]
+    },
+    {
+      "step": 3,
+      "task": "Match organizations with their AI strategy focus.",
+      "table": ["CompanyFocusAreaDetail", "CompanyInfo"]
+    }
+  ]
+}

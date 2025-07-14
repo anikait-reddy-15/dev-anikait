@@ -1,0 +1,21 @@
+{
+  "question": "Which firms have implemented AI-based document intelligence for regulatory compliance?",
+  "tables": ["CompanyFocusAreaDetail", "CompanyInfo"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify AI use cases in document analysis.",
+      "table": ["CompanyFocusAreaDetail"]
+    },
+    {
+      "step": 2,
+      "task": "Filter for regulatory compliance scenarios.",
+      "table": ["CompanyFocusAreaDetail"]
+    },
+    {
+      "step": 3,
+      "task": "List companies implementing such systems.",
+      "table": ["CompanyInfo", "CompanyFocusAreaDetail"]
+    }
+  ]
+}

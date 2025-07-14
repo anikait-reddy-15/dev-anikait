@@ -1,0 +1,20 @@
+{
+  "question": "What emerging IT technologies are being prioritized by educational institutions in their long-term strategies?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies in the education sector",
+      "table": ["CompanyInfo"]
+    },
+    {
+      "step": 2,
+      "task": "Filter their focus areas or trend alignment with IT innovation",
+      "table": ["CompanyFocusAreaDetail"]
+    },
+    {
+      "step": 3,
+      "task": "Extract emerging IT technologies linked to these strategies",
+      "table": ["IndustryITTrend"]
+    }
+  ]
+}

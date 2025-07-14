@@ -1,0 +1,20 @@
+{
+  "question": "What collaborations are occurring between technology vendors and companies that have recently launched new data initiatives?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies launching new data initiatives.",
+      "table": ["CompanyFocusAreaDetail"]
+    },
+    {
+      "step": 2,
+      "task": "Extract vendor associations from technology records.",
+      "table": ["CompanyVendorTechDetail"]
+    },
+    {
+      "step": 3,
+      "task": "Map collaborations between vendors and initiative-driven companies.",
+      "table": ["CompanyFocusAreaDetail", "CompanyVendorTechDetail"]
+    }
+  ]
+}

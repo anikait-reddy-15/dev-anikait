@@ -1,0 +1,21 @@
+{
+  "question": "Which technology investments correlate with increased engagement on Twitter by companies focusing on digital transformation?",
+  "tables": ["CompanyTechStack", "CompanyTwitterDetail", "CompanyFocusAreaDetail"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify technology investments made by companies focusing on digital transformation. [CompanyTechStack, CompanyFocusAreaDetail]",
+      "table": ["CompanyTechStack", "CompanyFocusAreaDetail"]
+    },
+    {
+      "step": 2,
+      "task": "Gather Twitter engagement data for these companies. [CompanyTwitterDetail]",
+      "table": ["CompanyTwitterDetail"]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the correlation between technology investments and Twitter engagement. [CompanyTwitterDetail, CompanyTechStack]",
+      "table": ["CompanyTwitterDetail", "CompanyTechStack"]
+    }
+  ]
+}

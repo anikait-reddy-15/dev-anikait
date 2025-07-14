@@ -1,0 +1,21 @@
+{
+  "question": "Which telecom companies are using AI to automate network configuration and enhance 5G reliability?",
+  "tables": ["CompanyFocusAreaDetail", "CompanyInfo"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify telecom providers using AI.",
+      "table": ["CompanyInfo"]
+    },
+    {
+      "step": 2,
+      "task": "Check for AI in self-configuring networks and 5G maintenance.",
+      "table": ["CompanyFocusAreaDetail"]
+    },
+    {
+      "step": 3,
+      "task": "List telecom firms automating networks using AI.",
+      "table": ["CompanyFocusAreaDetail", "CompanyInfo"]
+    }
+  ]
+}

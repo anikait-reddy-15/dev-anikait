@@ -1,0 +1,21 @@
+{
+  "question": "What are the most prevalent technologies found in the tech stacks of companies that recently updated their Facebook engagement strategies?",
+  "tables": ["CompanyTechStack", "CompanyFacebookDetail"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies that have recently updated their Facebook engagement strategies. [CompanyFacebookDetail]",
+      "table": ["CompanyFacebookDetail"]
+    },
+    {
+      "step": 2,
+      "task": "Gather the tech stack information for the identified companies. [CompanyTechStack]",
+      "table": ["CompanyTechStack"]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the tech stack data to determine the most prevalent technologies. [CompanyTechStack]",
+      "table": ["CompanyTechStack"]
+    }
+  ]
+}

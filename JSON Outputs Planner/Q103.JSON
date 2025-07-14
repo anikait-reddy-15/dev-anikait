@@ -1,0 +1,21 @@
+{
+  "question": "How do leadership perspectives on technology investments change in response to social media trends?",
+  "tables": ["CompanyLeadershipExcerpt", "CompanySocialMediaInfo"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify leadership perspectives on technology investments",
+      "table": ["CompanyLeadershipExcerpt"]
+    },
+    {
+      "step": 2,
+      "task": "Analyze social media trends related to technology investments",
+      "table": ["CompanySocialMediaInfo"]
+    },
+    {
+      "step": 3,
+      "task": "Correlate leadership perspectives with social media trends",
+      "table": ["CompanyLeadershipExcerpt", "CompanySocialMediaInfo"]
+    }
+  ]
+}

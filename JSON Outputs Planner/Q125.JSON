@@ -1,0 +1,21 @@
+{
+  "question": "What technologies are highlighted in LinkedIn posts by hiring managers of data-focused companies?",
+  "tables": ["CompanyHiringDetail", "PersonaLinkedinPost"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify LinkedIn posts by hiring managers of data-focused companies",
+      "table": ["PersonaLinkedinPost", "CompanyHiringDetail"]
+    },
+    {
+      "step": 2,
+      "task": "Retrieve technology mentions from these posts",
+      "table": ["PersonaLinkedinPost"]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the technology mentions to summarize key highlights",
+      "table": ["PersonaLinkedinPost"]
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "question": "What are the common features in IT infrastructure upgrades among companies in the retail sector?",
+  "tables": ["CompanyDataCenter", "CompanyInfo"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies in the retail sector.",
+      "table": ["CompanyInfo"]
+    },
+    {
+      "step": 2,
+      "task": "Find IT infrastructure upgrades for these companies.",
+      "table": ["CompanyDataCenter"]
+    },
+    {
+      "step": 3,
+      "task": "Analyze common features of the upgrades.",
+      "table": ["CompanyDataCenter"]
+    }
+  ]
+}

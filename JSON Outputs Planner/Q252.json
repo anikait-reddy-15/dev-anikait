@@ -1,0 +1,21 @@
+{
+  "question": "What are the common industry challenges mentioned by leadership at companies with strong social media engagement in the past quarter?",
+  "tables": ["CompanyLeadershipExcerpt", "SocialMediaInfo"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies with high social media engagement in the past quarter.",
+      "table": ["SocialMediaInfo"]
+    },
+    {
+      "step": 2,
+      "task": "Extract leadership excerpts from those companies.",
+      "table": ["CompanyLeadershipExcerpt"]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the excerpts for recurring industry challenges.",
+      "table": ["CompanyLeadershipExcerpt"]
+    }
+  ]
+}

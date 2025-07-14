@@ -1,0 +1,21 @@
+{
+  "question": "What are the key responsibilities of data scientists at companies that are heavily investing in artificial intelligence technologies?",
+  "tables": ["PersonaUser", "CompanyTechStack", "CompanyHiringDetail"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies that are heavily investing in artificial intelligence technologies",
+      "table": ["CompanyTechStack"]
+    },
+    {
+      "step": 2,
+      "task": "Filter the list of companies to include only those identified in the previous step",
+      "table": ["CompanyHiringDetail"]
+    },
+    {
+      "step": 3,
+      "task": "Extract key responsibilities of data scientists from the filtered companies",
+      "table": ["PersonaUser"]
+    }
+  ]
+}

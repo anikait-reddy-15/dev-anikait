@@ -1,0 +1,16 @@
+{
+  "question": "How many reactions did Rafael Jabur Bittar’s posts about mining innovation receive this month?",
+  "tables": ["PersonaLinkedinPost"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Filter Rafael Jabur Bittar's LinkedIn posts for those specifically about mining innovation within the current month",
+      "table": ["PersonaLinkedinPost"]
+    },
+    {
+      "step": 2,
+      "task": "Count the total reactions received on these filtered posts",
+      "table": ["PersonaLinkedinPost"]
+    }
+  ]
+}

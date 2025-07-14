@@ -1,0 +1,21 @@
+{
+  "question": "Which industries are experiencing the highest growth in hiring for IT roles that require expertise in emerging technologies like blockchain?",
+  "tables": ["CompanyHiringDetail", "IndustryITTrend"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify IT roles that require expertise in emerging technologies like blockchain. [CompanyHiringDetail]",
+      "table": ["CompanyHiringDetail"]
+    },
+    {
+      "step": 2,
+      "task": "Analyze hiring trends across different industries for these roles. [IndustryITTrend]",
+      "table": ["IndustryITTrend"]
+    },
+    {
+      "step": 3,
+      "task": "Determine which industries are experiencing the highest growth in hiring for these roles. [CompanyHiringDetail, IndustryITTrend]",
+      "table": ["CompanyHiringDetail", "IndustryITTrend"]
+    }
+  ]
+}

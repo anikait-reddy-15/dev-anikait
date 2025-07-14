@@ -1,0 +1,20 @@
+{
+  "question": "How do hiring trends in IT correlate with the leadership changes at tech accelerators?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies categorized as tech accelerators",
+      "table": ["CompanyInfo"]
+    },
+    {
+      "step": 2,
+      "task": "Extract recent leadership changes",
+      "table": ["CompanyLeadershipExcerpt"]
+    },
+    {
+      "step": 3,
+      "task": "Analyze hiring patterns before and after changes",
+      "table": ["CompanyHiringDetail"]
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "question": "What common focus areas emerge in the LinkedIn conversations by data science professionals at leading tech firms?",
+  "tables": ["PersonaLinkedinPost", "CompanyFocusAreaDetail"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify LinkedIn conversations by data science professionals at leading tech firms",
+      "table": ["PersonaLinkedinPost"]
+    },
+    {
+      "step": 2,
+      "task": "Retrieve focus areas discussed in these conversations",
+      "table": ["CompanyFocusAreaDetail"]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the focus areas to summarize common themes",
+      "table": ["PersonaLinkedinPost", "CompanyFocusAreaDetail"]
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "question": "Who are the influencers that have inspired data science career paths among tech professionals online?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Retrieve LinkedIn or social posts from PersonaUser and SocialMediaInfo",
+      "table": ["PersonaUser", "SocialMediaInfo"]
+    },
+    {
+      "step": 2,
+      "task": "Identify influential profiles commonly referenced in those posts",
+      "table": ["SocialMediaInfo"]
+    },
+    {
+      "step": 3,
+      "task": "Summarize themes or advice shaping career paths",
+      "table": ["SocialMediaInfo"]
+    }
+  ]
+}

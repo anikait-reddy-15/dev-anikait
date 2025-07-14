@@ -1,0 +1,21 @@
+{
+  "question": "Which media companies are using AI to automate video tagging, transcription, and content recommendation?",
+  "tables": ["CompanyFocusAreaDetail", "CompanyInfo"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify media companies.",
+      "table": ["CompanyInfo"]
+    },
+    {
+      "step": 2,
+      "task": "Find use of AI in video tagging, transcription, and recommendation.",
+      "table": ["CompanyFocusAreaDetail"]
+    },
+    {
+      "step": 3,
+      "task": "Match media firms with specific AI applications.",
+      "table": ["CompanyFocusAreaDetail", "CompanyInfo"]
+    }
+  ]
+}

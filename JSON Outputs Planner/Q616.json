@@ -1,0 +1,21 @@
+{
+  "question": "Which companies are focusing on artificial intelligence in their strategic plans and have increased their IT budget allocations in the past year?",
+  "tables": ["CompanyFocusAreaDetail", "CompanyInfo"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies that have a focus on artificial intelligence in their strategic plans.",
+      "table": ["CompanyFocusAreaDetail"]
+    },
+    {
+      "step": 2,
+      "task": "Filter companies that have increased their IT budget allocations in the past year.",
+      "table": ["CompanyInfo"]
+    },
+    {
+      "step": 3,
+      "task": "Combine the results to find companies that meet both criteria.",
+      "table": ["CompanyFocusAreaDetail", "CompanyInfo"]
+    }
+  ]
+}

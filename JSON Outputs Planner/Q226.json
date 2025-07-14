@@ -1,0 +1,21 @@
+{
+  "question": "Which companies have recently increased their hiring in data science roles and what technologies are they currently using?",
+  "tables": ["CompanyHiringDetail", "CompanyTechStack"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies that have increased hiring in data science roles recently",
+      "table": ["CompanyHiringDetail"]
+    },
+    {
+      "step": 2,
+      "task": "Filter the identified companies to extract their technology stack",
+      "table": ["CompanyTechStack"]
+    },
+    {
+      "step": 3,
+      "task": "Combine the results from hiring details and technology stack to present a comprehensive view",
+      "table": ["CompanyHiringDetail", "CompanyTechStack"]
+    }
+  ]
+}

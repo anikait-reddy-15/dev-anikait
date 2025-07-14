@@ -1,0 +1,21 @@
+{
+  "question": "Which personnel titles are engaged in discussions about the significance of vendor partnerships for data-driven projects?",
+  "tables": ["PersonaTitle", "CompanyVendorProductDetail"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify personnel titles active in vendor partnership discussions",
+      "table": ["PersonaTitle"]
+    },
+    {
+      "step": 2,
+      "task": "Link these discussions to vendor product involvement",
+      "table": ["CompanyVendorProductDetail"]
+    },
+    {
+      "step": 3,
+      "task": "Compile a list of titles shaping vendor-aligned initiatives",
+      "table": ["PersonaTitle", "CompanyVendorProductDetail"]
+    }
+  ]
+}

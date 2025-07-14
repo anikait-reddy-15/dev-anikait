@@ -1,0 +1,21 @@
+{
+  "question": "Which companies are posting actively on Twitter about AI ethics and have ongoing AI vendor partnerships?",
+  "tables": ["CompanyTwitterDetail", "CompanyDealMaster"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies posting about AI ethics on Twitter.",
+      "table": ["CompanyTwitterDetail"]
+    },
+    {
+      "step": 2,
+      "task": "Find companies with AI vendor partnerships.",
+      "table": ["CompanyDealMaster"]
+    },
+    {
+      "step": 3,
+      "task": "Cross-reference the two lists to find matching companies.",
+      "table": ["CompanyTwitterDetail", "CompanyDealMaster"]
+    }
+  ]
+}

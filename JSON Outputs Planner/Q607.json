@@ -1,0 +1,21 @@
+{
+  "question": "Who are the key data scientists at organizations that have publicly shared their strategic priorities on LinkedIn?",
+  "tables": ["PersonaUser", "PersonaLinkedInProfile", "CompanyFocusAreaDetail"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify organizations that have shared their strategic priorities on LinkedIn.",
+      "table": ["CompanyFocusAreaDetail"]
+    },
+    {
+      "step": 2,
+      "task": "Find the LinkedIn profiles of data scientists associated with these organizations.",
+      "table": ["PersonaLinkedInProfile", "PersonaUser"]
+    },
+    {
+      "step": 3,
+      "task": "Match the profiles of data scientists with their respective organizations.",
+      "table": ["PersonaUser"]
+    }
+  ]
+}

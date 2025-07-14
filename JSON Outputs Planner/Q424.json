@@ -1,0 +1,21 @@
+{
+  "question": "Which vendors have been consistently mentioned in the deals of companies focusing on improving their data security measures?",
+  "tables": ["CompanyDealMaster", "CompanyVendorTechDetail"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify deals made by companies focusing on improving data security measures. [CompanyDealMaster]",
+      "table": ["CompanyDealMaster"]
+    },
+    {
+      "step": 2,
+      "task": "Extract vendor details from the identified deals. [CompanyVendorTechDetail]",
+      "table": ["CompanyVendorTechDetail"]
+    },
+    {
+      "step": 3,
+      "task": "Compile a list of vendors mentioned in the deals. [CompanyDealMaster, CompanyVendorTechDetail]",
+      "table": ["CompanyDealMaster", "CompanyVendorTechDetail"]
+    }
+  ]
+}

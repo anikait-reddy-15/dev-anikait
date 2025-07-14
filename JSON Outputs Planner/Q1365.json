@@ -1,0 +1,20 @@
+{
+  "question": "Which companies are building internal governance councils for ethical AI?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Review leadership and management excerpts mentioning internal councils or oversight",
+      "table": ["CompanyLeadershipExcerpt", "CompanyManagementDetail"]
+    },
+    {
+      "step": 2,
+      "task": "Filter mentions related to ethics, AI responsibility, or risk management",
+      "table": ["CompanyLeadershipExcerpt"]
+    },
+    {
+      "step": 3,
+      "task": "List companies creating governance structures around AI",
+      "table": ["CompanyManagementDetail"]
+    }
+  ]
+}

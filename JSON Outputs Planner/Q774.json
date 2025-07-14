@@ -1,0 +1,21 @@
+{
+  "question": "Which companies are leveraging AI to optimize IT operations and are actively discussing these initiatives on social platforms?",
+  "tables": ["CompanyFocusAreaDetail", "CompanyTwitterProfile"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies using AI to optimize IT operations.",
+      "table": ["CompanyFocusAreaDetail"]
+    },
+    {
+      "step": 2,
+      "task": "Find companies actively discussing AI initiatives on Twitter.",
+      "table": ["CompanyTwitterProfile"]
+    },
+    {
+      "step": 3,
+      "task": "Cross-reference AI-IT optimizing firms with active social media profiles.",
+      "table": ["CompanyFocusAreaDetail", "CompanyTwitterProfile"]
+    }
+  ]
+}

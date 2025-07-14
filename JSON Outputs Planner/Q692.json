@@ -1,0 +1,21 @@
+{
+  "question": "Which companies have increased social media engagement during recent product launches focused on AI features?",
+  "tables": ["CompanyTwitterDetail", "CompanyFocusAreaDetail"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies with recent AI-focused product launches.",
+      "table": ["CompanyFocusAreaDetail"]
+    },
+    {
+      "step": 2,
+      "task": "Analyze their social media engagement during the launches.",
+      "table": ["CompanyTwitterDetail"]
+    },
+    {
+      "step": 3,
+      "task": "Combine data to find companies with increased engagement.",
+      "table": ["CompanyTwitterDetail", "CompanyFocusAreaDetail"]
+    }
+  ]
+}

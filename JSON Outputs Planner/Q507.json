@@ -1,0 +1,21 @@
+{
+  "question": "Which data scientists have engaged with discussions on AI trends in their LinkedIn activity while working for organizations that have shifted their technology stack to cloud-based solutions?",
+  "tables": ["PersonaLinkedinActivity", "PersonaUser", "CompanyTechStack"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify organizations that have shifted to cloud-based technology stacks. [CompanyTechStack]",
+      "table": ["CompanyTechStack"]
+    },
+    {
+      "step": 2,
+      "task": "Find data scientists working for these organizations. [PersonaUser]",
+      "table": ["PersonaUser"]
+    },
+    {
+      "step": 3,
+      "task": "Analyze LinkedIn activity of these data scientists for AI trend engagement. [PersonaLinkedinActivity]",
+      "table": ["PersonaLinkedinActivity"]
+    }
+  ]
+}

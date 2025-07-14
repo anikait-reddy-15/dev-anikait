@@ -1,0 +1,20 @@
+{
+  "question": "What leadership strategies have been reported by companies transitioning to agile methodologies?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Find companies adopting agile practices from IndustryITTrend",
+      "table": ["IndustryITTrend"]
+    },
+    {
+      "step": 2,
+      "task": "Retrieve leadership commentary from CompanyLeadershipExcerpt",
+      "table": ["CompanyLeadershipExcerpt"]
+    },
+    {
+      "step": 3,
+      "task": "Map strategies related to agile adoption across firms",
+      "table": ["CompanyLeadershipExcerpt", "IndustryITTrend"]
+    }
+  ]
+}

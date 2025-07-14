@@ -1,0 +1,21 @@
+{
+  "question": "Which companies have both posted about their social media engagement strategies and integrated new analytics tools into their tech stack?",
+  "tables": ["SocialMediaInfo", "CompanyTechStack"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies that have posted about their social media engagement strategies",
+      "table": ["SocialMediaInfo"]
+    },
+    {
+      "step": 2,
+      "task": "Gather information on companies that have integrated new analytics tools into their tech stack",
+      "table": ["CompanyTechStack"]
+    },
+    {
+      "step": 3,
+      "task": "Match companies with social media posts to those that have integrated analytics tools",
+      "table": ["CompanyTechStack"]
+    }
+  ]
+}

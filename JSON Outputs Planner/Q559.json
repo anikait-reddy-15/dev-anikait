@@ -1,0 +1,21 @@
+{
+  "question": "What recent trends in IT investment can be observed among companies that posted about their new product launches on Twitter?",
+  "tables": ["CompanyTwitterDetail", "CompanyTechStack", "IndustryITTrend"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies that have posted about new product launches on Twitter. [CompanyTwitterDetail]",
+      "table": ["CompanyTwitterDetail"]
+    },
+    {
+      "step": 2,
+      "task": "Extract the tech stacks of these companies to analyze their IT investments. [CompanyTechStack]",
+      "table": ["CompanyTechStack"]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the tech stacks to identify recent trends in IT investment. [IndustryITTrend]",
+      "table": ["IndustryITTrend"]
+    }
+  ]
+}

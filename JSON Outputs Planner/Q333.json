@@ -1,0 +1,21 @@
+{
+  "question": "Which vendors are providing big data solutions to companies that have experienced recent leadership turnover?",
+  "tables": ["CompanyVendorTechDetail", "CompanyLeadershipExcerpt"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies that have experienced recent leadership turnover. [CompanyLeadershipExcerpt]",
+      "table": ["CompanyLeadershipExcerpt"]
+    },
+    {
+      "step": 2,
+      "task": "Gather vendor details providing big data solutions to those companies. [CompanyVendorTechDetail]",
+      "table": ["CompanyVendorTechDetail"]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the vendor data to identify key vendors associated with those companies. [CompanyVendorTechDetail]",
+      "table": ["CompanyVendorTechDetail"]
+    }
+  ]
+}

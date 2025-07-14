@@ -1,0 +1,20 @@
+{
+  "question": "Which data science teams are using specific collaborative tools that have shown visible growth in social media engagement?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify collaborative tools mentioned in tech stack data.",
+      "table": ["CompanyTechStack"]
+    },
+    {
+      "step": 2,
+      "task": "Filter companies with visible social media engagement growth.",
+      "table": ["SocialMediaInfo"]
+    },
+    {
+      "step": 3,
+      "task": "Correlate tool adoption with team visibility metrics.",
+      "table": ["CompanyTechStack", "SocialMediaInfo"]
+    }
+  ]
+}

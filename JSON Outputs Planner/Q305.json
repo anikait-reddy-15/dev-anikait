@@ -1,0 +1,21 @@
+{
+  "question": "How has the hiring of data scientists influenced the technology stack selections among companies known for their social media innovation?",
+  "tables": ["CompanyHiringDetail", "CompanyTechStack", "SocialMediaInfo"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies known for their social media innovation. [SocialMediaInfo]",
+      "table": ["SocialMediaInfo"]
+    },
+    {
+      "step": 2,
+      "task": "Gather hiring data for data scientists within these companies. [CompanyHiringDetail]",
+      "table": ["CompanyHiringDetail"]
+    },
+    {
+      "step": 3,
+      "task": "Analyze how the hiring of data scientists has influenced technology stack selections. [CompanyTechStack]",
+      "table": ["CompanyTechStack"]
+    }
+  ]
+}

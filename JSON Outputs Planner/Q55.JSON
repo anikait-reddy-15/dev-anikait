@@ -1,0 +1,21 @@
+{
+  "question": "Which healthcare companies partnered with Microsoft for data management solutions?",
+  "tables": ["CompanyITPartnerDetail", "CompanyInfo"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify partnerships with Microsoft from the CompanyITPartnerDetail table",
+      "table": ["CompanyITPartnerDetail"]
+    },
+    {
+      "step": 2,
+      "task": "Filter the partnerships to include only those related to data management solutions",
+      "table": ["CompanyITPartnerDetail"]
+    },
+    {
+      "step": 3,
+      "task": "Retrieve the names and details of healthcare companies",
+      "table": ["CompanyInfo"]
+    }
+  ]
+}

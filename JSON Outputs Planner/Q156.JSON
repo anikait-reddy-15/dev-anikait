@@ -1,0 +1,21 @@
+{
+  "question": "How do hiring trends in data science relate to firms’ openness to exploring new vendor solutions in technology?",
+  "tables": ["CompanyHiringDetail", "CompanyVendorTechDetail"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Retrieve hiring trends in data science roles",
+      "table": ["CompanyHiringDetail"]
+    },
+    {
+      "step": 2,
+      "task": "Identify vendor solutions adopted by those firms",
+      "table": ["CompanyVendorTechDetail"]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the relationship between hiring trends and vendor openness",
+      "table": ["CompanyHiringDetail", "CompanyVendorTechDetail"]
+    }
+  ]
+}

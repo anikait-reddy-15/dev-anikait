@@ -1,0 +1,21 @@
+{
+  "question": "Which executives from fintech companies have posted about digital banking trends on LinkedIn in the last 3 months?",
+  "tables": ["PersonaUser", "PersonaLinkedinPost", "CompanyInfo"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify fintech companies. [CompanyInfo]",
+      "table": ["CompanyInfo"]
+    },
+    {
+      "step": 2,
+      "task": "Find executives from these companies. [PersonaUser]",
+      "table": ["PersonaUser"]
+    },
+    {
+      "step": 3,
+      "task": "Analyze LinkedIn posts for digital banking trends from these executives in the last 3 months. [PersonaLinkedinPost]",
+      "table": ["PersonaLinkedinPost"]
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "question": "What specific technologies are being phased out by companies that have announced recent leadership changes in their IT departments?",
+  "tables": ["CompanyManagementDetail", "CompanyTechStack"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies that have announced recent leadership changes in their IT departments. [CompanyManagementDetail]",
+      "table": ["CompanyManagementDetail"]
+    },
+    {
+      "step": 2,
+      "task": "Retrieve the technology stacks of those companies. [CompanyTechStack]",
+      "table": ["CompanyTechStack"]
+    },
+    {
+      "step": 3,
+      "task": "Analyze which technologies are being phased out based on the leadership changes. [CompanyTechStack]",
+      "table": ["CompanyTechStack"]
+    }
+  ]
+}

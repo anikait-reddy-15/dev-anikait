@@ -1,0 +1,16 @@
+{
+  "question": "Which social media platforms does LPL Financial actively use for outreach?",
+  "tables": ["SocialMediaInfo", "CompanyInfo"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify the Company ID for LPL Financial",
+      "table": ["CompanyInfo"]
+    },
+    {
+      "step": 2,
+      "task": "Retrieve active social media platforms associated with the Company ID from SocialMediaInfo",
+      "table": ["SocialMediaInfo"]
+    }
+  ]
+}

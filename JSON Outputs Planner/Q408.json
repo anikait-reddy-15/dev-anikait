@@ -1,0 +1,21 @@
+{
+  "question": "What are the key business trends in the technology sector according to companies that have actively participated in industry conferences?",
+  "tables": ["IndustryBusinessTrend", "CompanyInfo"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies that have actively participated in industry conferences. [CompanyInfo]",
+      "table": ["CompanyInfo"]
+    },
+    {
+      "step": 2,
+      "task": "Gather business trends reported by these companies. [IndustryBusinessTrend]",
+      "table": ["IndustryBusinessTrend"]
+    },
+    {
+      "step": 3,
+      "task": "Correlate the identified companies with their reported business trends. [IndustryBusinessTrend, CompanyInfo]",
+      "table": ["IndustryBusinessTrend", "CompanyInfo"]
+    }
+  ]
+}

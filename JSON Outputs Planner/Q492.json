@@ -1,0 +1,21 @@
+{
+  "question": "Which companies have both focused on customer experience and formed partnerships with CRM vendors?",
+  "tables": ["CompanyFocusAreaDetail", "CompanyVendorTechDetail"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies focused on customer experience. [CompanyFocusAreaDetail]",
+      "table": ["CompanyFocusAreaDetail"]
+    },
+    {
+      "step": 2,
+      "task": "Find companies partnered with CRM vendors. [CompanyVendorTechDetail]",
+      "table": ["CompanyVendorTechDetail"]
+    },
+    {
+      "step": 3,
+      "task": "Match companies from both lists. [CompanyFocusAreaDetail, CompanyVendorTechDetail]",
+      "table": ["CompanyFocusAreaDetail", "CompanyVendorTechDetail"]
+    }
+  ]
+}

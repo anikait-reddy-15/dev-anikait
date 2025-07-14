@@ -1,0 +1,21 @@
+{
+  "question": "Which vendors have been mentioned in connection with data-driven solutions by companies that are prominently hiring data scientists?",
+  "tables": ["CompanyVendorProductDetail", "CompanyHiringDetail", "PersonaUser"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies prominently hiring data scientists. [CompanyHiringDetail]",
+      "table": ["CompanyHiringDetail"]
+    },
+    {
+      "step": 2,
+      "task": "Extract vendor details related to data-driven solutions. [CompanyVendorProductDetail]",
+      "table": ["CompanyVendorProductDetail"]
+    },
+    {
+      "step": 3,
+      "task": "Match vendors to companies hiring data scientists. [CompanyHiringDetail, CompanyVendorProductDetail, PersonaUser]",
+      "table": ["CompanyHiringDetail", "CompanyVendorProductDetail", "PersonaUser"]
+    }
+  ]
+}

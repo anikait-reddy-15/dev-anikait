@@ -1,0 +1,21 @@
+{
+  "question": "Which organizations have made recent investments in machine learning platforms after hiring more data scientists?",
+  "tables": ["CompanyHiringDetail", "CompanyTechStack", "CompanyInfo"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify organizations that have recently hired more data scientists",
+      "table": ["CompanyHiringDetail"]
+    },
+    {
+      "step": 2,
+      "task": "Find investments in machine learning platforms made by these organizations",
+      "table": ["CompanyTechStack"]
+    },
+    {
+      "step": 3,
+      "task": "Compile a list of organizations that meet both criteria",
+      "table": ["CompanyHiringDetail", "CompanyTechStack"]
+    }
+  ]
+}

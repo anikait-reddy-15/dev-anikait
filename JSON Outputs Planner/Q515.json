@@ -1,0 +1,21 @@
+{
+  "question": "Which personas with 'Chief Data Officer' titles have actively participated in LinkedIn discussions about the future of technology in analytics while working for firms that recently altered their tech stack?",
+  "tables": ["PersonaLinkedinActivity", "CompanyTechStack", "PersonaUser"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify firms that recently altered their technology stacks. [CompanyTechStack]",
+      "table": ["CompanyTechStack"]
+    },
+    {
+      "step": 2,
+      "task": "Find personas with 'Chief Data Officer' titles at those firms. [PersonaUser]",
+      "table": ["PersonaUser"]
+    },
+    {
+      "step": 3,
+      "task": "Analyze LinkedIn activity for participation in analytics tech discussions. [PersonaLinkedinActivity]",
+      "table": ["PersonaLinkedinActivity"]
+    }
+  ]
+}

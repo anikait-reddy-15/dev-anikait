@@ -1,0 +1,25 @@
+{
+  "question": "Which businesses within the healthcare industry signed data storage vendor deals last year?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Filter healthcare companies using CompanyInfo",
+      "table": ["CompanyInfo"]
+    },
+    {
+      "step": 2,
+      "task": "Identify relevant vendor deals from last year in CompanyDealMaster",
+      "table": ["CompanyDealMaster"]
+    },
+    {
+      "step": 3,
+      "task": "Join with CompanyVendorProductDetail to find data storage related deals",
+      "table": ["CompanyVendorProductDetail"]
+    },
+    {
+      "step": 4,
+      "task": "List healthcare companies that signed such deals",
+      "table": ["CompanyInfo", "CompanyDealMaster", "CompanyVendorProductDetail"]
+    }
+  ]
+}

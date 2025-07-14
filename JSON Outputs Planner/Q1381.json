@@ -1,0 +1,20 @@
+{
+  "question": "Who are the key voices on Twitter shaping enterprise AI governance discourse?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Collect tweets related to AI governance, safety, and policy",
+      "table": ["PersonaTwitterTweets"]
+    },
+    {
+      "step": 2,
+      "task": "Identify accounts with consistent posting and high engagement",
+      "table": ["PersonaTwitterTweets"]
+    },
+    {
+      "step": 3,
+      "task": "Map these voices to roles and companies for enterprise relevance",
+      "table": ["PersonaTitle", "PersonaTwitterProfile"]
+    }
+  ]
+}

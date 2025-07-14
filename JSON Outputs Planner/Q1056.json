@@ -1,0 +1,20 @@
+{
+  "question": "Which firms are adopting agile methodologies in data science and have expressed these strategies through their social media?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Extract social media posts mentioning agile methodologies.",
+      "table": ["SocialMediaInfo"]
+    },
+    {
+      "step": 2,
+      "task": "Filter posts related to data science practices.",
+      "table": ["SocialMediaInfo"]
+    },
+    {
+      "step": 3,
+      "task": "Identify companies actively posting and aligning with agile.",
+      "table": ["CompanyFocusAreaDetail"]
+    }
+  ]
+}

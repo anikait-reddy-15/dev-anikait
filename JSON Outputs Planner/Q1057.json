@@ -1,0 +1,20 @@
+{
+  "question": "What security technologies are being adopted by organizations that emphasize data governance in their leadership discourse?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify organizations emphasizing data governance in leadership excerpts.",
+      "table": ["CompanyLeadershipExcerpt"]
+    },
+    {
+      "step": 2,
+      "task": "Cross-check security-related technologies adopted by those companies.",
+      "table": ["CompanyTechStack"]
+    },
+    {
+      "step": 3,
+      "task": "List commonly adopted security tools among those firms.",
+      "table": ["CompanyTechStack"]
+    }
+  ]
+}

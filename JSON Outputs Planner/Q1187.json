@@ -1,0 +1,20 @@
+{
+  "question": "Which companies have built scalable data pipelines and how are they described in internal communication excerpts?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies with technologies associated with data pipelines",
+      "table": ["CompanyTechStack"]
+    },
+    {
+      "step": 2,
+      "task": "Extract internal communications or leadership excerpts referencing scalability",
+      "table": ["CompanyLeadershipExcerpt"]
+    },
+    {
+      "step": 3,
+      "task": "Link pipeline technologies to companies and descriptions",
+      "table": ["CompanyTechStack"]
+    }
+  ]
+}

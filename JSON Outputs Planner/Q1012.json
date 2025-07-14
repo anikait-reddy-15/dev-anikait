@@ -1,0 +1,20 @@
+{
+  "question": "Which companies have significant social media interactions regarding their machine learning deployments and have also hosted tech meetups?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Find social media interactions mentioning machine learning deployments.",
+      "table": ["SocialMediaInfo"]
+    },
+    {
+      "step": 2,
+      "task": "Identify companies from those posts and check for hosted tech meetups.",
+      "table": ["CompanyFocusAreaDetail"]
+    },
+    {
+      "step": 3,
+      "task": "Cross-reference companies with both machine learning mentions and meetups.",
+      "table": ["SocialMediaInfo", "CompanyFocusAreaDetail"]
+    }
+  ]
+}

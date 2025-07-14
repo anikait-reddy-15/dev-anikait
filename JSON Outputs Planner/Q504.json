@@ -1,0 +1,21 @@
+{
+  "question": "Who are the top executives at companies that have seen a marked increase in engagement on LinkedIn and are focusing on sustainability initiatives?",
+  "tables": ["CompanyLeadershipExcerpt", "PersonaLinkedinActivity"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies with increased LinkedIn engagement. [PersonaLinkedinActivity]",
+      "table": ["PersonaLinkedinActivity"]
+    },
+    {
+      "step": 2,
+      "task": "Retrieve executive details from leadership excerpts. [CompanyLeadershipExcerpt]",
+      "table": ["CompanyLeadershipExcerpt"]
+    },
+    {
+      "step": 3,
+      "task": "Filter executives at companies focusing on sustainability. [CompanyLeadershipExcerpt, PersonaLinkedinActivity]",
+      "table": ["CompanyLeadershipExcerpt", "PersonaLinkedinActivity"]
+    }
+  ]
+}

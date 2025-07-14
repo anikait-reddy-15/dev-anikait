@@ -1,0 +1,20 @@
+{
+  "question": "Which companies have actively promoted ethical AI practices on LinkedIn and through vendor choices?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies whose personnel have posted about ethical AI on LinkedIn",
+      "table": ["PersonaLinkedinPost"]
+    },
+    {
+      "step": 2,
+      "task": "Match those companies with their vendor product engagements",
+      "table": ["CompanyVendorProductDetail"]
+    },
+    {
+      "step": 3,
+      "task": "Filter vendors known for promoting ethical AI",
+      "table": ["CompanyVendorProductDetail"]
+    }
+  ]
+}

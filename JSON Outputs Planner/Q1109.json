@@ -1,0 +1,20 @@
+{
+  "question": "Which vendor partnerships are being formed by companies looking to enhance their cybersecurity frameworks?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify vendor engagements related to cybersecurity",
+      "table": ["CompanyVendorTechDetail"]
+    },
+    {
+      "step": 2,
+      "task": "Find recent vendor deals involving cybersecurity",
+      "table": ["CompanyDealMaster"]
+    },
+    {
+      "step": 3,
+      "task": "List companies forming these partnerships",
+      "table": []
+    }
+  ]
+}

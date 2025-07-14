@@ -1,0 +1,21 @@
+{
+  "question": "Which companies have integrated AI-based fraud detection tools and increased hiring in risk management roles?",
+  "tables": ["CompanyTechStack", "CompanyHiringDetail"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies integrating AI-based fraud detection tools.",
+      "table": ["CompanyTechStack"]
+    },
+    {
+      "step": 2,
+      "task": "Find companies increasing hiring in risk management roles.",
+      "table": ["CompanyHiringDetail"]
+    },
+    {
+      "step": 3,
+      "task": "Cross-reference the two lists to identify matching companies.",
+      "table": ["CompanyTechStack", "CompanyHiringDetail"]
+    }
+  ]
+}

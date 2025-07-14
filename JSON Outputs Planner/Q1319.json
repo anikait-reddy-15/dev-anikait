@@ -1,0 +1,20 @@
+{
+  "question": "What are the analytics capabilities promoted in social campaigns by firms using advanced BI tools?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies using advanced BI tools in their tech stack",
+      "table": ["CompanyTechStack"]
+    },
+    {
+      "step": 2,
+      "task": "Extract social media campaigns of those companies",
+      "table": ["SocialMediaInfo"]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the analytics messaging and capabilities mentioned",
+      "table": ["SocialMediaInfo"]
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "question": "Who are the data science professionals posting tutorials about machine learning on YouTube?",
+  "tables": ["PersonaYoutubeProfile", "PersonaUser"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify YouTube profiles posting machine learning tutorials.",
+      "table": ["PersonaYoutubeProfile"]
+    },
+    {
+      "step": 2,
+      "task": "Link these profiles to data science professionals.",
+      "table": ["PersonaUser"]
+    }
+  ]
+}

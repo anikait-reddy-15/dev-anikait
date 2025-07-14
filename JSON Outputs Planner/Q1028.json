@@ -1,0 +1,20 @@
+{
+  "question": "Who are the prominent data scientists advising their companies on tech investments discussed in leadership meetings?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Review leadership excerpts mentioning tech investments.",
+      "table": ["CompanyLeadershipExcerpt"]
+    },
+    {
+      "step": 2,
+      "task": "Identify data scientists mentioned in advisory roles.",
+      "table": ["PersonaUser"]
+    },
+    {
+      "step": 3,
+      "task": "Link those data scientists to specific companies and roles.",
+      "table": ["PersonaUser", "CompanyLeadershipExcerpt"]
+    }
+  ]
+}

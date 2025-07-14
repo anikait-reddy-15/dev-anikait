@@ -1,0 +1,21 @@
+{
+  "question": "Which companies involved in data analysis are being publicly endorsed by vendors on social platforms?",
+  "tables": ["CompanyVendorProductDetail", "CompanySocialMediaInfo"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies involved in data analysis",
+      "table": ["CompanySocialMediaInfo"]
+    },
+    {
+      "step": 2,
+      "task": "Retrieve endorsements from vendors on social platforms",
+      "table": ["CompanyVendorProductDetail"]
+    },
+    {
+      "step": 3,
+      "task": "Compile a list of companies being publicly endorsed",
+      "table": ["CompanySocialMediaInfo", "CompanyVendorProductDetail"]
+    }
+  ]
+}

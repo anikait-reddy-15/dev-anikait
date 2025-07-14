@@ -1,0 +1,20 @@
+{
+  "question": "Which industries have leaders expressing optimism about the impact of cloud technologies?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify leadership excerpts discussing cloud technologies",
+      "table": ["CompanyLeadershipExcerpt"]
+    },
+    {
+      "step": 2,
+      "task": "Filter for excerpts with optimistic tone",
+      "table": []
+    },
+    {
+      "step": 3,
+      "task": "Match leaders to their industries",
+      "table": ["IndustryITTrend"]
+    }
+  ]
+}

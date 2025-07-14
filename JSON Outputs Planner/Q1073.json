@@ -1,0 +1,20 @@
+{
+  "question": "Who are the top contributors to discussions around data science ethics in various online forums and platforms?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify public profiles discussing data science ethics.",
+      "table": ["PersonaUser"]
+    },
+    {
+      "step": 2,
+      "task": "Extract metadata from miscellaneous forum activity.",
+      "table": ["PersonaMisc"]
+    },
+    {
+      "step": 3,
+      "task": "Rank contributors based on relevance and activity.",
+      "table": ["PersonaMisc"]
+    }
+  ]
+}

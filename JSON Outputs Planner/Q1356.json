@@ -1,0 +1,20 @@
+{
+  "question": "What vendor partnerships support responsible data practices among high-growth firms?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify firms with stated commitments to responsible data use",
+      "table": ["CompanyFocusAreaDetail"]
+    },
+    {
+      "step": 2,
+      "task": "Retrieve vendor details for those companies",
+      "table": ["CompanyVendorTechDetail"]
+    },
+    {
+      "step": 3,
+      "task": "Filter vendor types supporting governance, ethics, and compliance",
+      "table": ["CompanyVendorTechDetail"]
+    }
+  ]
+}

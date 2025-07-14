@@ -1,0 +1,21 @@
+{
+  "question": "Which firms have increased hiring for cloud architects while simultaneously adopting multi-cloud strategies?",
+  "tables": ["CompanyHiringDetail", "CompanyFocusAreaDetail"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify firms adopting multi-cloud strategies.",
+      "table": ["CompanyFocusAreaDetail"]
+    },
+    {
+      "step": 2,
+      "task": "Find firms increasing hiring for cloud architects.",
+      "table": ["CompanyHiringDetail"]
+    },
+    {
+      "step": 3,
+      "task": "Cross-reference the two lists for matching firms.",
+      "table": ["CompanyHiringDetail", "CompanyFocusAreaDetail"]
+    }
+  ]
+}

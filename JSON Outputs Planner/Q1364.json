@@ -1,0 +1,20 @@
+{
+  "question": "What social channels are being used by firms to communicate AI regulation updates?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Extract social media posts mentioning AI regulation, safety, or policy",
+      "table": ["SocialMediaInfo"]
+    },
+    {
+      "step": 2,
+      "task": "Categorize communication by platform (Twitter, LinkedIn, etc.)",
+      "table": ["SocialMediaInfo"]
+    },
+    {
+      "step": 3,
+      "task": "List firms with consistent regulatory content distribution",
+      "table": ["SocialMediaInfo"]
+    }
+  ]
+}

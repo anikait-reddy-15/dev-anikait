@@ -1,0 +1,16 @@
+{
+  "question": "Who are the key executives discussing AI ethics in their LinkedIn posts?",
+  "tables": ["PersonaLinkedinPost", "PersonaUser"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify LinkedIn posts about AI ethics.",
+      "table": ["PersonaLinkedinPost"]
+    },
+    {
+      "step": 2,
+      "task": "Link posts to key executives.",
+      "table": ["PersonaUser"]
+    }
+  ]
+}

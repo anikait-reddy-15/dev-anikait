@@ -1,0 +1,21 @@
+{
+  "question": "Which courier services are using AI to track package theft and prevent fraud during last-mile delivery?",
+  "tables": ["CompanyFocusAreaDetail", "CompanyInfo"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify courier and delivery companies using AI.",
+      "table": ["CompanyInfo"]
+    },
+    {
+      "step": 2,
+      "task": "Check for AI use in fraud prevention and delivery monitoring.",
+      "table": ["CompanyFocusAreaDetail"]
+    },
+    {
+      "step": 3,
+      "task": "List courier services enhancing security with AI.",
+      "table": ["CompanyFocusAreaDetail", "CompanyInfo"]
+    }
+  ]
+}

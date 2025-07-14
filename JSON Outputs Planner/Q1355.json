@@ -1,0 +1,20 @@
+{
+  "question": "Which firms are making transparent disclosures about algorithmic decision-making?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Search leadership excerpts and focus area content for references to algorithms or transparency",
+      "table": ["CompanyLeadershipExcerpt", "CompanyFocusAreaDetail"]
+    },
+    {
+      "step": 2,
+      "task": "Validate whether these references pertain to decision-making",
+      "table": ["CompanyLeadershipExcerpt"]
+    },
+    {
+      "step": 3,
+      "task": "List companies with clear disclosure practices",
+      "table": ["CompanyFocusAreaDetail", "CompanyLeadershipExcerpt"]
+    }
+  ]
+}

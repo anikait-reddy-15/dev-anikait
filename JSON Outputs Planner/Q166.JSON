@@ -1,0 +1,21 @@
+{
+  "question": "How do social media posts by executives reflect a company's commitment to integrating data ethics into their strategy?",
+  "tables": ["CompanySocialMediaInfo", "CompanyLeadershipExcerpt"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify executive posts discussing data ethics",
+      "table": ["CompanySocialMediaInfo"]
+    },
+    {
+      "step": 2,
+      "task": "Link posts to corresponding leadership excerpts on ethics strategy",
+      "table": ["CompanyLeadershipExcerpt"]
+    },
+    {
+      "step": 3,
+      "task": "Analyze consistency and depth of commitment to data ethics",
+      "table": ["CompanySocialMediaInfo", "CompanyLeadershipExcerpt"]
+    }
+  ]
+}

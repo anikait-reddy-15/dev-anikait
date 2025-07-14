@@ -1,0 +1,20 @@
+{
+  "question": "What LinkedIn themes are dominant among data leaders influencing IT strategy shifts?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Retrieve LinkedIn posts by users with data leadership roles",
+      "table": ["PersonaLinkedinPost", "PersonaTitle"]
+    },
+    {
+      "step": 2,
+      "task": "Filter for posts that mention or imply IT strategy changes",
+      "table": ["PersonaLinkedinPost"]
+    },
+    {
+      "step": 3,
+      "task": "Summarize dominant themes or recurring topics",
+      "table": ["PersonaLinkedinPost"]
+    }
+  ]
+}

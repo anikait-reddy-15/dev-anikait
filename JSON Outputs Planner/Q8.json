@@ -1,0 +1,26 @@
+{
+  "question": "Which leadership changes at LPL Financial might influence its approach to digital transformation efforts?",
+  "tables": ["CompanyFocusAreaDetail", "CompanyManagementDetail", "CompanyInfo"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify focus areas related to digital transformation",
+      "table": ["CompanyFocusAreaDetail"]
+    },
+    {
+      "step": 2,
+      "task": "Extract leaders with digital, transformation, or tech roles",
+      "table": ["CompanyManagementDetail"]
+    },
+    {
+      "step": 3,
+      "task": "Filter by LPL Financial’s Company ID",
+      "table": ["CompanyInfo"]
+    },
+    {
+      "step": 4,
+      "task": "Correlate strategy and leadership dynamics",
+      "table": []
+    }
+  ]
+}

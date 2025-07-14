@@ -1,0 +1,21 @@
+{
+  "question": "Which personas with “Director of Data Science” titles have engaged with competitor posts on Twitter in the last 30 days?",
+  "tables": ["PersonaTwitterProfile", "PersonaTitle", "PersonaTwitterTweets"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify personas with the title 'Director of Data Science'",
+      "table": ["PersonaTitle"]
+    },
+    {
+      "step": 2,
+      "task": "Find Twitter engagement data for these personas in the last 30 days",
+      "table": ["PersonaTwitterProfile", "PersonaTwitterTweets"]
+    },
+    {
+      "step": 3,
+      "task": "Filter for engagements specifically with competitor posts",
+      "table": ["PersonaTwitterTweets"]
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "question": "Which companies have retrained employees on AI tools after major digital transformation initiatives?",
+  "tables": ["CompanyFocusAreaDetail", "CompanyHiringDetail"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies undergoing major digital transformation initiatives.",
+      "table": ["CompanyFocusAreaDetail"]
+    },
+    {
+      "step": 2,
+      "task": "Find those that have retrained employees on AI tools.",
+      "table": ["CompanyHiringDetail"]
+    },
+    {
+      "step": 3,
+      "task": "Cross-match the two sets of companies.",
+      "table": ["CompanyFocusAreaDetail", "CompanyHiringDetail"]
+    }
+  ]
+}

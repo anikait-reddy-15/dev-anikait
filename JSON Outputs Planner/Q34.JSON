@@ -1,0 +1,16 @@
+{
+  "question": "How many active social media channels does Gantherm have for marketing?",
+  "tables": ["SocialMediaInfo", "CompanyInfo"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify the Company ID for Gantherm from CompanyInfo",
+      "table": ["CompanyInfo"]
+    },
+    {
+      "step": 2,
+      "task": "Count the number of active social media channels associated with the Company ID from SocialMediaInfo",
+      "table": ["SocialMediaInfo"]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "question": "Which financial institutions have active LinkedIn personas posting about open banking and have signed deals with fintech vendors?",
+  "tables": ["CompanyInfo", "PersonaLinkedinPost", "CompanyVendorTechDetail"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify financial institutions. [CompanyInfo]",
+      "table": ["CompanyInfo"]
+    },
+    {
+      "step": 2,
+      "task": "Find LinkedIn personas posting about open banking. [PersonaLinkedinPost]",
+      "table": ["PersonaLinkedinPost"]
+    },
+    {
+      "step": 3,
+      "task": "Identify deals with fintech vendors. [CompanyVendorTechDetail]",
+      "table": ["CompanyVendorTechDetail"]
+    },
+    {
+      "step": 4,
+      "task": "Combine all datasets to find matching institutions. [CompanyInfo, PersonaLinkedinPost, CompanyVendorTechDetail]",
+      "table": ["CompanyInfo", "PersonaLinkedinPost", "CompanyVendorTechDetail"]
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "question": "What is the tech stack of companies that have published YouTube videos on data science best practices?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify YouTube content related to data science best practices.",
+      "table": ["CompanyYoutubeDetail"]
+    },
+    {
+      "step": 2,
+      "task": "Get companies that published those videos.",
+      "table": ["CompanyYoutubeDetail"]
+    },
+    {
+      "step": 3,
+      "task": "Fetch their complete technology stacks.",
+      "table": ["CompanyTechStack"]
+    }
+  ]
+}

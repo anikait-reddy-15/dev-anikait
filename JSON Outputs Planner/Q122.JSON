@@ -1,0 +1,21 @@
+{
+  "question": "How are recent vendor partnerships influencing the technology stacks of firms in the healthcare sector?",
+  "tables": ["CompanyVendorTechDetail", "CompanyTechStack"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify vendor partnerships in the healthcare sector",
+      "table": ["CompanyVendorTechDetail"]
+    },
+    {
+      "step": 2,
+      "task": "Retrieve technology stacks of firms involved in these partnerships",
+      "table": ["CompanyTechStack"]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the influence of these partnerships on technology stacks",
+      "table": ["CompanyVendorTechDetail", "CompanyTechStack"]
+    }
+  ]
+}

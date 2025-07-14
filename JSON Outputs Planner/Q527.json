@@ -1,0 +1,21 @@
+{
+  "question": "Which companies have shared insights on data privacy in their social media posts and also have partnerships with compliance technology vendors?",
+  "tables": ["SocialMediaInfo", "CompanyVendorTechDetail"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify social media posts that mention data privacy. [SocialMediaInfo]",
+      "table": ["SocialMediaInfo"]
+    },
+    {
+      "step": 2,
+      "task": "Extract Company IDs from the identified social media posts. [SocialMediaInfo]",
+      "table": ["SocialMediaInfo"]
+    },
+    {
+      "step": 3,
+      "task": "Find companies that have partnerships with compliance technology vendors using the extracted Company IDs. [CompanyVendorTechDetail]",
+      "table": ["CompanyVendorTechDetail"]
+    }
+  ]
+}

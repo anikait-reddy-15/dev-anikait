@@ -1,0 +1,21 @@
+{
+  "question": "Which vendors are supplying bias mitigation tools to companies focusing on responsible AI?",
+  "tables": ["CompanyFocusAreaDetail", "CompanyVendorTechDetail"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies focusing on responsible AI.",
+      "table": ["CompanyFocusAreaDetail"]
+    },
+    {
+      "step": 2,
+      "task": "Find vendors supplying bias mitigation tools to these companies.",
+      "table": ["CompanyVendorTechDetail"]
+    },
+    {
+      "step": 3,
+      "task": "Cross-match vendors with responsible AI-focused companies.",
+      "table": ["CompanyFocusAreaDetail", "CompanyVendorTechDetail"]
+    }
+  ]
+}

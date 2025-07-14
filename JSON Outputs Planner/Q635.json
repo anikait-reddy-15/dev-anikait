@@ -1,0 +1,21 @@
+{
+  "question": "Who are the key data science leaders at companies with recent leadership changes?",
+  "tables": ["PersonaUser", "PersonaTitle", "CompanyManagementDetail"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies with recent leadership changes.",
+      "table": ["CompanyManagementDetail"]
+    },
+    {
+      "step": 2,
+      "task": "Find data science leaders at these companies.",
+      "table": ["PersonaUser", "PersonaTitle"]
+    },
+    {
+      "step": 3,
+      "task": "Match the data science leaders to the companies with leadership changes.",
+      "table": ["PersonaUser", "CompanyManagementDetail"]
+    }
+  ]
+}

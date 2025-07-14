@@ -1,0 +1,20 @@
+{
+  "question": "Which companies have narrated their data journey in blogs and what themes are recurring in their narratives?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Extract blog and written content from PersonaMisc",
+      "table": ["PersonaMisc"]
+    },
+    {
+      "step": 2,
+      "task": "Identify companies associated with these blogs from CompanyInfo",
+      "table": ["CompanyInfo"]
+    },
+    {
+      "step": 3,
+      "task": "Categorize recurring themes like governance, ML, privacy, etc.",
+      "table": ["PersonaMisc"]
+    }
+  ]
+}

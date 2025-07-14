@@ -1,0 +1,20 @@
+{
+  "question": "Which data scientists are contributing to open-source projects related to AI ethics?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify open-source contributions related to AI ethics from public bios or interview content",
+      "table": ["PersonaMisc"]
+    },
+    {
+      "step": 2,
+      "task": "Match contributors to their professional data scientist profiles",
+      "table": ["PersonaUser"]
+    },
+    {
+      "step": 3,
+      "task": "List those actively contributing to AI ethics-focused projects",
+      "table": ["PersonaMisc"]
+    }
+  ]
+}

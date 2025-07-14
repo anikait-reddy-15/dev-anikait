@@ -1,0 +1,21 @@
+{
+  "question": "Which companies have mentioned adopting Snowflake in their tech stack in the past 3 months?",
+  "tables": ["CompanyTechStack", "CompanyInfo"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Filter companies that have adopted Snowflake in their tech stack",
+      "table": ["CompanyTechStack"]
+    },
+    {
+      "step": 2,
+      "task": "Identify the companies that have made these mentions in the last 3 months",
+      "table": ["CompanyTechStack"]
+    },
+    {
+      "step": 3,
+      "task": "Retrieve detailed information about the identified companies",
+      "table": ["CompanyInfo"]
+    }
+  ]
+}

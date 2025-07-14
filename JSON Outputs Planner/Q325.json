@@ -1,0 +1,21 @@
+{
+  "question": "Which social media platforms are being utilized by data scientists to promote their companies' latest tech innovations and research contributions?",
+  "tables": ["PersonaTwitterProfile", "PersonaFacebook", "CompanyTechStack"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify data scientists' social media profiles on Twitter and Facebook. [PersonaTwitterProfile, PersonaFacebook]",
+      "table": ["PersonaTwitterProfile", "PersonaFacebook"]
+    },
+    {
+      "step": 2,
+      "task": "Gather information on the latest tech innovations and research contributions from their companies. [CompanyTechStack]",
+      "table": ["CompanyTechStack"]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the social media activity to determine which platforms are being used for promotion. [PersonaTwitterProfile, PersonaFacebook]",
+      "table": ["PersonaTwitterProfile", "PersonaFacebook"]
+    }
+  ]
+}

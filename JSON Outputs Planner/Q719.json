@@ -1,0 +1,21 @@
+{
+  "question": "Which companies have posted YouTube videos on AI-powered automation and simultaneously reported increases in IT budget allocation?",
+  "tables": ["CompanyYoutubeDetail", "CompanyInfo"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies posting YouTube videos on AI-powered automation.",
+      "table": ["CompanyYoutubeDetail"]
+    },
+    {
+      "step": 2,
+      "task": "Find companies with increased IT budget allocations.",
+      "table": ["CompanyInfo"]
+    },
+    {
+      "step": 3,
+      "task": "Cross-reference companies matching both criteria.",
+      "table": ["CompanyYoutubeDetail", "CompanyInfo"]
+    }
+  ]
+}

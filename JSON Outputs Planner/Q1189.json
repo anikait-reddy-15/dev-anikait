@@ -1,0 +1,20 @@
+{
+  "question": "What are the top concerns expressed by leadership in firms implementing AI-driven decision systems?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies using AI in decision systems",
+      "table": ["CompanyTechStack"]
+    },
+    {
+      "step": 2,
+      "task": "Extract leadership excerpts discussing AI and automation",
+      "table": ["CompanyLeadershipExcerpt"]
+    },
+    {
+      "step": 3,
+      "task": "Summarize concerns related to implementation, ethics, or outcomes",
+      "table": ["CompanyLeadershipExcerpt"]
+    }
+  ]
+}

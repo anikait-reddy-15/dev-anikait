@@ -1,0 +1,20 @@
+{
+  "question": "Which organizations are aligning cloud-native architecture with diversity hiring initiatives?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies with cloud-native tech stack elements",
+      "table": ["CompanyTechStack"]
+    },
+    {
+      "step": 2,
+      "task": "Find companies promoting diversity in hiring",
+      "table": ["CompanyHiringDetail"]
+    },
+    {
+      "step": 3,
+      "task": "Intersect the companies appearing in both criteria",
+      "table": ["CompanyTechStack", "CompanyHiringDetail"]
+    }
+  ]
+}

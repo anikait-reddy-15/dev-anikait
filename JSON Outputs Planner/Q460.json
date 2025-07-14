@@ -1,0 +1,21 @@
+{
+  "question": "How do data visualization tools compare among companies that have posted job openings for business analysts and engaged with relevant social media hashtags?",
+  "tables": ["CompanyHiringDetail", "CompanyTechStack", "SocialMediaInfo"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies that have posted job openings for business analysts. [CompanyHiringDetail]",
+      "table": ["CompanyHiringDetail"]
+    },
+    {
+      "step": 2,
+      "task": "Gather information on relevant social media hashtags related to business analysis. [SocialMediaInfo]",
+      "table": ["SocialMediaInfo"]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the data visualization tools used by the identified companies. [CompanyTechStack]",
+      "table": ["CompanyTechStack"]
+    }
+  ]
+}

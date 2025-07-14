@@ -1,0 +1,21 @@
+{
+  "question": "What are the hiring trends for data science roles at companies that have initiated new social media marketing campaigns?",
+  "tables": ["CompanyHiringDetail", "CompanyFocusAreaDetail", "CompanyFacebookDetail"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies that have initiated new social media marketing campaigns from the CompanyFacebookDetail table. [CompanyFacebookDetail]",
+      "table": ["CompanyFacebookDetail"]
+    },
+    {
+      "step": 2,
+      "task": "Gather hiring details for data science roles from the CompanyHiringDetail table. [CompanyHiringDetail]",
+      "table": ["CompanyHiringDetail"]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the hiring trends specifically for data science roles in the identified companies. [CompanyHiringDetail, CompanyFacebookDetail]",
+      "table": ["CompanyHiringDetail", "CompanyFacebookDetail"]
+    }
+  ]
+}

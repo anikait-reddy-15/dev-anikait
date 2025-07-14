@@ -1,0 +1,20 @@
+{
+  "question": "Which firms promote algorithmic transparency through open-source contributions?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Analyze leadership mentions of open-sourcing AI models or toolkits",
+      "table": ["CompanyLeadershipExcerpt"]
+    },
+    {
+      "step": 2,
+      "task": "Check social media content for open-source repository links",
+      "table": ["SocialMediaInfo"]
+    },
+    {
+      "step": 3,
+      "task": "Identify firms using open source to promote algorithmic transparency",
+      "table": ["CompanyLeadershipExcerpt", "SocialMediaInfo"]
+    }
+  ]
+}

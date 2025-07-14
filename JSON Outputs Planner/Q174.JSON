@@ -1,0 +1,21 @@
+{
+  "question": "What technology-related conversations are prevalent among executives managing firms with substantial social media engagement?",
+  "tables": ["CompanySocialMediaInfo", "CompanyLeadershipExcerpt"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify executives managing firms with active social media presence",
+      "table": ["CompanySocialMediaInfo"]
+    },
+    {
+      "step": 2,
+      "task": "Retrieve leadership excerpts that include technology discussions",
+      "table": ["CompanyLeadershipExcerpt"]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the excerpts to extract prevalent technology-related themes",
+      "table": ["CompanySocialMediaInfo", "CompanyLeadershipExcerpt"]
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "question": "Which companies in the automotive sector are using AI to improve driver behavior analysis?",
+  "tables": ["CompanyFocusAreaDetail", "CompanyInfo"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies in the automotive sector.",
+      "table": ["CompanyInfo"]
+    },
+    {
+      "step": 2,
+      "task": "Filter those using AI for behavior analytics.",
+      "table": ["CompanyFocusAreaDetail"]
+    },
+    {
+      "step": 3,
+      "task": "Match automotive firms to AI behavior use cases.",
+      "table": ["CompanyInfo", "CompanyFocusAreaDetail"]
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "question": "What is the relationship between job postings for data scientists and the overall tech stack of companies?",
+  "tables": ["CompanyHiringDetail", "CompanyTechStack"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify job postings for data scientists",
+      "table": ["CompanyHiringDetail"]
+    },
+    {
+      "step": 2,
+      "task": "Retrieve the overall tech stack of companies posting these jobs",
+      "table": ["CompanyTechStack"]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the relationship between job postings and tech stacks",
+      "table": ["CompanyHiringDetail", "CompanyTechStack"]
+    }
+  ]
+}

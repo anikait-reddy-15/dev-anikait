@@ -1,0 +1,21 @@
+{
+  "question": "Which companies are utilizing Kubernetes in their tech stack and have recently posted about their hiring for data science positions?",
+  "tables": ["CompanyTechStack", "CompanyHiringDetail"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies that are using Kubernetes in their tech stack. [CompanyTechStack]",
+      "table": ["CompanyTechStack"]
+    },
+    {
+      "step": 2,
+      "task": "Find recent hiring posts related to data science positions. [CompanyHiringDetail]",
+      "table": ["CompanyHiringDetail"]
+    },
+    {
+      "step": 3,
+      "task": "Filter the companies that match both criteria from steps 1 and 2. [CompanyTechStack, CompanyHiringDetail]",
+      "table": ["CompanyTechStack", "CompanyHiringDetail"]
+    }
+  ]
+}

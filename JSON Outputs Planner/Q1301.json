@@ -1,0 +1,20 @@
+{
+  "question": "Which companies have shifted their investment toward data engineering as reflected in their hiring trends and vendor partnerships?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies with hiring trends related to data engineering roles",
+      "table": ["CompanyHiringDetail"]
+    },
+    {
+      "step": 2,
+      "task": "Filter companies with new or increased vendor partnerships",
+      "table": ["CompanyVendorTechDetail"]
+    },
+    {
+      "step": 3,
+      "task": "Correlate hiring trends with vendor partnerships to identify investment shifts",
+      "table": ["CompanyHiringDetail", "CompanyVendorTechDetail"]
+    }
+  ]
+}

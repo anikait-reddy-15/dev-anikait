@@ -1,0 +1,20 @@
+{
+  "question": "What leadership changes have coincided with significant technology investments in information security?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Find companies with new leadership appointments",
+      "table": ["CompanyManagementDetail"]
+    },
+    {
+      "step": 2,
+      "task": "Filter companies investing in information security technologies",
+      "table": ["CompanyTechStack"]
+    },
+    {
+      "step": 3,
+      "task": "Identify temporal correlation between leadership changes and investments",
+      "table": []
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "question": "Which technologies are highlighted by data engineering leaders when discussing industry benchmarks?",
+  "tables": ["PersonaUser", "IndustryITTrend", "CompanyTechStack"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify data engineering leaders discussing industry benchmarks",
+      "table": ["PersonaUser"]
+    },
+    {
+      "step": 2,
+      "task": "Retrieve technology mentions from these discussions",
+      "table": ["IndustryITTrend"]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the technology mentions to summarize key highlights",
+      "table": ["CompanyTechStack"]
+    }
+  ]
+}

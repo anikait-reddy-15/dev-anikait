@@ -1,0 +1,20 @@
+{
+  "question": "What leadership changes have coincided with significant technology investments in information security?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies investing in information security from CompanyTechStack",
+      "table": ["CompanyTechStack"]
+    },
+    {
+      "step": 2,
+      "task": "Get leadership change records from CompanyManagementDetail",
+      "table": ["CompanyManagementDetail"]
+    },
+    {
+      "step": 3,
+      "task": "Match the timelines of tech investments with leadership transitions",
+      "table": ["CompanyTechStack", "CompanyManagementDetail"]
+    }
+  ]
+}

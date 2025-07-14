@@ -1,0 +1,25 @@
+{
+  "question": "What methodologies are being adopted by companies enhancing their data quality assurance processes?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Find companies focusing on data governance from CompanyFocusAreaDetail",
+      "table": ["CompanyFocusAreaDetail"]
+    },
+    {
+      "step": 2,
+      "task": "Retrieve tools or frameworks from CompanyTechStack",
+      "table": ["CompanyTechStack"]
+    },
+    {
+      "step": 3,
+      "task": "Extract industry practices from IndustryBusinessTrend",
+      "table": ["IndustryBusinessTrend"]
+    },
+    {
+      "step": 4,
+      "task": "Identify commonly adopted data quality methodologies",
+      "table": ["CompanyTechStack", "IndustryBusinessTrend"]
+    }
+  ]
+}

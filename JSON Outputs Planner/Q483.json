@@ -1,0 +1,26 @@
+{
+  "question": "Which financial institutions have posted job openings for cybersecurity analysts and adopted Zero Trust architecture in their tech stack?",
+  "tables": ["CompanyHiringDetail", "CompanyTechStack", "CompanyInfo"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify financial institutions. [CompanyInfo]",
+      "table": ["CompanyInfo"]
+    },
+    {
+      "step": 2,
+      "task": "Find companies hiring for cybersecurity analysts. [CompanyHiringDetail]",
+      "table": ["CompanyHiringDetail"]
+    },
+    {
+      "step": 3,
+      "task": "Find companies that adopted Zero Trust architecture. [CompanyTechStack]",
+      "table": ["CompanyTechStack"]
+    },
+    {
+      "step": 4,
+      "task": "Intersect all three to find qualifying companies. [CompanyInfo, CompanyHiringDetail, CompanyTechStack]",
+      "table": ["CompanyInfo", "CompanyHiringDetail", "CompanyTechStack"]
+    }
+  ]
+}

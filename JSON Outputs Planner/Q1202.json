@@ -1,0 +1,25 @@
+{
+  "question": "Who are the key executives at firms that have recently shifted towards data-driven customer engagement platforms?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Find companies with recent adoption of data-driven customer engagement platforms",
+      "table": ["CompanyTechStack"]
+    },
+    {
+      "step": 2,
+      "task": "Retrieve associated company IDs and names",
+      "table": ["CompanyInfo"]
+    },
+    {
+      "step": 3,
+      "task": "Identify key executives within those companies",
+      "table": ["CompanyLeadershipExcerpt"]
+    },
+    {
+      "step": 4,
+      "task": "Filter executives based on involvement with technology or customer strategy",
+      "table": ["CompanyLeadershipExcerpt"]
+    }
+  ]
+}

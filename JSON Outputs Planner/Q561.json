@@ -1,0 +1,21 @@
+{
+  "question": "What technologies are predominantly leveraged by companies that recently featured their leadership's viewpoint on sustainability practices?",
+  "tables": ["CompanyTechStack", "CompanyLeadershipExcerpt"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies that have featured leadership viewpoints on sustainability practices. [CompanyLeadershipExcerpt]",
+      "table": ["CompanyLeadershipExcerpt"]
+    },
+    {
+      "step": 2,
+      "task": "Extract the tech stacks of these companies to see what technologies they leverage. [CompanyTechStack]",
+      "table": ["CompanyTechStack"]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the tech stacks to determine predominant technologies. [CompanyTechStack]",
+      "table": ["CompanyTechStack"]
+    }
+  ]
+}

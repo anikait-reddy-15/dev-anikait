@@ -1,0 +1,21 @@
+{
+  "question": "Which companies with a recent focus on AI have leaders that talk about data-driven decision-making in their public statements?",
+  "tables": ["CompanyLeadershipExcerpt", "CompanyFocusAreaDetail", "CompanyInfo"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies that have a recent focus on AI from the [CompanyFocusAreaDetail] table.",
+      "table": ["CompanyFocusAreaDetail"]
+    },
+    {
+      "step": 2,
+      "task": "Extract public statements from leaders that mention data-driven decision-making from the [CompanyLeadershipExcerpt] table.",
+      "table": ["CompanyLeadershipExcerpt"]
+    },
+    {
+      "step": 3,
+      "task": "Match the identified companies with the leadership excerpts to find relevant companies.",
+      "table": ["CompanyInfo"]
+    }
+  ]
+}

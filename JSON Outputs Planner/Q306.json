@@ -1,0 +1,21 @@
+{
+  "question": "What are the strategic focus areas of companies that have recently signed deals with emerging technology vendors?",
+  "tables": ["CompanyDealMaster", "CompanyFocusAreaDetail"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies that have recently signed deals with emerging technology vendors. [CompanyDealMaster]",
+      "table": ["CompanyDealMaster"]
+    },
+    {
+      "step": 2,
+      "task": "Extract the strategic focus areas for the identified companies. [CompanyFocusAreaDetail]",
+      "table": ["CompanyFocusAreaDetail"]
+    },
+    {
+      "step": 3,
+      "task": "Combine the results to present the strategic focus areas related to the recent deals. [CompanyFocusAreaDetail]",
+      "table": ["CompanyFocusAreaDetail"]
+    }
+  ]
+}

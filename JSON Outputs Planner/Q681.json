@@ -1,0 +1,21 @@
+{
+  "question": "What technology vendors are most frequently partnered with by companies expanding their AI capabilities?",
+  "tables": ["CompanyDealMaster", "CompanyFocusAreaDetail"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies expanding their AI capabilities.",
+      "table": ["CompanyFocusAreaDetail"]
+    },
+    {
+      "step": 2,
+      "task": "Find technology vendors partnered with those companies.",
+      "table": ["CompanyDealMaster"]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the frequency of vendor partnerships.",
+      "table": ["CompanyDealMaster", "CompanyFocusAreaDetail"]
+    }
+  ]
+}

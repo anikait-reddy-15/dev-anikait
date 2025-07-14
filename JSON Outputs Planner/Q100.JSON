@@ -1,0 +1,21 @@
+{
+  "question": "What insights from industry business trends influence the strategic focus areas of data-centric companies?",
+  "tables": ["IndustryBusinessTrend", "CompanyFocusAreaDetail"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify industry business trends relevant to data-centric companies",
+      "table": ["IndustryBusinessTrend"]
+    },
+    {
+      "step": 2,
+      "task": "Retrieve focus areas of data-centric companies",
+      "table": ["CompanyFocusAreaDetail"]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the insights to determine influences on strategic focus areas",
+      "table": ["IndustryBusinessTrend", "CompanyFocusAreaDetail"]
+    }
+  ]
+}

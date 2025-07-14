@@ -1,0 +1,21 @@
+{
+  "question": "Which organizations have recently made deals with cybersecurity vendors and are emphasizing leadership changes in their public-facing content?",
+  "tables": ["CompanyDealMaster", "CompanyVendorTechDetail", "CompanyLeadershipExcerpt"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify organizations that have made recent deals with cybersecurity vendors",
+      "table": ["CompanyDealMaster", "CompanyVendorTechDetail"]
+    },
+    {
+      "step": 2,
+      "task": "Extract leadership changes emphasized in public communications",
+      "table": ["CompanyLeadershipExcerpt"]
+    },
+    {
+      "step": 3,
+      "task": "Combine the results to find organizations with both criteria",
+      "table": ["CompanyDealMaster", "CompanyLeadershipExcerpt"]
+    }
+  ]
+}

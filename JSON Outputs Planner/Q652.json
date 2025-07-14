@@ -1,0 +1,16 @@
+{
+  "question": "Who are the key IT decision-makers discussing cloud security challenges on Twitter?",
+  "tables": ["PersonaTwitterProfile", "PersonaUser"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify Twitter posts discussing cloud security challenges.",
+      "table": ["PersonaTwitterProfile"]
+    },
+    {
+      "step": 2,
+      "task": "Link these posts to IT decision-makers.",
+      "table": ["PersonaUser"]
+    }
+  ]
+}

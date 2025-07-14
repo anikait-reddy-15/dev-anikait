@@ -1,0 +1,20 @@
+{
+  "question": "Which companies have created internal committees for AI governance?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Analyze leadership excerpts and strategy documents for mentions of AI governance committees",
+      "table": ["CompanyLeadershipExcerpt", "CompanyFocusAreaDetail"]
+    },
+    {
+      "step": 2,
+      "task": "Validate committee formation via organizational leadership or management updates",
+      "table": ["CompanyManagementDetail"]
+    },
+    {
+      "step": 3,
+      "task": "List companies with explicit internal structures for overseeing responsible AI",
+      "table": ["CompanyLeadershipExcerpt", "CompanyManagementDetail"]
+    }
+  ]
+}

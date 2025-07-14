@@ -1,0 +1,20 @@
+{
+  "question": "What technologies are most prevalent among companies actively engaging with industry trends on their Facebook pages?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies actively engaging in industry trend discussions on Facebook.",
+      "table": ["CompanyFacebookDetail"]
+    },
+    {
+      "step": 2,
+      "task": "Get their corresponding technology stacks.",
+      "table": ["CompanyTechStack"]
+    },
+    {
+      "step": 3,
+      "task": "Aggregate technologies to find most prevalent ones.",
+      "table": []
+    }
+  ]
+}

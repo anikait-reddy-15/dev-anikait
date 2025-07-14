@@ -1,0 +1,21 @@
+{
+  "question": "Which insurance companies are implementing AI to automate claims adjudication and fraud detection?",
+  "tables": ["CompanyFocusAreaDetail", "CompanyInfo"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify insurance companies.",
+      "table": ["CompanyInfo"]
+    },
+    {
+      "step": 2,
+      "task": "Find AI use in claims automation and fraud detection.",
+      "table": ["CompanyFocusAreaDetail"]
+    },
+    {
+      "step": 3,
+      "task": "Match insurance companies using AI in these functions.",
+      "table": ["CompanyFocusAreaDetail", "CompanyInfo"]
+    }
+  ]
+}

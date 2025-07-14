@@ -1,0 +1,21 @@
+{
+  "question": "Which companies that have engaged with a significant number of recent Facebook campaigns are also investing heavily in cybersecurity measures?",
+  "tables": ["CompanyFacebookDetail", "CompanyFocusAreaDetail", "CompanyVendorTechDetail"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies that have engaged with a significant number of recent Facebook campaigns. [CompanyFacebookDetail]",
+      "table": ["CompanyFacebookDetail"]
+    },
+    {
+      "step": 2,
+      "task": "Find companies that are investing heavily in cybersecurity measures. [CompanyVendorTechDetail]",
+      "table": ["CompanyVendorTechDetail"]
+    },
+    {
+      "step": 3,
+      "task": "Combine the data from both steps to identify companies meeting both criteria. [CompanyFocusAreaDetail, CompanyVendorTechDetail]",
+      "table": ["CompanyFocusAreaDetail", "CompanyVendorTechDetail"]
+    }
+  ]
+}

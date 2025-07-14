@@ -1,0 +1,21 @@
+{
+  "question": "What are the AI-related focus areas in companies that also lead in cloud-native infrastructure development?",
+  "tables": ["CompanyFocusAreaDetail", "CompanyTechStack"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies with cloud-native infrastructure leadership.",
+      "table": ["CompanyTechStack"]
+    },
+    {
+      "step": 2,
+      "task": "Extract AI-related focus areas for these companies.",
+      "table": ["CompanyFocusAreaDetail"]
+    },
+    {
+      "step": 3,
+      "task": "Combine AI focus with cloud-native adoption.",
+      "table": ["CompanyFocusAreaDetail", "CompanyTechStack"]
+    }
+  ]
+}

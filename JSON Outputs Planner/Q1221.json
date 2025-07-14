@@ -1,0 +1,20 @@
+{
+  "question": "Which industries are leading in the adoption of DevOps practices according to recent company reports?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Extract company DevOps adoption details from CompanyTechStack",
+      "table": ["CompanyTechStack"]
+    },
+    {
+      "step": 2,
+      "task": "Join with industry data in CompanyInfo",
+      "table": ["CompanyInfo"]
+    },
+    {
+      "step": 3,
+      "task": "Group and rank industries by adoption level",
+      "table": ["CompanyTechStack", "CompanyInfo"]
+    }
+  ]
+}

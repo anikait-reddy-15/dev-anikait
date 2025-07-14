@@ -1,0 +1,26 @@
+{
+  "question": "How does Neeraj Gambhir's experience at Axis Bank influence their technology investments?",
+  "tables": ["CompanyManagementDetail", "PersonaLinkedInProfile"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify Neeraj Gambhir in the Management Table",
+      "table": ["CompanyManagementDetail"]
+    },
+    {
+      "step": 2,
+      "task": "Pull His Career and Tech Background from LinkedIn Profile",
+      "table": ["PersonaLinkedInProfile"]
+    },
+    {
+      "step": 3,
+      "task": "Analyze Title to Gauge Strategic Influence",
+      "table": []
+    },
+    {
+      "step": 4,
+      "task": "Combine Role + Background",
+      "table": ["CompanyManagementDetail", "PersonaLinkedInProfile"]
+    }
+  ]
+}

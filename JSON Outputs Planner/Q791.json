@@ -1,0 +1,21 @@
+{
+  "question": "Which startups have implemented AI for personalized customer engagement and received recent funding?",
+  "tables": ["CompanyFocusAreaDetail", "CompanyDealMaster"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify startups implementing AI for personalized customer engagement.",
+      "table": ["CompanyFocusAreaDetail"]
+    },
+    {
+      "step": 2,
+      "task": "Find those that received recent funding.",
+      "table": ["CompanyDealMaster"]
+    },
+    {
+      "step": 3,
+      "task": "Match startups from both groups.",
+      "table": ["CompanyFocusAreaDetail", "CompanyDealMaster"]
+    }
+  ]
+}

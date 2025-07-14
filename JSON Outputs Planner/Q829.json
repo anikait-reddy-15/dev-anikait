@@ -1,0 +1,21 @@
+{
+  "question": "Which energy companies are utilizing AI for smart grid management and predictive load balancing?",
+  "tables": ["CompanyFocusAreaDetail", "CompanyTechStack"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify energy companies using AI.",
+      "table": ["CompanyFocusAreaDetail"]
+    },
+    {
+      "step": 2,
+      "task": "Check for use cases in grid management and load balancing.",
+      "table": ["CompanyFocusAreaDetail"]
+    },
+    {
+      "step": 3,
+      "task": "Map technology stack to those use cases.",
+      "table": ["CompanyTechStack", "CompanyFocusAreaDetail"]
+    }
+  ]
+}

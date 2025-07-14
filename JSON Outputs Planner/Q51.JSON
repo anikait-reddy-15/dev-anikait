@@ -1,0 +1,21 @@
+{
+  "question": "Which companies in the fintech industry are implementing Robotic Process Automation and digital banking strategies?",
+  "tables": ["IndustryITTrend", "LookUpValue"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify fintech companies implementing Robotic Process Automation from industry trends",
+      "table": ["IndustryITTrend"]
+    },
+    {
+      "step": 2,
+      "task": "Identify fintech companies implementing digital banking strategies from industry trends",
+      "table": ["IndustryITTrend"]
+    },
+    {
+      "step": 3,
+      "task": "Cross-reference the two sets of fintech companies to find common entities",
+      "table": ["IndustryITTrend"]
+    }
+  ]
+}

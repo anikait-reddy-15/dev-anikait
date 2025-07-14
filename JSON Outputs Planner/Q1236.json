@@ -1,0 +1,20 @@
+{
+  "question": "What emerging trends in data privacy are being adopted by financial institutions this fiscal year?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Filter financial institutions from CompanyInfo",
+      "table": ["CompanyInfo"]
+    },
+    {
+      "step": 2,
+      "task": "Get industry-level data privacy trends from IndustryITTrend",
+      "table": ["IndustryITTrend"]
+    },
+    {
+      "step": 3,
+      "task": "Match adopted trends by financial companies to industry-wide movements",
+      "table": ["CompanyInfo", "IndustryITTrend"]
+    }
+  ]
+}

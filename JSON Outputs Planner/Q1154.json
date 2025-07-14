@@ -1,0 +1,20 @@
+{
+  "question": "What tech stack innovations are prevalent among companies that have announced new data initiatives?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies with recent data initiative announcements",
+      "table": ["CompanyInfo"]
+    },
+    {
+      "step": 2,
+      "task": "Extract tech stack changes or additions for these companies",
+      "table": ["CompanyTechStack"]
+    },
+    {
+      "step": 3,
+      "task": "List prevalent or innovative technologies adopted",
+      "table": []
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "question": "What are the common technologies adopted by companies that recently signed analytics deals and have strong LinkedIn engagement?",
+  "tables": ["CompanyTechStack", "CompanyDealMaster", "PersonaLinkedinPost"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies that signed recent analytics deals. [CompanyDealMaster]",
+      "table": ["CompanyDealMaster"]
+    },
+    {
+      "step": 2,
+      "task": "Find companies with strong LinkedIn engagement. [PersonaLinkedinPost]",
+      "table": ["PersonaLinkedinPost"]
+    },
+    {
+      "step": 3,
+      "task": "Analyze common technologies used by these companies. [CompanyTechStack]",
+      "table": ["CompanyTechStack"]
+    }
+  ]
+}

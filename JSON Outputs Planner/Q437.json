@@ -1,0 +1,21 @@
+{
+  "question": "Which companies have shown a shift in their technology stack towards open-source solutions in conjunction with social media campaigns about innovation?",
+  "tables": ["CompanyTechStack", "SocialMediaInfo"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies that have shifted their technology stack towards open-source solutions. [CompanyTechStack]",
+      "table": ["CompanyTechStack"]
+    },
+    {
+      "step": 2,
+      "task": "Identify social media campaigns related to innovation. [SocialMediaInfo]",
+      "table": ["SocialMediaInfo"]
+    },
+    {
+      "step": 3,
+      "task": "Match the companies from the technology stack shift with those involved in innovation campaigns. [CompanyTechStack, SocialMediaInfo]",
+      "table": ["CompanyTechStack", "SocialMediaInfo"]
+    }
+  ]
+}

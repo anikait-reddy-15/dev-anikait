@@ -1,0 +1,20 @@
+{
+  "question": "Who are the major voices in data science creating discussion around cloud computing challenges on LinkedIn?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Extract LinkedIn posts discussing cloud computing challenges.",
+      "table": ["PersonaLinkedinPost"]
+    },
+    {
+      "step": 2,
+      "task": "Identify the users behind these posts.",
+      "table": ["PersonaLinkedinPost"]
+    },
+    {
+      "step": 3,
+      "task": "Match users with data science leadership roles.",
+      "table": ["PersonaTitle"]
+    }
+  ]
+}

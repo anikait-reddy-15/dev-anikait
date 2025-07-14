@@ -1,0 +1,21 @@
+{
+  "question": "Who are the data science experts at companies that engaged in partnerships with machine learning technology providers?",
+  "tables": ["PersonaUser", "CompanyITPartnerDetail", "CompanyTechStack"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify machine learning technology providers from IT partnerships. [CompanyITPartnerDetail]",
+      "table": ["CompanyITPartnerDetail"]
+    },
+    {
+      "step": 2,
+      "task": "Gather data science experts from user profiles. [PersonaUser]",
+      "table": ["PersonaUser"]
+    },
+    {
+      "step": 3,
+      "task": "Match experts with companies partnered with machine learning providers. [CompanyITPartnerDetail, PersonaUser, CompanyTechStack]",
+      "table": ["CompanyITPartnerDetail", "PersonaUser", "CompanyTechStack"]
+    }
+  ]
+}

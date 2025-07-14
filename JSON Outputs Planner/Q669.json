@@ -1,0 +1,16 @@
+{
+  "question": "What are the recent technology upgrades discussed in leadership interviews within the healthcare industry?",
+  "tables": ["CompanyLeadershipExcerpt", "CompanyInfo"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify leadership interviews from healthcare companies.",
+      "table": ["CompanyLeadershipExcerpt", "CompanyInfo"]
+    },
+    {
+      "step": 2,
+      "task": "Extract discussions about recent technology upgrades.",
+      "table": ["CompanyLeadershipExcerpt"]
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "question": "Who are the key players in defining data governance policies in firms that are undergoing significant IT transformations?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies undergoing IT transformation.",
+      "table": ["CompanyFocusAreaDetail"]
+    },
+    {
+      "step": 2,
+      "task": "Extract leadership excerpts mentioning data governance.",
+      "table": ["CompanyLeadershipExcerpt"]
+    },
+    {
+      "step": 3,
+      "task": "Map leadership roles to those governance discussions.",
+      "table": ["CompanyLeadershipExcerpt"]
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "question": "Which companies focus on AI in their board meetings and how do they communicate about these strategies to the public?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Find companies where leadership excerpts mention AI in board meetings.",
+      "table": ["CompanyLeadershipExcerpt"]
+    },
+    {
+      "step": 2,
+      "task": "Extract public-facing communications about AI.",
+      "table": ["CompanyTechStack"]
+    },
+    {
+      "step": 3,
+      "task": "Compare internal discussions and external communication.",
+      "table": ["CompanyLeadershipExcerpt", "CompanyTechStack"]
+    }
+  ]
+}

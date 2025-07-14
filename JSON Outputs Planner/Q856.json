@@ -1,0 +1,21 @@
+{
+  "question": "Which companies are using AI to detect insider threats and suspicious activity within internal IT systems?",
+  "tables": ["CompanyFocusAreaDetail", "CompanyInfo"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies using AI for cybersecurity.",
+      "table": ["CompanyFocusAreaDetail"]
+    },
+    {
+      "step": 2,
+      "task": "Filter for insider threat detection and internal surveillance.",
+      "table": ["CompanyFocusAreaDetail"]
+    },
+    {
+      "step": 3,
+      "task": "List companies using AI for internal IT threat management.",
+      "table": ["CompanyFocusAreaDetail", "CompanyInfo"]
+    }
+  ]
+}

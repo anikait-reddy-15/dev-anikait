@@ -1,0 +1,20 @@
+{
+  "question": "What are the analytics tools commonly used by data scientists in organizations that recently upgraded their IT infrastructure?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies that recently upgraded their IT infrastructure.",
+      "table": ["CompanyDataCenter"]
+    },
+    {
+      "step": 2,
+      "task": "Get the company IDs from those upgrades.",
+      "table": ["CompanyDataCenter"]
+    },
+    {
+      "step": 3,
+      "task": "Extract analytics tools from their tech stacks.",
+      "table": ["CompanyTechStack"]
+    }
+  ]
+}

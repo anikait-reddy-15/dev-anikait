@@ -1,0 +1,21 @@
+{
+  "question": "Which companies have embedded AI into their cybersecurity platforms for real-time threat detection?",
+  "tables": ["CompanyTechStack", "CompanyFocusAreaDetail"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies using AI in cybersecurity.",
+      "table": ["CompanyFocusAreaDetail"]
+    },
+    {
+      "step": 2,
+      "task": "Filter those with real-time threat detection capabilities.",
+      "table": ["CompanyFocusAreaDetail"]
+    },
+    {
+      "step": 3,
+      "task": "Map AI-enabled cybersecurity tools to company tech stacks.",
+      "table": ["CompanyTechStack", "CompanyFocusAreaDetail"]
+    }
+  ]
+}

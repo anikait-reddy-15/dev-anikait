@@ -1,0 +1,21 @@
+{
+  "question": "Which C-level executives have made public statements about AI transformation at companies undergoing large-scale AI implementation?",
+  "tables": ["CompanyLeadershipExcerpt", "CompanyFocusAreaDetail"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies undergoing large-scale AI implementation.",
+      "table": ["CompanyFocusAreaDetail"]
+    },
+    {
+      "step": 2,
+      "task": "Extract public statements made by C-level executives at these companies.",
+      "table": ["CompanyLeadershipExcerpt"]
+    },
+    {
+      "step": 3,
+      "task": "Match statements to relevant C-level leaders and companies.",
+      "table": ["CompanyFocusAreaDetail", "CompanyLeadershipExcerpt"]
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "question": "Which firms are showcasing their data science capabilities on Instagram, and what technologies are they using?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify Instagram activity related to data science capabilities.",
+      "table": ["CompanyInstagramDetail"]
+    },
+    {
+      "step": 2,
+      "task": "List companies from those Instagram posts.",
+      "table": ["CompanyInstagramDetail"]
+    },
+    {
+      "step": 3,
+      "task": "Extract the technologies used by those companies.",
+      "table": ["CompanyTechStack"]
+    }
+  ]
+}

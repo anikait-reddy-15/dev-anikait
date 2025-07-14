@@ -1,0 +1,21 @@
+{
+  "question": "Which personas with titles related to data science are sharing insights on Twitter that reflect their companies' new technology partnerships?",
+  "tables": ["PersonaTwitterProfile", "PersonaTwitterTweets", "CompanyITPartnerDetail"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify Twitter profiles of personas with data science-related titles",
+      "table": ["PersonaTwitterProfile"]
+    },
+    {
+      "step": 2,
+      "task": "Extract tweets from these personas that discuss technology partnerships",
+      "table": ["PersonaTwitterTweets"]
+    },
+    {
+      "step": 3,
+      "task": "Link the tweets to their respective companies' technology partnerships",
+      "table": ["CompanyITPartnerDetail"]
+    }
+  ]
+}

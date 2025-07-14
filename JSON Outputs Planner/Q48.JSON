@@ -1,0 +1,21 @@
+{
+  "question": "Which companies are investing in AI technologies while simultaneously promoting sustainability initiatives?",
+  "tables": ["IndustryITTrend", "LookUpValue"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies investing in AI technologies from industry trends",
+      "table": ["IndustryITTrend"]
+    },
+    {
+      "step": 2,
+      "task": "Identify companies promoting sustainability initiatives from industry trends",
+      "table": ["IndustryITTrend"]
+    },
+    {
+      "step": 3,
+      "task": "Cross-reference the two sets of companies to find common entities",
+      "table": ["IndustryITTrend"]
+    }
+  ]
+}

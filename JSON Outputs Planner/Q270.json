@@ -1,0 +1,21 @@
+{
+  "question": "Which personas engaged with posts related to machine learning while representing companies that have signed recent strategic partnerships in the tech field?",
+  "tables": ["PersonaLinkedinPost", "CompanyDealMaster", "PersonaUser"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies that have signed recent strategic partnerships from the [CompanyDealMaster] table.",
+      "table": ["CompanyDealMaster"]
+    },
+    {
+      "step": 2,
+      "task": "Extract posts related to machine learning from the [PersonaLinkedinPost] table.",
+      "table": ["PersonaLinkedinPost"]
+    },
+    {
+      "step": 3,
+      "task": "Match personas who engaged with machine learning posts to the identified companies from the [PersonaUser] table.",
+      "table": ["PersonaUser"]
+    }
+  ]
+}

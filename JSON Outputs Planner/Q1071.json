@@ -1,0 +1,20 @@
+{
+  "question": "How do recent technology investments correlate with the hiring of senior data science roles within organizations?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies with recent tech investments.",
+      "table": ["CompanyTechStack"]
+    },
+    {
+      "step": 2,
+      "task": "Find hiring data for senior-level data science positions.",
+      "table": ["CompanyHiringDetail"]
+    },
+    {
+      "step": 3,
+      "task": "Analyze correlations between hiring and tech investments.",
+      "table": ["CompanyTechStack", "CompanyHiringDetail"]
+    }
+  ]
+}

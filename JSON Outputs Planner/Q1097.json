@@ -1,0 +1,20 @@
+{
+  "question": "How do recent shifts in hiring practices for data scientists link to long-term technology goals within organizations?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Extract recent hiring patterns for data roles.",
+      "table": ["CompanyHiringDetail"]
+    },
+    {
+      "step": 2,
+      "task": "Analyze stated technology goals of those companies.",
+      "table": ["CompanyTechStack"]
+    },
+    {
+      "step": 3,
+      "task": "Connect hiring practices to stated tech priorities.",
+      "table": ["CompanyHiringDetail", "CompanyTechStack"]
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "question": "What social media platforms are preferred by data science leaders in organizations that actively recruit talent?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies actively recruiting based on CompanyHiringDetail",
+      "table": ["CompanyHiringDetail"]
+    },
+    {
+      "step": 2,
+      "task": "Filter for data science leaders in those companies from PersonaUser",
+      "table": ["PersonaUser"]
+    },
+    {
+      "step": 3,
+      "task": "Analyze platform usage from SocialMediaInfo",
+      "table": ["SocialMediaInfo"]
+    }
+  ]
+}

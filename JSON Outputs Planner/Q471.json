@@ -1,0 +1,26 @@
+{
+  "question": "Which firms have expanded into new markets and have emphasized digital transformation in both hiring and public communications?",
+  "tables": ["CompanyInfo", "CompanyHiringDetail", "CompanyLeadershipExcerpt"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify firms that have recently expanded into new markets. [CompanyInfo]",
+      "table": ["CompanyInfo"]
+    },
+    {
+      "step": 2,
+      "task": "Find companies with hiring activity related to digital transformation roles. [CompanyHiringDetail]",
+      "table": ["CompanyHiringDetail"]
+    },
+    {
+      "step": 3,
+      "task": "Analyze public communications that mention digital transformation. [CompanyLeadershipExcerpt]",
+      "table": ["CompanyLeadershipExcerpt"]
+    },
+    {
+      "step": 4,
+      "task": "Cross-reference companies that meet all criteria. [CompanyInfo, CompanyHiringDetail, CompanyLeadershipExcerpt]",
+      "table": ["CompanyInfo", "CompanyHiringDetail", "CompanyLeadershipExcerpt"]
+    }
+  ]
+}

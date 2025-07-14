@@ -1,0 +1,21 @@
+{
+  "question": "Which insurance firms are using AI to deliver dynamic policy pricing based on user behavior and sensor data?",
+  "tables": ["CompanyFocusAreaDetail", "CompanyInfo"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify insurance companies using AI.",
+      "table": ["CompanyInfo"]
+    },
+    {
+      "step": 2,
+      "task": "Check for AI in behavioral pricing and sensor analytics.",
+      "table": ["CompanyFocusAreaDetail"]
+    },
+    {
+      "step": 3,
+      "task": "List insurers applying AI to personalize premiums.",
+      "table": ["CompanyFocusAreaDetail", "CompanyInfo"]
+    }
+  ]
+}

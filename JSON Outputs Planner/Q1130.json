@@ -1,0 +1,20 @@
+{
+  "question": "What topics are frequently highlighted in the YouTube videos of data science professionals?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Extract video metadata and descriptions",
+      "table": ["PersonaYoutubeProfile"]
+    },
+    {
+      "step": 2,
+      "task": "Map videos to data science professionals",
+      "table": ["CompanyInfo"]
+    },
+    {
+      "step": 3,
+      "task": "Analyze content themes and extract commonly discussed topics",
+      "table": []
+    }
+  ]
+}

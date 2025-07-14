@@ -1,0 +1,21 @@
+{
+  "question": "What trends are visible in AI strategy updates among firms that have received government AI grants?",
+  "tables": ["CompanyFocusAreaDetail", "CompanyDealMaster"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify firms that received government AI grants.",
+      "table": ["CompanyDealMaster"]
+    },
+    {
+      "step": 2,
+      "task": "Extract AI strategy updates from these firms.",
+      "table": ["CompanyFocusAreaDetail"]
+    },
+    {
+      "step": 3,
+      "task": "Analyze trends in their AI strategies.",
+      "table": ["CompanyDealMaster", "CompanyFocusAreaDetail"]
+    }
+  ]
+}

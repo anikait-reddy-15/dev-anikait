@@ -1,0 +1,20 @@
+{
+  "question": "How are vendor products aligning with transparency and fairness goals of enterprises?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies with transparency/fairness goals in strategic content",
+      "table": ["CompanyFocusAreaDetail"]
+    },
+    {
+      "step": 2,
+      "task": "Match companies to vendor products in use",
+      "table": ["CompanyVendorProductDetail"]
+    },
+    {
+      "step": 3,
+      "task": "Analyze alignment between product use and ethical focus areas",
+      "table": ["CompanyVendorProductDetail", "CompanyFocusAreaDetail"]
+    }
+  ]
+}

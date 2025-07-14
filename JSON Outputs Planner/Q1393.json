@@ -1,0 +1,20 @@
+{
+  "question": "Who are the data scientists speaking about model auditability in enterprise AI?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Review Twitter and LinkedIn content from data scientists discussing auditability and monitoring",
+      "table": ["PersonaTwitterTweets", "PersonaLinkedinPost"]
+    },
+    {
+      "step": 2,
+      "task": "Identify personas whose posts highlight model transparency, reproducibility, or audit practices",
+      "table": ["PersonaTwitterTweets", "PersonaLinkedinPost"]
+    },
+    {
+      "step": 3,
+      "task": "List individuals and summarize their contributions",
+      "table": ["PersonaTwitterTweets", "PersonaLinkedinPost"]
+    }
+  ]
+}

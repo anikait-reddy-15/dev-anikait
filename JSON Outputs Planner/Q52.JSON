@@ -1,0 +1,21 @@
+{
+  "question": "Which companies are implementing Office 365 for enhanced remote work capabilities?",
+  "tables": ["CompanyITPartnerDetail", "CompanyInfo"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies that have partnered with Office 365 for remote work solutions",
+      "table": ["CompanyITPartnerDetail"]
+    },
+    {
+      "step": 2,
+      "task": "Filter the results to include only companies that focus on enhanced remote work capabilities",
+      "table": ["CompanyITPartnerDetail"]
+    },
+    {
+      "step": 3,
+      "task": "Retrieve the company names and details from the CompanyInfo table",
+      "table": ["CompanyInfo"]
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "question": "Which firms are emphasizing cybersecurity in their data strategy discussions reported on Twitter?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies with Twitter activity discussing data strategy.",
+      "table": ["CompanyTwitterDetail"]
+    },
+    {
+      "step": 2,
+      "task": "Extract cybersecurity-related mentions from their Twitter posts.",
+      "table": ["CompanyTwitterDetail"]
+    },
+    {
+      "step": 3,
+      "task": "Link Twitter discussion to each firm's overall data strategy.",
+      "table": ["CompanyFocusAreaDetail"]
+    }
+  ]
+}

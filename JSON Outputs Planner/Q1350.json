@@ -1,0 +1,20 @@
+{
+  "question": "How do AI regulation topics impact partnership strategies in major firms?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify leadership excerpts or focus areas referencing AI regulation",
+      "table": ["CompanyLeadershipExcerpt", "CompanyFocusAreaDetail"]
+    },
+    {
+      "step": 2,
+      "task": "Retrieve vendor and partner details for those firms",
+      "table": ["CompanyVendorTechDetail", "CompanyITPartnerDetail"]
+    },
+    {
+      "step": 3,
+      "task": "Analyze how partnership strategies align with regulatory discussions",
+      "table": ["CompanyVendorTechDetail", "CompanyITPartnerDetail"]
+    }
+  ]
+}

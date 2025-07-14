@@ -1,0 +1,20 @@
+{
+  "question": "Which leaders are advocating for AI-first business models in their published statements?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Extract leadership excerpts referencing AI-first approaches",
+      "table": ["CompanyLeadershipExcerpt"]
+    },
+    {
+      "step": 2,
+      "task": "Map these statements to relevant organizations",
+      "table": ["CompanyInfo"]
+    },
+    {
+      "step": 3,
+      "task": "Summarize core positions and implications of the AI-first approach",
+      "table": ["CompanyLeadershipExcerpt"]
+    }
+  ]
+}

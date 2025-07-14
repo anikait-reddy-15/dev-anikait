@@ -1,0 +1,21 @@
+{
+  "question": "What are the key focuses for the IT industry in 2023 based on recent trends?",
+  "tables": ["IndustryITTrend"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Retrieve all recent trends from the IT industry for the year 2023",
+      "table": ["IndustryITTrend"]
+    },
+    {
+      "step": 2,
+      "task": "Filter the trends to identify key focuses or themes",
+      "table": ["IndustryITTrend"]
+    },
+    {
+      "step": 3,
+      "task": "Summarize the key focuses identified from the trends",
+      "table": ["IndustryITTrend"]
+    }
+  ]
+}

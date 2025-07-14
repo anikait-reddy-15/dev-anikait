@@ -1,0 +1,20 @@
+{
+  "question": "What technologies and tools are featured in job postings by firms undergoing digital transformations in their data practices?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Find firms with hiring posts referencing digital transformation.",
+      "table": ["CompanyHiringDetail"]
+    },
+    {
+      "step": 2,
+      "task": "Link those firms to their tech stack usage.",
+      "table": ["CompanyTechStack"]
+    },
+    {
+      "step": 3,
+      "task": "Extract commonly featured technologies and tools.",
+      "table": ["CompanyTechStack"]
+    }
+  ]
+}

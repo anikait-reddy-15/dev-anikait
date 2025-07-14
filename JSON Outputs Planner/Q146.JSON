@@ -1,0 +1,21 @@
+{
+  "question": "How do hiring practices for data specialists in retail organizations change with shifts in technology partnerships?",
+  "tables": ["CompanyHiringDetail", "CompanyITPartnerDetail"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify technology partnerships formed by retail organizations",
+      "table": ["CompanyITPartnerDetail"]
+    },
+    {
+      "step": 2,
+      "task": "Retrieve hiring data related to data specialists in these organizations",
+      "table": ["CompanyHiringDetail"]
+    },
+    {
+      "step": 3,
+      "task": "Analyze how hiring practices change with partnership shifts",
+      "table": ["CompanyHiringDetail", "CompanyITPartnerDetail"]
+    }
+  ]
+}

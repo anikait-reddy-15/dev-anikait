@@ -1,0 +1,21 @@
+{
+  "question": "Which smart city projects are integrating AI for dynamic traffic signal management and emergency vehicle prioritization?",
+  "tables": ["CompanyFocusAreaDetail", "CompanyInfo"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify smart city projects using AI.",
+      "table": ["CompanyInfo"]
+    },
+    {
+      "step": 2,
+      "task": "Check for use in traffic systems and emergency routing.",
+      "table": ["CompanyFocusAreaDetail"]
+    },
+    {
+      "step": 3,
+      "task": "List projects implementing AI in traffic intelligence.",
+      "table": ["CompanyFocusAreaDetail", "CompanyInfo"]
+    }
+  ]
+}

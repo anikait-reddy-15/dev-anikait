@@ -1,0 +1,20 @@
+{
+  "question": "Which executives have actively promoted agile transformation on both leadership channels and social platforms?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Find leadership excerpts referencing agile transformation",
+      "table": ["CompanyLeadershipExcerpt"]
+    },
+    {
+      "step": 2,
+      "task": "Identify executives also posting about agile on social media",
+      "table": ["SocialMediaInfo"]
+    },
+    {
+      "step": 3,
+      "task": "Cross-reference names across both data sources",
+      "table": ["CompanyLeadershipExcerpt", "SocialMediaInfo"]
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "question": "Which companies have prioritized investments in artificial intelligence technologies according to their company leadership excerpts?",
+  "tables": ["CompanyLeadershipExcerpt", "CompanyTechStack"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Extract leadership excerpts that mention artificial intelligence investments.",
+      "table": ["CompanyLeadershipExcerpt"]
+    },
+    {
+      "step": 2,
+      "task": "Identify companies that have a tech stack related to artificial intelligence.",
+      "table": ["CompanyTechStack"]
+    },
+    {
+      "step": 3,
+      "task": "Match companies from the leadership excerpts with those identified in the tech stack.",
+      "table": ["CompanyLeadershipExcerpt", "CompanyTechStack"]
+    }
+  ]
+}

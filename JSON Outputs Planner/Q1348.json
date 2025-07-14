@@ -1,0 +1,20 @@
+{
+  "question": "What kind of IT partners are favored by firms adopting ethical innovation frameworks?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies referencing ethical innovation or frameworks in focus areas",
+      "table": ["CompanyFocusAreaDetail"]
+    },
+    {
+      "step": 2,
+      "task": "Extract IT partners associated with these companies",
+      "table": ["CompanyITPartnerDetail"]
+    },
+    {
+      "step": 3,
+      "task": "Classify IT partners by solution type or industry",
+      "table": ["CompanyITPartnerDetail"]
+    }
+  ]
+}

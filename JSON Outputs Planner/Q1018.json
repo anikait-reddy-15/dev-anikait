@@ -1,0 +1,20 @@
+{
+  "question": "Who are the front-running data scientists discussing advanced analytics on Twitter while employed at global tech firms?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify Twitter users posting about advanced analytics.",
+      "table": ["PersonaTwitterProfile"]
+    },
+    {
+      "step": 2,
+      "task": "Map those personas to employment at global tech companies.",
+      "table": ["PersonaUser"]
+    },
+    {
+      "step": 3,
+      "task": "Confirm data science roles from user titles.",
+      "table": ["PersonaUser"]
+    }
+  ]
+}

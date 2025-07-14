@@ -1,0 +1,21 @@
+{
+  "question": "How does the changing landscape of technology adoption affect the hiring strategies for data science roles at tech companies?",
+  "tables": ["CompanyHiringDetail", "CompanyTechStack"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Track changes in technology adoption among tech firms",
+      "table": ["CompanyTechStack"]
+    },
+    {
+      "step": 2,
+      "task": "Identify corresponding shifts in data science hiring strategies",
+      "table": ["CompanyHiringDetail"]
+    },
+    {
+      "step": 3,
+      "task": "Analyze relationship between adoption trends and hiring behavior",
+      "table": ["CompanyHiringDetail", "CompanyTechStack"]
+    }
+  ]
+}

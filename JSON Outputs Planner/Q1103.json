@@ -1,0 +1,20 @@
+{
+  "question": "What are the responsibilities of data scientists at organizations that are heavily investing in data analytics tools?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies using data analytics tools",
+      "table": ["CompanyTechStack"]
+    },
+    {
+      "step": 2,
+      "task": "Extract user profiles with data scientist roles",
+      "table": ["PersonaUser"]
+    },
+    {
+      "step": 3,
+      "task": "Summarize roles and responsibilities from user data",
+      "table": []
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "question": "Which personas have engaged with discussions related to machine learning and belong to companies investing in new data center technologies?",
+  "tables": ["PersonaMisc", "CompanyDataCenter", "CompanyTechStack"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies investing in new data center technologies. [CompanyDataCenter]",
+      "table": ["CompanyDataCenter"]
+    },
+    {
+      "step": 2,
+      "task": "Gather personas that have engaged in discussions about machine learning. [PersonaMisc]",
+      "table": ["PersonaMisc"]
+    },
+    {
+      "step": 3,
+      "task": "Cross-reference the personas with the companies identified in step 1. [PersonaMisc, CompanyDataCenter]",
+      "table": ["PersonaMisc", "CompanyDataCenter"]
+    }
+  ]
+}

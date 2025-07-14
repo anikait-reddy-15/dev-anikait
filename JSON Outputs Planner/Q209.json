@@ -1,0 +1,21 @@
+{
+  "question": "Which personas have discussed their company’s digital transformation efforts on LinkedIn and what specific technologies are they referring to?",
+  "tables": ["PersonaLinkedinPost", "CompanyTechStack", "PersonaUser"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify LinkedIn posts discussing digital transformation efforts",
+      "table": ["PersonaLinkedinPost"]
+    },
+    {
+      "step": 2,
+      "task": "Extract the personas associated with these posts",
+      "table": ["PersonaUser"]
+    },
+    {
+      "step": 3,
+      "task": "Identify the specific technologies mentioned in relation to digital transformation",
+      "table": ["CompanyTechStack"]
+    }
+  ]
+}

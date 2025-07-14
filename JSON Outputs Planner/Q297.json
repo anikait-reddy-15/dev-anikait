@@ -1,0 +1,21 @@
+{
+  "question": "Which data scientists have recently engaged with social media posts about evolving technologies within the logistics industry?",
+  "tables": ["PersonaUser", "PersonaTwitterProfile", "SectionData"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify social media posts related to evolving technologies in the logistics industry. [SectionData]",
+      "table": ["SectionData"]
+    },
+    {
+      "step": 2,
+      "task": "Find data scientists who have engaged with these posts. [PersonaTwitterProfile]",
+      "table": ["PersonaTwitterProfile"]
+    },
+    {
+      "step": 3,
+      "task": "Link the engaged data scientists to their user profiles for further details. [PersonaUser]",
+      "table": ["PersonaUser"]
+    }
+  ]
+}

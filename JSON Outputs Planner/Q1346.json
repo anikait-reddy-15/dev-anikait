@@ -1,0 +1,20 @@
+{
+  "question": "What are the preferred vendor types for companies hiring for AI governance roles?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies with AI governance or oversight-related job roles",
+      "table": ["CompanyHiringDetail"]
+    },
+    {
+      "step": 2,
+      "task": "Retrieve vendor relationships for these companies",
+      "table": ["CompanyVendorTechDetail"]
+    },
+    {
+      "step": 3,
+      "task": "Categorize vendors by type (cloud, audit, analytics, etc.)",
+      "table": ["CompanyVendorTechDetail"]
+    }
+  ]
+}

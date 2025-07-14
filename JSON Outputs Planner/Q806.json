@@ -1,0 +1,21 @@
+{
+  "question": "Which AI governance frameworks are most cited by companies implementing LLMs in production?",
+  "tables": ["CompanyFocusAreaDetail", "CompanyBlogDetail"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies using large language models (LLMs) in production.",
+      "table": ["CompanyFocusAreaDetail"]
+    },
+    {
+      "step": 2,
+      "task": "Extract AI governance frameworks mentioned in blogs.",
+      "table": ["CompanyBlogDetail"]
+    },
+    {
+      "step": 3,
+      "task": "Find most frequently cited governance frameworks among these companies.",
+      "table": ["CompanyFocusAreaDetail", "CompanyBlogDetail"]
+    }
+  ]
+}

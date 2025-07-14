@@ -1,0 +1,21 @@
+{
+  "question": "What recent trends have been highlighted by leaders in companies that have adopted a multi-cloud strategy?",
+  "tables": ["CompanyLeadershipExcerpt", "CompanyTechStack"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies that have adopted a multi-cloud strategy",
+      "table": ["CompanyTechStack"]
+    },
+    {
+      "step": 2,
+      "task": "Extract leadership excerpts related to trends from the identified companies",
+      "table": ["CompanyLeadershipExcerpt"]
+    },
+    {
+      "step": 3,
+      "task": "Filter the leadership excerpts to highlight recent trends",
+      "table": ["CompanyLeadershipExcerpt"]
+    }
+  ]
+}

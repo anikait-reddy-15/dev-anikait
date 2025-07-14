@@ -1,0 +1,11 @@
+{
+  "question": "What are the trending technologies mentioned by companies in their recent YouTube videos?",
+  "tables": ["CompanyYoutubeDetail"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Extract technology mentions from recent YouTube videos.",
+      "table": ["CompanyYoutubeDetail"]
+    }
+  ]
+}

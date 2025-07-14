@@ -1,0 +1,21 @@
+{
+  "question": "Who are the leadership figures that have publicly shared their thoughts on cloud technologies in their social media posts?",
+  "tables": ["CompanyLeadershipExcerpt", "PersonaLinkedinPost"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify leadership figures who have made social media posts about cloud technologies",
+      "table": ["PersonaLinkedinPost"]
+    },
+    {
+      "step": 2,
+      "task": "Extract relevant excerpts from leadership figures that discuss cloud technologies",
+      "table": ["CompanyLeadershipExcerpt"]
+    },
+    {
+      "step": 3,
+      "task": "Match the leadership figures with their corresponding social media posts",
+      "table": ["CompanyLeadershipExcerpt", "PersonaLinkedinPost"]
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "question": "Which vendors are supplying scheduling solutions to LPL Financial?",
+  "tables": ["CompanyVendorProductDetail", "CompanyInfo"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify the Company ID for LPL Financial from CompanyInfo",
+      "table": ["CompanyInfo"]
+    },
+    {
+      "step": 2,
+      "task": "Retrieve vendors supplying scheduling solutions from CompanyVendorProductDetail using the Company ID",
+      "table": ["CompanyVendorProductDetail"]
+    }
+  ]
+}

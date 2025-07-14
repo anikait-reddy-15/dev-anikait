@@ -1,0 +1,20 @@
+{
+  "question": "What insights can be derived from the LinkedIn posts of data scientists about shifting market demands?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Extract LinkedIn posts of data scientists from PersonaLinkedinPost",
+      "table": ["PersonaLinkedinPost"]
+    },
+    {
+      "step": 2,
+      "task": "Filter posts containing themes around market shifts or demand",
+      "table": ["PersonaLinkedinPost"]
+    },
+    {
+      "step": 3,
+      "task": "Summarize key market insights and patterns mentioned",
+      "table": ["PersonaLinkedinPost"]
+    }
+  ]
+}

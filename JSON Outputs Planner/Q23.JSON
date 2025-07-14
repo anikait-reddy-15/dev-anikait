@@ -1,0 +1,21 @@
+{
+  "question": "Which data centers support companies implementing SAP solutions?",
+  "tables": ["CompanyDealMaster", "CompanyDataCenter"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify contracts related to SAP solutions in the CompanyDealMaster",
+      "table": ["CompanyDealMaster"]
+    },
+    {
+      "step": 2,
+      "task": "Extract data center information that supports these contracts",
+      "table": ["CompanyDataCenter"]
+    },
+    {
+      "step": 3,
+      "task": "Correlate the data centers with the identified SAP contracts",
+      "table": ["CompanyDealMaster", "CompanyDataCenter"]
+    }
+  ]
+}

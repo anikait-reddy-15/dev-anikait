@@ -1,0 +1,21 @@
+{
+  "question": "Which B2B platforms are using AI to recommend suppliers and reduce procurement cycle time?",
+  "tables": ["CompanyFocusAreaDetail", "CompanyInfo"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify B2B marketplaces or procurement tech firms using AI.",
+      "table": ["CompanyInfo"]
+    },
+    {
+      "step": 2,
+      "task": "Check for AI in supplier intelligence and workflow automation.",
+      "table": ["CompanyFocusAreaDetail"]
+    },
+    {
+      "step": 3,
+      "task": "List B2B platforms using AI for smarter sourcing.",
+      "table": ["CompanyFocusAreaDetail", "CompanyInfo"]
+    }
+  ]
+}

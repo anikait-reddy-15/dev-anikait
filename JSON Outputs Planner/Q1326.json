@@ -1,0 +1,20 @@
+{
+  "question": "What insights can be drawn from Twitter feeds of data scientists involved in product forecasting?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify data scientists involved in product forecasting",
+      "table": ["PersonaUser", "CompanyFocusAreaDetail"]
+    },
+    {
+      "step": 2,
+      "task": "Retrieve and filter their recent Twitter feeds",
+      "table": ["PersonaTwitterTweets"]
+    },
+    {
+      "step": 3,
+      "task": "Summarize insights or opinions shared on forecasting methods",
+      "table": ["PersonaTwitterTweets"]
+    }
+  ]
+}

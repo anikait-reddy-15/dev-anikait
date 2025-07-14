@@ -1,0 +1,21 @@
+{
+  "question": "Which companies have updated their hiring strategy to include roles for DevOps while also promoting content related to agile methodologies on social media?",
+  "tables": ["CompanyHiringDetail", "SocialMediaInfo"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies that have updated their hiring strategy to include DevOps roles. [CompanyHiringDetail]",
+      "table": ["CompanyHiringDetail"]
+    },
+    {
+      "step": 2,
+      "task": "Find social media posts that promote agile methodologies. [SocialMediaInfo]",
+      "table": ["SocialMediaInfo"]
+    },
+    {
+      "step": 3,
+      "task": "Match the companies from the hiring strategy with those promoting agile content on social media. [CompanyHiringDetail, SocialMediaInfo]",
+      "table": ["CompanyHiringDetail", "SocialMediaInfo"]
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "question": "Who are the key IT partners supporting companies in their cloud migration journeys?",
+  "tables": ["CompanyITPartnerDetail", "CompanyInfo"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies undertaking cloud migration.",
+      "table": ["CompanyInfo"]
+    },
+    {
+      "step": 2,
+      "task": "Find IT partners associated with these companies.",
+      "table": ["CompanyITPartnerDetail"]
+    },
+    {
+      "step": 3,
+      "task": "Match partners with companies on cloud migration.",
+      "table": ["CompanyITPartnerDetail", "CompanyInfo"]
+    }
+  ]
+}

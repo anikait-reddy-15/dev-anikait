@@ -1,0 +1,20 @@
+{
+  "question": "What organizational shifts accompany firms’ adoption of AI ethics principles?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify firms publicly adopting AI ethics principles",
+      "table": ["CompanyLeadershipExcerpt", "CompanyFocusAreaDetail"]
+    },
+    {
+      "step": 2,
+      "task": "Review management changes or new governance positions",
+      "table": ["CompanyManagementDetail"]
+    },
+    {
+      "step": 3,
+      "task": "Analyze structural or departmental changes based on ethical adoption",
+      "table": ["CompanyManagementDetail", "CompanyFocusAreaDetail"]
+    }
+  ]
+}

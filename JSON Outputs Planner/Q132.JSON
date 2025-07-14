@@ -1,0 +1,21 @@
+{
+  "question": "How do shifts in data science hiring trends influence competitive positioning among technology firms?",
+  "tables": ["CompanyHiringDetail", "CompanyDealMaster"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify shifts in data science hiring trends",
+      "table": ["CompanyHiringDetail"]
+    },
+    {
+      "step": 2,
+      "task": "Analyze competitive positioning among technology firms in relation to these shifts",
+      "table": ["CompanyDealMaster"]
+    },
+    {
+      "step": 3,
+      "task": "Compile a summary of how hiring trends influence competitive positioning",
+      "table": ["CompanyHiringDetail", "CompanyDealMaster"]
+    }
+  ]
+}

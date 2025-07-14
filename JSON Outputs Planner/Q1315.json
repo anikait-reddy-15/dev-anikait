@@ -1,0 +1,20 @@
+{
+  "question": "Which firms focus on customer retention via data tools as evident in social content and tech usage?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies promoting customer retention in social media content",
+      "table": ["SocialMediaInfo"]
+    },
+    {
+      "step": 2,
+      "task": "Filter for companies with customer analytics or CRM tools in their tech stack",
+      "table": ["CompanyTechStack"]
+    },
+    {
+      "step": 3,
+      "task": "Intersect the companies found in both datasets",
+      "table": ["SocialMediaInfo", "CompanyTechStack"]
+    }
+  ]
+}

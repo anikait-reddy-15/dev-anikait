@@ -1,0 +1,21 @@
+{
+  "question": "Which data scientists in technology firms have shared insights on data governance in their LinkedIn posts recently?",
+  "tables": ["PersonaLinkedinPost", "PersonaUser", "CompanyInfo"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify LinkedIn posts related to data governance. [PersonaLinkedinPost]",
+      "table": ["PersonaLinkedinPost"]
+    },
+    {
+      "step": 2,
+      "task": "Link the posts to the respective data scientists' profiles. [PersonaUser]",
+      "table": ["PersonaUser"]
+    },
+    {
+      "step": 3,
+      "task": "Filter the profiles to include only those from technology firms. [CompanyInfo]",
+      "table": ["CompanyInfo"]
+    }
+  ]
+}

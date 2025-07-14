@@ -1,0 +1,20 @@
+{
+  "question": "Which vendors have been selected most often by companies posting about AI-driven personalization?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies that posted about AI-driven personalization",
+      "table": ["SocialMediaInfo"]
+    },
+    {
+      "step": 2,
+      "task": "Extract vendor data for these companies",
+      "table": ["CompanyVendorProductDetail"]
+    },
+    {
+      "step": 3,
+      "task": "Count vendor occurrences and rank them",
+      "table": ["CompanyVendorProductDetail"]
+    }
+  ]
+}

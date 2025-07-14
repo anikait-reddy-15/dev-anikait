@@ -1,0 +1,21 @@
+{
+  "question": "Which e-commerce platforms are using AI for dynamic pricing and personalized product recommendations?",
+  "tables": ["CompanyFocusAreaDetail", "CompanyInfo"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify e-commerce platforms using AI.",
+      "table": ["CompanyInfo"]
+    },
+    {
+      "step": 2,
+      "task": "Filter for dynamic pricing and recommendation systems.",
+      "table": ["CompanyFocusAreaDetail"]
+    },
+    {
+      "step": 3,
+      "task": "Match e-commerce platforms with specific AI strategies.",
+      "table": ["CompanyFocusAreaDetail", "CompanyInfo"]
+    }
+  ]
+}

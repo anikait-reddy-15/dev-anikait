@@ -1,0 +1,20 @@
+{
+  "question": "Which data centers have been upgraded by organizations that recently established partnerships with AI vendors?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Find companies with recent partnerships with AI vendors",
+      "table": ["CompanyVendorTechDetail"]
+    },
+    {
+      "step": 2,
+      "task": "Check for data center upgrade activity",
+      "table": ["CompanyDataCenter"]
+    },
+    {
+      "step": 3,
+      "task": "List the upgraded data centers",
+      "table": []
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "question": "Who are the leading figures in the data analytics space discussing trends on Twitter among publicly traded companies?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Filter companies that are publicly traded.",
+      "table": ["CompanyInfo"]
+    },
+    {
+      "step": 2,
+      "task": "Identify Twitter users discussing data analytics trends.",
+      "table": ["PersonaTwitterProfile"]
+    },
+    {
+      "step": 3,
+      "task": "Map those users to publicly traded companies.",
+      "table": ["PersonaUser", "CompanyInfo"]
+    }
+  ]
+}

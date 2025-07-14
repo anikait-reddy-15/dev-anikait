@@ -1,0 +1,21 @@
+{
+  "question": "Which companies showed a spike in their YouTube engagement on data science topics during a recent tech conference?",
+  "tables": ["CompanyYoutubeDetail", "CompanyInfo", "IndustryITTrend"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify the recent tech conference and its associated data science topics. [IndustryITTrend]",
+      "table": ["IndustryITTrend"]
+    },
+    {
+      "step": 2,
+      "task": "Find companies that showed a spike in YouTube engagement on those topics. [CompanyYoutubeDetail]",
+      "table": ["CompanyYoutubeDetail"]
+    },
+    {
+      "step": 3,
+      "task": "Combine the YouTube engagement data with the company information. [CompanyInfo]",
+      "table": ["CompanyInfo"]
+    }
+  ]
+}

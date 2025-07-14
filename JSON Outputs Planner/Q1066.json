@@ -1,0 +1,20 @@
+{
+  "question": "Which companies emphasize knowledge sharing through their data science initiatives in community channels?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify community engagement related to data science.",
+      "table": ["SocialMediaInfo"]
+    },
+    {
+      "step": 2,
+      "task": "Filter companies with strong emphasis on knowledge sharing.",
+      "table": ["CompanyFocusAreaDetail"]
+    },
+    {
+      "step": 3,
+      "task": "Cross-reference both datasets to find aligned firms.",
+      "table": ["CompanyFocusAreaDetail", "SocialMediaInfo"]
+    }
+  ]
+}

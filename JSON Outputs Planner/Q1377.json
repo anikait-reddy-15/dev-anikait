@@ -1,0 +1,20 @@
+{
+  "question": "What platforms are used by companies to educate stakeholders on AI governance?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify posts, videos, or public messaging related to AI governance education",
+      "table": ["SocialMediaInfo", "CompanyYoutubeDetail"]
+    },
+    {
+      "step": 2,
+      "task": "List companies actively publishing content around AI governance topics",
+      "table": ["CompanyFocusAreaDetail"]
+    },
+    {
+      "step": 3,
+      "task": "Summarize which platforms (YouTube, LinkedIn, etc.) are most commonly used",
+      "table": ["SocialMediaInfo", "CompanyYoutubeDetail"]
+    }
+  ]
+}

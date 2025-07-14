@@ -1,0 +1,21 @@
+{
+  "question": "What technologies are commonly mentioned in social media posts by companies focusing on cloud-native application development?",
+  "tables": ["SocialMediaInfo", "CompanyTechStack"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies focusing on cloud-native application development.",
+      "table": ["CompanyTechStack"]
+    },
+    {
+      "step": 2,
+      "task": "Analyze social media posts from these companies.",
+      "table": ["SocialMediaInfo"]
+    },
+    {
+      "step": 3,
+      "task": "Extract commonly mentioned technologies in posts.",
+      "table": ["SocialMediaInfo", "CompanyTechStack"]
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "question": "Who are the notable influencers in data science advocating for innovation within their respective organizations?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Find influencers associated with innovation-driven companies.",
+      "table": ["PersonaUser"]
+    },
+    {
+      "step": 2,
+      "task": "Match them with focus areas emphasizing innovation.",
+      "table": ["CompanyFocusAreaDetail"]
+    },
+    {
+      "step": 3,
+      "task": "Highlight influencer profiles advocating innovation.",
+      "table": ["PersonaUser", "CompanyFocusAreaDetail"]
+    }
+  ]
+}

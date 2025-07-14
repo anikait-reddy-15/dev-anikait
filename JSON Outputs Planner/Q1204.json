@@ -1,0 +1,25 @@
+{
+  "question": "Which organizations have announced AI-focused partnerships and also made changes to their IT management structure?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Find companies that announced AI-focused partnerships",
+      "table": ["CompanyDealMaster"]
+    },
+    {
+      "step": 2,
+      "task": "Retrieve companies with recent IT management changes",
+      "table": ["CompanyManagementDetail"]
+    },
+    {
+      "step": 3,
+      "task": "Identify overlaps between both groups",
+      "table": ["CompanyInfo"]
+    },
+    {
+      "step": 4,
+      "task": "List partnership details and management change insights",
+      "table": ["CompanyDealMaster", "CompanyManagementDetail"]
+    }
+  ]
+}

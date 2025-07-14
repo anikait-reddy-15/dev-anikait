@@ -1,0 +1,21 @@
+{
+  "question": "What are the most prevalent challenges highlighted by leaders in companies that have focused their strategies on artificial intelligence?",
+  "tables": ["CompanyLeadershipExcerpt", "CompanyFocusAreaDetail"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies that have focused their strategies on artificial intelligence. [CompanyFocusAreaDetail]",
+      "table": ["CompanyFocusAreaDetail"]
+    },
+    {
+      "step": 2,
+      "task": "Extract challenges mentioned by leaders in the leadership excerpts of those companies. [CompanyLeadershipExcerpt]",
+      "table": ["CompanyLeadershipExcerpt"]
+    },
+    {
+      "step": 3,
+      "task": "Analyze and summarize the prevalent challenges from the data collected in step 2. [CompanyLeadershipExcerpt, CompanyFocusAreaDetail]",
+      "table": ["CompanyLeadershipExcerpt", "CompanyFocusAreaDetail"]
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "question": "Which leaders in technology have shared their insights on machine learning and data mining trends?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Extract leadership excerpts mentioning machine learning or data mining",
+      "table": ["CompanyLeadershipExcerpt"]
+    },
+    {
+      "step": 2,
+      "task": "Identify associated industry trends",
+      "table": ["IndustryITTrend"]
+    },
+    {
+      "step": 3,
+      "task": "Summarize insights from these tech leaders",
+      "table": []
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "question": "What are the most frequently mentioned technologies among companies that recently expanded their data centers?",
+  "tables": ["CompanyDataCenter", "CompanyTechStack"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies that have recently expanded their data centers",
+      "table": ["CompanyDataCenter"]
+    },
+    {
+      "step": 2,
+      "task": "Extract the technologies associated with these companies",
+      "table": ["CompanyTechStack"]
+    },
+    {
+      "step": 3,
+      "task": "Aggregate and count the mentions of each technology to find the most frequently mentioned",
+      "table": ["CompanyTechStack"]
+    }
+  ]
+}

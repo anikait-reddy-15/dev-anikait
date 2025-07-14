@@ -1,0 +1,21 @@
+{
+  "question": "Which recent job openings for data scientists indicate a firm's strategic push toward analytics integration?",
+  "tables": ["CompanyHiringDetail", "CompanyFocusAreaDetail"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Retrieve recent job openings for data scientist roles",
+      "table": ["CompanyHiringDetail"]
+    },
+    {
+      "step": 2,
+      "task": "Extract focus areas linked to these job openings",
+      "table": ["CompanyFocusAreaDetail"]
+    },
+    {
+      "step": 3,
+      "task": "Analyze postings to detect strategic emphasis on analytics",
+      "table": ["CompanyHiringDetail", "CompanyFocusAreaDetail"]
+    }
+  ]
+}

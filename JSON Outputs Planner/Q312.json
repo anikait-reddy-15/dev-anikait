@@ -1,0 +1,21 @@
+{
+  "question": "What are the common hiring practices for data science positions in companies that have implemented advanced machine learning technologies recently?",
+  "tables": ["CompanyHiringDetail", "CompanyTechStack"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies that have implemented advanced machine learning technologies recently. [CompanyTechStack]",
+      "table": ["CompanyTechStack"]
+    },
+    {
+      "step": 2,
+      "task": "Extract hiring practices for data science positions from those companies. [CompanyHiringDetail]",
+      "table": ["CompanyHiringDetail"]
+    },
+    {
+      "step": 3,
+      "task": "Analyze and summarize the common hiring practices identified. [CompanyHiringDetail]",
+      "table": ["CompanyHiringDetail"]
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "question": "Who are the key influencers in companies that have launched new data initiatives and have actively posted content about these projects on LinkedIn?",
+  "tables": ["PersonaLinkedinActivity", "CompanyInfo", "CompanyFocusAreaDetail"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies that have launched new data initiatives. [CompanyFocusAreaDetail]",
+      "table": ["CompanyFocusAreaDetail"]
+    },
+    {
+      "step": 2,
+      "task": "Find key influencers who have posted about these initiatives on LinkedIn. [PersonaLinkedinActivity]",
+      "table": ["PersonaLinkedinActivity"]
+    },
+    {
+      "step": 3,
+      "task": "Match the influencers to the companies that launched the data initiatives. [CompanyInfo]",
+      "table": ["CompanyInfo"]
+    }
+  ]
+}

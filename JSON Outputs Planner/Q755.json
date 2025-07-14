@@ -1,0 +1,21 @@
+{
+  "question": "Which companies focusing on AI-driven automation have experienced major workforce shifts according to hiring data?",
+  "tables": ["CompanyFocusAreaDetail", "CompanyHiringDetail"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies focusing on AI-driven automation.",
+      "table": ["CompanyFocusAreaDetail"]
+    },
+    {
+      "step": 2,
+      "task": "Analyze hiring data to find major workforce shifts.",
+      "table": ["CompanyHiringDetail"]
+    },
+    {
+      "step": 3,
+      "task": "Match AI-automation focused companies with workforce shift data.",
+      "table": ["CompanyFocusAreaDetail", "CompanyHiringDetail"]
+    }
+  ]
+}

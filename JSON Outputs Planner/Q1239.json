@@ -1,0 +1,20 @@
+{
+  "question": "How many data science roles have been posted by companies specializing in artificial intelligence?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify AI-specialized companies from CompanyFocusAreaDetail",
+      "table": ["CompanyFocusAreaDetail"]
+    },
+    {
+      "step": 2,
+      "task": "Get data science-related job postings from CompanyHiringDetail",
+      "table": ["CompanyHiringDetail"]
+    },
+    {
+      "step": 3,
+      "task": "Count and list the number of roles per company",
+      "table": ["CompanyHiringDetail"]
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "question": "What are the recent trends in AI vendor collaborations within the manufacturing industry?",
+  "tables": ["CompanyDealMaster", "CompanyInfo"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify AI vendor collaborations.",
+      "table": ["CompanyDealMaster"]
+    },
+    {
+      "step": 2,
+      "task": "Filter collaborations related to the manufacturing industry.",
+      "table": ["CompanyInfo"]
+    },
+    {
+      "step": 3,
+      "task": "Analyze recent trends.",
+      "table": ["CompanyDealMaster", "CompanyInfo"]
+    }
+  ]
+}

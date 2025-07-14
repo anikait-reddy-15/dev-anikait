@@ -1,0 +1,26 @@
+{
+  "question": "What are the top social media platforms where data scientists are sharing insights on analytics trends?",
+  "tables": ["PersonaUser", "PersonaLinkedinProfile", "PersonaTwitterProfile"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify data scientists from the PersonaUser table. [PersonaUser]",
+      "table": ["PersonaUser"]
+    },
+    {
+      "step": 2,
+      "task": "Gather insights shared by data scientists from their LinkedIn profiles. [PersonaLinkedinProfile]",
+      "table": ["PersonaLinkedinProfile"]
+    },
+    {
+      "step": 3,
+      "task": "Collect insights shared by data scientists from their Twitter profiles. [PersonaTwitterProfile]",
+      "table": ["PersonaTwitterProfile"]
+    },
+    {
+      "step": 4,
+      "task": "Aggregate and analyze the platforms used by data scientists for sharing insights. [PersonaLinkedinProfile, PersonaTwitterProfile]",
+      "table": ["PersonaLinkedinProfile", "PersonaTwitterProfile"]
+    }
+  ]
+}

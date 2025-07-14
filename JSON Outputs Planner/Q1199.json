@@ -1,0 +1,20 @@
+{
+  "question": "Which companies are publishing technical whitepapers on AI and how do these align with their hiring trends?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies that have published AI-related whitepapers",
+      "table": ["PersonaMisc"]
+    },
+    {
+      "step": 2,
+      "task": "Extract hiring trends related to AI or data science roles",
+      "table": ["CompanyHiringDetail"]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the alignment between technical publications and talent acquisition",
+      "table": ["CompanyHiringDetail"]
+    }
+  ]
+}

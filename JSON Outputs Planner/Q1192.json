@@ -1,0 +1,20 @@
+{
+  "question": "What are the emerging skill gaps identified in leadership excerpts of companies undergoing data modernization?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Filter leadership excerpts from companies with data modernization efforts",
+      "table": ["CompanyLeadershipExcerpt"]
+    },
+    {
+      "step": 2,
+      "task": "Identify companies modernizing data infrastructure",
+      "table": ["CompanyTechStack"]
+    },
+    {
+      "step": 3,
+      "task": "Extract and summarize skill gaps discussed in leadership communication",
+      "table": ["CompanyLeadershipExcerpt"]
+    }
+  ]
+}

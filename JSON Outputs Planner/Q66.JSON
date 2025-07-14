@@ -1,0 +1,21 @@
+{
+  "question": "Which technologies are prioritized by companies in the oil and gas sector for operational improvement?",
+  "tables": ["IndustryITTrend", "CompanyTechStack"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Retrieve industry trends specific to the oil and gas sector focusing on operational improvement",
+      "table": ["IndustryITTrend"]
+    },
+    {
+      "step": 2,
+      "task": "Identify technologies being prioritized by companies in the oil and gas sector",
+      "table": ["CompanyTechStack"]
+    },
+    {
+      "step": 3,
+      "task": "Match the prioritized technologies with the operational improvement trends",
+      "table": ["IndustryITTrend", "CompanyTechStack"]
+    }
+  ]
+}

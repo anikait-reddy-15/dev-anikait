@@ -1,0 +1,20 @@
+{
+  "question": "Which companies with newly appointed data officers are showing rapid evolution in their tech stack?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies with newly appointed Chief Data Officers",
+      "table": ["CompanyManagementDetail"]
+    },
+    {
+      "step": 2,
+      "task": "Track changes or upgrades in their technology stack",
+      "table": ["CompanyTechStack"]
+    },
+    {
+      "step": 3,
+      "task": "Correlate leadership appointments with tech evolution",
+      "table": ["CompanyManagementDetail", "CompanyTechStack"]
+    }
+  ]
+}

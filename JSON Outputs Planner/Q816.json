@@ -1,0 +1,21 @@
+{
+  "question": "Which companies are integrating AI and IoT for predictive safety monitoring in operations?",
+  "tables": ["CompanyFocusAreaDetail", "CompanyTechStack"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies using AI and IoT together.",
+      "table": ["CompanyTechStack"]
+    },
+    {
+      "step": 2,
+      "task": "Filter for those with safety monitoring use cases.",
+      "table": ["CompanyFocusAreaDetail"]
+    },
+    {
+      "step": 3,
+      "task": "List those integrating predictive safety systems.",
+      "table": ["CompanyFocusAreaDetail", "CompanyTechStack"]
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "question": "Which organizations negotiated data analytics deals after recent changes in their leadership teams?",
+  "tables": ["CompanyDealMaster", "CompanyLeadershipExcerpt"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify recent changes in leadership teams of organizations. [CompanyLeadershipExcerpt]",
+      "table": ["CompanyLeadershipExcerpt"]
+    },
+    {
+      "step": 2,
+      "task": "Find data analytics deals negotiated by those organizations. [CompanyDealMaster]",
+      "table": ["CompanyDealMaster"]
+    },
+    {
+      "step": 3,
+      "task": "Match the organizations from step 1 with the deals identified in step 2. [CompanyLeadershipExcerpt, CompanyDealMaster]",
+      "table": ["CompanyLeadershipExcerpt", "CompanyDealMaster"]
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "question": "What specific tools does LPL Financial use for financial reporting compliance?",
+  "tables": ["CompanyVendorProductDetail", "CompanyInfo"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify the Company ID for LPL Financial from CompanyInfo",
+      "table": ["CompanyInfo"]
+    },
+    {
+      "step": 2,
+      "task": "Retrieve tools related to financial reporting compliance from CompanyVendorProductDetail using the Company ID",
+      "table": ["CompanyVendorProductDetail"]
+    }
+  ]
+}

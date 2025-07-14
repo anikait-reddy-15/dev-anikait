@@ -1,0 +1,21 @@
+{
+  "question": "Which companies are emphasizing AI explainability in their tech strategy and have signed recent vendor deals for responsible AI tools?",
+  "tables": ["CompanyFocusAreaDetail", "CompanyVendorTechDetail"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies emphasizing AI explainability in their tech strategy.",
+      "table": ["CompanyFocusAreaDetail"]
+    },
+    {
+      "step": 2,
+      "task": "Find companies that signed recent vendor deals for responsible AI tools.",
+      "table": ["CompanyVendorTechDetail"]
+    },
+    {
+      "step": 3,
+      "task": "Match companies involved in both activities.",
+      "table": ["CompanyFocusAreaDetail", "CompanyVendorTechDetail"]
+    }
+  ]
+}

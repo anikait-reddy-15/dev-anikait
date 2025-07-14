@@ -1,0 +1,20 @@
+{
+  "question": "How have recent industry mergers influenced technology adoption strategies among involved companies?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "List companies involved in recent mergers from CompanyDealMaster",
+      "table": ["CompanyDealMaster"]
+    },
+    {
+      "step": 2,
+      "task": "Get tech stack before and after mergers from CompanyTechStack",
+      "table": ["CompanyTechStack"]
+    },
+    {
+      "step": 3,
+      "task": "Identify strategic tech shifts post-merger",
+      "table": ["CompanyTechStack"]
+    }
+  ]
+}

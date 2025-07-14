@@ -1,0 +1,20 @@
+{
+  "question": "Which companies have adopted Kubernetes recently and what leadership viewpoints support this shift?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify Kubernetes adoption entries in CompanyTechStack",
+      "table": ["CompanyTechStack"]
+    },
+    {
+      "step": 2,
+      "task": "Join with CompanyLeadershipExcerpt to extract related leadership commentary",
+      "table": ["CompanyLeadershipExcerpt"]
+    },
+    {
+      "step": 3,
+      "task": "Summarize leadership justifications or insights about the shift",
+      "table": ["CompanyLeadershipExcerpt"]
+    }
+  ]
+}

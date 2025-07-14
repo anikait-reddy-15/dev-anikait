@@ -1,0 +1,21 @@
+{
+  "question": "Which data scientists have shared insights about AI model fairness and bias mitigation on LinkedIn?",
+  "tables": ["PersonaLinkedinPost", "PersonaUser"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Extract LinkedIn posts discussing fairness and bias in AI.",
+      "table": ["PersonaLinkedinPost"]
+    },
+    {
+      "step": 2,
+      "task": "Filter users identified as data scientists.",
+      "table": ["PersonaUser"]
+    },
+    {
+      "step": 3,
+      "task": "Match insights to user profiles.",
+      "table": ["PersonaLinkedinPost", "PersonaUser"]
+    }
+  ]
+}

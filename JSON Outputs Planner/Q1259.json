@@ -1,0 +1,20 @@
+{
+  "question": "How have data-driven decisions shaped the business strategies of key players in the tech landscape?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies classified as key tech players from CompanyInfo",
+      "table": ["CompanyInfo"]
+    },
+    {
+      "step": 2,
+      "task": "Review leadership commentary and decisions from CompanyLeadershipExcerpt",
+      "table": ["CompanyLeadershipExcerpt"]
+    },
+    {
+      "step": 3,
+      "task": "Highlight shifts in business strategies tied to data-driven decisions",
+      "table": ["CompanyLeadershipExcerpt", "CompanyInfo"]
+    }
+  ]
+}

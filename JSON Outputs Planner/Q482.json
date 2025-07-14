@@ -1,0 +1,26 @@
+{
+  "question": "Which companies have hired leadership with expertise in digital transformation and signed deals for enterprise resource planning tools?",
+  "tables": ["PersonaUser", "CompanyLeadershipExcerpt", "CompanyDealMaster", "CompanyVendorTechDetail"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies with leadership excerpts mentioning digital transformation. [CompanyLeadershipExcerpt]",
+      "table": ["CompanyLeadershipExcerpt"]
+    },
+    {
+      "step": 2,
+      "task": "Find vendors providing ERP tools. [CompanyVendorTechDetail]",
+      "table": ["CompanyVendorTechDetail"]
+    },
+    {
+      "step": 3,
+      "task": "Identify companies that signed deals with ERP vendors. [CompanyDealMaster]",
+      "table": ["CompanyDealMaster"]
+    },
+    {
+      "step": 4,
+      "task": "Find overlap between companies with digital transformation leadership and ERP deals. [CompanyLeadershipExcerpt, CompanyDealMaster]",
+      "table": ["CompanyLeadershipExcerpt", "CompanyDealMaster"]
+    }
+  ]
+}

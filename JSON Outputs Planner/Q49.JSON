@@ -1,0 +1,21 @@
+{
+  "question": "Who are the key management figures at organizations prioritizing cybersecurity and IoT advancements?",
+  "tables": ["CompanyManagementDetail", "IndustryITTrend"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify organizations prioritizing cybersecurity and IoT from industry trends",
+      "table": ["IndustryITTrend"]
+    },
+    {
+      "step": 2,
+      "task": "Extract the company IDs of those organizations",
+      "table": ["IndustryITTrend"]
+    },
+    {
+      "step": 3,
+      "task": "Find key management figures linked to those company IDs",
+      "table": ["CompanyManagementDetail"]
+    }
+  ]
+}

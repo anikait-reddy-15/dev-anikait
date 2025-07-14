@@ -1,0 +1,21 @@
+{
+  "question": "Who are the primary representatives of tech firms that are actively engaging on topics related to data analytics and social responsibility?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies actively discussing data analytics and social responsibility.",
+      "table": ["CompanyFocusAreaDetail"]
+    },
+    {
+      "step": 2,
+      "task": "Extract user profiles associated with those companies.",
+      "table": ["PersonaUser"]
+    },
+    {
+      "step": 3,
+      "task": "Filter primary representatives engaging in public platforms.",
+      "table": ["PersonaUser"]
+    }
+  ]
+}
+

@@ -1,0 +1,20 @@
+{
+  "question": "What impact has public feedback had on companies adjusting their AI ethics frameworks?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies that have received notable public feedback via social platforms",
+      "table": ["SocialMediaInfo"]
+    },
+    {
+      "step": 2,
+      "task": "Correlate this feedback with updates or shifts in leadership commentary or strategic focus",
+      "table": ["CompanyLeadershipExcerpt", "CompanyFocusAreaDetail"]
+    },
+    {
+      "step": 3,
+      "task": "Summarize examples of responsive changes or updated frameworks",
+      "table": ["CompanyFocusAreaDetail", "CompanyLeadershipExcerpt"]
+    }
+  ]
+}

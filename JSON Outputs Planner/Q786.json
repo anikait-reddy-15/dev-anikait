@@ -1,0 +1,21 @@
+{
+  "question": "What frameworks are used by companies to monitor AI model drift in production?",
+  "tables": ["CompanyFocusAreaDetail", "CompanyVendorTechDetail"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies actively monitoring AI model drift.",
+      "table": ["CompanyFocusAreaDetail"]
+    },
+    {
+      "step": 2,
+      "task": "Find monitoring frameworks adopted for this purpose.",
+      "table": ["CompanyVendorTechDetail"]
+    },
+    {
+      "step": 3,
+      "task": "List frameworks in use among those companies.",
+      "table": ["CompanyFocusAreaDetail", "CompanyVendorTechDetail"]
+    }
+  ]
+}

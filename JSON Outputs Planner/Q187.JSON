@@ -1,0 +1,21 @@
+{
+  "question": "Which companies have recently hired Data Scientists and are investing in artificial intelligence technologies as part of their IT strategy?",
+  "tables": ["CompanyHiringDetail", "CompanyTechStack"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies that have recently hired Data Scientists",
+      "table": ["CompanyHiringDetail"]
+    },
+    {
+      "step": 2,
+      "task": "Identify companies that are investing in artificial intelligence technologies",
+      "table": ["CompanyTechStack"]
+    },
+    {
+      "step": 3,
+      "task": "Cross-reference the two sets of companies to find those that meet both criteria",
+      "table": ["CompanyHiringDetail", "CompanyTechStack"]
+    }
+  ]
+}

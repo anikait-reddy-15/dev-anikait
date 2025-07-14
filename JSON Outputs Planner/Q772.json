@@ -1,0 +1,21 @@
+{
+  "question": "Which companies are publishing AI success stories and also have a significant increase in AI-related hiring?",
+  "tables": ["CompanyBlogDetail", "CompanyHiringDetail"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies publishing AI success stories.",
+      "table": ["CompanyBlogDetail"]
+    },
+    {
+      "step": 2,
+      "task": "Find companies with a significant increase in AI-related hiring.",
+      "table": ["CompanyHiringDetail"]
+    },
+    {
+      "step": 3,
+      "task": "Cross-reference both sets to identify overlap.",
+      "table": ["CompanyBlogDetail", "CompanyHiringDetail"]
+    }
+  ]
+}

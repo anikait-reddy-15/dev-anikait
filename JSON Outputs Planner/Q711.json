@@ -1,0 +1,21 @@
+{
+  "question": "Which companies have recently adopted AI-powered supply chain solutions and increased their vendor partnerships?",
+  "tables": ["CompanyFocusAreaDetail", "CompanyDealMaster"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies adopting AI-powered supply chain solutions.",
+      "table": ["CompanyFocusAreaDetail"]
+    },
+    {
+      "step": 2,
+      "task": "Find companies with increased vendor partnerships.",
+      "table": ["CompanyDealMaster"]
+    },
+    {
+      "step": 3,
+      "task": "Cross-reference companies in both categories.",
+      "table": ["CompanyFocusAreaDetail", "CompanyDealMaster"]
+    }
+  ]
+}

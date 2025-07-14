@@ -1,0 +1,21 @@
+{
+  "question": "Which companies are using AI-based transcription for meeting recordings and real-time collaboration?",
+  "tables": ["CompanyFocusAreaDetail", "CompanyInfo"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies using AI for productivity and collaboration tools.",
+      "table": ["CompanyFocusAreaDetail"]
+    },
+    {
+      "step": 2,
+      "task": "Filter for use cases involving transcription and meeting intelligence.",
+      "table": ["CompanyFocusAreaDetail"]
+    },
+    {
+      "step": 3,
+      "task": "List companies using AI to improve meeting workflows.",
+      "table": ["CompanyFocusAreaDetail", "CompanyInfo"]
+    }
+  ]
+}

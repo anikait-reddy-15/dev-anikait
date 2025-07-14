@@ -1,0 +1,21 @@
+{
+  "question": "What insights have been shared in LinkedIn posts by data leaders associated with organizations that reported growth in their analytics capabilities?",
+  "tables": ["PersonaLinkedinPost", "PersonaUser", "CompanyInfo"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify organizations that reported growth in analytics capabilities. [CompanyInfo]",
+      "table": ["CompanyInfo"]
+    },
+    {
+      "step": 2,
+      "task": "Extract Company IDs of those organizations. [CompanyInfo]",
+      "table": ["CompanyInfo"]
+    },
+    {
+      "step": 3,
+      "task": "Retrieve LinkedIn posts from data leaders associated with the identified organizations. [PersonaLinkedinPost]",
+      "table": ["PersonaLinkedinPost"]
+    }
+  ]
+}

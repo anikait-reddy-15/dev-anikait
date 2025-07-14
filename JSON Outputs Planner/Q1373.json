@@ -1,0 +1,20 @@
+{
+  "question": "Who are the chief data scientists advocating for ethical data policies in LinkedIn discussions?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Extract LinkedIn posts mentioning data ethics or responsible data use",
+      "table": ["PersonaLinkedinPost"]
+    },
+    {
+      "step": 2,
+      "task": "Match posts to individuals with 'chief data scientist' or equivalent titles",
+      "table": ["PersonaTitle"]
+    },
+    {
+      "step": 3,
+      "task": "List key advocates and summarize themes in their communication",
+      "table": ["PersonaLinkedinPost", "PersonaTitle"]
+    }
+  ]
+}

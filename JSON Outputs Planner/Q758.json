@@ -1,0 +1,21 @@
+{
+  "question": "Which firms that have adopted MLOps practices have also significantly increased cloud expenditure?",
+  "tables": ["CompanyFocusAreaDetail", "CompanyInfo"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify firms that adopted MLOps practices.",
+      "table": ["CompanyFocusAreaDetail"]
+    },
+    {
+      "step": 2,
+      "task": "Find those with significantly increased cloud expenditure.",
+      "table": ["CompanyInfo"]
+    },
+    {
+      "step": 3,
+      "task": "Match MLOps adopters with increased cloud spenders.",
+      "table": ["CompanyFocusAreaDetail", "CompanyInfo"]
+    }
+  ]
+}

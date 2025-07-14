@@ -1,0 +1,26 @@
+{
+  "question": "Who are the key decision-makers at companies that have integrated advanced data analytics into their IT strategies as mentioned in their social media profiles?",
+  "tables": ["PersonaUser", "PersonaFacebookDetail", "CompanyTechStack"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies that have integrated advanced data analytics into their IT strategies",
+      "table": ["CompanyTechStack"]
+    },
+    {
+      "step": 2,
+      "task": "Extract social media profiles mentioning advanced data analytics",
+      "table": ["PersonaFacebookDetail"]
+    },
+    {
+      "step": 3,
+      "task": "Identify key decision-makers associated with the identified companies",
+      "table": ["PersonaUser"]
+    },
+    {
+      "step": 4,
+      "task": "Match decision-makers with their respective companies based on the previous steps",
+      "table": ["PersonaUser", "CompanyTechStack"]
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "question": "Who are the key hiring managers in companies that recently expanded their cloud service usage?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies that expanded their use of cloud services.",
+      "table": ["CompanyVendorTechDetail"]
+    },
+    {
+      "step": 2,
+      "task": "Find hiring details related to these companies.",
+      "table": ["CompanyHiringDetail"]
+    },
+    {
+      "step": 3,
+      "task": "Extract names or roles of relevant hiring managers.",
+      "table": ["CompanyHiringDetail"]
+    }
+  ]
+}

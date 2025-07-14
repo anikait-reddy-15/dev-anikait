@@ -1,0 +1,21 @@
+{
+  "question": "Which IT leaders have recently changed roles and have published thought leadership posts on LinkedIn?",
+  "tables": ["PersonaUser", "PersonaLinkedinPost", "PersonaTitle"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify IT leaders with recent title changes. [PersonaTitle]",
+      "table": ["PersonaTitle"]
+    },
+    {
+      "step": 2,
+      "task": "Find LinkedIn posts authored by these IT leaders. [PersonaLinkedinPost]",
+      "table": ["PersonaLinkedinPost"]
+    },
+    {
+      "step": 3,
+      "task": "Filter posts that represent thought leadership. [PersonaLinkedinPost]",
+      "table": ["PersonaLinkedinPost"]
+    }
+  ]
+}

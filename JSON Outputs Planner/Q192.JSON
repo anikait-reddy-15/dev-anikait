@@ -1,0 +1,21 @@
+{
+  "question": "How do the social media engagement levels of companies align with their recent hiring for IT positions?",
+  "tables": ["CompanyTwitterDetail", "CompanyHiringDetail"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Gather social media engagement metrics from companies",
+      "table": ["CompanyTwitterDetail"]
+    },
+    {
+      "step": 2,
+      "task": "Identify companies that have recently hired for IT positions",
+      "table": ["CompanyHiringDetail"]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the correlation between social media engagement and hiring data",
+      "table": ["CompanyTwitterDetail", "CompanyHiringDetail"]
+    }
+  ]
+}

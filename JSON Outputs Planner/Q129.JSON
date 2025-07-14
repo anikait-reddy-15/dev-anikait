@@ -1,0 +1,21 @@
+{
+  "question": "What social media trends correlate with technology investments made by organizations focusing on AI?",
+  "tables": ["CompanySocialMediaInfo", "CompanyTechStack"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify social media trends related to AI",
+      "table": ["CompanySocialMediaInfo"]
+    },
+    {
+      "step": 2,
+      "task": "Retrieve technology investments made by organizations focusing on AI",
+      "table": ["CompanyTechStack"]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the correlation between social media trends and technology investments",
+      "table": ["CompanySocialMediaInfo", "CompanyTechStack"]
+    }
+  ]
+}

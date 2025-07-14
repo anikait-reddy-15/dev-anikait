@@ -1,0 +1,26 @@
+{
+  "question": "Which companies with recent executive hires have also adopted serverless technologies in their infrastructure?",
+  "tables": ["PersonaUser", "PersonaTitle", "CompanyTechStack"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify recent executive hires. [PersonaTitle]",
+      "table": ["PersonaTitle"]
+    },
+    {
+      "step": 2,
+      "task": "Map executives to their companies. [PersonaUser]",
+      "table": ["PersonaUser"]
+    },
+    {
+      "step": 3,
+      "task": "Find companies using serverless technologies. [CompanyTechStack]",
+      "table": ["CompanyTechStack"]
+    },
+    {
+      "step": 4,
+      "task": "Intersect both sets to find qualifying companies. [PersonaUser, CompanyTechStack]",
+      "table": ["PersonaUser", "CompanyTechStack"]
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "question": "Which firms have shared insights on YouTube about their use of AI for customer experience and are expanding hiring in related domains?",
+  "tables": ["CompanyYoutubeDetail", "CompanyHiringDetail"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify firms sharing YouTube insights about AI for customer experience.",
+      "table": ["CompanyYoutubeDetail"]
+    },
+    {
+      "step": 2,
+      "task": "Find companies expanding hiring in AI-related domains.",
+      "table": ["CompanyHiringDetail"]
+    },
+    {
+      "step": 3,
+      "task": "Cross-reference companies active in both areas.",
+      "table": ["CompanyYoutubeDetail", "CompanyHiringDetail"]
+    }
+  ]
+}

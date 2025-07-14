@@ -1,0 +1,21 @@
+{
+  "question": "Which companies are actively using Salesforce within their tech stack and have a significant online presence on YouTube discussing customer engagement strategies?",
+  "tables": ["CompanyTechStack", "CompanyYoutubeDetail"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies that are using Salesforce in their tech stack. [CompanyTechStack]",
+      "table": ["CompanyTechStack"]
+    },
+    {
+      "step": 2,
+      "task": "Identify companies with a significant online presence on YouTube discussing customer engagement. [CompanyYoutubeDetail]",
+      "table": ["CompanyYoutubeDetail"]
+    },
+    {
+      "step": 3,
+      "task": "Cross-reference the companies using Salesforce with those active on YouTube. [CompanyTechStack, CompanyYoutubeDetail]",
+      "table": ["CompanyTechStack", "CompanyYoutubeDetail"]
+    }
+  ]
+}

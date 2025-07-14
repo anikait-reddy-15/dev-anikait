@@ -1,0 +1,20 @@
+{
+  "question": "Who are the advisors or board members influencing AI policy within tech firms?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify key leadership or board figures from company management data",
+      "table": ["CompanyManagementDetail"]
+    },
+    {
+      "step": 2,
+      "task": "Filter individuals involved in AI policy or ethics based on public statements",
+      "table": ["CompanyLeadershipExcerpt"]
+    },
+    {
+      "step": 3,
+      "task": "List advisors linked to policy influence across multiple companies",
+      "table": ["CompanyManagementDetail", "CompanyLeadershipExcerpt"]
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "question": "What are the social themes most echoed by data scientists during recent industry conferences?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Extract social media content of data scientists",
+      "table": ["PersonaUser"]
+    },
+    {
+      "step": 2,
+      "task": "Identify posts related to industry conferences",
+      "table": ["SocialMediaInfo"]
+    },
+    {
+      "step": 3,
+      "task": "Summarize recurring social themes",
+      "table": []
+    }
+  ]
+}

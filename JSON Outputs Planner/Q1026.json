@@ -1,0 +1,20 @@
+{
+  "question": "Which firms have expanded their hiring for data analytical roles after recent investment in big data technologies?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies that recently invested in big data technologies.",
+      "table": ["CompanyTechStack"]
+    },
+    {
+      "step": 2,
+      "task": "Find firms expanding hiring for analytical roles.",
+      "table": ["CompanyHiringDetail"]
+    },
+    {
+      "step": 3,
+      "task": "Cross-check both criteria to identify qualified firms.",
+      "table": ["CompanyTechStack", "CompanyHiringDetail"]
+    }
+  ]
+}

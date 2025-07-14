@@ -1,0 +1,21 @@
+{
+  "question": "Which executives have made public statements about analytics use cases in the retail sector?",
+  "tables": ["CompanyLeadershipExcerpt", "CompanyInfo"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify public statements mentioning analytics use cases from CompanyLeadershipExcerpt. [CompanyLeadershipExcerpt]",
+      "table": ["CompanyLeadershipExcerpt"]
+    },
+    {
+      "step": 2,
+      "task": "Filter statements by executives in retail companies using CompanyInfo. [CompanyInfo]",
+      "table": ["CompanyInfo"]
+    },
+    {
+      "step": 3,
+      "task": "Match executives to the companies in the retail sector. [CompanyLeadershipExcerpt, CompanyInfo]",
+      "table": ["CompanyLeadershipExcerpt", "CompanyInfo"]
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "question": "What are the technological investments being made by companies that recently expanded their management teams?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Find companies with recent expansions in management from CompanyManagementDetail",
+      "table": ["CompanyManagementDetail"]
+    },
+    {
+      "step": 2,
+      "task": "Match these with records in CompanyTechStack for new technology investments",
+      "table": ["CompanyTechStack"]
+    },
+    {
+      "step": 3,
+      "task": "List the technologies being adopted in the post-expansion period",
+      "table": ["CompanyTechStack"]
+    }
+  ]
+}

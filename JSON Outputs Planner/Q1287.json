@@ -1,0 +1,25 @@
+{
+  "question": "What trends in consumer analytics are driving technology investments for businesses in the retail sector?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify retail sector companies from CompanyInfo",
+      "table": ["CompanyInfo"]
+    },
+    {
+      "step": 2,
+      "task": "Get tech investments from CompanyTechStack for these companies",
+      "table": ["CompanyTechStack"]
+    },
+    {
+      "step": 3,
+      "task": "Extract consumer analytics focus from IndustryBusinessTrend",
+      "table": ["IndustryBusinessTrend"]
+    },
+    {
+      "step": 4,
+      "task": "Link retail companies' tech adoption with consumer analytics trends",
+      "table": ["CompanyInfo", "CompanyTechStack", "IndustryBusinessTrend"]
+    }
+  ]
+}

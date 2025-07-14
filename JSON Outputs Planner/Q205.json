@@ -1,0 +1,21 @@
+{
+  "question": "Which industries are witnessing shifts in tech stack preferences and what are the corresponding strategic areas of focus for companies within those industries?",
+  "tables": ["IndustryBusinessTrend", "CompanyTechStack", "CompanyFocusAreaDetail"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify industries experiencing shifts in tech stack preferences",
+      "table": ["IndustryBusinessTrend"]
+    },
+    {
+      "step": 2,
+      "task": "Gather information on the tech stacks used by companies in these industries",
+      "table": ["CompanyTechStack"]
+    },
+    {
+      "step": 3,
+      "task": "Determine the strategic areas of focus for these companies",
+      "table": ["CompanyFocusAreaDetail"]
+    }
+  ]
+}

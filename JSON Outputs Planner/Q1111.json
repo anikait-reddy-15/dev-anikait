@@ -1,0 +1,20 @@
+{
+  "question": "How many companies have shifted their focus area to e-commerce while increasing technology spending?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Filter companies with a focus on e-commerce",
+      "table": ["CompanyFocusAreaDetail"]
+    },
+    {
+      "step": 2,
+      "task": "Check for increase in technology spending",
+      "table": ["CompanyInfo"]
+    },
+    {
+      "step": 3,
+      "task": "Count the total number of such companies",
+      "table": []
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "question": "What are the most frequently adopted technologies by companies that have announced new hiring initiatives for data analysts and similarly focused roles?",
+  "tables": ["CompanyHiringDetail", "CompanyTechStack"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies that have announced new hiring initiatives for data analysts. [CompanyHiringDetail]",
+      "table": ["CompanyHiringDetail"]
+    },
+    {
+      "step": 2,
+      "task": "Extract the technologies adopted by these companies. [CompanyTechStack]",
+      "table": ["CompanyTechStack"]
+    },
+    {
+      "step": 3,
+      "task": "Determine the frequency of each technology adoption. [CompanyTechStack]",
+      "table": ["CompanyTechStack"]
+    }
+  ]
+}

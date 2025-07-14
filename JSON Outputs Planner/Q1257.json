@@ -1,0 +1,20 @@
+{
+  "question": "Which companies have seen a notable uplift in their innovative product launches as a result of enhanced data science teams?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies with recent growth in data science hiring from CompanyHiringDetail",
+      "table": ["CompanyHiringDetail"]
+    },
+    {
+      "step": 2,
+      "task": "Find companies with recent innovative product launches from CompanyInfo",
+      "table": ["CompanyInfo"]
+    },
+    {
+      "step": 3,
+      "task": "Correlate hiring trends with product innovation activity",
+      "table": ["CompanyHiringDetail", "CompanyInfo"]
+    }
+  ]
+}

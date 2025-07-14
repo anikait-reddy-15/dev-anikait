@@ -1,0 +1,21 @@
+{
+  "question": "How does the response to business trends in data analytics affect the technology strategies of companies?",
+  "tables": ["IndustryBusinessTrend", "CompanyTechStack"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify business trends in data analytics",
+      "table": ["IndustryBusinessTrend"]
+    },
+    {
+      "step": 2,
+      "task": "Retrieve technology strategies of companies responding to these trends",
+      "table": ["CompanyTechStack"]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the relationship between business trends and technology strategies",
+      "table": ["IndustryBusinessTrend", "CompanyTechStack"]
+    }
+  ]
+}

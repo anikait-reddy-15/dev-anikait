@@ -1,0 +1,21 @@
+{
+  "question": "What emerging corporate leaders have posted about sustainable investments on social media recently?",
+  "tables": ["PersonaUser", "PersonaLinkedInProfile", "CompanyInstagramDetail"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify emerging corporate leaders from the PersonaUser table",
+      "table": ["PersonaUser"]
+    },
+    {
+      "step": 2,
+      "task": "Retrieve recent posts from the CompanyInstagramDetail table mentioning sustainable investments",
+      "table": ["CompanyInstagramDetail"]
+    },
+    {
+      "step": 3,
+      "task": "Cross-reference the leaders with their posts to find those who have mentioned sustainable investments",
+      "table": ["PersonaLinkedInProfile", "CompanyInstagramDetail"]
+    }
+  ]
+}

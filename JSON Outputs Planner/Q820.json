@@ -1,0 +1,21 @@
+{
+  "question": "Which firms are deploying explainable AI solutions for internal audit processes?",
+  "tables": ["CompanyFocusAreaDetail", "CompanyBlogDetail"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Find companies deploying explainable AI.",
+      "table": ["CompanyFocusAreaDetail"]
+    },
+    {
+      "step": 2,
+      "task": "Search blogs for internal audit applications.",
+      "table": ["CompanyBlogDetail"]
+    },
+    {
+      "step": 3,
+      "task": "List firms with explainable AI in audit workflows.",
+      "table": ["CompanyFocusAreaDetail", "CompanyBlogDetail"]
+    }
+  ]
+}

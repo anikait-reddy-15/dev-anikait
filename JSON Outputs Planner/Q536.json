@@ -1,0 +1,21 @@
+{
+  "question": "Which companies have expressed interest in hiring data scientists while simultaneously increasing their technology investments in AI?",
+  "tables": ["CompanyHiringDetail", "CompanyTechStack"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies that have expressed interest in hiring data scientists. [CompanyHiringDetail]",
+      "table": ["CompanyHiringDetail"]
+    },
+    {
+      "step": 2,
+      "task": "Identify companies that are increasing their technology investments in AI. [CompanyTechStack]",
+      "table": ["CompanyTechStack"]
+    },
+    {
+      "step": 3,
+      "task": "Cross-reference the two sets of companies to find common entities. [CompanyHiringDetail, CompanyTechStack]",
+      "table": ["CompanyHiringDetail", "CompanyTechStack"]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "question": "Who are the key influencers in data science at organizations focusing on cloud computing as a strategic priority?",
+  "tables": ["PersonaUser", "CompanyFocusAreaDetail", "CompanyLeadershipExcerpt"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify organizations that prioritize cloud computing from the CompanyFocusAreaDetail table. [CompanyFocusAreaDetail]",
+      "table": ["CompanyFocusAreaDetail"]
+    },
+    {
+      "step": 2,
+      "task": "Find key influencers in data science from the PersonaUser table. [PersonaUser]",
+      "table": ["PersonaUser"]
+    },
+    {
+      "step": 3,
+      "task": "Gather leadership excerpts related to data science from the CompanyLeadershipExcerpt table. [CompanyLeadershipExcerpt]",
+      "table": ["CompanyLeadershipExcerpt"]
+    },
+    {
+      "step": 4,
+      "task": "Match influencers with organizations focusing on cloud computing. [PersonaUser, CompanyFocusAreaDetail, CompanyLeadershipExcerpt]",
+      "table": ["PersonaUser", "CompanyFocusAreaDetail", "CompanyLeadershipExcerpt"]
+    }
+  ]
+}

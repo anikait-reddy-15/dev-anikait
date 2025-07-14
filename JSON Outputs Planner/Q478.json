@@ -1,0 +1,21 @@
+{
+  "question": "Which companies have shown increased Instagram activity related to innovation and have partnered with startup vendors?",
+  "tables": ["PersonaInstagramProfile", "CompanyVendorTechDetail"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies with increased Instagram activity on innovation. [PersonaInstagramProfile]",
+      "table": ["PersonaInstagramProfile"]
+    },
+    {
+      "step": 2,
+      "task": "Find companies partnered with startup vendors. [CompanyVendorTechDetail]",
+      "table": ["CompanyVendorTechDetail"]
+    },
+    {
+      "step": 3,
+      "task": "Match companies that meet both criteria. [PersonaInstagramProfile, CompanyVendorTechDetail]",
+      "table": ["PersonaInstagramProfile", "CompanyVendorTechDetail"]
+    }
+  ]
+}

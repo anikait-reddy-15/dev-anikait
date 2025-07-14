@@ -1,0 +1,16 @@
+{
+  "question": "What are the recent projects Rafael Jabur Bittar shared in his LinkedIn posts related to sustainability?",
+  "tables": ["PersonaLinkedinPost", "PersonaUser"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Filter Rafael Jabur Bittar's LinkedIn posts for sustainability-related content",
+      "table": ["PersonaLinkedinPost"]
+    },
+    {
+      "step": 2,
+      "task": "Identify the user profile of Rafael Jabur Bittar to ensure the correct posts are selected",
+      "table": ["PersonaUser"]
+    }
+  ]
+}

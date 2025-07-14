@@ -1,0 +1,21 @@
+{
+  "question": "Who are the key leaders involved in companies transitioning to hybrid cloud architectures?",
+  "tables": ["CompanyLeadershipExcerpt", "CompanyTechStack"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies transitioning to hybrid cloud.",
+      "table": ["CompanyTechStack"]
+    },
+    {
+      "step": 2,
+      "task": "Find key leaders in those companies.",
+      "table": ["CompanyLeadershipExcerpt"]
+    },
+    {
+      "step": 3,
+      "task": "Match leaders to companies.",
+      "table": ["CompanyLeadershipExcerpt", "CompanyTechStack"]
+    }
+  ]
+}

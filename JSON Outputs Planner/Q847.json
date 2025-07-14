@@ -1,0 +1,21 @@
+{
+  "question": "Which fintech firms are utilizing AI to offer personalized financial planning and robo-advisory services?",
+  "tables": ["CompanyFocusAreaDetail", "CompanyInfo"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify fintech firms.",
+      "table": ["CompanyInfo"]
+    },
+    {
+      "step": 2,
+      "task": "Check for AI-driven financial planning and robo-advisory services.",
+      "table": ["CompanyFocusAreaDetail"]
+    },
+    {
+      "step": 3,
+      "task": "List firms with AI personalization offerings in fintech.",
+      "table": ["CompanyFocusAreaDetail", "CompanyInfo"]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "question": "Which insurance companies have recently shown hiring spikes and have added cloud-based claims processing tools?",
+  "tables": ["CompanyInfo", "CompanyHiringDetail", "CompanyTechStack"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify insurance companies. [CompanyInfo]",
+      "table": ["CompanyInfo"]
+    },
+    {
+      "step": 2,
+      "task": "Find insurance companies with recent hiring spikes. [CompanyHiringDetail]",
+      "table": ["CompanyHiringDetail"]
+    },
+    {
+      "step": 3,
+      "task": "Find those using cloud-based claims tools. [CompanyTechStack]",
+      "table": ["CompanyTechStack"]
+    },
+    {
+      "step": 4,
+      "task": "Combine all criteria to get the final list. [CompanyInfo, CompanyHiringDetail, CompanyTechStack]",
+      "table": ["CompanyInfo", "CompanyHiringDetail", "CompanyTechStack"]
+    }
+  ]
+}

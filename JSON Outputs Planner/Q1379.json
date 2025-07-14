@@ -1,0 +1,20 @@
+{
+  "question": "What roles are companies hiring for to support responsible AI initiatives?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies focusing on responsible AI in strategic focus or leadership content",
+      "table": ["CompanyFocusAreaDetail", "CompanyLeadershipExcerpt"]
+    },
+    {
+      "step": 2,
+      "task": "Extract open roles from hiring data at these companies",
+      "table": ["CompanyHiringDetail"]
+    },
+    {
+      "step": 3,
+      "task": "List roles related to AI governance, ethics, fairness, or compliance",
+      "table": ["CompanyHiringDetail"]
+    }
+  ]
+}

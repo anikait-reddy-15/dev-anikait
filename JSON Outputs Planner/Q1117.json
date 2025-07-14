@@ -1,0 +1,20 @@
+{
+  "question": "What are the recurring themes in social media postings by data scientists at companies focused on innovation?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies with innovation focus",
+      "table": ["CompanyFocusAreaDetail"]
+    },
+    {
+      "step": 2,
+      "task": "Get social media posts by their data scientists",
+      "table": ["PersonaLinkedinPost"]
+    },
+    {
+      "step": 3,
+      "task": "Summarize recurring themes from these posts",
+      "table": []
+    }
+  ]
+}

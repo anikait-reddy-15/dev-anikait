@@ -1,0 +1,21 @@
+{
+  "question": "Which technologies are prevalent among organizations that have launched significant hiring initiatives for data analytics positions last quarter?",
+  "tables": ["CompanyHiringDetail", "CompanyTechStack"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify organizations that launched significant hiring initiatives for data analytics positions last quarter. [CompanyHiringDetail]",
+      "table": ["CompanyHiringDetail"]
+    },
+    {
+      "step": 2,
+      "task": "Gather technology data for these organizations. [CompanyTechStack]",
+      "table": ["CompanyTechStack"]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the technology data to find prevalent technologies. [CompanyTechStack]",
+      "table": ["CompanyTechStack"]
+    }
+  ]
+}

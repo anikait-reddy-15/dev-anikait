@@ -1,0 +1,21 @@
+{
+  "question": "What are the strategic areas of focus for companies that have recently signed vendor deals related to artificial intelligence?",
+  "tables": ["CompanyDealMaster", "CompanyFocusAreaDetail"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies that have recently signed vendor deals related to artificial intelligence.",
+      "table": ["CompanyDealMaster"]
+    },
+    {
+      "step": 2,
+      "task": "Extract the strategic focus areas for the identified companies.",
+      "table": ["CompanyFocusAreaDetail"]
+    },
+    {
+      "step": 3,
+      "task": "Match the vendor deals with their corresponding strategic areas of focus.",
+      "table": ["CompanyDealMaster", "CompanyFocusAreaDetail"]
+    }
+  ]
+}

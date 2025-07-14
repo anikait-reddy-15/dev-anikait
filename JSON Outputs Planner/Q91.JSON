@@ -1,0 +1,21 @@
+{
+  "question": "Who are the most active LinkedIn users discussing data privacy at firms that have recently undergone technological upgrades?",
+  "tables": ["PersonaLinkedInProfile", "CompanyTechStack", "CompanyInfo"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify firms that have recently undergone technological upgrades",
+      "table": ["CompanyTechStack"]
+    },
+    {
+      "step": 2,
+      "task": "Find LinkedIn users discussing data privacy at these firms",
+      "table": ["PersonaLinkedinActivity", "PersonaUser"]
+    },
+    {
+      "step": 3,
+      "task": "Compile a list of the most active users discussing data privacy",
+      "table": ["PersonaLinkedinActivity"]
+    }
+  ]
+}

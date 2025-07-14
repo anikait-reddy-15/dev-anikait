@@ -1,0 +1,21 @@
+{
+  "question": "Which companies have integrated AI-powered analytics tools and actively post case studies on their YouTube channels?",
+  "tables": ["CompanyTechStack", "CompanyYoutubeDetail"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies with AI-powered analytics tools in their tech stack.",
+      "table": ["CompanyTechStack"]
+    },
+    {
+      "step": 2,
+      "task": "Find companies posting case studies on YouTube.",
+      "table": ["CompanyYoutubeDetail"]
+    },
+    {
+      "step": 3,
+      "task": "Cross-reference companies appearing in both data sets.",
+      "table": ["CompanyTechStack", "CompanyYoutubeDetail"]
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "question": "Which firms are aligning tech procurement decisions with responsible AI principles?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify vendors and technologies procured recently by companies",
+      "table": ["CompanyVendorTechDetail"]
+    },
+    {
+      "step": 2,
+      "task": "Check leadership or strategic documents for mentions of responsible AI",
+      "table": ["CompanyLeadershipExcerpt", "CompanyFocusAreaDetail"]
+    },
+    {
+      "step": 3,
+      "task": "List companies aligning procurement choices with ethical or fairness principles",
+      "table": ["CompanyVendorTechDetail", "CompanyLeadershipExcerpt"]
+    }
+  ]
+}

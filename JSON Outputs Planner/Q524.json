@@ -1,0 +1,21 @@
+{
+  "question": "What technologies are most frequently highlighted by companies that have experienced notable increases in engagement on Instagram over the last quarter?",
+  "tables": ["CompanyInstagramDetail", "CompanyTechStack", "SocialMediaInfo"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies with increased Instagram engagement in the last quarter. [CompanyInstagramDetail, SocialMediaInfo]",
+      "table": ["CompanyInstagramDetail", "SocialMediaInfo"]
+    },
+    {
+      "step": 2,
+      "task": "Extract technologies used by these companies. [CompanyTechStack]",
+      "table": ["CompanyTechStack"]
+    },
+    {
+      "step": 3,
+      "task": "Analyze frequency of highlighted technologies. [CompanyTechStack]",
+      "table": ["CompanyTechStack"]
+    }
+  ]
+}

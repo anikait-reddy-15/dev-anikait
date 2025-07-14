@@ -1,0 +1,20 @@
+{
+  "question": "Which companies are investing in cloud technologies and have seen changes in their stock prices recently?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies investing in cloud technologies from CompanyTechStack",
+      "table": ["CompanyTechStack"]
+    },
+    {
+      "step": 2,
+      "task": "Find recent stock price changes from CompanyInfo",
+      "table": ["CompanyInfo"]
+    },
+    {
+      "step": 3,
+      "task": "Join both sources to find overlapping companies",
+      "table": ["CompanyTechStack", "CompanyInfo"]
+    }
+  ]
+}

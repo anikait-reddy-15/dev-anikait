@@ -1,0 +1,21 @@
+{
+  "question": "Which firms have discussed sustainability in leadership excerpts and signed partnerships with green tech vendors?",
+  "tables": ["CompanyLeadershipExcerpt", "CompanyVendorTechDetail"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify firms discussing sustainability in leadership excerpts. [CompanyLeadershipExcerpt]",
+      "table": ["CompanyLeadershipExcerpt"]
+    },
+    {
+      "step": 2,
+      "task": "Find companies partnered with green tech vendors. [CompanyVendorTechDetail]",
+      "table": ["CompanyVendorTechDetail"]
+    },
+    {
+      "step": 3,
+      "task": "Cross-match both datasets to get firms that satisfy both criteria. [CompanyLeadershipExcerpt, CompanyVendorTechDetail]",
+      "table": ["CompanyLeadershipExcerpt", "CompanyVendorTechDetail"]
+    }
+  ]
+}

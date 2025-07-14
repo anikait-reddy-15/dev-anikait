@@ -1,0 +1,21 @@
+{
+  "question": "Who are the data scientists frequently posting about AI governance on LinkedIn and associated with companies undergoing digital transformation?",
+  "tables": ["PersonaLinkedinPost", "PersonaUser", "CompanyFocusAreaDetail"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify LinkedIn posts about AI governance.",
+      "table": ["PersonaLinkedinPost"]
+    },
+    {
+      "step": 2,
+      "task": "Filter posts by data scientists.",
+      "table": ["PersonaUser"]
+    },
+    {
+      "step": 3,
+      "task": "Match data scientists to companies undergoing digital transformation.",
+      "table": ["PersonaUser", "CompanyFocusAreaDetail"]
+    }
+  ]
+}

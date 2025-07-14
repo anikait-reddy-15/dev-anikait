@@ -1,0 +1,21 @@
+{
+  "question": "How do social media engagement levels correlate with recent technology adoption in companies focusing on AI?",
+  "tables": ["CompanySocialMediaInfo", "CompanyTechStack"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies focusing on AI and their recent technology adoption",
+      "table": ["CompanyTechStack"]
+    },
+    {
+      "step": 2,
+      "task": "Retrieve social media engagement levels for these companies",
+      "table": ["CompanySocialMediaInfo"]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the correlation between engagement levels and technology adoption",
+      "table": ["CompanySocialMediaInfo", "CompanyTechStack"]
+    }
+  ]
+}

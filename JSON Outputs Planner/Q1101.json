@@ -1,0 +1,20 @@
+{
+  "question": "Which companies have adopted machine learning technologies in their tech stack during the last 6 months?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify recent tech stack updates mentioning machine learning",
+      "table": ["CompanyTechStack"]
+    },
+    {
+      "step": 2,
+      "task": "Filter updates to the last 6 months",
+      "table": ["CompanyTechStack"]
+    },
+    {
+      "step": 3,
+      "task": "Get company details for those using machine learning",
+      "table": ["CompanyInfo"]
+    }
+  ]
+}

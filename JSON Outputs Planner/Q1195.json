@@ -1,0 +1,20 @@
+{
+  "question": "What technologies are emphasized by companies that have launched AI-focused social campaigns?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify AI-focused campaigns on social media",
+      "table": ["SocialMediaInfo"]
+    },
+    {
+      "step": 2,
+      "task": "Link companies involved in these campaigns to their tech stacks",
+      "table": ["CompanyTechStack"]
+    },
+    {
+      "step": 3,
+      "task": "Analyze technologies promoted through these campaigns",
+      "table": ["CompanyTechStack"]
+    }
+  ]
+}

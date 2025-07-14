@@ -1,0 +1,21 @@
+{
+  "question": "What topics are being discussed in the LinkedIn posts of data science leaders at firms that are ramping up their investment in cloud solutions?",
+  "tables": ["PersonaLinkedinPost", "PersonaUser", "CompanyTechStack"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify firms that are ramping up their investment in cloud solutions. [CompanyTechStack]",
+      "table": ["CompanyTechStack"]
+    },
+    {
+      "step": 2,
+      "task": "Gather LinkedIn profiles of data science leaders at those firms. [PersonaUser]",
+      "table": ["PersonaUser"]
+    },
+    {
+      "step": 3,
+      "task": "Extract and analyze topics from LinkedIn posts of the identified leaders. [PersonaLinkedinPost]",
+      "table": ["PersonaLinkedinPost"]
+    }
+  ]
+}

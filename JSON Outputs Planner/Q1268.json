@@ -1,0 +1,20 @@
+{
+  "question": "Which tech solutions are preferred by data scientists in companies actively publishing research articles?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies associated with published research from PersonaUser",
+      "table": ["PersonaUser"]
+    },
+    {
+      "step": 2,
+      "task": "Analyze their current tech stacks from CompanyTechStack",
+      "table": ["CompanyTechStack"]
+    },
+    {
+      "step": 3,
+      "task": "Summarize preferred tools and technologies used",
+      "table": ["CompanyTechStack"]
+    }
+  ]
+}

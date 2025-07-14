@@ -1,0 +1,21 @@
+{
+  "question": "Which vendor deals have been signed by educational institutions in the past year?",
+  "tables": ["CompanyDealMaster", "CompanyDataCenter"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify the time frame for the past year",
+      "table": []
+    },
+    {
+      "step": 2,
+      "task": "Filter vendor deals related to educational institutions from the CompanyDealMaster",
+      "table": ["CompanyDealMaster"]
+    },
+    {
+      "step": 3,
+      "task": "Extract relevant details about the vendors involved",
+      "table": ["CompanyDataCenter"]
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "question": "Which companies are focusing on responsible AI and what technologies support their initiatives?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Filter companies mentioning responsible AI in their strategy",
+      "table": ["CompanyFocusAreaDetail"]
+    },
+    {
+      "step": 2,
+      "task": "List supporting technologies in their tech stack",
+      "table": ["CompanyTechStack"]
+    },
+    {
+      "step": 3,
+      "task": "Summarize how tech components align with responsible AI goals",
+      "table": ["CompanyTechStack", "CompanyFocusAreaDetail"]
+    }
+  ]
+}

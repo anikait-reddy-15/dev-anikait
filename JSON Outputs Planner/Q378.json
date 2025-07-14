@@ -1,0 +1,21 @@
+{
+  "question": "How have the hiring patterns for data science roles in tech companies aligned with their strategic focus areas over the last year?",
+  "tables": ["CompanyHiringDetail", "CompanyFocusAreaDetail"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Gather data on hiring patterns for data science roles over the last year. [CompanyHiringDetail]",
+      "table": ["CompanyHiringDetail"]
+    },
+    {
+      "step": 2,
+      "task": "Identify the strategic focus areas of these tech companies. [CompanyFocusAreaDetail]",
+      "table": ["CompanyFocusAreaDetail"]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the alignment between hiring patterns and strategic focus areas. [CompanyHiringDetail, CompanyFocusAreaDetail]",
+      "table": ["CompanyHiringDetail", "CompanyFocusAreaDetail"]
+    }
+  ]
+}

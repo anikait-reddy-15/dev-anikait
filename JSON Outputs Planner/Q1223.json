@@ -1,0 +1,25 @@
+{
+  "question": "How do social sentiment trends correlate with major technology adoption in large enterprises?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify large enterprises from CompanyInfo",
+      "table": ["CompanyInfo"]
+    },
+    {
+      "step": 2,
+      "task": "Track major technology adoptions from CompanyTechStack",
+      "table": ["CompanyTechStack"]
+    },
+    {
+      "step": 3,
+      "task": "Measure social sentiment trends from SocialMediaInfo",
+      "table": ["SocialMediaInfo"]
+    },
+    {
+      "step": 4,
+      "task": "Perform correlation analysis between sentiment and adoption activity",
+      "table": ["CompanyTechStack", "SocialMediaInfo"]
+    }
+  ]
+}

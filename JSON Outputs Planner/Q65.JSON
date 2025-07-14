@@ -1,0 +1,21 @@
+{
+  "question": "What digitalization efforts are consumer goods companies implementing to enhance customer experience?",
+  "tables": ["IndustryITTrend", "CompanyTechStack"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify digitalization trends from the IT industry that apply to consumer goods companies",
+      "table": ["IndustryITTrend"]
+    },
+    {
+      "step": 2,
+      "task": "List the technologies being implemented by consumer goods companies to enhance customer experience",
+      "table": ["CompanyTechStack"]
+    },
+    {
+      "step": 3,
+      "task": "Analyze how the identified technologies align with the digitalization efforts",
+      "table": ["IndustryITTrend", "CompanyTechStack"]
+    }
+  ]
+}

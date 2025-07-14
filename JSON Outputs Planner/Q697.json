@@ -1,0 +1,21 @@
+{
+  "question": "Which companies have showcased recent advancements in AI-powered customer service in their YouTube videos?",
+  "tables": ["CompanyYoutubeDetail", "CompanyFocusAreaDetail"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies posting YouTube videos about AI-powered customer service.",
+      "table": ["CompanyYoutubeDetail"]
+    },
+    {
+      "step": 2,
+      "task": "Filter companies focused on AI in customer service.",
+      "table": ["CompanyFocusAreaDetail"]
+    },
+    {
+      "step": 3,
+      "task": "Match companies appearing in both datasets.",
+      "table": ["CompanyYoutubeDetail", "CompanyFocusAreaDetail"]
+    }
+  ]
+}

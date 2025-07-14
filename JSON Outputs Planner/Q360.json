@@ -1,0 +1,21 @@
+{
+  "question": "What companies have had a leadership change and have also published informative content about machine learning on their YouTube channels?",
+  "tables": ["CompanyLeadershipExcerpt", "CompanyYoutubeDetail"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies that have had a recent leadership change. [CompanyLeadershipExcerpt]",
+      "table": ["CompanyLeadershipExcerpt"]
+    },
+    {
+      "step": 2,
+      "task": "Find companies that have published content about machine learning on YouTube. [CompanyYoutubeDetail]",
+      "table": ["CompanyYoutubeDetail"]
+    },
+    {
+      "step": 3,
+      "task": "Match the companies with leadership changes to those that published machine learning content. [CompanyLeadershipExcerpt, CompanyYoutubeDetail]",
+      "table": ["CompanyLeadershipExcerpt", "CompanyYoutubeDetail"]
+    }
+  ]
+}

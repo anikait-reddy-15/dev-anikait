@@ -1,0 +1,20 @@
+{
+  "question": "Which professionals discuss governance frameworks in their Twitter feeds?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Extract tweets mentioning governance, compliance, or frameworks",
+      "table": ["PersonaTwitterTweets"]
+    },
+    {
+      "step": 2,
+      "task": "Match Twitter users to their professional roles",
+      "table": ["PersonaTitle"]
+    },
+    {
+      "step": 3,
+      "task": "List professionals engaging with governance topics",
+      "table": ["PersonaTwitterTweets", "PersonaTitle"]
+    }
+  ]
+}

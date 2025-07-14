@@ -1,0 +1,20 @@
+{
+  "question": "Which companies have deployed analytics solutions and seen a rise in social media engagement in the last year?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies with recent analytics solutions deployed.",
+      "table": ["CompanyTechStack"]
+    },
+    {
+      "step": 2,
+      "task": "Check social media metrics for those companies over the last year.",
+      "table": ["SocialMediaInfo"]
+    },
+    {
+      "step": 3,
+      "task": "Match companies with both analytics deployments and increased engagement.",
+      "table": ["CompanyTechStack", "SocialMediaInfo"]
+    }
+  ]
+}

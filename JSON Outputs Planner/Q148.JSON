@@ -1,0 +1,21 @@
+{
+  "question": "Which executives have articulated visions for AI implementation in emerging markets during conferences or tech panels?",
+  "tables": ["CompanyLeadershipExcerpt", "CompanyTechStack"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Extract leadership excerpts mentioning AI implementation",
+      "table": ["CompanyLeadershipExcerpt"]
+    },
+    {
+      "step": 2,
+      "task": "Identify references to emerging market strategies",
+      "table": ["CompanyLeadershipExcerpt"]
+    },
+    {
+      "step": 3,
+      "task": "Link the executives' visions to corresponding tech stacks",
+      "table": ["CompanyTechStack"]
+    }
+  ]
+}

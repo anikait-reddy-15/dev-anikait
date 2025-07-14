@@ -1,0 +1,21 @@
+{
+  "question": "What leadership insights have been shared by executives in organizations that frequently discuss digital transformation on social media?",
+  "tables": ["CompanyLeadershipExcerpt", "SocialMediaInfo"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify organizations that frequently discuss digital transformation on social media.",
+      "table": ["SocialMediaInfo"]
+    },
+    {
+      "step": 2,
+      "task": "Gather leadership insights from executives in those organizations.",
+      "table": ["CompanyLeadershipExcerpt"]
+    },
+    {
+      "step": 3,
+      "task": "Combine the insights with the organizations identified.",
+      "table": ["CompanyLeadershipExcerpt", "SocialMediaInfo"]
+    }
+  ]
+}

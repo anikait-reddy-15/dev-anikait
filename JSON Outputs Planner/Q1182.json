@@ -1,0 +1,20 @@
+{
+  "question": "What marketing strategies are being implemented by firms to complement their IT investments?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Extract IT investment details for companies",
+      "table": ["CompanyTechStack"]
+    },
+    {
+      "step": 2,
+      "task": "Identify companies' strategic focus areas",
+      "table": ["CompanyFocusAreaDetail"]
+    },
+    {
+      "step": 3,
+      "task": "Analyze marketing strategies aligned with tech investments",
+      "table": ["CompanyInfo"]
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "question": "What technologies were highlighted in LPL Financial's recent videos?",
+  "tables": ["CompanyYoutubeDetail", "SectionData"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Extract recent video details from the CompanyYoutubeDetail table",
+      "table": ["CompanyYoutubeDetail"]
+    },
+    {
+      "step": 2,
+      "task": "Identify technologies mentioned in these videos using the SectionData table",
+      "table": ["SectionData"]
+    },
+    {
+      "step": 3,
+      "task": "Combine the video details and technology mentions to summarize the findings",
+      "table": ["CompanyYoutubeDetail", "SectionData"]
+    }
+  ]
+}

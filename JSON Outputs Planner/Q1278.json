@@ -1,0 +1,20 @@
+{
+  "question": "What are the typical hiring challenges faced by companies focusing on cloud-native technologies?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies adopting cloud-native tools from CompanyTechStack",
+      "table": ["CompanyTechStack"]
+    },
+    {
+      "step": 2,
+      "task": "Get hiring trends and role types from CompanyHiringDetail",
+      "table": ["CompanyHiringDetail"]
+    },
+    {
+      "step": 3,
+      "task": "Analyze mismatches between role demands and candidate availability",
+      "table": ["CompanyHiringDetail", "CompanyTechStack"]
+    }
+  ]
+}

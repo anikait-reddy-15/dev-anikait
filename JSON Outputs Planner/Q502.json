@@ -1,0 +1,21 @@
+{
+  "question": "What are the key trends in technology focus for companies that signed deals with IT vendors in the healthcare sector?",
+  "tables": ["CompanyDealMaster", "CompanyVendorTechDetail"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies that signed deals with IT vendors in the healthcare sector. [CompanyDealMaster]",
+      "table": ["CompanyDealMaster"]
+    },
+    {
+      "step": 2,
+      "task": "Gather key technology trends from vendor relationships. [CompanyVendorTechDetail]",
+      "table": ["CompanyVendorTechDetail"]
+    },
+    {
+      "step": 3,
+      "task": "Filter technology trends for those healthcare sector companies. [CompanyVendorTechDetail, CompanyDealMaster]",
+      "table": ["CompanyVendorTechDetail", "CompanyDealMaster"]
+    }
+  ]
+}

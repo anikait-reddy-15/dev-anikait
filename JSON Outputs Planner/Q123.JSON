@@ -1,0 +1,21 @@
+{
+  "question": "Who are the top executives discussing data analysis trends and their implications for future technology investments?",
+  "tables": ["CompanyLeadershipExcerpt", "IndustryITTrend"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify executives discussing data analysis trends",
+      "table": ["CompanyLeadershipExcerpt"]
+    },
+    {
+      "step": 2,
+      "task": "Retrieve insights on the implications of these trends for technology investments",
+      "table": ["IndustryITTrend"]
+    },
+    {
+      "step": 3,
+      "task": "Compile a list of top executives and their insights",
+      "table": ["CompanyLeadershipExcerpt", "IndustryITTrend"]
+    }
+  ]
+}

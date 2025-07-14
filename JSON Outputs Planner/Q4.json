@@ -1,0 +1,31 @@
+{
+  "question": "Can you outline the major recent social media initiatives by New York Life related to multicultural recruitment?",
+  "tables": ["CompanyFocusAreaDetail", "CompanyFacebookDetail", "CompanyInfo"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify multicultural recruitment focus areas",
+      "table": ["CompanyFocusAreaDetail"]
+    },
+    {
+      "step": 2,
+      "task": "Filter relevant Facebook posts by date and theme",
+      "table": ["CompanyFacebookDetail"]
+    },
+    {
+      "step": 3,
+      "task": "Filter for New York Life ID",
+      "table": ["CompanyInfo"]
+    },
+    {
+      "step": 4,
+      "task": "Join focus areas with social media content",
+      "table": []
+    },
+    {
+      "step": 5,
+      "task": "Highlight recent initiatives",
+      "table": []
+    }
+  ]
+}

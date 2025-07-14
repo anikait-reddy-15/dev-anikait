@@ -1,0 +1,21 @@
+{
+  "question": "Which AI startups are being acquired by Fortune 500 companies for core IP integration?",
+  "tables": ["CompanyDealMaster", "CompanyInfo"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify Fortune 500 acquirers.",
+      "table": ["CompanyInfo"]
+    },
+    {
+      "step": 2,
+      "task": "Filter deals for AI startup acquisitions.",
+      "table": ["CompanyDealMaster"]
+    },
+    {
+      "step": 3,
+      "task": "Determine if purpose was core IP integration.",
+      "table": ["CompanyDealMaster"]
+    }
+  ]
+}

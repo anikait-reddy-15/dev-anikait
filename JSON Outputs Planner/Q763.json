@@ -1,0 +1,16 @@
+{
+  "question": "What are the most cited use cases of AI in blogs published by top-performing tech companies?",
+  "tables": ["CompanyBlogDetail", "CompanyInfo"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify blogs published by top-performing tech companies.",
+      "table": ["CompanyInfo", "CompanyBlogDetail"]
+    },
+    {
+      "step": 2,
+      "task": "Extract and categorize most cited AI use cases in those blogs.",
+      "table": ["CompanyBlogDetail"]
+    }
+  ]
+}

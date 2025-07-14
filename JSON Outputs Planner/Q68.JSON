@@ -1,0 +1,21 @@
+{
+  "question": "Who are the executive leaders at LPL Financial involved in technology decisions?",
+  "tables": ["SectionData", "PersonaUser"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify executive leaders at LPL Financial from the SectionData table",
+      "table": ["SectionData"]
+    },
+    {
+      "step": 2,
+      "task": "Filter the identified leaders based on their involvement in technology decisions",
+      "table": ["SectionData"]
+    },
+    {
+      "step": 3,
+      "task": "Link the identified executive leaders to their user profiles in the PersonaUser table",
+      "table": ["PersonaUser"]
+    }
+  ]
+}

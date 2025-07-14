@@ -1,0 +1,20 @@
+{
+  "question": "What technologies are being used by companies promoting AI model transparency?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies that emphasize model transparency in focus areas or leadership content",
+      "table": ["CompanyFocusAreaDetail", "CompanyLeadershipExcerpt"]
+    },
+    {
+      "step": 2,
+      "task": "Retrieve the tech stacks of these companies",
+      "table": ["CompanyTechStack"]
+    },
+    {
+      "step": 3,
+      "task": "Highlight technologies related to explainability, auditing, or transparency",
+      "table": ["CompanyTechStack"]
+    }
+  ]
+}

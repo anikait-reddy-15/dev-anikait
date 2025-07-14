@@ -1,0 +1,21 @@
+{
+  "question": "Which companies have openly discussed the challenges of adopting new technologies in their leadership comments?",
+  "tables": ["CompanyLeadershipExcerpt", "CompanyTechStack"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Extract leadership excerpts mentioning challenges of technology adoption",
+      "table": ["CompanyLeadershipExcerpt"]
+    },
+    {
+      "step": 2,
+      "task": "Identify the companies associated with these excerpts",
+      "table": ["CompanyLeadershipExcerpt"]
+    },
+    {
+      "step": 3,
+      "task": "Analyze their tech stack status to contextualize the challenges",
+      "table": ["CompanyTechStack"]
+    }
+  ]
+}

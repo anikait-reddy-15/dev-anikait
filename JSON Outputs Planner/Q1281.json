@@ -1,0 +1,20 @@
+{
+  "question": "Which vendor relationships have resulted in improved data analytics capabilities for tech companies?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify tech companies from CompanyInfo",
+      "table": ["CompanyInfo"]
+    },
+    {
+      "step": 2,
+      "task": "Find relevant vendor engagements from CompanyVendorTechDetail",
+      "table": ["CompanyVendorTechDetail"]
+    },
+    {
+      "step": 3,
+      "task": "Link these to data analytics enhancements via CompanyTechStack",
+      "table": ["CompanyTechStack"]
+    }
+  ]
+}

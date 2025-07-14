@@ -1,0 +1,21 @@
+{
+  "question": "Which companies in the retail sector have signed vendor deals with analytics providers after launching new product lines?",
+  "tables": ["CompanyDealMaster", "CompanyVendorProductDetail", "CompanyInfo"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify vendor deals related to analytics providers. [CompanyVendorProductDetail]",
+      "table": ["CompanyVendorProductDetail"]
+    },
+    {
+      "step": 2,
+      "task": "Filter these deals to find those associated with new product line launches. [CompanyDealMaster]",
+      "table": ["CompanyDealMaster"]
+    },
+    {
+      "step": 3,
+      "task": "Match the filtered deals with companies in the retail sector. [CompanyInfo]",
+      "table": ["CompanyInfo"]
+    }
+  ]
+}

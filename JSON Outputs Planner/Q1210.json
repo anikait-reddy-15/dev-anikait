@@ -1,0 +1,20 @@
+{
+  "question": "What topics are frequently discussed by employees in the data science teams of companies that recently expanded their hiring efforts?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Filter companies with expanded hiring based on CompanyHiringDetail",
+      "table": ["CompanyHiringDetail"]
+    },
+    {
+      "step": 2,
+      "task": "Extract LinkedIn posts by data scientists in those companies",
+      "table": ["PersonaLinkedinPost"]
+    },
+    {
+      "step": 3,
+      "task": "Summarize recurring topics from the posts",
+      "table": ["PersonaLinkedinPost"]
+    }
+  ]
+}

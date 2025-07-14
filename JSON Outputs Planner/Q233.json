@@ -1,0 +1,21 @@
+{
+  "question": "Which industries are leading in adopting advanced analytics technologies as highlighted by their recent vendor partnerships?",
+  "tables": ["CompanyDealMaster", "CompanyInfo"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify recent vendor partnerships related to advanced analytics technologies",
+      "table": ["CompanyDealMaster"]
+    },
+    {
+      "step": 2,
+      "task": "Extract industry information for the companies involved in these partnerships",
+      "table": ["CompanyInfo"]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the data to determine which industries are leading in adoption",
+      "table": ["CompanyDealMaster", "CompanyInfo"]
+    }
+  ]
+}

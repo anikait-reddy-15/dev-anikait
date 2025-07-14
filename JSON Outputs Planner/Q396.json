@@ -1,0 +1,21 @@
+{
+  "question": "Which companies have recently hired data engineers and also expanded their technology partnerships?",
+  "tables": ["CompanyHiringDetail", "CompanyITPartnerDetail"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies that have recently hired data engineers. [CompanyHiringDetail]",
+      "table": ["CompanyHiringDetail"]
+    },
+    {
+      "step": 2,
+      "task": "Identify companies that have expanded their technology partnerships. [CompanyITPartnerDetail]",
+      "table": ["CompanyITPartnerDetail"]
+    },
+    {
+      "step": 3,
+      "task": "Match the companies from both previous steps to find those that meet both criteria. [CompanyHiringDetail, CompanyITPartnerDetail]",
+      "table": ["CompanyHiringDetail", "CompanyITPartnerDetail"]
+    }
+  ]
+}

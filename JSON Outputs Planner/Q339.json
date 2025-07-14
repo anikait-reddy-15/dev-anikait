@@ -1,0 +1,21 @@
+{
+  "question": "Which organizations reported a rise in social media engagement while also focusing on expanding their data analytics capabilities?",
+  "tables": ["SocialMediaInfo", "CompanyFocusAreaDetail"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify organizations that reported a rise in social media engagement. [SocialMediaInfo]",
+      "table": ["SocialMediaInfo"]
+    },
+    {
+      "step": 2,
+      "task": "Filter to find those organizations focusing on data analytics capabilities. [CompanyFocusAreaDetail]",
+      "table": ["CompanyFocusAreaDetail"]
+    },
+    {
+      "step": 3,
+      "task": "Combine the results to find organizations that meet both criteria. [CompanyFocusAreaDetail, SocialMediaInfo]",
+      "table": ["CompanyFocusAreaDetail", "SocialMediaInfo"]
+    }
+  ]
+}

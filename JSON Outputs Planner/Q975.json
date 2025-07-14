@@ -1,0 +1,21 @@
+{
+  "question": "Which automobile manufacturers are implementing AI for autonomous vehicle navigation and driver behavior analysis?",
+  "tables": ["CompanyFocusAreaDetail", "CompanyInfo"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify automobile manufacturers using AI.",
+      "table": ["CompanyInfo"]
+    },
+    {
+      "step": 2,
+      "task": "Check for AI in self-driving systems and behavior modeling.",
+      "table": ["CompanyFocusAreaDetail"]
+    },
+    {
+      "step": 3,
+      "task": "List manufacturers advancing autonomous driving with AI.",
+      "table": ["CompanyFocusAreaDetail", "CompanyInfo"]
+    }
+  ]
+}

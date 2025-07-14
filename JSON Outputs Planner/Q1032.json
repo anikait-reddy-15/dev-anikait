@@ -1,0 +1,20 @@
+{
+  "question": "Who in the data science field has authored influential articles shared widely on social media platforms?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify influential articles authored by data scientists.",
+      "table": ["PersonaMisc"]
+    },
+    {
+      "step": 2,
+      "task": "Check which articles were widely shared on social media.",
+      "table": ["SocialMediaInfo"]
+    },
+    {
+      "step": 3,
+      "task": "List authors and link them to data science roles.",
+      "table": ["PersonaMisc"]
+    }
+  ]
+}

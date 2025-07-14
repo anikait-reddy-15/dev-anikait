@@ -1,0 +1,20 @@
+{
+  "question": "Which companies have seen a notable uplift in their innovative product launches as a result of enhanced data science teams?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies that expanded data science hiring",
+      "table": ["CompanyHiringDetail"]
+    },
+    {
+      "step": 2,
+      "task": "Check company info for innovative product announcements",
+      "table": ["CompanyInfo"]
+    },
+    {
+      "step": 3,
+      "task": "Analyze correlation between team expansion and product innovation",
+      "table": []
+    }
+  ]
+}

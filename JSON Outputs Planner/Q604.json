@@ -1,0 +1,21 @@
+{
+  "question": "Which companies have published YouTube videos discussing their data strategy, and what technologies are they adopting in conjunction?",
+  "tables": ["CompanyYoutubeDetail", "CompanyTechStack"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies that have published YouTube videos on their data strategy.",
+      "table": ["CompanyYoutubeDetail"]
+    },
+    {
+      "step": 2,
+      "task": "Extract technology adoption details from those companies.",
+      "table": ["CompanyTechStack"]
+    },
+    {
+      "step": 3,
+      "task": "Match the companies with their respective technologies.",
+      "table": ["CompanyYoutubeDetail", "CompanyTechStack"]
+    }
+  ]
+}

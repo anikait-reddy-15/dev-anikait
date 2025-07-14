@@ -1,0 +1,21 @@
+{
+  "question": "What are the primary technologies adopted by companies that recently launched a new initiative in their data science departments?",
+  "tables": ["CompanyTechStack", "CompanyFocusAreaDetail", "CompanyHiringDetail"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies that have launched new initiatives in their data science departments. [CompanyFocusAreaDetail]",
+      "table": ["CompanyFocusAreaDetail"]
+    },
+    {
+      "step": 2,
+      "task": "Filter the identified companies to get their corresponding technology stacks. [CompanyTechStack]",
+      "table": ["CompanyTechStack"]
+    },
+    {
+      "step": 3,
+      "task": "Cross-reference with hiring details to understand the technologies being adopted. [CompanyHiringDetail]",
+      "table": ["CompanyHiringDetail"]
+    }
+  ]
+}

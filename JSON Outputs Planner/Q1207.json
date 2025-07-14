@@ -1,0 +1,25 @@
+{
+  "question": "What hiring patterns exist for companies that have reported major upgrades to their analytics systems?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Find companies that upgraded analytics systems",
+      "table": ["CompanyTechStack"]
+    },
+    {
+      "step": 2,
+      "task": "Link upgrades to hiring activity",
+      "table": ["CompanyHiringDetail"]
+    },
+    {
+      "step": 3,
+      "task": "Identify job roles and departments being hired",
+      "table": ["CompanyHiringDetail"]
+    },
+    {
+      "step": 4,
+      "task": "Summarize hiring volume and focus",
+      "table": ["CompanyHiringDetail"]
+    }
+  ]
+}

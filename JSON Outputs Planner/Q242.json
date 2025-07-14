@@ -1,0 +1,21 @@
+{
+  "question": "What are the key technology investments companies made following their participation in industry conferences over the past year?",
+  "tables": ["CompanyTechStack", "IndustryITTrend"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies that participated in industry conferences over the past year",
+      "table": ["IndustryITTrend"]
+    },
+    {
+      "step": 2,
+      "task": "Gather information on technology investments made by these companies",
+      "table": ["CompanyTechStack"]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the investments to determine key technologies adopted",
+      "table": ["CompanyTechStack"]
+    }
+  ]
+}

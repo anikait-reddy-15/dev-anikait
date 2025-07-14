@@ -1,0 +1,21 @@
+{
+  "question": "Which personas have discussed cloud-native applications in their YouTube profiles and are linked to organizations with recent IT infrastructure upgrades?",
+  "tables": ["PersonaYoutubeProfile", "CompanyDataCenter"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify personas discussing cloud-native applications in their YouTube profiles.",
+      "table": ["PersonaYoutubeProfile"]
+    },
+    {
+      "step": 2,
+      "task": "Find organizations that have recently upgraded their IT infrastructure.",
+      "table": ["CompanyDataCenter"]
+    },
+    {
+      "step": 3,
+      "task": "Link the personas to the organizations with IT upgrades.",
+      "table": ["PersonaYoutubeProfile", "CompanyDataCenter"]
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "question": "Which data scientists are speaking at events about ethical AI and what companies do they represent?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify data scientists mentioned in ethical AI-related event content",
+      "table": ["PersonaMisc"]
+    },
+    {
+      "step": 2,
+      "task": "Match data scientists to their companies",
+      "table": ["PersonaUser"]
+    },
+    {
+      "step": 3,
+      "task": "Filter based on event relevance to ethical AI topics",
+      "table": ["PersonaMisc"]
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "question": "What trends do data scientists discuss as key priorities at tech firms that have increased their workforce in the last year?",
+  "tables": ["PersonaUser", "CompanyHiringDetail", "IndustryITTrend"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify tech firms that have increased their workforce in the last year",
+      "table": ["CompanyHiringDetail", "CompanyInfo"]
+    },
+    {
+      "step": 2,
+      "task": "Find discussions by data scientists at these firms regarding key priorities",
+      "table": ["PersonaLinkedinActivity"]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the discussions to summarize key trends",
+      "table": ["PersonaLinkedinActivity"]
+    }
+  ]
+}

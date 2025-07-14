@@ -1,0 +1,20 @@
+{
+  "question": "What ethical AI discussion topics dominate YouTube uploads by analytics vendors?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify YouTube uploads tagged under analytics vendors",
+      "table": ["CompanyYoutubeDetail"]
+    },
+    {
+      "step": 2,
+      "task": "Filter videos discussing ethics, fairness, bias, or safety",
+      "table": ["CompanyYoutubeDetail"]
+    },
+    {
+      "step": 3,
+      "task": "Summarize common discussion themes",
+      "table": ["CompanyYoutubeDetail"]
+    }
+  ]
+}

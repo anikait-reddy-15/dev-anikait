@@ -1,0 +1,21 @@
+{
+  "question": "Which industries are most proactive in discussing their data science hiring initiatives on LinkedIn?",
+  "tables": ["CompanyHiringDetail", "IndustryITTrend"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify LinkedIn conversations around data science hiring",
+      "table": ["CompanyHiringDetail"]
+    },
+    {
+      "step": 2,
+      "task": "Map conversations to corresponding industries",
+      "table": ["IndustryITTrend"]
+    },
+    {
+      "step": 3,
+      "task": "Summarize industries with most proactive communication",
+      "table": ["CompanyHiringDetail", "IndustryITTrend"]
+    }
+  ]
+}

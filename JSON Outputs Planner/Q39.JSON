@@ -1,0 +1,16 @@
+{
+  "question": "Which companies in Rafael Jabur Bittar’s network focus on sustainable mining technologies?",
+  "tables": ["PersonaLinkedinPost", "CompanyTechStack"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify posts by Rafael Jabur Bittar that mention companies or technologies related to sustainable mining",
+      "table": ["PersonaLinkedinPost"]
+    },
+    {
+      "step": 2,
+      "task": "Cross-reference these posts with the CompanyTechStack to find companies focused on sustainable mining technologies",
+      "table": ["CompanyTechStack"]
+    }
+  ]
+}

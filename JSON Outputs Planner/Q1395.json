@@ -1,0 +1,20 @@
+{
+  "question": "Which organizations have explicitly committed to ethical AI in public forums?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Extract statements related to ethical AI from public content shared by companies",
+      "table": ["CompanyLeadershipExcerpt", "SocialMediaInfo"]
+    },
+    {
+      "step": 2,
+      "task": "Validate these commitments through partnerships or leadership mentions",
+      "table": ["CompanyDealMaster", "CompanyFocusAreaDetail"]
+    },
+    {
+      "step": 3,
+      "task": "List organizations with sustained public messaging around responsible AI",
+      "table": ["CompanyLeadershipExcerpt", "CompanyFocusAreaDetail"]
+    }
+  ]
+}

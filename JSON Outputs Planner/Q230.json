@@ -1,0 +1,21 @@
+{
+  "question": "Which leaders with the title of 'Chief Data Officer' have engaged in discussions about big data technologies in their recent LinkedIn activity?",
+  "tables": ["PersonaLinkedinActivity", "PersonaTitle", "CompanyLeadershipExcerpt"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify leaders with the title of Chief Data Officer",
+      "table": ["PersonaTitle"]
+    },
+    {
+      "step": 2,
+      "task": "Extract recent LinkedIn activity related to big data technologies from these leaders",
+      "table": ["PersonaLinkedinActivity"]
+    },
+    {
+      "step": 3,
+      "task": "Match the LinkedIn activity with the leadership excerpts to find relevant discussions",
+      "table": ["CompanyLeadershipExcerpt"]
+    }
+  ]
+}

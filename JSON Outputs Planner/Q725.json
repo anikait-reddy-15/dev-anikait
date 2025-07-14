@@ -1,0 +1,21 @@
+{
+  "question": "Who are the key decision-makers at companies deploying predictive analytics tools and publishing content on LinkedIn?",
+  "tables": ["PersonaUser", "PersonaLinkedInProfile", "CompanyTechStack"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies deploying predictive analytics tools.",
+      "table": ["CompanyTechStack"]
+    },
+    {
+      "step": 2,
+      "task": "Find decision-makers publishing LinkedIn content.",
+      "table": ["PersonaLinkedInProfile", "PersonaUser"]
+    },
+    {
+      "step": 3,
+      "task": "Match decision-makers to companies using predictive analytics.",
+      "table": ["PersonaUser", "CompanyTechStack"]
+    }
+  ]
+}

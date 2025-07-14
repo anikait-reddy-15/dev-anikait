@@ -1,0 +1,21 @@
+{
+  "question": "Which technology trends do executives in the healthcare sector emphasize in their social media engagements?",
+  "tables": ["CompanySocialMediaInfo", "IndustryITTrend"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify executives in the healthcare sector",
+      "table": ["CompanySocialMediaInfo"]
+    },
+    {
+      "step": 2,
+      "task": "Extract technology trends emphasized in their social media content",
+      "table": ["CompanySocialMediaInfo"]
+    },
+    {
+      "step": 3,
+      "task": "Cross-reference with industry IT trend data for validation",
+      "table": ["IndustryITTrend"]
+    }
+  ]
+}

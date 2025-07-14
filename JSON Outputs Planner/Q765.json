@@ -1,0 +1,21 @@
+{
+  "question": "What job titles are most common among AI product owners in firms with rising AI-related Twitter engagement?",
+  "tables": ["PersonaTwitterProfile", "PersonaUser"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify firms with rising AI-related Twitter engagement.",
+      "table": ["PersonaTwitterProfile"]
+    },
+    {
+      "step": 2,
+      "task": "Find AI product owners at those firms and their job titles.",
+      "table": ["PersonaUser"]
+    },
+    {
+      "step": 3,
+      "task": "Analyze common job titles among identified individuals.",
+      "table": ["PersonaTwitterProfile", "PersonaUser"]
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "question": "Which companies have been mentioned by their leadership in YouTube videos discussing digital upskilling and also show hiring spikes?",
+  "tables": ["CompanyYoutubeDetail", "CompanyHiringDetail"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify YouTube videos mentioning digital upskilling. [CompanyYoutubeDetail]",
+      "table": ["CompanyYoutubeDetail"]
+    },
+    {
+      "step": 2,
+      "task": "Find companies associated with those videos. [CompanyYoutubeDetail]",
+      "table": ["CompanyYoutubeDetail"]
+    },
+    {
+      "step": 3,
+      "task": "Check for recent hiring spikes for these companies. [CompanyHiringDetail]",
+      "table": ["CompanyHiringDetail"]
+    }
+  ]
+}

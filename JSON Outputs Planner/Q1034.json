@@ -1,0 +1,20 @@
+{
+  "question": "What new markets are companies entering as observed through their technological investments and leadership discussions?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Analyze tech stack data for indicators of market entry.",
+      "table": ["CompanyTechStack"]
+    },
+    {
+      "step": 2,
+      "task": "Extract leadership commentary about entering new markets.",
+      "table": ["CompanyLeadershipExcerpt"]
+    },
+    {
+      "step": 3,
+      "task": "Match companies between tech and leadership sources indicating market entry.",
+      "table": ["CompanyTechStack", "CompanyLeadershipExcerpt"]
+    }
+  ]
+}

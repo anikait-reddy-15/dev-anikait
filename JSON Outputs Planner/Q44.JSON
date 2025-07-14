@@ -1,0 +1,21 @@
+{
+  "question": "What key technologies are highlighted by industry IT trends for the mining sector?",
+  "tables": ["IndustryITTrend", "LookUpValue"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Filter industry IT trends specific to the mining sector",
+      "table": ["IndustryITTrend"]
+    },
+    {
+      "step": 2,
+      "task": "Extract key technologies mentioned in the filtered trends",
+      "table": ["IndustryITTrend"]
+    },
+    {
+      "step": 3,
+      "task": "Match extracted technologies with lookup values for clarity",
+      "table": ["LookUpValue"]
+    }
+  ]
+}

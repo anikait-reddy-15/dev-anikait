@@ -1,0 +1,21 @@
+{
+  "question": "Which firms highlight AI capabilities in their executive bios and have participated in AI panel discussions on social media?",
+  "tables": ["PersonaUser", "PersonaTwitterProfile"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify firms whose executives highlight AI in their bios.",
+      "table": ["PersonaUser"]
+    },
+    {
+      "step": 2,
+      "task": "Find executives participating in AI panel discussions on Twitter.",
+      "table": ["PersonaTwitterProfile"]
+    },
+    {
+      "step": 3,
+      "task": "Cross-reference the bios with social media panel participation.",
+      "table": ["PersonaUser", "PersonaTwitterProfile"]
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "question": "Who are the influential leaders at companies that have posted about their strategic focus on remote work practices?",
+  "tables": ["CompanyLeadershipExcerpt", "CompanyFocusAreaDetail"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies that have a strategic focus on remote work practices. [CompanyFocusAreaDetail]",
+      "table": ["CompanyFocusAreaDetail"]
+    },
+    {
+      "step": 2,
+      "task": "Extract the leadership excerpts from these companies. [CompanyLeadershipExcerpt]",
+      "table": ["CompanyLeadershipExcerpt"]
+    },
+    {
+      "step": 3,
+      "task": "Filter the leadership excerpts to find influential leaders. [CompanyLeadershipExcerpt]",
+      "table": ["CompanyLeadershipExcerpt"]
+    }
+  ]
+}

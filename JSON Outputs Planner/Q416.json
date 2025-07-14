@@ -1,0 +1,21 @@
+{
+  "question": "Which companies are investing in machine learning technologies while also increasing their hiring for data scientists?",
+  "tables": ["CompanyTechStack", "CompanyHiringDetail"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies that are investing in machine learning technologies. [CompanyTechStack]",
+      "table": ["CompanyTechStack"]
+    },
+    {
+      "step": 2,
+      "task": "Identify companies that are increasing their hiring for data scientists. [CompanyHiringDetail]",
+      "table": ["CompanyHiringDetail"]
+    },
+    {
+      "step": 3,
+      "task": "Match the companies from both previous steps to find those that meet both criteria. [CompanyTechStack, CompanyHiringDetail]",
+      "table": ["CompanyTechStack", "CompanyHiringDetail"]
+    }
+  ]
+}

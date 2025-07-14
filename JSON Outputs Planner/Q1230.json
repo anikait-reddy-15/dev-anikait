@@ -1,0 +1,20 @@
+{
+  "question": "What topics are frequently highlighted in the YouTube videos of data science professionals?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Retrieve YouTube activity from PersonaYoutubeProfile",
+      "table": ["PersonaYoutubeProfile"]
+    },
+    {
+      "step": 2,
+      "task": "Filter for videos uploaded by data science professionals using PersonaUser",
+      "table": ["PersonaUser"]
+    },
+    {
+      "step": 3,
+      "task": "Extract and summarize common topics across videos",
+      "table": ["PersonaYoutubeProfile"]
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "question": "What recent LinkedIn posts discuss digital transformation in the healthcare sector by influential leaders?",
+  "tables": ["PersonaLinkedinPost", "CompanyManagementDetail"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify influential leaders in the healthcare sector",
+      "table": ["CompanyManagementDetail"]
+    },
+    {
+      "step": 2,
+      "task": "Filter LinkedIn posts that mention digital transformation",
+      "table": ["PersonaLinkedinPost"]
+    },
+    {
+      "step": 3,
+      "task": "Match the filtered posts with the identified leaders",
+      "table": ["PersonaLinkedinPost", "CompanyManagementDetail"]
+    }
+  ]
+}

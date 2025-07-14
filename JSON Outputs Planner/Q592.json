@@ -1,0 +1,21 @@
+{
+  "question": "What analytics tools are being adopted by companies that recently expanded their presence in Europe?",
+  "tables": ["CompanyVendorProductDetail", "CompanyInfo"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies that have recently expanded in Europe from the CompanyInfo table. [CompanyInfo]",
+      "table": ["CompanyInfo"]
+    },
+    {
+      "step": 2,
+      "task": "Find analytics tools adopted by those companies from the CompanyVendorProductDetail table. [CompanyVendorProductDetail]",
+      "table": ["CompanyVendorProductDetail"]
+    },
+    {
+      "step": 3,
+      "task": "Match tools to companies based in Europe. [CompanyInfo, CompanyVendorProductDetail]",
+      "table": ["CompanyInfo", "CompanyVendorProductDetail"]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "question": "What topics have been trending in the LinkedIn posts of personas associated with companies that adopted hybrid cloud solutions recently?",
+  "tables": ["PersonaLinkedinPost", "PersonaUser", "CompanyTechStack"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies that have adopted hybrid cloud solutions recently. [CompanyTechStack]",
+      "table": ["CompanyTechStack"]
+    },
+    {
+      "step": 2,
+      "task": "Find personas associated with those companies. [PersonaUser]",
+      "table": ["PersonaUser"]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the LinkedIn posts of those personas to identify trending topics. [PersonaLinkedinPost]",
+      "table": ["PersonaLinkedinPost"]
+    },
+    {
+      "step": 4,
+      "task": "Compile the trending topics from the LinkedIn posts. [PersonaLinkedinPost]",
+      "table": ["PersonaLinkedinPost"]
+    }
+  ]
+}

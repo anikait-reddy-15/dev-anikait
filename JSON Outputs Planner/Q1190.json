@@ -1,0 +1,20 @@
+{
+  "question": "Which companies have recently formed partnerships for data visualization and how are these presented publicly?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies with new vendor partnerships related to data visualization",
+      "table": ["CompanyVendorProductDetail"]
+    },
+    {
+      "step": 2,
+      "task": "Verify deals involving data visualization vendors",
+      "table": ["CompanyDealMaster"]
+    },
+    {
+      "step": 3,
+      "task": "Extract public announcements or social mentions of these partnerships",
+      "table": ["SocialMediaInfo"]
+    }
+  ]
+}

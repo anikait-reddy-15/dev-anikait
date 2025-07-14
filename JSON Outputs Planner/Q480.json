@@ -1,0 +1,21 @@
+{
+  "question": "What are the key technologies mentioned by executives on YouTube who are associated with companies adopting cloud-native infrastructure?",
+  "tables": ["CompanyYoutubeDetail", "CompanyTechStack", "PersonaUser"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies that have adopted cloud-native infrastructure. [CompanyTechStack]",
+      "table": ["CompanyTechStack"]
+    },
+    {
+      "step": 2,
+      "task": "Find executives from these companies. [PersonaUser]",
+      "table": ["PersonaUser"]
+    },
+    {
+      "step": 3,
+      "task": "Extract technology mentions from their YouTube videos. [CompanyYoutubeDetail]",
+      "table": ["CompanyYoutubeDetail"]
+    }
+  ]
+}

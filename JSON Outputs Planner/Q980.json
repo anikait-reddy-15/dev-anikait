@@ -1,0 +1,21 @@
+{
+  "question": "Which cybersecurity vendors are implementing AI to detect zero-day threats and perform automated incident response?",
+  "tables": ["CompanyFocusAreaDetail", "CompanyInfo"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify cybersecurity vendors using AI.",
+      "table": ["CompanyInfo"]
+    },
+    {
+      "step": 2,
+      "task": "Check for AI in threat intelligence and incident handling.",
+      "table": ["CompanyFocusAreaDetail"]
+    },
+    {
+      "step": 3,
+      "task": "List vendors deploying AI for cybersecurity defense.",
+      "table": ["CompanyFocusAreaDetail", "CompanyInfo"]
+    }
+  ]
+}

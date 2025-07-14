@@ -1,0 +1,20 @@
+{
+  "question": "Who are the prominent voices advocating for ethical data usage in their companies through thought leadership articles?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify thought leadership articles on data ethics.",
+      "table": ["PersonaMisc"]
+    },
+    {
+      "step": 2,
+      "task": "Link those articles to authors in leadership roles.",
+      "table": ["PersonaUser"]
+    },
+    {
+      "step": 3,
+      "task": "List top contributors based on influence and reach.",
+      "table": ["PersonaUser"]
+    }
+  ]
+}

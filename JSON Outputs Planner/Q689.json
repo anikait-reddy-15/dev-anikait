@@ -1,0 +1,21 @@
+{
+  "question": "Which data scientists have posted about predictive maintenance on LinkedIn and work at manufacturing companies?",
+  "tables": ["PersonaLinkedinPost", "PersonaUser", "CompanyInfo"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify LinkedIn posts about predictive maintenance.",
+      "table": ["PersonaLinkedinPost"]
+    },
+    {
+      "step": 2,
+      "task": "Filter for data scientists behind those posts.",
+      "table": ["PersonaUser"]
+    },
+    {
+      "step": 3,
+      "task": "Match them to manufacturing companies.",
+      "table": ["CompanyInfo"]
+    }
+  ]
+}

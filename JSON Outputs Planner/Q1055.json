@@ -1,0 +1,20 @@
+{
+  "question": "What strategies for competitive positioning are shared by tech leaders at companies investing in big data technologies?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies investing in big data solutions.",
+      "table": ["CompanyTechStack"]
+    },
+    {
+      "step": 2,
+      "task": "Extract statements from tech leaders at those companies.",
+      "table": ["CompanyLeadershipExcerpt"]
+    },
+    {
+      "step": 3,
+      "task": "Analyze strategies mentioned for competitive advantage.",
+      "table": ["CompanyLeadershipExcerpt"]
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "question": "Which companies are prioritizing bias mitigation tools in their AI deployments?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies using bias detection or fairness tools in their tech stack",
+      "table": ["CompanyTechStack"]
+    },
+    {
+      "step": 2,
+      "task": "Find mentions of bias mitigation in leadership or strategic communications",
+      "table": ["CompanyLeadershipExcerpt", "CompanyFocusAreaDetail"]
+    },
+    {
+      "step": 3,
+      "task": "List companies integrating these tools into responsible AI practices",
+      "table": ["CompanyTechStack", "CompanyFocusAreaDetail"]
+    }
+  ]
+}

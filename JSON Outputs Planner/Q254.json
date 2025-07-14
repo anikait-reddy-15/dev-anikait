@@ -1,0 +1,21 @@
+{
+  "question": "Which vendors provide cloud computing technologies to companies that have publicly discussed their IT strategy shifts on Twitter?",
+  "tables": ["CompanyVendorTechDetail", "CompanyTwitterDetail", "CompanyInfo"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies that discussed IT strategy shifts on Twitter.",
+      "table": ["CompanyTwitterDetail"]
+    },
+    {
+      "step": 2,
+      "task": "Match those companies to their vendor relationships.",
+      "table": ["CompanyInfo"]
+    },
+    {
+      "step": 3,
+      "task": "Extract vendors offering cloud computing technologies to those companies.",
+      "table": ["CompanyVendorTechDetail"]
+    }
+  ]
+}

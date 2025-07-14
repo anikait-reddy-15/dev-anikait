@@ -1,0 +1,21 @@
+{
+  "question": "What technologies are being prioritized by organizations with a notable increase in hiring for data scientists in the last quarter?",
+  "tables": ["CompanyHiringDetail", "CompanyTechStack"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify organizations with a notable increase in hiring for data scientists in the last quarter. [CompanyHiringDetail]",
+      "table": ["CompanyHiringDetail"]
+    },
+    {
+      "step": 2,
+      "task": "Retrieve the technology stack used by these organizations. [CompanyTechStack]",
+      "table": ["CompanyTechStack"]
+    },
+    {
+      "step": 3,
+      "task": "Match the hiring data with the technology stack to identify prioritized technologies. [CompanyTechStack]",
+      "table": ["CompanyTechStack"]
+    }
+  ]
+}

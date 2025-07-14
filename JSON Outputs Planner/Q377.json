@@ -1,0 +1,21 @@
+{
+  "question": "What common themes emerge in social media posts by data science leaders at companies that successfully signed new vendor deals?",
+  "tables": ["PersonaLinkedinPost", "CompanyDealMaster"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies that have successfully signed new vendor deals. [CompanyDealMaster]",
+      "table": ["CompanyDealMaster"]
+    },
+    {
+      "step": 2,
+      "task": "Find data science leaders associated with these companies. [PersonaLinkedinPost]",
+      "table": ["PersonaLinkedinPost"]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the content of social media posts from these leaders for common themes. [PersonaLinkedinPost]",
+      "table": ["PersonaLinkedinPost"]
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "question": "Which data scientists have recently commented on LinkedIn about cloud infrastructure improvements at their organizations?",
+  "tables": ["PersonaUser", "PersonaLinkedinPost", "CompanyInfo"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Find recent LinkedIn posts related to cloud infrastructure improvements. [PersonaLinkedinPost]",
+      "table": ["PersonaLinkedinPost"]
+    },
+    {
+      "step": 2,
+      "task": "Identify the data scientists who made those comments. [PersonaUser]",
+      "table": ["PersonaUser"]
+    },
+    {
+      "step": 3,
+      "task": "Link the data scientists to their respective organizations. [CompanyInfo]",
+      "table": ["CompanyInfo"]
+    }
+  ]
+}

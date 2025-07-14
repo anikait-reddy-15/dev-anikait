@@ -1,0 +1,20 @@
+{
+  "question": "How are IT hiring strategies evolving for firms adopting DevOps methodologies?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies that have adopted DevOps",
+      "table": ["CompanyTechStack"]
+    },
+    {
+      "step": 2,
+      "task": "Extract recent IT hiring patterns",
+      "table": ["CompanyHiringDetail"]
+    },
+    {
+      "step": 3,
+      "task": "Analyze correlation between DevOps and job roles or team structure",
+      "table": ["CompanyHiringDetail"]
+    }
+  ]
+}

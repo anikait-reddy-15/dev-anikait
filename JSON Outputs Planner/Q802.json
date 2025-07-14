@@ -1,0 +1,21 @@
+{
+  "question": "Which banks are investing in AI-powered risk assessment platforms post-2023?",
+  "tables": ["CompanyInfo", "CompanyDealMaster", "CompanyVendorTechDetail"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify banks making tech investments post-2023.",
+      "table": ["CompanyInfo", "CompanyDealMaster"]
+    },
+    {
+      "step": 2,
+      "task": "Filter for deals involving AI-powered risk assessment.",
+      "table": ["CompanyVendorTechDetail"]
+    },
+    {
+      "step": 3,
+      "task": "Match banks to vendors/platforms adopted.",
+      "table": ["CompanyInfo", "CompanyDealMaster", "CompanyVendorTechDetail"]
+    }
+  ]
+}

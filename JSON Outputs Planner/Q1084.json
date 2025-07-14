@@ -1,0 +1,20 @@
+{
+  "question": "What skill sets are highlighted by data science teams in organizations that are pioneers in cloud-native technologies?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Find companies with cloud-native technologies in tech stack.",
+      "table": ["CompanyTechStack"]
+    },
+    {
+      "step": 2,
+      "task": "Extract job descriptions or hiring detail for data teams.",
+      "table": ["CompanyHiringDetail"]
+    },
+    {
+      "step": 3,
+      "task": "List common skill sets required by those teams.",
+      "table": ["CompanyHiringDetail"]
+    }
+  ]
+}

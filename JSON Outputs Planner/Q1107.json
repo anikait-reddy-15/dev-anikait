@@ -1,0 +1,20 @@
+{
+  "question": "Who are the top executives at firms that have transitioned to using a hybrid cloud model?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Find companies using hybrid cloud models",
+      "table": ["CompanyDataCenter"]
+    },
+    {
+      "step": 2,
+      "task": "Identify leadership team members for those companies",
+      "table": ["CompanyLeadershipExcerpt"]
+    },
+    {
+      "step": 3,
+      "task": "Filter for top-level executives",
+      "table": []
+    }
+  ]
+}

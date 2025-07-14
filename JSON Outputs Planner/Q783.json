@@ -1,0 +1,21 @@
+{
+  "question": "Which enterprises report increased ROI after implementing AI for fraud detection?",
+  "tables": ["CompanyFocusAreaDetail", "CompanyBlogDetail"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify enterprises using AI for fraud detection.",
+      "table": ["CompanyFocusAreaDetail"]
+    },
+    {
+      "step": 2,
+      "task": "Find those reporting ROI improvement in blog publications.",
+      "table": ["CompanyBlogDetail"]
+    },
+    {
+      "step": 3,
+      "task": "Match fraud detection adopters with ROI-revealing blogs.",
+      "table": ["CompanyFocusAreaDetail", "CompanyBlogDetail"]
+    }
+  ]
+}

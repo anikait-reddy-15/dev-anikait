@@ -1,0 +1,20 @@
+{
+  "question": "How do the hiring practices of tech companies compare to industry standards over the last year?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Fetch hiring trends from CompanyHiringDetail for tech companies",
+      "table": ["CompanyHiringDetail"]
+    },
+    {
+      "step": 2,
+      "task": "Compare with industry-wide data from IndustryITTrend",
+      "table": ["IndustryITTrend"]
+    },
+    {
+      "step": 3,
+      "task": "Evaluate gaps or alignments between company-level and industry-level hiring trends",
+      "table": ["CompanyHiringDetail", "IndustryITTrend"]
+    }
+  ]
+}

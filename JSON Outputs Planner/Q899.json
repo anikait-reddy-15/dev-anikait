@@ -1,0 +1,21 @@
+{
+  "question": "Which companies are using AI to automate ESG reporting and ensure regulatory compliance?",
+  "tables": ["CompanyFocusAreaDetail", "CompanyInfo"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies using AI for sustainability and compliance.",
+      "table": ["CompanyFocusAreaDetail"]
+    },
+    {
+      "step": 2,
+      "task": "Check for AI in ESG report automation and compliance validation.",
+      "table": ["CompanyFocusAreaDetail"]
+    },
+    {
+      "step": 3,
+      "task": "List companies using AI to meet ESG mandates.",
+      "table": ["CompanyFocusAreaDetail", "CompanyInfo"]
+    }
+  ]
+}

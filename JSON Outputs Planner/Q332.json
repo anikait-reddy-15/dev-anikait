@@ -1,0 +1,21 @@
+{
+  "question": "Which organizations in the retail sector have increased their hiring for data-focused roles and also have a strong presence on Instagram?",
+  "tables": ["CompanyHiringDetail", "CompanyInfo", "PersonaInstagramProfile"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify organizations in the retail sector that have increased hiring for data-focused roles. [CompanyHiringDetail]",
+      "table": ["CompanyHiringDetail"]
+    },
+    {
+      "step": 2,
+      "task": "Gather company information to confirm their sector as retail. [CompanyInfo]",
+      "table": ["CompanyInfo"]
+    },
+    {
+      "step": 3,
+      "task": "Check for a strong presence on Instagram for the identified retail organizations. [PersonaInstagramProfile]",
+      "table": ["PersonaInstagramProfile"]
+    }
+  ]
+}

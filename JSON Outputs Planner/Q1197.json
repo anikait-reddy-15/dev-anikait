@@ -1,0 +1,20 @@
+{
+  "question": "What are the most discussed challenges in implementing multi-cloud strategies among leadership teams?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Filter leadership excerpts discussing multi-cloud strategies",
+      "table": ["CompanyLeadershipExcerpt"]
+    },
+    {
+      "step": 2,
+      "task": "Extract challenge-related keywords from excerpts",
+      "table": ["CompanyLeadershipExcerpt"]
+    },
+    {
+      "step": 3,
+      "task": "Summarize the common themes and concerns",
+      "table": ["CompanyLeadershipExcerpt"]
+    }
+  ]
+}

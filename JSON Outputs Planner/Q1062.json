@@ -1,0 +1,20 @@
+{
+  "question": "What tools are highlighted by companies promoting their data science achievements during recent industry conferences?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies mentioning industry conferences in data science context.",
+      "table": ["CompanyFocusAreaDetail"]
+    },
+    {
+      "step": 2,
+      "task": "Extract technologies/tools used by these companies.",
+      "table": ["CompanyTechStack"]
+    },
+    {
+      "step": 3,
+      "task": "Summarize commonly highlighted tools in such contexts.",
+      "table": ["CompanyTechStack"]
+    }
+  ]
+}

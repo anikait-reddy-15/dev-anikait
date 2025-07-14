@@ -1,0 +1,21 @@
+{
+  "question": "What roles related to data science are being filled by companies that have recently signed deals with cloud service providers?",
+  "tables": ["CompanyHiringDetail", "CompanyDealMaster", "CompanyTechStack"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies that have recently signed deals with cloud service providers. [CompanyDealMaster]",
+      "table": ["CompanyDealMaster"]
+    },
+    {
+      "step": 2,
+      "task": "Filter the hiring details to find roles related to data science at the identified companies. [CompanyHiringDetail]",
+      "table": ["CompanyHiringDetail"]
+    },
+    {
+      "step": 3,
+      "task": "Cross-reference the data science roles with the technology stack of the companies to ensure relevance. [CompanyTechStack]",
+      "table": ["CompanyTechStack"]
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "question": "How does the mention of cloud computing in leadership talks relate to hiring in data science roles?",
+  "tables": ["CompanyLeadershipExcerpt", "CompanyHiringDetail"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify leadership excerpts referencing cloud computing",
+      "table": ["CompanyLeadershipExcerpt"]
+    },
+    {
+      "step": 2,
+      "task": "Retrieve data science hiring trends in related companies",
+      "table": ["CompanyHiringDetail"]
+    },
+    {
+      "step": 3,
+      "task": "Analyze how cloud adoption influences hiring",
+      "table": ["CompanyLeadershipExcerpt", "CompanyHiringDetail"]
+    }
+  ]
+}

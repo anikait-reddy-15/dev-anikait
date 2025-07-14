@@ -1,0 +1,20 @@
+{
+  "question": "Who are the leading figures in data science at organizations that have recently signed new tech partnerships?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Find organizations with recent partnerships from CompanyITPartnerDetail",
+      "table": ["CompanyITPartnerDetail"]
+    },
+    {
+      "step": 2,
+      "task": "Identify leading data science professionals at those organizations from PersonaUser",
+      "table": ["PersonaUser"]
+    },
+    {
+      "step": 3,
+      "task": "List those individuals with their roles",
+      "table": ["PersonaUser"]
+    }
+  ]
+}

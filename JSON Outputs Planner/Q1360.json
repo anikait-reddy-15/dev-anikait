@@ -1,0 +1,20 @@
+{
+  "question": "How are AI ethics positions influencing the IT hiring strategies of global firms?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies with roles related to AI ethics or governance",
+      "table": ["CompanyHiringDetail"]
+    },
+    {
+      "step": 2,
+      "task": "Review leadership and focus area data for ethical tech emphasis",
+      "table": ["CompanyLeadershipExcerpt", "CompanyFocusAreaDetail"]
+    },
+    {
+      "step": 3,
+      "task": "Link hiring decisions to ethics-driven leadership goals",
+      "table": ["CompanyHiringDetail", "CompanyLeadershipExcerpt"]
+    }
+  ]
+}

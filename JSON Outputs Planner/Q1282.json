@@ -1,0 +1,20 @@
+{
+  "question": "What is the correlation between social media growth and employees' advocacy for digital solutions in tech firms?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Measure social media growth from SocialMediaInfo",
+      "table": ["SocialMediaInfo"]
+    },
+    {
+      "step": 2,
+      "task": "Identify employee advocacy content from CompanyFocusAreaDetail",
+      "table": ["CompanyFocusAreaDetail"]
+    },
+    {
+      "step": 3,
+      "task": "Establish patterns and correlations across advocacy and engagement",
+      "table": ["SocialMediaInfo", "CompanyFocusAreaDetail"]
+    }
+  ]
+}

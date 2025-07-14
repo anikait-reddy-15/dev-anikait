@@ -1,0 +1,21 @@
+{
+  "question": "What are the common traits of companies that have both a high engagement level on Twitter and a defined focus on AI-driven solutions?",
+  "tables": ["CompanyTwitterDetail", "CompanyFocusAreaDetail"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies with high engagement levels on Twitter. [CompanyTwitterDetail]",
+      "table": ["CompanyTwitterDetail"]
+    },
+    {
+      "step": 2,
+      "task": "Identify companies that have a defined focus on AI-driven solutions. [CompanyFocusAreaDetail]",
+      "table": ["CompanyFocusAreaDetail"]
+    },
+    {
+      "step": 3,
+      "task": "Match the companies from both criteria to find common traits. [CompanyTwitterDetail, CompanyFocusAreaDetail]",
+      "table": ["CompanyTwitterDetail", "CompanyFocusAreaDetail"]
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "question": "Which data science professionals have discussed predictive analytics in their recent Twitter feeds?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Filter Twitter feeds for mentions of predictive analytics.",
+      "table": ["PersonaTwitterTweets"]
+    },
+    {
+      "step": 2,
+      "task": "Get persona IDs for tweets matching the above filter.",
+      "table": ["PersonaTwitterTweets"]
+    },
+    {
+      "step": 3,
+      "task": "Confirm those personas are data science professionals.",
+      "table": ["PersonaTitle"]
+    }
+  ]
+}

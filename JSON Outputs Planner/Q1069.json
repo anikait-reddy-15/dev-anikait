@@ -1,0 +1,20 @@
+{
+  "question": "What vendor partnerships are being pursued by companies aiming to strengthen their data infrastructure following leadership changes?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Find companies with recent leadership changes.",
+      "table": ["CompanyManagementDetail"]
+    },
+    {
+      "step": 2,
+      "task": "Identify those that have formed new vendor partnerships.",
+      "table": ["CompanyDealMaster"]
+    },
+    {
+      "step": 3,
+      "task": "Highlight vendors involved in infrastructure-focused deals.",
+      "table": ["CompanyDealMaster"]
+    }
+  ]
+}

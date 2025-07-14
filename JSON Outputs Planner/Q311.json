@@ -1,0 +1,21 @@
+{
+  "question": "Who are the executives at firms that have shifted their technology stack significantly in the last year and what are their views on future trends?",
+  "tables": ["CompanyTechStack", "CompanyLeadershipExcerpt"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify firms that have significantly shifted their technology stack in the last year. [CompanyTechStack]",
+      "table": ["CompanyTechStack"]
+    },
+    {
+      "step": 2,
+      "task": "Extract the leadership details of executives at those firms. [CompanyLeadershipExcerpt]",
+      "table": ["CompanyLeadershipExcerpt"]
+    },
+    {
+      "step": 3,
+      "task": "Compile the views on future trends from the extracted leadership details. [CompanyLeadershipExcerpt]",
+      "table": ["CompanyLeadershipExcerpt"]
+    }
+  ]
+}

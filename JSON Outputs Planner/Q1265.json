@@ -1,0 +1,20 @@
+{
+  "question": "Which organizations are investing in automation technologies and what their leadership disclosures reveal?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies with automation tools in their tech stack from CompanyTechStack",
+      "table": ["CompanyTechStack"]
+    },
+    {
+      "step": 2,
+      "task": "Retrieve leadership excerpts discussing automation from CompanyLeadershipExcerpt",
+      "table": ["CompanyLeadershipExcerpt"]
+    },
+    {
+      "step": 3,
+      "task": "Match investment patterns with strategic leadership messaging",
+      "table": ["CompanyTechStack", "CompanyLeadershipExcerpt"]
+    }
+  ]
+}

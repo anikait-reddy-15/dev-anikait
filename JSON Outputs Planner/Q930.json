@@ -1,0 +1,21 @@
+{
+  "question": "Which food delivery platforms are using AI to optimize kitchen operations and delivery routing simultaneously?",
+  "tables": ["CompanyFocusAreaDetail", "CompanyInfo"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify food delivery platforms and virtual kitchen operators.",
+      "table": ["CompanyInfo"]
+    },
+    {
+      "step": 2,
+      "task": "Check for AI in kitchen prep and route optimization.",
+      "table": ["CompanyFocusAreaDetail"]
+    },
+    {
+      "step": 3,
+      "task": "List platforms applying AI to delivery logistics and prep timing.",
+      "table": ["CompanyFocusAreaDetail", "CompanyInfo"]
+    }
+  ]
+}

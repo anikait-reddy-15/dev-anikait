@@ -1,0 +1,21 @@
+{
+  "question": "What are the latest social media topics discussed by data scientists in organizations that signed multiple technology vendor contracts in the last quarter?",
+  "tables": ["SocialMediaInfo", "PersonaUser", "CompanyDealMaster"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify organizations that signed multiple technology vendor contracts in the last quarter. [CompanyDealMaster]",
+      "table": ["CompanyDealMaster"]
+    },
+    {
+      "step": 2,
+      "task": "Extract Company IDs of those organizations. [CompanyDealMaster]",
+      "table": ["CompanyDealMaster"]
+    },
+    {
+      "step": 3,
+      "task": "Retrieve social media posts from data scientists associated with the identified organizations. [SocialMediaInfo]",
+      "table": ["SocialMediaInfo"]
+    }
+  ]
+}

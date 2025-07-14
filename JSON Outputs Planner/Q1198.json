@@ -1,0 +1,20 @@
+{
+  "question": "Who are the advocates of ethical AI in their companies, based on LinkedIn activities and leadership excerpts?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify LinkedIn posts discussing ethical AI",
+      "table": ["PersonaLinkedinPost"]
+    },
+    {
+      "step": 2,
+      "task": "Extract matching names and roles from leadership excerpts",
+      "table": ["CompanyLeadershipExcerpt"]
+    },
+    {
+      "step": 3,
+      "task": "Link advocates to their organizations and positions",
+      "table": ["PersonaTitle"]
+    }
+  ]
+}

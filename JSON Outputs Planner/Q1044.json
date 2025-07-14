@@ -1,0 +1,20 @@
+{
+  "question": "What themes are prevalent in the leadership communications of firms expanding their partnerships in data analytics?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies with expanded data analytics partnerships.",
+      "table": ["CompanyITPartnerDetail"]
+    },
+    {
+      "step": 2,
+      "task": "Extract leadership excerpts from these companies.",
+      "table": ["CompanyLeadershipExcerpt"]
+    },
+    {
+      "step": 3,
+      "task": "Perform thematic analysis on the leadership communication data.",
+      "table": ["CompanyLeadershipExcerpt"]
+    }
+  ]
+}

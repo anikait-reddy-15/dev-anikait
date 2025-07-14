@@ -1,0 +1,21 @@
+{
+  "question": "What common business trends are highlighted by executives in the finance industry regarding data analytics?",
+  "tables": ["IndustryBusinessTrend", "CompanyLeadershipExcerpt"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify business trends highlighted by executives in the finance industry",
+      "table": ["IndustryBusinessTrend"]
+    },
+    {
+      "step": 2,
+      "task": "Retrieve leadership excerpts that discuss these trends",
+      "table": ["CompanyLeadershipExcerpt"]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the excerpts to summarize common themes",
+      "table": ["IndustryBusinessTrend", "CompanyLeadershipExcerpt"]
+    }
+  ]
+}

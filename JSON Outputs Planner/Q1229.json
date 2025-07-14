@@ -1,0 +1,20 @@
+{
+  "question": "Which vendors are the primary providers of data analytics solutions in the telecommunications industry?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Filter companies in telecommunications sector from CompanyInfo",
+      "table": ["CompanyInfo"]
+    },
+    {
+      "step": 2,
+      "task": "Identify vendor engagements from CompanyDealMaster",
+      "table": ["CompanyDealMaster"]
+    },
+    {
+      "step": 3,
+      "task": "Join with CompanyVendorProductDetail to isolate data analytics providers",
+      "table": ["CompanyVendorProductDetail"]
+    }
+  ]
+}

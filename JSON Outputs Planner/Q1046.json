@@ -1,0 +1,20 @@
+{
+  "question": "What are the emerging data trends highlighted by companies in their strategic focus areas over the past year?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify recent entries in strategic focus areas.",
+      "table": ["CompanyFocusAreaDetail"]
+    },
+    {
+      "step": 2,
+      "task": "Map these focus areas to high-level business trends.",
+      "table": ["IndustryBusinessTrend"]
+    },
+    {
+      "step": 3,
+      "task": "Summarize and categorize the most frequent emerging trends.",
+      "table": ["CompanyFocusAreaDetail", "IndustryBusinessTrend"]
+    }
+  ]
+}

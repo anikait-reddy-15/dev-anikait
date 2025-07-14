@@ -1,0 +1,21 @@
+{
+  "question": "Which firms have recently increased their IT partner count and are also investing in AI technologies?",
+  "tables": ["CompanyITPartnerDetail", "CompanyTechStack"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify firms that have recently increased their IT partner count.",
+      "table": ["CompanyITPartnerDetail"]
+    },
+    {
+      "step": 2,
+      "task": "Filter firms investing in AI technologies.",
+      "table": ["CompanyTechStack"]
+    },
+    {
+      "step": 3,
+      "task": "Find the intersection of the two groups.",
+      "table": ["CompanyITPartnerDetail", "CompanyTechStack"]
+    }
+  ]
+}

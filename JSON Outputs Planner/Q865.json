@@ -1,0 +1,21 @@
+{
+  "question": "Which retailers are using AI to automate shelf monitoring and inventory forecasting in physical stores?",
+  "tables": ["CompanyFocusAreaDetail", "CompanyInfo"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify retail companies with physical store operations.",
+      "table": ["CompanyInfo"]
+    },
+    {
+      "step": 2,
+      "task": "Check for AI use in shelf monitoring and inventory forecasting.",
+      "table": ["CompanyFocusAreaDetail"]
+    },
+    {
+      "step": 3,
+      "task": "Match retailers with AI implementations in store operations.",
+      "table": ["CompanyFocusAreaDetail", "CompanyInfo"]
+    }
+  ]
+}

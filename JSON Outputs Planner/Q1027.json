@@ -1,0 +1,20 @@
+{
+  "question": "Which companies recently engaged vendors for business intelligence tools and expressed this in social media posts?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Filter deals involving business intelligence tools.",
+      "table": ["CompanyDealMaster"]
+    },
+    {
+      "step": 2,
+      "task": "Get the companies involved in those deals.",
+      "table": ["CompanyDealMaster"]
+    },
+    {
+      "step": 3,
+      "task": "Check social media posts from these companies for BI mentions.",
+      "table": ["SocialMediaInfo"]
+    }
+  ]
+}

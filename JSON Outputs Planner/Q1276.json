@@ -1,0 +1,20 @@
+{
+  "question": "What new social issues are being addressed in leadership communications across the tech industry?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Extract leadership communications from CompanyLeadershipExcerpt",
+      "table": ["CompanyLeadershipExcerpt"]
+    },
+    {
+      "step": 2,
+      "task": "Identify discussions related to social issues from PersonaMisc",
+      "table": ["PersonaMisc"]
+    },
+    {
+      "step": 3,
+      "task": "Match social topics across leadership and miscellaneous sources for recurring themes",
+      "table": ["CompanyLeadershipExcerpt", "PersonaMisc"]
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "question": "Which companies in the retail sector have recently posted job openings for data analysts and shared data insights on social media?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify retail companies from industry classification.",
+      "table": ["CompanyInfo"]
+    },
+    {
+      "step": 2,
+      "task": "Find job openings for data analysts in those companies.",
+      "table": ["CompanyHiringDetail"]
+    },
+    {
+      "step": 3,
+      "task": "Check social media content from those companies mentioning data insights.",
+      "table": ["SocialMediaInfo"]
+    }
+  ]
+}

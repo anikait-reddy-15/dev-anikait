@@ -1,0 +1,20 @@
+{
+  "question": "Which social media channels have demonstrated the highest engagement for companies in tech during product launches?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Filter tech companies from CompanyInfo",
+      "table": ["CompanyInfo"]
+    },
+    {
+      "step": 2,
+      "task": "Identify product launch mentions from SocialMediaInfo",
+      "table": ["SocialMediaInfo"]
+    },
+    {
+      "step": 3,
+      "task": "Analyze engagement metrics by social media platform",
+      "table": ["SocialMediaInfo"]
+    }
+  ]
+}

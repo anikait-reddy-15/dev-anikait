@@ -1,0 +1,20 @@
+{
+  "question": "Who are the most influential tech bloggers mentioned by data scientists within their social media networks?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify social media activity of data scientists",
+      "table": ["PersonaLinkedinPost"]
+    },
+    {
+      "step": 2,
+      "task": "Extract mentions of tech bloggers",
+      "table": ["SocialMediaInfo"]
+    },
+    {
+      "step": 3,
+      "task": "Rank bloggers based on frequency of mentions",
+      "table": []
+    }
+  ]
+}

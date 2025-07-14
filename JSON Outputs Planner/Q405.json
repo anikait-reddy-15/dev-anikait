@@ -1,0 +1,26 @@
+{
+  "question": "Which executives spoke about the importance of big data analytics during recent industry events, and which companies are prioritizing these technologies in their strategic planning?",
+  "tables": ["CompanyLeadershipExcerpt", "CompanyTechStack", "SectionData"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify executives who spoke about big data analytics. [CompanyLeadershipExcerpt]",
+      "table": ["CompanyLeadershipExcerpt"]
+    },
+    {
+      "step": 2,
+      "task": "Gather company data on prioritization of big data technologies. [CompanyTechStack]",
+      "table": ["CompanyTechStack"]
+    },
+    {
+      "step": 3,
+      "task": "Extract relevant event details involving these executives. [SectionData]",
+      "table": ["SectionData"]
+    },
+    {
+      "step": 4,
+      "task": "Cross-reference speakers with their company priorities. [CompanyLeadershipExcerpt, CompanyTechStack, SectionData]",
+      "table": ["CompanyLeadershipExcerpt", "CompanyTechStack", "SectionData"]
+    }
+  ]
+}

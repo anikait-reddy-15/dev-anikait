@@ -1,0 +1,20 @@
+{
+  "question": "Who are the senior data analysts publicly recognized for their contributions to industry benchmarks and technologies on LinkedIn?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Find senior analysts from LinkedIn profiles.",
+      "table": ["PersonaLinkedinProfile"]
+    },
+    {
+      "step": 2,
+      "task": "Identify recognitions related to benchmarks or technologies.",
+      "table": ["CompanyFocusAreaDetail"]
+    },
+    {
+      "step": 3,
+      "task": "Link individuals to companies and contributions.",
+      "table": ["PersonaLinkedinProfile", "CompanyFocusAreaDetail"]
+    }
+  ]
+}

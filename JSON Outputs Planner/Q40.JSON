@@ -1,0 +1,16 @@
+{
+  "question": "What key themes did Rafael Jabur Bittar highlight at the VPS Summit regarding digital transformation?",
+  "tables": ["PersonaLinkedinPost"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Filter Rafael Jabur Bittar's LinkedIn posts for those related to the VPS Summit and digital transformation",
+      "table": ["PersonaLinkedinPost"]
+    },
+    {
+      "step": 2,
+      "task": "Extract key themes discussed in these posts",
+      "table": ["PersonaLinkedinPost"]
+    }
+  ]
+}

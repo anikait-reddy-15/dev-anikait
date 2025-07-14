@@ -1,0 +1,21 @@
+{
+  "question": "Which companies have AI ethics boards and have also created AI transparency documentation for public access?",
+  "tables": ["CompanyFocusAreaDetail", "CompanyBlogDetail"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies with AI ethics boards.",
+      "table": ["CompanyFocusAreaDetail"]
+    },
+    {
+      "step": 2,
+      "task": "Find public AI transparency documentation from these companies.",
+      "table": ["CompanyBlogDetail"]
+    },
+    {
+      "step": 3,
+      "task": "Cross-match ethics board companies with documentation publishers.",
+      "table": ["CompanyFocusAreaDetail", "CompanyBlogDetail"]
+    }
+  ]
+}

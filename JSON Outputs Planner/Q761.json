@@ -1,0 +1,21 @@
+{
+  "question": "Which companies have integrated AI into customer experience strategies and published case studies about the impact?",
+  "tables": ["CompanyFocusAreaDetail", "CompanyBlogDetail"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies integrating AI into customer experience strategies.",
+      "table": ["CompanyFocusAreaDetail"]
+    },
+    {
+      "step": 2,
+      "task": "Find case studies published by these companies discussing impact.",
+      "table": ["CompanyBlogDetail"]
+    },
+    {
+      "step": 3,
+      "task": "Match AI-integrating companies with relevant case studies.",
+      "table": ["CompanyFocusAreaDetail", "CompanyBlogDetail"]
+    }
+  ]
+}

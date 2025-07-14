@@ -1,0 +1,26 @@
+{
+  "question": "Which energy sector firms are using AI in their tech stack and discussing automation in Instagram posts?",
+  "tables": ["CompanyTechStack", "CompanyInfo", "PersonaInstagramProfile"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify energy sector firms. [CompanyInfo]",
+      "table": ["CompanyInfo"]
+    },
+    {
+      "step": 2,
+      "task": "Find firms using AI in their tech stack. [CompanyTechStack]",
+      "table": ["CompanyTechStack"]
+    },
+    {
+      "step": 3,
+      "task": "Find Instagram posts discussing automation. [PersonaInstagramProfile]",
+      "table": ["PersonaInstagramProfile"]
+    },
+    {
+      "step": 4,
+      "task": "Intersect the datasets to find qualifying energy firms. [CompanyInfo, CompanyTechStack, PersonaInstagramProfile]",
+      "table": ["CompanyInfo", "CompanyTechStack", "PersonaInstagramProfile"]
+    }
+  ]
+}

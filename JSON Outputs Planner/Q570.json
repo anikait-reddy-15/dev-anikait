@@ -1,0 +1,21 @@
+{
+  "question": "Which organizations recently hired for the role of a Data Analyst and what technologies are most common in their tech stack?",
+  "tables": ["CompanyHiringDetail", "CompanyTechStack"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify organizations that recently hired for Data Analyst positions. [CompanyHiringDetail]",
+      "table": ["CompanyHiringDetail"]
+    },
+    {
+      "step": 2,
+      "task": "Retrieve the technology stacks of those organizations. [CompanyTechStack]",
+      "table": ["CompanyTechStack"]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the common technologies used by the hiring organizations. [CompanyTechStack]",
+      "table": ["CompanyTechStack"]
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "question": "Which organizations recently launched new YouTube content focusing on machine learning and have also updated their technology stack?",
+  "tables": ["CompanyYoutubeDetail", "CompanyTechStack"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify organizations that launched new YouTube content on machine learning.",
+      "table": ["CompanyYoutubeDetail"]
+    },
+    {
+      "step": 2,
+      "task": "Extract the technology stack updates of those organizations.",
+      "table": ["CompanyTechStack"]
+    },
+    {
+      "step": 3,
+      "task": "Match organizations with new YouTube content to those that updated their technology stack.",
+      "table": ["CompanyYoutubeDetail", "CompanyTechStack"]
+    }
+  ]
+}

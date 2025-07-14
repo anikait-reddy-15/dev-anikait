@@ -1,0 +1,21 @@
+{
+  "question": "What technologies were predominant in companies that posted about their increased commitment to data governance on their blogs?",
+  "tables": ["CompanyTechStack", "SectionData", "CompanyInfo"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies that posted about their increased commitment to data governance from the [SectionData] table.",
+      "table": ["SectionData"]
+    },
+    {
+      "step": 2,
+      "task": "Gather technology stack information for the identified companies from the [CompanyTechStack] table.",
+      "table": ["CompanyTechStack"]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the predominant technologies used by these companies from the [CompanyInfo] table.",
+      "table": ["CompanyInfo"]
+    }
+  ]
+}

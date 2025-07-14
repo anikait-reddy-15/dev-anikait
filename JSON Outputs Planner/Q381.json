@@ -1,0 +1,21 @@
+{
+  "question": "Who are the influential personas in the data science field that have recently engaged with discussions about cloud technology on LinkedIn?",
+  "tables": ["PersonaLinkedinActivity", "PersonaTitle"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify personas who have engaged in discussions about cloud technology on LinkedIn. [PersonaLinkedinActivity]",
+      "table": ["PersonaLinkedinActivity"]
+    },
+    {
+      "step": 2,
+      "task": "Gather titles or roles of these influential personas. [PersonaTitle]",
+      "table": ["PersonaTitle"]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the engagement levels and influence of these personas in the data science field. [PersonaLinkedinActivity, PersonaTitle]",
+      "table": ["PersonaLinkedinActivity", "PersonaTitle"]
+    }
+  ]
+}

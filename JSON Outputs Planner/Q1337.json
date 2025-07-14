@@ -1,0 +1,20 @@
+{
+  "question": "Who are the most active influencers advocating responsible data usage on Twitter and in blogs?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify individuals discussing responsible data use on Twitter",
+      "table": ["PersonaTwitterTweets"]
+    },
+    {
+      "step": 2,
+      "task": "Find blog entries aligned with similar themes",
+      "table": ["PersonaMisc"]
+    },
+    {
+      "step": 3,
+      "task": "Aggregate and rank influencers by activity and reach",
+      "table": ["PersonaTwitterTweets", "PersonaMisc"]
+    }
+  ]
+}

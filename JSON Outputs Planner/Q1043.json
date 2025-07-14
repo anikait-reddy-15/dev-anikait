@@ -1,0 +1,20 @@
+{
+  "question": "Which companies have made shifts in their technology integration strategies following hiring trends for data analytical skills?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies increasing hiring for data analytics skills.",
+      "table": ["CompanyHiringDetail"]
+    },
+    {
+      "step": 2,
+      "task": "Analyze changes in technology stack of those companies.",
+      "table": ["CompanyTechStack"]
+    },
+    {
+      "step": 3,
+      "task": "Compare hiring trends with tech integration shifts.",
+      "table": ["CompanyHiringDetail", "CompanyTechStack"]
+    }
+  ]
+}

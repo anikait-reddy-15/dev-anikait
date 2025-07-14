@@ -1,0 +1,20 @@
+{
+  "question": "What tools and technologies are recommended by companies committed to sustainability in their data approaches?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies with sustainability focus in data practices.",
+      "table": ["CompanyFocusAreaDetail"]
+    },
+    {
+      "step": 2,
+      "task": "Extract technologies mentioned in tech stacks.",
+      "table": ["CompanyTechStack"]
+    },
+    {
+      "step": 3,
+      "task": "List commonly recommended tools supporting sustainable data management.",
+      "table": ["CompanyTechStack"]
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "question": "Which banks have implemented blockchain solutions for cross-border payments and real-time settlements?",
+  "tables": ["CompanyFocusAreaDetail", "CompanyInfo"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify banks using blockchain technology.",
+      "table": ["CompanyFocusAreaDetail"]
+    },
+    {
+      "step": 2,
+      "task": "Filter for use cases in cross-border payments and real-time settlement.",
+      "table": ["CompanyFocusAreaDetail"]
+    },
+    {
+      "step": 3,
+      "task": "List banks applying blockchain for financial transactions.",
+      "table": ["CompanyFocusAreaDetail", "CompanyInfo"]
+    }
+  ]
+}

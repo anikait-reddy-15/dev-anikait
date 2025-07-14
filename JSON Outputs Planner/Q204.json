@@ -1,0 +1,21 @@
+{
+  "question": "What are the collective responsibilities identified for data science teams within tech companies that have partnered with educational institutions?",
+  "tables": ["PersonaUser", "CompanyITPartnerDetail", "CompanyLeadershipExcerpt"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify tech companies that have partnered with educational institutions",
+      "table": ["CompanyITPartnerDetail"]
+    },
+    {
+      "step": 2,
+      "task": "Extract responsibilities of data science teams from these companies",
+      "table": ["PersonaUser"]
+    },
+    {
+      "step": 3,
+      "task": "Compile a collective list of responsibilities identified",
+      "table": ["CompanyLeadershipExcerpt"]
+    }
+  ]
+}

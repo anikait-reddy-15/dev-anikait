@@ -1,0 +1,21 @@
+{
+  "question": "Which companies have adopted AI-powered decision intelligence platforms and what industries do they belong to?",
+  "tables": ["CompanyVendorTechDetail", "CompanyInfo"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies using AI-powered decision intelligence platforms.",
+      "table": ["CompanyVendorTechDetail"]
+    },
+    {
+      "step": 2,
+      "task": "Get industry information for these companies.",
+      "table": ["CompanyInfo"]
+    },
+    {
+      "step": 3,
+      "task": "Match adoption with industry classification.",
+      "table": ["CompanyVendorTechDetail", "CompanyInfo"]
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "question": "Who are the individuals responsible for guiding data strategy in organizations with analytical tool investments?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "List companies investing in analytical tools from CompanyTechStack",
+      "table": ["CompanyTechStack"]
+    },
+    {
+      "step": 2,
+      "task": "Identify key personas responsible for data initiatives from PersonaUser",
+      "table": ["PersonaUser"]
+    },
+    {
+      "step": 3,
+      "task": "Link users to their organizational roles related to data strategy",
+      "table": ["PersonaUser", "CompanyTechStack"]
+    }
+  ]
+}

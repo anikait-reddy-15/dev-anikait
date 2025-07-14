@@ -1,0 +1,21 @@
+{
+  "question": "What are the most frequent topics discussed by executives on LinkedIn that correspond to recent hiring trends in data science roles?",
+  "tables": ["CompanyManagementDetail", "PersonaLinkedinPost", "CompanyHiringDetail"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify recent hiring trends in data science roles. [CompanyHiringDetail]",
+      "table": ["CompanyHiringDetail"]
+    },
+    {
+      "step": 2,
+      "task": "Extract LinkedIn posts made by executives discussing relevant topics. [PersonaLinkedinPost, CompanyManagementDetail]",
+      "table": ["PersonaLinkedinPost", "CompanyManagementDetail"]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the topics discussed in the posts to find correlations with hiring trends. [PersonaLinkedinPost]",
+      "table": ["PersonaLinkedinPost"]
+    }
+  ]
+}

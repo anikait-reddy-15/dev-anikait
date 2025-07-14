@@ -1,0 +1,21 @@
+{
+  "question": "Which data scientists are influencing AI strategy discussions in organizations posting about digital transformation?",
+  "tables": ["PersonaLinkedinPost", "PersonaUser", "CompanyFocusAreaDetail"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify organizations posting about digital transformation.",
+      "table": ["CompanyFocusAreaDetail"]
+    },
+    {
+      "step": 2,
+      "task": "Find data scientists involved in AI strategy discussions on LinkedIn.",
+      "table": ["PersonaLinkedinPost", "PersonaUser"]
+    },
+    {
+      "step": 3,
+      "task": "Match data scientists to organizations posting about digital transformation.",
+      "table": ["PersonaUser", "CompanyFocusAreaDetail"]
+    }
+  ]
+}

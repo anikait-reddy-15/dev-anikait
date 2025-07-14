@@ -1,0 +1,21 @@
+{
+  "question": "What AI tools are being adopted by companies that have also shown a rise in Instagram activity?",
+  "tables": ["CompanyInstagramDetail", "CompanyTechStack"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies with rising Instagram activity.",
+      "table": ["CompanyInstagramDetail"]
+    },
+    {
+      "step": 2,
+      "task": "Extract AI tools adopted by those companies.",
+      "table": ["CompanyTechStack"]
+    },
+    {
+      "step": 3,
+      "task": "Match AI tool adoption with Instagram activity.",
+      "table": ["CompanyInstagramDetail", "CompanyTechStack"]
+    }
+  ]
+}

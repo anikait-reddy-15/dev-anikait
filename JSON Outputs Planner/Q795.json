@@ -1,0 +1,21 @@
+{
+  "question": "What are the most common KPIs used to track AI success in companies with recent AI investments?",
+  "tables": ["CompanyFocusAreaDetail", "CompanyDealMaster"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies with recent AI investments.",
+      "table": ["CompanyDealMaster"]
+    },
+    {
+      "step": 2,
+      "task": "Extract AI-related KPI mentions.",
+      "table": ["CompanyFocusAreaDetail"]
+    },
+    {
+      "step": 3,
+      "task": "Aggregate and summarize common KPIs.",
+      "table": ["CompanyDealMaster", "CompanyFocusAreaDetail"]
+    }
+  ]
+}

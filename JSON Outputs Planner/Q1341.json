@@ -1,0 +1,20 @@
+{
+  "question": "Which companies have aligned their Instagram posts with AI-driven hiring initiatives?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies posting about AI-driven initiatives on Instagram",
+      "table": ["CompanyInstagramDetail"]
+    },
+    {
+      "step": 2,
+      "task": "Retrieve hiring details related to AI-focused roles",
+      "table": ["CompanyHiringDetail"]
+    },
+    {
+      "step": 3,
+      "task": "Filter companies that appear in both Instagram and hiring data",
+      "table": ["CompanyInstagramDetail", "CompanyHiringDetail"]
+    }
+  ]
+}

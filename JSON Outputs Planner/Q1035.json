@@ -1,0 +1,20 @@
+{
+  "question": "Which organizations are structurally changing their data management strategies after recent vendor deal signings?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify organizations with recent vendor deals.",
+      "table": ["CompanyDealMaster"]
+    },
+    {
+      "step": 2,
+      "task": "Check for structural changes in data management.",
+      "table": ["CompanyManagementDetail"]
+    },
+    {
+      "step": 3,
+      "task": "Correlate vendor deals with structural data strategy shifts.",
+      "table": ["CompanyDealMaster", "CompanyManagementDetail"]
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "question": "Which companies have showcased open data policies in leadership talks and hiring practices?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Find companies discussing open data in leadership excerpts",
+      "table": ["CompanyLeadershipExcerpt"]
+    },
+    {
+      "step": 2,
+      "task": "Check for job postings aligned with open data initiatives",
+      "table": ["CompanyHiringDetail"]
+    },
+    {
+      "step": 3,
+      "task": "List companies demonstrating consistency across both areas",
+      "table": ["CompanyLeadershipExcerpt", "CompanyHiringDetail"]
+    }
+  ]
+}

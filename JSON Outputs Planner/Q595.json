@@ -1,0 +1,21 @@
+{
+  "question": "Which industries have the highest number of companies deploying big data platforms in the last year?",
+  "tables": ["CompanyTechStack", "CompanyInfo"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies deploying big data platforms in the last year from the CompanyTechStack table. [CompanyTechStack]",
+      "table": ["CompanyTechStack"]
+    },
+    {
+      "step": 2,
+      "task": "Get the industry classification for those companies from CompanyInfo. [CompanyInfo]",
+      "table": ["CompanyInfo"]
+    },
+    {
+      "step": 3,
+      "task": "Aggregate the data by industry to find the most active ones. [CompanyTechStack, CompanyInfo]",
+      "table": ["CompanyTechStack", "CompanyInfo"]
+    }
+  ]
+}

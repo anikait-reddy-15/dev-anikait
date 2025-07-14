@@ -1,0 +1,20 @@
+{
+  "question": "What leadership priorities are emphasized in companies investing in data literacy programs?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Extract leadership excerpts mentioning data literacy or education",
+      "table": ["CompanyLeadershipExcerpt"]
+    },
+    {
+      "step": 2,
+      "task": "Check for hiring patterns indicating training and development roles",
+      "table": ["CompanyHiringDetail"]
+    },
+    {
+      "step": 3,
+      "task": "Identify leadership priorities in terms of goals, values, or outcomes",
+      "table": ["CompanyLeadershipExcerpt"]
+    }
+  ]
+}

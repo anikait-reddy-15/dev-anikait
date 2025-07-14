@@ -1,0 +1,20 @@
+{
+  "question": "What social media topics resonate with key decision-makers in tech industries?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify social media content from SocialMediaInfo posted by tech companies",
+      "table": ["SocialMediaInfo"]
+    },
+    {
+      "step": 2,
+      "task": "Cross-reference key decision-makers from PersonaMisc",
+      "table": ["PersonaMisc"]
+    },
+    {
+      "step": 3,
+      "task": "Analyze engagement or mentions by those decision-makers",
+      "table": ["SocialMediaInfo", "PersonaMisc"]
+    }
+  ]
+}

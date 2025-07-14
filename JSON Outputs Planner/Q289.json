@@ -1,0 +1,21 @@
+{
+  "question": "What social media platforms are most commonly used by individuals who frequently discuss blockchain technology in their online posts?",
+  "tables": ["PersonaFaceBook", "PersonaTwitterProfile", "PersonaLinkedinActivity"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify individuals who frequently discuss blockchain technology in their online posts. [PersonaLinkedinActivity]",
+      "table": ["PersonaLinkedinActivity"]
+    },
+    {
+      "step": 2,
+      "task": "Gather social media profiles of these individuals from various platforms. [PersonaFaceBook, PersonaTwitterProfile]",
+      "table": ["PersonaFaceBook", "PersonaTwitterProfile"]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the collected profiles to determine the most commonly used platforms. [PersonaFaceBook, PersonaTwitterProfile]",
+      "table": ["PersonaFaceBook", "PersonaTwitterProfile"]
+    }
+  ]
+}

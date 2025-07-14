@@ -1,0 +1,20 @@
+{
+  "question": "Which companies are using Instagram to showcase data ethics or governance values?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Retrieve Instagram posts referencing ethics, transparency, or governance",
+      "table": ["CompanyInstagramDetail"]
+    },
+    {
+      "step": 2,
+      "task": "Identify companies associated with these posts",
+      "table": ["CompanyInstagramDetail"]
+    },
+    {
+      "step": 3,
+      "task": "Filter for organizations with frequent mentions of such values",
+      "table": ["CompanyInstagramDetail"]
+    }
+  ]
+}

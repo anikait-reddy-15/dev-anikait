@@ -1,0 +1,21 @@
+{
+  "question": "Which companies in the retail sector have highlighted digital transformation initiatives in their leadership talks while also acquiring new technology partners?",
+  "tables": ["CompanyLeadershipExcerpt", "CompanyITPartnerDetail", "CompanyInfo"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies in the retail sector. [CompanyInfo]",
+      "table": ["CompanyInfo"]
+    },
+    {
+      "step": 2,
+      "task": "Extract leadership talks that highlight digital transformation initiatives. [CompanyLeadershipExcerpt]",
+      "table": ["CompanyLeadershipExcerpt"]
+    },
+    {
+      "step": 3,
+      "task": "Find technology partners acquired by these companies. [CompanyITPartnerDetail]",
+      "table": ["CompanyITPartnerDetail"]
+    }
+  ]
+}

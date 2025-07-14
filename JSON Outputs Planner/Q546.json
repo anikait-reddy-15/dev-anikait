@@ -1,0 +1,21 @@
+{
+  "question": "What companies recently entered into deals with cloud service providers and also have data scientists listed as team members?",
+  "tables": ["CompanyDealMaster", "CompanyInfo", "PersonaUser"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies that have entered into deals with cloud service providers. [CompanyDealMaster]",
+      "table": ["CompanyDealMaster"]
+    },
+    {
+      "step": 2,
+      "task": "Filter the identified companies to include only those that have data scientists as team members. [PersonaUser]",
+      "table": ["PersonaUser"]
+    },
+    {
+      "step": 3,
+      "task": "Retrieve company information for the filtered companies to provide context. [CompanyInfo]",
+      "table": ["CompanyInfo"]
+    }
+  ]
+}

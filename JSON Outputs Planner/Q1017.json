@@ -1,0 +1,20 @@
+{
+  "question": "Which firms focusing on customer experience have signed new tech deals that incorporate data analytics?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies with a focus on customer experience.",
+      "table": ["CompanyFocusAreaDetail"]
+    },
+    {
+      "step": 2,
+      "task": "Find recent tech deals that include data analytics components.",
+      "table": ["CompanyDealMaster"]
+    },
+    {
+      "step": 3,
+      "task": "Link customer-focused companies to analytics-related deals.",
+      "table": ["CompanyFocusAreaDetail", "CompanyDealMaster"]
+    }
+  ]
+}

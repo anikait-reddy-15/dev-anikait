@@ -1,0 +1,21 @@
+{
+  "question": "What significant technology roles are held by leaders in financial services organizations?",
+  "tables": ["PersonaTitle", "CompanyInfo", "PersonaUser"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify significant technology roles from the PersonaTitle table",
+      "table": ["PersonaTitle"]
+    },
+    {
+      "step": 2,
+      "task": "Filter the roles to include only those related to financial services organizations",
+      "table": ["CompanyInfo"]
+    },
+    {
+      "step": 3,
+      "task": "Match the identified roles with the leaders in the PersonaUser table",
+      "table": ["PersonaUser"]
+    }
+  ]
+}

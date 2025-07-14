@@ -1,0 +1,21 @@
+{
+  "question": "What are the predominant social media platforms used by companies focusing on AI-driven marketing strategies?",
+  "tables": ["SocialMediaInfo", "CompanyFocusAreaDetail"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies focusing on AI-driven marketing strategies.",
+      "table": ["CompanyFocusAreaDetail"]
+    },
+    {
+      "step": 2,
+      "task": "Extract social media platform usage for these companies.",
+      "table": ["SocialMediaInfo"]
+    },
+    {
+      "step": 3,
+      "task": "Analyze platform prevalence among these companies.",
+      "table": ["SocialMediaInfo", "CompanyFocusAreaDetail"]
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "question": "Which companies have expanded their cloud infrastructure while also releasing updates on LinkedIn about their innovation strategy?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies that expanded their cloud infrastructure",
+      "table": ["CompanyTechStack"]
+    },
+    {
+      "step": 2,
+      "task": "Get corresponding company IDs and names",
+      "table": ["CompanyInfo"]
+    },
+    {
+      "step": 3,
+      "task": "Find LinkedIn posts from these companies discussing innovation strategy",
+      "table": ["PersonaLinkedinPost"]
+    },
+    {
+      "step": 4,
+      "task": "Filter for posts that reference recent technology updates or innovation",
+      "table": ["PersonaLinkedinPost"]
+    }
+  ]
+}

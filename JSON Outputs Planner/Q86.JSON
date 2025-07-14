@@ -1,0 +1,21 @@
+{
+  "question": "How have recent acquisitions influenced the technology stacks of companies in the e-commerce sector?",
+  "tables": ["CompanyDealMaster", "CompanyTechStack", "CompanyInfo"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify recent acquisitions in the e-commerce sector",
+      "table": ["CompanyDealMaster", "CompanyInfo"]
+    },
+    {
+      "step": 2,
+      "task": "Determine the technology stacks of the companies involved in these acquisitions",
+      "table": ["CompanyTechStack"]
+    },
+    {
+      "step": 3,
+      "task": "Analyze how these acquisitions have influenced technology choices",
+      "table": ["CompanyTechStack"]
+    }
+  ]
+}

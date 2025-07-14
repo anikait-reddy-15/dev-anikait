@@ -1,0 +1,21 @@
+{
+  "question": "What LinkedIn posts do LPL Financial executives share regarding their technology initiatives?",
+  "tables": ["SectionData", "PersonaLinkedinActivity"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify executives at LPL Financial from the SectionData table",
+      "table": ["SectionData"]
+    },
+    {
+      "step": 2,
+      "task": "Extract LinkedIn activity related to technology initiatives",
+      "table": ["PersonaLinkedinActivity"]
+    },
+    {
+      "step": 3,
+      "task": "Filter the LinkedIn posts to match those shared by the identified executives",
+      "table": ["SectionData", "PersonaLinkedinActivity"]
+    }
+  ]
+}

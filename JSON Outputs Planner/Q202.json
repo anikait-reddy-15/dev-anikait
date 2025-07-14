@@ -1,0 +1,21 @@
+{
+  "question": "What strategies have emerged from industry leaders in response to evolving IT trends, and how do they align with their tech stack choices?",
+  "tables": ["IndustryITTrend", "CompanyTechStack", "CompanyLeadershipExcerpt"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify evolving IT trends from industry reports",
+      "table": ["IndustryITTrend"]
+    },
+    {
+      "step": 2,
+      "task": "Gather strategies from company leadership excerpts that respond to these trends",
+      "table": ["CompanyLeadershipExcerpt"]
+    },
+    {
+      "step": 3,
+      "task": "Analyze how the identified strategies align with the companies' tech stack choices",
+      "table": ["CompanyTechStack"]
+    }
+  ]
+}

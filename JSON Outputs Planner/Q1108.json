@@ -1,0 +1,20 @@
+{
+  "question": "What are the emerging IT trends recognized by companies actively hiring data analysts?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies hiring for data analyst roles",
+      "table": ["CompanyHiringDetail"]
+    },
+    {
+      "step": 2,
+      "task": "Find relevant emerging IT trends for those companies",
+      "table": ["IndustryITTrend"]
+    },
+    {
+      "step": 3,
+      "task": "Map hiring patterns to trend recognition",
+      "table": []
+    }
+  ]
+}

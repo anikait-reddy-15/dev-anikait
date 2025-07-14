@@ -1,0 +1,21 @@
+{
+  "question": "Which companies have recently collaborated with technology vendors to enhance their data analytics capabilities?",
+  "tables": ["CompanyDealMaster", "CompanyVendorProductDetail"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify recent collaborations between companies and technology vendors.",
+      "table": ["CompanyDealMaster", "CompanyVendorProductDetail"]
+    },
+    {
+      "step": 2,
+      "task": "Filter the collaborations to focus on those related to data analytics capabilities.",
+      "table": ["CompanyVendorProductDetail"]
+    },
+    {
+      "step": 3,
+      "task": "Compile a list of companies involved in these collaborations.",
+      "table": ["CompanyDealMaster"]
+    }
+  ]
+}

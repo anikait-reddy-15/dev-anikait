@@ -1,0 +1,21 @@
+{
+  "question": "Which companies have increased hiring for cloud architects while also announcing new cloud service agreements?",
+  "tables": ["CompanyHiringDetail", "CompanyDealMaster"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies increasing hiring for cloud architects.",
+      "table": ["CompanyHiringDetail"]
+    },
+    {
+      "step": 2,
+      "task": "Find companies announcing new cloud service agreements.",
+      "table": ["CompanyDealMaster"]
+    },
+    {
+      "step": 3,
+      "task": "Match companies from both datasets.",
+      "table": ["CompanyHiringDetail", "CompanyDealMaster"]
+    }
+  ]
+}

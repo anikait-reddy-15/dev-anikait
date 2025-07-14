@@ -1,0 +1,20 @@
+{
+  "question": "Who are the thought leaders in data science providing insights on LinkedIn regarding industry trends?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Extract LinkedIn posts related to industry trends.",
+      "table": ["PersonaLinkedinProfile"]
+    },
+    {
+      "step": 2,
+      "task": "Identify users who authored these posts.",
+      "table": ["PersonaLinkedinProfile"]
+    },
+    {
+      "step": 3,
+      "task": "Verify if users are data science thought leaders.",
+      "table": ["PersonaTitle"]
+    }
+  ]
+}

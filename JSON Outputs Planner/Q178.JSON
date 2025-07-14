@@ -1,0 +1,21 @@
+{
+  "question": "What are the top three focus areas for companies that have published recent YouTube content highlighting their analytics capabilities?",
+  "tables": ["CompanyYoutubeDetail", "CompanyFocusAreaDetail"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies that have published recent YouTube content related to analytics",
+      "table": ["CompanyYoutubeDetail"]
+    },
+    {
+      "step": 2,
+      "task": "Extract focus areas associated with these companies",
+      "table": ["CompanyFocusAreaDetail"]
+    },
+    {
+      "step": 3,
+      "task": "Rank and select the top three focus areas based on the extracted data",
+      "table": ["CompanyFocusAreaDetail"]
+    }
+  ]
+}

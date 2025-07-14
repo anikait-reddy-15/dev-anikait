@@ -1,0 +1,25 @@
+{
+  "question": "What recent changes in social media strategy have been noted among leaders of agile firms?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify agile-focused companies from CompanyFocusAreaDetail",
+      "table": ["CompanyFocusAreaDetail"]
+    },
+    {
+      "step": 2,
+      "task": "Fetch social activity metrics from SocialMediaInfo",
+      "table": ["SocialMediaInfo"]
+    },
+    {
+      "step": 3,
+      "task": "Extract mentions or posts by leadership from CompanyLeadershipExcerpt",
+      "table": ["CompanyLeadershipExcerpt"]
+    },
+    {
+      "step": 4,
+      "task": "Analyze timeline-based changes in social messaging",
+      "table": ["SocialMediaInfo", "CompanyLeadershipExcerpt"]
+    }
+  ]
+}

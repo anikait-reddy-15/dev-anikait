@@ -1,0 +1,21 @@
+{
+  "question": "What are the most common social media themes in announcements regarding data-focused technology investments?",
+  "tables": ["CompanySocialMediaInfo", "CompanyTechStack"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Extract social media announcements related to technology investments",
+      "table": ["CompanySocialMediaInfo"]
+    },
+    {
+      "step": 2,
+      "task": "Identify themes from announcements focusing on data",
+      "table": ["CompanySocialMediaInfo"]
+    },
+    {
+      "step": 3,
+      "task": "Link themes to specific technologies in firm tech stacks",
+      "table": ["CompanyTechStack"]
+    }
+  ]
+}

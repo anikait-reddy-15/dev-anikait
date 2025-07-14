@@ -1,0 +1,21 @@
+{
+  "question": "Which retail chains are using AI to track in-store shopper movement and optimize shelf layouts?",
+  "tables": ["CompanyFocusAreaDetail", "CompanyInfo"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify retail companies using AI in physical stores.",
+      "table": ["CompanyFocusAreaDetail"]
+    },
+    {
+      "step": 2,
+      "task": "Filter for AI use in foot traffic analysis and shelf placement.",
+      "table": ["CompanyFocusAreaDetail"]
+    },
+    {
+      "step": 3,
+      "task": "List retailers applying AI to enhance in-store layouts.",
+      "table": ["CompanyFocusAreaDetail", "CompanyInfo"]
+    }
+  ]
+}

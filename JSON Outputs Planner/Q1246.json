@@ -1,0 +1,20 @@
+{
+  "question": "What new initiatives are companies starting post-leadership change in tech adoption?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies with recent leadership changes from CompanyManagementDetail",
+      "table": ["CompanyManagementDetail"]
+    },
+    {
+      "step": 2,
+      "task": "Find new tech initiatives adopted by these companies from CompanyInfo",
+      "table": ["CompanyInfo"]
+    },
+    {
+      "step": 3,
+      "task": "Link the initiatives with timelines to correlate post-leadership transition activity",
+      "table": ["CompanyManagementDetail", "CompanyInfo"]
+    }
+  ]
+}

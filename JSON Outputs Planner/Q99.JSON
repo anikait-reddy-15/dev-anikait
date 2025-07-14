@@ -1,0 +1,21 @@
+{
+  "question": "How many data science job postings mentioned an interest in big data tools at companies that are investing heavily in IT?",
+  "tables": ["CompanyHiringDetail", "CompanyTechStack"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify data science job postings that mentioned big data tools",
+      "table": ["CompanyHiringDetail"]
+    },
+    {
+      "step": 2,
+      "task": "Filter these postings by companies investing heavily in IT",
+      "table": ["CompanyTechStack"]
+    },
+    {
+      "step": 3,
+      "task": "Count the number of relevant job postings",
+      "table": ["CompanyHiringDetail", "CompanyTechStack"]
+    }
+  ]
+}

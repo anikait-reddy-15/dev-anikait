@@ -1,0 +1,21 @@
+{
+  "question": "Who are the influencers posting about machine learning on social media that are associated with organizations adopting advanced analytics tools?",
+  "tables": ["PersonaTwitterProfile", "CompanyTechStack", "PersonaTwitterTweets"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify influencers posting about machine learning on social media",
+      "table": ["PersonaTwitterTweets", "PersonaTwitterProfile"]
+    },
+    {
+      "step": 2,
+      "task": "Identify organizations that are adopting advanced analytics tools",
+      "table": ["CompanyTechStack"]
+    },
+    {
+      "step": 3,
+      "task": "Cross-reference the influencers with the organizations adopting advanced analytics tools",
+      "table": ["PersonaTwitterProfile", "CompanyTechStack"]
+    }
+  ]
+}

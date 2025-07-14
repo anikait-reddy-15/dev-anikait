@@ -1,0 +1,21 @@
+{
+  "question": "What vendor partnerships have healthcare companies formed to support telemedicine growth?",
+  "tables": ["CompanyDealMaster", "CompanyInfo"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify healthcare companies.",
+      "table": ["CompanyInfo"]
+    },
+    {
+      "step": 2,
+      "task": "Find vendor partnerships supporting telemedicine.",
+      "table": ["CompanyDealMaster"]
+    },
+    {
+      "step": 3,
+      "task": "Match vendor partnerships with healthcare companies.",
+      "table": ["CompanyDealMaster", "CompanyInfo"]
+    }
+  ]
+}

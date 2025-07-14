@@ -1,0 +1,21 @@
+{
+  "question": "Which personas have discussed shifts in technology strategy on LinkedIn and are associated with companies focusing on sustainability?",
+  "tables": ["PersonaLinkedinPost", "CompanyFocusAreaDetail"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify personas that have discussed technology strategy shifts on LinkedIn",
+      "table": ["PersonaLinkedinPost"]
+    },
+    {
+      "step": 2,
+      "task": "Identify companies that are focusing on sustainability",
+      "table": ["CompanyFocusAreaDetail"]
+    },
+    {
+      "step": 3,
+      "task": "Cross-reference the personas with the companies focusing on sustainability",
+      "table": ["PersonaLinkedinPost", "CompanyFocusAreaDetail"]
+    }
+  ]
+}

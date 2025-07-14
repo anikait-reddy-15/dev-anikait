@@ -1,0 +1,21 @@
+{
+  "question": "Which automotive companies are integrating AI into autonomous driving systems and predictive vehicle diagnostics?",
+  "tables": ["CompanyFocusAreaDetail", "CompanyInfo"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify automotive companies.",
+      "table": ["CompanyInfo"]
+    },
+    {
+      "step": 2,
+      "task": "Find use cases of AI in self-driving and predictive diagnostics.",
+      "table": ["CompanyFocusAreaDetail"]
+    },
+    {
+      "step": 3,
+      "task": "List auto companies with AI-enabled mobility systems.",
+      "table": ["CompanyFocusAreaDetail", "CompanyInfo"]
+    }
+  ]
+}

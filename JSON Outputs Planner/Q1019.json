@@ -1,0 +1,20 @@
+{
+  "question": "Which companies published white papers on big data and have made recent changes to their technology stack?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies that published white papers on big data.",
+      "table": ["CompanyFocusAreaDetail"]
+    },
+    {
+      "step": 2,
+      "task": "Fetch recent changes to their technology stack.",
+      "table": ["CompanyTechStack"]
+    },
+    {
+      "step": 3,
+      "task": "Match white paper publishers with tech stack updates.",
+      "table": ["CompanyFocusAreaDetail", "CompanyTechStack"]
+    }
+  ]
+}

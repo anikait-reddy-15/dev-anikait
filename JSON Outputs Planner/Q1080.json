@@ -1,0 +1,20 @@
+{
+  "question": "How has recruitment for data science roles shifted in companies focusing on corporate social responsibility initiatives?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies emphasizing CSR in focus areas.",
+      "table": ["CompanyFocusAreaDetail"]
+    },
+    {
+      "step": 2,
+      "task": "Track hiring trends in data science roles in those companies.",
+      "table": ["CompanyHiringDetail"]
+    },
+    {
+      "step": 3,
+      "task": "Summarize observed shifts in recruitment volume or role type.",
+      "table": ["CompanyHiringDetail"]
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "question": "What areas of improvement are suggested by data science teams in organizations looking to boost their analytics capability?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies with a focus on improving analytics capabilities.",
+      "table": ["CompanyFocusAreaDetail"]
+    },
+    {
+      "step": 2,
+      "task": "Extract related skill gaps or technology limitations.",
+      "table": ["CompanyTechStack"]
+    },
+    {
+      "step": 3,
+      "task": "Summarize improvement themes based on available data.",
+      "table": ["CompanyTechStack", "CompanyFocusAreaDetail"]
+    }
+  ]
+}

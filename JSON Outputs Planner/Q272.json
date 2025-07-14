@@ -1,0 +1,21 @@
+{
+  "question": "Which companies with established data centers have reported on their hiring strategies for data science roles in the last 6 months?",
+  "tables": ["CompanyDataCenter", "CompanyHiringDetail", "CompanyInfo"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies with established data centers from the [CompanyDataCenter] table.",
+      "table": ["CompanyDataCenter"]
+    },
+    {
+      "step": 2,
+      "task": "Extract hiring strategies for data science roles reported in the last 6 months from the [CompanyHiringDetail] table.",
+      "table": ["CompanyHiringDetail"]
+    },
+    {
+      "step": 3,
+      "task": "Match the identified companies with their hiring strategies from the [CompanyInfo] table.",
+      "table": ["CompanyInfo"]
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "question": "What tech stack shifts are seen in companies hiring AI ethics specialists?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Find companies hiring for AI ethics-related roles",
+      "table": ["CompanyHiringDetail"]
+    },
+    {
+      "step": 2,
+      "task": "Retrieve recent tech stack updates for these companies",
+      "table": ["CompanyTechStack"]
+    },
+    {
+      "step": 3,
+      "task": "Compare shifts in stack before and after hiring",
+      "table": ["CompanyTechStack"]
+    }
+  ]
+}

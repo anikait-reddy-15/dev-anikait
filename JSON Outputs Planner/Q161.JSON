@@ -1,0 +1,21 @@
+{
+  "question": "Which companies are integrating user feedback from social media in their strategic data initiatives?",
+  "tables": ["CompanySocialMediaInfo", "CompanyTechStack"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies actively engaging with user feedback on social media",
+      "table": ["CompanySocialMediaInfo"]
+    },
+    {
+      "step": 2,
+      "task": "Retrieve strategic data initiatives tied to these companies",
+      "table": ["CompanyTechStack"]
+    },
+    {
+      "step": 3,
+      "task": "Correlate the feedback with initiative updates",
+      "table": ["CompanySocialMediaInfo", "CompanyTechStack"]
+    }
+  ]
+}

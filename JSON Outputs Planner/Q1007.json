@@ -1,0 +1,20 @@
+{
+  "question": "What organizational trends can be observed in companies that hired a new Chief Data Officer and expanded their technical stack?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies that appointed a new Chief Data Officer.",
+      "table": ["CompanyManagementDetail"]
+    },
+    {
+      "step": 2,
+      "task": "Check for recent expansion in technical stack for those companies.",
+      "table": ["CompanyTechStack"]
+    },
+    {
+      "step": 3,
+      "task": "Analyze patterns in these changes to derive organizational trends.",
+      "table": []
+    }
+  ]
+}

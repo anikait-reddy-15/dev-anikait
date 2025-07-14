@@ -1,0 +1,31 @@
+{
+  "question": "How do hiring trends correlate with the use of specific technologies in companies that recently promoted their CTO?",
+  "tables": ["CompanyHiringDetail", "CompanyTechStack", "CompanyManagementDetail"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies that recently promoted their CTO. [CompanyManagementDetail]",
+      "table": ["CompanyManagementDetail"]
+    },
+    {
+      "step": 2,
+      "task": "Extract Company IDs of those companies. [CompanyManagementDetail]",
+      "table": ["CompanyManagementDetail"]
+    },
+    {
+      "step": 3,
+      "task": "Analyze hiring trends for the identified companies. [CompanyHiringDetail]",
+      "table": ["CompanyHiringDetail"]
+    },
+    {
+      "step": 4,
+      "task": "Retrieve technology stack information for the identified companies. [CompanyTechStack]",
+      "table": ["CompanyTechStack"]
+    },
+    {
+      "step": 5,
+      "task": "Correlate hiring trends with technology usage. [CompanyHiringDetail, CompanyTechStack]",
+      "table": ["CompanyHiringDetail", "CompanyTechStack"]
+    }
+  ]
+}

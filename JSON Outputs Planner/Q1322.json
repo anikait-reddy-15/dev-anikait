@@ -1,0 +1,20 @@
+{
+  "question": "What vendor technologies are cited most frequently by firms with published whitepapers on data agility?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Find companies that have published whitepapers on data agility",
+      "table": ["PersonaMisc"]
+    },
+    {
+      "step": 2,
+      "task": "Retrieve vendor technology usage for those companies",
+      "table": ["CompanyVendorProductDetail"]
+    },
+    {
+      "step": 3,
+      "task": "List and rank vendor technologies by frequency",
+      "table": ["CompanyVendorProductDetail"]
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "question": "Which companies describe ethical concerns in their digital transformation strategies?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify digital transformation strategies from focus area or leadership content",
+      "table": ["CompanyFocusAreaDetail", "CompanyLeadershipExcerpt"]
+    },
+    {
+      "step": 2,
+      "task": "Filter for mentions of ethics, bias, transparency, or accountability",
+      "table": ["CompanyLeadershipExcerpt"]
+    },
+    {
+      "step": 3,
+      "task": "List companies discussing ethical concerns in these contexts",
+      "table": ["CompanyFocusAreaDetail", "CompanyLeadershipExcerpt"]
+    }
+  ]
+}

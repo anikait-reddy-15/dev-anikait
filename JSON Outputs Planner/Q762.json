@@ -1,0 +1,21 @@
+{
+  "question": "Who are the thought leaders actively contributing to AI policy discussions in firms with international operations?",
+  "tables": ["PersonaUser", "CompanyInfo"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify thought leaders involved in AI policy discussions.",
+      "table": ["PersonaUser"]
+    },
+    {
+      "step": 2,
+      "task": "Filter those working at firms with international operations.",
+      "table": ["CompanyInfo"]
+    },
+    {
+      "step": 3,
+      "task": "Cross-reference leaders and internationally-operating firms.",
+      "table": ["PersonaUser", "CompanyInfo"]
+    }
+  ]
+}

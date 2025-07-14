@@ -1,0 +1,21 @@
+{
+  "question": "How do firms prioritize their technology investments in response to developments in industry trends and leadership feedback?",
+  "tables": ["IndustryITTrend", "CompanyLeadershipExcerpt", "CompanyTechStack"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Extract recent developments in industry trends",
+      "table": ["IndustryITTrend"]
+    },
+    {
+      "step": 2,
+      "task": "Retrieve leadership feedback about technology investments",
+      "table": ["CompanyLeadershipExcerpt"]
+    },
+    {
+      "step": 3,
+      "task": "Analyze how firms adjust their tech stacks based on trend and leadership alignment",
+      "table": ["CompanyTechStack"]
+    }
+  ]
+}

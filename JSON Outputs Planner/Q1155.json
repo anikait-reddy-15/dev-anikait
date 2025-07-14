@@ -1,0 +1,20 @@
+{
+  "question": "How are startups in the fintech sector adjusting their hiring practices based on data performance metrics?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Filter fintech startups from CompanyFocusAreaDetail",
+      "table": ["CompanyFocusAreaDetail"]
+    },
+    {
+      "step": 2,
+      "task": "Extract hiring details for these startups",
+      "table": ["CompanyHiringDetail"]
+    },
+    {
+      "step": 3,
+      "task": "Analyze hiring adjustments based on performance insights",
+      "table": []
+    }
+  ]
+}

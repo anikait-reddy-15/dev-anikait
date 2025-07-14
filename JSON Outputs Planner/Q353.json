@@ -1,0 +1,26 @@
+{
+  "question": "Which data scientists have made impactful posts about emerging technologies on Twitter while their companies have experienced shifts in strategic direction?",
+  "tables": ["PersonaTwitterProfile", "PersonaTwitterTweets", "CompanyFocusAreaDetail"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify impactful posts about emerging technologies on Twitter. [PersonaTwitterTweets]",
+      "table": ["PersonaTwitterTweets"]
+    },
+    {
+      "step": 2,
+      "task": "Filter for data scientists who authored these posts. [PersonaTwitterProfile]",
+      "table": ["PersonaTwitterProfile"]
+    },
+    {
+      "step": 3,
+      "task": "Identify companies that have experienced shifts in strategic direction. [CompanyFocusAreaDetail]",
+      "table": ["CompanyFocusAreaDetail"]
+    },
+    {
+      "step": 4,
+      "task": "Match data scientists with their companies to see if they have experienced strategic shifts. [CompanyFocusAreaDetail]",
+      "table": ["CompanyFocusAreaDetail"]
+    }
+  ]
+}

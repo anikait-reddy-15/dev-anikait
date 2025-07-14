@@ -1,0 +1,21 @@
+{
+  "question": "What strategic focus areas are prominent among companies that recently entered partnerships with leading tech vendors for data analytics?",
+  "tables": ["CompanyFocusAreaDetail", "CompanyDealMaster", "CompanyVendorTechDetail"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies that entered partnerships with leading tech vendors for data analytics. [CompanyDealMaster, CompanyVendorTechDetail]",
+      "table": ["CompanyDealMaster", "CompanyVendorTechDetail"]
+    },
+    {
+      "step": 2,
+      "task": "Extract strategic focus areas from those companies. [CompanyFocusAreaDetail]",
+      "table": ["CompanyFocusAreaDetail"]
+    },
+    {
+      "step": 3,
+      "task": "Cross-reference focus areas with vendor partnerships. [CompanyFocusAreaDetail, CompanyVendorTechDetail]",
+      "table": ["CompanyFocusAreaDetail", "CompanyVendorTechDetail"]
+    }
+  ]
+}

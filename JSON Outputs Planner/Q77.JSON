@@ -1,0 +1,21 @@
+{
+  "question": "Who are the data science leaders at companies that have increased their IT partner count in the last 6 months?",
+  "tables": ["PersonaUser", "PersonaTitle", "CompanyITPartnerDetail"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies that have increased their IT partner count in the last 6 months",
+      "table": ["CompanyITPartnerDetail"]
+    },
+    {
+      "step": 2,
+      "task": "Filter data science leaders from the identified companies",
+      "table": ["PersonaTitle"]
+    },
+    {
+      "step": 3,
+      "task": "Match the leaders with their respective companies",
+      "table": ["PersonaUser"]
+    }
+  ]
+}

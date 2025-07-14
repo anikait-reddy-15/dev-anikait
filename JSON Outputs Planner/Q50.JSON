@@ -1,0 +1,21 @@
+{
+  "question": "What technologies are discussed in LinkedIn posts by executives focusing on operational excellence in healthcare?",
+  "tables": ["PersonaLinkedinPost", "LookUpValue"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify executives focusing on operational excellence in healthcare",
+      "table": ["CompanyManagementDetail"]
+    },
+    {
+      "step": 2,
+      "task": "Filter LinkedIn posts that mention operational excellence",
+      "table": ["PersonaLinkedinPost"]
+    },
+    {
+      "step": 3,
+      "task": "Match the filtered posts with the identified executives to extract discussed technologies",
+      "table": ["LookUpValue"]
+    }
+  ]
+}

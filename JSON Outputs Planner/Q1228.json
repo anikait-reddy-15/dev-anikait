@@ -1,0 +1,25 @@
+{
+  "question": "How are social media trends impacting the hiring strategies of tech startups?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify tech startups using CompanyInfo",
+      "table": ["CompanyInfo"]
+    },
+    {
+      "step": 2,
+      "task": "Analyze their social media trends using SocialMediaInfo",
+      "table": ["SocialMediaInfo"]
+    },
+    {
+      "step": 3,
+      "task": "Check hiring patterns from CompanyHiringDetail",
+      "table": ["CompanyHiringDetail"]
+    },
+    {
+      "step": 4,
+      "task": "Correlate social trends with hiring activity",
+      "table": ["SocialMediaInfo", "CompanyHiringDetail"]
+    }
+  ]
+}

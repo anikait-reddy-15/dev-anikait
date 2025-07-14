@@ -1,0 +1,21 @@
+{
+  "question": "How do recent changes in a company's IT workforce affect their technology investment strategies?",
+  "tables": ["CompanyHiringDetail", "CompanyTechStack"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies that have recently changed their IT workforce",
+      "table": ["CompanyHiringDetail"]
+    },
+    {
+      "step": 2,
+      "task": "Retrieve technology investment strategies of these companies",
+      "table": ["CompanyTechStack"]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the impact of workforce changes on technology investments",
+      "table": ["CompanyHiringDetail", "CompanyTechStack"]
+    }
+  ]
+}

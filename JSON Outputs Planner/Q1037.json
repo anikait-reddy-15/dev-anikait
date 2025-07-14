@@ -1,0 +1,20 @@
+{
+  "question": "What technologies are prominently featured in the companies’ hiring trends for data scientists focusing on real-time analytics?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify job postings mentioning real-time analytics.",
+      "table": ["CompanyHiringDetail"]
+    },
+    {
+      "step": 2,
+      "task": "List companies hiring for such roles.",
+      "table": ["CompanyHiringDetail"]
+    },
+    {
+      "step": 3,
+      "task": "Extract tech stack data for those companies.",
+      "table": ["CompanyTechStack"]
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "question": "What recent technology collaborations have been made by LPL Financial's leadership?",
+  "tables": ["SectionData", "CompanyYoutubeDetail"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Extract recent technology collaboration details",
+      "table": ["SectionData"]
+    },
+    {
+      "step": 2,
+      "task": "Identify relevant videos from the CompanyYoutubeDetail table that showcase these collaborations",
+      "table": ["CompanyYoutubeDetail"]
+    },
+    {
+      "step": 3,
+      "task": "Combine the information from both tables to summarize the recent collaborations",
+      "table": ["SectionData", "CompanyYoutubeDetail"]
+    }
+  ]
+}

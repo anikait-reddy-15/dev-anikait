@@ -1,0 +1,21 @@
+{
+  "question": "Which companies have experienced a rise in social media engagement in connection with a shift to cloud infrastructure?",
+  "tables": ["CompanyTwitterDetail", "CompanyTechStack"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies that have shifted to cloud infrastructure. [CompanyTechStack]",
+      "table": ["CompanyTechStack"]
+    },
+    {
+      "step": 2,
+      "task": "Analyze social media engagement metrics for those companies. [CompanyTwitterDetail]",
+      "table": ["CompanyTwitterDetail"]
+    },
+    {
+      "step": 3,
+      "task": "Correlate the rise in engagement with the companies identified in step 1. [CompanyTechStack, CompanyTwitterDetail]",
+      "table": ["CompanyTechStack", "CompanyTwitterDetail"]
+    }
+  ]
+}

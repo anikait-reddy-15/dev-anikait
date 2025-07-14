@@ -1,0 +1,21 @@
+{
+  "question": "What are the major cloud vendors associated with companies focusing on hybrid cloud strategies?",
+  "tables": ["CompanyVendorTechDetail", "CompanyFocusAreaDetail"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies focusing on hybrid cloud strategies. [CompanyFocusAreaDetail]",
+      "table": ["CompanyFocusAreaDetail"]
+    },
+    {
+      "step": 2,
+      "task": "Find major cloud vendors associated with those companies. [CompanyVendorTechDetail]",
+      "table": ["CompanyVendorTechDetail"]
+    },
+    {
+      "step": 3,
+      "task": "Match vendors to companies from step 1. [CompanyFocusAreaDetail, CompanyVendorTechDetail]",
+      "table": ["CompanyFocusAreaDetail", "CompanyVendorTechDetail"]
+    }
+  ]
+}

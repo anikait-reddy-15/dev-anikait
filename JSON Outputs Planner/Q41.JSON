@@ -1,0 +1,16 @@
+{
+  "question": "In which LinkedIn posts did Rafael Jabur Bittar discuss partnerships for technological innovation?",
+  "tables": ["PersonaLinkedinPost", "CompanyInfo"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify LinkedIn posts by Rafael Jabur Bittar that mention partnerships for technological innovation",
+      "table": ["PersonaLinkedinPost"]
+    },
+    {
+      "step": 2,
+      "task": "Cross-reference these posts with company information to gather context on the partnerships mentioned",
+      "table": ["CompanyInfo"]
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "question": "In which sectors do data scientists frequently highlight the importance of predictive analytics in their LinkedIn posts?",
+  "tables": ["PersonaLinkedinPost", "PersonaTitle", "IndustryITTrend"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify LinkedIn posts by data scientists that mention predictive analytics. [PersonaLinkedinPost, PersonaTitle]",
+      "table": ["PersonaLinkedinPost", "PersonaTitle"]
+    },
+    {
+      "step": 2,
+      "task": "Extract the sectors mentioned in these posts. [IndustryITTrend]",
+      "table": ["IndustryITTrend"]
+    },
+    {
+      "step": 3,
+      "task": "Match the sectors with the posts discussing predictive analytics. [PersonaLinkedinPost, IndustryITTrend]",
+      "table": ["PersonaLinkedinPost", "IndustryITTrend"]
+    }
+  ]
+}

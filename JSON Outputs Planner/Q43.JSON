@@ -1,0 +1,16 @@
+{
+  "question": "How did Rafael Jabur Bittar’s posts influence discussions about sustainable practices in mining?",
+  "tables": ["PersonaLinkedinPost", "CompanyTechStack"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Analyze Rafael Jabur Bittar's LinkedIn posts for mentions of sustainable practices in mining",
+      "table": ["PersonaLinkedinPost"]
+    },
+    {
+      "step": 2,
+      "task": "Identify how these posts relate to broader discussions or trends in the CompanyTechStack regarding sustainability",
+      "table": ["CompanyTechStack"]
+    }
+  ]
+}

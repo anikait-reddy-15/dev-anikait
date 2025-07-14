@@ -1,0 +1,16 @@
+{
+  "question": "Who are the top data science influencers on LinkedIn discussing cloud security trends?",
+  "tables": ["PersonaLinkedinPost", "PersonaUser"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify LinkedIn posts about cloud security trends.",
+      "table": ["PersonaLinkedinPost"]
+    },
+    {
+      "step": 2,
+      "task": "Filter posts by data science influencers.",
+      "table": ["PersonaUser"]
+    }
+  ]
+}

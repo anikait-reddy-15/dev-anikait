@@ -1,0 +1,21 @@
+{
+  "question": "Which companies are using social media to announce strategic shifts in their focus toward data-driven technologies?",
+  "tables": ["CompanySocialMediaInfo", "CompanyFocusAreaDetail"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies announcing strategic shifts on social media",
+      "table": ["CompanySocialMediaInfo"]
+    },
+    {
+      "step": 2,
+      "task": "Retrieve focus areas related to data-driven technologies",
+      "table": ["CompanyFocusAreaDetail"]
+    },
+    {
+      "step": 3,
+      "task": "Compile a list of companies making these announcements",
+      "table": ["CompanySocialMediaInfo", "CompanyFocusAreaDetail"]
+    }
+  ]
+}

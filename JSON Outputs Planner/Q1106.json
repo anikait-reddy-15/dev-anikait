@@ -1,0 +1,20 @@
+{
+  "question": "Which companies in the retail sector have made significant investments in AI technologies lately?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify retail sector companies",
+      "table": ["CompanyInfo"]
+    },
+    {
+      "step": 2,
+      "task": "Filter for companies investing in AI technologies",
+      "table": ["CompanyTechStack"]
+    },
+    {
+      "step": 3,
+      "task": "Ensure investments occurred recently",
+      "table": ["CompanyTechStack"]
+    }
+  ]
+}

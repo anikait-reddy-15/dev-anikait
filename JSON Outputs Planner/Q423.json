@@ -1,0 +1,21 @@
+{
+  "question": "What common themes arise in the leadership excerpts of companies that have engaged in strategic partnerships with cloud service vendors?",
+  "tables": ["CompanyLeadershipExcerpt", "CompanyITPartnerDetail"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies that have engaged in strategic partnerships with cloud service vendors. [CompanyITPartnerDetail]",
+      "table": ["CompanyITPartnerDetail"]
+    },
+    {
+      "step": 2,
+      "task": "Extract leadership excerpts from the identified companies. [CompanyLeadershipExcerpt]",
+      "table": ["CompanyLeadershipExcerpt"]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the leadership excerpts to identify common themes. [CompanyLeadershipExcerpt, CompanyITPartnerDetail]",
+      "table": ["CompanyLeadershipExcerpt", "CompanyITPartnerDetail"]
+    }
+  ]
+}

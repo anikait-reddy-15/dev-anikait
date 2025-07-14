@@ -1,0 +1,26 @@
+{
+  "question": "What social media strategies are HDFC Bank’s board members using to enhance their public engagement?",
+  "tables": ["CompanyManagementDetail", "PersonaTwitterProfile"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify board members at HDFC Bank",
+      "table": ["CompanyManagementDetail"]
+    },
+    {
+      "step": 2,
+      "task": "Retrieve and analyze their Twitter profiles",
+      "table": ["PersonaTwitterProfile"]
+    },
+    {
+      "step": 3,
+      "task": "Filter and analyze their communication and engagement style",
+      "table": []
+    },
+    {
+      "step": 4,
+      "task": "Link social activity to public strategy",
+      "table": []
+    }
+  ]
+}

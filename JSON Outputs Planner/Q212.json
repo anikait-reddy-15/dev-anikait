@@ -1,0 +1,21 @@
+{
+  "question": "Which companies are adopting artificial intelligence tools and what are their key strategic priorities as noted in their leadership communications?",
+  "tables": ["CompanyTechStack", "CompanyLeadershipExcerpt", "CompanyFocusAreaDetail"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies that are adopting artificial intelligence tools",
+      "table": ["CompanyTechStack"]
+    },
+    {
+      "step": 2,
+      "task": "Extract leadership communications to find key strategic priorities",
+      "table": ["CompanyLeadershipExcerpt"]
+    },
+    {
+      "step": 3,
+      "task": "Match the strategic priorities with the companies adopting AI tools",
+      "table": ["CompanyFocusAreaDetail"]
+    }
+  ]
+}

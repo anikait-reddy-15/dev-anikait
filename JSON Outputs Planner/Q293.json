@@ -1,0 +1,21 @@
+{
+  "question": "Which personas have mentioned their involvement in AI research within their Instagram profiles while working for leading tech companies?",
+  "tables": ["PersonaInstagramProfile", "PersonaUser", "PersonaTechStack"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify personas who have mentioned AI research in their Instagram profiles. [PersonaInstagramProfile]",
+      "table": ["PersonaInstagramProfile"]
+    },
+    {
+      "step": 2,
+      "task": "Filter these personas to find those working for leading tech companies. [PersonaUser]",
+      "table": ["PersonaUser"]
+    },
+    {
+      "step": 3,
+      "task": "Gather relevant tech stack information for these personas. [PersonaTechStack]",
+      "table": ["PersonaTechStack"]
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "question": "What companies have published recent blog posts about their tech stack evolution and have also expanded their IT partner network?",
+  "tables": ["CompanyTechStack", "CompanyITPartnerDetail", "CompanyInfo"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies that have published recent blog posts about their tech stack evolution. [CompanyTechStack]",
+      "table": ["CompanyTechStack"]
+    },
+    {
+      "step": 2,
+      "task": "Determine which of these companies have expanded their IT partner network. [CompanyITPartnerDetail]",
+      "table": ["CompanyITPartnerDetail"]
+    },
+    {
+      "step": 3,
+      "task": "Cross-reference the two sets of companies to find those that meet both criteria. [CompanyInfo]",
+      "table": ["CompanyInfo"]
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "question": "What are the engagement patterns on Twitter of leaders at companies investing heavily in AI and machine learning technologies?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies with significant investment in AI and ML technologies.",
+      "table": ["CompanyTechStack"]
+    },
+    {
+      "step": 2,
+      "task": "Identify leadership figures at those companies.",
+      "table": ["CompanyLeadershipExcerpt"]
+    },
+    {
+      "step": 3,
+      "task": "Analyze Twitter engagement metrics for those leaders.",
+      "table": ["CompanyTwitterDetail"]
+    }
+  ]
+}

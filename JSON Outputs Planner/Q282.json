@@ -1,0 +1,21 @@
+{
+  "question": "Which organizations have acquired new technologies while also undergoing significant changes in their leadership teams?",
+  "tables": ["CompanyTechStack", "CompanyManagementDetail"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify organizations that have recently acquired new technologies. [CompanyTechStack]",
+      "table": ["CompanyTechStack"]
+    },
+    {
+      "step": 2,
+      "task": "Identify organizations that have undergone significant leadership changes. [CompanyManagementDetail]",
+      "table": ["CompanyManagementDetail"]
+    },
+    {
+      "step": 3,
+      "task": "Correlate the technology acquisitions with the leadership changes. [CompanyTechStack, CompanyManagementDetail]",
+      "table": ["CompanyTechStack", "CompanyManagementDetail"]
+    }
+  ]
+}

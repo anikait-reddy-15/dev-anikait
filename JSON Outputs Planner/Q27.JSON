@@ -1,0 +1,21 @@
+{
+  "question": "Which data-driven companies are noted for their active engagement on Instagram while also investing in innovative tech solutions?",
+  "tables": ["CompanyInfo", "CompanyInstagramDetail"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify data-driven companies engaging actively on Instagram",
+      "table": ["CompanyInstagramDetail"]
+    },
+    {
+      "step": 2,
+      "task": "Extract information about their investments in innovative tech solutions",
+      "table": ["CompanyInfo"]
+    },
+    {
+      "step": 3,
+      "task": "Compile a list of companies that meet both criteria",
+      "table": ["CompanyInstagramDetail", "CompanyInfo"]
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "question": "Which energy companies are applying AI to optimize grid reliability and load forecasting?",
+  "tables": ["CompanyInfo", "CompanyFocusAreaDetail"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify energy companies.",
+      "table": ["CompanyInfo"]
+    },
+    {
+      "step": 2,
+      "task": "Filter those applying AI to grid reliability and forecasting.",
+      "table": ["CompanyFocusAreaDetail"]
+    },
+    {
+      "step": 3,
+      "task": "Match firms with use cases in smart grid applications.",
+      "table": ["CompanyInfo", "CompanyFocusAreaDetail"]
+    }
+  ]
+}

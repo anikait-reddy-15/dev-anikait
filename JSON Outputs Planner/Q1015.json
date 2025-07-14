@@ -1,0 +1,20 @@
+{
+  "question": "What recent hiring trends can be observed in companies that have partnered with major cloud service providers?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify partnerships with major cloud service providers.",
+      "table": ["CompanyITPartnerDetail"]
+    },
+    {
+      "step": 2,
+      "task": "List companies involved in those partnerships.",
+      "table": ["CompanyITPartnerDetail"]
+    },
+    {
+      "step": 3,
+      "task": "Extract recent hiring data for those companies.",
+      "table": ["CompanyHiringDetail"]
+    }
+  ]
+}

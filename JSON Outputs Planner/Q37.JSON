@@ -1,0 +1,16 @@
+{
+  "question": "Which technologies mentioned by Rafael Jabur Bittar support collaborative innovation in mining?",
+  "tables": ["PersonaLinkedinPost", "CompanyTechStack"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Extract technologies from Rafael Jabur Bittar's LinkedIn posts related to mining",
+      "table": ["PersonaLinkedinPost"]
+    },
+    {
+      "step": 2,
+      "task": "Identify which of these technologies are listed in the CompanyTechStack as supporting collaborative innovation",
+      "table": ["CompanyTechStack"]
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "question": "How does reflecting on past technology investments influence future hiring patterns in data-centric companies?",
+  "tables": ["CompanyHiringDetail", "CompanyTechStack"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies with historical tech investments",
+      "table": ["CompanyTechStack"]
+    },
+    {
+      "step": 2,
+      "task": "Retrieve recent hiring activity for these companies",
+      "table": ["CompanyHiringDetail"]
+    },
+    {
+      "step": 3,
+      "task": "Analyze how past investments relate to current hiring strategies",
+      "table": ["CompanyHiringDetail", "CompanyTechStack"]
+    }
+  ]
+}

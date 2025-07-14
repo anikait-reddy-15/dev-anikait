@@ -1,0 +1,21 @@
+{
+  "question": "What technologies are being adopted by companies that have increased their hiring for data science roles in the last six months?",
+  "tables": ["CompanyHiringDetail", "CompanyTechStack"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies that have increased hiring for data science roles in the last six months.",
+      "table": ["CompanyHiringDetail"]
+    },
+    {
+      "step": 2,
+      "task": "Extract the technology stack of those identified companies.",
+      "table": ["CompanyTechStack"]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the technologies being adopted by the companies from the previous steps.",
+      "table": ["CompanyHiringDetail", "CompanyTechStack"]
+    }
+  ]
+}

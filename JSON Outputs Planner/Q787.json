@@ -1,0 +1,21 @@
+{
+  "question": "Which CTOs are leading generative AI initiatives and have recently published their views?",
+  "tables": ["PersonaUser", "CompanyLeadershipExcerpt"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify CTOs leading generative AI initiatives.",
+      "table": ["PersonaUser"]
+    },
+    {
+      "step": 2,
+      "task": "Find their recently published views or interviews.",
+      "table": ["CompanyLeadershipExcerpt"]
+    },
+    {
+      "step": 3,
+      "task": "Match CTOs with their public statements.",
+      "table": ["PersonaUser", "CompanyLeadershipExcerpt"]
+    }
+  ]
+}

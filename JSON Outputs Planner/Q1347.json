@@ -1,0 +1,20 @@
+{
+  "question": "Which executives are consistently promoting ethical data usage across platforms?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Retrieve leadership excerpts with references to ethical data practices",
+      "table": ["CompanyLeadershipExcerpt"]
+    },
+    {
+      "step": 2,
+      "task": "Extract corresponding social media or blog commentary",
+      "table": ["SocialMediaInfo", "PersonaMisc"]
+    },
+    {
+      "step": 3,
+      "task": "Link data to specific individuals or leadership titles",
+      "table": ["PersonaTitle", "CompanyLeadershipExcerpt"]
+    }
+  ]
+}

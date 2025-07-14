@@ -1,0 +1,16 @@
+{
+  "question": "Who are the data scientists most frequently contributing to LinkedIn discussions about AI in retail?",
+  "tables": ["PersonaLinkedinPost", "PersonaUser"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify LinkedIn posts about AI in retail.",
+      "table": ["PersonaLinkedinPost"]
+    },
+    {
+      "step": 2,
+      "task": "Link posts to data scientists.",
+      "table": ["PersonaUser"]
+    }
+  ]
+}

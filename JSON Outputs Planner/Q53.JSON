@@ -1,0 +1,21 @@
+{
+  "question": "Who are the independent directors at HDFC Bank focusing on financial reforms?",
+  "tables": ["PersonaUser", "PersonaTitle", "CompanyInfo"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify the independent directors at HDFC Bank from the PersonaUser table",
+      "table": ["PersonaUser"]
+    },
+    {
+      "step": 2,
+      "task": "Filter the directors by their titles related to financial reforms from the PersonaTitle table",
+      "table": ["PersonaTitle"]
+    },
+    {
+      "step": 3,
+      "task": "Cross-reference with CompanyInfo to ensure they are associated with HDFC Bank",
+      "table": ["CompanyInfo"]
+    }
+  ]
+}

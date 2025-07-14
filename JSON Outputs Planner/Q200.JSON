@@ -1,0 +1,21 @@
+{
+  "question": "What are the most discussed topics by company leaders on LinkedIn regarding IT transformation in the past quarter?",
+  "tables": ["CompanyLeadershipExcerpt", "PersonaLinkedinPost"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Extract posts from company leaders on LinkedIn related to IT transformation",
+      "table": ["PersonaLinkedinPost"]
+    },
+    {
+      "step": 2,
+      "task": "Analyze the content of these posts to identify common themes and topics",
+      "table": ["PersonaLinkedinPost"]
+    },
+    {
+      "step": 3,
+      "task": "Compile a summary of the most discussed topics based on the analysis",
+      "table": ["CompanyLeadershipExcerpt", "PersonaLinkedinPost"]
+    }
+  ]
+}

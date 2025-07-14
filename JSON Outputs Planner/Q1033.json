@@ -1,0 +1,20 @@
+{
+  "question": "Which firms currently show a focus on data privacy in both their leadership communications and technology stack choices?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Review leadership excerpts mentioning data privacy.",
+      "table": ["CompanyLeadershipExcerpt"]
+    },
+    {
+      "step": 2,
+      "task": "Identify companies with privacy-related technologies.",
+      "table": ["CompanyTechStack"]
+    },
+    {
+      "step": 3,
+      "task": "Find companies that appear in both leadership and tech stack results.",
+      "table": ["CompanyLeadershipExcerpt", "CompanyTechStack"]
+    }
+  ]
+}

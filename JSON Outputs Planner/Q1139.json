@@ -1,0 +1,20 @@
+{
+  "question": "How have data-driven decisions shaped the business strategies of key players in the tech landscape?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify data-driven decision indicators in leadership excerpts",
+      "table": ["CompanyLeadershipExcerpt"]
+    },
+    {
+      "step": 2,
+      "task": "Filter excerpts from key players in tech industry",
+      "table": ["CompanyInfo"]
+    },
+    {
+      "step": 3,
+      "task": "Summarize business strategy shifts driven by data",
+      "table": []
+    }
+  ]
+}

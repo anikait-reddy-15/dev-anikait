@@ -1,0 +1,20 @@
+{
+  "question": "Who are the influential data science leaders at companies that have recently signed contracts with AI service providers?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Find companies with contracts mentioning AI service providers.",
+      "table": ["CompanyDealMaster"]
+    },
+    {
+      "step": 2,
+      "task": "Extract user IDs of personas tagged as data science leaders from those companies.",
+      "table": ["PersonaUser"]
+    },
+    {
+      "step": 3,
+      "task": "Filter for influential personas based on role or visibility.",
+      "table": ["PersonaUser"]
+    }
+  ]
+}

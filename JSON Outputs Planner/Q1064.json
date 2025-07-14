@@ -1,0 +1,20 @@
+{
+  "question": "What key themes appear in leadership communications regarding operational changes in data management strategy?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Extract communications mentioning data management.",
+      "table": ["CompanyLeadershipExcerpt"]
+    },
+    {
+      "step": 2,
+      "task": "Identify statements indicating operational change.",
+      "table": ["CompanyLeadershipExcerpt"]
+    },
+    {
+      "step": 3,
+      "task": "Analyze and summarize recurring themes.",
+      "table": []
+    }
+  ]
+}

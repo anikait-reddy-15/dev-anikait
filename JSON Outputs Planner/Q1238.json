@@ -1,0 +1,20 @@
+{
+  "question": "What are the strategic focuses of companies that have increased their vendor engagement in the last quarter?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies with increased vendor engagement from CompanyDealMaster",
+      "table": ["CompanyDealMaster"]
+    },
+    {
+      "step": 2,
+      "task": "Find corresponding strategic focus areas from CompanyFocusAreaDetail",
+      "table": ["CompanyFocusAreaDetail"]
+    },
+    {
+      "step": 3,
+      "task": "Summarize the dominant strategic priorities for those companies",
+      "table": ["CompanyFocusAreaDetail"]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "question": "Who are the data science leaders working at companies that have shifted towards using open-source technologies in the last year?",
+  "tables": ["PersonaUser", "PersonaTitle", "CompanyTechStack"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies that have adopted open-source technologies in the last year. [CompanyTechStack]",
+      "table": ["CompanyTechStack"]
+    },
+    {
+      "step": 2,
+      "task": "Find data science leaders associated with those companies. [PersonaUser]",
+      "table": ["PersonaUser"]
+    },
+    {
+      "step": 3,
+      "task": "Filter the roles to specifically identify data science positions. [PersonaTitle]",
+      "table": ["PersonaTitle"]
+    },
+    {
+      "step": 4,
+      "task": "Combine the data science leaders with the identified companies. [PersonaUser, CompanyTechStack]",
+      "table": ["PersonaUser", "CompanyTechStack"]
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "question": "What are the trending business strategies among companies that have increased their online engagement on Twitter recently?",
+  "tables": ["CompanyTwitterDetail", "CompanyFocusAreaDetail"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies that have increased their online engagement on Twitter.",
+      "table": ["CompanyTwitterDetail"]
+    },
+    {
+      "step": 2,
+      "task": "Gather data on the business strategies those companies are focusing on.",
+      "table": ["CompanyFocusAreaDetail"]
+    },
+    {
+      "step": 3,
+      "task": "Combine the engagement data with the business strategies to identify trends.",
+      "table": ["CompanyTwitterDetail", "CompanyFocusAreaDetail"]
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "question": "What leadership styles are identified among executives discussing investments in data infrastructure and technology?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Extract leadership excerpts related to data infrastructure investments.",
+      "table": ["CompanyLeadershipExcerpt"]
+    },
+    {
+      "step": 2,
+      "task": "Identify executive roles behind the communications.",
+      "table": ["CompanyLeadershipExcerpt"]
+    },
+    {
+      "step": 3,
+      "task": "Analyze text for patterns of leadership style (e.g., visionary, analytical, operational).",
+      "table": ["CompanyLeadershipExcerpt"]
+    }
+  ]
+}

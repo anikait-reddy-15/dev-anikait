@@ -1,0 +1,20 @@
+{
+  "question": "Which vendors are considered industry leaders in providing cloud migration services?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Search for cloud migration offerings in CompanyVendorProductDetail",
+      "table": ["CompanyVendorProductDetail"]
+    },
+    {
+      "step": 2,
+      "task": "Use IndustryITTrend to assess industry recognition or popularity",
+      "table": ["IndustryITTrend"]
+    },
+    {
+      "step": 3,
+      "task": "Rank vendors based on adoption and trend alignment",
+      "table": ["CompanyVendorProductDetail", "IndustryITTrend"]
+    }
+  ]
+}

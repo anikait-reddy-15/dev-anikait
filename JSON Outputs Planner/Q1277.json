@@ -1,0 +1,20 @@
+{
+  "question": "Which emerging technologies are frequently mentioned in the profiles of data science professionals?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Extract profile data of data science professionals from PersonaUser",
+      "table": ["PersonaUser"]
+    },
+    {
+      "step": 2,
+      "task": "Retrieve associated technologies from CompanyTechStack",
+      "table": ["CompanyTechStack"]
+    },
+    {
+      "step": 3,
+      "task": "Aggregate and rank the most frequently mentioned emerging technologies",
+      "table": ["CompanyTechStack"]
+    }
+  ]
+}

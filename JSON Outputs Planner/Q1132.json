@@ -1,0 +1,20 @@
+{
+  "question": "What are the most cited tools and technologies by data scientists on LinkedIn this year?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Extract posts made by data scientists on LinkedIn",
+      "table": ["PersonaLinkedinPost"]
+    },
+    {
+      "step": 2,
+      "task": "Identify tools and technologies mentioned in the posts",
+      "table": []
+    },
+    {
+      "step": 3,
+      "task": "Rank most cited tools and technologies",
+      "table": ["CompanyTechStack"]
+    }
+  ]
+}

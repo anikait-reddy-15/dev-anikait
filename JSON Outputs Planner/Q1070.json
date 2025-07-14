@@ -1,0 +1,20 @@
+{
+  "question": "Which companies are discussing shifts in their IT strategies influenced by recent data management advancements?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies highlighting IT strategy shifts.",
+      "table": ["CompanyFocusAreaDetail"]
+    },
+    {
+      "step": 2,
+      "task": "Find trends related to data management advancements.",
+      "table": ["IndustryITTrend"]
+    },
+    {
+      "step": 3,
+      "task": "Correlate trend impacts with company strategy statements.",
+      "table": ["CompanyFocusAreaDetail", "IndustryITTrend"]
+    }
+  ]
+}

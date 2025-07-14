@@ -1,0 +1,21 @@
+{
+  "question": "What advanced technologies are legal companies prioritizing in their business strategies?",
+  "tables": ["IndustryITTrend", "SectionInfo"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Gather information on advanced technologies from the IT trends relevant to the legal sector",
+      "table": ["IndustryITTrend"]
+    },
+    {
+      "step": 2,
+      "task": "Identify business strategies mentioned in the SectionInfo related to legal companies",
+      "table": ["SectionInfo"]
+    },
+    {
+      "step": 3,
+      "task": "Match advanced technologies with the business strategies of legal companies",
+      "table": ["IndustryITTrend", "SectionInfo"]
+    }
+  ]
+}

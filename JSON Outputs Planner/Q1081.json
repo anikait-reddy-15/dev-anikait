@@ -1,0 +1,20 @@
+{
+  "question": "What collaborative platforms are employed by companies to enhance knowledge sharing among data scientists and analysts?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies emphasizing data science and collaboration in focus areas.",
+      "table": ["CompanyFocusAreaDetail"]
+    },
+    {
+      "step": 2,
+      "task": "Extract technologies related to collaboration from tech stack.",
+      "table": ["CompanyTechStack"]
+    },
+    {
+      "step": 3,
+      "task": "List common platforms used for knowledge sharing.",
+      "table": ["CompanyTechStack"]
+    }
+  ]
+}

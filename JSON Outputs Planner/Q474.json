@@ -1,0 +1,21 @@
+{
+  "question": "Which industries are investing most in automation technologies based on vendor partnerships and technology stack updates?",
+  "tables": ["IndustryITTrend", "CompanyVendorTechDetail", "CompanyTechStack"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Analyze vendor partnerships related to automation. [CompanyVendorTechDetail]",
+      "table": ["CompanyVendorTechDetail"]
+    },
+    {
+      "step": 2,
+      "task": "Find companies that have updated their stack with automation technologies. [CompanyTechStack]",
+      "table": ["CompanyTechStack"]
+    },
+    {
+      "step": 3,
+      "task": "Determine the industry classification of these companies. [IndustryITTrend]",
+      "table": ["IndustryITTrend"]
+    }
+  ]
+}

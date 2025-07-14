@@ -1,0 +1,20 @@
+{
+  "question": "Which companies have adopted composable architecture and published posts about it on LinkedIn?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies using composable architecture in their tech stack",
+      "table": ["CompanyTechStack"]
+    },
+    {
+      "step": 2,
+      "task": "Extract LinkedIn posts from those companies' personnel",
+      "table": ["PersonaLinkedinPost"]
+    },
+    {
+      "step": 3,
+      "task": "Verify alignment between tech stack mentions and LinkedIn post topics",
+      "table": ["CompanyTechStack", "PersonaLinkedinPost"]
+    }
+  ]
+}

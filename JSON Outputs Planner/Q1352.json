@@ -1,0 +1,20 @@
+{
+  "question": "What hiring patterns emerge from firms emphasizing responsible technology in leadership communications?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Extract companies with leadership excerpts discussing responsible tech",
+      "table": ["CompanyLeadershipExcerpt"]
+    },
+    {
+      "step": 2,
+      "task": "Retrieve hiring records from those companies",
+      "table": ["CompanyHiringDetail"]
+    },
+    {
+      "step": 3,
+      "task": "Identify trends in roles, departments, and frequencies",
+      "table": ["CompanyHiringDetail"]
+    }
+  ]
+}

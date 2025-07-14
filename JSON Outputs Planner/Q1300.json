@@ -1,0 +1,20 @@
+{
+  "question": "What insights can be drawn from leadership discussions about performance metrics in tech startups?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Filter startup companies from CompanyInfo using sector or size indicators",
+      "table": ["CompanyInfo"]
+    },
+    {
+      "step": 2,
+      "task": "Extract leadership excerpts discussing performance metrics from CompanyLeadershipExcerpt",
+      "table": ["CompanyLeadershipExcerpt"]
+    },
+    {
+      "step": 3,
+      "task": "Summarize recurring insights or focus areas mentioned",
+      "table": ["CompanyLeadershipExcerpt"]
+    }
+  ]
+}

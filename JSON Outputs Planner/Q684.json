@@ -1,0 +1,21 @@
+{
+  "question": "Which companies have recently upgraded their IT infrastructure and increased spending on cloud security?",
+  "tables": ["CompanyDataCenter", "CompanyFinancials"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies upgrading IT infrastructure.",
+      "table": ["CompanyDataCenter"]
+    },
+    {
+      "step": 2,
+      "task": "Find companies increasing cloud security spending.",
+      "table": ["CompanyFinancials"]
+    },
+    {
+      "step": 3,
+      "task": "Cross-reference companies from both datasets.",
+      "table": ["CompanyDataCenter", "CompanyFinancials"]
+    }
+  ]
+}

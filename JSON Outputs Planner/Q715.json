@@ -1,0 +1,21 @@
+{
+  "question": "Who are the executives involved in partnerships with AI vendors specializing in natural language processing?",
+  "tables": ["CompanyDealMaster", "CompanyLeadershipExcerpt"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify AI vendor partnerships in natural language processing.",
+      "table": ["CompanyDealMaster"]
+    },
+    {
+      "step": 2,
+      "task": "Extract executives associated with these partnerships.",
+      "table": ["CompanyLeadershipExcerpt"]
+    },
+    {
+      "step": 3,
+      "task": "Match executives to companies with NLP vendor partnerships.",
+      "table": ["CompanyDealMaster", "CompanyLeadershipExcerpt"]
+    }
+  ]
+}

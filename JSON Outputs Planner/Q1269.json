@@ -1,0 +1,20 @@
+{
+  "question": "What are the impacts of competitive vendor deals on the strategic focus areas of tech startups?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify vendor deals signed by tech startups from CompanyDealMaster",
+      "table": ["CompanyDealMaster"]
+    },
+    {
+      "step": 2,
+      "task": "Map startup classification from CompanyInfo",
+      "table": ["CompanyInfo"]
+    },
+    {
+      "step": 3,
+      "task": "Assess how strategic focus changed post-deal using CompanyFocusAreaDetail",
+      "table": ["CompanyFocusAreaDetail"]
+    }
+  ]
+}

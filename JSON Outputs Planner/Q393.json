@@ -1,0 +1,26 @@
+{
+  "question": "What common themes are found in the social media strategies of data scientists who lead initiatives in companies emphasizing digital transformation?",
+  "tables": ["PersonaUser", "PersonaLinkedinPost", "CompanyFocusAreaDetail"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify data scientists leading initiatives in companies focusing on digital transformation. [PersonaUser, CompanyFocusAreaDetail]",
+      "table": ["PersonaUser", "CompanyFocusAreaDetail"]
+    },
+    {
+      "step": 2,
+      "task": "Gather social media posts from these data scientists to analyze their strategies. [PersonaLinkedinPost]",
+      "table": ["PersonaLinkedinPost"]
+    },
+    {
+      "step": 3,
+      "task": "Determine the common themes in their social media activity. [PersonaLinkedinPost]",
+      "table": ["PersonaLinkedinPost"]
+    },
+    {
+      "step": 4,
+      "task": "Synthesize findings to identify overarching themes in their strategies. [PersonaLinkedinPost, CompanyFocusAreaDetail]",
+      "table": ["PersonaLinkedinPost", "CompanyFocusAreaDetail"]
+    }
+  ]
+}

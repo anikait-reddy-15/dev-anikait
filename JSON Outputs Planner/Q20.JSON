@@ -1,0 +1,21 @@
+{
+  "question": "Which universities have engaged vendors for technology solutions in the last year?",
+  "tables": ["CompanyDealMaster"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify the time frame for the last year",
+      "table": []
+    },
+    {
+      "step": 2,
+      "task": "Filter technology solution contracts from the CompanyDealMaster for universities",
+      "table": ["CompanyDealMaster"]
+    },
+    {
+      "step": 3,
+      "task": "Extract university names from the filtered contracts",
+      "table": ["CompanyDealMaster"]
+    }
+  ]
+}

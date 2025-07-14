@@ -1,0 +1,20 @@
+{
+  "question": "Which organizations make use of innovative data visualization strategies in their leadership communications to enhance transparency?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify leadership excerpts mentioning transparency and data presentation.",
+      "table": ["CompanyLeadershipExcerpt"]
+    },
+    {
+      "step": 2,
+      "task": "Extract companies using visualization tools from tech stack.",
+      "table": ["CompanyTechStack"]
+    },
+    {
+      "step": 3,
+      "task": "List companies aligning communication and visualization strategies.",
+      "table": ["CompanyLeadershipExcerpt", "CompanyTechStack"]
+    }
+  ]
+}

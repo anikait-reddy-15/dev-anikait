@@ -1,0 +1,20 @@
+{
+  "question": "What type of leadership changes correlate with increased emphasis on AI in companies' social media strategies?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies that show increased AI emphasis in social media posts.",
+      "table": ["SocialMediaInfo"]
+    },
+    {
+      "step": 2,
+      "task": "Get leadership change records from these companies.",
+      "table": ["CompanyLeadershipExcerpt"]
+    },
+    {
+      "step": 3,
+      "task": "Correlate leadership changes with social media AI mentions.",
+      "table": ["SocialMediaInfo", "CompanyLeadershipExcerpt"]
+    }
+  ]
+}

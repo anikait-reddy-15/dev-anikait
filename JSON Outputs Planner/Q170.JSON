@@ -1,0 +1,21 @@
+{
+  "question": "What potential collaborations are highlighted by firms pursuing significant technology investments focused on data?",
+  "tables": ["CompanyDealMaster", "CompanyITPartnerDetail"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify firms with major investments in data technologies",
+      "table": ["CompanyDealMaster"]
+    },
+    {
+      "step": 2,
+      "task": "Extract their IT partnership details for collaboration insights",
+      "table": ["CompanyITPartnerDetail"]
+    },
+    {
+      "step": 3,
+      "task": "Summarize potential and ongoing collaborations",
+      "table": ["CompanyDealMaster", "CompanyITPartnerDetail"]
+    }
+  ]
+}

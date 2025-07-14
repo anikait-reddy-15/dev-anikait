@@ -1,0 +1,16 @@
+{
+  "question": "What platforms support employee experience improvements at Gantherm?",
+  "tables": ["CompanyInfo", "CompanyTechStack"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify the Company ID for Gantherm from CompanyInfo",
+      "table": ["CompanyInfo"]
+    },
+    {
+      "step": 2,
+      "task": "Retrieve platforms supporting employee experience improvements from CompanyTechStack using the Company ID",
+      "table": ["CompanyTechStack"]
+    }
+  ]
+}

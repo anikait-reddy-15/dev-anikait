@@ -1,0 +1,20 @@
+{
+  "question": "What are the most common areas of investment among the companies aiming for digital disruption?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies with digital disruption as a declared focus area",
+      "table": ["CompanyFocusAreaDetail"]
+    },
+    {
+      "step": 2,
+      "task": "Retrieve investment data such as tech stack and vendor partnerships",
+      "table": ["CompanyTechStack", "CompanyVendorTechDetail"]
+    },
+    {
+      "step": 3,
+      "task": "Summarize and categorize areas of technological or strategic investment",
+      "table": ["CompanyFocusAreaDetail", "CompanyTechStack"]
+    }
+  ]
+}

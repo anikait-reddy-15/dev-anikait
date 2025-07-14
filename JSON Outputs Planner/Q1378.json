@@ -1,0 +1,20 @@
+{
+  "question": "Which companies have seen leadership changes following ethical technology controversies?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify ethical technology issues discussed in leadership content",
+      "table": ["CompanyLeadershipExcerpt"]
+    },
+    {
+      "step": 2,
+      "task": "Review companies with leadership transitions or new hires",
+      "table": ["CompanyManagementDetail"]
+    },
+    {
+      "step": 3,
+      "task": "Correlate leadership transitions with timeline of ethical controversies",
+      "table": ["CompanyManagementDetail", "CompanyLeadershipExcerpt"]
+    }
+  ]
+}

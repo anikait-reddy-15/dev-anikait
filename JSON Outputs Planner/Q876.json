@@ -1,0 +1,21 @@
+{
+  "question": "Which oil and gas companies are deploying AI for reservoir modeling and energy demand forecasting?",
+  "tables": ["CompanyFocusAreaDetail", "CompanyInfo"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify oil and gas companies.",
+      "table": ["CompanyInfo"]
+    },
+    {
+      "step": 2,
+      "task": "Find AI use cases in reservoir modeling and forecasting.",
+      "table": ["CompanyFocusAreaDetail"]
+    },
+    {
+      "step": 3,
+      "task": "Match oil companies with energy AI projects.",
+      "table": ["CompanyFocusAreaDetail", "CompanyInfo"]
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "question": "What job roles are most frequently listed by companies that have made substantial investments in artificial intelligence this fiscal year?",
+  "tables": ["CompanyHiringDetail", "CompanyTechStack"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies that have made substantial investments in artificial intelligence this fiscal year. [CompanyTechStack]",
+      "table": ["CompanyTechStack"]
+    },
+    {
+      "step": 2,
+      "task": "Gather job roles listed by these companies. [CompanyHiringDetail]",
+      "table": ["CompanyHiringDetail"]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the job roles to determine which are most frequently listed. [CompanyHiringDetail]",
+      "table": ["CompanyHiringDetail"]
+    }
+  ]
+}

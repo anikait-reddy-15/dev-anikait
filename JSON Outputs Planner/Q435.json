@@ -1,0 +1,21 @@
+{
+  "question": "What are the prevailing themes in the social media posts of CFOs in companies that have reported deal closures with enterprise software vendors in the last quarter?",
+  "tables": ["PersonaLinkedinPost", "PersonaUser", "CompanyDealMaster"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies that have reported deal closures with enterprise software vendors in the last quarter. [CompanyDealMaster]",
+      "table": ["CompanyDealMaster"]
+    },
+    {
+      "step": 2,
+      "task": "Extract social media posts made by CFOs of these companies. [PersonaUser, PersonaLinkedinPost]",
+      "table": ["PersonaUser", "PersonaLinkedinPost"]
+    },
+    {
+      "step": 3,
+      "task": "Determine the prevailing themes in these social media posts. [PersonaLinkedinPost]",
+      "table": ["PersonaLinkedinPost"]
+    }
+  ]
+}

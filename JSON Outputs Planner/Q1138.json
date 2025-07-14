@@ -1,0 +1,20 @@
+{
+  "question": "What are the latest trends in tech stack adoption across the biotech industry?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Filter companies in the biotech industry",
+      "table": ["IndustryITTrend"]
+    },
+    {
+      "step": 2,
+      "task": "Extract tech stacks for biotech companies",
+      "table": ["CompanyTechStack"]
+    },
+    {
+      "step": 3,
+      "task": "Summarize latest adoption patterns",
+      "table": []
+    }
+  ]
+}

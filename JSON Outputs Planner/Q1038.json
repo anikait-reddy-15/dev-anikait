@@ -1,0 +1,20 @@
+{
+  "question": "Which vendors provide the most popular analytics tools among companies that recently discussed their IT strategy publicly?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies posting about their IT strategy.",
+      "table": ["CompanyFocusAreaDetail"]
+    },
+    {
+      "step": 2,
+      "task": "Extract vendor-product relationships for analytics tools.",
+      "table": ["CompanyVendorProductDetail"]
+    },
+    {
+      "step": 3,
+      "task": "Aggregate vendor frequency across those companies.",
+      "table": ["CompanyVendorProductDetail", "CompanyFocusAreaDetail"]
+    }
+  ]
+}

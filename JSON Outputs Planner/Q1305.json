@@ -1,0 +1,20 @@
+{
+  "question": "Which organizations are investing in predictive maintenance technologies as seen in their tech stack and hiring data?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Filter tech stacks for predictive maintenance technologies",
+      "table": ["CompanyTechStack"]
+    },
+    {
+      "step": 2,
+      "task": "Identify companies hiring for predictive maintenance-related roles",
+      "table": ["CompanyHiringDetail"]
+    },
+    {
+      "step": 3,
+      "task": "Correlate hiring and technology data to confirm active investment",
+      "table": ["CompanyTechStack", "CompanyHiringDetail"]
+    }
+  ]
+}

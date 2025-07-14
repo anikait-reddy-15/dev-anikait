@@ -1,0 +1,21 @@
+{
+  "question": "Who are the executives at companies that have made significant investments in artificial intelligence technologies over the past year?",
+  "tables": ["CompanyInfo", "CompanyTechStack", "CompanyLeadershipExcerpt"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies that have made significant investments in artificial intelligence technologies. [CompanyTechStack]",
+      "table": ["CompanyTechStack"]
+    },
+    {
+      "step": 2,
+      "task": "Gather information on these companies to find their executives. [CompanyInfo]",
+      "table": ["CompanyInfo"]
+    },
+    {
+      "step": 3,
+      "task": "Link the executives to their respective companies that invested in AI. [CompanyLeadershipExcerpt]",
+      "table": ["CompanyLeadershipExcerpt"]
+    }
+  ]
+}

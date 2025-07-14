@@ -1,0 +1,21 @@
+{
+  "question": "Which personas frequently engage with industry trends related to data science in their LinkedIn activities?",
+  "tables": ["PersonaLinkedinPost", "IndustryITTrend"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify LinkedIn posts by personas discussing industry trends",
+      "table": ["PersonaLinkedinPost"]
+    },
+    {
+      "step": 2,
+      "task": "Extract data science-related trends from the posts",
+      "table": ["IndustryITTrend"]
+    },
+    {
+      "step": 3,
+      "task": "Match active personas with the trends they engage with",
+      "table": ["PersonaLinkedinPost", "IndustryITTrend"]
+    }
+  ]
+}

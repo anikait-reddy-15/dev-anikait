@@ -1,0 +1,21 @@
+{
+  "question": "Which companies have increased their investments in cybersecurity technologies alongside hiring related specialists?",
+  "tables": ["CompanyFinancials", "CompanyHiringDetail"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies increasing investments in cybersecurity.",
+      "table": ["CompanyFinancials"]
+    },
+    {
+      "step": 2,
+      "task": "Find companies increasing hiring of cybersecurity specialists.",
+      "table": ["CompanyHiringDetail"]
+    },
+    {
+      "step": 3,
+      "task": "Cross-reference both data sets to identify matching companies.",
+      "table": ["CompanyFinancials", "CompanyHiringDetail"]
+    }
+  ]
+}

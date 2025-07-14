@@ -1,0 +1,21 @@
+{
+  "question": "Who are the industry experts posting about machine learning ethics on Twitter, and which companies do they represent?",
+  "tables": ["PersonaTwitterProfile", "PersonaUser", "CompanyInfo"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify Twitter posts about machine learning ethics.",
+      "table": ["PersonaTwitterProfile"]
+    },
+    {
+      "step": 2,
+      "task": "Find the experts behind these posts.",
+      "table": ["PersonaUser"]
+    },
+    {
+      "step": 3,
+      "task": "Match experts with their companies.",
+      "table": ["PersonaUser", "CompanyInfo"]
+    }
+  ]
+}

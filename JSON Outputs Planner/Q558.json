@@ -1,0 +1,21 @@
+{
+  "question": "Which companies have hired data scientists and simultaneously signed contracts with cloud computing vendors?",
+  "tables": ["CompanyHiringDetail", "CompanyDealMaster", "CompanyVendorProductDetail"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies that have recently hired data scientists. [CompanyHiringDetail]",
+      "table": ["CompanyHiringDetail"]
+    },
+    {
+      "step": 2,
+      "task": "Identify companies that have signed contracts with cloud computing vendors. [CompanyVendorProductDetail]",
+      "table": ["CompanyVendorProductDetail"]
+    },
+    {
+      "step": 3,
+      "task": "Intersect the two lists to find companies that meet both criteria. [CompanyDealMaster, CompanyVendorProductDetail]",
+      "table": ["CompanyDealMaster", "CompanyVendorProductDetail"]
+    }
+  ]
+}

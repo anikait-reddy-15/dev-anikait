@@ -1,0 +1,20 @@
+{
+  "question": "What patterns exist among firms participating in AI ethics roundtables?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies participating in roundtables or panels on AI ethics",
+      "table": ["CompanyFocusAreaDetail", "CompanyLeadershipExcerpt"]
+    },
+    {
+      "step": 2,
+      "task": "Review associated vendor or industry collaborations from those engagements",
+      "table": ["CompanyDealMaster"]
+    },
+    {
+      "step": 3,
+      "task": "Extract patterns such as industry, region, or leadership involvement",
+      "table": ["CompanyFocusAreaDetail", "CompanyDealMaster"]
+    }
+  ]
+}

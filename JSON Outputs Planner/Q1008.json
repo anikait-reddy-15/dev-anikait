@@ -1,0 +1,20 @@
+{
+  "question": "Which firms have shifted their technology investments towards automation solutions and have leadership advocates vocalizing this change?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Find firms with increased usage of automation-related technologies.",
+      "table": ["CompanyTechStack"]
+    },
+    {
+      "step": 2,
+      "task": "Search leadership excerpts for advocacy related to automation.",
+      "table": ["CompanyLeadershipExcerpt"]
+    },
+    {
+      "step": 3,
+      "task": "Match leadership advocates with companies implementing automation.",
+      "table": ["CompanyTechStack", "CompanyLeadershipExcerpt"]
+    }
+  ]
+}

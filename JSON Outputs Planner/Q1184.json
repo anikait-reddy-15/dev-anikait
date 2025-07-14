@@ -1,0 +1,20 @@
+{
+  "question": "What are the workforce trends among tech companies that recently integrated AI into their core services?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies with recent AI integration",
+      "table": ["CompanyTechStack"]
+    },
+    {
+      "step": 2,
+      "task": "Analyze hiring data to detect workforce trends",
+      "table": ["CompanyHiringDetail"]
+    },
+    {
+      "step": 3,
+      "task": "Highlight positions or departments most impacted",
+      "table": ["CompanyHiringDetail"]
+    }
+  ]
+}

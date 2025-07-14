@@ -1,0 +1,20 @@
+{
+  "question": "Which companies have integrated real-time analytics platforms and how are these reflected in their hiring priorities?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies using real-time analytics platforms",
+      "table": ["CompanyTechStack"]
+    },
+    {
+      "step": 2,
+      "task": "Extract hiring data focused on real-time data or analytics roles",
+      "table": ["CompanyHiringDetail"]
+    },
+    {
+      "step": 3,
+      "task": "Analyze how technology adoption influences hiring priorities",
+      "table": ["CompanyTechStack", "CompanyHiringDetail"]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "question": "Which executives have posted on Instagram about AI and work at companies with AI-related vendor deals?",
+  "tables": ["PersonaInstagramProfile", "PersonaUser", "CompanyVendorTechDetail"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Find executives posting about AI on Instagram. [PersonaInstagramProfile]",
+      "table": ["PersonaInstagramProfile"]
+    },
+    {
+      "step": 2,
+      "task": "Map these executives to their companies. [PersonaUser]",
+      "table": ["PersonaUser"]
+    },
+    {
+      "step": 3,
+      "task": "Identify companies that signed vendor deals related to AI. [CompanyVendorTechDetail]",
+      "table": ["CompanyVendorTechDetail"]
+    },
+    {
+      "step": 4,
+      "task": "Intersect results to find executives meeting all criteria. [PersonaInstagramProfile, PersonaUser, CompanyVendorTechDetail]",
+      "table": ["PersonaInstagramProfile", "PersonaUser", "CompanyVendorTechDetail"]
+    }
+  ]
+}

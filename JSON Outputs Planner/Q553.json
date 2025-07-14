@@ -1,0 +1,21 @@
+{
+  "question": "Which industries have companies that frequently share content regarding their IT transformation journeys on YouTube?",
+  "tables": ["CompanyYoutubeDetail", "IndustryBusinessTrend"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies that frequently share content about their IT transformation journeys on YouTube. [CompanyYoutubeDetail]",
+      "table": ["CompanyYoutubeDetail"]
+    },
+    {
+      "step": 2,
+      "task": "Determine the industries associated with these companies. [IndustryBusinessTrend]",
+      "table": ["IndustryBusinessTrend"]
+    },
+    {
+      "step": 3,
+      "task": "Aggregate the industries to find those with the most companies sharing IT transformation content. [IndustryBusinessTrend]",
+      "table": ["IndustryBusinessTrend"]
+    }
+  ]
+}

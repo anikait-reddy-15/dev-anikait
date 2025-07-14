@@ -1,0 +1,20 @@
+{
+  "question": "Which organizations are citing ROI on their investments in analytics solutions and how are they communicating this via social media?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies investing in analytics tools.",
+      "table": ["CompanyFocusAreaDetail"]
+    },
+    {
+      "step": 2,
+      "task": "Extract social media posts from those companies mentioning ROI.",
+      "table": ["SocialMediaInfo"]
+    },
+    {
+      "step": 3,
+      "task": "Summarize how ROI is being communicated across platforms.",
+      "table": ["SocialMediaInfo"]
+    }
+  ]
+}

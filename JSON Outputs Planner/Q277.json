@@ -1,0 +1,21 @@
+{
+  "question": "Who are the data science leaders at organizations that have posted about their AI initiatives on Facebook recently?",
+  "tables": ["PersonaUser", "CompanyFacebookDetail", "PersonaTitle"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify organizations that have posted about AI initiatives on Facebook recently. [CompanyFacebookDetail]",
+      "table": ["CompanyFacebookDetail"]
+    },
+    {
+      "step": 2,
+      "task": "Extract the relevant organizations from the Facebook posts. [CompanyFacebookDetail]",
+      "table": ["CompanyFacebookDetail"]
+    },
+    {
+      "step": 3,
+      "task": "Find data science leaders within those organizations. [PersonaUser, PersonaTitle]",
+      "table": ["PersonaUser", "PersonaTitle"]
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "question": "Which emerging technology trends are being discussed by leaders in healthcare companies on Twitter?",
+  "tables": ["CompanyTwitterDetail", "CompanyLeadershipExcerpt", "IndustryITTrend"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify healthcare companies discussing emerging technology trends on Twitter",
+      "table": ["CompanyInfo", "PersonaTwitterTweets"]
+    },
+    {
+      "step": 2,
+      "task": "Retrieve leadership excerpts that discuss these emerging trends",
+      "table": ["PersonaTitle", "PersonaTwitterTweets"]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the discussions to summarize key emerging technology trends",
+      "table": ["PersonaTwitterTweets"]
+    }
+  ]
+}

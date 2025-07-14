@@ -1,0 +1,21 @@
+{
+  "question": "What topics do company leaders discuss publicly when their firms adopt new cloud computing technologies?",
+  "tables": ["CompanyLeadershipExcerpt", "CompanyTechStack"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies that have adopted new cloud computing technologies. [CompanyTechStack]",
+      "table": ["CompanyTechStack"]
+    },
+    {
+      "step": 2,
+      "task": "Extract public discussions or excerpts from company leaders regarding these technologies. [CompanyLeadershipExcerpt]",
+      "table": ["CompanyLeadershipExcerpt"]
+    },
+    {
+      "step": 3,
+      "task": "Match the discussions to the identified companies adopting cloud technologies. [CompanyLeadershipExcerpt]",
+      "table": ["CompanyLeadershipExcerpt"]
+    }
+  ]
+}

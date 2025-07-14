@@ -1,0 +1,20 @@
+{
+  "question": "What ethical topics are discussed in LinkedIn posts by AI-focused company executives?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Extract LinkedIn posts by company executives involved in AI strategy",
+      "table": ["PersonaLinkedinPost", "PersonaTitle"]
+    },
+    {
+      "step": 2,
+      "task": "Identify ethics-related keywords or themes in posts",
+      "table": ["PersonaLinkedinPost"]
+    },
+    {
+      "step": 3,
+      "task": "Summarize and categorize the major ethical discussion areas",
+      "table": ["PersonaLinkedinPost"]
+    }
+  ]
+}

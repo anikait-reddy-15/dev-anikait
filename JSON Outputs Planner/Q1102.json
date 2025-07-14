@@ -1,0 +1,20 @@
+{
+  "question": "Who are the key data scientists at companies that have expanded their social media presence recently?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Find companies with recent growth in social media presence",
+      "table": ["SocialMediaInfo"]
+    },
+    {
+      "step": 2,
+      "task": "Get user profiles labeled as data scientists",
+      "table": ["PersonaUser"]
+    },
+    {
+      "step": 3,
+      "task": "Match data scientists to relevant companies",
+      "table": ["CompanyInfo"]
+    }
+  ]
+}

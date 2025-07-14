@@ -1,0 +1,20 @@
+{
+  "question": "What contractual relationships have been formed by companies transitioning to data-driven business models?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies shifting to data-driven focus from CompanyFocusAreaDetail",
+      "table": ["CompanyFocusAreaDetail"]
+    },
+    {
+      "step": 2,
+      "task": "Retrieve their deal history from CompanyDealMaster",
+      "table": ["CompanyDealMaster"]
+    },
+    {
+      "step": 3,
+      "task": "Map these to vendor tech engagements in CompanyTechStack",
+      "table": ["CompanyTechStack"]
+    }
+  ]
+}

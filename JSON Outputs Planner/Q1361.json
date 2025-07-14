@@ -1,0 +1,20 @@
+{
+  "question": "Which leadership teams are emphasizing AI responsibility in their public statements?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Extract statements related to AI responsibility from leadership excerpts",
+      "table": ["CompanyLeadershipExcerpt"]
+    },
+    {
+      "step": 2,
+      "task": "Identify associated leadership members discussing these themes",
+      "table": ["CompanyLeadershipExcerpt"]
+    },
+    {
+      "step": 3,
+      "task": "List companies and leadership teams showing consistent emphasis",
+      "table": ["CompanyLeadershipExcerpt"]
+    }
+  ]
+}

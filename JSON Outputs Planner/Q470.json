@@ -1,0 +1,21 @@
+{
+  "question": "Which companies have changed their tech stack to include hybrid cloud solutions and have increased activity on Twitter in the past six months?",
+  "tables": ["CompanyTechStack", "CompanyTwitterDetail"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies that have changed their tech stack to include hybrid cloud solutions. [CompanyTechStack]",
+      "table": ["CompanyTechStack"]
+    },
+    {
+      "step": 2,
+      "task": "Gather Twitter activity data for the identified companies over the past six months. [CompanyTwitterDetail]",
+      "table": ["CompanyTwitterDetail"]
+    },
+    {
+      "step": 3,
+      "task": "Match the companies from both previous steps to find those that meet both criteria. [CompanyTechStack, CompanyTwitterDetail]",
+      "table": ["CompanyTechStack", "CompanyTwitterDetail"]
+    }
+  ]
+}

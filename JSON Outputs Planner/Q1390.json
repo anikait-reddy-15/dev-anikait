@@ -1,0 +1,20 @@
+{
+  "question": "Which executive teams are vocal about ethical AI in their strategic outlooks?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Extract strategic outlooks or public content mentioning responsible AI or ethics",
+      "table": ["CompanyLeadershipExcerpt", "CompanyFocusAreaDetail"]
+    },
+    {
+      "step": 2,
+      "task": "Identify members of leadership teams associated with these statements",
+      "table": ["CompanyLeadershipExcerpt", "CompanyManagementDetail"]
+    },
+    {
+      "step": 3,
+      "task": "Summarize key executives and themes they discuss",
+      "table": ["CompanyLeadershipExcerpt", "CompanyManagementDetail"]
+    }
+  ]
+}

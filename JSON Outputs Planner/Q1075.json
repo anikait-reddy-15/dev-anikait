@@ -1,0 +1,20 @@
+{
+  "question": "What emphasis do organizations place on mentoring and development in their internal hiring strategies for data-focused roles?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Find companies hiring for data roles with mentions of mentoring.",
+      "table": ["CompanyHiringDetail"]
+    },
+    {
+      "step": 2,
+      "task": "Cross-check for leadership emphasis on development culture.",
+      "table": ["CompanyLeadershipExcerpt"]
+    },
+    {
+      "step": 3,
+      "task": "Highlight patterns in hiring strategy language.",
+      "table": ["CompanyHiringDetail"]
+    }
+  ]
+}

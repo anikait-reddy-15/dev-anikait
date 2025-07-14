@@ -1,0 +1,26 @@
+{
+  "question": "Which executives who changed roles recently are affiliated with companies that have increased focus on blockchain?",
+  "tables": ["PersonaTitle", "PersonaUser", "CompanyFocusAreaDetail"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify executives with recent role changes. [PersonaTitle]",
+      "table": ["PersonaTitle"]
+    },
+    {
+      "step": 2,
+      "task": "Map executives to their companies. [PersonaUser]",
+      "table": ["PersonaUser"]
+    },
+    {
+      "step": 3,
+      "task": "Find companies that have increased focus on blockchain. [CompanyFocusAreaDetail]",
+      "table": ["CompanyFocusAreaDetail"]
+    },
+    {
+      "step": 4,
+      "task": "Intersect data to find executives meeting the conditions. [PersonaTitle, PersonaUser, CompanyFocusAreaDetail]",
+      "table": ["PersonaTitle", "PersonaUser", "CompanyFocusAreaDetail"]
+    }
+  ]
+}

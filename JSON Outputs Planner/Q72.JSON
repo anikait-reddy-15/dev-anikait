@@ -1,0 +1,26 @@
+{
+  "question": "How have recent leadership changes at LPL Financial impacted their technology strategies?",
+  "tables": ["SectionData", "CompanyTechStack", "CompanyDealMaster"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify recent leadership changes from the SectionData table",
+      "table": ["SectionData"]
+    },
+    {
+      "step": 2,
+      "task": "Extract technology strategy details from the CompanyTechStack table",
+      "table": ["CompanyTechStack"]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the impact of leadership changes on technology strategies using data from CompanyDealMaster",
+      "table": ["CompanyDealMaster"]
+    },
+    {
+      "step": 4,
+      "task": "Combine insights from all tables to summarize the impact",
+      "table": ["SectionData", "CompanyTechStack", "CompanyDealMaster"]
+    }
+  ]
+}

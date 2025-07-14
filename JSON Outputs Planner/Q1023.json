@@ -1,0 +1,20 @@
+{
+  "question": "Which organizations are deploying Hadoop or similar technologies following executive leadership transitions?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Find companies that have had recent leadership transitions.",
+      "table": ["CompanyManagementDetail"]
+    },
+    {
+      "step": 2,
+      "task": "Identify those using Hadoop or similar technologies.",
+      "table": ["CompanyTechStack"]
+    },
+    {
+      "step": 3,
+      "task": "Match technology usage with leadership transition timelines.",
+      "table": ["CompanyManagementDetail", "CompanyTechStack"]
+    }
+  ]
+}

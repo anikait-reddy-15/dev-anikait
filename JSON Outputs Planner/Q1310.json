@@ -1,0 +1,20 @@
+{
+  "question": "What are the key data tools adopted by companies that also publish regularly on YouTube about data science?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies actively publishing YouTube content related to data science",
+      "table": ["CompanyYoutubeDetail"]
+    },
+    {
+      "step": 2,
+      "task": "Extract their corresponding technology stack",
+      "table": ["CompanyTechStack"]
+    },
+    {
+      "step": 3,
+      "task": "List key tools or platforms commonly used across these companies",
+      "table": ["CompanyTechStack"]
+    }
+  ]
+}

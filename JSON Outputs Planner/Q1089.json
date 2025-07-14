@@ -1,0 +1,20 @@
+{
+  "question": "What social media strategies are being employed by companies emphasizing their leadership in big data innovations?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies focused on big data innovation.",
+      "table": ["CompanyFocusAreaDetail"]
+    },
+    {
+      "step": 2,
+      "task": "Analyze social media content for strategy themes.",
+      "table": ["SocialMediaInfo"]
+    },
+    {
+      "step": 3,
+      "task": "List common patterns in social strategy linked to innovation.",
+      "table": ["CompanyFocusAreaDetail", "SocialMediaInfo"]
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "question": "What strategies are companies implementing in their tech stack based on recent industry IT trends reports?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Review recent industry IT trend reports.",
+      "table": ["IndustryITTrend"]
+    },
+    {
+      "step": 2,
+      "task": "Identify companies aligning their tech stack with those trends.",
+      "table": ["CompanyFocusAreaDetail"]
+    },
+    {
+      "step": 3,
+      "task": "Analyze implemented technologies within those companies.",
+      "table": ["CompanyTechStack"]
+    }
+  ]
+}

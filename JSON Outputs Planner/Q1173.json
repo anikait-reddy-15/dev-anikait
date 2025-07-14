@@ -1,0 +1,20 @@
+{
+  "question": "Who are the prominent authors of posts related to AI technologies among data science professionals?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Filter LinkedIn posts for AI-related content",
+      "table": ["PersonaLinkedinPost"]
+    },
+    {
+      "step": 2,
+      "task": "Identify authors from the data science community",
+      "table": ["PersonaUser"]
+    },
+    {
+      "step": 3,
+      "task": "Extract authors with frequent or widely engaged AI posts",
+      "table": ["PersonaLinkedinPost"]
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "question": "What hiring trends can be identified at companies that have shifted their tech stack to include more open-source tools in the last six months?",
+  "tables": ["CompanyHiringDetail", "CompanyTechStack"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies that adopted open-source tools in their tech stack in the last six months",
+      "table": ["CompanyTechStack"]
+    },
+    {
+      "step": 2,
+      "task": "Extract hiring data from those companies",
+      "table": ["CompanyHiringDetail"]
+    },
+    {
+      "step": 3,
+      "task": "Analyze hiring patterns and trends",
+      "table": ["CompanyHiringDetail"]
+    }
+  ]
+}

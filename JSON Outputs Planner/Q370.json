@@ -1,0 +1,21 @@
+{
+  "question": "What is the correlation between companies that posted significant job openings in data science and their investment in machine learning technologies?",
+  "tables": ["CompanyHiringDetail", "CompanyTechStack"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies that posted significant job openings in data science. [CompanyHiringDetail]",
+      "table": ["CompanyHiringDetail"]
+    },
+    {
+      "step": 2,
+      "task": "Find companies that are investing in machine learning technologies. [CompanyTechStack]",
+      "table": ["CompanyTechStack"]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the correlation between the two sets of companies. [CompanyHiringDetail, CompanyTechStack]",
+      "table": ["CompanyHiringDetail", "CompanyTechStack"]
+    }
+  ]
+}

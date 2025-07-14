@@ -1,0 +1,20 @@
+{
+  "question": "Which tech stacks are being utilized by companies paired with leadership opinions on digital transformation?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Get leadership excerpts referencing digital transformation from CompanyLeadershipExcerpt",
+      "table": ["CompanyLeadershipExcerpt"]
+    },
+    {
+      "step": 2,
+      "task": "Identify those companies’ technology stacks from CompanyTechStack",
+      "table": ["CompanyTechStack"]
+    },
+    {
+      "step": 3,
+      "task": "Summarize the most commonly used stacks in those companies",
+      "table": ["CompanyTechStack"]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "question": "Which platforms is LPL Financial using for regulatory compliance management along with SmartRIA?",
+  "tables": ["CompanyVendorProductDetail", "CompanyVendorTechDetail", "CompanyInfo"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Confirm SmartRIA usage",
+      "table": ["CompanyVendorProductDetail"]
+    },
+    {
+      "step": 2,
+      "task": "Identify other compliance platforms excluding SmartRIA",
+      "table": ["CompanyVendorTechDetail"]
+    },
+    {
+      "step": 3,
+      "task": "Filter by LPL Financial Company ID",
+      "table": ["CompanyInfo"]
+    },
+    {
+      "step": 4,
+      "task": "Output comprehensive compliance toolset",
+      "table": []
+    }
+  ]
+}

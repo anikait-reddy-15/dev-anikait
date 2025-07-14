@@ -1,0 +1,20 @@
+{
+  "question": "Who are the active tech influencers that data scientists engage with on LinkedIn?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Get LinkedIn posts by data scientists from PersonaLinkedinPost",
+      "table": ["PersonaLinkedinPost"]
+    },
+    {
+      "step": 2,
+      "task": "Use PersonaUser to verify profession of users as data scientists",
+      "table": ["PersonaUser"]
+    },
+    {
+      "step": 3,
+      "task": "Identify mentioned influencers or users engaged with by data scientists",
+      "table": ["PersonaLinkedinPost"]
+    }
+  ]
+}

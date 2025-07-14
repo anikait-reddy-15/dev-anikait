@@ -1,0 +1,20 @@
+{
+  "question": "How often do data scientists engage with industry thought leaders on Twitter?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Extract data scientist accounts from PersonaTwitterProfile",
+      "table": ["PersonaTwitterProfile"]
+    },
+    {
+      "step": 2,
+      "task": "Identify interactions (likes, retweets, mentions) with thought leaders",
+      "table": ["SocialMediaInfo"]
+    },
+    {
+      "step": 3,
+      "task": "Summarize frequency and patterns of engagement",
+      "table": ["PersonaTwitterProfile", "SocialMediaInfo"]
+    }
+  ]
+}

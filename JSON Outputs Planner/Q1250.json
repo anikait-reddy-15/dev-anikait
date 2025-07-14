@@ -1,0 +1,20 @@
+{
+  "question": "How correlated are social media communications with overall business performance in tech firms?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Get social media activity of tech firms from SocialMediaInfo",
+      "table": ["SocialMediaInfo"]
+    },
+    {
+      "step": 2,
+      "task": "Identify tech firms using CompanyInfo",
+      "table": ["CompanyInfo"]
+    },
+    {
+      "step": 3,
+      "task": "Analyze communication frequency and themes in relation to company metrics",
+      "table": ["SocialMediaInfo", "CompanyInfo"]
+    }
+  ]
+}

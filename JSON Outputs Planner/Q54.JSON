@@ -1,0 +1,26 @@
+{
+  "question": "What recent LinkedIn posts by HDFC Bank's executives mention technology investments?",
+  "tables": ["PersonaLinkedInProfile", "CompanyInfo", "PersonaLinkedinPost"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify executives at HDFC Bank from the PersonaLinkedInProfile table",
+      "table": ["PersonaLinkedInProfile"]
+    },
+    {
+      "step": 2,
+      "task": "Retrieve recent LinkedIn posts from the PersonaLinkedinPost table",
+      "table": ["PersonaLinkedinPost"]
+    },
+    {
+      "step": 3,
+      "task": "Filter those posts to find mentions of technology investments",
+      "table": ["PersonaLinkedinPost"]
+    },
+    {
+      "step": 4,
+      "task": "Ensure the posts are linked to the identified executives from HDFC Bank",
+      "table": ["CompanyInfo"]
+    }
+  ]
+}

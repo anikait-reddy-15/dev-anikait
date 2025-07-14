@@ -1,0 +1,20 @@
+{
+  "question": "Which companies highlight data explainability in their public tech stack disclosures?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Review tech stacks for presence of explainability-focused tools (e.g., SHAP, LIME)",
+      "table": ["CompanyTechStack"]
+    },
+    {
+      "step": 2,
+      "task": "Identify companies that mention explainability in public narratives or leadership excerpts",
+      "table": ["CompanyLeadershipExcerpt"]
+    },
+    {
+      "step": 3,
+      "task": "List companies with both technical and strategic emphasis on explainability",
+      "table": ["CompanyTechStack", "CompanyLeadershipExcerpt"]
+    }
+  ]
+}

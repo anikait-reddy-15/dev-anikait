@@ -1,0 +1,21 @@
+{
+  "question": "Which technology investments are being prioritized by companies that have experienced a significant uptick in social media engagement this quarter?",
+  "tables": ["CompanyTechStack", "CompanyTwitterDetail"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies that have seen a significant increase in social media engagement this quarter. [CompanyTwitterDetail]",
+      "table": ["CompanyTwitterDetail"]
+    },
+    {
+      "step": 2,
+      "task": "Gather information on the technology investments of these companies. [CompanyTechStack]",
+      "table": ["CompanyTechStack"]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the technology investments in relation to the identified companies. [CompanyTechStack, CompanyTwitterDetail]",
+      "table": ["CompanyTechStack", "CompanyTwitterDetail"]
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "question": "How are companies addressing digital upskilling in leadership communications and hiring trends?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Extract leadership excerpts mentioning digital upskilling",
+      "table": ["CompanyLeadershipExcerpt"]
+    },
+    {
+      "step": 2,
+      "task": "Retrieve hiring data related to training or upskilling roles",
+      "table": ["CompanyHiringDetail"]
+    },
+    {
+      "step": 3,
+      "task": "Link themes in leadership communications to hiring strategy",
+      "table": ["CompanyLeadershipExcerpt", "CompanyHiringDetail"]
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "question": "Which vendors are recognized for their contributions to cloud security solutions in the financial sector?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Filter financial sector companies from CompanyInfo",
+      "table": ["CompanyInfo"]
+    },
+    {
+      "step": 2,
+      "task": "Identify vendor partnerships from CompanyVendorTechDetail",
+      "table": ["CompanyVendorTechDetail"]
+    },
+    {
+      "step": 3,
+      "task": "Isolate vendor offerings related to cloud security",
+      "table": ["CompanyVendorTechDetail"]
+    }
+  ]
+}

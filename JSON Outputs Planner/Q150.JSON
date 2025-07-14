@@ -1,0 +1,21 @@
+{
+  "question": "How do recent social media discussions about data ethics shape technology investments for data-centric firms?",
+  "tables": ["CompanySocialMediaInfo", "CompanyTechStack"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Extract social media discussions about data ethics",
+      "table": ["CompanySocialMediaInfo"]
+    },
+    {
+      "step": 2,
+      "task": "Identify companies involved in these discussions",
+      "table": ["CompanySocialMediaInfo"]
+    },
+    {
+      "step": 3,
+      "task": "Link ethical concerns with their technology investment decisions",
+      "table": ["CompanyTechStack"]
+    }
+  ]
+}

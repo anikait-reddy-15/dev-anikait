@@ -1,0 +1,20 @@
+{
+  "question": "Which companies have heavily invested in data engineering roles and also report significant growth on professional networking sites?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Find companies with recent hiring in data engineering.",
+      "table": ["CompanyHiringDetail"]
+    },
+    {
+      "step": 2,
+      "task": "Extract LinkedIn growth signals.",
+      "table": ["PersonaLinkedinProfile"]
+    },
+    {
+      "step": 3,
+      "task": "Cross-analyze hiring with social platform growth.",
+      "table": ["CompanyHiringDetail", "PersonaLinkedinProfile"]
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "question": "Which hospitals are using AI to detect anomalies in radiology scans and reduce diagnostic delays?",
+  "tables": ["CompanyFocusAreaDetail", "CompanyInfo"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify hospitals and diagnostic centers.",
+      "table": ["CompanyInfo"]
+    },
+    {
+      "step": 2,
+      "task": "Check for AI in radiology imaging and diagnostic support.",
+      "table": ["CompanyFocusAreaDetail"]
+    },
+    {
+      "step": 3,
+      "task": "List hospitals improving diagnostics with AI.",
+      "table": ["CompanyFocusAreaDetail", "CompanyInfo"]
+    }
+  ]
+}

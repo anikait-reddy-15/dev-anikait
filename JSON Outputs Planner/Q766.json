@@ -1,0 +1,21 @@
+{
+  "question": "Which companies have defined explainability in their AI strategy and also integrated third-party audit mechanisms?",
+  "tables": ["CompanyFocusAreaDetail", "CompanyVendorTechDetail"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies defining explainability in their AI strategy.",
+      "table": ["CompanyFocusAreaDetail"]
+    },
+    {
+      "step": 2,
+      "task": "Find those that use third-party audit mechanisms.",
+      "table": ["CompanyVendorTechDetail"]
+    },
+    {
+      "step": 3,
+      "task": "Cross-reference explainability-focused companies with third-party audits.",
+      "table": ["CompanyFocusAreaDetail", "CompanyVendorTechDetail"]
+    }
+  ]
+}

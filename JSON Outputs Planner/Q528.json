@@ -1,0 +1,21 @@
+{
+  "question": "Who are the executives at companies that have recently shifted their technology stack to incorporate more artificial intelligence solutions?",
+  "tables": ["CompanyTechStack", "CompanyLeadershipExcerpt"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies that have shifted their technology stack to include artificial intelligence solutions. [CompanyTechStack]",
+      "table": ["CompanyTechStack"]
+    },
+    {
+      "step": 2,
+      "task": "Extract Company IDs of those companies. [CompanyTechStack]",
+      "table": ["CompanyTechStack"]
+    },
+    {
+      "step": 3,
+      "task": "Retrieve the executives from the identified companies using their Company IDs. [CompanyLeadershipExcerpt]",
+      "table": ["CompanyLeadershipExcerpt"]
+    }
+  ]
+}

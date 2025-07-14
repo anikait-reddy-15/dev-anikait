@@ -1,0 +1,21 @@
+{
+  "question": "What contracts has PayPal's CTO commented on regarding digital payments?",
+  "tables": ["PersonaYoutubeProfile", "CompanyDealMaster"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify the comments made by PayPal's CTO on digital payments",
+      "table": ["PersonaYoutubeProfile"]
+    },
+    {
+      "step": 2,
+      "task": "Filter contracts related to digital payments from the CompanyDealMaster",
+      "table": ["CompanyDealMaster"]
+    },
+    {
+      "step": 3,
+      "task": "Correlate the comments from the CTO with the relevant contracts",
+      "table": ["PersonaYoutubeProfile", "CompanyDealMaster"]
+    }
+  ]
+}

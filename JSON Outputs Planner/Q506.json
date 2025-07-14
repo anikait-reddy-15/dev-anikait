@@ -1,0 +1,21 @@
+{
+  "question": "What are the primary technologies being adopted by companies that recently highlighted their data science initiatives in social media posts?",
+  "tables": ["CompanyTechStack", "SocialMediaInfo", "PersonaLinkedinPost"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies that have highlighted their data science initiatives in social media posts. [SocialMediaInfo, PersonaLinkedinPost]",
+      "table": ["SocialMediaInfo", "PersonaLinkedinPost"]
+    },
+    {
+      "step": 2,
+      "task": "Filter the identified companies to obtain their technology stacks. [CompanyTechStack]",
+      "table": ["CompanyTechStack"]
+    },
+    {
+      "step": 3,
+      "task": "Aggregate and analyze the primary technologies being adopted. [CompanyTechStack]",
+      "table": ["CompanyTechStack"]
+    }
+  ]
+}

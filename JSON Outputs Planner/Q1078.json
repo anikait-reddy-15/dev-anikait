@@ -1,0 +1,20 @@
+{
+  "question": "What key performance indicators are leadership teams in data analytics firms defining after recent tech upgrades?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies that have recently upgraded tech stacks.",
+      "table": ["CompanyTechStack"]
+    },
+    {
+      "step": 2,
+      "task": "Extract leadership discussions referencing KPIs.",
+      "table": ["CompanyLeadershipExcerpt"]
+    },
+    {
+      "step": 3,
+      "task": "Summarize KPIs across multiple companies.",
+      "table": []
+    }
+  ]
+}

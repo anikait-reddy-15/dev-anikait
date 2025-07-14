@@ -1,0 +1,20 @@
+{
+  "question": "What regulatory themes are emerging in leadership discussions about data compliance?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Extract references to data compliance and regulation in leadership excerpts",
+      "table": ["CompanyLeadershipExcerpt"]
+    },
+    {
+      "step": 2,
+      "task": "Categorize the types of regulations being discussed (e.g., GDPR, CCPA, AI Act)",
+      "table": ["CompanyLeadershipExcerpt"]
+    },
+    {
+      "step": 3,
+      "task": "Identify emerging trends or concerns mentioned across multiple companies",
+      "table": ["CompanyLeadershipExcerpt"]
+    }
+  ]
+}

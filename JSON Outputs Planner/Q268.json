@@ -1,0 +1,21 @@
+{
+  "question": "Which vendors are being considered by companies that have shifted their technology stack towards cloud-native solutions and employ data scientists?",
+  "tables": ["CompanyVendorProductDetail", "CompanyTechStack", "PersonaUser"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies that have shifted their technology stack towards cloud-native solutions from the [CompanyTechStack] table.",
+      "table": ["CompanyTechStack"]
+    },
+    {
+      "step": 2,
+      "task": "Filter companies that employ data scientists from the [PersonaUser] table.",
+      "table": ["PersonaUser"]
+    },
+    {
+      "step": 3,
+      "task": "Extract vendor information being considered by the identified companies from the [CompanyVendorProductDetail] table.",
+      "table": ["CompanyVendorProductDetail"]
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "question": "How are data science roles evolving in organizations that focus on data governance?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Find companies focused on data governance using CompanyFocusAreaDetail",
+      "table": ["CompanyFocusAreaDetail"]
+    },
+    {
+      "step": 2,
+      "task": "Get hiring trends related to data science from CompanyHiringDetail",
+      "table": ["CompanyHiringDetail"]
+    },
+    {
+      "step": 3,
+      "task": "Compare job descriptions or patterns to detect evolution of roles",
+      "table": ["CompanyHiringDetail"]
+    }
+  ]
+}

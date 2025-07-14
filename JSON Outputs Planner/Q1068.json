@@ -1,0 +1,20 @@
+{
+  "question": "Who are the executive champions in firms advocating for diversity in hiring within the data science community?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies advocating diversity in hiring practices.",
+      "table": ["CompanyHiringDetail"]
+    },
+    {
+      "step": 2,
+      "task": "Extract executive leaders promoting these initiatives.",
+      "table": ["CompanyLeadershipExcerpt"]
+    },
+    {
+      "step": 3,
+      "task": "Match executives to company diversity actions.",
+      "table": ["CompanyLeadershipExcerpt", "CompanyHiringDetail"]
+    }
+  ]
+}

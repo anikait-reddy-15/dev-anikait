@@ -1,0 +1,20 @@
+{
+  "question": "What common themes underlie the leadership's communication on social media about advancing analytics capabilities?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Extract leadership communication mentioning analytics.",
+      "table": ["CompanyLeadershipExcerpt"]
+    },
+    {
+      "step": 2,
+      "task": "Analyze related social media content from those companies.",
+      "table": ["SocialMediaInfo"]
+    },
+    {
+      "step": 3,
+      "task": "Summarize common themes from cross-platform analysis.",
+      "table": []
+    }
+  ]
+}

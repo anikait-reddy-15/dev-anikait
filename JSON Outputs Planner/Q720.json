@@ -1,0 +1,21 @@
+{
+  "question": "What are the key focus areas mentioned in leadership excerpts from companies that have recently increased investments in AI research?",
+  "tables": ["CompanyLeadershipExcerpt", "CompanyFinancials"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies increasing investments in AI research.",
+      "table": ["CompanyFinancials"]
+    },
+    {
+      "step": 2,
+      "task": "Extract leadership excerpts from these companies.",
+      "table": ["CompanyLeadershipExcerpt"]
+    },
+    {
+      "step": 3,
+      "task": "Analyze key focus areas mentioned in leadership excerpts.",
+      "table": ["CompanyLeadershipExcerpt"]
+    }
+  ]
+}

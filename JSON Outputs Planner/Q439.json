@@ -1,0 +1,21 @@
+{
+  "question": "What trends can be observed in the hiring of data engineers among companies that have made significant investments in cloud infrastructure?",
+  "tables": ["CompanyHiringDetail", "CompanyTechStack"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies that have made significant investments in cloud infrastructure. [CompanyTechStack]",
+      "table": ["CompanyTechStack"]
+    },
+    {
+      "step": 2,
+      "task": "Gather data on the hiring of data engineers at these companies. [CompanyHiringDetail]",
+      "table": ["CompanyHiringDetail"]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the hiring trends of data engineers in relation to cloud infrastructure investments. [CompanyHiringDetail, CompanyTechStack]",
+      "table": ["CompanyHiringDetail", "CompanyTechStack"]
+    }
+  ]
+}

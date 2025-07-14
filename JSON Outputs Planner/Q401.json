@@ -1,0 +1,21 @@
+{
+  "question": "Which personas have discussed innovative data strategies in their LinkedIn activities and work for companies increasing their focus on cloud computing?",
+  "tables": ["PersonaLinkedinActivity", "PersonaUser", "CompanyFocusAreaDetail"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify personas discussing innovative data strategies. [PersonaLinkedinActivity]",
+      "table": ["PersonaLinkedinActivity"]
+    },
+    {
+      "step": 2,
+      "task": "Identify companies increasing focus on cloud computing. [CompanyFocusAreaDetail]",
+      "table": ["CompanyFocusAreaDetail"]
+    },
+    {
+      "step": 3,
+      "task": "Match personas to their companies to find overlaps. [PersonaUser, CompanyFocusAreaDetail]",
+      "table": ["PersonaUser", "CompanyFocusAreaDetail"]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "question": "What technologies are prevalent among companies that have undertaken significant leadership transitions and posted about their strategies on LinkedIn?",
+  "tables": ["CompanyManagementDetail", "CompanyTechStack", "PersonaLinkedinPost"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies that have undergone significant leadership transitions.",
+      "table": ["CompanyManagementDetail"]
+    },
+    {
+      "step": 2,
+      "task": "Find LinkedIn posts related to the strategies of those companies.",
+      "table": ["PersonaLinkedinPost"]
+    },
+    {
+      "step": 3,
+      "task": "Identify the technologies used by those companies.",
+      "table": ["CompanyTechStack"]
+    },
+    {
+      "step": 4,
+      "task": "Combine the technologies with the companies that have transitioned and posted on LinkedIn.",
+      "table": ["CompanyTechStack", "PersonaLinkedinPost", "CompanyManagementDetail"]
+    }
+  ]
+}

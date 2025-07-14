@@ -1,0 +1,21 @@
+{
+  "question": "Which data science professionals have been active on Twitter discussing trends in big data analytics while being employed at companies with major IT partnerships?",
+  "tables": ["PersonaTwitterProfile", "CompanyITPartnerDetail", "PersonaTwitterTweets"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify data science professionals active on Twitter discussing big data analytics. [PersonaTwitterTweets, PersonaTwitterProfile]",
+      "table": ["PersonaTwitterTweets", "PersonaTwitterProfile"]
+    },
+    {
+      "step": 2,
+      "task": "Find companies that have major IT partnerships. [CompanyITPartnerDetail]",
+      "table": ["CompanyITPartnerDetail"]
+    },
+    {
+      "step": 3,
+      "task": "Filter the identified professionals to those employed at the companies with IT partnerships. [CompanyITPartnerDetail]",
+      "table": ["CompanyITPartnerDetail"]
+    }
+  ]
+}

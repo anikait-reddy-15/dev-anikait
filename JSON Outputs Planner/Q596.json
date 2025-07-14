@@ -1,0 +1,21 @@
+{
+  "question": "What are the hiring trends for cloud engineers in companies that signed AI vendor deals in the past six months?",
+  "tables": ["CompanyHiringDetail", "CompanyDealMaster", "CompanyVendorTechDetail"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies that signed AI vendor deals in the past six months. [CompanyDealMaster, CompanyVendorTechDetail]",
+      "table": ["CompanyDealMaster", "CompanyVendorTechDetail"]
+    },
+    {
+      "step": 2,
+      "task": "Retrieve hiring data for cloud engineering roles from CompanyHiringDetail. [CompanyHiringDetail]",
+      "table": ["CompanyHiringDetail"]
+    },
+    {
+      "step": 3,
+      "task": "Analyze hiring trends among these companies. [CompanyHiringDetail, CompanyDealMaster, CompanyVendorTechDetail]",
+      "table": ["CompanyHiringDetail", "CompanyDealMaster", "CompanyVendorTechDetail"]
+    }
+  ]
+}

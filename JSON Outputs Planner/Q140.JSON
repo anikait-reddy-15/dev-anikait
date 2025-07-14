@@ -1,0 +1,21 @@
+{
+  "question": "How do companies that recently partnered with vendors discuss data ethics and analytics in their social media posts?",
+  "tables": ["CompanyVendorProductDetail", "CompanySocialMediaInfo"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies that recently partnered with vendors",
+      "table": ["CompanyVendorProductDetail"]
+    },
+    {
+      "step": 2,
+      "task": "Retrieve their social media posts mentioning data ethics and analytics",
+      "table": ["CompanySocialMediaInfo"]
+    },
+    {
+      "step": 3,
+      "task": "Summarize how vendor partnerships are discussed in the context of ethics and analytics",
+      "table": ["CompanyVendorProductDetail", "CompanySocialMediaInfo"]
+    }
+  ]
+}

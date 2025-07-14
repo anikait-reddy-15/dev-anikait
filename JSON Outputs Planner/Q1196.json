@@ -1,0 +1,20 @@
+{
+  "question": "Which firms are training internal teams on data science and what methods are highlighted in leadership discussions?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies mentioning internal training programs in leadership excerpts",
+      "table": ["CompanyLeadershipExcerpt"]
+    },
+    {
+      "step": 2,
+      "task": "Extract references to training on data science tools or frameworks",
+      "table": ["CompanyLeadershipExcerpt"]
+    },
+    {
+      "step": 3,
+      "task": "List methods or platforms used for training",
+      "table": ["CompanyFocusAreaDetail"]
+    }
+  ]
+}

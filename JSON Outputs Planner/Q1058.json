@@ -1,0 +1,20 @@
+{
+  "question": "Whom do data scientists consult within their organizations regarding the implementation of new analytics tools?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify analytics tool implementation discussions from leadership excerpts.",
+      "table": ["CompanyLeadershipExcerpt"]
+    },
+    {
+      "step": 2,
+      "task": "Find roles of individuals consulted during tool adoption.",
+      "table": ["PersonaUser"]
+    },
+    {
+      "step": 3,
+      "task": "Match consulted stakeholders to organizational hierarchy.",
+      "table": ["PersonaTitle"]
+    }
+  ]
+}

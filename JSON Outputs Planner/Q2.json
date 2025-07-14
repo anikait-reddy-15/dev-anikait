@@ -1,0 +1,39 @@
+{
+  "question": "Who are the key leaders at New York Life impacting technology investments in data management strategies?",
+  "tables": [
+    "CompanyITPartnerDetail",
+    "CompanyInfo",
+    "CompanyManagementDetail"
+  ],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify data management-related IT partnerships",
+      "table": [
+        "CompanyITPartnerDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Identify tech or data-focused leaders",
+      "table": [
+        "CompanyManagementDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Filter both by New York Life\u2019s Company ID",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Match leadership with relevant IT strategy areas",
+      "table": [
+        "CompanyManagementDetail",
+        "CompanyITPartnerDetail"
+      ]
+    }
+  ]
+}

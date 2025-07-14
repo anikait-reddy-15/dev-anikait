@@ -1,0 +1,21 @@
+{
+  "question": "Which companies have published social media posts regarding their focus areas that align with recent trends in cloud computing?",
+  "tables": ["SocialMediaInfo", "CompanyFocusAreaDetail"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify recent trends in cloud computing. [CompanyFocusAreaDetail]",
+      "table": ["CompanyFocusAreaDetail"]
+    },
+    {
+      "step": 2,
+      "task": "Find social media posts that mention these cloud computing trends. [SocialMediaInfo]",
+      "table": ["SocialMediaInfo"]
+    },
+    {
+      "step": 3,
+      "task": "Match the companies from the social media posts with their focus areas. [SocialMediaInfo, CompanyFocusAreaDetail]",
+      "table": ["SocialMediaInfo", "CompanyFocusAreaDetail"]
+    }
+  ]
+}

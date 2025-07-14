@@ -1,0 +1,21 @@
+{
+  "question": "What collaboration trends are observed among companies investing in advanced data solutions?",
+  "tables": ["CompanyDealMaster", "CompanyVendorProductDetail"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies making investments in advanced data solutions",
+      "table": ["CompanyDealMaster"]
+    },
+    {
+      "step": 2,
+      "task": "Retrieve details of vendor collaborations for those companies",
+      "table": ["CompanyVendorProductDetail"]
+    },
+    {
+      "step": 3,
+      "task": "Analyze patterns in these collaborative investments",
+      "table": ["CompanyDealMaster", "CompanyVendorProductDetail"]
+    }
+  ]
+}

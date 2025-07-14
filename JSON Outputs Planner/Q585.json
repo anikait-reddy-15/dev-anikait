@@ -1,0 +1,21 @@
+{
+  "question": "What recent changes in social media engagement have been observed for companies focusing on emerging technologies like blockchain?",
+  "tables": ["CompanyTwitterDetail", "CompanyFocusAreaDetail", "IndustryBusinessTrend"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies focusing on emerging technologies like blockchain from the CompanyFocusAreaDetail table. [CompanyFocusAreaDetail]",
+      "table": ["CompanyFocusAreaDetail"]
+    },
+    {
+      "step": 2,
+      "task": "Gather recent social media engagement data from the CompanyTwitterDetail table. [CompanyTwitterDetail]",
+      "table": ["CompanyTwitterDetail"]
+    },
+    {
+      "step": 3,
+      "task": "Analyze changes in engagement for the identified companies. [CompanyTwitterDetail, CompanyFocusAreaDetail]",
+      "table": ["CompanyTwitterDetail", "CompanyFocusAreaDetail"]
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "question": "What are the follower counts of Twitter profiles associated with mining industry leaders?",
+  "tables": ["PersonaTwitterProfile"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify Twitter profiles of mining industry leaders",
+      "table": ["PersonaTwitterProfile"]
+    },
+    {
+      "step": 2,
+      "task": "Extract and list the follower counts for these identified profiles",
+      "table": ["PersonaTwitterProfile"]
+    }
+  ]
+}

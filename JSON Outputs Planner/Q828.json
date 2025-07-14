@@ -1,0 +1,21 @@
+{
+  "question": "Which startups are deploying AI-driven sentiment analysis for brand monitoring?",
+  "tables": ["CompanyFocusAreaDetail", "CompanyInfo"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify startups from company data.",
+      "table": ["CompanyInfo"]
+    },
+    {
+      "step": 2,
+      "task": "Filter those using AI for sentiment analysis.",
+      "table": ["CompanyFocusAreaDetail"]
+    },
+    {
+      "step": 3,
+      "task": "List startups with AI-based brand monitoring tools.",
+      "table": ["CompanyInfo", "CompanyFocusAreaDetail"]
+    }
+  ]
+}

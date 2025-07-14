@@ -1,0 +1,20 @@
+{
+  "question": "What communication strategies are used to build trust around ethical AI?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Analyze public-facing leadership excerpts discussing trust, fairness, or responsibility",
+      "table": ["CompanyLeadershipExcerpt"]
+    },
+    {
+      "step": 2,
+      "task": "Review content shared on social platforms promoting these principles",
+      "table": ["SocialMediaInfo"]
+    },
+    {
+      "step": 3,
+      "task": "Summarize recurring communication techniques or narratives used",
+      "table": ["CompanyLeadershipExcerpt", "SocialMediaInfo"]
+    }
+  ]
+}

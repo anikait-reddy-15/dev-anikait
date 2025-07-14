@@ -1,0 +1,20 @@
+{
+  "question": "Which companies have recently enhanced their presence on Instagram and their focus on digital marketing?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Find companies with increased Instagram activity from CompanyInstagramDetail",
+      "table": ["CompanyInstagramDetail"]
+    },
+    {
+      "step": 2,
+      "task": "Filter companies with digital marketing as a focus area from CompanyFocusAreaDetail",
+      "table": ["CompanyFocusAreaDetail"]
+    },
+    {
+      "step": 3,
+      "task": "Identify companies appearing in both categories",
+      "table": ["CompanyInstagramDetail", "CompanyFocusAreaDetail"]
+    }
+  ]
+}

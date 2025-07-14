@@ -1,0 +1,21 @@
+{
+  "question": "Which social media platforms are most utilized by data scientists working for companies investing in AI-related products?",
+  "tables": ["PersonaFaceBook", "PersonaInstagramProfile", "CompanyVendorProductDetail"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies that are investing in AI-related products. [CompanyVendorProductDetail]",
+      "table": ["CompanyVendorProductDetail"]
+    },
+    {
+      "step": 2,
+      "task": "Gather data on data scientists working for these companies and their social media usage. [PersonaFaceBook, PersonaInstagramProfile]",
+      "table": ["PersonaFaceBook", "PersonaInstagramProfile"]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the gathered data to determine the most utilized social media platforms. [PersonaFaceBook, PersonaInstagramProfile]",
+      "table": ["PersonaFaceBook", "PersonaInstagramProfile"]
+    }
+  ]
+}

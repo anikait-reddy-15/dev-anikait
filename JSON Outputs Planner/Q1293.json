@@ -1,0 +1,20 @@
+{
+  "question": "How are technology investments in recruitment tracking reflected in the compensation offered to data scientists?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies investing in recruitment tech from CompanyHiringDetail",
+      "table": ["CompanyHiringDetail"]
+    },
+    {
+      "step": 2,
+      "task": "Link hiring tech usage to role types and salaries (if available)",
+      "table": ["CompanyHiringDetail"]
+    },
+    {
+      "step": 3,
+      "task": "Analyze compensation trends for data science roles",
+      "table": ["CompanyHiringDetail"]
+    }
+  ]
+}

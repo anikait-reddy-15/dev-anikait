@@ -1,0 +1,21 @@
+{
+  "question": "Which telecom companies are applying AI to optimize network traffic and predictive maintenance of infrastructure?",
+  "tables": ["CompanyFocusAreaDetail", "CompanyInfo"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify telecom companies.",
+      "table": ["CompanyInfo"]
+    },
+    {
+      "step": 2,
+      "task": "Find AI use cases in traffic management and predictive maintenance.",
+      "table": ["CompanyFocusAreaDetail"]
+    },
+    {
+      "step": 3,
+      "task": "Match telecom firms with infrastructure AI automation.",
+      "table": ["CompanyFocusAreaDetail", "CompanyInfo"]
+    }
+  ]
+}

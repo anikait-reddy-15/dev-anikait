@@ -1,0 +1,21 @@
+{
+  "question": "How have companies that increased their social media engagement in the last quarter adjusted their hiring strategies, particularly for IT roles?",
+  "tables": ["CompanyTwitterDetail", "CompanyHiringDetail", "CompanyInfo"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies that have increased their social media engagement on Twitter in the last quarter",
+      "table": ["CompanyTwitterDetail"]
+    },
+    {
+      "step": 2,
+      "task": "Extract hiring strategies from these companies, focusing on IT roles",
+      "table": ["CompanyHiringDetail"]
+    },
+    {
+      "step": 3,
+      "task": "Combine the results to analyze changes in hiring strategies",
+      "table": ["CompanyInfo"]
+    }
+  ]
+}

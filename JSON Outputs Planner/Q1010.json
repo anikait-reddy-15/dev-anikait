@@ -1,0 +1,20 @@
+{
+  "question": "Who are the key leadership figures at companies that announced partnerships with data security vendors?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Filter for partnerships with vendors classified as data security providers.",
+      "table": ["CompanyITPartnerDetail"]
+    },
+    {
+      "step": 2,
+      "task": "Find companies involved in those partnerships.",
+      "table": ["CompanyITPartnerDetail"]
+    },
+    {
+      "step": 3,
+      "task": "Retrieve key leadership figures from those companies.",
+      "table": ["CompanyLeadershipExcerpt"]
+    }
+  ]
+}

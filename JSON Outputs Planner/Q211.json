@@ -1,0 +1,21 @@
+{
+  "question": "What technologies are most prevalent among companies that have recently published thought leadership articles on financial analytics?",
+  "tables": ["CompanyTechStack", "CompanyLeadershipExcerpt"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies that have published thought leadership articles on financial analytics",
+      "table": ["CompanyLeadershipExcerpt"]
+    },
+    {
+      "step": 2,
+      "task": "Extract the technology stacks used by these companies",
+      "table": ["CompanyTechStack"]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the prevalence of specific technologies among these companies",
+      "table": ["CompanyTechStack"]
+    }
+  ]
+}

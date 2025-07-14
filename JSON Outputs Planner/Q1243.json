@@ -1,0 +1,20 @@
+{
+  "question": "What are the common technology themes discussed by executives in their online interviews?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Extract interview data from SocialMediaInfo tagged with executive sources",
+      "table": ["SocialMediaInfo"]
+    },
+    {
+      "step": 2,
+      "task": "Use CompanyLeadershipExcerpt to validate speaker roles as executives",
+      "table": ["CompanyLeadershipExcerpt"]
+    },
+    {
+      "step": 3,
+      "task": "Identify and categorize key technology themes discussed",
+      "table": ["SocialMediaInfo", "CompanyLeadershipExcerpt"]
+    }
+  ]
+}

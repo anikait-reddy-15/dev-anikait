@@ -1,0 +1,20 @@
+{
+  "question": "Which companies that published new data initiatives also revised their cloud infrastructure?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies with newly announced data initiatives",
+      "table": ["CompanyFocusAreaDetail"]
+    },
+    {
+      "step": 2,
+      "task": "Check cloud infrastructure updates for those companies",
+      "table": ["CompanyTechStack"]
+    },
+    {
+      "step": 3,
+      "task": "List companies where data initiatives align with cloud revisions",
+      "table": ["CompanyFocusAreaDetail", "CompanyTechStack"]
+    }
+  ]
+}

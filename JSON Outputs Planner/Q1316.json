@@ -1,0 +1,20 @@
+{
+  "question": "What are the emerging job roles in companies that emphasize analytics in their IT strategy?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Filter companies that emphasize analytics in their IT focus",
+      "table": ["CompanyFocusAreaDetail"]
+    },
+    {
+      "step": 2,
+      "task": "Retrieve recent hiring records from those companies",
+      "table": ["CompanyHiringDetail"]
+    },
+    {
+      "step": 3,
+      "task": "List new or emerging roles related to data/analytics",
+      "table": ["CompanyHiringDetail"]
+    }
+  ]
+}

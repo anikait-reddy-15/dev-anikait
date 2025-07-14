@@ -1,0 +1,20 @@
+{
+  "question": "Which firms are developing internal training for ethical AI practices?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify focus areas or leadership remarks mentioning internal training programs",
+      "table": ["CompanyFocusAreaDetail", "CompanyLeadershipExcerpt"]
+    },
+    {
+      "step": 2,
+      "task": "List companies that reference employee training related to AI, ethics, or compliance",
+      "table": ["CompanyFocusAreaDetail"]
+    },
+    {
+      "step": 3,
+      "task": "Categorize types of training initiatives and related teams",
+      "table": ["CompanyFocusAreaDetail"]
+    }
+  ]
+}

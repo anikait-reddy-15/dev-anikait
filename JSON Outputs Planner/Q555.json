@@ -1,0 +1,21 @@
+{
+  "question": "What recent shifts in technology priorities can be observed in organizations that have made leadership changes in their data analytics departments?",
+  "tables": ["CompanyManagementDetail", "CompanyTechStack", "CompanyLeadershipExcerpt"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify organizations that have made leadership changes in their data analytics departments. [CompanyManagementDetail]",
+      "table": ["CompanyManagementDetail"]
+    },
+    {
+      "step": 2,
+      "task": "Analyze the technology priorities of these organizations. [CompanyTechStack]",
+      "table": ["CompanyTechStack"]
+    },
+    {
+      "step": 3,
+      "task": "Gather insights from leadership excerpts to understand shifts in priorities. [CompanyLeadershipExcerpt]",
+      "table": ["CompanyLeadershipExcerpt"]
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "question": "Which data scientists have authored content linking NLP with business process optimization?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Filter for content related to NLP and process optimization",
+      "table": ["PersonaMisc"]
+    },
+    {
+      "step": 2,
+      "task": "Identify authors and confirm their roles as data scientists",
+      "table": ["PersonaUser"]
+    },
+    {
+      "step": 3,
+      "task": "List matching authors and their affiliated organizations",
+      "table": ["PersonaUser"]
+    }
+  ]
+}

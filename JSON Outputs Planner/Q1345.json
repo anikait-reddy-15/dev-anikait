@@ -1,0 +1,20 @@
+{
+  "question": "Which companies highlight data transparency in leadership and social media narratives?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Extract leadership excerpts referencing data transparency",
+      "table": ["CompanyLeadershipExcerpt"]
+    },
+    {
+      "step": 2,
+      "task": "Identify social media posts also discussing data openness or transparency",
+      "table": ["SocialMediaInfo"]
+    },
+    {
+      "step": 3,
+      "task": "Match companies appearing in both datasets",
+      "table": ["CompanyLeadershipExcerpt", "SocialMediaInfo"]
+    }
+  ]
+}

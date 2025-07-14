@@ -1,0 +1,25 @@
+{
+  "question": "What patterns are visible in the Twitter activity of executives who led digital transformation projects?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify executives who led digital transformation initiatives",
+      "table": ["CompanyLeadershipExcerpt"]
+    },
+    {
+      "step": 2,
+      "task": "Link these executives to their Twitter profiles",
+      "table": ["PersonaTwitterProfile"]
+    },
+    {
+      "step": 3,
+      "task": "Extract tweets related to digital transformation or innovation",
+      "table": ["PersonaTwitterTweets"]
+    },
+    {
+      "step": 4,
+      "task": "Analyze common themes and posting frequency",
+      "table": ["PersonaTwitterTweets"]
+    }
+  ]
+}

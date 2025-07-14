@@ -1,0 +1,20 @@
+{
+  "question": "Who are the key personas involved in companies’ automation strategy as reflected in hiring and posts?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies with automation as a strategic focus",
+      "table": ["CompanyFocusAreaDetail"]
+    },
+    {
+      "step": 2,
+      "task": "Extract relevant persona data from hiring records",
+      "table": ["CompanyHiringDetail", "PersonaUser"]
+    },
+    {
+      "step": 3,
+      "task": "Analyze public content (e.g., LinkedIn posts) from those personas related to automation",
+      "table": ["PersonaLinkedinPost"]
+    }
+  ]
+}

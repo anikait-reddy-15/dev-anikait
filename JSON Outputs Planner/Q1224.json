@@ -1,0 +1,20 @@
+{
+  "question": "Who are the strategic focus members at companies engaged in analytics solutions?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies engaged in analytics from CompanyFocusAreaDetail",
+      "table": ["CompanyFocusAreaDetail"]
+    },
+    {
+      "step": 2,
+      "task": "Find leadership or strategic personnel in those companies from CompanyLeadershipExcerpt",
+      "table": ["CompanyLeadershipExcerpt"]
+    },
+    {
+      "step": 3,
+      "task": "List individuals associated with strategy and analytics",
+      "table": ["CompanyLeadershipExcerpt"]
+    }
+  ]
+}

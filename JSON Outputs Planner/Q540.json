@@ -1,0 +1,21 @@
+{
+  "question": "What are the latest marketing strategies revealed through Twitter by companies that recently secured partnerships with IT solutions vendors?",
+  "tables": ["CompanyTwitterDetail", "CompanyDealMaster", "CompanyITPartnerDetail"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies that secured partnerships with IT solutions vendors. [CompanyITPartnerDetail, CompanyDealMaster]",
+      "table": ["CompanyITPartnerDetail", "CompanyDealMaster"]
+    },
+    {
+      "step": 2,
+      "task": "Gather Twitter posts from these companies. [CompanyTwitterDetail]",
+      "table": ["CompanyTwitterDetail"]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the Twitter posts to extract marketing strategies. [CompanyTwitterDetail]",
+      "table": ["CompanyTwitterDetail"]
+    }
+  ]
+}

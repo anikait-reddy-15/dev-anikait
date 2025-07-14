@@ -1,0 +1,21 @@
+{
+  "question": "Which airlines are deploying AI to optimize ticket pricing and predict travel demand patterns?",
+  "tables": ["CompanyFocusAreaDetail", "CompanyInfo"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify airline companies.",
+      "table": ["CompanyInfo"]
+    },
+    {
+      "step": 2,
+      "task": "Find AI use in dynamic pricing and demand forecasting.",
+      "table": ["CompanyFocusAreaDetail"]
+    },
+    {
+      "step": 3,
+      "task": "List airlines with AI-driven pricing systems.",
+      "table": ["CompanyFocusAreaDetail", "CompanyInfo"]
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "question": "Which companies are aligning their data analytics strategies with emerging technology trends as reported in leadership overviews?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Extract leadership excerpts mentioning analytics strategy.",
+      "table": ["CompanyLeadershipExcerpt"]
+    },
+    {
+      "step": 2,
+      "task": "Identify relevant technology trends aligned with these strategies.",
+      "table": ["IndustryITTrend"]
+    },
+    {
+      "step": 3,
+      "task": "List companies aligning strategies to those trends.",
+      "table": ["CompanyLeadershipExcerpt", "IndustryITTrend"]
+    }
+  ]
+}

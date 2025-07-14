@@ -1,0 +1,20 @@
+{
+  "question": "How are organizations leveraging social media to enhance public perceptions of their technology expertise?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "List companies posting tech-related content from SocialMediaInfo",
+      "table": ["SocialMediaInfo"]
+    },
+    {
+      "step": 2,
+      "task": "Analyze engagement metrics and content categories",
+      "table": ["SocialMediaInfo"]
+    },
+    {
+      "step": 3,
+      "task": "Correlate with company sectors and public perception proxies from CompanyInfo",
+      "table": ["CompanyInfo"]
+    }
+  ]
+}

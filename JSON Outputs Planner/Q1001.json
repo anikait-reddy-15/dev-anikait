@@ -1,0 +1,20 @@
+{
+  "question": "Which companies have data scientists focusing on machine learning projects according to their leadership excerpts?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Search leadership excerpts for mentions of machine learning and data science roles.",
+      "table": ["CompanyLeadershipExcerpt"]
+    },
+    {
+      "step": 2,
+      "task": "Extract the relevant company identifiers from excerpts.",
+      "table": ["CompanyLeadershipExcerpt"]
+    },
+    {
+      "step": 3,
+      "task": "Map those identifiers to full company details.",
+      "table": ["CompanyInfo"]
+    }
+  ]
+}

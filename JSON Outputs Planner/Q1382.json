@@ -1,0 +1,21 @@
+{
+  "question": "What tools are promoted by data scientists for improving AI accountability?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Extract discussions on accountability or responsible AI from LinkedIn posts by data scientists",
+      "table": ["PersonaLinkedinPost", "PersonaTitle"]
+    },
+    {
+      "step": 2,
+      "task": "Identify tools or technologies mentioned in these posts",
+      "table": ["PersonaLinkedinPost"]
+    },
+    {
+      "step": 3,
+      "task": "List commonly promoted tools and their perceived purpose",
+      "table": ["PersonaLinkedinPost"]
+    }
+  ]
+}
+

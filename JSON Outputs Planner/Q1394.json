@@ -1,0 +1,20 @@
+{
+  "question": "What vendor tools support traceability and logging in AI systems?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify vendor tools and platforms used in AI deployments from recent deals",
+      "table": ["CompanyVendorProductDetail"]
+    },
+    {
+      "step": 2,
+      "task": "Filter tools that include traceability, monitoring, or logging features",
+      "table": ["CompanyVendorProductDetail"]
+    },
+    {
+      "step": 3,
+      "task": "Summarize frequently adopted traceability-supporting tools",
+      "table": ["CompanyVendorProductDetail"]
+    }
+  ]
+}

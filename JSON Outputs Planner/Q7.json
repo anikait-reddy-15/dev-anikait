@@ -1,0 +1,26 @@
+{
+  "question": "What recent social media posts indicate New York Life's priorities in community support during COVID-19?",
+  "tables": ["CompanyFocusAreaDetail", "CompanyFacebookDetail"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify COVID-19 and community support strategies",
+      "table": ["CompanyFocusAreaDetail"]
+    },
+    {
+      "step": 2,
+      "task": "Filter relevant social media posts by topic and company",
+      "table": ["CompanyFacebookDetail"]
+    },
+    {
+      "step": 3,
+      "task": "Join posts with strategic themes",
+      "table": []
+    },
+    {
+      "step": 4,
+      "task": "Output engagement content",
+      "table": []
+    }
+  ]
+}

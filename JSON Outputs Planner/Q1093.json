@@ -1,0 +1,20 @@
+{
+  "question": "Which companies are adopting best practices in data engineering following recent industry trend analyses?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Extract key trends in data engineering from industry reports.",
+      "table": ["IndustryITTrend"]
+    },
+    {
+      "step": 2,
+      "task": "Identify companies aligning their tech stack to those practices.",
+      "table": ["CompanyTechStack"]
+    },
+    {
+      "step": 3,
+      "task": "List firms showing adoption of those engineering practices.",
+      "table": ["IndustryITTrend", "CompanyTechStack"]
+    }
+  ]
+}

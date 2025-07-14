@@ -1,0 +1,20 @@
+{
+  "question": "Which vendor-specific technologies are shaping the data science landscape in healthcare?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "List healthcare-related companies from CompanyInfo",
+      "table": ["CompanyInfo"]
+    },
+    {
+      "step": 2,
+      "task": "Retrieve vendor tools used by these companies from CompanyVendorProductDetail",
+      "table": ["CompanyVendorProductDetail"]
+    },
+    {
+      "step": 3,
+      "task": "Map vendor tools to data science applications",
+      "table": ["CompanyVendorProductDetail"]
+    }
+  ]
+}

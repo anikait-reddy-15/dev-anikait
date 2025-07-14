@@ -1,0 +1,21 @@
+{
+  "question": "Which firms with increased interest in digital innovation have decreased their IT vendor partnerships in the last 12 months?",
+  "tables": ["CompanyFocusAreaDetail", "CompanyITPartnerDetail"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify firms with increased interest in digital innovation from the CompanyFocusAreaDetail table. [CompanyFocusAreaDetail]",
+      "table": ["CompanyFocusAreaDetail"]
+    },
+    {
+      "step": 2,
+      "task": "Find firms with decreased IT vendor partnerships in the last 12 months. [CompanyITPartnerDetail]",
+      "table": ["CompanyITPartnerDetail"]
+    },
+    {
+      "step": 3,
+      "task": "Cross-reference firms from both sets to find matching cases. [CompanyFocusAreaDetail, CompanyITPartnerDetail]",
+      "table": ["CompanyFocusAreaDetail", "CompanyITPartnerDetail"]
+    }
+  ]
+}

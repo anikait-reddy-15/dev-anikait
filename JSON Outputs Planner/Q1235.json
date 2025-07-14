@@ -1,0 +1,20 @@
+{
+  "question": "Which social media platforms are most effective for companies in the SaaS sector according to their engagement metrics?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Filter companies in SaaS sector from CompanyInfo",
+      "table": ["CompanyInfo"]
+    },
+    {
+      "step": 2,
+      "task": "Analyze their performance on various platforms using SocialMediaInfo",
+      "table": ["SocialMediaInfo"]
+    },
+    {
+      "step": 3,
+      "task": "Rank platforms by engagement metrics for SaaS firms",
+      "table": ["SocialMediaInfo"]
+    }
+  ]
+}

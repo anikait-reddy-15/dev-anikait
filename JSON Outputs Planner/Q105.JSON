@@ -1,0 +1,21 @@
+{
+  "question": "What common job roles are found in companies that are investing in advanced analytics solutions?",
+  "tables": ["CompanyHiringDetail", "CompanyTechStack"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies investing in advanced analytics solutions",
+      "table": ["CompanyTechStack"]
+    },
+    {
+      "step": 2,
+      "task": "Retrieve job roles from hiring details of these companies",
+      "table": ["CompanyHiringDetail"]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the job roles to find common positions",
+      "table": ["CompanyHiringDetail"]
+    }
+  ]
+}

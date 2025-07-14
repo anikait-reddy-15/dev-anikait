@@ -1,0 +1,20 @@
+{
+  "question": "What are the predominant themes in the latest tech industry reports according to company executives?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Collect tech trends from recent industry reports",
+      "table": ["IndustryITTrend"]
+    },
+    {
+      "step": 2,
+      "task": "Identify excerpts from company leadership referencing these themes",
+      "table": ["CompanyLeadershipExcerpt"]
+    },
+    {
+      "step": 3,
+      "task": "Summarize and cluster common themes",
+      "table": []
+    }
+  ]
+}

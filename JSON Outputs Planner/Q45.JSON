@@ -1,0 +1,21 @@
+{
+  "question": "Which executives are responsible for innovation at companies focused on AI and automation?",
+  "tables": ["CompanyManagementDetail", "IndustryITTrend"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies that are focused on AI and automation from industry trends",
+      "table": ["IndustryITTrend"]
+    },
+    {
+      "step": 2,
+      "task": "Extract the company IDs of those identified companies",
+      "table": ["IndustryITTrend"]
+    },
+    {
+      "step": 3,
+      "task": "Find executives in the CompanyManagementDetail table linked to those company IDs",
+      "table": ["CompanyManagementDetail"]
+    }
+  ]
+}

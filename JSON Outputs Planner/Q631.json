@@ -1,0 +1,21 @@
+{
+  "question": "What are the key technologies adopted by companies that have recently signed deals with cloud service providers?",
+  "tables": ["CompanyTechStack", "CompanyDealMaster"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies that have recently signed deals with cloud service providers.",
+      "table": ["CompanyDealMaster"]
+    },
+    {
+      "step": 2,
+      "task": "Extract key technologies adopted by these companies.",
+      "table": ["CompanyTechStack"]
+    },
+    {
+      "step": 3,
+      "task": "Match the technologies with the companies from step 1.",
+      "table": ["CompanyTechStack", "CompanyDealMaster"]
+    }
+  ]
+}

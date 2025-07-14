@@ -1,0 +1,20 @@
+{
+  "question": "Who are the advocates for responsible tech among senior leadership on Twitter?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify Twitter posts discussing responsible tech, ethics, or AI safety",
+      "table": ["PersonaTwitterTweets"]
+    },
+    {
+      "step": 2,
+      "task": "Match profiles to senior leadership titles",
+      "table": ["PersonaTitle"]
+    },
+    {
+      "step": 3,
+      "task": "List most active and influential voices in this domain",
+      "table": ["PersonaTwitterTweets", "PersonaTitle"]
+    }
+  ]
+}

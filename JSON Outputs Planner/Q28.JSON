@@ -1,0 +1,16 @@
+{
+  "question": "What products are provided by vendors for LPL Financial's financial planning platform?",
+  "tables": ["CompanyVendorProductDetail", "CompanyInfo"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify the Company ID",
+      "table": ["CompanyInfo"]
+    },
+    {
+      "step": 2,
+      "task": "Retrieve products associated with the identified Company ID",
+      "table": ["CompanyVendorProductDetail"]
+    }
+  ]
+}

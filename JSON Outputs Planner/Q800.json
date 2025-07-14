@@ -1,0 +1,21 @@
+{
+  "question": "Which firms are publishing open-source AI tools and actively engaging developers via GitHub?",
+  "tables": ["CompanyGithubDetail", "CompanyFocusAreaDetail"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify firms publishing open-source AI tools.",
+      "table": ["CompanyFocusAreaDetail"]
+    },
+    {
+      "step": 2,
+      "task": "Analyze GitHub activity and developer engagement.",
+      "table": ["CompanyGithubDetail"]
+    },
+    {
+      "step": 3,
+      "task": "Match open-source tool publishers with active GitHub engagement.",
+      "table": ["CompanyFocusAreaDetail", "CompanyGithubDetail"]
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "question": "What are the common use cases of AI highlighted in LinkedIn posts by companies that increased their R&D budgets?",
+  "tables": ["PersonaLinkedinPost", "CompanyInfo"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies that increased their R&D budgets.",
+      "table": ["CompanyInfo"]
+    },
+    {
+      "step": 2,
+      "task": "Extract LinkedIn posts related to AI use cases by those companies.",
+      "table": ["PersonaLinkedinPost"]
+    },
+    {
+      "step": 3,
+      "task": "Analyze common use cases across posts.",
+      "table": ["PersonaLinkedinPost"]
+    }
+  ]
+}

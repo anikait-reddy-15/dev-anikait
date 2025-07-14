@@ -1,0 +1,20 @@
+{
+  "question": "Where are companies focusing their hiring efforts in response to increasing competition in analytics?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Analyze hiring data related to analytics roles from CompanyHiringDetail",
+      "table": ["CompanyHiringDetail"]
+    },
+    {
+      "step": 2,
+      "task": "Identify strategic focus changes from CompanyFocusAreaDetail",
+      "table": ["CompanyFocusAreaDetail"]
+    },
+    {
+      "step": 3,
+      "task": "Link competitive pressure areas with hiring trends",
+      "table": ["CompanyHiringDetail", "CompanyFocusAreaDetail"]
+    }
+  ]
+}

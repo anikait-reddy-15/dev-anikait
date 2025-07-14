@@ -1,0 +1,26 @@
+{
+  "question": "Which companies in the financial sector have signed analytics vendor deals after major leadership changes?",
+  "tables": ["CompanyDealMaster", "CompanyManagementDetail", "CompanyInfo"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies in the financial sector.",
+      "table": ["CompanyInfo"]
+    },
+    {
+      "step": 2,
+      "task": "Find those companies that signed analytics vendor deals recently.",
+      "table": ["CompanyDealMaster"]
+    },
+    {
+      "step": 3,
+      "task": "Check if these companies had major leadership changes recently.",
+      "table": ["CompanyManagementDetail"]
+    },
+    {
+      "step": 4,
+      "task": "Combine all filters to get final companies.",
+      "table": ["CompanyInfo", "CompanyDealMaster", "CompanyManagementDetail"]
+    }
+  ]
+}

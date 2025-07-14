@@ -1,0 +1,21 @@
+{
+  "question": "What technologies are frequently mentioned by companies that have publicly shared their strategic focus on sustainability initiatives?",
+  "tables": ["CompanyTechStack", "CompanyFocusAreaDetail"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies that have a strategic focus on sustainability initiatives. [CompanyFocusAreaDetail]",
+      "table": ["CompanyFocusAreaDetail"]
+    },
+    {
+      "step": 2,
+      "task": "Filter the identified companies to extract their technology mentions. [CompanyTechStack]",
+      "table": ["CompanyTechStack"]
+    },
+    {
+      "step": 3,
+      "task": "Aggregate and analyze the technologies mentioned by these companies. [CompanyTechStack]",
+      "table": ["CompanyTechStack"]
+    }
+  ]
+}

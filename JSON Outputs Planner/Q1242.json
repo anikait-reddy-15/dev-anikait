@@ -1,0 +1,20 @@
+{
+  "question": "Which firms in the education sector are currently investing in learning management systems?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Filter companies in the education sector from CompanyInfo",
+      "table": ["CompanyInfo"]
+    },
+    {
+      "step": 2,
+      "task": "Search for learning management systems in their tech stack using CompanyTechStack",
+      "table": ["CompanyTechStack"]
+    },
+    {
+      "step": 3,
+      "task": "List all firms meeting the above criteria",
+      "table": ["CompanyInfo", "CompanyTechStack"]
+    }
+  ]
+}

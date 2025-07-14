@@ -1,0 +1,21 @@
+{
+  "question": "What technologies are being used by firms that recently won awards in digital transformation?",
+  "tables": ["CompanyAwardDetail", "CompanyTechStack"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify firms that won awards related to digital transformation. [CompanyAwardDetail]",
+      "table": ["CompanyAwardDetail"]
+    },
+    {
+      "step": 2,
+      "task": "Retrieve technologies used by those firms from CompanyTechStack. [CompanyTechStack]",
+      "table": ["CompanyTechStack"]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the tech stack for patterns or common technologies. [CompanyAwardDetail, CompanyTechStack]",
+      "table": ["CompanyAwardDetail", "CompanyTechStack"]
+    }
+  ]
+}

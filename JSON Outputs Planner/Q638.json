@@ -1,0 +1,21 @@
+{
+  "question": "Which companies have been posting videos on YouTube discussing their cloud and AI strategy?",
+  "tables": ["CompanyYoutubeDetail", "CompanyFocusAreaDetail"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Find companies posting videos about cloud and AI strategy on YouTube.",
+      "table": ["CompanyYoutubeDetail"]
+    },
+    {
+      "step": 2,
+      "task": "Filter companies focusing on cloud and AI strategies.",
+      "table": ["CompanyFocusAreaDetail"]
+    },
+    {
+      "step": 3,
+      "task": "Match the companies from both tables.",
+      "table": ["CompanyYoutubeDetail", "CompanyFocusAreaDetail"]
+    }
+  ]
+}

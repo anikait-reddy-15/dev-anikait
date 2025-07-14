@@ -1,0 +1,20 @@
+{
+  "question": "What tech stack changes were noted in companies that recently published insights on industry trends?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies sharing insights on industry trends.",
+      "table": ["IndustryBusinessTrend"]
+    },
+    {
+      "step": 2,
+      "task": "Review recent changes in the tech stack of those companies.",
+      "table": ["CompanyTechStack"]
+    },
+    {
+      "step": 3,
+      "task": "Highlight technology changes relevant to the trends shared.",
+      "table": ["CompanyTechStack", "IndustryBusinessTrend"]
+    }
+  ]
+}

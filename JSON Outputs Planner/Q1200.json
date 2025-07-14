@@ -1,0 +1,20 @@
+{
+  "question": "How are leadership teams positioning their companies in response to global AI regulatory changes?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Extract leadership excerpts mentioning regulatory or compliance efforts in AI",
+      "table": ["CompanyLeadershipExcerpt"]
+    },
+    {
+      "step": 2,
+      "task": "Identify strategic adjustments or public statements related to compliance",
+      "table": ["CompanyFocusAreaDetail"]
+    },
+    {
+      "step": 3,
+      "task": "Map these to company verticals or regions of operation",
+      "table": ["CompanyInfo"]
+    }
+  ]
+}

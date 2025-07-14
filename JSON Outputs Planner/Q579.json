@@ -1,0 +1,26 @@
+{
+  "question": "What technologies are prevalent among companies that have made recent vendor deals for big data solutions?",
+  "tables": ["CompanyDealMaster", "CompanyVendorProductDetail", "CompanyTechStack"],
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify recent vendor deals related to big data solutions from the CompanyDealMaster table. [CompanyDealMaster]",
+      "table": ["CompanyDealMaster"]
+    },
+    {
+      "step": 2,
+      "task": "Gather details about the vendor products associated with those deals from the CompanyVendorProductDetail table. [CompanyVendorProductDetail]",
+      "table": ["CompanyVendorProductDetail"]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the technologies utilized by the companies in their tech stack from the CompanyTechStack table. [CompanyTechStack]",
+      "table": ["CompanyTechStack"]
+    },
+    {
+      "step": 4,
+      "task": "Combine the data to identify prevalent technologies among those companies. [CompanyDealMaster, CompanyVendorProductDetail, CompanyTechStack]",
+      "table": ["CompanyDealMaster", "CompanyVendorProductDetail", "CompanyTechStack"]
+    }
+  ]
+}
