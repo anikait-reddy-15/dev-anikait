@@ -1,0 +1,27 @@
+{
+  "question": "Which companies have shifted their YouTube content strategies towards new digital platforms and technologies?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies with YouTube content strategies.",
+      "table": [
+        "PersonaLinkedinActivity"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Find shifts towards new digital platforms and technologies.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Combine results to find companies meeting both criteria.",
+      "table": [
+        "PersonaLinkedinActivity",
+        "IndustryITTrend"
+      ]
+    }
+  ]
+}

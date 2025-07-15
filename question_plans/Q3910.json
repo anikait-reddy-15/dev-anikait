@@ -1,0 +1,26 @@
+{
+  "question": "Which fintech companies have significantly increased their LinkedIn posts about blockchain technology and innovation?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify fintech companies.",
+      "table": [
+        "IndustryBusinessTrend"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Analyze their LinkedIn posts for mentions of blockchain technology and innovation.",
+      "table": [
+        "PersonaLinkedinPost"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Filter companies that have significantly increased their posts on these topics.",
+      "table": [
+        "PersonaLinkedinPost"
+      ]
+    }
+  ]
+}

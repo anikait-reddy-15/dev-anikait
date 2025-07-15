@@ -1,0 +1,26 @@
+{
+  "question": "What technologies are less common among companies that reshuffled their management within the tech domain?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies that reshuffled their management within the tech domain from PersonaLinkedInProfile.",
+      "table": [
+        "PersonaLinkedInProfile"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract technologies used by these companies from PersonaTwitterProfile.",
+      "table": [
+        "PersonaTwitterProfile"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Determine which technologies are less common.",
+      "table": [
+        "PersonaTwitterProfile"
+      ]
+    }
+  ]
+}

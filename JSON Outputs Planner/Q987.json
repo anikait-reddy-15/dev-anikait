@@ -1,21 +1,27 @@
 {
   "question": "Which oil and gas firms are using AI to improve drilling accuracy and reduce environmental risks?",
-  "tables": ["CompanyFocusAreaDetail", "CompanyInfo"],
   "subtasks": [
     {
       "step": 1,
       "task": "Identify oil and gas firms using AI.",
-      "table": ["CompanyInfo"]
+      "table": [
+        "CompanyInfo"
+      ]
     },
     {
       "step": 2,
       "task": "Check for AI in drilling optimization and risk mitigation.",
-      "table": ["CompanyFocusAreaDetail"]
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
     },
     {
       "step": 3,
       "task": "List firms using AI for safer drilling operations.",
-      "table": ["CompanyFocusAreaDetail", "CompanyInfo"]
+      "table": [
+        "CompanyFocusAreaDetail",
+        "CompanyInfo"
+      ]
     }
   ]
 }

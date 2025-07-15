@@ -1,21 +1,27 @@
 {
   "question": "What companies experienced an uptick in hiring for data-related positions just after closing strategic vendor partnerships?",
-  "tables": ["CompanyHiringDetail", "CompanyDealMaster"],
   "subtasks": [
     {
       "step": 1,
       "task": "Identify companies that have closed strategic vendor partnerships. [CompanyDealMaster]",
-      "table": ["CompanyDealMaster"]
+      "table": [
+        "CompanyDealMaster"
+      ]
     },
     {
       "step": 2,
       "task": "Analyze hiring data to find upticks in data-related positions. [CompanyHiringDetail]",
-      "table": ["CompanyHiringDetail"]
+      "table": [
+        "CompanyHiringDetail"
+      ]
     },
     {
       "step": 3,
       "task": "Correlate the hiring upticks with the timing of the vendor partnerships. [CompanyHiringDetail, CompanyDealMaster]",
-      "table": ["CompanyHiringDetail", "CompanyDealMaster"]
+      "table": [
+        "CompanyHiringDetail",
+        "CompanyDealMaster"
+      ]
     }
   ]
 }

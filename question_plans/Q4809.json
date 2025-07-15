@@ -1,0 +1,26 @@
+{
+  "question": "What cloud providers are most frequently mentioned by tech leaders in their public speeches?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify tech leaders and their public speeches.",
+      "table": [
+        "PersonaMisc"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract mentions of cloud providers from these speeches.",
+      "table": [
+        "SectionTitle"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Determine the most frequently mentioned cloud providers.",
+      "table": [
+        "SectionTitle"
+      ]
+    }
+  ]
+}

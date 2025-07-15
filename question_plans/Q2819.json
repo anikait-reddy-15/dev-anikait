@@ -1,0 +1,26 @@
+{
+  "question": "Which companies are updating their tech stacks to incorporate automation tools, and what are their strategic priorities?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies updating their tech stacks to incorporate automation tools.",
+      "table": [
+        "CompanyVendorProductDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Determine the strategic priorities of these companies.",
+      "table": [
+        "CompanyVendorProductDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "List companies with both criteria.",
+      "table": [
+        "CompanyVendorProductDetail"
+      ]
+    }
+  ]
+}

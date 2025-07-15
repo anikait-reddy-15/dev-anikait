@@ -1,0 +1,26 @@
+{
+  "question": "Which company leaders have highlighted challenges in blockchain adoption in their public speeches?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify speeches or public communications related to blockchain adoption challenges.",
+      "table": [
+        "PageInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract leadership excerpts where challenges in blockchain adoption are discussed.",
+      "table": [
+        "PageInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Link the identified leaders to their respective companies.",
+      "table": [
+        "CompanyVendorProductDetail"
+      ]
+    }
+  ]
+}

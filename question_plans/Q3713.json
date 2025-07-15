@@ -1,0 +1,24 @@
+{
+  "question": "What are the key areas of focus stated by companies that are actively hiring data scientists this quarter?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies actively hiring data scientists this quarter.",
+      "table": [
+        "PersonaUser"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Identify key areas of focus for these companies.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "List the key areas of focus.",
+      "table": []
+    }
+  ]
+}

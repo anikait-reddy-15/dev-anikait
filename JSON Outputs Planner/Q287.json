@@ -1,21 +1,26 @@
 {
   "question": "What are the key technologies adopted by companies that reported a significant increase in their data science team size over the last year?",
-  "tables": ["CompanyTechStack", "CompanyHiringDetail"],
   "subtasks": [
     {
       "step": 1,
       "task": "Identify companies that reported an increase in their data science team size. [CompanyHiringDetail]",
-      "table": ["CompanyHiringDetail"]
+      "table": [
+        "CompanyHiringDetail"
+      ]
     },
     {
       "step": 2,
       "task": "Filter the companies based on the reported increase in team size over the last year. [CompanyHiringDetail]",
-      "table": ["CompanyHiringDetail"]
+      "table": [
+        "CompanyHiringDetail"
+      ]
     },
     {
       "step": 3,
       "task": "Retrieve the key technologies adopted by these companies. [CompanyTechStack]",
-      "table": ["CompanyTechStack"]
+      "table": [
+        "CompanyTechStack"
+      ]
     }
   ]
 }

@@ -1,0 +1,26 @@
+{
+  "question": "How do industry-wide IT investments link with an observable alteration in lead speeches about growth?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify IT investment trends from the PersonaLinkedInProfile table.",
+      "table": [
+        "PersonaLinkedInProfile"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract leadership excerpts related to growth from the PersonaLinkedInProfile table.",
+      "table": [
+        "PersonaLinkedInProfile"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the correlation between IT investments and changes in leadership speeches.",
+      "table": [
+        "PersonaLinkedInProfile"
+      ]
+    }
+  ]
+}

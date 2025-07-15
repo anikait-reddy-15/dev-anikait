@@ -1,0 +1,27 @@
+{
+  "question": "How are workforce dynamics shifting towards the adoption of virtual reality tools for communication and training?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify trends in virtual reality tools for communication and training.",
+      "table": [
+        "SectionInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Determine companies adopting virtual reality tools.",
+      "table": [
+        "CompanyDealMaster"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze shifts in workforce dynamics due to virtual reality adoption.",
+      "table": [
+        "CompanyDealMaster",
+        "SectionInfo"
+      ]
+    }
+  ]
+}

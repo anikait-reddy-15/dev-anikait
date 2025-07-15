@@ -1,6 +1,5 @@
 {
   "question": "What are the prevalent themes in technology investments discussed on Twitter by data-oriented companies?",
-  "tables": ["CompanyTwitterDetail", "CompanyTechStack"],
   "subtasks": [
     {
       "step": 1,

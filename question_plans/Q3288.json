@@ -1,0 +1,27 @@
+{
+  "question": "Which healthcare firms have observable Facebook trends post their new biotech partnerships?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify healthcare firms with new biotech partnerships.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract Facebook trends related to these firms.",
+      "table": [
+        "CompanyManagementDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the impact of biotech partnerships on Facebook trends for these firms.",
+      "table": [
+        "CompanyInfo",
+        "CompanyManagementDetail"
+      ]
+    }
+  ]
+}

@@ -1,6 +1,5 @@
 {
   "question": "How often are emerging technology trends in data analytics reflected in executive discussions within companies?",
-  "tables": ["CompanyLeadershipExcerpt", "IndustryITTrend"],
   "subtasks": [
     {
       "step": 1,

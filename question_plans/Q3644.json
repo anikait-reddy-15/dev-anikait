@@ -1,0 +1,27 @@
+{
+  "question": "Which firms' vendor product strategies are influenced by leadership's public online declarations?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Extract leadership's public online declarations from the PersonaYoutubeProfile table.",
+      "table": [
+        "PersonaYoutubeProfile"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Identify firms' vendor product strategies from the IndustryBusinessTrend table.",
+      "table": [
+        "IndustryBusinessTrend"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Determine which vendor product strategies are influenced by leadership's declarations.",
+      "table": [
+        "PersonaYoutubeProfile",
+        "IndustryBusinessTrend"
+      ]
+    }
+  ]
+}

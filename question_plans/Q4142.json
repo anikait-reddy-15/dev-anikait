@@ -1,0 +1,26 @@
+{
+  "question": "How are leadership changes impacting strategic tech initiatives in major consulting firms?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify major consulting firms from the CompanyITPartnerDetail table.",
+      "table": [
+        "CompanyITPartnerDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract information on leadership changes from the SectionTitle table.",
+      "table": [
+        "SectionTitle"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the impact of these leadership changes on strategic tech initiatives.",
+      "table": [
+        "SectionTitle"
+      ]
+    }
+  ]
+}

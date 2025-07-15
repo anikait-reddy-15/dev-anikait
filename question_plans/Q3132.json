@@ -1,0 +1,24 @@
+{
+  "question": "Which companies crafted strategies around sustainability in their latest LinkedIn posts while updating their tech infrastructure?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies that have posted about sustainability on LinkedIn.",
+      "table": [
+        "SocialMediaInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Find instances where these companies have updated their tech infrastructure.",
+      "table": [
+        "CompanyTwitterDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Combine the results to find companies focusing on both sustainability and tech updates.",
+      "table": []
+    }
+  ]
+}

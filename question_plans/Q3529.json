@@ -1,0 +1,27 @@
+{
+  "question": "What are the distinguishing factors among enterprises enhancing their Twitter engagement by integrating AR into their products?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify enterprises enhancing their Twitter engagement.",
+      "table": [
+        "CompanyManagementDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Find enterprises integrating AR into their products.",
+      "table": [
+        "SectionInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze distinguishing factors of these enterprises.",
+      "table": [
+        "CompanyManagementDetail",
+        "SectionInfo"
+      ]
+    }
+  ]
+}

@@ -1,6 +1,5 @@
 {
   "question": "What are the top three focus areas for companies that have published recent YouTube content highlighting their analytics capabilities?",
-  "tables": ["CompanyYoutubeDetail", "CompanyFocusAreaDetail"],
   "subtasks": [
     {
       "step": 1,

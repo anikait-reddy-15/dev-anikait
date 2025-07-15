@@ -1,0 +1,24 @@
+{
+  "question": "What technologies are prevalent in biotechnology firms that recently altered their leadership structures?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify biotechnology firms with recent leadership changes.",
+      "table": [
+        "PersonaUser"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract prevalent technologies in these firms.",
+      "table": [
+        "PersonaLinkedinActivity"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "List the prevalent technologies in these firms.",
+      "table": []
+    }
+  ]
+}

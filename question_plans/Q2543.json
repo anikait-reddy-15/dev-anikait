@@ -1,0 +1,26 @@
+{
+  "question": "What KOLs appeared in LinkedIn posts related to firms' digital service transformations last year?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify LinkedIn posts related to digital service transformations from PersonaLinkedInProfile.",
+      "table": [
+        "PersonaLinkedInProfile"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract KOLs mentioned in these posts.",
+      "table": [
+        "PersonaLinkedInProfile"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Filter the posts to include only those from last year.",
+      "table": [
+        "PersonaLinkedInProfile"
+      ]
+    }
+  ]
+}

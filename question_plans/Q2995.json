@@ -1,0 +1,26 @@
+{
+  "question": "How do automotive sector initiatives relate to their unique tech stack compositions?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies in the automotive sector from the CompanyTechStack table.",
+      "table": [
+        "CompanyTechStack"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract initiatives undertaken by these companies.",
+      "table": [
+        "CompanyTechStack"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the relationship between these initiatives and their tech stack compositions.",
+      "table": [
+        "CompanyTechStack"
+      ]
+    }
+  ]
+}

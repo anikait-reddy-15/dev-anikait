@@ -1,0 +1,24 @@
+{
+  "question": "Which companies illustrate synergy between Instagram marketing boosts and SaaS adoption rates?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies with Instagram marketing boosts",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Identify companies with high SaaS adoption rates",
+      "table": [
+        "CompanyVendorProductDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Find intersection of companies from both subtasks to illustrate synergy",
+      "table": []
+    }
+  ]
+}

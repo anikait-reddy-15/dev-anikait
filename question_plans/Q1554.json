@@ -1,0 +1,27 @@
+{
+  "question": "How do competitive intelligence teams at big data firms feel about their recent hires and management changes?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify big data firms with recent hires and management changes.",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract opinions of competitive intelligence teams on these changes.",
+      "table": [
+        "SectionTitle"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze sentiments regarding recent hires and management changes.",
+      "table": [
+        "CompanyHiringDetail",
+        "SectionTitle"
+      ]
+    }
+  ]
+}

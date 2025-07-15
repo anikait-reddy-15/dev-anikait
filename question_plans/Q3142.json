@@ -1,0 +1,24 @@
+{
+  "question": "How does the social media outreach for startups intersect with their tech stack evolution?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Extract social media outreach data for startups.",
+      "table": [
+        "SocialMediaInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Identify tech stack evolution details for startups.",
+      "table": [
+        "CompanyTwitterDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the intersection between social media outreach and tech stack evolution.",
+      "table": []
+    }
+  ]
+}

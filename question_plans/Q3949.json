@@ -1,0 +1,26 @@
+{
+  "question": "How are consumer brands maintaining competitive advantage following the integration of innovative customer engagement platforms?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify consumer brands integrating innovative customer engagement platforms.",
+      "table": [
+        "PersonaLinkedinPost"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Assess competitive advantages maintained by these brands.",
+      "table": [
+        "PersonaLinkedinPost"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the relationship between platform integration and competitive advantage.",
+      "table": [
+        "PersonaLinkedinPost"
+      ]
+    }
+  ]
+}

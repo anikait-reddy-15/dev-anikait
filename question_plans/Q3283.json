@@ -1,0 +1,26 @@
+{
+  "question": "What tactics are highlighted in YouTube contents of companies undergoing digital transformations parallel to industry IT trends?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies undergoing digital transformations.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract IT trends relevant to digital transformations.",
+      "table": [
+        "IndustryBusinessTrend"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze YouTube content for tactics highlighted by these companies.",
+      "table": [
+        "CompanyManagementDetail"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "question": "What is the correlation between IT\u2019s involvement in risk management and shifts in cloud service partnerships?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify IT's involvement in risk management activities.",
+      "table": [
+        "SectionData"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Find shifts in cloud service partnerships.",
+      "table": [
+        "SectionData"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze correlation between IT involvement and cloud partnerships.",
+      "table": []
+    }
+  ]
+}

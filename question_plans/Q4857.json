@@ -1,0 +1,24 @@
+{
+  "question": "Who are the standout voices in 5G innovation, paying attention to mentions in public speeches?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify public speeches mentioning 5G innovation",
+      "table": [
+        "SectionTitle"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Identify individuals mentioned in these speeches",
+      "table": [
+        "PersonaMisc"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Determine standout voices based on frequency of mentions",
+      "table": []
+    }
+  ]
+}

@@ -1,21 +1,27 @@
 {
   "question": "Which organizations have recently expanded their use of AI in cybersecurity and published blog articles discussing their initiatives?",
-  "tables": ["CompanyTechStack", "CompanyBlogDetail"],
   "subtasks": [
     {
       "step": 1,
       "task": "Identify organizations expanding AI use in cybersecurity.",
-      "table": ["CompanyTechStack"]
+      "table": [
+        "CompanyTechStack"
+      ]
     },
     {
       "step": 2,
       "task": "Find organizations publishing blog content on the topic.",
-      "table": ["CompanyBlogDetail"]
+      "table": [
+        "CompanyBlogDetail"
+      ]
     },
     {
       "step": 3,
       "task": "Match blog-publishing companies to AI-in-cybersecurity adopters.",
-      "table": ["CompanyTechStack", "CompanyBlogDetail"]
+      "table": [
+        "CompanyTechStack",
+        "CompanyBlogDetail"
+      ]
     }
   ]
 }

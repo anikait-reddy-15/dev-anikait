@@ -1,0 +1,26 @@
+{
+  "question": "What specific business trends have been acknowledged by C-level executives as crucial in recent LinkedIn activities?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify LinkedIn activities by C-level executives.",
+      "table": [
+        "PersonaLinkedInProfile"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract business trends mentioned in these activities.",
+      "table": [
+        "PersonaLinkedInProfile"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze which business trends are acknowledged as crucial.",
+      "table": [
+        "PersonaLinkedInProfile"
+      ]
+    }
+  ]
+}

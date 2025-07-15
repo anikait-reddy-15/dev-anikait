@@ -1,0 +1,26 @@
+{
+  "question": "Which corporate IT trends correlate well with vendor collaboration details in recent times?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify recent corporate IT trends.",
+      "table": [
+        "CompanyTwitterDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract details of vendor collaborations.",
+      "table": [
+        "CompanyTwitterDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the correlation between IT trends and vendor collaboration details.",
+      "table": [
+        "CompanyTwitterDetail"
+      ]
+    }
+  ]
+}

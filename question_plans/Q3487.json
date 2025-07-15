@@ -1,0 +1,27 @@
+{
+  "question": "Where do companies underscore value in machine economy concepts alongside surges in YouTube educational content?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies emphasizing machine economy concepts",
+      "table": [
+        "SectionInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Find YouTube educational content surges related to these concepts",
+      "table": [
+        "PersonaYoutubeProfile"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Correlate company emphasis with YouTube content trends",
+      "table": [
+        "SectionInfo",
+        "PersonaYoutubeProfile"
+      ]
+    }
+  ]
+}

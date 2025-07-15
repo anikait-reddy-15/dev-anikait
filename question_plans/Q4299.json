@@ -1,0 +1,26 @@
+{
+  "question": "What are the predominant themes in YouTube content describing tech-enabled regulatory compliance?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify YouTube content related to tech-enabled regulatory compliance.",
+      "table": [
+        "SectionTitle"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract themes from the identified YouTube content.",
+      "table": [
+        "SectionTitle"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Determine the predominant themes in this content.",
+      "table": [
+        "SectionTitle"
+      ]
+    }
+  ]
+}

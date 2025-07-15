@@ -1,6 +1,5 @@
 {
   "question": "What are the most frequently mentioned technologies among companies that recently expanded their data centers?",
-  "tables": ["CompanyDataCenter", "CompanyTechStack"],
   "subtasks": [
     {
       "step": 1,

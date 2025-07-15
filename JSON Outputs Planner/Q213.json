@@ -1,21 +1,27 @@
 {
   "question": "Who are the data science professionals at organizations that have engaged in vendor partnerships for advanced analytics capabilities recently?",
-  "tables": ["PersonaUser", "CompanyDealMaster", "CompanyVendorProductDetail"],
   "subtasks": [
     {
       "step": 1,
       "task": "Identify organizations that have engaged in vendor partnerships for advanced analytics",
-      "table": ["CompanyDealMaster", "CompanyVendorProductDetail"]
+      "table": [
+        "CompanyDealMaster",
+        "CompanyVendorProductDetail"
+      ]
     },
     {
       "step": 2,
       "task": "Extract data science professionals associated with these organizations",
-      "table": ["PersonaUser"]
+      "table": [
+        "PersonaUser"
+      ]
     },
     {
       "step": 3,
       "task": "Match the data science professionals with the vendor partnerships",
-      "table": ["CompanyDealMaster"]
+      "table": [
+        "CompanyDealMaster"
+      ]
     }
   ]
 }

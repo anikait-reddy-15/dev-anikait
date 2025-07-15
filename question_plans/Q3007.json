@@ -1,0 +1,26 @@
+{
+  "question": "Which vendors are providing IoT solutions to manufacturing companies that have shown an increase in Twitter engagement?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify manufacturing companies that have shown an increase in Twitter engagement.",
+      "table": [
+        "CompanyTwitterDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Identify vendors providing IoT solutions to the companies identified in step 1.",
+      "table": [
+        "CompanyManagementDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "List the vendors providing IoT solutions to these companies.",
+      "table": [
+        "CompanyManagementDetail"
+      ]
+    }
+  ]
+}

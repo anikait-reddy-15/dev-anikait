@@ -1,0 +1,26 @@
+{
+  "question": "Which sectors are at the forefront of technological rollouts as hinted in their social media narratives?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Extract social media narratives from the PersonaLinkedInProfile table.",
+      "table": [
+        "PersonaLinkedInProfile"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Identify mentions of technological rollouts in these narratives.",
+      "table": [
+        "PersonaLinkedInProfile"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Determine which sectors are leading these technological rollouts.",
+      "table": [
+        "PersonaLinkedInProfile"
+      ]
+    }
+  ]
+}

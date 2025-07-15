@@ -1,0 +1,26 @@
+{
+  "question": "How do companies plan to enhance their tech stacks while also promoting eco-friendly products on Instagram?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies promoting eco-friendly products on Instagram.",
+      "table": [
+        "CompanyYoutubeDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract plans for tech stack enhancements from these companies.",
+      "table": [
+        "CompanyYoutubeDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the relationship between tech stack enhancements and eco-friendly promotions.",
+      "table": [
+        "CompanyYoutubeDetail"
+      ]
+    }
+  ]
+}

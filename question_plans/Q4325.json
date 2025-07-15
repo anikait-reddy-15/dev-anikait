@@ -1,0 +1,26 @@
+{
+  "question": "How frequently do companies investing in AI post about it on Twitter and what type of engagement do they see?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies investing in AI from the CompanyDealMaster table.",
+      "table": [
+        "CompanyDealMaster"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract Twitter post frequency related to AI from the PersonaYoutubeProfile table.",
+      "table": [
+        "PersonaYoutubeProfile"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the type of engagement these posts receive.",
+      "table": [
+        "PersonaYoutubeProfile"
+      ]
+    }
+  ]
+}

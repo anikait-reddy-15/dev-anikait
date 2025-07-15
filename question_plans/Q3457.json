@@ -1,0 +1,26 @@
+{
+  "question": "Which companies' leadership iterations emphasize innovation-first approaches while receiving high engagement on Instagram posts?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies with leadership iterations emphasizing innovation-first approaches.",
+      "table": [
+        "SectionTitle"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Find companies receiving high engagement on Instagram posts.",
+      "table": [
+        "PersonaYoutubeProfile"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Correlate innovation-first approaches with Instagram engagement.",
+      "table": [
+        "CompanyDataCenter"
+      ]
+    }
+  ]
+}

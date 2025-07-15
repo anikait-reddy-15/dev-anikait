@@ -1,0 +1,27 @@
+{
+  "question": "What IT-related themes are commonly elaborated upon in leadership excerpts by companies focusing on sustainability?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies focusing on sustainability.",
+      "table": [
+        "CompanyVendorProductDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract IT-related themes from leadership excerpts.",
+      "table": [
+        "SectionData"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze common IT-related themes in the context of sustainability.",
+      "table": [
+        "CompanyVendorProductDetail",
+        "SectionData"
+      ]
+    }
+  ]
+}

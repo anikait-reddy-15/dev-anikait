@@ -1,0 +1,26 @@
+{
+  "question": "Who are the architects defining enterprise mobility as gleaned through leadership excerpts demographic data?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Extract leadership excerpts related to enterprise mobility.",
+      "table": [
+        "SectionData"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Identify key architects from the leadership excerpts.",
+      "table": [
+        "SectionData"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze demographic data to understand the background of these architects.",
+      "table": [
+        "PersonaTitle"
+      ]
+    }
+  ]
+}

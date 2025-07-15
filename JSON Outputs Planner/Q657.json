@@ -1,21 +1,27 @@
 {
   "question": "What are the strategic priorities of companies posting regularly about AI ethics on Twitter?",
-  "tables": ["CompanyFocusAreaDetail", "PersonaTwitterProfile"],
   "subtasks": [
     {
       "step": 1,
       "task": "Identify companies whose leaders post about AI ethics on Twitter.",
-      "table": ["PersonaTwitterProfile"]
+      "table": [
+        "PersonaTwitterProfile"
+      ]
     },
     {
       "step": 2,
       "task": "Extract strategic priorities of these companies.",
-      "table": ["CompanyFocusAreaDetail"]
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
     },
     {
       "step": 3,
       "task": "Combine the findings.",
-      "table": ["PersonaTwitterProfile", "CompanyFocusAreaDetail"]
+      "table": [
+        "PersonaTwitterProfile",
+        "CompanyFocusAreaDetail"
+      ]
     }
   ]
 }

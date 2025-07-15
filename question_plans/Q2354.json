@@ -1,0 +1,26 @@
+{
+  "question": "How many startups are setting tech benchmarks in automation shared via Instagram among their technology partners?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify startups setting tech benchmarks in automation.",
+      "table": [
+        "SectionInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract Instagram shares related to these benchmarks.",
+      "table": [
+        "SectionTitle"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Count the startups sharing these benchmarks among their technology partners.",
+      "table": [
+        "CompanyDealMaster"
+      ]
+    }
+  ]
+}

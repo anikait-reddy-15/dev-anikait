@@ -1,0 +1,27 @@
+{
+  "question": "What technology operations are prioritized by companies with IT directors actively posting on LinkedIn?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify IT directors actively posting on LinkedIn from the PersonaMisc table.",
+      "table": [
+        "PersonaMisc"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract technology operations from the CompanyVendorProductDetail table.",
+      "table": [
+        "CompanyVendorProductDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Determine prioritized technology operations by these companies.",
+      "table": [
+        "PersonaMisc",
+        "CompanyVendorProductDetail"
+      ]
+    }
+  ]
+}

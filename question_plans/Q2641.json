@@ -1,0 +1,26 @@
+{
+  "question": "What are the skills attributed to CEOs influencing technology adaptation in the automotive sector?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify CEOs within the automotive sector.",
+      "table": [
+        "PersonaTitle"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract skills related to technology adaptation for these CEOs.",
+      "table": [
+        "SectionData"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Filter skills specifically influencing technology adaptation.",
+      "table": [
+        "SectionData"
+      ]
+    }
+  ]
+}

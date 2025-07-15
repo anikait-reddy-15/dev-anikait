@@ -1,0 +1,27 @@
+{
+  "question": "Which companies have recently invested in machine learning platforms and are also increasing their data center capacities?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies investing in machine learning platforms from the CompanyDealMaster table.",
+      "table": [
+        "CompanyDealMaster"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Find companies increasing their data center capacities.",
+      "table": [
+        "CompanyITPartnerDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Combine results to find companies meeting both criteria.",
+      "table": [
+        "CompanyDealMaster",
+        "CompanyITPartnerDetail"
+      ]
+    }
+  ]
+}

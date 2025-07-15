@@ -1,0 +1,24 @@
+{
+  "question": "Which sectors frequently mention robotic process automation in their digital transformation strategies?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify sectors involved in digital transformation strategies.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract mentions of robotic process automation within these strategies.",
+      "table": [
+        "SectionTitle"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Determine frequency of mentions to identify key sectors.",
+      "table": []
+    }
+  ]
+}

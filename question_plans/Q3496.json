@@ -1,0 +1,27 @@
+{
+  "question": "Which leading figures reinforced their company's digital skill-building endeavors while influencing platforms like YouTube training channels?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify leading figures involved in digital skill-building",
+      "table": [
+        "SectionTitle"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract YouTube training channel influences by these figures",
+      "table": [
+        "PersonaYoutubeProfile"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Correlate skill-building endeavors with YouTube channel influences",
+      "table": [
+        "SectionTitle",
+        "PersonaYoutubeProfile"
+      ]
+    }
+  ]
+}

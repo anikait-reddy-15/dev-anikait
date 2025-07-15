@@ -1,0 +1,27 @@
+{
+  "question": "How are evolving company focus areas aligned with progressive trends in automated business processes?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify evolving focus areas of companies.",
+      "table": [
+        "CompanyTechStack"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract progressive trends in automated business processes.",
+      "table": [
+        "IndustryBusinessTrend"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the alignment between company focus areas and these trends.",
+      "table": [
+        "CompanyTechStack",
+        "IndustryBusinessTrend"
+      ]
+    }
+  ]
+}

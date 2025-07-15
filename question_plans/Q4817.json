@@ -1,0 +1,27 @@
+{
+  "question": "Which executives frequently discuss eco-friendly IT solutions and what vendors do they partner with?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify executives discussing eco-friendly IT solutions.",
+      "table": [
+        "PersonaMisc"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Identify vendors these executives partner with.",
+      "table": [
+        "CompanyVendorProductDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "List executives and their associated vendors.",
+      "table": [
+        "PersonaMisc",
+        "CompanyVendorProductDetail"
+      ]
+    }
+  ]
+}

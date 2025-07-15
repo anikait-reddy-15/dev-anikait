@@ -1,0 +1,26 @@
+{
+  "question": "What speech topics align with top-tier firms revising their focus toward agile transformation?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify top-tier firms revising their focus toward agile transformation from PersonaLinkedInProfile.",
+      "table": [
+        "PersonaLinkedInProfile"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract speech topics from PersonaYoutubeProfile.",
+      "table": [
+        "PersonaYoutubeProfile"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Correlate speech topics with firms focusing on agile transformation.",
+      "table": [
+        "PersonaYoutubeProfile"
+      ]
+    }
+  ]
+}

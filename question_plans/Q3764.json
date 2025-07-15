@@ -1,0 +1,26 @@
+{
+  "question": "What Facebook content trends emerge among companies scaling their business operations in tech consultancy?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies scaling their business operations in tech consultancy from the IndustryITTrend table.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract Facebook content related to these companies from the PersonaLinkedinActivity table.",
+      "table": [
+        "PersonaLinkedinActivity"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze and summarize emerging Facebook content trends.",
+      "table": [
+        "PersonaLinkedinActivity"
+      ]
+    }
+  ]
+}

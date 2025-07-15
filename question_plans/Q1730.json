@@ -1,0 +1,26 @@
+{
+  "question": "Which executives discussed eCommerce innovations in leadership speeches tied to vendor deals?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Extract leadership speeches mentioning eCommerce innovations.",
+      "table": [
+        "CompanyTwitterDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Identify vendor deals mentioned in these speeches.",
+      "table": [
+        "CompanyTwitterDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "List executives who discussed eCommerce innovations linked to vendor deals.",
+      "table": [
+        "CompanyTwitterDetail"
+      ]
+    }
+  ]
+}

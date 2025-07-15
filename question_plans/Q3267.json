@@ -1,0 +1,26 @@
+{
+  "question": "What new patterns can be derived from Industrials sector's LinkedIn posts concerning process automation?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Extract LinkedIn posts from the Industrials sector.",
+      "table": [
+        "CompanyManagementDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Identify mentions of process automation in these posts.",
+      "table": [
+        "IndustryBusinessTrend"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Derive new patterns related to process automation.",
+      "table": [
+        "LookUpValue"
+      ]
+    }
+  ]
+}

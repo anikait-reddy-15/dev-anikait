@@ -1,0 +1,26 @@
+{
+  "question": "Which leadership figures are closely followed on Twitter for their tech innovations?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify leadership figures on Twitter.",
+      "table": [
+        "PersonaTwitterTweets"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Find mentions or discussions of tech innovations by these figures.",
+      "table": [
+        "PersonaTwitterTweets"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Determine which figures are closely followed for their innovations.",
+      "table": [
+        "PersonaTwitterTweets"
+      ]
+    }
+  ]
+}

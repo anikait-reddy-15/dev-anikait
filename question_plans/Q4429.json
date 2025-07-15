@@ -1,0 +1,26 @@
+{
+  "question": "How are data-driven decision-making processes reflected in company deal strategies?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies with data-driven decision-making processes.",
+      "table": [
+        "CompanyDataCenter"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract information on company deal strategies.",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the reflection of data-driven processes in these strategies.",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    }
+  ]
+}

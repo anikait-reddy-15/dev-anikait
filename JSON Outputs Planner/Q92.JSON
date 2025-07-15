@@ -1,6 +1,5 @@
 {
   "question": "What technology investments are being discussed by companies with high engagement on social media platforms?",
-  "tables": ["CompanyTechStack", "CompanySocialMediaInfo"],
   "subtasks": [
     {
       "step": 1,

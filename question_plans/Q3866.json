@@ -1,0 +1,26 @@
+{
+  "question": "What sectors are mostly utilizing leadership speeches to enhance tech-driven consumer services?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify leadership speeches related to tech-driven consumer services.",
+      "table": [
+        "CompanyManagementDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Determine sectors that reference these speeches.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze which sectors are mostly utilizing these speeches for enhancement.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "question": "Which personas with \"Chief Analytics Officer\" titles have recently commented on competitor innovations on Instagram?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify personas with \"Chief Analytics Officer\" titles.",
+      "table": [
+        "PersonaInstagramProfile"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Identify Instagram comments related to competitor innovations.",
+      "table": [
+        "PersonaInstagramProfile"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Match personas from step 1 with comments from step 2 to find relevant activity.",
+      "table": [
+        "PersonaInstagramProfile"
+      ]
+    }
+  ]
+}

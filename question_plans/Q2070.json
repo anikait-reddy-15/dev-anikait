@@ -1,0 +1,26 @@
+{
+  "question": "Which key functional areas are usually promoted among top IT vendors as noted in industry reports?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify key functional areas mentioned in industry reports.",
+      "table": [
+        "SocialMediaInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract information on top IT vendors.",
+      "table": [
+        "PersonaUser"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze promotion of functional areas by IT vendors.",
+      "table": [
+        "PersonaLinkedinActivity"
+      ]
+    }
+  ]
+}

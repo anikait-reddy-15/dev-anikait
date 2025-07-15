@@ -1,0 +1,26 @@
+{
+  "question": "Which companies are leveraging advanced analytics solutions and have documented insights from their tech stack updates?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies using advanced analytics solutions.",
+      "table": [
+        "CompanyTechStack"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract documented insights from these companies' tech stack updates.",
+      "table": [
+        "CompanyTechStack"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Combine the information to list companies and their tech stack insights.",
+      "table": [
+        "CompanyTechStack"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "question": "How are employee roles evolving connected to corporate agendas for internet technology growth?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify corporate agendas for internet technology growth from the CompanyDataCenter table.",
+      "table": [
+        "CompanyDataCenter"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract details of evolving employee roles from the PersonaLinkedInProfile table.",
+      "table": [
+        "PersonaLinkedInProfile"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the connection between role evolution and corporate agendas.",
+      "table": [
+        "CompanyDataCenter"
+      ]
+    }
+  ]
+}

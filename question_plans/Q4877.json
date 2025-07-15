@@ -1,0 +1,27 @@
+{
+  "question": "How do consumer preferences align with innovations in cloud computing according to social media narratives?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify consumer preferences from social media narratives.",
+      "table": [
+        "PersonaMisc"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Find innovations in cloud computing.",
+      "table": [
+        "CompanyVendorProductDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the alignment between consumer preferences and cloud computing innovations.",
+      "table": [
+        "PersonaMisc",
+        "CompanyVendorProductDetail"
+      ]
+    }
+  ]
+}

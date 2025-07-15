@@ -1,21 +1,27 @@
 {
   "question": "Which companies are leveraging AI to personalize onboarding and training programs for new employees?",
-  "tables": ["CompanyFocusAreaDetail", "CompanyInfo"],
   "subtasks": [
     {
       "step": 1,
       "task": "Identify companies using AI in learning and development.",
-      "table": ["CompanyFocusAreaDetail"]
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
     },
     {
       "step": 2,
       "task": "Check for personalization in onboarding and training workflows.",
-      "table": ["CompanyFocusAreaDetail"]
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
     },
     {
       "step": 3,
       "task": "List companies with AI-driven onboarding systems.",
-      "table": ["CompanyFocusAreaDetail", "CompanyInfo"]
+      "table": [
+        "CompanyFocusAreaDetail",
+        "CompanyInfo"
+      ]
     }
   ]
 }

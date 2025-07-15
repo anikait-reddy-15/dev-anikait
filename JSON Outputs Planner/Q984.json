@@ -1,21 +1,27 @@
 {
   "question": "Which entertainment companies are using AI to generate trailers and highlight reels automatically?",
-  "tables": ["CompanyFocusAreaDetail", "CompanyInfo"],
   "subtasks": [
     {
       "step": 1,
       "task": "Identify entertainment firms using AI.",
-      "table": ["CompanyInfo"]
+      "table": [
+        "CompanyInfo"
+      ]
     },
     {
       "step": 2,
       "task": "Check for AI in content summarization and video editing.",
-      "table": ["CompanyFocusAreaDetail"]
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
     },
     {
       "step": 3,
       "task": "List firms creating trailers using AI.",
-      "table": ["CompanyFocusAreaDetail", "CompanyInfo"]
+      "table": [
+        "CompanyFocusAreaDetail",
+        "CompanyInfo"
+      ]
     }
   ]
 }

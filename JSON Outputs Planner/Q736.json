@@ -1,21 +1,27 @@
 {
   "question": "Which companies are enhancing their data governance policies and have recently adopted cloud-native data platforms?",
-  "tables": ["CompanyFocusAreaDetail", "CompanyTechStack"],
   "subtasks": [
     {
       "step": 1,
       "task": "Identify companies enhancing data governance policies.",
-      "table": ["CompanyFocusAreaDetail"]
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
     },
     {
       "step": 2,
       "task": "Find those that adopted cloud-native data platforms.",
-      "table": ["CompanyTechStack"]
+      "table": [
+        "CompanyTechStack"
+      ]
     },
     {
       "step": 3,
       "task": "Match companies working on both initiatives.",
-      "table": ["CompanyFocusAreaDetail", "CompanyTechStack"]
+      "table": [
+        "CompanyFocusAreaDetail",
+        "CompanyTechStack"
+      ]
     }
   ]
 }

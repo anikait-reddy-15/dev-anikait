@@ -1,0 +1,26 @@
+{
+  "question": "Which global companies continuously align their IT operations with the latest digital regulatory standards?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify global companies",
+      "table": [
+        "CompanyITPartnerDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract information on their IT operations",
+      "table": [
+        "CompanyITPartnerDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Determine alignment with the latest digital regulatory standards",
+      "table": [
+        "CompanyITPartnerDetail"
+      ]
+    }
+  ]
+}

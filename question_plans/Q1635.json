@@ -1,0 +1,26 @@
+{
+  "question": "How has interest in machine learning technologies been reflected across companies under new management?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies under new management.",
+      "table": [
+        "PersonaTitle"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract mentions of machine learning technologies.",
+      "table": [
+        "PersonaTitle"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the reflection of interest in machine learning technologies.",
+      "table": [
+        "PersonaTitle"
+      ]
+    }
+  ]
+}

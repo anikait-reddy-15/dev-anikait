@@ -1,21 +1,26 @@
 {
   "question": "What trends can be observed from the social media engagement of data scientists working in companies that are expanding their cloud services?",
-  "tables": ["PersonaTwitterTweets", "CompanyFocusAreaDetail"],
   "subtasks": [
     {
       "step": 1,
       "task": "Identify companies that are expanding their cloud services",
-      "table": ["CompanyFocusAreaDetail"]
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
     },
     {
       "step": 2,
       "task": "Gather social media engagement data from data scientists working at these companies",
-      "table": ["PersonaTwitterTweets"]
+      "table": [
+        "PersonaTwitterTweets"
+      ]
     },
     {
       "step": 3,
       "task": "Analyze the engagement data to identify trends related to cloud services",
-      "table": ["PersonaTwitterTweets"]
+      "table": [
+        "PersonaTwitterTweets"
+      ]
     }
   ]
 }

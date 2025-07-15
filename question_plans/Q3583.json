@@ -1,0 +1,27 @@
+{
+  "question": "How do niche technology stakeholders drive discussions about space tech innovation?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify niche technology stakeholders involved in space tech.",
+      "table": [
+        "SectionInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Analyze discussions or social posts related to space tech innovation.",
+      "table": [
+        "PersonaMisc"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Link stakeholders to specific discussions or innovations in space tech.",
+      "table": [
+        "SectionInfo",
+        "PersonaMisc"
+      ]
+    }
+  ]
+}

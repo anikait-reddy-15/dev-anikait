@@ -1,0 +1,26 @@
+{
+  "question": "How are persona Twitter activities aligned with leadership initiatives on remote work?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify Twitter activities related to remote work.",
+      "table": [
+        "PersonaTitle"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Find leadership initiatives on remote work.",
+      "table": [
+        "PersonaTitle"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze alignment between Twitter activities and leadership initiatives.",
+      "table": [
+        "PersonaTitle"
+      ]
+    }
+  ]
+}

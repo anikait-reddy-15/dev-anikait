@@ -1,0 +1,26 @@
+{
+  "question": "Which personas are influencing social media conversations surrounding cloud integration technologies?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify social media conversations surrounding cloud integration technologies.",
+      "table": [
+        "PersonaTwitterTweets"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Identify personas involved in these conversations.",
+      "table": [
+        "PersonaTwitterTweets"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Determine which personas are influencing these conversations.",
+      "table": [
+        "PersonaTwitterTweets"
+      ]
+    }
+  ]
+}

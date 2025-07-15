@@ -1,0 +1,26 @@
+{
+  "question": "Which leaders publicly forecasted major shifts in procurement strategies linked to AI tech?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Extract leadership excerpts related to procurement strategies.",
+      "table": [
+        "CompanyVendorTechDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Identify mentions of AI tech within these excerpts.",
+      "table": [
+        "CompanyVendorTechDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "List leaders who have publicly forecasted shifts linked to AI tech.",
+      "table": [
+        "CompanyVendorTechDetail"
+      ]
+    }
+  ]
+}

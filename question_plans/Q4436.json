@@ -1,0 +1,26 @@
+{
+  "question": "Which companies have highlighted sustainability in their tech strategies via Facebook announcements?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies with Facebook announcements on tech strategies.",
+      "table": [
+        "CompanyDataCenter"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract announcements related to sustainability.",
+      "table": [
+        "LookUpValue"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "List companies emphasizing sustainability in tech strategies.",
+      "table": [
+        "CompanyDataCenter"
+      ]
+    }
+  ]
+}

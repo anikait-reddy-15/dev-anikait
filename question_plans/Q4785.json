@@ -1,0 +1,26 @@
+{
+  "question": "Who are the thought leaders spearheading the shift towards ethical AI on LinkedIn platforms?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify discussions on LinkedIn about ethical AI.",
+      "table": [
+        "IndustryBusinessTrend"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract names of individuals frequently mentioned in these discussions.",
+      "table": [
+        "IndustryBusinessTrend"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Determine which of these individuals are considered thought leaders.",
+      "table": [
+        "IndustryBusinessTrend"
+      ]
+    }
+  ]
+}

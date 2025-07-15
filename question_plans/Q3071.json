@@ -1,0 +1,26 @@
+{
+  "question": "What key areas of innovation do CTOs address in corporate leadership excerpts focusing on automation?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify corporate leadership excerpts mentioning automation.",
+      "table": [
+        "CompanyManagementDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract key areas of innovation addressed by CTOs in these excerpts.",
+      "table": [
+        "CompanyManagementDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the focus areas of innovation related to automation.",
+      "table": [
+        "CompanyManagementDetail"
+      ]
+    }
+  ]
+}

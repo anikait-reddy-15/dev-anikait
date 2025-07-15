@@ -1,0 +1,26 @@
+{
+  "question": "Are cloud-based offerings in educational services indubitably reshaping content production?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Extract information on cloud-based offerings related to educational services.",
+      "table": [
+        "CompanyDataCenter"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Identify mentions of content production in educational contexts.",
+      "table": [
+        "SectionTitle"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the impact of cloud-based offerings on content production reshaping.",
+      "table": [
+        "CompanyDataCenter"
+      ]
+    }
+  ]
+}

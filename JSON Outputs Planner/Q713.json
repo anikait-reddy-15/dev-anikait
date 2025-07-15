@@ -1,21 +1,27 @@
 {
   "question": "What are the emerging machine learning frameworks adopted by companies expanding their AI research teams?",
-  "tables": ["CompanyTechStack", "CompanyHiringDetail"],
   "subtasks": [
     {
       "step": 1,
       "task": "Identify companies expanding AI research teams.",
-      "table": ["CompanyHiringDetail"]
+      "table": [
+        "CompanyHiringDetail"
+      ]
     },
     {
       "step": 2,
       "task": "Extract machine learning frameworks used by these companies.",
-      "table": ["CompanyTechStack"]
+      "table": [
+        "CompanyTechStack"
+      ]
     },
     {
       "step": 3,
       "task": "Match companies with their adopted ML frameworks.",
-      "table": ["CompanyHiringDetail", "CompanyTechStack"]
+      "table": [
+        "CompanyHiringDetail",
+        "CompanyTechStack"
+      ]
     }
   ]
 }

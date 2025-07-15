@@ -1,0 +1,24 @@
+{
+  "question": "How many companies highlighted quantum computing in their vendor deals and who are their tech leaders discussing similar topics on social media?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Count companies that highlighted quantum computing in their vendor deals.",
+      "table": [
+        "CompanyDataCenter"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Identify tech leaders discussing quantum computing on social media.",
+      "table": [
+        "SectionInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Link tech leaders to their respective companies.",
+      "table": []
+    }
+  ]
+}

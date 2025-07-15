@@ -1,0 +1,26 @@
+{
+  "question": "Who are the visionaries discussing IT priorities in leading industry podcasts?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify leading industry podcasts discussing IT priorities.",
+      "table": [
+        "PageInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract discussions involving IT priorities.",
+      "table": [
+        "PageInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "List visionaries contributing to these discussions.",
+      "table": [
+        "PageInfo"
+      ]
+    }
+  ]
+}

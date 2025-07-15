@@ -1,0 +1,26 @@
+{
+  "question": "Which organizations have integrated CRM solutions and recently shared focus area updates on enterprise expansion?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify organizations that have integrated CRM solutions.",
+      "table": [
+        "CompanyYoutubeDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Identify organizations sharing updates on enterprise expansion.",
+      "table": [
+        "CompanyYoutubeDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Find organizations meeting both criteria.",
+      "table": [
+        "CompanyYoutubeDetail"
+      ]
+    }
+  ]
+}

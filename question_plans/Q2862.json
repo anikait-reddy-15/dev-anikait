@@ -1,0 +1,27 @@
+{
+  "question": "Identify the alignment between mobile technology development and increasing expertise among IT professionals.",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "List companies focusing on mobile technology development.",
+      "table": [
+        "CompanyVendorProductDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Identify IT professionals' expertise trends related to mobile technology.",
+      "table": [
+        "PersonaMisc"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Determine the alignment between mobile tech development and IT expertise trends.",
+      "table": [
+        "CompanyVendorProductDetail",
+        "PersonaMisc"
+      ]
+    }
+  ]
+}

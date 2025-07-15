@@ -1,0 +1,26 @@
+{
+  "question": "Have cloud storage adoption policies highlighted in management notes synced with economic outlet evaluations?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Extract cloud storage adoption policies from management notes in the CompanyDataCenter table.",
+      "table": [
+        "CompanyDataCenter"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Identify economic outlet evaluations from the CompanyDataCenter table.",
+      "table": [
+        "CompanyDataCenter"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Compare the policies with the evaluations to determine synchronization.",
+      "table": [
+        "CompanyDataCenter"
+      ]
+    }
+  ]
+}

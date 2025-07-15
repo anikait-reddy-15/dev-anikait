@@ -1,0 +1,26 @@
+{
+  "question": "What is the impact of community-driven tech workshops on organizational change?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Extract information about community-driven tech workshops.",
+      "table": [
+        "SectionInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Identify references to organizational change within the same context.",
+      "table": [
+        "SectionInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the correlation between tech workshops and organizational change.",
+      "table": [
+        "SectionInfo"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "question": "Which organizations are spearheading innovation in robotics integration as seen in their tech discussions?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify tech discussions related to robotics integration.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract organizations involved in these discussions.",
+      "table": [
+        "CompanyVendorProductDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Determine which organizations are leading innovation in robotics integration.",
+      "table": [
+        "CompanyVendorProductDetail"
+      ]
+    }
+  ]
+}

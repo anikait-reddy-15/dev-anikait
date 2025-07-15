@@ -1,0 +1,27 @@
+{
+  "question": "Which industry business trends align with companies increasing their IT hiring efforts?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies increasing their IT hiring efforts.",
+      "table": [
+        "PersonaMisc"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract industry business trends from the data.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Find alignment between business trends and hiring efforts.",
+      "table": [
+        "PersonaMisc",
+        "IndustryITTrend"
+      ]
+    }
+  ]
+}

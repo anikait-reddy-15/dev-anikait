@@ -1,0 +1,26 @@
+{
+  "question": "Which streaming topics dominate LinkedIn for companies pushing innovative tech-edge solutions?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies that are pushing innovative tech-edge solutions.",
+      "table": [
+        "CompanyTwitterDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract LinkedIn posts or discussions related to these companies.",
+      "table": [
+        "SocialMediaInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the topics discussed in these LinkedIn posts to determine dominant streaming topics.",
+      "table": [
+        "SocialMediaInfo"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "question": "How does enhanced AI tooling influence enterprise AI efficacy?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify AI tooling enhancements mentioned in social posts.",
+      "table": [
+        "PersonaMisc"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Analyze enterprise AI efficacy metrics.",
+      "table": [
+        "CompanyManagementDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Correlate AI tooling enhancements with changes in AI efficacy metrics.",
+      "table": [
+        "CompanyManagementDetail",
+        "PersonaMisc"
+      ]
+    }
+  ]
+}

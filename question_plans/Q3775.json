@@ -1,0 +1,26 @@
+{
+  "question": "What IT trends are apparent among companies adopting comprehensive social media marketing plans, particularly on Instagram?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies with comprehensive social media marketing plans from the PersonaLinkedinActivity table.",
+      "table": [
+        "PersonaLinkedinActivity"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract IT trends related to these companies from the IndustryITTrend table.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "List and summarize apparent IT trends.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    }
+  ]
+}

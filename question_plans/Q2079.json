@@ -1,0 +1,26 @@
+{
+  "question": "What are the most frequently discussed strategic objectives for businesses transitioning into digital-first models?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify strategic objectives for digital-first model transitions.",
+      "table": [
+        "SocialMediaInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract discussions related to these objectives.",
+      "table": [
+        "PersonaUser"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the frequency and context of these discussions.",
+      "table": [
+        "PersonaLinkedinActivity"
+      ]
+    }
+  ]
+}

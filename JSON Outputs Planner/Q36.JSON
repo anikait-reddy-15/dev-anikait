@@ -1,6 +1,5 @@
 {
   "question": "What are the recent projects Rafael Jabur Bittar shared in his LinkedIn posts related to sustainability?",
-  "tables": ["PersonaLinkedinPost", "PersonaUser"],
   "subtasks": [
     {
       "step": 1,

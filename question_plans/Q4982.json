@@ -1,0 +1,26 @@
+{
+  "question": "How are matrix-oriented managerial roles influencing operational capacity augmented by tech alliances?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify matrix-oriented managerial roles from the CompanyDataCenter table.",
+      "table": [
+        "CompanyDataCenter"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Determine the operational capacity associated with these roles.",
+      "table": [
+        "CompanyDataCenter"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the influence of tech alliances on the operational capacity.",
+      "table": [
+        "CompanyDataCenter"
+      ]
+    }
+  ]
+}

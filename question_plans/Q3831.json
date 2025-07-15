@@ -1,0 +1,24 @@
+{
+  "question": "What are the emerging technologies in the telecom sector noted in the latest industry trends?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify the latest industry trends in the telecom sector.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract emerging technologies from these trends.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Compile a list of emerging technologies in the telecom sector.",
+      "table": []
+    }
+  ]
+}

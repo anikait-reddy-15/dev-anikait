@@ -1,21 +1,27 @@
 {
   "question": "Who are the executives speaking publicly about integrating AI with business operations in companies expanding into new markets?",
-  "tables": ["CompanyLeadershipExcerpt", "CompanyInfo"],
   "subtasks": [
     {
       "step": 1,
       "task": "Identify companies expanding into new markets.",
-      "table": ["CompanyInfo"]
+      "table": [
+        "CompanyInfo"
+      ]
     },
     {
       "step": 2,
       "task": "Extract executives discussing AI integration with business operations.",
-      "table": ["CompanyLeadershipExcerpt"]
+      "table": [
+        "CompanyLeadershipExcerpt"
+      ]
     },
     {
       "step": 3,
       "task": "Match executives to companies expanding into new markets.",
-      "table": ["CompanyLeadershipExcerpt", "CompanyInfo"]
+      "table": [
+        "CompanyLeadershipExcerpt",
+        "CompanyInfo"
+      ]
     }
   ]
 }

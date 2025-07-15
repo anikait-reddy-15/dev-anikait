@@ -1,0 +1,26 @@
+{
+  "question": "How are modern cybersecurity strategies reshaping the competitive landscape of the financial services industry?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify modern cybersecurity strategies in the financial services industry.",
+      "table": [
+        "SectionTitle"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Analyze the impact of these strategies on the competitive landscape.",
+      "table": [
+        "SectionTitle"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Highlight the most impactful strategies.",
+      "table": [
+        "SectionTitle"
+      ]
+    }
+  ]
+}

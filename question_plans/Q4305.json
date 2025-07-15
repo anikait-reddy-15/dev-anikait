@@ -1,0 +1,26 @@
+{
+  "question": "Which personas are frequently tagged as key contributors in Twitter discussions related to blockchain technology?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify personas from the PersonaYoutubeProfile table.",
+      "table": [
+        "PersonaYoutubeProfile"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Filter Twitter discussions related to blockchain technology.",
+      "table": [
+        "PersonaYoutubeProfile"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Determine personas frequently tagged as key contributors.",
+      "table": [
+        "PersonaYoutubeProfile"
+      ]
+    }
+  ]
+}

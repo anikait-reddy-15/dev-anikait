@@ -1,0 +1,24 @@
+{
+  "question": "What are the priority themes of digital engagement for societies identified by companies paralleling their strategic outreach on Twitter?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify priority themes of digital engagement for societies.",
+      "table": [
+        "SectionTitle"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Identify companies with strategic outreach on Twitter.",
+      "table": [
+        "PersonaYoutubeProfile"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Combine results to find priority themes paralleling Twitter outreach.",
+      "table": []
+    }
+  ]
+}

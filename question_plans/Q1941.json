@@ -1,0 +1,26 @@
+{
+  "question": "Which enterprises have aligned their YouTube content focus with new endeavors in e-commerce markets?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify enterprises with YouTube content related to e-commerce markets.",
+      "table": [
+        "CompanyYoutubeDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Filter enterprises that have mentioned new endeavors in their YouTube content.",
+      "table": [
+        "CompanyYoutubeDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Compile a list of enterprises aligning their YouTube content with e-commerce endeavors.",
+      "table": [
+        "CompanyYoutubeDetail"
+      ]
+    }
+  ]
+}

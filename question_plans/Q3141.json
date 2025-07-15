@@ -1,0 +1,24 @@
+{
+  "question": "Which companies fine-tuned their software methodologies concurrent with leadership team expansions?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies that have expanded their leadership teams.",
+      "table": [
+        "CompanyTwitterDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Find companies that have made changes to their software methodologies.",
+      "table": [
+        "SocialMediaInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Combine the results to find companies that have both expanded leadership teams and fine-tuned software methodologies.",
+      "table": []
+    }
+  ]
+}

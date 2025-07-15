@@ -1,21 +1,27 @@
 {
   "question": "How many data scientists are currently hired by companies that have recently entered new vendor agreements for AI solutions?",
-  "tables": ["CompanyHiringDetail", "CompanyDealMaster", "CompanyVendorProductDetail"],
   "subtasks": [
     {
       "step": 1,
       "task": "Identify companies that have recently entered vendor agreements for AI solutions. [CompanyDealMaster, CompanyVendorProductDetail]",
-      "table": ["CompanyDealMaster", "CompanyVendorProductDetail"]
+      "table": [
+        "CompanyDealMaster",
+        "CompanyVendorProductDetail"
+      ]
     },
     {
       "step": 2,
       "task": "Filter the vendor agreements to focus specifically on AI solutions. [CompanyVendorProductDetail]",
-      "table": ["CompanyVendorProductDetail"]
+      "table": [
+        "CompanyVendorProductDetail"
+      ]
     },
     {
       "step": 3,
       "task": "Count the number of data scientists hired by the identified companies. [CompanyHiringDetail]",
-      "table": ["CompanyHiringDetail"]
+      "table": [
+        "CompanyHiringDetail"
+      ]
     }
   ]
 }

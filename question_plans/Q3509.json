@@ -1,0 +1,26 @@
+{
+  "question": "What are common strategic priorities among companies that have significantly increased their LinkedIn follower count in the past quarter?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies with increased LinkedIn follower count",
+      "table": [
+        "CompanyManagementDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Determine strategic priorities for these companies",
+      "table": [
+        "SectionInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Aggregate and identify common strategic priorities",
+      "table": [
+        "SectionInfo"
+      ]
+    }
+  ]
+}

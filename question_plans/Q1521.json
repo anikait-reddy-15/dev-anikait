@@ -1,0 +1,26 @@
+{
+  "question": "What technology interests are reflected in the talks given by leadership teams at organizations recently making data acquisitions?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify organizations that have recently made data acquisitions.",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract leadership talks from organizations identified in step 1.",
+      "table": [
+        "SectionTitle"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the technology interests reflected in these leadership talks.",
+      "table": [
+        "SectionTitle"
+      ]
+    }
+  ]
+}

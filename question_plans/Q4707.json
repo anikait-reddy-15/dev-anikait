@@ -1,0 +1,27 @@
+{
+  "question": "How many companies have adopted blockchain technologies and what trends are these companies focusing on according to their IT trends data?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies that have adopted blockchain technologies.",
+      "table": [
+        "CompanyTechStack"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract IT trends data for these companies.",
+      "table": [
+        "IndustryBusinessTrend"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze trends focused on by companies with blockchain adoption.",
+      "table": [
+        "CompanyTechStack",
+        "IndustryBusinessTrend"
+      ]
+    }
+  ]
+}

@@ -1,21 +1,27 @@
 {
   "question": "What recent hiring patterns can be identified among companies that have increased their social media presence and engagement?",
-  "tables": ["CompanyHiringDetail", "SocialMediaInfo"],
   "subtasks": [
     {
       "step": 1,
       "task": "Identify companies that have increased their social media presence and engagement.",
-      "table": ["SocialMediaInfo"]
+      "table": [
+        "SocialMediaInfo"
+      ]
     },
     {
       "step": 2,
       "task": "Extract recent hiring patterns from the identified companies.",
-      "table": ["CompanyHiringDetail"]
+      "table": [
+        "CompanyHiringDetail"
+      ]
     },
     {
       "step": 3,
       "task": "Analyze the hiring patterns in relation to the companies' social media engagement.",
-      "table": ["CompanyHiringDetail", "SocialMediaInfo"]
+      "table": [
+        "CompanyHiringDetail",
+        "SocialMediaInfo"
+      ]
     }
   ]
 }

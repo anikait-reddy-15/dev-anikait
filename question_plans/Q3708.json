@@ -1,0 +1,24 @@
+{
+  "question": "What IT trends are companies focusing on that have increased their ICT (Information and Communications Technology) vendor commitments?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies with increased ICT vendor commitments.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Identify IT trends these companies are focusing on.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "List the IT trends by focus level.",
+      "table": []
+    }
+  ]
+}

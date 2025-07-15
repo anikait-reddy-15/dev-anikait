@@ -1,0 +1,27 @@
+{
+  "question": "How often do leaders mention cloud computing in their speeches within the data analytics industry?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify leaders in the data analytics industry from the PersonaUser table.",
+      "table": [
+        "PersonaUser"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract speeches mentioning cloud computing from the SocialMediaInfo table.",
+      "table": [
+        "SocialMediaInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Count the frequency of cloud computing mentions in speeches by these leaders.",
+      "table": [
+        "PersonaUser",
+        "SocialMediaInfo"
+      ]
+    }
+  ]
+}

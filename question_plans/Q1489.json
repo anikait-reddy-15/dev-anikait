@@ -1,0 +1,26 @@
+{
+  "question": "What companies have made significant noise in AI developments due to increased blog activity from thought leaders?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies mentioned in leadership excerpts related to AI developments.",
+      "table": [
+        "PersonaMisc"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract blog activity mentions from social media posts.",
+      "table": [
+        "PersonaTwitterTweets"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Correlate companies with increased blog activity mentions.",
+      "table": [
+        "PersonaMisc"
+      ]
+    }
+  ]
+}

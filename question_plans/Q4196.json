@@ -1,0 +1,27 @@
+{
+  "question": "Which advertising companies are innovating through the use of real-time data stream processing?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify advertising companies from the CompanyITPartnerDetail table.",
+      "table": [
+        "CompanyITPartnerDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract information on real-time data stream processing from the SectionTitle table.",
+      "table": [
+        "SectionTitle"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Determine which companies are innovating through this technology.",
+      "table": [
+        "CompanyITPartnerDetail",
+        "SectionTitle"
+      ]
+    }
+  ]
+}

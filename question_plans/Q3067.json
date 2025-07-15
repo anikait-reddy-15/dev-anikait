@@ -1,0 +1,29 @@
+{
+  "question": "How are technology transformations manifested in startups' social media engagements?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify startups' social media engagements related to technology transformations.",
+      "table": [
+        "CompanyTwitterDetail",
+        "PersonaInstagramProfile"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract specific mentions of technology transformations in these engagements.",
+      "table": [
+        "CompanyTwitterDetail",
+        "PersonaInstagramProfile"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze how these transformations are manifested in social media engagements.",
+      "table": [
+        "CompanyTwitterDetail",
+        "PersonaInstagramProfile"
+      ]
+    }
+  ]
+}

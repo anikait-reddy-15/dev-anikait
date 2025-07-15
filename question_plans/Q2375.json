@@ -1,0 +1,26 @@
+{
+  "question": "What new exploratory measures on autonomous systems were shown by automotive sectors in focused technology updates?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify automotive sectors involved in autonomous systems.",
+      "table": [
+        "CompanyDealMaster"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract focused technology updates related to these sectors.",
+      "table": [
+        "SectionInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze new exploratory measures shown in these updates.",
+      "table": [
+        "SectionTitle"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "question": "What training methods do companies adopting agile technologies use while their leadership gives insight into such activities?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies adopting agile technologies.",
+      "table": [
+        "SectionInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract leadership insights on training methods.",
+      "table": [
+        "SectionTitle"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Link training methods to agile technology adoption.",
+      "table": [
+        "CompanyDataCenter"
+      ]
+    }
+  ]
+}

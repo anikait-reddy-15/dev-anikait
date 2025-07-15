@@ -1,0 +1,24 @@
+{
+  "question": "Which companies have executives speaking about diversity and inclusion in tech and have diverse tech stacks?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies with executives speaking about diversity and inclusion in tech.",
+      "table": [
+        "PersonaMisc"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Identify companies with diverse tech stacks.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Combine results from steps 1 and 2 to find companies meeting both criteria.",
+      "table": []
+    }
+  ]
+}

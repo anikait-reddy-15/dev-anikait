@@ -1,0 +1,27 @@
+{
+  "question": "Which personas with 'Chief Analytics Officer' titles have authored technology thought leadership content on Twitter?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify personas with 'Chief Analytics Officer' titles.",
+      "table": [
+        "LookUpValue"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Find technology thought leadership content authored by these personas on Twitter.",
+      "table": [
+        "PageInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "List personas who have authored such content.",
+      "table": [
+        "LookUpValue",
+        "PageInfo"
+      ]
+    }
+  ]
+}

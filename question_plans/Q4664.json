@@ -1,0 +1,26 @@
+{
+  "question": "How do IT budget trends reflect broader economic conditions as discussed in industry reports?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Extract IT budget trends from company data",
+      "table": [
+        "CompanyITPartnerDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Compare these trends with broader economic indicators",
+      "table": [
+        "CompanyITPartnerDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze industry reports for context on economic conditions",
+      "table": [
+        "CompanyITPartnerDetail"
+      ]
+    }
+  ]
+}

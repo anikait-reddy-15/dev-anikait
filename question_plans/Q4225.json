@@ -1,0 +1,26 @@
+{
+  "question": "What are the common focus areas for companies diversifying their enterprise software solutions?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies diversifying their enterprise software solutions.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract focus areas related to enterprise software solutions.",
+      "table": [
+        "SectionTitle"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Identify common focus areas among these companies.",
+      "table": [
+        "PersonaMisc"
+      ]
+    }
+  ]
+}

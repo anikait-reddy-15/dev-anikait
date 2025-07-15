@@ -1,0 +1,26 @@
+{
+  "question": "What streaming technology preferences do companies exhibit that are leading in video delivery systems?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies leading in video delivery systems.",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "List streaming technology preferences of these companies.",
+      "table": [
+        "SectionTitle"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Highlight the most common streaming technology preferences.",
+      "table": [
+        "SectionTitle"
+      ]
+    }
+  ]
+}

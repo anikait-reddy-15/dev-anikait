@@ -1,0 +1,26 @@
+{
+  "question": "How are startups tailoring their IT partner collaborations based on industry trends?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify startups and their current IT partner collaborations.",
+      "table": [
+        "CompanyManagementDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Analyze industry trends that are relevant to these startups.",
+      "table": [
+        "CompanyManagementDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Determine how startups are adjusting their IT partner collaborations in response to these trends.",
+      "table": [
+        "CompanyManagementDetail"
+      ]
+    }
+  ]
+}

@@ -1,21 +1,26 @@
 {
   "question": "Which firms in the retail sector are focusing on cloud technologies, and what vendor relationships do they currently have?",
-  "tables": ["CompanyTechStack", "CompanyDealMaster", "CompanyInfo"],
   "subtasks": [
     {
       "step": 1,
       "task": "Identify firms in the retail sector. [CompanyInfo]",
-      "table": ["CompanyInfo"]
+      "table": [
+        "CompanyInfo"
+      ]
     },
     {
       "step": 2,
       "task": "Filter these firms to find those focusing on cloud technologies. [CompanyTechStack]",
-      "table": ["CompanyTechStack"]
+      "table": [
+        "CompanyTechStack"
+      ]
     },
     {
       "step": 3,
       "task": "Retrieve the vendor relationships of these firms. [CompanyDealMaster]",
-      "table": ["CompanyDealMaster"]
+      "table": [
+        "CompanyDealMaster"
+      ]
     }
   ]
 }

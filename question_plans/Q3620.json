@@ -1,0 +1,27 @@
+{
+  "question": "What is the correlation between recent YouTube uploads about cloud computing and companies whose leadership frequently speaks on the same topic?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify recent YouTube uploads related to cloud computing.",
+      "table": [
+        "PersonaYoutubeProfile"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract leadership excerpts discussing cloud computing.",
+      "table": [
+        "PersonaTitle"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Correlate YouTube uploads with leadership discussions on cloud computing.",
+      "table": [
+        "PersonaYoutubeProfile",
+        "PersonaTitle"
+      ]
+    }
+  ]
+}

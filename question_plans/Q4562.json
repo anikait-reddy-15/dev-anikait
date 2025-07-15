@@ -1,0 +1,27 @@
+{
+  "question": "How do technology adoptions differ among companies with varied leadership philosophies?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Extract leadership philosophies from the PersonaMisc table.",
+      "table": [
+        "PersonaMisc"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Identify technology adoptions from the CompanyVendorProductDetail table.",
+      "table": [
+        "CompanyVendorProductDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Compare technology adoptions across companies with different leadership philosophies.",
+      "table": [
+        "CompanyVendorProductDetail",
+        "PersonaMisc"
+      ]
+    }
+  ]
+}

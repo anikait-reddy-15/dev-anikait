@@ -1,21 +1,27 @@
 {
   "question": "Which companies with strong Twitter engagement have recently onboarded IT partners for cybersecurity solutions?",
-  "tables": ["CompanyTwitterDetail", "CompanyITPartnerDetail"],
   "subtasks": [
     {
       "step": 1,
       "task": "Identify companies with strong Twitter engagement. [CompanyTwitterDetail]",
-      "table": ["CompanyTwitterDetail"]
+      "table": [
+        "CompanyTwitterDetail"
+      ]
     },
     {
       "step": 2,
       "task": "Find companies that have onboarded IT partners for cybersecurity. [CompanyITPartnerDetail]",
-      "table": ["CompanyITPartnerDetail"]
+      "table": [
+        "CompanyITPartnerDetail"
+      ]
     },
     {
       "step": 3,
       "task": "Cross-reference companies from both datasets. [CompanyTwitterDetail, CompanyITPartnerDetail]",
-      "table": ["CompanyTwitterDetail", "CompanyITPartnerDetail"]
+      "table": [
+        "CompanyTwitterDetail",
+        "CompanyITPartnerDetail"
+      ]
     }
   ]
 }

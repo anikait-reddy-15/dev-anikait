@@ -1,0 +1,26 @@
+{
+  "question": "What are the hiring trends for data analysts in companies that use natural language processing (NLP) technologies?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies that use natural language processing (NLP) technologies.",
+      "table": [
+        "CompanyManagementDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Retrieve hiring data related to data analysts for the companies identified in step 1.",
+      "table": [
+        "CompanyManagementDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the hiring trends for data analysts in these companies.",
+      "table": [
+        "CompanyManagementDetail"
+      ]
+    }
+  ]
+}

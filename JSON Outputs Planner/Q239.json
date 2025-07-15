@@ -1,21 +1,26 @@
 {
   "question": "Which companies have demonstrated a commitment to sustainability in their strategies through social media posts and have updated their technology investments?",
-  "tables": ["SocialMediaInfo", "CompanyTechStack", "CompanyFocusAreaDetail"],
   "subtasks": [
     {
       "step": 1,
       "task": "Identify social media posts that indicate a commitment to sustainability",
-      "table": ["SocialMediaInfo"]
+      "table": [
+        "SocialMediaInfo"
+      ]
     },
     {
       "step": 2,
       "task": "Gather information on companies that have updated their technology investments",
-      "table": ["CompanyTechStack"]
+      "table": [
+        "CompanyTechStack"
+      ]
     },
     {
       "step": 3,
       "task": "Match companies that have shown sustainability commitment with those that updated their technology investments",
-      "table": ["CompanyFocusAreaDetail"]
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
     }
   ]
 }

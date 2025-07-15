@@ -1,0 +1,26 @@
+{
+  "question": "What Twitter conversations highlight innovations in tech infrastructure among influential tech leaders?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Extract Twitter conversations from the PersonaLinkedinActivity table.",
+      "table": [
+        "PersonaLinkedinActivity"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Identify influential tech leaders from the PersonaUser table.",
+      "table": [
+        "PersonaUser"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Highlight conversations related to innovations in tech infrastructure.",
+      "table": [
+        "PersonaLinkedinActivity"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "question": "How have companies' YouTube uploads on AI ethics correlated with their public image?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies with YouTube uploads on AI ethics.",
+      "table": [
+        "CompanyYoutubeDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Analyze the correlation between these uploads and the companies' public image.",
+      "table": [
+        "CompanyYoutubeDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Summarize the findings on correlation.",
+      "table": [
+        "CompanyYoutubeDetail"
+      ]
+    }
+  ]
+}

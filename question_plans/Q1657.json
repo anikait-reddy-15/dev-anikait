@@ -1,0 +1,26 @@
+{
+  "question": "What social trends have been noted in LinkedIn posts by tech firms increasing investment in customer data platforms?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify tech firms increasing investment in customer data platforms.",
+      "table": [
+        "PersonaTitle"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract social trends noted in LinkedIn posts by these firms.",
+      "table": [
+        "PersonaLinkedInProfile"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the impact of these social trends on customer engagement.",
+      "table": [
+        "PersonaYoutubeProfile"
+      ]
+    }
+  ]
+}

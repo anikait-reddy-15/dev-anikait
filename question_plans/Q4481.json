@@ -1,0 +1,26 @@
+{
+  "question": "What roles have been increasingly filled in the fintech industry to support AI-driven innovation?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify roles related to AI-driven innovation within the fintech industry.",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Analyze trends in hiring for these roles over time to determine which roles are increasingly filled.",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Filter results to focus specifically on the fintech industry.",
+      "table": [
+        "LookUpValue"
+      ]
+    }
+  ]
+}

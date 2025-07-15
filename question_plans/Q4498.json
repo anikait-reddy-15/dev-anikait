@@ -1,0 +1,26 @@
+{
+  "question": "What are the primary trends driving technology adoption among leading retail companies?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify leading retail companies.",
+      "table": [
+        "CompanyDataCenter"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract data on technology adoption within these companies.",
+      "table": [
+        "CompanyDataCenter"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the data to identify primary trends driving technology adoption.",
+      "table": [
+        "LookUpValue"
+      ]
+    }
+  ]
+}

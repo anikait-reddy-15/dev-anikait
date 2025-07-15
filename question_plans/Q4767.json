@@ -1,0 +1,26 @@
+{
+  "question": "Which companies have a strategic focus on enhancing employee productivity through robotic process automation?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies with a focus on employee productivity.",
+      "table": [
+        "CompanyTechStack"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract details on the use of robotic process automation.",
+      "table": [
+        "CompanyVendorTechDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Find companies that combine both strategies.",
+      "table": [
+        "IndustryBusinessTrend"
+      ]
+    }
+  ]
+}

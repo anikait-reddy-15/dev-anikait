@@ -1,21 +1,27 @@
 {
   "question": "Which tech vendors are supporting AI-based ESG monitoring systems across industries?",
-  "tables": ["CompanyVendorTechDetail", "CompanyInfo"],
   "subtasks": [
     {
       "step": 1,
       "task": "Identify tech vendors involved in ESG monitoring systems.",
-      "table": ["CompanyVendorTechDetail"]
+      "table": [
+        "CompanyVendorTechDetail"
+      ]
     },
     {
       "step": 2,
       "task": "List companies across industries using those vendors.",
-      "table": ["CompanyInfo"]
+      "table": [
+        "CompanyInfo"
+      ]
     },
     {
       "step": 3,
       "task": "Map ESG vendor usage across different industries.",
-      "table": ["CompanyVendorTechDetail", "CompanyInfo"]
+      "table": [
+        "CompanyVendorTechDetail",
+        "CompanyInfo"
+      ]
     }
   ]
 }

@@ -1,0 +1,26 @@
+{
+  "question": "What is the intersection between new tech platforms introduced in companies and recent Twitter discussions?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify new tech platforms introduced in companies.",
+      "table": [
+        "PersonaUser"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract recent Twitter discussions related to these platforms.",
+      "table": [
+        "SocialMediaInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the intersection between tech platforms and Twitter discussions.",
+      "table": [
+        "PersonaLinkedinActivity"
+      ]
+    }
+  ]
+}

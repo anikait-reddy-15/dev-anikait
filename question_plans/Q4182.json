@@ -1,0 +1,27 @@
+{
+  "question": "How does persona engagement reflect company priorities in adopting machine learning tools?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Retrieve persona engagement data from the PersonaTwitterProfile table.",
+      "table": [
+        "PersonaTwitterProfile"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Identify company priorities related to machine learning from the CompanyITPartnerDetail table.",
+      "table": [
+        "CompanyITPartnerDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Correlate persona engagement with company priorities on machine learning adoption.",
+      "table": [
+        "PersonaTwitterProfile",
+        "CompanyITPartnerDetail"
+      ]
+    }
+  ]
+}

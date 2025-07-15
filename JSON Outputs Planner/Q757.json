@@ -1,21 +1,27 @@
 {
   "question": "What AI use cases are mentioned in blog posts by firms that also emphasize ethical AI in their corporate vision?",
-  "tables": ["CompanyBlogDetail", "CompanyFocusAreaDetail"],
   "subtasks": [
     {
       "step": 1,
       "task": "Identify firms emphasizing ethical AI in their corporate vision.",
-      "table": ["CompanyFocusAreaDetail"]
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
     },
     {
       "step": 2,
       "task": "Extract AI-related use cases from blog posts by those firms.",
-      "table": ["CompanyBlogDetail"]
+      "table": [
+        "CompanyBlogDetail"
+      ]
     },
     {
       "step": 3,
       "task": "List use cases based on blogs from ethical AI-emphasizing firms.",
-      "table": ["CompanyBlogDetail", "CompanyFocusAreaDetail"]
+      "table": [
+        "CompanyBlogDetail",
+        "CompanyFocusAreaDetail"
+      ]
     }
   ]
 }

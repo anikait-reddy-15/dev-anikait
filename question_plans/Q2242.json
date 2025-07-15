@@ -1,0 +1,27 @@
+{
+  "question": "How do CTOs communicate technological roadmaps during industry events or interviews?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Extract information on technological roadmaps communicated by CTOs.",
+      "table": [
+        "PersonaUser"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Identify industry events or interviews where these communications took place.",
+      "table": [
+        "SectionInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Correlate the extracted roadmap information with the identified events or interviews.",
+      "table": [
+        "PersonaUser",
+        "SectionInfo"
+      ]
+    }
+  ]
+}

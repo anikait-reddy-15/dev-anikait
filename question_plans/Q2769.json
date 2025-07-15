@@ -1,0 +1,26 @@
+{
+  "question": "Which LinkedIn influencers are discussing tech-driven market disruptions?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Extract LinkedIn posts related to tech-driven market disruptions.",
+      "table": [
+        "SocialMediaInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Identify influencers who are posting about these disruptions.",
+      "table": [
+        "SocialMediaInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "List the LinkedIn influencers most frequently discussing these topics.",
+      "table": [
+        "SocialMediaInfo"
+      ]
+    }
+  ]
+}

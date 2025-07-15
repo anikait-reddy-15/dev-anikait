@@ -1,0 +1,26 @@
+{
+  "question": "What role do social media interactions play in the success of companies extending cloud-based solutions?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Retrieve social media interaction data from the CompanyFacebookDetail table.",
+      "table": [
+        "CompanyFacebookDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Identify companies extending cloud-based solutions from the SectionTitle table.",
+      "table": [
+        "SectionTitle"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the correlation between social media interactions and company success using the CompanyHiringDetail table.",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    }
+  ]
+}

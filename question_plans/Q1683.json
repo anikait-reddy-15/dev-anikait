@@ -1,0 +1,26 @@
+{
+  "question": "How have cross-border operational strategies evolved according to latest tech blogs shared by executives?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify executives from the PersonaTitle table.",
+      "table": [
+        "PersonaTitle"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Retrieve tech blogs shared by these executives.",
+      "table": [
+        "PersonaYoutubeProfile"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the blogs to determine the evolution of cross-border operational strategies.",
+      "table": [
+        "PersonaYoutubeProfile"
+      ]
+    }
+  ]
+}

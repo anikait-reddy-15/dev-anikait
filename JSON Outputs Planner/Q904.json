@@ -1,21 +1,27 @@
 {
   "question": "Which banks are using AI for customer identity verification and onboarding automation?",
-  "tables": ["CompanyFocusAreaDetail", "CompanyInfo"],
   "subtasks": [
     {
       "step": 1,
       "task": "Identify banks and financial institutions.",
-      "table": ["CompanyInfo"]
+      "table": [
+        "CompanyInfo"
+      ]
     },
     {
       "step": 2,
       "task": "Check for AI in digital onboarding and ID verification.",
-      "table": ["CompanyFocusAreaDetail"]
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
     },
     {
       "step": 3,
       "task": "List banks using AI to streamline KYC and onboarding.",
-      "table": ["CompanyFocusAreaDetail", "CompanyInfo"]
+      "table": [
+        "CompanyFocusAreaDetail",
+        "CompanyInfo"
+      ]
     }
   ]
 }

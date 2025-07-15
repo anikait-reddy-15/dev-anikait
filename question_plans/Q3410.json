@@ -1,0 +1,24 @@
+{
+  "question": "Which firms have increased their IT partnerships and are actively promoting tech innovation through Instagram stories?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify firms that have increased their IT partnerships.",
+      "table": [
+        "CompanyDataCenter"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Find firms promoting tech innovation through Instagram stories.",
+      "table": [
+        "PersonaYoutubeProfile"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Combine results to find firms meeting both criteria.",
+      "table": []
+    }
+  ]
+}

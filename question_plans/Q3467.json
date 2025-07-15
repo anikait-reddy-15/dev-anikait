@@ -1,0 +1,26 @@
+{
+  "question": "What IT trends are the focus for companies that leveraged YouTube as an educational platform while enhancing their digital capabilities?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies leveraging YouTube as an educational platform.",
+      "table": [
+        "PersonaYoutubeProfile"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract IT trends related to digital capability enhancements.",
+      "table": [
+        "SectionInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Link IT trends to companies using YouTube educationally.",
+      "table": [
+        "CompanyDataCenter"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "question": "What business models are most commonly illustrated in company deals connected to new partnerships in ecommerce platforms?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify company deals connected to new partnerships in ecommerce platforms.",
+      "table": [
+        "CompanyLeadershipExcerpt"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract business models illustrated in these company deals.",
+      "table": [
+        "CompanyLeadershipExcerpt"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the most commonly illustrated business models.",
+      "table": [
+        "CompanyLeadershipExcerpt"
+      ]
+    }
+  ]
+}

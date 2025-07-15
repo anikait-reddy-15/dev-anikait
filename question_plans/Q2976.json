@@ -1,0 +1,26 @@
+{
+  "question": "How does LinkedIn content emphasize competitive changes in tech-focused startups?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify tech-focused startups.",
+      "table": [
+        "CompanyTechStack"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Analyze LinkedIn content for emphasis on competitive changes.",
+      "table": [
+        "CompanyFacebookDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Summarize how LinkedIn content reflects competitive changes.",
+      "table": [
+        "CompanyFacebookDetail"
+      ]
+    }
+  ]
+}

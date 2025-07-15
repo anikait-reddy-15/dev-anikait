@@ -1,0 +1,26 @@
+{
+  "question": "What are the predominant concerns of data strategists at leading organizations, as found on LinkedIn?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify leading organizations from LinkedIn activity.",
+      "table": [
+        "PersonaLinkedinActivity"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract concerns of data strategists from LinkedIn posts.",
+      "table": [
+        "PersonaLinkedinActivity"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze and summarize the predominant concerns.",
+      "table": [
+        "PersonaLinkedinActivity"
+      ]
+    }
+  ]
+}

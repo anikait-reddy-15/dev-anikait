@@ -1,0 +1,27 @@
+{
+  "question": "Which organizations both decreased vendor relationships and have a presence in industry-specific IT trends discussions?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify organizations that have decreased vendor relationships.",
+      "table": [
+        "CompanyVendorTechDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Identify organizations participating in industry-specific IT trends discussions.",
+      "table": [
+        "PersonaLinkedInProfile"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Find organizations that meet both criteria.",
+      "table": [
+        "CompanyVendorTechDetail",
+        "PersonaLinkedInProfile"
+      ]
+    }
+  ]
+}

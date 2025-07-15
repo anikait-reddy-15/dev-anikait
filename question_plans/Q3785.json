@@ -1,0 +1,27 @@
+{
+  "question": "Which executives actively influencing Twitter discussions on digital ethics represent companies pivoting towards secure tech solutions?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify Twitter discussions on digital ethics from the PersonaLinkedinActivity table.",
+      "table": [
+        "PersonaLinkedinActivity"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Filter executives from companies focusing on secure tech solutions from the PersonaUser table.",
+      "table": [
+        "PersonaUser"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Match executives involved in digital ethics discussions to those from secure tech-focused companies.",
+      "table": [
+        "PersonaLinkedinActivity",
+        "PersonaUser"
+      ]
+    }
+  ]
+}

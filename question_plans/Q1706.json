@@ -1,0 +1,26 @@
+{
+  "question": "Which companies have shown a high interaction rate on Instagram and are currently expanding their tech stack for digital commerce?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies with a high interaction rate on Instagram.",
+      "table": [
+        "CompanyTwitterDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Find companies expanding their tech stack for digital commerce.",
+      "table": [
+        "CompanyTwitterDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Combine results to find companies that meet both criteria.",
+      "table": [
+        "CompanyTwitterDetail"
+      ]
+    }
+  ]
+}

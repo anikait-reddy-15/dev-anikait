@@ -1,21 +1,26 @@
 {
   "question": "What technologies are being adopted by companies that have made significant investments in improving their employee training programs?",
-  "tables": ["CompanyTechStack", "CompanyManagementDetail"],
   "subtasks": [
     {
       "step": 1,
       "task": "Identify companies that have made significant investments in employee training programs",
-      "table": ["CompanyManagementDetail"]
+      "table": [
+        "CompanyManagementDetail"
+      ]
     },
     {
       "step": 2,
       "task": "Gather the technologies adopted by these companies",
-      "table": ["CompanyTechStack"]
+      "table": [
+        "CompanyTechStack"
+      ]
     },
     {
       "step": 3,
       "task": "Analyze the technologies to determine trends in adoption",
-      "table": ["CompanyTechStack"]
+      "table": [
+        "CompanyTechStack"
+      ]
     }
   ]
 }

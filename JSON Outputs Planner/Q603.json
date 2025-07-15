@@ -1,21 +1,27 @@
 {
   "question": "What are the trends in technology adoption among companies that have experienced leadership turnover, particularly in the area of data analytics?",
-  "tables": ["CompanyLeadershipExcerpt", "CompanyTechStack", "CompanyHiringDetail"],
   "subtasks": [
     {
       "step": 1,
       "task": "Identify companies that have experienced leadership turnover.",
-      "table": ["CompanyLeadershipExcerpt"]
+      "table": [
+        "CompanyLeadershipExcerpt"
+      ]
     },
     {
       "step": 2,
       "task": "Extract technology adoption details from those companies.",
-      "table": ["CompanyTechStack"]
+      "table": [
+        "CompanyTechStack"
+      ]
     },
     {
       "step": 3,
       "task": "Analyze trends in technology adoption related to data analytics.",
-      "table": ["CompanyTechStack", "CompanyHiringDetail"]
+      "table": [
+        "CompanyTechStack",
+        "CompanyHiringDetail"
+      ]
     }
   ]
 }

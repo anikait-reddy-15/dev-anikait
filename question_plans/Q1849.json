@@ -1,0 +1,26 @@
+{
+  "question": "Where does the blend of digital asset management and business leadership appear most impactful in the latest LinkedIn updates?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify mentions of digital asset management in LinkedIn updates.",
+      "table": [
+        "SocialMediaInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Identify mentions of business leadership in LinkedIn updates.",
+      "table": [
+        "SocialMediaInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze where the blend of digital asset management and business leadership is most impactful.",
+      "table": [
+        "SocialMediaInfo"
+      ]
+    }
+  ]
+}

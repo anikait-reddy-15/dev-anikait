@@ -1,21 +1,26 @@
 {
   "question": "Which personas with 'Chief Technology Officer' titles have actively engaged in online discussions about artificial intelligence and what companies do they represent?",
-  "tables": ["PersonaUser", "PersonaTitle", "PersonaLinkedinPost"],
   "subtasks": [
     {
       "step": 1,
       "task": "Identify personas with 'Chief Technology Officer' titles. [PersonaTitle]",
-      "table": ["PersonaTitle"]
+      "table": [
+        "PersonaTitle"
+      ]
     },
     {
       "step": 2,
       "task": "Find posts related to artificial intelligence from these personas. [PersonaLinkedinPost]",
-      "table": ["PersonaLinkedinPost"]
+      "table": [
+        "PersonaLinkedinPost"
+      ]
     },
     {
       "step": 3,
       "task": "Retrieve the company information represented by these personas. [PersonaUser]",
-      "table": ["PersonaUser"]
+      "table": [
+        "PersonaUser"
+      ]
     }
   ]
 }

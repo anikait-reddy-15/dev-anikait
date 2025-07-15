@@ -1,0 +1,26 @@
+{
+  "question": "Which industries are seeing a rise in green tech usage, and what social media strategies accompany this shift?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify industries with increased green tech usage.",
+      "table": [
+        "CompanyVendorProductDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Determine the social media strategies used by companies in these industries.",
+      "table": [
+        "SocialMediaInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Correlate the rise in green tech usage with specific social media strategies.",
+      "table": [
+        "SectionData"
+      ]
+    }
+  ]
+}

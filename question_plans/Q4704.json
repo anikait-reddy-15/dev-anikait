@@ -1,0 +1,27 @@
+{
+  "question": "Which companies are planning to upgrade their enterprise software solutions, and what are their executive leaders saying about these changes?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies planning to upgrade enterprise software solutions.",
+      "table": [
+        "CompanyTechStack"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract statements from executive leaders about these changes.",
+      "table": [
+        "IndustryBusinessTrend"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Combine data to link software upgrades with executive statements.",
+      "table": [
+        "CompanyTechStack",
+        "IndustryBusinessTrend"
+      ]
+    }
+  ]
+}

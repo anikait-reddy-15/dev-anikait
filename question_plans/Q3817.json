@@ -1,0 +1,26 @@
+{
+  "question": "Which personas actively discuss cloud migration on YouTube?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify YouTube content related to cloud migration from PersonaInstagramProfile.",
+      "table": [
+        "PersonaInstagramProfile"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Identify personas discussing this content.",
+      "table": [
+        "PersonaInstagramProfile"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Determine personas actively discussing cloud migration.",
+      "table": [
+        "PersonaInstagramProfile"
+      ]
+    }
+  ]
+}

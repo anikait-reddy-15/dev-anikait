@@ -1,6 +1,5 @@
 {
   "question": "How are nonprofit organizations adapting to technology and workforce trends in 2023?",
-  "tables": ["IndustryITTrend", "SectionInfo"],
   "subtasks": [
     {
       "step": 1,

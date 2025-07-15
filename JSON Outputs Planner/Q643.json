@@ -1,16 +1,19 @@
 {
   "question": "What new IT partnerships have companies in the healthcare sector formed recently?",
-  "tables": ["CompanyITPartnerDetail", "CompanyInfo"],
   "subtasks": [
     {
       "step": 1,
       "task": "Identify companies in the healthcare sector.",
-      "table": ["CompanyInfo"]
+      "table": [
+        "CompanyInfo"
+      ]
     },
     {
       "step": 2,
       "task": "Find new IT partnerships for these companies.",
-      "table": ["CompanyITPartnerDetail"]
+      "table": [
+        "CompanyITPartnerDetail"
+      ]
     }
   ]
 }

@@ -1,0 +1,24 @@
+{
+  "question": "Who are the leading personas shaping public disk space management discussions within LinkedIn posts?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Extract LinkedIn posts discussing disk space management.",
+      "table": [
+        "PersonaTitle"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Identify leading personas from these discussions.",
+      "table": [
+        "PersonaTitle"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Aggregate results to determine leading personas.",
+      "table": []
+    }
+  ]
+}

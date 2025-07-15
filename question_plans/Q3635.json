@@ -1,0 +1,27 @@
+{
+  "question": "Which top-tier companies have recently signed cybersecurity deals as part of a significant IT trend focus area?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify top-tier companies.",
+      "table": [
+        "PersonaTitle"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract details of recent cybersecurity deals.",
+      "table": [
+        "IndustryBusinessTrend"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Identify companies signing cybersecurity deals as part of IT trend focus.",
+      "table": [
+        "PersonaTitle",
+        "IndustryBusinessTrend"
+      ]
+    }
+  ]
+}

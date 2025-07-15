@@ -1,0 +1,26 @@
+{
+  "question": "What conclusions can be gathered from Twitter data science engagement in relation to leadership changes?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Extract data science engagement metrics from Twitter.",
+      "table": [
+        "SocialMediaInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Identify leadership changes within companies.",
+      "table": [
+        "PersonaUser"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Correlate Twitter engagement with leadership changes.",
+      "table": [
+        "PersonaLinkedinActivity"
+      ]
+    }
+  ]
+}

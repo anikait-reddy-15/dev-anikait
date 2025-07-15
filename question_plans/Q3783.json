@@ -1,0 +1,27 @@
+{
+  "question": "Which companies\u2019 YouTube channels highlight AI deployment strategies effectively supporting their tech transformation?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify AI deployment strategies from the IndustryITTrend table.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract YouTube channel information from the PersonaLinkedinActivity table.",
+      "table": [
+        "PersonaLinkedinActivity"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Match companies with effective AI strategies to their YouTube channels.",
+      "table": [
+        "IndustryITTrend",
+        "PersonaLinkedinActivity"
+      ]
+    }
+  ]
+}

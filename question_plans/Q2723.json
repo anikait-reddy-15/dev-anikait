@@ -1,0 +1,26 @@
+{
+  "question": "How do technology investments align with leadership changes in manufacturing companies?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify manufacturing companies from the PersonaUser table.",
+      "table": [
+        "PersonaUser"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract information on technology investments from the SocialMediaInfo table.",
+      "table": [
+        "SocialMediaInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Identify leadership changes in these companies.",
+      "table": [
+        "PersonaUser"
+      ]
+    }
+  ]
+}

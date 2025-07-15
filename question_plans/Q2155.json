@@ -1,0 +1,27 @@
+{
+  "question": "What are the digital priorities of organizations deploying updated server infrastructure?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify organizations deploying updated server infrastructure.",
+      "table": [
+        "CompanyDataCenter"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract digital priorities of these organizations.",
+      "table": [
+        "PersonaLinkedInProfile"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the relationship between server updates and digital priorities.",
+      "table": [
+        "CompanyDataCenter",
+        "PersonaLinkedInProfile"
+      ]
+    }
+  ]
+}

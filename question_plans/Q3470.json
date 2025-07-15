@@ -1,0 +1,26 @@
+{
+  "question": "Which companies undertaking inclusive tech initiatives as described in leadership excerpts are also elevating their social media reach?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies with inclusive tech initiatives in leadership excerpts.",
+      "table": [
+        "SectionInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Find evidence of elevated social media reach.",
+      "table": [
+        "PersonaYoutubeProfile"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Correlate inclusive tech initiatives with social media reach.",
+      "table": [
+        "CompanyDataCenter"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "question": "Which personas have shared insights about blockchain technology in their LinkedIn post and belong to companies with a financial sector focus?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify personas who have shared insights about blockchain technology in their LinkedIn posts.",
+      "table": [
+        "PersonaMisc"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Filter these personas for those belonging to companies in the financial sector.",
+      "table": [
+        "PersonaMisc"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "List personas that meet both criteria.",
+      "table": [
+        "PersonaMisc"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "question": "What are the highlighted business trends among companies involved in major cloud service deals this year?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies involved in major cloud service deals this year.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Retrieve highlighted business trends for these companies.",
+      "table": [
+        "SectionTitle"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "List the highlighted business trends.",
+      "table": [
+        "SectionTitle"
+      ]
+    }
+  ]
+}

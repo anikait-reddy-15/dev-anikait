@@ -1,0 +1,27 @@
+{
+  "question": "Among firms taking steps towards tech-enabled sustainability, what are the discernible correlates in Youtube collective interactions?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify firms taking steps towards tech-enabled sustainability",
+      "table": [
+        "CompanyDataCenter"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract YouTube collective interactions related to these steps",
+      "table": [
+        "PersonaYoutubeProfile"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze correlates between sustainability steps and YouTube interactions",
+      "table": [
+        "CompanyDataCenter",
+        "PersonaYoutubeProfile"
+      ]
+    }
+  ]
+}

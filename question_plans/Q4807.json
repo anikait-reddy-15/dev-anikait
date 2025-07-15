@@ -1,0 +1,26 @@
+{
+  "question": "What are the primary focus areas of companies that increased their data science team this quarter?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies that increased their data science team this quarter.",
+      "table": [
+        "PersonaMisc"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Determine the primary focus areas of these companies.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "List the primary focus areas for each company.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    }
+  ]
+}

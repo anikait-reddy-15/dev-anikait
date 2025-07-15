@@ -1,0 +1,26 @@
+{
+  "question": "How are major data integrations pursued in industries with watermark tech implementations?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify industries with watermark tech implementations.",
+      "table": [
+        "SocialMediaInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract information on major data integrations in these industries.",
+      "table": [
+        "PersonaUser"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze how data integrations are pursued.",
+      "table": [
+        "PersonaLinkedinActivity"
+      ]
+    }
+  ]
+}

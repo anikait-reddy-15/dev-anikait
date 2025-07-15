@@ -1,0 +1,24 @@
+{
+  "question": "Who are the top spokespeople for cloud transformation efforts in their sectors, based on social mentions?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify social mentions related to cloud transformation efforts",
+      "table": [
+        "SectionTitle"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Identify spokespeople mentioned in these social mentions",
+      "table": [
+        "PersonaMisc"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Determine top spokespeople based on frequency of mentions",
+      "table": []
+    }
+  ]
+}

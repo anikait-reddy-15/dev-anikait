@@ -1,0 +1,26 @@
+{
+  "question": "What essential consumer demands and technological approaches are analyzed in enterprise-focused Twitter coverage?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify consumer demands discussed in Twitter coverage.",
+      "table": [
+        "SectionInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract technological approaches from Twitter coverage.",
+      "table": [
+        "SectionInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the relationship between consumer demands and technological approaches.",
+      "table": [
+        "SectionInfo"
+      ]
+    }
+  ]
+}

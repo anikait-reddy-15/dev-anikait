@@ -1,9 +1,5 @@
 {
   "question": "How does New York Life's Facebook engagement reflect its commitment to diversity and inclusion strategies?",
-  "tables": [
-    "CompanyFacebookDetail",
-    "CompanyFocusAreaDetail"
-  ],
   "subtasks": [
     {
       "step": 1,

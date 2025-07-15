@@ -1,0 +1,26 @@
+{
+  "question": "What emerging technologies are highlighted by LinkedIn profiles of industry experts leading innovation at their companies?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Extract LinkedIn profiles of industry experts from the PersonaUser table.",
+      "table": [
+        "PersonaUser"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Identify mentions of emerging technologies in these profiles.",
+      "table": [
+        "PersonaUser"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "List and summarize highlighted emerging technologies.",
+      "table": [
+        "PersonaUser"
+      ]
+    }
+  ]
+}

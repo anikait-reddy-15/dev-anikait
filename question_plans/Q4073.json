@@ -1,0 +1,26 @@
+{
+  "question": "How does Twitter content from tech companies emphasize cybersecurity evolutions?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify Twitter content from tech companies.",
+      "table": [
+        "PersonaMisc"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract mentions of cybersecurity evolutions.",
+      "table": [
+        "PersonaMisc"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze how these mentions emphasize cybersecurity evolutions.",
+      "table": [
+        "PersonaMisc"
+      ]
+    }
+  ]
+}

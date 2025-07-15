@@ -1,0 +1,26 @@
+{
+  "question": "Which companies revamped data management systems and subsequently announced leadership changes?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies that revamped their data management systems.",
+      "table": [
+        "CompanyManagementDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Find companies that announced leadership changes.",
+      "table": [
+        "SectionInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Correlate data management revamps with leadership changes.",
+      "table": [
+        "PersonaMisc"
+      ]
+    }
+  ]
+}

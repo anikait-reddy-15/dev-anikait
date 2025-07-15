@@ -1,0 +1,26 @@
+{
+  "question": "What are the priority areas for companies dealing in IT managed service solutions?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies dealing in IT managed service solutions.",
+      "table": [
+        "PersonaUser"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Determine priority areas for these companies.",
+      "table": [
+        "PersonaLinkedinActivity"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "List priority areas for companies in IT managed service solutions.",
+      "table": [
+        "PersonaLinkedinActivity"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "question": "Which business sectors are seeing a rise in IT partnerships as mirrored by positive developments on company Instagram posts?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify business sectors with a rise in IT partnerships.",
+      "table": [
+        "IndustryBusinessTrend"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Find positive developments mentioned in company Instagram posts.",
+      "table": [
+        "PersonaInstagramProfile"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Correlate the sectors with positive Instagram developments.",
+      "table": []
+    }
+  ]
+}

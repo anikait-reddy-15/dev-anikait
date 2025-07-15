@@ -1,0 +1,26 @@
+{
+  "question": "What unique opportunities are seized by venture-backed companies documenting AI-related Instagram stories?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify venture-backed companies.",
+      "table": [
+        "CompanyDataCenter"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract AI-related Instagram stories from these companies.",
+      "table": [
+        "CompanyYoutubeDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze unique opportunities documented in these stories.",
+      "table": [
+        "CompanyYoutubeDetail"
+      ]
+    }
+  ]
+}

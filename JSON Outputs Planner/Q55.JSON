@@ -1,6 +1,5 @@
 {
   "question": "Which healthcare companies partnered with Microsoft for data management solutions?",
-  "tables": ["CompanyITPartnerDetail", "CompanyInfo"],
   "subtasks": [
     {
       "step": 1,

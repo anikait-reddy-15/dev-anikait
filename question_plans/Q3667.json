@@ -1,0 +1,27 @@
+{
+  "question": "What companies blend their Instagram branding content with discussions of the latest blockchain innovations?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies discussing blockchain innovations.",
+      "table": [
+        "IndustryBusinessTrend"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Find companies with Instagram branding content.",
+      "table": [
+        "PersonaYoutubeProfile"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Combine the results to find companies blending Instagram content with blockchain discussions.",
+      "table": [
+        "PersonaYoutubeProfile",
+        "IndustryBusinessTrend"
+      ]
+    }
+  ]
+}

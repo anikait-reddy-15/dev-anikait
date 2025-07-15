@@ -1,21 +1,27 @@
 {
   "question": "Who are the top leaders in companies that signed recent deals with cloud service vendors and what technology trends do they highlight?",
-  "tables": ["CompanyLeadershipExcerpt", "CompanyDealMaster", "CompanyVendorTechDetail"],
   "subtasks": [
     {
       "step": 1,
       "task": "Identify companies that have signed recent deals with cloud service vendors",
-      "table": ["CompanyDealMaster", "CompanyVendorTechDetail"]
+      "table": [
+        "CompanyDealMaster",
+        "CompanyVendorTechDetail"
+      ]
     },
     {
       "step": 2,
       "task": "Extract leadership excerpts from these companies to find top leaders",
-      "table": ["CompanyLeadershipExcerpt"]
+      "table": [
+        "CompanyLeadershipExcerpt"
+      ]
     },
     {
       "step": 3,
       "task": "Highlight the technology trends mentioned in the leadership excerpts",
-      "table": ["CompanyLeadershipExcerpt"]
+      "table": [
+        "CompanyLeadershipExcerpt"
+      ]
     }
   ]
 }

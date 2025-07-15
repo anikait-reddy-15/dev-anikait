@@ -1,0 +1,26 @@
+{
+  "question": "Which leaders discussed new data privacy regulations in their speeches, highlighting the regulatory landscape of their industries?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Extract speeches from SocialMediaInfo.",
+      "table": [
+        "SocialMediaInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Identify speeches discussing data privacy regulations.",
+      "table": [
+        "SocialMediaInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "List leaders and the regulatory landscape of their industries.",
+      "table": [
+        "SocialMediaInfo"
+      ]
+    }
+  ]
+}

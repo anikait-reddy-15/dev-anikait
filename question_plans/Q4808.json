@@ -1,0 +1,27 @@
+{
+  "question": "Which companies have closed deals with CRM vendors and recently started leadership recruitment?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies that have closed deals with CRM vendors.",
+      "table": [
+        "CompanyVendorProductDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Identify companies that have recently started leadership recruitment.",
+      "table": [
+        "PersonaMisc"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Find companies that meet both criteria.",
+      "table": [
+        "CompanyVendorProductDetail",
+        "PersonaMisc"
+      ]
+    }
+  ]
+}

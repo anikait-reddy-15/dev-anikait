@@ -1,0 +1,26 @@
+{
+  "question": "Which companies emphasize data analytics in their tech stack following recent acquisitions?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies with recent acquisitions.",
+      "table": [
+        "CompanyVendorProductDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Identify companies emphasizing data analytics in their tech stack.",
+      "table": [
+        "CompanyVendorProductDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Find companies that meet both criteria.",
+      "table": [
+        "CompanyVendorProductDetail"
+      ]
+    }
+  ]
+}

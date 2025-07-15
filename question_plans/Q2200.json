@@ -1,0 +1,26 @@
+{
+  "question": "Which digital influencers on LinkedIn target upcoming industry challenges through innovative dialogues?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify digital influencers from the PersonaLinkedInProfile table.",
+      "table": [
+        "PersonaLinkedInProfile"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract dialogues targeting industry challenges from their LinkedIn profiles.",
+      "table": [
+        "PersonaLinkedInProfile"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the innovation in these dialogues.",
+      "table": [
+        "PersonaLinkedInProfile"
+      ]
+    }
+  ]
+}

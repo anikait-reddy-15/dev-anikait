@@ -1,0 +1,26 @@
+{
+  "question": "What companies have seen a rise in LinkedIn post engagements following announcements of new data partnerships?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies that announced new data partnerships",
+      "table": [
+        "CompanyITPartnerDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Track LinkedIn post engagements for these companies",
+      "table": [
+        "SocialMediaInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Determine if there was a rise in engagements following the announcements",
+      "table": [
+        "SocialMediaInfo"
+      ]
+    }
+  ]
+}

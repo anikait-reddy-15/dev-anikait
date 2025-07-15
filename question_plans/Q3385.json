@@ -1,0 +1,26 @@
+{
+  "question": "How are education companies responding to digital shifts in learning methods through hiring trends?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify education companies adapting to digital learning methods.",
+      "table": [
+        "CompanyVendorProductDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Examine hiring trends in these companies.",
+      "table": [
+        "CompanyVendorProductDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze how hiring trends reflect responses to digital shifts.",
+      "table": [
+        "CompanyVendorProductDetail"
+      ]
+    }
+  ]
+}

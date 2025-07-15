@@ -1,0 +1,26 @@
+{
+  "question": "Are marketplace platforms leveraging LinkedIn strategies for broader engagement?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify marketplace platforms from the data.",
+      "table": [
+        "CompanyDataCenter"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract LinkedIn strategies mentioned in relation to these platforms.",
+      "table": [
+        "SocialMediaInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze how these strategies are being leveraged for broader engagement.",
+      "table": [
+        "SocialMediaInfo"
+      ]
+    }
+  ]
+}

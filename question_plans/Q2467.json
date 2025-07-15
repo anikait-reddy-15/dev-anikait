@@ -1,0 +1,26 @@
+{
+  "question": "Which organizations experience increased engagement on Facebook sharing new insights in tech stack bits?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify organizations sharing insights on tech stacks.",
+      "table": [
+        "CompanyDataCenter"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract Facebook engagement data for these organizations.",
+      "table": [
+        "CompanyYoutubeDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze increased engagement trends on Facebook.",
+      "table": [
+        "CompanyYoutubeDetail"
+      ]
+    }
+  ]
+}

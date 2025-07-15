@@ -1,21 +1,26 @@
 {
   "question": "Which data scientists have shared insights on LinkedIn regarding vendor relationships in the healthcare industry?",
-  "tables": ["PersonaLinkedinPost", "PersonaUser", "CompanyDealMaster"],
   "subtasks": [
     {
       "step": 1,
       "task": "Identify posts related to vendor relationships in the healthcare industry. [PersonaLinkedinPost]",
-      "table": ["PersonaLinkedinPost"]
+      "table": [
+        "PersonaLinkedinPost"
+      ]
     },
     {
       "step": 2,
       "task": "Link the identified posts to the data scientists who authored them. [PersonaUser]",
-      "table": ["PersonaUser"]
+      "table": [
+        "PersonaUser"
+      ]
     },
     {
       "step": 3,
       "task": "Cross-reference with company deals to ensure relevance to the healthcare industry. [CompanyDealMaster]",
-      "table": ["CompanyDealMaster"]
+      "table": [
+        "CompanyDealMaster"
+      ]
     }
   ]
 }

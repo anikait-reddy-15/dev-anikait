@@ -1,0 +1,27 @@
+{
+  "question": "Which firms show an increased interest in data analytics as seen in their hiring patterns and recent LinkedIn activity?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify firms with recent hiring patterns focused on data analytics.",
+      "table": [
+        "PersonaTitle"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract LinkedIn activity related to data analytics.",
+      "table": [
+        "PersonaYoutubeProfile"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Combine hiring pattern data with LinkedIn activity to identify firms with increased interest in data analytics.",
+      "table": [
+        "PersonaTitle",
+        "PersonaYoutubeProfile"
+      ]
+    }
+  ]
+}

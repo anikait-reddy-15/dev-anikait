@@ -1,21 +1,27 @@
 {
   "question": "Which companies are using AI in procurement to automate vendor selection and contract compliance monitoring?",
-  "tables": ["CompanyFocusAreaDetail", "CompanyInfo"],
   "subtasks": [
     {
       "step": 1,
       "task": "Identify companies using AI in procurement.",
-      "table": ["CompanyFocusAreaDetail"]
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
     },
     {
       "step": 2,
       "task": "Filter for vendor selection and contract compliance automation.",
-      "table": ["CompanyFocusAreaDetail"]
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
     },
     {
       "step": 3,
       "task": "List companies optimizing procurement via AI.",
-      "table": ["CompanyFocusAreaDetail", "CompanyInfo"]
+      "table": [
+        "CompanyFocusAreaDetail",
+        "CompanyInfo"
+      ]
     }
   ]
 }

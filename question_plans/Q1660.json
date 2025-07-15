@@ -1,0 +1,26 @@
+{
+  "question": "What are the impacts of executive leadership changes on technology vendor deals in telecommunications?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify executive leadership changes in telecommunications companies.",
+      "table": [
+        "PersonaTitle"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract impacts on technology vendor deals due to these changes.",
+      "table": [
+        "PersonaLinkedInProfile"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the overall impact on the telecommunications sector.",
+      "table": [
+        "PersonaYoutubeProfile"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "question": "What patterns are observed in the adaptive strategies of companies following tech stack disruptions?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify instances of tech stack disruptions from the SocialMediaInfo table.",
+      "table": [
+        "SocialMediaInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract adaptive strategies employed by companies post-disruption.",
+      "table": [
+        "PersonaUser"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze patterns in these adaptive strategies.",
+      "table": [
+        "PersonaLinkedinActivity"
+      ]
+    }
+  ]
+}

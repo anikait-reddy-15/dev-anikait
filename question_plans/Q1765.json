@@ -1,0 +1,26 @@
+{
+  "question": "What personas are recognized for sharing industry-leading IoT projects on their Twitter profiles?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify personas with Twitter profiles.",
+      "table": [
+        "PersonaTwitterTweets"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Filter for tweets related to industry-leading IoT projects.",
+      "table": [
+        "PersonaTwitterTweets"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Recognize personas sharing these IoT projects.",
+      "table": [
+        "PersonaTwitterTweets"
+      ]
+    }
+  ]
+}

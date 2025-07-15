@@ -1,0 +1,24 @@
+{
+  "question": "Which firms emphasize user privacy in their technology updates and executive speeches?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify firms that mention user privacy in their technology updates.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Find executive speeches that highlight user privacy.",
+      "table": [
+        "PersonaMisc"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Combine results to list firms emphasizing user privacy in both technology updates and executive speeches.",
+      "table": []
+    }
+  ]
+}

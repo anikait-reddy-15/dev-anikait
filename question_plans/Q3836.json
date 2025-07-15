@@ -1,0 +1,24 @@
+{
+  "question": "What strategic shifts occur after data science leaders reflect industry best practices in Patreon blogs?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify data science leaders reflecting best practices in Patreon blogs.",
+      "table": [
+        "CompanyManagementDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Determine strategic shifts in companies led by these leaders.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the correlation between best practices reflection and strategic shifts.",
+      "table": []
+    }
+  ]
+}

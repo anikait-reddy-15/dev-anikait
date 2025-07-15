@@ -1,0 +1,26 @@
+{
+  "question": "Which new technologies emerged in the market as reported on in YouTube by competitive company evaluations?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify YouTube videos related to competitive company evaluations.",
+      "table": [
+        "PersonaYoutubeProfile"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract mentions of new technologies in these evaluations.",
+      "table": [
+        "PersonaYoutubeProfile"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "List new technologies that have emerged in the market.",
+      "table": [
+        "PersonaYoutubeProfile"
+      ]
+    }
+  ]
+}

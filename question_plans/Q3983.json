@@ -1,0 +1,26 @@
+{
+  "question": "What innovative practices in data analysis are emerging globally among companies reducing operational inefficiencies?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify global trends in data analysis practices.",
+      "table": [
+        "IndustryBusinessTrend"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Filter practices aimed at reducing operational inefficiencies.",
+      "table": [
+        "IndustryBusinessTrend"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Compile a list of innovative practices from the filtered data.",
+      "table": [
+        "IndustryBusinessTrend"
+      ]
+    }
+  ]
+}

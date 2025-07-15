@@ -1,0 +1,26 @@
+{
+  "question": "Discover companies expanding their IT partnerships following expressed AI/ML interest in recent research and industry IT trends?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify expressed AI/ML interest in recent research and industry IT trends from the IndustryBusinessTrend table.",
+      "table": [
+        "IndustryBusinessTrend"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract data on companies expanding their IT partnerships from the IndustryBusinessTrend table.",
+      "table": [
+        "IndustryBusinessTrend"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Determine which companies expanded IT partnerships following AI/ML interest.",
+      "table": [
+        "IndustryBusinessTrend"
+      ]
+    }
+  ]
+}

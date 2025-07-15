@@ -1,0 +1,27 @@
+{
+  "question": "Which firms pivoted from conventional tech methods to big data analytics, seen in increased social media interest?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify firms that mentioned a pivot from conventional tech methods to big data analytics in the PersonaTwitterProfile table.",
+      "table": [
+        "PersonaTwitterProfile"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract social media posts indicating increased interest in these firms from the PersonaFaceBook table.",
+      "table": [
+        "PersonaFaceBook"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the correlation between the pivot and increased social media interest.",
+      "table": [
+        "PersonaTwitterProfile",
+        "PersonaFaceBook"
+      ]
+    }
+  ]
+}

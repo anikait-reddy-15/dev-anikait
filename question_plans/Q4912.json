@@ -1,0 +1,24 @@
+{
+  "question": "Have there been any companies that switched from in-house IT to managed service providers while facing industry pressure on AI ethics?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies that switched from in-house IT to managed service providers.",
+      "table": [
+        "CompanyDataCenter"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Find companies facing industry pressure on AI ethics.",
+      "table": [
+        "SectionTitle"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Cross-reference the two lists to find companies meeting both criteria.",
+      "table": []
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "question": "How do industry leaders use Instagram to advocate for ethical AI discussions?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify industry leaders from the PersonaUser table.",
+      "table": [
+        "PersonaUser"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract Instagram posts related to ethical AI discussions from the SocialMediaInfo table.",
+      "table": [
+        "SocialMediaInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze how these posts advocate for ethical AI.",
+      "table": [
+        "SocialMediaInfo"
+      ]
+    }
+  ]
+}

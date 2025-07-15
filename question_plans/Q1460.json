@@ -1,0 +1,26 @@
+{
+  "question": "How do social media metrics reflect organizational focuses on open-source technology adoptions?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify organizations focusing on open-source technology adoptions.",
+      "table": [
+        "PersonaMisc"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Retrieve social media metrics for these organizations.",
+      "table": [
+        "PersonaTwitterTweets"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze how these metrics reflect organizational focuses.",
+      "table": [
+        "PersonaTwitterTweets"
+      ]
+    }
+  ]
+}

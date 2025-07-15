@@ -1,6 +1,5 @@
 {
   "question": "Which technologies are preferred by companies whose leaders have spoken openly about the importance of digital transformation?",
-  "tables": ["CompanyLeadershipExcerpt", "CompanyTechStack"],
   "subtasks": [
     {
       "step": 1,

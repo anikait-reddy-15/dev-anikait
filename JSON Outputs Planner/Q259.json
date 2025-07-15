@@ -1,21 +1,27 @@
 {
   "question": "Which companies have signed new deals with cloud service providers and also showcased recent social media activity about digital transformation?",
-  "tables": ["CompanyDealMaster", "CompanyTwitterDetail"],
   "subtasks": [
     {
       "step": 1,
       "task": "Identify companies that have signed new deals with cloud service providers.",
-      "table": ["CompanyDealMaster"]
+      "table": [
+        "CompanyDealMaster"
+      ]
     },
     {
       "step": 2,
       "task": "Extract recent social media activity related to digital transformation.",
-      "table": ["CompanyTwitterDetail"]
+      "table": [
+        "CompanyTwitterDetail"
+      ]
     },
     {
       "step": 3,
       "task": "Match companies from the deals with those showing relevant social media activity.",
-      "table": ["CompanyDealMaster", "CompanyTwitterDetail"]
+      "table": [
+        "CompanyDealMaster",
+        "CompanyTwitterDetail"
+      ]
     }
   ]
 }

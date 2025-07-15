@@ -1,0 +1,26 @@
+{
+  "question": "What role do leadership transformations on executive boards play when determining Facebook popularity increase trends?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify leadership transformations on executive boards.",
+      "table": [
+        "PersonaTitle"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Gather data on Facebook popularity increase trends.",
+      "table": [
+        "IndustryBusinessTrend"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the role of leadership transformations in these trends.",
+      "table": [
+        "PersonaLinkedinPost"
+      ]
+    }
+  ]
+}

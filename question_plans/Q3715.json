@@ -1,0 +1,26 @@
+{
+  "question": "Which individuals mentioned agile methodologies in their LinkedIn posts and are associated with companies expanding their digital transformation efforts?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify individuals mentioning agile methodologies in their LinkedIn posts.",
+      "table": [
+        "PersonaLinkedinActivity"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Identify companies expanding their digital transformation efforts.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Find individuals associated with these companies.",
+      "table": [
+        "PersonaUser"
+      ]
+    }
+  ]
+}

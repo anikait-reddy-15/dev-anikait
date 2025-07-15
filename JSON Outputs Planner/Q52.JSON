@@ -1,6 +1,5 @@
 {
   "question": "Which companies are implementing Office 365 for enhanced remote work capabilities?",
-  "tables": ["CompanyITPartnerDetail", "CompanyInfo"],
   "subtasks": [
     {
       "step": 1,

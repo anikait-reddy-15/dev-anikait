@@ -1,21 +1,27 @@
 {
   "question": "What are the common themes in the LinkedIn posts of data science leads at companies that made substantial investments in machine learning technologies?",
-  "tables": ["PersonaLinkedinPost", "PersonaUser", "CompanyTechStack"],
   "subtasks": [
     {
       "step": 1,
       "task": "Identify data science leads at companies that have invested in machine learning technologies.",
-      "table": ["CompanyTechStack", "PersonaUser"]
+      "table": [
+        "CompanyTechStack",
+        "PersonaUser"
+      ]
     },
     {
       "step": 2,
       "task": "Gather LinkedIn posts made by those data science leads.",
-      "table": ["PersonaLinkedinPost"]
+      "table": [
+        "PersonaLinkedinPost"
+      ]
     },
     {
       "step": 3,
       "task": "Analyze the posts to find common themes.",
-      "table": ["PersonaLinkedinPost"]
+      "table": [
+        "PersonaLinkedinPost"
+      ]
     }
   ]
 }

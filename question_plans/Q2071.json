@@ -1,0 +1,26 @@
+{
+  "question": "Who are the digital transformation executives most discussed in analytics within tech sectors?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify digital transformation executives from analytics data.",
+      "table": [
+        "SocialMediaInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract discussions related to these executives in tech sectors.",
+      "table": [
+        "PersonaUser"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the frequency and context of discussions.",
+      "table": [
+        "PersonaLinkedinActivity"
+      ]
+    }
+  ]
+}

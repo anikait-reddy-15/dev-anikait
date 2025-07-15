@@ -1,21 +1,26 @@
 {
   "question": "What technologies are frequently mentioned in leadership discussions at companies that have recently enhanced their hiring practices in the IT sector?",
-  "tables": ["CompanyLeadershipExcerpt", "CompanyTechStack", "CompanyHiringDetail"],
   "subtasks": [
     {
       "step": 1,
       "task": "Identify companies that have recently enhanced their hiring practices in the IT sector. [CompanyHiringDetail]",
-      "table": ["CompanyHiringDetail"]
+      "table": [
+        "CompanyHiringDetail"
+      ]
     },
     {
       "step": 2,
       "task": "Find technologies frequently mentioned in leadership discussions at those companies. [CompanyLeadershipExcerpt]",
-      "table": ["CompanyLeadershipExcerpt"]
+      "table": [
+        "CompanyLeadershipExcerpt"
+      ]
     },
     {
       "step": 3,
       "task": "Match the technologies with the companies that enhanced their hiring practices. [CompanyTechStack]",
-      "table": ["CompanyTechStack"]
+      "table": [
+        "CompanyTechStack"
+      ]
     }
   ]
 }

@@ -1,0 +1,26 @@
+{
+  "question": "Which companies signing contracts with AI vendors have also expanded their office space in the last quarter?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies signing contracts with AI vendors from the CompanyTwitterDetail table.",
+      "table": [
+        "CompanyTwitterDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Find companies that have expanded their office space in the last quarter from the CompanyTwitterDetail table.",
+      "table": [
+        "CompanyTwitterDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Join the results to find companies meeting both criteria.",
+      "table": [
+        "CompanyTwitterDetail"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "question": "Who are the primary thought leaders who post frequently about ML/AI on social media while being associated with innovative tech firms?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify thought leaders posting frequently about ML/AI on social media.",
+      "table": [
+        "PersonaYoutubeProfile"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract information on thought leaders associated with innovative tech firms.",
+      "table": [
+        "PersonaTitle"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Identify thought leaders meeting both criteria.",
+      "table": [
+        "PersonaYoutubeProfile",
+        "PersonaTitle"
+      ]
+    }
+  ]
+}

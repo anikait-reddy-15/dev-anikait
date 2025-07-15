@@ -1,0 +1,26 @@
+{
+  "question": "What common technologies appear in tech stacks of firms that are actively recruiting for AI talent?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify firms actively recruiting for AI talent.",
+      "table": [
+        "CompanyTwitterDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract technologies in the tech stacks of these firms.",
+      "table": [
+        "CompanyTwitterDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Identify common technologies across these tech stacks.",
+      "table": [
+        "CompanyTwitterDetail"
+      ]
+    }
+  ]
+}

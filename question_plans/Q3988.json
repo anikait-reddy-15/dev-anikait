@@ -1,0 +1,26 @@
+{
+  "question": "Which industry IT trends feature significantly in companies focusing on real-time data analytics?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies focusing on real-time data analytics.",
+      "table": [
+        "IndustryBusinessTrend"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract IT trends relevant to these companies.",
+      "table": [
+        "IndustryBusinessTrend"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Highlight significant IT trends among the extracted data.",
+      "table": [
+        "IndustryBusinessTrend"
+      ]
+    }
+  ]
+}

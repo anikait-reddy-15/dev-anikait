@@ -1,0 +1,26 @@
+{
+  "question": "Which Twitter profiles are linked with innovative IT strategies of major enterprises?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify major enterprises with innovative IT strategies.",
+      "table": [
+        "CompanyTechStack"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Find Twitter profiles linked to these enterprises.",
+      "table": [
+        "PersonaTwitterTweets"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Compile a list of Twitter profiles associated with innovative IT strategies.",
+      "table": [
+        "PersonaTwitterTweets"
+      ]
+    }
+  ]
+}

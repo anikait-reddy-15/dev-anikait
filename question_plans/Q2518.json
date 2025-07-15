@@ -1,0 +1,26 @@
+{
+  "question": "What common skills are possessed by data scientists who increased their engagement in LinkedIn Posts?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify data scientists with increased LinkedIn engagement.",
+      "table": [
+        "PersonaLinkedInProfile"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Identify skills possessed by these data scientists.",
+      "table": [
+        "PersonaLinkedInProfile"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "List common skills among these data scientists.",
+      "table": [
+        "PersonaLinkedInProfile"
+      ]
+    }
+  ]
+}

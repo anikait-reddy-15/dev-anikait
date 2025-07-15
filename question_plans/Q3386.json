@@ -1,0 +1,26 @@
+{
+  "question": "Which tech influencers on social platforms are promoting green IT initiatives?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify tech influencers active on social platforms.",
+      "table": [
+        "PageInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Filter influencers promoting green IT initiatives.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Compile a list of influencers advocating for green IT.",
+      "table": [
+        "PageInfo"
+      ]
+    }
+  ]
+}

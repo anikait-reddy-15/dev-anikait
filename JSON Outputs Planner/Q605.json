@@ -1,21 +1,27 @@
 {
   "question": "Who are the key decision-makers at organizations that have recently made major vendor selections for cybersecurity solutions and are active on Twitter?",
-  "tables": ["CompanyVendorTechDetail", "PersonaTwitterProfile", "CompanyInfo"],
   "subtasks": [
     {
       "step": 1,
       "task": "Identify organizations that have made major vendor selections for cybersecurity solutions.",
-      "table": ["CompanyVendorTechDetail"]
+      "table": [
+        "CompanyVendorTechDetail"
+      ]
     },
     {
       "step": 2,
       "task": "Extract Twitter profiles of decision-makers at those organizations.",
-      "table": ["PersonaTwitterProfile"]
+      "table": [
+        "PersonaTwitterProfile"
+      ]
     },
     {
       "step": 3,
       "task": "Match decision-makers to their respective organizations.",
-      "table": ["PersonaTwitterProfile", "CompanyInfo"]
+      "table": [
+        "PersonaTwitterProfile",
+        "CompanyInfo"
+      ]
     }
   ]
 }

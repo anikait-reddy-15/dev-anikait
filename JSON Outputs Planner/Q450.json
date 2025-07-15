@@ -1,21 +1,28 @@
 {
   "question": "Which organizations increased their social media activity on Twitter while highlighting workforce diversity initiatives in their strategic documents?",
-  "tables": ["CompanyTwitterDetail", "CompanyFocusAreaDetail", "CompanyLeadershipExcerpt"],
   "subtasks": [
     {
       "step": 1,
       "task": "Identify organizations that have increased their Twitter activity. [CompanyTwitterDetail]",
-      "table": ["CompanyTwitterDetail"]
+      "table": [
+        "CompanyTwitterDetail"
+      ]
     },
     {
       "step": 2,
       "task": "Find organizations that have highlighted workforce diversity initiatives in their strategic documents. [CompanyLeadershipExcerpt, CompanyFocusAreaDetail]",
-      "table": ["CompanyLeadershipExcerpt", "CompanyFocusAreaDetail"]
+      "table": [
+        "CompanyLeadershipExcerpt",
+        "CompanyFocusAreaDetail"
+      ]
     },
     {
       "step": 3,
       "task": "Match organizations with increased Twitter activity to those focusing on diversity initiatives. [CompanyTwitterDetail, CompanyFocusAreaDetail]",
-      "table": ["CompanyTwitterDetail", "CompanyFocusAreaDetail"]
+      "table": [
+        "CompanyTwitterDetail",
+        "CompanyFocusAreaDetail"
+      ]
     }
   ]
 }

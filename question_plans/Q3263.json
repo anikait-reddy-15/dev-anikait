@@ -1,0 +1,26 @@
+{
+  "question": "Which personas have engaged most on Twitter about sustainable tech advancements and their firms' investments in green technologies?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify Twitter posts related to sustainable tech advancements.",
+      "table": [
+        "CompanyManagementDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Determine personas involved in these discussions.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze engagement levels of these personas.",
+      "table": [
+        "LookUpValue"
+      ]
+    }
+  ]
+}

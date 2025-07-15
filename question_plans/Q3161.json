@@ -1,0 +1,26 @@
+{
+  "question": "How have digital transformations influenced tech entrepreneur engagements on social media platforms?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify posts related to digital transformations from the social media platforms.",
+      "table": [
+        "SocialMediaInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Filter the posts to find those specifically related to tech entrepreneurs.",
+      "table": [
+        "PersonaTwitterProfile"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the engagement metrics of these filtered posts to determine influence.",
+      "table": [
+        "SocialMediaInfo"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "question": "How many companies have recently invested in 5G technologies and discussed these investments on Twitter?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies with recent investments in 5G technologies.",
+      "table": [
+        "CompanyDealMaster"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Filter these companies based on discussions about these investments on Twitter.",
+      "table": [
+        "SectionInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Count the number of companies that meet these criteria.",
+      "table": [
+        "CompanyDealMaster",
+        "SectionInfo"
+      ]
+    }
+  ]
+}

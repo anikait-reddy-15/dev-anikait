@@ -1,0 +1,27 @@
+{
+  "question": "How does increased social media engagement reflect across shifts in corporate tech methodologies?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify instances of increased social media engagement.",
+      "table": [
+        "PersonaYoutubeProfile"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract shifts in corporate tech methodologies.",
+      "table": [
+        "CompanyITPartnerDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the reflection of social media engagement on tech methodology shifts.",
+      "table": [
+        "PersonaYoutubeProfile",
+        "CompanyITPartnerDetail"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "question": "Are public transport companies indicating interest in smart connectivity solutions within tech encoder shifts?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify public transport companies mentioning smart connectivity solutions.",
+      "table": [
+        "CompanyDataCenter"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract information on tech encoder shifts.",
+      "table": [
+        "SectionTitle"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Determine the interest level in smart connectivity within tech encoder shifts.",
+      "table": [
+        "CompanyDataCenter"
+      ]
+    }
+  ]
+}

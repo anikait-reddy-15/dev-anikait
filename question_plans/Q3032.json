@@ -1,0 +1,26 @@
+{
+  "question": "How do company mergers within the tech sector impact their overall IT investment strategies?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify recent company mergers within the tech sector.",
+      "table": [
+        "CompanyManagementDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract IT investment strategy details for these companies.",
+      "table": [
+        "CompanyManagementDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the impact of mergers on IT investment strategies.",
+      "table": [
+        "CompanyManagementDetail"
+      ]
+    }
+  ]
+}

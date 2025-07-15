@@ -1,0 +1,26 @@
+{
+  "question": "How are changes in leadership impacting cybersecurity partnerships with external vendors?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies with recent leadership changes.",
+      "table": [
+        "CompanyManagementDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract details on cybersecurity partnerships with external vendors.",
+      "table": [
+        "CompanyManagementDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the impact of leadership changes on these partnerships.",
+      "table": [
+        "CompanyManagementDetail"
+      ]
+    }
+  ]
+}

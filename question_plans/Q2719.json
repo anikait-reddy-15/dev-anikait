@@ -1,0 +1,27 @@
+{
+  "question": "What implications are addressed by CFOs on Facebook within FinTech collaborating companies?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify FinTech collaborating companies from the CompanyTwitterDetail table.",
+      "table": [
+        "CompanyTwitterDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Filter Facebook posts by CFOs from the SocialMediaInfo table.",
+      "table": [
+        "SocialMediaInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze implications addressed in these posts.",
+      "table": [
+        "CompanyTwitterDetail",
+        "SocialMediaInfo"
+      ]
+    }
+  ]
+}

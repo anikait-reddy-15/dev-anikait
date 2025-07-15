@@ -1,0 +1,26 @@
+{
+  "question": "How does in-house R&D shape industry-wide tech evolution according to persona posts?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify persona posts related to in-house R&D.",
+      "table": [
+        "PersonaUser"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract insights on tech evolution from these posts.",
+      "table": [
+        "PersonaUser"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze how in-house R&D shapes tech evolution.",
+      "table": [
+        "PersonaUser"
+      ]
+    }
+  ]
+}

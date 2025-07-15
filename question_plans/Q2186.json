@@ -1,0 +1,26 @@
+{
+  "question": "Have recent technology integrations been primarily driven by industry-wide business trend observations?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify recent technology integrations from the CompanyVendorTechDetail table.",
+      "table": [
+        "CompanyVendorTechDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract industry-wide business trend observations from the CompanyDataCenter table.",
+      "table": [
+        "CompanyDataCenter"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the correlation between technology integrations and business trend observations.",
+      "table": [
+        "CompanyVendorTechDetail"
+      ]
+    }
+  ]
+}

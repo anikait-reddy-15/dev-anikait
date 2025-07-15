@@ -1,21 +1,26 @@
 {
   "question": "Which personas have discussed cloud computing strategies in their LinkedIn posts and work at organizations prioritizing IT modernization?",
-  "tables": ["PersonaLinkedinPost", "CompanyFocusAreaDetail", "PersonaUser"],
   "subtasks": [
     {
       "step": 1,
       "task": "Identify LinkedIn posts discussing cloud computing strategies",
-      "table": ["PersonaLinkedinPost"]
+      "table": [
+        "PersonaLinkedinPost"
+      ]
     },
     {
       "step": 2,
       "task": "Match personas from those posts to their companies",
-      "table": ["PersonaUser"]
+      "table": [
+        "PersonaUser"
+      ]
     },
     {
       "step": 3,
       "task": "Filter to personas at companies prioritizing IT modernization",
-      "table": ["CompanyFocusAreaDetail"]
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
     }
   ]
 }

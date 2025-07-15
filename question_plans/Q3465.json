@@ -1,0 +1,26 @@
+{
+  "question": "Among companies promoting open-source tech integration, who demonstrated the widest LinkedIn activity correlated with tech community involvement?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies promoting open-source tech integration.",
+      "table": [
+        "SectionInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract LinkedIn activity related to tech community involvement.",
+      "table": [
+        "PersonaYoutubeProfile"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Correlate LinkedIn activity with open-source tech promotion.",
+      "table": [
+        "CompanyDataCenter"
+      ]
+    }
+  ]
+}

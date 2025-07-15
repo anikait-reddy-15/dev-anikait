@@ -1,21 +1,27 @@
 {
   "question": "Who are the CTOs driving AI strategy at firms that have also released video content on their digital innovation?",
-  "tables": ["CompanyLeadershipExcerpt", "CompanyYoutubeDetail"],
   "subtasks": [
     {
       "step": 1,
       "task": "Identify firms releasing video content on digital innovation.",
-      "table": ["CompanyYoutubeDetail"]
+      "table": [
+        "CompanyYoutubeDetail"
+      ]
     },
     {
       "step": 2,
       "task": "Find CTOs responsible for AI strategy at those firms.",
-      "table": ["CompanyLeadershipExcerpt"]
+      "table": [
+        "CompanyLeadershipExcerpt"
+      ]
     },
     {
       "step": 3,
       "task": "Match the CTOs with the corresponding companies.",
-      "table": ["CompanyLeadershipExcerpt", "CompanyYoutubeDetail"]
+      "table": [
+        "CompanyLeadershipExcerpt",
+        "CompanyYoutubeDetail"
+      ]
     }
   ]
 }

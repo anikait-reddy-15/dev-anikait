@@ -1,0 +1,26 @@
+{
+  "question": "When new software vendors are contracted, how do executives communicate priorities in external speeches?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify new software vendor contracts.",
+      "table": [
+        "CompanyTwitterDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Find external speeches by executives.",
+      "table": [
+        "CompanyTwitterDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze how priorities are communicated in these speeches.",
+      "table": [
+        "CompanyTwitterDetail"
+      ]
+    }
+  ]
+}

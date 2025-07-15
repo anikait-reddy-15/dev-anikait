@@ -1,0 +1,26 @@
+{
+  "question": "Which company leaders focused on talent acquisition have influenced rising IT hiring rates?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify company leaders focused on talent acquisition.",
+      "table": [
+        "CompanyTwitterDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Find instances of rising IT hiring rates.",
+      "table": [
+        "CompanyTwitterDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Determine influence of these leaders on IT hiring rates.",
+      "table": [
+        "CompanyTwitterDetail"
+      ]
+    }
+  ]
+}

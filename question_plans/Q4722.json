@@ -1,0 +1,27 @@
+{
+  "question": "How does industry engagement on YouTube for cybersecurity insights correlate with companies' vendor selections?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify industry engagement on YouTube for cybersecurity insights.",
+      "table": [
+        "IndustryBusinessTrend"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Determine companies' vendor selections related to cybersecurity.",
+      "table": [
+        "CompanyVendorTechDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Correlate YouTube engagement with vendor selections.",
+      "table": [
+        "IndustryBusinessTrend",
+        "CompanyVendorTechDetail"
+      ]
+    }
+  ]
+}

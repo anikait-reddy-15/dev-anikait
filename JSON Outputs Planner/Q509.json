@@ -1,21 +1,29 @@
 {
   "question": "Which companies have recently made deals with analytics vendors that coincide with new strategic focus areas announced by their leadership?",
-  "tables": ["CompanyDealMaster", "CompanyFocusAreaDetail", "CompanyLeadershipExcerpt"],
   "subtasks": [
     {
       "step": 1,
       "task": "Identify recent deals made with analytics vendors. [CompanyDealMaster]",
-      "table": ["CompanyDealMaster"]
+      "table": [
+        "CompanyDealMaster"
+      ]
     },
     {
       "step": 2,
       "task": "Gather strategic focus areas announced by leadership. [CompanyFocusAreaDetail, CompanyLeadershipExcerpt]",
-      "table": ["CompanyFocusAreaDetail", "CompanyLeadershipExcerpt"]
+      "table": [
+        "CompanyFocusAreaDetail",
+        "CompanyLeadershipExcerpt"
+      ]
     },
     {
       "step": 3,
       "task": "Match deals with newly announced strategic focus areas. [CompanyDealMaster, CompanyFocusAreaDetail, CompanyLeadershipExcerpt]",
-      "table": ["CompanyDealMaster", "CompanyFocusAreaDetail", "CompanyLeadershipExcerpt"]
+      "table": [
+        "CompanyDealMaster",
+        "CompanyFocusAreaDetail",
+        "CompanyLeadershipExcerpt"
+      ]
     }
   ]
 }

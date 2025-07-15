@@ -1,0 +1,24 @@
+{
+  "question": "How is advancements in edge computing reflecting on educational content shared by technology firms?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify advancements in edge computing.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Find educational content shared by technology firms.",
+      "table": [
+        "PersonaMisc"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze how these advancements are reflected in the educational content.",
+      "table": []
+    }
+  ]
+}

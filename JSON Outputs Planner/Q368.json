@@ -1,21 +1,28 @@
 {
   "question": "What are the latest technology investments made by companies that have an active online community discussing artificial intelligence?",
-  "tables": ["CompanyTechStack", "CompanyDealMaster", "SocialMediaInfo"],
   "subtasks": [
     {
       "step": 1,
       "task": "Identify companies with an active online community discussing artificial intelligence. [SocialMediaInfo]",
-      "table": ["SocialMediaInfo"]
+      "table": [
+        "SocialMediaInfo"
+      ]
     },
     {
       "step": 2,
       "task": "Find the latest technology investments made by those companies. [CompanyTechStack, CompanyDealMaster]",
-      "table": ["CompanyTechStack", "CompanyDealMaster"]
+      "table": [
+        "CompanyTechStack",
+        "CompanyDealMaster"
+      ]
     },
     {
       "step": 3,
       "task": "Combine the investment data with the companies identified in the first step. [CompanyTechStack, CompanyDealMaster]",
-      "table": ["CompanyTechStack", "CompanyDealMaster"]
+      "table": [
+        "CompanyTechStack",
+        "CompanyDealMaster"
+      ]
     }
   ]
 }

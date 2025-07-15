@@ -1,0 +1,27 @@
+{
+  "question": "Which companies have Twitter campaigns focused on sustainability while investing in related technologies?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies with Twitter campaigns focused on sustainability from the PersonaMisc table.",
+      "table": [
+        "PersonaMisc"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract data on investments in related technologies from the CompanyVendorProductDetail table.",
+      "table": [
+        "CompanyVendorProductDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Determine which companies are involved in both activities.",
+      "table": [
+        "PersonaMisc",
+        "CompanyVendorProductDetail"
+      ]
+    }
+  ]
+}

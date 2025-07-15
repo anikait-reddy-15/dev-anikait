@@ -1,21 +1,26 @@
 {
   "question": "Which executives have transitioned from data science to AI governance roles at major financial institutions?",
-  "tables": ["PersonaUser", "PersonaTitle"],
   "subtasks": [
     {
       "step": 1,
       "task": "Identify executives with a background in data science.",
-      "table": ["PersonaTitle"]
+      "table": [
+        "PersonaTitle"
+      ]
     },
     {
       "step": 2,
       "task": "Track career transitions into AI governance roles.",
-      "table": ["PersonaTitle"]
+      "table": [
+        "PersonaTitle"
+      ]
     },
     {
       "step": 3,
       "task": "Filter those working at major financial institutions.",
-      "table": ["PersonaUser"]
+      "table": [
+        "PersonaUser"
+      ]
     }
   ]
 }

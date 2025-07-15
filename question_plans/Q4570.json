@@ -1,0 +1,27 @@
+{
+  "question": "How do IT investments vary among companies responding to business intelligence trends?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify business intelligence trends from the IndustryITTrend table.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract IT investment details from the CompanyVendorProductDetail table.",
+      "table": [
+        "CompanyVendorProductDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze variations in IT investments among companies responding to these trends.",
+      "table": [
+        "IndustryITTrend",
+        "CompanyVendorProductDetail"
+      ]
+    }
+  ]
+}

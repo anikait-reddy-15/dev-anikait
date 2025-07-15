@@ -1,0 +1,26 @@
+{
+  "question": "Which educational institutions are forming alliances with companies for AI research?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies involved in AI research.",
+      "table": [
+        "PersonaUser"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Find alliances or partnerships between these companies and educational institutions.",
+      "table": [
+        "PersonaUser"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "List the educational institutions involved in these alliances.",
+      "table": [
+        "PersonaUser"
+      ]
+    }
+  ]
+}

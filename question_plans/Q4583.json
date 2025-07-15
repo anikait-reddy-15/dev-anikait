@@ -1,0 +1,27 @@
+{
+  "question": "Which companies are innovating their social media engagement alongside tech stack add-ons?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies with recent tech stack add-ons from the CompanyVendorProductDetail table.",
+      "table": [
+        "CompanyVendorProductDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract social media engagement strategies from the PersonaMisc table.",
+      "table": [
+        "PersonaMisc"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Determine which companies are innovating in both areas.",
+      "table": [
+        "CompanyVendorProductDetail",
+        "PersonaMisc"
+      ]
+    }
+  ]
+}

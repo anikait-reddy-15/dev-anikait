@@ -1,21 +1,27 @@
 {
   "question": "Which personas have expressed their views on the importance of big data in their social media posts and are associated with companies investing in analytics tools?",
-  "tables": ["PersonaLinkedinPost", "CompanyTechStack"],
   "subtasks": [
     {
       "step": 1,
       "task": "Extract social media posts from personas discussing the importance of big data.",
-      "table": ["PersonaLinkedinPost"]
+      "table": [
+        "PersonaLinkedinPost"
+      ]
     },
     {
       "step": 2,
       "task": "Identify companies that are investing in analytics tools.",
-      "table": ["CompanyTechStack"]
+      "table": [
+        "CompanyTechStack"
+      ]
     },
     {
       "step": 3,
       "task": "Match personas from the posts with companies investing in analytics tools.",
-      "table": ["PersonaLinkedinPost", "CompanyTechStack"]
+      "table": [
+        "PersonaLinkedinPost",
+        "CompanyTechStack"
+      ]
     }
   ]
 }

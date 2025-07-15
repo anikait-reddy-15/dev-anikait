@@ -1,0 +1,26 @@
+{
+  "question": "What technological shifts are notable among companies increasing their social media investments?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies increasing their social media investments from CompanyFocusAreaDetail.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract technological shifts in these companies.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Summarize the notable technological shifts.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    }
+  ]
+}

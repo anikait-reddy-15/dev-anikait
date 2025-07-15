@@ -1,0 +1,27 @@
+{
+  "question": "How do company technology investments relate to recent leadership evaluations and speeches on innovation?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Extract recent technology investments made by companies.",
+      "table": [
+        "CompanyDealMaster"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Retrieve leadership evaluations and speeches focusing on innovation.",
+      "table": [
+        "SectionInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the relationship between technology investments and leadership speeches.",
+      "table": [
+        "CompanyDealMaster",
+        "SectionInfo"
+      ]
+    }
+  ]
+}

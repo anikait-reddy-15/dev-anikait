@@ -1,0 +1,27 @@
+{
+  "question": "What are the digital innovation strategies linked to vendor deals in health analytics?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify digital innovation strategies in health analytics.",
+      "table": [
+        "SectionTitle"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract vendor deals related to these strategies.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Link strategies to specific vendor deals.",
+      "table": [
+        "SectionTitle",
+        "CompanyInfo"
+      ]
+    }
+  ]
+}

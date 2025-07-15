@@ -1,6 +1,5 @@
 {
   "question": "How do hiring practices for data specialists in retail organizations change with shifts in technology partnerships?",
-  "tables": ["CompanyHiringDetail", "CompanyITPartnerDetail"],
   "subtasks": [
     {
       "step": 1,

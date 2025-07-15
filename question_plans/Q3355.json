@@ -1,0 +1,26 @@
+{
+  "question": "Which companies have expanded multi-cloud environments to accommodate the rising demand for remote work?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies using multi-cloud environments.",
+      "table": [
+        "CompanyVendorProductDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract data on remote work demands.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Match companies with expanded multi-cloud environments to remote work demands.",
+      "table": [
+        "CompanyVendorProductDetail"
+      ]
+    }
+  ]
+}

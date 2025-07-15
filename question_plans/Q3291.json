@@ -1,0 +1,27 @@
+{
+  "question": "What observations can be drawn from personas discussing cloud integration in relation to cybersecurity improvements in their tweets?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify personas discussing cloud integration in their tweets.",
+      "table": [
+        "CompanyManagementDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract information on cybersecurity improvements mentioned in these tweets.",
+      "table": [
+        "IndustryBusinessTrend"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the relationship between cloud integration discussions and cybersecurity improvements.",
+      "table": [
+        "CompanyManagementDetail",
+        "IndustryBusinessTrend"
+      ]
+    }
+  ]
+}

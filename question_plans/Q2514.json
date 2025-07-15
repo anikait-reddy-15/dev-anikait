@@ -1,0 +1,27 @@
+{
+  "question": "How do changes in Twitter engagement correlate with leadership speaking on sustainability topics?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify changes in Twitter engagement.",
+      "table": [
+        "PersonaTwitterProfile"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Identify leadership excerpts speaking on sustainability topics.",
+      "table": [
+        "PersonaLinkedInProfile"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze correlation between Twitter engagement changes and sustainability topics.",
+      "table": [
+        "PersonaTwitterProfile",
+        "PersonaLinkedInProfile"
+      ]
+    }
+  ]
+}

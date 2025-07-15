@@ -1,0 +1,26 @@
+{
+  "question": "What trends are emerging among startups with significant focus on innovative tech stack deployments?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify startups focusing on innovative tech stack deployments.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract emerging trends among these startups.",
+      "table": [
+        "CompanyManagementDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the trends emerging from these startups.",
+      "table": [
+        "CompanyManagementDetail"
+      ]
+    }
+  ]
+}

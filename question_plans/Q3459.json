@@ -1,0 +1,26 @@
+{
+  "question": "Which data center enhancements are companies executing that coincide with their Twitter campaign launches on tech evolution?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify data center enhancements executed by companies.",
+      "table": [
+        "CompanyDataCenter"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Find companies launching Twitter campaigns on tech evolution.",
+      "table": [
+        "PersonaYoutubeProfile"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Correlate data center enhancements with Twitter campaign launches.",
+      "table": [
+        "SectionInfo"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "question": "What are the strategic focus areas recognized by companies that have recently engaged data science vendors?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies that have recently engaged data science vendors.",
+      "table": [
+        "PersonaUser"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract strategic focus areas for these companies.",
+      "table": [
+        "PersonaLinkedinActivity"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Compile the strategic focus areas recognized by these companies.",
+      "table": []
+    }
+  ]
+}

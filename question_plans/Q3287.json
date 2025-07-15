@@ -1,0 +1,27 @@
+{
+  "question": "How do discussions around open-source tech in YouTube segments correlate with increased focus on developer-oriented hiring?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify YouTube segments discussing open-source tech.",
+      "table": [
+        "CompanyManagementDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract information on developer-oriented hiring trends.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Correlate open-source tech discussions with developer-oriented hiring focus.",
+      "table": [
+        "CompanyManagementDetail",
+        "CompanyInfo"
+      ]
+    }
+  ]
+}

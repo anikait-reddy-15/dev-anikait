@@ -1,0 +1,26 @@
+{
+  "question": "Which industry leaders have articulated a strong focus on sustainability in their latest LinkedIn activity?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Extract latest LinkedIn activity from industry leaders.",
+      "table": [
+        "PersonaLinkedInProfile"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Identify mentions of sustainability in this activity.",
+      "table": [
+        "PersonaLinkedInProfile"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Determine which leaders have a strong focus on sustainability.",
+      "table": [
+        "PersonaLinkedInProfile"
+      ]
+    }
+  ]
+}

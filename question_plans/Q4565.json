@@ -1,0 +1,27 @@
+{
+  "question": "How do hiring processes incorporate IT strategic objectives in technologically progressive companies?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify technologically progressive companies from the IndustryITTrend table.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract hiring processes from the PersonaMisc table.",
+      "table": [
+        "PersonaMisc"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze how these hiring processes incorporate IT strategic objectives.",
+      "table": [
+        "PersonaMisc",
+        "IndustryITTrend"
+      ]
+    }
+  ]
+}

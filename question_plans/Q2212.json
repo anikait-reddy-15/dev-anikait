@@ -1,0 +1,26 @@
+{
+  "question": "What technology trends are most prevalent among companies utilizing cloud-based services?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies utilizing cloud-based services.",
+      "table": [
+        "CompanyVendorTechDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Determine prevalent technology trends among these companies.",
+      "table": [
+        "CompanyVendorTechDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "List the most prevalent technology trends.",
+      "table": [
+        "CompanyVendorTechDetail"
+      ]
+    }
+  ]
+}

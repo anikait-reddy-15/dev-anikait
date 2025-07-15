@@ -1,21 +1,26 @@
 {
   "question": "What specific technologies are favored by companies that signed recent vendor deals for digital marketing solutions?",
-  "tables": ["CompanyDealMaster", "CompanyVendorProductDetail", "CompanyTechStack"],
   "subtasks": [
     {
       "step": 1,
       "task": "Identify companies with recent vendor deals related to digital marketing solutions",
-      "table": ["CompanyVendorProductDetail"]
+      "table": [
+        "CompanyVendorProductDetail"
+      ]
     },
     {
       "step": 2,
       "task": "Match the companies from those deals",
-      "table": ["CompanyDealMaster"]
+      "table": [
+        "CompanyDealMaster"
+      ]
     },
     {
       "step": 3,
       "task": "Extract and analyze the technologies used by those companies",
-      "table": ["CompanyTechStack"]
+      "table": [
+        "CompanyTechStack"
+      ]
     }
   ]
 }

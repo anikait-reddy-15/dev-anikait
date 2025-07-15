@@ -1,0 +1,27 @@
+{
+  "question": "How do business focus areas evolve with IT investments during market expansions?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify business focus areas from the SectionData table.",
+      "table": [
+        "SectionData"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract IT investment details from the CompanyVendorProductDetail table.",
+      "table": [
+        "CompanyVendorProductDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze evolution of business focus areas with IT investments during market expansions.",
+      "table": [
+        "SectionData",
+        "CompanyVendorProductDetail"
+      ]
+    }
+  ]
+}

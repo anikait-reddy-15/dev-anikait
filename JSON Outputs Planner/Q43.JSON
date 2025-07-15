@@ -1,6 +1,5 @@
 {
   "question": "How did Rafael Jabur Bittar’s posts influence discussions about sustainable practices in mining?",
-  "tables": ["PersonaLinkedinPost", "CompanyTechStack"],
   "subtasks": [
     {
       "step": 1,

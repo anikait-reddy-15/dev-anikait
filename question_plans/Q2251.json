@@ -1,0 +1,27 @@
+{
+  "question": "What business trends correlate with an increased demand for advanced analytics skills?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify business trends mentioned in the context of analytics.",
+      "table": [
+        "CompanyVendorTechDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Determine instances of increased demand for advanced analytics skills.",
+      "table": [
+        "PersonaUser"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Correlate specific business trends with the demand for analytics skills.",
+      "table": [
+        "CompanyVendorTechDetail",
+        "PersonaUser"
+      ]
+    }
+  ]
+}

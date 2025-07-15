@@ -1,0 +1,26 @@
+{
+  "question": "Which organizations have seen a correlation between YouTube content engagement and AI initiative successes?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify organizations with AI initiatives.",
+      "table": [
+        "PersonaMisc"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Retrieve YouTube content engagement data for these organizations.",
+      "table": [
+        "CompanyInstagramDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze correlation between YouTube engagement and AI initiative success.",
+      "table": [
+        "CompanyInstagramDetail"
+      ]
+    }
+  ]
+}

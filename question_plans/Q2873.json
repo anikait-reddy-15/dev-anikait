@@ -1,0 +1,26 @@
+{
+  "question": "What vendor collaborations are occurring in firms heavily expanding their digital transformation efforts?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify firms expanding digital transformation efforts.",
+      "table": [
+        "CompanyVendorProductDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract vendor collaboration details for these firms.",
+      "table": [
+        "CompanyVendorProductDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "List the vendor collaborations occurring in these firms.",
+      "table": [
+        "CompanyVendorProductDetail"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "question": "What are the most popular software solutions used by companies with a recent commitment to hybrid work models?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies with a recent commitment to hybrid work models.",
+      "table": [
+        "SectionInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Determine the software solutions used by these companies.",
+      "table": [
+        "CompanyDealMaster"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Rank the software solutions by popularity among these companies.",
+      "table": [
+        "CompanyDealMaster"
+      ]
+    }
+  ]
+}

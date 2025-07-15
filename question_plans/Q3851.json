@@ -1,0 +1,27 @@
+{
+  "question": "Which companies prioritize leadership development in skills related to emerging technology trends?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies focusing on leadership development.",
+      "table": [
+        "CompanyManagementDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract skills related to emerging technology trends.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Match companies prioritizing leadership development with relevant skills.",
+      "table": [
+        "CompanyManagementDetail",
+        "CompanyFocusAreaDetail"
+      ]
+    }
+  ]
+}

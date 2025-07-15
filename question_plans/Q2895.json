@@ -1,0 +1,27 @@
+{
+  "question": "Which talent acquisition areas reflect anticipated shifts in energy efficiency focus among IT-heavy organizations?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify IT-heavy organizations focusing on energy efficiency.",
+      "table": [
+        "CompanyVendorProductDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Determine talent acquisition areas within these organizations.",
+      "table": [
+        "PersonaMisc"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze how these areas reflect shifts in energy efficiency focus.",
+      "table": [
+        "CompanyVendorProductDetail",
+        "PersonaMisc"
+      ]
+    }
+  ]
+}

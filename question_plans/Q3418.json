@@ -1,0 +1,24 @@
+{
+  "question": "What are the innovative tech themes being discussed by companies that were newly certified in ISO standards this year?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies newly certified in ISO standards this year.",
+      "table": [
+        "CompanyDataCenter"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Determine the innovative tech themes being discussed by these companies.",
+      "table": [
+        "SectionInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Combine data to list innovative tech themes for the identified companies.",
+      "table": []
+    }
+  ]
+}

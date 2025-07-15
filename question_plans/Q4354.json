@@ -1,0 +1,26 @@
+{
+  "question": "Which key personalities have mentioned their involvement in data analytics partnerships on their social media platforms?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify key personalities from the PersonaYoutubeProfile table.",
+      "table": [
+        "PersonaYoutubeProfile"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract mentions of involvement in data analytics partnerships from their social media posts.",
+      "table": [
+        "PersonaYoutubeProfile"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "List these key personalities and their mentions of data analytics partnerships.",
+      "table": [
+        "PersonaYoutubeProfile"
+      ]
+    }
+  ]
+}

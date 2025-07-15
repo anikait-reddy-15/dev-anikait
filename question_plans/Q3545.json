@@ -1,0 +1,26 @@
+{
+  "question": "How are companies modifying customer experience through augmented reality deployments?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies deploying augmented reality.",
+      "table": [
+        "CompanyManagementDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Examine modifications in customer experience strategies.",
+      "table": [
+        "SectionInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Correlate augmented reality deployments with changes in customer experience.",
+      "table": [
+        "PersonaMisc"
+      ]
+    }
+  ]
+}

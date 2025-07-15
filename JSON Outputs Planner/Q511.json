@@ -1,21 +1,27 @@
 {
   "question": "Who are the key decision-makers in companies that have launched new products in the IT sector while emphasizing their partnerships with technology vendors?",
-  "tables": ["CompanyLeadershipExcerpt", "CompanyVendorProductDetail"],
   "subtasks": [
     {
       "step": 1,
       "task": "Identify companies launching new IT products. [CompanyVendorProductDetail]",
-      "table": ["CompanyVendorProductDetail"]
+      "table": [
+        "CompanyVendorProductDetail"
+      ]
     },
     {
       "step": 2,
       "task": "Gather leadership details to find key decision-makers. [CompanyLeadershipExcerpt]",
-      "table": ["CompanyLeadershipExcerpt"]
+      "table": [
+        "CompanyLeadershipExcerpt"
+      ]
     },
     {
       "step": 3,
       "task": "Correlate decision-makers with product launches and vendor partnerships. [CompanyLeadershipExcerpt, CompanyVendorProductDetail]",
-      "table": ["CompanyLeadershipExcerpt", "CompanyVendorProductDetail"]
+      "table": [
+        "CompanyLeadershipExcerpt",
+        "CompanyVendorProductDetail"
+      ]
     }
   ]
 }

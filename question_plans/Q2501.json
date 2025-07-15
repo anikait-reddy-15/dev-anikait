@@ -1,0 +1,26 @@
+{
+  "question": "Which companies mentioned blockchain technology in their CompanyLeadershipExcerpt speeches last quarter?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies with leadership excerpts mentioning blockchain technology.",
+      "table": [
+        "PersonaLinkedInProfile"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Filter the results to include only speeches from the last quarter.",
+      "table": [
+        "PersonaLinkedInProfile"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Select distinct companies from the filtered results.",
+      "table": [
+        "PersonaLinkedInProfile"
+      ]
+    }
+  ]
+}

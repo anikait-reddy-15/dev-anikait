@@ -1,0 +1,26 @@
+{
+  "question": "Where does blockchain technology intersect within publicly noted trends in sector-specific digital transformations?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify sector-specific digital transformation trends.",
+      "table": [
+        "IndustryBusinessTrend"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Find mentions of blockchain technology within these trends.",
+      "table": [
+        "IndustryBusinessTrend"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Highlight intersections of blockchain technology with these trends.",
+      "table": [
+        "IndustryBusinessTrend"
+      ]
+    }
+  ]
+}

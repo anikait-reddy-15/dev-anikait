@@ -1,0 +1,26 @@
+{
+  "question": "How do recent finance sector mergers impact the tech stacks of involved firms, especially towards fintech improvements?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify recent mergers in the finance sector.",
+      "table": [
+        "CompanyDealMaster"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Analyze the tech stacks of firms involved in these mergers.",
+      "table": [
+        "SectionInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Determine the impact on fintech improvements in these tech stacks.",
+      "table": [
+        "SectionTitle"
+      ]
+    }
+  ]
+}

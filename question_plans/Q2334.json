@@ -1,0 +1,26 @@
+{
+  "question": "Which tech sector companies have introduced new agile practices and discussed such transitions on LinkedIn?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify tech sector companies that have introduced new agile practices.",
+      "table": [
+        "SectionInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Find companies that have discussed agile transitions on LinkedIn.",
+      "table": [
+        "SectionInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Cross-reference the companies from both criteria.",
+      "table": [
+        "SectionInfo"
+      ]
+    }
+  ]
+}

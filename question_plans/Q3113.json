@@ -1,0 +1,26 @@
+{
+  "question": "Which software development frameworks are commonly adopted by firms experiencing rapid Instagram growth?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify firms with rapid Instagram growth from SocialMediaInfo.",
+      "table": [
+        "SocialMediaInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Retrieve software development frameworks used by these firms.",
+      "table": [
+        "SocialMediaInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "List commonly adopted frameworks among these firms.",
+      "table": [
+        "SocialMediaInfo"
+      ]
+    }
+  ]
+}

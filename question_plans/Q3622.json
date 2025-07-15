@@ -1,0 +1,27 @@
+{
+  "question": "Discover companies where a rise in IT partner collaborations is associated with augmented social media strategy on emerging technologies.",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies with a rise in IT partner collaborations.",
+      "table": [
+        "IndustryBusinessTrend"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract social media strategies focused on emerging technologies.",
+      "table": [
+        "PersonaYoutubeProfile"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Associate IT partner collaborations with social media strategies on emerging technologies.",
+      "table": [
+        "IndustryBusinessTrend",
+        "PersonaYoutubeProfile"
+      ]
+    }
+  ]
+}

@@ -1,21 +1,27 @@
 {
   "question": "Which companies have adopted AI technologies and are hiring for machine learning engineers?",
-  "tables": ["CompanyTechStack", "CompanyHiringDetail"],
   "subtasks": [
     {
       "step": 1,
       "task": "Identify companies that have adopted AI technologies. [CompanyTechStack]",
-      "table": ["CompanyTechStack"]
+      "table": [
+        "CompanyTechStack"
+      ]
     },
     {
       "step": 2,
       "task": "Find companies currently hiring for machine learning engineers. [CompanyHiringDetail]",
-      "table": ["CompanyHiringDetail"]
+      "table": [
+        "CompanyHiringDetail"
+      ]
     },
     {
       "step": 3,
       "task": "Cross-reference companies that appear in both lists. [CompanyTechStack, CompanyHiringDetail]",
-      "table": ["CompanyTechStack", "CompanyHiringDetail"]
+      "table": [
+        "CompanyTechStack",
+        "CompanyHiringDetail"
+      ]
     }
   ]
 }

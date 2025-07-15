@@ -1,0 +1,27 @@
+{
+  "question": "What emerging company norms are highlighted by LinkedIn posts discussing transformative e-learning methods?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Extract LinkedIn post data related to e-learning from the SocialMediaInfo table.",
+      "table": [
+        "SocialMediaInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Identify emerging company norms from the CompanyITPartnerDetail table.",
+      "table": [
+        "CompanyITPartnerDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze how LinkedIn posts highlight these emerging norms.",
+      "table": [
+        "SocialMediaInfo",
+        "CompanyITPartnerDetail"
+      ]
+    }
+  ]
+}

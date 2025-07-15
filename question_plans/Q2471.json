@@ -1,0 +1,26 @@
+{
+  "question": "How do major cybersecurity initiatives announced in webinars trend on Instagram among leading enterprises?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify major cybersecurity initiatives announced in webinars.",
+      "table": [
+        "CompanyYoutubeDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract Instagram trends related to these initiatives.",
+      "table": [
+        "CompanyYoutubeDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the impact of these initiatives among leading enterprises.",
+      "table": [
+        "CompanyYoutubeDetail"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "question": "Who are the thought leaders critically evaluating cloud security challenges, and how do these topics ripple across leadership insights?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify thought leaders discussing cloud security challenges.",
+      "table": [
+        "PersonaTitle"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract critical evaluations of cloud security challenges.",
+      "table": [
+        "PersonaTitle"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze how these topics ripple across broader leadership insights.",
+      "table": [
+        "PersonaTitle"
+      ]
+    }
+  ]
+}

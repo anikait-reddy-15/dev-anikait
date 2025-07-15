@@ -1,0 +1,27 @@
+{
+  "question": "How do LinkedIn activities track with tech partners\u2019 investment shifts in the retail market?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Extract LinkedIn activities related to the retail market.",
+      "table": [
+        "PersonaMisc"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Identify tech partners' investment shifts.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the correlation between LinkedIn activities and investment shifts.",
+      "table": [
+        "PersonaMisc",
+        "CompanyInfo"
+      ]
+    }
+  ]
+}

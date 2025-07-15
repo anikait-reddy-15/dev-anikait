@@ -1,6 +1,5 @@
 {
   "question": "Which companies published YouTube content about cloud migration and also updated their data center footprint in the last year?",
-  "tables": ["CompanyYoutubeDetail", "CompanyDataCenter"],
   "subtasks": [
     {
       "step": 1,

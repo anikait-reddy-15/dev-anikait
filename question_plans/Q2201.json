@@ -1,0 +1,26 @@
+{
+  "question": "What companies have revised their IT security strategy following a new vendor deal initiation this quarter?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies that have initiated new vendor deals this quarter.",
+      "table": [
+        "CompanyVendorTechDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Filter these companies to find those that have revised their IT security strategy.",
+      "table": [
+        "CompanyVendorTechDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Combine the results to list companies meeting both criteria.",
+      "table": [
+        "CompanyVendorTechDetail"
+      ]
+    }
+  ]
+}

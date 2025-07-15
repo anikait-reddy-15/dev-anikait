@@ -1,6 +1,5 @@
 {
   "question": "What significant technology roles are held by leaders in financial services organizations?",
-  "tables": ["PersonaTitle", "CompanyInfo", "PersonaUser"],
   "subtasks": [
     {
       "step": 1,

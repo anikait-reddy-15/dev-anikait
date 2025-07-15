@@ -1,0 +1,26 @@
+{
+  "question": "Does tracking of leadership excerpts reveal any talk on cross-border technology cooperation during strategic conferences?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify leadership excerpts from the CompanyDataCenter table.",
+      "table": [
+        "CompanyDataCenter"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Find mentions of cross-border technology cooperation in these excerpts.",
+      "table": [
+        "CompanyDataCenter"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Check if these mentions occurred during strategic conferences.",
+      "table": [
+        "CompanyDataCenter"
+      ]
+    }
+  ]
+}

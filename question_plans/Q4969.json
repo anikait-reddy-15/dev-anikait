@@ -1,0 +1,26 @@
+{
+  "question": "Has LinkedIn's content creation assisted in capacity-building for mentoring technology talents?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify LinkedIn content creation activities.",
+      "table": [
+        "SocialMediaInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract mentions of capacity-building for mentoring technology talents.",
+      "table": [
+        "SectionTitle"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the assistance provided by LinkedIn content in capacity-building.",
+      "table": [
+        "SocialMediaInfo"
+      ]
+    }
+  ]
+}

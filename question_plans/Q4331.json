@@ -1,0 +1,27 @@
+{
+  "question": "What new IT focal points are companies discussing after experiencing significant increases in LinkedIn engagement?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies with significant increases in LinkedIn engagement from the PersonaYoutubeProfile table.",
+      "table": [
+        "PersonaYoutubeProfile"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract discussions on new IT focal points from the CompanyITPartnerDetail table.",
+      "table": [
+        "CompanyITPartnerDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the relationship between LinkedIn engagement and new IT focal points.",
+      "table": [
+        "PersonaYoutubeProfile",
+        "CompanyITPartnerDetail"
+      ]
+    }
+  ]
+}

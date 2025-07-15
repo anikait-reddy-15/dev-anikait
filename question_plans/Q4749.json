@@ -1,0 +1,26 @@
+{
+  "question": "Which tech industry icons are frequently involved in LinkedIn discussions about machine learning ethics?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify LinkedIn discussions about machine learning ethics.",
+      "table": [
+        "CompanyVendorTechDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Find tech industry icons involved in these discussions.",
+      "table": [
+        "IndustryBusinessTrend"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Compile a list of frequently involved icons.",
+      "table": [
+        "CompanyTechStack"
+      ]
+    }
+  ]
+}

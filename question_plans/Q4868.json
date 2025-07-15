@@ -1,0 +1,26 @@
+{
+  "question": "Who is crucial to agile methodologies as demonstrated by consistent activity capture on social platforms?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify individuals involved in agile methodologies.",
+      "table": [
+        "PersonaMisc"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Capture their activities on social platforms.",
+      "table": [
+        "PersonaMisc"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Determine who is crucial based on consistent activity.",
+      "table": [
+        "PersonaMisc"
+      ]
+    }
+  ]
+}

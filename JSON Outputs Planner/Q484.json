@@ -1,26 +1,35 @@
 {
   "question": "Which companies focused on sustainability are using cloud analytics tools and have active Instagram campaigns?",
-  "tables": ["CompanyFocusAreaDetail", "CompanyTechStack", "PersonaInstagramProfile"],
   "subtasks": [
     {
       "step": 1,
       "task": "Identify companies focused on sustainability. [CompanyFocusAreaDetail]",
-      "table": ["CompanyFocusAreaDetail"]
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
     },
     {
       "step": 2,
       "task": "Find companies using cloud analytics tools. [CompanyTechStack]",
-      "table": ["CompanyTechStack"]
+      "table": [
+        "CompanyTechStack"
+      ]
     },
     {
       "step": 3,
       "task": "Identify companies with active Instagram campaigns. [PersonaInstagramProfile]",
-      "table": ["PersonaInstagramProfile"]
+      "table": [
+        "PersonaInstagramProfile"
+      ]
     },
     {
       "step": 4,
       "task": "Find companies meeting all three criteria. [CompanyFocusAreaDetail, CompanyTechStack, PersonaInstagramProfile]",
-      "table": ["CompanyFocusAreaDetail", "CompanyTechStack", "PersonaInstagramProfile"]
+      "table": [
+        "CompanyFocusAreaDetail",
+        "CompanyTechStack",
+        "PersonaInstagramProfile"
+      ]
     }
   ]
 }

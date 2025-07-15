@@ -1,0 +1,27 @@
+{
+  "question": "Which key leaders have delivered talks on sustainability in IT efforts at recent industry conferences?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify recent industry conferences focused on IT sustainability.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Find key leaders who have delivered talks at these conferences.",
+      "table": [
+        "LookUpValue"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "List key leaders associated with sustainability talks.",
+      "table": [
+        "LookUpValue",
+        "IndustryITTrend"
+      ]
+    }
+  ]
+}

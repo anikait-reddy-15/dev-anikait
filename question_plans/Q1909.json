@@ -1,0 +1,27 @@
+{
+  "question": "Which data scientists on LinkedIn have shared posts about deep learning in companies pursuing new ventures in robotics?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify data scientists sharing posts about deep learning.",
+      "table": [
+        "PersonaTwitterTweets"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Identify companies pursuing new ventures in robotics.",
+      "table": [
+        "CompanyYoutubeDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Match data scientists with companies pursuing robotics ventures.",
+      "table": [
+        "PersonaTwitterTweets",
+        "CompanyYoutubeDetail"
+      ]
+    }
+  ]
+}

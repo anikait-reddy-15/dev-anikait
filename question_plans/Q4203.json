@@ -1,0 +1,27 @@
+{
+  "question": "Which companies have increased their hiring for cybersecurity roles while also updating their technology stack this quarter?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies that have increased their hiring for cybersecurity roles this quarter.",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Identify companies that have updated their technology stack this quarter.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Find the intersection of companies from the previous two steps.",
+      "table": [
+        "CompanyInfo",
+        "CompanyHiringDetail"
+      ]
+    }
+  ]
+}

@@ -1,21 +1,27 @@
 {
   "question": "Who are the key influencers in the data science community that have recently posted about automation advancements on LinkedIn?",
-  "tables": ["PersonaLinkedinPost", "PersonaUser"],
   "subtasks": [
     {
       "step": 1,
       "task": "Identify recent posts on LinkedIn about automation advancements. [PersonaLinkedinPost]",
-      "table": ["PersonaLinkedinPost"]
+      "table": [
+        "PersonaLinkedinPost"
+      ]
     },
     {
       "step": 2,
       "task": "Extract user details for the influencers who made these posts. [PersonaUser]",
-      "table": ["PersonaUser"]
+      "table": [
+        "PersonaUser"
+      ]
     },
     {
       "step": 3,
       "task": "Compile a list of key influencers based on the posts and user details. [PersonaLinkedinPost, PersonaUser]",
-      "table": ["PersonaLinkedinPost", "PersonaUser"]
+      "table": [
+        "PersonaLinkedinPost",
+        "PersonaUser"
+      ]
     }
   ]
 }

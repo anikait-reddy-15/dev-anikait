@@ -1,0 +1,26 @@
+{
+  "question": "Which CTOs are leading the discussion on AI ethics in leadership forums and speeches?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify CTOs from the CompanyTwitterDetail table.",
+      "table": [
+        "CompanyTwitterDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract discussions on AI ethics from leadership forums and speeches in the CompanyTwitterDetail table.",
+      "table": [
+        "CompanyTwitterDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Match CTOs with their contributions to AI ethics discussions.",
+      "table": [
+        "CompanyTwitterDetail"
+      ]
+    }
+  ]
+}

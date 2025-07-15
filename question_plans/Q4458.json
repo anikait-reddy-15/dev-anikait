@@ -1,0 +1,26 @@
+{
+  "question": "Which companies have used their social media platforms to appeal to new tech talent?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies active on social media platforms.",
+      "table": [
+        "LookUpValue"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract content appealing to new tech talent.",
+      "table": [
+        "LookUpValue"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "List companies using social media to attract tech talent.",
+      "table": [
+        "LookUpValue"
+      ]
+    }
+  ]
+}

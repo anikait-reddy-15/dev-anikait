@@ -1,16 +1,19 @@
 {
   "question": "Can you analyze the recent Instagram posts by HDFC Bank for audience engagement strategies?",
-  "tables": ["CompanyInstagramDetail", "CompanyManagementDetail"],
   "subtasks": [
     {
       "step": 1,
-      "task": "Retrieve HDFC Bank’s recent Instagram posts",
-      "table": ["CompanyInstagramDetail"]
+      "task": "Retrieve HDFC Bank\u2019s recent Instagram posts",
+      "table": [
+        "CompanyInstagramDetail"
+      ]
     },
     {
       "step": 2,
       "task": "Use leadership info to interpret content direction",
-      "table": ["CompanyManagementDetail"]
+      "table": [
+        "CompanyManagementDetail"
+      ]
     },
     {
       "step": 3,

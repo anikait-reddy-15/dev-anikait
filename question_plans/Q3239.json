@@ -1,0 +1,26 @@
+{
+  "question": "Which organizations with recently upgraded data center capabilities have linked this change to sustainability efforts?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify organizations with recently upgraded data center capabilities.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract data on sustainability efforts linked to data center upgrades.",
+      "table": [
+        "IndustryBusinessTrend"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "List organizations linking data center upgrades to sustainability.",
+      "table": [
+        "CompanyManagementDetail"
+      ]
+    }
+  ]
+}

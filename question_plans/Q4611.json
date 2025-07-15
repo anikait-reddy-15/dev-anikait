@@ -1,0 +1,27 @@
+{
+  "question": "Which companies recently implemented data lakes and also increased their data science team size?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies that implemented data lakes from the CompanyITPartnerDetail table.",
+      "table": [
+        "CompanyITPartnerDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract data science team size details from the PersonaTitle table.",
+      "table": [
+        "PersonaTitle"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Find companies that meet both criteria.",
+      "table": [
+        "CompanyITPartnerDetail",
+        "PersonaTitle"
+      ]
+    }
+  ]
+}

@@ -1,26 +1,35 @@
 {
   "question": "Which companies have posted about diversity on social media and signed partnerships aligned with DEI initiatives?",
-  "tables": ["CompanyTwitterDetail", "PersonaLinkedinPost", "CompanyVendorTechDetail"],
   "subtasks": [
     {
       "step": 1,
       "task": "Identify companies posting about diversity on Twitter. [CompanyTwitterDetail]",
-      "table": ["CompanyTwitterDetail"]
+      "table": [
+        "CompanyTwitterDetail"
+      ]
     },
     {
       "step": 2,
       "task": "Find personas posting about diversity on LinkedIn. [PersonaLinkedinPost]",
-      "table": ["PersonaLinkedinPost"]
+      "table": [
+        "PersonaLinkedinPost"
+      ]
     },
     {
       "step": 3,
       "task": "Find companies with DEI-aligned vendor partnerships. [CompanyVendorTechDetail]",
-      "table": ["CompanyVendorTechDetail"]
+      "table": [
+        "CompanyVendorTechDetail"
+      ]
     },
     {
       "step": 4,
       "task": "Combine insights to identify companies meeting all criteria. [CompanyTwitterDetail, PersonaLinkedinPost, CompanyVendorTechDetail]",
-      "table": ["CompanyTwitterDetail", "PersonaLinkedinPost", "CompanyVendorTechDetail"]
+      "table": [
+        "CompanyTwitterDetail",
+        "PersonaLinkedinPost",
+        "CompanyVendorTechDetail"
+      ]
     }
   ]
 }

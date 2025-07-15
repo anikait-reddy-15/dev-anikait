@@ -1,0 +1,27 @@
+{
+  "question": "How do companies actively investing in employee skill development align their public-facing content on Twitter?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies investing in employee skill development.",
+      "table": [
+        "SectionData"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract public-facing Twitter content of these companies.",
+      "table": [
+        "SocialMediaInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze alignment of skill development with Twitter content.",
+      "table": [
+        "SectionData",
+        "SocialMediaInfo"
+      ]
+    }
+  ]
+}

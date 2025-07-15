@@ -1,0 +1,26 @@
+{
+  "question": "How does the mention of cloud strategies in leadership discussions align with recent investments in data centers?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Extract leadership discussions mentioning cloud strategies.",
+      "table": [
+        "CompanyManagementDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Identify recent investments in data centers.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the alignment between cloud strategy mentions and data center investments.",
+      "table": [
+        "IndustryBusinessTrend"
+      ]
+    }
+  ]
+}

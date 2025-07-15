@@ -1,0 +1,26 @@
+{
+  "question": "What are the companies\u2019 primary focuses according to their Instagram engagement trends?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Extract Instagram engagement metrics for companies.",
+      "table": [
+        "PersonaInstagramProfile"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Identify primary focuses mentioned in Instagram posts.",
+      "table": [
+        "PersonaInstagramProfile"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the correlation between engagement trends and company focuses.",
+      "table": [
+        "PersonaInstagramProfile"
+      ]
+    }
+  ]
+}

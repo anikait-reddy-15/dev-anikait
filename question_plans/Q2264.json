@@ -1,0 +1,26 @@
+{
+  "question": "Which platforms are utilized for tech innovation discussions among industry thought leaders?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify industry thought leaders.",
+      "table": [
+        "PersonaUser"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract platforms used for discussions.",
+      "table": [
+        "PersonaUser"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the platforms for tech innovation discussions.",
+      "table": [
+        "PersonaUser"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "question": "What are the key trends mentioned regarding edge computing across sector-wide IT discussions recently?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify sector-wide IT discussions mentioning edge computing.",
+      "table": [
+        "SectionData"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract key trends related to edge computing from these discussions.",
+      "table": [
+        "SectionData"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Summarize the key trends identified.",
+      "table": [
+        "SectionData"
+      ]
+    }
+  ]
+}

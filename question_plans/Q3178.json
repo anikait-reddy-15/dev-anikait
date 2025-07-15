@@ -1,0 +1,27 @@
+{
+  "question": "Which persona tweets align with strategic digitization focuses observed in associated entities?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Extract tweets from personas.",
+      "table": [
+        "PersonaTwitterProfile"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Identify strategic digitization focuses in associated entities.",
+      "table": [
+        "CompanyTwitterDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Find alignment between persona tweets and these strategic focuses.",
+      "table": [
+        "PersonaTwitterProfile",
+        "CompanyTwitterDetail"
+      ]
+    }
+  ]
+}

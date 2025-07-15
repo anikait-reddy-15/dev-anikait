@@ -1,6 +1,5 @@
 {
   "question": "Which companies have launched initiatives in AI after significant discussions in their leadership teams?",
-  "tables": ["CompanyLeadershipExcerpt", "CompanyFocusAreaDetail"],
   "subtasks": [
     {
       "step": 1,

@@ -1,0 +1,26 @@
+{
+  "question": "Which companies maintained their Twitter engagement levels after shifting focus to innovation in sustainability?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies that shifted focus to innovation in sustainability from PersonaTwitterProfile.",
+      "table": [
+        "PersonaTwitterProfile"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract Twitter engagement levels for these companies.",
+      "table": [
+        "PersonaTwitterProfile"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Determine which companies maintained their engagement levels post-shift.",
+      "table": [
+        "PersonaTwitterProfile"
+      ]
+    }
+  ]
+}

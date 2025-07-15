@@ -1,0 +1,26 @@
+{
+  "question": "Which social media behaviors coincided with technology investments by companies in the retail sector?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies in the retail sector.",
+      "table": [
+        "PersonaLinkedInProfile"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract mentions of technology investments.",
+      "table": [
+        "PersonaLinkedInProfile"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze social media behaviors coinciding with these investments.",
+      "table": [
+        "PersonaLinkedInProfile"
+      ]
+    }
+  ]
+}

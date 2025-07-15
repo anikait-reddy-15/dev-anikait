@@ -1,0 +1,26 @@
+{
+  "question": "How have renewable energy targets influenced new data center decisions in corporations?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify corporations with renewable energy targets.",
+      "table": [
+        "PersonaTitle"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract data center decisions influenced by these targets.",
+      "table": [
+        "PersonaLinkedInProfile"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the impact of these decisions on corporate sustainability.",
+      "table": [
+        "PersonaYoutubeProfile"
+      ]
+    }
+  ]
+}

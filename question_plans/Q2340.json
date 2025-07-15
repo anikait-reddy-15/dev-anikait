@@ -1,0 +1,26 @@
+{
+  "question": "How many social media posts mention 3D printing by individuals working for firms visibly adopting smart manufacturing?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify social media posts mentioning 3D printing.",
+      "table": [
+        "SectionInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Find firms visibly adopting smart manufacturing.",
+      "table": [
+        "SectionInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Count the posts by individuals working for these firms.",
+      "table": [
+        "SectionInfo"
+      ]
+    }
+  ]
+}

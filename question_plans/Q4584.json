@@ -1,0 +1,27 @@
+{
+  "question": "How do company IT partner interactions support recent strategic redirections?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify IT partner interactions from the CompanyVendorProductDetail table.",
+      "table": [
+        "CompanyVendorProductDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract recent strategic redirections from the SectionData table.",
+      "table": [
+        "SectionData"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the support provided by IT partner interactions to these strategic redirections.",
+      "table": [
+        "CompanyVendorProductDetail",
+        "SectionData"
+      ]
+    }
+  ]
+}

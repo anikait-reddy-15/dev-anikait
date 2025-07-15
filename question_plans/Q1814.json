@@ -1,0 +1,24 @@
+{
+  "question": "How have business trends in e-commerce influenced hiring strategies in logistics technology companies?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify business trends in e-commerce.",
+      "table": [
+        "IndustryBusinessTrend"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Find hiring strategies in logistics technology companies.",
+      "table": [
+        "PersonaTwitterProfile"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the influence of e-commerce trends on hiring strategies.",
+      "table": []
+    }
+  ]
+}

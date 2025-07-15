@@ -1,0 +1,26 @@
+{
+  "question": "How do changes in YouTube content seeing AI discussions correlate with declines or rises in LinkedIn mention frequency?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Extract YouTube content discussing AI.",
+      "table": [
+        "IndustryBusinessTrend"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Analyze LinkedIn mention frequency related to AI.",
+      "table": [
+        "IndustryBusinessTrend"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Correlate changes in YouTube AI discussions with LinkedIn mention frequency.",
+      "table": [
+        "IndustryBusinessTrend"
+      ]
+    }
+  ]
+}

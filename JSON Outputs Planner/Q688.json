@@ -1,21 +1,27 @@
 {
   "question": "What are the most common technology stacks used by companies posting about AI-driven product innovation on social media?",
-  "tables": ["CompanyTechStack", "SocialMediaInfo"],
   "subtasks": [
     {
       "step": 1,
       "task": "Identify companies posting about AI-driven product innovation on social media.",
-      "table": ["SocialMediaInfo"]
+      "table": [
+        "SocialMediaInfo"
+      ]
     },
     {
       "step": 2,
       "task": "Extract their technology stacks.",
-      "table": ["CompanyTechStack"]
+      "table": [
+        "CompanyTechStack"
+      ]
     },
     {
       "step": 3,
       "task": "Analyze common technology stacks among these companies.",
-      "table": ["CompanyTechStack", "SocialMediaInfo"]
+      "table": [
+        "CompanyTechStack",
+        "SocialMediaInfo"
+      ]
     }
   ]
 }

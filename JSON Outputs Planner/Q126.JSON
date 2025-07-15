@@ -1,6 +1,5 @@
 {
   "question": "How do industry-specific technology adoption rates influence the hiring trends in data science roles?",
-  "tables": ["IndustryITTrend", "CompanyHiringDetail"],
   "subtasks": [
     {
       "step": 1,

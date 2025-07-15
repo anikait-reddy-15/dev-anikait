@@ -1,0 +1,26 @@
+{
+  "question": "What leadership philosophies align with firms adopting IoT solutions in their tech stack?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify firms that have adopted IoT solutions in their tech stack.",
+      "table": [
+        "CompanyVendorTechDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract leadership philosophies from these firms.",
+      "table": [
+        "PersonaLinkedInProfile"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the alignment between leadership philosophies and IoT adoption.",
+      "table": [
+        "PersonaLinkedInProfile"
+      ]
+    }
+  ]
+}

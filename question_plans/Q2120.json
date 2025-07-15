@@ -1,0 +1,26 @@
+{
+  "question": "Which companies with significant Twitter follower growth also updated their LinkedIn content strategy?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies with significant Twitter follower growth.",
+      "table": [
+        "PersonaLinkedInProfile"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Find companies that updated their LinkedIn content strategy.",
+      "table": [
+        "PersonaLinkedInProfile"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Combine results to find companies meeting both criteria.",
+      "table": [
+        "PersonaLinkedInProfile"
+      ]
+    }
+  ]
+}

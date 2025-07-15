@@ -1,0 +1,26 @@
+{
+  "question": "What strategic shifts are noted in leadership excerpts of companies translating IT trends into competitive advantages?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies translating IT trends into competitive advantages from CompanyYoutubeDetail.",
+      "table": [
+        "CompanyYoutubeDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract leadership excerpts from these companies.",
+      "table": [
+        "CompanyYoutubeDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze strategic shifts noted in the leadership excerpts.",
+      "table": [
+        "CompanyYoutubeDetail"
+      ]
+    }
+  ]
+}

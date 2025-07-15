@@ -1,21 +1,26 @@
 {
   "question": "Which companies focused on expanding their data center capabilities also highlighted these investments in their recent Facebook posts?",
-  "tables": ["CompanyDataCenter", "CompanyFacebookDetail", "CompanyInfo"],
   "subtasks": [
     {
       "step": 1,
       "task": "Identify companies that have focused on expanding their data center capabilities",
-      "table": ["CompanyDataCenter"]
+      "table": [
+        "CompanyDataCenter"
+      ]
     },
     {
       "step": 2,
       "task": "Extract recent Facebook posts from these companies to see if they highlighted their investments",
-      "table": ["CompanyFacebookDetail"]
+      "table": [
+        "CompanyFacebookDetail"
+      ]
     },
     {
       "step": 3,
       "task": "Combine the results to identify companies that match both criteria",
-      "table": ["CompanyInfo"]
+      "table": [
+        "CompanyInfo"
+      ]
     }
   ]
 }

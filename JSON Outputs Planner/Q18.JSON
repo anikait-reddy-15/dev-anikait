@@ -1,6 +1,5 @@
 {
   "question": "What strategic partnerships does Gentherm have for climate comfort technologies and their impact on the automotive sector?",
-  "tables": ["CompanyVendorTechDetail", "CompanyInfo"],
   "subtasks": [
     {
       "step": 1,

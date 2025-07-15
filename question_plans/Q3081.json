@@ -1,0 +1,26 @@
+{
+  "question": "How have recent cloud vendor partnerships influenced software development timelines at tech startups?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify cloud vendor partnerships mentioned in social posts.",
+      "table": [
+        "CompanyTwitterDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract information on software development timelines from leadership excerpts.",
+      "table": [
+        "CompanyManagementDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the correlation between cloud vendor partnerships and changes in development timelines.",
+      "table": [
+        "CompanyManagementDetail"
+      ]
+    }
+  ]
+}

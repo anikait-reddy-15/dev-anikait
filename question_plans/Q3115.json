@@ -1,0 +1,26 @@
+{
+  "question": "How has the hiring trend evolved in companies deploying AI systems, as indicated in their leadership statements?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies deploying AI systems from SocialMediaInfo.",
+      "table": [
+        "SocialMediaInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Retrieve leadership statements from these companies.",
+      "table": [
+        "SocialMediaInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze hiring trends mentioned in these statements.",
+      "table": [
+        "SocialMediaInfo"
+      ]
+    }
+  ]
+}

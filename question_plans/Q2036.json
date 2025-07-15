@@ -1,0 +1,27 @@
+{
+  "question": "Which companies have made notable strides in data analytics, as indicated by Instagram posts from key personas?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify key personas posting about data analytics on Instagram.",
+      "table": [
+        "PersonaInstagramProfile"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Find companies associated with these key personas.",
+      "table": [
+        "PersonaUser"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "List companies making strides in data analytics based on Instagram posts.",
+      "table": [
+        "PersonaInstagramProfile",
+        "PersonaUser"
+      ]
+    }
+  ]
+}

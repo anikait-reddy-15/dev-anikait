@@ -1,0 +1,26 @@
+{
+  "question": "Which companies with active engagement on YouTube are significantly altering their analytic capabilities?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies with active engagement on YouTube.",
+      "table": [
+        "PersonaLinkedinActivity"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Determine if these companies are altering their analytic capabilities.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "List companies with both active YouTube engagement and changes in analytic capabilities.",
+      "table": [
+        "PersonaUser"
+      ]
+    }
+  ]
+}

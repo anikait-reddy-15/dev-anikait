@@ -1,0 +1,26 @@
+{
+  "question": "How are talent analytics rearranging workforce strategies in forward-thinking companies?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify forward-thinking companies using talent analytics.",
+      "table": [
+        "CompanyManagementDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract workforce strategies of these companies.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Determine how talent analytics are influencing changes in workforce strategies.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    }
+  ]
+}

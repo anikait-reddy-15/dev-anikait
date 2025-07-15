@@ -1,0 +1,26 @@
+{
+  "question": "What recent innovations have manufacturing upgrades emphasized in their IT resource allocations?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify manufacturing companies with recent upgrades",
+      "table": [
+        "CompanyITPartnerDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract IT resource allocations for these upgrades",
+      "table": [
+        "CompanyITPartnerDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Determine the innovations emphasized in these allocations",
+      "table": [
+        "CompanyITPartnerDetail"
+      ]
+    }
+  ]
+}

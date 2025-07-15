@@ -1,0 +1,27 @@
+{
+  "question": "Which leaders emphasized cybersecurity trends at firms entering new strategic partnerships?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify firms entering new strategic partnerships.",
+      "table": [
+        "CompanyManagementDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Find leaders emphasizing cybersecurity trends at these firms.",
+      "table": [
+        "PersonaMisc"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "List the leaders along with the corresponding firms.",
+      "table": [
+        "PersonaMisc",
+        "CompanyManagementDetail"
+      ]
+    }
+  ]
+}

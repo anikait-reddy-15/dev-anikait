@@ -1,0 +1,26 @@
+{
+  "question": "Are there retail businesses that increased their use of CRM software, noted during leadership exchanges?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify retail businesses in the CompanyDataCenter table.",
+      "table": [
+        "CompanyDataCenter"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Find mentions of increased CRM software use in leadership exchanges within these businesses.",
+      "table": [
+        "CompanyDataCenter"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Confirm the increase in CRM software use by cross-referencing with leadership excerpts.",
+      "table": [
+        "CompanyDataCenter"
+      ]
+    }
+  ]
+}

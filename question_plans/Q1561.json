@@ -1,0 +1,26 @@
+{
+  "question": "Which innovative technologies are currently trending in industries investing heavily in IoT-based automation?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify industries investing heavily in IoT-based automation.",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract innovative technologies mentioned in these industries.",
+      "table": [
+        "SectionTitle"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Determine which of these technologies are trending.",
+      "table": [
+        "SectionTitle"
+      ]
+    }
+  ]
+}

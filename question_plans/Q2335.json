@@ -1,0 +1,27 @@
+{
+  "question": "What are the key investments made by companies that posted leadership insight on building tech resilience on Facebook?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies that posted leadership insight on building tech resilience on Facebook.",
+      "table": [
+        "SectionInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Determine the key investments made by these companies.",
+      "table": [
+        "CompanyDealMaster"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Link the investments to the companies identified in the first step.",
+      "table": [
+        "CompanyDealMaster",
+        "SectionInfo"
+      ]
+    }
+  ]
+}

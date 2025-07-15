@@ -1,0 +1,27 @@
+{
+  "question": "What leading personas are acknowledged for discussing machine learning within biotech according to Instagram profiles?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify Instagram profiles discussing machine learning.",
+      "table": [
+        "IndustryBusinessTrend"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Filter discussions within the biotech sector.",
+      "table": [
+        "IndustryBusinessTrend"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Determine leading personas acknowledged for these discussions.",
+      "table": [
+        "CompanyManagementDetail",
+        "IndustryBusinessTrend"
+      ]
+    }
+  ]
+}

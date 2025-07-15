@@ -1,0 +1,26 @@
+{
+  "question": "How do hiring patterns align for data science roles at companies expanding their AI tech presence?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies expanding their AI tech presence.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract hiring patterns for data science roles.",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Align the hiring patterns with the companies identified.",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    }
+  ]
+}

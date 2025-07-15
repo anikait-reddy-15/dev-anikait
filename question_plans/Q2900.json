@@ -1,0 +1,27 @@
+{
+  "question": "Follow the alignment of big data enhancements amid vocal leadership changes at corporations.",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify corporations undergoing vocal leadership changes.",
+      "table": [
+        "PersonaMisc"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Determine big data enhancements within these corporations.",
+      "table": [
+        "CompanyVendorProductDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the alignment between leadership changes and data enhancements.",
+      "table": [
+        "PersonaMisc",
+        "CompanyVendorProductDetail"
+      ]
+    }
+  ]
+}

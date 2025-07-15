@@ -1,0 +1,26 @@
+{
+  "question": "Who are the rising stars in IT leadership within companies focused on AI adoption?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies focused on AI adoption.",
+      "table": [
+        "CompanyDataCenter"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract IT leadership figures within these companies.",
+      "table": [
+        "PersonaTitle"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Identify and list rising stars in IT leadership.",
+      "table": [
+        "PersonaTitle"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "question": "What social media trends emerge among companies gaining recognition for agile workforce management?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies recognized for agile workforce management.",
+      "table": [
+        "CompanyManagementDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract social media trends related to these companies.",
+      "table": [
+        "CompanyTwitterDetail",
+        "PersonaInstagramProfile"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Summarize emerging social media trends for these companies.",
+      "table": [
+        "CompanyTwitterDetail",
+        "PersonaInstagramProfile"
+      ]
+    }
+  ]
+}

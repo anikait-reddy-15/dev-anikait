@@ -1,0 +1,26 @@
+{
+  "question": "What insights can be gathered from LinkedIn posts by data scientists at firms with a significant upswing in R&D spending?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify firms with a significant upswing in R&D spending.",
+      "table": [
+        "PersonaTitle"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract LinkedIn posts by data scientists from these firms.",
+      "table": [
+        "PersonaLinkedInProfile"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the content of these LinkedIn posts for insights.",
+      "table": [
+        "PersonaLinkedInProfile"
+      ]
+    }
+  ]
+}

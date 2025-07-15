@@ -1,0 +1,26 @@
+{
+  "question": "What are the IT strategies driving the adoption of machine learning in financial services?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify financial services companies adopting machine learning.",
+      "table": [
+        "CompanyTechStack"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract IT strategies related to machine learning adoption.",
+      "table": [
+        "CompanyTechStack"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze and summarize these IT strategies.",
+      "table": [
+        "CompanyTechStack"
+      ]
+    }
+  ]
+}

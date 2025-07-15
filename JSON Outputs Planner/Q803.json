@@ -1,21 +1,29 @@
 {
   "question": "Which public companies have created Chief AI Officer roles in the past year?",
-  "tables": ["PersonaUser", "PersonaTitle", "CompanyInfo"],
   "subtasks": [
     {
       "step": 1,
       "task": "Identify public companies.",
-      "table": ["CompanyInfo"]
+      "table": [
+        "CompanyInfo"
+      ]
     },
     {
       "step": 2,
       "task": "Search for creation of Chief AI Officer roles.",
-      "table": ["PersonaTitle", "PersonaUser"]
+      "table": [
+        "PersonaTitle",
+        "PersonaUser"
+      ]
     },
     {
       "step": 3,
       "task": "Match CAIOs to public companies in the past year.",
-      "table": ["PersonaUser", "PersonaTitle", "CompanyInfo"]
+      "table": [
+        "PersonaUser",
+        "PersonaTitle",
+        "CompanyInfo"
+      ]
     }
   ]
 }

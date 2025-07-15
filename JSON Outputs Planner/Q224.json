@@ -1,21 +1,27 @@
 {
   "question": "How are organizations in the SaaS business responding in their leadership discussions to the challenges posed by cybersecurity threats?",
-  "tables": ["CompanyLeadershipExcerpt", "IndustryITTrend"],
   "subtasks": [
     {
       "step": 1,
       "task": "Identify leadership discussions from SaaS organizations regarding cybersecurity threats",
-      "table": ["CompanyLeadershipExcerpt"]
+      "table": [
+        "CompanyLeadershipExcerpt"
+      ]
     },
     {
       "step": 2,
       "task": "Gather insights from industry IT trends related to cybersecurity",
-      "table": ["IndustryITTrend"]
+      "table": [
+        "IndustryITTrend"
+      ]
     },
     {
       "step": 3,
       "task": "Analyze the leadership discussions in the context of the identified IT trends",
-      "table": ["CompanyLeadershipExcerpt", "IndustryITTrend"]
+      "table": [
+        "CompanyLeadershipExcerpt",
+        "IndustryITTrend"
+      ]
     }
   ]
 }

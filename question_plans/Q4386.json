@@ -1,0 +1,27 @@
+{
+  "question": "Which unique propositions by vendors accompany predominantly favored solutions adopted industry-wide?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify unique propositions by vendors.",
+      "table": [
+        "CompanyDealMaster"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract information on predominantly favored solutions in the industry.",
+      "table": [
+        "SectionInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Determine which unique vendor propositions accompany favored solutions.",
+      "table": [
+        "CompanyDealMaster",
+        "SectionInfo"
+      ]
+    }
+  ]
+}

@@ -1,21 +1,27 @@
 {
   "question": "What recent social media trends have emerged from companies engaging in vendor partnerships for machine learning solutions?",
-  "tables": ["SocialMediaInfo", "CompanyDealMaster", "CompanyVendorTechDetail"],
   "subtasks": [
     {
       "step": 1,
       "task": "Identify companies that have engaged in vendor partnerships for machine learning solutions. [CompanyDealMaster, CompanyVendorTechDetail]",
-      "table": ["CompanyDealMaster", "CompanyVendorTechDetail"]
+      "table": [
+        "CompanyDealMaster",
+        "CompanyVendorTechDetail"
+      ]
     },
     {
       "step": 2,
       "task": "Extract social media posts from these companies to identify trends. [SocialMediaInfo]",
-      "table": ["SocialMediaInfo"]
+      "table": [
+        "SocialMediaInfo"
+      ]
     },
     {
       "step": 3,
       "task": "Analyze the social media posts for emerging trends related to machine learning. [SocialMediaInfo]",
-      "table": ["SocialMediaInfo"]
+      "table": [
+        "SocialMediaInfo"
+      ]
     }
   ]
 }

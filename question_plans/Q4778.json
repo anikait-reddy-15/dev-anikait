@@ -1,0 +1,26 @@
+{
+  "question": "What product or strategic insights result from LinkedIn engagements of editors and journalists in technology sectors?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify LinkedIn engagements of editors and journalists in technology sectors.",
+      "table": [
+        "IndustryBusinessTrend"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract product or strategic insights from these engagements.",
+      "table": [
+        "CompanyVendorTechDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the resulting insights from these engagements.",
+      "table": [
+        "CompanyTechStack"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "question": "How many companies in the consumer electronics sector are involved in significant IT hiring and have released podcasts on technology trends?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies in the consumer electronics sector involved in significant IT hiring.",
+      "table": [
+        "SectionInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Find companies that have released podcasts on technology trends.",
+      "table": [
+        "SectionInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Count the companies that meet both criteria.",
+      "table": [
+        "SectionInfo"
+      ]
+    }
+  ]
+}

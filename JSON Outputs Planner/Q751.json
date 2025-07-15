@@ -1,21 +1,27 @@
 {
   "question": "Which organizations that have adopted generative AI technologies have also published leadership insights on YouTube?",
-  "tables": ["CompanyTechStack", "CompanyYoutubeDetail"],
   "subtasks": [
     {
       "step": 1,
       "task": "Identify organizations that have adopted generative AI technologies.",
-      "table": ["CompanyTechStack"]
+      "table": [
+        "CompanyTechStack"
+      ]
     },
     {
       "step": 2,
       "task": "Find organizations publishing leadership insights on YouTube.",
-      "table": ["CompanyYoutubeDetail"]
+      "table": [
+        "CompanyYoutubeDetail"
+      ]
     },
     {
       "step": 3,
       "task": "Cross-reference organizations from both sets.",
-      "table": ["CompanyTechStack", "CompanyYoutubeDetail"]
+      "table": [
+        "CompanyTechStack",
+        "CompanyYoutubeDetail"
+      ]
     }
   ]
 }

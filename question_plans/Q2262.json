@@ -1,0 +1,26 @@
+{
+  "question": "What correlation exists between tech budget allocation and strategic market expansion efforts?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Retrieve data on tech budget allocation.",
+      "table": [
+        "CompanyVendorTechDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Identify strategic market expansion efforts.",
+      "table": [
+        "CompanyVendorTechDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze correlation between tech budget and market expansion.",
+      "table": [
+        "CompanyVendorTechDetail"
+      ]
+    }
+  ]
+}

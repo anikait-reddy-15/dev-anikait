@@ -1,0 +1,27 @@
+{
+  "question": "Identify personas in leadership roles who frequently post about open-source technologies and work for companies with an increased vendor deal history.",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify personas in leadership roles who frequently post about open-source technologies.",
+      "table": [
+        "PersonaYoutubeProfile"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Find companies with an increased vendor deal history.",
+      "table": [
+        "IndustryBusinessTrend"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Match leadership personas to companies with an increased vendor deal history.",
+      "table": [
+        "PersonaTitle",
+        "IndustryBusinessTrend"
+      ]
+    }
+  ]
+}

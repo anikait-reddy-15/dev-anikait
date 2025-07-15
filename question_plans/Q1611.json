@@ -1,0 +1,26 @@
+{
+  "question": "How has the adoption of IoT devices been reflected in the tech stacks of automotive companies who have expanded their operations this year?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify automotive companies that have expanded operations this year.",
+      "table": [
+        "PersonaTitle"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract information on IoT device adoption in their tech stacks.",
+      "table": [
+        "PersonaTitle"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze how IoT adoption is reflected in their tech stacks.",
+      "table": [
+        "PersonaTitle"
+      ]
+    }
+  ]
+}

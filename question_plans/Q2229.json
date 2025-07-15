@@ -1,0 +1,26 @@
+{
+  "question": "What are the typical budgetary shifts seen in companies expanding their data analytics capabilities?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies expanding their data analytics capabilities from tech details.",
+      "table": [
+        "CompanyVendorTechDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract budgetary data related to these expansions.",
+      "table": [
+        "CompanyVendorTechDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the typical budgetary shifts associated with these expansions.",
+      "table": [
+        "CompanyVendorTechDetail"
+      ]
+    }
+  ]
+}

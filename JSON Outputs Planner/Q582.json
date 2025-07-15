@@ -1,26 +1,35 @@
 {
   "question": "Which companies have executed deals with analytics vendors and what technology do they utilize in their operations?",
-  "tables": ["CompanyDealMaster", "CompanyVendorTechDetail", "CompanyTechStack"],
   "subtasks": [
     {
       "step": 1,
       "task": "Identify companies that have executed deals with analytics vendors from the CompanyDealMaster table. [CompanyDealMaster]",
-      "table": ["CompanyDealMaster"]
+      "table": [
+        "CompanyDealMaster"
+      ]
     },
     {
       "step": 2,
       "task": "Gather details about the technologies used by these companies from the CompanyVendorTechDetail table. [CompanyVendorTechDetail]",
-      "table": ["CompanyVendorTechDetail"]
+      "table": [
+        "CompanyVendorTechDetail"
+      ]
     },
     {
       "step": 3,
       "task": "Analyze the tech stack of these companies from the CompanyTechStack table. [CompanyTechStack]",
-      "table": ["CompanyTechStack"]
+      "table": [
+        "CompanyTechStack"
+      ]
     },
     {
       "step": 4,
       "task": "Combine the data to identify the technologies utilized by companies with analytics vendor deals. [CompanyDealMaster, CompanyVendorTechDetail, CompanyTechStack]",
-      "table": ["CompanyDealMaster", "CompanyVendorTechDetail", "CompanyTechStack"]
+      "table": [
+        "CompanyDealMaster",
+        "CompanyVendorTechDetail",
+        "CompanyTechStack"
+      ]
     }
   ]
 }

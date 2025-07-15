@@ -1,0 +1,26 @@
+{
+  "question": "How does the adoption of remote collaboration technologies impact strategic IT planning in organizations?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify organizations adopting remote collaboration technologies.",
+      "table": [
+        "CompanyVendorProductDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Examine strategic IT planning changes in these organizations.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the impact of these technologies on strategic IT planning.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    }
+  ]
+}

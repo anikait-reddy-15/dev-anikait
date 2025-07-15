@@ -1,0 +1,27 @@
+{
+  "question": "What are the primary points of management concern discussed in vendor product details about data security?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Extract vendor product details discussing data security.",
+      "table": [
+        "IndustryBusinessTrend"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Identify primary points of management concern.",
+      "table": [
+        "CompanyManagementDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Link management concerns to vendor product details on data security.",
+      "table": [
+        "IndustryBusinessTrend",
+        "CompanyManagementDetail"
+      ]
+    }
+  ]
+}

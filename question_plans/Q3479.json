@@ -1,0 +1,26 @@
+{
+  "question": "Which companies communicated about innovative tech methodologies in LinkedIn articles to support increased employment in dev-ops roles?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify LinkedIn articles about innovative tech methodologies.",
+      "table": [
+        "PersonaYoutubeProfile"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Find evidence of increased employment in dev-ops roles.",
+      "table": [
+        "CompanyDataCenter"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Link tech methodologies communication to dev-ops employment.",
+      "table": [
+        "SectionInfo"
+      ]
+    }
+  ]
+}

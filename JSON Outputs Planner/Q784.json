@@ -1,21 +1,29 @@
 {
   "question": "What cybersecurity challenges are discussed by AI-focused firms in the healthcare sector?",
-  "tables": ["CompanyFocusAreaDetail", "CompanyBlogDetail", "CompanyInfo"],
   "subtasks": [
     {
       "step": 1,
       "task": "Identify AI-focused firms in the healthcare sector.",
-      "table": ["CompanyFocusAreaDetail", "CompanyInfo"]
+      "table": [
+        "CompanyFocusAreaDetail",
+        "CompanyInfo"
+      ]
     },
     {
       "step": 2,
       "task": "Extract cybersecurity discussions from their blogs.",
-      "table": ["CompanyBlogDetail"]
+      "table": [
+        "CompanyBlogDetail"
+      ]
     },
     {
       "step": 3,
       "task": "Summarize common cybersecurity challenges mentioned.",
-      "table": ["CompanyFocusAreaDetail", "CompanyBlogDetail", "CompanyInfo"]
+      "table": [
+        "CompanyFocusAreaDetail",
+        "CompanyBlogDetail",
+        "CompanyInfo"
+      ]
     }
   ]
 }

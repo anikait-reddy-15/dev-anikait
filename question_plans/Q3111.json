@@ -1,0 +1,26 @@
+{
+  "question": "Which vendors were most frequently discussed in LinkedIn posts by enterprise tech leaders?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Extract LinkedIn posts from PersonaTwitterProfile.",
+      "table": [
+        "PersonaTwitterProfile"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Identify posts by enterprise tech leaders.",
+      "table": [
+        "PersonaTwitterProfile"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Find and count mentions of vendors in these posts.",
+      "table": [
+        "PersonaTwitterProfile"
+      ]
+    }
+  ]
+}

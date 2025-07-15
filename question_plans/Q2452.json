@@ -1,0 +1,26 @@
+{
+  "question": "What hiring influxes exist in companies specific to big data roles visible in LinkedIn updates lately?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify LinkedIn updates mentioning big data roles.",
+      "table": [
+        "PersonaLinkedInProfile"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Find companies with recent hiring influxes for these roles.",
+      "table": [
+        "PersonaLinkedInProfile"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the hiring trends for big data roles in these companies.",
+      "table": [
+        "PersonaLinkedInProfile"
+      ]
+    }
+  ]
+}

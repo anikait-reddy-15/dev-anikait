@@ -1,0 +1,26 @@
+{
+  "question": "How do prominent persona interactions on Twitter influence the introduction of new corporate policies?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify prominent personas active on Twitter.",
+      "table": [
+        "PersonaInstagramProfile"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Track interactions and discussions by these personas.",
+      "table": [
+        "PersonaInstagramProfile"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the influence of these interactions on new corporate policies.",
+      "table": [
+        "CompanyManagementDetail"
+      ]
+    }
+  ]
+}

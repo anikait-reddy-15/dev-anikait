@@ -1,0 +1,26 @@
+{
+  "question": "Are banking firms focusing on blockchain examined through any specific deal master plans?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify banking firms focusing on blockchain technology.",
+      "table": [
+        "CompanyDataCenter"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract deal master plans related to blockchain from these firms.",
+      "table": [
+        "SectionTitle"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the specifics of how blockchain is examined in these plans.",
+      "table": [
+        "SectionTitle"
+      ]
+    }
+  ]
+}

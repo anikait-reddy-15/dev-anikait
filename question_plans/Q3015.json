@@ -1,0 +1,26 @@
+{
+  "question": "Which companies have increased their focus on cybersecurity and what technologies support these efforts?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies that have increased their focus on cybersecurity.",
+      "table": [
+        "CompanyManagementDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Retrieve technologies supporting cybersecurity efforts for the companies identified in step 1.",
+      "table": [
+        "CompanyManagementDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "List the technologies supporting cybersecurity efforts for these companies.",
+      "table": [
+        "CompanyManagementDetail"
+      ]
+    }
+  ]
+}

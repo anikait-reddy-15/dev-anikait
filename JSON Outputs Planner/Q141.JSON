@@ -1,6 +1,5 @@
 {
   "question": "What emerging technologies are mentioned by executives in companies focusing on sustainable practices?",
-  "tables": ["CompanyLeadershipExcerpt", "CompanyTechStack"],
   "subtasks": [
     {
       "step": 1,

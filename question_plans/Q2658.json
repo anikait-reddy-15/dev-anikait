@@ -1,0 +1,26 @@
+{
+  "question": "Which corporations have focused heavily on AI ethics within their leadership panels this year?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify leadership panels discussing AI ethics.",
+      "table": [
+        "SectionData"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract corporations involved in these panels.",
+      "table": [
+        "SectionData"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Determine the focus level on AI ethics by these corporations.",
+      "table": [
+        "SectionData"
+      ]
+    }
+  ]
+}

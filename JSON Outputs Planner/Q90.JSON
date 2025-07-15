@@ -1,6 +1,5 @@
 {
   "question": "Which companies are integrating more cloud services into their operations as mentioned in social media profiles?",
-  "tables": ["SocialMediaInfo", "CompanyTechStack"],
   "subtasks": [
     {
       "step": 1,

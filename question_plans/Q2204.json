@@ -1,0 +1,26 @@
+{
+  "question": "Which companies with recent leadership changes have adopted blockchain technologies within the last year?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies with recent leadership changes.",
+      "table": [
+        "CompanyVendorTechDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Filter these companies to find those that have adopted blockchain technologies within the last year.",
+      "table": [
+        "CompanyVendorTechDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "List companies that meet both criteria.",
+      "table": [
+        "CompanyVendorTechDetail"
+      ]
+    }
+  ]
+}

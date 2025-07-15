@@ -1,0 +1,26 @@
+{
+  "question": "Highlight the intersection between digital innovation and partner collaborations in the tech stack declarations.",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify digital innovation initiatives.",
+      "table": [
+        "IndustryBusinessTrend"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract details of partner collaborations in tech stack declarations.",
+      "table": [
+        "IndustryBusinessTrend"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Highlight intersections between digital innovation and partner collaborations.",
+      "table": [
+        "IndustryBusinessTrend"
+      ]
+    }
+  ]
+}

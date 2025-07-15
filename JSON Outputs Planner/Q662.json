@@ -1,16 +1,19 @@
 {
   "question": "Who are the thought leaders posting frequently on LinkedIn about cloud-native application development?",
-  "tables": ["PersonaLinkedinPost", "PersonaUser"],
   "subtasks": [
     {
       "step": 1,
       "task": "Identify LinkedIn posts about cloud-native application development.",
-      "table": ["PersonaLinkedinPost"]
+      "table": [
+        "PersonaLinkedinPost"
+      ]
     },
     {
       "step": 2,
       "task": "Link posts to thought leaders.",
-      "table": ["PersonaUser"]
+      "table": [
+        "PersonaUser"
+      ]
     }
   ]
 }

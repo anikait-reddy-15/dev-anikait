@@ -1,0 +1,26 @@
+{
+  "question": "Which automation technology shifts are referenced in persona interviews with IT specialists on Twitter?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify IT specialists from the PersonaTitle table.",
+      "table": [
+        "PersonaTitle"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract persona interviews with these specialists from Twitter data.",
+      "table": [
+        "PersonaLinkedInProfile"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Identify and list automation technology shifts mentioned in these interviews.",
+      "table": [
+        "PersonaLinkedInProfile"
+      ]
+    }
+  ]
+}

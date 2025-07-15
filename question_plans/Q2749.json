@@ -1,0 +1,27 @@
+{
+  "question": "Which companies are adopting blockchain solutions and actively hiring for IT leadership roles?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies adopting blockchain solutions from the SocialMediaInfo table.",
+      "table": [
+        "SocialMediaInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Find companies hiring for IT leadership roles from the PersonaUser table.",
+      "table": [
+        "PersonaUser"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Cross-reference companies from both lists.",
+      "table": [
+        "PersonaUser",
+        "SocialMediaInfo"
+      ]
+    }
+  ]
+}

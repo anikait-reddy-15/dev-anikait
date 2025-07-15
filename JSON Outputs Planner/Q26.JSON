@@ -1,6 +1,5 @@
 {
   "question": "What insights does Sri Shivananda contribute regarding the future of digital payments?",
-  "tables": ["PersonaYoutubeProfile", "CompanyDealMaster"],
   "subtasks": [
     {
       "step": 1,

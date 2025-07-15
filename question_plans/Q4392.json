@@ -1,0 +1,27 @@
+{
+  "question": "How is organizational behavior reflected in data center refinements noted in performance reviews?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Extract organizational behavior data.",
+      "table": [
+        "SectionInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Identify data center refinements from performance reviews.",
+      "table": [
+        "CompanyITPartnerDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the reflection of organizational behavior in data center refinements.",
+      "table": [
+        "SectionInfo",
+        "CompanyITPartnerDetail"
+      ]
+    }
+  ]
+}

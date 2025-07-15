@@ -1,0 +1,26 @@
+{
+  "question": "How did industries alter their Section Information based on significantly noticeable IT trend shifts?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify significantly noticeable IT trend shifts from PersonaYoutubeProfile.",
+      "table": [
+        "PersonaYoutubeProfile"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract Section Information for industries from PersonaLinkedInProfile.",
+      "table": [
+        "PersonaLinkedInProfile"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Determine alterations in Section Information based on IT trend shifts.",
+      "table": [
+        "PersonaLinkedInProfile"
+      ]
+    }
+  ]
+}

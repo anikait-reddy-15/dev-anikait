@@ -1,0 +1,26 @@
+{
+  "question": "How do smart city initiatives relate to industry-wide focus area updates in major corporations?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify smart city initiatives mentioned in the CompanyTwitterDetail table.",
+      "table": [
+        "CompanyTwitterDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract industry-wide focus area updates from the CompanyTwitterDetail table.",
+      "table": [
+        "CompanyTwitterDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the relationship between smart city initiatives and focus area updates.",
+      "table": [
+        "CompanyTwitterDetail"
+      ]
+    }
+  ]
+}

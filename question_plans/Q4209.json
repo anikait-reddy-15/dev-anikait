@@ -1,0 +1,26 @@
+{
+  "question": "What are the most popular technologies adopted by companies that recently revamped their executive leadership teams?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies that have revamped their executive leadership teams recently.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Retrieve technologies adopted by these companies.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Determine the most popular technologies among these companies.",
+      "table": [
+        "CompanyInfo"
+      ]
+    }
+  ]
+}

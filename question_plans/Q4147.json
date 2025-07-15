@@ -1,0 +1,26 @@
+{
+  "question": "Which startups have accelerated their investment in AR technologies as per their management team announcements?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify startups from the CompanyITPartnerDetail table.",
+      "table": [
+        "CompanyITPartnerDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Find management team announcements related to AR technologies.",
+      "table": [
+        "SectionTitle"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Determine which startups have accelerated their investment in AR technologies.",
+      "table": [
+        "SectionTitle"
+      ]
+    }
+  ]
+}

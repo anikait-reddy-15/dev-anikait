@@ -1,0 +1,26 @@
+{
+  "question": "Which personas are frequently engaging with competitive content on Instagram platforms?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify competitive content on Instagram platforms.",
+      "table": [
+        "PersonaMisc"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract personas engaging with this content.",
+      "table": [
+        "PersonaTitle"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Determine the frequency of engagement by these personas.",
+      "table": [
+        "PersonaMisc"
+      ]
+    }
+  ]
+}

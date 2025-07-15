@@ -1,0 +1,26 @@
+{
+  "question": "How do leadership viewpoints align with IT partner expansions in large financial service firms?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify large financial service firms from the database.",
+      "table": [
+        "CompanyDataCenter"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract leadership viewpoints from these firms.",
+      "table": [
+        "PersonaLinkedInProfile"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze IT partner expansions in these firms and compare with leadership viewpoints.",
+      "table": [
+        "CompanyVendorTechDetail"
+      ]
+    }
+  ]
+}

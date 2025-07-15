@@ -1,0 +1,27 @@
+{
+  "question": "What correlation exists between retail companies' hiring practices and their recent social media trends?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify hiring practices of retail companies.",
+      "table": [
+        "LookUpValue"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Analyze recent social media trends for these companies.",
+      "table": [
+        "PageInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Determine correlations between hiring practices and social media trends.",
+      "table": [
+        "LookUpValue",
+        "PageInfo"
+      ]
+    }
+  ]
+}

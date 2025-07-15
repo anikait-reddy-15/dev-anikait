@@ -1,21 +1,27 @@
 {
   "question": "What AI ethics topics are frequently discussed by organizations on Twitter that are actively implementing AI governance structures?",
-  "tables": ["CompanyTwitterDetail", "CompanyFocusAreaDetail"],
   "subtasks": [
     {
       "step": 1,
       "task": "Identify companies discussing AI ethics topics on Twitter.",
-      "table": ["CompanyTwitterDetail"]
+      "table": [
+        "CompanyTwitterDetail"
+      ]
     },
     {
       "step": 2,
       "task": "Find those implementing AI governance structures.",
-      "table": ["CompanyFocusAreaDetail"]
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
     },
     {
       "step": 3,
       "task": "Analyze overlap and extract commonly discussed topics.",
-      "table": ["CompanyTwitterDetail", "CompanyFocusAreaDetail"]
+      "table": [
+        "CompanyTwitterDetail",
+        "CompanyFocusAreaDetail"
+      ]
     }
   ]
 }

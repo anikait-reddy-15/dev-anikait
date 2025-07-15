@@ -1,21 +1,27 @@
 {
   "question": "Which government agencies are partnering with private firms for AI-based citizen services?",
-  "tables": ["CompanyInfo", "CompanyITPartnerDetail"],
   "subtasks": [
     {
       "step": 1,
       "task": "Identify government agencies.",
-      "table": ["CompanyInfo"]
+      "table": [
+        "CompanyInfo"
+      ]
     },
     {
       "step": 2,
       "task": "Find private firms providing AI-based citizen services.",
-      "table": ["CompanyITPartnerDetail"]
+      "table": [
+        "CompanyITPartnerDetail"
+      ]
     },
     {
       "step": 3,
       "task": "Match partnerships between agencies and firms.",
-      "table": ["CompanyInfo", "CompanyITPartnerDetail"]
+      "table": [
+        "CompanyInfo",
+        "CompanyITPartnerDetail"
+      ]
     }
   ]
 }

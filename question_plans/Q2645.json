@@ -1,0 +1,26 @@
+{
+  "question": "Which technology sectors have seen increased public dialogue via executive blog posts during the last season?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify executive blog posts from the last season.",
+      "table": [
+        "SectionData"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract topics of public dialogue from these blog posts.",
+      "table": [
+        "SectionData"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Determine technology sectors associated with these topics.",
+      "table": [
+        "SectionData"
+      ]
+    }
+  ]
+}

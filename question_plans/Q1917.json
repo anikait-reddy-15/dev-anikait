@@ -1,0 +1,19 @@
+{
+  "question": "What emerging business trends are recognized by companies with a recent uptick in IT partner collaborations?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies with a recent uptick in IT partner collaborations.",
+      "table": [
+        "CompanyYoutubeDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract emerging business trends recognized by these companies.",
+      "table": [
+        "CompanyYoutubeDetail"
+      ]
+    }
+  ]
+}

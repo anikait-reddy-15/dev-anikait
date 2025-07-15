@@ -1,0 +1,24 @@
+{
+  "question": "Which employees shared insights into industry technology trends, according to detailed LinkedIn activities?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Extract LinkedIn activities that mention industry technology trends.",
+      "table": [
+        "SocialMediaInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Identify employees associated with these LinkedIn activities.",
+      "table": [
+        "PersonaTwitterProfile"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Compile a list of employees who shared insights into technology trends.",
+      "table": []
+    }
+  ]
+}

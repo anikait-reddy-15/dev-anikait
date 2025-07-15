@@ -1,0 +1,26 @@
+{
+  "question": "Who are the prominent figures highlighted in leadership excerpts, and what are their technology preferences?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Extract leadership excerpts highlighting prominent figures.",
+      "table": [
+        "PersonaMisc"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Identify the prominent figures from these excerpts.",
+      "table": [
+        "PersonaMisc"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Determine the technology preferences of these figures.",
+      "table": [
+        "PersonaMisc"
+      ]
+    }
+  ]
+}

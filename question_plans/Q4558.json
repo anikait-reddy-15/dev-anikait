@@ -1,0 +1,27 @@
+{
+  "question": "Which companies promote diversity through their hiring and IT policies?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies with diversity-focused hiring policies.",
+      "table": [
+        "PersonaMisc"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Identify companies with diversity-focused IT policies.",
+      "table": [
+        "CompanyVendorProductDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Find companies promoting diversity through both hiring and IT policies.",
+      "table": [
+        "PersonaMisc",
+        "CompanyVendorProductDetail"
+      ]
+    }
+  ]
+}

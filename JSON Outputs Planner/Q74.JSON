@@ -1,6 +1,5 @@
 {
   "question": "Who are the key influencers in LPL Financial's technology landscape?",
-  "tables": ["SectionData", "PersonaUser"],
   "subtasks": [
     {
       "step": 1,

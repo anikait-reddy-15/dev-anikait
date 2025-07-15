@@ -1,0 +1,26 @@
+{
+  "question": "What corporations have increased IT hiring after strategic focus declarations, as demonstrated by leadership excerpts?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify corporations with strategic focus declarations in leadership excerpts.",
+      "table": [
+        "PersonaTitle"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Filter corporations that have increased IT hiring.",
+      "table": [
+        "PersonaTitle"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Combine results to find corporations meeting both criteria.",
+      "table": [
+        "PersonaTitle"
+      ]
+    }
+  ]
+}

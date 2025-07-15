@@ -1,0 +1,26 @@
+{
+  "question": "How are companies leveraging vendor partnerships to build stronger IoT capabilities?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies with vendor partnerships related to IoT.",
+      "table": [
+        "CompanyDataCenter"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract details on how these partnerships enhance IoT capabilities.",
+      "table": [
+        "CompanyDataCenter"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the impact of vendor partnerships on IoT development.",
+      "table": [
+        "CompanyDataCenter"
+      ]
+    }
+  ]
+}

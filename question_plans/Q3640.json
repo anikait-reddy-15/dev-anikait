@@ -1,0 +1,27 @@
+{
+  "question": "Which enterprises align their Instagram content with major trends in cloud computing?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify major trends in cloud computing from the IndustryBusinessTrend table.",
+      "table": [
+        "IndustryBusinessTrend"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract enterprises' Instagram content from the PersonaYoutubeProfile table.",
+      "table": [
+        "PersonaYoutubeProfile"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Match enterprises whose Instagram content aligns with identified cloud computing trends.",
+      "table": [
+        "PersonaYoutubeProfile",
+        "IndustryBusinessTrend"
+      ]
+    }
+  ]
+}

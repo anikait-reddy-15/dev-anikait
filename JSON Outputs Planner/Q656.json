@@ -1,21 +1,27 @@
 {
   "question": "Which companies have increased their vendor partnerships in the past quarter and also expanded their cloud service usage?",
-  "tables": ["CompanyVendorTechDetail", "CompanyTechStack"],
   "subtasks": [
     {
       "step": 1,
       "task": "Identify companies increasing vendor partnerships recently.",
-      "table": ["CompanyVendorTechDetail"]
+      "table": [
+        "CompanyVendorTechDetail"
+      ]
     },
     {
       "step": 2,
       "task": "Find companies expanding cloud service usage.",
-      "table": ["CompanyTechStack"]
+      "table": [
+        "CompanyTechStack"
+      ]
     },
     {
       "step": 3,
       "task": "Match companies from both datasets.",
-      "table": ["CompanyVendorTechDetail", "CompanyTechStack"]
+      "table": [
+        "CompanyVendorTechDetail",
+        "CompanyTechStack"
+      ]
     }
   ]
 }

@@ -1,0 +1,26 @@
+{
+  "question": "How many startups have adopted big data analytics tools after publishing growth announcements on social media platforms?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify startups that have published growth announcements on social media platforms.",
+      "table": [
+        "CompanyTwitterDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Find startups that have adopted big data analytics tools.",
+      "table": [
+        "CompanyTwitterDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Count the number of startups that meet both criteria.",
+      "table": [
+        "CompanyTwitterDetail"
+      ]
+    }
+  ]
+}

@@ -1,26 +1,35 @@
 {
   "question": "How do hiring trends correlate with social media engagement for companies that are restructuring their IT departments?",
-  "tables": ["CompanyHiringDetail", "CompanyTwitterDetail", "CompanyManagementDetail"],
   "subtasks": [
     {
       "step": 1,
       "task": "Identify companies that are restructuring their IT departments.",
-      "table": ["CompanyManagementDetail"]
+      "table": [
+        "CompanyManagementDetail"
+      ]
     },
     {
       "step": 2,
       "task": "Gather hiring trend data for these companies.",
-      "table": ["CompanyHiringDetail"]
+      "table": [
+        "CompanyHiringDetail"
+      ]
     },
     {
       "step": 3,
       "task": "Collect social media engagement data for the same companies.",
-      "table": ["CompanyTwitterDetail"]
+      "table": [
+        "CompanyTwitterDetail"
+      ]
     },
     {
       "step": 4,
       "task": "Analyze the correlation between hiring trends and social media engagement.",
-      "table": ["CompanyHiringDetail", "CompanyTwitterDetail", "CompanyManagementDetail"]
+      "table": [
+        "CompanyHiringDetail",
+        "CompanyTwitterDetail",
+        "CompanyManagementDetail"
+      ]
     }
   ]
 }

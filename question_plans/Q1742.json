@@ -1,0 +1,26 @@
+{
+  "question": "Which data engineers have emerged as major voices on software analytics solutions in recent LinkedIn posts?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify LinkedIn posts related to software analytics solutions.",
+      "table": [
+        "PersonaYoutubeProfile"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract information about data engineers mentioned in these posts.",
+      "table": [
+        "PersonaYoutubeProfile"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Determine which data engineers are considered major voices.",
+      "table": [
+        "PersonaYoutubeProfile"
+      ]
+    }
+  ]
+}

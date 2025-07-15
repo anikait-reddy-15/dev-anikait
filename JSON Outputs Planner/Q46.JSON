@@ -1,6 +1,5 @@
 {
   "question": "How is the consumer goods industry adapting to advancements in blockchain and digitalization?",
-  "tables": ["IndustryITTrend", "LookUpValue"],
   "subtasks": [
     {
       "step": 1,

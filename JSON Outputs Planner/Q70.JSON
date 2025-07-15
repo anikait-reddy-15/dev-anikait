@@ -1,6 +1,5 @@
 {
   "question": "Which executives at LPL Financial are responsible for strategic technology implementations?",
-  "tables": ["SectionData", "CompanyTechStack"],
   "subtasks": [
     {
       "step": 1,

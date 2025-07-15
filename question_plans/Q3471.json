@@ -1,0 +1,26 @@
+{
+  "question": "Which sections host companies linking experiential technology with their strong focus areas in published media feeds?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify sections hosting companies.",
+      "table": [
+        "SectionInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Find companies linking experiential technology with focus areas.",
+      "table": [
+        "SectionTitle"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Correlate these links with published media feeds.",
+      "table": [
+        "CompanyDataCenter"
+      ]
+    }
+  ]
+}

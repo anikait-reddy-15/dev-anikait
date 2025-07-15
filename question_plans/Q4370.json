@@ -1,0 +1,27 @@
+{
+  "question": "How is competitive social media behavior shaping IT vendor interactions and outcomes?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify competitive social media behavior patterns.",
+      "table": [
+        "PersonaYoutubeProfile"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract IT vendor interactions and outcomes.",
+      "table": [
+        "CompanyITPartnerDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze how social media behavior is influencing vendor interactions.",
+      "table": [
+        "PersonaYoutubeProfile",
+        "CompanyITPartnerDetail"
+      ]
+    }
+  ]
+}

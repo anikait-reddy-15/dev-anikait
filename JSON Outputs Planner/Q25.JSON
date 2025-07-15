@@ -1,6 +1,5 @@
 {
   "question": "Which vendor deals have been signed by educational institutions in the past year?",
-  "tables": ["CompanyDealMaster", "CompanyDataCenter"],
   "subtasks": [
     {
       "step": 1,

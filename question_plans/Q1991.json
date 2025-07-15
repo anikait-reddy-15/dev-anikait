@@ -1,0 +1,26 @@
+{
+  "question": "Which partnerships are emerging as companies improve their digital marketing posts engagement on Instagram?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies improving their digital marketing posts engagement on Instagram.",
+      "table": [
+        "CompanyYoutubeDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract information about partnerships related to these improvements.",
+      "table": [
+        "CompanyYoutubeDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the emerging partnerships based on the extracted information.",
+      "table": [
+        "CompanyYoutubeDetail"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "question": "What investment strategies are popular among retail companies enhancing their technology applications?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify retail companies.",
+      "table": [
+        "PersonaUser"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract data on technology application enhancements.",
+      "table": [
+        "CompanyTwitterDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze popular investment strategies.",
+      "table": [
+        "CompanyTwitterDetail"
+      ]
+    }
+  ]
+}

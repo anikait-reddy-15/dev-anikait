@@ -1,21 +1,26 @@
 {
   "question": "Which retail companies have adopted predictive analytics and frequently post about it on Twitter?",
-  "tables": ["CompanyInfo", "CompanyTechStack", "CompanyTwitterDetail"],
   "subtasks": [
     {
       "step": 1,
       "task": "Identify retail companies. [CompanyInfo]",
-      "table": ["CompanyInfo"]
+      "table": [
+        "CompanyInfo"
+      ]
     },
     {
       "step": 2,
       "task": "Find companies using predictive analytics in their tech stack. [CompanyTechStack]",
-      "table": ["CompanyTechStack"]
+      "table": [
+        "CompanyTechStack"
+      ]
     },
     {
       "step": 3,
       "task": "Identify companies actively tweeting about predictive analytics. [CompanyTwitterDetail]",
-      "table": ["CompanyTwitterDetail"]
+      "table": [
+        "CompanyTwitterDetail"
+      ]
     }
   ]
 }

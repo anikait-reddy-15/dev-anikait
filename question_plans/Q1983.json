@@ -1,0 +1,26 @@
+{
+  "question": "Which new product innovations align with common IT stacks used in contemporary business models?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify new product innovations from the CompanyYoutubeDetail table.",
+      "table": [
+        "CompanyYoutubeDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract information about common IT stacks used in contemporary business models.",
+      "table": [
+        "CompanyYoutubeDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Match the new product innovations with the identified IT stacks to find alignments.",
+      "table": [
+        "CompanyYoutubeDetail"
+      ]
+    }
+  ]
+}

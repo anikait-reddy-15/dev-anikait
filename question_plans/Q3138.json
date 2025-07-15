@@ -1,0 +1,24 @@
+{
+  "question": "Which enterprises communicated IT upgrade strategies via Instagram posts as part of their transformation journey?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify enterprises that have shared content on Instagram.",
+      "table": [
+        "SocialMediaInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract information on IT upgrade strategies from these posts.",
+      "table": [
+        "CompanyTwitterDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Identify enterprises that communicated their IT upgrade strategies.",
+      "table": []
+    }
+  ]
+}

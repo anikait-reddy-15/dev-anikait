@@ -1,0 +1,27 @@
+{
+  "question": "Which companies posted LinkedIn content about data science and are investing in related technologies?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies posting LinkedIn content about data science.",
+      "table": [
+        "PersonaMisc"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Identify companies investing in data science technologies.",
+      "table": [
+        "CompanyVendorProductDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Find companies that meet both criteria.",
+      "table": [
+        "PersonaMisc",
+        "CompanyVendorProductDetail"
+      ]
+    }
+  ]
+}

@@ -1,6 +1,5 @@
 {
   "question": "Which vendors are heavily referenced in the leadership comments of companies experiencing rapid growth and changes in their data management strategies?",
-  "tables": ["CompanyLeadershipExcerpt", "CompanyDealMaster", "CompanyVendorTechDetail"],
   "subtasks": [
     {
       "step": 1,

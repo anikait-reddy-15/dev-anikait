@@ -1,0 +1,26 @@
+{
+  "question": "What leadership qualities are most emphasized by companies that are expanding their AI and machine learning capabilities?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies expanding their AI and machine learning capabilities.",
+      "table": [
+        "PersonaMisc"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract leadership qualities emphasized by these companies.",
+      "table": [
+        "PersonaMisc"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze and list the most emphasized leadership qualities.",
+      "table": [
+        "PersonaMisc"
+      ]
+    }
+  ]
+}

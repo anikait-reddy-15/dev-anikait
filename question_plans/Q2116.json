@@ -1,0 +1,33 @@
+{
+  "question": "How have IT priorities shifted in companies that appointed a new Head of IT during the past year?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies that appointed a new Head of IT during the past year.",
+      "table": [
+        "PersonaLinkedInProfile"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Determine IT priorities of these companies before the appointment.",
+      "table": [
+        "CompanyVendorTechDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Determine IT priorities of these companies after the appointment.",
+      "table": [
+        "CompanyVendorTechDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Analyze the shift in IT priorities.",
+      "table": [
+        "CompanyVendorTechDetail"
+      ]
+    }
+  ]
+}

@@ -1,26 +1,33 @@
 {
   "question": "Which data science professionals have shared insights about cloud technologies in their LinkedIn posts while working at companies investing heavily in tech partnerships?",
-  "tables": ["PersonaLinkedinPost", "PersonaUser", "CompanyITPartnerDetail"],
   "subtasks": [
     {
       "step": 1,
       "task": "Identify LinkedIn posts related to cloud technologies. [PersonaLinkedinPost]",
-      "table": ["PersonaLinkedinPost"]
+      "table": [
+        "PersonaLinkedinPost"
+      ]
     },
     {
       "step": 2,
       "task": "Filter for data science professionals who authored these posts. [PersonaUser]",
-      "table": ["PersonaUser"]
+      "table": [
+        "PersonaUser"
+      ]
     },
     {
       "step": 3,
       "task": "Identify companies that are investing heavily in tech partnerships. [CompanyITPartnerDetail]",
-      "table": ["CompanyITPartnerDetail"]
+      "table": [
+        "CompanyITPartnerDetail"
+      ]
     },
     {
       "step": 4,
       "task": "Match the data science professionals with their companies to see if they are part of those investing in tech partnerships. [CompanyITPartnerDetail]",
-      "table": ["CompanyITPartnerDetail"]
+      "table": [
+        "CompanyITPartnerDetail"
+      ]
     }
   ]
 }

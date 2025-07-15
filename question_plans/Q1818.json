@@ -1,0 +1,24 @@
+{
+  "question": "What product innovations have been spotlighted by companies making prominent announcements about lean methodologies?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies making announcements about lean methodologies.",
+      "table": [
+        "IndustryBusinessTrend"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Find product innovations spotlighted by these companies.",
+      "table": [
+        "IndustryBusinessTrend"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "List the product innovations associated with these announcements.",
+      "table": []
+    }
+  ]
+}

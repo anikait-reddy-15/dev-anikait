@@ -1,0 +1,26 @@
+{
+  "question": "Which executives in leadership roles shared perspectives on data analytics across their social media profiles recently?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify executives in leadership roles from leadership excerpts.",
+      "table": [
+        "SocialMediaInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Filter social media profiles for recent activity.",
+      "table": [
+        "PersonaTwitterProfile"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Extract perspectives on data analytics from social posts.",
+      "table": [
+        "PersonaTwitterProfile"
+      ]
+    }
+  ]
+}

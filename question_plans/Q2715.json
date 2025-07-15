@@ -1,0 +1,27 @@
+{
+  "question": "Which personas with \"Senior Data Analyst\" titles frequently discuss data visualization trends on social media?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify personas with 'Senior Data Analyst' titles from the PersonaUser table.",
+      "table": [
+        "PersonaUser"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Filter social media posts discussing data visualization trends from the SocialMediaInfo table.",
+      "table": [
+        "SocialMediaInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Join the results to find relevant personas discussing these trends.",
+      "table": [
+        "PersonaUser",
+        "SocialMediaInfo"
+      ]
+    }
+  ]
+}

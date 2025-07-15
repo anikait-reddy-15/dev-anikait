@@ -1,21 +1,27 @@
 {
   "question": "Which firms have transitioned from legacy analytics to AI-first platforms in the past year?",
-  "tables": ["CompanyFocusAreaDetail", "CompanyTechStack"],
   "subtasks": [
     {
       "step": 1,
       "task": "Identify firms using legacy analytics tools previously.",
-      "table": ["CompanyTechStack"]
+      "table": [
+        "CompanyTechStack"
+      ]
     },
     {
       "step": 2,
       "task": "Find firms now using AI-first platforms.",
-      "table": ["CompanyTechStack"]
+      "table": [
+        "CompanyTechStack"
+      ]
     },
     {
       "step": 3,
       "task": "Determine companies where the transition occurred in the past year.",
-      "table": ["CompanyFocusAreaDetail", "CompanyTechStack"]
+      "table": [
+        "CompanyFocusAreaDetail",
+        "CompanyTechStack"
+      ]
     }
   ]
 }

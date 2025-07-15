@@ -1,0 +1,26 @@
+{
+  "question": "Which organizations continue to see rapid Facebook post engagement growth while transforming their IT landscapes?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify organizations with rapid Facebook post engagement growth.",
+      "table": [
+        "CompanyYoutubeDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract information about IT landscape transformations in these organizations.",
+      "table": [
+        "CompanyYoutubeDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Determine which organizations align with both criteria.",
+      "table": [
+        "CompanyYoutubeDetail"
+      ]
+    }
+  ]
+}

@@ -1,6 +1,5 @@
 {
   "question": "What technologies are highlighted in LinkedIn posts by hiring managers of data-focused companies?",
-  "tables": ["CompanyHiringDetail", "PersonaLinkedinPost"],
   "subtasks": [
     {
       "step": 1,

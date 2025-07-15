@@ -1,0 +1,24 @@
+{
+  "question": "What are the top three tech investments by companies where CIOs recently participated in government advisory boards?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies where CIOs recently participated in government advisory boards.",
+      "table": [
+        "SectionTitle"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Find tech investments by these companies.",
+      "table": [
+        "CompanyDataCenter"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Determine the top three tech investments.",
+      "table": []
+    }
+  ]
+}

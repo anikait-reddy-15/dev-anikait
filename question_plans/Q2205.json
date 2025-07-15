@@ -1,0 +1,27 @@
+{
+  "question": "Which industries have seen an uptick in hiring data analysts, and what tech stacks are they mostly utilizing?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify industries with an increase in hiring data analysts.",
+      "table": [
+        "SectionInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Determine the tech stacks utilized by these industries.",
+      "table": [
+        "CompanyVendorTechDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Combine the results to show industries and their tech stacks.",
+      "table": [
+        "SectionInfo",
+        "CompanyVendorTechDetail"
+      ]
+    }
+  ]
+}

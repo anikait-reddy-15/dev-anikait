@@ -1,0 +1,26 @@
+{
+  "question": "What are the strategic focuses for companies with increased Instagram presence over the last quarter?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies with increased Instagram presence over the last quarter.",
+      "table": [
+        "PersonaLinkedInProfile"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract strategic focuses of these companies.",
+      "table": [
+        "PersonaTitle"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Summarize the strategic focuses identified.",
+      "table": [
+        "PersonaTitle"
+      ]
+    }
+  ]
+}

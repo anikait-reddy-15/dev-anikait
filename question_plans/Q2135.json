@@ -1,0 +1,26 @@
+{
+  "question": "How have enterprise technology conversations changed with increased LinkedIn engagement?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify enterprise technology conversations from LinkedIn data.",
+      "table": [
+        "PersonaLinkedInProfile"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Analyze changes in these conversations over time.",
+      "table": [
+        "PersonaLinkedInProfile"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Correlate changes with increased LinkedIn engagement metrics.",
+      "table": [
+        "PersonaLinkedInProfile"
+      ]
+    }
+  ]
+}

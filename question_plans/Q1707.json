@@ -1,0 +1,26 @@
+{
+  "question": "What subjects have company leaders discussed in keynote speeches, specifically focusing on cloud technologies?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Extract subjects discussed by company leaders in keynote speeches.",
+      "table": [
+        "CompanyTwitterDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Filter subjects specifically focusing on cloud technologies.",
+      "table": [
+        "CompanyTwitterDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "List the subjects related to cloud technologies.",
+      "table": [
+        "CompanyTwitterDetail"
+      ]
+    }
+  ]
+}

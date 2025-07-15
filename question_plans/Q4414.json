@@ -1,0 +1,26 @@
+{
+  "question": "Which companies have posted new YouTube content related to data privacy and security?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify YouTube content related to data privacy and security.",
+      "table": [
+        "PersonaTitle"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Find companies associated with this content.",
+      "table": [
+        "PersonaTitle"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "List companies with relevant YouTube content.",
+      "table": [
+        "PersonaTitle"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "question": "What updates have been made to data centers according to leadership priorities shared on Facebook?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Extract leadership priorities related to data centers from Facebook posts.",
+      "table": [
+        "CompanyTwitterDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Identify specific updates mentioned for data centers.",
+      "table": [
+        "CompanyTwitterDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Summarize the updates made to data centers based on leadership priorities.",
+      "table": [
+        "CompanyTwitterDetail"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "question": "Which companies emphasized data analytics in their recent public presentations?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify public presentation content from the SectionData table.",
+      "table": [
+        "SectionData"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Filter presentations that emphasize data analytics.",
+      "table": [
+        "SectionData"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "List companies associated with these presentations.",
+      "table": [
+        "SectionData"
+      ]
+    }
+  ]
+}

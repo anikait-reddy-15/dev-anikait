@@ -1,0 +1,26 @@
+{
+  "question": "How do contractual agreements with tech vendors influence short-term business strategies?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify contractual agreements with tech vendors.",
+      "table": [
+        "CompanyDataCenter"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Analyze the terms of these agreements to understand their strategic implications.",
+      "table": [
+        "CompanyDataCenter"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Correlate these implications with changes in short-term business strategies.",
+      "table": [
+        "LookUpValue"
+      ]
+    }
+  ]
+}

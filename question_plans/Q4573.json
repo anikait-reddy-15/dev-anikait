@@ -1,0 +1,27 @@
+{
+  "question": "How do social media dynamics reflect companies' intent to adopt blockchain solutions?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Extract social media dynamics from the PersonaMisc table.",
+      "table": [
+        "PersonaMisc"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Identify companies intending to adopt blockchain solutions from the CompanyVendorProductDetail table.",
+      "table": [
+        "CompanyVendorProductDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze how social media dynamics reflect these intentions.",
+      "table": [
+        "PersonaMisc",
+        "CompanyVendorProductDetail"
+      ]
+    }
+  ]
+}

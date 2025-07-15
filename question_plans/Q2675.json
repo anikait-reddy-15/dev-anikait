@@ -1,0 +1,26 @@
+{
+  "question": "How do consumer data preferences drive technology changes in sectors experiencing heavy social media interaction?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify sectors experiencing heavy social media interaction.",
+      "table": [
+        "PersonaFaceBook"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract consumer data preferences in these sectors.",
+      "table": [
+        "SectionData"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze how these preferences drive technology changes.",
+      "table": [
+        "SectionData"
+      ]
+    }
+  ]
+}

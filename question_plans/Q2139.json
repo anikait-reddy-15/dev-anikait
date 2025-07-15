@@ -1,0 +1,26 @@
+{
+  "question": "Are there visible hiring trends in companies frequently updating leadership strategies online?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies frequently updating leadership strategies online.",
+      "table": [
+        "PersonaLinkedInProfile"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract hiring data for these companies.",
+      "table": [
+        "CompanyDataCenter"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze hiring trends based on the frequency of leadership strategy updates.",
+      "table": [
+        "CompanyDataCenter"
+      ]
+    }
+  ]
+}

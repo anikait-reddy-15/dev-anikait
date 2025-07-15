@@ -1,0 +1,27 @@
+{
+  "question": "Which organizations posted heavily on Instagram following the rollout of software lifecycle innovations?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify software lifecycle innovations from the PersonaTwitterProfile table.",
+      "table": [
+        "PersonaTwitterProfile"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract organizations that posted heavily on Instagram from the PersonaFaceBook table.",
+      "table": [
+        "PersonaFaceBook"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Correlate the organizations with the timing of software lifecycle innovations.",
+      "table": [
+        "PersonaTwitterProfile",
+        "PersonaFaceBook"
+      ]
+    }
+  ]
+}

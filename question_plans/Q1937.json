@@ -1,0 +1,24 @@
+{
+  "question": "Which firms have launched technology upgrades while actively pursuing new talent in the software development domain?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify firms that have launched technology upgrades.",
+      "table": [
+        "CompanyYoutubeDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Identify firms actively pursuing new talent in the software development domain.",
+      "table": [
+        "CompanyYoutubeDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Combine results to find firms meeting both criteria.",
+      "table": []
+    }
+  ]
+}

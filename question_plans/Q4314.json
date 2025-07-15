@@ -1,0 +1,26 @@
+{
+  "question": "Which companies recently increased their hiring in the IT sector and also published leadership perspectives on agility?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies with increased IT sector hiring from the CompanyITPartnerDetail table.",
+      "table": [
+        "CompanyITPartnerDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Find companies publishing leadership perspectives on agility.",
+      "table": [
+        "CompanyITPartnerDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Combine results to find companies meeting both criteria.",
+      "table": [
+        "CompanyITPartnerDetail"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "question": "Which sectors have the highest correlation of technology investment and Facebook post engagement?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify sectors with technology investments.",
+      "table": [
+        "CompanyDealMaster"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract Facebook post engagement data.",
+      "table": [
+        "PersonaYoutubeProfile"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the correlation between tech investments and Facebook engagement.",
+      "table": [
+        "CompanyDealMaster",
+        "PersonaYoutubeProfile"
+      ]
+    }
+  ]
+}

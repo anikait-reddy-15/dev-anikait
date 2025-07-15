@@ -1,0 +1,26 @@
+{
+  "question": "Identify the strategic organizational position shifts occurring amidst substantial shifts in IT trends.",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Extract the current IT trends that are experiencing substantial shifts.",
+      "table": [
+        "IndustryBusinessTrend"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Identify the organizational positions or roles that are related to these IT trends.",
+      "table": [
+        "PersonaTitle"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Determine the strategic shifts in these organizational positions based on the IT trends identified.",
+      "table": [
+        "PersonaTitle"
+      ]
+    }
+  ]
+}

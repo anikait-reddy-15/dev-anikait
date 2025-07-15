@@ -1,0 +1,27 @@
+{
+  "question": "Which companies expanded their data centers and increased Twitter presence simultaneously?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies that expanded their data centers.",
+      "table": [
+        "CompanyVendorProductDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Identify companies that increased their Twitter presence.",
+      "table": [
+        "PersonaMisc"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Find companies that meet both criteria.",
+      "table": [
+        "CompanyVendorProductDetail",
+        "PersonaMisc"
+      ]
+    }
+  ]
+}

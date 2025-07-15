@@ -1,0 +1,27 @@
+{
+  "question": "How do competitive social media strategies align with new deals in the AI vendor space?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify competitive social media strategies.",
+      "table": [
+        "PersonaYoutubeProfile"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Identify new deals in the AI vendor space.",
+      "table": [
+        "PersonaMisc"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze alignment between social media strategies and AI vendor deals.",
+      "table": [
+        "PersonaYoutubeProfile",
+        "PersonaMisc"
+      ]
+    }
+  ]
+}

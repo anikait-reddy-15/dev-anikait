@@ -1,6 +1,5 @@
 {
   "question": "How do social media engagement levels correlate with recent technology adoption in companies focusing on AI?",
-  "tables": ["CompanySocialMediaInfo", "CompanyTechStack"],
   "subtasks": [
     {
       "step": 1,

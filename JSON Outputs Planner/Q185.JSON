@@ -1,6 +1,5 @@
 {
   "question": "How do shifts in company hiring strategies correlate with public discussions about emerging technologies on Twitter among influential personas?",
-  "tables": ["CompanyHiringDetail", "PersonaTwitterTweets", "CompanyTechStack"],
   "subtasks": [
     {
       "step": 1,

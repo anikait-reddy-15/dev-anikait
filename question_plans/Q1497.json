@@ -1,0 +1,26 @@
+{
+  "question": "Which sectors highlight increased use of machine learning algorithms to streamline business operation efficiencies?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify sectors mentioned in leadership excerpts related to machine learning algorithms.",
+      "table": [
+        "PersonaMisc"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract mentions of business operation efficiencies from social media posts.",
+      "table": [
+        "PersonaTwitterTweets"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Correlate sectors with mentions of machine learning and operational efficiencies.",
+      "table": [
+        "PersonaMisc"
+      ]
+    }
+  ]
+}

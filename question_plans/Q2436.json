@@ -1,0 +1,27 @@
+{
+  "question": "How do merger and acquisition announcements influence vendor engagements within the technology stack updates?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify merger and acquisition announcements.",
+      "table": [
+        "CompanyLeadershipExcerpt"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Find vendor engagements within technology stack updates.",
+      "table": [
+        "CompanyDataCenter"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the influence of merger and acquisition announcements on vendor engagements.",
+      "table": [
+        "CompanyLeadershipExcerpt",
+        "CompanyDataCenter"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "question": "What are the most commonly discussed tech partnerships among businesses aiming to enhance AI-driven customer service?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify businesses aiming to enhance AI-driven customer service.",
+      "table": [
+        "CompanyITPartnerDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract information on tech partnerships from the SectionTitle table.",
+      "table": [
+        "SectionTitle"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Determine the most commonly discussed tech partnerships among these businesses.",
+      "table": [
+        "SectionTitle"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "question": "Which companies stated automated processes as a focus area while gaining new LinkedIn followers due to their latest automation innovations?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies focusing on automated processes.",
+      "table": [
+        "SectionTitle"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Identify companies gaining LinkedIn followers due to automation innovations.",
+      "table": [
+        "PersonaYoutubeProfile"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Combine results to find companies meeting both criteria.",
+      "table": []
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "question": "What persona analyses uncover trends discussed regarding blockchain developments on YouTube?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify YouTube posts discussing blockchain developments.",
+      "table": [
+        "CompanyManagementDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Determine personas involved in these discussions.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze trends discussed by these personas.",
+      "table": [
+        "IndustryBusinessTrend"
+      ]
+    }
+  ]
+}

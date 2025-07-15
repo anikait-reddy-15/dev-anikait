@@ -1,0 +1,26 @@
+{
+  "question": "Which enterprises have increased their cloud service reliance while committing to zero-carbon goals?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify enterprises increasing cloud service reliance from the SectionTitle table.",
+      "table": [
+        "SectionTitle"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract zero-carbon goal commitments from the CompanyHiringDetail table.",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the relationship between cloud services and zero-carbon goals using data from the CompanyFacebookDetail table.",
+      "table": [
+        "CompanyFacebookDetail"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "question": "How does the increasing demand for renewable technologies shape IT partner selections in energy firms?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify the demand for renewable technologies.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract data on IT partner selections in energy firms.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze how demand influences partner selections.",
+      "table": [
+        "CompanyInfo"
+      ]
+    }
+  ]
+}

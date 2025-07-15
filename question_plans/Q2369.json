@@ -1,0 +1,26 @@
+{
+  "question": "What actionable insights have companies shared regarding their strategic vision on increasing cloud security measures noted in management details?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies focusing on cloud security measures.",
+      "table": [
+        "CompanyDealMaster"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract management details related to these companies.",
+      "table": [
+        "SectionInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze actionable insights shared by these companies regarding their strategic vision.",
+      "table": [
+        "SectionTitle"
+      ]
+    }
+  ]
+}

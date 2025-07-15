@@ -1,6 +1,5 @@
 {
   "question": "How do recent changes in a company's IT workforce affect their technology investment strategies?",
-  "tables": ["CompanyHiringDetail", "CompanyTechStack"],
   "subtasks": [
     {
       "step": 1,

@@ -1,0 +1,24 @@
+{
+  "question": "What notable activities are companies employing to increase their social media footprint coinciding with new marketing technology stack updates?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies updating their marketing technology stack.",
+      "table": [
+        "CompanyDataCenter"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Identify activities employed to increase social media footprint.",
+      "table": [
+        "SectionInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Combine results to find notable activities of companies meeting both criteria.",
+      "table": []
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "question": "How are the emerging data governance strategies impacting mid-sized companies?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify mid-sized companies from the CompanyITPartnerDetail table.",
+      "table": [
+        "CompanyITPartnerDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract data governance strategies from the CompanyITPartnerDetail table.",
+      "table": [
+        "CompanyITPartnerDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the impact of these strategies on mid-sized companies.",
+      "table": [
+        "CompanyITPartnerDetail"
+      ]
+    }
+  ]
+}

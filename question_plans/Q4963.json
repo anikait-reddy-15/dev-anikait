@@ -1,0 +1,26 @@
+{
+  "question": "Are enterprise resource planning solutions aligned with broader business transformation strategies?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify enterprise resource planning (ERP) solutions mentioned.",
+      "table": [
+        "CompanyDataCenter"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract information on broader business transformation strategies.",
+      "table": [
+        "SectionTitle"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Determine alignment between ERP solutions and business transformation strategies.",
+      "table": [
+        "CompanyDataCenter"
+      ]
+    }
+  ]
+}

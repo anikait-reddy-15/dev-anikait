@@ -1,0 +1,26 @@
+{
+  "question": "Which health organizations prominently feature innovative medical devices in their YouTube health education videos?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify health organizations that produce YouTube health education videos.",
+      "table": [
+        "PersonaTitle"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract mentions of innovative medical devices in these videos.",
+      "table": [
+        "PersonaLinkedinPost"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Determine which organizations prominently feature these devices.",
+      "table": [
+        "IndustryBusinessTrend"
+      ]
+    }
+  ]
+}

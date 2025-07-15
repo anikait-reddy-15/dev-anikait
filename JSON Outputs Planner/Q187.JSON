@@ -1,6 +1,5 @@
 {
   "question": "Which companies have recently hired Data Scientists and are investing in artificial intelligence technologies as part of their IT strategy?",
-  "tables": ["CompanyHiringDetail", "CompanyTechStack"],
   "subtasks": [
     {
       "step": 1,

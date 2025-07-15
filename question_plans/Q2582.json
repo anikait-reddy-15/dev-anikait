@@ -1,0 +1,26 @@
+{
+  "question": "Which sectors saw a strategic method toward cloud thriving amid evolving technological narratives on YouTube?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Extract technological narratives related to cloud from the PersonaYoutubeProfile table.",
+      "table": [
+        "PersonaYoutubeProfile"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Identify sectors mentioned in these narratives.",
+      "table": [
+        "PersonaYoutubeProfile"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the strategic methods employed by these sectors toward cloud thriving.",
+      "table": [
+        "PersonaYoutubeProfile"
+      ]
+    }
+  ]
+}

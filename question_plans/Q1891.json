@@ -1,0 +1,26 @@
+{
+  "question": "Analyze AI-centric project narratives that have gained momentum due to recent leadership discourses.",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify AI-centric project narratives.",
+      "table": [
+        "IndustryBusinessTrend"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Identify recent leadership discourses related to these projects.",
+      "table": [
+        "IndustryBusinessTrend"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze how these narratives have gained momentum due to leadership discourses.",
+      "table": [
+        "IndustryBusinessTrend"
+      ]
+    }
+  ]
+}

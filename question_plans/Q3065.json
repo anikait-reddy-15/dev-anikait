@@ -1,0 +1,26 @@
+{
+  "question": "How are supply chain innovations influencing competitive benchmarks within industry sectors?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Extract mentions of supply chain innovations from company details.",
+      "table": [
+        "CompanyManagementDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Identify competitive benchmarks mentioned in the context of industry sectors.",
+      "table": [
+        "CompanyManagementDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the influence of supply chain innovations on competitive benchmarks.",
+      "table": [
+        "CompanyManagementDetail"
+      ]
+    }
+  ]
+}

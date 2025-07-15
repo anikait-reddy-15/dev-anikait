@@ -1,0 +1,26 @@
+{
+  "question": "Which companies have extended their IT partnerships for AI projects and what are their leaders publicly discussing now?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies that have extended IT partnerships for AI projects.",
+      "table": [
+        "CompanyVendorTechDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract current public discussions by leaders of these companies.",
+      "table": [
+        "CompanyVendorTechDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "List companies, their extended partnerships, and leaders' discussions.",
+      "table": [
+        "CompanyVendorTechDetail"
+      ]
+    }
+  ]
+}

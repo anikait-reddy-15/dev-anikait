@@ -1,0 +1,24 @@
+{
+  "question": "Which technology stacks are most common among recently funded startups in the tech sector?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify recently funded startups in the tech sector.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Determine the technology stacks used by these startups.",
+      "table": [
+        "IndustryBusinessTrend"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "List the most common technology stacks among these startups.",
+      "table": []
+    }
+  ]
+}

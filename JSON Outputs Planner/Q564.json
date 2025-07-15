@@ -1,21 +1,26 @@
 {
   "question": "How have leadership changes impacted the technology strategies at companies that focus on digital transformation?",
-  "tables": ["CompanyManagementDetail", "CompanyTechStack", "CompanyFocusAreaDetail"],
   "subtasks": [
     {
       "step": 1,
       "task": "Identify companies focusing on digital transformation. [CompanyFocusAreaDetail]",
-      "table": ["CompanyFocusAreaDetail"]
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
     },
     {
       "step": 2,
       "task": "Extract leadership changes at these companies. [CompanyManagementDetail]",
-      "table": ["CompanyManagementDetail"]
+      "table": [
+        "CompanyManagementDetail"
+      ]
     },
     {
       "step": 3,
       "task": "Analyze how these leadership changes have influenced technology strategies. [CompanyTechStack]",
-      "table": ["CompanyTechStack"]
+      "table": [
+        "CompanyTechStack"
+      ]
     }
   ]
 }

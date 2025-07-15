@@ -1,6 +1,5 @@
 {
   "question": "How does reflecting on past technology investments influence future hiring patterns in data-centric companies?",
-  "tables": ["CompanyHiringDetail", "CompanyTechStack"],
   "subtasks": [
     {
       "step": 1,

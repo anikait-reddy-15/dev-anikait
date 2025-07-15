@@ -1,0 +1,27 @@
+{
+  "question": "Which companies involved in AI and machine learning have expanded their IT teams significantly?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies involved in AI and machine learning from the CompanyVendorProductDetail table.",
+      "table": [
+        "CompanyVendorProductDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract data on IT team expansions from the PersonaMisc table.",
+      "table": [
+        "PersonaMisc"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Match AI/ML involved companies with significant IT team expansions.",
+      "table": [
+        "CompanyVendorProductDetail",
+        "PersonaMisc"
+      ]
+    }
+  ]
+}

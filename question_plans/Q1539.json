@@ -1,0 +1,26 @@
+{
+  "question": "What are the new hiring patterns in firms that have publicly challenged traditional IT infrastructure paradigms?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify firms that have publicly challenged traditional IT infrastructure paradigms.",
+      "table": [
+        "SectionTitle"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Analyze new hiring patterns in these firms.",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Summarize the new hiring patterns identified in step 2.",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    }
+  ]
+}

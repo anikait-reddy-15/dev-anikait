@@ -1,0 +1,26 @@
+{
+  "question": "How do company analyses reflect changes in their social media marketing strategies after AI initiative deployments?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies with AI initiative deployments.",
+      "table": [
+        "CompanyDealMaster"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract analyses related to these companies' social media marketing strategies.",
+      "table": [
+        "SectionInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Determine changes in social media marketing strategies post AI deployments.",
+      "table": [
+        "SectionTitle"
+      ]
+    }
+  ]
+}

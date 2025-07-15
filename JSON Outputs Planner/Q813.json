@@ -1,21 +1,27 @@
 {
   "question": "Which manufacturing firms have deployed AI for predictive maintenance on the factory floor?",
-  "tables": ["CompanyFocusAreaDetail", "CompanyInfo"],
   "subtasks": [
     {
       "step": 1,
       "task": "Identify manufacturing firms.",
-      "table": ["CompanyInfo"]
+      "table": [
+        "CompanyInfo"
+      ]
     },
     {
       "step": 2,
       "task": "Find those using AI for predictive maintenance.",
-      "table": ["CompanyFocusAreaDetail"]
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
     },
     {
       "step": 3,
       "task": "Match firms to deployment scenarios.",
-      "table": ["CompanyInfo", "CompanyFocusAreaDetail"]
+      "table": [
+        "CompanyInfo",
+        "CompanyFocusAreaDetail"
+      ]
     }
   ]
 }

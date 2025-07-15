@@ -1,0 +1,26 @@
+{
+  "question": "Which companies prioritized digital health technologies resulting in prominent increases in LinkedIn staffing solutions advertising?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies prioritizing digital health technologies.",
+      "table": [
+        "SectionInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Find increases in LinkedIn staffing solutions advertising.",
+      "table": [
+        "PersonaYoutubeProfile"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Correlate digital health focus with LinkedIn advertising increases.",
+      "table": [
+        "CompanyDataCenter"
+      ]
+    }
+  ]
+}

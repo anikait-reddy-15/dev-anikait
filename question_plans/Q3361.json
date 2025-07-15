@@ -1,0 +1,27 @@
+{
+  "question": "What technology partnerships are flourishing in response to the demand for enhanced consumer experiences?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify partnerships related to technology from the CompanyVendorProductDetail table.",
+      "table": [
+        "CompanyVendorProductDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Filter trends related to enhanced consumer experiences from the IndustryITTrend table.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Correlate technology partnerships with trends in consumer experiences to identify flourishing partnerships.",
+      "table": [
+        "CompanyVendorProductDetail",
+        "IndustryITTrend"
+      ]
+    }
+  ]
+}

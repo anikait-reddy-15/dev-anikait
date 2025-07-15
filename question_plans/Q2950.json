@@ -1,0 +1,26 @@
+{
+  "question": "What are the most common technology solutions adopted by startups pivoting towards AI?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify startups pivoting towards AI from the CompanyTechStack table.",
+      "table": [
+        "CompanyTechStack"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract technology solutions adopted by these startups.",
+      "table": [
+        "CompanyTechStack"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Determine the most common technology solutions among these startups.",
+      "table": [
+        "CompanyTechStack"
+      ]
+    }
+  ]
+}

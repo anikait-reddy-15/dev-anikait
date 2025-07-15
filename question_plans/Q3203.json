@@ -1,0 +1,24 @@
+{
+  "question": "What healthcare industry companies have tweeted about blockchain in their Twitter detail?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify healthcare industry companies.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Find tweets about blockchain from these companies.",
+      "table": [
+        "CompanyManagementDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "List healthcare companies that have tweeted about blockchain.",
+      "table": []
+    }
+  ]
+}

@@ -1,21 +1,27 @@
 {
   "question": "Which companies with a strong presence on Instagram have also reported a rise in hiring data analytics roles in the last six months?",
-  "tables": ["CompanyInstagramDetail", "CompanyHiringDetail"],
   "subtasks": [
     {
       "step": 1,
       "task": "Identify companies with a strong presence on Instagram.",
-      "table": ["CompanyInstagramDetail"]
+      "table": [
+        "CompanyInstagramDetail"
+      ]
     },
     {
       "step": 2,
       "task": "Filter companies that have reported a rise in hiring data analytics roles in the last six months.",
-      "table": ["CompanyHiringDetail"]
+      "table": [
+        "CompanyHiringDetail"
+      ]
     },
     {
       "step": 3,
       "task": "Combine the results to find companies that meet both criteria.",
-      "table": ["CompanyInstagramDetail", "CompanyHiringDetail"]
+      "table": [
+        "CompanyInstagramDetail",
+        "CompanyHiringDetail"
+      ]
     }
   ]
 }

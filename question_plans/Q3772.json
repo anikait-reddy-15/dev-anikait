@@ -1,0 +1,27 @@
+{
+  "question": "How do company tech stack adjustments reflect ongoing changes in leadership and management in large enterprises?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify tech stack adjustments from the IndustryITTrend table.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract leadership and management changes from the PersonaUser table.",
+      "table": [
+        "PersonaUser"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the reflection of tech stack adjustments on these changes.",
+      "table": [
+        "IndustryITTrend",
+        "PersonaUser"
+      ]
+    }
+  ]
+}

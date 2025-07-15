@@ -1,0 +1,26 @@
+{
+  "question": "How are new hiring policies influencing the competitive edge of cybersecurity firms?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify new hiring policies from the PersonaUser table.",
+      "table": [
+        "PersonaUser"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Find cybersecurity firms from the PersonaUser table.",
+      "table": [
+        "PersonaUser"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the influence of these hiring policies on the competitive edge of these firms.",
+      "table": [
+        "PersonaUser"
+      ]
+    }
+  ]
+}

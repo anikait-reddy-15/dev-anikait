@@ -1,0 +1,26 @@
+{
+  "question": "Which firms have leaders that regularly discuss data analytics on their personal Twitter or LinkedIn profiles?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify leaders who regularly discuss data analytics.",
+      "table": [
+        "PersonaLinkedInProfile"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Verify these discussions occur on personal Twitter or LinkedIn profiles.",
+      "table": [
+        "PersonaLinkedInProfile"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "List firms associated with these leaders.",
+      "table": [
+        "CompanyDataCenter"
+      ]
+    }
+  ]
+}

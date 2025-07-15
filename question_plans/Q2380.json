@@ -1,0 +1,26 @@
+{
+  "question": "What emerging technologies are being driven by retroactively evaluating personas linked to voice-assisted platforms?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify personas linked to voice-assisted platforms.",
+      "table": [
+        "SectionInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract emerging technologies related to these personas.",
+      "table": [
+        "SectionTitle"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze how these technologies are driven by evaluating these personas.",
+      "table": [
+        "CompanyDealMaster"
+      ]
+    }
+  ]
+}

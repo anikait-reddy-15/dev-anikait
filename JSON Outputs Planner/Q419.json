@@ -1,21 +1,27 @@
 {
   "question": "What are the most prevalent focus areas for companies that actively engage with their audience through Instagram posts about data privacy?",
-  "tables": ["CompanyFocusAreaDetail", "PersonaInstagramProfile"],
   "subtasks": [
     {
       "step": 1,
       "task": "Identify companies that actively engage with their audience through Instagram posts related to data privacy. [PersonaInstagramProfile]",
-      "table": ["PersonaInstagramProfile"]
+      "table": [
+        "PersonaInstagramProfile"
+      ]
     },
     {
       "step": 2,
       "task": "Gather focus area details for the identified companies. [CompanyFocusAreaDetail]",
-      "table": ["CompanyFocusAreaDetail"]
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
     },
     {
       "step": 3,
       "task": "Analyze the focus areas to determine the most prevalent ones. [CompanyFocusAreaDetail, PersonaInstagramProfile]",
-      "table": ["CompanyFocusAreaDetail", "PersonaInstagramProfile"]
+      "table": [
+        "CompanyFocusAreaDetail",
+        "PersonaInstagramProfile"
+      ]
     }
   ]
 }

@@ -1,0 +1,26 @@
+{
+  "question": "How do Twitter campaigns exemplify brands\u2019 commitments to tech investments?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Extract Twitter campaign data related to tech investments.",
+      "table": [
+        "PersonaTitle"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Analyze the content of these campaigns to identify themes of commitment to tech investments.",
+      "table": [
+        "PersonaTitle"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Correlate these themes with specific brands to exemplify their commitments.",
+      "table": [
+        "CompanyDataCenter"
+      ]
+    }
+  ]
+}

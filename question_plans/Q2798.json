@@ -1,0 +1,26 @@
+{
+  "question": "Determine the strategic roles of universities in fostering agile technologies through anonymous surveys.",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify universities involved in fostering agile technologies.",
+      "table": [
+        "PersonaUser"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract data from anonymous surveys related to agile technologies.",
+      "table": [
+        "CompanyTwitterDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the strategic roles of universities.",
+      "table": [
+        "CompanyTwitterDetail"
+      ]
+    }
+  ]
+}

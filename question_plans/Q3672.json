@@ -1,0 +1,27 @@
+{
+  "question": "What percentage of companies demonstrate a coherence of IT expansion and the engagement of sustainability-focused thought leaders?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies with IT expansion.",
+      "table": [
+        "IndustryBusinessTrend"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Find companies engaged with sustainability-focused thought leaders.",
+      "table": [
+        "PersonaTitle"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Calculate the percentage of companies demonstrating both IT expansion and sustainability engagement.",
+      "table": [
+        "PersonaTitle",
+        "IndustryBusinessTrend"
+      ]
+    }
+  ]
+}

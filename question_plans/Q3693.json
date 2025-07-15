@@ -1,0 +1,26 @@
+{
+  "question": "Identify firms trading on recent technology stacks having an eminent negotiation of vendor supply transformation.",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify recent technology stacks.",
+      "table": [
+        "IndustryBusinessTrend"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Find firms involved in vendor supply transformation negotiations.",
+      "table": [
+        "IndustryBusinessTrend"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Determine which firms are trading on these technology stacks.",
+      "table": [
+        "IndustryBusinessTrend"
+      ]
+    }
+  ]
+}

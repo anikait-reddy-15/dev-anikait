@@ -1,0 +1,26 @@
+{
+  "question": "How are companies leveraging vendor tech to pivot towards consumer-centric business models?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies leveraging vendor technology.",
+      "table": [
+        "CompanyVendorProductDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Analyze how these companies are pivoting to consumer-centric models.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Summarize strategies for leveraging vendor tech in this pivot.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "question": "What entrepreneurial trends are impacting the deal activities of firms reinventing their digital commerce approaches?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify firms reinventing their digital commerce approaches.",
+      "table": [
+        "IndustryBusinessTrend"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract entrepreneurial trends impacting these firms.",
+      "table": [
+        "IndustryBusinessTrend"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the impact of these trends on deal activities.",
+      "table": [
+        "IndustryBusinessTrend"
+      ]
+    }
+  ]
+}

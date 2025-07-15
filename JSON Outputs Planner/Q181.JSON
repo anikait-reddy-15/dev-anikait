@@ -1,6 +1,5 @@
 {
   "question": "What types of technology investments are being discussed by personas who frequently engage with healthcare-related posts on social media?",
-  "tables": ["PersonaUser", "PersonaTwitterProfile", "CompanyTechStack"],
   "subtasks": [
     {
       "step": 1,

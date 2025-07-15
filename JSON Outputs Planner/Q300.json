@@ -1,21 +1,27 @@
 {
   "question": "Which personas have shared insights on emerging technologies in their LinkedIn posts while being affiliated with organizations that frequently sign deals with cloud providers?",
-  "tables": ["PersonaLinkedinPost", "PersonaUser", "CompanyDealMaster"],
   "subtasks": [
     {
       "step": 1,
       "task": "Identify LinkedIn posts that share insights on emerging technologies. [PersonaLinkedinPost]",
-      "table": ["PersonaLinkedinPost"]
+      "table": [
+        "PersonaLinkedinPost"
+      ]
     },
     {
       "step": 2,
       "task": "Find personas affiliated with organizations that frequently sign deals with cloud providers. [CompanyDealMaster, PersonaUser]",
-      "table": ["CompanyDealMaster", "PersonaUser"]
+      "table": [
+        "CompanyDealMaster",
+        "PersonaUser"
+      ]
     },
     {
       "step": 3,
       "task": "Match the personas with their LinkedIn posts to compile a list of relevant insights. [PersonaLinkedinPost]",
-      "table": ["PersonaLinkedinPost"]
+      "table": [
+        "PersonaLinkedinPost"
+      ]
     }
   ]
 }

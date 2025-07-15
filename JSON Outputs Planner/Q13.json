@@ -1,16 +1,19 @@
 {
   "question": "How is LPL Financial utilizing the Appway Platform to enhance customer onboarding processes?",
-  "tables": ["CompanyVendorProductDetail", "CompanyInfo"],
   "subtasks": [
     {
       "step": 1,
-      "task": "Get LPL Financial’s Company ID",
-      "table": ["CompanyVendorProductDetail"]
+      "task": "Get LPL Financial\u2019s Company ID",
+      "table": [
+        "CompanyVendorProductDetail"
+      ]
     },
     {
       "step": 2,
       "task": "Identify Appway Use by LPL Financial",
-      "table": ["CompanyInfo"]
+      "table": [
+        "CompanyInfo"
+      ]
     },
     {
       "step": 3,

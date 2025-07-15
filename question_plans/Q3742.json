@@ -1,0 +1,26 @@
+{
+  "question": "Which companies derive the most strategic value from their IT infrastructure expansions and vendor engagements?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies with recent IT infrastructure expansions.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Determine vendor engagements for these companies.",
+      "table": [
+        "PersonaUser"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Evaluate strategic value derived from these expansions and engagements.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    }
+  ]
+}

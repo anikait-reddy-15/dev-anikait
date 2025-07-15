@@ -1,0 +1,26 @@
+{
+  "question": "What industry advancements are noticeable in LinkedIn posts about virtual reality adoption?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify LinkedIn posts discussing virtual reality adoption.",
+      "table": [
+        "PageInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Analyze the content for industry advancements.",
+      "table": [
+        "PageInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Summarize noticeable advancements in these discussions.",
+      "table": [
+        "PageInfo"
+      ]
+    }
+  ]
+}

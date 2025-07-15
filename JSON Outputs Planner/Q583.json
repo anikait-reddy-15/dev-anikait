@@ -1,21 +1,27 @@
 {
   "question": "Who are the influential data science personas that have recently published articles on LinkedIn regarding data strategy shifts in their organizations?",
-  "tables": ["PersonaLinkedinPost", "PersonaUser"],
   "subtasks": [
     {
       "step": 1,
       "task": "Identify recent articles published on LinkedIn related to data strategy shifts from the PersonaLinkedinPost table. [PersonaLinkedinPost]",
-      "table": ["PersonaLinkedinPost"]
+      "table": [
+        "PersonaLinkedinPost"
+      ]
     },
     {
       "step": 2,
       "task": "Gather information about the authors of these articles from the PersonaUser table. [PersonaUser]",
-      "table": ["PersonaUser"]
+      "table": [
+        "PersonaUser"
+      ]
     },
     {
       "step": 3,
       "task": "Match the articles with their respective authors to identify influential personas. [PersonaLinkedinPost, PersonaUser]",
-      "table": ["PersonaLinkedinPost", "PersonaUser"]
+      "table": [
+        "PersonaLinkedinPost",
+        "PersonaUser"
+      ]
     }
   ]
 }

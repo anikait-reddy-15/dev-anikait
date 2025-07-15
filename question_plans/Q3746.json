@@ -1,0 +1,26 @@
+{
+  "question": "What IT trends align with the hiring influx in companies driving smart city initiatives?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies with a hiring influx related to smart city initiatives.",
+      "table": [
+        "PersonaUser"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract IT trends related to these companies.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze alignment between IT trends and hiring influx.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    }
+  ]
+}

@@ -1,21 +1,26 @@
 {
   "question": "Which companies have executives that frequently post about digital transformation on LinkedIn?",
-  "tables": ["PersonaLinkedinPost", "PersonaUser", "CompanyInfo"],
   "subtasks": [
     {
       "step": 1,
       "task": "Identify executives who frequently post about digital transformation on LinkedIn.",
-      "table": ["PersonaLinkedinPost"]
+      "table": [
+        "PersonaLinkedinPost"
+      ]
     },
     {
       "step": 2,
       "task": "Match these executives to their companies.",
-      "table": ["PersonaUser"]
+      "table": [
+        "PersonaUser"
+      ]
     },
     {
       "step": 3,
       "task": "List the companies of these executives.",
-      "table": ["CompanyInfo"]
+      "table": [
+        "CompanyInfo"
+      ]
     }
   ]
 }

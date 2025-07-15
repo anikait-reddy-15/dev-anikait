@@ -1,0 +1,26 @@
+{
+  "question": "Which personas mention key changes in cloud-first strategies within entrepreneurial LinkedIn posts?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify LinkedIn posts that mention cloud-first strategies.",
+      "table": [
+        "PersonaLinkedinPost"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Filter posts to those authored by personas with an entrepreneurial focus.",
+      "table": [
+        "PersonaTitle"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Extract key changes mentioned in these cloud-first strategy posts.",
+      "table": [
+        "PersonaLinkedinPost"
+      ]
+    }
+  ]
+}

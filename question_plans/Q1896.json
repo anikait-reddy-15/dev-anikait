@@ -1,0 +1,26 @@
+{
+  "question": "Which company sectors are integrating emergent tech as noted by updates on LinkedIn concerning venture deals?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify LinkedIn updates related to venture deals.",
+      "table": [
+        "SocialMediaInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract mentions of emergent tech integration in these updates.",
+      "table": [
+        "SocialMediaInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Determine which company sectors are noted for integrating emergent tech.",
+      "table": [
+        "SocialMediaInfo"
+      ]
+    }
+  ]
+}

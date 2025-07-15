@@ -1,0 +1,26 @@
+{
+  "question": "How do real-time analytics tools reshape product innovation within business environments?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Extract data on real-time analytics tools.",
+      "table": [
+        "CompanyVendorTechDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Identify references to product innovation within business environments.",
+      "table": [
+        "CompanyVendorTechDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the impact of analytics tools on reshaping product innovation.",
+      "table": [
+        "CompanyVendorTechDetail"
+      ]
+    }
+  ]
+}

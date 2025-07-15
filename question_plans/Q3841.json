@@ -1,0 +1,26 @@
+{
+  "question": "How common are IT partnership updates in organizations focused on supply chain innovations?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify organizations focused on supply chain innovations.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract IT partnership updates for these organizations.",
+      "table": [
+        "CompanyManagementDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Count the frequency of IT partnership updates.",
+      "table": [
+        "CompanyManagementDetail"
+      ]
+    }
+  ]
+}

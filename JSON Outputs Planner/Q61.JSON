@@ -1,6 +1,5 @@
 {
   "question": "Which companies are investing in AI while tracking industry technology trends?",
-  "tables": ["CompanyTechStack", "IndustryITTrend"],
   "subtasks": [
     {
       "step": 1,

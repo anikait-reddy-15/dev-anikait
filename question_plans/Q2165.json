@@ -1,0 +1,26 @@
+{
+  "question": "How have data science methodologies been detailed on professional YouTube channels?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Extract data science methodology details shared on professional YouTube channels.",
+      "table": [
+        "PersonaLinkedInProfile"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Analyze the content for trends and details about data science methodologies.",
+      "table": [
+        "PersonaLinkedInProfile"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Summarize findings on how data science methodologies are being detailed.",
+      "table": [
+        "PersonaLinkedInProfile"
+      ]
+    }
+  ]
+}

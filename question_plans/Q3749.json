@@ -1,0 +1,26 @@
+{
+  "question": "What strategic shifts in technology implementation can be inferred from data center enhancements among leading companies?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify leading companies with data center enhancements.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract technology implementation strategies of these companies.",
+      "table": [
+        "PersonaUser"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Infer strategic shifts from the data center enhancements.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    }
+  ]
+}

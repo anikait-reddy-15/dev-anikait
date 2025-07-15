@@ -1,0 +1,26 @@
+{
+  "question": "Identify the prominent platforms used by industry-leading companies for remote work solutions.",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "List industry-leading companies from the PersonaUser table.",
+      "table": [
+        "PersonaUser"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Identify mentions of remote work solutions in the SocialMediaInfo table.",
+      "table": [
+        "SocialMediaInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Extract platform names associated with remote work solutions.",
+      "table": [
+        "CompanyTwitterDetail"
+      ]
+    }
+  ]
+}

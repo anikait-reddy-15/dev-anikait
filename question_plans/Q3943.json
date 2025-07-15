@@ -1,0 +1,26 @@
+{
+  "question": "Which companies clearly emphasize data privacy in their strategic outlook, according to LinkedIn postings by executives?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Extract LinkedIn postings by executives.",
+      "table": [
+        "PersonaLinkedinPost"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Identify postings that emphasize data privacy.",
+      "table": [
+        "PersonaLinkedinPost"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "List companies associated with these postings.",
+      "table": [
+        "PersonaLinkedinPost"
+      ]
+    }
+  ]
+}

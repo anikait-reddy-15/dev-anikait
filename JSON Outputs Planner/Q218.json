@@ -1,21 +1,26 @@
 {
   "question": "What hiring trends have been observed in companies that are heavily investing in artificial intelligence technologies?",
-  "tables": ["CompanyHiringDetail", "CompanyTechStack"],
   "subtasks": [
     {
       "step": 1,
       "task": "Identify companies that are heavily investing in artificial intelligence technologies",
-      "table": ["CompanyTechStack"]
+      "table": [
+        "CompanyTechStack"
+      ]
     },
     {
       "step": 2,
       "task": "Gather recent hiring data from the identified companies",
-      "table": ["CompanyHiringDetail"]
+      "table": [
+        "CompanyHiringDetail"
+      ]
     },
     {
       "step": 3,
       "task": "Analyze the hiring data to identify trends specific to artificial intelligence roles",
-      "table": ["CompanyHiringDetail"]
+      "table": [
+        "CompanyHiringDetail"
+      ]
     }
   ]
 }

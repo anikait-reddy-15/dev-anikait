@@ -1,0 +1,24 @@
+{
+  "question": "At which companies has a substantial IT partner expansion been accompanied by increased focus on machine learning?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies with substantial IT partner expansion.",
+      "table": [
+        "PersonaLinkedinActivity"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Find companies with increased focus on machine learning.",
+      "table": [
+        "PersonaLinkedinActivity"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Determine companies meeting both criteria.",
+      "table": []
+    }
+  ]
+}

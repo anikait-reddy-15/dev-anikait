@@ -1,0 +1,26 @@
+{
+  "question": "What are the primary features of the best-performing technologies within smart home product ecosystems?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify technologies within smart home product ecosystems.",
+      "table": [
+        "CompanyTechStack"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Determine which of these technologies are best-performing.",
+      "table": [
+        "CompanyTechStack"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Extract and list the primary features of these best-performing technologies.",
+      "table": [
+        "CompanyTechStack"
+      ]
+    }
+  ]
+}

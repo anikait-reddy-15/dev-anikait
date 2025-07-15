@@ -1,21 +1,27 @@
 {
   "question": "What technologies are being integrated by companies that have appointed new Chief Data Officers in the past six months?",
-  "tables": ["CompanyManagementDetail", "CompanyTechStack"],
   "subtasks": [
     {
       "step": 1,
       "task": "Identify companies that have appointed new Chief Data Officers in the past six months.",
-      "table": ["CompanyManagementDetail"]
+      "table": [
+        "CompanyManagementDetail"
+      ]
     },
     {
       "step": 2,
       "task": "Extract the technologies being integrated by these companies.",
-      "table": ["CompanyTechStack"]
+      "table": [
+        "CompanyTechStack"
+      ]
     },
     {
       "step": 3,
       "task": "Match newly appointed CDO companies with their tech stack changes.",
-      "table": ["CompanyManagementDetail", "CompanyTechStack"]
+      "table": [
+        "CompanyManagementDetail",
+        "CompanyTechStack"
+      ]
     }
   ]
 }

@@ -1,0 +1,26 @@
+{
+  "question": "What strategic insights can be drawn from a persona's LinkedIn endorsement in the context of industry IT trends?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Extract LinkedIn endorsements for personas.",
+      "table": [
+        "CompanyVendorTechDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Analyze these endorsements in the context of industry IT trends.",
+      "table": [
+        "IndustryBusinessTrend"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Derive strategic insights from the correlation of endorsements and IT trends.",
+      "table": [
+        "CompanyTechStack"
+      ]
+    }
+  ]
+}

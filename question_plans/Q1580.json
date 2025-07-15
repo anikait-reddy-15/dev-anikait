@@ -1,0 +1,26 @@
+{
+  "question": "Which companies have a strong digital foresight as evident in their leadership addresses on e-commerce diversification?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies focusing on e-commerce diversification.",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Analyze leadership addresses related to e-commerce diversification.",
+      "table": [
+        "SectionTitle"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Determine companies with strong digital foresight.",
+      "table": [
+        "SectionTitle"
+      ]
+    }
+  ]
+}

@@ -1,21 +1,28 @@
 {
   "question": "Which companies have signed vendor deals involving DevOps platforms and have publicly committed to agile transformation?",
-  "tables": ["CompanyVendorTechDetail", "CompanyDealMaster", "CompanyLeadershipExcerpt"],
   "subtasks": [
     {
       "step": 1,
       "task": "Identify vendor deals involving DevOps platforms. [CompanyVendorTechDetail, CompanyDealMaster]",
-      "table": ["CompanyVendorTechDetail", "CompanyDealMaster"]
+      "table": [
+        "CompanyVendorTechDetail",
+        "CompanyDealMaster"
+      ]
     },
     {
       "step": 2,
       "task": "Find public statements or excerpts discussing agile transformation. [CompanyLeadershipExcerpt]",
-      "table": ["CompanyLeadershipExcerpt"]
+      "table": [
+        "CompanyLeadershipExcerpt"
+      ]
     },
     {
       "step": 3,
       "task": "Find companies involved in both DevOps deals and agile transformation. [CompanyVendorTechDetail, CompanyLeadershipExcerpt]",
-      "table": ["CompanyVendorTechDetail", "CompanyLeadershipExcerpt"]
+      "table": [
+        "CompanyVendorTechDetail",
+        "CompanyLeadershipExcerpt"
+      ]
     }
   ]
 }

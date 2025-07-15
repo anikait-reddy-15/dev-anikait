@@ -1,0 +1,24 @@
+{
+  "question": "Which businesses have shown a strong increase in deal-making activities while expanding their IT infrastructure?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify businesses with a strong increase in deal-making activities.",
+      "table": [
+        "CompanyYoutubeDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Identify businesses expanding their IT infrastructure.",
+      "table": [
+        "CompanyYoutubeDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Combine results to find businesses meeting both criteria.",
+      "table": []
+    }
+  ]
+}

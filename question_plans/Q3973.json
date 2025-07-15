@@ -1,0 +1,26 @@
+{
+  "question": "How has the role of the data scientist evolved according to hiring requirements seen in recent job postings?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify recent job postings for data scientists.",
+      "table": [
+        "PersonaTitle"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract hiring requirements from these job postings.",
+      "table": [
+        "PersonaLinkedinPost"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the evolution of the data scientist role based on these requirements.",
+      "table": [
+        "IndustryBusinessTrend"
+      ]
+    }
+  ]
+}

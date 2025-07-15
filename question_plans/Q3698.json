@@ -1,0 +1,26 @@
+{
+  "question": "Determine significant partnership alignments in tech services resulting from social media strategy adjustments.",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify social media strategy adjustments.",
+      "table": [
+        "PersonaYoutubeProfile"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Find tech services partnerships resulting from these adjustments.",
+      "table": [
+        "IndustryBusinessTrend"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Determine significant partnership alignments.",
+      "table": [
+        "IndustryBusinessTrend"
+      ]
+    }
+  ]
+}

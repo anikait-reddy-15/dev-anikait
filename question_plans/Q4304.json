@@ -1,0 +1,27 @@
+{
+  "question": "Which companies have increased their focus on cybersecurity in their strategic goals after a major leadership restructuring?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies with major leadership restructuring from the CompanyDealMaster table.",
+      "table": [
+        "CompanyDealMaster"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract strategic goals related to cybersecurity focus.",
+      "table": [
+        "CompanyITPartnerDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Find companies that have increased cybersecurity focus after restructuring.",
+      "table": [
+        "CompanyDealMaster",
+        "CompanyITPartnerDetail"
+      ]
+    }
+  ]
+}

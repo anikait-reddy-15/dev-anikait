@@ -1,0 +1,24 @@
+{
+  "question": "How do focus area adjustments match up with the promotion of new IT roles in small to mid-sized companies?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify focus area adjustments in small to mid-sized companies.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Find promotions of new IT roles in these companies.",
+      "table": [
+        "CompanyManagementDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the correlation between focus area adjustments and IT role promotions.",
+      "table": []
+    }
+  ]
+}

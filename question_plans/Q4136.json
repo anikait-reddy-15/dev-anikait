@@ -1,0 +1,26 @@
+{
+  "question": "How do recent LinkedIn posts reflect the evolving role of AI in education technology companies?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify education technology companies.",
+      "table": [
+        "CompanyITPartnerDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Collect recent LinkedIn posts from these companies.",
+      "table": [
+        "SocialMediaInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze posts to reflect the evolving role of AI.",
+      "table": [
+        "SocialMediaInfo"
+      ]
+    }
+  ]
+}

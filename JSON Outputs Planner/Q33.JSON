@@ -1,6 +1,5 @@
 {
   "question": "Which vendors are supplying scheduling solutions to LPL Financial?",
-  "tables": ["CompanyVendorProductDetail", "CompanyInfo"],
   "subtasks": [
     {
       "step": 1,

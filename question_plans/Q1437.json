@@ -1,0 +1,26 @@
+{
+  "question": "Which tech stacks are implemented by companies with leadership excerpts focused on agile methodologies?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies with leadership excerpts focused on agile methodologies.",
+      "table": [
+        "PersonaMisc"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract tech stacks implemented by these companies.",
+      "table": [
+        "PersonaMisc"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "List the tech stacks used by these companies.",
+      "table": [
+        "PersonaMisc"
+      ]
+    }
+  ]
+}

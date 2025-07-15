@@ -1,0 +1,26 @@
+{
+  "question": "How are digital twins reshaping the innovation strategies in manufacturing enterprises?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify manufacturing enterprises using digital twins.",
+      "table": [
+        "CompanyManagementDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Examine innovation strategies in these enterprises.",
+      "table": [
+        "SectionInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the impact of digital twins on innovation strategies.",
+      "table": [
+        "PersonaMisc"
+      ]
+    }
+  ]
+}

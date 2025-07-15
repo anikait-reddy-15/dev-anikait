@@ -1,0 +1,26 @@
+{
+  "question": "Which firms have advanced their customer relationship management systems while increasing their focus on customer-centric business strategies?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify firms with advancements in customer relationship management systems.",
+      "table": [
+        "SectionData"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Identify firms focusing on customer-centric business strategies.",
+      "table": [
+        "SectionData"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Find firms that meet both criteria.",
+      "table": [
+        "SectionData"
+      ]
+    }
+  ]
+}

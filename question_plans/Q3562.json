@@ -1,0 +1,26 @@
+{
+  "question": "What are measurable outcomes for firms publishing sustainability narratives on their platforms?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Extract firms that publish sustainability narratives from the CompanyManagementDetail table.",
+      "table": [
+        "CompanyManagementDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Identify the platforms used for publishing these narratives.",
+      "table": [
+        "SectionInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Determine measurable outcomes related to these narratives.",
+      "table": [
+        "PersonaMisc"
+      ]
+    }
+  ]
+}

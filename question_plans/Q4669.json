@@ -1,0 +1,26 @@
+{
+  "question": "How are agile methodologies transforming project management in IT departments?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify IT departments using agile methodologies",
+      "table": [
+        "CompanyITPartnerDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Evaluate changes in project management processes",
+      "table": [
+        "CompanyITPartnerDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Assess the impact of these changes on project outcomes",
+      "table": [
+        "CompanyITPartnerDetail"
+      ]
+    }
+  ]
+}

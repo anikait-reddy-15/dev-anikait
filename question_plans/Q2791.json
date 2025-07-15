@@ -1,0 +1,26 @@
+{
+  "question": "Examine the nuances of supply chain tech solutions shared in corporate earnings reports.",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies discussing supply chain tech solutions.",
+      "table": [
+        "CompanyTwitterDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract details from corporate earnings reports.",
+      "table": [
+        "PersonaUser"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the nuances of the tech solutions shared.",
+      "table": [
+        "PersonaUser"
+      ]
+    }
+  ]
+}

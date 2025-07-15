@@ -1,0 +1,26 @@
+{
+  "question": "What are the strategic areas of focus for companies with an increased investment in AI research?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies with increased investment in AI research.",
+      "table": [
+        "CompanyTechStack"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract strategic areas of focus for these companies.",
+      "table": [
+        "CompanyTechStack"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze and list the strategic areas of focus.",
+      "table": [
+        "CompanyTechStack"
+      ]
+    }
+  ]
+}

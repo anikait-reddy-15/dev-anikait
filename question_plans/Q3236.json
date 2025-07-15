@@ -1,0 +1,26 @@
+{
+  "question": "What firms have historically upgraded their IT partners right before major product launches?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify firms with major product launches.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract historical data on IT partner upgrades.",
+      "table": [
+        "IndustryBusinessTrend"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Match firms with IT upgrades preceding product launches.",
+      "table": [
+        "CompanyManagementDetail"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "question": "How have recent IT investments affected strategic priorities within the automotive industry?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify recent IT investments made by companies in the automotive industry from the CompanyTechStack table.",
+      "table": [
+        "CompanyTechStack"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract strategic priorities for these companies from the CompanyTechStack table.",
+      "table": [
+        "CompanyTechStack"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the relationship between IT investments and changes in strategic priorities.",
+      "table": [
+        "CompanyTechStack"
+      ]
+    }
+  ]
+}

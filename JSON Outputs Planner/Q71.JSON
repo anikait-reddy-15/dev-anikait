@@ -1,6 +1,5 @@
 {
   "question": "What LinkedIn posts do LPL Financial executives share regarding their technology initiatives?",
-  "tables": ["SectionData", "PersonaLinkedinActivity"],
   "subtasks": [
     {
       "step": 1,

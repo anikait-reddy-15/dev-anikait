@@ -1,0 +1,26 @@
+{
+  "question": "What announcements on hiring patterns identify technology-driven updates for social media profiles?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify announcements related to hiring patterns.",
+      "table": [
+        "SocialMediaInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract technology-driven updates from these announcements.",
+      "table": [
+        "PersonaTwitterProfile"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Determine how these updates are reflected in social media profiles.",
+      "table": [
+        "CompanyTwitterDetail"
+      ]
+    }
+  ]
+}

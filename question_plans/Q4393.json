@@ -1,0 +1,27 @@
+{
+  "question": "How are vendor product revelations impacting technological diversification strategies of top companies?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify vendor product revelations.",
+      "table": [
+        "CompanyDealMaster"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract technological diversification strategies of top companies.",
+      "table": [
+        "SectionInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the impact of vendor product revelations on diversification strategies.",
+      "table": [
+        "CompanyDealMaster",
+        "SectionInfo"
+      ]
+    }
+  ]
+}

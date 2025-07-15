@@ -1,0 +1,26 @@
+{
+  "question": "Have shifts in IT budgeting reflected in educational service vendors dealing with more personalized content?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify shifts in IT budgeting within educational service vendors.",
+      "table": [
+        "CompanyDataCenter"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract information on personalized content offerings by these vendors.",
+      "table": [
+        "SectionTitle"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the reflection of IT budgeting shifts in personalized content offerings.",
+      "table": [
+        "SectionTitle"
+      ]
+    }
+  ]
+}

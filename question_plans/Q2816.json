@@ -1,0 +1,27 @@
+{
+  "question": "Among leaders discussing blockchain's influence in their speeches, which are associated with enterprises that have initiated blockchain projects?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify leaders discussing blockchain in their speeches.",
+      "table": [
+        "SectionData"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Identify enterprises that have initiated blockchain projects.",
+      "table": [
+        "CompanyVendorProductDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Match leaders with enterprises that have initiated blockchain projects.",
+      "table": [
+        "SectionData",
+        "CompanyVendorProductDetail"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "question": "Which financial institutions have improved their IT resilience by incorporating blockchain tech vendors?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify financial institutions from the SectionTitle table.",
+      "table": [
+        "SectionTitle"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract data on IT resilience improvements from the CompanyHiringDetail table.",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Find blockchain tech vendor incorporation details from the CompanyFacebookDetail table.",
+      "table": [
+        "CompanyFacebookDetail"
+      ]
+    }
+  ]
+}

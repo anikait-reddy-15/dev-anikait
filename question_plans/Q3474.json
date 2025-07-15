@@ -1,0 +1,26 @@
+{
+  "question": "How are companies differentiating themselves through key market position statements in tandem with new IT hiring surges?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify key market position statements.",
+      "table": [
+        "SectionInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Find evidence of new IT hiring surges.",
+      "table": [
+        "CompanyDataCenter"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze how these statements correlate with IT hiring.",
+      "table": [
+        "SectionTitle"
+      ]
+    }
+  ]
+}

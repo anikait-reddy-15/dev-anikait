@@ -1,0 +1,26 @@
+{
+  "question": "Identify the company sectors most vocal on Twitter about tech ecosystem changes.",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Extract Twitter posts related to tech ecosystem changes.",
+      "table": [
+        "CompanyTwitterDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Identify the company sectors associated with these Twitter posts.",
+      "table": [
+        "CompanyTwitterDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Aggregate and rank sectors based on the volume of relevant Twitter posts.",
+      "table": [
+        "CompanyTwitterDetail"
+      ]
+    }
+  ]
+}

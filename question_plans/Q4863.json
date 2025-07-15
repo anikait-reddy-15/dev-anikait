@@ -1,0 +1,27 @@
+{
+  "question": "What are the key differentiators for companies enhancing their mobile-first digital strategies?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies focusing on mobile-first digital strategies.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract key differentiators for these companies.",
+      "table": [
+        "SectionTitle"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Compile a list of key differentiators for mobile-first strategies.",
+      "table": [
+        "CompanyFocusAreaDetail",
+        "SectionTitle"
+      ]
+    }
+  ]
+}

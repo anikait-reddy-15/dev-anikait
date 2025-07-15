@@ -1,21 +1,26 @@
 {
   "question": "Who are the influential leaders at companies that have publicly committed to reducing their tech debt through new hiring practices?",
-  "tables": ["CompanyHiringDetail", "CompanyLeadershipExcerpt"],
   "subtasks": [
     {
       "step": 1,
       "task": "Identify companies that have publicly committed to reducing tech debt",
-      "table": ["CompanyLeadershipExcerpt"]
+      "table": [
+        "CompanyLeadershipExcerpt"
+      ]
     },
     {
       "step": 2,
       "task": "Gather leadership excerpts from these companies",
-      "table": ["CompanyLeadershipExcerpt"]
+      "table": [
+        "CompanyLeadershipExcerpt"
+      ]
     },
     {
       "step": 3,
       "task": "Identify influential leaders from the gathered excerpts",
-      "table": ["CompanyLeadershipExcerpt"]
+      "table": [
+        "CompanyLeadershipExcerpt"
+      ]
     }
   ]
 }

@@ -1,0 +1,24 @@
+{
+  "question": "Which tech stacks are defined by their integration into business intelligence solutions?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify tech stacks used by companies.",
+      "table": [
+        "CompanyVendorProductDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Find mentions of integration into business intelligence solutions.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "List tech stacks defined by their integration into business intelligence solutions.",
+      "table": []
+    }
+  ]
+}

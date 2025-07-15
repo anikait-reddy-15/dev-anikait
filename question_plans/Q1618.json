@@ -1,0 +1,26 @@
+{
+  "question": "Which companies have adjusted their strategic focus post receiving significant venture capital funding for AI innovations?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies that received significant venture capital funding for AI innovations.",
+      "table": [
+        "PersonaTitle"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract information on strategic focus adjustments of these companies.",
+      "table": [
+        "PersonaTitle"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Determine how these companies have adjusted their strategic focus.",
+      "table": [
+        "PersonaTitle"
+      ]
+    }
+  ]
+}

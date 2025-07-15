@@ -1,0 +1,26 @@
+{
+  "question": "Which technology vendors are predominantly supplying to companies increasing their remote work infrastructure?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies increasing their remote work infrastructure.",
+      "table": [
+        "PersonaMisc"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Find technology vendors supplying to these companies.",
+      "table": [
+        "PersonaMisc"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Compile a list of predominant technology vendors.",
+      "table": [
+        "PersonaMisc"
+      ]
+    }
+  ]
+}

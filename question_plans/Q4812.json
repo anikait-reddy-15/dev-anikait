@@ -1,0 +1,27 @@
+{
+  "question": "Which firms' latest hires are focused on machine learning roles and use AWS infrastructure?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify firms with latest hires focused on machine learning roles.",
+      "table": [
+        "PersonaMisc"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Identify firms using AWS infrastructure.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Find firms that meet both criteria.",
+      "table": [
+        "PersonaMisc",
+        "CompanyFocusAreaDetail"
+      ]
+    }
+  ]
+}

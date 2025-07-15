@@ -1,0 +1,26 @@
+{
+  "question": "Which industries are leading in IT innovation based on company leadership excerpts?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Extract leadership excerpts from companies.",
+      "table": [
+        "PersonaLinkedInProfile"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Analyze these excerpts to identify mentions of IT innovation.",
+      "table": [
+        "PersonaLinkedInProfile"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Determine leading industries based on frequency and context of IT innovation mentions.",
+      "table": [
+        "CompanyDataCenter"
+      ]
+    }
+  ]
+}

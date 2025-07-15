@@ -1,16 +1,19 @@
 {
   "question": "What technology priorities does Prasad Hebbar outline in his LinkedIn profile?",
-  "tables": ["CompanyManagementDetail", "PersonaLinkedInProfile"],
   "subtasks": [
     {
       "step": 1,
       "task": "Find Prasad Hebbar in the Management Table",
-      "table": ["CompanyManagementDetail"]
+      "table": [
+        "CompanyManagementDetail"
+      ]
     },
     {
       "step": 2,
       "task": "Pull His LinkedIn Profile",
-      "table": ["PersonaLinkedInProfile"]
+      "table": [
+        "PersonaLinkedInProfile"
+      ]
     },
     {
       "step": 3,

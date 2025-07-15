@@ -1,0 +1,24 @@
+{
+  "question": "Which sectors prioritize training and reskilling as described by expert discussions at conferences?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify expert discussions at conferences related to training and reskilling",
+      "table": [
+        "SectionTitle"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract sectors mentioned in these discussions",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Summarize sectors that prioritize training and reskilling",
+      "table": []
+    }
+  ]
+}

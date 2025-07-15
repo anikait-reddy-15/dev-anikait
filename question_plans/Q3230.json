@@ -1,0 +1,26 @@
+{
+  "question": "What geographical regions are predominantly mentioned by personas in their Instagram profiles regarding IT trends?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Extract Instagram profile data mentioning IT trends.",
+      "table": [
+        "CompanyManagementDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Identify geographical regions mentioned in these profiles.",
+      "table": [
+        "LookUpValue"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze predominant regions based on frequency of mentions.",
+      "table": [
+        "IndustryBusinessTrend"
+      ]
+    }
+  ]
+}

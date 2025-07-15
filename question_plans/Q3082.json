@@ -1,0 +1,26 @@
+{
+  "question": "Which personas show increased activity within digital forums discussing data privacy policies?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify personas with posts related to data privacy policies.",
+      "table": [
+        "PersonaInstagramProfile"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Track the frequency of posts by these personas over time.",
+      "table": [
+        "PersonaInstagramProfile"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Determine which personas have shown increased activity.",
+      "table": [
+        "PersonaInstagramProfile"
+      ]
+    }
+  ]
+}

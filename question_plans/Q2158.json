@@ -1,0 +1,26 @@
+{
+  "question": "What new technological strategies are being favored by tech leaders noted for their LinkedIn proficiency?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify tech leaders known for their LinkedIn proficiency.",
+      "table": [
+        "PersonaLinkedInProfile"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract technological strategies favored by these leaders.",
+      "table": [
+        "PersonaLinkedInProfile"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the strategies in the context of LinkedIn proficiency.",
+      "table": [
+        "PersonaLinkedInProfile"
+      ]
+    }
+  ]
+}

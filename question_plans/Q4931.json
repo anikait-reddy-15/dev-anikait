@@ -1,0 +1,26 @@
+{
+  "question": "Are there any significant advancements in renewable energy tech stacks visible in companies with sustainable business practices?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies with sustainable business practices from the CompanyDataCenter table.",
+      "table": [
+        "CompanyDataCenter"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Check for advancements in renewable energy tech stacks in these companies.",
+      "table": [
+        "CompanyDataCenter"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "List significant advancements in renewable energy tech stacks.",
+      "table": [
+        "CompanyDataCenter"
+      ]
+    }
+  ]
+}

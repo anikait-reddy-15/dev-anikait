@@ -1,6 +1,5 @@
 {
   "question": "Which executives are responsible for innovation at companies focused on AI and automation?",
-  "tables": ["CompanyManagementDetail", "IndustryITTrend"],
   "subtasks": [
     {
       "step": 1,

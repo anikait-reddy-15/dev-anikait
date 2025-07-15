@@ -1,0 +1,27 @@
+{
+  "question": "Which organizations emphasize hiring as a strategic focus for emerging technologies in AI deployment?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify organizations focusing on AI deployment from the IndustryITTrend table.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract hiring-related information from the PersonaUser table.",
+      "table": [
+        "PersonaUser"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Determine which organizations emphasize hiring for AI technologies.",
+      "table": [
+        "IndustryITTrend",
+        "PersonaUser"
+      ]
+    }
+  ]
+}

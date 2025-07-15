@@ -1,21 +1,27 @@
 {
   "question": "Which companies have reported increased hiring for cybersecurity experts alongside new vendor deals?",
-  "tables": ["CompanyHiringDetail", "CompanyDealMaster"],
   "subtasks": [
     {
       "step": 1,
       "task": "Identify companies with new vendor deals.",
-      "table": ["CompanyDealMaster"]
+      "table": [
+        "CompanyDealMaster"
+      ]
     },
     {
       "step": 2,
       "task": "Find companies hiring cybersecurity experts.",
-      "table": ["CompanyHiringDetail"]
+      "table": [
+        "CompanyHiringDetail"
+      ]
     },
     {
       "step": 3,
       "task": "Find companies appearing in both lists.",
-      "table": ["CompanyDealMaster", "CompanyHiringDetail"]
+      "table": [
+        "CompanyDealMaster",
+        "CompanyHiringDetail"
+      ]
     }
   ]
 }

@@ -1,0 +1,26 @@
+{
+  "question": "How are companies engaging tech talent in evolving trends according to LinkedIn posts?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Collect LinkedIn posts related to tech talent engagement.",
+      "table": [
+        "CompanyTwitterDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Identify evolving trends in tech talent engagement.",
+      "table": [
+        "CompanyTwitterDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze how companies are engaging tech talent in these trends.",
+      "table": [
+        "CompanyTwitterDetail"
+      ]
+    }
+  ]
+}

@@ -1,21 +1,27 @@
 {
   "question": "Which companies have recently upgraded their cloud infrastructure and announced hiring for cloud engineers?",
-  "tables": ["CompanyDataCenter", "CompanyHiringDetail"],
   "subtasks": [
     {
       "step": 1,
       "task": "Identify companies with recent cloud infrastructure upgrades.",
-      "table": ["CompanyDataCenter"]
+      "table": [
+        "CompanyDataCenter"
+      ]
     },
     {
       "step": 2,
       "task": "Find companies hiring cloud engineers.",
-      "table": ["CompanyHiringDetail"]
+      "table": [
+        "CompanyHiringDetail"
+      ]
     },
     {
       "step": 3,
       "task": "Match companies from both sets.",
-      "table": ["CompanyDataCenter", "CompanyHiringDetail"]
+      "table": [
+        "CompanyDataCenter",
+        "CompanyHiringDetail"
+      ]
     }
   ]
 }

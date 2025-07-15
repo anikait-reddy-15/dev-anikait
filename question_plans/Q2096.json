@@ -1,0 +1,26 @@
+{
+  "question": "How do management directions complement assessments about VR integration into existing tech ecosystems?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Extract management directions related to VR from the PersonaLinkedinActivity table.",
+      "table": [
+        "PersonaLinkedinActivity"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Identify assessments about VR integration into tech ecosystems from the same table.",
+      "table": [
+        "PersonaLinkedinActivity"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze how management directions complement these assessments.",
+      "table": [
+        "PersonaLinkedinActivity"
+      ]
+    }
+  ]
+}

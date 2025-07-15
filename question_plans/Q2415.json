@@ -1,0 +1,24 @@
+{
+  "question": "Which companies frequently mentioned digital transformation in their Twitter posts and partnered with vendors offering AI solutions?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies frequently mentioning digital transformation in their Twitter posts.",
+      "table": [
+        "PersonaLinkedInProfile"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Find companies that partnered with vendors offering AI solutions.",
+      "table": [
+        "CompanyDataCenter"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Combine results to find companies meeting both criteria.",
+      "table": []
+    }
+  ]
+}

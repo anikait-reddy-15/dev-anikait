@@ -1,0 +1,26 @@
+{
+  "question": "What insights do management posts share about the evolving role of data in today\u2019s corporate world?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify management posts discussing data's role in the corporate world.",
+      "table": [
+        "PersonaLinkedinActivity"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract insights from these management posts.",
+      "table": [
+        "PersonaLinkedinActivity"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Summarize insights on the evolving role of data in the corporate world.",
+      "table": [
+        "PersonaLinkedinActivity"
+      ]
+    }
+  ]
+}

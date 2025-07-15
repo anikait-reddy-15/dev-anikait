@@ -1,6 +1,5 @@
 {
   "question": "What types of cloud technologies are most favored by companies that recently signed significant deals with IT partners?",
-  "tables": ["CompanyDealMaster", "CompanyTechStack"],
   "subtasks": [
     {
       "step": 1,

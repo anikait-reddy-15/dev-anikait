@@ -1,0 +1,27 @@
+{
+  "question": "Which companies have increased their social media presence on Instagram while focusing on customer experience improvements?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies that have increased their social media presence on Instagram.",
+      "table": [
+        "PersonaLinkedInProfile"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Filter companies focusing on customer experience improvements.",
+      "table": [
+        "CompanyVendorTechDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Combine results to find companies meeting both criteria.",
+      "table": [
+        "PersonaLinkedInProfile",
+        "CompanyVendorTechDetail"
+      ]
+    }
+  ]
+}

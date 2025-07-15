@@ -1,0 +1,26 @@
+{
+  "question": "Determining the competitive dynamics via Twitter posts among leaders in AI technology spaces.",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Extract Twitter posts related to AI technology spaces.",
+      "table": [
+        "CompanyTwitterDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Identify leaders in these AI technology spaces.",
+      "table": [
+        "CompanyTwitterDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze competitive dynamics based on the content of these posts.",
+      "table": [
+        "CompanyTwitterDetail"
+      ]
+    }
+  ]
+}

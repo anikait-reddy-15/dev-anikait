@@ -1,0 +1,27 @@
+{
+  "question": "How are significant IT investments impacting corporate priority adjustments reported in business trend documents?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify significant IT investments made by companies.",
+      "table": [
+        "CompanyDealMaster"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract corporate priority adjustments from business trend documents.",
+      "table": [
+        "SectionInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the impact of IT investments on corporate priorities.",
+      "table": [
+        "CompanyDealMaster",
+        "SectionInfo"
+      ]
+    }
+  ]
+}

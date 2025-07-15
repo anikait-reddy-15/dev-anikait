@@ -1,0 +1,26 @@
+{
+  "question": "What trends are observed in IT hiring details for companies expanding their tech portfolio?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies expanding their tech portfolio.",
+      "table": [
+        "CompanyDataCenter"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract IT hiring details for these companies.",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze trends in IT hiring related to tech expansion.",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    }
+  ]
+}

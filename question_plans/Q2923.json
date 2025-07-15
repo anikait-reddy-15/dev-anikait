@@ -1,0 +1,27 @@
+{
+  "question": "Which companies have experienced an increase in data center operations and published relevant content on YouTube?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies with increased data center operations.",
+      "table": [
+        "CompanyTechStack"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Find companies that have published relevant content on YouTube.",
+      "table": [
+        "PersonaYoutubeProfile"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Intersect the two lists to find common companies.",
+      "table": [
+        "CompanyTechStack",
+        "PersonaYoutubeProfile"
+      ]
+    }
+  ]
+}

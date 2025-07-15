@@ -1,0 +1,26 @@
+{
+  "question": "What technologies are paving the way for enterprises focusing on supply chain agility?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify technologies related to supply chain from the CompanyManagementDetail table.",
+      "table": [
+        "CompanyManagementDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Filter technologies that enhance supply chain agility.",
+      "table": [
+        "SectionInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Highlight technologies paving the way for enterprises focusing on agility.",
+      "table": [
+        "PersonaMisc"
+      ]
+    }
+  ]
+}

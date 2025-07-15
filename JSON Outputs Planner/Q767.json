@@ -1,21 +1,27 @@
 {
   "question": "What types of AI projects are led by female data scientists across firms investing in responsible AI?",
-  "tables": ["PersonaUser", "CompanyFocusAreaDetail"],
   "subtasks": [
     {
       "step": 1,
       "task": "Identify female data scientists across companies.",
-      "table": ["PersonaUser"]
+      "table": [
+        "PersonaUser"
+      ]
     },
     {
       "step": 2,
       "task": "Find firms investing in responsible AI.",
-      "table": ["CompanyFocusAreaDetail"]
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
     },
     {
       "step": 3,
       "task": "List types of AI projects led by these individuals.",
-      "table": ["PersonaUser", "CompanyFocusAreaDetail"]
+      "table": [
+        "PersonaUser",
+        "CompanyFocusAreaDetail"
+      ]
     }
   ]
 }

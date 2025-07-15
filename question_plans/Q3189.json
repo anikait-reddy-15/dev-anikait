@@ -1,0 +1,26 @@
+{
+  "question": "Who are the chief architects designing fundamental cloud solutions, as seen in post announcements on social networks?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify post announcements related to cloud solutions.",
+      "table": [
+        "SocialMediaInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract information about chief architects from these posts.",
+      "table": [
+        "CompanyTwitterDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Determine which architects are designing fundamental cloud solutions.",
+      "table": [
+        "PersonaTwitterProfile"
+      ]
+    }
+  ]
+}

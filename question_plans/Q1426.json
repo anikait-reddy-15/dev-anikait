@@ -1,0 +1,26 @@
+{
+  "question": "Which organizations have seen significant LinkedIn activity increases due to their focus on edge computing projects?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify organizations focusing on edge computing projects.",
+      "table": [
+        "PersonaMisc"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Retrieve LinkedIn activity metrics for these organizations.",
+      "table": [
+        "CompanyInstagramDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Determine which organizations have seen significant increases in LinkedIn activity.",
+      "table": [
+        "CompanyInstagramDetail"
+      ]
+    }
+  ]
+}

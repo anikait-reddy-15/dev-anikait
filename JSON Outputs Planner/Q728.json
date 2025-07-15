@@ -1,21 +1,28 @@
 {
   "question": "Which data leaders are actively tweeting about responsible AI and represent companies investing in AI ethics training?",
-  "tables": ["PersonaTwitterProfile", "PersonaUser", "CompanyFocusAreaDetail"],
   "subtasks": [
     {
       "step": 1,
       "task": "Identify data leaders tweeting about responsible AI.",
-      "table": ["PersonaTwitterProfile"]
+      "table": [
+        "PersonaTwitterProfile"
+      ]
     },
     {
       "step": 2,
       "task": "Find those affiliated with companies investing in AI ethics training.",
-      "table": ["PersonaUser", "CompanyFocusAreaDetail"]
+      "table": [
+        "PersonaUser",
+        "CompanyFocusAreaDetail"
+      ]
     },
     {
       "step": 3,
       "task": "Match data leaders with their companies and focus areas.",
-      "table": ["PersonaTwitterProfile", "CompanyFocusAreaDetail"]
+      "table": [
+        "PersonaTwitterProfile",
+        "CompanyFocusAreaDetail"
+      ]
     }
   ]
 }

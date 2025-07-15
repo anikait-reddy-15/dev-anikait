@@ -1,6 +1,5 @@
 {
   "question": "Which technologies are most often referenced in LinkedIn posts by data scientists in high-demand sectors?",
-  "tables": ["PersonaLinkedinPost", "CompanyTechStack"],
   "subtasks": [
     {
       "step": 1,

@@ -1,0 +1,26 @@
+{
+  "question": "Which vendors support enterprises predominantly evolving their technology stack towards hybrid cloud solutions?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify enterprises evolving towards hybrid cloud solutions.",
+      "table": [
+        "IndustryBusinessTrend"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Find vendors supporting these enterprises.",
+      "table": [
+        "PersonaTitle"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Determine which vendors predominantly support these enterprises.",
+      "table": [
+        "PersonaTitle"
+      ]
+    }
+  ]
+}

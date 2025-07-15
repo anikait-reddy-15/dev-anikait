@@ -1,0 +1,26 @@
+{
+  "question": "Which cutting-edge technologies have Enterprise CIOs expressed a preference for in strategic meetings this year?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify strategic meetings involving Enterprise CIOs.",
+      "table": [
+        "SectionData"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract preferences for cutting-edge technologies from these meetings.",
+      "table": [
+        "SectionData"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "List the cutting-edge technologies preferred by Enterprise CIOs.",
+      "table": [
+        "SectionData"
+      ]
+    }
+  ]
+}

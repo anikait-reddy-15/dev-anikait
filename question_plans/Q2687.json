@@ -1,0 +1,26 @@
+{
+  "question": "Which companies revised their IaaS technologies and elaborated on these changes in keynote presentations recently?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies that have revised their IaaS technologies.",
+      "table": [
+        "PersonaTitle"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Gather recent keynote presentations from these companies.",
+      "table": [
+        "SectionData"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Extract and analyze elaborations on IaaS changes from the keynote presentations.",
+      "table": [
+        "SectionData"
+      ]
+    }
+  ]
+}

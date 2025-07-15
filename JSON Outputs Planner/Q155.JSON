@@ -1,6 +1,5 @@
 {
   "question": "What narratives are present in the LinkedIn activity of data science professionals regarding their companies’ technology rationale?",
-  "tables": ["PersonaLinkedinPost", "CompanyTechStack"],
   "subtasks": [
     {
       "step": 1,

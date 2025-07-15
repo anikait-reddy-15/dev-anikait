@@ -1,0 +1,26 @@
+{
+  "question": "Which media companies participated in transformative knowledge exchanges?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify media companies from the data.",
+      "table": [
+        "CompanyDataCenter"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract information on transformative knowledge exchanges.",
+      "table": [
+        "SectionTitle"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Determine which media companies participated in these exchanges.",
+      "table": [
+        "SectionTitle"
+      ]
+    }
+  ]
+}

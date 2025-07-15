@@ -1,0 +1,29 @@
+{
+  "question": "Which companies are ramping up AI discourse in leadership revelations while signing major deals in ed-tech?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies with increased AI discourse in leadership revelations.",
+      "table": [
+        "PersonaTwitterProfile",
+        "PersonaInstagramProfile"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Find companies signing major deals in ed-tech.",
+      "table": [
+        "IndustryBusinessTrend"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Determine the intersection of companies from the previous two steps.",
+      "table": [
+        "IndustryBusinessTrend",
+        "PersonaTwitterProfile",
+        "PersonaInstagramProfile"
+      ]
+    }
+  ]
+}

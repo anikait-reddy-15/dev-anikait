@@ -1,0 +1,27 @@
+{
+  "question": "What trends indicate a surge in social media attention for fintech companies pursuing blockchain initiatives?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify fintech companies pursuing blockchain initiatives.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract social media trends related to these companies.",
+      "table": [
+        "CompanyManagementDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Determine trends indicating a surge in social media attention for these initiatives.",
+      "table": [
+        "CompanyInfo",
+        "CompanyManagementDetail"
+      ]
+    }
+  ]
+}

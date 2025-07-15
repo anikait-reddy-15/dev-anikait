@@ -1,0 +1,26 @@
+{
+  "question": "Which companies actively participating in Industry 4.0 trends signal increased Twitter activity?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies participating in Industry 4.0 trends.",
+      "table": [
+        "CompanyTwitterDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract Twitter activity metrics for these companies.",
+      "table": [
+        "CompanyTwitterDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze correlation between Industry 4.0 participation and Twitter activity.",
+      "table": [
+        "CompanyTwitterDetail"
+      ]
+    }
+  ]
+}

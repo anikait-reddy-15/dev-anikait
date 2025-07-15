@@ -1,0 +1,27 @@
+{
+  "question": "Which organizations enhanced their customer data platform (CDP) and have rising social media mentions?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify organizations that enhanced their customer data platform (CDP).",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Identify organizations with rising social media mentions.",
+      "table": [
+        "PersonaMisc"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Find organizations that meet both criteria.",
+      "table": [
+        "CompanyFocusAreaDetail",
+        "PersonaMisc"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "question": "What key observations emerge from recent contract negotiations by tech companies regarding emerging tech (e.g., IoT, AI)?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify recent contract negotiations by tech companies.",
+      "table": [
+        "CompanyManagementDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract details related to emerging tech such as IoT and AI.",
+      "table": [
+        "IndustryBusinessTrend"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Summarize key observations from these negotiations.",
+      "table": [
+        "LookUpValue"
+      ]
+    }
+  ]
+}

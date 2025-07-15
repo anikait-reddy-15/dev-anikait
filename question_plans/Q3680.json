@@ -1,0 +1,26 @@
+{
+  "question": "Which organizations show overlap in new data center installations and an uptick in digital product launches?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify organizations with new data center installations.",
+      "table": [
+        "IndustryBusinessTrend"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Identify organizations with an uptick in digital product launches.",
+      "table": [
+        "IndustryBusinessTrend"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Find overlap between organizations identified in steps 1 and 2.",
+      "table": [
+        "IndustryBusinessTrend"
+      ]
+    }
+  ]
+}

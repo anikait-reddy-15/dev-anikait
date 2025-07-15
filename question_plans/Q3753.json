@@ -1,0 +1,26 @@
+{
+  "question": "How does Instagram profile data correlate with recent positioning changes in companies focusing on blockchain integration?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies focusing on blockchain integration.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract Instagram profile data for these companies.",
+      "table": [
+        "PersonaLinkedinActivity"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze correlation between Instagram data and positioning changes.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    }
+  ]
+}

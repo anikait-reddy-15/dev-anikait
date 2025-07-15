@@ -1,0 +1,26 @@
+{
+  "question": "Which businesses announced major acquisitions that will influence IT strategies, discernible through LinkedIn post activities?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify businesses that have announced major acquisitions.",
+      "table": [
+        "PersonaLinkedInProfile"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract LinkedIn post activities related to these acquisitions.",
+      "table": [
+        "PersonaLinkedInProfile"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze how these acquisitions are expected to influence IT strategies.",
+      "table": [
+        "CompanyVendorTechDetail"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "question": "What technology stacks do startups reshape after securing early-stage investment rounds?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify startups that have secured early-stage investment rounds.",
+      "table": [
+        "CompanyManagementDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract the technology stacks of these startups.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Determine changes or reshaping in the technology stacks post-investment.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    }
+  ]
+}

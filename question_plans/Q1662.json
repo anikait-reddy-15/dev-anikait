@@ -1,0 +1,26 @@
+{
+  "question": "What are the implications of video technology on strategic orientations of multimedia companies, as per their YouTube channels?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify multimedia companies with YouTube channels.",
+      "table": [
+        "PersonaYoutubeProfile"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Analyze video technology content in their YouTube channels.",
+      "table": [
+        "PersonaYoutubeProfile"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Determine strategic orientations influenced by video technology.",
+      "table": [
+        "PersonaYoutubeProfile"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "question": "How have recent trends in IT affected the focus areas of companies listed in the financial sector?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify recent trends in IT.",
+      "table": [
+        "PersonaLinkedinActivity"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Filter companies listed in the financial sector.",
+      "table": [
+        "PersonaUser"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze how these trends have affected their focus areas.",
+      "table": []
+    }
+  ]
+}

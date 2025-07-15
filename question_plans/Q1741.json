@@ -1,0 +1,26 @@
+{
+  "question": "What new partnerships have emerged after announcing significant changes in social media engagement metrics?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify significant changes in social media engagement metrics.",
+      "table": [
+        "CompanyTwitterDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Find announcements related to these changes.",
+      "table": [
+        "CompanyTwitterDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Determine new partnerships formed after these announcements.",
+      "table": [
+        "CompanyTwitterDetail"
+      ]
+    }
+  ]
+}

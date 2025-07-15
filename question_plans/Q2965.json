@@ -1,0 +1,27 @@
+{
+  "question": "Which companies have increased their tech hires and released relevant Facebook content?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies with increased tech hiring.",
+      "table": [
+        "CompanyTechStack"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Find companies that have released relevant content on Facebook.",
+      "table": [
+        "CompanyFacebookDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Cross-reference both lists to find companies meeting both criteria.",
+      "table": [
+        "CompanyTechStack",
+        "CompanyFacebookDetail"
+      ]
+    }
+  ]
+}

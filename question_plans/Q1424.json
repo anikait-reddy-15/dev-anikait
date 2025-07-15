@@ -1,0 +1,26 @@
+{
+  "question": "What are the prevalent themes in CEO speeches for companies that have increased their AI investment budget?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies that have increased their AI investment budget.",
+      "table": [
+        "PersonaMisc"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract CEO speeches for these companies.",
+      "table": [
+        "PersonaMisc"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the prevalent themes in these speeches.",
+      "table": [
+        "PersonaMisc"
+      ]
+    }
+  ]
+}

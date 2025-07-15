@@ -1,0 +1,26 @@
+{
+  "question": "Which financial service companies are prioritizing strategic partnerships for blockchain development?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify financial service companies from the dataset.",
+      "table": [
+        "PersonaTitle"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Filter companies that mention blockchain development.",
+      "table": [
+        "PersonaTitle"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Extract information on strategic partnerships related to blockchain.",
+      "table": [
+        "PersonaTitle"
+      ]
+    }
+  ]
+}

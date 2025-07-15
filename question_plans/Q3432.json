@@ -1,0 +1,24 @@
+{
+  "question": "Who are the driving C-level executives behind companies that significantly expanded their AI teams and frequently mention AI in tweets?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies that significantly expanded their AI teams.",
+      "table": [
+        "SectionInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Identify companies frequently mentioning AI in tweets.",
+      "table": [
+        "PersonaYoutubeProfile"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Identify C-level executives from these companies.",
+      "table": []
+    }
+  ]
+}

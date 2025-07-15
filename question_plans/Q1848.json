@@ -1,0 +1,27 @@
+{
+  "question": "How has the increase in IoT device management deals influenced organizational focus areas mentioned in management talks?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify increases in IoT device management deals.",
+      "table": [
+        "IndustryBusinessTrend"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract organizational focus areas from management talks.",
+      "table": [
+        "PersonaTwitterProfile"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the influence of IoT management deals on organizational focus areas.",
+      "table": [
+        "IndustryBusinessTrend",
+        "PersonaTwitterProfile"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "question": "Identify strategic focus shifts in sectors adopting hybrid cloud environments.",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify sectors adopting hybrid cloud environments from the PersonaUser table.",
+      "table": [
+        "PersonaUser"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract information on strategic focus shifts from the SocialMediaInfo table.",
+      "table": [
+        "SocialMediaInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the nature of these strategic focus shifts.",
+      "table": [
+        "CompanyTwitterDetail"
+      ]
+    }
+  ]
+}

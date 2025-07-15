@@ -1,0 +1,27 @@
+{
+  "question": "What priorities are highlighted in thought leader podcasts discussing fintech evolution?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify thought leaders discussing fintech evolution.",
+      "table": [
+        "SectionInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract priorities highlighted in their podcasts.",
+      "table": [
+        "PersonaMisc"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Summarize key priorities from the podcasts.",
+      "table": [
+        "SectionInfo",
+        "PersonaMisc"
+      ]
+    }
+  ]
+}

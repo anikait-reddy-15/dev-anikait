@@ -1,0 +1,26 @@
+{
+  "question": "Which sectors forecast the widespread adoption of machine learning in LinkedIn posts?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Extract LinkedIn posts related to machine learning adoption.",
+      "table": [
+        "PersonaTitle"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Analyze these posts to identify sectors forecasting widespread adoption.",
+      "table": [
+        "PersonaTitle"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Categorize the sectors based on the frequency and content of these forecasts.",
+      "table": [
+        "LookUpValue"
+      ]
+    }
+  ]
+}

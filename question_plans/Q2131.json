@@ -1,0 +1,26 @@
+{
+  "question": "Which organizations with significant LinkedIn post activity have adopted agile software methodologies?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify organizations with significant LinkedIn post activity.",
+      "table": [
+        "PersonaLinkedInProfile"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Determine which of these organizations have adopted agile software methodologies.",
+      "table": [
+        "CompanyVendorTechDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "List organizations that meet both criteria: significant LinkedIn activity and agile adoption.",
+      "table": [
+        "CompanyVendorTechDetail"
+      ]
+    }
+  ]
+}

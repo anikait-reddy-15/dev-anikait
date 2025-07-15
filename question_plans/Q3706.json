@@ -1,0 +1,24 @@
+{
+  "question": "What are the most frequently mentioned technologies in Twitter profiles of CEOs, and how do those compare with their company investments?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify technologies mentioned in Twitter profiles of CEOs.",
+      "table": [
+        "PersonaLinkedinActivity"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Identify company investments in technologies.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Compare mentioned technologies with company investments.",
+      "table": []
+    }
+  ]
+}

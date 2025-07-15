@@ -1,0 +1,26 @@
+{
+  "question": "What insights are available from Twitter activities of leading advocates for cyber-security advances?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify leading advocates for cyber-security advances.",
+      "table": [
+        "PageInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract Twitter activities related to cyber-security from these advocates.",
+      "table": [
+        "PageInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze Twitter activities to gain insights.",
+      "table": [
+        "PageInfo"
+      ]
+    }
+  ]
+}

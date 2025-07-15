@@ -1,6 +1,5 @@
 {
   "question": "How have recent leadership changes at LPL Financial impacted their technology strategies?",
-  "tables": ["SectionData", "CompanyTechStack", "CompanyDealMaster"],
   "subtasks": [
     {
       "step": 1,

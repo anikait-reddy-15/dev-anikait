@@ -1,21 +1,29 @@
 {
   "question": "What technologies are commonly referenced by companies that have signed deals with IT partners focusing on cybersecurity solutions?",
-  "tables": ["CompanyDealMaster", "CompanyITPartnerDetail", "CompanyTechStack"],
   "subtasks": [
     {
       "step": 1,
       "task": "Identify companies that have signed deals with IT partners focusing on cybersecurity solutions. [CompanyITPartnerDetail, CompanyDealMaster]",
-      "table": ["CompanyITPartnerDetail", "CompanyDealMaster"]
+      "table": [
+        "CompanyITPartnerDetail",
+        "CompanyDealMaster"
+      ]
     },
     {
       "step": 2,
       "task": "Extract the technologies referenced by these companies. [CompanyTechStack]",
-      "table": ["CompanyTechStack"]
+      "table": [
+        "CompanyTechStack"
+      ]
     },
     {
       "step": 3,
       "task": "Correlate the technologies with the companies involved in cybersecurity deals. [CompanyTechStack, CompanyDealMaster, CompanyITPartnerDetail]",
-      "table": ["CompanyTechStack", "CompanyDealMaster", "CompanyITPartnerDetail"]
+      "table": [
+        "CompanyTechStack",
+        "CompanyDealMaster",
+        "CompanyITPartnerDetail"
+      ]
     }
   ]
 }

@@ -1,0 +1,26 @@
+{
+  "question": "How do businesses approach technology adaptability in response to current trends?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify current technology trends.",
+      "table": [
+        "CompanyTechStack"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Determine how businesses approach adaptability to these trends.",
+      "table": [
+        "CompanyTechStack"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze and summarize the approaches taken by businesses.",
+      "table": [
+        "CompanyTechStack"
+      ]
+    }
+  ]
+}

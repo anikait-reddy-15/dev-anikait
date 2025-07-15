@@ -1,0 +1,27 @@
+{
+  "question": "How do changes in social media strategies on AR directly correlate with strengthened tech stacks?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Extract changes in social media strategies related to AR.",
+      "table": [
+        "PersonaYoutubeProfile"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Identify instances of strengthened tech stacks.",
+      "table": [
+        "IndustryBusinessTrend"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze correlation between AR social media strategy changes and strengthened tech stacks.",
+      "table": [
+        "PersonaYoutubeProfile",
+        "IndustryBusinessTrend"
+      ]
+    }
+  ]
+}

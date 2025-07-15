@@ -1,0 +1,26 @@
+{
+  "question": "Which tech trends are popularly discussed by executives in their professional network posts?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify executives from the PersonaYoutubeProfile table.",
+      "table": [
+        "PersonaYoutubeProfile"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract professional network posts related to tech trends.",
+      "table": [
+        "PersonaYoutubeProfile"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Determine the most popularly discussed tech trends.",
+      "table": [
+        "PersonaYoutubeProfile"
+      ]
+    }
+  ]
+}

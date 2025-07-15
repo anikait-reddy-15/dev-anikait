@@ -1,0 +1,24 @@
+{
+  "question": "How is AI adoption influencing the hiring focus of tech startups still in the growth phase?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify tech startups in the growth phase.",
+      "table": [
+        "CompanyTwitterDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Find information on AI adoption by these startups.",
+      "table": [
+        "SocialMediaInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze how AI adoption influences their hiring focus.",
+      "table": []
+    }
+  ]
+}

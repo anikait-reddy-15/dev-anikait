@@ -1,21 +1,26 @@
 {
   "question": "Who are the executives at companies that frequently discuss their tech stack on Twitter and have recently secured partnerships with SaaS vendors?",
-  "tables": ["CompanyInfo", "CompanyVendorTechDetail", "PersonaTwitterProfile"],
   "subtasks": [
     {
       "step": 1,
       "task": "Identify companies that frequently discuss their tech stack on Twitter. [PersonaTwitterProfile]",
-      "table": ["PersonaTwitterProfile"]
+      "table": [
+        "PersonaTwitterProfile"
+      ]
     },
     {
       "step": 2,
       "task": "Gather details of companies that have secured partnerships with SaaS vendors. [CompanyVendorTechDetail]",
-      "table": ["CompanyVendorTechDetail"]
+      "table": [
+        "CompanyVendorTechDetail"
+      ]
     },
     {
       "step": 3,
       "task": "Match the identified companies to find executives associated with them. [CompanyInfo]",
-      "table": ["CompanyInfo"]
+      "table": [
+        "CompanyInfo"
+      ]
     }
   ]
 }

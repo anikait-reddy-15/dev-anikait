@@ -1,0 +1,26 @@
+{
+  "question": "How does the prominence of social engagement in the digital workspace reflect post-pandemic trends?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify data on social engagement in the digital workspace.",
+      "table": [
+        "PersonaMisc"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract trends related to the post-pandemic period.",
+      "table": [
+        "SectionTitle"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze how social engagement reflects these trends.",
+      "table": [
+        "PersonaMisc"
+      ]
+    }
+  ]
+}

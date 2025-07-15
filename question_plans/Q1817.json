@@ -1,0 +1,24 @@
+{
+  "question": "How does leadership guidance on sustainability reflect in the IT trends for their respective industries?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify leadership guidance on sustainability.",
+      "table": [
+        "PersonaTwitterProfile"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Find IT trends for industries related to these leaders.",
+      "table": [
+        "IndustryBusinessTrend"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the reflection of leadership guidance in IT trends.",
+      "table": []
+    }
+  ]
+}

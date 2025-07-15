@@ -1,0 +1,26 @@
+{
+  "question": "Which data science leaders emphasized ethical AI usage in their social media posts within the last year?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify social media posts from data science leaders.",
+      "table": [
+        "SocialMediaInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Filter these posts to find mentions of ethical AI usage.",
+      "table": [
+        "SocialMediaInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Limit the results to posts made within the last year.",
+      "table": [
+        "SocialMediaInfo"
+      ]
+    }
+  ]
+}

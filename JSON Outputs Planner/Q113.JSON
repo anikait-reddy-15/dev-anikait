@@ -1,6 +1,5 @@
 {
   "question": "Which executives are most frequently mentioning cloud computing in their public statements?",
-  "tables": ["CompanyLeadershipExcerpt", "CompanyTechStack"],
   "subtasks": [
     {
       "step": 1,

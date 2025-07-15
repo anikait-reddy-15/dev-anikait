@@ -1,0 +1,27 @@
+{
+  "question": "Which essential tech solutions are helping academic organizations advance remote learning strategies frequently viewed on YouTube?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify tech solutions discussed in YouTube sessions.",
+      "table": [
+        "SectionInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Determine academic organizations advancing remote learning strategies.",
+      "table": [
+        "CompanyDealMaster"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the impact of tech solutions on remote learning strategies.",
+      "table": [
+        "CompanyDealMaster",
+        "SectionInfo"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "question": "What changes are evident in Instagram engagements correlating to new collaborative partnerships among tech firms?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify new collaborative partnerships among tech firms.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract Instagram engagement data related to these firms.",
+      "table": [
+        "CompanyManagementDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze changes in Instagram engagements correlating with these partnerships.",
+      "table": [
+        "CompanyInfo",
+        "CompanyManagementDetail"
+      ]
+    }
+  ]
+}

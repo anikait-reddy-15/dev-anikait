@@ -1,0 +1,26 @@
+{
+  "question": "Which vendors have gained traction in financial analytics services, as noted in recent LinkedIn discussions by industry leaders?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Extract LinkedIn discussions by industry leaders.",
+      "table": [
+        "PersonaLinkedInProfile"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Identify mentions of vendors in financial analytics services.",
+      "table": [
+        "PersonaLinkedInProfile"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Determine which vendors have gained traction based on these discussions.",
+      "table": [
+        "PersonaLinkedInProfile"
+      ]
+    }
+  ]
+}

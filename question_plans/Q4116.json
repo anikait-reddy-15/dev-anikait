@@ -1,0 +1,26 @@
+{
+  "question": "Which companies observed a rise in Facebook engagement coinciding with a new strategic direction towards AI ethics?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies with a new strategic direction towards AI ethics",
+      "table": [
+        "SectionTitle"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Track Facebook engagement for these companies",
+      "table": [
+        "SocialMediaInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Determine if there was a rise in engagement coinciding with the new strategy",
+      "table": [
+        "SocialMediaInfo"
+      ]
+    }
+  ]
+}

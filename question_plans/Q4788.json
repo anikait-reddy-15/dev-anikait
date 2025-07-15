@@ -1,0 +1,26 @@
+{
+  "question": "Which brands are leveraging Instagram to influence industry perceptions of digital transformation initiatives?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify brands active on Instagram.",
+      "table": [
+        "IndustryBusinessTrend"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract content related to digital transformation initiatives.",
+      "table": [
+        "IndustryBusinessTrend"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze how these brands are influencing industry perceptions.",
+      "table": [
+        "IndustryBusinessTrend"
+      ]
+    }
+  ]
+}

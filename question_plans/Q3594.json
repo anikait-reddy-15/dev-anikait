@@ -1,0 +1,27 @@
+{
+  "question": "How are marketplaces reshaping consumer access through data analytics?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify marketplaces utilizing data analytics.",
+      "table": [
+        "CompanyManagementDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Analyze how data analytics is used to reshape consumer access.",
+      "table": [
+        "SectionInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Evaluate the impact of these analytics on consumer access.",
+      "table": [
+        "CompanyManagementDetail",
+        "SectionInfo"
+      ]
+    }
+  ]
+}

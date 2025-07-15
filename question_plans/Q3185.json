@@ -1,0 +1,26 @@
+{
+  "question": "How do product domain changes get reflected through executive-led advocacy, captured via digital communication?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify executives involved in advocacy.",
+      "table": [
+        "SocialMediaInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract digital communication related to product domain changes.",
+      "table": [
+        "PersonaTwitterProfile"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze how these changes are reflected through advocacy.",
+      "table": [
+        "CompanyTwitterDetail"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "question": "Which companies have a leadership focus on innovation and a tech stack emphasizing emerging technologies?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies with a leadership focus on innovation.",
+      "table": [
+        "PersonaMisc"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Identify companies with a tech stack emphasizing emerging technologies.",
+      "table": [
+        "CompanyVendorProductDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Find companies that meet both criteria.",
+      "table": [
+        "PersonaMisc",
+        "CompanyVendorProductDetail"
+      ]
+    }
+  ]
+}

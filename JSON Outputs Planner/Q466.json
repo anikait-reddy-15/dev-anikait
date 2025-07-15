@@ -1,21 +1,26 @@
 {
   "question": "What technologies are frequently associated with companies that have recently highlighted their corporate social responsibility initiatives on Facebook?",
-  "tables": ["CompanyTechStack", "CompanyFacebookDetail"],
   "subtasks": [
     {
       "step": 1,
       "task": "Identify companies that have highlighted corporate social responsibility initiatives on Facebook. [CompanyFacebookDetail]",
-      "table": ["CompanyFacebookDetail"]
+      "table": [
+        "CompanyFacebookDetail"
+      ]
     },
     {
       "step": 2,
       "task": "Gather information on the technologies used by these companies. [CompanyTechStack]",
-      "table": ["CompanyTechStack"]
+      "table": [
+        "CompanyTechStack"
+      ]
     },
     {
       "step": 3,
       "task": "Analyze the technologies associated with the identified companies. [CompanyTechStack]",
-      "table": ["CompanyTechStack"]
+      "table": [
+        "CompanyTechStack"
+      ]
     }
   ]
 }

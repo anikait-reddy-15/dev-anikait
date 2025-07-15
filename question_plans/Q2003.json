@@ -1,0 +1,24 @@
+{
+  "question": "Who are the key data science leaders mentioned in companies with a growing presence on Instagram?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies with a growing presence on Instagram.",
+      "table": [
+        "PersonaInstagramProfile"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Find key data science leaders mentioned in these companies.",
+      "table": [
+        "PersonaUser"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "List the key data science leaders from these companies.",
+      "table": []
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "question": "What approaches are taken by tech leaders regarding Instagram engagement during product launches?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify tech leaders who are active on Instagram.",
+      "table": [
+        "PersonaTitle"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract posts related to product launches from their Instagram profiles.",
+      "table": [
+        "PersonaMisc"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze engagement strategies used during these launches.",
+      "table": [
+        "PersonaMisc"
+      ]
+    }
+  ]
+}

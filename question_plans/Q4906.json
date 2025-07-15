@@ -1,0 +1,24 @@
+{
+  "question": "How many emerging technology firms promoted an innovation officer, and do they correlate with adopting blockchain in their tech stack?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify emerging technology firms that promoted an innovation officer.",
+      "table": [
+        "CompanyDataCenter"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Identify firms that have adopted blockchain in their tech stack.",
+      "table": [
+        "CompanyDataCenter"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Determine the correlation between the two lists.",
+      "table": []
+    }
+  ]
+}

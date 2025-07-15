@@ -1,0 +1,26 @@
+{
+  "question": "What developments in augmented reality platforms are outlined in industry evolution trajectories?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Extract information on augmented reality platforms from the PersonaLinkedinActivity table.",
+      "table": [
+        "PersonaLinkedinActivity"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Identify industry evolution trajectories related to these platforms.",
+      "table": [
+        "PersonaLinkedinActivity"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "List the developments outlined in these trajectories.",
+      "table": [
+        "PersonaLinkedinActivity"
+      ]
+    }
+  ]
+}

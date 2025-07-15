@@ -1,0 +1,26 @@
+{
+  "question": "What leadership changes have occurred at companies heavily investing in 5G technologies, and how have these changes been communicated on social media?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies heavily investing in 5G technologies.",
+      "table": [
+        "CompanyVendorProductDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Determine leadership changes at these companies.",
+      "table": [
+        "PersonaMisc"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze how these leadership changes have been communicated on social media.",
+      "table": [
+        "SocialMediaInfo"
+      ]
+    }
+  ]
+}

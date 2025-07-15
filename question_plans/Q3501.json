@@ -1,0 +1,26 @@
+{
+  "question": "Which companies significantly increased their Facebook page engagement after announcing new data center integrations?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies with increased Facebook page engagement",
+      "table": [
+        "CompanyManagementDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Find companies that announced new data center integrations",
+      "table": [
+        "CompanyManagementDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Combine results to find companies meeting both criteria",
+      "table": [
+        "CompanyManagementDetail"
+      ]
+    }
+  ]
+}

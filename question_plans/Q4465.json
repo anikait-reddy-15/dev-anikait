@@ -1,0 +1,26 @@
+{
+  "question": "How do leadership perspectives differ in promoting efficiency within decentralized operating models?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Retrieve leadership perspectives on decentralized operating models.",
+      "table": [
+        "PersonaTitle"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Identify key themes related to promoting efficiency.",
+      "table": [
+        "LookUpValue"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Compare different leadership perspectives on efficiency promotion.",
+      "table": [
+        "PersonaTitle"
+      ]
+    }
+  ]
+}

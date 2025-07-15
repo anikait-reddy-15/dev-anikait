@@ -1,0 +1,27 @@
+{
+  "question": "How has the hiring trend in IT roles correlated with the tech stack updates over the past year?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Extract hiring trends in IT roles over the past year.",
+      "table": [
+        "PersonaMisc"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Identify tech stack updates over the past year.",
+      "table": [
+        "PersonaTitle"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the correlation between hiring trends and tech stack updates.",
+      "table": [
+        "PersonaMisc",
+        "PersonaTitle"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "question": "How does a company's focus on digital transformation reflect in its leadership communications?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies focusing on digital transformation from the CompanyITPartnerDetail table.",
+      "table": [
+        "CompanyITPartnerDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract leadership communications related to these companies from the SectionInfo table.",
+      "table": [
+        "SectionInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze how the focus on digital transformation is reflected in these communications.",
+      "table": [
+        "SectionInfo"
+      ]
+    }
+  ]
+}

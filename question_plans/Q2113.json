@@ -1,0 +1,26 @@
+{
+  "question": "What are the key IT trends discussed by companies with a strong presence in the automotive industry?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies with a strong presence in the automotive industry.",
+      "table": [
+        "CompanyVendorTechDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Find key IT trends discussed by these companies.",
+      "table": [
+        "CompanyVendorTechDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Combine results to link companies with their discussed IT trends.",
+      "table": [
+        "CompanyVendorTechDetail"
+      ]
+    }
+  ]
+}

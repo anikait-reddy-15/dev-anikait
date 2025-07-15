@@ -1,21 +1,27 @@
 {
   "question": "Which companies are experiencing leadership transitions and are also expanding their hiring for data analytics positions?",
-  "tables": ["CompanyManagementDetail", "CompanyHiringDetail"],
   "subtasks": [
     {
       "step": 1,
       "task": "Identify companies currently experiencing leadership transitions.",
-      "table": ["CompanyManagementDetail"]
+      "table": [
+        "CompanyManagementDetail"
+      ]
     },
     {
       "step": 2,
       "task": "Find companies that are expanding their hiring for data analytics positions.",
-      "table": ["CompanyHiringDetail"]
+      "table": [
+        "CompanyHiringDetail"
+      ]
     },
     {
       "step": 3,
       "task": "Cross-reference the two lists to find companies that meet both criteria.",
-      "table": ["CompanyManagementDetail", "CompanyHiringDetail"]
+      "table": [
+        "CompanyManagementDetail",
+        "CompanyHiringDetail"
+      ]
     }
   ]
 }

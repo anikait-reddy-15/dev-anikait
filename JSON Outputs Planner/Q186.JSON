@@ -1,6 +1,5 @@
 {
   "question": "What recent trends have been highlighted by leaders in companies that have adopted a multi-cloud strategy?",
-  "tables": ["CompanyLeadershipExcerpt", "CompanyTechStack"],
   "subtasks": [
     {
       "step": 1,

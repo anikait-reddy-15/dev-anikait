@@ -1,21 +1,26 @@
 {
   "question": "What insights do leadership excerpts provide about the technology investments being made by companies that have increased their hiring of data science professionals?",
-  "tables": ["CompanyLeadershipExcerpt", "CompanyHiringDetail"],
   "subtasks": [
     {
       "step": 1,
       "task": "Identify companies increasing hiring of data science professionals. [CompanyHiringDetail]",
-      "table": ["CompanyHiringDetail"]
+      "table": [
+        "CompanyHiringDetail"
+      ]
     },
     {
       "step": 2,
       "task": "Gather leadership excerpts from these companies. [CompanyLeadershipExcerpt]",
-      "table": ["CompanyLeadershipExcerpt"]
+      "table": [
+        "CompanyLeadershipExcerpt"
+      ]
     },
     {
       "step": 3,
       "task": "Analyze excerpts for insights into technology investments. [CompanyLeadershipExcerpt]",
-      "table": ["CompanyLeadershipExcerpt"]
+      "table": [
+        "CompanyLeadershipExcerpt"
+      ]
     }
   ]
 }

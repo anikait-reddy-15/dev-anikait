@@ -1,0 +1,26 @@
+{
+  "question": "Which technology leaders have mentioned cloud computing prominently in their LinkedIn posts?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify technology leaders from the PersonaTwitterTweets table.",
+      "table": [
+        "PersonaTwitterTweets"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Filter these leaders to find those who have mentioned cloud computing prominently in their LinkedIn posts.",
+      "table": [
+        "PersonaTwitterTweets"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "List the names of these technology leaders.",
+      "table": [
+        "PersonaTwitterTweets"
+      ]
+    }
+  ]
+}

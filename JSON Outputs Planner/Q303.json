@@ -1,21 +1,27 @@
 {
   "question": "What patterns can be observed in the LinkedIn activity of leaders at companies that have ramped up their hiring for data analytics positions?",
-  "tables": ["PersonaLinkedinActivity", "CompanyHiringDetail", "CompanyLeadershipExcerpt"],
   "subtasks": [
     {
       "step": 1,
       "task": "Identify companies that have ramped up hiring for data analytics positions. [CompanyHiringDetail]",
-      "table": ["CompanyHiringDetail"]
+      "table": [
+        "CompanyHiringDetail"
+      ]
     },
     {
       "step": 2,
       "task": "Gather LinkedIn activity data of leaders at these companies. [PersonaLinkedinActivity, CompanyLeadershipExcerpt]",
-      "table": ["PersonaLinkedinActivity", "CompanyLeadershipExcerpt"]
+      "table": [
+        "PersonaLinkedinActivity",
+        "CompanyLeadershipExcerpt"
+      ]
     },
     {
       "step": 3,
       "task": "Analyze the LinkedIn activity data to identify observable patterns. [PersonaLinkedinActivity]",
-      "table": ["PersonaLinkedinActivity"]
+      "table": [
+        "PersonaLinkedinActivity"
+      ]
     }
   ]
 }

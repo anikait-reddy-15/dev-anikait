@@ -1,0 +1,26 @@
+{
+  "question": "How are companies expanding their IT service vendor relationships impacting their market performance?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies expanding their IT service vendor relationships.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract market performance data for these companies.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the impact of vendor relationship expansion on market performance.",
+      "table": [
+        "PersonaMisc"
+      ]
+    }
+  ]
+}

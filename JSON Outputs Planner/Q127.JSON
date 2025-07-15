@@ -1,6 +1,5 @@
 {
   "question": "Which leaders focus on integrating innovative technologies in their company's strategic plans as indicated by leadership excerpts?",
-  "tables": ["CompanyLeadershipExcerpt", "CompanyFocusAreaDetail"],
   "subtasks": [
     {
       "step": 1,

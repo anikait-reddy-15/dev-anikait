@@ -1,0 +1,27 @@
+{
+  "question": "How is company participation in technology partnerships reported in public leadership comments?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify company participation in technology partnerships from the CompanyITPartnerDetail table.",
+      "table": [
+        "CompanyITPartnerDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract public leadership comments from the SectionInfo table.",
+      "table": [
+        "SectionInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze how these partnerships are reported in leadership comments.",
+      "table": [
+        "CompanyITPartnerDetail",
+        "SectionInfo"
+      ]
+    }
+  ]
+}

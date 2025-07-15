@@ -1,6 +1,5 @@
 {
   "question": "In which LinkedIn posts did Rafael Jabur Bittar discuss partnerships for technological innovation?",
-  "tables": ["PersonaLinkedinPost", "CompanyInfo"],
   "subtasks": [
     {
       "step": 1,

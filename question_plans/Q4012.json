@@ -1,0 +1,26 @@
+{
+  "question": "How often are digital transformation initiatives discussed in leadership excerpts from energy sector firms?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify energy sector firms.",
+      "table": [
+        "PersonaTitle"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract leadership excerpts from these firms.",
+      "table": [
+        "PersonaTitle"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Count mentions of digital transformation initiatives in these excerpts.",
+      "table": [
+        "PersonaTitle"
+      ]
+    }
+  ]
+}

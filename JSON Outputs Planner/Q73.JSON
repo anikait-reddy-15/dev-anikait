@@ -1,6 +1,5 @@
 {
   "question": "What technologies were highlighted in LPL Financial's recent videos?",
-  "tables": ["CompanyYoutubeDetail", "SectionData"],
   "subtasks": [
     {
       "step": 1,

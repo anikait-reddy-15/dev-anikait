@@ -1,0 +1,24 @@
+{
+  "question": "What companies included blockchain in their technology stack right after signing deals with new analytics vendors?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies that signed deals with new analytics vendors.",
+      "table": [
+        "CompanyDataCenter"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Find companies that included blockchain in their tech stack.",
+      "table": [
+        "CompanyDataCenter"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Determine the sequence of events to find companies meeting both criteria.",
+      "table": []
+    }
+  ]
+}

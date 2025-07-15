@@ -1,21 +1,27 @@
 {
   "question": "Which companies have promoted data-driven decision-making through recent executive appointments and have engaged in high-volume Twitter activity?",
-  "tables": ["CompanyManagementDetail", "CompanyTwitterDetail"],
   "subtasks": [
     {
       "step": 1,
       "task": "Identify companies that have made recent executive appointments promoting data-driven decision-making. [CompanyManagementDetail]",
-      "table": ["CompanyManagementDetail"]
+      "table": [
+        "CompanyManagementDetail"
+      ]
     },
     {
       "step": 2,
       "task": "Gather data on Twitter activity for these companies to assess engagement levels. [CompanyTwitterDetail]",
-      "table": ["CompanyTwitterDetail"]
+      "table": [
+        "CompanyTwitterDetail"
+      ]
     },
     {
       "step": 3,
       "task": "Analyze the correlation between executive appointments and Twitter activity. [CompanyManagementDetail, CompanyTwitterDetail]",
-      "table": ["CompanyManagementDetail", "CompanyTwitterDetail"]
+      "table": [
+        "CompanyManagementDetail",
+        "CompanyTwitterDetail"
+      ]
     }
   ]
 }

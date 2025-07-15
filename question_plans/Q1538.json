@@ -1,0 +1,27 @@
+{
+  "question": "Which organizations have advanced their Twitter content regarding IT developments and simultaneously upgraded database technologies?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify organizations that have advanced their Twitter content regarding IT developments.",
+      "table": [
+        "CompanyFacebookDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Determine which of these organizations have upgraded their database technologies.",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Combine results to find organizations meeting both criteria.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyHiringDetail"
+      ]
+    }
+  ]
+}

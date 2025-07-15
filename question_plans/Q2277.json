@@ -1,0 +1,26 @@
+{
+  "question": "Which content creators are recognized for curating business strategies on digital resilience?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify content creators.",
+      "table": [
+        "PersonaUser"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract curated business strategies.",
+      "table": [
+        "PersonaUser"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze strategies focused on digital resilience.",
+      "table": [
+        "PersonaUser"
+      ]
+    }
+  ]
+}

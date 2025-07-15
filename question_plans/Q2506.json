@@ -1,0 +1,26 @@
+{
+  "question": "Which companies have both increased their IT partnerships and mentioned OpenAI technology in their tech stack?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies that have increased their IT partnerships.",
+      "table": [
+        "PersonaLinkedInProfile"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Identify companies mentioning OpenAI technology in their tech stack.",
+      "table": [
+        "PersonaLinkedInProfile"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Find companies that meet both criteria: increased IT partnerships and OpenAI in tech stack.",
+      "table": [
+        "PersonaLinkedInProfile"
+      ]
+    }
+  ]
+}

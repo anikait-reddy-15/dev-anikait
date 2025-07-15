@@ -1,0 +1,26 @@
+{
+  "question": "Which industry trends influence companies working with big data vendors and are expanding internationally?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies working with big data vendors from CompanyYoutubeDetail.",
+      "table": [
+        "CompanyYoutubeDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Filter companies that are expanding internationally.",
+      "table": [
+        "CompanyYoutubeDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Determine the industry trends influencing these companies.",
+      "table": [
+        "CompanyYoutubeDetail"
+      ]
+    }
+  ]
+}

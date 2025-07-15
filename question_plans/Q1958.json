@@ -1,0 +1,26 @@
+{
+  "question": "Which companies have updated their data centers alongside a growing interest in machine learning tech stacks?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies with updated data centers.",
+      "table": [
+        "CompanyYoutubeDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Identify companies with a growing interest in machine learning tech stacks.",
+      "table": [
+        "CompanyYoutubeDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Determine overlap between companies updating data centers and those interested in machine learning.",
+      "table": [
+        "CompanyYoutubeDetail"
+      ]
+    }
+  ]
+}

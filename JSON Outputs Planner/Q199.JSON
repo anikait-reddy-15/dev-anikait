@@ -1,6 +1,5 @@
 {
   "question": "Which companies are using cloud platforms in their tech stack that recently hired for data science-related roles?",
-  "tables": ["CompanyTechStack", "CompanyHiringDetail", "CompanyInfo"],
   "subtasks": [
     {
       "step": 1,

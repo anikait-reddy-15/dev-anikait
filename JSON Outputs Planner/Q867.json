@@ -1,21 +1,27 @@
 {
   "question": "Which companies have integrated AI in CRM platforms to personalize customer journeys and drive engagement?",
-  "tables": ["CompanyFocusAreaDetail", "CompanyVendorTechDetail"],
   "subtasks": [
     {
       "step": 1,
       "task": "Identify companies using AI for customer personalization and engagement.",
-      "table": ["CompanyFocusAreaDetail"]
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
     },
     {
       "step": 2,
       "task": "Filter for integration with CRM platforms.",
-      "table": ["CompanyVendorTechDetail"]
+      "table": [
+        "CompanyVendorTechDetail"
+      ]
     },
     {
       "step": 3,
       "task": "Match companies with AI-enabled CRM personalization.",
-      "table": ["CompanyFocusAreaDetail", "CompanyVendorTechDetail"]
+      "table": [
+        "CompanyFocusAreaDetail",
+        "CompanyVendorTechDetail"
+      ]
     }
   ]
 }

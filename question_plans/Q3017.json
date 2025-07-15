@@ -1,0 +1,26 @@
+{
+  "question": "Which vendors are supplying machine learning platforms to businesses expanding their cloud infrastructure?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify businesses expanding their cloud infrastructure.",
+      "table": [
+        "CompanyManagementDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Identify vendors supplying machine learning platforms to the businesses identified in step 1.",
+      "table": [
+        "CompanyManagementDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "List vendors supplying machine learning platforms to these businesses.",
+      "table": [
+        "CompanyManagementDetail"
+      ]
+    }
+  ]
+}

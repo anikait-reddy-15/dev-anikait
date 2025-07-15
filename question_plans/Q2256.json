@@ -1,0 +1,26 @@
+{
+  "question": "How do organizations adjust vision statements to reflect innovation in AI development?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Extract vision statements from organizations.",
+      "table": [
+        "CompanyVendorTechDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Identify mentions of AI development within these vision statements.",
+      "table": [
+        "CompanyVendorTechDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze adjustments made to vision statements to incorporate AI innovation.",
+      "table": [
+        "CompanyVendorTechDetail"
+      ]
+    }
+  ]
+}

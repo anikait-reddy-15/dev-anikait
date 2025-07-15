@@ -1,0 +1,24 @@
+{
+  "question": "Which companies detected in Instagram analytics have refocused on internet-of-things solutions strategy lately?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Extract Instagram analytics data for companies.",
+      "table": [
+        "SocialMediaInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Identify companies refocusing on IoT solutions strategy.",
+      "table": [
+        "CompanyTwitterDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Determine which companies from Instagram analytics are refocusing on IoT.",
+      "table": []
+    }
+  ]
+}

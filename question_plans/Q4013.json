@@ -1,0 +1,27 @@
+{
+  "question": "Which organizations have leveraged new IT partners to support AI technologies?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify organizations with new IT partners.",
+      "table": [
+        "PersonaMisc"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Find organizations involved in AI technologies.",
+      "table": [
+        "PersonaTitle"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Determine which organizations meet both criteria.",
+      "table": [
+        "PersonaMisc",
+        "PersonaTitle"
+      ]
+    }
+  ]
+}

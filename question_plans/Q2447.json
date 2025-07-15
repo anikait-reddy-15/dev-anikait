@@ -1,0 +1,26 @@
+{
+  "question": "What are the latest strategies recorded in Instagram posts about the use of machine vision technology?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Extract Instagram posts mentioning machine vision technology.",
+      "table": [
+        "CompanyYoutubeDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Identify the latest strategies discussed in these posts.",
+      "table": [
+        "CompanyYoutubeDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Summarize the strategies related to machine vision technology.",
+      "table": [
+        "CompanyYoutubeDetail"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "question": "Who are the prominent business leaders using Instagram to communicate strategies on innovation?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify business leaders active on Instagram.",
+      "table": [
+        "PersonaTitle"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract content related to innovation strategies from their Instagram posts.",
+      "table": [
+        "PersonaTitle"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Highlight leaders based on the influence and reach of their innovation strategies.",
+      "table": [
+        "LookUpValue"
+      ]
+    }
+  ]
+}

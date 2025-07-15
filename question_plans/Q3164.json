@@ -1,0 +1,26 @@
+{
+  "question": "What communication patterns on new IT developments are revealed from recent executive speeches?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Extract recent executive speeches from available data.",
+      "table": [
+        "CompanyTwitterDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Identify sections of these speeches that discuss new IT developments.",
+      "table": [
+        "CompanyTwitterDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the communication patterns used in these sections.",
+      "table": [
+        "CompanyTwitterDetail"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "question": "How many organizations have transitioned supported cloud solutions and shared such transitions with leadership insight on YouTube?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify organizations that have transitioned to supported cloud solutions.",
+      "table": [
+        "SectionInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract leadership insights shared on YouTube regarding these transitions.",
+      "table": [
+        "SectionTitle"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Count the organizations sharing these transitions with leadership insights.",
+      "table": [
+        "CompanyDealMaster"
+      ]
+    }
+  ]
+}

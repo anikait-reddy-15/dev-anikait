@@ -1,0 +1,26 @@
+{
+  "question": "What technology vendors are commonly engaged by telecom companies with expanded data center footprints?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify telecom companies from SocialMediaInfo.",
+      "table": [
+        "SocialMediaInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Check for expanded data center footprints.",
+      "table": [
+        "SocialMediaInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "List commonly engaged technology vendors by these companies.",
+      "table": [
+        "SocialMediaInfo"
+      ]
+    }
+  ]
+}

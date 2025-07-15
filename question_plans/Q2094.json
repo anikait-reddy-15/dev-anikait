@@ -1,0 +1,26 @@
+{
+  "question": "How have localized IoT innovations featured in Twitter dialogues reshaped competitive practices?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Extract Twitter dialogues about IoT innovations from the SocialMediaInfo table.",
+      "table": [
+        "SocialMediaInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Identify localized IoT innovations mentioned in these dialogues.",
+      "table": [
+        "SocialMediaInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze how these innovations have reshaped competitive practices.",
+      "table": [
+        "SocialMediaInfo"
+      ]
+    }
+  ]
+}

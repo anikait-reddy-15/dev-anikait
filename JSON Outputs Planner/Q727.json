@@ -1,21 +1,26 @@
 {
   "question": "What cloud strategies are being discussed in leadership interviews of companies migrating from legacy systems?",
-  "tables": ["CompanyLeadershipExcerpt", "CompanyTechStack"],
   "subtasks": [
     {
       "step": 1,
       "task": "Identify companies migrating from legacy systems.",
-      "table": ["CompanyTechStack"]
+      "table": [
+        "CompanyTechStack"
+      ]
     },
     {
       "step": 2,
       "task": "Extract leadership interviews from those companies.",
-      "table": ["CompanyLeadershipExcerpt"]
+      "table": [
+        "CompanyLeadershipExcerpt"
+      ]
     },
     {
       "step": 3,
       "task": "Analyze cloud strategy themes from leadership excerpts.",
-      "table": ["CompanyLeadershipExcerpt"]
+      "table": [
+        "CompanyLeadershipExcerpt"
+      ]
     }
   ]
 }

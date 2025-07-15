@@ -1,0 +1,26 @@
+{
+  "question": "How do new joint ventures map to industry tech trends in clean energy development?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify new joint ventures in clean energy",
+      "table": [
+        "CompanyITPartnerDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract industry tech trends related to clean energy",
+      "table": [
+        "CompanyITPartnerDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Map these joint ventures to the identified tech trends",
+      "table": [
+        "CompanyITPartnerDetail"
+      ]
+    }
+  ]
+}

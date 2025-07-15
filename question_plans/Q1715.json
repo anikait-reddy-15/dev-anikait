@@ -1,0 +1,26 @@
+{
+  "question": "Who are the top social media influencers discussing fintech innovations on YouTube and are linked to financial companies?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify top social media influencers on YouTube.",
+      "table": [
+        "PersonaYoutubeProfile"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Filter influencers discussing fintech innovations.",
+      "table": [
+        "PersonaYoutubeProfile"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Find influencers linked to financial companies.",
+      "table": [
+        "PersonaYoutubeProfile"
+      ]
+    }
+  ]
+}

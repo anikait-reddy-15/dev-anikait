@@ -1,0 +1,27 @@
+{
+  "question": "What are the social media strategies of companies implementing major tech stack upgrades?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies implementing major tech stack upgrades.",
+      "table": [
+        "CompanyVendorProductDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract social media strategies of these companies.",
+      "table": [
+        "PersonaMisc"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the social media strategies in the context of tech upgrades.",
+      "table": [
+        "PersonaMisc",
+        "CompanyVendorProductDetail"
+      ]
+    }
+  ]
+}

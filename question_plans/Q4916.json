@@ -1,0 +1,24 @@
+{
+  "question": "What are the observable technology adoption trends among companies undergoing major shifts in executive management?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies undergoing major shifts in executive management.",
+      "table": [
+        "SectionTitle"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Find technology adoption trends for these companies.",
+      "table": [
+        "CompanyDataCenter"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze and compile observable trends.",
+      "table": []
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "question": "Which sectors are companies entering through new vendor product deals, especially those recently expanding their data centers?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies with recent data center expansions from the IndustryITTrend table.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract information about new vendor product deals from the PersonaUser table.",
+      "table": [
+        "PersonaUser"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Determine the sectors these companies are entering through these deals.",
+      "table": [
+        "PersonaUser"
+      ]
+    }
+  ]
+}

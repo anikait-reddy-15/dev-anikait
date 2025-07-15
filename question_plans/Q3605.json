@@ -1,0 +1,26 @@
+{
+  "question": "What posts from \"Chief Technology Officer\" personas have highlighted the need for cybersecurity improvements in organizations focused on financial services?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify posts from \"Chief Technology Officer\" personas.",
+      "table": [
+        "PersonaTitle"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Filter posts highlighting the need for cybersecurity improvements.",
+      "table": [
+        "PersonaYoutubeProfile"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Match these posts to organizations focused on financial services.",
+      "table": [
+        "IndustryBusinessTrend"
+      ]
+    }
+  ]
+}

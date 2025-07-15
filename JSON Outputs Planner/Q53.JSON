@@ -1,6 +1,5 @@
 {
   "question": "Who are the independent directors at HDFC Bank focusing on financial reforms?",
-  "tables": ["PersonaUser", "PersonaTitle", "CompanyInfo"],
   "subtasks": [
     {
       "step": 1,

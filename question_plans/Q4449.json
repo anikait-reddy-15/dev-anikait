@@ -1,0 +1,26 @@
+{
+  "question": "Which technology deals are being inked by companies following an uptick in Instagram marketing?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies with increased Instagram marketing activity.",
+      "table": [
+        "LookUpValue"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract technology deals involving these companies.",
+      "table": [
+        "CompanyDataCenter"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Match technology deals to companies with increased Instagram marketing.",
+      "table": [
+        "CompanyDataCenter"
+      ]
+    }
+  ]
+}

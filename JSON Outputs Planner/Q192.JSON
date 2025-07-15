@@ -1,6 +1,5 @@
 {
   "question": "How do the social media engagement levels of companies align with their recent hiring for IT positions?",
-  "tables": ["CompanyTwitterDetail", "CompanyHiringDetail"],
   "subtasks": [
     {
       "step": 1,

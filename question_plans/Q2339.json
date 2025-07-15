@@ -1,0 +1,26 @@
+{
+  "question": "Which firms have announced new data centers this calendar year and published YouTube videos on cloud infrastructure?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify firms that have announced new data centers this calendar year.",
+      "table": [
+        "SectionInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Find firms that have published YouTube videos on cloud infrastructure.",
+      "table": [
+        "SectionInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Cross-reference the firms from both criteria.",
+      "table": [
+        "SectionInfo"
+      ]
+    }
+  ]
+}

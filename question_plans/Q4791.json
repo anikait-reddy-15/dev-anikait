@@ -1,0 +1,26 @@
+{
+  "question": "What external partnerships are pivotal in advancing smart city projects within the technology landscape?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify smart city projects within the technology landscape.",
+      "table": [
+        "IndustryBusinessTrend"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract details of external partnerships involved in these projects.",
+      "table": [
+        "CompanyVendorTechDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Determine which partnerships are pivotal for project advancement.",
+      "table": [
+        "CompanyVendorTechDetail"
+      ]
+    }
+  ]
+}

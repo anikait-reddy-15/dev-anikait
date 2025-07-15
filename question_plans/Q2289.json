@@ -1,0 +1,26 @@
+{
+  "question": "How do educational tech outreach programs align with corporate social responsibility goals?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Extract information on educational tech outreach programs.",
+      "table": [
+        "SectionInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Identify corporate social responsibility goals related to these programs.",
+      "table": [
+        "SectionInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the alignment between the outreach programs and CSR goals.",
+      "table": [
+        "SectionInfo"
+      ]
+    }
+  ]
+}

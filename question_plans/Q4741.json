@@ -1,0 +1,26 @@
+{
+  "question": "How does the network of senior management influence a company\u2019s standing as reflected in their LinkedIn profiles?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify the network connections of senior management.",
+      "table": [
+        "CompanyVendorTechDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Analyze the influence of these connections on the company's standing.",
+      "table": [
+        "IndustryBusinessTrend"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Cross-reference the influence with LinkedIn profile data.",
+      "table": [
+        "CompanyTechStack"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "question": "What recent Twitter content has been shared by CTOs of companies heavily investing in 5G technologies?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies heavily investing in 5G technologies.",
+      "table": [
+        "PersonaTitle"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract recent Twitter content shared by CTOs of these companies.",
+      "table": [
+        "PersonaTitle"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the content shared by these CTOs.",
+      "table": [
+        "PersonaTitle"
+      ]
+    }
+  ]
+}

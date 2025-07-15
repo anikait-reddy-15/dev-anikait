@@ -1,6 +1,5 @@
 {
   "question": "What social media platforms are most used by companies to showcase their hiring needs in data science?",
-  "tables": ["CompanySocialMediaInfo", "CompanyHiringDetail"],
   "subtasks": [
     {
       "step": 1,

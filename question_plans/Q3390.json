@@ -1,0 +1,26 @@
+{
+  "question": "How are comprehensive digital strategies evolving in companies shifting to e-commerce?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies shifting to e-commerce.",
+      "table": [
+        "CompanyVendorProductDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Analyze the evolution of their digital strategies.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Summarize changes in digital strategies for these companies.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    }
+  ]
+}

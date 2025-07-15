@@ -1,0 +1,27 @@
+{
+  "question": "What synchronized changes occur when leaders plan updates to digitized customer engagement strategies?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify planned updates to digitized customer engagement strategies.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract synchronized changes occurring with these updates.",
+      "table": [
+        "CompanyManagementDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the nature of synchronized changes with strategy updates.",
+      "table": [
+        "CompanyFocusAreaDetail",
+        "CompanyManagementDetail"
+      ]
+    }
+  ]
+}

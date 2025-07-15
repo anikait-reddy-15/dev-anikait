@@ -1,0 +1,26 @@
+{
+  "question": "Which companies focused on IoT innovations have recently adjusted their social media content strategy?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies focused on IoT innovations.",
+      "table": [
+        "PersonaMisc"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Retrieve recent adjustments in social media content strategy for these companies.",
+      "table": [
+        "CompanyInstagramDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Determine which companies have adjusted their social media content strategy.",
+      "table": [
+        "CompanyInstagramDetail"
+      ]
+    }
+  ]
+}

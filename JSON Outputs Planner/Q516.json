@@ -1,21 +1,27 @@
 {
   "question": "What are the primary responsibilities of data scientists at companies that have significantly increased their technology investments this year?",
-  "tables": ["PersonaUser", "CompanyManagementDetail", "CompanyTechStack"],
   "subtasks": [
     {
       "step": 1,
       "task": "Identify companies that have significantly increased their technology investments this year. [CompanyTechStack]",
-      "table": ["CompanyTechStack"]
+      "table": [
+        "CompanyTechStack"
+      ]
     },
     {
       "step": 2,
       "task": "Filter companies to find those that employ data scientists. [CompanyManagementDetail, PersonaUser]",
-      "table": ["CompanyManagementDetail", "PersonaUser"]
+      "table": [
+        "CompanyManagementDetail",
+        "PersonaUser"
+      ]
     },
     {
       "step": 3,
       "task": "Extract primary responsibilities of data scientists in those firms. [PersonaUser]",
-      "table": ["PersonaUser"]
+      "table": [
+        "PersonaUser"
+      ]
     }
   ]
 }

@@ -1,16 +1,19 @@
 {
   "question": "Which companies have signed deals with AI technology vendors in the last six months?",
-  "tables": ["CompanyDealMaster"],
   "subtasks": [
     {
       "step": 1,
       "task": "Identify deals signed with AI technology vendors in the last six months.",
-      "table": ["CompanyDealMaster"]
+      "table": [
+        "CompanyDealMaster"
+      ]
     },
     {
       "step": 2,
       "task": "List companies involved in these deals.",
-      "table": ["CompanyDealMaster"]
+      "table": [
+        "CompanyDealMaster"
+      ]
     }
   ]
 }

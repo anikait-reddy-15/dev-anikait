@@ -1,0 +1,26 @@
+{
+  "question": "What transformative technology deliberations appear repeatedly throughout major vendor conjunctions?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify major vendor conjunctions from company details.",
+      "table": [
+        "CompanyTwitterDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract transformative technology deliberations from these conjunctions.",
+      "table": [
+        "SocialMediaInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze which deliberations appear repeatedly.",
+      "table": [
+        "CompanyTwitterDetail"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "question": "How have companies responded to fast-changing cybersecurity threats with new IT strategies?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify mentions of cybersecurity threats in the data.",
+      "table": [
+        "CompanyITPartnerDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract information on new IT strategies adopted in response to these threats.",
+      "table": [
+        "CompanyITPartnerDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the effectiveness of these strategies in addressing cybersecurity threats.",
+      "table": [
+        "CompanyITPartnerDetail"
+      ]
+    }
+  ]
+}

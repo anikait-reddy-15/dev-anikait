@@ -1,0 +1,26 @@
+{
+  "question": "Who are the primary IT decision-makers in companies that have adopted zero-trust security models this year?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies that have adopted zero-trust security models this year.",
+      "table": [
+        "CompanyVendorProductDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Determine the primary IT decision-makers in these companies.",
+      "table": [
+        "PersonaMisc"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "List the primary IT decision-makers for these companies.",
+      "table": [
+        "PersonaMisc"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "question": "Who are the declared forethought leaders impacting different sectors represented in trending tweets by major consultants?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify forethought leaders from the PersonaTwitterProfile table.",
+      "table": [
+        "PersonaTwitterProfile"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract trending tweets by major consultants from the PersonaTwitterProfile table.",
+      "table": [
+        "PersonaTwitterProfile"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Determine leaders impacting different sectors based on these tweets.",
+      "table": [
+        "PersonaTwitterProfile"
+      ]
+    }
+  ]
+}

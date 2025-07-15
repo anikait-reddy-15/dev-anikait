@@ -1,0 +1,26 @@
+{
+  "question": "How do personnel changes impact the strategic direction toward immersive technologies?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify personnel changes within companies.",
+      "table": [
+        "CompanyManagementDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Determine companies focusing on immersive technologies.",
+      "table": [
+        "SectionInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the impact of personnel changes on strategies for immersive technologies.",
+      "table": [
+        "PersonaMisc"
+      ]
+    }
+  ]
+}

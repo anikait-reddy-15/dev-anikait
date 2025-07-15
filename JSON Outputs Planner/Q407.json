@@ -1,21 +1,28 @@
 {
   "question": "Who are the influential leaders at organizations that have engaged in vendor deals promoting machine learning technologies?",
-  "tables": ["PersonaUser", "CompanyDealMaster", "CompanyLeadershipExcerpt"],
   "subtasks": [
     {
       "step": 1,
       "task": "Identify organizations that have engaged in vendor deals for machine learning technologies. [CompanyDealMaster]",
-      "table": ["CompanyDealMaster"]
+      "table": [
+        "CompanyDealMaster"
+      ]
     },
     {
       "step": 2,
       "task": "Extract influential leaders from the identified organizations. [CompanyLeadershipExcerpt]",
-      "table": ["CompanyLeadershipExcerpt"]
+      "table": [
+        "CompanyLeadershipExcerpt"
+      ]
     },
     {
       "step": 3,
       "task": "Match the influential leaders with the organizations involved in machine learning vendor deals. [PersonaUser, CompanyDealMaster, CompanyLeadershipExcerpt]",
-      "table": ["PersonaUser", "CompanyDealMaster", "CompanyLeadershipExcerpt"]
+      "table": [
+        "PersonaUser",
+        "CompanyDealMaster",
+        "CompanyLeadershipExcerpt"
+      ]
     }
   ]
 }

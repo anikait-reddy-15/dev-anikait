@@ -1,0 +1,26 @@
+{
+  "question": "Which corporates utilize YouTube to highlight revolutionary changes in customer interaction strategies?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify YouTube content related to customer interaction strategies.",
+      "table": [
+        "SectionTitle"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Filter content highlighting revolutionary changes.",
+      "table": [
+        "SectionTitle"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "List corporates using YouTube for these highlights.",
+      "table": [
+        "SectionTitle"
+      ]
+    }
+  ]
+}

@@ -1,6 +1,5 @@
 {
   "question": "What are the key focuses for the IT industry in 2023 based on recent trends?",
-  "tables": ["IndustryITTrend"],
   "subtasks": [
     {
       "step": 1,

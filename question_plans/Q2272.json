@@ -1,0 +1,26 @@
+{
+  "question": "How does persona presence influence public tech sector forecasts among influencer communities?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify personas with influence in tech sector forecasts.",
+      "table": [
+        "PersonaUser"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract data on public tech sector forecasts.",
+      "table": [
+        "PersonaUser"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the influence of persona presence on forecasts.",
+      "table": [
+        "PersonaUser"
+      ]
+    }
+  ]
+}

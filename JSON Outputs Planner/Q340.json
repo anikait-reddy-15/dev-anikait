@@ -1,21 +1,26 @@
 {
   "question": "What are the common technology partners of companies that have undergone leadership changes and are actively hiring for IT roles?",
-  "tables": ["CompanyITPartnerDetail", "CompanyManagementDetail", "CompanyHiringDetail"],
   "subtasks": [
     {
       "step": 1,
       "task": "Identify companies that have undergone leadership changes. [CompanyManagementDetail]",
-      "table": ["CompanyManagementDetail"]
+      "table": [
+        "CompanyManagementDetail"
+      ]
     },
     {
       "step": 2,
       "task": "Filter these companies to find those that are actively hiring for IT roles. [CompanyHiringDetail]",
-      "table": ["CompanyHiringDetail"]
+      "table": [
+        "CompanyHiringDetail"
+      ]
     },
     {
       "step": 3,
       "task": "Retrieve the common technology partners for these companies. [CompanyITPartnerDetail]",
-      "table": ["CompanyITPartnerDetail"]
+      "table": [
+        "CompanyITPartnerDetail"
+      ]
     }
   ]
 }

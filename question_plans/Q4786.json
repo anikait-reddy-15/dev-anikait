@@ -1,0 +1,26 @@
+{
+  "question": "How are companies redefining their software development strategies with agile methodologies\u2019 growing influence?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies adopting agile methodologies.",
+      "table": [
+        "CompanyTechStack"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract details on software development strategies of these companies.",
+      "table": [
+        "CompanyTechStack"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze how agile methodologies are influencing these strategies.",
+      "table": [
+        "CompanyTechStack"
+      ]
+    }
+  ]
+}

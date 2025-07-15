@@ -1,0 +1,26 @@
+{
+  "question": "What are the forecast changes in IT spending due to global economic conditions?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify global economic conditions impacting IT spending.",
+      "table": [
+        "CompanyITPartnerDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract forecast changes in IT spending from the data.",
+      "table": [
+        "CompanyITPartnerDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the correlation between economic conditions and IT spending changes.",
+      "table": [
+        "CompanyITPartnerDetail"
+      ]
+    }
+  ]
+}

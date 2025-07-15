@@ -1,0 +1,26 @@
+{
+  "question": "How many companies have both launched cloud migration initiatives and expanded their IT partner relationships recently?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies that have launched cloud migration initiatives.",
+      "table": [
+        "PersonaMisc"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Identify companies that have expanded their IT partner relationships.",
+      "table": [
+        "PersonaMisc"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Count companies that meet both criteria.",
+      "table": [
+        "PersonaMisc"
+      ]
+    }
+  ]
+}

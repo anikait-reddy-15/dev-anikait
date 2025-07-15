@@ -1,0 +1,26 @@
+{
+  "question": "Who are the emerging data leaders at enterprises adapting new AI methodologies to industry problems?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify enterprises adapting new AI methodologies.",
+      "table": [
+        "CompanyITPartnerDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Find emerging data leaders from the SectionTitle table.",
+      "table": [
+        "SectionTitle"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Determine which leaders are associated with these enterprises.",
+      "table": [
+        "SectionTitle"
+      ]
+    }
+  ]
+}

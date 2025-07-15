@@ -1,0 +1,24 @@
+{
+  "question": "Which companies have added video content related to disruptive technologies on YouTube and are experiencing leadership changes?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies that added video content related to disruptive technologies on YouTube.",
+      "table": [
+        "CompanyYoutubeDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Find companies experiencing leadership changes.",
+      "table": [
+        "CompanyLeadershipExcerpt"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Combine results to find companies meeting both criteria.",
+      "table": []
+    }
+  ]
+}

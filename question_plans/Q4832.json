@@ -1,0 +1,24 @@
+{
+  "question": "What initiatives are tech companies rolling out concerning compliance with evolving tech regulations?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify tech companies focusing on compliance with evolving tech regulations.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract initiatives related to compliance from these companies.",
+      "table": [
+        "SectionTitle"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze and summarize the initiatives.",
+      "table": []
+    }
+  ]
+}

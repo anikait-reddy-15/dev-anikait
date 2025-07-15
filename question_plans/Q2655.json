@@ -1,0 +1,26 @@
+{
+  "question": "Which companies have advanced team collaboration setups influencing their remote work strategies as evident in recent hiring patterns?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies with advanced team collaboration setups.",
+      "table": [
+        "SectionData"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract remote work strategies influenced by these setups.",
+      "table": [
+        "SectionData"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze recent hiring patterns related to these strategies.",
+      "table": [
+        "SectionData"
+      ]
+    }
+  ]
+}

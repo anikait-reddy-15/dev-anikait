@@ -1,0 +1,26 @@
+{
+  "question": "How does the growth trajectory of companies correspond with their focus on AI technologies on Instagram?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies with a focus on AI technologies based on their Instagram posts.",
+      "table": [
+        "SocialMediaInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract growth trajectory data for these companies.",
+      "table": [
+        "CompanyTwitterDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the correspondence between AI focus and growth trajectory.",
+      "table": [
+        "CompanyTwitterDetail"
+      ]
+    }
+  ]
+}

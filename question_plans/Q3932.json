@@ -1,0 +1,26 @@
+{
+  "question": "What insights are gathered on enterprise solutions and business priorities following major data center expansions across different locations?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify major data center expansions across different locations.",
+      "table": [
+        "IndustryBusinessTrend"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract insights on enterprise solutions related to these expansions.",
+      "table": [
+        "IndustryBusinessTrend"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze business priorities following these expansions.",
+      "table": [
+        "IndustryBusinessTrend"
+      ]
+    }
+  ]
+}

@@ -1,21 +1,26 @@
 {
   "question": "What are the common characteristics of personas in companies that are actively seeking data scientists while emphasizing cloud computing in their technology stack?",
-  "tables": ["PersonaUser", "CompanyHiringDetail", "CompanyTechStack"],
   "subtasks": [
     {
       "step": 1,
       "task": "Identify companies actively seeking data scientists",
-      "table": ["CompanyHiringDetail"]
+      "table": [
+        "CompanyHiringDetail"
+      ]
     },
     {
       "step": 2,
       "task": "Gather technology stack data for these companies, focusing on cloud computing",
-      "table": ["CompanyTechStack"]
+      "table": [
+        "CompanyTechStack"
+      ]
     },
     {
       "step": 3,
       "task": "Analyze the personas associated with these companies to identify common characteristics",
-      "table": ["PersonaUser"]
+      "table": [
+        "PersonaUser"
+      ]
     }
   ]
 }

@@ -1,0 +1,27 @@
+{
+  "question": "Which transportation networks forged strategic deals and marked these developments through LinkedIn endorsements?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify transportation networks that have forged strategic deals.",
+      "table": [
+        "CompanyDataCenter"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract LinkedIn endorsements related to these strategic deals.",
+      "table": [
+        "PersonaLinkedInProfile"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Combine data to find transportation networks with both strategic deals and LinkedIn endorsements.",
+      "table": [
+        "CompanyDataCenter",
+        "PersonaLinkedInProfile"
+      ]
+    }
+  ]
+}

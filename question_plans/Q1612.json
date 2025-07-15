@@ -1,0 +1,26 @@
+{
+  "question": "What strategic goals are prevalent among companies with a recent uptick in Facebook interactions?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies with a recent uptick in Facebook interactions.",
+      "table": [
+        "PersonaLinkedInProfile"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract strategic goals of these companies.",
+      "table": [
+        "PersonaTitle"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Summarize the prevalent strategic goals identified.",
+      "table": [
+        "PersonaTitle"
+      ]
+    }
+  ]
+}

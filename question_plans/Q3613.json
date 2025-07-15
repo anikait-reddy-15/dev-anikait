@@ -1,0 +1,26 @@
+{
+  "question": "Among industries undergoing digital transformation, which companies have seen a change in their leadership's public statements?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify industries undergoing digital transformation.",
+      "table": [
+        "IndustryBusinessTrend"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Find companies within these industries.",
+      "table": [
+        "IndustryBusinessTrend"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Determine companies that have seen a change in their leadership's public statements.",
+      "table": [
+        "PersonaTitle"
+      ]
+    }
+  ]
+}

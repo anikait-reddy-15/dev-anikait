@@ -1,0 +1,26 @@
+{
+  "question": "How does artificial intelligence adoption correlate with recent changes in company leadership descriptions?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies adopting artificial intelligence.",
+      "table": [
+        "PersonaLinkedInProfile"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Identify recent changes in company leadership descriptions.",
+      "table": [
+        "PersonaLinkedInProfile"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze correlation between AI adoption and leadership description changes.",
+      "table": [
+        "PersonaLinkedInProfile"
+      ]
+    }
+  ]
+}

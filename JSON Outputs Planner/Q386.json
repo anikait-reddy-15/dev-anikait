@@ -1,26 +1,34 @@
 {
   "question": "Which companies have recently focused on sustainable technology practices in their leadership communication and also increased their hiring for data scientists?",
-  "tables": ["CompanyLeadershipExcerpt", "CompanyFocusAreaDetail", "CompanyHiringDetail"],
   "subtasks": [
     {
       "step": 1,
       "task": "Identify companies that have made statements regarding sustainable technology practices in their leadership communication. [CompanyLeadershipExcerpt]",
-      "table": ["CompanyLeadershipExcerpt"]
+      "table": [
+        "CompanyLeadershipExcerpt"
+      ]
     },
     {
       "step": 2,
       "task": "Filter the identified companies based on their focus area related to sustainability. [CompanyFocusAreaDetail]",
-      "table": ["CompanyFocusAreaDetail"]
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
     },
     {
       "step": 3,
       "task": "Identify companies that have increased hiring for data scientists. [CompanyHiringDetail]",
-      "table": ["CompanyHiringDetail"]
+      "table": [
+        "CompanyHiringDetail"
+      ]
     },
     {
       "step": 4,
       "task": "Cross-reference the companies from leadership communication and hiring data to find overlaps. [CompanyLeadershipExcerpt, CompanyHiringDetail]",
-      "table": ["CompanyLeadershipExcerpt", "CompanyHiringDetail"]
+      "table": [
+        "CompanyLeadershipExcerpt",
+        "CompanyHiringDetail"
+      ]
     }
   ]
 }

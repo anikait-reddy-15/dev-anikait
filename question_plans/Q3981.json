@@ -1,0 +1,26 @@
+{
+  "question": "How is creating social change leveraged by organizational technology transformations, as noted in leadership excerpts?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify leadership excerpts mentioning organizational technology transformations.",
+      "table": [
+        "PersonaTitle"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract excerpts that specifically discuss creating social change.",
+      "table": [
+        "PersonaTitle"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the correlation between social change and technology transformations within these excerpts.",
+      "table": [
+        "PersonaTitle"
+      ]
+    }
+  ]
+}

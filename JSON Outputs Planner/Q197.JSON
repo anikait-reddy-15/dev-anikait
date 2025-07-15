@@ -1,6 +1,5 @@
 {
   "question": "Which leadership figures have expressed their views on the importance of data analytics in shaping strategic business decisions within their companies?",
-  "tables": ["CompanyLeadershipExcerpt", "CompanyInfo"],
   "subtasks": [
     {
       "step": 1,

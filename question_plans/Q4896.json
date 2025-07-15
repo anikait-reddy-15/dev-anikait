@@ -1,0 +1,24 @@
+{
+  "question": "What companies are most vocal about big data initiatives aimed at customer personalization improvements?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies discussing big data initiatives.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Find mentions of customer personalization improvements.",
+      "table": [
+        "PersonaMisc"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "List companies vocal about both big data initiatives and personalization improvements.",
+      "table": []
+    }
+  ]
+}

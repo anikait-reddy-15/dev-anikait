@@ -1,0 +1,26 @@
+{
+  "question": "Which executives discuss sustainability in their Twitter engagements and how does this reflect in their company policies?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify executives discussing sustainability on Twitter.",
+      "table": [
+        "IndustryBusinessTrend"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract company policies related to sustainability.",
+      "table": [
+        "CompanyTechStack"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the reflection of these discussions in company policies.",
+      "table": [
+        "CompanyVendorTechDetail"
+      ]
+    }
+  ]
+}

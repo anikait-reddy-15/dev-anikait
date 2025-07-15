@@ -1,0 +1,26 @@
+{
+  "question": "What key metrics can assess the social workflow of cloud-enabled enterprises?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify cloud-enabled enterprises.",
+      "table": [
+        "CompanyTechStack"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Determine key metrics for assessing social workflow.",
+      "table": [
+        "CompanyTechStack"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Compile and describe the key metrics identified.",
+      "table": [
+        "CompanyTechStack"
+      ]
+    }
+  ]
+}

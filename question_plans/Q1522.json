@@ -1,0 +1,27 @@
+{
+  "question": "Which companies have expanded their LinkedIn content regarding digital transformation and are also increasing cybersecurity measures?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies that have expanded their LinkedIn content regarding digital transformation.",
+      "table": [
+        "CompanyFacebookDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Determine which of these companies are increasing their cybersecurity measures.",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Combine results to find companies meeting both criteria.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyHiringDetail"
+      ]
+    }
+  ]
+}

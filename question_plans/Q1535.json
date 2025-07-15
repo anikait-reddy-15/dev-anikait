@@ -1,0 +1,27 @@
+{
+  "question": "Which enterprises are onboarding new CTOs and simultaneously signing deals for AI-driven vendor solutions?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify enterprises onboarding new CTOs.",
+      "table": [
+        "SectionTitle"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Determine which of these enterprises are signing deals for AI-driven vendor solutions.",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Combine results to find enterprises meeting both criteria.",
+      "table": [
+        "SectionTitle",
+        "CompanyHiringDetail"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "question": "What is the supply trend for computing solutions in early-stage adoption for data monetization companies?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify computing solutions relevant to data monetization companies.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Analyze supply trends for these solutions in early-stage adoption.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Summarize the supply trend data for reporting.",
+      "table": [
+        "CompanyInfo"
+      ]
+    }
+  ]
+}

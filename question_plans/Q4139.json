@@ -1,0 +1,26 @@
+{
+  "question": "Which firms are leading the charge in serverless computing based on recent IT trends data?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify recent IT trends data mentioning serverless computing.",
+      "table": [
+        "SectionTitle"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract firms mentioned in relation to serverless computing.",
+      "table": [
+        "SectionTitle"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "List firms leading in serverless computing.",
+      "table": [
+        "SectionTitle"
+      ]
+    }
+  ]
+}

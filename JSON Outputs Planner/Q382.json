@@ -1,21 +1,27 @@
 {
   "question": "Which companies have emerged as leaders in adopting artificial intelligence technologies following recent leadership changes?",
-  "tables": ["CompanyLeadershipExcerpt", "CompanyTechStack"],
   "subtasks": [
     {
       "step": 1,
       "task": "Identify companies that have undergone recent leadership changes. [CompanyLeadershipExcerpt]",
-      "table": ["CompanyLeadershipExcerpt"]
+      "table": [
+        "CompanyLeadershipExcerpt"
+      ]
     },
     {
       "step": 2,
       "task": "Gather data on the adoption of artificial intelligence technologies by these companies. [CompanyTechStack]",
-      "table": ["CompanyTechStack"]
+      "table": [
+        "CompanyTechStack"
+      ]
     },
     {
       "step": 3,
       "task": "Analyze the relationship between leadership changes and AI technology adoption. [CompanyLeadershipExcerpt, CompanyTechStack]",
-      "table": ["CompanyLeadershipExcerpt", "CompanyTechStack"]
+      "table": [
+        "CompanyLeadershipExcerpt",
+        "CompanyTechStack"
+      ]
     }
   ]
 }

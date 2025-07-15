@@ -1,6 +1,5 @@
 {
   "question": "Which companies have recently invested in big data technologies and have a strong social media presence on platforms like LinkedIn?",
-  "tables": ["CompanyTechStack", "CompanySocialMediaInfo", "CompanyInfo"],
   "subtasks": [
     {
       "step": 1,

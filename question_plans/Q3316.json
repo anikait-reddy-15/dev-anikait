@@ -1,0 +1,26 @@
+{
+  "question": "What are the leading tech solutions implemented by companies that have raised new rounds of funding?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies that have raised new rounds of funding.",
+      "table": [
+        "CompanyVendorProductDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Find tech solutions implemented by these companies.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "List leading tech solutions among these companies.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    }
+  ]
+}

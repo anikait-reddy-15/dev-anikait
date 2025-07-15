@@ -1,0 +1,26 @@
+{
+  "question": "Which companies in the manufacturing sector updated their social media strategies and expanded tech partnerships with relevant vendors?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies in the manufacturing sector.",
+      "table": [
+        "CompanyDataCenter"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Find companies that updated their social media strategies.",
+      "table": [
+        "PersonaYoutubeProfile"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Determine companies that expanded tech partnerships with relevant vendors.",
+      "table": [
+        "SectionInfo"
+      ]
+    }
+  ]
+}

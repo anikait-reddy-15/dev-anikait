@@ -1,0 +1,27 @@
+{
+  "question": "What dynamics are at play between leadership excerpts and IT strategy shifts in retail companies?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify retail companies.",
+      "table": [
+        "CompanyTechStack"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract leadership excerpts related to IT strategy.",
+      "table": [
+        "PersonaTwitterTweets"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the dynamics between leadership excerpts and IT strategy shifts.",
+      "table": [
+        "CompanyTechStack",
+        "PersonaTwitterTweets"
+      ]
+    }
+  ]
+}

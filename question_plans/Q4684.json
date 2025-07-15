@@ -1,0 +1,26 @@
+{
+  "question": "How have competitive pressures shaped the hiring plans for machine learning experts?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify competitive pressures faced by companies.",
+      "table": [
+        "CompanyITPartnerDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract hiring plans related to machine learning experts.",
+      "table": [
+        "CompanyITPartnerDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze how these competitive pressures have influenced the hiring plans.",
+      "table": [
+        "CompanyITPartnerDetail"
+      ]
+    }
+  ]
+}

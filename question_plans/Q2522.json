@@ -1,0 +1,26 @@
+{
+  "question": "Which technological advancements have been adopted by companies led by women leaders?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies led by women leaders.",
+      "table": [
+        "PersonaLinkedInProfile"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract technological advancements mentioned in company profiles.",
+      "table": [
+        "PersonaLinkedInProfile"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Match technological advancements with companies led by women leaders.",
+      "table": [
+        "PersonaLinkedInProfile"
+      ]
+    }
+  ]
+}

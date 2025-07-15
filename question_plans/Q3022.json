@@ -1,0 +1,26 @@
+{
+  "question": "What hiring efforts in cybersecurity roles can be observed in companies with recent digital presence in YouTube?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies with recent digital presence on YouTube.",
+      "table": [
+        "CompanyManagementDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract hiring roles related to cybersecurity from company data.",
+      "table": [
+        "CompanyManagementDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze hiring efforts in cybersecurity roles for companies with YouTube presence.",
+      "table": [
+        "CompanyManagementDetail"
+      ]
+    }
+  ]
+}

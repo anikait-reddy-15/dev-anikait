@@ -1,16 +1,19 @@
 {
   "question": "Who are the leadership figures actively discussing cloud security compliance in interviews?",
-  "tables": ["CompanyLeadershipExcerpt", "CompanyInfo"],
   "subtasks": [
     {
       "step": 1,
       "task": "Identify interviews discussing cloud security compliance.",
-      "table": ["CompanyLeadershipExcerpt"]
+      "table": [
+        "CompanyLeadershipExcerpt"
+      ]
     },
     {
       "step": 2,
       "task": "Extract leadership figures from these interviews.",
-      "table": ["CompanyLeadershipExcerpt"]
+      "table": [
+        "CompanyLeadershipExcerpt"
+      ]
     }
   ]
 }

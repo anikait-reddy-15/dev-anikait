@@ -1,0 +1,26 @@
+{
+  "question": "Which healthcare companies heavily invest in IT solutions addressing patient data protection?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify healthcare companies from the CompanyManagementDetail table.",
+      "table": [
+        "CompanyManagementDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Determine IT solutions related to patient data protection.",
+      "table": [
+        "SectionInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Find healthcare companies investing heavily in these IT solutions.",
+      "table": [
+        "PersonaMisc"
+      ]
+    }
+  ]
+}

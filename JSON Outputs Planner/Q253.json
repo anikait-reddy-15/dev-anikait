@@ -1,21 +1,26 @@
 {
   "question": "Which companies have experienced growth in their tech partnership counts while posting about advancements in data science methodologies?",
-  "tables": ["CompanyITPartnerDetail", "PersonaLinkedinPost", "CompanyInfo"],
   "subtasks": [
     {
       "step": 1,
       "task": "Identify companies that have increased their number of tech partnerships.",
-      "table": ["CompanyITPartnerDetail"]
+      "table": [
+        "CompanyITPartnerDetail"
+      ]
     },
     {
       "step": 2,
       "task": "Extract LinkedIn posts discussing advancements in data science methodologies.",
-      "table": ["PersonaLinkedinPost"]
+      "table": [
+        "PersonaLinkedinPost"
+      ]
     },
     {
       "step": 3,
       "task": "Match companies from both groups to find overlaps.",
-      "table": ["CompanyInfo"]
+      "table": [
+        "CompanyInfo"
+      ]
     }
   ]
 }

@@ -1,0 +1,26 @@
+{
+  "question": "What are the most appreciated company announcements on Instagram related to environmental sustainability practices?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Extract company announcements on Instagram.",
+      "table": [
+        "CompanyTwitterDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Filter announcements related to environmental sustainability practices.",
+      "table": [
+        "CompanyTwitterDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Identify the most appreciated announcements based on interaction metrics.",
+      "table": [
+        "CompanyTwitterDetail"
+      ]
+    }
+  ]
+}

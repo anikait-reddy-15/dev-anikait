@@ -1,0 +1,26 @@
+{
+  "question": "What cybersecurity technologies are being adopted by companies led by new CEOs?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies led by new CEOs.",
+      "table": [
+        "PersonaMisc"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Find cybersecurity technologies adopted by these companies.",
+      "table": [
+        "CompanyVendorProductDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Compile the list of adopted cybersecurity technologies.",
+      "table": [
+        "CompanyVendorProductDetail"
+      ]
+    }
+  ]
+}

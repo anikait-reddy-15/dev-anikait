@@ -1,0 +1,24 @@
+{
+  "question": "Which companies have seen an increase in their Twitter interactions about artificial intelligence and have a known focus on industry trends related to AI?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies with increased Twitter interactions about artificial intelligence.",
+      "table": [
+        "PersonaLinkedinActivity"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Identify companies with a known focus on industry trends related to AI.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Combine results to find companies that meet both criteria.",
+      "table": []
+    }
+  ]
+}

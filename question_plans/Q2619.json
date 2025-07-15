@@ -1,0 +1,27 @@
+{
+  "question": "Which leaders have influenced strategic mergers or acquisitions through their decisions in IT priorities?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify leaders who have made decisions in IT priorities.",
+      "table": [
+        "PersonaTitle"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Find strategic mergers or acquisitions influenced by these decisions.",
+      "table": [
+        "SectionData"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Match leaders to the mergers or acquisitions they influenced.",
+      "table": [
+        "PersonaTitle",
+        "SectionData"
+      ]
+    }
+  ]
+}

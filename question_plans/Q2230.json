@@ -1,0 +1,26 @@
+{
+  "question": "Which leaders have contextualized their company's IT transformation journey in conference speeches?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Extract leadership excerpts related to IT transformation.",
+      "table": [
+        "CompanyVendorTechDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Identify mentions of conference speeches within these excerpts.",
+      "table": [
+        "CompanyVendorTechDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "List leaders who have contextualized their IT transformation journey in speeches.",
+      "table": [
+        "CompanyVendorTechDetail"
+      ]
+    }
+  ]
+}

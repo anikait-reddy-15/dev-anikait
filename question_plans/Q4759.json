@@ -1,0 +1,26 @@
+{
+  "question": "What technologies are pharmaceutical companies prioritizing within their tech stacks according to data center updates?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify pharmaceutical companies.",
+      "table": [
+        "IndustryBusinessTrend"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract data center updates related to these companies.",
+      "table": [
+        "CompanyVendorTechDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Determine prioritized technologies within their tech stacks.",
+      "table": [
+        "CompanyTechStack"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "question": "Who are the primary audiences for AI-enhanced product offerings as seen in YouTube promotional content?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify AI-enhanced product offerings from the PersonaUser table.",
+      "table": [
+        "PersonaUser"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract YouTube promotional content related to these offerings from the SocialMediaInfo table.",
+      "table": [
+        "SocialMediaInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Determine the primary audiences for these offerings.",
+      "table": [
+        "CompanyTwitterDetail"
+      ]
+    }
+  ]
+}

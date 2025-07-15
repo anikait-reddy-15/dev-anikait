@@ -1,0 +1,26 @@
+{
+  "question": "Which vendors are providing big data solutions to companies that have reported an increase in their data center capacity?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies that have reported an increase in data center capacity.",
+      "table": [
+        "PersonaMisc"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Find vendors providing big data solutions to these companies.",
+      "table": [
+        "PersonaMisc"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Compile a list of these vendors.",
+      "table": [
+        "PersonaMisc"
+      ]
+    }
+  ]
+}

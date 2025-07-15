@@ -1,6 +1,5 @@
 {
   "question": "What advanced technologies are legal companies prioritizing in their business strategies?",
-  "tables": ["IndustryITTrend", "SectionInfo"],
   "subtasks": [
     {
       "step": 1,

@@ -1,0 +1,24 @@
+{
+  "question": "How is leadership turnover influencing strategic focuses in corporations within the tech industry?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify instances of leadership turnover in tech industry corporations.",
+      "table": [
+        "SocialMediaInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract strategic focus changes from corporations with leadership turnover.",
+      "table": [
+        "CompanyTwitterDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the relationship between leadership turnover and strategic focus changes.",
+      "table": []
+    }
+  ]
+}

@@ -1,21 +1,27 @@
 {
   "question": "Which companies have engaged in cloud migration partnerships and also increased their IT spending recently?",
-  "tables": ["CompanyITPartnerDetail", "CompanyFinancials"],
   "subtasks": [
     {
       "step": 1,
       "task": "Identify companies engaged in cloud migration partnerships.",
-      "table": ["CompanyITPartnerDetail"]
+      "table": [
+        "CompanyITPartnerDetail"
+      ]
     },
     {
       "step": 2,
       "task": "Find companies with increased IT spending.",
-      "table": ["CompanyFinancials"]
+      "table": [
+        "CompanyFinancials"
+      ]
     },
     {
       "step": 3,
       "task": "Match companies from both sets.",
-      "table": ["CompanyITPartnerDetail", "CompanyFinancials"]
+      "table": [
+        "CompanyITPartnerDetail",
+        "CompanyFinancials"
+      ]
     }
   ]
 }

@@ -1,26 +1,33 @@
 {
   "question": "Which vendors are providing emerging tech solutions to companies focused on digital transformation, as highlighted in their Twitter communications?",
-  "tables": ["CompanyVendorProductDetail", "CompanyFocusAreaDetail", "CompanyTwitterDetail"],
   "subtasks": [
     {
       "step": 1,
       "task": "Identify companies focused on digital transformation. [CompanyFocusAreaDetail]",
-      "table": ["CompanyFocusAreaDetail"]
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
     },
     {
       "step": 2,
       "task": "Extract Company IDs of those companies. [CompanyFocusAreaDetail]",
-      "table": ["CompanyFocusAreaDetail"]
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
     },
     {
       "step": 3,
       "task": "Find vendors providing emerging tech solutions to the identified companies. [CompanyVendorProductDetail]",
-      "table": ["CompanyVendorProductDetail"]
+      "table": [
+        "CompanyVendorProductDetail"
+      ]
     },
     {
       "step": 4,
       "task": "Cross-reference with Twitter communications to confirm the focus on digital transformation. [CompanyTwitterDetail]",
-      "table": ["CompanyTwitterDetail"]
+      "table": [
+        "CompanyTwitterDetail"
+      ]
     }
   ]
 }

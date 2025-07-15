@@ -1,21 +1,26 @@
 {
   "question": "How do the strategic areas of focus vary among companies that are investing heavily in social media marketing?",
-  "tables": ["CompanyFocusAreaDetail", "SocialMediaInfo"],
   "subtasks": [
     {
       "step": 1,
       "task": "Identify companies that are investing heavily in social media marketing. [SocialMediaInfo]",
-      "table": ["SocialMediaInfo"]
+      "table": [
+        "SocialMediaInfo"
+      ]
     },
     {
       "step": 2,
       "task": "Extract the strategic areas of focus for those companies. [CompanyFocusAreaDetail]",
-      "table": ["CompanyFocusAreaDetail"]
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
     },
     {
       "step": 3,
       "task": "Analyze and compare the strategic areas of focus among the identified companies. [CompanyFocusAreaDetail]",
-      "table": ["CompanyFocusAreaDetail"]
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
     }
   ]
 }

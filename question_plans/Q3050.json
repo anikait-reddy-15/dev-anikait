@@ -1,0 +1,26 @@
+{
+  "question": "How are changes in procurement strategies affecting vendor relations in AI research firms?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify AI research firms and their procurement strategies.",
+      "table": [
+        "CompanyManagementDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Analyze changes in these procurement strategies.",
+      "table": [
+        "CompanyManagementDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Evaluate the impact of these changes on vendor relations.",
+      "table": [
+        "CompanyManagementDetail"
+      ]
+    }
+  ]
+}

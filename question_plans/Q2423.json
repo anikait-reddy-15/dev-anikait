@@ -1,0 +1,27 @@
+{
+  "question": "Which organizations enriched their leadership teams with AI experts along with endorsements on LinkedIn for AI content?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify organizations that have enriched their leadership teams with AI experts.",
+      "table": [
+        "CompanyLeadershipExcerpt"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Find LinkedIn endorsements for AI content related to these organizations.",
+      "table": [
+        "PersonaLinkedInProfile"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Cross-reference organizations from both subtasks to find matches.",
+      "table": [
+        "CompanyLeadershipExcerpt",
+        "PersonaLinkedInProfile"
+      ]
+    }
+  ]
+}

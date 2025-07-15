@@ -1,0 +1,26 @@
+{
+  "question": "What emerging industry trends are companies in the automotive sector aligning with based on their latest IT trend reports?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies in the automotive sector.",
+      "table": [
+        "LookUpValue"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Retrieve the latest IT trend reports for these companies.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the reports to identify emerging industry trends.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    }
+  ]
+}

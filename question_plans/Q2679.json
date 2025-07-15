@@ -1,0 +1,26 @@
+{
+  "question": "Which firms have adapted their remote ops tools and improved communication strategies through various discussion panels?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify firms that have adapted their remote ops tools.",
+      "table": [
+        "SectionData"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract improved communication strategies from these firms.",
+      "table": [
+        "SectionData"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Verify the role of discussion panels in these improvements.",
+      "table": [
+        "SectionData"
+      ]
+    }
+  ]
+}

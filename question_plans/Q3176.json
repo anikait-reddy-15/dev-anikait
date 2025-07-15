@@ -1,0 +1,26 @@
+{
+  "question": "What vendor associations have been announced by health industry leaders within the latest year?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify health industry leaders.",
+      "table": [
+        "CompanyTwitterDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract announcements made by these leaders within the latest year.",
+      "table": [
+        "CompanyTwitterDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Identify vendor associations mentioned in these announcements.",
+      "table": [
+        "CompanyTwitterDetail"
+      ]
+    }
+  ]
+}

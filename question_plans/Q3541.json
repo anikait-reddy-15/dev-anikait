@@ -1,0 +1,26 @@
+{
+  "question": "What insights can be derived from firms increasingly publishing about \"digitalization\" across social channels?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify firms that are publishing about 'digitalization' on social channels.",
+      "table": [
+        "PersonaMisc"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Analyze the frequency and content of these social posts to derive insights.",
+      "table": [
+        "PersonaMisc"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Correlate these insights with company strategies or trends.",
+      "table": [
+        "CompanyManagementDetail"
+      ]
+    }
+  ]
+}

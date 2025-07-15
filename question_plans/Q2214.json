@@ -1,0 +1,26 @@
+{
+  "question": "Which industries are showing greater interest in edge computing and its operational benefits?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify industries interested in edge computing.",
+      "table": [
+        "CompanyVendorTechDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Determine the operational benefits associated with edge computing in these industries.",
+      "table": [
+        "CompanyVendorTechDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "List industries and their interest in edge computing benefits.",
+      "table": [
+        "CompanyVendorTechDetail"
+      ]
+    }
+  ]
+}

@@ -1,21 +1,27 @@
 {
   "question": "Which companies are integrating federated learning into their AI strategy and have published technical blogs about it?",
-  "tables": ["CompanyFocusAreaDetail", "CompanyBlogDetail"],
   "subtasks": [
     {
       "step": 1,
       "task": "Identify companies integrating federated learning into AI strategy.",
-      "table": ["CompanyFocusAreaDetail"]
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
     },
     {
       "step": 2,
       "task": "Find technical blogs published by these companies on federated learning.",
-      "table": ["CompanyBlogDetail"]
+      "table": [
+        "CompanyBlogDetail"
+      ]
     },
     {
       "step": 3,
       "task": "Cross-reference strategy-focused firms with technical blog publishers.",
-      "table": ["CompanyFocusAreaDetail", "CompanyBlogDetail"]
+      "table": [
+        "CompanyFocusAreaDetail",
+        "CompanyBlogDetail"
+      ]
     }
   ]
 }

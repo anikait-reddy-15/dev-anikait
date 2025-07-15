@@ -1,0 +1,27 @@
+{
+  "question": "Which companies have boosted their public outreach on Facebook after onboarding new cyber defense partners?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies onboarding new cyber defense partners.",
+      "table": [
+        "CompanyVendorProductDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Find companies with increased Facebook outreach.",
+      "table": [
+        "SocialMediaInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Link new cyber defense partnerships to Facebook outreach boost.",
+      "table": [
+        "CompanyVendorProductDetail",
+        "SocialMediaInfo"
+      ]
+    }
+  ]
+}

@@ -1,21 +1,26 @@
 {
   "question": "What are the hiring trends for companies that have announced new partnerships with data analytics vendors?",
-  "tables": ["CompanyHiringDetail", "CompanyDealMaster"],
   "subtasks": [
     {
       "step": 1,
       "task": "Identify companies with new partnerships with data analytics vendors.",
-      "table": ["CompanyDealMaster"]
+      "table": [
+        "CompanyDealMaster"
+      ]
     },
     {
       "step": 2,
       "task": "Collect hiring data for these companies.",
-      "table": ["CompanyHiringDetail"]
+      "table": [
+        "CompanyHiringDetail"
+      ]
     },
     {
       "step": 3,
       "task": "Analyze hiring trends.",
-      "table": ["CompanyHiringDetail"]
+      "table": [
+        "CompanyHiringDetail"
+      ]
     }
   ]
 }

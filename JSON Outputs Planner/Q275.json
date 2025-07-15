@@ -1,21 +1,26 @@
 {
   "question": "What are the most frequently discussed topics in LinkedIn posts by personas working within organizations that emphasize a strong data culture?",
-  "tables": ["PersonaLinkedinPost", "PersonaMisc", "CompanyInfo"],
   "subtasks": [
     {
       "step": 1,
       "task": "Identify organizations that emphasize a strong data culture from the [CompanyInfo] table.",
-      "table": ["CompanyInfo"]
+      "table": [
+        "CompanyInfo"
+      ]
     },
     {
       "step": 2,
       "task": "Extract LinkedIn posts from personas working in these organizations from the [PersonaLinkedinPost] table.",
-      "table": ["PersonaLinkedinPost"]
+      "table": [
+        "PersonaLinkedinPost"
+      ]
     },
     {
       "step": 3,
       "task": "Analyze the topics discussed in these LinkedIn posts from the [PersonaMisc] table.",
-      "table": ["PersonaMisc"]
+      "table": [
+        "PersonaMisc"
+      ]
     }
   ]
 }

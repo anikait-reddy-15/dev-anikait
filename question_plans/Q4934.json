@@ -1,0 +1,26 @@
+{
+  "question": "Are there more female leaders in charge of emerging product lines compared to legacy product management?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify female leaders in charge of emerging product lines from the CompanyDataCenter table.",
+      "table": [
+        "CompanyDataCenter"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Identify female leaders in charge of legacy product management.",
+      "table": [
+        "CompanyDataCenter"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Compare the number of female leaders in both categories.",
+      "table": [
+        "CompanyDataCenter"
+      ]
+    }
+  ]
+}

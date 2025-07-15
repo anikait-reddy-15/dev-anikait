@@ -1,0 +1,27 @@
+{
+  "question": "What are the dominant industry trends influencing the hiring practices among leading fintech companies?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify dominant industry trends from the IndustryITTrend table.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Filter leading fintech companies from the PersonaUser table.",
+      "table": [
+        "PersonaUser"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze how these trends influence hiring practices in fintech companies.",
+      "table": [
+        "IndustryITTrend",
+        "PersonaUser"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "question": "Which vendors are supplying new cloud-based solutions to financial services companies that have increased their social media activity?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify financial services companies that have increased their social media activity.",
+      "table": [
+        "PersonaTwitterTweets"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Identify vendors supplying new cloud-based solutions to these companies.",
+      "table": [
+        "CompanyYoutubeDetail"
+      ]
+    }
+  ]
+}

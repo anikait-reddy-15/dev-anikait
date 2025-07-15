@@ -1,0 +1,26 @@
+{
+  "question": "What leadership topics are frequently discussed by leaders whose organizations focus on digital innovation?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify organizations with a focus on digital innovation.",
+      "table": [
+        "IndustryBusinessTrend"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Find leaders from these organizations.",
+      "table": [
+        "PersonaTwitterProfile"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Extract and analyze leadership topics discussed by these leaders.",
+      "table": [
+        "PersonaTwitterProfile"
+      ]
+    }
+  ]
+}

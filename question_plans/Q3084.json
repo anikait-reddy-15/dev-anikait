@@ -1,0 +1,26 @@
+{
+  "question": "How do personnel changes correlate with company tech stack shifts observed within engineering departments?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify personnel changes from management details.",
+      "table": [
+        "CompanyManagementDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract tech stack information related to engineering departments.",
+      "table": [
+        "CompanyManagementDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the correlation between personnel changes and tech stack shifts.",
+      "table": [
+        "CompanyManagementDetail"
+      ]
+    }
+  ]
+}

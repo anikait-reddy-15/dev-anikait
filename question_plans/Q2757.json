@@ -1,0 +1,27 @@
+{
+  "question": "What job roles are emerging with the rise of augmented reality applications in entertainment?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify mentions of augmented reality applications in entertainment from the SocialMediaInfo table.",
+      "table": [
+        "SocialMediaInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Find emerging job roles from the PersonaUser table.",
+      "table": [
+        "PersonaUser"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Correlate these job roles with the rise of augmented reality applications.",
+      "table": [
+        "PersonaUser",
+        "SocialMediaInfo"
+      ]
+    }
+  ]
+}

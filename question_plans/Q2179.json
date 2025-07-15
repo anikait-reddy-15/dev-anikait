@@ -1,0 +1,27 @@
+{
+  "question": "Are there tangible metrics of IT growth related to emerging markets via deals and investments?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify IT growth metrics in emerging markets.",
+      "table": [
+        "CompanyVendorTechDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Identify deals and investments in these markets.",
+      "table": [
+        "CompanyDataCenter"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the relationship between IT growth metrics and deals/investments.",
+      "table": [
+        "CompanyVendorTechDetail",
+        "CompanyDataCenter"
+      ]
+    }
+  ]
+}

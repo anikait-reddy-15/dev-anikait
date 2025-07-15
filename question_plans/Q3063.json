@@ -1,0 +1,26 @@
+{
+  "question": "How does organizational behavior, such as shifting focus areas, relate to technology-driven changes?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify organizational behavior changes, such as shifting focus areas.",
+      "table": [
+        "CompanyManagementDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract technology-driven changes mentioned in company details.",
+      "table": [
+        "CompanyManagementDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the relationship between organizational behavior changes and technology-driven changes.",
+      "table": [
+        "CompanyManagementDetail"
+      ]
+    }
+  ]
+}

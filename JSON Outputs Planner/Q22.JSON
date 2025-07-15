@@ -1,6 +1,5 @@
 {
   "question": "How many active contracts involve cloud solutions in the education sector?",
-  "tables": ["CompanyDealMaster"],
   "subtasks": [
     {
       "step": 1,

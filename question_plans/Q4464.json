@@ -1,0 +1,26 @@
+{
+  "question": "What are the new tech infrastructures being developed by companies experiencing rapid data growth?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies experiencing rapid data growth.",
+      "table": [
+        "CompanyDataCenter"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract information on new tech infrastructures being developed.",
+      "table": [
+        "CompanyDataCenter"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the relationship between data growth and tech infrastructure development.",
+      "table": [
+        "CompanyDataCenter"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "question": "What SaaS vendor deals indicate rapid technological investments in retail companies?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify SaaS vendor deals.",
+      "table": [
+        "CompanyTwitterDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Filter deals indicating technological investments.",
+      "table": [
+        "CompanyTwitterDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Determine which deals involve retail companies.",
+      "table": [
+        "CompanyTwitterDetail"
+      ]
+    }
+  ]
+}

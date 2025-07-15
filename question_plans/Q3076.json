@@ -1,0 +1,26 @@
+{
+  "question": "How do sectors utilizing cloud-first strategies perform against industry growth benchmarks?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify sectors utilizing cloud-first strategies.",
+      "table": [
+        "CompanyManagementDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract industry growth benchmarks from company details.",
+      "table": [
+        "CompanyManagementDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze performance of cloud-first sectors against growth benchmarks.",
+      "table": [
+        "CompanyManagementDetail"
+      ]
+    }
+  ]
+}

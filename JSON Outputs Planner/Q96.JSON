@@ -1,6 +1,5 @@
 {
   "question": "Which companies have engaged top-level data scientists who are advocating for operational efficiency in their posts?",
-  "tables": ["PersonaUser", "CompanyHiringDetail", "PersonaLinkedinPost"],
   "subtasks": [
     {
       "step": 1,

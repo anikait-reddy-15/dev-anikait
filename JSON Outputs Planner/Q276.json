@@ -1,21 +1,26 @@
 {
   "question": "Which companies have increased their investment in data analytics technologies within the last year?",
-  "tables": ["CompanyTechStack", "CompanyDealMaster"],
   "subtasks": [
     {
       "step": 1,
       "task": "Identify companies that have made recent investments in data analytics technologies. [CompanyTechStack]",
-      "table": ["CompanyTechStack"]
+      "table": [
+        "CompanyTechStack"
+      ]
     },
     {
       "step": 2,
       "task": "Filter the investments to those made within the last year. [CompanyTechStack]",
-      "table": ["CompanyTechStack"]
+      "table": [
+        "CompanyTechStack"
+      ]
     },
     {
       "step": 3,
       "task": "Cross-reference with any relevant deal information to confirm increased investment. [CompanyDealMaster]",
-      "table": ["CompanyDealMaster"]
+      "table": [
+        "CompanyDealMaster"
+      ]
     }
   ]
 }

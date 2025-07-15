@@ -1,21 +1,26 @@
 {
-  "question": "Which personas with “Chief Technology Officer” titles are regularly posting content related to industry benchmarks on their Twitter profiles?",
-  "tables": ["PersonaTwitterProfile", "PersonaTitle", "PersonaTwitterTweets"],
+  "question": "Which personas with \u201cChief Technology Officer\u201d titles are regularly posting content related to industry benchmarks on their Twitter profiles?",
   "subtasks": [
     {
       "step": 1,
       "task": "Identify personas with the title of Chief Technology Officer. [PersonaTitle]",
-      "table": ["PersonaTitle"]
+      "table": [
+        "PersonaTitle"
+      ]
     },
     {
       "step": 2,
       "task": "Find Twitter profiles of these CTO personas. [PersonaTwitterProfile]",
-      "table": ["PersonaTwitterProfile"]
+      "table": [
+        "PersonaTwitterProfile"
+      ]
     },
     {
       "step": 3,
       "task": "Analyze the content of their tweets for mentions of industry benchmarks. [PersonaTwitterTweets]",
-      "table": ["PersonaTwitterTweets"]
+      "table": [
+        "PersonaTwitterTweets"
+      ]
     }
   ]
 }

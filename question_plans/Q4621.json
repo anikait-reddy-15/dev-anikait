@@ -1,0 +1,26 @@
+{
+  "question": "How do companies address talent acquisition for roles focusing on cybersecurity defenses?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies with a focus on cybersecurity roles from hiring-related fields.",
+      "table": [
+        "CompanyITPartnerDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract specific talent acquisition strategies or methods from the identified companies.",
+      "table": [
+        "CompanyITPartnerDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the effectiveness of these strategies based on available data.",
+      "table": [
+        "CompanyITPartnerDetail"
+      ]
+    }
+  ]
+}

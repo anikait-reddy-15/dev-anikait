@@ -1,0 +1,27 @@
+{
+  "question": "Have recent personnel shifts led to changes in organization\u2019s external deal announcements?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify recent personnel shifts within organizations.",
+      "table": [
+        "PersonaLinkedInProfile"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Identify changes in external deal announcements.",
+      "table": [
+        "CompanyDataCenter"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the relationship between personnel shifts and deal announcement changes.",
+      "table": [
+        "PersonaLinkedInProfile",
+        "CompanyDataCenter"
+      ]
+    }
+  ]
+}

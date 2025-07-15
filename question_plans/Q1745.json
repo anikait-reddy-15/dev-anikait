@@ -1,0 +1,26 @@
+{
+  "question": "What vendor tech solutions have been adopted by automotive industry leaders looking for innovation?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify automotive industry leaders.",
+      "table": [
+        "CompanyTwitterDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Find discussions or announcements about tech solutions.",
+      "table": [
+        "CompanyTwitterDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Determine which tech solutions have been adopted for innovation.",
+      "table": [
+        "CompanyTwitterDetail"
+      ]
+    }
+  ]
+}

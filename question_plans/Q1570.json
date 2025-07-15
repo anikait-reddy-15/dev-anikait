@@ -1,0 +1,26 @@
+{
+  "question": "Who are the forward-thinking individuals influencing tech-driven policy within organizations with high IT spend?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify organizations with high IT spend.",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Find individuals influencing tech-driven policy in these organizations.",
+      "table": [
+        "CompanyFacebookDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Highlight forward-thinking individuals among them.",
+      "table": [
+        "SectionTitle"
+      ]
+    }
+  ]
+}

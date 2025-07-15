@@ -1,0 +1,26 @@
+{
+  "question": "What technologies do companies with a notable presence on Instagram employ to boost digital marketing efficiencies?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies with a notable presence on Instagram.",
+      "table": [
+        "PersonaLinkedInProfile"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract technologies employed by these companies for digital marketing.",
+      "table": [
+        "PersonaTitle"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze how these technologies boost digital marketing efficiencies.",
+      "table": [
+        "PersonaTitle"
+      ]
+    }
+  ]
+}

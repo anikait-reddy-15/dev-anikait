@@ -1,0 +1,26 @@
+{
+  "question": "Which personas in technology leadership roles have discussed blockchain in their recent LinkedIn Activity?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify personas in technology leadership roles from the PersonaTwitterTweets table.",
+      "table": [
+        "PersonaTwitterTweets"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Filter these personas to find those who have discussed blockchain in their LinkedIn Activity.",
+      "table": [
+        "PersonaTwitterTweets"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "List the names of these personas.",
+      "table": [
+        "PersonaTwitterTweets"
+      ]
+    }
+  ]
+}

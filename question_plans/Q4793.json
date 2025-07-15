@@ -1,0 +1,26 @@
+{
+  "question": "What are the social media reactions to fintech mergers as captured in Tweets?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify Tweets related to fintech mergers.",
+      "table": [
+        "IndustryBusinessTrend"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract social media reactions from these Tweets.",
+      "table": [
+        "IndustryBusinessTrend"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the nature and sentiment of these reactions.",
+      "table": [
+        "IndustryBusinessTrend"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "question": "Which firms heavily embrace transformation narratives within their strategic focus?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify firms with a strategic focus on transformation from the CompanyTechStack table.",
+      "table": [
+        "CompanyTechStack"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract narratives or strategic documents related to transformation.",
+      "table": [
+        "CompanyTechStack"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Determine the extent to which these firms embrace transformation narratives.",
+      "table": [
+        "CompanyTechStack"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "question": "What key perspectives on IT future directions are shared by prominent figures in technology broadcasts?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify prominent figures in technology from the PersonaUser table.",
+      "table": [
+        "PersonaUser"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract broadcasts related to IT future directions from the PersonaLinkedinActivity table.",
+      "table": [
+        "PersonaLinkedinActivity"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "List key perspectives shared by these figures in the broadcasts.",
+      "table": [
+        "PersonaLinkedinActivity"
+      ]
+    }
+  ]
+}

@@ -18,7 +18,7 @@ Generate **100 unique, highly specific, SQL-answerable business and IT strategy 
 
 Rules:
 
-1. Generate exactly **10 questions**.
+1. Generate exactly **100 questions**.
 2. **Do NOT reuse or regenerate** the following example questions:
    - “Which companies have mentioned adopting Snowflake in their tech stack…”
    - “Who are the data science leaders at companies that have increased…”

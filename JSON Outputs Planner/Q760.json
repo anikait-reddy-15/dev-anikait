@@ -1,21 +1,27 @@
 {
   "question": "What patterns exist in AI research publishing among companies that have launched dedicated AI labs?",
-  "tables": ["CompanyFocusAreaDetail", "CompanyBlogDetail"],
   "subtasks": [
     {
       "step": 1,
       "task": "Identify companies that launched dedicated AI labs.",
-      "table": ["CompanyFocusAreaDetail"]
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
     },
     {
       "step": 2,
       "task": "Find and analyze their AI research publishing patterns.",
-      "table": ["CompanyBlogDetail"]
+      "table": [
+        "CompanyBlogDetail"
+      ]
     },
     {
       "step": 3,
       "task": "Summarize patterns in research topics or frequency.",
-      "table": ["CompanyFocusAreaDetail", "CompanyBlogDetail"]
+      "table": [
+        "CompanyFocusAreaDetail",
+        "CompanyBlogDetail"
+      ]
     }
   ]
 }

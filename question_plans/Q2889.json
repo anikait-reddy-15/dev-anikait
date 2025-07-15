@@ -1,0 +1,26 @@
+{
+  "question": "Which cloud providers are seeing the highest uptake in deals focused on scalability improvements?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify cloud providers involved in scalability improvement deals.",
+      "table": [
+        "CompanyVendorProductDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Analyze the uptake rate of these deals for each provider.",
+      "table": [
+        "CompanyVendorProductDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Determine which providers have the highest uptake.",
+      "table": [
+        "CompanyVendorProductDetail"
+      ]
+    }
+  ]
+}

@@ -1,21 +1,26 @@
 {
   "question": "Which personas have discussed hiring trends related to data science roles on Twitter and what organizations are they affiliated with?",
-  "tables": ["PersonaTwitterProfile", "CompanyHiringDetail", "PersonaUser"],
   "subtasks": [
     {
       "step": 1,
       "task": "Identify Twitter profiles discussing data science hiring trends. [PersonaTwitterProfile]",
-      "table": ["PersonaTwitterProfile"]
+      "table": [
+        "PersonaTwitterProfile"
+      ]
     },
     {
       "step": 2,
       "task": "Extract hiring details related to data science roles. [CompanyHiringDetail]",
-      "table": ["CompanyHiringDetail"]
+      "table": [
+        "CompanyHiringDetail"
+      ]
     },
     {
       "step": 3,
       "task": "Match personas to their affiliated companies. [PersonaUser]",
-      "table": ["PersonaUser"]
+      "table": [
+        "PersonaUser"
+      ]
     }
   ]
 }

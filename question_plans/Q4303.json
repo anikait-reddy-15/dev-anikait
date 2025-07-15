@@ -1,0 +1,27 @@
+{
+  "question": "What is the trend in AI technology investments according to industry IT trends compared to company actions in the past year?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Extract AI technology investment trends from the CompanyITPartnerDetail table.",
+      "table": [
+        "CompanyITPartnerDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Retrieve company actions related to AI investments from the past year.",
+      "table": [
+        "CompanyDealMaster"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Compare the industry trends with company actions to identify the trend.",
+      "table": [
+        "CompanyITPartnerDetail",
+        "CompanyDealMaster"
+      ]
+    }
+  ]
+}

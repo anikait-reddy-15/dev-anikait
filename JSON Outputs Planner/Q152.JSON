@@ -1,6 +1,5 @@
 {
   "question": "How does the mention of cloud computing in leadership talks relate to hiring in data science roles?",
-  "tables": ["CompanyLeadershipExcerpt", "CompanyHiringDetail"],
   "subtasks": [
     {
       "step": 1,

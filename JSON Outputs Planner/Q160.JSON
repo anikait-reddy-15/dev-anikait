@@ -1,6 +1,5 @@
 {
   "question": "What emerging technology areas are identified in leadership conversations being held by firms undergoing transformation?",
-  "tables": ["CompanyLeadershipExcerpt", "CompanyTechStack"],
   "subtasks": [
     {
       "step": 1,

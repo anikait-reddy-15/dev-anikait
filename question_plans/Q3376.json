@@ -1,0 +1,27 @@
+{
+  "question": "Who is leading thought leadership conversations on innovation in robotics at key industry events?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify key industry events from the PageInfo table.",
+      "table": [
+        "PageInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract thought leadership conversations on robotics innovation from the IndustryITTrend table.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Determine leaders in thought leadership on robotics innovation at industry events.",
+      "table": [
+        "PageInfo",
+        "IndustryITTrend"
+      ]
+    }
+  ]
+}

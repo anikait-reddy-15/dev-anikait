@@ -1,0 +1,26 @@
+{
+  "question": "Which social media posts discuss quantum computing as part of strategic industry trends?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify social media posts discussing strategic industry trends.",
+      "table": [
+        "PersonaMisc"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Filter posts that specifically mention quantum computing.",
+      "table": [
+        "PersonaMisc"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Extract relevant details from these posts.",
+      "table": [
+        "PersonaMisc"
+      ]
+    }
+  ]
+}

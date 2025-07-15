@@ -1,0 +1,26 @@
+{
+  "question": "How can correlating IT investments with business focus areas drive competitive advantage?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify IT investments made by companies.",
+      "table": [
+        "CompanyDataCenter"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract data on business focus areas of these companies.",
+      "table": [
+        "CompanyDataCenter"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the correlation between IT investments and business focus areas to identify competitive advantages.",
+      "table": [
+        "LookUpValue"
+      ]
+    }
+  ]
+}

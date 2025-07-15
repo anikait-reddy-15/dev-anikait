@@ -1,0 +1,27 @@
+{
+  "question": "What are the most prevalent IT priorities of healthcare companies with rapid tech stack transformations?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify healthcare companies with rapid tech stack transformations.",
+      "table": [
+        "CompanyVendorProductDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract IT priorities of these companies.",
+      "table": [
+        "SectionData"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "List prevalent IT priorities among these healthcare companies.",
+      "table": [
+        "CompanyVendorProductDetail",
+        "SectionData"
+      ]
+    }
+  ]
+}

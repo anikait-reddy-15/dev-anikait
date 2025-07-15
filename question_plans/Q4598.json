@@ -1,0 +1,27 @@
+{
+  "question": "How do organizational changes aid firms in adjusting to IT advancements?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify organizational changes from the SectionData table.",
+      "table": [
+        "SectionData"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract data on IT advancements from the IndustryITTrend table.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze how these changes aid firms in adjusting to IT advancements.",
+      "table": [
+        "SectionData",
+        "IndustryITTrend"
+      ]
+    }
+  ]
+}

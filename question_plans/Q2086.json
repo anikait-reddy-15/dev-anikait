@@ -1,0 +1,26 @@
+{
+  "question": "Which sector leaders have adopted blockchain as a core technological pursuit as viewed in their LinkedIn posts?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify LinkedIn posts mentioning blockchain from the PersonaLinkedinActivity table.",
+      "table": [
+        "PersonaLinkedinActivity"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Filter posts by sector leaders discussing blockchain as a core pursuit.",
+      "table": [
+        "PersonaLinkedinActivity"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "List sector leaders associated with these posts.",
+      "table": [
+        "PersonaLinkedinActivity"
+      ]
+    }
+  ]
+}

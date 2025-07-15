@@ -1,0 +1,26 @@
+{
+  "question": "How do new partnerships reflect the technological evolution of companies in emerging markets?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify new partnerships involving companies in emerging markets.",
+      "table": [
+        "CompanyVendorProductDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract data on technological evolution related to these partnerships.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze how these partnerships reflect technological evolution.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    }
+  ]
+}

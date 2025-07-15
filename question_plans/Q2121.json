@@ -1,0 +1,26 @@
+{
+  "question": "Which companies have data scientists who published content about neural networks on YouTube?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify data scientists from PersonaLinkedInProfile who have published content about neural networks on YouTube.",
+      "table": [
+        "PersonaLinkedInProfile"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Find companies associated with these data scientists.",
+      "table": [
+        "PersonaLinkedInProfile"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Filter companies based on the presence of data scientists who have published relevant content.",
+      "table": [
+        "CompanyDataCenter"
+      ]
+    }
+  ]
+}

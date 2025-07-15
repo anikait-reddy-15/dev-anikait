@@ -1,21 +1,26 @@
 {
   "question": "What are the key industries represented by companies that have increased their hiring for data scientists in the last year?",
-  "tables": ["CompanyHiringDetail", "CompanyInfo"],
   "subtasks": [
     {
       "step": 1,
       "task": "Identify companies that have increased hiring for data scientists in the last year. [CompanyHiringDetail]",
-      "table": ["CompanyHiringDetail"]
+      "table": [
+        "CompanyHiringDetail"
+      ]
     },
     {
       "step": 2,
       "task": "Extract the Company IDs of those identified companies. [CompanyHiringDetail]",
-      "table": ["CompanyHiringDetail"]
+      "table": [
+        "CompanyHiringDetail"
+      ]
     },
     {
       "step": 3,
       "task": "Retrieve the industry information for the identified companies using their Company IDs. [CompanyInfo]",
-      "table": ["CompanyInfo"]
+      "table": [
+        "CompanyInfo"
+      ]
     }
   ]
 }

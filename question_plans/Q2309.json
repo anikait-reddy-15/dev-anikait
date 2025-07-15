@@ -1,0 +1,26 @@
+{
+  "question": "Which personas have tweeted about machine learning applications and are linked with companies expanding their AI teams?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify personas who have tweeted about machine learning applications.",
+      "table": [
+        "SectionInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Filter these personas based on their association with companies expanding their AI teams.",
+      "table": [
+        "SectionInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Select the persona names from the filtered results.",
+      "table": [
+        "SectionInfo"
+      ]
+    }
+  ]
+}

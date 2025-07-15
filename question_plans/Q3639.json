@@ -1,0 +1,27 @@
+{
+  "question": "How do vendor product details alter in companies that newly appointed technology-focused leaders?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies with newly appointed technology-focused leaders.",
+      "table": [
+        "PersonaTitle"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract vendor product details.",
+      "table": [
+        "IndustryBusinessTrend"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze alterations in vendor product details in these companies.",
+      "table": [
+        "PersonaTitle",
+        "IndustryBusinessTrend"
+      ]
+    }
+  ]
+}

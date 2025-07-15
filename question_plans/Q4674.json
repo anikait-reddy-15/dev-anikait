@@ -1,0 +1,26 @@
+{
+  "question": "How are plant-based product companies reshaping their IT landscapes to improve sustainability?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify plant-based product companies",
+      "table": [
+        "CompanyITPartnerDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Analyze changes in their IT landscapes",
+      "table": [
+        "CompanyITPartnerDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Assess the impact of these changes on sustainability",
+      "table": [
+        "CompanyITPartnerDetail"
+      ]
+    }
+  ]
+}

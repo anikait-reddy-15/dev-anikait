@@ -1,0 +1,26 @@
+{
+  "question": "How do technology partnerships influence the strategic focus areas as outlined by company leaders in recent years?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify technology partnerships formed by companies in recent years.",
+      "table": [
+        "SectionData"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Find strategic focus areas outlined by company leaders.",
+      "table": [
+        "SectionData"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the influence of technology partnerships on these strategic focus areas.",
+      "table": [
+        "SectionData"
+      ]
+    }
+  ]
+}

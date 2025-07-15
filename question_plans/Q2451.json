@@ -1,0 +1,27 @@
+{
+  "question": "Which organizations expanded leadership talks about enterprise mobility and updated their cloud-based tech stacks?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify organizations with expanded leadership talks on enterprise mobility.",
+      "table": [
+        "CompanyLeadershipExcerpt"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Find updates to cloud-based tech stacks in these organizations.",
+      "table": [
+        "CompanyDataCenter"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Match organizations with both leadership talks and tech stack updates.",
+      "table": [
+        "CompanyLeadershipExcerpt",
+        "CompanyDataCenter"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "question": "How have companies in the tech sector adjusted their leadership priorities regarding cloud computing in response to new hiring trends?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies in the tech sector.",
+      "table": [
+        "PersonaTitle"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract information on leadership priorities regarding cloud computing.",
+      "table": [
+        "PersonaTitle"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze how these priorities have changed in response to new hiring trends.",
+      "table": [
+        "PersonaTitle"
+      ]
+    }
+  ]
+}

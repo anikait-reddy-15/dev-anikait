@@ -1,21 +1,28 @@
 {
   "question": "Which companies have showcased their recruitment efforts and also highlighted significant technology stack changes in their recent communications?",
-  "tables": ["CompanyHiringDetail", "CompanyTechStack", "CompanyInfo"],
   "subtasks": [
     {
       "step": 1,
       "task": "Identify companies that have showcased their recruitment efforts.",
-      "table": ["CompanyHiringDetail"]
+      "table": [
+        "CompanyHiringDetail"
+      ]
     },
     {
       "step": 2,
       "task": "Find companies that have highlighted significant changes in their technology stack.",
-      "table": ["CompanyTechStack"]
+      "table": [
+        "CompanyTechStack"
+      ]
     },
     {
       "step": 3,
       "task": "Combine the results to identify companies that meet both criteria.",
-      "table": ["CompanyHiringDetail", "CompanyTechStack", "CompanyInfo"]
+      "table": [
+        "CompanyHiringDetail",
+        "CompanyTechStack",
+        "CompanyInfo"
+      ]
     }
   ]
 }

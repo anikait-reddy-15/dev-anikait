@@ -1,0 +1,26 @@
+{
+  "question": "How are companies in the manufacturing sector adapting their IT focus areas following significant leadership transitions?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies in the manufacturing sector",
+      "table": [
+        "CompanyManagementDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Find companies with significant leadership transitions",
+      "table": [
+        "CompanyManagementDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze changes in IT focus areas for these companies",
+      "table": [
+        "SectionInfo"
+      ]
+    }
+  ]
+}

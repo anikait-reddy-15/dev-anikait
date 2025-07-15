@@ -1,21 +1,27 @@
 {
   "question": "What are the main skill sets being sought after by companies that have shifted their technology stack towards machine learning and AI disciplines?",
-  "tables": ["CompanyHiringDetail", "CompanyTechStack"],
   "subtasks": [
     {
       "step": 1,
       "task": "Identify companies that shifted their stack to ML and AI. [CompanyTechStack]",
-      "table": ["CompanyTechStack"]
+      "table": [
+        "CompanyTechStack"
+      ]
     },
     {
       "step": 2,
       "task": "Gather hiring detail to determine desired skills. [CompanyHiringDetail]",
-      "table": ["CompanyHiringDetail"]
+      "table": [
+        "CompanyHiringDetail"
+      ]
     },
     {
       "step": 3,
       "task": "Analyze hiring requirements for common ML/AI skill sets. [CompanyHiringDetail, CompanyTechStack]",
-      "table": ["CompanyHiringDetail", "CompanyTechStack"]
+      "table": [
+        "CompanyHiringDetail",
+        "CompanyTechStack"
+      ]
     }
   ]
 }

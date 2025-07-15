@@ -1,0 +1,27 @@
+{
+  "question": "Which companies have leadership excerpts focusing on privacy protection as a headline topic?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Extract leadership excerpts discussing privacy protection.",
+      "table": [
+        "PersonaMisc"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Identify companies associated with these leadership excerpts.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "List companies with privacy protection as a headline topic.",
+      "table": [
+        "PersonaMisc",
+        "CompanyInfo"
+      ]
+    }
+  ]
+}

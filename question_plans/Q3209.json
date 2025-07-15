@@ -1,0 +1,24 @@
+{
+  "question": "Which CIOs are emphasizing cybersecurity in their leadership discussions, and what are the consequent actions by their companies?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify CIOs emphasizing cybersecurity in their leadership discussions.",
+      "table": [
+        "CompanyManagementDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Determine the consequent actions taken by their companies.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "List CIOs and the actions taken by their companies regarding cybersecurity.",
+      "table": []
+    }
+  ]
+}

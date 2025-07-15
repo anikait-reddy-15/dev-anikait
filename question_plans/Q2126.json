@@ -1,0 +1,26 @@
+{
+  "question": "What topics do personas with job titles related to \u2018Chief Technology Officer\u2019 focus on in their public LinkedIn communications?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify personas with job titles related to 'Chief Technology Officer'.",
+      "table": [
+        "PersonaLinkedInProfile"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract public LinkedIn communications from these personas.",
+      "table": [
+        "PersonaLinkedInProfile"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the content to determine the topics they focus on.",
+      "table": [
+        "PersonaLinkedInProfile"
+      ]
+    }
+  ]
+}

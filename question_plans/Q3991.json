@@ -1,0 +1,26 @@
+{
+  "question": "How do conference speeches delivered by CTOs echo sentiments surrounding data protection across financial institutions?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify conference speeches delivered by CTOs.",
+      "table": [
+        "PersonaTitle"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract sentiments related to data protection.",
+      "table": [
+        "PersonaTitle"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze how these sentiments are echoed across financial institutions.",
+      "table": [
+        "PersonaTitle"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "question": "Are there parallels in adopting smart tech devices and increased focus in national financial firms' hiring statistics?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify adoption of smart tech devices by companies.",
+      "table": [
+        "CompanyVendorTechDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Analyze hiring statistics of national financial firms.",
+      "table": [
+        "CompanyDataCenter"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Find parallels between smart tech adoption and hiring statistics.",
+      "table": [
+        "CompanyVendorTechDetail",
+        "CompanyDataCenter"
+      ]
+    }
+  ]
+}

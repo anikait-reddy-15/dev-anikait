@@ -1,0 +1,27 @@
+{
+  "question": "What media companies have pivoted towards streaming solutions and discussed such strategies in LinkedIn posts?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify media companies that have pivoted towards streaming solutions.",
+      "table": [
+        "CompanyDealMaster"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Filter these companies based on LinkedIn posts discussing streaming strategies.",
+      "table": [
+        "SectionInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Select the company names from the filtered results.",
+      "table": [
+        "CompanyDealMaster",
+        "SectionInfo"
+      ]
+    }
+  ]
+}

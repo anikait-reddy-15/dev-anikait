@@ -1,0 +1,27 @@
+{
+  "question": "Which vendors are synonymous with augmented reality solutions among firms increasing social outreach?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify firms that are increasing their social outreach.",
+      "table": [
+        "PersonaMisc"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Find vendors associated with augmented reality solutions.",
+      "table": [
+        "CompanyVendorProductDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Match these vendors with firms increasing social outreach.",
+      "table": [
+        "CompanyVendorProductDetail",
+        "PersonaMisc"
+      ]
+    }
+  ]
+}

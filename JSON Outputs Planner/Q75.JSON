@@ -1,6 +1,5 @@
 {
   "question": "What recent strategic hires were made in technology roles at LPL Financial?",
-  "tables": ["SectionData", "CompanyHiringDetail"],
   "subtasks": [
     {
       "step": 1,

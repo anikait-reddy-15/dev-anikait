@@ -1,0 +1,27 @@
+{
+  "question": "Which companies that increased their number of deals in the last year also show a shift in social media focus to green technology?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies that increased their number of deals in the last year.",
+      "table": [
+        "IndustryBusinessTrend"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Find companies showing a shift in social media focus to green technology.",
+      "table": [
+        "PersonaYoutubeProfile"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Match companies with increased deals to those with a social media focus on green technology.",
+      "table": [
+        "IndustryBusinessTrend",
+        "PersonaYoutubeProfile"
+      ]
+    }
+  ]
+}

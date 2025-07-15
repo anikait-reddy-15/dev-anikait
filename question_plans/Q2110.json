@@ -1,0 +1,27 @@
+{
+  "question": "What are the primary focuses of organizations that have increased their YouTube content about technology innovations?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify organizations that have increased their YouTube content about technology innovations.",
+      "table": [
+        "PersonaLinkedInProfile"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Determine the primary focuses of these organizations.",
+      "table": [
+        "CompanyVendorTechDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Combine results to link organizations with their primary focuses.",
+      "table": [
+        "PersonaLinkedInProfile",
+        "CompanyVendorTechDetail"
+      ]
+    }
+  ]
+}

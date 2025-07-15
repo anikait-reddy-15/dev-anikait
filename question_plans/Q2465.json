@@ -1,0 +1,26 @@
+{
+  "question": "Which companies demonstrated cutting-edge technology \u2014 shown in deal and tech stack records \u2014 in leadership webcasts?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies with cutting-edge technology from deal records.",
+      "table": [
+        "CompanyDataCenter"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract tech stack records for these companies.",
+      "table": [
+        "CompanyDataCenter"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze leadership webcasts mentioning these technologies.",
+      "table": [
+        "CompanyLeadershipExcerpt"
+      ]
+    }
+  ]
+}

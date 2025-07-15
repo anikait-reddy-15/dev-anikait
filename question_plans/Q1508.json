@@ -1,0 +1,19 @@
+{
+  "question": "Which vendors are providing blockchain solutions to financial companies focusing on digital payment innovations?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify financial companies focusing on digital payment innovations from the CompanyHiringDetail table.",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Find vendors providing blockchain solutions to these companies.",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    }
+  ]
+}

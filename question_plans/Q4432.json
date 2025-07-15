@@ -1,0 +1,26 @@
+{
+  "question": "What is the correlation between increased Twitter activity and a focus on AI-driven business models?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify Twitter activity related to AI-driven business models.",
+      "table": [
+        "LookUpValue"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract and quantify Twitter activity metrics.",
+      "table": [
+        "LookUpValue"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the correlation between activity and business model focus.",
+      "table": [
+        "LookUpValue"
+      ]
+    }
+  ]
+}

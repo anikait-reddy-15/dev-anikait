@@ -1,0 +1,27 @@
+{
+  "question": "Which companies have signed new data analytics vendor deals and have posted about data-driven strategies on Facebook this month?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies that have signed new data analytics vendor deals.",
+      "table": [
+        "CompanyDealMaster"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Filter these companies based on their Facebook posts about data-driven strategies this month.",
+      "table": [
+        "SectionInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Select the company names from the filtered results.",
+      "table": [
+        "CompanyDealMaster",
+        "SectionInfo"
+      ]
+    }
+  ]
+}

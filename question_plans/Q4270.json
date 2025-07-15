@@ -1,0 +1,26 @@
+{
+  "question": "Which business trends emphasize rapidly evolving customer experience solutions?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify business trends related to customer experience solutions.",
+      "table": [
+        "SectionTitle"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Filter trends emphasizing rapid evolution.",
+      "table": [
+        "SectionTitle"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Compile a list of these emphasized trends.",
+      "table": [
+        "SectionTitle"
+      ]
+    }
+  ]
+}

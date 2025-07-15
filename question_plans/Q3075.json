@@ -1,0 +1,29 @@
+{
+  "question": "Which leaders articulate the importance of data culture within their messaging on public platforms?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify leaders from company management details.",
+      "table": [
+        "CompanyManagementDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract messaging related to data culture on public platforms.",
+      "table": [
+        "CompanyTwitterDetail",
+        "PersonaInstagramProfile"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Determine which leaders emphasize the importance of data culture.",
+      "table": [
+        "CompanyManagementDetail",
+        "CompanyTwitterDetail",
+        "PersonaInstagramProfile"
+      ]
+    }
+  ]
+}

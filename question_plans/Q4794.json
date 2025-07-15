@@ -1,0 +1,26 @@
+{
+  "question": "Which companies are undergoing strategic personnel transformations that mirror their IT development paths?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies with strategic personnel transformations.",
+      "table": [
+        "CompanyTechStack"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract details of IT development paths of these companies.",
+      "table": [
+        "CompanyTechStack"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze how these transformations mirror their IT development paths.",
+      "table": [
+        "CompanyTechStack"
+      ]
+    }
+  ]
+}

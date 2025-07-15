@@ -1,21 +1,26 @@
 {
   "question": "What AI governance concerns are trending among Twitter profiles of chief data officers from major technology companies?",
-  "tables": ["PersonaTwitterProfile", "CompanyInfo"],
   "subtasks": [
     {
       "step": 1,
       "task": "Identify Twitter profiles of chief data officers.",
-      "table": ["PersonaTwitterProfile"]
+      "table": [
+        "PersonaTwitterProfile"
+      ]
     },
     {
       "step": 2,
       "task": "Filter for those from major technology companies.",
-      "table": ["CompanyInfo"]
+      "table": [
+        "CompanyInfo"
+      ]
     },
     {
       "step": 3,
       "task": "Extract and summarize trending AI governance concerns.",
-      "table": ["PersonaTwitterProfile"]
+      "table": [
+        "PersonaTwitterProfile"
+      ]
     }
   ]
 }

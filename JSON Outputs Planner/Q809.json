@@ -1,21 +1,29 @@
 {
   "question": "Which insurance firms are using AI to automate claims fraud detection and what vendors are involved?",
-  "tables": ["CompanyFocusAreaDetail", "CompanyVendorTechDetail", "CompanyInfo"],
   "subtasks": [
     {
       "step": 1,
       "task": "Identify insurance firms using AI for fraud detection.",
-      "table": ["CompanyFocusAreaDetail", "CompanyInfo"]
+      "table": [
+        "CompanyFocusAreaDetail",
+        "CompanyInfo"
+      ]
     },
     {
       "step": 2,
       "task": "Find vendors supporting those efforts.",
-      "table": ["CompanyVendorTechDetail"]
+      "table": [
+        "CompanyVendorTechDetail"
+      ]
     },
     {
       "step": 3,
       "task": "Link firms to vendors based on AI use cases.",
-      "table": ["CompanyFocusAreaDetail", "CompanyVendorTechDetail", "CompanyInfo"]
+      "table": [
+        "CompanyFocusAreaDetail",
+        "CompanyVendorTechDetail",
+        "CompanyInfo"
+      ]
     }
   ]
 }

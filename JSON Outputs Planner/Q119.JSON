@@ -1,6 +1,5 @@
 {
   "question": "How do changes in leadership affect technology decision-making in organizations pursuing digital transformation?",
-  "tables": ["CompanyLeadershipExcerpt", "CompanyTechStack"],
   "subtasks": [
     {
       "step": 1,

@@ -1,0 +1,24 @@
+{
+  "question": "What strategies have companies adopted marked with both a rise in job postings for cloud architects and training programs shared on Facebook?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies with a rise in job postings for cloud architects.",
+      "table": [
+        "SectionInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Identify companies sharing training programs on Facebook.",
+      "table": [
+        "PersonaYoutubeProfile"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Combine results to find strategies of companies with both job postings and training programs.",
+      "table": []
+    }
+  ]
+}

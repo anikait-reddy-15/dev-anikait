@@ -1,0 +1,27 @@
+{
+  "question": "Which companies have a significant presence in social media and focus on cloud integration?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies with a significant presence in social media.",
+      "table": [
+        "PersonaMisc"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Identify companies focusing on cloud integration.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Find companies that meet both criteria.",
+      "table": [
+        "PersonaMisc",
+        "CompanyFocusAreaDetail"
+      ]
+    }
+  ]
+}

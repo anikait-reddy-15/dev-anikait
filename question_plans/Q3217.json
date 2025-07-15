@@ -1,0 +1,24 @@
+{
+  "question": "How do leadership comments on AI correlate with organizational hiring for data scientists?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify leadership comments on AI.",
+      "table": [
+        "CompanyManagementDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Determine organizational hiring for data scientists.",
+      "table": [
+        "CompanyManagementDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the correlation between AI comments and hiring for data scientists.",
+      "table": []
+    }
+  ]
+}

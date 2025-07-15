@@ -1,0 +1,27 @@
+{
+  "question": "How are enhanced social platforms impacting companies\u2019 focus areas?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify enhanced social platforms from the PersonaMisc table.",
+      "table": [
+        "PersonaMisc"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract companies' focus areas from the SectionData table.",
+      "table": [
+        "SectionData"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the impact of these platforms on companies' focus areas.",
+      "table": [
+        "PersonaMisc",
+        "SectionData"
+      ]
+    }
+  ]
+}

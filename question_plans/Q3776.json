@@ -1,0 +1,26 @@
+{
+  "question": "Which leadership excerpts suggest companies\u2019 involvement in breakthrough technologies such as quantum computing?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Extract leadership excerpts from the PersonaUser table.",
+      "table": [
+        "PersonaUser"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Identify mentions of breakthrough technologies like quantum computing.",
+      "table": [
+        "PersonaUser"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "List companies involved in these technologies.",
+      "table": [
+        "PersonaUser"
+      ]
+    }
+  ]
+}

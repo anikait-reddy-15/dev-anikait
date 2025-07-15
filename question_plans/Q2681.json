@@ -1,0 +1,26 @@
+{
+  "question": "Which corporate messages about risk mitigation originated from companies with prominent vendor diversification strategies?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies with prominent vendor diversification strategies.",
+      "table": [
+        "PersonaTitle"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract corporate messages related to risk mitigation.",
+      "table": [
+        "SectionData"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Filter the risk mitigation messages to include only those from companies identified in step 1.",
+      "table": [
+        "SectionData"
+      ]
+    }
+  ]
+}

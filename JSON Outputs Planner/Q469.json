@@ -1,21 +1,27 @@
 {
   "question": "Which vendors are involved with technology solutions for companies that have recently reshuffled their leadership in the IT departments?",
-  "tables": ["CompanyVendorTechDetail", "CompanyLeadershipExcerpt"],
   "subtasks": [
     {
       "step": 1,
       "task": "Identify companies that have recently reshuffled their IT leadership. [CompanyLeadershipExcerpt]",
-      "table": ["CompanyLeadershipExcerpt"]
+      "table": [
+        "CompanyLeadershipExcerpt"
+      ]
     },
     {
       "step": 2,
       "task": "Identify vendors providing technology solutions to these companies. [CompanyVendorTechDetail]",
-      "table": ["CompanyVendorTechDetail"]
+      "table": [
+        "CompanyVendorTechDetail"
+      ]
     },
     {
       "step": 3,
       "task": "Match the vendors with the companies that have reshuffled their IT leadership. [CompanyVendorTechDetail, CompanyLeadershipExcerpt]",
-      "table": ["CompanyVendorTechDetail", "CompanyLeadershipExcerpt"]
+      "table": [
+        "CompanyVendorTechDetail",
+        "CompanyLeadershipExcerpt"
+      ]
     }
   ]
 }

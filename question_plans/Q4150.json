@@ -1,0 +1,26 @@
+{
+  "question": "Which data science discussions on Twitter coincide with enterprises investing heavily in edge AI platforms?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify enterprises investing heavily in edge AI platforms.",
+      "table": [
+        "CompanyITPartnerDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Retrieve data science discussions from the PersonaTwitterProfile table.",
+      "table": [
+        "PersonaTwitterProfile"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Find discussions that coincide with these enterprises' investments.",
+      "table": [
+        "PersonaTwitterProfile"
+      ]
+    }
+  ]
+}

@@ -1,21 +1,27 @@
 {
   "question": "Which companies have increased their presence on Instagram while also focusing on sustainability in their business strategies?",
-  "tables": ["CompanyInstagramDetail", "CompanyFocusAreaDetail"],
   "subtasks": [
     {
       "step": 1,
       "task": "Identify companies that have increased their presence on Instagram. [CompanyInstagramDetail]",
-      "table": ["CompanyInstagramDetail"]
+      "table": [
+        "CompanyInstagramDetail"
+      ]
     },
     {
       "step": 2,
       "task": "Determine which of these companies are focusing on sustainability. [CompanyFocusAreaDetail]",
-      "table": ["CompanyFocusAreaDetail"]
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
     },
     {
       "step": 3,
       "task": "Cross-reference the two sets of companies to find those that meet both criteria. [CompanyFocusAreaDetail, CompanyInstagramDetail]",
-      "table": ["CompanyFocusAreaDetail", "CompanyInstagramDetail"]
+      "table": [
+        "CompanyFocusAreaDetail",
+        "CompanyInstagramDetail"
+      ]
     }
   ]
 }

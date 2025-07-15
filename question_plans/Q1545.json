@@ -1,0 +1,26 @@
+{
+  "question": "Which enterprises have published Facebook content about their latest innovations in AI tech?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Extract Facebook content related to AI innovations.",
+      "table": [
+        "CompanyFacebookDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Identify enterprises associated with these posts.",
+      "table": [
+        "CompanyFacebookDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "List enterprises with relevant Facebook content.",
+      "table": [
+        "CompanyFacebookDetail"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "question": "Which technology vendors are healthcare firms partnering with to enhance their digital patient platforms?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify healthcare firms focusing on digital patient platforms.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Find partnerships involving these healthcare firms.",
+      "table": [
+        "CompanyVendorProductDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "List the technology vendors involved in these partnerships.",
+      "table": [
+        "CompanyVendorProductDetail"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "question": "How do changes in executive leadership correlate with strategic IT pivots in large enterprises?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify large enterprises with recent changes in executive leadership.",
+      "table": [
+        "CompanyVendorProductDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Analyze strategic IT pivots in these enterprises.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Determine correlations between leadership changes and IT pivots.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "question": "What are the key technology advancements driving the latest cybersecurity partnerships among leading IT companies?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify leading IT companies with recent cybersecurity partnerships.",
+      "table": [
+        "CompanyITPartnerDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract key technology advancements mentioned in these partnerships.",
+      "table": [
+        "CompanyITPartnerDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "List the key technology advancements driving these partnerships.",
+      "table": [
+        "CompanyITPartnerDetail"
+      ]
+    }
+  ]
+}

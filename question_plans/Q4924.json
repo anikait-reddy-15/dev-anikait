@@ -1,0 +1,26 @@
+{
+  "question": "Which telecom companies initiated talks on IoT during vendor assessments?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify telecom companies from the CompanyDataCenter table.",
+      "table": [
+        "CompanyDataCenter"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Find vendor assessments that mention IoT in these companies.",
+      "table": [
+        "CompanyDataCenter"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "List telecom companies that initiated IoT talks during these assessments.",
+      "table": [
+        "CompanyDataCenter"
+      ]
+    }
+  ]
+}

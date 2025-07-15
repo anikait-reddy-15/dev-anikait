@@ -1,0 +1,26 @@
+{
+  "question": "Which executives hold notable LinkedIn titles suggesting strategic leadership in digital communication enhancements?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Extract LinkedIn profiles of executives from the PersonaUser table.",
+      "table": [
+        "PersonaUser"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Identify titles suggesting strategic leadership in digital communication.",
+      "table": [
+        "PersonaUser"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "List executives with these notable titles.",
+      "table": [
+        "PersonaUser"
+      ]
+    }
+  ]
+}

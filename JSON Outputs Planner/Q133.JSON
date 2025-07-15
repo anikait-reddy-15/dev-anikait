@@ -1,6 +1,5 @@
 {
   "question": "Which platforms are preferred by firms for promoting their advancing technologies and updates?",
-  "tables": ["CompanySocialMediaInfo", "CompanyTechStack"],
   "subtasks": [
     {
       "step": 1,

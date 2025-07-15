@@ -1,0 +1,26 @@
+{
+  "question": "Who are emerging leaders perfecting IoT use within technology stacks shared in their public-oriented speeches?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify emerging leaders in technology stacks.",
+      "table": [
+        "CompanyLeadershipExcerpt"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract speeches or public communications that mention IoT use.",
+      "table": [
+        "CompanyLeadershipExcerpt"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Combine data to find leaders perfecting IoT use in their technology stacks.",
+      "table": [
+        "CompanyLeadershipExcerpt"
+      ]
+    }
+  ]
+}

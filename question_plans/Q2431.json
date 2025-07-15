@@ -1,0 +1,26 @@
+{
+  "question": "Which software developments are associated with increased LinkedIn activities by companies with a new focus on tech innovation?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies with a new focus on tech innovation.",
+      "table": [
+        "CompanyDataCenter"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Find increased LinkedIn activities associated with these companies.",
+      "table": [
+        "PersonaLinkedInProfile"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Extract software developments linked to these LinkedIn activities.",
+      "table": [
+        "PersonaLinkedInProfile"
+      ]
+    }
+  ]
+}

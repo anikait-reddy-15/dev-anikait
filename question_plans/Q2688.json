@@ -1,0 +1,27 @@
+{
+  "question": "Which technological shifts are accelerated by firms that rebrand their social media narratives recently?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify firms that have recently rebranded their social media narratives.",
+      "table": [
+        "PersonaFaceBook",
+        "PersonaInstagramProfile"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Collect data on technological shifts related to these firms.",
+      "table": [
+        "SectionData"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze how these technological shifts are being accelerated.",
+      "table": [
+        "SectionData"
+      ]
+    }
+  ]
+}

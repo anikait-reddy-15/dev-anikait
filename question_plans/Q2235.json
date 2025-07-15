@@ -1,0 +1,26 @@
+{
+  "question": "Which companies are launching multi-channel marketing strategies that include emerging tech tools?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies with multi-channel marketing strategies from tech details.",
+      "table": [
+        "CompanyVendorTechDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract details of emerging tech tools included in these strategies.",
+      "table": [
+        "CompanyVendorTechDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "List companies launching these comprehensive marketing strategies.",
+      "table": [
+        "CompanyVendorTechDetail"
+      ]
+    }
+  ]
+}

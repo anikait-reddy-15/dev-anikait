@@ -1,0 +1,26 @@
+{
+  "question": "What industry benchmarks reflect the pivotal role of cybersecurity within the finance sector?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify industry benchmarks related to cybersecurity.",
+      "table": [
+        "IndustryBusinessTrend"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Filter benchmarks specific to the finance sector.",
+      "table": [
+        "PersonaTitle"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze how these benchmarks reflect the role of cybersecurity.",
+      "table": [
+        "PersonaLinkedinPost"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "question": "Which personas have collaborated with analytics vendors on LinkedIn trends recently?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify LinkedIn trends related to analytics vendors.",
+      "table": [
+        "PersonaLinkedinActivity"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Find personas collaborating with these vendors.",
+      "table": [
+        "PersonaLinkedinActivity"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "List personas with recent collaborations.",
+      "table": [
+        "PersonaLinkedinActivity"
+      ]
+    }
+  ]
+}

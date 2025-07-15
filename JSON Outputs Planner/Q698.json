@@ -1,21 +1,27 @@
 {
   "question": "What are the hiring patterns for companies increasing adoption of container orchestration tools like Kubernetes?",
-  "tables": ["CompanyHiringDetail", "CompanyTechStack"],
   "subtasks": [
     {
       "step": 1,
       "task": "Identify companies adopting container orchestration tools.",
-      "table": ["CompanyTechStack"]
+      "table": [
+        "CompanyTechStack"
+      ]
     },
     {
       "step": 2,
       "task": "Analyze hiring patterns of these companies.",
-      "table": ["CompanyHiringDetail"]
+      "table": [
+        "CompanyHiringDetail"
+      ]
     },
     {
       "step": 3,
       "task": "Combine data to identify correlations.",
-      "table": ["CompanyTechStack", "CompanyHiringDetail"]
+      "table": [
+        "CompanyTechStack",
+        "CompanyHiringDetail"
+      ]
     }
   ]
 }

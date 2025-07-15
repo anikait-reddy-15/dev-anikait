@@ -1,21 +1,26 @@
 {
   "question": "What are the prevalent tech stacks among companies that have shown a commitment to diversity through recent leadership appointments?",
-  "tables": ["CompanyTechStack", "CompanyLeadershipExcerpt"],
   "subtasks": [
     {
       "step": 1,
       "task": "Identify companies that have made recent leadership appointments focused on diversity",
-      "table": ["CompanyLeadershipExcerpt"]
+      "table": [
+        "CompanyLeadershipExcerpt"
+      ]
     },
     {
       "step": 2,
       "task": "Gather the tech stacks used by these companies",
-      "table": ["CompanyTechStack"]
+      "table": [
+        "CompanyTechStack"
+      ]
     },
     {
       "step": 3,
       "task": "Analyze the tech stacks to determine prevalent technologies",
-      "table": ["CompanyTechStack"]
+      "table": [
+        "CompanyTechStack"
+      ]
     }
   ]
 }

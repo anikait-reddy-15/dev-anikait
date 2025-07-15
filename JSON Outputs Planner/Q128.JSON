@@ -1,6 +1,5 @@
 {
   "question": "How do recent leadership changes affect the social media engagement strategies of tech firms?",
-  "tables": ["CompanyLeadershipExcerpt", "CompanySocialMediaInfo"],
   "subtasks": [
     {
       "step": 1,

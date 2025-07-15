@@ -1,0 +1,24 @@
+{
+  "question": "Which leading-edge technologies have been added to the stack of health sector firms recently acquiring talents?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify health sector firms that have recently acquired talents",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Identify leading-edge technologies added to their stack",
+      "table": [
+        "CompanyVendorProductDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Correlate technologies with the identified health sector firms",
+      "table": []
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "question": "Are there organizational changes tied to increasing machine learning applications in internal operations?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify organizations with increasing machine learning applications from the CompanyVendorTechDetail table.",
+      "table": [
+        "CompanyVendorTechDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract details of organizational changes from the CompanyDataCenter table.",
+      "table": [
+        "CompanyDataCenter"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Determine the relationship between machine learning applications and organizational changes.",
+      "table": [
+        "CompanyVendorTechDetail"
+      ]
+    }
+  ]
+}

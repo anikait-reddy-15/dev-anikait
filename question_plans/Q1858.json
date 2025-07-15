@@ -1,0 +1,27 @@
+{
+  "question": "How does leadership emphasis on tech sustainability correlate with recent updates to company data center narratives?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify leadership emphasis on tech sustainability from leadership excerpts.",
+      "table": [
+        "PersonaTwitterProfile"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract recent updates to company data center narratives.",
+      "table": [
+        "IndustryBusinessTrend"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the correlation between leadership emphasis on tech sustainability and data center updates.",
+      "table": [
+        "PersonaTwitterProfile",
+        "IndustryBusinessTrend"
+      ]
+    }
+  ]
+}

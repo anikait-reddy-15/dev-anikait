@@ -1,0 +1,26 @@
+{
+  "question": "How effectively are tech companies leveraging consumer feedback to drive product improvements?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify tech companies with consumer feedback mechanisms",
+      "table": [
+        "CompanyITPartnerDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Analyze the feedback data for insights on product improvements",
+      "table": [
+        "CompanyITPartnerDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Evaluate the changes made to products based on feedback",
+      "table": [
+        "CompanyITPartnerDetail"
+      ]
+    }
+  ]
+}

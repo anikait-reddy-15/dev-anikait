@@ -1,0 +1,26 @@
+{
+  "question": "How do cloud-intensive strategies affect interactions on technology leaders' Twitter accounts?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify technology leaders with cloud-intensive strategies mentioned on Twitter.",
+      "table": [
+        "PersonaTitle"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Analyze the interactions on their Twitter accounts related to these strategies.",
+      "table": [
+        "PersonaMisc"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Evaluate the effect of these strategies on engagement metrics.",
+      "table": [
+        "PersonaMisc"
+      ]
+    }
+  ]
+}

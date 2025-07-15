@@ -1,0 +1,26 @@
+{
+  "question": "Which engineering leaders have published insights into sustainable tech solutions on LinkedIn?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify engineering leaders with LinkedIn profiles.",
+      "table": [
+        "PersonaTitle"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract insights published on sustainable tech solutions.",
+      "table": [
+        "PersonaTitle"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "List leaders who have published these insights.",
+      "table": [
+        "PersonaTitle"
+      ]
+    }
+  ]
+}

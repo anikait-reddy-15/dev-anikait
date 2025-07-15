@@ -1,0 +1,26 @@
+{
+  "question": "What are the innovation benchmarks in vendor collaboration for companies pursuing smart connected solutions?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies pursuing smart connected solutions.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract vendor collaboration data for these companies.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Determine innovation benchmarks in these collaborations.",
+      "table": [
+        "CompanyInfo"
+      ]
+    }
+  ]
+}

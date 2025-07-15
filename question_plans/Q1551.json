@@ -1,0 +1,27 @@
+{
+  "question": "How have perceptions about AI been changing among leadership at companies boosting their analytics competencies?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify leadership excerpts discussing AI perceptions.",
+      "table": [
+        "SectionTitle"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Filter for companies boosting analytics competencies.",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze changes in AI perceptions among these companies.",
+      "table": [
+        "SectionTitle",
+        "CompanyHiringDetail"
+      ]
+    }
+  ]
+}

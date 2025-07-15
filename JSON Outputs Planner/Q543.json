@@ -1,21 +1,26 @@
 {
   "question": "What vendor products are most frequently associated with companies that have reported significant shifts in their technology focus area in the last year?",
-  "tables": ["CompanyVendorProductDetail", "CompanyFocusAreaDetail"],
   "subtasks": [
     {
       "step": 1,
       "task": "Identify companies that have reported significant shifts in their technology focus area in the last year. [CompanyFocusAreaDetail]",
-      "table": ["CompanyFocusAreaDetail"]
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
     },
     {
       "step": 2,
       "task": "Gather vendor products associated with these companies. [CompanyVendorProductDetail]",
-      "table": ["CompanyVendorProductDetail"]
+      "table": [
+        "CompanyVendorProductDetail"
+      ]
     },
     {
       "step": 3,
       "task": "Analyze the vendor products to find the most frequently associated ones. [CompanyVendorProductDetail]",
-      "table": ["CompanyVendorProductDetail"]
+      "table": [
+        "CompanyVendorProductDetail"
+      ]
     }
   ]
 }

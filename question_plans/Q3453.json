@@ -1,0 +1,26 @@
+{
+  "question": "Which technology areas are highlighted by companies initiating massive layoffs and what are the predominant LinkedIn reactions?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies initiating massive layoffs.",
+      "table": [
+        "CompanyDataCenter"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Find technology areas highlighted by these companies.",
+      "table": [
+        "SectionInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Determine predominant LinkedIn reactions.",
+      "table": [
+        "PersonaYoutubeProfile"
+      ]
+    }
+  ]
+}

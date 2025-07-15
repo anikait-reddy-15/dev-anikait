@@ -1,0 +1,26 @@
+{
+  "question": "Which personas who focus on data visualization present trend insights on Instagram?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify personas focused on data visualization.",
+      "table": [
+        "PersonaTwitterTweets"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Collect Instagram posts presenting trend insights.",
+      "table": [
+        "PersonaTwitterTweets"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Determine which personas present these insights.",
+      "table": [
+        "PersonaTwitterTweets"
+      ]
+    }
+  ]
+}

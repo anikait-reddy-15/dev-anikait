@@ -1,0 +1,26 @@
+{
+  "question": "Which companies expanding in the APAC region have recently added new e-commerce functionalities to their platforms?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies expanding in the APAC region.",
+      "table": [
+        "CompanyVendorProductDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Determine which of these companies have added new e-commerce functionalities.",
+      "table": [
+        "CompanyVendorProductDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "List companies meeting both criteria.",
+      "table": [
+        "CompanyVendorProductDetail"
+      ]
+    }
+  ]
+}

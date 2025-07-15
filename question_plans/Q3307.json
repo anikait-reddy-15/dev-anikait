@@ -1,0 +1,27 @@
+{
+  "question": "Which companies are actively hiring data engineers along with a significant expansion in their machine learning capabilities?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies actively hiring data engineers.",
+      "table": [
+        "LookUpValue"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Find companies with significant expansion in machine learning capabilities.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Combine results to find companies meeting both criteria.",
+      "table": [
+        "LookUpValue",
+        "IndustryITTrend"
+      ]
+    }
+  ]
+}

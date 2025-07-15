@@ -1,0 +1,26 @@
+{
+  "question": "Who are the significant thought leaders discussing streaming analytics innovations in key IT partnerships?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify thought leaders from available data.",
+      "table": [
+        "PersonaYoutubeProfile"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Filter discussions related to streaming analytics innovations.",
+      "table": [
+        "PersonaTwitterTweets"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Cross-reference with key IT partnerships.",
+      "table": [
+        "PersonaYoutubeProfile"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "question": "Which companies secured vendor contracts for AI tools and simultaneously reduced headcount?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies that secured vendor contracts for AI tools.",
+      "table": [
+        "CompanyVendorProductDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Identify companies that have reduced headcount.",
+      "table": [
+        "PersonaMisc"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Find companies that meet both criteria.",
+      "table": [
+        "CompanyVendorProductDetail",
+        "PersonaMisc"
+      ]
+    }
+  ]
+}

@@ -1,21 +1,27 @@
 {
   "question": "Which companies are investing in AI technologies and have published posts regarding employee wellness on their social media?",
-  "tables": ["CompanyTechStack", "SocialMediaInfo"],
   "subtasks": [
     {
       "step": 1,
       "task": "Identify companies that are investing in AI technologies from the tech stack. [CompanyTechStack]",
-      "table": ["CompanyTechStack"]
+      "table": [
+        "CompanyTechStack"
+      ]
     },
     {
       "step": 2,
       "task": "Filter social media posts that are related to employee wellness. [SocialMediaInfo]",
-      "table": ["SocialMediaInfo"]
+      "table": [
+        "SocialMediaInfo"
+      ]
     },
     {
       "step": 3,
       "task": "Match companies from the AI investment list with those that have published wellness posts. [CompanyTechStack, SocialMediaInfo]",
-      "table": ["CompanyTechStack", "SocialMediaInfo"]
+      "table": [
+        "CompanyTechStack",
+        "SocialMediaInfo"
+      ]
     }
   ]
 }

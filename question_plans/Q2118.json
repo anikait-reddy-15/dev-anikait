@@ -1,0 +1,19 @@
+{
+  "question": "Which competitors are mentioned in vendor deals regarding cloud-based solutions?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify vendor deals regarding cloud-based solutions.",
+      "table": [
+        "CompanyVendorTechDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Find competitors mentioned in these vendor deals.",
+      "table": [
+        "CompanyVendorTechDetail"
+      ]
+    }
+  ]
+}

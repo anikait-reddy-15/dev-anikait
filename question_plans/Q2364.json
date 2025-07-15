@@ -1,0 +1,26 @@
+{
+  "question": "How many organizations have been spotlighted for their IoT implementations, revealing new IT leadership in services?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify organizations with IoT implementations.",
+      "table": [
+        "CompanyDealMaster"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Determine which of these organizations have been spotlighted.",
+      "table": [
+        "SectionInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the new IT leadership revealed in services for these organizations.",
+      "table": [
+        "SectionTitle"
+      ]
+    }
+  ]
+}

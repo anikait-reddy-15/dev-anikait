@@ -1,0 +1,27 @@
+{
+  "question": "Which companies have an increased number of IT partners and what recent changes have occurred in their leadership structure?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies with an increased number of IT partners.",
+      "table": [
+        "CompanyVendorTechDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract recent changes in leadership structure.",
+      "table": [
+        "IndustryBusinessTrend"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Combine data to link IT partner increases with leadership changes.",
+      "table": [
+        "CompanyVendorTechDetail",
+        "IndustryBusinessTrend"
+      ]
+    }
+  ]
+}

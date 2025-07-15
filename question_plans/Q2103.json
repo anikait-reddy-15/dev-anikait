@@ -1,0 +1,27 @@
+{
+  "question": "Which companies have expanded their IT partnerships and are regularly posting about \"digital transformation\" on Twitter?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies that have expanded their IT partnerships.",
+      "table": [
+        "CompanyVendorTechDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Filter companies that are regularly posting about \"digital transformation\" on Twitter.",
+      "table": [
+        "PersonaLinkedInProfile"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Combine results to find companies meeting both criteria.",
+      "table": [
+        "CompanyVendorTechDetail",
+        "PersonaLinkedInProfile"
+      ]
+    }
+  ]
+}

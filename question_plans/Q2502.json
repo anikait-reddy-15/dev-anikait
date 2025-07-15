@@ -1,0 +1,26 @@
+{
+  "question": "What initiatives did companies with new leadership postings undertake in the AI technology space?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies with new leadership postings.",
+      "table": [
+        "PersonaLinkedInProfile"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Find initiatives related to AI technology undertaken by these companies.",
+      "table": [
+        "PersonaLinkedInProfile"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Combine the data to list initiatives linked to companies with new leadership.",
+      "table": [
+        "PersonaLinkedInProfile"
+      ]
+    }
+  ]
+}

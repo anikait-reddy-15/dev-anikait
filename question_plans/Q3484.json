@@ -1,0 +1,27 @@
+{
+  "question": "What leadership ambitions for generative AI technology are echoed in social media feeds amplifying industry live commentary?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Extract leadership ambitions related to generative AI",
+      "table": [
+        "SectionTitle"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Identify social media feeds with industry live commentary",
+      "table": [
+        "PersonaYoutubeProfile"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Correlate leadership ambitions with social media commentary",
+      "table": [
+        "SectionTitle",
+        "PersonaYoutubeProfile"
+      ]
+    }
+  ]
+}

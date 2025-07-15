@@ -1,21 +1,27 @@
 {
   "question": "What types of AI algorithms are commonly adopted by companies focused on predictive analytics?",
-  "tables": ["CompanyFocusAreaDetail", "CompanyVendorTechDetail"],
   "subtasks": [
     {
       "step": 1,
       "task": "Identify companies focused on predictive analytics.",
-      "table": ["CompanyFocusAreaDetail"]
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
     },
     {
       "step": 2,
       "task": "List AI algorithms adopted by these companies via vendor tools.",
-      "table": ["CompanyVendorTechDetail"]
+      "table": [
+        "CompanyVendorTechDetail"
+      ]
     },
     {
       "step": 3,
       "task": "Summarize most commonly adopted algorithm types.",
-      "table": ["CompanyFocusAreaDetail", "CompanyVendorTechDetail"]
+      "table": [
+        "CompanyFocusAreaDetail",
+        "CompanyVendorTechDetail"
+      ]
     }
   ]
 }

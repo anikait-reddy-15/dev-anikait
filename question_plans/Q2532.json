@@ -1,0 +1,26 @@
+{
+  "question": "Who were the most prominent Twitter users when posting about their firm's strategic focus updates?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify posts related to strategic focus updates on Twitter.",
+      "table": [
+        "PersonaTwitterProfile"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract user information from these posts.",
+      "table": [
+        "PersonaTwitterProfile"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Determine the most prominent users based on engagement or influence.",
+      "table": [
+        "PersonaTwitterProfile"
+      ]
+    }
+  ]
+}

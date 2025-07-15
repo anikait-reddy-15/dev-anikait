@@ -1,0 +1,26 @@
+{
+  "question": "How does leadership discussion on cloud adoption influence company IT priorities in tech innovations?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Extract leadership discussions on cloud adoption.",
+      "table": [
+        "PersonaLinkedinActivity"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Identify company IT priorities related to tech innovations.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the influence of leadership discussions on these IT priorities.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    }
+  ]
+}

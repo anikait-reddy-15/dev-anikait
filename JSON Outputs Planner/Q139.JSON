@@ -1,6 +1,5 @@
 {
   "question": "What are the most common social media themes in announcements regarding data-focused technology investments?",
-  "tables": ["CompanySocialMediaInfo", "CompanyTechStack"],
   "subtasks": [
     {
       "step": 1,

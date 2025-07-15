@@ -1,0 +1,24 @@
+{
+  "question": "What technologies are predominantly mentioned by personas in the automotive industry in their YouTube profiles?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify personas in the automotive industry.",
+      "table": [
+        "CompanyManagementDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Find technologies mentioned in their YouTube profiles.",
+      "table": [
+        "CompanyManagementDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "List technologies predominantly mentioned by these personas.",
+      "table": []
+    }
+  ]
+}

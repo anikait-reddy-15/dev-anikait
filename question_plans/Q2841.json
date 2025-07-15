@@ -1,0 +1,26 @@
+{
+  "question": "Which specific AI technologies are gaining traction among companies that have diversified their IT partnerships this year?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies that have diversified their IT partnerships this year.",
+      "table": [
+        "CompanyVendorProductDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Determine which AI technologies are associated with these companies.",
+      "table": [
+        "CompanyVendorProductDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Filter AI technologies that are gaining traction based on usage or mentions.",
+      "table": [
+        "PersonaMisc"
+      ]
+    }
+  ]
+}

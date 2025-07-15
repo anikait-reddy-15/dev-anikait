@@ -1,21 +1,27 @@
 {
-  "question": "What edge AI use cases are being deployed in telecom companies’ 5G infrastructure projects?",
-  "tables": ["CompanyInfo", "CompanyFocusAreaDetail"],
+  "question": "What edge AI use cases are being deployed in telecom companies\u2019 5G infrastructure projects?",
   "subtasks": [
     {
       "step": 1,
       "task": "Identify telecom companies with 5G infrastructure projects.",
-      "table": ["CompanyInfo"]
+      "table": [
+        "CompanyInfo"
+      ]
     },
     {
       "step": 2,
       "task": "Extract edge AI use cases from focus area data.",
-      "table": ["CompanyFocusAreaDetail"]
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
     },
     {
       "step": 3,
       "task": "Map edge AI use cases to relevant telecom firms.",
-      "table": ["CompanyInfo", "CompanyFocusAreaDetail"]
+      "table": [
+        "CompanyInfo",
+        "CompanyFocusAreaDetail"
+      ]
     }
   ]
 }

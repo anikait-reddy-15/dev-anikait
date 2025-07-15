@@ -1,0 +1,26 @@
+{
+  "question": "How are fintech social media engagements engineered to drive consumer loyalty?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify fintech-related social media posts that mention consumer loyalty.",
+      "table": [
+        "PersonaMisc"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Analyze the content of these posts to determine engagement strategies.",
+      "table": [
+        "PersonaMisc"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Correlate engagement strategies with metrics of consumer loyalty.",
+      "table": [
+        "PersonaMisc"
+      ]
+    }
+  ]
+}

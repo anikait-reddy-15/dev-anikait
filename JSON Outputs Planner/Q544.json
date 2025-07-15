@@ -1,21 +1,28 @@
 {
   "question": "Which social media platforms are preferred by data scientists working in organizations that have implemented agile project management methodologies?",
-  "tables": ["PersonaFaceBook", "PersonaTwitterProfile", "CompanyManagementDetail"],
   "subtasks": [
     {
       "step": 1,
       "task": "Identify organizations that have implemented agile project management methodologies. [CompanyManagementDetail]",
-      "table": ["CompanyManagementDetail"]
+      "table": [
+        "CompanyManagementDetail"
+      ]
     },
     {
       "step": 2,
       "task": "Gather data scientists' profiles from these organizations. [PersonaFaceBook, PersonaTwitterProfile]",
-      "table": ["PersonaFaceBook", "PersonaTwitterProfile"]
+      "table": [
+        "PersonaFaceBook",
+        "PersonaTwitterProfile"
+      ]
     },
     {
       "step": 3,
       "task": "Analyze the profiles to determine preferred social media platforms. [PersonaFaceBook, PersonaTwitterProfile]",
-      "table": ["PersonaFaceBook", "PersonaTwitterProfile"]
+      "table": [
+        "PersonaFaceBook",
+        "PersonaTwitterProfile"
+      ]
     }
   ]
 }

@@ -1,0 +1,26 @@
+{
+  "question": "Which retail firms have distributed leadership content focusing on consumer data security on social media platforms?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify retail firms from the company information.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract leadership content related to consumer data security.",
+      "table": [
+        "PersonaMisc"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Check for distribution of this content on social media platforms.",
+      "table": [
+        "PersonaMisc"
+      ]
+    }
+  ]
+}

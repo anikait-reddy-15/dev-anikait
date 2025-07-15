@@ -1,6 +1,5 @@
 {
   "question": "Which technologies are integrated with LPL Financial's customer onboarding processes?",
-  "tables": ["CompanyVendorProductDetail", "CompanyTechStack"],
   "subtasks": [
     {
       "step": 1,

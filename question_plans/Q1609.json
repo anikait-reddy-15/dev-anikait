@@ -1,0 +1,26 @@
+{
+  "question": "Which personas involved in data science have recently mentioned competitor technologies in their tweets?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify personas involved in data science.",
+      "table": [
+        "PersonaTitle"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract recent tweets from these personas.",
+      "table": [
+        "PersonaTitle"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Find mentions of competitor technologies in these tweets.",
+      "table": [
+        "PersonaTitle"
+      ]
+    }
+  ]
+}

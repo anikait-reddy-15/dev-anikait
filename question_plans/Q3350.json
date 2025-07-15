@@ -1,0 +1,26 @@
+{
+  "question": "What digital content strategies are enterprises utilizing while enhancing their tech ecosystems?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify enterprises enhancing their tech ecosystems.",
+      "table": [
+        "CompanyVendorProductDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract digital content strategies from these enterprises.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Compile and analyze digital content strategies.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    }
+  ]
+}

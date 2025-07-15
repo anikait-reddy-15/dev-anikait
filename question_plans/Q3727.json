@@ -1,0 +1,27 @@
+{
+  "question": "How are companies addressing leadership changes in the context of expanding their social media presence?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies undergoing leadership changes.",
+      "table": [
+        "PersonaUser"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Find companies expanding their social media presence.",
+      "table": [
+        "PersonaLinkedinActivity"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze how leadership changes are addressed in social media expansion.",
+      "table": [
+        "PersonaUser",
+        "PersonaLinkedinActivity"
+      ]
+    }
+  ]
+}

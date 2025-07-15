@@ -1,0 +1,27 @@
+{
+  "question": "What personas are actively responding to competitor strategies on Instagram in the e-commerce space?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify Instagram posts related to competitor strategies from the PageInfo table.",
+      "table": [
+        "PageInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract personas in the e-commerce space from the LookUpValue table.",
+      "table": [
+        "LookUpValue"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Link personas to their responses to competitor strategies on Instagram.",
+      "table": [
+        "PageInfo",
+        "LookUpValue"
+      ]
+    }
+  ]
+}

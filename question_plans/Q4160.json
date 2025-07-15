@@ -1,0 +1,26 @@
+{
+  "question": "Which firms have transitioned to digital-first strategies according to their YouTube announcement content?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify firms from the CompanyITPartnerDetail table.",
+      "table": [
+        "CompanyITPartnerDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Retrieve YouTube announcement content from the SocialMediaInfo table.",
+      "table": [
+        "SocialMediaInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Determine which firms have transitioned to digital-first strategies.",
+      "table": [
+        "SocialMediaInfo"
+      ]
+    }
+  ]
+}

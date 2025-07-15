@@ -1,21 +1,27 @@
 {
   "question": "Which companies have gained significant social media traction while also reporting their strategic focus on digital transformation initiatives?",
-  "tables": ["SocialMediaInfo", "CompanyFocusAreaDetail"],
   "subtasks": [
     {
       "step": 1,
       "task": "Identify companies that have reported a focus on digital transformation initiatives. [CompanyFocusAreaDetail]",
-      "table": ["CompanyFocusAreaDetail"]
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
     },
     {
       "step": 2,
       "task": "Retrieve social media traction data for these companies. [SocialMediaInfo]",
-      "table": ["SocialMediaInfo"]
+      "table": [
+        "SocialMediaInfo"
+      ]
     },
     {
       "step": 3,
       "task": "Match the companies with significant social media traction to those focusing on digital transformation. [SocialMediaInfo, CompanyFocusAreaDetail]",
-      "table": ["SocialMediaInfo", "CompanyFocusAreaDetail"]
+      "table": [
+        "SocialMediaInfo",
+        "CompanyFocusAreaDetail"
+      ]
     }
   ]
 }

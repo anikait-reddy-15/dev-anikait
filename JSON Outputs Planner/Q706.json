@@ -1,21 +1,27 @@
 {
   "question": "Which companies have demonstrated recent increases in cloud infrastructure spending and active participation in open-source communities?",
-  "tables": ["CompanyFinancials", "CompanyTechStack"],
   "subtasks": [
     {
       "step": 1,
       "task": "Identify companies increasing cloud infrastructure spending.",
-      "table": ["CompanyFinancials"]
+      "table": [
+        "CompanyFinancials"
+      ]
     },
     {
       "step": 2,
       "task": "Find companies participating actively in open-source projects.",
-      "table": ["CompanyTechStack"]
+      "table": [
+        "CompanyTechStack"
+      ]
     },
     {
       "step": 3,
       "task": "Cross-reference to find companies in both categories.",
-      "table": ["CompanyFinancials", "CompanyTechStack"]
+      "table": [
+        "CompanyFinancials",
+        "CompanyTechStack"
+      ]
     }
   ]
 }

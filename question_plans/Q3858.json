@@ -1,0 +1,26 @@
+{
+  "question": "Who are the major voices actively discussing D&I (Diversity & Inclusion) in technology on social platforms?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify discussions on D&I in technology on social platforms.",
+      "table": [
+        "PersonaInstagramProfile"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract major voices from these discussions.",
+      "table": [
+        "PersonaInstagramProfile"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "List major voices actively discussing D&I.",
+      "table": [
+        "PersonaInstagramProfile"
+      ]
+    }
+  ]
+}

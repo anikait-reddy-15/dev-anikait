@@ -1,0 +1,27 @@
+{
+  "question": "How are companies shifting their security focus after hiring new data science leaders in the last quarter?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies that hired new data science leaders in the last quarter from the PersonaTitle table.",
+      "table": [
+        "PersonaTitle"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract security focus details from the CompanyITPartnerDetail table.",
+      "table": [
+        "CompanyITPartnerDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze changes in security focus for these companies.",
+      "table": [
+        "PersonaTitle",
+        "CompanyITPartnerDetail"
+      ]
+    }
+  ]
+}

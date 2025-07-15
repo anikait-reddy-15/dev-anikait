@@ -1,0 +1,33 @@
+{
+  "question": "How do internal collaborative technologies influence the frequency and style of public corporate communications?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify internal collaborative technologies used by companies.",
+      "table": [
+        "SectionData"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Analyze the frequency of public corporate communications.",
+      "table": [
+        "SectionData"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Examine the style of these communications.",
+      "table": [
+        "SectionData"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Correlate the use of collaborative technologies with communication frequency and style.",
+      "table": [
+        "SectionData"
+      ]
+    }
+  ]
+}

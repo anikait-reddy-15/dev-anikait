@@ -1,0 +1,26 @@
+{
+  "question": "Which social media platforms are leveraged by tech companies during product launches?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify tech companies from the CompanyTechStack table.",
+      "table": [
+        "CompanyTechStack"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract information on product launches from the CompanyFacebookDetail table.",
+      "table": [
+        "CompanyFacebookDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Determine the social media platforms used during these launches.",
+      "table": [
+        "CompanyFacebookDetail"
+      ]
+    }
+  ]
+}

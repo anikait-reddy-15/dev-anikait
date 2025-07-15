@@ -1,0 +1,27 @@
+{
+  "question": "Which companies doubled their Facebook user engagement since launching new AI products?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies that launched new AI products.",
+      "table": [
+        "CompanyVendorTechDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Find companies that doubled their Facebook user engagement.",
+      "table": [
+        "PersonaLinkedInProfile"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Combine results to find companies meeting both criteria.",
+      "table": [
+        "CompanyVendorTechDetail",
+        "PersonaLinkedInProfile"
+      ]
+    }
+  ]
+}

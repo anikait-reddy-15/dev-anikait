@@ -1,0 +1,26 @@
+{
+  "question": "How are companies in the manufacturing sector adapting their IT stack to include IoT technologies, and what are the anticipated industry trends?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies in the manufacturing sector.",
+      "table": [
+        "IndustryBusinessTrend"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract information on how these companies are adapting their IT stack to include IoT technologies.",
+      "table": [
+        "IndustryBusinessTrend"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Identify anticipated industry trends related to IoT in manufacturing.",
+      "table": [
+        "IndustryBusinessTrend"
+      ]
+    }
+  ]
+}

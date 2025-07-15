@@ -1,6 +1,5 @@
 {
   "question": "What are the key responsibilities of data scientists at companies that are heavily investing in artificial intelligence technologies?",
-  "tables": ["PersonaUser", "CompanyTechStack", "CompanyHiringDetail"],
   "subtasks": [
     {
       "step": 1,

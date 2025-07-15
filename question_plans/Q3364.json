@@ -1,0 +1,27 @@
+{
+  "question": "How are companies addressing IT sustainability as reflected in public leadership statements?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Extract leadership statements related to IT sustainability from the PageInfo table.",
+      "table": [
+        "PageInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Identify companies focusing on IT sustainability from the IndustryITTrend table.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Link leadership statements to companies to understand their approach to IT sustainability.",
+      "table": [
+        "PageInfo",
+        "IndustryITTrend"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "question": "Which companies are ranked high in IT trends for adaptive tech stack measures communicated via leadership discussions?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies with high rankings in IT trends related to adaptive tech stacks.",
+      "table": [
+        "CompanyDataCenter"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract leadership discussions that communicate adaptive tech stack measures.",
+      "table": [
+        "CompanyLeadershipExcerpt"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Combine data to find companies that are both ranked high in IT trends and have leadership discussions on adaptive tech stacks.",
+      "table": [
+        "CompanyDataCenter",
+        "CompanyLeadershipExcerpt"
+      ]
+    }
+  ]
+}

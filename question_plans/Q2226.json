@@ -1,0 +1,26 @@
+{
+  "question": "What is the correlation between IT budget increases and the number of patent filings in tech companies?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Extract IT budget data from tech details.",
+      "table": [
+        "CompanyVendorTechDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Identify the number of patent filings from tech-related fields.",
+      "table": [
+        "CompanyVendorTechDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Calculate the correlation between IT budget increases and patent filings.",
+      "table": [
+        "CompanyVendorTechDetail"
+      ]
+    }
+  ]
+}

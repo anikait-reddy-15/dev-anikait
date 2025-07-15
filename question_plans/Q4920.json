@@ -1,0 +1,24 @@
+{
+  "question": "Do any companies active in online retailing mention augmented reality technology in their latest tech stack updates?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies active in online retailing.",
+      "table": [
+        "CompanyDataCenter"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Find mentions of augmented reality technology in tech stack updates.",
+      "table": [
+        "CompanyDataCenter"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Cross-reference the lists to find companies meeting both criteria.",
+      "table": []
+    }
+  ]
+}

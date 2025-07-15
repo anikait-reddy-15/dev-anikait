@@ -1,0 +1,26 @@
+{
+  "question": "What techniques are engineering professionals employing to streamline processes?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify engineering professionals from the CompanyManagementDetail table.",
+      "table": [
+        "CompanyManagementDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract techniques related to process streamlining.",
+      "table": [
+        "SectionInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Match techniques with the respective engineering professionals.",
+      "table": [
+        "PersonaMisc"
+      ]
+    }
+  ]
+}

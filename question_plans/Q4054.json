@@ -1,0 +1,26 @@
+{
+  "question": "Which corporate entities are strengthening their tech stacks to automate customer experiences?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify corporate entities from the dataset.",
+      "table": [
+        "PersonaTitle"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract information on tech stack enhancements related to automation.",
+      "table": [
+        "PersonaMisc"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Match corporate entities with their tech stack strengthening activities.",
+      "table": [
+        "PersonaMisc"
+      ]
+    }
+  ]
+}

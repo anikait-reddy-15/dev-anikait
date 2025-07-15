@@ -1,0 +1,26 @@
+{
+  "question": "How many companies have increased their hiring efforts for cloud specialists in the past year?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies with hiring roles related to cloud specialists.",
+      "table": [
+        "SectionInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Filter these companies to find those that have increased their hiring efforts in the past year.",
+      "table": [
+        "SectionInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Count the number of companies that meet these criteria.",
+      "table": [
+        "SectionInfo"
+      ]
+    }
+  ]
+}

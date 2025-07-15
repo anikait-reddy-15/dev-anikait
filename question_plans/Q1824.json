@@ -1,0 +1,24 @@
+{
+  "question": "Which organizations have documented vendor tech partnerships and actively engage in leadership talks on digital modernization?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify organizations with documented vendor tech partnerships.",
+      "table": [
+        "IndustryBusinessTrend"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Find organizations engaging in leadership talks on digital modernization.",
+      "table": [
+        "SocialMediaInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Combine results to find organizations meeting both criteria.",
+      "table": []
+    }
+  ]
+}

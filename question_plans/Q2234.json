@@ -1,0 +1,26 @@
+{
+  "question": "How do recent collaborations influence corporate data strategies across tech-centric firms?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify recent collaborations from tech details.",
+      "table": [
+        "CompanyVendorTechDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract data strategy changes from companies involved in these collaborations.",
+      "table": [
+        "CompanyVendorTechDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the influence of collaborations on corporate data strategies.",
+      "table": [
+        "CompanyVendorTechDetail"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "question": "What are the typical attributes of companies doubling their software procurement from cybersecurity vendors?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies doubling their software procurement from cybersecurity vendors",
+      "table": [
+        "CompanyVendorProductDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract typical attributes of these companies",
+      "table": [
+        "PersonaMisc"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze and summarize the typical attributes",
+      "table": []
+    }
+  ]
+}

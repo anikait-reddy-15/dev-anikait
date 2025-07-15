@@ -1,0 +1,26 @@
+{
+  "question": "Which global retailers cited digital content strategies in their tech stack updates and vendor interactions?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify global retailers with tech stack updates.",
+      "table": [
+        "CompanyDataCenter"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Find vendor interactions involving these retailers.",
+      "table": [
+        "CompanyDataCenter"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Extract digital content strategies cited in these updates and interactions.",
+      "table": [
+        "CompanyDataCenter"
+      ]
+    }
+  ]
+}

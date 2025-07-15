@@ -1,0 +1,26 @@
+{
+  "question": "What common characteristics are present in companies actively hiring data scientists?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies with active hiring for data scientists.",
+      "table": [
+        "CompanyVendorProductDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract characteristics of these companies, such as industry, size, and location.",
+      "table": [
+        "CompanyVendorProductDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze and summarize common characteristics across these companies.",
+      "table": [
+        "CompanyVendorProductDetail"
+      ]
+    }
+  ]
+}

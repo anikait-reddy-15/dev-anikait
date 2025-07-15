@@ -1,0 +1,26 @@
+{
+  "question": "What strategic goals are highlighted by companies that have restructured their management teams recently?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies that have restructured their management teams recently.",
+      "table": [
+        "CompanyManagementDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract strategic goals highlighted by these companies.",
+      "table": [
+        "CompanyManagementDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Summarize the strategic goals for the identified companies.",
+      "table": [
+        "CompanyManagementDetail"
+      ]
+    }
+  ]
+}

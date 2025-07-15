@@ -1,0 +1,26 @@
+{
+  "question": "Which firms increased their hiring for machine learning specialists after launching new blockchain products?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify firms that have launched new blockchain products.",
+      "table": [
+        "CompanyVendorTechDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Determine which of these firms have increased hiring for machine learning specialists.",
+      "table": [
+        "CompanyDataCenter"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "List firms that match both criteria: launching blockchain products and increasing hiring for machine learning specialists.",
+      "table": [
+        "CompanyDataCenter"
+      ]
+    }
+  ]
+}

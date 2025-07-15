@@ -1,0 +1,27 @@
+{
+  "question": "Identify companies that reduced Twitter activity while simultaneously expanding their IT infrastructure.",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies with reduced Twitter activity.",
+      "table": [
+        "PersonaYoutubeProfile"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract details on companies expanding their IT infrastructure.",
+      "table": [
+        "IndustryBusinessTrend"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Identify companies with both reduced Twitter activity and expanded IT infrastructure.",
+      "table": [
+        "PersonaYoutubeProfile",
+        "IndustryBusinessTrend"
+      ]
+    }
+  ]
+}

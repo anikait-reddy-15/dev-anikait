@@ -1,0 +1,31 @@
+{
+  "question": "Which companies in the e-sports industry have launched new streaming services and expanded their tech focus simultaneously?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies in the e-sports industry.",
+      "table": [
+        "SectionData"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Find companies that have launched new streaming services.",
+      "table": [
+        "SectionData"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Determine which of these companies have also expanded their tech focus.",
+      "table": [
+        "SectionData"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Combine results to find companies meeting all criteria.",
+      "table": []
+    }
+  ]
+}

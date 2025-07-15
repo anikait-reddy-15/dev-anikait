@@ -1,0 +1,27 @@
+{
+  "question": "How have leaders influenced tech oriented changes in companies who have massively grown their tech stack this past year?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies that have massively grown their tech stack from the IndustryBusinessTrend table.",
+      "table": [
+        "IndustryBusinessTrend"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract leaders' influence on tech-oriented changes from the PersonaYoutubeProfile table.",
+      "table": [
+        "PersonaYoutubeProfile"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the influence of leaders on tech changes in these companies.",
+      "table": [
+        "IndustryBusinessTrend",
+        "PersonaYoutubeProfile"
+      ]
+    }
+  ]
+}

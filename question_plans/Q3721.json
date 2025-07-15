@@ -1,0 +1,27 @@
+{
+  "question": "Which companies are most active on Twitter and are experiencing changes in their organizational leadership roles recently?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies with high Twitter activity from social posts.",
+      "table": [
+        "PersonaLinkedinActivity"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Filter companies experiencing changes in organizational leadership roles.",
+      "table": [
+        "PersonaUser"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Combine results to find companies that meet both criteria.",
+      "table": [
+        "PersonaLinkedinActivity",
+        "PersonaUser"
+      ]
+    }
+  ]
+}

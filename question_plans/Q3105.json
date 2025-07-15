@@ -1,0 +1,26 @@
+{
+  "question": "What strategic focus areas were highlighted by CEOs in their recent speeches, as documented in leadership excerpts?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Extract leadership excerpts from SocialMediaInfo.",
+      "table": [
+        "SocialMediaInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Identify excerpts related to CEO speeches.",
+      "table": [
+        "SocialMediaInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "List strategic focus areas mentioned in these excerpts.",
+      "table": [
+        "SocialMediaInfo"
+      ]
+    }
+  ]
+}

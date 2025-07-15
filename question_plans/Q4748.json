@@ -1,0 +1,26 @@
+{
+  "question": "How do industry-wide webinars shape company strategies towards adopting cloud management tools?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify industry-wide webinars related to cloud management tools.",
+      "table": [
+        "IndustryBusinessTrend"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Analyze the impact of these webinars on company strategies.",
+      "table": [
+        "CompanyTechStack"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Correlate webinar influence with adoption of cloud management tools.",
+      "table": [
+        "CompanyVendorTechDetail"
+      ]
+    }
+  ]
+}

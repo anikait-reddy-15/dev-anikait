@@ -1,21 +1,27 @@
 {
   "question": "Which organizations have launched ethical AI initiatives and frequently engage audiences through Facebook?",
-  "tables": ["CompanyFocusAreaDetail", "PersonaFaceBook"],
   "subtasks": [
     {
       "step": 1,
       "task": "Identify organizations launching ethical AI initiatives.",
-      "table": ["CompanyFocusAreaDetail"]
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
     },
     {
       "step": 2,
       "task": "Find organizations frequently engaging on Facebook.",
-      "table": ["PersonaFaceBook"]
+      "table": [
+        "PersonaFaceBook"
+      ]
     },
     {
       "step": 3,
       "task": "Cross-reference to find companies doing both.",
-      "table": ["CompanyFocusAreaDetail", "PersonaFaceBook"]
+      "table": [
+        "CompanyFocusAreaDetail",
+        "PersonaFaceBook"
+      ]
     }
   ]
 }

@@ -1,0 +1,26 @@
+{
+  "question": "How are open-source software solutions reshaping enterprise developer experiences?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies using open-source software solutions.",
+      "table": [
+        "CompanyITPartnerDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract developer experience details in these companies.",
+      "table": [
+        "CompanyITPartnerDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze how open-source solutions are reshaping these experiences.",
+      "table": [
+        "CompanyITPartnerDetail"
+      ]
+    }
+  ]
+}

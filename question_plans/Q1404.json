@@ -1,0 +1,26 @@
+{
+  "question": "What are the most frequently mentioned technologies in the CEO's public speeches across companies in the technology industry?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies in the technology industry.",
+      "table": [
+        "PersonaMisc"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract CEO's public speeches from these companies.",
+      "table": [
+        "PersonaMisc"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze speeches to find the most frequently mentioned technologies.",
+      "table": [
+        "PersonaMisc"
+      ]
+    }
+  ]
+}

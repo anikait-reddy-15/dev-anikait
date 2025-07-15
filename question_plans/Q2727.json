@@ -1,0 +1,26 @@
+{
+  "question": "What sectors are benefitting from increased data analytics capabilities among mid-sized firms?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify mid-sized firms from the PersonaUser table.",
+      "table": [
+        "PersonaUser"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract information on data analytics capabilities from the SocialMediaInfo table.",
+      "table": [
+        "SocialMediaInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Determine which sectors are benefitting from these capabilities.",
+      "table": [
+        "PersonaUser"
+      ]
+    }
+  ]
+}

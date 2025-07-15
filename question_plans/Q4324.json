@@ -1,0 +1,27 @@
+{
+  "question": "How have competitor Instagram mentions affected company focus area adjustments in the tech industry?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Extract competitor Instagram mentions from the PersonaYoutubeProfile table.",
+      "table": [
+        "PersonaYoutubeProfile"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Identify company focus areas from the CompanyDealMaster table.",
+      "table": [
+        "CompanyDealMaster"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the impact of Instagram mentions on adjustments in company focus areas.",
+      "table": [
+        "PersonaYoutubeProfile",
+        "CompanyDealMaster"
+      ]
+    }
+  ]
+}

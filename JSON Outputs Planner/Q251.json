@@ -1,21 +1,26 @@
 {
   "question": "Which firms have recently transitioned their data management platforms to include AI tools and also had engagement through LinkedIn on data governance topics?",
-  "tables": ["CompanyTechStack", "PersonaLinkedinPost", "CompanyInfo"],
   "subtasks": [
     {
       "step": 1,
       "task": "Identify companies that have adopted AI tools in their data management platforms.",
-      "table": ["CompanyTechStack"]
+      "table": [
+        "CompanyTechStack"
+      ]
     },
     {
       "step": 2,
       "task": "Filter LinkedIn posts that discuss data governance.",
-      "table": ["PersonaLinkedinPost"]
+      "table": [
+        "PersonaLinkedinPost"
+      ]
     },
     {
       "step": 3,
       "task": "Match companies from the posts to those with AI-enhanced platforms.",
-      "table": ["CompanyInfo"]
+      "table": [
+        "CompanyInfo"
+      ]
     }
   ]
 }

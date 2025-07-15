@@ -1,0 +1,27 @@
+{
+  "question": "Which healthcare firms employ top AI specialists and notably increase their vendor tech collaborative efforts?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify healthcare firms employing top AI specialists.",
+      "table": [
+        "CompanyDataCenter"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Find records of increased vendor tech collaborative efforts.",
+      "table": [
+        "CompanyLeadershipExcerpt"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the correlation between employing AI specialists and vendor collaborations.",
+      "table": [
+        "CompanyDataCenter",
+        "CompanyLeadershipExcerpt"
+      ]
+    }
+  ]
+}

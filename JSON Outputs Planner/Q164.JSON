@@ -1,6 +1,5 @@
 {
   "question": "Which data technologies are frequently cited in social media by firms emphasizing their innovation in analytics?",
-  "tables": ["CompanySocialMediaInfo", "CompanyTechStack"],
   "subtasks": [
     {
       "step": 1,

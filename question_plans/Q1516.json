@@ -1,0 +1,27 @@
+{
+  "question": "Which companies have released new strategic plans focused on IoT and increased vendor deals related to such technologies?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies that have released new strategic plans focused on IoT from the SectionTitle table.",
+      "table": [
+        "SectionTitle"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Filter companies that have increased vendor deals related to IoT technologies.",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Determine which companies meet both criteria.",
+      "table": [
+        "SectionTitle",
+        "CompanyHiringDetail"
+      ]
+    }
+  ]
+}

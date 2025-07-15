@@ -1,0 +1,26 @@
+{
+  "question": "What strategic priority shifts exist in firms that engaged in elevated hiring patterns aligned with industrial benchmarks?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify firms with elevated hiring patterns.",
+      "table": [
+        "IndustryBusinessTrend"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Determine industrial benchmarks related to these hiring patterns.",
+      "table": [
+        "IndustryBusinessTrend"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze strategic priority shifts in these firms.",
+      "table": [
+        "IndustryBusinessTrend"
+      ]
+    }
+  ]
+}

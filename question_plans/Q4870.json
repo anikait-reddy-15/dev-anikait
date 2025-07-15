@@ -1,0 +1,27 @@
+{
+  "question": "Which tweets from recognized tech figures emphasize advances in machine learning tactics?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify recognized tech figures from the database.",
+      "table": [
+        "PersonaMisc"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract tweets related to machine learning tactics.",
+      "table": [
+        "SectionTitle"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Filter tweets that emphasize advances in machine learning.",
+      "table": [
+        "PersonaMisc",
+        "SectionTitle"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "question": "How do company blog posts reflect their evolving strategy towards big data utilization?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify company blog posts related to big data.",
+      "table": [
+        "CompanyITPartnerDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract content reflecting strategies towards big data utilization.",
+      "table": [
+        "CompanyITPartnerDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze how these posts reflect evolving strategies.",
+      "table": [
+        "CompanyITPartnerDetail"
+      ]
+    }
+  ]
+}

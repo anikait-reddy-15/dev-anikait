@@ -1,0 +1,26 @@
+{
+  "question": "How many IT leadership changes occurred in companies that recently signed deals with cloud vendors?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies that have recently signed deals with cloud vendors.",
+      "table": [
+        "PersonaMisc"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Find IT leadership changes within these companies.",
+      "table": [
+        "PersonaMisc"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Count the number of IT leadership changes.",
+      "table": [
+        "PersonaMisc"
+      ]
+    }
+  ]
+}

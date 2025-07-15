@@ -1,0 +1,26 @@
+{
+  "question": "Which social media strategies are predominant in companies that have recently introduced new data centers?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies that have recently introduced new data centers.",
+      "table": [
+        "PersonaTitle"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract social media strategies from these companies.",
+      "table": [
+        "PersonaTitle"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Determine predominant social media strategies among these companies.",
+      "table": [
+        "PersonaTitle"
+      ]
+    }
+  ]
+}

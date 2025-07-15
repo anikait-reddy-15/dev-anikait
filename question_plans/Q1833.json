@@ -1,0 +1,24 @@
+{
+  "question": "How do industry trends in renewable energy manifest as organizational changes within focused tech companies?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify industry trends in renewable energy.",
+      "table": [
+        "IndustryBusinessTrend"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Find organizational changes in tech companies related to these trends.",
+      "table": [
+        "SocialMediaInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze how these trends manifest as organizational changes.",
+      "table": []
+    }
+  ]
+}

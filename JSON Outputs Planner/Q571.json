@@ -1,21 +1,26 @@
 {
   "question": "Who are the executives at companies that have increased social media engagement and are focusing on digital transformation in the healthcare sector?",
-  "tables": ["CompanyLeadershipExcerpt", "SocialMediaInfo", "CompanyFocusAreaDetail"],
   "subtasks": [
     {
       "step": 1,
       "task": "Identify companies that have increased social media engagement. [SocialMediaInfo]",
-      "table": ["SocialMediaInfo"]
+      "table": [
+        "SocialMediaInfo"
+      ]
     },
     {
       "step": 2,
       "task": "Find companies focusing on digital transformation in the healthcare sector. [CompanyFocusAreaDetail]",
-      "table": ["CompanyFocusAreaDetail"]
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
     },
     {
       "step": 3,
       "task": "Retrieve the executives from the matched companies. [CompanyLeadershipExcerpt]",
-      "table": ["CompanyLeadershipExcerpt"]
+      "table": [
+        "CompanyLeadershipExcerpt"
+      ]
     }
   ]
 }

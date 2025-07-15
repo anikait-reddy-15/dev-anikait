@@ -1,0 +1,24 @@
+{
+  "question": "Which sectors are most influenced by top trending IT technologies in the past year?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify top trending IT technologies in the past year.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Determine sectors influenced by these technologies.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Rank sectors based on the influence of these technologies.",
+      "table": []
+    }
+  ]
+}

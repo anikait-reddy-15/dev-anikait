@@ -1,21 +1,27 @@
 {
   "question": "Which companies are conducting internal AI audits and have published methodology overviews?",
-  "tables": ["CompanyFocusAreaDetail", "CompanyBlogDetail"],
   "subtasks": [
     {
       "step": 1,
       "task": "Identify companies performing internal AI audits.",
-      "table": ["CompanyFocusAreaDetail"]
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
     },
     {
       "step": 2,
       "task": "Find companies that published audit methodologies.",
-      "table": ["CompanyBlogDetail"]
+      "table": [
+        "CompanyBlogDetail"
+      ]
     },
     {
       "step": 3,
       "task": "Cross-match audit conductors with methodology publishers.",
-      "table": ["CompanyFocusAreaDetail", "CompanyBlogDetail"]
+      "table": [
+        "CompanyFocusAreaDetail",
+        "CompanyBlogDetail"
+      ]
     }
   ]
 }

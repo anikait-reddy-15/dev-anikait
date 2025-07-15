@@ -1,0 +1,26 @@
+{
+  "question": "What are the dominant trends in cybersecurity areas noted by predominant business trends in related sectors?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify predominant business trends in related sectors.",
+      "table": [
+        "IndustryBusinessTrend"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract cybersecurity trends from these business trends.",
+      "table": [
+        "IndustryBusinessTrend"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Determine the dominant trends in cybersecurity areas.",
+      "table": [
+        "IndustryBusinessTrend"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "question": "How are changes in international trade policies impacting IT procurement strategies?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies affected by international trade policies",
+      "table": [
+        "CompanyITPartnerDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Analyze changes in their IT procurement strategies",
+      "table": [
+        "CompanyITPartnerDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Assess the impact of these changes on company operations",
+      "table": [
+        "CompanyITPartnerDetail"
+      ]
+    }
+  ]
+}

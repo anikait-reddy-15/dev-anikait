@@ -1,0 +1,26 @@
+{
+  "question": "What leadership cues are companies taking from top tech conference discussions?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify tech conferences attended by company leaders",
+      "table": [
+        "CompanyITPartnerDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract key discussion points from these conferences",
+      "table": [
+        "CompanyITPartnerDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Determine how companies are implementing these leadership cues",
+      "table": [
+        "CompanyITPartnerDetail"
+      ]
+    }
+  ]
+}

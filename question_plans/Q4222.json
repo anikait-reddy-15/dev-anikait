@@ -1,0 +1,26 @@
+{
+  "question": "Which automotive companies have focused heavily on electric vehicle technologies according to recent tech stack updates?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify automotive companies.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract tech stack updates related to electric vehicle technologies.",
+      "table": [
+        "PersonaMisc"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Filter companies focusing heavily on electric vehicle technologies.",
+      "table": [
+        "PersonaMisc"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "question": "Which companies placing emphasis on customer experience have made notable changes to their tech ecosystems?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies emphasizing customer experience.",
+      "table": [
+        "CompanyVendorProductDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Find notable changes in tech ecosystems for these companies.",
+      "table": [
+        "SectionData"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Combine results to list companies with both customer experience emphasis and tech ecosystem changes.",
+      "table": [
+        "CompanyVendorProductDetail",
+        "SectionData"
+      ]
+    }
+  ]
+}

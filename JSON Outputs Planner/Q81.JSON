@@ -1,6 +1,5 @@
 {
   "question": "What companies had both an increase in Twitter engagement and a shift in their focus to digital transformation this quarter?",
-  "tables": ["CompanyTwitterDetail", "CompanyFocusAreaDetail"],
   "subtasks": [
     {
       "step": 1,

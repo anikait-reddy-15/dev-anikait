@@ -1,0 +1,26 @@
+{
+  "question": "Has increased YouTube content production affected IT team structures in companies announcing layoffs?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies announcing layoffs from the CompanyDataCenter table.",
+      "table": [
+        "CompanyDataCenter"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Check for increased YouTube content production in the SocialMediaInfo table for these companies.",
+      "table": [
+        "SocialMediaInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Determine if the increased YouTube content production has affected IT team structures.",
+      "table": [
+        "CompanyDataCenter"
+      ]
+    }
+  ]
+}

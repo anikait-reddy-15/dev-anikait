@@ -1,0 +1,26 @@
+{
+  "question": "What social media channels are favored by companies with recent data security investments?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies with recent data security investments from the PersonaUser table.",
+      "table": [
+        "PersonaUser"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract information on social media usage from the SocialMediaInfo table.",
+      "table": [
+        "SocialMediaInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Determine the favored social media channels for these companies.",
+      "table": [
+        "CompanyTwitterDetail"
+      ]
+    }
+  ]
+}

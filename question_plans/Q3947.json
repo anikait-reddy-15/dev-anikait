@@ -1,0 +1,26 @@
+{
+  "question": "What strategic shifts are reported in precision technologies within the agriculture industry, and how is this reflected in IT trends?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify strategic shifts in precision technologies in agriculture.",
+      "table": [
+        "IndustryBusinessTrend"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract IT trends related to these strategic shifts.",
+      "table": [
+        "IndustryBusinessTrend"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the reflection of these shifts in IT trends.",
+      "table": [
+        "IndustryBusinessTrend"
+      ]
+    }
+  ]
+}

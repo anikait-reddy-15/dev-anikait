@@ -1,0 +1,26 @@
+{
+  "question": "Which corporations are leading charge toward AI-powered finance systems?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify corporations involved in AI initiatives from the CompanyManagementDetail table.",
+      "table": [
+        "CompanyManagementDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Filter corporations focusing on finance systems.",
+      "table": [
+        "SectionInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Highlight corporations leading in AI-powered finance systems.",
+      "table": [
+        "PersonaMisc"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "question": "What are the dominant themes in discussions led by IT leaders in relation with recent ERP investments?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify discussions led by IT leaders related to ERP investments",
+      "table": [
+        "PersonaMisc"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract themes from these discussions",
+      "table": [
+        "SectionTitle"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Summarize the dominant themes",
+      "table": []
+    }
+  ]
+}

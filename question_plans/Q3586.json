@@ -1,0 +1,27 @@
+{
+  "question": "How are mobile applications reshaping interaction with consumer data?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify mobile applications mentioned in social posts.",
+      "table": [
+        "PersonaMisc"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Analyze how these applications interact with consumer data.",
+      "table": [
+        "SectionInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Assess the impact of these interactions on consumer data handling.",
+      "table": [
+        "PersonaMisc",
+        "SectionInfo"
+      ]
+    }
+  ]
+}

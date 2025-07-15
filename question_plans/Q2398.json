@@ -1,0 +1,27 @@
+{
+  "question": "How is e-commerce infrastructure growing for retail firms implementing scalable security systems alongside technology shifts?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify retail firms implementing scalable security systems.",
+      "table": [
+        "CompanyDealMaster"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Determine technology shifts impacting e-commerce infrastructure.",
+      "table": [
+        "SectionInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the growth of e-commerce infrastructure due to these factors.",
+      "table": [
+        "CompanyDealMaster",
+        "SectionInfo"
+      ]
+    }
+  ]
+}

@@ -1,16 +1,19 @@
 {
   "question": "What are the main themes in leadership excerpts discussing AI adoption challenges?",
-  "tables": ["CompanyLeadershipExcerpt"],
   "subtasks": [
     {
       "step": 1,
       "task": "Extract leadership excerpts about AI adoption challenges.",
-      "table": ["CompanyLeadershipExcerpt"]
+      "table": [
+        "CompanyLeadershipExcerpt"
+      ]
     },
     {
       "step": 2,
       "task": "Identify and summarize the main themes from these excerpts.",
-      "table": ["CompanyLeadershipExcerpt"]
+      "table": [
+        "CompanyLeadershipExcerpt"
+      ]
     }
   ]
 }

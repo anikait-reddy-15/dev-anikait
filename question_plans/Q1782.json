@@ -1,0 +1,26 @@
+{
+  "question": "How do new hires correlate with data infrastructure transformations across company data centers?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Extract information on new hires from the relevant fields in the CompanyTwitterDetail table.",
+      "table": [
+        "CompanyTwitterDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Identify mentions of data infrastructure transformations in the CompanyTwitterDetail table.",
+      "table": [
+        "CompanyTwitterDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Correlate the data between new hires and infrastructure transformations to find patterns.",
+      "table": [
+        "CompanyTwitterDetail"
+      ]
+    }
+  ]
+}

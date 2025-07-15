@@ -1,0 +1,26 @@
+{
+  "question": "Which industries are prioritizing talent acquisition in AI while diversifying IT partner networks?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify industries prioritizing talent acquisition in AI.",
+      "table": [
+        "PersonaMisc"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Determine industries diversifying their IT partner networks.",
+      "table": [
+        "CompanyVendorProductDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the overlap between AI talent acquisition and IT network diversification.",
+      "table": [
+        "SectionData"
+      ]
+    }
+  ]
+}

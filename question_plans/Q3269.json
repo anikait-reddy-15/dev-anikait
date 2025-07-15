@@ -1,0 +1,26 @@
+{
+  "question": "Which firms strategically announce new data partnerships on YouTube, and how are these reflected in trend analyses?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify YouTube announcements of new data partnerships.",
+      "table": [
+        "CompanyManagementDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Determine firms making these announcements.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze how these announcements are reflected in trend analyses.",
+      "table": [
+        "IndustryBusinessTrend"
+      ]
+    }
+  ]
+}

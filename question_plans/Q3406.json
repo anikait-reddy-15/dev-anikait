@@ -1,0 +1,24 @@
+{
+  "question": "Which B2B companies tweeted about machine learning during their product launch phase?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify B2B companies tweeting about machine learning.",
+      "table": [
+        "SectionInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Find the product launch phases of these companies.",
+      "table": [
+        "CompanyDataCenter"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Match tweets to the product launch phase to find companies meeting both criteria.",
+      "table": []
+    }
+  ]
+}

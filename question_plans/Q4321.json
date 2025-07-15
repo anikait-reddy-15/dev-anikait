@@ -1,0 +1,27 @@
+{
+  "question": "How do IT trends influence vendor product detailing on companies\u2019 digital transformation roadmaps?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify IT trends from the CompanyITPartnerDetail table.",
+      "table": [
+        "CompanyITPartnerDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract vendor product details from the CompanyDealMaster table.",
+      "table": [
+        "CompanyDealMaster"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the influence of IT trends on vendor product details in the context of digital transformation roadmaps.",
+      "table": [
+        "CompanyDealMaster",
+        "CompanyITPartnerDetail"
+      ]
+    }
+  ]
+}

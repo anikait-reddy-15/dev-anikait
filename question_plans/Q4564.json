@@ -1,0 +1,27 @@
+{
+  "question": "What technology shifts accompany companies engaging actively with their audience on Instagram?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies with active Instagram engagement from the PersonaMisc table.",
+      "table": [
+        "PersonaMisc"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Determine technology shifts from the IndustryITTrend table.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Correlate active Instagram engagement with technology shifts.",
+      "table": [
+        "PersonaMisc",
+        "IndustryITTrend"
+      ]
+    }
+  ]
+}

@@ -1,21 +1,27 @@
 {
   "question": "Which companies have publicly announced plans to expand their AI research labs this year?",
-  "tables": ["CompanyInfo", "CompanyFocusAreaDetail"],
   "subtasks": [
     {
       "step": 1,
       "task": "Identify companies announcing AI research lab expansions.",
-      "table": ["CompanyInfo"]
+      "table": [
+        "CompanyInfo"
+      ]
     },
     {
       "step": 2,
       "task": "Confirm focus on AI in strategic plans.",
-      "table": ["CompanyFocusAreaDetail"]
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
     },
     {
       "step": 3,
       "task": "Cross-reference companies to find matches.",
-      "table": ["CompanyInfo", "CompanyFocusAreaDetail"]
+      "table": [
+        "CompanyInfo",
+        "CompanyFocusAreaDetail"
+      ]
     }
   ]
 }

@@ -1,0 +1,26 @@
+{
+  "question": "Which companies boosted hiring in fintech roles while transitioning from legacy enterprise systems?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies transitioning from legacy enterprise systems in the CompanyDataCenter table.",
+      "table": [
+        "CompanyDataCenter"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Check for boosted hiring in fintech roles in these companies.",
+      "table": [
+        "CompanyDataCenter"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "List companies that meet both criteria.",
+      "table": [
+        "CompanyDataCenter"
+      ]
+    }
+  ]
+}

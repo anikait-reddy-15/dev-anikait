@@ -1,6 +1,5 @@
 {
   "question": "What comments do data scientists make on social media regarding vendor contributions to tech initiatives?",
-  "tables": ["PersonaUser", "CompanyVendorProductDetail"],
   "subtasks": [
     {
       "step": 1,

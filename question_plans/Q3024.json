@@ -1,0 +1,26 @@
+{
+  "question": "How are leadership excerpts reflecting AI adoption in their strategic messages on LinkedIn?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Extract leadership excerpts from LinkedIn posts.",
+      "table": [
+        "CompanyManagementDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Identify mentions of AI adoption in strategic messages.",
+      "table": [
+        "CompanyManagementDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze how AI adoption is reflected in leadership messages.",
+      "table": [
+        "CompanyManagementDetail"
+      ]
+    }
+  ]
+}

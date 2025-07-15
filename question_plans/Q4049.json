@@ -1,0 +1,26 @@
+{
+  "question": "What bimodal strategies in tech development distinctively show in LinkedIn feeds?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Extract LinkedIn feeds related to tech development.",
+      "table": [
+        "PersonaMisc"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Identify mentions of bimodal strategies within these feeds.",
+      "table": [
+        "PersonaMisc"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Highlight distinctive bimodal strategies appearing in the feeds.",
+      "table": [
+        "PersonaMisc"
+      ]
+    }
+  ]
+}

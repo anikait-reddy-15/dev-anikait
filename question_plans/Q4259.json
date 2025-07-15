@@ -1,0 +1,26 @@
+{
+  "question": "What initiatives are influence-driven from leadership excerpts regarding eco-friendly innovations?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Extract leadership excerpts related to eco-friendly innovations.",
+      "table": [
+        "PersonaMisc"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Identify influence-driven initiatives from these excerpts.",
+      "table": [
+        "PersonaMisc"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the impact of these initiatives.",
+      "table": [
+        "PersonaMisc"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "question": "Which firms pivoting to smart factories have announced shifts resulting in positive LinkedIn community impacts?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify firms pivoting to smart factories",
+      "table": [
+        "CompanyDataCenter"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Find announcements of shifts by these firms",
+      "table": [
+        "SectionInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Evaluate LinkedIn community impacts of these shifts",
+      "table": [
+        "CompanyDataCenter",
+        "SectionInfo"
+      ]
+    }
+  ]
+}

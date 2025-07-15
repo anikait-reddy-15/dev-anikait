@@ -1,6 +1,5 @@
 {
   "question": "What leadership statements address the emerging technology trends impacting the finance industry?",
-  "tables": ["CompanyLeadershipExcerpt", "IndustryITTrend"],
   "subtasks": [
     {
       "step": 1,

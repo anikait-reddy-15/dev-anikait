@@ -1,0 +1,35 @@
+{
+  "question": "Which companies in the manufacturing sector have made AI-driven changes in their tech stack and leadership?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies in the manufacturing sector.",
+      "table": [
+        "CompanyVendorProductDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Find AI-driven changes in tech stack for these companies.",
+      "table": [
+        "SectionData"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Identify AI-driven leadership changes in these companies.",
+      "table": [
+        "PersonaMisc"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Combine results to list companies with AI-driven tech and leadership changes.",
+      "table": [
+        "CompanyVendorProductDetail",
+        "SectionData",
+        "PersonaMisc"
+      ]
+    }
+  ]
+}

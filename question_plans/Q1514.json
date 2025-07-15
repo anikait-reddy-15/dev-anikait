@@ -1,0 +1,26 @@
+{
+  "question": "Which companies have shown a pattern of hiring for AI expertise and posting on Instagram about tech innovations?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies hiring for AI expertise from the CompanyHiringDetail table.",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Filter companies posting on Instagram about tech innovations.",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Determine which companies meet both criteria.",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    }
+  ]
+}

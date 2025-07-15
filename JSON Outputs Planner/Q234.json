@@ -1,21 +1,27 @@
 {
   "question": "How have recent leadership changes at companies affected their hiring strategies in the IT sector?",
-  "tables": ["CompanyManagementDetail", "CompanyHiringDetail"],
   "subtasks": [
     {
       "step": 1,
       "task": "Identify recent leadership changes at various companies",
-      "table": ["CompanyManagementDetail"]
+      "table": [
+        "CompanyManagementDetail"
+      ]
     },
     {
       "step": 2,
       "task": "Analyze hiring strategies in the IT sector for these companies",
-      "table": ["CompanyHiringDetail"]
+      "table": [
+        "CompanyHiringDetail"
+      ]
     },
     {
       "step": 3,
       "task": "Correlate leadership changes with hiring strategy adjustments",
-      "table": ["CompanyManagementDetail", "CompanyHiringDetail"]
+      "table": [
+        "CompanyManagementDetail",
+        "CompanyHiringDetail"
+      ]
     }
   ]
 }

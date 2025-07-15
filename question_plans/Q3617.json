@@ -1,0 +1,27 @@
+{
+  "question": "Which companies launched a new product discussed on multiple social media platforms within a week of its release?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies that launched a new product.",
+      "table": [
+        "IndustryBusinessTrend"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Find discussions about these products on multiple social media platforms.",
+      "table": [
+        "PersonaYoutubeProfile"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Match companies to social media discussions within a week of product release.",
+      "table": [
+        "IndustryBusinessTrend",
+        "PersonaYoutubeProfile"
+      ]
+    }
+  ]
+}

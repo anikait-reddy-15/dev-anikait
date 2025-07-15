@@ -1,0 +1,26 @@
+{
+  "question": "Who are the key influencers in technology strategy among mid-sized enterprises?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify mid-sized enterprises from the available data.",
+      "table": [
+        "CompanyITPartnerDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract influencer information related to technology strategy from these enterprises.",
+      "table": [
+        "PersonaTitle"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Rank the influencers based on their impact or frequency of mentions.",
+      "table": [
+        "PersonaTitle"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "question": "What modern IT solutions intend to change market standings for companies adopting cloud-native architectures?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies adopting cloud-native architectures from the CompanyYoutubeDetail table.",
+      "table": [
+        "CompanyYoutubeDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract information about modern IT solutions related to these companies.",
+      "table": [
+        "CompanyYoutubeDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze how these IT solutions intend to change market standings.",
+      "table": [
+        "CompanyYoutubeDetail"
+      ]
+    }
+  ]
+}

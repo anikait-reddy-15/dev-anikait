@@ -1,0 +1,26 @@
+{
+  "question": "What lessons on strategy alignment are shared via annual meeting broadcasts by firms with significant tech stack updates?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify firms with significant tech stack updates.",
+      "table": [
+        "PersonaTitle"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Collect annual meeting broadcasts from these firms.",
+      "table": [
+        "SectionData"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Extract lessons on strategy alignment shared in these broadcasts.",
+      "table": [
+        "SectionData"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "question": "Which companies have applauded or discussed their IT achievements on Instagram profiles recently?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify Instagram profiles discussing IT achievements.",
+      "table": [
+        "PersonaInstagramProfile"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Find companies associated with these profiles.",
+      "table": [
+        "PersonaTitle"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "List companies that have applauded or discussed their IT achievements.",
+      "table": [
+        "PersonaInstagramProfile",
+        "PersonaTitle"
+      ]
+    }
+  ]
+}

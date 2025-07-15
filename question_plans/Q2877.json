@@ -1,0 +1,26 @@
+{
+  "question": "Which companies' tech stacks reflect new blockchain tech offerings by startups or major vendors?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify new blockchain tech offerings by startups or major vendors.",
+      "table": [
+        "CompanyVendorProductDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract tech stack details of companies.",
+      "table": [
+        "CompanyVendorProductDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Determine which companies' tech stacks reflect these offerings.",
+      "table": [
+        "CompanyVendorProductDetail"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "question": "Which companies have publicized new collaborative tech strategies on LinkedIn while scaling innovation ecosystems?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Extract LinkedIn posts about collaborative tech strategies.",
+      "table": [
+        "CompanyFacebookDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Identify companies scaling their innovation ecosystems.",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Combine results to find companies meeting both criteria.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyHiringDetail"
+      ]
+    }
+  ]
+}

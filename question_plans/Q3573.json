@@ -1,0 +1,26 @@
+{
+  "question": "How are firms transforming their business models to accommodate quantum computing projects?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify firms involved in quantum computing projects from the CompanyManagementDetail table.",
+      "table": [
+        "CompanyManagementDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract data on business model transformations.",
+      "table": [
+        "SectionInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze how these transformations accommodate quantum computing.",
+      "table": [
+        "PersonaMisc"
+      ]
+    }
+  ]
+}

@@ -1,6 +1,5 @@
 {
   "question": "Which social media platforms does LPL Financial actively use for outreach?",
-  "tables": ["SocialMediaInfo", "CompanyInfo"],
   "subtasks": [
     {
       "step": 1,

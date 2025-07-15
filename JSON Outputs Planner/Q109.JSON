@@ -1,6 +1,5 @@
 {
   "question": "Which firms are leading the conversation on innovative data science projects in their LinkedIn profiles?",
-  "tables": ["PersonaLinkedinProfile", "CompanyInfo"],
   "subtasks": [
     {
       "step": 1,

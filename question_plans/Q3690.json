@@ -1,0 +1,26 @@
+{
+  "question": "Who are the principal decision-makers driving IT strategy modifications within digital industries?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify IT strategy modifications within digital industries.",
+      "table": [
+        "IndustryBusinessTrend"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Find principal decision-makers associated with these modifications.",
+      "table": [
+        "PersonaTitle"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "List the identified principal decision-makers.",
+      "table": [
+        "PersonaTitle"
+      ]
+    }
+  ]
+}

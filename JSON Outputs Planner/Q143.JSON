@@ -1,6 +1,5 @@
 {
   "question": "How does social media presence influence the strategic technology directions taken by leading tech firms?",
-  "tables": ["CompanySocialMediaInfo", "CompanyTechStack"],
   "subtasks": [
     {
       "step": 1,

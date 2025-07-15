@@ -1,0 +1,27 @@
+{
+  "question": "Which sectors detail cloud migration as part of their strategic focus in Instagram narratives?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify sectors that have cloud migration as part of their strategic focus.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Filter these sectors based on Instagram narratives mentioning cloud migration.",
+      "table": [
+        "PersonaMisc"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Combine the results to find sectors with cloud migration focus in Instagram narratives.",
+      "table": [
+        "CompanyFocusAreaDetail",
+        "PersonaMisc"
+      ]
+    }
+  ]
+}

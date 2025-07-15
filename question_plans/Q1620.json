@@ -1,0 +1,26 @@
+{
+  "question": "Which industry personas have highlighted specific IT challenges in their latest YouTube content?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Extract latest YouTube content from industry personas.",
+      "table": [
+        "PersonaYoutubeProfile"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Identify specific IT challenges highlighted in this content.",
+      "table": [
+        "PersonaYoutubeProfile"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Determine which personas have highlighted these challenges.",
+      "table": [
+        "PersonaYoutubeProfile"
+      ]
+    }
+  ]
+}

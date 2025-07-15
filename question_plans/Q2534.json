@@ -1,0 +1,26 @@
+{
+  "question": "How does the presence of tech-savvy leaders influence vendor technology choices in Fortune 1000 companies?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify Fortune 1000 companies with tech-savvy leaders.",
+      "table": [
+        "PersonaLinkedInProfile"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract vendor technology choices from these companies.",
+      "table": [
+        "PersonaLinkedInProfile"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the influence of tech-savvy leaders on vendor technology choices.",
+      "table": [
+        "PersonaLinkedInProfile"
+      ]
+    }
+  ]
+}

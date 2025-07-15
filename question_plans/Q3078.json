@@ -1,0 +1,26 @@
+{
+  "question": "How has vendor involvement in AI/ML-driven projects shifted due to regulatory impact?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify AI/ML-driven projects from company details.",
+      "table": [
+        "CompanyManagementDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract mentions of vendor involvement in these projects.",
+      "table": [
+        "CompanyManagementDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze shifts in vendor involvement due to regulatory impacts.",
+      "table": [
+        "CompanyManagementDetail"
+      ]
+    }
+  ]
+}

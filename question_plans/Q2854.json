@@ -1,0 +1,26 @@
+{
+  "question": "What roles are companies that recently signed major digital transformation deals hiring for most frequently?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies that have signed major digital transformation deals.",
+      "table": [
+        "CompanyVendorProductDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Determine the hiring roles of these companies.",
+      "table": [
+        "PersonaMisc"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze which roles are being hired for most frequently.",
+      "table": [
+        "SectionData"
+      ]
+    }
+  ]
+}

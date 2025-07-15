@@ -1,0 +1,26 @@
+{
+  "question": "What leadership excerpts provide insights into automation technologies in the manufacturing sector?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify leadership excerpts related to the manufacturing sector.",
+      "table": [
+        "PersonaMisc"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Filter excerpts that provide insights into automation technologies.",
+      "table": [
+        "PersonaMisc"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Extract relevant insights from these excerpts.",
+      "table": [
+        "PersonaMisc"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "question": "Which companies have increased their Twitter posts and tech investments related to quantum computing in the last fiscal year?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies with increased Twitter posts from the CompanyFacebookDetail table.",
+      "table": [
+        "CompanyFacebookDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Filter companies with tech investments related to quantum computing.",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Determine which companies meet both criteria.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyHiringDetail"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "question": "How are newly hired CTOs influencing their company\u2019s data strategy in real estate firms?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify newly hired CTOs in real estate firms.",
+      "table": [
+        "PersonaTitle"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Analyze the influence of these CTOs on their company's data strategy.",
+      "table": [
+        "CompanyITPartnerDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Summarize the changes in data strategy influenced by these CTOs.",
+      "table": [
+        "CompanyITPartnerDetail"
+      ]
+    }
+  ]
+}

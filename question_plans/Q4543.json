@@ -1,0 +1,27 @@
+{
+  "question": "Which companies have updated their tech stack while increasing social media outreach?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies that have updated their tech stack.",
+      "table": [
+        "CompanyVendorProductDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Identify companies with increased social media outreach.",
+      "table": [
+        "PersonaMisc"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Find the intersection of companies from both criteria.",
+      "table": [
+        "CompanyVendorProductDetail",
+        "PersonaMisc"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "question": "Which companies have data scientists listed under their leadership and have significant investments in big data technologies?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies with data scientists in leadership roles.",
+      "table": [
+        "PersonaUser"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Filter companies with significant investments in big data technologies.",
+      "table": [
+        "PersonaLinkedinActivity"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Combine results to find companies meeting both criteria.",
+      "table": []
+    }
+  ]
+}

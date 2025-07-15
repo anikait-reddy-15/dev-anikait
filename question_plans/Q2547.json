@@ -1,0 +1,26 @@
+{
+  "question": "How many companies reported adopting electric vehicle technologies alongside improved Facebook engagement?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies adopting electric vehicle technologies from PersonaLinkedInProfile.",
+      "table": [
+        "PersonaLinkedInProfile"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract Facebook engagement metrics for these companies from PersonaFaceBook.",
+      "table": [
+        "PersonaFaceBook"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Count the companies with improved Facebook engagement.",
+      "table": [
+        "PersonaFaceBook"
+      ]
+    }
+  ]
+}

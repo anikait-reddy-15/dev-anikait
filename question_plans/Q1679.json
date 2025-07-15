@@ -1,0 +1,26 @@
+{
+  "question": "What insights into blockchain progression can be extrapolated from social media trends in financial service firms?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify financial service firms from the dataset.",
+      "table": [
+        "PersonaLinkedInProfile"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract social media trends related to blockchain.",
+      "table": [
+        "PersonaLinkedInProfile"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Extrapolate insights into blockchain progression from these trends.",
+      "table": [
+        "PersonaLinkedInProfile"
+      ]
+    }
+  ]
+}

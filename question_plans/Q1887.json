@@ -1,0 +1,26 @@
+{
+  "question": "What AI strategies are noted in companies whose YouTube uploads reflect agile business implementations?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies with YouTube uploads reflecting agile business implementations.",
+      "table": [
+        "SocialMediaInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract AI strategies from these companies.",
+      "table": [
+        "IndustryBusinessTrend"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the noted AI strategies in the context of agile business implementations.",
+      "table": [
+        "IndustryBusinessTrend"
+      ]
+    }
+  ]
+}

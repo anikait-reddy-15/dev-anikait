@@ -1,0 +1,26 @@
+{
+  "question": "What key themes are discussed among business strategists regarding 5G integration?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify business strategists discussing 5G integration from tech details.",
+      "table": [
+        "CompanyVendorTechDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract key themes from discussions related to 5G integration.",
+      "table": [
+        "CompanyVendorTechDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Summarize the key themes discussed by these strategists.",
+      "table": [
+        "CompanyVendorTechDetail"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "question": "What technology fields are government agencies heavily investing in as per industry technology reports?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify government agencies from the CompanyITPartnerDetail table.",
+      "table": [
+        "CompanyITPartnerDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract industry technology reports from the SectionTitle table.",
+      "table": [
+        "SectionTitle"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Determine technology fields with heavy investment by these agencies.",
+      "table": [
+        "SectionTitle"
+      ]
+    }
+  ]
+}

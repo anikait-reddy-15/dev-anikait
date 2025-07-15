@@ -1,0 +1,27 @@
+{
+  "question": "What companies are heavily focusing on IT partnerships specializing in analytics and have a rising social media footprint?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies focusing on IT partnerships specializing in analytics.",
+      "table": [
+        "CompanyDealMaster"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Determine companies with a rising social media footprint.",
+      "table": [
+        "SectionInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Cross-reference the companies from both criteria to find matches.",
+      "table": [
+        "CompanyDealMaster",
+        "SectionInfo"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "question": "What patterns transpire due to predictive analytics crossing traditional banking boundaries?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify predictive analytics applications in banking.",
+      "table": [
+        "CompanyDataCenter"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract information on traditional banking boundaries.",
+      "table": [
+        "SectionTitle"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze patterns resulting from predictive analytics crossing these boundaries.",
+      "table": [
+        "CompanyDataCenter"
+      ]
+    }
+  ]
+}

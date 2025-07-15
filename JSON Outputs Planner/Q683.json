@@ -1,16 +1,19 @@
 {
   "question": "Who are the data scientists most active on Twitter discussing advanced analytics tools?",
-  "tables": ["PersonaTwitterProfile", "PersonaUser"],
   "subtasks": [
     {
       "step": 1,
       "task": "Identify Twitter profiles active in discussions on advanced analytics.",
-      "table": ["PersonaTwitterProfile"]
+      "table": [
+        "PersonaTwitterProfile"
+      ]
     },
     {
       "step": 2,
       "task": "Link profiles to data scientists.",
-      "table": ["PersonaUser"]
+      "table": [
+        "PersonaUser"
+      ]
     }
   ]
 }

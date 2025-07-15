@@ -1,0 +1,26 @@
+{
+  "question": "Wholesome IT transformations are taking place across enterprises with intensified focus on tech ethics via tweets.",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify enterprises discussing IT transformations.",
+      "table": [
+        "CompanyTwitterDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract tweets focusing on tech ethics.",
+      "table": [
+        "SocialMediaInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the focus on tech ethics in IT transformations.",
+      "table": [
+        "SocialMediaInfo"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "question": "What new initiatives are being addressed by companies increasing their reach on Instagram and focusing on renewable energy?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies increasing their reach on Instagram.",
+      "table": [
+        "CompanyYoutubeDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Identify companies focusing on renewable energy.",
+      "table": [
+        "CompanyYoutubeDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Extract new initiatives from these companies.",
+      "table": [
+        "CompanyYoutubeDetail"
+      ]
+    }
+  ]
+}

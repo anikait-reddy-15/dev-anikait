@@ -1,21 +1,26 @@
 {
   "question": "Which companies are using reinforcement learning for dynamic pricing optimization?",
-  "tables": ["CompanyFocusAreaDetail", "CompanyVendorTechDetail"],
   "subtasks": [
     {
       "step": 1,
       "task": "Identify companies using reinforcement learning.",
-      "table": ["CompanyFocusAreaDetail"]
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
     },
     {
       "step": 2,
       "task": "Filter for those applying it in dynamic pricing.",
-      "table": ["CompanyFocusAreaDetail"]
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
     },
     {
       "step": 3,
       "task": "List reinforcement learning vendors used by these companies.",
-      "table": ["CompanyVendorTechDetail"]
+      "table": [
+        "CompanyVendorTechDetail"
+      ]
     }
   ]
 }

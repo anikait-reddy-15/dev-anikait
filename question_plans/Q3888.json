@@ -1,0 +1,26 @@
+{
+  "question": "What role does social trend analysis play in adjusting company tech initiatives?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies conducting social trend analysis.",
+      "table": [
+        "PersonaInstagramProfile"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract data on tech initiatives of these companies.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the impact of social trend analysis on tech initiative adjustments.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    }
+  ]
+}

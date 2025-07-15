@@ -1,6 +1,5 @@
 {
   "question": "What leadership insights come from organizations that successfully merged data science with business strategy?",
-  "tables": ["CompanyLeadershipExcerpt", "CompanyFocusAreaDetail"],
   "subtasks": [
     {
       "step": 1,

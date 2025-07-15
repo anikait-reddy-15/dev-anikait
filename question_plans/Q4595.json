@@ -1,0 +1,26 @@
+{
+  "question": "What are the common strategic themes among companies expanding their data analytic operations?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies expanding their data analytic operations from the CompanyVendorProductDetail table.",
+      "table": [
+        "CompanyVendorProductDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract strategic themes from the SectionData table.",
+      "table": [
+        "SectionData"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Determine common strategic themes among these companies.",
+      "table": [
+        "SectionData"
+      ]
+    }
+  ]
+}

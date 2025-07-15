@@ -1,0 +1,26 @@
+{
+  "question": "What strategic roadmap do companies showcase while reinforcing their business trend position involving IoT?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify strategic roadmaps showcased by companies.",
+      "table": [
+        "SectionInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Find business trend positions involving IoT.",
+      "table": [
+        "SectionTitle"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Correlate strategic roadmaps with IoT business trends.",
+      "table": [
+        "CompanyDataCenter"
+      ]
+    }
+  ]
+}

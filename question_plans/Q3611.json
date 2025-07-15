@@ -1,0 +1,27 @@
+{
+  "question": "What technologies are integrated by companies that have hired new Chief Information Officers (CIOs) this quarter?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies that have hired new Chief Information Officers (CIOs) this quarter.",
+      "table": [
+        "PersonaTitle"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Determine the technologies integrated by these companies.",
+      "table": [
+        "IndustryBusinessTrend"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "List the technologies alongside the companies that have integrated them.",
+      "table": [
+        "PersonaTitle",
+        "IndustryBusinessTrend"
+      ]
+    }
+  ]
+}

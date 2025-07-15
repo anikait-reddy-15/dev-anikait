@@ -1,0 +1,27 @@
+{
+  "question": "Which firms are advocating for privacy-first data management approaches as shown through their executives' speeches?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify firms with executives advocating for privacy-first data management.",
+      "table": [
+        "CompanyTechStack"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract speeches or public statements from these executives.",
+      "table": [
+        "CompanyVendorTechDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "List firms and the relevant speeches advocating privacy-first approaches.",
+      "table": [
+        "CompanyTechStack",
+        "CompanyVendorTechDetail"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "question": "What modern technologies were outlined in leadership descriptions portraying business innovation?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Extract leadership descriptions from available data.",
+      "table": [
+        "CompanyTwitterDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Identify mentions of modern technologies within these descriptions.",
+      "table": [
+        "CompanyTwitterDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Summarize the technologies that are associated with business innovation.",
+      "table": [
+        "CompanyTwitterDetail"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "question": "Which businesses achieve vendor product alignment after strategic contracts were signed related to AI technologies?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify strategic contracts signed related to AI technologies.",
+      "table": [
+        "IndustryBusinessTrend"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Determine businesses involved in these contracts.",
+      "table": [
+        "IndustryBusinessTrend"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Check for vendor product alignment among these businesses.",
+      "table": [
+        "IndustryBusinessTrend"
+      ]
+    }
+  ]
+}

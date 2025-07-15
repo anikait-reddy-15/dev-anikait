@@ -1,6 +1,5 @@
 {
   "question": "How have recent acquisitions influenced the technology stacks of companies in the e-commerce sector?",
-  "tables": ["CompanyDealMaster", "CompanyTechStack", "CompanyInfo"],
   "subtasks": [
     {
       "step": 1,

@@ -1,6 +1,5 @@
 {
   "question": "What insights from industry leaders indicate a shift towards digital transformation in finance organizations?",
-  "tables": ["CompanyLeadershipExcerpt", "IndustryITTrend"],
   "subtasks": [
     {
       "step": 1,

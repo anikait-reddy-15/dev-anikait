@@ -1,0 +1,26 @@
+{
+  "question": "How do leadership speeches align with competencies demonstrated by top competitors in the IT space?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Extract leadership speeches from companies in the IT space.",
+      "table": [
+        "CompanyTechStack"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Identify competencies demonstrated by top competitors.",
+      "table": [
+        "CompanyTechStack"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze alignment between speeches and competitor competencies.",
+      "table": [
+        "CompanyTechStack"
+      ]
+    }
+  ]
+}

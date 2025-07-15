@@ -1,21 +1,26 @@
 {
   "question": "Which vendors are being referenced by data-focused companies in their recent project descriptions on Twitter?",
-  "tables": ["CompanyVendorProductDetail", "CompanyTwitterDetail"],
   "subtasks": [
     {
       "step": 1,
       "task": "Identify recent project descriptions from data-focused companies on Twitter. [CompanyTwitterDetail]",
-      "table": ["CompanyTwitterDetail"]
+      "table": [
+        "CompanyTwitterDetail"
+      ]
     },
     {
       "step": 2,
       "task": "Extract vendor references from the project descriptions. [CompanyVendorProductDetail]",
-      "table": ["CompanyVendorProductDetail"]
+      "table": [
+        "CompanyVendorProductDetail"
+      ]
     },
     {
       "step": 3,
       "task": "Aggregate the vendor references to see which are most frequently mentioned. [CompanyVendorProductDetail]",
-      "table": ["CompanyVendorProductDetail"]
+      "table": [
+        "CompanyVendorProductDetail"
+      ]
     }
   ]
 }

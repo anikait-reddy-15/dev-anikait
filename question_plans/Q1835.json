@@ -1,0 +1,24 @@
+{
+  "question": "Which organizations shifted to agile methodologies and are actively discussing these on public-facing leadership platforms?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify organizations that have shifted to agile methodologies.",
+      "table": [
+        "IndustryBusinessTrend"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Find discussions on agile methodologies on leadership platforms.",
+      "table": [
+        "SocialMediaInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Combine results to identify organizations meeting both criteria.",
+      "table": []
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "question": "Which financial firms have detailed expansions in cloud infrastructure in their YouTube channels in the past year?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify financial firms with YouTube channels.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Retrieve details of cloud infrastructure expansions mentioned on their YouTube channels.",
+      "table": [
+        "PersonaMisc"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Filter firms that have mentioned these expansions in the past year.",
+      "table": [
+        "PersonaMisc"
+      ]
+    }
+  ]
+}

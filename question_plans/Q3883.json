@@ -1,0 +1,26 @@
+{
+  "question": "How significantly are dramatic organizational shifts echoed on public LinkedIn profiles?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify dramatic organizational shifts within companies.",
+      "table": [
+        "CompanyManagementDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Find public LinkedIn profiles associated with these companies.",
+      "table": [
+        "PersonaInstagramProfile"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the extent to which these shifts are reflected on LinkedIn profiles.",
+      "table": [
+        "PersonaInstagramProfile"
+      ]
+    }
+  ]
+}

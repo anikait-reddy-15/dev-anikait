@@ -1,21 +1,27 @@
 {
   "question": "Which organizations have centralized AI oversight committees and regularly update AI policy documentation?",
-  "tables": ["CompanyFocusAreaDetail", "CompanyBlogDetail"],
   "subtasks": [
     {
       "step": 1,
       "task": "Identify organizations with centralized AI oversight committees.",
-      "table": ["CompanyFocusAreaDetail"]
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
     },
     {
       "step": 2,
       "task": "Find those publishing regular AI policy updates.",
-      "table": ["CompanyBlogDetail"]
+      "table": [
+        "CompanyBlogDetail"
+      ]
     },
     {
       "step": 3,
       "task": "Cross-match both criteria.",
-      "table": ["CompanyFocusAreaDetail", "CompanyBlogDetail"]
+      "table": [
+        "CompanyFocusAreaDetail",
+        "CompanyBlogDetail"
+      ]
     }
   ]
 }

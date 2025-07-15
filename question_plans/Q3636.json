@@ -1,0 +1,27 @@
+{
+  "question": "How are firms altering their technology strategies after major leadership appointments over the past year?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify firms with major leadership appointments over the past year.",
+      "table": [
+        "PersonaTitle"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract changes in technology strategies.",
+      "table": [
+        "IndustryBusinessTrend"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze alterations in technology strategies post leadership appointments.",
+      "table": [
+        "PersonaTitle",
+        "IndustryBusinessTrend"
+      ]
+    }
+  ]
+}

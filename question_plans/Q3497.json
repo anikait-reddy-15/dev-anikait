@@ -1,0 +1,27 @@
+{
+  "question": "How do data leadership initiatives coincide with tech vocalizations leading increases in Twitter conversation engagement?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify data leadership initiatives from company data",
+      "table": [
+        "SectionInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Find tech vocalizations on Twitter",
+      "table": [
+        "PersonaYoutubeProfile"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the coincidence of initiatives with Twitter engagement",
+      "table": [
+        "SectionInfo",
+        "PersonaYoutubeProfile"
+      ]
+    }
+  ]
+}

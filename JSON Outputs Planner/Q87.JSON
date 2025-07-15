@@ -1,6 +1,5 @@
 {
   "question": "What leadership positions are most common in companies actively promoting sustainability strategies on social media?",
-  "tables": ["CompanySocialMediaInfo", "CompanyManagementDetail", "CompanyLeadershipExcerpt"],
   "subtasks": [
     {
       "step": 1,

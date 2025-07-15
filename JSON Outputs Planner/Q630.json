@@ -1,21 +1,27 @@
 {
   "question": "Which companies are exploring partnerships with tech vendors while simultaneously increasing their workforce in data-related roles?",
-  "tables": ["CompanyITPartnerDetail", "CompanyHiringDetail"],
   "subtasks": [
     {
       "step": 1,
       "task": "Identify companies that are exploring partnerships with tech vendors.",
-      "table": ["CompanyITPartnerDetail"]
+      "table": [
+        "CompanyITPartnerDetail"
+      ]
     },
     {
       "step": 2,
       "task": "Extract data-related hiring roles from the hiring details of these companies.",
-      "table": ["CompanyHiringDetail"]
+      "table": [
+        "CompanyHiringDetail"
+      ]
     },
     {
       "step": 3,
       "task": "Match the companies exploring partnerships with those increasing their workforce in data roles.",
-      "table": ["CompanyITPartnerDetail", "CompanyHiringDetail"]
+      "table": [
+        "CompanyITPartnerDetail",
+        "CompanyHiringDetail"
+      ]
     }
   ]
 }

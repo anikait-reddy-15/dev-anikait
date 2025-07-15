@@ -1,0 +1,26 @@
+{
+  "question": "Which companies adopting new 3D printing technologies have publicized this through increased social engagement?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies adopting new 3D printing technologies.",
+      "table": [
+        "CompanyVendorProductDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Determine social engagement activities of these companies.",
+      "table": [
+        "SocialMediaInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the correlation between 3D printing adoption and social engagement.",
+      "table": [
+        "SectionData"
+      ]
+    }
+  ]
+}

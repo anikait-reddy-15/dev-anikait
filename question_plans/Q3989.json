@@ -1,0 +1,27 @@
+{
+  "question": "How do external stakeholder engagements on Twitter correlate with leadership efficacy on driving tech investments across individual sectors?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify Twitter engagements involving external stakeholders.",
+      "table": [
+        "PersonaLinkedinPost"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract data on leadership efficacy in driving tech investments.",
+      "table": [
+        "PersonaTitle"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze correlations between Twitter engagements and leadership efficacy.",
+      "table": [
+        "PersonaLinkedinPost",
+        "PersonaTitle"
+      ]
+    }
+  ]
+}

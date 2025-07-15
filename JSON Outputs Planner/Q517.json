@@ -1,21 +1,27 @@
 {
   "question": "Which companies have data scientists who frequently discuss emerging technologies in their LinkedIn activity and what topics resonate most?",
-  "tables": ["PersonaLinkedinActivity", "PersonaUser", "CompanyLeadershipExcerpt"],
   "subtasks": [
     {
       "step": 1,
       "task": "Identify data scientists and their LinkedIn activity related to emerging technologies. [PersonaLinkedinActivity, PersonaUser]",
-      "table": ["PersonaLinkedinActivity", "PersonaUser"]
+      "table": [
+        "PersonaLinkedinActivity",
+        "PersonaUser"
+      ]
     },
     {
       "step": 2,
       "task": "Extract relevant discussions and topics on emerging technologies. [PersonaLinkedinActivity]",
-      "table": ["PersonaLinkedinActivity"]
+      "table": [
+        "PersonaLinkedinActivity"
+      ]
     },
     {
       "step": 3,
       "task": "Match data scientists to their respective companies. [PersonaUser]",
-      "table": ["PersonaUser"]
+      "table": [
+        "PersonaUser"
+      ]
     }
   ]
 }

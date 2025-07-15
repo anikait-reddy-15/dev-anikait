@@ -1,0 +1,26 @@
+{
+  "question": "How are Quantum computing ideas expressed in Section Information aligned with overarching business trends?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Extract Quantum computing ideas from the PersonaLinkedInProfile table.",
+      "table": [
+        "PersonaLinkedInProfile"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Identify overarching business trends from the PersonaLinkedInProfile table.",
+      "table": [
+        "PersonaLinkedInProfile"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the alignment between Quantum computing ideas and business trends.",
+      "table": [
+        "PersonaLinkedInProfile"
+      ]
+    }
+  ]
+}

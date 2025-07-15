@@ -1,6 +1,5 @@
 {
   "question": "What trends do data scientists discuss as key priorities at tech firms that have increased their workforce in the last year?",
-  "tables": ["PersonaUser", "CompanyHiringDetail", "IndustryITTrend"],
   "subtasks": [
     {
       "step": 1,

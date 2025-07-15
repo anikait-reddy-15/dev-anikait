@@ -1,0 +1,26 @@
+{
+  "question": "What are the top rival firms mentioned by competitors' senior analysts in their LinkedIn posts?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify LinkedIn posts by competitors' senior analysts.",
+      "table": [
+        "SectionData"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract mentions of rival firms in these posts.",
+      "table": [
+        "SectionData"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "List the top rival firms mentioned.",
+      "table": [
+        "SectionData"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "question": "Which Twitter handles represent influential voices in the discourse on digital innovation?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Extract Twitter handles mentioned in the context of digital innovation.",
+      "table": [
+        "SectionInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Identify which of these handles are considered influential.",
+      "table": [
+        "SectionInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Compile a list of influential Twitter handles in digital innovation discourse.",
+      "table": [
+        "SectionInfo"
+      ]
+    }
+  ]
+}

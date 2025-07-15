@@ -1,0 +1,27 @@
+{
+  "question": "How are social media analytics informing strategic investments in cybersecurity by tech-forward companies?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Extract social media analytics from the PersonaLinkedinActivity table.",
+      "table": [
+        "PersonaLinkedinActivity"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Identify tech-forward companies from the PersonaUser table.",
+      "table": [
+        "PersonaUser"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze how these analytics inform cybersecurity investments.",
+      "table": [
+        "PersonaLinkedinActivity",
+        "PersonaUser"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "question": "Which companies invested in new cloud service providers in the past six months, and how has this affected their data center footprints?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies that have invested in new cloud service providers in the past six months.",
+      "table": [
+        "CompanyVendorProductDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Determine changes in data center footprints for these companies.",
+      "table": [
+        "CompanyVendorProductDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the relationship between new cloud investments and data center changes.",
+      "table": [
+        "CompanyVendorProductDetail"
+      ]
+    }
+  ]
+}

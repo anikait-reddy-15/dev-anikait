@@ -1,0 +1,26 @@
+{
+  "question": "What business segments were focused on in companies featuring prominently in recent YouTube educational content?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies featured in YouTube educational content from SocialMediaInfo.",
+      "table": [
+        "SocialMediaInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Determine the prominence of these companies in the content.",
+      "table": [
+        "SocialMediaInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "List business segments focused on by these companies.",
+      "table": [
+        "SocialMediaInfo"
+      ]
+    }
+  ]
+}

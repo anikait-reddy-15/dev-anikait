@@ -1,0 +1,26 @@
+{
+  "question": "Who are the leading accounts on Instagram advocating for IT security?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify Instagram accounts from the CompanyManagementDetail table.",
+      "table": [
+        "CompanyManagementDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Filter accounts advocating for IT security.",
+      "table": [
+        "SectionInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Highlight leading accounts in this advocacy.",
+      "table": [
+        "PersonaMisc"
+      ]
+    }
+  ]
+}

@@ -1,6 +1,5 @@
 {
   "question": "What types of hiring signals from data-driven companies might indicate an impending shift towards cloud-based solutions?",
-  "tables": ["CompanyHiringDetail", "CompanyTechStack"],
   "subtasks": [
     {
       "step": 1,

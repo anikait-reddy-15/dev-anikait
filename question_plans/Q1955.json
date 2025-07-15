@@ -1,0 +1,26 @@
+{
+  "question": "What do competitive analyses reveal about companies active in the semiconductor industry and their technology stack?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies active in the semiconductor industry.",
+      "table": [
+        "CompanyYoutubeDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract technology stack details from these companies.",
+      "table": [
+        "CompanyYoutubeDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Perform competitive analyses on these companies.",
+      "table": [
+        "CompanyYoutubeDetail"
+      ]
+    }
+  ]
+}

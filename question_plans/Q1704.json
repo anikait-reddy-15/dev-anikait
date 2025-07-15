@@ -1,0 +1,26 @@
+{
+  "question": "Which companies are focusing on developing AI technologies according to their leadership but have no recent IT hires?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies focusing on developing AI technologies based on leadership statements.",
+      "table": [
+        "CompanyTwitterDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Check for companies with no recent IT hires.",
+      "table": [
+        "CompanyTwitterDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Combine results to find companies that meet both criteria.",
+      "table": [
+        "CompanyTwitterDetail"
+      ]
+    }
+  ]
+}

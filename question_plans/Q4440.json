@@ -1,0 +1,26 @@
+{
+  "question": "Which upcoming trends in business processes are being shared via Twitter by key business leaders?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify key business leaders with active Twitter profiles.",
+      "table": [
+        "PersonaTitle"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract Twitter posts related to business process trends.",
+      "table": [
+        "LookUpValue"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze and list upcoming trends mentioned in these posts.",
+      "table": [
+        "LookUpValue"
+      ]
+    }
+  ]
+}

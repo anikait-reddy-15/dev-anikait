@@ -1,0 +1,26 @@
+{
+  "question": "How many companies have mentioned scaling their IT infrastructure in connection with strategic AI goals?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify mentions of IT infrastructure scaling.",
+      "table": [
+        "PersonaMisc"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Filter these mentions to those that also reference strategic AI goals.",
+      "table": [
+        "PersonaMisc"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Count the number of distinct companies involved.",
+      "table": [
+        "PersonaTitle"
+      ]
+    }
+  ]
+}

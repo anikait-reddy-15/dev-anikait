@@ -1,0 +1,27 @@
+{
+  "question": "What is the correlation between energy sector companies enhancing their tech stacks and increasing leadership dialogues on LinkedIn?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify energy sector companies enhancing their tech stacks.",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Determine which of these companies are increasing leadership dialogues on LinkedIn.",
+      "table": [
+        "CompanyFacebookDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the correlation between tech stack enhancements and leadership dialogues.",
+      "table": [
+        "CompanyHiringDetail",
+        "CompanyFacebookDetail"
+      ]
+    }
+  ]
+}

@@ -1,21 +1,27 @@
 {
   "question": "What are the common characteristics of companies that posted job openings for data engineering roles and reported a shift in their IT partner relationships?",
-  "tables": ["CompanyHiringDetail", "CompanyITPartnerDetail"],
   "subtasks": [
     {
       "step": 1,
       "task": "Identify companies that have posted job openings for data engineering roles. [CompanyHiringDetail]",
-      "table": ["CompanyHiringDetail"]
+      "table": [
+        "CompanyHiringDetail"
+      ]
     },
     {
       "step": 2,
       "task": "Gather data on the IT partner relationships of these companies. [CompanyITPartnerDetail]",
-      "table": ["CompanyITPartnerDetail"]
+      "table": [
+        "CompanyITPartnerDetail"
+      ]
     },
     {
       "step": 3,
       "task": "Analyze the characteristics of companies with both job openings and shifts in IT partner relationships. [CompanyHiringDetail, CompanyITPartnerDetail]",
-      "table": ["CompanyHiringDetail", "CompanyITPartnerDetail"]
+      "table": [
+        "CompanyHiringDetail",
+        "CompanyITPartnerDetail"
+      ]
     }
   ]
 }

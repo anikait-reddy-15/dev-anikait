@@ -1,0 +1,27 @@
+{
+  "question": "Which corporations have launched significant service offerings in alignment with advanced technology stack updates?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify corporations with advanced technology stack updates.",
+      "table": [
+        "CompanyVendorTechDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract information on new service offerings by these corporations.",
+      "table": [
+        "PersonaLinkedInProfile"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Determine alignment between service offerings and tech stack updates.",
+      "table": [
+        "CompanyVendorTechDetail",
+        "PersonaLinkedInProfile"
+      ]
+    }
+  ]
+}

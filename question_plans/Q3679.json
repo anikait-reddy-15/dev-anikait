@@ -1,0 +1,27 @@
+{
+  "question": "Who are the vital leadership personas discussing augmented real-world applications translating into competitive advantages?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify leadership personas discussing augmented real-world applications.",
+      "table": [
+        "PersonaTitle"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Find discussions translating into competitive advantages.",
+      "table": [
+        "IndustryBusinessTrend"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Combine results to identify vital personas discussing competitive advantages.",
+      "table": [
+        "PersonaTitle",
+        "IndustryBusinessTrend"
+      ]
+    }
+  ]
+}

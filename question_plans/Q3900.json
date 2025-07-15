@@ -1,0 +1,26 @@
+{
+  "question": "How does the integration of deep learning models alter focus on personalization strategies across industries?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify industries integrating deep learning models.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract personalization strategies within these industries.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze how deep learning integration alters focus on these strategies.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "question": "How have artificial intelligence investments enhanced strategic engagement according to Twitter bios?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Extract Twitter bios mentioning artificial intelligence investments.",
+      "table": [
+        "PersonaTwitterProfile"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Identify mentions of strategic engagement within these bios.",
+      "table": [
+        "PersonaTwitterProfile"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze how AI investments are linked to enhanced strategic engagement.",
+      "table": [
+        "PersonaTwitterProfile"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "question": "How do IT trends in the financial industry correlate with recent vendor deals for analytics software?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify IT trends in the financial industry from CompanyFocusAreaDetail.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Identify recent vendor deals for analytics software.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the correlation between these IT trends and vendor deals.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    }
+  ]
+}

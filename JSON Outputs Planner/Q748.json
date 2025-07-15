@@ -1,21 +1,27 @@
 {
   "question": "What AI platforms are predominantly discussed by companies that have issued public statements on AI ethics?",
-  "tables": ["CompanyFocusAreaDetail", "CompanyTechStack"],
   "subtasks": [
     {
       "step": 1,
       "task": "Identify companies that have made public statements on AI ethics.",
-      "table": ["CompanyFocusAreaDetail"]
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
     },
     {
       "step": 2,
       "task": "Extract AI platforms used by these companies.",
-      "table": ["CompanyTechStack"]
+      "table": [
+        "CompanyTechStack"
+      ]
     },
     {
       "step": 3,
       "task": "Analyze most commonly mentioned AI platforms.",
-      "table": ["CompanyFocusAreaDetail", "CompanyTechStack"]
+      "table": [
+        "CompanyFocusAreaDetail",
+        "CompanyTechStack"
+      ]
     }
   ]
 }

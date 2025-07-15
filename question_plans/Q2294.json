@@ -1,0 +1,26 @@
+{
+  "question": "Which persona profiles are championing change through discourse on platform integration?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Extract persona profiles from the data.",
+      "table": [
+        "PersonaUser"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Identify discourse on platform integration within these profiles.",
+      "table": [
+        "PersonaUser"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Determine which profiles are championing change through this discourse.",
+      "table": [
+        "PersonaUser"
+      ]
+    }
+  ]
+}

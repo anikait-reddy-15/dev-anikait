@@ -1,0 +1,26 @@
+{
+  "question": "What behaviors differ among leadership approaches to technology investments on LinkedIn?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Extract leadership profiles from LinkedIn that discuss technology investments.",
+      "table": [
+        "PersonaTitle"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Identify different approaches to technology investments mentioned in these profiles.",
+      "table": [
+        "PersonaMisc"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Compare and contrast the behaviors associated with these approaches.",
+      "table": [
+        "PersonaMisc"
+      ]
+    }
+  ]
+}

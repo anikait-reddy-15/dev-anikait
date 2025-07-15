@@ -1,16 +1,19 @@
 {
   "question": "What topics related to AI ethics are being discussed by company leaders in recent interviews?",
-  "tables": ["CompanyLeadershipExcerpt"],
   "subtasks": [
     {
       "step": 1,
       "task": "Identify interviews where AI ethics are discussed by company leaders.",
-      "table": ["CompanyLeadershipExcerpt"]
+      "table": [
+        "CompanyLeadershipExcerpt"
+      ]
     },
     {
       "step": 2,
       "task": "Extract key topics related to AI ethics from these interviews.",
-      "table": ["CompanyLeadershipExcerpt"]
+      "table": [
+        "CompanyLeadershipExcerpt"
+      ]
     }
   ]
 }

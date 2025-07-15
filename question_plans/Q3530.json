@@ -1,0 +1,27 @@
+{
+  "question": "Which thought leaders are driving new initiatives in companies that have expanded their product portfolios?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies that have expanded their product portfolios.",
+      "table": [
+        "CompanyManagementDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Find thought leaders driving new initiatives in these companies.",
+      "table": [
+        "PersonaMisc"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "List the thought leaders along with their associated companies.",
+      "table": [
+        "PersonaMisc",
+        "CompanyManagementDetail"
+      ]
+    }
+  ]
+}

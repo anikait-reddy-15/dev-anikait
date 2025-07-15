@@ -1,0 +1,26 @@
+{
+  "question": "Which data scientists have participated in strategic meetings discussing cloud adoption in their companies?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify strategic meetings related to cloud adoption.",
+      "table": [
+        "CompanyVendorTechDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Find data scientists who have participated in these meetings.",
+      "table": [
+        "PersonaUser"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "List the data scientists and their participation details.",
+      "table": [
+        "PersonaUser"
+      ]
+    }
+  ]
+}

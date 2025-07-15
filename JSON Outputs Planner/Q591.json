@@ -1,21 +1,27 @@
 {
   "question": "Which executives are associated with firms showing significant progress in AI-based customer service automation?",
-  "tables": ["CompanyLeadershipExcerpt", "CompanyFocusAreaDetail"],
   "subtasks": [
     {
       "step": 1,
       "task": "Identify companies focusing on AI-based customer service automation. [CompanyFocusAreaDetail]",
-      "table": ["CompanyFocusAreaDetail"]
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
     },
     {
       "step": 2,
       "task": "Extract executives from those companies using the leadership excerpts. [CompanyLeadershipExcerpt]",
-      "table": ["CompanyLeadershipExcerpt"]
+      "table": [
+        "CompanyLeadershipExcerpt"
+      ]
     },
     {
       "step": 3,
       "task": "Match executives to companies identified in step 1. [CompanyFocusAreaDetail, CompanyLeadershipExcerpt]",
-      "table": ["CompanyFocusAreaDetail", "CompanyLeadershipExcerpt"]
+      "table": [
+        "CompanyFocusAreaDetail",
+        "CompanyLeadershipExcerpt"
+      ]
     }
   ]
 }

@@ -1,0 +1,27 @@
+{
+  "question": "How do vendor relationships reflect on enhanced tech stack adaptations and newly emerging industry streaks?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify vendor relationships.",
+      "table": [
+        "CompanyLeadershipExcerpt"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Find enhanced tech stack adaptations.",
+      "table": [
+        "CompanyDataCenter"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the reflection of vendor relationships on tech adaptations and industry trends.",
+      "table": [
+        "CompanyLeadershipExcerpt",
+        "CompanyDataCenter"
+      ]
+    }
+  ]
+}

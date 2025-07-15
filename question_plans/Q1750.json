@@ -1,0 +1,26 @@
+{
+  "question": "How often have sustainability projects been part of hiring discussions on Instagram?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify hiring discussions on Instagram.",
+      "table": [
+        "PersonaYoutubeProfile"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract mentions of sustainability projects in these discussions.",
+      "table": [
+        "PersonaYoutubeProfile"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Determine the frequency of sustainability projects being mentioned.",
+      "table": [
+        "PersonaYoutubeProfile"
+      ]
+    }
+  ]
+}

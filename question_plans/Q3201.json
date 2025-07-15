@@ -1,0 +1,24 @@
+{
+  "question": "Which companies have recently hired cloud architects and what technologies are they adopting in their tech stack?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies that have recently hired cloud architects.",
+      "table": [
+        "CompanyManagementDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Retrieve the technologies these companies are adopting in their tech stack.",
+      "table": [
+        "IndustryBusinessTrend"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Combine the results to list companies with recent cloud architect hires and their tech stack technologies.",
+      "table": []
+    }
+  ]
+}

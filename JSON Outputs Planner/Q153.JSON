@@ -1,6 +1,5 @@
 {
   "question": "What job titles are prevalent among companies actively discussing tech partnerships in their public communications?",
-  "tables": ["CompanyInfo", "CompanyITPartnerDetail"],
   "subtasks": [
     {
       "step": 1,

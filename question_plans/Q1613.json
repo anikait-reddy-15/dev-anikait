@@ -1,0 +1,26 @@
+{
+  "question": "Which companies have seen an integration of new AI capabilities into their tech stack right after promoting new data science leadership?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies that have promoted new data science leadership.",
+      "table": [
+        "PersonaTitle"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Find companies that have integrated new AI capabilities into their tech stack.",
+      "table": [
+        "PersonaTitle"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Determine which companies meet both criteria.",
+      "table": [
+        "PersonaTitle"
+      ]
+    }
+  ]
+}

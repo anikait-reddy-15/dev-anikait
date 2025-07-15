@@ -1,0 +1,26 @@
+{
+  "question": "What developments in open-data architectures are reflected by changes in organizational partnerships?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify trends related to open-data architectures.",
+      "table": [
+        "IndustryBusinessTrend"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Identify changes in organizational partnerships.",
+      "table": [
+        "IndustryBusinessTrend"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the reflection of open-data architecture developments in organizational partnership changes.",
+      "table": [
+        "IndustryBusinessTrend"
+      ]
+    }
+  ]
+}

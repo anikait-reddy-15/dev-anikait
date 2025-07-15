@@ -1,16 +1,19 @@
 {
   "question": "What are the main challenges mentioned by executives in their LinkedIn posts related to digital transformation?",
-  "tables": ["PersonaLinkedinPost"],
   "subtasks": [
     {
       "step": 1,
       "task": "Collect LinkedIn posts from executives about digital transformation.",
-      "table": ["PersonaLinkedinPost"]
+      "table": [
+        "PersonaLinkedinPost"
+      ]
     },
     {
       "step": 2,
       "task": "Analyze the posts to identify main challenges mentioned.",
-      "table": ["PersonaLinkedinPost"]
+      "table": [
+        "PersonaLinkedinPost"
+      ]
     }
   ]
 }

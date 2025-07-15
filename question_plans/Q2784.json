@@ -1,0 +1,26 @@
+{
+  "question": "How are revolutionary IT concepts integrated into company culture via executive presentations?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies discussing revolutionary IT concepts.",
+      "table": [
+        "CompanyTwitterDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract executive presentation details.",
+      "table": [
+        "PersonaUser"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze how these concepts are integrated into company culture.",
+      "table": [
+        "PersonaUser"
+      ]
+    }
+  ]
+}

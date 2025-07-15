@@ -1,6 +1,5 @@
 {
   "question": "What types of technology are being integrated by companies receiving substantial attention on social media for their analytics practices?",
-  "tables": ["CompanySocialMediaInfo", "CompanyTechStack"],
   "subtasks": [
     {
       "step": 1,

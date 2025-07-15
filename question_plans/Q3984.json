@@ -1,0 +1,26 @@
+{
+  "question": "How is cultural innovation harnessed to advance corporate responsibility among prominent thought leaders on LinkedIn?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify LinkedIn posts by prominent thought leaders discussing cultural innovation.",
+      "table": [
+        "PersonaLinkedinPost"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract posts that mention corporate responsibility.",
+      "table": [
+        "PersonaLinkedinPost"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze how cultural innovation is linked to advancing corporate responsibility in these posts.",
+      "table": [
+        "PersonaLinkedinPost"
+      ]
+    }
+  ]
+}

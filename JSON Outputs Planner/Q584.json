@@ -1,21 +1,27 @@
 {
   "question": "Which companies with significant increases in IT spending have also prioritized training in data science and analytics?",
-  "tables": ["CompanyInfo", "CompanyHiringDetail", "IndustryITTrend"],
   "subtasks": [
     {
       "step": 1,
       "task": "Identify companies with significant increases in IT spending from the IndustryITTrend table. [IndustryITTrend]",
-      "table": ["IndustryITTrend"]
+      "table": [
+        "IndustryITTrend"
+      ]
     },
     {
       "step": 2,
       "task": "Gather hiring details related to training in data science and analytics from the CompanyHiringDetail table. [CompanyHiringDetail]",
-      "table": ["CompanyHiringDetail"]
+      "table": [
+        "CompanyHiringDetail"
+      ]
     },
     {
       "step": 3,
       "task": "Combine the data to find companies that meet both criteria. [IndustryITTrend, CompanyHiringDetail]",
-      "table": ["IndustryITTrend", "CompanyHiringDetail"]
+      "table": [
+        "IndustryITTrend",
+        "CompanyHiringDetail"
+      ]
     }
   ]
 }

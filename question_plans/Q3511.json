@@ -1,0 +1,26 @@
+{
+  "question": "What technology topics are most frequently mentioned by personas holding \"CTO\" roles in recent LinkedIn articles?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify personas with 'CTO' roles",
+      "table": [
+        "PersonaMisc"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Find LinkedIn articles mentioning technology topics",
+      "table": [
+        "PersonaMisc"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Aggregate and rank frequently mentioned technology topics",
+      "table": [
+        "PersonaMisc"
+      ]
+    }
+  ]
+}

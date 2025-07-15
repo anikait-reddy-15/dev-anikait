@@ -1,0 +1,26 @@
+{
+  "question": "Who are the most influential LinkedIn voices sharing thoughts on sustainable technology practices?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify influential voices on LinkedIn.",
+      "table": [
+        "PersonaTitle"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract content related to sustainable technology practices.",
+      "table": [
+        "PersonaTitle"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "List influential voices sharing thoughts on sustainability.",
+      "table": [
+        "PersonaTitle"
+      ]
+    }
+  ]
+}

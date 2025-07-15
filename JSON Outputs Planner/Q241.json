@@ -1,21 +1,26 @@
 {
   "question": "Which data science leaders are actively sharing insights on Twitter that align with their company's recent strategic partnerships with technology vendors?",
-  "tables": ["PersonaTwitterProfile", "CompanyDealMaster", "CompanyLeadershipExcerpt"],
   "subtasks": [
     {
       "step": 1,
       "task": "Identify data science leaders who are active on Twitter",
-      "table": ["PersonaTwitterProfile"]
+      "table": [
+        "PersonaTwitterProfile"
+      ]
     },
     {
       "step": 2,
       "task": "Gather information on recent strategic partnerships with technology vendors",
-      "table": ["CompanyDealMaster"]
+      "table": [
+        "CompanyDealMaster"
+      ]
     },
     {
       "step": 3,
       "task": "Identify insights shared by these leaders that align with their company's partnerships",
-      "table": ["CompanyLeadershipExcerpt"]
+      "table": [
+        "CompanyLeadershipExcerpt"
+      ]
     }
   ]
 }

@@ -1,6 +1,5 @@
 {
   "question": "Who are the key decision-makers at organizations that signed deals with analytics vendors within the last year?",
-  "tables": ["CompanyDealMaster", "CompanyLeadershipExcerpt"],
   "subtasks": [
     {
       "step": 1,

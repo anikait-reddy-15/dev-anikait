@@ -1,0 +1,27 @@
+{
+  "question": "How are industrial players incorporating industrial AI in their operations according to recent hiring data?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify industrial players focusing on industrial AI.",
+      "table": [
+        "IndustryBusinessTrend"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Analyze recent hiring data for these companies.",
+      "table": [
+        "PersonaTitle"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Assess incorporation of AI in operations based on hiring data.",
+      "table": [
+        "IndustryBusinessTrend",
+        "PersonaTitle"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "question": "What companies introduced sustainability programs coinciding with data center investments?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies that have introduced sustainability programs.",
+      "table": [
+        "CompanyDataCenter"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Identify companies making data center investments.",
+      "table": [
+        "CompanyDataCenter"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Find companies with both sustainability programs and data center investments.",
+      "table": [
+        "CompanyDataCenter"
+      ]
+    }
+  ]
+}

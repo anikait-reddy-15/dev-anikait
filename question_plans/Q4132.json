@@ -1,0 +1,26 @@
+{
+  "question": "How have company priorities shifted in the manufacturing industry concerning digital supply chain innovations?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies in the manufacturing industry.",
+      "table": [
+        "CompanyITPartnerDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Analyze past priorities concerning digital supply chain innovations.",
+      "table": [
+        "CompanyITPartnerDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Identify and describe shifts in these priorities over time.",
+      "table": [
+        "CompanyITPartnerDetail"
+      ]
+    }
+  ]
+}

@@ -1,21 +1,26 @@
 {
   "question": "In which companies has the Chief Technology Officer recently emphasized the need for cloud migration as part of their IT strategy?",
-  "tables": ["CompanyManagementDetail", "CompanyLeadershipExcerpt"],
   "subtasks": [
     {
       "step": 1,
       "task": "Identify leadership excerpts where the Chief Technology Officer discusses cloud migration. [CompanyLeadershipExcerpt]",
-      "table": ["CompanyLeadershipExcerpt"]
+      "table": [
+        "CompanyLeadershipExcerpt"
+      ]
     },
     {
       "step": 2,
       "task": "Filter the excerpts to find those specifically mentioning cloud migration. [CompanyLeadershipExcerpt]",
-      "table": ["CompanyLeadershipExcerpt"]
+      "table": [
+        "CompanyLeadershipExcerpt"
+      ]
     },
     {
       "step": 3,
       "task": "Match the filtered excerpts with the companies led by the Chief Technology Officer. [CompanyManagementDetail]",
-      "table": ["CompanyManagementDetail"]
+      "table": [
+        "CompanyManagementDetail"
+      ]
     }
   ]
 }

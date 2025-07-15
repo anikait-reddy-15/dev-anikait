@@ -1,0 +1,26 @@
+{
+  "question": "Which companies in the retail sector closed deals with major cloud vendors and updated their technology strategies this year?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies in the retail sector from SocialMediaInfo.",
+      "table": [
+        "SocialMediaInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Find companies that closed deals with major cloud vendors.",
+      "table": [
+        "SocialMediaInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Check for updates in their technology strategies this year.",
+      "table": [
+        "SocialMediaInfo"
+      ]
+    }
+  ]
+}

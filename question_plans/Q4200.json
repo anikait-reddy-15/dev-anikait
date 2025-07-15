@@ -1,0 +1,27 @@
+{
+  "question": "How are grassroots leadership initiatives reshaping IT priorities towards digital-first experiences?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Extract grassroots leadership initiative details from the SectionTitle table.",
+      "table": [
+        "SectionTitle"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Identify IT priorities related to digital-first experiences from the CompanyITPartnerDetail table.",
+      "table": [
+        "CompanyITPartnerDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze how these initiatives are reshaping IT priorities.",
+      "table": [
+        "SectionTitle",
+        "CompanyITPartnerDetail"
+      ]
+    }
+  ]
+}

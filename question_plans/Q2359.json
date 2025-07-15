@@ -1,0 +1,26 @@
+{
+  "question": "How many CTOs or digital leaders have used LinkedIn to mention cloud-native apps, defining their company's future tech choices?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify CTOs or digital leaders using LinkedIn.",
+      "table": [
+        "SectionInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Find mentions of cloud-native apps by these leaders.",
+      "table": [
+        "SectionTitle"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Count the leaders defining their company's future tech choices through these mentions.",
+      "table": [
+        "CompanyDealMaster"
+      ]
+    }
+  ]
+}

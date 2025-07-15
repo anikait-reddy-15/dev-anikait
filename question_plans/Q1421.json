@@ -1,0 +1,26 @@
+{
+  "question": "In which industries are companies most frequently modifying their data centers to accommodate advanced AI computational needs?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies that have modified their data centers for AI computational needs.",
+      "table": [
+        "PersonaMisc"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract the industries of these companies.",
+      "table": [
+        "PersonaMisc"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Count the frequency of modifications in each industry.",
+      "table": [
+        "PersonaMisc"
+      ]
+    }
+  ]
+}

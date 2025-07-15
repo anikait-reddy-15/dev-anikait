@@ -1,0 +1,24 @@
+{
+  "question": "How have technology vendors shifted their alignment with companies experiencing rapid Twitter engagement growth?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies experiencing rapid Twitter engagement growth.",
+      "table": [
+        "PersonaLinkedInProfile"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Determine technology vendors aligned with these companies.",
+      "table": [
+        "CompanyDataCenter"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze how vendor alignment has shifted.",
+      "table": []
+    }
+  ]
+}

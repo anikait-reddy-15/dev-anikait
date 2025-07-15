@@ -1,0 +1,24 @@
+{
+  "question": "Which companies are increasingly advocating cloud migration strategies via LinkedIn posts and have shifted their technology stack towards cloud solutions?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies with LinkedIn posts advocating cloud migration strategies.",
+      "table": [
+        "PersonaTitle"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Find companies that have shifted their technology stack towards cloud solutions.",
+      "table": [
+        "SectionData"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Combine results to find companies meeting both criteria.",
+      "table": []
+    }
+  ]
+}

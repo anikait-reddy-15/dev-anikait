@@ -1,21 +1,28 @@
 {
   "question": "Which companies in the retail industry have made strategic shifts in their technology stack while also increasing their social media presence?",
-  "tables": ["CompanyTechStack", "CompanyInfo", "SocialMediaInfo"],
   "subtasks": [
     {
       "step": 1,
       "task": "Identify companies in the retail industry that have made strategic shifts in their technology stack. [CompanyInfo, CompanyTechStack]",
-      "table": ["CompanyInfo", "CompanyTechStack"]
+      "table": [
+        "CompanyInfo",
+        "CompanyTechStack"
+      ]
     },
     {
       "step": 2,
       "task": "Analyze the social media presence of these retail companies. [SocialMediaInfo]",
-      "table": ["SocialMediaInfo"]
+      "table": [
+        "SocialMediaInfo"
+      ]
     },
     {
       "step": 3,
       "task": "Cross-reference the companies with both technology shifts and social media activity. [CompanyTechStack, SocialMediaInfo]",
-      "table": ["CompanyTechStack", "SocialMediaInfo"]
+      "table": [
+        "CompanyTechStack",
+        "SocialMediaInfo"
+      ]
     }
   ]
 }

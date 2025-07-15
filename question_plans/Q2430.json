@@ -1,0 +1,27 @@
+{
+  "question": "What companies enhanced their Twitter engagement strategies while upgrading their data center capabilities?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies that have enhanced their Twitter engagement strategies.",
+      "table": [
+        "PersonaLinkedInProfile"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Find companies that have upgraded their data center capabilities.",
+      "table": [
+        "CompanyDataCenter"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Cross-reference companies from both subtasks to find matches.",
+      "table": [
+        "PersonaLinkedInProfile",
+        "CompanyDataCenter"
+      ]
+    }
+  ]
+}

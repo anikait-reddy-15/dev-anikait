@@ -1,0 +1,27 @@
+{
+  "question": "Which health-tech companies have scaled their operational size post new tech vendor deals?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify health-tech companies from the CompanyVendorProductDetail table.",
+      "table": [
+        "CompanyVendorProductDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract new tech vendor deals from the IndustryITTrend table.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Determine health-tech companies that have scaled operations post vendor deals.",
+      "table": [
+        "CompanyVendorProductDetail",
+        "IndustryITTrend"
+      ]
+    }
+  ]
+}

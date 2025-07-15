@@ -1,0 +1,24 @@
+{
+  "question": "Which IT trends are notable among companies with the most active vendor product deals in cybersecurity?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies with the most active vendor product deals in cybersecurity.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Identify notable IT trends among these companies.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "List the notable IT trends.",
+      "table": []
+    }
+  ]
+}

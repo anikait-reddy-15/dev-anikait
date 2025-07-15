@@ -1,21 +1,27 @@
 {
-  "question": "How does the content of social media posts from data science leaders correlate with their organization’s technology adoption trends within the past year?",
-  "tables": ["PersonaLinkedinPost", "CompanyTechStack"],
+  "question": "How does the content of social media posts from data science leaders correlate with their organization\u2019s technology adoption trends within the past year?",
   "subtasks": [
     {
       "step": 1,
       "task": "Gather social media posts from data science leaders over the past year. [PersonaLinkedinPost]",
-      "table": ["PersonaLinkedinPost"]
+      "table": [
+        "PersonaLinkedinPost"
+      ]
     },
     {
       "step": 2,
       "task": "Identify technology adoption trends within these organizations. [CompanyTechStack]",
-      "table": ["CompanyTechStack"]
+      "table": [
+        "CompanyTechStack"
+      ]
     },
     {
       "step": 3,
       "task": "Analyze the correlation between the content of social media posts and technology adoption trends. [PersonaLinkedinPost, CompanyTechStack]",
-      "table": ["PersonaLinkedinPost", "CompanyTechStack"]
+      "table": [
+        "PersonaLinkedinPost",
+        "CompanyTechStack"
+      ]
     }
   ]
 }

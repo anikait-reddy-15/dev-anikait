@@ -1,0 +1,26 @@
+{
+  "question": "What persona has made the most impactful commentaries about data privacy in social media spaces recently?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify recent social media commentaries about data privacy.",
+      "table": [
+        "PersonaUser"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Determine the impact of these commentaries.",
+      "table": [
+        "PersonaUser"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Find the persona with the most impactful commentaries.",
+      "table": [
+        "PersonaUser"
+      ]
+    }
+  ]
+}

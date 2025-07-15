@@ -1,0 +1,26 @@
+{
+  "question": "Which executive leaders are vocal about influencing sustainable technology narratives online?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify executive leaders active in sustainable technology",
+      "table": [
+        "PersonaTitle"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Analyze their online presence and social media activity",
+      "table": [
+        "CompanyYoutubeDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Determine their influence on sustainable technology narratives",
+      "table": [
+        "CompanyYoutubeDetail"
+      ]
+    }
+  ]
+}

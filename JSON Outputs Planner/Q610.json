@@ -1,21 +1,26 @@
 {
   "question": "What technologies are commonly referenced by companies with an increase in Twitter activity discussing industry compliance?",
-  "tables": ["CompanyTwitterDetail", "CompanyTechStack"],
   "subtasks": [
     {
       "step": 1,
       "task": "Identify companies with increased Twitter activity related to industry compliance.",
-      "table": ["CompanyTwitterDetail"]
+      "table": [
+        "CompanyTwitterDetail"
+      ]
     },
     {
       "step": 2,
       "task": "Gather information on the technologies used by these companies.",
-      "table": ["CompanyTechStack"]
+      "table": [
+        "CompanyTechStack"
+      ]
     },
     {
       "step": 3,
       "task": "Analyze and compile a list of commonly referenced technologies.",
-      "table": ["CompanyTechStack"]
+      "table": [
+        "CompanyTechStack"
+      ]
     }
   ]
 }

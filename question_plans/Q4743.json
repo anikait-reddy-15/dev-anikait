@@ -1,0 +1,26 @@
+{
+  "question": "What companies have demonstrated digital resiliency through recent tech stack improvements and leadership endorsements?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies with recent tech stack improvements.",
+      "table": [
+        "CompanyTechStack"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Find leadership endorsements related to these improvements.",
+      "table": [
+        "CompanyVendorTechDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Assess digital resiliency based on improvements and endorsements.",
+      "table": [
+        "IndustryBusinessTrend"
+      ]
+    }
+  ]
+}

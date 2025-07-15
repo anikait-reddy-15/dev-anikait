@@ -1,0 +1,26 @@
+{
+  "question": "Who are the leaders with a vision for urban planning innovations revealed in stakeholder meetings?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify leaders involved in stakeholder meetings.",
+      "table": [
+        "CompanyDataCenter"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract information on urban planning innovations discussed in these meetings.",
+      "table": [
+        "SectionTitle"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Match leaders with the vision for urban planning innovations based on meeting discussions.",
+      "table": [
+        "SectionTitle"
+      ]
+    }
+  ]
+}

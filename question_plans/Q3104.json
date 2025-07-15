@@ -1,0 +1,26 @@
+{
+  "question": "Which startups have witnessed a spike in Instagram engagement while expanding their tech stack to include cloud-native technologies?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify startups from SocialMediaInfo.",
+      "table": [
+        "SocialMediaInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Check for a spike in Instagram engagement.",
+      "table": [
+        "SocialMediaInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Filter startups that expanded their tech stack to include cloud-native technologies.",
+      "table": [
+        "SocialMediaInfo"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "question": "What strategic partnerships with IT consultancies have emerged among tech companies recently?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify recent strategic partnerships formed by tech companies.",
+      "table": [
+        "CompanyITPartnerDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Filter partnerships specifically with IT consultancies.",
+      "table": [
+        "CompanyITPartnerDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "List the details of these partnerships.",
+      "table": [
+        "CompanyITPartnerDetail"
+      ]
+    }
+  ]
+}

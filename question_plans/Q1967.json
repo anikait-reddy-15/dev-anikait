@@ -1,0 +1,26 @@
+{
+  "question": "What technologies are commonly sought by firms deploying IT projects aligned with artificial intelligence initiatives?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify firms deploying IT projects aligned with AI initiatives from CompanyYoutubeDetail.",
+      "table": [
+        "CompanyYoutubeDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract technologies sought by these firms.",
+      "table": [
+        "CompanyYoutubeDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Compile a list of commonly sought technologies.",
+      "table": [
+        "CompanyYoutubeDetail"
+      ]
+    }
+  ]
+}

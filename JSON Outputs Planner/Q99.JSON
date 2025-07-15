@@ -1,6 +1,5 @@
 {
   "question": "How many data science job postings mentioned an interest in big data tools at companies that are investing heavily in IT?",
-  "tables": ["CompanyHiringDetail", "CompanyTechStack"],
   "subtasks": [
     {
       "step": 1,

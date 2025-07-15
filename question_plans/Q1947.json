@@ -1,0 +1,26 @@
+{
+  "question": "Which organizational behavior changes correlated with executive leadership updates are in focus for IoT projects?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify executive leadership updates related to IoT projects.",
+      "table": [
+        "CompanyYoutubeDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Identify organizational behavior changes in these companies.",
+      "table": [
+        "CompanyYoutubeDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Correlate organizational behavior changes with leadership updates for IoT projects.",
+      "table": [
+        "CompanyYoutubeDetail"
+      ]
+    }
+  ]
+}

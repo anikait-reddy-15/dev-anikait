@@ -1,0 +1,24 @@
+{
+  "question": "Which social media platforms highlight competitive advantages in companies focused on next-gen networking technologies?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies focused on next-gen networking technologies.",
+      "table": [
+        "IndustryBusinessTrend"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Find social media platforms highlighting competitive advantages for these companies.",
+      "table": [
+        "SocialMediaInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "List the social media platforms and their highlighted competitive advantages.",
+      "table": []
+    }
+  ]
+}

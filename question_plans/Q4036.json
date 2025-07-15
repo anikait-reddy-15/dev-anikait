@@ -1,0 +1,26 @@
+{
+  "question": "Where are new IT partners most commonly engaged in relation to specific blockchain strategies?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify specific blockchain strategies.",
+      "table": [
+        "PersonaMisc"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Identify new IT partners engaged with these strategies.",
+      "table": [
+        "PersonaTitle"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze common engagement locations for these IT partners.",
+      "table": [
+        "PersonaTitle"
+      ]
+    }
+  ]
+}

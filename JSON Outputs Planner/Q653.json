@@ -1,21 +1,27 @@
 {
   "question": "Which companies have published detailed case studies on their YouTube channels about AI-driven automation?",
-  "tables": ["CompanyYoutubeDetail", "CompanyFocusAreaDetail"],
   "subtasks": [
     {
       "step": 1,
       "task": "Find companies publishing YouTube case studies about AI-driven automation.",
-      "table": ["CompanyYoutubeDetail"]
+      "table": [
+        "CompanyYoutubeDetail"
+      ]
     },
     {
       "step": 2,
       "task": "Verify companies focusing on AI-driven automation strategies.",
-      "table": ["CompanyFocusAreaDetail"]
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
     },
     {
       "step": 3,
       "task": "Cross-reference companies from both tables.",
-      "table": ["CompanyYoutubeDetail", "CompanyFocusAreaDetail"]
+      "table": [
+        "CompanyYoutubeDetail",
+        "CompanyFocusAreaDetail"
+      ]
     }
   ]
 }

@@ -1,0 +1,27 @@
+{
+  "question": "How do influences from prominent technology-savvy LinkedIn users play into business strategy reorientation?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify prominent technology-savvy LinkedIn users.",
+      "table": [
+        "PersonaYoutubeProfile"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract information on business strategy reorientation.",
+      "table": [
+        "SectionInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the influence of LinkedIn users on business strategy reorientation.",
+      "table": [
+        "PersonaYoutubeProfile",
+        "SectionInfo"
+      ]
+    }
+  ]
+}

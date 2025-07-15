@@ -1,21 +1,27 @@
 {
   "question": "Which AI tools are mentioned in corporate training programs for data privacy compliance?",
-  "tables": ["CompanyFocusAreaDetail", "CompanyBlogDetail"],
   "subtasks": [
     {
       "step": 1,
       "task": "Find companies with corporate training on data privacy compliance.",
-      "table": ["CompanyFocusAreaDetail"]
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
     },
     {
       "step": 2,
       "task": "Extract AI tools referenced in those programs from blogs.",
-      "table": ["CompanyBlogDetail"]
+      "table": [
+        "CompanyBlogDetail"
+      ]
     },
     {
       "step": 3,
       "task": "List AI tools aligned with data privacy training.",
-      "table": ["CompanyFocusAreaDetail", "CompanyBlogDetail"]
+      "table": [
+        "CompanyFocusAreaDetail",
+        "CompanyBlogDetail"
+      ]
     }
   ]
 }

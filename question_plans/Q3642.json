@@ -1,0 +1,27 @@
+{
+  "question": "How is Twitter engagement affected by firms instituting new AI-based vendor agreements?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify firms that have instituted new AI-based vendor agreements from the IndustryBusinessTrend table.",
+      "table": [
+        "IndustryBusinessTrend"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract Twitter engagement data for these firms from the PersonaYoutubeProfile table.",
+      "table": [
+        "PersonaYoutubeProfile"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the effect of new AI-based vendor agreements on Twitter engagement.",
+      "table": [
+        "PersonaYoutubeProfile",
+        "IndustryBusinessTrend"
+      ]
+    }
+  ]
+}

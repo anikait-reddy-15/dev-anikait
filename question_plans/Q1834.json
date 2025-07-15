@@ -1,0 +1,24 @@
+{
+  "question": "What correlations exist between Instagram engagement growth and moves towards mobile-friendly business practices?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies with Instagram engagement growth.",
+      "table": [
+        "PersonaInstagramProfile"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Identify companies moving towards mobile-friendly business practices.",
+      "table": [
+        "IndustryBusinessTrend"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze correlations between engagement growth and business practices.",
+      "table": []
+    }
+  ]
+}

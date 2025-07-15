@@ -1,26 +1,35 @@
 {
   "question": "Which data scientists have interacted with articles related to cloud computing on their LinkedIn profiles from companies known for progressive tech stacks?",
-  "tables": ["PersonaLinkedinActivity", "PersonaUser", "CompanyTechStack"],
   "subtasks": [
     {
       "step": 1,
       "task": "Identify companies known for their progressive tech stacks. [CompanyTechStack]",
-      "table": ["CompanyTechStack"]
+      "table": [
+        "CompanyTechStack"
+      ]
     },
     {
       "step": 2,
       "task": "Gather LinkedIn activity data for data scientists from these companies. [PersonaLinkedinActivity, PersonaUser]",
-      "table": ["PersonaLinkedinActivity", "PersonaUser"]
+      "table": [
+        "PersonaLinkedinActivity",
+        "PersonaUser"
+      ]
     },
     {
       "step": 3,
       "task": "Filter the LinkedIn activity to find interactions with cloud computing articles. [PersonaLinkedinActivity]",
-      "table": ["PersonaLinkedinActivity"]
+      "table": [
+        "PersonaLinkedinActivity"
+      ]
     },
     {
       "step": 4,
       "task": "Compile a list of data scientists who interacted with the relevant articles. [PersonaLinkedinActivity, PersonaUser]",
-      "table": ["PersonaLinkedinActivity", "PersonaUser"]
+      "table": [
+        "PersonaLinkedinActivity",
+        "PersonaUser"
+      ]
     }
   ]
 }

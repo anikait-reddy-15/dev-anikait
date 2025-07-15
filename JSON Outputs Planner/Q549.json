@@ -1,21 +1,27 @@
 {
   "question": "Which vendors are providing marketing technologies to organizations that actively promote their leadership's insights on social media?",
-  "tables": ["CompanyVendorProductDetail", "CompanyLeadershipExcerpt", "SocialMediaInfo"],
   "subtasks": [
     {
       "step": 1,
       "task": "Identify organizations that actively promote their leadership's insights on social media. [CompanyLeadershipExcerpt, SocialMediaInfo]",
-      "table": ["CompanyLeadershipExcerpt", "SocialMediaInfo"]
+      "table": [
+        "CompanyLeadershipExcerpt",
+        "SocialMediaInfo"
+      ]
     },
     {
       "step": 2,
       "task": "Find the marketing technology vendors associated with the identified organizations. [CompanyVendorProductDetail]",
-      "table": ["CompanyVendorProductDetail"]
+      "table": [
+        "CompanyVendorProductDetail"
+      ]
     },
     {
       "step": 3,
       "task": "Cross-reference the vendors with the organizations to provide a complete list. [CompanyVendorProductDetail]",
-      "table": ["CompanyVendorProductDetail"]
+      "table": [
+        "CompanyVendorProductDetail"
+      ]
     }
   ]
 }

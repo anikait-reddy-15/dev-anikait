@@ -1,6 +1,5 @@
 {
   "question": "Which companies have published recent YouTube videos discussing their hiring initiatives in the field of data science?",
-  "tables": ["CompanyYoutubeDetail", "CompanyHiringDetail"],
   "subtasks": [
     {
       "step": 1,

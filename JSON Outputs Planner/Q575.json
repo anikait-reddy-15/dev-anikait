@@ -1,21 +1,27 @@
 {
   "question": "Which organizations signed significant vendor deals for analytics tools and have reported a shift towards remote work as a strategic focus?",
-  "tables": ["CompanyDealMaster", "CompanyVendorTechDetail", "CompanyFocusAreaDetail"],
   "subtasks": [
     {
       "step": 1,
       "task": "Identify organizations that signed significant vendor deals for analytics tools. [CompanyDealMaster, CompanyVendorTechDetail]",
-      "table": ["CompanyDealMaster", "CompanyVendorTechDetail"]
+      "table": [
+        "CompanyDealMaster",
+        "CompanyVendorTechDetail"
+      ]
     },
     {
       "step": 2,
       "task": "Find organizations that have reported a shift towards remote work. [CompanyFocusAreaDetail]",
-      "table": ["CompanyFocusAreaDetail"]
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
     },
     {
       "step": 3,
       "task": "Match the organizations from both lists to find those that meet both criteria. [CompanyFocusAreaDetail]",
-      "table": ["CompanyFocusAreaDetail"]
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
     }
   ]
 }

@@ -1,0 +1,24 @@
+{
+  "question": "What are the prominent viewpoints of leaders promoting automation and smart systems integration?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify leaders promoting automation and smart systems integration.",
+      "table": [
+        "PersonaMisc"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract viewpoints expressed by these leaders.",
+      "table": [
+        "SectionTitle"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "List prominent viewpoints on automation and smart systems integration.",
+      "table": []
+    }
+  ]
+}

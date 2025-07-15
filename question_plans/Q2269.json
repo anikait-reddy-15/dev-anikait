@@ -1,0 +1,26 @@
+{
+  "question": "What metrics are leaders advocating for in establishing competitive digital transformation benchmarks?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify leaders advocating for digital transformation.",
+      "table": [
+        "CompanyVendorTechDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract metrics related to digital transformation benchmarks.",
+      "table": [
+        "CompanyVendorTechDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the advocated metrics for competitiveness.",
+      "table": [
+        "CompanyVendorTechDetail"
+      ]
+    }
+  ]
+}

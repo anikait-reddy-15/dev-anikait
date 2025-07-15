@@ -1,0 +1,26 @@
+{
+  "question": "How do companies in the renewable energy sector leverage Facebook for their tech marketing efforts?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies in the renewable energy sector.",
+      "table": [
+        "LookUpValue"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract Facebook marketing strategies used by these companies.",
+      "table": [
+        "PersonaTitle"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze how these strategies are leveraged for tech marketing.",
+      "table": [
+        "PersonaTitle"
+      ]
+    }
+  ]
+}

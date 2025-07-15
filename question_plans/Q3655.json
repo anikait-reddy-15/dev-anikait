@@ -1,0 +1,27 @@
+{
+  "question": "Which leading firms actively participate in Twitter discussions revolving around quantum computing?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify Twitter discussions revolving around quantum computing from the PersonaYoutubeProfile table.",
+      "table": [
+        "PersonaYoutubeProfile"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract data on leading firms from the PersonaTitle table.",
+      "table": [
+        "PersonaTitle"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Determine which leading firms actively participate in these discussions.",
+      "table": [
+        "PersonaYoutubeProfile",
+        "PersonaTitle"
+      ]
+    }
+  ]
+}

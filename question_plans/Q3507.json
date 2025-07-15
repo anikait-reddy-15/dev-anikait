@@ -1,0 +1,26 @@
+{
+  "question": "What vendors are supplying machine learning tools to retail companies that have recently seen an uptick in Twitter engagement?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify retail companies with increased Twitter engagement",
+      "table": [
+        "CompanyManagementDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Find vendors supplying machine learning tools to these companies",
+      "table": [
+        "SectionInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Match vendors with the identified retail companies",
+      "table": [
+        "SectionInfo"
+      ]
+    }
+  ]
+}

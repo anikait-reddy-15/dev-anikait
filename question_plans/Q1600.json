@@ -1,0 +1,26 @@
+{
+  "question": "How does engagement with consumer electronics trends on social media align with corporate tech investments?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Retrieve social media engagement data on consumer electronics trends from the CompanyFacebookDetail table.",
+      "table": [
+        "CompanyFacebookDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Identify corporate tech investments from the SectionTitle table.",
+      "table": [
+        "SectionTitle"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze alignment between social media trends and tech investments using data from the CompanyHiringDetail table.",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    }
+  ]
+}

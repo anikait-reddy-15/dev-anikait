@@ -1,0 +1,26 @@
+{
+  "question": "Which multinationals have diversified their product portfolios to include next-gen tech solutions?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify multinationals from social media profiles.",
+      "table": [
+        "CompanyTwitterDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract information on product portfolio diversification from management details.",
+      "table": [
+        "CompanyManagementDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the inclusion of next-gen tech solutions in their portfolios.",
+      "table": [
+        "CompanyManagementDetail"
+      ]
+    }
+  ]
+}

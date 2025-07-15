@@ -1,21 +1,27 @@
 {
   "question": "What are the emerging technology trends identified by companies increasing their R&D budgets?",
-  "tables": ["CompanyFinancials", "CompanyFocusAreaDetail"],
   "subtasks": [
     {
       "step": 1,
       "task": "Identify companies increasing their R&D budgets.",
-      "table": ["CompanyFinancials"]
+      "table": [
+        "CompanyFinancials"
+      ]
     },
     {
       "step": 2,
       "task": "Extract emerging technology trends focused on by these companies.",
-      "table": ["CompanyFocusAreaDetail"]
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
     },
     {
       "step": 3,
       "task": "Match the trends with the companies from step 1.",
-      "table": ["CompanyFinancials", "CompanyFocusAreaDetail"]
+      "table": [
+        "CompanyFinancials",
+        "CompanyFocusAreaDetail"
+      ]
     }
   ]
 }

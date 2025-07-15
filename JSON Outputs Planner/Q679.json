@@ -1,21 +1,27 @@
 {
   "question": "What are the trends in AI vendor partnerships for companies with strong focus on machine learning?",
-  "tables": ["CompanyDealMaster", "CompanyFocusAreaDetail"],
   "subtasks": [
     {
       "step": 1,
       "task": "Identify companies focusing on machine learning.",
-      "table": ["CompanyFocusAreaDetail"]
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
     },
     {
       "step": 2,
       "task": "Find AI vendor partnerships for these companies.",
-      "table": ["CompanyDealMaster"]
+      "table": [
+        "CompanyDealMaster"
+      ]
     },
     {
       "step": 3,
       "task": "Match companies to vendor partnerships and analyze trends.",
-      "table": ["CompanyDealMaster", "CompanyFocusAreaDetail"]
+      "table": [
+        "CompanyDealMaster",
+        "CompanyFocusAreaDetail"
+      ]
     }
   ]
 }

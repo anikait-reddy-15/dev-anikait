@@ -1,0 +1,26 @@
+{
+  "question": "Which enterprise sectors are marketing personalized tech solutions on Youtube?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify YouTube content related to personalized tech solutions.",
+      "table": [
+        "SocialMediaInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract sectors involved in marketing these solutions.",
+      "table": [
+        "SocialMediaInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "List enterprise sectors actively marketing on YouTube.",
+      "table": [
+        "SocialMediaInfo"
+      ]
+    }
+  ]
+}

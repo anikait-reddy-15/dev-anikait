@@ -1,6 +1,5 @@
 {
   "question": "Who are the top executives discussing data analysis trends and their implications for future technology investments?",
-  "tables": ["CompanyLeadershipExcerpt", "IndustryITTrend"],
   "subtasks": [
     {
       "step": 1,

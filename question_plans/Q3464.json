@@ -1,0 +1,26 @@
+{
+  "question": "How are companies enhancing their digital transformation strategies by engaging with tech vendors during leadership confluences?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify digital transformation strategies mentioned in leadership confluences.",
+      "table": [
+        "SectionInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Find engagements with tech vendors during these confluences.",
+      "table": [
+        "CompanyDataCenter"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze how these engagements are enhancing digital transformation strategies.",
+      "table": [
+        "SectionTitle"
+      ]
+    }
+  ]
+}

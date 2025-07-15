@@ -1,0 +1,26 @@
+{
+  "question": "How do top management teams approach conversations about digital ethics in LinkedIn articles?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Extract LinkedIn articles related to digital ethics.",
+      "table": [
+        "SocialMediaInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Identify articles authored by or featuring top management teams.",
+      "table": [
+        "SocialMediaInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the content of these articles to understand the approach to digital ethics.",
+      "table": [
+        "SocialMediaInfo"
+      ]
+    }
+  ]
+}

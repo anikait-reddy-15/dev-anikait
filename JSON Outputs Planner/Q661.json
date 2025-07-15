@@ -1,21 +1,28 @@
 {
   "question": "Which companies are focusing on AI-powered customer service enhancements and have increased their social media advertising budgets?",
-  "tables": ["CompanyFocusAreaDetail", "CompanyFinancials", "SocialMediaInfo"],
   "subtasks": [
     {
       "step": 1,
       "task": "Identify companies focusing on AI-powered customer service enhancements.",
-      "table": ["CompanyFocusAreaDetail"]
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
     },
     {
       "step": 2,
       "task": "Find companies that increased social media advertising budgets.",
-      "table": ["CompanyFinancials"]
+      "table": [
+        "CompanyFinancials"
+      ]
     },
     {
       "step": 3,
       "task": "Match companies from both datasets and analyze social media platforms used.",
-      "table": ["CompanyFocusAreaDetail", "CompanyFinancials", "SocialMediaInfo"]
+      "table": [
+        "CompanyFocusAreaDetail",
+        "CompanyFinancials",
+        "SocialMediaInfo"
+      ]
     }
   ]
 }

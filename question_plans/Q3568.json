@@ -1,0 +1,26 @@
+{
+  "question": "What elements define the interplay between social engagements and strategic alliance formation?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify social engagements from the CompanyManagementDetail table.",
+      "table": [
+        "CompanyManagementDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract data on strategic alliance formation.",
+      "table": [
+        "SectionInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze elements that define the interplay between these engagements and alliances.",
+      "table": [
+        "PersonaMisc"
+      ]
+    }
+  ]
+}

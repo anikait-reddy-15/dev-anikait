@@ -1,0 +1,27 @@
+{
+  "question": "Who is newly involved in IT governance roles in companies experimenting with AI-driven product recommendations?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies experimenting with AI-driven product recommendations.",
+      "table": [
+        "CompanyDataCenter"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Find new individuals involved in IT governance roles within these companies.",
+      "table": [
+        "PersonaLinkedInProfile"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Match individuals to their respective companies experimenting with AI-driven recommendations.",
+      "table": [
+        "PersonaLinkedInProfile",
+        "CompanyDataCenter"
+      ]
+    }
+  ]
+}

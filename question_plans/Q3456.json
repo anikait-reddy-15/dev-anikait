@@ -1,0 +1,26 @@
+{
+  "question": "What are the distinguishing features of vendor products that companies choose when they show increasing investment in tech infrastructures?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies showing increasing investment in tech infrastructures.",
+      "table": [
+        "CompanyDataCenter"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Find distinguishing features of vendor products chosen by these companies.",
+      "table": [
+        "SectionInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Correlate investment in tech infrastructures with vendor product features.",
+      "table": [
+        "SectionTitle"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "question": "What are the top vendor products being adopted by financial companies focusing on risk management improvements?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify financial companies focusing on risk management improvements.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Find vendor products adopted by these companies.",
+      "table": [
+        "CompanyVendorProductDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Determine the top vendor products among these companies.",
+      "table": [
+        "CompanyVendorProductDetail"
+      ]
+    }
+  ]
+}

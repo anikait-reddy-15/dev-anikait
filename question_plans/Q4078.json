@@ -1,0 +1,26 @@
+{
+  "question": "What hiring adjustments are essential to improve digital transformation in agile companies?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify hiring patterns in agile companies.",
+      "table": [
+        "PersonaMisc"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract mentions of digital transformation improvements.",
+      "table": [
+        "PersonaMisc"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze essential hiring adjustments for these improvements.",
+      "table": [
+        "PersonaMisc"
+      ]
+    }
+  ]
+}

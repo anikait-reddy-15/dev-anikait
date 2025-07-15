@@ -1,0 +1,26 @@
+{
+  "question": "Which notable technology leaders are driving their organization's focus on scalability while broadcasting influence via their LinkedIn posts?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify technology leaders focusing on scalability.",
+      "table": [
+        "SectionInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Find LinkedIn posts broadcasting their influence.",
+      "table": [
+        "PersonaYoutubeProfile"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Correlate scalability focus with LinkedIn influence.",
+      "table": [
+        "CompanyDataCenter"
+      ]
+    }
+  ]
+}

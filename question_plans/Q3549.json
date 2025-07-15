@@ -1,0 +1,26 @@
+{
+  "question": "What educational backgrounds align frequently with those innovating in AI-driven projects?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify individuals involved in AI-driven projects.",
+      "table": [
+        "PersonaMisc"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Collect educational background information of these individuals.",
+      "table": [
+        "SectionInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Determine common educational backgrounds among AI innovators.",
+      "table": [
+        "CompanyManagementDetail"
+      ]
+    }
+  ]
+}

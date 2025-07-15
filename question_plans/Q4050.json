@@ -1,0 +1,26 @@
+{
+  "question": "Which leadership excerpts prominently feature IoT development discussions?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify leadership excerpts from the dataset.",
+      "table": [
+        "PersonaTitle"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract discussions related to IoT development.",
+      "table": [
+        "PersonaMisc"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Highlight excerpts that prominently feature IoT discussions.",
+      "table": [
+        "PersonaMisc"
+      ]
+    }
+  ]
+}

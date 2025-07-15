@@ -1,0 +1,26 @@
+{
+  "question": "What challenging narratives emerge in leadership talks around cloud migration within retail organizations?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify leadership talks discussing cloud migration.",
+      "table": [
+        "PersonaTitle"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Filter talks specific to retail organizations.",
+      "table": [
+        "PersonaTitle"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Extract and summarize challenging narratives from these talks.",
+      "table": [
+        "PersonaTitle"
+      ]
+    }
+  ]
+}

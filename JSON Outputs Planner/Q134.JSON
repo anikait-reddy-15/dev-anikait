@@ -1,6 +1,5 @@
 {
   "question": "How do business trends discussed by executives influence hiring budgets in technology companies?",
-  "tables": ["IndustryBusinessTrend", "CompanyHiringDetail"],
   "subtasks": [
     {
       "step": 1,

@@ -1,0 +1,26 @@
+{
+  "question": "How are viral Twitter discussions reflecting shifts in corporate IT trends and strategies?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify viral Twitter discussions from the PersonaYoutubeProfile table.",
+      "table": [
+        "PersonaYoutubeProfile"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract mentions of corporate IT trends and strategies from these discussions.",
+      "table": [
+        "PersonaYoutubeProfile"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze how these discussions reflect shifts in IT trends and strategies.",
+      "table": [
+        "PersonaYoutubeProfile"
+      ]
+    }
+  ]
+}

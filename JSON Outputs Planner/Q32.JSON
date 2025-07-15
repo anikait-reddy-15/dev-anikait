@@ -1,6 +1,5 @@
 {
   "question": "What specific tools does LPL Financial use for financial reporting compliance?",
-  "tables": ["CompanyVendorProductDetail", "CompanyInfo"],
   "subtasks": [
     {
       "step": 1,

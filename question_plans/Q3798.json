@@ -1,0 +1,27 @@
+{
+  "question": "Which executives have notable Instagram posts related to e-commerce innovations and represent tech-driven companies?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify Instagram posts related to e-commerce innovations from the PersonaLinkedinActivity table.",
+      "table": [
+        "PersonaLinkedinActivity"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Filter tech-driven companies from the PersonaUser table.",
+      "table": [
+        "PersonaUser"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Match executives with notable posts to those from tech-driven companies.",
+      "table": [
+        "PersonaLinkedinActivity",
+        "PersonaUser"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "question": "Which corporate representatives have shared strategic insights on enterprise transformation through YouTube?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify corporate representatives from the PersonaYoutubeProfile table.",
+      "table": [
+        "PersonaYoutubeProfile"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Filter for strategic insights related to enterprise transformation shared on YouTube.",
+      "table": [
+        "PersonaYoutubeProfile"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "List the representatives who have shared these insights.",
+      "table": [
+        "PersonaYoutubeProfile"
+      ]
+    }
+  ]
+}

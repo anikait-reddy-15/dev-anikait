@@ -1,0 +1,26 @@
+{
+  "question": "Is organizational mindset shaping diversified tech policies through innovative ecosystem channels?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify organizational mindset factors from the CompanyDataCenter table.",
+      "table": [
+        "CompanyDataCenter"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract diversified tech policies related to these factors.",
+      "table": [
+        "CompanyDataCenter"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the role of innovative ecosystem channels in shaping these policies.",
+      "table": [
+        "CompanyDataCenter"
+      ]
+    }
+  ]
+}

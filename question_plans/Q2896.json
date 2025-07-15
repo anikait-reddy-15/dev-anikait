@@ -1,0 +1,27 @@
+{
+  "question": "Where are security measures detailed in IT speeches aligning with evolving market trends?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Extract security measures detailed in IT speeches.",
+      "table": [
+        "PersonaMisc"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Identify evolving market trends related to these measures.",
+      "table": [
+        "SectionData"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Determine the alignment between security measures and market trends.",
+      "table": [
+        "PersonaMisc",
+        "SectionData"
+      ]
+    }
+  ]
+}

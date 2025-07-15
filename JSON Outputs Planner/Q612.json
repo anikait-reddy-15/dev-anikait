@@ -1,21 +1,28 @@
 {
   "question": "Who are the personas that have discussed implementing AI solutions while associated with firms that have signed recent technology partnership agreements?",
-  "tables": ["PersonaLinkedinPost", "CompanyDealMaster", "CompanyITPartnerDetail"],
   "subtasks": [
     {
       "step": 1,
       "task": "Identify recent technology partnership agreements signed by firms.",
-      "table": ["CompanyDealMaster", "CompanyITPartnerDetail"]
+      "table": [
+        "CompanyDealMaster",
+        "CompanyITPartnerDetail"
+      ]
     },
     {
       "step": 2,
       "task": "Find personas that have discussed implementing AI solutions.",
-      "table": ["PersonaLinkedinPost"]
+      "table": [
+        "PersonaLinkedinPost"
+      ]
     },
     {
       "step": 3,
       "task": "Match the personas with the firms that signed partnership agreements.",
-      "table": ["PersonaLinkedinPost", "CompanyITPartnerDetail"]
+      "table": [
+        "PersonaLinkedinPost",
+        "CompanyITPartnerDetail"
+      ]
     }
   ]
 }

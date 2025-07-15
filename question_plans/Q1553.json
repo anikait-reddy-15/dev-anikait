@@ -1,0 +1,26 @@
+{
+  "question": "What data characteristics define companies investing in lower-tier cloud technologies while increasing IT productivity tools adoption?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies investing in lower-tier cloud technologies.",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Find companies increasing adoption of IT productivity tools.",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze data characteristics defining these companies.",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    }
+  ]
+}

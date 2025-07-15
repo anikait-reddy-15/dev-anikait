@@ -1,0 +1,24 @@
+{
+  "question": "Who are the influencers driving company strategies involving IoT investments that have also reported increases in audience engagement on YouTube?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify influencers driving company strategies involving IoT investments.",
+      "table": [
+        "SectionInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Identify influencers with increased YouTube audience engagement.",
+      "table": [
+        "PersonaYoutubeProfile"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Combine results to find influencers meeting both criteria.",
+      "table": []
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "question": "How are board-level executives addressing technology-centered topics in speeches?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify board-level executives from the CompanyTechStack table.",
+      "table": [
+        "CompanyTechStack"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract speeches or leadership excerpts related to technology topics from the identified executives.",
+      "table": [
+        "CompanyTechStack"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the content of these speeches to determine how technology-centered topics are addressed.",
+      "table": [
+        "CompanyTechStack"
+      ]
+    }
+  ]
+}

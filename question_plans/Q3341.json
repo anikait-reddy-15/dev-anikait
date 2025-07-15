@@ -1,0 +1,26 @@
+{
+  "question": "Which leaders from fintech firms have expressed views on regulatory changes in the digital space?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify fintech firms from the available data.",
+      "table": [
+        "CompanyVendorProductDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract leadership excerpts related to regulatory changes.",
+      "table": [
+        "PageInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Match leaders from fintech firms with their views on regulatory changes.",
+      "table": [
+        "PageInfo"
+      ]
+    }
+  ]
+}

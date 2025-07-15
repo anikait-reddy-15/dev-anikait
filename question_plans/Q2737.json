@@ -1,0 +1,26 @@
+{
+  "question": "Which firms are advancing digital transformation and showing increased engagement on LinkedIn?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify firms advancing digital transformation from the PersonaUser table.",
+      "table": [
+        "PersonaUser"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract LinkedIn engagement metrics from the SocialMediaInfo table.",
+      "table": [
+        "SocialMediaInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Determine which firms show increased engagement.",
+      "table": [
+        "CompanyTwitterDetail"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "question": "Which companies highlight AI and machine learning applications extensively in YouTube content?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies with YouTube content related to AI and machine learning.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Filter the content to find those that extensively highlight AI and machine learning.",
+      "table": [
+        "SectionTitle"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Compile a list of these companies.",
+      "table": [
+        "CompanyInfo"
+      ]
+    }
+  ]
+}

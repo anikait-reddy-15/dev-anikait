@@ -1,0 +1,27 @@
+{
+  "question": "Which companies showcase a synergy between cybersecurity fortification and hiring trends?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies focusing on cybersecurity fortification.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Find hiring trends within these companies.",
+      "table": [
+        "PersonaMisc"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the synergy between cybersecurity and hiring trends.",
+      "table": [
+        "CompanyFocusAreaDetail",
+        "PersonaMisc"
+      ]
+    }
+  ]
+}

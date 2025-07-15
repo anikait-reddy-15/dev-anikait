@@ -1,26 +1,35 @@
 {
   "question": "How do the social media engagement metrics of companies align with their recent hires in data science and analytics positions?",
-  "tables": ["CompanyHiringDetail", "CompanyTwitterDetail", "CompanyFacebookDetail"],
   "subtasks": [
     {
       "step": 1,
       "task": "Gather recent hiring data for data science and analytics roles. [CompanyHiringDetail]",
-      "table": ["CompanyHiringDetail"]
+      "table": [
+        "CompanyHiringDetail"
+      ]
     },
     {
       "step": 2,
       "task": "Extract social media engagement metrics from Twitter. [CompanyTwitterDetail]",
-      "table": ["CompanyTwitterDetail"]
+      "table": [
+        "CompanyTwitterDetail"
+      ]
     },
     {
       "step": 3,
       "task": "Extract social media engagement metrics from Facebook. [CompanyFacebookDetail]",
-      "table": ["CompanyFacebookDetail"]
+      "table": [
+        "CompanyFacebookDetail"
+      ]
     },
     {
       "step": 4,
       "task": "Analyze the alignment between hiring activity and social engagement. [CompanyHiringDetail, CompanyTwitterDetail, CompanyFacebookDetail]",
-      "table": ["CompanyHiringDetail", "CompanyTwitterDetail", "CompanyFacebookDetail"]
+      "table": [
+        "CompanyHiringDetail",
+        "CompanyTwitterDetail",
+        "CompanyFacebookDetail"
+      ]
     }
   ]
 }

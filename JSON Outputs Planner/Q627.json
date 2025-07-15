@@ -1,21 +1,27 @@
 {
   "question": "Who are the leadership figures at companies that recently implemented new technologies in their tech stack?",
-  "tables": ["CompanyLeadershipExcerpt", "CompanyTechStack"],
   "subtasks": [
     {
       "step": 1,
       "task": "Identify companies that have recently updated their tech stack.",
-      "table": ["CompanyTechStack"]
+      "table": [
+        "CompanyTechStack"
+      ]
     },
     {
       "step": 2,
       "task": "Extract leadership figures from the identified companies.",
-      "table": ["CompanyLeadershipExcerpt"]
+      "table": [
+        "CompanyLeadershipExcerpt"
+      ]
     },
     {
       "step": 3,
       "task": "Combine the leadership figures with their respective companies that updated their tech stack.",
-      "table": ["CompanyLeadershipExcerpt", "CompanyTechStack"]
+      "table": [
+        "CompanyLeadershipExcerpt",
+        "CompanyTechStack"
+      ]
     }
   ]
 }

@@ -1,0 +1,26 @@
+{
+  "question": "Which sectors are introducing policy changes to encourage AI and machine learning in organizational strategies?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify sectors mentioned in leadership excerpts related to AI and machine learning.",
+      "table": [
+        "PersonaMisc"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract mentions of policy changes from social media posts.",
+      "table": [
+        "PersonaTwitterTweets"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Correlate sectors with policy change mentions.",
+      "table": [
+        "PersonaMisc"
+      ]
+    }
+  ]
+}

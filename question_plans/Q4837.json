@@ -1,0 +1,24 @@
+{
+  "question": "Which firms have Twitter profiles promoting their innovative partnerships in cloud-native solutions?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify firms with Twitter profiles.",
+      "table": [
+        "PersonaMisc"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract mentions of innovative partnerships in cloud-native solutions.",
+      "table": [
+        "SectionTitle"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Determine which firms are promoting these partnerships.",
+      "table": []
+    }
+  ]
+}

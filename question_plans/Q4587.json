@@ -1,0 +1,27 @@
+{
+  "question": "Which companies have IT innovation as a core focus while expanding their audience reach?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies with IT innovation as a core focus from the CompanyVendorProductDetail table.",
+      "table": [
+        "CompanyVendorProductDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract data on audience reach expansion from the PersonaMisc table.",
+      "table": [
+        "PersonaMisc"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Determine which companies are focusing on both IT innovation and audience reach expansion.",
+      "table": [
+        "CompanyVendorProductDetail",
+        "PersonaMisc"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "question": "Which executives are mentioned in news articles about companies that recently released YouTube videos on supply chain transformation?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies that released YouTube videos on supply chain transformation.",
+      "table": [
+        "CompanyYoutubeDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract executives mentioned in news articles about these companies.",
+      "table": [
+        "CompanyYoutubeDetail"
+      ]
+    }
+  ]
+}

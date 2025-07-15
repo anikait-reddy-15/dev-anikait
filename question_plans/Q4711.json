@@ -1,0 +1,27 @@
+{
+  "question": "Which Data Scientists have expressed interest in cloud computing advancements via their LinkedIn posts?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Extract LinkedIn posts of Data Scientists.",
+      "table": [
+        "CompanyTechStack"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Identify posts expressing interest in cloud computing advancements.",
+      "table": [
+        "IndustryBusinessTrend"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Filter Data Scientists based on interest in cloud computing.",
+      "table": [
+        "CompanyTechStack",
+        "IndustryBusinessTrend"
+      ]
+    }
+  ]
+}

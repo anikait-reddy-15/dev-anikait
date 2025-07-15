@@ -1,21 +1,27 @@
 {
   "question": "Which companies in the healthcare sector have increased their IT staffing levels and published content related to health data analytics on social media?",
-  "tables": ["CompanyHiringDetail", "CompanySocialMediaInfo"],
   "subtasks": [
     {
       "step": 1,
       "task": "Identify healthcare companies that have increased IT staffing levels.",
-      "table": ["CompanyHiringDetail"]
+      "table": [
+        "CompanyHiringDetail"
+      ]
     },
     {
       "step": 2,
       "task": "Extract social media content related to health data analytics.",
-      "table": ["CompanySocialMediaInfo"]
+      "table": [
+        "CompanySocialMediaInfo"
+      ]
     },
     {
       "step": 3,
       "task": "Match healthcare companies with increased staffing to those publishing relevant social media content.",
-      "table": ["CompanyHiringDetail", "CompanySocialMediaInfo"]
+      "table": [
+        "CompanyHiringDetail",
+        "CompanySocialMediaInfo"
+      ]
     }
   ]
 }

@@ -1,0 +1,27 @@
+{
+  "question": "Which companies are aggressively hiring to support strategic focuses on digital marketing?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify strategic focuses on digital marketing from the SectionData table.",
+      "table": [
+        "SectionData"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Find companies aggressively hiring from the PersonaMisc table.",
+      "table": [
+        "PersonaMisc"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Match companies' hiring activities with their digital marketing strategies.",
+      "table": [
+        "SectionData",
+        "PersonaMisc"
+      ]
+    }
+  ]
+}

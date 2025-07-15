@@ -1,0 +1,26 @@
+{
+  "question": "Which companies have launched new tech products while increasing their IT staff size?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies that have launched new tech products from the CompanyTechStack table.",
+      "table": [
+        "CompanyTechStack"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Find companies that have increased their IT staff size.",
+      "table": [
+        "CompanyTechStack"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "List companies that meet both criteria.",
+      "table": [
+        "CompanyTechStack"
+      ]
+    }
+  ]
+}

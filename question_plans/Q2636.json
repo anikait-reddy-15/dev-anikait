@@ -1,0 +1,24 @@
+{
+  "question": "Which organizations are known for innovating with AR/VR technologies and have documented their journey on YouTube?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify organizations innovating with AR/VR technologies.",
+      "table": [
+        "SectionData"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Find documentation of their journey on YouTube.",
+      "table": [
+        "SectionData"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Combine results to identify organizations meeting both criteria.",
+      "table": []
+    }
+  ]
+}

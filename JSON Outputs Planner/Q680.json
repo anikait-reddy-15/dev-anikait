@@ -1,21 +1,27 @@
 {
   "question": "Which companies have combined digital transformation initiatives with increased hiring for cloud engineers?",
-  "tables": ["CompanyFocusAreaDetail", "CompanyHiringDetail"],
   "subtasks": [
     {
       "step": 1,
       "task": "Identify companies with digital transformation initiatives.",
-      "table": ["CompanyFocusAreaDetail"]
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
     },
     {
       "step": 2,
       "task": "Find companies increasing hiring for cloud engineers.",
-      "table": ["CompanyHiringDetail"]
+      "table": [
+        "CompanyHiringDetail"
+      ]
     },
     {
       "step": 3,
       "task": "Cross-reference companies from both data sets.",
-      "table": ["CompanyFocusAreaDetail", "CompanyHiringDetail"]
+      "table": [
+        "CompanyFocusAreaDetail",
+        "CompanyHiringDetail"
+      ]
     }
   ]
 }

@@ -1,0 +1,26 @@
+{
+  "question": "Which organizations' LinkedIn engagements correlate with rising investments in edge and fog computing solutions?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Retrieve LinkedIn engagement data from the CompanyFacebookDetail table.",
+      "table": [
+        "CompanyFacebookDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Identify organizations involved in edge and fog computing from the SectionTitle table.",
+      "table": [
+        "SectionTitle"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Correlate LinkedIn engagements with investment data from the CompanyHiringDetail table.",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    }
+  ]
+}

@@ -1,26 +1,33 @@
 {
   "question": "Who are the data scientists in organizations that have publicly acknowledged hiring for AI roles on their social media platforms?",
-  "tables": ["PersonaUser", "CompanyHiringDetail", "SocialMediaInfo"],
   "subtasks": [
     {
       "step": 1,
       "task": "Identify organizations that have publicly acknowledged hiring for AI roles",
-      "table": ["SocialMediaInfo"]
+      "table": [
+        "SocialMediaInfo"
+      ]
     },
     {
       "step": 2,
       "task": "Gather social media posts from these organizations to confirm their hiring announcements",
-      "table": ["SocialMediaInfo"]
+      "table": [
+        "SocialMediaInfo"
+      ]
     },
     {
       "step": 3,
       "task": "Identify data scientists associated with these organizations",
-      "table": ["PersonaUser"]
+      "table": [
+        "PersonaUser"
+      ]
     },
     {
       "step": 4,
       "task": "Match data scientists to their respective organizations that are hiring for AI roles",
-      "table": ["CompanyHiringDetail"]
+      "table": [
+        "CompanyHiringDetail"
+      ]
     }
   ]
 }

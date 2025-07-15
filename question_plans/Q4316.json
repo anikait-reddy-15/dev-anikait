@@ -1,0 +1,26 @@
+{
+  "question": "Which sectors saw the highest growth in cloud computing references in leadership speeches?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Extract leadership speeches from the CompanyITPartnerDetail table.",
+      "table": [
+        "CompanyITPartnerDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Identify references to cloud computing in these speeches.",
+      "table": [
+        "CompanyITPartnerDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Determine sectors with the highest growth in references.",
+      "table": [
+        "CompanyITPartnerDetail"
+      ]
+    }
+  ]
+}

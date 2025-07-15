@@ -1,0 +1,26 @@
+{
+  "question": "What role do thought leaders play in shaping IT priorities at their respective organizations?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify thought leaders within organizations.",
+      "table": [
+        "CompanyManagementDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Analyze communications or publications by these thought leaders.",
+      "table": [
+        "CompanyManagementDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Determine the influence of these communications on IT priorities.",
+      "table": [
+        "CompanyManagementDetail"
+      ]
+    }
+  ]
+}

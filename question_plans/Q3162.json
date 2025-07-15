@@ -1,0 +1,26 @@
+{
+  "question": "What technology shifts are detailed in recently awarded vendor contracts?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Extract details of recently awarded vendor contracts.",
+      "table": [
+        "CompanyTwitterDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Identify technology-related information within these contract details.",
+      "table": [
+        "CompanyTwitterDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Summarize the technology shifts highlighted in these contracts.",
+      "table": [
+        "CompanyTwitterDetail"
+      ]
+    }
+  ]
+}

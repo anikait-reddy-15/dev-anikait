@@ -1,21 +1,26 @@
 {
   "question": "Which tech stacks are most commonly adopted by companies that have made significant leadership changes in the past year?",
-  "tables": ["CompanyTechStack", "CompanyManagementDetail"],
   "subtasks": [
     {
       "step": 1,
       "task": "Identify companies with significant leadership changes in the past year. [CompanyManagementDetail]",
-      "table": ["CompanyManagementDetail"]
+      "table": [
+        "CompanyManagementDetail"
+      ]
     },
     {
       "step": 2,
       "task": "Extract their technology stacks. [CompanyTechStack]",
-      "table": ["CompanyTechStack"]
+      "table": [
+        "CompanyTechStack"
+      ]
     },
     {
       "step": 3,
       "task": "Analyze common tech stacks among these companies. [CompanyTechStack]",
-      "table": ["CompanyTechStack"]
+      "table": [
+        "CompanyTechStack"
+      ]
     }
   ]
 }

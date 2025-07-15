@@ -1,0 +1,26 @@
+{
+  "question": "How many firms have disclosed significant initiatives targeting remote work enablement through their IT partner details?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify firms with significant initiatives targeting remote work enablement.",
+      "table": [
+        "SectionInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract IT partner details related to these initiatives.",
+      "table": [
+        "CompanyDealMaster"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Count the firms disclosing these initiatives.",
+      "table": [
+        "SectionTitle"
+      ]
+    }
+  ]
+}

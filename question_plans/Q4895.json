@@ -1,0 +1,24 @@
+{
+  "question": "Which organizations stand out for their contributions to AI ethics in industry regulatory discussions?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify organizations contributing to AI ethics.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Find mentions of these contributions in industry regulatory discussions.",
+      "table": [
+        "SectionTitle"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Highlight organizations that stand out for their contributions.",
+      "table": []
+    }
+  ]
+}

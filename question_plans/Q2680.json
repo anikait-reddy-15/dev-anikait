@@ -1,0 +1,26 @@
+{
+  "question": "What methods do tech-centric firms employ to narrate their journey toward sustainability as exhibited through YouTube?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify tech-centric firms focused on sustainability.",
+      "table": [
+        "SectionData"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract methods used by these firms to narrate their journey on YouTube.",
+      "table": [
+        "SectionData"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the effectiveness of these narration methods.",
+      "table": [
+        "SectionData"
+      ]
+    }
+  ]
+}

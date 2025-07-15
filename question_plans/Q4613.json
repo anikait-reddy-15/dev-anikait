@@ -1,0 +1,26 @@
+{
+  "question": "Which companies have prioritized artificial intelligence in their strategic focus as noted on Facebook?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Extract strategic focus details from the CompanyITPartnerDetail table.",
+      "table": [
+        "CompanyITPartnerDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Identify companies prioritizing artificial intelligence.",
+      "table": [
+        "CompanyITPartnerDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Correlate with Facebook posts from the CompanyYoutubeDetail table.",
+      "table": [
+        "CompanyYoutubeDetail"
+      ]
+    }
+  ]
+}

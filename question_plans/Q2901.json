@@ -1,0 +1,26 @@
+{
+  "question": "Which companies have implemented new artificial intelligence technologies in their tech stack in the last quarter?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify entries in the CompanyTechStack table where new technologies were added in the last quarter.",
+      "table": [
+        "CompanyTechStack"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Filter these entries to find those specifically related to artificial intelligence technologies.",
+      "table": [
+        "CompanyTechStack"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Extract the company names from the filtered entries.",
+      "table": [
+        "CompanyTechStack"
+      ]
+    }
+  ]
+}

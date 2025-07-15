@@ -1,0 +1,24 @@
+{
+  "question": "Which financial firms mentioned shifting focus to fintech solutions in their management meetings?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify financial firms from the dataset.",
+      "table": [
+        "CompanyDataCenter"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Find mentions of shifting focus to fintech solutions in management meetings.",
+      "table": [
+        "SectionTitle"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Compile the final list of financial firms from the filtered results.",
+      "table": []
+    }
+  ]
+}

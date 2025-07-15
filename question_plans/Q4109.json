@@ -1,0 +1,26 @@
+{
+  "question": "Which personas actively discuss digital innovation and belong to companies that recently expanded their IT service agreements?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify personas discussing digital innovation",
+      "table": [
+        "PersonaTwitterProfile"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Find companies that recently expanded their IT service agreements",
+      "table": [
+        "CompanyITPartnerDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Link personas to their respective companies with expanded IT agreements",
+      "table": [
+        "PersonaTwitterProfile"
+      ]
+    }
+  ]
+}

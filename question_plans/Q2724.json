@@ -1,0 +1,26 @@
+{
+  "question": "What content themes are most shared by CTOs on LinkedIn concerning data privacy challenges?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify CTOs from the PersonaUser table.",
+      "table": [
+        "PersonaUser"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract LinkedIn posts related to data privacy challenges from the SocialMediaInfo table.",
+      "table": [
+        "SocialMediaInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the content themes of these LinkedIn posts.",
+      "table": [
+        "SocialMediaInfo"
+      ]
+    }
+  ]
+}

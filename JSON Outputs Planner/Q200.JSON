@@ -1,6 +1,5 @@
 {
   "question": "What are the most discussed topics by company leaders on LinkedIn regarding IT transformation in the past quarter?",
-  "tables": ["CompanyLeadershipExcerpt", "PersonaLinkedinPost"],
   "subtasks": [
     {
       "step": 1,

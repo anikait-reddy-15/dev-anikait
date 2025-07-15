@@ -1,0 +1,26 @@
+{
+  "question": "Who are recognized as data science experts at organizations that have seen a significant uptick in IT investments?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify organizations with a significant uptick in IT investments.",
+      "table": [
+        "PersonaMisc"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Find data science experts within these organizations.",
+      "table": [
+        "PersonaMisc"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Compile a list of recognized data science experts.",
+      "table": [
+        "PersonaMisc"
+      ]
+    }
+  ]
+}

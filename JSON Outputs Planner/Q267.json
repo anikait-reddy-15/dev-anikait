@@ -1,21 +1,26 @@
 {
   "question": "What are the most common social media platforms used by data science teams in companies that have recently increased their hiring in data analytics roles?",
-  "tables": ["PersonaUser", "SocialMediaInfo", "CompanyHiringDetail"],
   "subtasks": [
     {
       "step": 1,
       "task": "Identify companies that have recently increased hiring in data analytics roles from the [CompanyHiringDetail] table.",
-      "table": ["CompanyHiringDetail"]
+      "table": [
+        "CompanyHiringDetail"
+      ]
     },
     {
       "step": 2,
       "task": "Extract social media platform usage data for data science teams from the [PersonaUser] table.",
-      "table": ["PersonaUser"]
+      "table": [
+        "PersonaUser"
+      ]
     },
     {
       "step": 3,
       "task": "Aggregate the social media platforms used by the identified companies' data science teams.",
-      "table": ["SocialMediaInfo"]
+      "table": [
+        "SocialMediaInfo"
+      ]
     }
   ]
 }

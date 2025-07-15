@@ -1,0 +1,26 @@
+{
+  "question": "How do IT consultants approach helping traditional companies transition to digital?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify traditional companies undergoing digital transition.",
+      "table": [
+        "CompanyITPartnerDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract approaches used by IT consultants in these transitions.",
+      "table": [
+        "CompanyITPartnerDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the effectiveness of these approaches.",
+      "table": [
+        "CompanyITPartnerDetail"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "question": "Identify companies that cite cloud security as a crucial focus and their relationship with major cloud vendors.",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies citing cloud security as a crucial focus.",
+      "table": [
+        "SectionData"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Find relationships with major cloud vendors for these companies.",
+      "table": [
+        "CompanyVendorProductDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "List companies with cloud security focus and vendor relationships.",
+      "table": [
+        "SectionData",
+        "CompanyVendorProductDetail"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "question": "Which companies are adopting fintech solutions and have actively engaged in Twitter discussions about blockchain?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies adopting fintech solutions from the CompanyITPartnerDetail table.",
+      "table": [
+        "CompanyITPartnerDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Find companies engaged in Twitter discussions about blockchain.",
+      "table": [
+        "PersonaYoutubeProfile"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Combine results to find companies meeting both criteria.",
+      "table": [
+        "CompanyITPartnerDetail",
+        "PersonaYoutubeProfile"
+      ]
+    }
+  ]
+}

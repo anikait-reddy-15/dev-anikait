@@ -1,0 +1,27 @@
+{
+  "question": "What are popular topics tweeted by tech executives and how do they reflect company vendor tech collaborations?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify popular topics tweeted by tech executives.",
+      "table": [
+        "PersonaLinkedinActivity"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Find information on company vendor tech collaborations.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze reflection of tweeted topics on vendor tech collaborations.",
+      "table": [
+        "PersonaLinkedinActivity",
+        "IndustryITTrend"
+      ]
+    }
+  ]
+}

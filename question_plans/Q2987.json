@@ -1,0 +1,26 @@
+{
+  "question": "How do dynamic tech advancements relate to current innovation mechanisms?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify dynamic tech advancements from the CompanyTechStack table.",
+      "table": [
+        "CompanyTechStack"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract information on current innovation mechanisms.",
+      "table": [
+        "CompanyTechStack"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the relationship between tech advancements and innovation mechanisms.",
+      "table": [
+        "CompanyTechStack"
+      ]
+    }
+  ]
+}

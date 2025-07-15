@@ -1,0 +1,27 @@
+{
+  "question": "What kind of AI investments follow executive role changes in fintech companies?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify executive role changes in fintech companies.",
+      "table": [
+        "PersonaTitle"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Identify AI investments made by these companies.",
+      "table": [
+        "PersonaMisc"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the AI investments that follow executive role changes.",
+      "table": [
+        "PersonaTitle",
+        "PersonaMisc"
+      ]
+    }
+  ]
+}

@@ -1,6 +1,5 @@
 {
   "question": "Which universities have engaged vendors for technology solutions in the last year?",
-  "tables": ["CompanyDealMaster"],
   "subtasks": [
     {
       "step": 1,

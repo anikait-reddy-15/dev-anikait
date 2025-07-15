@@ -1,0 +1,26 @@
+{
+  "question": "How do leadership changes in IT departments affect negotiating strengths in large tech vendor contracts?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify leadership changes in IT departments.",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract data on negotiating strengths in tech vendor contracts.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the effect of leadership changes on negotiating strengths.",
+      "table": [
+        "CompanyInfo"
+      ]
+    }
+  ]
+}

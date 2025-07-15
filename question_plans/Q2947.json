@@ -1,0 +1,26 @@
+{
+  "question": "What are the strategic focuses of companies that have demonstrated an increase in IT-related social media posts?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies with increased IT-related social media posts from the CompanyFacebookDetail table.",
+      "table": [
+        "CompanyFacebookDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract strategic focuses for these companies from the CompanyTechStack table.",
+      "table": [
+        "CompanyTechStack"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Summarize the strategic focuses of these companies.",
+      "table": [
+        "CompanyTechStack"
+      ]
+    }
+  ]
+}

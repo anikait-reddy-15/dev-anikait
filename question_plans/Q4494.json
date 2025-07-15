@@ -1,0 +1,26 @@
+{
+  "question": "How do international expansion strategies appear in social media interactions of tech firms?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify tech firms with active social media interactions.",
+      "table": [
+        "PersonaTitle"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract content related to international expansion strategies from these interactions.",
+      "table": [
+        "PersonaTitle"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze how these strategies are communicated and perceived on social media.",
+      "table": [
+        "LookUpValue"
+      ]
+    }
+  ]
+}

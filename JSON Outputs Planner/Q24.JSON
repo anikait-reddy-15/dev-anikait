@@ -1,6 +1,5 @@
 {
   "question": "What significant technologies are used by companies in the IT deal agreements?",
-  "tables": ["CompanyDealMaster", "CompanyDataCenter"],
   "subtasks": [
     {
       "step": 1,

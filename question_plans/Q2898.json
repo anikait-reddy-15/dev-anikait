@@ -1,0 +1,27 @@
+{
+  "question": "Which longstanding vendor partnerships correlate to real-time data strategy shifts within core banking sectors?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify longstanding vendor partnerships in core banking sectors.",
+      "table": [
+        "CompanyVendorProductDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Determine real-time data strategy shifts within these sectors.",
+      "table": [
+        "SectionData"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the correlation between partnerships and strategy shifts.",
+      "table": [
+        "CompanyVendorProductDetail",
+        "SectionData"
+      ]
+    }
+  ]
+}

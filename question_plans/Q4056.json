@@ -1,0 +1,26 @@
+{
+  "question": "What correlations exist between industry benchmarks and IT roles hiring across sectors?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify industry benchmarks from the dataset.",
+      "table": [
+        "PersonaMisc"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract data on IT roles hiring across different sectors.",
+      "table": [
+        "PersonaTitle"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze correlations between industry benchmarks and IT hiring trends.",
+      "table": [
+        "PersonaMisc"
+      ]
+    }
+  ]
+}

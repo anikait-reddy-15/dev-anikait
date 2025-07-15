@@ -1,26 +1,34 @@
 {
   "question": "Which companies that focus on renewable energy have recent leadership comments emphasizing the importance of data analytics in driving business decisions?",
-  "tables": ["CompanyLeadershipExcerpt", "CompanyFocusAreaDetail", "CompanyInfo"],
   "subtasks": [
     {
       "step": 1,
       "task": "Identify companies that focus on renewable energy. [CompanyFocusAreaDetail]",
-      "table": ["CompanyFocusAreaDetail"]
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
     },
     {
       "step": 2,
       "task": "Filter for recent leadership comments that emphasize data analytics. [CompanyLeadershipExcerpt]",
-      "table": ["CompanyLeadershipExcerpt"]
+      "table": [
+        "CompanyLeadershipExcerpt"
+      ]
     },
     {
       "step": 3,
       "task": "Join the results from renewable energy companies with leadership comments. [CompanyLeadershipExcerpt, CompanyFocusAreaDetail]",
-      "table": ["CompanyLeadershipExcerpt", "CompanyFocusAreaDetail"]
+      "table": [
+        "CompanyLeadershipExcerpt",
+        "CompanyFocusAreaDetail"
+      ]
     },
     {
       "step": 4,
       "task": "Retrieve company details for the identified companies. [CompanyInfo]",
-      "table": ["CompanyInfo"]
+      "table": [
+        "CompanyInfo"
+      ]
     }
   ]
 }

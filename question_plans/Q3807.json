@@ -1,0 +1,26 @@
+{
+  "question": "What is the correlation between new IT partnership formations and social media engagement for tech firms?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify new IT partnership formations from CompanyFocusAreaDetail.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Identify tech firms with these new partnerships.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze social media engagement for these tech firms from PersonaInstagramProfile.",
+      "table": [
+        "PersonaInstagramProfile"
+      ]
+    }
+  ]
+}

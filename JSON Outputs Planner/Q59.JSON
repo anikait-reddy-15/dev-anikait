@@ -1,6 +1,5 @@
 {
   "question": "What technologies are frequently discussed in social media posts by executives at HDFC Bank?",
-  "tables": ["PersonaLinkedinPost", "CompanyInfo"],
   "subtasks": [
     {
       "step": 1,

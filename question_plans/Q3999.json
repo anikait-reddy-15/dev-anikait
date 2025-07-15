@@ -1,0 +1,26 @@
+{
+  "question": "What vital insights are extracted from vendor deals prompting shifts within data-centric metaphors conveyed by top industry stakeholders?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify vendor deals involving top industry stakeholders.",
+      "table": [
+        "IndustryBusinessTrend"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract insights related to data-centric metaphors.",
+      "table": [
+        "IndustryBusinessTrend"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze how these insights prompt shifts in industry practices.",
+      "table": [
+        "IndustryBusinessTrend"
+      ]
+    }
+  ]
+}

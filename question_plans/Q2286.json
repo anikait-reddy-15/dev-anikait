@@ -1,0 +1,26 @@
+{
+  "question": "What executive strategies pertain to optimizing cloud deployment turnaround times?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Extract executive strategies related to cloud deployment.",
+      "table": [
+        "CompanyVendorTechDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Identify specific strategies focused on optimizing turnaround times.",
+      "table": [
+        "CompanyVendorTechDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the effectiveness of these strategies in optimizing turnaround times.",
+      "table": [
+        "CompanyVendorTechDetail"
+      ]
+    }
+  ]
+}

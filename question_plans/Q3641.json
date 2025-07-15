@@ -1,0 +1,26 @@
+{
+  "question": "Which company deals have shifted following an increase in executives' social media activity about advanced analytics?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Extract executives' social media activity related to advanced analytics from the PersonaYoutubeProfile table.",
+      "table": [
+        "PersonaYoutubeProfile"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Identify any increase in social media activity about advanced analytics.",
+      "table": [
+        "PersonaYoutubeProfile"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Determine which company deals have shifted following the identified increase in social media activity.",
+      "table": [
+        "PersonaYoutubeProfile"
+      ]
+    }
+  ]
+}

@@ -1,6 +1,5 @@
 {
   "question": "Which companies are investing in AI technologies while simultaneously promoting sustainability initiatives?",
-  "tables": ["IndustryITTrend", "LookUpValue"],
   "subtasks": [
     {
       "step": 1,

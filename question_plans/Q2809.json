@@ -1,0 +1,26 @@
+{
+  "question": "Which companies describe mobile app development as a key area of focus, and what changes have they made to their tech stacks recently?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies that focus on mobile app development.",
+      "table": [
+        "CompanyVendorProductDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Determine recent changes made to their tech stacks.",
+      "table": [
+        "CompanyVendorProductDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "List companies with both a focus on mobile app development and recent tech stack changes.",
+      "table": [
+        "CompanyVendorProductDetail"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "question": "Who are the key IT decision-makers driving tech transitions in healthcare companies?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify healthcare companies undergoing tech transitions.",
+      "table": [
+        "LookUpValue"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Find key IT decision-makers in these companies.",
+      "table": [
+        "PersonaTitle"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "List decision-makers driving these transitions.",
+      "table": [
+        "LookUpValue",
+        "PersonaTitle"
+      ]
+    }
+  ]
+}

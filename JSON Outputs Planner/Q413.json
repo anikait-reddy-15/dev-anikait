@@ -1,21 +1,27 @@
 {
   "question": "Who are the prominent data science professionals that have discussed their organization's recent strategic technology shifts in interviews or blogs?",
-  "tables": ["PersonaMisc", "CompanyLeadershipExcerpt"],
   "subtasks": [
     {
       "step": 1,
       "task": "Identify interviews or blogs discussing strategic technology shifts. [PersonaMisc]",
-      "table": ["PersonaMisc"]
+      "table": [
+        "PersonaMisc"
+      ]
     },
     {
       "step": 2,
       "task": "Extract data science professionals from these discussions. [CompanyLeadershipExcerpt]",
-      "table": ["CompanyLeadershipExcerpt"]
+      "table": [
+        "CompanyLeadershipExcerpt"
+      ]
     },
     {
       "step": 3,
       "task": "Match the professionals with their organizations' technology shifts. [PersonaMisc, CompanyLeadershipExcerpt]",
-      "table": ["PersonaMisc", "CompanyLeadershipExcerpt"]
+      "table": [
+        "PersonaMisc",
+        "CompanyLeadershipExcerpt"
+      ]
     }
   ]
 }

@@ -1,0 +1,27 @@
+{
+  "question": "How are recent trends in IT staffing changes impacting company technology deployment strategies?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify recent trends in IT staffing changes from the CompanyITPartnerDetail table.",
+      "table": [
+        "CompanyITPartnerDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract information on company technology deployment strategies from the CompanyDealMaster table.",
+      "table": [
+        "CompanyDealMaster"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the impact of IT staffing changes on technology deployment strategies.",
+      "table": [
+        "CompanyITPartnerDetail",
+        "CompanyDealMaster"
+      ]
+    }
+  ]
+}

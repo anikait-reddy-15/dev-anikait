@@ -1,0 +1,26 @@
+{
+  "question": "Which companies used strategic Twitter campaigns for entering new tech markets?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies from the CompanyTwitterDetail table.",
+      "table": [
+        "CompanyTwitterDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract Twitter campaigns related to entering new tech markets.",
+      "table": [
+        "CompanyTwitterDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the strategic use of these campaigns by the companies.",
+      "table": [
+        "CompanyTwitterDetail"
+      ]
+    }
+  ]
+}

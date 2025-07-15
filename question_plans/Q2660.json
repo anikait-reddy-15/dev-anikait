@@ -1,0 +1,26 @@
+{
+  "question": "Which companies have modernized their ERP systems and publicly discussed the impact through their YouTube channels?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies that have modernized their ERP systems.",
+      "table": [
+        "SectionData"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract public discussions about ERP modernization impact.",
+      "table": [
+        "SectionData"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Focus on discussions shared via YouTube channels.",
+      "table": [
+        "SectionData"
+      ]
+    }
+  ]
+}

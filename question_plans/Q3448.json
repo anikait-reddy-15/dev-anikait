@@ -1,0 +1,26 @@
+{
+  "question": "Which industry players increased their IT workforce focusing on metaverse solutions while visibly expanding their YouTube educational content?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify industry players increasing their IT workforce for metaverse solutions.",
+      "table": [
+        "CompanyDataCenter"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Find companies expanding their YouTube educational content.",
+      "table": [
+        "PersonaYoutubeProfile"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Correlate IT workforce increase with YouTube content expansion.",
+      "table": [
+        "SectionInfo"
+      ]
+    }
+  ]
+}

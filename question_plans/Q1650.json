@@ -1,0 +1,26 @@
+{
+  "question": "How have healthcare analytics trends been stated in IT strategies after a rise in vendor collaborations?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify vendor collaborations in healthcare analytics.",
+      "table": [
+        "PersonaTitle"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract IT strategies incorporating these analytics trends.",
+      "table": [
+        "PersonaLinkedInProfile"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the influence of these trends on healthcare IT strategies.",
+      "table": [
+        "PersonaYoutubeProfile"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "question": "How do industry-targeted negotiations enhance business resilience through redefined APIs?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify industry-targeted negotiations from the CompanyDataCenter table.",
+      "table": [
+        "CompanyDataCenter"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract redefined APIs linked to these negotiations.",
+      "table": [
+        "CompanyDataCenter"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the impact of these APIs on business resilience.",
+      "table": [
+        "CompanyDataCenter"
+      ]
+    }
+  ]
+}

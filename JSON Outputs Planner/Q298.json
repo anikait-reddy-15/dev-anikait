@@ -1,21 +1,27 @@
 {
   "question": "Which companies have shifted their vendor partnerships in the past year and have also showcased leadership excerpts highlighting innovation?",
-  "tables": ["CompanyDealMaster", "CompanyVendorTechDetail", "CompanyLeadershipExcerpt"],
   "subtasks": [
     {
       "step": 1,
       "task": "Identify companies that have shifted their vendor partnerships in the past year. [CompanyDealMaster, CompanyVendorTechDetail]",
-      "table": ["CompanyDealMaster", "CompanyVendorTechDetail"]
+      "table": [
+        "CompanyDealMaster",
+        "CompanyVendorTechDetail"
+      ]
     },
     {
       "step": 2,
       "task": "Filter these companies to find those that have leadership excerpts highlighting innovation. [CompanyLeadershipExcerpt]",
-      "table": ["CompanyLeadershipExcerpt"]
+      "table": [
+        "CompanyLeadershipExcerpt"
+      ]
     },
     {
       "step": 3,
       "task": "Combine the data to list companies with both shifted partnerships and innovation leadership excerpts. [CompanyLeadershipExcerpt]",
-      "table": ["CompanyLeadershipExcerpt"]
+      "table": [
+        "CompanyLeadershipExcerpt"
+      ]
     }
   ]
 }

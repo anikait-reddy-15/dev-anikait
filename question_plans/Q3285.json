@@ -1,0 +1,27 @@
+{
+  "question": "What CLM (Contract Lifecycle Management) trends are evident in recent LinkedIn leadership discussions?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify recent LinkedIn leadership discussions.",
+      "table": [
+        "CompanyManagementDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract CLM trends from these discussions.",
+      "table": [
+        "IndustryBusinessTrend"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the presence of CLM trends in LinkedIn leadership discussions.",
+      "table": [
+        "CompanyManagementDetail",
+        "IndustryBusinessTrend"
+      ]
+    }
+  ]
+}

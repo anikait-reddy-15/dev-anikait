@@ -1,6 +1,5 @@
 {
   "question": "What emerging corporate leaders have posted about sustainable investments on social media recently?",
-  "tables": ["PersonaUser", "PersonaLinkedInProfile", "CompanyInstagramDetail"],
   "subtasks": [
     {
       "step": 1,

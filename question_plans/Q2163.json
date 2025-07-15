@@ -1,0 +1,27 @@
+{
+  "question": "Are there any observable effects of tech stack enhancements on company winning industry awards?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "List companies that have enhanced their tech stacks.",
+      "table": [
+        "CompanyVendorTechDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Identify companies that have won industry awards.",
+      "table": [
+        "CompanyDataCenter"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the correlation between tech stack enhancements and winning awards.",
+      "table": [
+        "CompanyVendorTechDetail",
+        "CompanyDataCenter"
+      ]
+    }
+  ]
+}

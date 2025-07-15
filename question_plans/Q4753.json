@@ -1,0 +1,26 @@
+{
+  "question": "Which personas have a significant influence in the AI sector based on their Instagram engagement metrics?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify personas with significant Instagram engagement metrics.",
+      "table": [
+        "CompanyVendorTechDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Determine their influence in the AI sector.",
+      "table": [
+        "IndustryBusinessTrend"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Correlate Instagram engagement with AI sector influence.",
+      "table": [
+        "CompanyTechStack"
+      ]
+    }
+  ]
+}

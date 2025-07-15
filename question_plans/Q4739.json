@@ -1,0 +1,27 @@
+{
+  "question": "Which hospitals are ramping up cybersecurity protections and what is their technology vendor landscape like?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify hospitals increasing cybersecurity protections.",
+      "table": [
+        "CompanyTechStack"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Determine the technology vendor landscape of these hospitals.",
+      "table": [
+        "CompanyVendorTechDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "List hospitals, their cybersecurity measures, and vendor landscape.",
+      "table": [
+        "CompanyTechStack",
+        "CompanyVendorTechDetail"
+      ]
+    }
+  ]
+}

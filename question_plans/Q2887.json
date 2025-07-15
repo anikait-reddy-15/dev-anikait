@@ -1,0 +1,27 @@
+{
+  "question": "How are increased machine learning skills among leadership shaping Twitter communication strategies?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify leadership with increased machine learning skills.",
+      "table": [
+        "PersonaMisc"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Analyze Twitter communication strategies of these leaders.",
+      "table": [
+        "SocialMediaInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Determine the influence of machine learning skills on these strategies.",
+      "table": [
+        "PersonaMisc",
+        "SocialMediaInfo"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "question": "Which sectors are seeing a rise in data science job postings, and what technologies are associated with such roles?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify sectors with a rise in data science job postings.",
+      "table": [
+        "SectionInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Determine the technologies associated with data science roles in these sectors.",
+      "table": [
+        "SectionInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Combine the sector and technology information.",
+      "table": [
+        "SectionInfo"
+      ]
+    }
+  ]
+}

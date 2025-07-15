@@ -1,0 +1,27 @@
+{
+  "question": "Which organizations with recent IT partaker count changes are experiencing leadership alterations?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify organizations with recent changes in IT partaker count.",
+      "table": [
+        "CompanyDataCenter"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Identify organizations experiencing leadership alterations.",
+      "table": [
+        "PersonaLinkedInProfile"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Find organizations that have both IT partaker count changes and leadership alterations.",
+      "table": [
+        "CompanyDataCenter",
+        "PersonaLinkedInProfile"
+      ]
+    }
+  ]
+}

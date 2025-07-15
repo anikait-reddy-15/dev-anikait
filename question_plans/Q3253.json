@@ -1,0 +1,27 @@
+{
+  "question": "Who are the social media influencers driving significant changes in fintech company strategies according to Twitter profiles?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify social media influencers on Twitter.",
+      "table": [
+        "IndustryBusinessTrend"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract fintech company strategies.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Link influencers to changes in fintech company strategies.",
+      "table": [
+        "IndustryBusinessTrend",
+        "CompanyInfo"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "question": "What industry business trends are dominating conversations among companies adapting to digital-first models?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify business trends related to digital-first models.",
+      "table": [
+        "SectionTitle"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Filter trends dominating conversations among companies.",
+      "table": [
+        "SectionTitle"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Compile a list of dominating business trends.",
+      "table": [
+        "SectionTitle"
+      ]
+    }
+  ]
+}

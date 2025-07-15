@@ -1,6 +1,5 @@
 {
   "question": "How do shifts in data science hiring trends influence competitive positioning among technology firms?",
-  "tables": ["CompanyHiringDetail", "CompanyDealMaster"],
   "subtasks": [
     {
       "step": 1,

@@ -1,0 +1,26 @@
+{
+  "question": "How are data center updates impacting the organizational stability of companies leading in AI technologies?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies leading in AI technologies from the IndustryITTrend table.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract data center updates related to these companies.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the impact of these updates on organizational stability.",
+      "table": [
+        "PersonaUser"
+      ]
+    }
+  ]
+}

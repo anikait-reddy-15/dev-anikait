@@ -1,0 +1,24 @@
+{
+  "question": "What predicts a company's inclination to sign deals with new IT partners when their industry trend reports highlight cloud migrations?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies with industry trends highlighting cloud migrations.",
+      "table": [
+        "IndustryBusinessTrend"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Find companies signing deals with new IT partners.",
+      "table": [
+        "SocialMediaInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze predictors for these companies' inclinations.",
+      "table": []
+    }
+  ]
+}

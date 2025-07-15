@@ -1,0 +1,27 @@
+{
+  "question": "What strategic initiatives among companies are catalyzed by joint ventures with global IT partners?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify joint ventures with global IT partners from the PersonaUser table.",
+      "table": [
+        "PersonaUser"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract strategic initiatives from the IndustryITTrend table.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze which initiatives are catalyzed by these joint ventures.",
+      "table": [
+        "PersonaUser",
+        "IndustryITTrend"
+      ]
+    }
+  ]
+}

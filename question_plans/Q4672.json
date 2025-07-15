@@ -1,0 +1,26 @@
+{
+  "question": "What role do CTOs play in directing data privacy initiatives within organizations?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify CTOs involved in data privacy initiatives",
+      "table": [
+        "PersonaTitle"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "List data privacy initiatives led by these CTOs",
+      "table": [
+        "CompanyITPartnerDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Evaluate the effectiveness of these initiatives",
+      "table": [
+        "CompanyITPartnerDetail"
+      ]
+    }
+  ]
+}

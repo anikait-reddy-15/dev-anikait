@@ -1,6 +1,5 @@
 {
   "question": "Which organizations have recently made deals with cybersecurity vendors and are emphasizing leadership changes in their public-facing content?",
-  "tables": ["CompanyDealMaster", "CompanyVendorTechDetail", "CompanyLeadershipExcerpt"],
   "subtasks": [
     {
       "step": 1,

@@ -1,0 +1,24 @@
+{
+  "question": "What are the correlations between Twitter engagement spikes and increased vendor product deals in technology companies?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify Twitter engagement spikes in technology companies.",
+      "table": [
+        "PersonaTwitterProfile"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Find increased vendor product deals in these companies.",
+      "table": [
+        "IndustryBusinessTrend"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze correlations between engagement spikes and vendor deals.",
+      "table": []
+    }
+  ]
+}

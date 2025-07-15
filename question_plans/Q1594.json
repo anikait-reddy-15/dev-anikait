@@ -1,0 +1,26 @@
+{
+  "question": "What infrastructure investments are noted in companies expanding cloud-native capabilities for global outreach?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies expanding cloud-native capabilities from the SectionTitle table.",
+      "table": [
+        "SectionTitle"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract infrastructure investment details from the CompanyHiringDetail table.",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze global outreach efforts using data from the CompanyFacebookDetail table.",
+      "table": [
+        "CompanyFacebookDetail"
+      ]
+    }
+  ]
+}

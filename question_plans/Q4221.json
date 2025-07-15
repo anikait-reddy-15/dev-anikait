@@ -1,0 +1,26 @@
+{
+  "question": "How do changes in IT partnership align with shifts in technology benchmarks within the same industry?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify changes in IT partnerships across industries.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract technology benchmarks for the same industries.",
+      "table": [
+        "SectionTitle"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Align the changes in IT partnerships with shifts in technology benchmarks.",
+      "table": [
+        "PersonaMisc"
+      ]
+    }
+  ]
+}

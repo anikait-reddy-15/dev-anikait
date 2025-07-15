@@ -1,6 +1,5 @@
 {
   "question": "How do data-driven decision-making strategies influence the operational behavior of companies focused on analytics?",
-  "tables": ["CompanyFocusAreaDetail", "IndustryBusinessTrend"],
   "subtasks": [
     {
       "step": 1,

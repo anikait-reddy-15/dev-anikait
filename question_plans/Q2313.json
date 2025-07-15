@@ -1,0 +1,27 @@
+{
+  "question": "Which firms have a high demand for cybersecurity expertise and have closed new vendor deals in this domain?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify firms with a high demand for cybersecurity expertise.",
+      "table": [
+        "SectionInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Filter these firms based on new vendor deals in the cybersecurity domain.",
+      "table": [
+        "CompanyDealMaster"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Select the firm names from the filtered results.",
+      "table": [
+        "SectionInfo",
+        "CompanyDealMaster"
+      ]
+    }
+  ]
+}

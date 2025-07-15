@@ -1,0 +1,27 @@
+{
+  "question": "How many companies have prominently used Hadoop in their tech stack and released related content on Instagram?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies that prominently use Hadoop in their tech stack.",
+      "table": [
+        "CompanyDealMaster"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Filter these companies based on related content released on Instagram.",
+      "table": [
+        "SectionInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Count the number of companies that meet these criteria.",
+      "table": [
+        "CompanyDealMaster",
+        "SectionInfo"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "question": "Who in the managerial hierarchy has prominently discussed recent tech stack evaluations on LinkedIn?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify managerial hierarchy from company records.",
+      "table": [
+        "CompanyDealMaster"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract discussions on tech stack evaluations from LinkedIn data.",
+      "table": [
+        "PersonaYoutubeProfile"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Determine which managers have prominently discussed tech stack evaluations.",
+      "table": [
+        "CompanyDealMaster",
+        "PersonaYoutubeProfile"
+      ]
+    }
+  ]
+}

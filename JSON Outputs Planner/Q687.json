@@ -1,21 +1,27 @@
 {
   "question": "Who are the executives leading digital transformation initiatives in financial services firms?",
-  "tables": ["CompanyLeadershipExcerpt", "CompanyInfo"],
   "subtasks": [
     {
       "step": 1,
       "task": "Identify financial services firms undergoing digital transformation.",
-      "table": ["CompanyInfo"]
+      "table": [
+        "CompanyInfo"
+      ]
     },
     {
       "step": 2,
       "task": "Extract leadership figures leading these initiatives.",
-      "table": ["CompanyLeadershipExcerpt"]
+      "table": [
+        "CompanyLeadershipExcerpt"
+      ]
     },
     {
       "step": 3,
       "task": "Match leaders with their respective firms.",
-      "table": ["CompanyLeadershipExcerpt", "CompanyInfo"]
+      "table": [
+        "CompanyLeadershipExcerpt",
+        "CompanyInfo"
+      ]
     }
   ]
 }

@@ -1,0 +1,26 @@
+{
+  "question": "What patterns are visible in companies discussing a surge in IT deals in leadership excerpts about their shrunken data center footprints?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Extract leadership excerpts discussing IT deals.",
+      "table": [
+        "SectionInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Identify mentions of shrunken data center footprints in the excerpts.",
+      "table": [
+        "CompanyDataCenter"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze patterns in the discussions about IT deals and data center footprints.",
+      "table": [
+        "SectionTitle"
+      ]
+    }
+  ]
+}

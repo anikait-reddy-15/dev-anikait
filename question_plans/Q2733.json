@@ -1,0 +1,26 @@
+{
+  "question": "What firms are using the latest machine learning algorithms as mentioned in IT reviews?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify firms from the PersonaUser table.",
+      "table": [
+        "PersonaUser"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract IT reviews mentioning machine learning algorithms from the SocialMediaInfo table.",
+      "table": [
+        "SocialMediaInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Determine which firms are using these algorithms.",
+      "table": [
+        "CompanyTwitterDetail"
+      ]
+    }
+  ]
+}

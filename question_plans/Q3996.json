@@ -1,0 +1,26 @@
+{
+  "question": "How is strategic focus shaping software project management approaches for leading software development firms?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify leading software development firms.",
+      "table": [
+        "IndustryBusinessTrend"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract data on strategic focus in project management.",
+      "table": [
+        "IndustryBusinessTrend"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze how strategic focus is shaping project management approaches.",
+      "table": [
+        "IndustryBusinessTrend"
+      ]
+    }
+  ]
+}

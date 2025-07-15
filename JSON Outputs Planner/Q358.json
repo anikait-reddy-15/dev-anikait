@@ -1,21 +1,26 @@
 {
   "question": "Who are the data scientists at companies that reported an increase in their technology investments within the last year?",
-  "tables": ["PersonaUser", "CompanyTechStack", "CompanyInfo"],
   "subtasks": [
     {
       "step": 1,
       "task": "Identify companies that reported an increase in technology investments in the last year. [CompanyTechStack]",
-      "table": ["CompanyTechStack"]
+      "table": [
+        "CompanyTechStack"
+      ]
     },
     {
       "step": 2,
       "task": "Filter the user profiles to find data scientists working at those companies. [PersonaUser]",
-      "table": ["PersonaUser"]
+      "table": [
+        "PersonaUser"
+      ]
     },
     {
       "step": 3,
       "task": "Cross-reference data scientists with the technology stack of their respective companies. [CompanyTechStack]",
-      "table": ["CompanyTechStack"]
+      "table": [
+        "CompanyTechStack"
+      ]
     }
   ]
 }

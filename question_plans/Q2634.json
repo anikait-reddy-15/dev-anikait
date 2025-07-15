@@ -1,0 +1,24 @@
+{
+  "question": "Who are the prominent women in tech influencing changes in machine learning strategies within their organizations?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify prominent women in tech.",
+      "table": [
+        "PersonaTitle"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Find instances where these women influenced machine learning strategies.",
+      "table": [
+        "SectionData"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Combine results to identify influential women in tech.",
+      "table": []
+    }
+  ]
+}

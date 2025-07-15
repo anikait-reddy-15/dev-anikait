@@ -1,0 +1,26 @@
+{
+  "question": "What are common tech stack transition strategies for companies that recently received top supplier scores?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies that recently received top supplier scores.",
+      "table": [
+        "CompanyDataCenter"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Find common tech stack transition strategies.",
+      "table": [
+        "SectionTitle"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Correlate supplier scores with tech stack transition strategies.",
+      "table": [
+        "SectionInfo"
+      ]
+    }
+  ]
+}

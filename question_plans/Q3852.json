@@ -1,0 +1,26 @@
+{
+  "question": "What vendor technologies are frequently selected by companies that advocate green IT practices?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies advocating green IT practices.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Retrieve vendor technologies selected by these companies.",
+      "table": [
+        "CompanyManagementDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Determine the frequency of selection for each vendor technology.",
+      "table": [
+        "CompanyManagementDetail"
+      ]
+    }
+  ]
+}

@@ -1,21 +1,27 @@
 {
   "question": "Which companies are most vocal on Twitter about cybersecurity practices and are also onboarding new security tools?",
-  "tables": ["CompanyTwitterDetail", "CompanyTechStack"],
   "subtasks": [
     {
       "step": 1,
       "task": "Identify companies actively tweeting about cybersecurity practices.",
-      "table": ["CompanyTwitterDetail"]
+      "table": [
+        "CompanyTwitterDetail"
+      ]
     },
     {
       "step": 2,
       "task": "Identify companies onboarding new security tools.",
-      "table": ["CompanyTechStack"]
+      "table": [
+        "CompanyTechStack"
+      ]
     },
     {
       "step": 3,
       "task": "Find companies active in both areas.",
-      "table": ["CompanyTwitterDetail", "CompanyTechStack"]
+      "table": [
+        "CompanyTwitterDetail",
+        "CompanyTechStack"
+      ]
     }
   ]
 }

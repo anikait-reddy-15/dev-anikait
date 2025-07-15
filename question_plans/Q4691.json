@@ -1,0 +1,26 @@
+{
+  "question": "What insights into data interoperability strategies are companies sharing on LinkedIn?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies sharing insights on LinkedIn.",
+      "table": [
+        "CompanyITPartnerDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract insights related to data interoperability strategies.",
+      "table": [
+        "CompanyITPartnerDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the extracted insights to identify common strategies.",
+      "table": [
+        "CompanyITPartnerDetail"
+      ]
+    }
+  ]
+}

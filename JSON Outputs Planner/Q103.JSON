@@ -1,6 +1,5 @@
 {
   "question": "How do leadership perspectives on technology investments change in response to social media trends?",
-  "tables": ["CompanyLeadershipExcerpt", "CompanySocialMediaInfo"],
   "subtasks": [
     {
       "step": 1,

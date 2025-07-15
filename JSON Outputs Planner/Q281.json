@@ -1,21 +1,27 @@
 {
   "question": "Which IT vendors are engaged with healthcare companies that are also posting about digital transformation on social media?",
-  "tables": ["CompanyVendorTechDetail", "CompanyInfo", "SocialMediaInfo"],
   "subtasks": [
     {
       "step": 1,
       "task": "Identify healthcare companies that are posting about digital transformation on social media. [SocialMediaInfo, CompanyInfo]",
-      "table": ["SocialMediaInfo", "CompanyInfo"]
+      "table": [
+        "SocialMediaInfo",
+        "CompanyInfo"
+      ]
     },
     {
       "step": 2,
       "task": "Extract the relevant healthcare companies from the social media posts. [CompanyInfo]",
-      "table": ["CompanyInfo"]
+      "table": [
+        "CompanyInfo"
+      ]
     },
     {
       "step": 3,
       "task": "Identify IT vendors engaged with these healthcare companies. [CompanyVendorTechDetail]",
-      "table": ["CompanyVendorTechDetail"]
+      "table": [
+        "CompanyVendorTechDetail"
+      ]
     }
   ]
 }

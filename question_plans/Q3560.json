@@ -1,0 +1,26 @@
+{
+  "question": "How are innovations like blockchain regulation shaping policy discussions?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify innovations related to blockchain regulation.",
+      "table": [
+        "CompanyManagementDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Examine policy discussions influenced by these innovations.",
+      "table": [
+        "SectionInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the impact of blockchain regulation on policy discussions.",
+      "table": [
+        "PersonaMisc"
+      ]
+    }
+  ]
+}

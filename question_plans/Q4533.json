@@ -1,0 +1,27 @@
+{
+  "question": "Who are the leading influencers in companies advancing their digital transformation initiatives?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies advancing their digital transformation initiatives.",
+      "table": [
+        "CompanyVendorProductDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract leading influencers from the company data.",
+      "table": [
+        "PersonaMisc"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Determine leading influencers in these companies.",
+      "table": [
+        "PersonaMisc",
+        "CompanyVendorProductDetail"
+      ]
+    }
+  ]
+}

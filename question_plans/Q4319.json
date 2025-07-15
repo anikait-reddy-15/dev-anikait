@@ -1,0 +1,26 @@
+{
+  "question": "What are the preferred technologies for companies that have just begun new partnerships with IT vendors?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies with new IT vendor partnerships from the CompanyDealMaster table.",
+      "table": [
+        "CompanyDealMaster"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract preferred technologies for these companies.",
+      "table": [
+        "CompanyITPartnerDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "List the preferred technologies for these companies.",
+      "table": [
+        "CompanyITPartnerDetail"
+      ]
+    }
+  ]
+}

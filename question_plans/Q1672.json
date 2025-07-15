@@ -1,0 +1,26 @@
+{
+  "question": "How have job descriptions evolved for tech roles within companies strengthening their cybersecurity posture?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies strengthening their cybersecurity posture.",
+      "table": [
+        "PersonaTitle"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract job descriptions for tech roles within these companies.",
+      "table": [
+        "PersonaTitle"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze how these job descriptions have evolved.",
+      "table": [
+        "PersonaTitle"
+      ]
+    }
+  ]
+}

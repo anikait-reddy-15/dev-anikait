@@ -1,0 +1,26 @@
+{
+  "question": "What are the primary leadership styles evident in top-tier IT firms?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify top-tier IT firms.",
+      "table": [
+        "PersonaUser"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract leadership style information from leadership excerpts.",
+      "table": [
+        "PersonaUser"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Categorize and analyze the leadership styles.",
+      "table": [
+        "PersonaUser"
+      ]
+    }
+  ]
+}

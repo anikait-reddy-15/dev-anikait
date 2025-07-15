@@ -1,0 +1,26 @@
+{
+  "question": "Which software vendors are frequently collaborating with healthcare companies expanding digital footprints?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify healthcare companies from the PersonaUser table.",
+      "table": [
+        "PersonaUser"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract information on digital footprint expansion from the SocialMediaInfo table.",
+      "table": [
+        "SocialMediaInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Identify software vendors collaborating with these companies.",
+      "table": [
+        "CompanyTwitterDetail"
+      ]
+    }
+  ]
+}

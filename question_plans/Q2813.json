@@ -1,0 +1,26 @@
+{
+  "question": "What are the trending IT security concerns among leadership excerpts from internationally expanding companies?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify internationally expanding companies.",
+      "table": [
+        "CompanyVendorProductDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract leadership excerpts from these companies.",
+      "table": [
+        "SectionData"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Identify trending IT security concerns from these excerpts.",
+      "table": [
+        "SectionData"
+      ]
+    }
+  ]
+}

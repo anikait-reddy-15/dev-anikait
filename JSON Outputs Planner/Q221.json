@@ -1,21 +1,26 @@
 {
   "question": "Which industry leaders have made public statements regarding the impact of digital transformation on their business models?",
-  "tables": ["CompanyLeadershipExcerpt", "IndustryBusinessTrend"],
   "subtasks": [
     {
       "step": 1,
       "task": "Identify public statements made by industry leaders regarding digital transformation",
-      "table": ["CompanyLeadershipExcerpt"]
+      "table": [
+        "CompanyLeadershipExcerpt"
+      ]
     },
     {
       "step": 2,
       "task": "Filter these statements to focus on their impact on business models",
-      "table": ["CompanyLeadershipExcerpt"]
+      "table": [
+        "CompanyLeadershipExcerpt"
+      ]
     },
     {
       "step": 3,
       "task": "Compile a list of industry leaders based on the filtered statements",
-      "table": ["IndustryBusinessTrend"]
+      "table": [
+        "IndustryBusinessTrend"
+      ]
     }
   ]
 }

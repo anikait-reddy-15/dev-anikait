@@ -1,0 +1,26 @@
+{
+  "question": "Which emerging business trends are influencing companies to restructure their leadership teams around tech roles?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify emerging business trends from the IndustryITTrend table.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Find companies restructuring their leadership teams from the PersonaUser table.",
+      "table": [
+        "PersonaUser"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Determine the influence of these trends on tech role restructuring.",
+      "table": [
+        "PersonaUser"
+      ]
+    }
+  ]
+}

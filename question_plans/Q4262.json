@@ -1,0 +1,26 @@
+{
+  "question": "Which leadership personas articulate the benefits of cross-disciplinary tech innovations?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Extract leadership personas with excerpts on tech innovations.",
+      "table": [
+        "PersonaMisc"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Filter excerpts discussing cross-disciplinary benefits.",
+      "table": [
+        "PersonaMisc"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Compile a list of leadership personas and their articulated benefits.",
+      "table": [
+        "PersonaMisc"
+      ]
+    }
+  ]
+}

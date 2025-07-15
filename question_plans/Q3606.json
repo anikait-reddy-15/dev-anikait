@@ -1,0 +1,26 @@
+{
+  "question": "Who are the most frequent vendors in recent company deals within the tech industry, and what technology do these companies most commonly use?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify the most frequent vendors in recent company deals within the tech industry.",
+      "table": [
+        "IndustryBusinessTrend"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Determine the technology most commonly used by these companies.",
+      "table": [
+        "IndustryBusinessTrend"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Combine vendor frequency data with technology usage information.",
+      "table": [
+        "IndustryBusinessTrend"
+      ]
+    }
+  ]
+}

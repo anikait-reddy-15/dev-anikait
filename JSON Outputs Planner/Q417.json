@@ -1,21 +1,27 @@
 {
   "question": "What leadership insights have been shared by executives at companies that signed vendor deals for data analytics in the last year?",
-  "tables": ["CompanyLeadershipExcerpt", "CompanyDealMaster"],
   "subtasks": [
     {
       "step": 1,
       "task": "Identify companies that signed vendor deals for data analytics in the last year. [CompanyDealMaster]",
-      "table": ["CompanyDealMaster"]
+      "table": [
+        "CompanyDealMaster"
+      ]
     },
     {
       "step": 2,
       "task": "Extract leadership insights from executives at the identified companies. [CompanyLeadershipExcerpt]",
-      "table": ["CompanyLeadershipExcerpt"]
+      "table": [
+        "CompanyLeadershipExcerpt"
+      ]
     },
     {
       "step": 3,
       "task": "Filter leadership insights to include only those from the companies identified in the previous step. [CompanyLeadershipExcerpt, CompanyDealMaster]",
-      "table": ["CompanyLeadershipExcerpt", "CompanyDealMaster"]
+      "table": [
+        "CompanyLeadershipExcerpt",
+        "CompanyDealMaster"
+      ]
     }
   ]
 }

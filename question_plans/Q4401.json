@@ -1,0 +1,27 @@
+{
+  "question": "Which companies' data centers have undergone significant upgrades while also investing in machine learning technologies?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies with data centers that have undergone significant upgrades.",
+      "table": [
+        "CompanyDataCenter"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Find companies investing in machine learning technologies.",
+      "table": [
+        "LookUpValue"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Combine results to find companies meeting both criteria.",
+      "table": [
+        "CompanyDataCenter",
+        "LookUpValue"
+      ]
+    }
+  ]
+}

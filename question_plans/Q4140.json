@@ -1,0 +1,26 @@
+{
+  "question": "What ESG considerations are companies publicly addressing in their technology roadmaps?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies with publicly available technology roadmaps.",
+      "table": [
+        "CompanyITPartnerDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract ESG considerations mentioned in these roadmaps.",
+      "table": [
+        "CompanyITPartnerDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "List ESG considerations being addressed.",
+      "table": [
+        "CompanyITPartnerDetail"
+      ]
+    }
+  ]
+}

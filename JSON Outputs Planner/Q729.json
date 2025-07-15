@@ -1,21 +1,27 @@
 {
   "question": "What technologies are being adopted by companies increasing hiring in AI operations roles?",
-  "tables": ["CompanyHiringDetail", "CompanyTechStack"],
   "subtasks": [
     {
       "step": 1,
       "task": "Identify companies hiring for AI operations roles.",
-      "table": ["CompanyHiringDetail"]
+      "table": [
+        "CompanyHiringDetail"
+      ]
     },
     {
       "step": 2,
       "task": "Extract technologies used by those companies.",
-      "table": ["CompanyTechStack"]
+      "table": [
+        "CompanyTechStack"
+      ]
     },
     {
       "step": 3,
       "task": "Combine hiring and tech stack data to highlight tech trends.",
-      "table": ["CompanyHiringDetail", "CompanyTechStack"]
+      "table": [
+        "CompanyHiringDetail",
+        "CompanyTechStack"
+      ]
     }
   ]
 }

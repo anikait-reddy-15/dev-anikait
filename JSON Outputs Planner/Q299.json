@@ -1,21 +1,27 @@
 {
   "question": "What are the primary hiring trends for companies that have publicly discussed their IT investment priorities in leadership interviews?",
-  "tables": ["CompanyHiringDetail", "CompanyFocusAreaDetail", "CompanyLeadershipExcerpt"],
   "subtasks": [
     {
       "step": 1,
       "task": "Identify companies that have discussed their IT investment priorities in leadership interviews. [CompanyLeadershipExcerpt, CompanyFocusAreaDetail]",
-      "table": ["CompanyLeadershipExcerpt", "CompanyFocusAreaDetail"]
+      "table": [
+        "CompanyLeadershipExcerpt",
+        "CompanyFocusAreaDetail"
+      ]
     },
     {
       "step": 2,
       "task": "Gather hiring details for these identified companies. [CompanyHiringDetail]",
-      "table": ["CompanyHiringDetail"]
+      "table": [
+        "CompanyHiringDetail"
+      ]
     },
     {
       "step": 3,
       "task": "Analyze the hiring details to determine primary hiring trends. [CompanyHiringDetail]",
-      "table": ["CompanyHiringDetail"]
+      "table": [
+        "CompanyHiringDetail"
+      ]
     }
   ]
 }

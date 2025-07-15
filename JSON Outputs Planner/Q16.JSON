@@ -1,6 +1,5 @@
 {
   "question": "What initiatives is LPL Financial pursuing to improve financial compliance using the IDEA auditing tool?",
-  "tables": ["CompanyVendorProductDetail", "CompanyVendorTechDetail", "CompanyInfo"],
   "subtasks": [
     {
       "step": 1,

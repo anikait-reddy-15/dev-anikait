@@ -1,0 +1,26 @@
+{
+  "question": "How has the IT sector's emphasis on smart contract technology influenced hiring practices?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies in the IT sector emphasizing smart contract technology.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract hiring practices and roles related to smart contract technology.",
+      "table": [
+        "CompanyManagementDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze changes in hiring practices due to the emphasis on smart contract technology.",
+      "table": [
+        "CompanyManagementDetail"
+      ]
+    }
+  ]
+}

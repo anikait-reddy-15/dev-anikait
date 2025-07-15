@@ -1,0 +1,27 @@
+{
+  "question": "How are software companies integrating machine learning according to their vendor relationships?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify software companies from the CompanyVendorProductDetail table.",
+      "table": [
+        "CompanyVendorProductDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Filter machine learning integrations from the IndustryITTrend table.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze vendor relationships to understand machine learning integration by software companies.",
+      "table": [
+        "CompanyVendorProductDetail",
+        "IndustryITTrend"
+      ]
+    }
+  ]
+}

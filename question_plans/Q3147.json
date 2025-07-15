@@ -1,0 +1,24 @@
+{
+  "question": "Which pioneering technologies are frequently cited by companies in their management insights?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify management insights from companies.",
+      "table": [
+        "CompanyFacebookDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract mentions of pioneering technologies in these insights.",
+      "table": [
+        "SocialMediaInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Determine which technologies are frequently cited.",
+      "table": []
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "question": "How does new blockchain synergy influence business deals within IT and finance sectors?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify new blockchain synergies in IT and finance sectors.",
+      "table": [
+        "CompanyVendorProductDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Examine business deals within these sectors.",
+      "table": [
+        "SectionData"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the influence of blockchain synergy on these deals.",
+      "table": [
+        "CompanyVendorProductDetail",
+        "SectionData"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "question": "Which sectors experience growth in IT infrastructure for better service delivery?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify sectors investing in IT infrastructure.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Assess growth metrics in IT infrastructure within these sectors.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Determine sectors with significant growth in IT infrastructure.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    }
+  ]
+}

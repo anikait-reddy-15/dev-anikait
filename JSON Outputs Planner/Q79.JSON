@@ -1,6 +1,5 @@
 {
   "question": "What are the most common technologies used by companies that recently posted job openings for data engineering roles?",
-  "tables": ["CompanyHiringDetail", "CompanyTechStack"],
   "subtasks": [
     {
       "step": 1,

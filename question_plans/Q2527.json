@@ -1,0 +1,26 @@
+{
+  "question": "What vendor products are frequently located within the ethical AI space for top 500 companies?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify top 500 companies from available profiles.",
+      "table": [
+        "PersonaLinkedInProfile"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract mentions of vendor products related to ethical AI.",
+      "table": [
+        "PersonaLinkedInProfile"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Determine frequently mentioned vendor products in the ethical AI space.",
+      "table": [
+        "PersonaLinkedInProfile"
+      ]
+    }
+  ]
+}

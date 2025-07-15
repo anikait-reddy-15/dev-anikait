@@ -1,21 +1,27 @@
 {
   "question": "Which firms discussed talent development in leadership excerpts and have posted job openings in emerging technologies?",
-  "tables": ["CompanyLeadershipExcerpt", "CompanyHiringDetail"],
   "subtasks": [
     {
       "step": 1,
       "task": "Identify leadership excerpts mentioning talent development. [CompanyLeadershipExcerpt]",
-      "table": ["CompanyLeadershipExcerpt"]
+      "table": [
+        "CompanyLeadershipExcerpt"
+      ]
     },
     {
       "step": 2,
       "task": "Find companies hiring for emerging technologies. [CompanyHiringDetail]",
-      "table": ["CompanyHiringDetail"]
+      "table": [
+        "CompanyHiringDetail"
+      ]
     },
     {
       "step": 3,
       "task": "Cross-reference results to find firms matching both. [CompanyLeadershipExcerpt, CompanyHiringDetail]",
-      "table": ["CompanyLeadershipExcerpt", "CompanyHiringDetail"]
+      "table": [
+        "CompanyLeadershipExcerpt",
+        "CompanyHiringDetail"
+      ]
     }
   ]
 }

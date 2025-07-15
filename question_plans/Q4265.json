@@ -1,0 +1,26 @@
+{
+  "question": "Who actively engages on LinkedIn promoting advancements in adaptive learning technologies?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Extract LinkedIn engagement data related to adaptive learning technologies.",
+      "table": [
+        "PersonaMisc"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Identify individuals with active engagement in promoting these advancements.",
+      "table": [
+        "PersonaMisc"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Compile a list of these individuals and their engagement activities.",
+      "table": [
+        "PersonaMisc"
+      ]
+    }
+  ]
+}

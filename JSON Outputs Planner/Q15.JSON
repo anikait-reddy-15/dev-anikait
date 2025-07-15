@@ -1,6 +1,5 @@
 {
   "question": "Can you summarize the IT budget priorities for Helmerich & Payne in light of their recent vendor partnerships?",
-  "tables": ["CompanyVendorTechDetail", "CompanyInfo"],
   "subtasks": [
     {
       "step": 1,

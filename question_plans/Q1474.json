@@ -1,0 +1,26 @@
+{
+  "question": "How do firms focused on renewable tech options demonstrate their commitment through their vendor choices?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify firms focused on renewable tech options.",
+      "table": [
+        "CompanyInstagramDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Analyze their vendor choices related to renewable tech.",
+      "table": [
+        "CompanyInstagramDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Document how these choices demonstrate their commitment.",
+      "table": [
+        "CompanyInstagramDetail"
+      ]
+    }
+  ]
+}

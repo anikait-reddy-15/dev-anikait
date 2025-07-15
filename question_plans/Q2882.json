@@ -1,0 +1,27 @@
+{
+  "question": "How are robotics system integrations changing organizational leadership discussions, particularly in manufacturing?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Extract information on robotics system integrations in manufacturing.",
+      "table": [
+        "CompanyVendorProductDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Identify changes in organizational leadership discussions related to these integrations.",
+      "table": [
+        "PersonaMisc"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the correlation between robotics integrations and leadership discussions.",
+      "table": [
+        "PersonaMisc",
+        "CompanyVendorProductDetail"
+      ]
+    }
+  ]
+}

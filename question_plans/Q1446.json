@@ -1,0 +1,26 @@
+{
+  "question": "Who are the thought leaders in AI within industrial sectors expanding their IT partner networks?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify industrial sectors expanding their IT partner networks.",
+      "table": [
+        "PersonaMisc"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Identify AI-related thought leaders within these sectors.",
+      "table": [
+        "PersonaMisc"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Compile a list of these thought leaders.",
+      "table": [
+        "PersonaMisc"
+      ]
+    }
+  ]
+}

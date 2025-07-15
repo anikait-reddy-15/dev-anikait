@@ -1,21 +1,27 @@
 {
   "question": "Which corporate leadership members have frequently discussed machine learning topics in their public statements?",
-  "tables": ["CompanyLeadershipExcerpt", "CompanyInfo"],
   "subtasks": [
     {
       "step": 1,
       "task": "Extract leadership excerpts that mention machine learning from the CompanyLeadershipExcerpt table. [CompanyLeadershipExcerpt]",
-      "table": ["CompanyLeadershipExcerpt"]
+      "table": [
+        "CompanyLeadershipExcerpt"
+      ]
     },
     {
       "step": 2,
       "task": "Gather information about the corporate leadership members from the CompanyInfo table. [CompanyInfo]",
-      "table": ["CompanyInfo"]
+      "table": [
+        "CompanyInfo"
+      ]
     },
     {
       "step": 3,
       "task": "Match the leadership members with their statements on machine learning. [CompanyLeadershipExcerpt, CompanyInfo]",
-      "table": ["CompanyLeadershipExcerpt", "CompanyInfo"]
+      "table": [
+        "CompanyLeadershipExcerpt",
+        "CompanyInfo"
+      ]
     }
   ]
 }

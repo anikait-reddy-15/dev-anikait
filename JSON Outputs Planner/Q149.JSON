@@ -1,6 +1,5 @@
 {
   "question": "What collaboration trends are observed among companies investing in advanced data solutions?",
-  "tables": ["CompanyDealMaster", "CompanyVendorProductDetail"],
   "subtasks": [
     {
       "step": 1,

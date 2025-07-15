@@ -1,0 +1,26 @@
+{
+  "question": "How is hiring for blockchain skills influencing company Instagram strategy?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify hiring activities for blockchain skills.",
+      "table": [
+        "PersonaYoutubeProfile"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Find references to company Instagram strategy.",
+      "table": [
+        "PersonaYoutubeProfile"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze how hiring for blockchain skills influences Instagram strategy.",
+      "table": [
+        "PersonaYoutubeProfile"
+      ]
+    }
+  ]
+}

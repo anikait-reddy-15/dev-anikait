@@ -1,0 +1,27 @@
+{
+  "question": "Which companies have promoted social media content about AI ethics and extended their cloud infrastructure capabilities?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies that have promoted social media content about AI ethics.",
+      "table": [
+        "CompanyFacebookDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Determine which of these companies have extended their cloud infrastructure capabilities.",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Combine results to find companies meeting both criteria.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyHiringDetail"
+      ]
+    }
+  ]
+}

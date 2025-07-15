@@ -1,0 +1,27 @@
+{
+  "question": "Which automotive companies increased internet visibility through Twitter and have made technology investments in autonomous vehicles?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify automotive companies with increased internet visibility on Twitter.",
+      "table": [
+        "PersonaLinkedinPost"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Identify technology investments in autonomous vehicles by these companies.",
+      "table": [
+        "IndustryBusinessTrend"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Combine the results to find companies meeting both criteria.",
+      "table": [
+        "PersonaLinkedinPost",
+        "IndustryBusinessTrend"
+      ]
+    }
+  ]
+}

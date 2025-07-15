@@ -1,21 +1,26 @@
 {
   "question": "Who are the key data scientists at organizations that have signed significant vendor deals for analytics tools in the past year?",
-  "tables": ["PersonaUser", "CompanyDealMaster"],
   "subtasks": [
     {
       "step": 1,
       "task": "Identify organizations that have signed significant vendor deals for analytics tools in the past year. [CompanyDealMaster]",
-      "table": ["CompanyDealMaster"]
+      "table": [
+        "CompanyDealMaster"
+      ]
     },
     {
       "step": 2,
       "task": "Gather data scientist profiles from the identified organizations. [PersonaUser]",
-      "table": ["PersonaUser"]
+      "table": [
+        "PersonaUser"
+      ]
     },
     {
       "step": 3,
       "task": "Filter the data scientist profiles to find key individuals. [PersonaUser]",
-      "table": ["PersonaUser"]
+      "table": [
+        "PersonaUser"
+      ]
     }
   ]
 }

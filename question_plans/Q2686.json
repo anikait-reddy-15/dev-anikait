@@ -1,0 +1,26 @@
+{
+  "question": "What modernization trends are driven by competitive landscapes for firms with new CEOs and CFOs?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify firms with new CEOs and CFOs.",
+      "table": [
+        "PersonaTitle"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Collect data on competitive landscapes affecting these firms.",
+      "table": [
+        "SectionData"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Determine modernization trends driven by these competitive landscapes.",
+      "table": [
+        "SectionData"
+      ]
+    }
+  ]
+}

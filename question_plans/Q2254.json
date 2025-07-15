@@ -1,0 +1,26 @@
+{
+  "question": "Which leaders have shared commentary on product lifecycle management in tech sectors?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Extract commentary related to product lifecycle management.",
+      "table": [
+        "PersonaUser"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Identify leaders who have provided this commentary.",
+      "table": [
+        "PersonaUser"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Compile a list of leaders sharing insights on product lifecycle management.",
+      "table": [
+        "PersonaUser"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "question": "In what patterns are strategic partnerships formed to leverage next-gen data science tools?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify strategic partnerships mentioned in the context of data science tools.",
+      "table": [
+        "CompanyVendorTechDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract information on next-gen data science tools involved in these partnerships.",
+      "table": [
+        "CompanyVendorTechDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze patterns in the formation of these strategic partnerships.",
+      "table": [
+        "CompanyVendorTechDetail"
+      ]
+    }
+  ]
+}

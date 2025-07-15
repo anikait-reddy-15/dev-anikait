@@ -1,0 +1,27 @@
+{
+  "question": "How do YouTube campaigns relate to newly signed deals in the analytics space?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify YouTube campaigns.",
+      "table": [
+        "PersonaYoutubeProfile"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Identify newly signed deals in the analytics space.",
+      "table": [
+        "PersonaMisc"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the relationship between YouTube campaigns and analytics deals.",
+      "table": [
+        "PersonaYoutubeProfile",
+        "PersonaMisc"
+      ]
+    }
+  ]
+}

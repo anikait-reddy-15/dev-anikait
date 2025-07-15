@@ -1,0 +1,26 @@
+{
+  "question": "How have data privacy concerns shaped the recent IT strategies of financial institutions?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify financial institutions with recent IT strategy changes.",
+      "table": [
+        "CompanyITPartnerDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract data privacy concerns impacting these strategies.",
+      "table": [
+        "CompanyITPartnerDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze and summarize the influence of data privacy concerns.",
+      "table": [
+        "CompanyITPartnerDetail"
+      ]
+    }
+  ]
+}

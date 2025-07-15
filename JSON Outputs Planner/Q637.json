@@ -1,21 +1,26 @@
 {
   "question": "What are the main focus areas for companies that have recently increased their social media activity?",
-  "tables": ["CompanyFocusAreaDetail", "SocialMediaInfo"],
   "subtasks": [
     {
       "step": 1,
       "task": "Identify companies with increased social media activity.",
-      "table": ["SocialMediaInfo"]
+      "table": [
+        "SocialMediaInfo"
+      ]
     },
     {
       "step": 2,
       "task": "Get focus areas of these companies.",
-      "table": ["CompanyFocusAreaDetail"]
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
     },
     {
       "step": 3,
       "task": "Analyze main focus areas.",
-      "table": ["CompanyFocusAreaDetail"]
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
     }
   ]
 }

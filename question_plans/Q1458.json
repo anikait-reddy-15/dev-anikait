@@ -1,0 +1,26 @@
+{
+  "question": "How do digital security measures correlate with social media discourse in sensitive industries such as healthcare?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify digital security measures in sensitive industries.",
+      "table": [
+        "PersonaMisc"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Retrieve social media discourse related to these industries.",
+      "table": [
+        "PersonaTwitterTweets"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze correlation between security measures and social media discourse.",
+      "table": [
+        "PersonaTwitterTweets"
+      ]
+    }
+  ]
+}

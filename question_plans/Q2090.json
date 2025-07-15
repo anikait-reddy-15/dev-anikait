@@ -1,0 +1,26 @@
+{
+  "question": "Which personas have influenced IT decision-making via extensive LinkedIn networks within the tech sector?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify personas with extensive LinkedIn networks from the PersonaLinkedinActivity table.",
+      "table": [
+        "PersonaLinkedinActivity"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Filter these personas to those within the tech sector.",
+      "table": [
+        "PersonaLinkedinActivity"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "List personas who have influenced IT decision-making.",
+      "table": [
+        "PersonaLinkedinActivity"
+      ]
+    }
+  ]
+}

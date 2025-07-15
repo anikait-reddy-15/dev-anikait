@@ -1,0 +1,27 @@
+{
+  "question": "What insights emerge from companies' strategic focus on decentralized finance mechanisms?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies focusing on decentralized finance mechanisms.",
+      "table": [
+        "CompanyManagementDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Analyze strategic insights from leadership excerpts.",
+      "table": [
+        "SectionInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Summarize key insights from these strategic focuses.",
+      "table": [
+        "CompanyManagementDetail",
+        "SectionInfo"
+      ]
+    }
+  ]
+}

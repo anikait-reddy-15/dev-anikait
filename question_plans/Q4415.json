@@ -1,0 +1,26 @@
+{
+  "question": "What insights do Instagram profiles of CEOs offer about educational tech adoption?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify Instagram profiles of CEOs.",
+      "table": [
+        "PersonaTitle"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract insights related to educational tech adoption.",
+      "table": [
+        "PersonaTitle"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze insights offered by these profiles.",
+      "table": [
+        "PersonaTitle"
+      ]
+    }
+  ]
+}

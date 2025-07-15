@@ -1,0 +1,26 @@
+{
+  "question": "What are the critical aspects of digital payment strategies revealed in companies participating in industry webinars?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies that participate in industry webinars.",
+      "table": [
+        "PersonaTitle"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract information related to digital payment strategies.",
+      "table": [
+        "SectionData"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Determine the critical aspects of these digital payment strategies from the extracted information.",
+      "table": [
+        "SectionData"
+      ]
+    }
+  ]
+}

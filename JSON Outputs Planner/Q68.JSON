@@ -1,6 +1,5 @@
 {
   "question": "Who are the executive leaders at LPL Financial involved in technology decisions?",
-  "tables": ["SectionData", "PersonaUser"],
   "subtasks": [
     {
       "step": 1,

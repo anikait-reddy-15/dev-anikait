@@ -1,0 +1,26 @@
+{
+  "question": "What focus areas emerged prominently in companies that increased their Instagram following this year?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies with increased Instagram following",
+      "table": [
+        "CompanyManagementDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Determine focus areas for these companies",
+      "table": [
+        "SectionInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Aggregate and identify prominently emerged focus areas",
+      "table": [
+        "SectionInfo"
+      ]
+    }
+  ]
+}

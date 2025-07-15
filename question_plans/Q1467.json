@@ -1,0 +1,26 @@
+{
+  "question": "How do management transitions influence company priorities in AI and machine learning landscapes?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies undergoing management transitions.",
+      "table": [
+        "CompanyInstagramDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Analyze changes in company priorities in AI and machine learning.",
+      "table": [
+        "CompanyInstagramDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Document the influence of management transitions on these priorities.",
+      "table": [
+        "CompanyInstagramDetail"
+      ]
+    }
+  ]
+}

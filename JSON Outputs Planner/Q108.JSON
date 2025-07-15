@@ -1,6 +1,5 @@
 {
   "question": "What types of leadership insights emerge from companies that have partnered with vendors for technology adoption?",
-  "tables": ["CompanyVendorTechDetail", "CompanyLeadershipExcerpt"],
   "subtasks": [
     {
       "step": 1,

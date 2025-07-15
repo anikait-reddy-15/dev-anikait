@@ -1,0 +1,26 @@
+{
+  "question": "Which executive narratives align organizational agility goals with market adaptation success?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Extract executive narratives from the data.",
+      "table": [
+        "CompanyVendorTechDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Identify organizational agility goals within these narratives.",
+      "table": [
+        "CompanyVendorTechDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze how these narratives align agility goals with market adaptation success.",
+      "table": [
+        "CompanyVendorTechDetail"
+      ]
+    }
+  ]
+}

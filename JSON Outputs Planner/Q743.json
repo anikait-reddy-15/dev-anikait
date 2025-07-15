@@ -1,21 +1,27 @@
 {
   "question": "Who are the data scientists featured in YouTube content by companies advancing their AI capabilities?",
-  "tables": ["CompanyYoutubeDetail", "PersonaUser"],
   "subtasks": [
     {
       "step": 1,
       "task": "Identify companies producing YouTube content on AI advancements.",
-      "table": ["CompanyYoutubeDetail"]
+      "table": [
+        "CompanyYoutubeDetail"
+      ]
     },
     {
       "step": 2,
       "task": "Find data scientists associated with those companies.",
-      "table": ["PersonaUser"]
+      "table": [
+        "PersonaUser"
+      ]
     },
     {
       "step": 3,
       "task": "Match video content to data scientists from the same companies.",
-      "table": ["CompanyYoutubeDetail", "PersonaUser"]
+      "table": [
+        "CompanyYoutubeDetail",
+        "PersonaUser"
+      ]
     }
   ]
 }

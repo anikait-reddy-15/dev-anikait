@@ -1,0 +1,27 @@
+{
+  "question": "Which financial firms have invested in robotic process automation and shared knowledge about this on YouTube?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify financial firms that have invested in robotic process automation.",
+      "table": [
+        "CompanyDealMaster"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Filter the identified firms that have shared knowledge on YouTube.",
+      "table": [
+        "SectionInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Combine the results to find financial firms meeting both criteria.",
+      "table": [
+        "CompanyDealMaster",
+        "SectionInfo"
+      ]
+    }
+  ]
+}

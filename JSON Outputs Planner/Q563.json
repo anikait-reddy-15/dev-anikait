@@ -1,21 +1,26 @@
 {
   "question": "What specific types of analytics solutions are companies sourcing from vendors after expanding their hiring for data-related roles?",
-  "tables": ["CompanyVendorTechDetail", "CompanyHiringDetail", "CompanyDealMaster"],
   "subtasks": [
     {
       "step": 1,
       "task": "Identify companies that have expanded their hiring for data-related roles. [CompanyHiringDetail]",
-      "table": ["CompanyHiringDetail"]
+      "table": [
+        "CompanyHiringDetail"
+      ]
     },
     {
       "step": 2,
       "task": "Identify the analytics solutions sourced from vendors by these companies. [CompanyVendorTechDetail]",
-      "table": ["CompanyVendorTechDetail"]
+      "table": [
+        "CompanyVendorTechDetail"
+      ]
     },
     {
       "step": 3,
       "task": "Cross-reference the hiring data with vendor contracts to find specific analytics solutions. [CompanyDealMaster]",
-      "table": ["CompanyDealMaster"]
+      "table": [
+        "CompanyDealMaster"
+      ]
     }
   ]
 }

@@ -1,0 +1,27 @@
+{
+  "question": "Identify organizations expanding hiring around cloud innovations with corresponding changes in article publications.",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify organizations expanding hiring around cloud innovations.",
+      "table": [
+        "PersonaTitle"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Find changes in article publications related to these organizations.",
+      "table": [
+        "IndustryBusinessTrend"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Combine results to identify organizations with both hiring expansions and publication changes.",
+      "table": [
+        "PersonaTitle",
+        "IndustryBusinessTrend"
+      ]
+    }
+  ]
+}

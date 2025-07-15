@@ -1,0 +1,26 @@
+{
+  "question": "What are the top emerging IT trends in industries that have increased focus on digital twin technology this year?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify industries with increased focus on digital twin technology",
+      "table": [
+        "CompanyITPartnerDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract emerging IT trends in these industries",
+      "table": [
+        "SectionTitle"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the correlation between digital twin focus and emerging trends",
+      "table": [
+        "CompanyITPartnerDetail"
+      ]
+    }
+  ]
+}

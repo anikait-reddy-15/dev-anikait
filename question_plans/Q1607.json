@@ -1,0 +1,26 @@
+{
+  "question": "How have action plans for enhancing customer engagement changed post major vendor partnership deals in the retail sector?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify major vendor partnership deals in the retail sector.",
+      "table": [
+        "PersonaTitle"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract action plans for enhancing customer engagement.",
+      "table": [
+        "PersonaTitle"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze changes in action plans post partnership deals.",
+      "table": [
+        "PersonaTitle"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "question": "How are emerging tech trends influencing leadership decisions in large organizations?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify emerging tech trends from the CompanyTechStack table.",
+      "table": [
+        "CompanyTechStack"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract leadership decisions related to these trends from the PersonaYoutubeProfile table.",
+      "table": [
+        "PersonaYoutubeProfile"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the influence of tech trends on leadership decisions.",
+      "table": [
+        "CompanyTechStack",
+        "PersonaYoutubeProfile"
+      ]
+    }
+  ]
+}

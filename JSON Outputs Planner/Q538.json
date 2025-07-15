@@ -1,21 +1,26 @@
 {
   "question": "What common social media themes are found in LinkedIn posts by personas from companies focused on digital health initiatives?",
-  "tables": ["PersonaLinkedinPost", "SocialMediaInfo", "CompanyFocusAreaDetail"],
   "subtasks": [
     {
       "step": 1,
       "task": "Identify companies focused on digital health initiatives. [CompanyFocusAreaDetail]",
-      "table": ["CompanyFocusAreaDetail"]
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
     },
     {
       "step": 2,
       "task": "Gather LinkedIn posts from personas associated with these companies. [PersonaLinkedinPost]",
-      "table": ["PersonaLinkedinPost"]
+      "table": [
+        "PersonaLinkedinPost"
+      ]
     },
     {
       "step": 3,
       "task": "Analyze the LinkedIn posts to extract common themes. [SocialMediaInfo]",
-      "table": ["SocialMediaInfo"]
+      "table": [
+        "SocialMediaInfo"
+      ]
     }
   ]
 }

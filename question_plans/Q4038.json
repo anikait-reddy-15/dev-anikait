@@ -1,0 +1,26 @@
+{
+  "question": "Which strategic priorities are being pursued by data-centered companies in recent quarters?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify data-centered companies.",
+      "table": [
+        "PersonaTitle"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Identify strategic priorities pursued by these companies.",
+      "table": [
+        "PersonaMisc"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze strategic priorities in recent quarters.",
+      "table": [
+        "PersonaMisc"
+      ]
+    }
+  ]
+}

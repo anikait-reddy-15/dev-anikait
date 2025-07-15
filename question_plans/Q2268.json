@@ -1,0 +1,26 @@
+{
+  "question": "What social interactions capture the essence of adaptive change in corporate strategies?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify social interactions related to corporate strategies.",
+      "table": [
+        "PersonaUser"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract details on adaptive change.",
+      "table": [
+        "PersonaUser"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze how these interactions capture adaptive change.",
+      "table": [
+        "PersonaUser"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "question": "How do start-ups compare in terms of AI adoption versus global technology companies?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify start-ups and global technology companies.",
+      "table": [
+        "PersonaMisc"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract AI adoption details for these companies.",
+      "table": [
+        "PersonaMisc"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Compare AI adoption between start-ups and global technology companies.",
+      "table": [
+        "PersonaMisc"
+      ]
+    }
+  ]
+}

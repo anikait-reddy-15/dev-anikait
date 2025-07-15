@@ -1,0 +1,26 @@
+{
+  "question": "Which organizations have significantly increased their IT-focused leadership discussions at tech summits?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify leadership discussions at tech summits.",
+      "table": [
+        "SectionTitle"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Filter discussions focused on IT topics.",
+      "table": [
+        "SectionTitle"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Find organizations with increased IT-focused discussions.",
+      "table": [
+        "SectionTitle"
+      ]
+    }
+  ]
+}

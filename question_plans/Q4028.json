@@ -1,0 +1,26 @@
+{
+  "question": "What industrial trends are most mentioned by data engineers in relevant LinkedIn posts?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify LinkedIn posts by data engineers.",
+      "table": [
+        "PersonaMisc"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract mentions of industrial trends in these posts.",
+      "table": [
+        "PersonaMisc"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Determine the most frequently mentioned industrial trends.",
+      "table": [
+        "PersonaMisc"
+      ]
+    }
+  ]
+}

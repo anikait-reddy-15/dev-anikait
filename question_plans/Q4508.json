@@ -1,0 +1,27 @@
+{
+  "question": "Which companies have a strategic focus on sustainability and are adopting green IT solutions?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies with a strategic focus on sustainability.",
+      "table": [
+        "SectionData"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Find companies adopting green IT solutions.",
+      "table": [
+        "CompanyVendorProductDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Cross-reference to identify companies meeting both criteria.",
+      "table": [
+        "SectionData",
+        "CompanyVendorProductDetail"
+      ]
+    }
+  ]
+}

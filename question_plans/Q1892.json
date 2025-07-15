@@ -1,0 +1,26 @@
+{
+  "question": "What spheres of technological exploration are gaining traction due to enhancements in the vendor tech ecosystem?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify spheres of technological exploration.",
+      "table": [
+        "IndustryBusinessTrend"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Identify enhancements in the vendor tech ecosystem.",
+      "table": [
+        "IndustryBusinessTrend"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze which spheres are gaining traction due to these enhancements.",
+      "table": [
+        "IndustryBusinessTrend"
+      ]
+    }
+  ]
+}

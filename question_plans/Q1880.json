@@ -1,0 +1,27 @@
+{
+  "question": "What are the implications of AI-driven product upgrades in the hiring patterns shared in digital business showcases?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify AI-driven product upgrades.",
+      "table": [
+        "IndustryBusinessTrend"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract hiring patterns from digital business showcases.",
+      "table": [
+        "SocialMediaInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze implications of AI-driven upgrades on hiring patterns.",
+      "table": [
+        "IndustryBusinessTrend",
+        "SocialMediaInfo"
+      ]
+    }
+  ]
+}

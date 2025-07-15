@@ -1,6 +1,5 @@
 {
   "question": "What key technologies are highlighted by industry IT trends for the mining sector?",
-  "tables": ["IndustryITTrend", "LookUpValue"],
   "subtasks": [
     {
       "step": 1,

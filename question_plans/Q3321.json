@@ -1,0 +1,27 @@
+{
+  "question": "Which companies have recently adopted 5G technologies and updated their vendor relationships?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies that have recently adopted 5G technologies.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Find updates in vendor relationships for these companies.",
+      "table": [
+        "CompanyVendorProductDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Combine the information to list companies with both 5G adoption and updated vendor relationships.",
+      "table": [
+        "IndustryITTrend",
+        "CompanyVendorProductDetail"
+      ]
+    }
+  ]
+}

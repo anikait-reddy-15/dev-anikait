@@ -1,0 +1,26 @@
+{
+  "question": "Which emerging technologies are being frequently mentioned in leadership speeches at conferences?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify leadership speeches delivered at conferences.",
+      "table": [
+        "CompanyManagementDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract mentions of emerging technologies in these speeches.",
+      "table": [
+        "CompanyManagementDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Determine which technologies are mentioned most frequently.",
+      "table": [
+        "CompanyManagementDetail"
+      ]
+    }
+  ]
+}

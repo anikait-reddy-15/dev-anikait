@@ -1,21 +1,27 @@
 {
   "question": "Which companies recently invested in upskilling their workforce and have also shifted their technology stack towards open-source solutions?",
-  "tables": ["CompanyHiringDetail", "CompanyTechStack"],
   "subtasks": [
     {
       "step": 1,
       "task": "Identify companies that invested in upskilling their workforce. [CompanyHiringDetail]",
-      "table": ["CompanyHiringDetail"]
+      "table": [
+        "CompanyHiringDetail"
+      ]
     },
     {
       "step": 2,
       "task": "Find companies that shifted their stack toward open-source solutions. [CompanyTechStack]",
-      "table": ["CompanyTechStack"]
+      "table": [
+        "CompanyTechStack"
+      ]
     },
     {
       "step": 3,
       "task": "Filter companies meeting both criteria. [CompanyHiringDetail, CompanyTechStack]",
-      "table": ["CompanyHiringDetail", "CompanyTechStack"]
+      "table": [
+        "CompanyHiringDetail",
+        "CompanyTechStack"
+      ]
     }
   ]
 }

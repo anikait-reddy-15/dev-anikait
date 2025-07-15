@@ -1,0 +1,27 @@
+{
+  "question": "What relationship exists between an increase in IT infrastructure and firms\u2019 expressed values in sustainability?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify firms with an increase in IT infrastructure from the IndustryBusinessTrend table.",
+      "table": [
+        "IndustryBusinessTrend"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract firms' expressed values in sustainability from the PersonaYoutubeProfile table.",
+      "table": [
+        "PersonaYoutubeProfile"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the relationship between increased IT infrastructure and sustainability values.",
+      "table": [
+        "IndustryBusinessTrend",
+        "PersonaYoutubeProfile"
+      ]
+    }
+  ]
+}

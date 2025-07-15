@@ -1,0 +1,26 @@
+{
+  "question": "Which manufacturing companies have developed new initiatives in response to shifts in IT trends data?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify manufacturing companies.",
+      "table": [
+        "PersonaTitle"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract shifts in IT trends data.",
+      "table": [
+        "PersonaTitle"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Identify new initiatives developed in response to IT trends shifts.",
+      "table": [
+        "PersonaTitle"
+      ]
+    }
+  ]
+}

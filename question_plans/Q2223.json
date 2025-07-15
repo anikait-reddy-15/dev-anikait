@@ -1,0 +1,26 @@
+{
+  "question": "What strategies do companies utilize with a primary focus on enhancing mobile security solutions?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies with a focus on mobile security solutions from tech details.",
+      "table": [
+        "CompanyVendorTechDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract strategies related to mobile security from leadership excerpts.",
+      "table": [
+        "CompanyVendorTechDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Compile and categorize the strategies based on their approach to mobile security.",
+      "table": [
+        "CompanyVendorTechDetail"
+      ]
+    }
+  ]
+}

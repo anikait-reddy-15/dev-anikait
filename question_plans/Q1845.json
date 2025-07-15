@@ -1,0 +1,26 @@
+{
+  "question": "Where do manufacturing innovations intersect with smart technologies as seen in integrated IT trend reports?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify manufacturing innovations from IT trend reports.",
+      "table": [
+        "IndustryBusinessTrend"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Identify smart technologies from IT trend reports.",
+      "table": [
+        "IndustryBusinessTrend"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the intersection of manufacturing innovations with smart technologies.",
+      "table": [
+        "IndustryBusinessTrend"
+      ]
+    }
+  ]
+}

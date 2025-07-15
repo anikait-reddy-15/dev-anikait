@@ -1,21 +1,26 @@
 {
   "question": "Which organizations have reported an increase in their IT partner collaborations while also showing a shift in their focus area preferences towards AI?",
-  "tables": ["CompanyITPartnerDetail", "CompanyFocusAreaDetail"],
   "subtasks": [
     {
       "step": 1,
       "task": "Identify organizations that have reported an increase in IT partner collaborations. [CompanyITPartnerDetail]",
-      "table": ["CompanyITPartnerDetail"]
+      "table": [
+        "CompanyITPartnerDetail"
+      ]
     },
     {
       "step": 2,
       "task": "Determine the focus areas of these organizations. [CompanyFocusAreaDetail]",
-      "table": ["CompanyFocusAreaDetail"]
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
     },
     {
       "step": 3,
       "task": "Filter organizations that have shifted their focus towards AI. [CompanyFocusAreaDetail]",
-      "table": ["CompanyFocusAreaDetail"]
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
     }
   ]
 }

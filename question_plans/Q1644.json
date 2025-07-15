@@ -1,0 +1,26 @@
+{
+  "question": "Which companies have leveraged partnership deals for AI innovation in response to newly adopted IT practices?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies with newly adopted IT practices.",
+      "table": [
+        "PersonaTitle"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Find partnership deals related to AI innovation.",
+      "table": [
+        "PersonaLinkedInProfile"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze how these companies leverage partnership deals for AI innovation.",
+      "table": [
+        "PersonaYoutubeProfile"
+      ]
+    }
+  ]
+}

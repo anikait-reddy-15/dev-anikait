@@ -1,6 +1,5 @@
 {
   "question": "What insights from data science professionals highlight the importance of technology partnerships in their roles?",
-  "tables": ["PersonaUser", "CompanyITPartnerDetail"],
   "subtasks": [
     {
       "step": 1,

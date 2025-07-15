@@ -1,0 +1,26 @@
+{
+  "question": "Who are the leaders driving machine learning adoption at companies with increasing social media mentions of their new AI initiatives?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies with increasing social media mentions of AI initiatives",
+      "table": [
+        "SocialMediaInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Find leaders driving machine learning adoption at these companies",
+      "table": [
+        "PersonaTwitterProfile"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Correlate social media mentions with machine learning adoption efforts",
+      "table": [
+        "SocialMediaInfo"
+      ]
+    }
+  ]
+}

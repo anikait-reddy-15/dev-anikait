@@ -1,0 +1,29 @@
+{
+  "question": "How many companies posted job openings for Data Analysts and updated their social media strategy simultaneously?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies that posted job openings for Data Analysts.",
+      "table": [
+        "PersonaLinkedInProfile"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Identify companies that updated their social media strategy.",
+      "table": [
+        "PersonaFaceBook",
+        "PersonaTwitterProfile",
+        "PersonaYoutubeProfile",
+        "PersonaLinkedInProfile"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Count companies that meet both criteria: job openings for Data Analysts and updated social media strategy.",
+      "table": [
+        "PersonaLinkedInProfile"
+      ]
+    }
+  ]
+}

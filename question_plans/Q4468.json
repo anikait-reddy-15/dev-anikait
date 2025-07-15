@@ -1,0 +1,26 @@
+{
+  "question": "Which companies have repositioned themselves by promoting clean technology across their tech stacks?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies promoting clean technology.",
+      "table": [
+        "CompanyDataCenter"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Analyze how these companies have repositioned themselves.",
+      "table": [
+        "CompanyDataCenter"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Examine the integration of clean technology in their tech stacks.",
+      "table": [
+        "CompanyDataCenter"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "question": "Does management detail posting on Twitter link to greater transparency initiatives within tech firms?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify tech firms from the CompanyDataCenter table.",
+      "table": [
+        "CompanyDataCenter"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Find management details posted on Twitter from the SocialMediaInfo table.",
+      "table": [
+        "SocialMediaInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Check if these Twitter posts are linked to transparency initiatives within these tech firms.",
+      "table": [
+        "SocialMediaInfo"
+      ]
+    }
+  ]
+}

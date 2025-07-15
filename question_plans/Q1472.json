@@ -1,0 +1,26 @@
+{
+  "question": "How are shifts in leadership speech themes navigated towards fostering digital economy strategies?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify leadership speech themes from available data.",
+      "table": [
+        "PersonaMisc"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Analyze shifts in these themes towards digital economy strategies.",
+      "table": [
+        "PersonaMisc"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Document how these shifts are navigated by companies.",
+      "table": [
+        "PersonaMisc"
+      ]
+    }
+  ]
+}

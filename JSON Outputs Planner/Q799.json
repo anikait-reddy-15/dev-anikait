@@ -1,21 +1,27 @@
 {
   "question": "Which AI use cases are prioritized by logistics companies focusing on real-time visibility?",
-  "tables": ["CompanyInfo", "CompanyFocusAreaDetail"],
   "subtasks": [
     {
       "step": 1,
       "task": "Identify logistics companies.",
-      "table": ["CompanyInfo"]
+      "table": [
+        "CompanyInfo"
+      ]
     },
     {
       "step": 2,
       "task": "Filter those focusing on real-time visibility.",
-      "table": ["CompanyFocusAreaDetail"]
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
     },
     {
       "step": 3,
       "task": "Extract and summarize prioritized AI use cases.",
-      "table": ["CompanyInfo", "CompanyFocusAreaDetail"]
+      "table": [
+        "CompanyInfo",
+        "CompanyFocusAreaDetail"
+      ]
     }
   ]
 }

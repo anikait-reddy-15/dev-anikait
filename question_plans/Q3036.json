@@ -1,0 +1,26 @@
+{
+  "question": "In what way have personas commenting on \"quantum computing\" across platforms fueled company IT strategies?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify personas commenting on \"quantum computing\".",
+      "table": [
+        "PersonaInstagramProfile"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract comments related to quantum computing from various platforms.",
+      "table": [
+        "PersonaInstagramProfile"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze how these comments have influenced company IT strategies.",
+      "table": [
+        "PersonaInstagramProfile"
+      ]
+    }
+  ]
+}

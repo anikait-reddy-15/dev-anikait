@@ -1,6 +1,5 @@
 {
   "question": "Which companies in Rafael Jabur Bittar’s network focus on sustainable mining technologies?",
-  "tables": ["PersonaLinkedinPost", "CompanyTechStack"],
   "subtasks": [
     {
       "step": 1,

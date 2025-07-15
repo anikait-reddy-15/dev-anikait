@@ -1,0 +1,26 @@
+{
+  "question": "Which organizations have social media profiles highlighting IT strategy pivots towards data-driven decisions?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify social media profiles mentioning IT strategy pivots.",
+      "table": [
+        "CompanyTwitterDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Filter profiles focusing on data-driven decision strategies.",
+      "table": [
+        "CompanyTwitterDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "List organizations with highlighted IT strategy pivots.",
+      "table": [
+        "CompanyTwitterDetail"
+      ]
+    }
+  ]
+}

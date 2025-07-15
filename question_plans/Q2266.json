@@ -1,0 +1,26 @@
+{
+  "question": "How does new employee training intersect with focuses on digital transformation?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Retrieve data on new employee training programs.",
+      "table": [
+        "SectionInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Identify focuses on digital transformation.",
+      "table": [
+        "SectionInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze intersections between training and digital transformation.",
+      "table": [
+        "SectionInfo"
+      ]
+    }
+  ]
+}

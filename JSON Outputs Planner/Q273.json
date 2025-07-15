@@ -1,21 +1,26 @@
 {
   "question": "What leadership changes have occurred in companies that have actively engaged on Instagram regarding emerging technologies like AI or blockchain?",
-  "tables": ["CompanyManagementDetail", "PersonaInstagramProfile", "CompanyInfo"],
   "subtasks": [
     {
       "step": 1,
       "task": "Identify companies that have actively engaged on Instagram regarding emerging technologies from the [PersonaInstagramProfile] table.",
-      "table": ["PersonaInstagramProfile"]
+      "table": [
+        "PersonaInstagramProfile"
+      ]
     },
     {
       "step": 2,
       "task": "Extract leadership changes from the [CompanyManagementDetail] table for the identified companies.",
-      "table": ["CompanyManagementDetail"]
+      "table": [
+        "CompanyManagementDetail"
+      ]
     },
     {
       "step": 3,
       "task": "Match leadership changes to the identified companies from the [CompanyInfo] table.",
-      "table": ["CompanyInfo"]
+      "table": [
+        "CompanyInfo"
+      ]
     }
   ]
 }

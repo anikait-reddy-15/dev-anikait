@@ -1,0 +1,26 @@
+{
+  "question": "In what ways have the business strategies evolved for firms investing in virtual reality products?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify firms investing in virtual reality products.",
+      "table": [
+        "CompanyVendorTechDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Determine how business strategies have evolved for these firms.",
+      "table": [
+        "CompanyVendorTechDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "List the evolution of business strategies for these firms.",
+      "table": [
+        "CompanyVendorTechDetail"
+      ]
+    }
+  ]
+}

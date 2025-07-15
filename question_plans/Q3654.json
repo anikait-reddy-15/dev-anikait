@@ -1,0 +1,27 @@
+{
+  "question": "How do emerging tech industries like fintech influence the strategic content shared on company YouTube channels?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify emerging tech industries like fintech from the IndustryBusinessTrend table.",
+      "table": [
+        "IndustryBusinessTrend"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract strategic content shared on company YouTube channels from the PersonaYoutubeProfile table.",
+      "table": [
+        "PersonaYoutubeProfile"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the influence of fintech on YouTube channel content.",
+      "table": [
+        "IndustryBusinessTrend",
+        "PersonaYoutubeProfile"
+      ]
+    }
+  ]
+}

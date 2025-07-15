@@ -1,6 +1,5 @@
 {
   "question": "Which organizations have made recent investments in machine learning platforms after hiring more data scientists?",
-  "tables": ["CompanyHiringDetail", "CompanyTechStack", "CompanyInfo"],
   "subtasks": [
     {
       "step": 1,

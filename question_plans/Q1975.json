@@ -1,0 +1,26 @@
+{
+  "question": "Which global players are expanding their engagement in blockchain while promoting a strong brand identity on Instagram?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify global players promoting a strong brand identity on Instagram from CompanyYoutubeDetail.",
+      "table": [
+        "CompanyYoutubeDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract data on their engagement in blockchain.",
+      "table": [
+        "CompanyYoutubeDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the relationship between brand identity promotion and blockchain engagement.",
+      "table": [
+        "CompanyYoutubeDetail"
+      ]
+    }
+  ]
+}

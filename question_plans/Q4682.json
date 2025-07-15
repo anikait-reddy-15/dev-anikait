@@ -1,0 +1,26 @@
+{
+  "question": "How have mergers and acquisitions influenced leadership focus areas in the last year?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify records of mergers and acquisitions from the past year.",
+      "table": [
+        "CompanyITPartnerDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract leadership focus areas from the data.",
+      "table": [
+        "PersonaTitle"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the influence of these mergers and acquisitions on the leadership focus areas.",
+      "table": [
+        "PersonaTitle"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "question": "Who among influential personas talk about breakthrough AI research in their LinkedIn content recently?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify influential personas with LinkedIn content.",
+      "table": [
+        "CompanyManagementDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract discussions on breakthrough AI research from this content.",
+      "table": [
+        "IndustryBusinessTrend"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Determine which personas are discussing breakthrough AI research.",
+      "table": [
+        "CompanyManagementDetail",
+        "IndustryBusinessTrend"
+      ]
+    }
+  ]
+}

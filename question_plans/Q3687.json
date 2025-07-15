@@ -1,0 +1,27 @@
+{
+  "question": "What companies are expanding IT teams in conjunction with personas advocating digital economy avenues across LinkedIn?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify personas advocating digital economy avenues on LinkedIn.",
+      "table": [
+        "PersonaTitle"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Find companies expanding IT teams.",
+      "table": [
+        "IndustryBusinessTrend"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Determine which companies' IT expansions align with the identified personas.",
+      "table": [
+        "PersonaTitle",
+        "IndustryBusinessTrend"
+      ]
+    }
+  ]
+}

@@ -1,21 +1,28 @@
 {
   "question": "What companies have recently signed vendor deals for machine learning platforms and also focus on sustainability initiatives?",
-  "tables": ["CompanyDealMaster", "CompanyVendorProductDetail", "CompanyFocusAreaDetail"],
   "subtasks": [
     {
       "step": 1,
       "task": "Identify companies that signed vendor deals for machine learning platforms. [CompanyVendorProductDetail, CompanyDealMaster]",
-      "table": ["CompanyVendorProductDetail", "CompanyDealMaster"]
+      "table": [
+        "CompanyVendorProductDetail",
+        "CompanyDealMaster"
+      ]
     },
     {
       "step": 2,
       "task": "Find companies that have sustainability initiatives as a focus area. [CompanyFocusAreaDetail]",
-      "table": ["CompanyFocusAreaDetail"]
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
     },
     {
       "step": 3,
       "task": "Match the companies from both lists to find those that meet both criteria. [CompanyVendorProductDetail, CompanyFocusAreaDetail]",
-      "table": ["CompanyVendorProductDetail", "CompanyFocusAreaDetail"]
+      "table": [
+        "CompanyVendorProductDetail",
+        "CompanyFocusAreaDetail"
+      ]
     }
   ]
 }

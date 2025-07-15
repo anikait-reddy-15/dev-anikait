@@ -1,0 +1,26 @@
+{
+  "question": "What trends can be observed in LinkedIn activities of data analysts in the finance sector?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify data analysts working in the finance sector.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract LinkedIn activity data for these data analysts.",
+      "table": [
+        "CompanyManagementDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze trends in LinkedIn activities.",
+      "table": [
+        "IndustryBusinessTrend"
+      ]
+    }
+  ]
+}

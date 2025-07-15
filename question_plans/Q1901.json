@@ -1,0 +1,26 @@
+{
+  "question": "Which companies have upgraded their IT infrastructure and discussed blockchain implementation in their leadership excerpts?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies that have upgraded their IT infrastructure.",
+      "table": [
+        "CompanyYoutubeDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Filter companies discussing blockchain implementation in their leadership excerpts.",
+      "table": [
+        "CompanyYoutubeDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Combine results to find companies meeting both criteria.",
+      "table": [
+        "CompanyYoutubeDetail"
+      ]
+    }
+  ]
+}

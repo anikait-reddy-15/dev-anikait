@@ -1,0 +1,26 @@
+{
+  "question": "Which companies increased their vendor relationships and also reduced YouTube engagement in unison?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies with increased vendor relationships from PersonaLinkedInProfile.",
+      "table": [
+        "PersonaLinkedInProfile"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract YouTube engagement metrics for these companies from PersonaYoutubeProfile.",
+      "table": [
+        "PersonaYoutubeProfile"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Determine which companies reduced their YouTube engagement.",
+      "table": [
+        "PersonaYoutubeProfile"
+      ]
+    }
+  ]
+}

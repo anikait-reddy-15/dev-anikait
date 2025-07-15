@@ -1,0 +1,27 @@
+{
+  "question": "How do integration concerns in technology stacks translate into IT trend reports across companies?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify integration concerns in technology stacks.",
+      "table": [
+        "CompanyITPartnerDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Gather IT trend reports from companies.",
+      "table": [
+        "SectionInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze how integration concerns are reflected in IT trend reports.",
+      "table": [
+        "CompanyITPartnerDetail",
+        "SectionInfo"
+      ]
+    }
+  ]
+}

@@ -1,21 +1,28 @@
 {
   "question": "What are the recent industry trends impacting the technology stack employed by firms in the retail sector?",
-  "tables": ["IndustryITTrend", "CompanyTechStack", "LookUpValue"],
   "subtasks": [
     {
       "step": 1,
       "task": "Identify recent industry trends relevant to the retail sector. [IndustryITTrend, LookUpValue]",
-      "table": ["IndustryITTrend", "LookUpValue"]
+      "table": [
+        "IndustryITTrend",
+        "LookUpValue"
+      ]
     },
     {
       "step": 2,
       "task": "Gather technology stack data for firms in the retail sector. [CompanyTechStack]",
-      "table": ["CompanyTechStack"]
+      "table": [
+        "CompanyTechStack"
+      ]
     },
     {
       "step": 3,
       "task": "Analyze the technology stack data in the context of identified industry trends. [CompanyTechStack, IndustryITTrend]",
-      "table": ["CompanyTechStack", "IndustryITTrend"]
+      "table": [
+        "CompanyTechStack",
+        "IndustryITTrend"
+      ]
     }
   ]
 }

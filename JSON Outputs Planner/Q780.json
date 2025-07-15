@@ -1,21 +1,27 @@
 {
   "question": "Who are the AI researchers employed at firms leading in AI patent filings?",
-  "tables": ["PersonaUser", "CompanyFocusAreaDetail"],
   "subtasks": [
     {
       "step": 1,
       "task": "Identify firms leading in AI patent filings.",
-      "table": ["CompanyFocusAreaDetail"]
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
     },
     {
       "step": 2,
       "task": "Find AI researchers employed at these firms.",
-      "table": ["PersonaUser"]
+      "table": [
+        "PersonaUser"
+      ]
     },
     {
       "step": 3,
       "task": "List researchers and their affiliations.",
-      "table": ["CompanyFocusAreaDetail", "PersonaUser"]
+      "table": [
+        "CompanyFocusAreaDetail",
+        "PersonaUser"
+      ]
     }
   ]
 }

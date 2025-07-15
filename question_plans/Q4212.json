@@ -1,0 +1,26 @@
+{
+  "question": "What companies have demonstrated an increase in Twitter activity related to blockchain technology?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Retrieve Twitter activity data for companies.",
+      "table": [
+        "PersonaMisc"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Identify mentions of blockchain technology in Twitter activity.",
+      "table": [
+        "PersonaMisc"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Identify companies with increased activity related to blockchain.",
+      "table": [
+        "PersonaMisc"
+      ]
+    }
+  ]
+}

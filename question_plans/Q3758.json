@@ -1,0 +1,26 @@
+{
+  "question": "What key social media strategies adopt cloud computing themes among companies with increased hiring for digital roles?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies with increased hiring for digital roles.",
+      "table": [
+        "PersonaUser"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract social media strategies of these companies.",
+      "table": [
+        "PersonaLinkedinActivity"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze adoption of cloud computing themes in these strategies.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    }
+  ]
+}

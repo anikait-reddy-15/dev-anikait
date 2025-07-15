@@ -1,0 +1,26 @@
+{
+  "question": "How are health informatics investments outlined in recent YouTube subject matter?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify YouTube profiles discussing health informatics investments.",
+      "table": [
+        "PersonaYoutubeProfile"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract discussions related to health informatics investments.",
+      "table": [
+        "PersonaYoutubeProfile"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze how these investments are outlined in the discussions.",
+      "table": [
+        "PersonaYoutubeProfile"
+      ]
+    }
+  ]
+}

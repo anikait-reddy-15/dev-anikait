@@ -1,0 +1,27 @@
+{
+  "question": "Which strategic initiatives are driving increases in Twitter engagement for leading companies in crypto solutions?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify strategic initiatives by leading companies in crypto solutions.",
+      "table": [
+        "IndustryBusinessTrend"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract Twitter engagement metrics for these companies.",
+      "table": [
+        "PersonaTwitterProfile"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze which initiatives are driving increases in Twitter engagement.",
+      "table": [
+        "PersonaTwitterProfile",
+        "IndustryBusinessTrend"
+      ]
+    }
+  ]
+}

@@ -1,21 +1,27 @@
 {
   "question": "What leadership changes have correlated with a shift towards cloud-based solutions in tech companies?",
-  "tables": ["CompanyLeadershipExcerpt", "CompanyTechStack"],
   "subtasks": [
     {
       "step": 1,
       "task": "Identify leadership changes in tech companies. [CompanyLeadershipExcerpt]",
-      "table": ["CompanyLeadershipExcerpt"]
+      "table": [
+        "CompanyLeadershipExcerpt"
+      ]
     },
     {
       "step": 2,
       "task": "Determine which companies have shifted towards cloud-based solutions. [CompanyTechStack]",
-      "table": ["CompanyTechStack"]
+      "table": [
+        "CompanyTechStack"
+      ]
     },
     {
       "step": 3,
       "task": "Analyze the correlation between the leadership changes and the adoption of cloud solutions. [CompanyLeadershipExcerpt, CompanyTechStack]",
-      "table": ["CompanyLeadershipExcerpt", "CompanyTechStack"]
+      "table": [
+        "CompanyLeadershipExcerpt",
+        "CompanyTechStack"
+      ]
     }
   ]
 }

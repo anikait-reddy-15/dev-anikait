@@ -1,0 +1,26 @@
+{
+  "question": "Who are the major proponents of edge computing in leadership excerpts from large corporations?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Extract leadership excerpts from large corporations.",
+      "table": [
+        "PersonaTitle"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Identify mentions of edge computing within these excerpts.",
+      "table": [
+        "PersonaTitle"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Determine the major proponents of edge computing.",
+      "table": [
+        "PersonaTitle"
+      ]
+    }
+  ]
+}

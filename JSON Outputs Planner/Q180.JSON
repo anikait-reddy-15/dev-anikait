@@ -1,6 +1,5 @@
 {
   "question": "Which companies in the manufacturing sector have shifted their technology stacks to include hybrid cloud solutions after recent leadership changes?",
-  "tables": ["CompanyTechStack", "CompanyLeadershipExcerpt", "CompanyInfo"],
   "subtasks": [
     {
       "step": 1,

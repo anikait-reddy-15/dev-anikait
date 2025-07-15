@@ -1,0 +1,26 @@
+{
+  "question": "Which data science skills are primarily endorsed through marketplace shifts and hiring patterns?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify marketplace shifts related to data science skills.",
+      "table": [
+        "PersonaMisc"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract hiring patterns endorsing data science skills.",
+      "table": [
+        "PersonaMisc"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze which skills are primarily endorsed.",
+      "table": [
+        "PersonaMisc"
+      ]
+    }
+  ]
+}

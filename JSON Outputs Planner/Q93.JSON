@@ -1,6 +1,5 @@
 {
   "question": "Which tech vendors are frequently mentioned in the hiring posts of data science professionals?",
-  "tables": ["CompanyHiringDetail", "CompanyVendorProductDetail", "PersonaTitle"],
   "subtasks": [
     {
       "step": 1,

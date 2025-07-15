@@ -1,16 +1,19 @@
 {
   "question": "Who are the data science leaders actively posting about cloud analytics on LinkedIn?",
-  "tables": ["PersonaLinkedinPost", "PersonaUser"],
   "subtasks": [
     {
       "step": 1,
       "task": "Identify LinkedIn posts about cloud analytics.",
-      "table": ["PersonaLinkedinPost"]
+      "table": [
+        "PersonaLinkedinPost"
+      ]
     },
     {
       "step": 2,
       "task": "Link posts to data science leaders.",
-      "table": ["PersonaUser"]
+      "table": [
+        "PersonaUser"
+      ]
     }
   ]
 }

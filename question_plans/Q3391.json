@@ -1,0 +1,26 @@
+{
+  "question": "How do cultural changes in firms align with their latest social media profiles on Twitter?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify firms undergoing cultural changes.",
+      "table": [
+        "CompanyVendorProductDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Examine their latest social media profiles on Twitter.",
+      "table": [
+        "PageInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze alignment between cultural changes and social media presence.",
+      "table": [
+        "PageInfo"
+      ]
+    }
+  ]
+}

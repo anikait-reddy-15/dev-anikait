@@ -1,0 +1,26 @@
+{
+  "question": "What are the significant trends in hiring discussed by CMOs in their LinkedIn leadership excerpts?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Extract LinkedIn leadership excerpts from CMOs.",
+      "table": [
+        "CompanyManagementDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Identify hiring trends mentioned in these excerpts.",
+      "table": [
+        "IndustryBusinessTrend"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Summarize significant hiring trends discussed.",
+      "table": [
+        "LookUpValue"
+      ]
+    }
+  ]
+}

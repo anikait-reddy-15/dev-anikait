@@ -1,0 +1,27 @@
+{
+  "question": "How do recent IT trends reflect in the hiring strategies of emerging fintech companies?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify recent IT trends.",
+      "table": [
+        "LookUpValue"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Find hiring strategies of emerging fintech companies.",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze how IT trends are reflected in these strategies.",
+      "table": [
+        "LookUpValue",
+        "CompanyHiringDetail"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "question": "How is the hospitality sector using IoT for operational optimization according to IT stack data?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify IT stack data related to the hospitality sector.",
+      "table": [
+        "IndustryBusinessTrend"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract information on IoT usage for operational optimization.",
+      "table": [
+        "IndustryBusinessTrend"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze how IoT is being used for optimization in the hospitality sector.",
+      "table": [
+        "IndustryBusinessTrend"
+      ]
+    }
+  ]
+}

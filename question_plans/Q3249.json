@@ -1,0 +1,27 @@
+{
+  "question": "How have recent IoT mentions in Twitter activities impacted legal considerations in technology projects?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify recent IoT mentions in Twitter activities.",
+      "table": [
+        "IndustryBusinessTrend"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Analyze legal considerations in technology projects.",
+      "table": [
+        "LookUpValue"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Assess the impact of IoT mentions on legal considerations.",
+      "table": [
+        "IndustryBusinessTrend",
+        "LookUpValue"
+      ]
+    }
+  ]
+}

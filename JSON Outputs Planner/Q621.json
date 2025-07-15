@@ -1,21 +1,27 @@
 {
   "question": "Which vendors are targeting the healthcare industry with their technology offerings, especially focusing on telemedicine solutions?",
-  "tables": ["CompanyVendorTechDetail", "CompanyInfo"],
   "subtasks": [
     {
       "step": 1,
       "task": "Identify vendors that offer technology solutions related to telemedicine.",
-      "table": ["CompanyVendorTechDetail"]
+      "table": [
+        "CompanyVendorTechDetail"
+      ]
     },
     {
       "step": 2,
       "task": "Filter those vendors to find which are targeting the healthcare industry.",
-      "table": ["CompanyInfo"]
+      "table": [
+        "CompanyInfo"
+      ]
     },
     {
       "step": 3,
       "task": "Combine the results to identify the vendors that meet both criteria.",
-      "table": ["CompanyVendorTechDetail", "CompanyInfo"]
+      "table": [
+        "CompanyVendorTechDetail",
+        "CompanyInfo"
+      ]
     }
   ]
 }

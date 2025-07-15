@@ -1,6 +1,5 @@
 {
   "question": "Which personas mentioned AI or machine learning in their LinkedIn posts and are associated with companies investing in GPU infrastructure?",
-  "tables": ["PersonaLinkedinPost", "PersonaUser", "CompanyTechStack"],
   "subtasks": [
     {
       "step": 1,

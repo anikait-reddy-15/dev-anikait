@@ -1,0 +1,26 @@
+{
+  "question": "What are the digital transformation challenges faced across industries with notable LinkedIn presence?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify industries with notable LinkedIn presence.",
+      "table": [
+        "CompanyFacebookDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract digital transformation challenges faced by these industries.",
+      "table": [
+        "SectionTitle"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Highlight the most significant challenges.",
+      "table": [
+        "SectionTitle"
+      ]
+    }
+  ]
+}

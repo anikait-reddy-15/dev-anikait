@@ -1,0 +1,26 @@
+{
+  "question": "How do reported IT trends resonate within the scopes of strategic focus in pharmaceuticals?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Extract IT trends from the available data.",
+      "table": [
+        "PersonaMisc"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Identify strategic focus areas within pharmaceutical companies.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the correlation between IT trends and strategic focuses.",
+      "table": [
+        "CompanyInfo"
+      ]
+    }
+  ]
+}

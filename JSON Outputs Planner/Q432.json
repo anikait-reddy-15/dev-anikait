@@ -1,21 +1,26 @@
 {
   "question": "What types of technologies are primarily mentioned in the social media activities of firms that have recently expanded their workforce in data science roles?",
-  "tables": ["SocialMediaInfo", "CompanyHiringDetail", "CompanyTechStack"],
   "subtasks": [
     {
       "step": 1,
       "task": "Identify firms that have expanded their workforce in data science roles. [CompanyHiringDetail]",
-      "table": ["CompanyHiringDetail"]
+      "table": [
+        "CompanyHiringDetail"
+      ]
     },
     {
       "step": 2,
       "task": "Extract social media activities related to these firms. [SocialMediaInfo]",
-      "table": ["SocialMediaInfo"]
+      "table": [
+        "SocialMediaInfo"
+      ]
     },
     {
       "step": 3,
       "task": "Determine the types of technologies mentioned in the social media activities. [CompanyTechStack]",
-      "table": ["CompanyTechStack"]
+      "table": [
+        "CompanyTechStack"
+      ]
     }
   ]
 }

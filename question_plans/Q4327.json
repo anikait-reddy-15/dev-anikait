@@ -1,0 +1,26 @@
+{
+  "question": "What persona tweets have had the most impact on the perception of blockchain technologies in the business sector?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify tweets related to blockchain technologies from the PersonaYoutubeProfile table.",
+      "table": [
+        "PersonaYoutubeProfile"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Analyze the impact of these tweets on business sector perceptions.",
+      "table": [
+        "PersonaYoutubeProfile"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Determine which tweets had the most significant impact.",
+      "table": [
+        "PersonaYoutubeProfile"
+      ]
+    }
+  ]
+}

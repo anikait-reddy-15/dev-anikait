@@ -1,0 +1,27 @@
+{
+  "question": "Which companies have invested heavily in vendor partnerships after recent leadership restructures?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies with recent leadership restructures.",
+      "table": [
+        "PersonaUser"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Find companies with heavy investments in vendor partnerships.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Combine results to find companies meeting both criteria.",
+      "table": [
+        "PersonaUser",
+        "IndustryITTrend"
+      ]
+    }
+  ]
+}

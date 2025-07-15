@@ -1,21 +1,27 @@
 {
   "question": "Who are the key decision-makers in organizations that have partnered with multiple IT vendors over the last year?",
-  "tables": ["CompanyLeadershipExcerpt", "CompanyITPartnerDetail"],
   "subtasks": [
     {
       "step": 1,
       "task": "Identify organizations that have partnered with multiple IT vendors in the last year. [CompanyITPartnerDetail]",
-      "table": ["CompanyITPartnerDetail"]
+      "table": [
+        "CompanyITPartnerDetail"
+      ]
     },
     {
       "step": 2,
       "task": "Extract key decision-makers from the leadership excerpts of those organizations. [CompanyLeadershipExcerpt]",
-      "table": ["CompanyLeadershipExcerpt"]
+      "table": [
+        "CompanyLeadershipExcerpt"
+      ]
     },
     {
       "step": 3,
       "task": "Match the decision-makers to the organizations identified in step 1. [CompanyITPartnerDetail, CompanyLeadershipExcerpt]",
-      "table": ["CompanyITPartnerDetail", "CompanyLeadershipExcerpt"]
+      "table": [
+        "CompanyITPartnerDetail",
+        "CompanyLeadershipExcerpt"
+      ]
     }
   ]
 }

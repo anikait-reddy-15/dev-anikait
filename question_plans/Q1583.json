@@ -1,0 +1,26 @@
+{
+  "question": "How is the adoption of artificial intelligence altering the strategic focus of tech-savvy industries?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Extract information on artificial intelligence adoption from the SectionTitle table.",
+      "table": [
+        "SectionTitle"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Identify strategic focus changes in tech-savvy industries from the CompanyHiringDetail table.",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the relationship between AI adoption and strategic focus changes using data from the CompanyFacebookDetail table.",
+      "table": [
+        "CompanyFacebookDetail"
+      ]
+    }
+  ]
+}

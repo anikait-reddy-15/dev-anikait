@@ -1,0 +1,26 @@
+{
+  "question": "What are the emerging priorities for IT upgrades in the manufacturing sector?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies in the manufacturing sector.",
+      "table": [
+        "CompanyITPartnerDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract details of IT upgrades planned by these companies.",
+      "table": [
+        "CompanyITPartnerDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Determine the emerging priorities for these IT upgrades.",
+      "table": [
+        "CompanyITPartnerDetail"
+      ]
+    }
+  ]
+}

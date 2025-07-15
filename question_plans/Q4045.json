@@ -1,0 +1,26 @@
+{
+  "question": "What social trends enhance the success of YouTube campaigns in financial service firms?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify YouTube campaigns related to financial service firms.",
+      "table": [
+        "PersonaYoutubeProfile"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract social trends associated with these campaigns.",
+      "table": [
+        "PersonaMisc"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze which social trends correlate with successful campaign outcomes.",
+      "table": [
+        "PersonaMisc"
+      ]
+    }
+  ]
+}

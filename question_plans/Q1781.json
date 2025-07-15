@@ -1,0 +1,26 @@
+{
+  "question": "What trending Twitter discussions focus on AI-driven customer insights among analytics companies?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify tweets related to AI-driven customer insights from the PersonaTwitterTweets table.",
+      "table": [
+        "PersonaTwitterTweets"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Filter tweets by analytics companies using the CompanyTwitterDetail table.",
+      "table": [
+        "CompanyTwitterDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the frequency and engagement of these tweets to determine trending discussions.",
+      "table": [
+        "PersonaTwitterTweets"
+      ]
+    }
+  ]
+}

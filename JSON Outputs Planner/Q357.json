@@ -1,21 +1,26 @@
 {
   "question": "Which companies have their leadership publicly discussing the adoption of AI technologies in their social media posts?",
-  "tables": ["CompanyLeadershipExcerpt", "PersonaLinkedinPost", "SocialMediaInfo"],
   "subtasks": [
     {
       "step": 1,
       "task": "Identify leadership excerpts that mention AI technologies. [CompanyLeadershipExcerpt]",
-      "table": ["CompanyLeadershipExcerpt"]
+      "table": [
+        "CompanyLeadershipExcerpt"
+      ]
     },
     {
       "step": 2,
       "task": "Find relevant social media posts that discuss AI technologies. [PersonaLinkedinPost]",
-      "table": ["PersonaLinkedinPost"]
+      "table": [
+        "PersonaLinkedinPost"
+      ]
     },
     {
       "step": 3,
       "task": "Match the companies from leadership excerpts with those mentioned in social media posts. [SocialMediaInfo]",
-      "table": ["SocialMediaInfo"]
+      "table": [
+        "SocialMediaInfo"
+      ]
     }
   ]
 }

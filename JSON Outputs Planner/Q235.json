@@ -1,21 +1,28 @@
 {
   "question": "What social media platforms are data science professionals most active on when discussing industry innovations and challenges?",
-  "tables": ["PersonaFaceBook", "PersonaTwitterProfile"],
   "subtasks": [
     {
       "step": 1,
       "task": "Identify data science professionals and their social media profiles",
-      "table": ["PersonaFaceBook", "PersonaTwitterProfile"]
+      "table": [
+        "PersonaFaceBook",
+        "PersonaTwitterProfile"
+      ]
     },
     {
       "step": 2,
       "task": "Gather data from Twitter profiles of data science professionals",
-      "table": ["PersonaTwitterProfile"]
+      "table": [
+        "PersonaTwitterProfile"
+      ]
     },
     {
       "step": 3,
       "task": "Analyze the engagement on these platforms to determine activity levels regarding industry discussions",
-      "table": ["PersonaFaceBook", "PersonaTwitterProfile"]
+      "table": [
+        "PersonaFaceBook",
+        "PersonaTwitterProfile"
+      ]
     }
   ]
 }

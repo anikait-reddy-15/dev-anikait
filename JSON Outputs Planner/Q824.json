@@ -1,21 +1,27 @@
 {
   "question": "Which companies are using AI to enhance energy efficiency in their data centers?",
-  "tables": ["CompanyFocusAreaDetail", "CompanyDataCenter"],
   "subtasks": [
     {
       "step": 1,
       "task": "Identify companies using AI in data centers.",
-      "table": ["CompanyFocusAreaDetail"]
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
     },
     {
       "step": 2,
       "task": "Filter use cases specific to energy optimization.",
-      "table": ["CompanyFocusAreaDetail"]
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
     },
     {
       "step": 3,
       "task": "Cross-reference with data center information.",
-      "table": ["CompanyFocusAreaDetail", "CompanyDataCenter"]
+      "table": [
+        "CompanyFocusAreaDetail",
+        "CompanyDataCenter"
+      ]
     }
   ]
 }

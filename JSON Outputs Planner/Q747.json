@@ -1,21 +1,27 @@
 {
   "question": "Who are the AI-focused executives mentioned in media excerpts that also appear in company blog contributions?",
-  "tables": ["CompanyLeadershipExcerpt", "CompanyBlogDetail"],
   "subtasks": [
     {
       "step": 1,
       "task": "Identify AI-focused executives from leadership excerpts.",
-      "table": ["CompanyLeadershipExcerpt"]
+      "table": [
+        "CompanyLeadershipExcerpt"
+      ]
     },
     {
       "step": 2,
       "task": "Find blog contributions made by executives.",
-      "table": ["CompanyBlogDetail"]
+      "table": [
+        "CompanyBlogDetail"
+      ]
     },
     {
       "step": 3,
       "task": "Match executives across leadership and blog entries.",
-      "table": ["CompanyLeadershipExcerpt", "CompanyBlogDetail"]
+      "table": [
+        "CompanyLeadershipExcerpt",
+        "CompanyBlogDetail"
+      ]
     }
   ]
 }

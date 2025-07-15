@@ -1,0 +1,24 @@
+{
+  "question": "Which companies homed in on expanding their coding frameworks alongside hiring new tech talent?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies that have expanded their coding frameworks.",
+      "table": [
+        "CompanyTwitterDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Find instances where these companies have been hiring new tech talent.",
+      "table": [
+        "SocialMediaInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Combine the results to find companies focusing on both activities.",
+      "table": []
+    }
+  ]
+}

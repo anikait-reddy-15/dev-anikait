@@ -1,0 +1,26 @@
+{
+  "question": "How is B2B engagement measured for firms increasing API adoption in FinTech partnerships?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify firms involved in FinTech partnerships from the PersonaUser table.",
+      "table": [
+        "PersonaUser"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Find mentions of API adoption from the SocialMediaInfo table.",
+      "table": [
+        "SocialMediaInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Measure B2B engagement for these firms.",
+      "table": [
+        "CompanyTwitterDetail"
+      ]
+    }
+  ]
+}

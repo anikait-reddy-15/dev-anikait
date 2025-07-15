@@ -1,0 +1,27 @@
+{
+  "question": "What firms affiliated with AI/ML mention these technologies frequently in their leadership's public talk topics?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify firms affiliated with AI/ML from the IndustryBusinessTrend table.",
+      "table": [
+        "IndustryBusinessTrend"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract leadership's public talk topics from the PersonaYoutubeProfile table.",
+      "table": [
+        "PersonaYoutubeProfile"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Determine which firms frequently mention AI/ML in leadership's public talk topics.",
+      "table": [
+        "IndustryBusinessTrend",
+        "PersonaYoutubeProfile"
+      ]
+    }
+  ]
+}

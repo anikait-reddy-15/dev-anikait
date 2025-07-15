@@ -1,0 +1,24 @@
+{
+  "question": "Which companies with new CTOs improved their workforce diversity according to their LinkedIn analytics?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies with new CTOs.",
+      "table": [
+        "SectionInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Find companies that improved their workforce diversity according to LinkedIn analytics.",
+      "table": [
+        "PersonaYoutubeProfile"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Combine results to find companies meeting both criteria.",
+      "table": []
+    }
+  ]
+}

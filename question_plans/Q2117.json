@@ -1,0 +1,26 @@
+{
+  "question": "What are the common technological focuses of firms boosting server capacity and internet speeds?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify firms boosting server capacity.",
+      "table": [
+        "CompanyDataCenter"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Identify firms boosting internet speeds.",
+      "table": [
+        "CompanyDataCenter"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Determine common technological focuses of these firms.",
+      "table": [
+        "CompanyVendorTechDetail"
+      ]
+    }
+  ]
+}

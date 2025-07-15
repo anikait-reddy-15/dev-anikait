@@ -1,0 +1,26 @@
+{
+  "question": "What industries are most committed to expanding their data center infrastructure for innovative tech deployments?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify industries involved in data center infrastructure expansion.",
+      "table": [
+        "CompanyInstagramDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Filter industries that are expanding for innovative tech deployments.",
+      "table": [
+        "CompanyInstagramDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Rank industries based on their commitment to infrastructure expansion.",
+      "table": [
+        "CompanyInstagramDetail"
+      ]
+    }
+  ]
+}

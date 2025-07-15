@@ -1,21 +1,26 @@
 {
   "question": "Who are the professionals with 'Chief Data Officer' titles that have discussed partnership opportunities on their Twitter profiles?",
-  "tables": ["PersonaTwitterProfile", "PersonaTitle", "CompanyITPartnerDetail"],
   "subtasks": [
     {
       "step": 1,
       "task": "Identify professionals with 'Chief Data Officer' titles. [PersonaTitle]",
-      "table": ["PersonaTitle"]
+      "table": [
+        "PersonaTitle"
+      ]
     },
     {
       "step": 2,
       "task": "Find those professionals who have discussed partnership opportunities on their Twitter profiles. [PersonaTwitterProfile]",
-      "table": ["PersonaTwitterProfile"]
+      "table": [
+        "PersonaTwitterProfile"
+      ]
     },
     {
       "step": 3,
       "task": "Match the identified professionals with their companies that are engaged in partnerships. [CompanyITPartnerDetail]",
-      "table": ["CompanyITPartnerDetail"]
+      "table": [
+        "CompanyITPartnerDetail"
+      ]
     }
   ]
 }

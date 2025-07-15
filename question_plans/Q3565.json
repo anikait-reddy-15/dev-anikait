@@ -1,0 +1,26 @@
+{
+  "question": "How do advancements in machine learning affect enterprise-level decision making?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify advancements in machine learning from the CompanyManagementDetail table.",
+      "table": [
+        "CompanyManagementDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Determine the impact of these advancements on decision making.",
+      "table": [
+        "SectionInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze how these impacts are reflected at the enterprise level.",
+      "table": [
+        "PersonaMisc"
+      ]
+    }
+  ]
+}

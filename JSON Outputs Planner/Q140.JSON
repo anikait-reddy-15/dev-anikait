@@ -1,6 +1,5 @@
 {
   "question": "How do companies that recently partnered with vendors discuss data ethics and analytics in their social media posts?",
-  "tables": ["CompanyVendorProductDetail", "CompanySocialMediaInfo"],
   "subtasks": [
     {
       "step": 1,

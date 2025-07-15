@@ -1,0 +1,24 @@
+{
+  "question": "What competitive strategies are outlined in leadership excerpts of companies with increased business trend awareness?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies with increased business trend awareness.",
+      "table": [
+        "CompanyYoutubeDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract leadership excerpts from these companies.",
+      "table": [
+        "CompanyYoutubeDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Outline competitive strategies mentioned in the excerpts.",
+      "table": []
+    }
+  ]
+}

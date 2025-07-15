@@ -1,6 +1,5 @@
 {
   "question": "How do data-oriented companies highlight their competitive advantage in technology via social media interactions?",
-  "tables": ["CompanySocialMediaInfo", "CompanyTechStack"],
   "subtasks": [
     {
       "step": 1,

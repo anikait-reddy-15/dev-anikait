@@ -1,21 +1,26 @@
 {
   "question": "Which personas have shared insights on cybersecurity risks while being associated with organizations that recently increased their vendor partnerships?",
-  "tables": ["PersonaLinkedinPost", "CompanyITPartnerDetail", "PersonaUser"],
   "subtasks": [
     {
       "step": 1,
       "task": "Identify organizations that have recently increased their vendor partnerships. [CompanyITPartnerDetail]",
-      "table": ["CompanyITPartnerDetail"]
+      "table": [
+        "CompanyITPartnerDetail"
+      ]
     },
     {
       "step": 2,
       "task": "Find personas that have shared insights on cybersecurity risks. [PersonaLinkedinPost]",
-      "table": ["PersonaLinkedinPost"]
+      "table": [
+        "PersonaLinkedinPost"
+      ]
     },
     {
       "step": 3,
       "task": "Cross-reference the personas with the organizations to find relevant insights. [PersonaUser]",
-      "table": ["PersonaUser"]
+      "table": [
+        "PersonaUser"
+      ]
     }
   ]
 }

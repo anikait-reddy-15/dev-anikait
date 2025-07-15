@@ -1,0 +1,26 @@
+{
+  "question": "What are the common themes in consumer tech solutions mentioned by companies with a surge in LinkedIn recruit identification?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies with a surge in LinkedIn recruit identification.",
+      "table": [
+        "PersonaTitle"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract consumer tech solutions mentioned by these companies.",
+      "table": [
+        "SectionData"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze and determine common themes in the extracted consumer tech solutions.",
+      "table": [
+        "SectionData"
+      ]
+    }
+  ]
+}

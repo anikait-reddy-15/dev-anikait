@@ -1,0 +1,26 @@
+{
+  "question": "In what capacities are head IT personnel discussing digital twins in video content from their firms?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify video content from firms discussing digital twins.",
+      "table": [
+        "SocialMediaInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Determine the involvement of head IT personnel in these discussions.",
+      "table": [
+        "PersonaMisc"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the capacities in which digital twins are discussed by IT personnel.",
+      "table": [
+        "SectionData"
+      ]
+    }
+  ]
+}

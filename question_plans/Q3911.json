@@ -1,0 +1,26 @@
+{
+  "question": "What shifts in focus to sustainability initiatives are seen in industries heavily investing in green technologies?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify industries heavily investing in green technologies.",
+      "table": [
+        "IndustryBusinessTrend"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract data on sustainability initiatives within these industries.",
+      "table": [
+        "IndustryBusinessTrend"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze shifts in focus towards sustainability initiatives.",
+      "table": [
+        "IndustryBusinessTrend"
+      ]
+    }
+  ]
+}

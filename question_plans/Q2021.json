@@ -1,0 +1,26 @@
+{
+  "question": "Which companies employ data scientists who are known for their public narrations on leadership in tech conferences?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify data scientists known for public narrations on leadership in tech conferences.",
+      "table": [
+        "PersonaUser"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Find companies employing these data scientists.",
+      "table": [
+        "PersonaUser"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Filter companies based on the employment of these data scientists.",
+      "table": [
+        "PersonaUser"
+      ]
+    }
+  ]
+}

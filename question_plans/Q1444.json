@@ -1,0 +1,26 @@
+{
+  "question": "What are the customer engagement outcomes for companies incorporating immersive virtual reality content on social media?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies incorporating immersive virtual reality content.",
+      "table": [
+        "PersonaMisc"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Retrieve social media posts related to these companies.",
+      "table": [
+        "PersonaTwitterTweets"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze customer engagement outcomes from these social media posts.",
+      "table": [
+        "PersonaTwitterTweets"
+      ]
+    }
+  ]
+}

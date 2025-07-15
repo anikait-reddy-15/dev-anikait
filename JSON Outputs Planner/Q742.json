@@ -1,21 +1,27 @@
 {
   "question": "Which companies are leading in NLP adoption and have recently increased hiring in their R&D departments?",
-  "tables": ["CompanyTechStack", "CompanyHiringDetail"],
   "subtasks": [
     {
       "step": 1,
       "task": "Identify companies leading in NLP adoption.",
-      "table": ["CompanyTechStack"]
+      "table": [
+        "CompanyTechStack"
+      ]
     },
     {
       "step": 2,
       "task": "Find companies with increased R&D department hiring.",
-      "table": ["CompanyHiringDetail"]
+      "table": [
+        "CompanyHiringDetail"
+      ]
     },
     {
       "step": 3,
       "task": "Cross-match the companies active in both.",
-      "table": ["CompanyTechStack", "CompanyHiringDetail"]
+      "table": [
+        "CompanyTechStack",
+        "CompanyHiringDetail"
+      ]
     }
   ]
 }

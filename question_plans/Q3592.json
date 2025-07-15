@@ -1,0 +1,27 @@
+{
+  "question": "How do environmental regulations influence firm adaptation strategies for green IT?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify environmental regulations impacting firms.",
+      "table": [
+        "SectionInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Examine adaptation strategies for green IT in leadership excerpts.",
+      "table": [
+        "PersonaMisc"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Correlate regulations with adaptation strategies.",
+      "table": [
+        "SectionInfo",
+        "PersonaMisc"
+      ]
+    }
+  ]
+}

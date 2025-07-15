@@ -1,0 +1,26 @@
+{
+  "question": "What talent acquisition strategies are reshaping recruitment focus for tech industry leaders?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify tech industry leaders from social media profiles.",
+      "table": [
+        "CompanyTwitterDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract talent acquisition strategies from management details.",
+      "table": [
+        "CompanyManagementDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze how these strategies are reshaping recruitment focus.",
+      "table": [
+        "CompanyManagementDetail"
+      ]
+    }
+  ]
+}

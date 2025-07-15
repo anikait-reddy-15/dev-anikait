@@ -1,0 +1,24 @@
+{
+  "question": "Who are the competitors providing data analytics services mentioned in recent tech partnership announcements?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify recent tech partnership announcements.",
+      "table": [
+        "PersonaLinkedinActivity"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract mentions of competitors providing data analytics services.",
+      "table": [
+        "PersonaLinkedinActivity"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "List the competitors mentioned in these announcements.",
+      "table": []
+    }
+  ]
+}

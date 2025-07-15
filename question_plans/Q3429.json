@@ -1,0 +1,22 @@
+{
+  "question": "What are the primary motivations mentioned by company leaders for increasing IT outsourcing as per their speeches and media coverage?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Extract speeches and media coverage discussing IT outsourcing.",
+      "table": [
+        "SectionInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Identify primary motivations mentioned for increasing IT outsourcing.",
+      "table": []
+    },
+    {
+      "step": 3,
+      "task": "Summarize the primary motivations.",
+      "table": []
+    }
+  ]
+}

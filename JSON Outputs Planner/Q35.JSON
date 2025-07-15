@@ -1,6 +1,5 @@
 {
   "question": "What platforms support employee experience improvements at Gantherm?",
-  "tables": ["CompanyInfo", "CompanyTechStack"],
   "subtasks": [
     {
       "step": 1,

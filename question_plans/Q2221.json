@@ -1,0 +1,26 @@
+{
+  "question": "What social media platforms are most effective for companies promoting new tech ventures?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify social media platforms mentioned in social posts related to tech ventures.",
+      "table": [
+        "CompanyVendorTechDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Count the frequency of mentions for each platform to determine effectiveness.",
+      "table": [
+        "CompanyVendorTechDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Rank platforms based on their effectiveness in promoting new tech ventures.",
+      "table": [
+        "CompanyVendorTechDetail"
+      ]
+    }
+  ]
+}

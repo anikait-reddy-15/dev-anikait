@@ -1,0 +1,26 @@
+{
+  "question": "Which technology sectors are most frequently discussed in successful company mergers and acquisitions?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify successful company mergers and acquisitions from the CompanyDealMaster table.",
+      "table": [
+        "CompanyDealMaster"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract discussions on technology sectors involved in these mergers and acquisitions.",
+      "table": [
+        "CompanyDealMaster"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Determine the most frequently discussed technology sectors.",
+      "table": [
+        "CompanyDealMaster"
+      ]
+    }
+  ]
+}

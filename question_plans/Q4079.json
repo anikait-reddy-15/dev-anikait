@@ -1,0 +1,26 @@
+{
+  "question": "How is social media mentioned by thought leaders as a tool for building brand reputations?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify thought leader discussions mentioning social media.",
+      "table": [
+        "PersonaMisc"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract mentions of brand reputation building.",
+      "table": [
+        "PersonaMisc"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze how social media is used as a tool in these contexts.",
+      "table": [
+        "PersonaMisc"
+      ]
+    }
+  ]
+}

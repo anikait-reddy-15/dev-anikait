@@ -1,6 +1,5 @@
 {
   "question": "Which personas with “Director of Data Science” titles have engaged with competitor posts on Twitter in the last 30 days?",
-  "tables": ["PersonaTwitterProfile", "PersonaTitle", "PersonaTwitterTweets"],
   "subtasks": [
     {
       "step": 1,

@@ -1,21 +1,26 @@
 {
   "question": "What social media platforms are most used by companies focusing on cloud migration strategies?",
-  "tables": ["CompanyFocusAreaDetail", "SocialMediaInfo"],
   "subtasks": [
     {
       "step": 1,
       "task": "Identify companies focusing on cloud migration strategies.",
-      "table": ["CompanyFocusAreaDetail"]
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
     },
     {
       "step": 2,
       "task": "Find social media platforms used by these companies.",
-      "table": ["SocialMediaInfo"]
+      "table": [
+        "SocialMediaInfo"
+      ]
     },
     {
       "step": 3,
       "task": "Analyze which platforms are most frequently used.",
-      "table": ["SocialMediaInfo"]
+      "table": [
+        "SocialMediaInfo"
+      ]
     }
   ]
 }

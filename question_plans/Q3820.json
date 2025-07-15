@@ -1,0 +1,26 @@
+{
+  "question": "What companies mentioned investment in mobile technology in their quarterly tech stack updates?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify quarterly tech stack updates from CompanyFocusAreaDetail.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract mentions of investment in mobile technology.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Identify companies making these mentions.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    }
+  ]
+}

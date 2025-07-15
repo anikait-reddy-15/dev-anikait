@@ -1,0 +1,26 @@
+{
+  "question": "What companies engaged the most with smart technology content across YouTube and Instagram?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies engaging with smart technology content on YouTube.",
+      "table": [
+        "PersonaMisc"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Identify companies engaging with smart technology content on Instagram.",
+      "table": [
+        "PersonaMisc"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Determine companies with the highest engagement across both platforms.",
+      "table": [
+        "PersonaMisc"
+      ]
+    }
+  ]
+}

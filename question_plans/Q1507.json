@@ -1,0 +1,27 @@
+{
+  "question": "Which companies have simultaneously increased their Facebook engagement and pivoted their focus to machine learning applications this year?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies with increased Facebook engagement from the CompanyFacebookDetail table.",
+      "table": [
+        "CompanyFacebookDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Filter companies that have pivoted their focus to machine learning applications.",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Determine which companies meet both criteria.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyHiringDetail"
+      ]
+    }
+  ]
+}

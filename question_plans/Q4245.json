@@ -1,0 +1,26 @@
+{
+  "question": "How are video posts defining new trends for companies in the telecommunications industry?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies in the telecommunications industry.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract video posts related to these companies.",
+      "table": [
+        "PersonaMisc"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the trends defined by these video posts.",
+      "table": [
+        "PersonaMisc"
+      ]
+    }
+  ]
+}

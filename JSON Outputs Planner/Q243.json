@@ -1,21 +1,26 @@
 {
   "question": "Which companies published recent content on YouTube regarding their data protection strategies, and what technologies do they use to support this?",
-  "tables": ["CompanyYoutubeDetail", "CompanyTechStack"],
   "subtasks": [
     {
       "step": 1,
       "task": "Identify companies that published content on YouTube about data protection strategies",
-      "table": ["CompanyYoutubeDetail"]
+      "table": [
+        "CompanyYoutubeDetail"
+      ]
     },
     {
       "step": 2,
       "task": "Gather information on the technologies these companies use",
-      "table": ["CompanyTechStack"]
+      "table": [
+        "CompanyTechStack"
+      ]
     },
     {
       "step": 3,
       "task": "Match the companies with their data protection strategies to the technologies they use",
-      "table": ["CompanyTechStack"]
+      "table": [
+        "CompanyTechStack"
+      ]
     }
   ]
 }

@@ -1,0 +1,26 @@
+{
+  "question": "Which companies' CEOs have publicly debated the ethics of AI and machine learning in internal or public forums?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify public or internal forums discussing AI and machine learning ethics",
+      "table": [
+        "SectionTitle"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Find CEOs participating in these debates",
+      "table": [
+        "PersonaTwitterProfile"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Link these CEOs to their respective companies",
+      "table": [
+        "CompanyITPartnerDetail"
+      ]
+    }
+  ]
+}

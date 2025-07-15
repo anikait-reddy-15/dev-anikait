@@ -1,21 +1,27 @@
 {
   "question": "Who are the decision-makers in companies that have adopted multiple data management platforms and mentioned this in their LinkedIn activities?",
-  "tables": ["PersonaLinkedinActivity", "CompanyTechStack"],
   "subtasks": [
     {
       "step": 1,
       "task": "Identify companies that have adopted multiple data management platforms.",
-      "table": ["CompanyTechStack"]
+      "table": [
+        "CompanyTechStack"
+      ]
     },
     {
       "step": 2,
       "task": "Extract LinkedIn activities mentioning data management from personas.",
-      "table": ["PersonaLinkedinActivity"]
+      "table": [
+        "PersonaLinkedinActivity"
+      ]
     },
     {
       "step": 3,
       "task": "Match decision-makers from LinkedIn activities to companies adopting data management platforms.",
-      "table": ["PersonaLinkedinActivity", "CompanyTechStack"]
+      "table": [
+        "PersonaLinkedinActivity",
+        "CompanyTechStack"
+      ]
     }
   ]
 }

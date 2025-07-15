@@ -1,6 +1,5 @@
 {
   "question": "What digitalization efforts are consumer goods companies implementing to enhance customer experience?",
-  "tables": ["IndustryITTrend", "CompanyTechStack"],
   "subtasks": [
     {
       "step": 1,

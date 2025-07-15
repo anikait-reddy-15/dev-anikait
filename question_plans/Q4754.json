@@ -1,0 +1,26 @@
+{
+  "question": "What changes in tech stacks are evident amongst companies advertising a shift to DevOps methodologies?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies advertising a shift to DevOps methodologies.",
+      "table": [
+        "CompanyVendorTechDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract changes in tech stacks of these companies.",
+      "table": [
+        "CompanyTechStack"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the evident changes in tech stacks.",
+      "table": [
+        "IndustryBusinessTrend"
+      ]
+    }
+  ]
+}

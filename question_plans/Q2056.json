@@ -1,0 +1,26 @@
+{
+  "question": "What are the leadership-stated objectives for companies increasing their investments in the Internet of Things (IoT)?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies increasing investments in IoT.",
+      "table": [
+        "PersonaUser"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract leadership-stated objectives related to IoT investments.",
+      "table": [
+        "PersonaUser"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Compile a list of objectives for these companies.",
+      "table": [
+        "PersonaUser"
+      ]
+    }
+  ]
+}

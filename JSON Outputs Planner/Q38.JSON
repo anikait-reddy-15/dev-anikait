@@ -1,6 +1,5 @@
 {
   "question": "How many reactions did Rafael Jabur Bittar’s posts about mining innovation receive this month?",
-  "tables": ["PersonaLinkedinPost"],
   "subtasks": [
     {
       "step": 1,

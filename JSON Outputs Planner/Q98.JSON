@@ -1,6 +1,5 @@
 {
   "question": "Which emerging technology trends are being discussed by leaders in healthcare companies on Twitter?",
-  "tables": ["CompanyTwitterDetail", "CompanyLeadershipExcerpt", "IndustryITTrend"],
   "subtasks": [
     {
       "step": 1,

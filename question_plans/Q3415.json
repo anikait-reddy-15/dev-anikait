@@ -1,0 +1,24 @@
+{
+  "question": "Who among personas mentioned virtual reality in their LinkedIn activities while being part of companies receiving tech industry awards?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify personas mentioning virtual reality in their LinkedIn activities.",
+      "table": [
+        "PersonaYoutubeProfile"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Find companies receiving tech industry awards.",
+      "table": [
+        "SectionInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Match personas to their companies to find those meeting both criteria.",
+      "table": []
+    }
+  ]
+}

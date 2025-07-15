@@ -1,0 +1,26 @@
+{
+  "question": "Which social issues are being discussed by persona influencers in companies embarking on high-profile IT partnerships?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies involved in high-profile IT partnerships.",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Find persona influencers within these companies.",
+      "table": [
+        "CompanyFacebookDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Extract social issues discussed by these influencers.",
+      "table": [
+        "CompanyFacebookDetail"
+      ]
+    }
+  ]
+}

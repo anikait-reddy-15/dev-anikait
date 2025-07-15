@@ -1,0 +1,26 @@
+{
+  "question": "What strategic tech investments are highlighted in YouTube uploads focused on transformative software solutions?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify YouTube uploads focused on transformative software solutions.",
+      "table": [
+        "PersonaYoutubeProfile"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract information on strategic tech investments from these uploads.",
+      "table": [
+        "PersonaYoutubeProfile"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Highlight key strategic tech investments mentioned.",
+      "table": [
+        "PersonaYoutubeProfile"
+      ]
+    }
+  ]
+}

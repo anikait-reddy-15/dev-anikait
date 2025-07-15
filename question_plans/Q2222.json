@@ -1,0 +1,26 @@
+{
+  "question": "How do companies shifting to agile methodologies communicate these changes to their employees?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Extract communication strategies related to agile methodologies from leadership excerpts.",
+      "table": [
+        "CompanyVendorTechDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Identify employee communication channels used for agile methodology updates.",
+      "table": [
+        "PersonaUser"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the frequency and type of communications sent to employees.",
+      "table": [
+        "PersonaUser"
+      ]
+    }
+  ]
+}

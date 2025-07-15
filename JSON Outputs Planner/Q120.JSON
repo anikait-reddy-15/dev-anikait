@@ -1,6 +1,5 @@
 {
   "question": "Which data-driven companies are frequently posting about their machine learning initiatives on Twitter?",
-  "tables": ["CompanyTwitterDetail", "CompanyTechStack"],
   "subtasks": [
     {
       "step": 1,

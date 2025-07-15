@@ -1,0 +1,26 @@
+{
+  "question": "How do changes in leadership affect the IT priorities and technology investments in large enterprises?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify changes in leadership within large enterprises.",
+      "table": [
+        "PersonaTitle"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Analyze changes in IT priorities following leadership changes.",
+      "table": [
+        "CompanyDataCenter"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Assess the impact on technology investments due to leadership changes.",
+      "table": [
+        "CompanyDataCenter"
+      ]
+    }
+  ]
+}

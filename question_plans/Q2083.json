@@ -1,0 +1,26 @@
+{
+  "question": "What repeated themes are encountered in conversations about cybersecurity juxtaposed against IT strategies?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Extract conversations about cybersecurity from the PersonaLinkedinActivity table.",
+      "table": [
+        "PersonaLinkedinActivity"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Identify discussions related to IT strategies from the same table.",
+      "table": [
+        "PersonaLinkedinActivity"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze and list repeated themes present in both cybersecurity and IT strategy conversations.",
+      "table": [
+        "PersonaLinkedinActivity"
+      ]
+    }
+  ]
+}

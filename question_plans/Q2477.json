@@ -1,0 +1,26 @@
+{
+  "question": "Who are strategic players in AI driven marketing with notable persona Twitter interactions recently?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify strategic players in AI driven marketing.",
+      "table": [
+        "CompanyDataCenter"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract Twitter interactions for these players.",
+      "table": [
+        "CompanyYoutubeDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze recent notable interactions on Twitter.",
+      "table": [
+        "CompanyYoutubeDetail"
+      ]
+    }
+  ]
+}

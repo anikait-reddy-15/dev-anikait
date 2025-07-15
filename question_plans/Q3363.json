@@ -1,0 +1,27 @@
+{
+  "question": "What strategic pivots are enterprises making visible in recent job openings for digital innovation roles?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify job openings related to digital innovation from the LookUpValue table.",
+      "table": [
+        "LookUpValue"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract strategic pivots from the IndustryITTrend table.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the correlation between strategic pivots and job openings in digital innovation roles.",
+      "table": [
+        "LookUpValue",
+        "IndustryITTrend"
+      ]
+    }
+  ]
+}

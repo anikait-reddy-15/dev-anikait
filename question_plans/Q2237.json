@@ -1,0 +1,26 @@
+{
+  "question": "What social platforms does the majority of tech-related hiring announcements appear on?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify social platforms mentioned in tech-related hiring announcements.",
+      "table": [
+        "PersonaUser"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Count the frequency of hiring announcements on each platform.",
+      "table": [
+        "PersonaUser"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Determine which platforms have the majority of these announcements.",
+      "table": [
+        "PersonaUser"
+      ]
+    }
+  ]
+}

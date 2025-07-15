@@ -1,0 +1,24 @@
+{
+  "question": "Which organizations revamped their Facebook engagement and focus on digital customer experience?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify organizations that revamped their Facebook engagement.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Identify organizations focusing on digital customer experience.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Combine results from steps 1 and 2 to find organizations meeting both criteria.",
+      "table": []
+    }
+  ]
+}

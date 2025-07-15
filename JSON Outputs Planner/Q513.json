@@ -1,21 +1,27 @@
 {
   "question": "Which organizations have published YouTube videos addressing cybersecurity and simultaneously updated their management structures in recent months?",
-  "tables": ["CompanyYoutubeDetail", "CompanyManagementDetail"],
   "subtasks": [
     {
       "step": 1,
       "task": "Identify organizations with cybersecurity YouTube content. [CompanyYoutubeDetail]",
-      "table": ["CompanyYoutubeDetail"]
+      "table": [
+        "CompanyYoutubeDetail"
+      ]
     },
     {
       "step": 2,
       "task": "Find recent management structure updates. [CompanyManagementDetail]",
-      "table": ["CompanyManagementDetail"]
+      "table": [
+        "CompanyManagementDetail"
+      ]
     },
     {
       "step": 3,
       "task": "Match companies meeting both criteria. [CompanyYoutubeDetail, CompanyManagementDetail]",
-      "table": ["CompanyYoutubeDetail", "CompanyManagementDetail"]
+      "table": [
+        "CompanyYoutubeDetail",
+        "CompanyManagementDetail"
+      ]
     }
   ]
 }

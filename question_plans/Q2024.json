@@ -1,0 +1,26 @@
+{
+  "question": "Which companies have recently enhanced their cloud offerings as part of a larger emphasis on data security?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies that have enhanced their cloud offerings.",
+      "table": [
+        "PersonaLinkedinActivity"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Determine if these enhancements are part of a focus on data security.",
+      "table": [
+        "PersonaLinkedinActivity"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "List companies with cloud enhancements emphasizing data security.",
+      "table": [
+        "PersonaLinkedinActivity"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "question": "What are common technologies utilized by companies that have recently increased their social media engagements, particularly on Instagram?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies with increased social media engagements on Instagram.",
+      "table": [
+        "PageInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Determine the technologies utilized by these companies.",
+      "table": [
+        "CompanyVendorProductDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze and list common technologies among these companies.",
+      "table": [
+        "CompanyVendorProductDetail"
+      ]
+    }
+  ]
+}

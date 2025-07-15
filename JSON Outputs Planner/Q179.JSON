@@ -1,6 +1,5 @@
 {
   "question": "How often do company leaders mention cloud computing in their public communications, particularly among firms that are actively hiring data scientists?",
-  "tables": ["CompanyLeadershipExcerpt", "CompanyHiringDetail"],
   "subtasks": [
     {
       "step": 1,

@@ -1,6 +1,5 @@
 {
   "question": "What contracts has PayPal's CTO commented on regarding digital payments?",
-  "tables": ["PersonaYoutubeProfile", "CompanyDealMaster"],
   "subtasks": [
     {
       "step": 1,

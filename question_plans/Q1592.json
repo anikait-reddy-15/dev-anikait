@@ -1,0 +1,26 @@
+{
+  "question": "Which social media campaigns underline the enhanced user experience strategies of enterprises adopting IoT devices?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Retrieve social media campaign data from the CompanyFacebookDetail table.",
+      "table": [
+        "CompanyFacebookDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Identify enterprises adopting IoT devices from the SectionTitle table.",
+      "table": [
+        "SectionTitle"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze user experience strategies using data from the CompanyHiringDetail table.",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    }
+  ]
+}

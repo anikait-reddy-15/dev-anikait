@@ -1,0 +1,26 @@
+{
+  "question": "Which popular data analytics personas appear in trending Instagram discussions?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify trending Instagram discussions related to data analytics.",
+      "table": [
+        "CompanyTwitterDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract mentions of popular data analytics personas.",
+      "table": [
+        "CompanyTwitterDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "List personas who frequently appear in these discussions.",
+      "table": [
+        "CompanyTwitterDetail"
+      ]
+    }
+  ]
+}

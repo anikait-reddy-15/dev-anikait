@@ -1,0 +1,27 @@
+{
+  "question": "Which tech companies experienced growth in cloud service vendor deals after integrating AI processes?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify tech companies integrating AI processes.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Track growth in cloud service vendor deals for these companies.",
+      "table": [
+        "CompanyManagementDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Determine the correlation between AI integration and vendor deal growth.",
+      "table": [
+        "CompanyFocusAreaDetail",
+        "CompanyManagementDetail"
+      ]
+    }
+  ]
+}

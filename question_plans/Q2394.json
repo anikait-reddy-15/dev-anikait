@@ -1,0 +1,27 @@
+{
+  "question": "What significant insights pinpoint leading innovations from fast-growing tech sectors evident within film industry sections?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify leading innovations in tech sectors.",
+      "table": [
+        "SectionInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Determine insights evident within film industry sections.",
+      "table": [
+        "SectionTitle"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the connection between tech innovations and film industry insights.",
+      "table": [
+        "SectionInfo",
+        "SectionTitle"
+      ]
+    }
+  ]
+}

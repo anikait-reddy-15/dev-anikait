@@ -1,0 +1,27 @@
+{
+  "question": "Which data scientists have received mentions or recognition in major company announcements on LinkedIn?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify major company announcements on LinkedIn.",
+      "table": [
+        "PageInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Find mentions or recognition of data scientists in these announcements.",
+      "table": [
+        "LookUpValue"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "List data scientists recognized in these LinkedIn announcements.",
+      "table": [
+        "LookUpValue",
+        "PageInfo"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "question": "How do recent changes in data governance policies reflect in social media activities?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify recent changes in data governance policies.",
+      "table": [
+        "CompanyVendorProductDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Analyze social media activities related to these policy changes.",
+      "table": [
+        "SocialMediaInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Correlate policy changes with specific social media activities.",
+      "table": [
+        "SectionData"
+      ]
+    }
+  ]
+}

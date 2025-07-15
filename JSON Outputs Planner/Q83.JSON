@@ -1,6 +1,5 @@
 {
   "question": "What technologies are commonly adopted by companies that recently promoted a new CTO or Head of Engineering?",
-  "tables": ["CompanyManagementDetail", "CompanyTechStack"],
   "subtasks": [
     {
       "step": 1,

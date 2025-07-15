@@ -1,0 +1,26 @@
+{
+  "question": "Who are the prominent digital transformation leaders active on Twitter following substantial IT partner additions?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify substantial IT partner additions.",
+      "table": [
+        "CompanyDataCenter"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Find digital transformation leaders active on Twitter.",
+      "table": [
+        "PersonaYoutubeProfile"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Correlate IT partner additions with active Twitter leaders.",
+      "table": [
+        "SectionTitle"
+      ]
+    }
+  ]
+}

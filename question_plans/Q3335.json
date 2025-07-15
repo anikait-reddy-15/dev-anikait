@@ -1,0 +1,26 @@
+{
+  "question": "Which communications from organizations have highlighted strategic pivot towards clean technology?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify communications related to clean technology.",
+      "table": [
+        "PageInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract mentions of strategic pivots towards clean technology.",
+      "table": [
+        "PageInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "List organizations whose communications highlight these pivots.",
+      "table": [
+        "PageInfo"
+      ]
+    }
+  ]
+}

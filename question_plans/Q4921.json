@@ -1,0 +1,26 @@
+{
+  "question": "Have any organizations specifically discussed AI and machine learning in Section Titles related to their annual reports?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify section titles in the SectionTitle table that mention AI and machine learning.",
+      "table": [
+        "SectionTitle"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Filter these section titles to those specifically related to annual reports.",
+      "table": [
+        "SectionTitle"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "List organizations associated with these filtered section titles.",
+      "table": [
+        "SectionTitle"
+      ]
+    }
+  ]
+}

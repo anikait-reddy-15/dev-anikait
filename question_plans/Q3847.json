@@ -1,0 +1,26 @@
+{
+  "question": "How active are companies in posting about employee experiences on Instagram following a surge in IT recruiting?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies with a surge in IT recruiting.",
+      "table": [
+        "CompanyManagementDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Retrieve Instagram posts related to employee experiences from these companies.",
+      "table": [
+        "PersonaInstagramProfile"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the activity level of these posts following the recruiting surge.",
+      "table": [
+        "PersonaInstagramProfile"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "question": "What are the primary focus areas for companies that recently expanded into new regional data centers?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies that recently expanded into new regional data centers.",
+      "table": [
+        "CompanyDataCenter"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Determine the primary focus areas for these companies.",
+      "table": [
+        "SectionInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Combine data to list focus areas for the identified companies.",
+      "table": []
+    }
+  ]
+}

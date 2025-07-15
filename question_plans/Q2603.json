@@ -1,0 +1,26 @@
+{
+  "question": "Which companies in the retail sector have significantly increased their focus on e-commerce strategies in leadership talks?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies in the retail sector.",
+      "table": [
+        "SectionData"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Find leadership talks mentioning increased focus on e-commerce strategies.",
+      "table": [
+        "SectionData"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Combine results to find retail companies with increased e-commerce focus in leadership talks.",
+      "table": [
+        "SectionData"
+      ]
+    }
+  ]
+}

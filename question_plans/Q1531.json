@@ -1,0 +1,26 @@
+{
+  "question": "What are the trending tech strategies among companies that have increased their investments in virtual reality technologies?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies that have increased their investments in virtual reality technologies.",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Analyze the tech strategies of these companies.",
+      "table": [
+        "SectionTitle"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Identify trending tech strategies among these companies.",
+      "table": [
+        "SectionTitle"
+      ]
+    }
+  ]
+}

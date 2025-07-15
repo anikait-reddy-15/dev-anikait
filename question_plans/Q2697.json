@@ -1,0 +1,33 @@
+{
+  "question": "Which companies have increased RPA adoption, as reflected in their hiring strategies and public disclosures?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies that have increased RPA adoption.",
+      "table": [
+        "PersonaTitle"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Collect data on hiring strategies reflecting RPA adoption.",
+      "table": [
+        "SectionData"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Collect public disclosures related to RPA adoption.",
+      "table": [
+        "SectionData"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Cross-reference hiring strategies and public disclosures to confirm increased RPA adoption.",
+      "table": [
+        "SectionData"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "question": "How are new tech stacks redefining IT roles across organizations in logistic services?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify new tech stacks in logistic services.",
+      "table": [
+        "SectionTitle"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Analyze the impact of these tech stacks on IT roles.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Summarize the redefinition of IT roles due to tech stacks.",
+      "table": [
+        "CompanyInfo"
+      ]
+    }
+  ]
+}

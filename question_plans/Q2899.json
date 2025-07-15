@@ -1,0 +1,26 @@
+{
+  "question": "What AI-driven shifts are observed among enterprises refining their public health responses?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify enterprises refining their public health responses.",
+      "table": [
+        "CompanyVendorProductDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Determine AI-driven shifts within these enterprises.",
+      "table": [
+        "CompanyVendorProductDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the impact of AI-driven shifts on public health responses.",
+      "table": [
+        "CompanyVendorProductDetail"
+      ]
+    }
+  ]
+}

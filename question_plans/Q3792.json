@@ -1,0 +1,27 @@
+{
+  "question": "How does vendor tech adoption correlate with organizational modifications in cloud service providers?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify vendor tech adoption instances from the IndustryITTrend table.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract organizational modifications from the PersonaUser table.",
+      "table": [
+        "PersonaUser"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the correlation between tech adoption and organizational changes.",
+      "table": [
+        "IndustryITTrend",
+        "PersonaUser"
+      ]
+    }
+  ]
+}

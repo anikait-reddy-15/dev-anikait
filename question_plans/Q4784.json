@@ -1,0 +1,27 @@
+{
+  "question": "How are companies' social media engagement levels affecting their IT strategies tied to remote work solutions?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Extract social media engagement levels of companies.",
+      "table": [
+        "IndustryBusinessTrend"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Identify IT strategies related to remote work solutions.",
+      "table": [
+        "CompanyTechStack"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the correlation between social media engagement and IT strategies for remote work.",
+      "table": [
+        "IndustryBusinessTrend",
+        "CompanyTechStack"
+      ]
+    }
+  ]
+}

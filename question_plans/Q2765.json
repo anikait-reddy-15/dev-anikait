@@ -1,0 +1,26 @@
+{
+  "question": "What sectors are tech newsletters enhancing their focus on amid software platform launches?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify tech newsletters that mention software platform launches.",
+      "table": [
+        "SocialMediaInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract sectors mentioned in these newsletters.",
+      "table": [
+        "SocialMediaInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze which sectors are receiving increased focus in these newsletters.",
+      "table": [
+        "SocialMediaInfo"
+      ]
+    }
+  ]
+}

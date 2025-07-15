@@ -1,0 +1,26 @@
+{
+  "question": "What are the top strategies tech companies are adopting in response to 2023 industry IT trend reports?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify 2023 industry IT trend reports.",
+      "table": [
+        "SectionTitle"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract strategies tech companies are adopting in response.",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "List top strategies being adopted.",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    }
+  ]
+}

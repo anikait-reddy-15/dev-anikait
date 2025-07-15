@@ -1,21 +1,27 @@
 {
   "question": "Which organizations are utilizing multi-cloud strategies while emphasizing employee development in their recent job postings?",
-  "tables": ["CompanyTechStack", "CompanyHiringDetail"],
   "subtasks": [
     {
       "step": 1,
       "task": "Identify organizations that are utilizing multi-cloud strategies. [CompanyTechStack]",
-      "table": ["CompanyTechStack"]
+      "table": [
+        "CompanyTechStack"
+      ]
     },
     {
       "step": 2,
       "task": "Find recent job postings that emphasize employee development from the identified organizations. [CompanyHiringDetail]",
-      "table": ["CompanyHiringDetail"]
+      "table": [
+        "CompanyHiringDetail"
+      ]
     },
     {
       "step": 3,
       "task": "Cross-reference the organizations with the job postings to identify those that meet both criteria. [CompanyTechStack, CompanyHiringDetail]",
-      "table": ["CompanyTechStack", "CompanyHiringDetail"]
+      "table": [
+        "CompanyTechStack",
+        "CompanyHiringDetail"
+      ]
     }
   ]
 }

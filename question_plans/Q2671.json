@@ -1,0 +1,26 @@
+{
+  "question": "What is the impact of digital workplaces on company hiring as per data scientist posts marketed on LinkedIn?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify data scientist posts marketed on LinkedIn.",
+      "table": [
+        "PersonaTitle"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract information on digital workplaces from these posts.",
+      "table": [
+        "SectionData"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the impact of digital workplaces on company hiring.",
+      "table": [
+        "SectionData"
+      ]
+    }
+  ]
+}

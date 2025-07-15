@@ -1,0 +1,26 @@
+{
+  "question": "What strategic IT shifts are documented in tweets from companies adding cloud-native technologies?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies adding cloud-native technologies.",
+      "table": [
+        "CompanyDataCenter"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Find tweets documenting strategic IT shifts from these companies.",
+      "table": [
+        "PersonaLinkedInProfile"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Extract strategic IT shifts from these tweets.",
+      "table": [
+        "PersonaLinkedInProfile"
+      ]
+    }
+  ]
+}

@@ -1,21 +1,26 @@
 {
-  "question": "Which personas with “Head of Data Science” titles have recently shared insights on industry benchmarks related to their companies’ tech stacks?",
-  "tables": ["PersonaUser", "PersonaTitle", "CompanyTechStack"],
+  "question": "Which personas with \u201cHead of Data Science\u201d titles have recently shared insights on industry benchmarks related to their companies\u2019 tech stacks?",
   "subtasks": [
     {
       "step": 1,
       "task": "Identify personas with the title 'Head of Data Science.' [PersonaTitle]",
-      "table": ["PersonaTitle"]
+      "table": [
+        "PersonaTitle"
+      ]
     },
     {
       "step": 2,
       "task": "Extract insights shared by these personas related to industry benchmarks. [PersonaUser]",
-      "table": ["PersonaUser"]
+      "table": [
+        "PersonaUser"
+      ]
     },
     {
       "step": 3,
-      "task": "Correlate the insights with the companies’ tech stacks. [CompanyTechStack]",
-      "table": ["CompanyTechStack"]
+      "task": "Correlate the insights with the companies\u2019 tech stacks. [CompanyTechStack]",
+      "table": [
+        "CompanyTechStack"
+      ]
     }
   ]
 }

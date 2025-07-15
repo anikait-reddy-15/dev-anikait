@@ -1,0 +1,27 @@
+{
+  "question": "What major boardroom shifts are linked to expansions in enterprise tech solutions?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify major boardroom shifts in companies.",
+      "table": [
+        "PersonaLinkedInProfile"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Identify expansions in enterprise tech solutions.",
+      "table": [
+        "CompanyVendorTechDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Link boardroom shifts to enterprise tech solution expansions.",
+      "table": [
+        "PersonaLinkedInProfile",
+        "CompanyVendorTechDetail"
+      ]
+    }
+  ]
+}

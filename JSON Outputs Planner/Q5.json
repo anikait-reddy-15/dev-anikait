@@ -1,21 +1,26 @@
 {
   "question": "What partnerships is Gentherm leveraging to enhance its automotive technology offerings?",
-  "tables": ["CompanyFocusAreaDetail", "CompanyITPartnerDetail", "CompanyInfo"],
   "subtasks": [
     {
       "step": 1,
       "task": "Identify automotive technology focus areas",
-      "table": ["CompanyFocusAreaDetail"]
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
     },
     {
       "step": 2,
       "task": "Extract relevant IT partnerships",
-      "table": ["CompanyITPartnerDetail"]
+      "table": [
+        "CompanyITPartnerDetail"
+      ]
     },
     {
       "step": 3,
-      "task": "Filter by Gentherm’s Company ID",
-      "table": ["CompanyInfo"]
+      "task": "Filter by Gentherm\u2019s Company ID",
+      "table": [
+        "CompanyInfo"
+      ]
     },
     {
       "step": 4,
@@ -24,4 +29,3 @@
     }
   ]
 }
-

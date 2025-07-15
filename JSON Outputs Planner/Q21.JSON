@@ -1,6 +1,5 @@
 {
   "question": "What are the major benefits of the RingCentral contract for Tritium?",
-  "tables": ["CompanyDealMaster", "CompanyDataCenter"],
   "subtasks": [
     {
       "step": 1,

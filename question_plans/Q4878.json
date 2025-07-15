@@ -1,0 +1,27 @@
+{
+  "question": "Which sectors are shifting focus to automation according to partnership updates and leadership insights?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify sectors with partnership updates indicating a shift to automation.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract leadership insights related to automation.",
+      "table": [
+        "SectionTitle"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Combine partnership updates and leadership insights to identify sectors shifting to automation.",
+      "table": [
+        "CompanyFocusAreaDetail",
+        "SectionTitle"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "question": "Which companies improved their IT infrastructure by adopting hybrid cloud technologies this year, and what are their strategic focus areas?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies that have mentioned adopting hybrid cloud technologies in their LinkedIn posts this year.",
+      "table": [
+        "PersonaLinkedinPost"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Filter these companies to find those that have shown improvements in their IT infrastructure.",
+      "table": [
+        "IndustryBusinessTrend"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Retrieve strategic focus areas for the identified companies.",
+      "table": [
+        "IndustryBusinessTrend"
+      ]
+    }
+  ]
+}

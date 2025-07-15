@@ -1,6 +1,5 @@
 {
   "question": "What are the most active personas on social media platforms discussing AI and machine learning at companies that have made significant moves in the tech stack?",
-  "tables": ["PersonaLinkedinPost", "PersonaUser", "CompanyTechStack"],
   "subtasks": [
     {
       "step": 1,

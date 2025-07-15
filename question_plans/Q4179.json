@@ -1,0 +1,26 @@
+{
+  "question": "How are university partnerships shaping corporate strategies to enhance AI-driven R&D efforts?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify university partnerships with corporations",
+      "table": [
+        "CompanyITPartnerDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract corporate strategies related to these partnerships",
+      "table": [
+        "CompanyITPartnerDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze how these strategies enhance AI-driven R&D efforts",
+      "table": [
+        "CompanyITPartnerDetail"
+      ]
+    }
+  ]
+}

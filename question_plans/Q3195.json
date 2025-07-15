@@ -1,0 +1,26 @@
+{
+  "question": "How does technology alignment in LinkedIn dynamics reflect on overall IT directives for vibrant companies?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify LinkedIn dynamics related to technology alignment.",
+      "table": [
+        "SocialMediaInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract IT directives from these dynamics.",
+      "table": [
+        "CompanyFacebookDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Correlate technology alignment with IT directives for vibrant companies.",
+      "table": [
+        "SocialMediaInfo"
+      ]
+    }
+  ]
+}

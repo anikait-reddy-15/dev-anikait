@@ -1,0 +1,26 @@
+{
+  "question": "What strategic benefits are companies achieving by expanding their cloud-native application portfolios?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies expanding their cloud-native application portfolios.",
+      "table": [
+        "CompanyTechStack"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Determine strategic benefits achieved by these companies.",
+      "table": [
+        "CompanyTechStack"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "List companies and their achieved strategic benefits.",
+      "table": [
+        "CompanyTechStack"
+      ]
+    }
+  ]
+}

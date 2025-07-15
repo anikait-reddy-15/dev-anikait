@@ -1,0 +1,27 @@
+{
+  "question": "What competitive positioning moves are being made by tech companies with growing Instagram usage?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify tech companies with growing Instagram usage.",
+      "table": [
+        "PersonaMisc"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract competitive positioning moves from the company data.",
+      "table": [
+        "SectionData"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "List competitive moves by these companies.",
+      "table": [
+        "PersonaMisc",
+        "SectionData"
+      ]
+    }
+  ]
+}

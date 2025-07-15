@@ -1,0 +1,27 @@
+{
+  "question": "Which companies began focusing on artificial intelligence after hiring new IT leadership personnel?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies that hired new IT leadership personnel",
+      "table": [
+        "CompanyManagementDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Find companies that began focusing on artificial intelligence",
+      "table": [
+        "SectionInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Combine results to find companies meeting both criteria",
+      "table": [
+        "CompanyManagementDetail",
+        "SectionInfo"
+      ]
+    }
+  ]
+}

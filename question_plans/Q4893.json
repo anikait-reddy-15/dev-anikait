@@ -1,0 +1,24 @@
+{
+  "question": "What strategic insights arise from the footsteps of digital adoption pioneers in industry forums?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify digital adoption pioneers.",
+      "table": [
+        "PersonaMisc"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract discussions from industry forums involving these pioneers.",
+      "table": [
+        "SectionTitle"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze discussions to derive strategic insights.",
+      "table": []
+    }
+  ]
+}

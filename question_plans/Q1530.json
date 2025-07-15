@@ -1,0 +1,26 @@
+{
+  "question": "Who are the senior data strategists in organizations rapidly increasing their IT partner collaborations?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify organizations rapidly increasing their IT partner collaborations.",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Find senior data strategists in these organizations.",
+      "table": [
+        "SectionTitle"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "List the senior data strategists identified in step 2.",
+      "table": [
+        "SectionTitle"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "question": "How are recent partnerships in fintech reflected through hires in blockchain technology roles?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify recent partnerships in the fintech sector.",
+      "table": [
+        "CompanyDataCenter"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Filter hiring details for blockchain technology roles.",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Match fintech partnerships with blockchain hiring trends.",
+      "table": [
+        "CompanyDataCenter",
+        "CompanyHiringDetail"
+      ]
+    }
+  ]
+}

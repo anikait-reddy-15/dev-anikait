@@ -1,0 +1,26 @@
+{
+  "question": "How do industry benchmarks align with companies innovating smart home technologies in their digital strategies?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies innovating in smart home technologies.",
+      "table": [
+        "CompanyITPartnerDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Retrieve industry benchmarks related to smart home technologies.",
+      "table": [
+        "SectionTitle"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the alignment of these benchmarks with the companies' digital strategies.",
+      "table": [
+        "SectionTitle"
+      ]
+    }
+  ]
+}

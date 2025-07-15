@@ -1,0 +1,26 @@
+{
+  "question": "How do data center expansions support strategic enterprise-level goals?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify data center expansions from the dataset.",
+      "table": [
+        "PersonaMisc"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract strategic enterprise-level goals related to these expansions.",
+      "table": [
+        "PersonaTitle"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the support provided by data center expansions to these goals.",
+      "table": [
+        "PersonaMisc"
+      ]
+    }
+  ]
+}

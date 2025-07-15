@@ -1,0 +1,27 @@
+{
+  "question": "Are social media posts regarding Chief Information Officers synchronized with strategic partnership agreements?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify social media posts regarding Chief Information Officers from the SocialMediaInfo table.",
+      "table": [
+        "SocialMediaInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Find strategic partnership agreements in the CompanyDataCenter table.",
+      "table": [
+        "CompanyDataCenter"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Check if these posts are synchronized with the partnership agreements.",
+      "table": [
+        "SocialMediaInfo",
+        "CompanyDataCenter"
+      ]
+    }
+  ]
+}

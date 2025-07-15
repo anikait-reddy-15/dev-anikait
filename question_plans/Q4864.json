@@ -1,0 +1,26 @@
+{
+  "question": "Which executives are leading discussions on privacy issues across digital platforms?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify executives from the database.",
+      "table": [
+        "PersonaMisc"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Find discussions related to privacy issues.",
+      "table": [
+        "SectionTitle"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Filter these discussions to those occurring on digital platforms.",
+      "table": [
+        "PersonaMisc"
+      ]
+    }
+  ]
+}

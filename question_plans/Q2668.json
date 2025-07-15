@@ -1,0 +1,26 @@
+{
+  "question": "What strategies do companies with high engagement in social networks use to innovate in SEO technologies?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies with high engagement in social networks.",
+      "table": [
+        "PersonaInstagramProfile"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract strategies used by these companies for SEO innovation.",
+      "table": [
+        "SectionData"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the effectiveness of these strategies in SEO technologies.",
+      "table": [
+        "SectionData"
+      ]
+    }
+  ]
+}

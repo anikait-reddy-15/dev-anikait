@@ -1,6 +1,5 @@
 {
   "question": "What common business trends are highlighted by executives in the finance industry regarding data analytics?",
-  "tables": ["IndustryBusinessTrend", "CompanyLeadershipExcerpt"],
   "subtasks": [
     {
       "step": 1,

@@ -1,0 +1,26 @@
+{
+  "question": "How are IT investment recalibrations tied to leadership performance indicators?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify IT investment recalibrations.",
+      "table": [
+        "CompanyVendorTechDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract leadership performance indicators.",
+      "table": [
+        "CompanyVendorTechDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the tie between investments and performance indicators.",
+      "table": [
+        "CompanyVendorTechDetail"
+      ]
+    }
+  ]
+}

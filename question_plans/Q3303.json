@@ -1,0 +1,27 @@
+{
+  "question": "Which companies in the e-commerce sector are emphasizing on customer data analytics through their recent tech investments?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies in the e-commerce sector.",
+      "table": [
+        "LookUpValue"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Find recent tech investments related to customer data analytics by these companies.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Combine the results to identify e-commerce companies focusing on customer data analytics.",
+      "table": [
+        "LookUpValue",
+        "IndustryITTrend"
+      ]
+    }
+  ]
+}

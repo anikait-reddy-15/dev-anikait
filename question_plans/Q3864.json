@@ -1,0 +1,26 @@
+{
+  "question": "Which industry leading firms regularly update technologies after executing tech-focused vendor deals?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify industry-leading firms involved in tech-focused vendor deals.",
+      "table": [
+        "CompanyManagementDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Determine the frequency of technology updates following these vendor deals.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "List firms that regularly update technologies post vendor deals.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    }
+  ]
+}

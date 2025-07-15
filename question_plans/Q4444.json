@@ -1,0 +1,26 @@
+{
+  "question": "How do IT service partnerships influence the competitive positioning of tech firms?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify IT service partnerships involving tech firms.",
+      "table": [
+        "CompanyDataCenter"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Analyze the competitive positioning of these tech firms.",
+      "table": [
+        "CompanyDataCenter"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Assess the influence of partnerships on competitive positioning.",
+      "table": [
+        "CompanyDataCenter"
+      ]
+    }
+  ]
+}

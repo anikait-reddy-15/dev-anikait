@@ -1,0 +1,24 @@
+{
+  "question": "What roles do data scientists assume in companies integrating AI into customer services?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies integrating AI into customer services.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "List roles related to data scientists in these companies.",
+      "table": [
+        "PersonaMisc"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Match data scientist roles with companies integrating AI into customer services.",
+      "table": []
+    }
+  ]
+}

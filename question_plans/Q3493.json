@@ -1,0 +1,27 @@
+{
+  "question": "What role does frontier technology play in company narratives witnessed through impactful social media contributions?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify frontier technology mentions in company narratives",
+      "table": [
+        "SectionInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Find impactful social media contributions related to these narratives",
+      "table": [
+        "PersonaYoutubeProfile"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the role of frontier technology in social media contributions",
+      "table": [
+        "SectionInfo",
+        "PersonaYoutubeProfile"
+      ]
+    }
+  ]
+}

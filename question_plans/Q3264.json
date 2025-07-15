@@ -1,0 +1,26 @@
+{
+  "question": "Who are enterprise IT strategists often sharing insights into evolving cloud technologies on LinkedIn?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify LinkedIn posts discussing cloud technologies.",
+      "table": [
+        "CompanyManagementDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Find enterprise IT strategists sharing these insights.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Compile a list of these strategists.",
+      "table": [
+        "LookUpValue"
+      ]
+    }
+  ]
+}

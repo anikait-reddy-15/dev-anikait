@@ -1,0 +1,26 @@
+{
+  "question": "Which company profiles have posted updates regarding new collaborations with AI startups?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify company profiles that have posted updates about collaborations.",
+      "table": [
+        "PersonaUser"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Filter updates specifically mentioning collaborations with AI startups.",
+      "table": [
+        "PersonaUser"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "List the company profiles with these specific updates.",
+      "table": [
+        "PersonaUser"
+      ]
+    }
+  ]
+}

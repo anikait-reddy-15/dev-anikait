@@ -1,0 +1,26 @@
+{
+  "question": "How is leadership communication evolving in response to AI and machine learning transformations?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify leadership communication mentions in leadership excerpts.",
+      "table": [
+        "PersonaMisc"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract mentions of AI and machine learning transformations from social media posts.",
+      "table": [
+        "PersonaTwitterTweets"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the evolution of leadership communication in response to AI/ML transformations.",
+      "table": [
+        "PersonaMisc"
+      ]
+    }
+  ]
+}

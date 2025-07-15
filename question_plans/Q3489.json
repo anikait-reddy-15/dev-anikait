@@ -1,0 +1,27 @@
+{
+  "question": "What competitive practices are companies implementing upon tech innovation mentions in leadership sections to bolster their market position on Facebook?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify tech innovation mentions in leadership sections",
+      "table": [
+        "SectionTitle"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Find competitive practices implemented by companies",
+      "table": [
+        "CompanyDataCenter"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Correlate these practices with Facebook market position strategies",
+      "table": [
+        "SectionTitle",
+        "CompanyDataCenter"
+      ]
+    }
+  ]
+}

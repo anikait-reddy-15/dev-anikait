@@ -1,6 +1,5 @@
 {
   "question": "Which industries have seen their data science hiring influenced by recent technological advancements?",
-  "tables": ["CompanyHiringDetail", "IndustryITTrend"],
   "subtasks": [
     {
       "step": 1,

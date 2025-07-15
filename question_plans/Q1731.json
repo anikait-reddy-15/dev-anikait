@@ -1,0 +1,26 @@
+{
+  "question": "How have chatbots become prominent topics in the Instagram strategies of business analytics companies?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify Instagram posts related to chatbots.",
+      "table": [
+        "CompanyTwitterDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Analyze the prominence of chatbot topics in these posts.",
+      "table": [
+        "CompanyTwitterDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Determine how business analytics companies integrate chatbots into their Instagram strategies.",
+      "table": [
+        "CompanyTwitterDetail"
+      ]
+    }
+  ]
+}

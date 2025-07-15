@@ -1,6 +1,5 @@
 {
   "question": "How many vendors are associated with LPL Financial's compliance automation platforms?",
-  "tables": ["CompanyVendorProductDetail", "CompanyInfo"],
   "subtasks": [
     {
       "step": 1,

@@ -1,0 +1,26 @@
+{
+  "question": "What significant adjustments follow shifts in job openings for analytics roles?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify shifts in job openings for analytics roles.",
+      "table": [
+        "PersonaTitle"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract significant adjustments related to these shifts.",
+      "table": [
+        "PersonaMisc"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the impact of these adjustments on the industry.",
+      "table": [
+        "PersonaMisc"
+      ]
+    }
+  ]
+}

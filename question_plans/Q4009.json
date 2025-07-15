@@ -1,0 +1,26 @@
+{
+  "question": "How are competitive analytics strategies mentioned in technology sectors' Twitter feeds?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies in the technology sector.",
+      "table": [
+        "PersonaTitle"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract Twitter feeds from these companies.",
+      "table": [
+        "PersonaMisc"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Find mentions of competitive analytics strategies in these feeds.",
+      "table": [
+        "PersonaMisc"
+      ]
+    }
+  ]
+}

@@ -1,6 +1,5 @@
 {
   "question": "Which industries are most proactive in discussing their data science hiring initiatives on LinkedIn?",
-  "tables": ["CompanyHiringDetail", "IndustryITTrend"],
   "subtasks": [
     {
       "step": 1,

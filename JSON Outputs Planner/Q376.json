@@ -1,26 +1,34 @@
 {
   "question": "Which companies have identified data scientists as key roles in their recent leadership strategies and mentioned specific technology stacks they are utilizing?",
-  "tables": ["CompanyLeadershipExcerpt", "CompanyTechStack"],
   "subtasks": [
     {
       "step": 1,
       "task": "Identify companies that have mentioned data scientists in their leadership strategies. [CompanyLeadershipExcerpt]",
-      "table": ["CompanyLeadershipExcerpt"]
+      "table": [
+        "CompanyLeadershipExcerpt"
+      ]
     },
     {
       "step": 2,
       "task": "Filter the leadership excerpts to focus on recent strategies. [CompanyLeadershipExcerpt]",
-      "table": ["CompanyLeadershipExcerpt"]
+      "table": [
+        "CompanyLeadershipExcerpt"
+      ]
     },
     {
       "step": 3,
       "task": "Identify the technology stacks associated with these companies. [CompanyTechStack]",
-      "table": ["CompanyTechStack"]
+      "table": [
+        "CompanyTechStack"
+      ]
     },
     {
       "step": 4,
       "task": "Match the identified companies with their respective technology stacks. [CompanyLeadershipExcerpt, CompanyTechStack]",
-      "table": ["CompanyLeadershipExcerpt", "CompanyTechStack"]
+      "table": [
+        "CompanyLeadershipExcerpt",
+        "CompanyTechStack"
+      ]
     }
   ]
 }

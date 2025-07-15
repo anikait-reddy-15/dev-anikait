@@ -1,0 +1,24 @@
+{
+  "question": "How do recent onboarding of IT partners affect a company's competitive IT positioning?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies that have recently onboarded IT partners.",
+      "table": [
+        "CompanyManagementDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Assess the competitive IT positioning of these companies.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the effect of onboarding IT partners on competitive positioning.",
+      "table": []
+    }
+  ]
+}

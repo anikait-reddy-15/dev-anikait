@@ -1,0 +1,27 @@
+{
+  "question": "How is the importance of edge computing highlighted in industry trends versus company tech stacks?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify industry trends related to edge computing.",
+      "table": [
+        "SocialMediaInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract mentions of edge computing in company tech stacks.",
+      "table": [
+        "PersonaUser"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Compare the importance of edge computing in industry trends and tech stacks.",
+      "table": [
+        "SocialMediaInfo",
+        "PersonaUser"
+      ]
+    }
+  ]
+}

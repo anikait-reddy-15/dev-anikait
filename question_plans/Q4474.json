@@ -1,0 +1,26 @@
+{
+  "question": "What do Instagram interactions reveal about companies\u2019 stances on ethical AI?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify Instagram interactions related to ethical AI.",
+      "table": [
+        "LookUpValue"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract company stances on ethical AI from these interactions.",
+      "table": [
+        "LookUpValue"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the overall sentiment and stance of companies on ethical AI.",
+      "table": [
+        "LookUpValue"
+      ]
+    }
+  ]
+}

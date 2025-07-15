@@ -1,0 +1,27 @@
+{
+  "question": "What industry trends have driven companies to alter their IT partner relationships and focuses?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify industry trends affecting IT partner relationships.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Find companies altering their IT partner relationships.",
+      "table": [
+        "PersonaUser"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the influence of industry trends on these changes.",
+      "table": [
+        "IndustryITTrend",
+        "PersonaUser"
+      ]
+    }
+  ]
+}

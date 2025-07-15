@@ -1,0 +1,26 @@
+{
+  "question": "How are digital yield goals integrated into recent competitive maneuvers?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies with digital yield goals from the CompanyTechStack table.",
+      "table": [
+        "CompanyTechStack"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract competitive maneuvers from these companies.",
+      "table": [
+        "CompanyTechStack"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze how digital yield goals are integrated into these maneuvers.",
+      "table": [
+        "CompanyTechStack"
+      ]
+    }
+  ]
+}

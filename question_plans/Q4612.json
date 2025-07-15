@@ -1,0 +1,26 @@
+{
+  "question": "What are the frequently discussed challenges for IT transformations in recent leadership excerpts?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Extract leadership excerpts from the PersonaTitle table.",
+      "table": [
+        "PersonaTitle"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Identify excerpts discussing IT transformations.",
+      "table": [
+        "PersonaTitle"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze frequently discussed challenges.",
+      "table": [
+        "PersonaTitle"
+      ]
+    }
+  ]
+}

@@ -1,26 +1,34 @@
 {
   "question": "Who are the key data scientists in companies that have closed major deals with analytics vendors in the last 12 months?",
-  "tables": ["PersonaUser", "CompanyDealMaster", "CompanyVendorProductDetail"],
   "subtasks": [
     {
       "step": 1,
       "task": "Identify companies that have closed major deals with analytics vendors in the last 12 months. [CompanyDealMaster]",
-      "table": ["CompanyDealMaster"]
+      "table": [
+        "CompanyDealMaster"
+      ]
     },
     {
       "step": 2,
       "task": "List the analytics vendors involved in these deals. [CompanyVendorProductDetail]",
-      "table": ["CompanyVendorProductDetail"]
+      "table": [
+        "CompanyVendorProductDetail"
+      ]
     },
     {
       "step": 3,
       "task": "Identify key data scientists working at the companies that closed these deals. [PersonaUser]",
-      "table": ["PersonaUser"]
+      "table": [
+        "PersonaUser"
+      ]
     },
     {
       "step": 4,
       "task": "Match the data scientists to their respective companies that have made the deals. [PersonaUser, CompanyDealMaster]",
-      "table": ["PersonaUser", "CompanyDealMaster"]
+      "table": [
+        "PersonaUser",
+        "CompanyDealMaster"
+      ]
     }
   ]
 }

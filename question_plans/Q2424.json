@@ -1,0 +1,27 @@
+{
+  "question": "What companies improved their tech stack by adding container technologies and have dynamic YouTube channels showcasing agile methods?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies that have improved their tech stack by adding container technologies.",
+      "table": [
+        "CompanyDataCenter"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Find companies with dynamic YouTube channels showcasing agile methods.",
+      "table": [
+        "CompanyYoutubeDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Cross-reference companies from both subtasks to find matches.",
+      "table": [
+        "CompanyDataCenter",
+        "CompanyYoutubeDetail"
+      ]
+    }
+  ]
+}

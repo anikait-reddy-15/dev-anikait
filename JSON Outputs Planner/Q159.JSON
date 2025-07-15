@@ -1,6 +1,5 @@
 {
   "question": "How do successful data projects impact the reputation and social presence of consulting firms in the tech industry?",
-  "tables": ["CompanySocialMediaInfo", "CompanyDealMaster"],
   "subtasks": [
     {
       "step": 1,

@@ -1,0 +1,26 @@
+{
+  "question": "Who are the new data scientists working for companies with a strategic focus on machine learning?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies with a strategic focus on machine learning.",
+      "table": [
+        "SectionData"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Find new data scientists working for these companies.",
+      "table": [
+        "PersonaMisc"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Compile a list of these new data scientists.",
+      "table": [
+        "PersonaMisc"
+      ]
+    }
+  ]
+}

@@ -1,21 +1,27 @@
 {
   "question": "Which companies are focusing on sustainability in their strategic initiatives and have a strong social media presence discussing renewable technologies?",
-  "tables": ["CompanyFocusAreaDetail", "CompanySocialMediaInfo"],
   "subtasks": [
     {
       "step": 1,
       "task": "Identify companies that have a focus on sustainability in their strategic initiatives. [CompanyFocusAreaDetail]",
-      "table": ["CompanyFocusAreaDetail"]
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
     },
     {
       "step": 2,
       "task": "Find companies with a strong social media presence discussing renewable technologies. [CompanySocialMediaInfo]",
-      "table": ["CompanySocialMediaInfo"]
+      "table": [
+        "CompanySocialMediaInfo"
+      ]
     },
     {
       "step": 3,
       "task": "Combine the results from both steps to find companies that meet both criteria. [CompanyFocusAreaDetail, CompanySocialMediaInfo]",
-      "table": ["CompanyFocusAreaDetail", "CompanySocialMediaInfo"]
+      "table": [
+        "CompanyFocusAreaDetail",
+        "CompanySocialMediaInfo"
+      ]
     }
   ]
 }

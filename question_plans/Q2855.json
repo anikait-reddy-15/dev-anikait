@@ -1,0 +1,26 @@
+{
+  "question": "How are environmental goals shaping IT investments in large tech companies, and how are these communicated?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify large tech companies with environmental goals.",
+      "table": [
+        "CompanyVendorProductDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Analyze how these goals are shaping IT investments.",
+      "table": [
+        "PersonaMisc"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Determine how these investments and goals are communicated.",
+      "table": [
+        "SocialMediaInfo"
+      ]
+    }
+  ]
+}

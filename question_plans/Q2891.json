@@ -1,0 +1,27 @@
+{
+  "question": "What are the impacts of high-performance computing systems on social media engagement among tech firms?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify tech firms using high-performance computing systems.",
+      "table": [
+        "CompanyVendorProductDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Analyze social media engagement metrics for these firms.",
+      "table": [
+        "SocialMediaInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Determine the impact of computing systems on engagement levels.",
+      "table": [
+        "CompanyVendorProductDetail",
+        "SocialMediaInfo"
+      ]
+    }
+  ]
+}

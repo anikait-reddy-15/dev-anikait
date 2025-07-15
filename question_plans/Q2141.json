@@ -1,0 +1,26 @@
+{
+  "question": "How do companies focus on digital customer engagement through Facebook and Twitter?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies with social media engagement on Facebook and Twitter.",
+      "table": [
+        "PersonaLinkedInProfile"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract posts or activities related to customer engagement strategies.",
+      "table": [
+        "PersonaLinkedInProfile"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the content of these posts to determine focus on digital customer engagement.",
+      "table": [
+        "PersonaLinkedInProfile"
+      ]
+    }
+  ]
+}

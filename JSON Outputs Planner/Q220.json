@@ -1,21 +1,27 @@
 {
   "question": "What technologies are frequently associated with competitive advantage among healthcare firms that have taken part in strategic vendor negotiations?",
-  "tables": ["CompanyVendorProductDetail", "CompanyTechStack", "CompanyDealMaster"],
   "subtasks": [
     {
       "step": 1,
       "task": "Identify healthcare firms that have engaged in strategic vendor negotiations",
-      "table": ["CompanyDealMaster"]
+      "table": [
+        "CompanyDealMaster"
+      ]
     },
     {
       "step": 2,
       "task": "Gather data on technologies associated with these healthcare firms",
-      "table": ["CompanyTechStack", "CompanyVendorProductDetail"]
+      "table": [
+        "CompanyTechStack",
+        "CompanyVendorProductDetail"
+      ]
     },
     {
       "step": 3,
       "task": "Analyze the technologies to identify those frequently associated with competitive advantage",
-      "table": ["CompanyTechStack"]
+      "table": [
+        "CompanyTechStack"
+      ]
     }
   ]
 }

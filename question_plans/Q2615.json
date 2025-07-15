@@ -1,0 +1,26 @@
+{
+  "question": "Which companies have increased data-centric job postings on their career pages and recently upgraded their database management systems?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies with increased data-centric job postings on their career pages.",
+      "table": [
+        "SectionData"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Find companies that have recently upgraded their database management systems.",
+      "table": [
+        "SectionData"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Combine results to find companies meeting both criteria.",
+      "table": [
+        "SectionData"
+      ]
+    }
+  ]
+}

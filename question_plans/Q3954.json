@@ -1,0 +1,26 @@
+{
+  "question": "How is data science portrayed when organizations pivot IT strategies toward automation excellence according to leadership talks?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify leadership talks about IT strategies pivoting towards automation.",
+      "table": [
+        "PersonaTitle"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract mentions of data science in these talks.",
+      "table": [
+        "PersonaTitle"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the portrayal of data science in this context.",
+      "table": [
+        "PersonaTitle"
+      ]
+    }
+  ]
+}

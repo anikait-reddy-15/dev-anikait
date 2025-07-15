@@ -1,0 +1,26 @@
+{
+  "question": "How do CTOs and CIOs regulate technology adoption processes within business models?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify CTOs and CIOs from the leadership excerpts.",
+      "table": [
+        "CompanyVendorTechDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract information on technology adoption processes.",
+      "table": [
+        "CompanyVendorTechDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze how these processes are integrated into business models.",
+      "table": [
+        "CompanyVendorTechDetail"
+      ]
+    }
+  ]
+}

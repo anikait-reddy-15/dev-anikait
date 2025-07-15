@@ -1,0 +1,26 @@
+{
+  "question": "What convergence strategies are visible in hardened security tech stacks for financial institutions?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify hardened security tech stacks in financial institutions.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract convergence strategies from these tech stacks.",
+      "table": [
+        "SectionTitle"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Compile a list of visible convergence strategies.",
+      "table": [
+        "CompanyInfo"
+      ]
+    }
+  ]
+}

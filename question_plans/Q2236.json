@@ -1,0 +1,26 @@
+{
+  "question": "How do technology advisors perceive the impact of tech automation in achieving business efficiency?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify technology advisors discussing tech automation from tech details.",
+      "table": [
+        "CompanyVendorTechDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract perceptions related to business efficiency from these discussions.",
+      "table": [
+        "CompanyVendorTechDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze and summarize the perceptions of tech automation's impact.",
+      "table": [
+        "CompanyVendorTechDetail"
+      ]
+    }
+  ]
+}

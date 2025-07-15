@@ -1,0 +1,26 @@
+{
+  "question": "What deals have been finalized with vendors providing leading SaaS solutions from conference updates?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify finalized deals from conference updates.",
+      "table": [
+        "CompanyTwitterDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Filter for vendors providing leading SaaS solutions.",
+      "table": [
+        "CompanyTwitterDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Combine results to find finalized deals with SaaS vendors.",
+      "table": [
+        "CompanyTwitterDetail"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "question": "Which companies recently revised their IT partners list in tandem with signing new big data analytics vendor deals?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies that have revised their IT partners list.",
+      "table": [
+        "CompanyDataCenter"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Identify companies that have signed new big data analytics vendor deals.",
+      "table": [
+        "CompanyDataCenter"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Find companies that appear in both lists.",
+      "table": []
+    }
+  ]
+}

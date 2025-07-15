@@ -1,21 +1,27 @@
 {
   "question": "How do the social media engagement metrics of companies compare to their investments in emerging technologies as reported by their tech stacks?",
-  "tables": ["SocialMediaInfo", "CompanyTechStack"],
   "subtasks": [
     {
       "step": 1,
       "task": "Collect social media engagement metrics for relevant companies. [SocialMediaInfo]",
-      "table": ["SocialMediaInfo"]
+      "table": [
+        "SocialMediaInfo"
+      ]
     },
     {
       "step": 2,
       "task": "Gather investment data in emerging technologies. [CompanyTechStack]",
-      "table": ["CompanyTechStack"]
+      "table": [
+        "CompanyTechStack"
+      ]
     },
     {
       "step": 3,
       "task": "Compare engagement metrics with tech investment data. [SocialMediaInfo, CompanyTechStack]",
-      "table": ["SocialMediaInfo", "CompanyTechStack"]
+      "table": [
+        "SocialMediaInfo",
+        "CompanyTechStack"
+      ]
     }
   ]
 }

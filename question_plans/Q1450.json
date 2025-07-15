@@ -1,0 +1,26 @@
+{
+  "question": "How are social media strategies and technology adoption linked in consumer goods companies focusing on AI?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify consumer goods companies focusing on AI.",
+      "table": [
+        "PersonaMisc"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Retrieve social media strategies of these companies.",
+      "table": [
+        "PersonaTwitterTweets"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the link between social media strategies and technology adoption.",
+      "table": [
+        "PersonaTwitterTweets"
+      ]
+    }
+  ]
+}

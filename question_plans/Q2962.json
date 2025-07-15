@@ -1,0 +1,26 @@
+{
+  "question": "How do shifts in industry trends influence technology priorities for transportation companies?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify current industry trends affecting transportation companies.",
+      "table": [
+        "CompanyTechStack"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Determine how these trends influence technology priorities.",
+      "table": [
+        "CompanyTechStack"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Summarize the influence of industry trends on technology priorities.",
+      "table": [
+        "CompanyTechStack"
+      ]
+    }
+  ]
+}

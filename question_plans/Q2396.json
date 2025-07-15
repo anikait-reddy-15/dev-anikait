@@ -1,0 +1,27 @@
+{
+  "question": "How do industry experts' online commentaries influence vibrant markets looking to incorporate deep learning capabilities?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Extract online commentaries from industry experts.",
+      "table": [
+        "SectionInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Identify markets incorporating deep learning capabilities.",
+      "table": [
+        "CompanyDealMaster"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the influence of commentaries on market incorporation.",
+      "table": [
+        "CompanyDealMaster",
+        "SectionInfo"
+      ]
+    }
+  ]
+}

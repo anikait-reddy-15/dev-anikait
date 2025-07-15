@@ -1,0 +1,27 @@
+{
+  "question": "How are innovative drug trials leveraging advancements given in comprehensive system studies on open industry-focused Instagram accounts?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify advancements discussed in Instagram accounts.",
+      "table": [
+        "SectionInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract innovative drug trials leveraging these advancements.",
+      "table": [
+        "CompanyDealMaster"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the leverage of advancements in drug trials.",
+      "table": [
+        "CompanyDealMaster",
+        "SectionInfo"
+      ]
+    }
+  ]
+}

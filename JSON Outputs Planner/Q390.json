@@ -1,26 +1,34 @@
 {
   "question": "What insights can be drawn from the recent social media activity of data leadership at companies that have invested in cybersecurity technologies?",
-  "tables": ["PersonaUser", "PersonaLinkedinActivity", "CompanyVendorTechDetail"],
   "subtasks": [
     {
       "step": 1,
       "task": "Identify companies that have invested in cybersecurity technologies. [CompanyVendorTechDetail]",
-      "table": ["CompanyVendorTechDetail"]
+      "table": [
+        "CompanyVendorTechDetail"
+      ]
     },
     {
       "step": 2,
       "task": "Identify the data leadership personas at these companies. [PersonaUser]",
-      "table": ["PersonaUser"]
+      "table": [
+        "PersonaUser"
+      ]
     },
     {
       "step": 3,
       "task": "Gather the social media activity (LinkedIn) from these leadership personas. [PersonaLinkedinActivity]",
-      "table": ["PersonaLinkedinActivity"]
+      "table": [
+        "PersonaLinkedinActivity"
+      ]
     },
     {
       "step": 4,
       "task": "Analyze the insights from social media activity in relation to their company's investment in cybersecurity. [PersonaLinkedinActivity, CompanyVendorTechDetail]",
-      "table": ["PersonaLinkedinActivity", "CompanyVendorTechDetail"]
+      "table": [
+        "PersonaLinkedinActivity",
+        "CompanyVendorTechDetail"
+      ]
     }
   ]
 }

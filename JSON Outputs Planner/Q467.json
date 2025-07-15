@@ -1,21 +1,27 @@
 {
   "question": "Which organizations signed deals with vendors focusing on machine learning technologies while simultaneously hiring for data science positions?",
-  "tables": ["CompanyDealMaster", "CompanyVendorTechDetail", "CompanyHiringDetail"],
   "subtasks": [
     {
       "step": 1,
       "task": "Identify organizations that signed deals with vendors focusing on machine learning technologies. [CompanyVendorTechDetail, CompanyDealMaster]",
-      "table": ["CompanyVendorTechDetail", "CompanyDealMaster"]
+      "table": [
+        "CompanyVendorTechDetail",
+        "CompanyDealMaster"
+      ]
     },
     {
       "step": 2,
       "task": "Gather data on companies that are hiring for data science positions. [CompanyHiringDetail]",
-      "table": ["CompanyHiringDetail"]
+      "table": [
+        "CompanyHiringDetail"
+      ]
     },
     {
       "step": 3,
       "task": "Cross-reference the organizations involved in machine learning deals with those hiring for data science. [CompanyHiringDetail]",
-      "table": ["CompanyHiringDetail"]
+      "table": [
+        "CompanyHiringDetail"
+      ]
     }
   ]
 }

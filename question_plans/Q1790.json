@@ -1,0 +1,26 @@
+{
+  "question": "What topics are frequently discussed in relationship to data analytics advancements on Twitter?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify tweets related to data analytics advancements from the PersonaTwitterTweets table.",
+      "table": [
+        "PersonaTwitterTweets"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract frequently discussed topics from these tweets.",
+      "table": [
+        "PersonaTwitterTweets"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the relationship between these topics and data analytics advancements.",
+      "table": [
+        "PersonaTwitterTweets"
+      ]
+    }
+  ]
+}

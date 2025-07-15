@@ -1,0 +1,27 @@
+{
+  "question": "What is the correlation between the number of data centers a company operates and their public statements on sustainable technology practices?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Determine the number of data centers each company operates.",
+      "table": [
+        "CompanyTechStack"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract public statements on sustainable technology practices.",
+      "table": [
+        "IndustryBusinessTrend"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the correlation between data centers and sustainability statements.",
+      "table": [
+        "CompanyTechStack",
+        "IndustryBusinessTrend"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "question": "Which emerging technologies have influenced the market strategy shifts in firms engaged in prominent tech-sector deals?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify emerging technologies from tech-sector deals.",
+      "table": [
+        "IndustryBusinessTrend"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Identify market strategy shifts in firms engaged in these deals.",
+      "table": [
+        "IndustryBusinessTrend"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the influence of emerging technologies on market strategy shifts.",
+      "table": [
+        "IndustryBusinessTrend"
+      ]
+    }
+  ]
+}

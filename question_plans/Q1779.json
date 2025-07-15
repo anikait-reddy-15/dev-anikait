@@ -1,0 +1,26 @@
+{
+  "question": "Which companies noted digital transformation goals influencing competitive vendor product agreements?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies with digital transformation goals.",
+      "table": [
+        "CompanyTwitterDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Find vendor product agreements.",
+      "table": [
+        "CompanyTwitterDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze influence of transformation goals on agreements.",
+      "table": [
+        "CompanyTwitterDetail"
+      ]
+    }
+  ]
+}

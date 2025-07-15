@@ -1,0 +1,26 @@
+{
+  "question": "What industry focus areas are evident in companies\u2019 expansions of their tech infrastructure?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify industry focus areas from leadership excerpts.",
+      "table": [
+        "PersonaMisc"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract mentions of tech infrastructure expansions from social media posts.",
+      "table": [
+        "PersonaTwitterTweets"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the relationship between industry focus areas and tech infrastructure expansions.",
+      "table": [
+        "PersonaMisc"
+      ]
+    }
+  ]
+}

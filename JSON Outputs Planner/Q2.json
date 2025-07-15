@@ -1,10 +1,5 @@
 {
   "question": "Who are the key leaders at New York Life impacting technology investments in data management strategies?",
-  "tables": [
-    "CompanyITPartnerDetail",
-    "CompanyInfo",
-    "CompanyManagementDetail"
-  ],
   "subtasks": [
     {
       "step": 1,

@@ -1,0 +1,27 @@
+{
+  "question": "Which companies have keynotes on cloud infrastructure and are expanding their associated capabilities?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify keynotes on cloud infrastructure from the SectionData table.",
+      "table": [
+        "SectionData"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Find companies expanding cloud capabilities from the CompanyVendorProductDetail table.",
+      "table": [
+        "CompanyVendorProductDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Match companies' keynotes with their expansion of cloud capabilities.",
+      "table": [
+        "SectionData",
+        "CompanyVendorProductDetail"
+      ]
+    }
+  ]
+}

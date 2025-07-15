@@ -1,0 +1,26 @@
+{
+  "question": "Are there major breakthroughs showing hybrid cloud diversifications in the pharmaceutical landscape?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify hybrid cloud diversifications in the pharmaceutical sector.",
+      "table": [
+        "CompanyDataCenter"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract mentions of major breakthroughs in this context.",
+      "table": [
+        "SectionTitle"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Determine the significance of these breakthroughs.",
+      "table": [
+        "CompanyDataCenter"
+      ]
+    }
+  ]
+}

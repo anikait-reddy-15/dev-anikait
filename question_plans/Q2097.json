@@ -1,0 +1,26 @@
+{
+  "question": "What technological shifts are seen among companies harnessing IT infrastructure change for market leadership?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies focusing on IT infrastructure change from the PersonaUser table.",
+      "table": [
+        "PersonaUser"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract technological shifts related to these changes from the PersonaLinkedinActivity table.",
+      "table": [
+        "PersonaLinkedinActivity"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "List the technological shifts seen among these companies.",
+      "table": [
+        "PersonaLinkedinActivity"
+      ]
+    }
+  ]
+}

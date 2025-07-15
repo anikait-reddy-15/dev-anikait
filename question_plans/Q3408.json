@@ -1,0 +1,24 @@
+{
+  "question": "Which companies claimed an increase in green technology initiatives within their leadership excerpts and have data centers with recent sustainability certifications?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies claiming an increase in green technology initiatives.",
+      "table": [
+        "SectionInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Find companies with data centers having recent sustainability certifications.",
+      "table": [
+        "CompanyDataCenter"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Combine results to find companies meeting both criteria.",
+      "table": []
+    }
+  ]
+}

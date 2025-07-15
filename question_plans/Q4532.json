@@ -1,0 +1,27 @@
+{
+  "question": "What IT trends are impacting companies with recent leadership speeches on innovation?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies with recent leadership speeches on innovation.",
+      "table": [
+        "PersonaMisc"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract IT trends impacting these companies.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the impact of IT trends on these companies.",
+      "table": [
+        "PersonaMisc",
+        "IndustryITTrend"
+      ]
+    }
+  ]
+}

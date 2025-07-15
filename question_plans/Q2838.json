@@ -1,0 +1,27 @@
+{
+  "question": "How are changes in digital marketing strategies reflected through increased activity on company Instagram pages?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify changes in digital marketing strategies.",
+      "table": [
+        "SectionData"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Find increased activity on company Instagram pages.",
+      "table": [
+        "SocialMediaInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze reflection of marketing strategy changes in Instagram activity.",
+      "table": [
+        "SectionData",
+        "SocialMediaInfo"
+      ]
+    }
+  ]
+}

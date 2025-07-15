@@ -1,6 +1,5 @@
 {
   "question": "Which personas frequently engage with industry trends related to data science in their LinkedIn activities?",
-  "tables": ["PersonaLinkedinPost", "IndustryITTrend"],
   "subtasks": [
     {
       "step": 1,

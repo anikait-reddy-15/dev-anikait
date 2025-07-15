@@ -1,0 +1,27 @@
+{
+  "question": "How are augmented reality developments shaping strategic focus areas among technologically advanced companies?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify augmented reality developments from the IndustryITTrend table.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Filter technologically advanced companies from the PersonaUser table.",
+      "table": [
+        "PersonaUser"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze how these developments are influencing strategic focus areas among the identified companies.",
+      "table": [
+        "IndustryITTrend",
+        "PersonaUser"
+      ]
+    }
+  ]
+}

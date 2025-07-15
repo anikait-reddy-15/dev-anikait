@@ -1,21 +1,27 @@
 {
   "question": "Which companies have reported a shift in their technology stacks that correlates with leadership changes in the last six months?",
-  "tables": ["CompanyTechStack", "CompanyLeadershipExcerpt"],
   "subtasks": [
     {
       "step": 1,
       "task": "Identify companies that have reported shifts in their technology stacks. [CompanyTechStack]",
-      "table": ["CompanyTechStack"]
+      "table": [
+        "CompanyTechStack"
+      ]
     },
     {
       "step": 2,
       "task": "Identify leadership changes that have occurred in the last six months. [CompanyLeadershipExcerpt]",
-      "table": ["CompanyLeadershipExcerpt"]
+      "table": [
+        "CompanyLeadershipExcerpt"
+      ]
     },
     {
       "step": 3,
       "task": "Correlate the technology stack shifts with the identified leadership changes. [CompanyTechStack, CompanyLeadershipExcerpt]",
-      "table": ["CompanyTechStack", "CompanyLeadershipExcerpt"]
+      "table": [
+        "CompanyTechStack",
+        "CompanyLeadershipExcerpt"
+      ]
     }
   ]
 }

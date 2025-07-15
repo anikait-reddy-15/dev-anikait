@@ -1,0 +1,26 @@
+{
+  "question": "How are electronic product companies enhancing their robotics offerings, according to vendor technology details?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify electronic product companies with robotics offerings.",
+      "table": [
+        "PersonaTitle"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract vendor technology details related to robotics enhancements.",
+      "table": [
+        "IndustryBusinessTrend"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze how these companies are enhancing their robotics offerings.",
+      "table": [
+        "PersonaLinkedinPost"
+      ]
+    }
+  ]
+}

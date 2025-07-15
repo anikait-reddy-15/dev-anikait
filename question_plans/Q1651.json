@@ -1,0 +1,26 @@
+{
+  "question": "What major shifts in customer support paradigms have companies with new CTOs been following?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies with new CTOs.",
+      "table": [
+        "PersonaTitle"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract major shifts in customer support paradigms.",
+      "table": [
+        "PersonaLinkedInProfile"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the impact of these shifts on customer support operations.",
+      "table": [
+        "PersonaYoutubeProfile"
+      ]
+    }
+  ]
+}

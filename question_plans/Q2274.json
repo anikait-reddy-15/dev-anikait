@@ -1,0 +1,26 @@
+{
+  "question": "How do technology specialists communicate new product features through corporate channels?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify technology specialists.",
+      "table": [
+        "PersonaUser"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract data on new product features.",
+      "table": [
+        "CompanyVendorTechDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze communication methods through corporate channels.",
+      "table": [
+        "PersonaUser"
+      ]
+    }
+  ]
+}

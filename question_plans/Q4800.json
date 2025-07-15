@@ -1,0 +1,26 @@
+{
+  "question": "How do companies' strategic interests evolve with increased investments in blockchain coding environments?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies that have increased their investments in blockchain coding environments.",
+      "table": [
+        "CompanyTechStack"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract strategic interests or trends related to these companies.",
+      "table": [
+        "IndustryBusinessTrend"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze how the strategic interests have evolved over time for these companies.",
+      "table": [
+        "CompanyVendorTechDetail"
+      ]
+    }
+  ]
+}

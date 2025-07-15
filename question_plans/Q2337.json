@@ -1,0 +1,26 @@
+{
+  "question": "How many individuals have Instagram posts emphasizing tech innovation, who also work for companies enhancing their IT networks?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify individuals with Instagram posts emphasizing tech innovation.",
+      "table": [
+        "SectionInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Find companies enhancing their IT networks.",
+      "table": [
+        "SectionInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Count the individuals who work for the identified companies.",
+      "table": [
+        "SectionInfo"
+      ]
+    }
+  ]
+}

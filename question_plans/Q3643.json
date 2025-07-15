@@ -1,0 +1,27 @@
+{
+  "question": "Identify the connection between company hiring surges in data science roles and industry trends on social media.",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify industry trends related to data science from the IndustryBusinessTrend table.",
+      "table": [
+        "IndustryBusinessTrend"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract data on company hiring surges in data science roles from the PersonaTitle table.",
+      "table": [
+        "PersonaTitle"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the connection between hiring surges and identified industry trends.",
+      "table": [
+        "PersonaTitle",
+        "IndustryBusinessTrend"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "question": "Which competitive differentiators are emphasized by tech marketers in promoting SaaS solutions recently?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify recent promotions of SaaS solutions by tech marketers.",
+      "table": [
+        "SectionData"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract competitive differentiators emphasized in these promotions.",
+      "table": [
+        "SectionData"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Identify and list the differentiators.",
+      "table": [
+        "SectionData"
+      ]
+    }
+  ]
+}

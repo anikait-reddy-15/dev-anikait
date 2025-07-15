@@ -1,0 +1,26 @@
+{
+  "question": "Which automotive companies are integrating AI-driven solutions in their tech stacks according to vendor partnerships?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify automotive companies from the CompanyITPartnerDetail table.",
+      "table": [
+        "CompanyITPartnerDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Find vendor partnerships related to AI-driven solutions.",
+      "table": [
+        "CompanyITPartnerDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Check if these companies are integrating AI-driven solutions in their tech stacks.",
+      "table": [
+        "SectionTitle"
+      ]
+    }
+  ]
+}

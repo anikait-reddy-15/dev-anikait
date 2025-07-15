@@ -1,0 +1,27 @@
+{
+  "question": "Which utility companies are pioneering blockchain integrations within their operating frameworks and deal records?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify utility companies.",
+      "table": [
+        "CompanyDataCenter"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Find blockchain integrations within operating frameworks.",
+      "table": [
+        "CompanyLeadershipExcerpt"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Combine data to find utility companies pioneering blockchain integrations.",
+      "table": [
+        "CompanyDataCenter",
+        "CompanyLeadershipExcerpt"
+      ]
+    }
+  ]
+}

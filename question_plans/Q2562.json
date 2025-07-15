@@ -1,0 +1,26 @@
+{
+  "question": "How does increased emphasis on digital strategy correlate with frequent Twitter appraisals of new leadership?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify posts related to digital strategy from the PersonaTwitterProfile table.",
+      "table": [
+        "PersonaTwitterProfile"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract posts appraising new leadership from the PersonaTwitterProfile table.",
+      "table": [
+        "PersonaTwitterProfile"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the correlation between digital strategy emphasis and leadership appraisals.",
+      "table": [
+        "PersonaTwitterProfile"
+      ]
+    }
+  ]
+}

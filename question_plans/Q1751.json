@@ -1,0 +1,26 @@
+{
+  "question": "Which company leaders have focused on cutting-edge IT partnerships to navigate significant market shifts?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify company leaders discussing IT partnerships.",
+      "table": [
+        "CompanyTwitterDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Find references to cutting-edge IT partnerships.",
+      "table": [
+        "CompanyTwitterDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Determine which leaders are focusing on these partnerships to navigate market shifts.",
+      "table": [
+        "CompanyTwitterDetail"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "question": "What leadership comments hint at impending artificial intelligence deployments within enterprises?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify leadership comments from the CompanyTwitterDetail table.",
+      "table": [
+        "CompanyTwitterDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract comments hinting at artificial intelligence deployments.",
+      "table": [
+        "CompanyTwitterDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Match these comments with the enterprises planning AI deployments.",
+      "table": [
+        "CompanyTwitterDetail"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "question": "What major digital transformation investments have been made by companies that concurrently engage in sustainability communications?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies involved in sustainability communications.",
+      "table": [
+        "PersonaMisc"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Find major digital transformation investments made by these companies.",
+      "table": [
+        "CompanyVendorProductDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the relationship between sustainability communications and digital transformation investments.",
+      "table": [
+        "PersonaMisc",
+        "CompanyVendorProductDetail"
+      ]
+    }
+  ]
+}

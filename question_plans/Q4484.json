@@ -1,0 +1,26 @@
+{
+  "question": "How do YouTube profiles help companies showcase their sustainable innovations?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Extract YouTube profile data related to sustainable innovations.",
+      "table": [
+        "PersonaTitle"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Analyze the content of these profiles to identify showcases of sustainable innovations.",
+      "table": [
+        "PersonaTitle"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Correlate these showcases with specific companies to understand their strategies.",
+      "table": [
+        "CompanyDataCenter"
+      ]
+    }
+  ]
+}

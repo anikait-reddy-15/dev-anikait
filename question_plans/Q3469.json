@@ -1,0 +1,26 @@
+{
+  "question": "Who among the tech personas are receiving an increasing number of Twitter followers while their company is burgeoning tech investments?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify tech personas with increasing Twitter followers.",
+      "table": [
+        "PersonaYoutubeProfile"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Find companies with burgeoning tech investments.",
+      "table": [
+        "CompanyDataCenter"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Link tech personas to their companies' tech investments.",
+      "table": [
+        "SectionInfo"
+      ]
+    }
+  ]
+}

@@ -1,21 +1,27 @@
 {
   "question": "Who are the key data figures in companies that recently adopted cloud-based data solutions?",
-  "tables": ["PersonaUser", "CompanyLeadershipExcerpt", "CompanyTechStack"],
   "subtasks": [
     {
       "step": 1,
       "task": "Identify companies that have recently adopted cloud-based data solutions. [CompanyTechStack]",
-      "table": ["CompanyTechStack"]
+      "table": [
+        "CompanyTechStack"
+      ]
     },
     {
       "step": 2,
       "task": "Find key figures in data science leadership at those identified companies. [CompanyLeadershipExcerpt]",
-      "table": ["CompanyLeadershipExcerpt"]
+      "table": [
+        "CompanyLeadershipExcerpt"
+      ]
     },
     {
       "step": 3,
       "task": "Match the leadership figures with the companies that adopted cloud solutions. [PersonaUser, CompanyLeadershipExcerpt]",
-      "table": ["PersonaUser", "CompanyLeadershipExcerpt"]
+      "table": [
+        "PersonaUser",
+        "CompanyLeadershipExcerpt"
+      ]
     }
   ]
 }

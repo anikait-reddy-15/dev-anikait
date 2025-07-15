@@ -1,0 +1,26 @@
+{
+  "question": "Which businesses are shifting focus towards digital-first strategies in recent sector trends?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify businesses mentioned in recent sector trends.",
+      "table": [
+        "SectionData"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Filter those businesses that are focusing on digital-first strategies.",
+      "table": [
+        "SectionData"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Compile a list of businesses that match the criteria.",
+      "table": [
+        "SectionData"
+      ]
+    }
+  ]
+}

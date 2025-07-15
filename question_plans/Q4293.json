@@ -1,0 +1,26 @@
+{
+  "question": "Which Retail firms are heavily investing in robotics, as indicated in their recent business trend exploration?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify retail firms involved in robotics.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract data on recent business trend exploration.",
+      "table": [
+        "SectionTitle"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Determine which firms are heavily investing in robotics.",
+      "table": [
+        "CompanyInfo"
+      ]
+    }
+  ]
+}

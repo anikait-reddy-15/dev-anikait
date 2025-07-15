@@ -1,21 +1,27 @@
 {
   "question": "Which companies have announced new strategic partnerships in their leadership excerpts while focusing on sustainability initiatives?",
-  "tables": ["CompanyLeadershipExcerpt", "CompanyFocusAreaDetail"],
   "subtasks": [
     {
       "step": 1,
       "task": "Identify leadership excerpts that mention strategic partnerships",
-      "table": ["CompanyLeadershipExcerpt"]
+      "table": [
+        "CompanyLeadershipExcerpt"
+      ]
     },
     {
       "step": 2,
       "task": "Filter leadership excerpts to include only those focused on sustainability initiatives",
-      "table": ["CompanyFocusAreaDetail"]
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
     },
     {
       "step": 3,
       "task": "Combine the results to list companies with relevant leadership excerpts",
-      "table": ["CompanyLeadershipExcerpt", "CompanyFocusAreaDetail"]
+      "table": [
+        "CompanyLeadershipExcerpt",
+        "CompanyFocusAreaDetail"
+      ]
     }
   ]
 }

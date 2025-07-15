@@ -1,6 +1,5 @@
 {
   "question": "How many active social media channels does Gantherm have for marketing?",
-  "tables": ["SocialMediaInfo", "CompanyInfo"],
   "subtasks": [
     {
       "step": 1,

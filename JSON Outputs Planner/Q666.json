@@ -1,16 +1,20 @@
 {
   "question": "What are the key collaboration trends between fintech companies and AI vendors?",
-  "tables": ["CompanyDealMaster", "CompanyInfo"],
   "subtasks": [
     {
       "step": 1,
       "task": "Identify fintech companies signing deals with AI vendors.",
-      "table": ["CompanyDealMaster", "CompanyInfo"]
+      "table": [
+        "CompanyDealMaster",
+        "CompanyInfo"
+      ]
     },
     {
       "step": 2,
       "task": "Analyze the nature and frequency of collaborations.",
-      "table": ["CompanyDealMaster"]
+      "table": [
+        "CompanyDealMaster"
+      ]
     }
   ]
 }

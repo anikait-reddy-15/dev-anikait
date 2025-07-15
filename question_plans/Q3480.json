@@ -1,0 +1,26 @@
+{
+  "question": "Which companies established partnerships with fintech vendors, complementing their leadership's proactive focus on financial integration technology?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies with partnerships with fintech vendors.",
+      "table": [
+        "SectionInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Find leadership focus on financial integration technology.",
+      "table": [
+        "SectionTitle"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Correlate fintech partnerships with leadership focus.",
+      "table": [
+        "CompanyDataCenter"
+      ]
+    }
+  ]
+}

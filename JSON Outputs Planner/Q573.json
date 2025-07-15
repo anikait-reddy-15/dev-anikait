@@ -1,21 +1,27 @@
 {
   "question": "Which companies have been promoting their data science capabilities through YouTube content and also have a collaborative culture highlighted in their employee profiles?",
-  "tables": ["CompanyYoutubeDetail", "PersonaMisc"],
   "subtasks": [
     {
       "step": 1,
       "task": "Identify companies promoting data science capabilities through YouTube. [CompanyYoutubeDetail]",
-      "table": ["CompanyYoutubeDetail"]
+      "table": [
+        "CompanyYoutubeDetail"
+      ]
     },
     {
       "step": 2,
       "task": "Find companies with a collaborative culture highlighted in employee profiles. [PersonaMisc]",
-      "table": ["PersonaMisc"]
+      "table": [
+        "PersonaMisc"
+      ]
     },
     {
       "step": 3,
       "task": "Match the companies from both lists to find those that meet both criteria. [CompanyYoutubeDetail, PersonaMisc]",
-      "table": ["CompanyYoutubeDetail", "PersonaMisc"]
+      "table": [
+        "CompanyYoutubeDetail",
+        "PersonaMisc"
+      ]
     }
   ]
 }

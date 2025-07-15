@@ -1,0 +1,27 @@
+{
+  "question": "How are industry business trends influencing IT expansion in publicly traded companies?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify current industry business trends.",
+      "table": [
+        "PersonaLinkedInProfile"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Identify publicly traded companies with IT expansion activities.",
+      "table": [
+        "CompanyVendorTechDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the influence of industry trends on IT expansion.",
+      "table": [
+        "PersonaLinkedInProfile",
+        "CompanyVendorTechDetail"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "question": "What dynamics are established when tech startups publicly disclose their AI-driven platform successes?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify tech startups disclosing AI-driven platform successes.",
+      "table": [
+        "CompanyTwitterDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract public disclosures related to AI platforms.",
+      "table": [
+        "SocialMediaInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the dynamics established by these disclosures.",
+      "table": [
+        "SocialMediaInfo"
+      ]
+    }
+  ]
+}

@@ -1,6 +1,5 @@
 {
   "question": "Which companies have openly discussed the challenges of adopting new technologies in their leadership comments?",
-  "tables": ["CompanyLeadershipExcerpt", "CompanyTechStack"],
   "subtasks": [
     {
       "step": 1,

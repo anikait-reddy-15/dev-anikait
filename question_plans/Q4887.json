@@ -1,0 +1,24 @@
+{
+  "question": "Who is often recognized for promoting digitization of processes within complex IT architectures?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify individuals or companies promoting digitization of processes.",
+      "table": [
+        "PersonaMisc"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Filter those involved with complex IT architectures.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "List those recognized for their promotion efforts.",
+      "table": []
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "question": "What business sectors are life sciences companies pivoting to as evidenced by new industrial trends?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify life sciences companies from the CompanyYoutubeDetail table.",
+      "table": [
+        "CompanyYoutubeDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract new industrial trends related to these companies.",
+      "table": [
+        "CompanyYoutubeDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the trends to determine which business sectors these companies are pivoting to.",
+      "table": [
+        "CompanyYoutubeDetail"
+      ]
+    }
+  ]
+}

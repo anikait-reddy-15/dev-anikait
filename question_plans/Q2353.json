@@ -1,0 +1,26 @@
+{
+  "question": "Which profiles are linked to the smart grid innovations in their Twitter discussions, present in companies rapidly upgrading their IT infrastructures?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify profiles discussing smart grid innovations on Twitter.",
+      "table": [
+        "SectionInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Find companies rapidly upgrading their IT infrastructures.",
+      "table": [
+        "CompanyDealMaster"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Link the profiles to the companies identified in step 2.",
+      "table": [
+        "SectionTitle"
+      ]
+    }
+  ]
+}

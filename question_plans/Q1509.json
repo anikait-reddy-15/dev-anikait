@@ -1,0 +1,19 @@
+{
+  "question": "What technologies are becoming common among companies that have recently welcomed a new Head of Innovation?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies that have recently welcomed a new Head of Innovation from the CompanyHiringDetail table.",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Determine the technologies becoming common among these companies.",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    }
+  ]
+}

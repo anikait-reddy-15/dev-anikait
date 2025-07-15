@@ -1,0 +1,27 @@
+{
+  "question": "How are changes in PR strategies influencing organizational developments in tech-driven client engagement?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Extract PR strategy changes from the SectionTitle table.",
+      "table": [
+        "SectionTitle"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Identify organizational developments in client engagement from the CompanyITPartnerDetail table.",
+      "table": [
+        "CompanyITPartnerDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the influence of PR strategy changes on client engagement developments.",
+      "table": [
+        "SectionTitle",
+        "CompanyITPartnerDetail"
+      ]
+    }
+  ]
+}

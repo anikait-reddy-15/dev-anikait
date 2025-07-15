@@ -1,21 +1,26 @@
 {
   "question": "What are the most mentioned focus areas in leadership excerpts from companies that are actively hiring for data engineering roles?",
-  "tables": ["CompanyLeadershipExcerpt", "CompanyHiringDetail"],
   "subtasks": [
     {
       "step": 1,
       "task": "Identify companies that are actively hiring for data engineering roles.",
-      "table": ["CompanyHiringDetail"]
+      "table": [
+        "CompanyHiringDetail"
+      ]
     },
     {
       "step": 2,
       "task": "Gather leadership excerpts from these companies.",
-      "table": ["CompanyLeadershipExcerpt"]
+      "table": [
+        "CompanyLeadershipExcerpt"
+      ]
     },
     {
       "step": 3,
       "task": "Analyze the leadership excerpts to find the most mentioned focus areas.",
-      "table": ["CompanyLeadershipExcerpt"]
+      "table": [
+        "CompanyLeadershipExcerpt"
+      ]
     }
   ]
 }

@@ -1,0 +1,27 @@
+{
+  "question": "How do advanced recruiters use LinkedIn activity to explore trends in hiring for emerging technologies?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify LinkedIn activity related to hiring for emerging technologies.",
+      "table": [
+        "LookUpValue"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract methods used by recruiters to explore hiring trends.",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the effectiveness of these methods in identifying trends.",
+      "table": [
+        "CompanyHiringDetail",
+        "LookUpValue"
+      ]
+    }
+  ]
+}

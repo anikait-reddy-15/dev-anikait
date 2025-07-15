@@ -1,0 +1,26 @@
+{
+  "question": "Which organizations have promoted technology leadership from within and updated their tech stack accordingly?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify organizations that have promoted technology leadership roles internally.",
+      "table": [
+        "PersonaLinkedInProfile"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Determine updates made to the tech stack of these organizations.",
+      "table": [
+        "CompanyVendorTechDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Correlate internal leadership promotions with tech stack updates.",
+      "table": [
+        "CompanyVendorTechDetail"
+      ]
+    }
+  ]
+}

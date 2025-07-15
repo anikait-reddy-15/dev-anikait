@@ -1,0 +1,28 @@
+{
+  "question": "Who are the personas known for insights into digital trust innovations, and how do they share their thoughts online?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify personas known for insights into digital trust innovations.",
+      "table": [
+        "PersonaTitle"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract how these personas share their thoughts online.",
+      "table": [
+        "PersonaFaceBook",
+        "PersonaInstagramProfile"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the platforms and methods used for sharing insights.",
+      "table": [
+        "PersonaFaceBook",
+        "PersonaInstagramProfile"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "question": "How is the marriage of design thinking and digital solutions shaping up in creative industries?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies in creative industries from the CompanyITPartnerDetail table.",
+      "table": [
+        "CompanyITPartnerDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract information on digital solutions from the SectionTitle table.",
+      "table": [
+        "SectionTitle"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the intersection of design thinking and digital solutions in creative industries.",
+      "table": [
+        "CompanyITPartnerDetail",
+        "SectionTitle"
+      ]
+    }
+  ]
+}

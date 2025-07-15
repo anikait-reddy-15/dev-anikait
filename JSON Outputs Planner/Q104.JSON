@@ -1,6 +1,5 @@
 {
   "question": "Which data specialists have shared case studies on LinkedIn about their firms' recent vendor partnerships?",
-  "tables": ["PersonaLinkedinPost", "CompanyDealMaster", "PersonaUser"],
   "subtasks": [
     {
       "step": 1,

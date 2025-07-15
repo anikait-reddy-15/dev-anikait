@@ -1,0 +1,24 @@
+{
+  "question": "What organizational shifts are detailed in leadership excerpts during periods of IT trend transformations?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify periods of IT trend transformations.",
+      "table": [
+        "CompanyTwitterDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract leadership excerpts detailing organizational shifts.",
+      "table": [
+        "CompanyFacebookDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Link organizational shifts with IT trend transformation periods.",
+      "table": []
+    }
+  ]
+}

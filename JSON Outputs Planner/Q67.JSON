@@ -1,6 +1,5 @@
 {
   "question": "How do data privacy trends impact technology strategies in the legal sector?",
-  "tables": ["IndustryITTrend", "SectionInfo"],
   "subtasks": [
     {
       "step": 1,

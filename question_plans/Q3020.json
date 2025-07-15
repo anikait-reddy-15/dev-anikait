@@ -1,0 +1,26 @@
+{
+  "question": "Which data science managers have transitioned to new roles within the last year and what technologies are they adopting?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify data science managers who have transitioned to new roles within the last year.",
+      "table": [
+        "CompanyManagementDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Retrieve technologies being adopted by the managers identified in step 1.",
+      "table": [
+        "CompanyManagementDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "List the technologies adopted by these managers.",
+      "table": [
+        "CompanyManagementDetail"
+      ]
+    }
+  ]
+}

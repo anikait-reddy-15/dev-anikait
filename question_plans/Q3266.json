@@ -1,0 +1,26 @@
+{
+  "question": "Which brands see higher Facebook engagement after leadership changes discussed in their Facebook detail?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify leadership changes discussed in Facebook details.",
+      "table": [
+        "CompanyManagementDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Determine brands associated with these leadership changes.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze Facebook engagement levels for these brands.",
+      "table": [
+        "LookUpValue"
+      ]
+    }
+  ]
+}

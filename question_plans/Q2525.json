@@ -1,0 +1,26 @@
+{
+  "question": "What challenges did companies face when adopting virtual reality, as shared in LinkedIn posts?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify LinkedIn posts related to virtual reality adoption.",
+      "table": [
+        "PersonaLinkedInProfile"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract challenges mentioned in these posts.",
+      "table": [
+        "PersonaLinkedInProfile"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Compile a list of challenges faced by companies.",
+      "table": [
+        "PersonaLinkedInProfile"
+      ]
+    }
+  ]
+}

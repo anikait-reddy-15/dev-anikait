@@ -1,0 +1,33 @@
+{
+  "question": "Which companies in the healthcare sector have significantly expanded their data center capabilities and IT security investments?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies in the healthcare sector.",
+      "table": [
+        "CompanyYoutubeDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Filter companies that have expanded their data center capabilities.",
+      "table": [
+        "CompanyYoutubeDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Filter companies that have increased IT security investments.",
+      "table": [
+        "CompanyYoutubeDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Combine results to find healthcare companies meeting both criteria.",
+      "table": [
+        "CompanyYoutubeDetail"
+      ]
+    }
+  ]
+}

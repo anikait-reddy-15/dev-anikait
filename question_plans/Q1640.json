@@ -1,0 +1,26 @@
+{
+  "question": "Which companies have listed advances in quantum computing within their technology stack amid recent media engagement?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies with recent media engagement.",
+      "table": [
+        "PersonaTitle"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract mentions of quantum computing in their technology stack.",
+      "table": [
+        "PersonaTitle"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "List companies that have included quantum computing advances.",
+      "table": [
+        "PersonaTitle"
+      ]
+    }
+  ]
+}

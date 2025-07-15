@@ -1,0 +1,26 @@
+{
+  "question": "Which leadership figures have voiced challenges encountered in implementing big data solutions?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify leadership figures involved in big data projects.",
+      "table": [
+        "PersonaTitle"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract statements regarding challenges in big data implementation.",
+      "table": [
+        "LookUpValue"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Compile a list of challenges voiced by these leaders.",
+      "table": [
+        "LookUpValue"
+      ]
+    }
+  ]
+}

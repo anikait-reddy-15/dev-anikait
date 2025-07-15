@@ -1,0 +1,27 @@
+{
+  "question": "Which organizations have shown a rise in technology utilization and published excerpts discussing corporate sustainability?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify organizations that have shown a rise in technology utilization.",
+      "table": [
+        "CompanyDataCenter"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Find organizations that have published excerpts discussing corporate sustainability.",
+      "table": [
+        "CompanyLeadershipExcerpt"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Cross-reference organizations from both subtasks to find matches.",
+      "table": [
+        "CompanyDataCenter",
+        "CompanyLeadershipExcerpt"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "question": "Discover firms aligning workplace hiring announcements with top industrial trends in cybersecurity interest.",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify top industrial trends in cybersecurity.",
+      "table": [
+        "IndustryBusinessTrend"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Find firms with workplace hiring announcements.",
+      "table": [
+        "PersonaTitle"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Align hiring announcements with cybersecurity trends.",
+      "table": [
+        "PersonaTitle",
+        "IndustryBusinessTrend"
+      ]
+    }
+  ]
+}

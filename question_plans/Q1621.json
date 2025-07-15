@@ -1,0 +1,27 @@
+{
+  "question": "What focus areas have been prioritized by companies during periods of increased YouTube engagement?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies with increased YouTube engagement.",
+      "table": [
+        "PersonaYoutubeProfile"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract focus areas from the identified companies.",
+      "table": [
+        "PersonaTitle"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Correlate the focus areas with the periods of increased YouTube engagement.",
+      "table": [
+        "PersonaYoutubeProfile",
+        "PersonaTitle"
+      ]
+    }
+  ]
+}

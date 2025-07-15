@@ -1,0 +1,26 @@
+{
+  "question": "What new initiatives are announced in Instagram posts by companies transitioning to smart technology infrastructure?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies transitioning to smart technology infrastructure.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract Instagram posts related to these companies.",
+      "table": [
+        "PersonaMisc"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Identify new initiatives announced in these posts.",
+      "table": [
+        "PersonaMisc"
+      ]
+    }
+  ]
+}

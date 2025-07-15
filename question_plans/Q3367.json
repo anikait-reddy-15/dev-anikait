@@ -1,0 +1,27 @@
+{
+  "question": "How are shifts in market dynamics driving new vendor partnerships in the financial industry?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify shifts in market dynamics from the IndustryITTrend table.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract vendor partnerships in the financial industry from the CompanyVendorProductDetail table.",
+      "table": [
+        "CompanyVendorProductDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze how market dynamics shifts are influencing new vendor partnerships.",
+      "table": [
+        "IndustryITTrend",
+        "CompanyVendorProductDetail"
+      ]
+    }
+  ]
+}

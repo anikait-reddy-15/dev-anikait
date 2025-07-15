@@ -1,21 +1,27 @@
 {
   "question": "What social media strategies are used by AI startups with recent product launches?",
-  "tables": ["CompanyTwitterProfile", "CompanyFocusAreaDetail"],
   "subtasks": [
     {
       "step": 1,
       "task": "Identify AI startups with recent product launches.",
-      "table": ["CompanyFocusAreaDetail"]
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
     },
     {
       "step": 2,
       "task": "Analyze their Twitter strategies and engagement metrics.",
-      "table": ["CompanyTwitterProfile"]
+      "table": [
+        "CompanyTwitterProfile"
+      ]
     },
     {
       "step": 3,
       "task": "Summarize key social media strategies used.",
-      "table": ["CompanyFocusAreaDetail", "CompanyTwitterProfile"]
+      "table": [
+        "CompanyFocusAreaDetail",
+        "CompanyTwitterProfile"
+      ]
     }
   ]
 }

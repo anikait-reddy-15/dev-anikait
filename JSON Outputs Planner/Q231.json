@@ -1,21 +1,27 @@
 {
   "question": "In the last year, which companies have shifted their technology stack towards open-source solutions while also increasing their social media presence?",
-  "tables": ["CompanyTechStack", "CompanyTwitterDetail"],
   "subtasks": [
     {
       "step": 1,
       "task": "Identify companies that have shifted their technology stack towards open-source solutions in the last year",
-      "table": ["CompanyTechStack"]
+      "table": [
+        "CompanyTechStack"
+      ]
     },
     {
       "step": 2,
       "task": "Identify companies that have increased their social media presence over the same period",
-      "table": ["CompanyTwitterDetail"]
+      "table": [
+        "CompanyTwitterDetail"
+      ]
     },
     {
       "step": 3,
       "task": "Cross-reference the two lists to find companies that meet both criteria",
-      "table": ["CompanyTechStack", "CompanyTwitterDetail"]
+      "table": [
+        "CompanyTechStack",
+        "CompanyTwitterDetail"
+      ]
     }
   ]
 }

@@ -1,0 +1,26 @@
+{
+  "question": "Which vendors are at the forefront of providing AR solutions to companies revising their product lines?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies revising their product lines.",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Find vendors providing AR solutions to these companies.",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "List vendors at the forefront of providing AR solutions.",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    }
+  ]
+}

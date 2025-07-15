@@ -1,21 +1,27 @@
 {
   "question": "Which companies have increased their investments in edge computing and are actively hiring IoT specialists?",
-  "tables": ["CompanyFinancials", "CompanyHiringDetail"],
   "subtasks": [
     {
       "step": 1,
       "task": "Identify companies increasing investments in edge computing.",
-      "table": ["CompanyFinancials"]
+      "table": [
+        "CompanyFinancials"
+      ]
     },
     {
       "step": 2,
       "task": "Find companies hiring IoT specialists.",
-      "table": ["CompanyHiringDetail"]
+      "table": [
+        "CompanyHiringDetail"
+      ]
     },
     {
       "step": 3,
       "task": "Cross-reference companies investing in edge computing and hiring IoT specialists.",
-      "table": ["CompanyFinancials", "CompanyHiringDetail"]
+      "table": [
+        "CompanyFinancials",
+        "CompanyHiringDetail"
+      ]
     }
   ]
 }

@@ -1,6 +1,5 @@
 {
   "question": "What technology-related conversations are prevalent among executives managing firms with substantial social media engagement?",
-  "tables": ["CompanySocialMediaInfo", "CompanyLeadershipExcerpt"],
   "subtasks": [
     {
       "step": 1,

@@ -1,0 +1,26 @@
+{
+  "question": "Which companies demonstrate strategic alignment in adopting smart grid initiatives based on social media insights?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies involved in smart grid initiatives.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract social media insights related to these initiatives.",
+      "table": [
+        "PersonaMisc"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze strategic alignment based on the insights.",
+      "table": [
+        "CompanyInfo"
+      ]
+    }
+  ]
+}

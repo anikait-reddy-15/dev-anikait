@@ -1,0 +1,26 @@
+{
+  "question": "How do regulatory changes impact contractual deals with technology vendors in the finance sector?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify regulatory changes affecting the finance sector.",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract details of contractual deals with technology vendors.",
+      "table": [
+        "CompanyDataCenter"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the impact of regulatory changes on these deals.",
+      "table": [
+        "CompanyDataCenter"
+      ]
+    }
+  ]
+}

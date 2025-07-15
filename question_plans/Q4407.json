@@ -1,0 +1,26 @@
+{
+  "question": "What are the common themes in leadership excerpts for companies expanding their data analytics capabilities?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies expanding their data analytics capabilities.",
+      "table": [
+        "LookUpValue"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract leadership excerpts from these companies.",
+      "table": [
+        "PersonaTitle"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze and identify common themes in the leadership excerpts.",
+      "table": [
+        "PersonaTitle"
+      ]
+    }
+  ]
+}

@@ -1,6 +1,5 @@
 {
   "question": "Which companies have mentioned adopting Snowflake in their tech stack in the past 3 months?",
-  "tables": ["CompanyTechStack", "CompanyInfo"],
   "subtasks": [
     {
       "step": 1,

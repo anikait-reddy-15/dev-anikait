@@ -1,21 +1,27 @@
 {
   "question": "Who are the personnel mentioned in LinkedIn posts that discuss artificial intelligence at companies winning recent, large-scale vendor deals?",
-  "tables": ["PersonaLinkedinPost", "CompanyDealMaster", "PersonaUser"],
   "subtasks": [
     {
       "step": 1,
       "task": "Identify companies with recent large-scale vendor deals. [CompanyDealMaster]",
-      "table": ["CompanyDealMaster"]
+      "table": [
+        "CompanyDealMaster"
+      ]
     },
     {
       "step": 2,
       "task": "Find LinkedIn posts from these companies discussing artificial intelligence. [PersonaLinkedinPost]",
-      "table": ["PersonaLinkedinPost"]
+      "table": [
+        "PersonaLinkedinPost"
+      ]
     },
     {
       "step": 3,
       "task": "Extract personnel mentioned in those posts. [PersonaLinkedinPost, PersonaUser]",
-      "table": ["PersonaLinkedinPost", "PersonaUser"]
+      "table": [
+        "PersonaLinkedinPost",
+        "PersonaUser"
+      ]
     }
   ]
 }

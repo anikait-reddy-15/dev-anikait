@@ -1,21 +1,26 @@
 {
   "question": "Which vendors are involved in providing analytics solutions to companies that are currently seeking data scientists as part of their growth strategy?",
-  "tables": ["CompanyVendorProductDetail", "CompanyHiringDetail", "CompanyDealMaster"],
   "subtasks": [
     {
       "step": 1,
       "task": "Identify companies that are seeking data scientists as part of their growth strategy. [CompanyHiringDetail]",
-      "table": ["CompanyHiringDetail"]
+      "table": [
+        "CompanyHiringDetail"
+      ]
     },
     {
       "step": 2,
       "task": "Find vendors providing analytics solutions to these companies. [CompanyVendorProductDetail]",
-      "table": ["CompanyVendorProductDetail"]
+      "table": [
+        "CompanyVendorProductDetail"
+      ]
     },
     {
       "step": 3,
       "task": "Correlate the vendors with the companies seeking data scientists. [CompanyDealMaster]",
-      "table": ["CompanyDealMaster"]
+      "table": [
+        "CompanyDealMaster"
+      ]
     }
   ]
 }

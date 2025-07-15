@@ -1,0 +1,27 @@
+{
+  "question": "How are prominent investment topics matched for transportation networks leveraging vehicle automation capabilities?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify investment topics related to vehicle automation.",
+      "table": [
+        "SectionInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Determine transportation networks leveraging automation capabilities.",
+      "table": [
+        "CompanyDealMaster"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the match between investment topics and transportation networks.",
+      "table": [
+        "CompanyDealMaster",
+        "SectionInfo"
+      ]
+    }
+  ]
+}

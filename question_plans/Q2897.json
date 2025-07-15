@@ -1,0 +1,27 @@
+{
+  "question": "How is the integration of privacy enhancements into tech stacks communicated through popular social platforms?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify tech stacks with integrated privacy enhancements.",
+      "table": [
+        "CompanyVendorProductDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Analyze communication about these enhancements on social platforms.",
+      "table": [
+        "SocialMediaInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Determine how these communications are structured and received.",
+      "table": [
+        "CompanyVendorProductDetail",
+        "SocialMediaInfo"
+      ]
+    }
+  ]
+}

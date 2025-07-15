@@ -1,6 +1,5 @@
 {
   "question": "What recent LinkedIn posts by HDFC Bank's executives mention technology investments?",
-  "tables": ["PersonaLinkedInProfile", "CompanyInfo", "PersonaLinkedinPost"],
   "subtasks": [
     {
       "step": 1,

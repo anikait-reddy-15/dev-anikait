@@ -1,0 +1,26 @@
+{
+  "question": "How do transformations in corporate governance link with adjustments in IT architecture adoption?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Extract information on corporate governance transformations from the PersonaLinkedinActivity table.",
+      "table": [
+        "PersonaLinkedinActivity"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Identify adjustments in IT architecture adoption from the same table.",
+      "table": [
+        "PersonaLinkedinActivity"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the link between corporate governance transformations and IT architecture adjustments.",
+      "table": [
+        "PersonaLinkedinActivity"
+      ]
+    }
+  ]
+}

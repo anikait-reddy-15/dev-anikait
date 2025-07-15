@@ -1,0 +1,24 @@
+{
+  "question": "What are the prevalent IT solutions being implemented by companies mentioned frequently in startup narratives on platforms?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies frequently mentioned in startup narratives.",
+      "table": [
+        "SocialMediaInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Find IT solutions being implemented by these companies.",
+      "table": [
+        "IndustryBusinessTrend"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "List the prevalent IT solutions for these companies.",
+      "table": []
+    }
+  ]
+}

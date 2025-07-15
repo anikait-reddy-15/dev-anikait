@@ -1,0 +1,27 @@
+{
+  "question": "What companies have recently undergone vendor partnerships focused on data privacy and shared related strategies on Instagram?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies with recent vendor partnerships focused on data privacy.",
+      "table": [
+        "CompanyDealMaster"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Find companies that have shared related strategies on Instagram.",
+      "table": [
+        "SectionInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Cross-reference the companies from both criteria.",
+      "table": [
+        "CompanyDealMaster",
+        "SectionInfo"
+      ]
+    }
+  ]
+}

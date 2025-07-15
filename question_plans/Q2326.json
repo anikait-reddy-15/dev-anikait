@@ -1,0 +1,27 @@
+{
+  "question": "What key challenges are facing companies that recently launched content about smart infrastructure on YouTube?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies that launched content about smart infrastructure on YouTube.",
+      "table": [
+        "SectionInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Determine the key challenges these companies are facing.",
+      "table": [
+        "SectionTitle"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Link the challenges to the companies identified in the first step.",
+      "table": [
+        "SectionInfo",
+        "SectionTitle"
+      ]
+    }
+  ]
+}

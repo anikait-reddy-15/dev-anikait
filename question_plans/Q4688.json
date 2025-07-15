@@ -1,0 +1,26 @@
+{
+  "question": "What executive insights are recurrent in industry roundtable discussions?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify records of industry roundtable discussions.",
+      "table": [
+        "PersonaTitle"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract executive insights from these discussions.",
+      "table": [
+        "PersonaTitle"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Determine which insights are recurrent.",
+      "table": [
+        "PersonaTitle"
+      ]
+    }
+  ]
+}

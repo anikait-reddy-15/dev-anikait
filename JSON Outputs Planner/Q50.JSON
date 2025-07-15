@@ -1,6 +1,5 @@
 {
   "question": "What technologies are discussed in LinkedIn posts by executives focusing on operational excellence in healthcare?",
-  "tables": ["PersonaLinkedinPost", "LookUpValue"],
   "subtasks": [
     {
       "step": 1,

@@ -1,0 +1,26 @@
+{
+  "question": "Where do AI collaborations with partner technologies frequently appear in cross-platform business publications?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify AI collaborations with partner technologies.",
+      "table": [
+        "IndustryBusinessTrend"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract instances of these collaborations in business publications.",
+      "table": [
+        "IndustryBusinessTrend"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Determine where these collaborations frequently appear.",
+      "table": [
+        "IndustryBusinessTrend"
+      ]
+    }
+  ]
+}

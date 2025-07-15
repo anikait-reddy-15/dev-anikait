@@ -1,0 +1,27 @@
+{
+  "question": "Which voices are prominent in sustainable technology conversations across companies expanding AI capabilities on Facebook?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies expanding AI capabilities on Facebook.",
+      "table": [
+        "CompanyYoutubeDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Identify voices prominent in sustainable technology conversations.",
+      "table": [
+        "PersonaYoutubeProfile"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Match prominent voices with companies expanding AI capabilities.",
+      "table": [
+        "PersonaYoutubeProfile",
+        "CompanyYoutubeDetail"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "question": "Which sectors are most represented among companies that have extensively upgraded their IT infrastructure recently?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies that have extensively upgraded their IT infrastructure.",
+      "table": [
+        "PersonaMisc"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Determine the sectors these companies belong to.",
+      "table": [
+        "PersonaMisc"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze and list the most represented sectors.",
+      "table": [
+        "PersonaMisc"
+      ]
+    }
+  ]
+}

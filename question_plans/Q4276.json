@@ -1,0 +1,26 @@
+{
+  "question": "Who are the leaders noted in social media discussions about cloud transition?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Extract social media discussions about cloud transition.",
+      "table": [
+        "PersonaMisc"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Identify leaders mentioned in these discussions.",
+      "table": [
+        "PersonaMisc"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Compile a list of these leaders.",
+      "table": [
+        "PersonaMisc"
+      ]
+    }
+  ]
+}

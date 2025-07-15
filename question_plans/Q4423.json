@@ -1,0 +1,26 @@
+{
+  "question": "How do the top management layers of media companies express their focus on tech innovation?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify media companies and their top management layers.",
+      "table": [
+        "PersonaTitle"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract statements or excerpts from management on tech innovation.",
+      "table": [
+        "LookUpValue"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the focus and themes of these statements.",
+      "table": [
+        "LookUpValue"
+      ]
+    }
+  ]
+}

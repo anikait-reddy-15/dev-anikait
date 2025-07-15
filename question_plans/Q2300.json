@@ -1,0 +1,26 @@
+{
+  "question": "How are emerging tech trends reflected in recent corporate social media campaigns?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Extract recent corporate social media campaigns.",
+      "table": [
+        "SectionInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Identify emerging tech trends within these campaigns.",
+      "table": [
+        "SectionInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze how these trends are reflected in the campaigns.",
+      "table": [
+        "SectionInfo"
+      ]
+    }
+  ]
+}

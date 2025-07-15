@@ -1,0 +1,27 @@
+{
+  "question": "Which personas mentioned data-driven culture in their professional updates and have influence in market-leading companies?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Extract professional updates mentioning data-driven culture.",
+      "table": [
+        "SectionTitle"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Identify personas with influence in market-leading companies.",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "List personas meeting both criteria.",
+      "table": [
+        "SectionTitle",
+        "CompanyHiringDetail"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "question": "Which retail companies are expanding their technology stack for better e-commerce solutions?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify retail companies from the dataset.",
+      "table": [
+        "PersonaTitle"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract information on technology stack expansions related to e-commerce.",
+      "table": [
+        "PersonaMisc"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Match retail companies with their technology stack expansion activities.",
+      "table": [
+        "PersonaMisc"
+      ]
+    }
+  ]
+}

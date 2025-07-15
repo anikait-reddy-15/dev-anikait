@@ -1,6 +1,5 @@
 {
   "question": "Who are the key individuals responsible for data science initiatives in organizations that have partnered with major IT vendors over the last year?",
-  "tables": ["PersonaUser", "CompanyITPartnerDetail", "CompanyDealMaster"],
   "subtasks": [
     {
       "step": 1,

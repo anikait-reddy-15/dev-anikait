@@ -1,0 +1,26 @@
+{
+  "question": "What leadership elements describe organizations keen on boosting AI capabilities within their operatives?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify organizations focused on AI capabilities.",
+      "table": [
+        "SocialMediaInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract leadership elements from leadership excerpts.",
+      "table": [
+        "SocialMediaInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Correlate leadership elements with AI capability initiatives.",
+      "table": [
+        "CompanyTwitterDetail"
+      ]
+    }
+  ]
+}

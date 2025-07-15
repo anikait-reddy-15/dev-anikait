@@ -1,0 +1,24 @@
+{
+  "question": "Which companies upped their IT hiring and also detailed a strategic shift toward edge computing in recent press releases?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies that upped their IT hiring.",
+      "table": [
+        "SectionInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Find companies detailing a strategic shift toward edge computing.",
+      "table": [
+        "CompanyDataCenter"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Combine results to find companies meeting both criteria.",
+      "table": []
+    }
+  ]
+}

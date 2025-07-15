@@ -1,0 +1,26 @@
+{
+  "question": "Which healthcare companies reported data center expansions along with cybersecurity product purchases recently?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify healthcare companies reporting data center expansions.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Identify healthcare companies purchasing cybersecurity products.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Find companies that meet both criteria.",
+      "table": [
+        "CompanyInfo"
+      ]
+    }
+  ]
+}

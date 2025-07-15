@@ -1,0 +1,26 @@
+{
+  "question": "What leadership qualities are admired in sectors with abundant cloud employment opportunities?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify sectors with abundant cloud employment opportunities from social posts.",
+      "table": [
+        "CompanyTwitterDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract leadership qualities mentioned in leadership excerpts.",
+      "table": [
+        "CompanyManagementDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze which leadership qualities are admired in these sectors.",
+      "table": [
+        "CompanyManagementDetail"
+      ]
+    }
+  ]
+}

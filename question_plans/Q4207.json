@@ -1,0 +1,26 @@
+{
+  "question": "What changes in persona hiring responsibilities are common among companies shifting to a remote-first approach?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies shifting to a remote-first approach.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Retrieve changes in hiring responsibilities for these companies.",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Identify common changes in hiring responsibilities.",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    }
+  ]
+}

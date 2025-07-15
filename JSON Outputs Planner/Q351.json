@@ -1,21 +1,27 @@
 {
   "question": "Who are the key decision-makers at organizations that recently adopted machine learning tools and have noted their impact in leadership excerpts?",
-  "tables": ["CompanyLeadershipExcerpt", "CompanyTechStack"],
   "subtasks": [
     {
       "step": 1,
       "task": "Identify organizations that have recently adopted machine learning tools. [CompanyTechStack]",
-      "table": ["CompanyTechStack"]
+      "table": [
+        "CompanyTechStack"
+      ]
     },
     {
       "step": 2,
       "task": "Retrieve leadership excerpts that discuss the impact of these tools. [CompanyLeadershipExcerpt]",
-      "table": ["CompanyLeadershipExcerpt"]
+      "table": [
+        "CompanyLeadershipExcerpt"
+      ]
     },
     {
       "step": 3,
       "task": "Match the leadership excerpts with the organizations that adopted machine learning tools. [CompanyLeadershipExcerpt, CompanyTechStack]",
-      "table": ["CompanyLeadershipExcerpt", "CompanyTechStack"]
+      "table": [
+        "CompanyLeadershipExcerpt",
+        "CompanyTechStack"
+      ]
     }
   ]
 }

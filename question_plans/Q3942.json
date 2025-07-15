@@ -1,0 +1,26 @@
+{
+  "question": "Which tech-savvy personas engage most with digital transformation narratives on Facebook?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify personas with a focus on digital transformation.",
+      "table": [
+        "PersonaLinkedinPost"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Filter for personas active on Facebook.",
+      "table": [
+        "PersonaLinkedinPost"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Determine engagement levels of these personas with digital transformation narratives.",
+      "table": [
+        "PersonaLinkedinPost"
+      ]
+    }
+  ]
+}

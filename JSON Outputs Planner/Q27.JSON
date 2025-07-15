@@ -1,6 +1,5 @@
 {
   "question": "Which data-driven companies are noted for their active engagement on Instagram while also investing in innovative tech solutions?",
-  "tables": ["CompanyInfo", "CompanyInstagramDetail"],
   "subtasks": [
     {
       "step": 1,

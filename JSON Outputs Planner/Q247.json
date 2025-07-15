@@ -1,21 +1,26 @@
 {
   "question": "Which data scientists are associated with companies that have increased their social media presence regarding AI technologies over the past year?",
-  "tables": ["PersonaUser", "CompanyFocusAreaDetail", "SocialMediaInfo"],
   "subtasks": [
     {
       "step": 1,
       "task": "Identify companies with increased social media presence on AI technologies in the past year",
-      "table": ["SocialMediaInfo"]
+      "table": [
+        "SocialMediaInfo"
+      ]
     },
     {
       "step": 2,
       "task": "Filter companies focused on AI technologies",
-      "table": ["CompanyFocusAreaDetail"]
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
     },
     {
       "step": 3,
       "task": "Extract data scientists associated with these companies",
-      "table": ["PersonaUser"]
+      "table": [
+        "PersonaUser"
+      ]
     }
   ]
 }

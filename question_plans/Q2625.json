@@ -1,0 +1,24 @@
+{
+  "question": "What technological upgrades are occurring in industries experiencing a manpower surge according to recent hiring data?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify industries experiencing a manpower surge from hiring data.",
+      "table": [
+        "SectionData"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Find technological upgrades occurring in these industries.",
+      "table": [
+        "SectionData"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Combine results to link manpower surge with technological upgrades.",
+      "table": []
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "question": "Who are the key data scientists influencing decision-making at companies prioritizing AI investments this year?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies prioritizing AI investments this year.",
+      "table": [
+        "CompanyDataCenter"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Find key data scientists at these companies.",
+      "table": [
+        "PersonaLinkedInProfile"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Determine which data scientists are influencing decision-making.",
+      "table": [
+        "CompanyLeadershipExcerpt"
+      ]
+    }
+  ]
+}

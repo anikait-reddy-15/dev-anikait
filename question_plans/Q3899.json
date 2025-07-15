@@ -1,0 +1,26 @@
+{
+  "question": "What distinctive hiring practices have occurred during widespread shifts in business technology sectors?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify widespread shifts occurring in business technology sectors.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract distinctive hiring practices during these shifts.",
+      "table": [
+        "CompanyManagementDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the correlation between these shifts and hiring practices.",
+      "table": [
+        "CompanyManagementDetail"
+      ]
+    }
+  ]
+}

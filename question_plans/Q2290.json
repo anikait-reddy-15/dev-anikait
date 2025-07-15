@@ -1,0 +1,26 @@
+{
+  "question": "Which company management pivots reflect adaptive responses to market digitalization shifts?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify company management pivots from the available data.",
+      "table": [
+        "CompanyVendorTechDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Filter these pivots to focus on responses to market digitalization shifts.",
+      "table": [
+        "CompanyVendorTechDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze how these pivots reflect adaptive responses.",
+      "table": [
+        "CompanyVendorTechDetail"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "question": "What vendors are facilitating digital transformation initiatives for companies with a declining number of data centers?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies with a declining number of data centers.",
+      "table": [
+        "CompanyTechStack"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract vendors facilitating digital transformation initiatives.",
+      "table": [
+        "CompanyVendorTechDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Link vendors to companies with declining data centers.",
+      "table": [
+        "CompanyTechStack",
+        "CompanyVendorTechDetail"
+      ]
+    }
+  ]
+}

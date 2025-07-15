@@ -1,0 +1,26 @@
+{
+  "question": "What business trends are emerging among companies with a rise in cloud-focused IT agreements?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies with a rise in cloud-focused IT agreements.",
+      "table": [
+        "PersonaLinkedInProfile"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Analyze business trends among these companies.",
+      "table": [
+        "PersonaLinkedInProfile"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Summarize emerging business trends.",
+      "table": [
+        "PersonaLinkedInProfile"
+      ]
+    }
+  ]
+}

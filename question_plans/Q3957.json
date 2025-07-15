@@ -1,0 +1,26 @@
+{
+  "question": "Which regional sectors are dominated by new investment patterns and identified via industry IT trends?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify regional sectors with new investment patterns.",
+      "table": [
+        "IndustryBusinessTrend"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract industry IT trends related to these sectors.",
+      "table": [
+        "IndustryBusinessTrend"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Determine sectors dominated by these trends.",
+      "table": [
+        "IndustryBusinessTrend"
+      ]
+    }
+  ]
+}

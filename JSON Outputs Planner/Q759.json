@@ -1,21 +1,27 @@
 {
   "question": "Who are the key technology leaders discussing AI scalability and working at companies with expanding AI budgets?",
-  "tables": ["CompanyLeadershipExcerpt", "CompanyFocusAreaDetail"],
   "subtasks": [
     {
       "step": 1,
       "task": "Identify technology leaders discussing AI scalability.",
-      "table": ["CompanyLeadershipExcerpt"]
+      "table": [
+        "CompanyLeadershipExcerpt"
+      ]
     },
     {
       "step": 2,
       "task": "Find companies with expanding AI budgets.",
-      "table": ["CompanyFocusAreaDetail"]
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
     },
     {
       "step": 3,
       "task": "Cross-match leaders to companies with budget growth.",
-      "table": ["CompanyLeadershipExcerpt", "CompanyFocusAreaDetail"]
+      "table": [
+        "CompanyLeadershipExcerpt",
+        "CompanyFocusAreaDetail"
+      ]
     }
   ]
 }

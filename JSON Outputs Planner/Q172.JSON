@@ -1,6 +1,5 @@
 {
   "question": "Which personnel titles are engaged in discussions about the significance of vendor partnerships for data-driven projects?",
-  "tables": ["PersonaTitle", "CompanyVendorProductDetail"],
   "subtasks": [
     {
       "step": 1,

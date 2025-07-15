@@ -1,0 +1,26 @@
+{
+  "question": "What IT investments have e-commerce enterprises prioritized to capitalize on shifting consumer behaviors?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify e-commerce enterprises focusing on IT investments.",
+      "table": [
+        "CompanyManagementDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "List IT investments prioritized by these enterprises.",
+      "table": [
+        "SectionInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the relationship between IT investments and consumer behavior shifts.",
+      "table": [
+        "PersonaMisc"
+      ]
+    }
+  ]
+}

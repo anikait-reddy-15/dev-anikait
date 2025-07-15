@@ -1,0 +1,27 @@
+{
+  "question": "How are privacy compliance upgrades shaping leadership excerpts from top-tier firms?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify top-tier firms implementing privacy compliance upgrades.",
+      "table": [
+        "CompanyVendorProductDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract leadership excerpts from these firms.",
+      "table": [
+        "SectionData"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the impact of privacy upgrades on leadership excerpts.",
+      "table": [
+        "CompanyVendorProductDetail",
+        "SectionData"
+      ]
+    }
+  ]
+}

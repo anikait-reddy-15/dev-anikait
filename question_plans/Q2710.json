@@ -1,0 +1,27 @@
+{
+  "question": "Which companies have adopted AI technologies and have recently posted about their business expansions on Facebook?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies that have adopted AI technologies from the CompanyTwitterDetail table.",
+      "table": [
+        "CompanyTwitterDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Filter Facebook posts about business expansions from the SocialMediaInfo table.",
+      "table": [
+        "SocialMediaInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Join the results to find companies meeting both criteria.",
+      "table": [
+        "CompanyTwitterDetail",
+        "SocialMediaInfo"
+      ]
+    }
+  ]
+}

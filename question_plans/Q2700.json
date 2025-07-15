@@ -1,0 +1,26 @@
+{
+  "question": "What predictive models emerge from companies successfully adapting next-gen AI leadership as shared in press releases?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies that have successfully adapted next-gen AI leadership.",
+      "table": [
+        "PersonaTitle"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Collect press releases from these companies.",
+      "table": [
+        "SectionData"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Extract and analyze predictive models shared in the press releases.",
+      "table": [
+        "SectionData"
+      ]
+    }
+  ]
+}

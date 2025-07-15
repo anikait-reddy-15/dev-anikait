@@ -1,0 +1,27 @@
+{
+  "question": "What are new pathways to accelerating AI deployments in business environments?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify new pathways for AI deployments in social posts.",
+      "table": [
+        "PersonaMisc"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Analyze business environments where these pathways are applied.",
+      "table": [
+        "CompanyManagementDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Evaluate the effectiveness of these pathways in accelerating AI deployments.",
+      "table": [
+        "PersonaMisc",
+        "CompanyManagementDetail"
+      ]
+    }
+  ]
+}

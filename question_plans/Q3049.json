@@ -1,0 +1,26 @@
+{
+  "question": "Which companies' tech stacks reflect a strategic shift towards open-source software solutions?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies that have made changes to their tech stacks.",
+      "table": [
+        "CompanyManagementDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Analyze the components of these tech stacks.",
+      "table": [
+        "CompanyManagementDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Determine which companies have shifted towards open-source software solutions.",
+      "table": [
+        "CompanyManagementDetail"
+      ]
+    }
+  ]
+}

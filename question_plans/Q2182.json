@@ -1,0 +1,26 @@
+{
+  "question": "Which firms boosted IT staffing to support public relations innovations?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify firms with increased IT staffing from the CompanyVendorTechDetail table.",
+      "table": [
+        "CompanyVendorTechDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Determine if these staffing increases are linked to public relations innovations.",
+      "table": [
+        "CompanyVendorTechDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Cross-reference with CompanyDataCenter to confirm the focus on public relations.",
+      "table": [
+        "CompanyDataCenter"
+      ]
+    }
+  ]
+}

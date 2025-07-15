@@ -1,0 +1,26 @@
+{
+  "question": "What firm categories showed innovation leaps corresponding with known global IT tendencies?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify firm categories from the CompanyDataCenter table.",
+      "table": [
+        "CompanyDataCenter"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract information on innovation leaps from the CompanyVendorTechDetail table.",
+      "table": [
+        "CompanyVendorTechDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Determine the correlation with global IT tendencies.",
+      "table": [
+        "CompanyVendorTechDetail"
+      ]
+    }
+  ]
+}

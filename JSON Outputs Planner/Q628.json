@@ -1,26 +1,34 @@
 {
   "question": "Which data scientists have engaged in discussions about machine learning trends on their LinkedIn profiles and are working at companies with significant tech investments?",
-  "tables": ["PersonaLinkedInProfile", "PersonaLinkedinPost", "CompanyInfo"],
   "subtasks": [
     {
       "step": 1,
       "task": "Identify data scientists who have posted about machine learning trends on LinkedIn.",
-      "table": ["PersonaLinkedinPost"]
+      "table": [
+        "PersonaLinkedinPost"
+      ]
     },
     {
       "step": 2,
       "task": "Filter the LinkedIn profiles to include only those of data scientists.",
-      "table": ["PersonaLinkedInProfile"]
+      "table": [
+        "PersonaLinkedInProfile"
+      ]
     },
     {
       "step": 3,
       "task": "Identify companies with significant tech investments and match them with the data scientists.",
-      "table": ["CompanyInfo"]
+      "table": [
+        "CompanyInfo"
+      ]
     },
     {
       "step": 4,
       "task": "Combine the data scientists' profiles with their respective companies to find matches.",
-      "table": ["PersonaLinkedInProfile", "CompanyInfo"]
+      "table": [
+        "PersonaLinkedInProfile",
+        "CompanyInfo"
+      ]
     }
   ]
 }

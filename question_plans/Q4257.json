@@ -1,0 +1,26 @@
+{
+  "question": "Who frequently features in LinkedIn posts about enhancing digital literacy within organizations?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Extract LinkedIn posts related to enhancing digital literacy.",
+      "table": [
+        "PersonaMisc"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Identify individuals frequently featured in these posts.",
+      "table": [
+        "PersonaMisc"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the context in which these individuals are featured.",
+      "table": [
+        "PersonaMisc"
+      ]
+    }
+  ]
+}

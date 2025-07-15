@@ -1,0 +1,27 @@
+{
+  "question": "Which companies are trailblazing the use of augmented analytics solutions in their operations?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies from the CompanyVendorProductDetail table.",
+      "table": [
+        "CompanyVendorProductDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Filter for augmented analytics solutions in the IndustryITTrend table.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Join the results to find companies leading in augmented analytics solutions.",
+      "table": [
+        "CompanyVendorProductDetail",
+        "IndustryITTrend"
+      ]
+    }
+  ]
+}

@@ -1,26 +1,35 @@
 {
   "question": "What leadership insights have companies shared about their strategic focus on AI, and what technologies are they investing in?",
-  "tables": ["CompanyLeadershipExcerpt", "CompanyFocusAreaDetail", "CompanyTechStack"],
   "subtasks": [
     {
       "step": 1,
       "task": "Gather leadership insights related to AI from leadership excerpts. [CompanyLeadershipExcerpt]",
-      "table": ["CompanyLeadershipExcerpt"]
+      "table": [
+        "CompanyLeadershipExcerpt"
+      ]
     },
     {
       "step": 2,
       "task": "Identify the strategic focus areas on AI. [CompanyFocusAreaDetail]",
-      "table": ["CompanyFocusAreaDetail"]
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
     },
     {
       "step": 3,
       "task": "Extract the technologies companies are investing in. [CompanyTechStack]",
-      "table": ["CompanyTechStack"]
+      "table": [
+        "CompanyTechStack"
+      ]
     },
     {
       "step": 4,
       "task": "Combine insights from all three sources to present a unified perspective. [CompanyLeadershipExcerpt, CompanyFocusAreaDetail, CompanyTechStack]",
-      "table": ["CompanyLeadershipExcerpt", "CompanyFocusAreaDetail", "CompanyTechStack"]
+      "table": [
+        "CompanyLeadershipExcerpt",
+        "CompanyFocusAreaDetail",
+        "CompanyTechStack"
+      ]
     }
   ]
 }

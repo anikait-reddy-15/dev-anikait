@@ -1,0 +1,26 @@
+{
+  "question": "How do competitive vendor deals influence strategic IT revisions in expanding companies?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify expanding companies.",
+      "table": [
+        "CompanyTechStack"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Find competitive vendor deals associated with these companies.",
+      "table": [
+        "CompanyTechStack"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the influence of vendor deals on strategic IT revisions.",
+      "table": [
+        "CompanyTechStack"
+      ]
+    }
+  ]
+}

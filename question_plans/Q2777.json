@@ -1,0 +1,26 @@
+{
+  "question": "How do high-tech operations coordinate with expanded IT facilities or resources?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify high-tech operations.",
+      "table": [
+        "PersonaUser"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Access information on IT facilities or resources associated with these operations.",
+      "table": [
+        "PersonaUser"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze coordination strategies between operations and IT resources.",
+      "table": [
+        "PersonaUser"
+      ]
+    }
+  ]
+}

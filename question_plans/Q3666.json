@@ -1,0 +1,27 @@
+{
+  "question": "Highlight companies with leading industry trends accounted for in their latest dynamic hire listings for technology roles.",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify leading industry trends.",
+      "table": [
+        "IndustryBusinessTrend"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Find companies with dynamic hire listings for technology roles.",
+      "table": [
+        "PersonaTitle"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Match companies with hire listings to those accounting for leading industry trends.",
+      "table": [
+        "PersonaTitle",
+        "IndustryBusinessTrend"
+      ]
+    }
+  ]
+}

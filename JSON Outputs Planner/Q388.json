@@ -1,26 +1,34 @@
 {
   "question": "What specific technologies are being adopted by companies that frequently engage with their audiences on Instagram and have strengthened their data management capabilities?",
-  "tables": ["CompanyTechStack", "CompanyInstagramDetail", "SocialMediaInfo"],
   "subtasks": [
     {
       "step": 1,
       "task": "Identify companies that have a strong presence on Instagram based on engagement metrics. [CompanyInstagramDetail]",
-      "table": ["CompanyInstagramDetail"]
+      "table": [
+        "CompanyInstagramDetail"
+      ]
     },
     {
       "step": 2,
       "task": "Determine which of these companies have recently improved their data management capabilities. [SocialMediaInfo]",
-      "table": ["SocialMediaInfo"]
+      "table": [
+        "SocialMediaInfo"
+      ]
     },
     {
       "step": 3,
       "task": "List the specific technologies adopted by these companies. [CompanyTechStack]",
-      "table": ["CompanyTechStack"]
+      "table": [
+        "CompanyTechStack"
+      ]
     },
     {
       "step": 4,
       "task": "Cross-reference the technologies with the companies identified in the previous steps. [CompanyInstagramDetail, CompanyTechStack]",
-      "table": ["CompanyInstagramDetail", "CompanyTechStack"]
+      "table": [
+        "CompanyInstagramDetail",
+        "CompanyTechStack"
+      ]
     }
   ]
 }

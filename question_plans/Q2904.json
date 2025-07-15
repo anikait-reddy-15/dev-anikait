@@ -1,0 +1,26 @@
+{
+  "question": "What are the current IT trends influencing companies in the manufacturing industry?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies in the manufacturing industry from the CompanyTechStack table.",
+      "table": [
+        "CompanyTechStack"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract IT trends related to these companies.",
+      "table": [
+        "CompanyTechStack"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Compile a list of current IT trends influencing these companies.",
+      "table": [
+        "CompanyTechStack"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "question": "Which vendors are supplying data analytics technologies to companies undergoing digital transformation?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies undergoing digital transformation from the CompanyTechStack table.",
+      "table": [
+        "CompanyTechStack"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract data analytics technology vendors associated with these companies.",
+      "table": [
+        "CompanyTechStack"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "List the vendors supplying data analytics technologies to these companies.",
+      "table": [
+        "CompanyTechStack"
+      ]
+    }
+  ]
+}

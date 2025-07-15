@@ -1,0 +1,26 @@
+{
+  "question": "Which personas with \"Chief Data Officer\" titles frequently post about data privacy issues on LinkedIn?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify personas with 'Chief Data Officer' titles",
+      "table": [
+        "PersonaMisc"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Find LinkedIn posts related to data privacy issues",
+      "table": [
+        "PersonaMisc"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Match personas with frequent posts on data privacy issues",
+      "table": [
+        "PersonaMisc"
+      ]
+    }
+  ]
+}

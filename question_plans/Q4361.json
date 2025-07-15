@@ -1,0 +1,26 @@
+{
+  "question": "How is the topic of cloud integration presented by technology vendors on YouTube reflected in their deals?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify YouTube profiles discussing cloud integration.",
+      "table": [
+        "PersonaYoutubeProfile"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract details of technology vendors from their YouTube profiles.",
+      "table": [
+        "PersonaYoutubeProfile"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Match vendor details with their deals related to cloud integration.",
+      "table": [
+        "CompanyDealMaster"
+      ]
+    }
+  ]
+}

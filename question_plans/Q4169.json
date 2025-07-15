@@ -1,0 +1,26 @@
+{
+  "question": "What advancements in AI are being leveraged by retail organizations to enhance personalized e-commerce?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify retail organizations",
+      "table": [
+        "CompanyITPartnerDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract AI advancements used by these organizations",
+      "table": [
+        "CompanyITPartnerDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Determine how these AI advancements enhance personalized e-commerce",
+      "table": [
+        "CompanyITPartnerDetail"
+      ]
+    }
+  ]
+}

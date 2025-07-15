@@ -1,6 +1,5 @@
 {
   "question": "How do LinkedIn posts by data science specialists reflect changes in organizational behavior related to tech investments?",
-  "tables": ["PersonaLinkedinPost", "CompanyTechStack"],
   "subtasks": [
     {
       "step": 1,

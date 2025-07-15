@@ -1,0 +1,26 @@
+{
+  "question": "Which organizations have reshaped their leadership teams in parallel with their increased technology investments?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify organizations with increased technology investments from SocialMediaInfo.",
+      "table": [
+        "SocialMediaInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Find changes in leadership teams within these organizations.",
+      "table": [
+        "SocialMediaInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "List organizations that meet both criteria.",
+      "table": [
+        "SocialMediaInfo"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "question": "How does cybersecurity communication alignment impact corporate Twitter interactions in a competitive setting?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify corporate Twitter interactions related to cybersecurity.",
+      "table": [
+        "SectionData"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Analyze the alignment of cybersecurity communications within these interactions.",
+      "table": [
+        "SectionData"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Determine the impact of this alignment in a competitive setting.",
+      "table": [
+        "SectionData"
+      ]
+    }
+  ]
+}

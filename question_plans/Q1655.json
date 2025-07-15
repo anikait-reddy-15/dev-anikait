@@ -1,0 +1,26 @@
+{
+  "question": "What strategic actions are documented in alignment with internet connectivity advancements in global tech firms?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify global tech firms focusing on internet connectivity advancements.",
+      "table": [
+        "PersonaTitle"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract documented strategic actions related to these advancements.",
+      "table": [
+        "PersonaLinkedInProfile"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the effectiveness of these strategic actions.",
+      "table": [
+        "PersonaYoutubeProfile"
+      ]
+    }
+  ]
+}

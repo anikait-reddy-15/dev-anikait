@@ -1,0 +1,26 @@
+{
+  "question": "How are machine-learning technologies poised within organizations accompanied by rising venture capital interest?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify organizations with interest in machine-learning technologies from the PersonaTitle table.",
+      "table": [
+        "PersonaTitle"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract information on venture capital interest related to these technologies.",
+      "table": [
+        "PersonaLinkedInProfile"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the information to determine how machine-learning technologies are poised.",
+      "table": [
+        "PersonaLinkedInProfile"
+      ]
+    }
+  ]
+}

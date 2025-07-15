@@ -1,0 +1,27 @@
+{
+  "question": "What roles are trending in job markets that prominently advertise strategic vendor interactions in YouTube content?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify trending roles in job markets.",
+      "table": [
+        "PersonaLinkedInProfile"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract YouTube content that advertises strategic vendor interactions.",
+      "table": [
+        "CompanyYoutubeDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Combine data to find roles that are trending and advertised in YouTube content.",
+      "table": [
+        "PersonaLinkedInProfile",
+        "CompanyYoutubeDetail"
+      ]
+    }
+  ]
+}

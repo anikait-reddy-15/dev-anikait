@@ -1,0 +1,26 @@
+{
+  "question": "How have advancements in edge computing been referenced in the data center strategies of global tech firms?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify global tech firms from the PersonaTitle table.",
+      "table": [
+        "PersonaTitle"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Retrieve data center strategy documents or posts from these firms.",
+      "table": [
+        "PersonaLinkedInProfile"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the documents to reference advancements in edge computing.",
+      "table": [
+        "PersonaLinkedInProfile"
+      ]
+    }
+  ]
+}

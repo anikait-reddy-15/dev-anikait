@@ -1,0 +1,27 @@
+{
+  "question": "How often do leadership changes trigger immediate adjustments to company-wide focus areas?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify instances of leadership changes within companies.",
+      "table": [
+        "CompanyManagementDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Determine any immediate adjustments to company-wide focus areas following leadership changes.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Calculate the frequency of leadership changes that result in adjustments to focus areas.",
+      "table": [
+        "CompanyFocusAreaDetail",
+        "CompanyManagementDetail"
+      ]
+    }
+  ]
+}

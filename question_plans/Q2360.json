@@ -1,0 +1,26 @@
+{
+  "question": "What innovative concepts are biotech firms incorporating, highlighted within their popular podcasts for industry viewers?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify biotech firms with popular podcasts.",
+      "table": [
+        "SectionInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract innovative concepts highlighted in these podcasts.",
+      "table": [
+        "SectionTitle"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the relevance and impact of these concepts on the industry.",
+      "table": [
+        "CompanyDealMaster"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "question": "What insights on vendor technology effectiveness are seen in companies emphasizing artificial intelligence competency within competitive trends?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies emphasizing artificial intelligence competency.",
+      "table": [
+        "IndustryBusinessTrend"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Gather insights on vendor technology effectiveness from these companies.",
+      "table": [
+        "PersonaTitle"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the relationship between AI competency and vendor technology effectiveness.",
+      "table": [
+        "PersonaLinkedinPost"
+      ]
+    }
+  ]
+}

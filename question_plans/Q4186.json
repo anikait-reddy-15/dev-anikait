@@ -1,0 +1,27 @@
+{
+  "question": "Which financial institutions are prioritizing their IT social media engagements to spotlight fintech apps?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify financial institutions from the CompanyITPartnerDetail table.",
+      "table": [
+        "CompanyITPartnerDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract social media engagement data related to fintech apps from the SocialMediaInfo table.",
+      "table": [
+        "SocialMediaInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Determine which financial institutions are prioritizing IT engagements for fintech apps.",
+      "table": [
+        "CompanyITPartnerDetail",
+        "SocialMediaInfo"
+      ]
+    }
+  ]
+}

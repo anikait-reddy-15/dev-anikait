@@ -1,0 +1,27 @@
+{
+  "question": "How are prominent vendors linked with companies' agile transformations extensively covered in persona Twitter mentions?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify prominent vendors involved in agile transformations",
+      "table": [
+        "SectionInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract Twitter mentions covering these transformations",
+      "table": [
+        "PersonaYoutubeProfile"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the coverage of agile transformations in Twitter mentions",
+      "table": [
+        "SectionInfo",
+        "PersonaYoutubeProfile"
+      ]
+    }
+  ]
+}

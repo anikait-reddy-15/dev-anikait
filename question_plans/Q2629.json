@@ -1,0 +1,24 @@
+{
+  "question": "Which data analytics tools are used by companies having an uptick in social media presence according to Twitter?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies with an uptick in social media presence on Twitter.",
+      "table": [
+        "PersonaFaceBook"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Find data analytics tools used by these companies.",
+      "table": [
+        "SectionData"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Combine results to link social media presence with analytics tools.",
+      "table": []
+    }
+  ]
+}

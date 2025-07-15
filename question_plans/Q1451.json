@@ -1,0 +1,26 @@
+{
+  "question": "How do tech companies adjust their vendor relationships while enhancing their AI research capabilities?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify tech companies enhancing their AI research capabilities.",
+      "table": [
+        "PersonaMisc"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract details on vendor relationships for these companies.",
+      "table": [
+        "PersonaMisc"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze adjustments in vendor relationships.",
+      "table": [
+        "PersonaMisc"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "question": "Which IT vendors have secured contracts with companies cited for major shifts in business practices?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies cited for major shifts in business practices.",
+      "table": [
+        "CompanyYoutubeDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Find IT vendors that have secured contracts with these companies.",
+      "table": [
+        "CompanyYoutubeDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "List IT vendors associated with the identified companies.",
+      "table": []
+    }
+  ]
+}

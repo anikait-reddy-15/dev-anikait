@@ -1,0 +1,26 @@
+{
+  "question": "Which companies emphasize digital twins in their strategic talks while showcasing high community engagement on Twitter?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies emphasizing digital twins in strategic talks.",
+      "table": [
+        "SectionTitle"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Find companies with high community engagement on Twitter.",
+      "table": [
+        "PersonaYoutubeProfile"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Correlate digital twin emphasis with Twitter engagement.",
+      "table": [
+        "CompanyDataCenter"
+      ]
+    }
+  ]
+}

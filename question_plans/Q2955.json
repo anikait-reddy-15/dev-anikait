@@ -1,0 +1,26 @@
+{
+  "question": "What are the distinctive tech stacks of companies that have successfully penetrated new markets?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies that have successfully penetrated new markets from the CompanyTechStack table.",
+      "table": [
+        "CompanyTechStack"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract the tech stacks of these companies.",
+      "table": [
+        "CompanyTechStack"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Determine the distinctive features of these tech stacks.",
+      "table": [
+        "CompanyTechStack"
+      ]
+    }
+  ]
+}

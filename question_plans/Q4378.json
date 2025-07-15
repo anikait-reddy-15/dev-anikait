@@ -1,0 +1,27 @@
+{
+  "question": "How is current hiring affecting corporate stance on digital transformation according to industry standards?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Extract current hiring data.",
+      "table": [
+        "SectionInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Identify corporate stances on digital transformation.",
+      "table": [
+        "CompanyITPartnerDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the effect of hiring on digital transformation stances.",
+      "table": [
+        "SectionInfo",
+        "CompanyITPartnerDetail"
+      ]
+    }
+  ]
+}

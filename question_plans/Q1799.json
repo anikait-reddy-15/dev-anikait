@@ -1,0 +1,26 @@
+{
+  "question": "How are recent IT expansions by companies affecting competitive operations in retrospective analyses?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify recent IT expansions by companies from the CompanyTwitterDetail table.",
+      "table": [
+        "CompanyTwitterDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract information on competitive operations from the CompanyTwitterDetail table.",
+      "table": [
+        "CompanyTwitterDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the effect of IT expansions on competitive operations in retrospective analyses.",
+      "table": [
+        "CompanyTwitterDetail"
+      ]
+    }
+  ]
+}

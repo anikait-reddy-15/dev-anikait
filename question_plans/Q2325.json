@@ -1,0 +1,26 @@
+{
+  "question": "Which technology vendors are most frequently selected by companies shifting their strategic technology directors?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies shifting their strategic technology directors.",
+      "table": [
+        "SectionInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Determine the technology vendors selected by these companies.",
+      "table": [
+        "CompanyDealMaster"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Count the frequency of each vendor being selected.",
+      "table": [
+        "CompanyDealMaster"
+      ]
+    }
+  ]
+}

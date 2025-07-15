@@ -1,0 +1,26 @@
+{
+  "question": "What insights can be derived about brand reliability from firms advertising robust CRM engagement metrics on Twitter?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify firms advertising robust CRM engagement metrics on Twitter.",
+      "table": [
+        "PersonaTwitter"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract data related to brand reliability from these firms.",
+      "table": [
+        "SectionData"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the extracted data to derive insights about brand reliability.",
+      "table": [
+        "SectionData"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "question": "Which CEOs have actively participated in technology transformation discussions on LinkedIn?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify technology transformation discussions on LinkedIn.",
+      "table": [
+        "PersonaUser"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Find CEOs participating in these discussions.",
+      "table": [
+        "PersonaUser"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "List the CEOs and their participation details.",
+      "table": [
+        "PersonaUser"
+      ]
+    }
+  ]
+}

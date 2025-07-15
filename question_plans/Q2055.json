@@ -1,0 +1,26 @@
+{
+  "question": "Which companies are leveraging digital twins in their strategic focuses currently noted on social media platforms?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify mentions of digital twins on social media platforms.",
+      "table": [
+        "SocialMediaInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Find companies associated with these mentions.",
+      "table": [
+        "SocialMediaInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "List companies leveraging digital twins in their strategic focuses.",
+      "table": [
+        "SocialMediaInfo"
+      ]
+    }
+  ]
+}

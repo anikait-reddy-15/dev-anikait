@@ -1,6 +1,5 @@
 {
   "question": "What are the most common technologies used by companies experiencing significant growth in data science roles?",
-  "tables": ["CompanyHiringDetail", "CompanyTechStack"],
   "subtasks": [
     {
       "step": 1,

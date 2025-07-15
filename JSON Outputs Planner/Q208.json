@@ -1,21 +1,26 @@
 {
   "question": "What are the key focus areas of companies that have posted about big data initiatives on their Instagram profiles in the last two months?",
-  "tables": ["CompanyFocusAreaDetail", "CompanyInstagramDetail"],
   "subtasks": [
     {
       "step": 1,
       "task": "Identify Instagram posts related to big data initiatives from the last two months",
-      "table": ["CompanyInstagramDetail"]
+      "table": [
+        "CompanyInstagramDetail"
+      ]
     },
     {
       "step": 2,
       "task": "Extract the companies associated with these Instagram posts",
-      "table": ["CompanyInstagramDetail"]
+      "table": [
+        "CompanyInstagramDetail"
+      ]
     },
     {
       "step": 3,
       "task": "Find the key focus areas for these companies",
-      "table": ["CompanyFocusAreaDetail"]
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
     }
   ]
 }

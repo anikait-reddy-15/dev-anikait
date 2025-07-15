@@ -1,0 +1,26 @@
+{
+  "question": "What infrastructure setups predominantly appear in firms enhancing AR capabilities?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify firms enhancing AR capabilities.",
+      "table": [
+        "CompanyManagementDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "List infrastructure setups used by these firms.",
+      "table": [
+        "SectionInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the prevalence of these infrastructure setups in AR enhancement.",
+      "table": [
+        "PersonaMisc"
+      ]
+    }
+  ]
+}

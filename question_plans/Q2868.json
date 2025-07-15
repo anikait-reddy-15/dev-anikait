@@ -1,0 +1,27 @@
+{
+  "question": "How do cloud computing trends measured this quarter align with leadership strategies?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify cloud computing trends for the current quarter.",
+      "table": [
+        "CompanyVendorProductDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract leadership strategies from excerpts.",
+      "table": [
+        "SectionData"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the alignment between cloud computing trends and leadership strategies.",
+      "table": [
+        "CompanyVendorProductDetail",
+        "SectionData"
+      ]
+    }
+  ]
+}

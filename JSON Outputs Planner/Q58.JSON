@@ -1,6 +1,5 @@
 {
   "question": "Which management roles at HDFC Bank involve oversight of risk policies and technology strategies?",
-  "tables": ["PersonaUser", "PersonaTitle", "CompanyManagementDetail"],
   "subtasks": [
     {
       "step": 1,

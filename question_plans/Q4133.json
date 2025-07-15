@@ -1,0 +1,26 @@
+{
+  "question": "Which tech vendors collaborate with companies aiming to revolutionize their CRM systems?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies aiming to revolutionize their CRM systems.",
+      "table": [
+        "CompanyITPartnerDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Identify tech vendors collaborating with these companies.",
+      "table": [
+        "CompanyITPartnerDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "List the tech vendors involved in these collaborations.",
+      "table": [
+        "CompanyITPartnerDetail"
+      ]
+    }
+  ]
+}

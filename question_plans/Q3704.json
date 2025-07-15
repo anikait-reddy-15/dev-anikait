@@ -1,0 +1,24 @@
+{
+  "question": "What are the top business trends influencing companies that have expanded their demand for cloud computing?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies that have expanded their demand for cloud computing.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Identify business trends influencing these companies.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Rank the business trends by influence.",
+      "table": []
+    }
+  ]
+}

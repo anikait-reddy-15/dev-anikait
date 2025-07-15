@@ -1,21 +1,26 @@
 {
   "question": "Which industries are experiencing rising IT trends as indicated by the vendor partnerships formed by companies with a focus on cybersecurity?",
-  "tables": ["IndustryITTrend", "CompanyVendorTechDetail", "CompanyInfo"],
   "subtasks": [
     {
       "step": 1,
       "task": "Identify companies with a focus on cybersecurity from the [CompanyVendorTechDetail] table.",
-      "table": ["CompanyVendorTechDetail"]
+      "table": [
+        "CompanyVendorTechDetail"
+      ]
     },
     {
       "step": 2,
       "task": "Extract vendor partnerships formed by these companies from the [CompanyVendorTechDetail] table.",
-      "table": ["CompanyVendorTechDetail"]
+      "table": [
+        "CompanyVendorTechDetail"
+      ]
     },
     {
       "step": 3,
       "task": "Analyze the rising IT trends in the identified industries from the [IndustryITTrend] table.",
-      "table": ["IndustryITTrend"]
+      "table": [
+        "IndustryITTrend"
+      ]
     }
   ]
 }

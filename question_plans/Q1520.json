@@ -1,0 +1,19 @@
+{
+  "question": "Which vendors are linked to companies that have shifted their focus towards 5G implementations?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies that have shifted their focus towards 5G implementations from the CompanyHiringDetail table.",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Find vendors linked to these companies.",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "question": "Which companies have been involved in mergers or acquisitions primarily focusing on AI startups?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify mergers or acquisitions from the CompanyDealMaster table.",
+      "table": [
+        "CompanyDealMaster"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Filter deals focusing on AI startups.",
+      "table": [
+        "CompanyDealMaster"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "List companies involved in these AI-focused deals.",
+      "table": [
+        "CompanyDealMaster"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "question": "How do leadership speeches from tech firms correlate with investments in IT infrastructure updates?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Extract leadership speeches from tech firms.",
+      "table": [
+        "PersonaMisc"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Identify investments in IT infrastructure updates.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Correlate the leadership speeches with the identified investments.",
+      "table": [
+        "PersonaMisc"
+      ]
+    }
+  ]
+}

@@ -1,6 +1,5 @@
 {
   "question": "Which data centers support companies implementing SAP solutions?",
-  "tables": ["CompanyDealMaster", "CompanyDataCenter"],
   "subtasks": [
     {
       "step": 1,

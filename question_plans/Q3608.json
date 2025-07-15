@@ -1,0 +1,26 @@
+{
+  "question": "What are the most discussed topics by leadership in companies that make significant investments in artificial intelligence?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies that make significant investments in artificial intelligence.",
+      "table": [
+        "IndustryBusinessTrend"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract topics discussed by leadership in these companies.",
+      "table": [
+        "PersonaTitle"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Determine the most frequently discussed topics by leadership.",
+      "table": [
+        "PersonaTitle"
+      ]
+    }
+  ]
+}

@@ -1,21 +1,29 @@
 {
   "question": "Which sectors show a trend of increasing IT hiring while also maintaining consistent vendor agreements for software solutions?",
-  "tables": ["CompanyHiringDetail", "CompanyDealMaster", "IndustryITTrend"],
   "subtasks": [
     {
       "step": 1,
       "task": "Analyze IT hiring trends across different sectors. [CompanyHiringDetail, IndustryITTrend]",
-      "table": ["CompanyHiringDetail", "IndustryITTrend"]
+      "table": [
+        "CompanyHiringDetail",
+        "IndustryITTrend"
+      ]
     },
     {
       "step": 2,
       "task": "Identify sectors with consistent vendor agreements for software solutions. [CompanyDealMaster, IndustryITTrend]",
-      "table": ["CompanyDealMaster", "IndustryITTrend"]
+      "table": [
+        "CompanyDealMaster",
+        "IndustryITTrend"
+      ]
     },
     {
       "step": 3,
       "task": "Correlate the hiring trends with the sectors identified in vendor agreements. [CompanyHiringDetail, CompanyDealMaster]",
-      "table": ["CompanyHiringDetail", "CompanyDealMaster"]
+      "table": [
+        "CompanyHiringDetail",
+        "CompanyDealMaster"
+      ]
     }
   ]
 }

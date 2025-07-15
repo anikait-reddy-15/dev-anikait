@@ -1,0 +1,26 @@
+{
+  "question": "How are recent IPOs influencing the introduction of data-driven strategies across diverse sectors?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies that have recently gone public (IPOs).",
+      "table": [
+        "CompanyManagementDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract data-driven strategies introduced by these companies.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the influence of IPOs on the introduction of these strategies across sectors.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    }
+  ]
+}

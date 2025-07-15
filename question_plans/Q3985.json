@@ -1,0 +1,26 @@
+{
+  "question": "Which enterprises restructured their customer relationship management system towards AI-driven models following major acquisitions?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify enterprises that have undergone major acquisitions.",
+      "table": [
+        "IndustryBusinessTrend"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract information on CRM system restructuring towards AI-driven models.",
+      "table": [
+        "IndustryBusinessTrend"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Match enterprises with both major acquisitions and AI-driven CRM restructuring.",
+      "table": [
+        "IndustryBusinessTrend"
+      ]
+    }
+  ]
+}

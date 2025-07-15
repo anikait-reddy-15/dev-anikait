@@ -1,0 +1,26 @@
+{
+  "question": "What significant technological partnerships were formed visible on Instagram via influential tech voices?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify significant technological partnerships from PersonaFaceBook.",
+      "table": [
+        "PersonaFaceBook"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract mentions by influential tech voices from PersonaTwitterProfile.",
+      "table": [
+        "PersonaTwitterProfile"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Correlate partnerships with mentions by influential tech voices.",
+      "table": [
+        "PersonaTwitterProfile"
+      ]
+    }
+  ]
+}

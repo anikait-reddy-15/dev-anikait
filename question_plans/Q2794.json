@@ -1,0 +1,26 @@
+{
+  "question": "How does artificial intelligence relate to new product development in financial service firms?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify financial service firms.",
+      "table": [
+        "PersonaUser"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract data related to AI and new product development.",
+      "table": [
+        "CompanyTwitterDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the relationship between AI and product development.",
+      "table": [
+        "CompanyTwitterDetail"
+      ]
+    }
+  ]
+}

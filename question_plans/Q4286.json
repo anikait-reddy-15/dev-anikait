@@ -1,0 +1,26 @@
+{
+  "question": "What leadership excerpts discuss trends in personalized customer experiences?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Extract leadership excerpts from the data.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Identify excerpts that discuss trends in personalized customer experiences.",
+      "table": [
+        "SectionTitle"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Compile a list of relevant excerpts.",
+      "table": [
+        "CompanyInfo"
+      ]
+    }
+  ]
+}

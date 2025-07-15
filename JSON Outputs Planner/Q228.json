@@ -1,21 +1,26 @@
 {
   "question": "Which companies in the tech industry have signed major deals with vendors focused on machine learning solutions in the past 6 months?",
-  "tables": ["CompanyDealMaster", "CompanyVendorTechDetail"],
   "subtasks": [
     {
       "step": 1,
       "task": "Identify major deals signed in the past 6 months related to machine learning solutions",
-      "table": ["CompanyVendorTechDetail"]
+      "table": [
+        "CompanyVendorTechDetail"
+      ]
     },
     {
       "step": 2,
       "task": "Filter these deals to focus on those involving tech industry companies",
-      "table": ["CompanyDealMaster"]
+      "table": [
+        "CompanyDealMaster"
+      ]
     },
     {
       "step": 3,
       "task": "Compile a list of companies that have signed these deals",
-      "table": ["CompanyDealMaster"]
+      "table": [
+        "CompanyDealMaster"
+      ]
     }
   ]
 }

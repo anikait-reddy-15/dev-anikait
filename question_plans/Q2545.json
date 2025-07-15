@@ -1,0 +1,26 @@
+{
+  "question": "How did investing in quantum computing correspond with leadership discussing AI-driven decision-making in speeches?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies investing in quantum computing from PersonaLinkedInProfile.",
+      "table": [
+        "PersonaLinkedInProfile"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract leadership speeches discussing AI-driven decision-making from PersonaYoutubeProfile.",
+      "table": [
+        "PersonaYoutubeProfile"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Correlate the investments with the speeches.",
+      "table": [
+        "PersonaYoutubeProfile"
+      ]
+    }
+  ]
+}

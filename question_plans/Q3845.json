@@ -1,0 +1,26 @@
+{
+  "question": "Who among the Data Scientists actively advocates for open-source technology on professional networks?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify Data Scientists from the database.",
+      "table": [
+        "CompanyManagementDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Check their activity on professional networks for advocacy of open-source technology.",
+      "table": [
+        "PersonaInstagramProfile"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "List Data Scientists who actively advocate for open-source technology.",
+      "table": [
+        "PersonaInstagramProfile"
+      ]
+    }
+  ]
+}

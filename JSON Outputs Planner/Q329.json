@@ -1,21 +1,27 @@
 {
   "question": "Which companies have outlined their technology priorities and also published recent YouTube content on application development?",
-  "tables": ["CompanyFocusAreaDetail", "CompanyYoutubeDetail"],
   "subtasks": [
     {
       "step": 1,
       "task": "Identify companies that have outlined their technology priorities. [CompanyFocusAreaDetail]",
-      "table": ["CompanyFocusAreaDetail"]
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
     },
     {
       "step": 2,
       "task": "Gather recent YouTube content data related to application development. [CompanyYoutubeDetail]",
-      "table": ["CompanyYoutubeDetail"]
+      "table": [
+        "CompanyYoutubeDetail"
+      ]
     },
     {
       "step": 3,
       "task": "Match companies with technology priorities to those that published relevant YouTube content. [CompanyFocusAreaDetail, CompanyYoutubeDetail]",
-      "table": ["CompanyFocusAreaDetail", "CompanyYoutubeDetail"]
+      "table": [
+        "CompanyFocusAreaDetail",
+        "CompanyYoutubeDetail"
+      ]
     }
   ]
 }

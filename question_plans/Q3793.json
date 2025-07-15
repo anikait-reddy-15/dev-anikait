@@ -1,0 +1,27 @@
+{
+  "question": "Which thought leaders dominate LinkedIn with discussions about innovative technology fostering business growth?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Extract LinkedIn discussions about innovative technology from the PersonaLinkedinActivity table.",
+      "table": [
+        "PersonaLinkedinActivity"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Identify thought leaders from the PersonaUser table.",
+      "table": [
+        "PersonaUser"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Determine which thought leaders dominate these discussions.",
+      "table": [
+        "PersonaLinkedinActivity",
+        "PersonaUser"
+      ]
+    }
+  ]
+}

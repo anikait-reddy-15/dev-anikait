@@ -1,21 +1,26 @@
 {
   "question": "What notable changes in leadership have occurred at companies that are transitioning to cloud-native architectures?",
-  "tables": ["CompanyManagementDetail", "CompanyTechStack"],
   "subtasks": [
     {
       "step": 1,
       "task": "Identify companies that are transitioning to cloud-native architectures. [CompanyTechStack]",
-      "table": ["CompanyTechStack"]
+      "table": [
+        "CompanyTechStack"
+      ]
     },
     {
       "step": 2,
       "task": "Extract leadership changes at those identified companies. [CompanyManagementDetail]",
-      "table": ["CompanyManagementDetail"]
+      "table": [
+        "CompanyManagementDetail"
+      ]
     },
     {
       "step": 3,
       "task": "Summarize the notable changes in leadership related to the transition. [CompanyManagementDetail]",
-      "table": ["CompanyManagementDetail"]
+      "table": [
+        "CompanyManagementDetail"
+      ]
     }
   ]
 }

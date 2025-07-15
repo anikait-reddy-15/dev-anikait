@@ -1,0 +1,27 @@
+{
+  "question": "What are the predominant technologies used by newly established startups focusing on sustainability?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify newly established startups focusing on sustainability.",
+      "table": [
+        "PersonaUser"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract predominant technologies used by these startups.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the technologies in the context of sustainability focus.",
+      "table": [
+        "PersonaUser",
+        "IndustryITTrend"
+      ]
+    }
+  ]
+}

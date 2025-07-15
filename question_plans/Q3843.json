@@ -1,0 +1,26 @@
+{
+  "question": "How do changes in leadership correlate with the speed of vendor deal finalizations?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify changes in leadership within companies.",
+      "table": [
+        "CompanyManagementDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Track the timeline of vendor deal finalizations for these companies.",
+      "table": [
+        "CompanyManagementDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the correlation between leadership changes and deal finalization speed.",
+      "table": [
+        "CompanyManagementDetail"
+      ]
+    }
+  ]
+}

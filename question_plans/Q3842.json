@@ -1,0 +1,27 @@
+{
+  "question": "Which firms released social media campaigns coinciding with recent digital advertising focus?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify firms with a recent focus on digital advertising.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Retrieve social media campaigns released by these firms.",
+      "table": [
+        "PersonaInstagramProfile"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Match the timing of social media campaigns with the digital advertising focus.",
+      "table": [
+        "PersonaInstagramProfile",
+        "CompanyFocusAreaDetail"
+      ]
+    }
+  ]
+}

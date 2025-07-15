@@ -1,0 +1,26 @@
+{
+  "question": "Which companies enhance tech infrastructures following partnerships with IT deployment firms?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify partnerships with IT deployment firms.",
+      "table": [
+        "CompanyManagementDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Determine companies enhancing tech infrastructures post-partnership.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "List companies that enhance infrastructures following these partnerships.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    }
+  ]
+}

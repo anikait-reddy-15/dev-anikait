@@ -1,0 +1,24 @@
+{
+  "question": "Which industry leaders discussed 5G rollouts in their recent external briefings?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify industry leaders from the dataset.",
+      "table": [
+        "SectionTitle"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Find discussions on 5G rollouts in recent external briefings.",
+      "table": [
+        "SectionTitle"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Compile the final list of industry leaders from the filtered results.",
+      "table": []
+    }
+  ]
+}

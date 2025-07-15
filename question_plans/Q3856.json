@@ -1,0 +1,27 @@
+{
+  "question": "How do recent YouTube updates reflect organizational growth in technological direction?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify recent YouTube updates related to organizations.",
+      "table": [
+        "PersonaInstagramProfile"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract information on organizational growth in technological direction.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze how these updates reflect technological growth.",
+      "table": [
+        "PersonaInstagramProfile",
+        "CompanyFocusAreaDetail"
+      ]
+    }
+  ]
+}

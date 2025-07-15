@@ -1,0 +1,26 @@
+{
+  "question": "What YouTube content regarding data-driven decisions is created by business experts in top technology companies?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify business experts in top technology companies.",
+      "table": [
+        "PersonaUser"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Find YouTube content related to data-driven decisions created by these experts.",
+      "table": [
+        "SocialMediaInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "List relevant YouTube content created by identified business experts.",
+      "table": [
+        "SocialMediaInfo"
+      ]
+    }
+  ]
+}

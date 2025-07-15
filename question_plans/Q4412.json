@@ -1,0 +1,26 @@
+{
+  "question": "What competitive edge do companies gain by investing in both AI and VR, as reflected in industry IT trends?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies investing in both AI and VR.",
+      "table": [
+        "LookUpValue"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract industry IT trends related to AI and VR investments.",
+      "table": [
+        "LookUpValue"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the competitive edge gained as reflected in these trends.",
+      "table": [
+        "LookUpValue"
+      ]
+    }
+  ]
+}

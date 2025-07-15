@@ -1,0 +1,27 @@
+{
+  "question": "How did tech initiatives in nearshore markets affect leadership comments about competitive strategy?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify tech initiatives in nearshore markets.",
+      "table": [
+        "CompanyDataCenter"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract leadership comments about competitive strategy.",
+      "table": [
+        "CompanyLeadershipExcerpt"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the effect of nearshore tech initiatives on leadership comments regarding competitive strategy.",
+      "table": [
+        "CompanyLeadershipExcerpt",
+        "CompanyDataCenter"
+      ]
+    }
+  ]
+}

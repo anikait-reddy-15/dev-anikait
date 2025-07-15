@@ -1,21 +1,26 @@
 {
   "question": "What leadership perspectives can be found at companies that have recently hired for data scientist positions and are experiencing trends in IT spending?",
-  "tables": ["CompanyLeadershipExcerpt", "CompanyHiringDetail", "IndustryITTrend"],
   "subtasks": [
     {
       "step": 1,
       "task": "Identify companies that have recently hired data scientists.",
-      "table": ["CompanyHiringDetail"]
+      "table": [
+        "CompanyHiringDetail"
+      ]
     },
     {
       "step": 2,
       "task": "Filter companies with notable IT spending trends.",
-      "table": ["IndustryITTrend"]
+      "table": [
+        "IndustryITTrend"
+      ]
     },
     {
       "step": 3,
       "task": "Extract leadership excerpts from those companies.",
-      "table": ["CompanyLeadershipExcerpt"]
+      "table": [
+        "CompanyLeadershipExcerpt"
+      ]
     }
   ]
 }

@@ -1,0 +1,26 @@
+{
+  "question": "In which companies is the strategic focus ensuring data resilience as noted within SectionTitle reports?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify SectionTitle reports mentioning data resilience.",
+      "table": [
+        "SocialMediaInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract companies focusing on data resilience.",
+      "table": [
+        "PersonaUser"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze strategic focus on data resilience.",
+      "table": [
+        "PersonaLinkedinActivity"
+      ]
+    }
+  ]
+}

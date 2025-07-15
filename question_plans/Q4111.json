@@ -1,0 +1,26 @@
+{
+  "question": "What trends in IT hiring were observed among companies that reported significant new deals with tech vendors this fiscal year?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies with significant new deals with tech vendors this fiscal year",
+      "table": [
+        "CompanyITPartnerDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract IT hiring trends for these companies",
+      "table": [
+        "SectionTitle"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the correlation between new deals and IT hiring trends",
+      "table": [
+        "CompanyITPartnerDetail"
+      ]
+    }
+  ]
+}

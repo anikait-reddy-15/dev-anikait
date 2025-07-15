@@ -1,6 +1,5 @@
 {
   "question": "Which technologies are top financial firms focusing on following industry shifts?",
-  "tables": ["IndustryITTrend", "CompanyTechStack"],
   "subtasks": [
     {
       "step": 1,

@@ -1,0 +1,26 @@
+{
+  "question": "How do financial institutions implement blockchain technologies differently from other sectors?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify financial institutions and other sectors.",
+      "table": [
+        "PersonaMisc"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract blockchain implementation details for these entities.",
+      "table": [
+        "PersonaMisc"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Compare blockchain implementations between financial institutions and other sectors.",
+      "table": [
+        "PersonaMisc"
+      ]
+    }
+  ]
+}

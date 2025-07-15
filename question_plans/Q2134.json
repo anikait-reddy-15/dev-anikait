@@ -1,0 +1,26 @@
+{
+  "question": "Which companies have leaders that conducted webinars about cloud security, as seen on YouTube?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify leaders who have conducted webinars about cloud security.",
+      "table": [
+        "PersonaLinkedInProfile"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Verify these webinars were published on YouTube.",
+      "table": [
+        "PersonaLinkedInProfile"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "List companies associated with these leaders.",
+      "table": [
+        "CompanyDataCenter"
+      ]
+    }
+  ]
+}

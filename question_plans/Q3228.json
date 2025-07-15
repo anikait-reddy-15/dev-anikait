@@ -1,0 +1,26 @@
+{
+  "question": "What ingredients of TechStack are crucial among companies with spikes in Facebook engagement?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies with spikes in Facebook engagement.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract TechStack details for these companies.",
+      "table": [
+        "IndustryBusinessTrend"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Determine crucial TechStack ingredients based on engagement spikes.",
+      "table": [
+        "LookUpValue"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "question": "What key technologies are being adopted by organizations increasing their emphasis on user experience design?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify organizations emphasizing user experience design.",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "List key technologies adopted by these organizations.",
+      "table": [
+        "SectionTitle"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Highlight the most prominently adopted technologies.",
+      "table": [
+        "SectionTitle"
+      ]
+    }
+  ]
+}

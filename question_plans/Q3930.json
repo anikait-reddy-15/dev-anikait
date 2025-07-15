@@ -1,0 +1,26 @@
+{
+  "question": "Which companies have expanded into new geographical markets, and what competitive IT strategies have accompanied these expansions?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies that have expanded into new geographical markets.",
+      "table": [
+        "IndustryBusinessTrend"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract competitive IT strategies accompanying these expansions.",
+      "table": [
+        "IndustryBusinessTrend"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Combine results to show companies and their IT strategies.",
+      "table": [
+        "IndustryBusinessTrend"
+      ]
+    }
+  ]
+}

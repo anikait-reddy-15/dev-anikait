@@ -1,0 +1,26 @@
+{
+  "question": "What developments are highlighted within enterprises emphasizing artificial intelligence over traditional workflows?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify enterprises emphasizing artificial intelligence from the SectionTitle table.",
+      "table": [
+        "SectionTitle"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract details on traditional workflows from the CompanyHiringDetail table.",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Highlight developments in AI over traditional workflows using data from the CompanyFacebookDetail table.",
+      "table": [
+        "CompanyFacebookDetail"
+      ]
+    }
+  ]
+}

@@ -1,6 +1,5 @@
 {
   "question": "Which companies that have shown an increase in hiring recently made changes to their data centers?",
-  "tables": ["CompanyHiringDetail", "CompanyDataCenter"],
   "subtasks": [
     {
       "step": 1,

@@ -1,0 +1,27 @@
+{
+  "question": "How have company IT dynamics evolved with increasing LinkedIn discussions about strategy updates?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Track LinkedIn discussions about strategy updates.",
+      "table": [
+        "PersonaLinkedInProfile"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Analyze changes in company IT dynamics.",
+      "table": [
+        "CompanyVendorTechDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Correlate LinkedIn discussions with changes in IT dynamics.",
+      "table": [
+        "PersonaLinkedInProfile",
+        "CompanyVendorTechDetail"
+      ]
+    }
+  ]
+}

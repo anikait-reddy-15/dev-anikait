@@ -1,6 +1,5 @@
 {
   "question": "What strategic technologies are companies investing in that have declared partnerships with IT vendors recently?",
-  "tables": ["CompanyITPartnerDetail", "CompanyTechStack"],
   "subtasks": [
     {
       "step": 1,

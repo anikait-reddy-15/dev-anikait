@@ -1,21 +1,26 @@
 {
   "question": "What are the most followed topics on LinkedIn by professionals who have recently joined organizations that expanded their analytics capabilities?",
-  "tables": ["PersonaLinkedinProfile", "CompanyHiringDetail", "CompanyManagementDetail"],
   "subtasks": [
     {
       "step": 1,
       "task": "Identify professionals who have recently joined organizations that expanded their analytics capabilities. [CompanyHiringDetail]",
-      "table": ["CompanyHiringDetail"]
+      "table": [
+        "CompanyHiringDetail"
+      ]
     },
     {
       "step": 2,
       "task": "Gather LinkedIn profile data for these professionals to find their followed topics. [PersonaLinkedinProfile]",
-      "table": ["PersonaLinkedinProfile"]
+      "table": [
+        "PersonaLinkedinProfile"
+      ]
     },
     {
       "step": 3,
       "task": "Analyze the followed topics to determine the most popular ones. [PersonaLinkedinProfile]",
-      "table": ["PersonaLinkedinProfile"]
+      "table": [
+        "PersonaLinkedinProfile"
+      ]
     }
   ]
 }

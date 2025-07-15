@@ -1,0 +1,26 @@
+{
+  "question": "What companies have expanded their IT data centers while signing new cloud service deals in the past 12 months?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies that have expanded their IT data centers in the past 12 months.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Identify companies that have signed new cloud service deals in the past 12 months.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Find the intersection of companies from the previous two steps.",
+      "table": [
+        "CompanyInfo"
+      ]
+    }
+  ]
+}

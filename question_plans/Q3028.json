@@ -1,0 +1,26 @@
+{
+  "question": "Which vendors offer the most widely-adopted solutions for edge computing?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify vendors offering edge computing solutions.",
+      "table": [
+        "CompanyManagementDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract adoption metrics for these solutions.",
+      "table": [
+        "CompanyManagementDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Determine the most widely-adopted edge computing solutions.",
+      "table": [
+        "CompanyManagementDetail"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "question": "Which companies decreased staff in data-centric roles yet expanded their usage of machine learning tools?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies that decreased staff in data-centric roles.",
+      "table": [
+        "CompanyVendorTechDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Find companies that expanded their usage of machine learning tools.",
+      "table": [
+        "CompanyVendorTechDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Combine results to find companies meeting both criteria.",
+      "table": [
+        "CompanyVendorTechDetail"
+      ]
+    }
+  ]
+}

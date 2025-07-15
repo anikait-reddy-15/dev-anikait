@@ -1,0 +1,26 @@
+{
+  "question": "What are the latest IT priorities for companies expanding their partnerships with tech vendors in cybersecurity?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies expanding partnerships with tech vendors in cybersecurity.",
+      "table": [
+        "PersonaTitle"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract the latest IT priorities from these companies.",
+      "table": [
+        "PersonaTitle"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the IT priorities in the context of cybersecurity partnerships.",
+      "table": [
+        "PersonaTitle"
+      ]
+    }
+  ]
+}

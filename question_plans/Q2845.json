@@ -1,0 +1,26 @@
+{
+  "question": "Which companies have recently intensified their cloud infrastructure investments and how is this reflected in their tech stack updates?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies with recent increases in cloud infrastructure investments.",
+      "table": [
+        "CompanyVendorProductDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Examine tech stack updates for these companies.",
+      "table": [
+        "PersonaMisc"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the reflection of cloud investments in tech stack updates.",
+      "table": [
+        "SectionData"
+      ]
+    }
+  ]
+}

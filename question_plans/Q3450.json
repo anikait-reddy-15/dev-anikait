@@ -1,0 +1,26 @@
+{
+  "question": "Where are the strongest correlations between increased AI hiring and changing tech alliances as discussed in company updates?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies with increased AI hiring.",
+      "table": [
+        "SectionInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Find companies with changing tech alliances.",
+      "table": [
+        "CompanyDataCenter"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Determine correlations between AI hiring and tech alliances.",
+      "table": [
+        "SectionTitle"
+      ]
+    }
+  ]
+}

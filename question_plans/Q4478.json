@@ -1,0 +1,26 @@
+{
+  "question": "How does an increased focus on talent acquisition for AI roles reflect broader company strategies?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify trends in talent acquisition for AI roles.",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract broader company strategies related to these trends.",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the reflection of these strategies in AI talent acquisition.",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    }
+  ]
+}

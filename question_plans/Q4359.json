@@ -1,0 +1,26 @@
+{
+  "question": "Which corporate entities have recently emphasized sustainability in their IT departments?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify corporate entities from the CompanyITPartnerDetail table.",
+      "table": [
+        "CompanyITPartnerDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract mentions of sustainability emphasis in their IT departments.",
+      "table": [
+        "CompanyITPartnerDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "List these corporate entities emphasizing sustainability.",
+      "table": [
+        "CompanyITPartnerDetail"
+      ]
+    }
+  ]
+}

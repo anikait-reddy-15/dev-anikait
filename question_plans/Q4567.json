@@ -1,0 +1,27 @@
+{
+  "question": "How are leadership changes and strategic reorientations connected at key tech companies?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify leadership changes from the PersonaMisc table.",
+      "table": [
+        "PersonaMisc"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Identify strategic reorientations from the SectionData table.",
+      "table": [
+        "SectionData"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze connections between leadership changes and strategic reorientations.",
+      "table": [
+        "PersonaMisc",
+        "SectionData"
+      ]
+    }
+  ]
+}

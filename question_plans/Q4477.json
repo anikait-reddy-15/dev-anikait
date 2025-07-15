@@ -1,0 +1,27 @@
+{
+  "question": "Who are the primary drivers for tech adoption within companies leading in social media presence?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies with a strong social media presence.",
+      "table": [
+        "LookUpValue"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract information on tech adoption drivers within these companies.",
+      "table": [
+        "CompanyDataCenter"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Determine the primary drivers for tech adoption.",
+      "table": [
+        "CompanyDataCenter",
+        "LookUpValue"
+      ]
+    }
+  ]
+}

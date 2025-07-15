@@ -1,0 +1,26 @@
+{
+  "question": "Which companies experienced a lift in YouTube subscriptions following announcements on hybrid cloud environments?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies that have made announcements related to hybrid cloud environments.",
+      "table": [
+        "CompanyTwitterDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract YouTube subscription data for these companies.",
+      "table": [
+        "CompanyTwitterDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Determine which companies experienced an increase in YouTube subscriptions after the announcements.",
+      "table": [
+        "CompanyTwitterDetail"
+      ]
+    }
+  ]
+}

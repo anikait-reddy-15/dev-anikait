@@ -1,0 +1,26 @@
+{
+  "question": "What are the common leadership skills found in leaders of companies that have significantly altered their product strategies this year?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies that have significantly altered their product strategies this year.",
+      "table": [
+        "SectionData"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Find leaders of these companies.",
+      "table": [
+        "PersonaTitle"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Extract common leadership skills from these leaders.",
+      "table": [
+        "SectionData"
+      ]
+    }
+  ]
+}

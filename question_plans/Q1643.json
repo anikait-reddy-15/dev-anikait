@@ -1,0 +1,26 @@
+{
+  "question": "What key trends in digital advertising have been identified by companies with significant shifts in Facebook interactions?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies with significant shifts in Facebook interactions.",
+      "table": [
+        "PersonaLinkedInProfile"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract key trends in digital advertising from these companies.",
+      "table": [
+        "PersonaTitle"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the impact of these trends on the digital advertising landscape.",
+      "table": [
+        "PersonaYoutubeProfile"
+      ]
+    }
+  ]
+}

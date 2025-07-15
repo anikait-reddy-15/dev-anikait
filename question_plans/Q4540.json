@@ -1,0 +1,27 @@
+{
+  "question": "Who are the thought leaders discussing green technology in companies focused on sustainability?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies focused on sustainability.",
+      "table": [
+        "CompanyVendorProductDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract thought leaders discussing green technology.",
+      "table": [
+        "PersonaMisc"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Determine thought leaders in these companies.",
+      "table": [
+        "PersonaMisc",
+        "CompanyVendorProductDetail"
+      ]
+    }
+  ]
+}

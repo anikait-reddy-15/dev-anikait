@@ -1,0 +1,26 @@
+{
+  "question": "Which leadership changes are pivotal as companies realign their strategic goals with automation?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies realigning strategic goals with automation from CompanyYoutubeDetail.",
+      "table": [
+        "CompanyYoutubeDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract pivotal leadership changes in these companies.",
+      "table": [
+        "CompanyYoutubeDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the impact of leadership changes on strategic realignment.",
+      "table": [
+        "CompanyYoutubeDetail"
+      ]
+    }
+  ]
+}

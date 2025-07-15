@@ -1,0 +1,27 @@
+{
+  "question": "How do changes in CEO strategy presentations align with company hiring for blockchain positions?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Extract changes in CEO strategy presentations.",
+      "table": [
+        "SectionInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Identify company hiring records for blockchain positions.",
+      "table": [
+        "CompanyDealMaster"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the alignment between CEO strategy changes and hiring for blockchain positions.",
+      "table": [
+        "SectionInfo",
+        "CompanyDealMaster"
+      ]
+    }
+  ]
+}

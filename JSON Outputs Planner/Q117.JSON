@@ -1,6 +1,5 @@
 {
   "question": "Which vendors are being discussed by data scientists as potential partners for machine learning projects?",
-  "tables": ["CompanyVendorProductDetail", "PersonaUser"],
   "subtasks": [
     {
       "step": 1,

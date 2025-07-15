@@ -1,0 +1,26 @@
+{
+  "question": "Which companies in the logistics industry are prioritizing smart automation technologies?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies in the logistics industry.",
+      "table": [
+        "PersonaMisc"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract details on smart automation technologies for these companies.",
+      "table": [
+        "PersonaMisc"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Identify companies prioritizing smart automation technologies.",
+      "table": [
+        "PersonaMisc"
+      ]
+    }
+  ]
+}

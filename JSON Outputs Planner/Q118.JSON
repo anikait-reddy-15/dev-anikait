@@ -1,6 +1,5 @@
 {
   "question": "What insights can be drawn from industry trends regarding technology adoption in companies with notable social media visibility?",
-  "tables": ["IndustryITTrend", "CompanySocialMediaInfo"],
   "subtasks": [
     {
       "step": 1,

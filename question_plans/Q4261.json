@@ -1,0 +1,26 @@
+{
+  "question": "How are shifts in IT technological adoption affecting overall organizational competitiveness?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify shifts in IT technological adoption trends.",
+      "table": [
+        "SectionTitle"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Analyze how these shifts correlate with organizational competitiveness metrics.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Summarize the impact of IT adoption shifts on competitiveness.",
+      "table": [
+        "CompanyInfo"
+      ]
+    }
+  ]
+}

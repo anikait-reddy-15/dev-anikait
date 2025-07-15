@@ -1,0 +1,24 @@
+{
+  "question": "Which organizations are prominent in engaging industry benchmarks and also demonstrate high traction on Instagram for new tech announcements?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify organizations engaging industry benchmarks.",
+      "table": [
+        "SectionInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Identify organizations with high Instagram traction for tech announcements.",
+      "table": [
+        "PersonaYoutubeProfile"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Combine results to find organizations that meet both criteria.",
+      "table": []
+    }
+  ]
+}

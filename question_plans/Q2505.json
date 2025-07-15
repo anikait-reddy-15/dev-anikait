@@ -1,0 +1,26 @@
+{
+  "question": "Which personas listed as Chief Technology Officers have previously worked in cybersecurity roles?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify personas listed as Chief Technology Officers.",
+      "table": [
+        "PersonaLinkedInProfile"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Check their previous roles for any mention of cybersecurity.",
+      "table": [
+        "PersonaLinkedInProfile"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "List personas who have worked in cybersecurity roles.",
+      "table": [
+        "PersonaLinkedInProfile"
+      ]
+    }
+  ]
+}

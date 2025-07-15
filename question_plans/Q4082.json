@@ -1,0 +1,26 @@
+{
+  "question": "What strategic movements are inspired by major trends in data analytics highlighted in blogs?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Extract major trends in data analytics from blog excerpts.",
+      "table": [
+        "PersonaMisc"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Identify strategic movements mentioned in relation to these trends.",
+      "table": [
+        "PersonaMisc"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the impact of these strategic movements on business operations.",
+      "table": [
+        "PersonaMisc"
+      ]
+    }
+  ]
+}

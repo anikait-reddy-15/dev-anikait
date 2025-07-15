@@ -1,0 +1,26 @@
+{
+  "question": "How have mergers influenced the IT department's investment for major organizations globally?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify major organizations that have undergone mergers.",
+      "table": [
+        "CompanyTwitterDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract data on IT department investments for these organizations.",
+      "table": [
+        "CompanyTwitterDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the influence of mergers on IT department investments.",
+      "table": [
+        "CompanyTwitterDetail"
+      ]
+    }
+  ]
+}

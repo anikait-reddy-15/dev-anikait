@@ -1,0 +1,27 @@
+{
+  "question": "Which companies investing in automation technologies have increased talent acquisition for IoT roles?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies investing in automation technologies.",
+      "table": [
+        "CompanyVendorProductDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract data on talent acquisition for IoT roles.",
+      "table": [
+        "PersonaMisc"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Determine which companies have increased IoT role acquisitions.",
+      "table": [
+        "CompanyVendorProductDetail",
+        "PersonaMisc"
+      ]
+    }
+  ]
+}

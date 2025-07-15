@@ -1,0 +1,26 @@
+{
+  "question": "What are the preferred data management tools among companies that posted job openings for senior analysts in Q2?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies that posted job openings for senior analysts in Q2.",
+      "table": [
+        "SectionData"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Find data management tools mentioned by these companies.",
+      "table": [
+        "SectionData"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "List the preferred data management tools among these companies.",
+      "table": [
+        "SectionData"
+      ]
+    }
+  ]
+}

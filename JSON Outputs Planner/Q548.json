@@ -1,21 +1,26 @@
 {
   "question": "What are the top focus areas for companies that have announced an increase in hiring for data-driven roles over the last year?",
-  "tables": ["CompanyHiringDetail", "CompanyFocusAreaDetail"],
   "subtasks": [
     {
       "step": 1,
       "task": "Identify companies that have announced an increase in hiring for data-driven roles in the last year. [CompanyHiringDetail]",
-      "table": ["CompanyHiringDetail"]
+      "table": [
+        "CompanyHiringDetail"
+      ]
     },
     {
       "step": 2,
       "task": "Determine the focus areas associated with the identified companies. [CompanyFocusAreaDetail]",
-      "table": ["CompanyFocusAreaDetail"]
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
     },
     {
       "step": 3,
       "task": "Aggregate and rank the focus areas based on the number of companies associated with each. [CompanyFocusAreaDetail]",
-      "table": ["CompanyFocusAreaDetail"]
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
     }
   ]
 }

@@ -1,0 +1,27 @@
+{
+  "question": "What recruitment trends are noticeable among companies with new digital marketing initiatives on Instagram?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies with new digital marketing initiatives on Instagram.",
+      "table": [
+        "PageInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Find recruitment trends among these companies.",
+      "table": [
+        "LookUpValue"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze and list noticeable recruitment trends.",
+      "table": [
+        "LookUpValue",
+        "PageInfo"
+      ]
+    }
+  ]
+}

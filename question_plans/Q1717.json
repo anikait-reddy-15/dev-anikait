@@ -1,0 +1,26 @@
+{
+  "question": "How have companies modified their IT partnerships in response to significant updates in their focus areas?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify significant updates in companies' focus areas.",
+      "table": [
+        "CompanyTwitterDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Find modifications in IT partnerships following these updates.",
+      "table": [
+        "CompanyTwitterDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Describe the modifications in IT partnerships.",
+      "table": [
+        "CompanyTwitterDetail"
+      ]
+    }
+  ]
+}

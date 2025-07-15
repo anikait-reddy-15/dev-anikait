@@ -1,0 +1,27 @@
+{
+  "question": "What leadership viewpoints are common in companies shifting towards digital platforms?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies shifting towards digital platforms.",
+      "table": [
+        "CompanyVendorProductDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract leadership viewpoints from these companies.",
+      "table": [
+        "PersonaMisc"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze common leadership viewpoints.",
+      "table": [
+        "PersonaMisc",
+        "CompanyVendorProductDetail"
+      ]
+    }
+  ]
+}

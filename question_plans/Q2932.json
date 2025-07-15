@@ -1,0 +1,26 @@
+{
+  "question": "How do leadership excerpts reflect the ongoing challenges in adopting advanced analytics solutions?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Extract leadership excerpts related to analytics solutions.",
+      "table": [
+        "CompanyTechStack"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Identify challenges mentioned in these excerpts.",
+      "table": [
+        "CompanyTechStack"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze how these challenges are reflected in the excerpts.",
+      "table": [
+        "CompanyTechStack"
+      ]
+    }
+  ]
+}

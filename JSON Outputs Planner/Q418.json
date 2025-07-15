@@ -1,21 +1,27 @@
 {
   "question": "Which social media platforms are commonly used by companies that have recently adjusted their technology stack to implement cloud solutions?",
-  "tables": ["SocialMediaInfo", "CompanyTechStack"],
   "subtasks": [
     {
       "step": 1,
       "task": "Identify companies that have adjusted their technology stack to implement cloud solutions. [CompanyTechStack]",
-      "table": ["CompanyTechStack"]
+      "table": [
+        "CompanyTechStack"
+      ]
     },
     {
       "step": 2,
       "task": "Gather social media platform usage data for the identified companies. [SocialMediaInfo]",
-      "table": ["SocialMediaInfo"]
+      "table": [
+        "SocialMediaInfo"
+      ]
     },
     {
       "step": 3,
       "task": "Analyze the social media platforms used by the companies from the previous steps. [SocialMediaInfo, CompanyTechStack]",
-      "table": ["SocialMediaInfo", "CompanyTechStack"]
+      "table": [
+        "SocialMediaInfo",
+        "CompanyTechStack"
+      ]
     }
   ]
 }

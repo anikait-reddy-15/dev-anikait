@@ -1,0 +1,27 @@
+{
+  "question": "Which companies have actively shared about their technological pivots in AI on Instagram while upgrading their IT infrastructure?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies that have actively shared about their technological pivots in AI on Instagram.",
+      "table": [
+        "CompanyFacebookDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Determine which of these companies are upgrading their IT infrastructure.",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Combine results to find companies meeting both criteria.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyHiringDetail"
+      ]
+    }
+  ]
+}

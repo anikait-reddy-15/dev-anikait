@@ -1,0 +1,26 @@
+{
+  "question": "What industrial innovations are prominently featured in influential Twitter posts by tech leaders?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify influential Twitter posts by tech leaders.",
+      "table": [
+        "PersonaYoutubeProfile"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract mentions of industrial innovations from these posts.",
+      "table": [
+        "PersonaMisc"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Highlight the most prominently featured industrial innovations.",
+      "table": [
+        "PersonaMisc"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "question": "Which firms strategically align social media engagement improvement with the deployment of new AI solutions?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify firms deploying new AI solutions from the CompanyDataCenter table.",
+      "table": [
+        "CompanyDataCenter"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Find improvements in social media engagement in the SocialMediaInfo table for these firms.",
+      "table": [
+        "SocialMediaInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "List firms that align social media engagement improvement with AI solution deployment.",
+      "table": [
+        "CompanyDataCenter"
+      ]
+    }
+  ]
+}

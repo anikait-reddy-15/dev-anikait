@@ -1,0 +1,26 @@
+{
+  "question": "How are AI-driven strategies forming the central ground of tactical enterprise discussions in speeches?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify AI-driven strategies from the PersonaLinkedInProfile table.",
+      "table": [
+        "PersonaLinkedInProfile"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract tactical enterprise discussions from the PersonaLinkedInProfile table.",
+      "table": [
+        "PersonaLinkedInProfile"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze how these strategies form the central ground of discussions.",
+      "table": [
+        "PersonaLinkedInProfile"
+      ]
+    }
+  ]
+}

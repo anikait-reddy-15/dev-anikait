@@ -1,0 +1,26 @@
+{
+  "question": "Which IT solutions have increased in demand in companies working towards business process automation?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies working towards business process automation.",
+      "table": [
+        "SectionData"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract IT solutions used by these companies.",
+      "table": [
+        "SectionData"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Determine which IT solutions have increased in demand.",
+      "table": [
+        "SectionData"
+      ]
+    }
+  ]
+}

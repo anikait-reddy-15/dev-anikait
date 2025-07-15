@@ -1,0 +1,27 @@
+{
+  "question": "Which personas sharing \"big data\" advancements on Instagram are affiliated with firms that have diversified their IT partner networks?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify personas sharing \"big data\" advancements on Instagram.",
+      "table": [
+        "PersonaMisc"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Find firms that have diversified their IT partner networks.",
+      "table": [
+        "CompanyManagementDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Match personas with firms they are affiliated with.",
+      "table": [
+        "PersonaMisc",
+        "CompanyManagementDetail"
+      ]
+    }
+  ]
+}

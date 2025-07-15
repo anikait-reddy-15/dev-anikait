@@ -1,0 +1,26 @@
+{
+  "question": "Which companies focused on e-commerce noticed measurable productivity improvements post leadership change?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies focused on e-commerce.",
+      "table": [
+        "SectionInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Find companies that have undergone a leadership change.",
+      "table": [
+        "CompanyManagementDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Determine which of these companies noticed measurable productivity improvements.",
+      "table": [
+        "CompanyManagementDetail"
+      ]
+    }
+  ]
+}

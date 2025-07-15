@@ -1,0 +1,27 @@
+{
+  "question": "What are the key technologies being adapted by life sciences companies increasing YouTube engagement?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify life sciences companies with increased YouTube engagement.",
+      "table": [
+        "SocialMediaInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract key technologies being adapted by these companies.",
+      "table": [
+        "CompanyVendorProductDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "List the key technologies correlated with increased YouTube engagement.",
+      "table": [
+        "SocialMediaInfo",
+        "CompanyVendorProductDetail"
+      ]
+    }
+  ]
+}

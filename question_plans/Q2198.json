@@ -1,0 +1,26 @@
+{
+  "question": "Are there noticeable shifts in leadership strategy adopting AI mentioned during public company briefings?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify public company briefings mentioning AI from the PersonaLinkedInProfile table.",
+      "table": [
+        "PersonaLinkedInProfile"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract shifts in leadership strategy from these briefings.",
+      "table": [
+        "PersonaLinkedInProfile"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Determine the notability of these shifts.",
+      "table": [
+        "CompanyDataCenter"
+      ]
+    }
+  ]
+}

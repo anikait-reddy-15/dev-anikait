@@ -1,0 +1,26 @@
+{
+  "question": "What technologies are primarily utilized by companies actively expanding their focus on sustainability?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies expanding their focus on sustainability.",
+      "table": [
+        "CompanyTechStack"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract technologies utilized by these companies.",
+      "table": [
+        "CompanyTechStack"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Determine which technologies are primarily used.",
+      "table": [
+        "CompanyTechStack"
+      ]
+    }
+  ]
+}
