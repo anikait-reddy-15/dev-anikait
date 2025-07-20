@@ -1,0 +1,40 @@
+{
+  "question": "What are the current social media engagement trends of technology companies in North America?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify all technology companies located in North America.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Retrieve social media engagement metrics for the identified companies across Facebook, Instagram, Twitter, and YouTube.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyInstagramDetail",
+        "CompanyTwitterDetail",
+        "CompanyYoutubeDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Aggregate and analyze the engagement metrics to determine trends over a specific time period (e.g., quarterly).",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyInstagramDetail",
+        "CompanyTwitterDetail",
+        "CompanyYoutubeDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Create a visual report showcasing the engagement trends by social media platform for each technology company.",
+      "table": [
+        "PageInfo",
+        "SectionData"
+      ]
+    }
+  ]
+}

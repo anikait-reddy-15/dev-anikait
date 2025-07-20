@@ -1,0 +1,40 @@
+{
+  "question": "Analyze the social media presence of companies across different sectors and their engagement metrics.",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify and retrieve data on companies from the CompanyInfo table, focusing on sectors they belong to and their social media presence.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract engagement metrics such as likes, comments, and engagement rates from the social media detail tables (Facebook, Instagram, Twitter, YouTube) for the identified companies.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyInstagramDetail",
+        "CompanyTwitterDetail",
+        "CompanyYoutubeDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Compile and group the collected social media engagement metrics by sector to analyze performance and identify trends among different sectors.",
+      "table": [
+        "CompanyInfo",
+        "CompanyFacebookDetail",
+        "CompanyInstagramDetail",
+        "CompanyTwitterDetail",
+        "CompanyYoutubeDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Provide a summary report on the findings highlighting key metrics, top-performing companies, and insights into sector-specific trends in social media engagement.",
+      "table": [
+        "CompanyInfo"
+      ]
+    }
+  ]
+}

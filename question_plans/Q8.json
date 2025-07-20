@@ -1,0 +1,39 @@
+{
+  "question": "What are the recent hiring trends and technology focus areas in the tech industry?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies operating in the tech industry and gather their hiring details including job designations and skills required from the CompanyHiringDetail table.",
+      "table": [
+        "CompanyHiringDetail",
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Analyze the IT focus areas of these companies to understand their strategic technology initiatives using the CompanyFocusAreaDetail table.",
+      "table": [
+        "CompanyFocusAreaDetail",
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Compile and summarize the hiring information and technology focus areas to identify trends such as in-demand skills and popular technologies in the tech sector.",
+      "table": [
+        "CompanyHiringDetail",
+        "CompanyFocusAreaDetail",
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Evaluate how social media presence and engagement metrics from platforms like LinkedIn and Twitter relate to the identified trends using SocialMediaInfo and related social media tables.",
+      "table": [
+        "SocialMediaInfo",
+        "CompanyTwitterDetail",
+        "CompanyLinkedInDetail"
+      ]
+    }
+  ]
+}

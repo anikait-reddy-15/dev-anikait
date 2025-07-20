@@ -1,128 +1,187 @@
-import openai
 import json
+import requests
+import time
 import os
-from dotenv import load_dotenv
-from time import sleep
 import re
 
-load_dotenv()
-openai.api_key = os.getenv("OPEN_AI_API_KEY")
+# === Configuration ===
+API_URL = "https://4vemmwmcpb.ap-south-1.awsapprunner.com/structured_output/text"
+INPUT_FILE = r"C:\Work Repos\dev-anikait\generated_questions.json"
+TABLE_METADATA_FILE = r"C:\Work Repos\dev-anikait\refract\generate_planner\table_metada.json"
+OUTPUT_DIR = "question_plans"
+FAILED_LOG = "failed_questions.txt"
+RAW_OUTPUT_LOG = "raw_outputs"
+DELAY_BETWEEN_REQUESTS = 1
+MAX_RETRIES = 3
+TIMEOUT = 60  # seconds
 
-def chunk_list(lst, chunk_size):
-    """Split a list into chunks of a specific size."""
-    for i in range(0, len(lst), chunk_size):
-        yield lst[i:i + chunk_size]
 
-def clean_question(q):
-    """Remove leading numbering and (Tables: ...) part from the question."""
-    q = q.strip()
-    q = re.sub(r"^\d+\.\s*", "", q)  # Remove "1. ", "2. ", etc.
-    q = re.sub(r"\s*\(Tables:.*?\)\s*$", "", q)  # Remove "(Tables: ...)" at the end
-    return q.strip()
+def load_json_file(filename):
+    with open(filename, "r", encoding="utf-8") as f:
+        return json.load(f)
 
-def split_questions(raw_text):
-    """Split and clean questions if they come in a block of text."""
-    raw_questions = re.split(r'\n\d+\.\s+', "\n" + raw_text.strip())
-    return [clean_question(q) for q in raw_questions if q.strip()]
 
-def generate_plans():
+def parse_subtasks(raw_subtasks):
+    if isinstance(raw_subtasks, list):
+        return raw_subtasks
+    if not isinstance(raw_subtasks, str):
+        print("⚠️ 'subtasks' is neither a list nor a string.")
+        return []
+
     try:
-        with open("generated_questions.json", "r", encoding="utf-8") as f:
-            data = json.load(f)
+        # Strip whitespace and wrapping quotes if present
+        cleaned = raw_subtasks.strip()
+        if cleaned.startswith('"') and cleaned.endswith('"'):
+            cleaned = cleaned[1:-1]
 
-        tables = data["tables"]
+        # Fix common escape issues
+        cleaned = cleaned.replace('\\"', '"').replace("\\n", " ").replace("\\t", " ").strip()
 
-        # Handle both string and list cases
-        raw_questions = data["questions"]
-        if isinstance(raw_questions, str):
-            questions = split_questions(raw_questions)
-        elif isinstance(raw_questions, list):
-            questions = [clean_question(q) for q in raw_questions if isinstance(q, str) and q.strip()]
-        else:
-            raise ValueError("Unsupported format for 'questions'. Must be string or list.")
-
-        output_dir = "question_plans"
-        os.makedirs(output_dir, exist_ok=True)
-
-        global_counter = 4901
-
-        for batch_num, batch in enumerate(chunk_list(questions, 20), start=0):  # 20 per batch to avoid token limits
-            batch_start_index = global_counter
-            print(f"\n🚀 Processing batch {batch_num + 1} (Q{batch_start_index} to Q{batch_start_index + len(batch) - 1})")
-
-            formatted_questions = json.dumps(batch, indent=2)
-            prompt = f'''You are a smart SQL planner. Your job is to break down natural language business/tech strategy questions into logical subtasks.
-
-You have access to these structured tables: {', '.join(tables)}.
-Each table includes business, tech, leadership, or hiring-related fields, including nested fields like social posts, IT trends, hiring roles, leadership excerpts, etc.
-
-Your task:
-For **each question**, decompose it into a JSON object of subtasks to help generate a SQL query step-by-step.
-
-Important:
-- Each **subtask must include only the specific table(s)** required to complete **that individual step**.
-- Do **not** list all question-related tables inside each subtask — only what's used for that step.
-- There should be **no `"tables"` field** in the JSON output before `"subtasks"` and after `"question"`.
-- Each question must include **at least 3 subtasks** (minimum) to ensure logical breakdown. There's **no upper limit** if more steps are needed.
-
-Return format (per question):
-[
-  {{
-    "question": "<original question>",
-    "subtasks": [
-      {{
-        "step": 1,
-        "task": "Describe what this subtask is doing",
-        "table": ["Table1"]
-      }},
-      {{
-        "step": 2,
-        "task": "Next subtask description",
-        "table": ["Table2"]
-      }}
-    ]
-  }}
-]
-
-Questions:
-{formatted_questions}
-'''
-
-            try:
-                response = openai.chat.completions.create(
-                    model="gpt-4o",
-                    messages=[
-                        {"role": "system", "content": "You are a SQL planning assistant."},
-                        {"role": "user", "content": prompt}
-                    ],
-                    temperature=0.3
-                )
-
-                raw_output = response.choices[0].message.content.strip()
-
-                # Remove markdown if present
-                if raw_output.startswith("```json"):
-                    raw_output = raw_output.lstrip("```json").rstrip("```").strip()
-                elif raw_output.startswith("```"):
-                    raw_output = raw_output.lstrip("```").rstrip("```").strip()
-
-                parsed = json.loads(raw_output)
-
-                for i, item in enumerate(parsed):
-                    file_name = f"Q{global_counter + i}.json"
-                    with open(os.path.join(output_dir, file_name), "w", encoding="utf-8") as f:
-                        json.dump(item, f, indent=2)
-
-                print(f"✅ Batch {batch_num + 1} complete. Saved {len(parsed)} questions (Q{global_counter} to Q{global_counter + len(parsed) - 1})")
-                global_counter += len(parsed)
-                sleep(1)  # polite delay
-
-            except Exception as e:
-                print(f"❌ Error in batch {batch_num + 1}: {e}")
-                continue
+        # Try direct parse
+        try:
+            return json.loads(cleaned)
+        except json.JSONDecodeError:
+            # Try to extract just the JSON array
+            match = re.search(r"\[.*\]", cleaned, re.DOTALL)
+            if match:
+                json_str = match.group(0)
+                return json.loads(json_str)
 
     except Exception as e:
-        print(f"Failed to generate plans: {e}")
+        print("⚠️ Final fallback JSON parse failed:", e)
+
+    print("⚠️ Subtask returned output is empty")
+    return []
+
+
+
+def build_prompt_with_metadata(table_metadata):
+    metadata_str = "\n".join(
+        f"{table}: Description: {info['description']}, Columns: {info['columns']}"
+        for table, info in table_metadata.items()
+    )
+
+    prompt = (
+        "You are a smart SQL planner. Your job is to decompose business and IT questions into subtasks.\n"
+        "You have access to the following database schema and metadata:\n\n"
+        f"{metadata_str}\n\n"
+        "For the given question, break it down into subtasks.\n"
+        "Each subtask should contain:\n"
+        "- step (integer step number)\n"
+        "- task (description of the task)\n"
+        "- table (list of relevant table names)\n\n"
+        "Output JSON with keys: question (string), subtasks (list of objects with step, task, and table).\n"
+        "Make sure to return at least minimum 3 meaningful subtasks\n"
+        "You can include more than 3 if needed (e.g., 4, 5, 6...).\n"
+        "Do not return an empty list.\n"
+        "Use only tables provided in the schema\n"
+        "Return only valid JSON.\n\n"
+        "Question:\n{{question}}\n\n"
+        "Output:"
+    )
+    return prompt
+
+
+def send_to_api(question_text, prompt_template, question_index):
+    payload = {
+        "params": {
+            "provider": "openai",
+            "model_name": "gpt-4o-mini",
+            "prompt_template": prompt_template,
+            "inputs": {"question": question_text},
+            "output_schema": {
+                "question": {"type": "str"},
+                "subtasks": {
+                    "type": "list",
+                    "items": {
+                        "type": "object",
+                        "properties": {
+                            "step": {"type": "int"},
+                            "task": {"type": "str"},
+                            "table": {"type": "list", "items": {"type": "str"}}
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    for attempt in range(1, MAX_RETRIES + 1):
+        try:
+            response = requests.post(
+                API_URL,
+                headers={"Content-Type": "application/json"},
+                json=payload,
+                timeout=TIMEOUT
+            )
+
+            if response.status_code in [502, 504]:
+                print(f"⚠️ Gateway error {response.status_code} on attempt {attempt}. Retrying...")
+                time.sleep(2 ** attempt)
+                continue
+
+            response.raise_for_status()
+            data = response.json().get("data", {})
+
+            # Save raw API response
+            os.makedirs(RAW_OUTPUT_LOG, exist_ok=True)
+            with open(os.path.join(RAW_OUTPUT_LOG, f"Q{question_index}_raw.json"), "w", encoding="utf-8") as raw_file:
+                json.dump(data, raw_file, indent=2)
+
+            subtasks_raw = data.get("subtasks")
+            subtasks = parse_subtasks(subtasks_raw)
+
+            if not subtasks:
+                print("⚠️ Subtask returned output is empty")
+                return {"question": question_text, "subtasks": []}
+
+            normalized = []
+            for step in subtasks:
+                normalized.append({
+                    "step": step.get("step"),
+                    "task": step.get("task") or step.get("task_description"),
+                    "table": step.get("table") or step.get("tables")
+                })
+
+            return {
+                "question": data.get("question", question_text),
+                "subtasks": normalized
+            }
+
+        except requests.exceptions.RequestException as e:
+            print(f"❌ Request failed on attempt {attempt}: {e}")
+            time.sleep(2 ** attempt)
+
+    return None
+
+
+def log_failed_question(index, question_text):
+    with open(FAILED_LOG, "a", encoding="utf-8") as f:
+        f.write(f"Q{index}: {question_text}\n")
+
+
+def main():
+    os.makedirs(OUTPUT_DIR, exist_ok=True)
+
+    questions = load_json_file(INPUT_FILE)
+    table_metadata = load_json_file(TABLE_METADATA_FILE)
+    prompt_template = build_prompt_with_metadata(table_metadata)
+
+    for i, question in enumerate(questions["questions"], start=1):
+        print(f"\n🚀 Processing Q{i}: {question}")
+        result = send_to_api(question, prompt_template, i)
+
+        if result:
+            output_file = os.path.join(OUTPUT_DIR, f"Q{i}.json")
+            with open(output_file, "w", encoding="utf-8") as f:
+                json.dump(result, f, indent=2)
+            print(f"💾 Saved: {output_file}")
+        else:
+            print(f"⚠️ Skipped Q{i} due to repeated errors")
+            log_failed_question(i, question)
+
+        time.sleep(DELAY_BETWEEN_REQUESTS)
+
 
 if __name__ == "__main__":
-    generate_plans()
+    main()

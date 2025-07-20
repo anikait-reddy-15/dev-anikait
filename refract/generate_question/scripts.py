@@ -1,4 +1,3 @@
-import openai
 import requests
 import random
 import json
@@ -8,7 +7,6 @@ from dotenv import load_dotenv
 from prompt import PROMPT
 
 load_dotenv()
-openai.api_key = os.getenv("OPEN_AI_API_KEY")
 
 TABLE_NAMES = [
     "CompanyInfo", "CompanyDataCenter", "CompanyDealMaster", "CompanyFacebookDetail", "CompanyFocusAreaDetail", "CompanyHiringDetail",
@@ -50,24 +48,46 @@ def get_question(table_names: List[str]) -> None:
             all_columns.append(f"Table {table_name}: {cols}")
             all_records.append({table_name: recs})
 
+        # Construct the prompt
         prompt_input = PROMPT.format(
             table_names=", ".join(selected_tables),
             column_names="\n".join(all_columns)
         )
 
-        question_response = openai.chat.completions.create(
-            model="gpt-4o",
-            messages=[
-                {"role": "system", "content": prompt_input},
-                {"role": "user", "content": "Generate the full list of 100 questions as instructed above all at once."}
-            ]
-        )
+        # Send to hosted inference API
+        api_url = "https://4vemmwmcpb.ap-south-1.awsapprunner.com/structured_output/text"
+        payload = json.dumps({
+            "params": {
+                "provider": "openai",
+                "model_name": "gpt-4o-mini",
+                "prompt_template": prompt_input,
+                "inputs": {},
+                "output_schema": {
+                    "questions": {
+                        "type": "list",
+                        "description": "List of 10 unique business or tech strategy questions"
+                    }
+                }
+            }
+        })
 
-        content = question_response.choices[0].message.content
-        questions = [line.strip("- ").strip() for line in content.strip().split("\n") if line.strip()]
+        headers = {"Content-Type": "application/json"}
+        response = requests.post(api_url, headers=headers, data=payload)
+        response.raise_for_status()
+
+        result_json = response.json()
+
+        # Parse response: string of questions inside result_json["data"]["questions"]
+        questions_text = result_json.get("data", {}).get("questions", "")
+        questions_list = [q.strip() for q in questions_text.split("\n") if q.strip()]
+        questions_list = [q[q.find(".")+1:].strip() if "." in q else q for q in questions_list]
+
+        if not questions_list or len(questions_list) < 10:
+            print("⚠️ Could not extract a valid list of questions from the response.")
+            return
 
         result = {
-            "questions": questions,
+            "questions": questions_list,
             "tables": selected_tables,
             "records": all_records
         }
@@ -75,10 +95,10 @@ def get_question(table_names: List[str]) -> None:
         with open("generated_questions.json", "w", encoding="utf-8") as f:
             json.dump(result, f, indent=2)
 
-        print("✅ 100 questions generated and saved to generated_questions.json")
+        print("✅ 10 questions generated and saved to generated_questions.json")
 
     except Exception as e:
-        print(f"An error occurred: {e}")
+        print(f"❌ An error occurred: {e}")
 
 if __name__ == "__main__":
     get_question(TABLE_NAMES)

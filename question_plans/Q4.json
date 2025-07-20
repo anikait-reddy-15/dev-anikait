@@ -1,0 +1,40 @@
+{
+  "question": "What are the latest technology trends and hiring initiatives for companies in the finance industry?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify the latest technology trends relevant to the finance industry by querying the IndustryITTrend table.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Retrieve the list of companies in the finance industry by querying the CompanyInfo table based on the Industry column.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Extract hiring initiatives related to the finance industry from the CompanyHiringDetail table, linking it with the CompanyInfo table to narrow it down to finance companies.",
+      "table": [
+        "CompanyHiringDetail",
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Compile the latest social media engagement data related to finance companies from the CompanyFacebookDetail and CompanyTwitterDetail tables to understand their visibility and technology adoption strategies.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyTwitterDetail"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Summarize the findings into a cohesive report highlighting the key technology trends and active hiring initiatives in the finance sector.",
+      "table": null
+    }
+  ]
+}
