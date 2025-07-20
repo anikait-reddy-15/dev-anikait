@@ -41,6 +41,18 @@ Rules:
 7. Where possible, **blend tables** meaningfully. Example: Hiring + Tech Stack, Social Media + Strategic Focus, Leadership + Vendor Deals, etc.
 8. Every question should end with a table usage label in this format:  
    **(Tables: Table1, Table2, Table3)** — list only the tables used for that question.
+9. DO NOT generate questions that:
+   - Ask for writing memos, summaries, articles, or documents.
+   - Require subjective reasoning or external knowledge.
+   - Are open-ended, like "Why", "How should", "Write a report", or "Describe...".
+   GOOD examples:
+   - Which companies adopted cloud technologies after 2023?
+   - What are the top 5 industries hiring for AI roles?
+   - Which leaders posted most frequently on LinkedIn?
+   BAD examples (avoid completely):
+   - Write a memo about tech adoption.
+   - Give me a summary of industry trends.
+   - Generate a press release or document.
 
 Example Output Format:
 
