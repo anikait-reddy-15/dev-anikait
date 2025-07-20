@@ -3,6 +3,7 @@ import requests
 import time
 import os
 import re
+import ast
 
 # === Configuration ===
 API_URL = "https://4vemmwmcpb.ap-south-1.awsapprunner.com/structured_output/text"
@@ -11,9 +12,9 @@ TABLE_METADATA_FILE = r"C:\Work Repos\dev-anikait\refract\generate_planner\table
 OUTPUT_DIR = "question_plans"
 FAILED_LOG = "failed_questions.txt"
 RAW_OUTPUT_LOG = "raw_outputs"
-DELAY_BETWEEN_REQUESTS = 1
+DELAY_BETWEEN_REQUESTS = 5
 MAX_RETRIES = 3
-TIMEOUT = 60  # seconds
+TIMEOUT = 60
 
 
 def load_json_file(filename):
@@ -29,30 +30,37 @@ def parse_subtasks(raw_subtasks):
         return []
 
     try:
-        # Strip whitespace and wrapping quotes if present
         cleaned = raw_subtasks.strip()
         if cleaned.startswith('"') and cleaned.endswith('"'):
             cleaned = cleaned[1:-1]
-
-        # Fix common escape issues
         cleaned = cleaned.replace('\\"', '"').replace("\\n", " ").replace("\\t", " ").strip()
 
-        # Try direct parse
         try:
             return json.loads(cleaned)
         except json.JSONDecodeError:
-            # Try to extract just the JSON array
-            match = re.search(r"\[.*\]", cleaned, re.DOTALL)
-            if match:
-                json_str = match.group(0)
+            pass
+
+        match = re.search(r"\[.*\]", cleaned, re.DOTALL)
+        if match:
+            json_str = match.group(0)
+            try:
                 return json.loads(json_str)
+            except json.JSONDecodeError:
+                pass
+
+        try:
+            safe_eval_input = cleaned.replace("'", '"')
+            evaluated = ast.literal_eval(safe_eval_input)
+            if isinstance(evaluated, list):
+                return evaluated
+        except Exception as e:
+            print(f"⚠️ Fallback literal_eval failed: {e}")
 
     except Exception as e:
-        print("⚠️ Final fallback JSON parse failed:", e)
+        print(f"⚠️ Final parse error: {e}")
 
     print("⚠️ Subtask returned output is empty")
     return []
-
 
 
 def build_prompt_with_metadata(table_metadata):
@@ -123,17 +131,18 @@ def send_to_api(question_text, prompt_template, question_index):
             response.raise_for_status()
             data = response.json().get("data", {})
 
-            # Save raw API response
             os.makedirs(RAW_OUTPUT_LOG, exist_ok=True)
-            with open(os.path.join(RAW_OUTPUT_LOG, f"Q{question_index}_raw.json"), "w", encoding="utf-8") as raw_file:
-                json.dump(data, raw_file, indent=2)
+            raw_path = os.path.join(RAW_OUTPUT_LOG, f"Q{question_index}_raw.json")
+            if not os.path.exists(raw_path):
+                with open(raw_path, "w", encoding="utf-8") as raw_file:
+                    json.dump(data, raw_file, indent=2)
 
             subtasks_raw = data.get("subtasks")
             subtasks = parse_subtasks(subtasks_raw)
 
             if not subtasks:
-                print("⚠️ Subtask returned output is empty")
-                return {"question": question_text, "subtasks": []}
+                print("⚠️ Skipping: Empty or unparsable subtasks.")
+                return None
 
             normalized = []
             for step in subtasks:
@@ -162,22 +171,34 @@ def log_failed_question(index, question_text):
 
 def main():
     os.makedirs(OUTPUT_DIR, exist_ok=True)
+    os.makedirs(RAW_OUTPUT_LOG, exist_ok=True)
 
     questions = load_json_file(INPUT_FILE)
     table_metadata = load_json_file(TABLE_METADATA_FILE)
     prompt_template = build_prompt_with_metadata(table_metadata)
 
-    for i, question in enumerate(questions["questions"], start=1):
+    start_index = 21
+    for i, question in enumerate(questions["questions"], start=start_index):
+        output_path = os.path.join(OUTPUT_DIR, f"Q{i}.json")
+        raw_path = os.path.join(RAW_OUTPUT_LOG, f"Q{i}_raw.json")
+
+        if os.path.exists(output_path):
+            print(f"✅ Q{i} already processed. Skipping parsed JSON.")
+            continue
+
+        if os.path.exists(raw_path):
+            print(f"✅ Q{i} already has raw response. Skipping request.")
+            continue
+
         print(f"\n🚀 Processing Q{i}: {question}")
         result = send_to_api(question, prompt_template, i)
 
         if result:
-            output_file = os.path.join(OUTPUT_DIR, f"Q{i}.json")
-            with open(output_file, "w", encoding="utf-8") as f:
+            with open(output_path, "w", encoding="utf-8") as f:
                 json.dump(result, f, indent=2)
-            print(f"💾 Saved: {output_file}")
+            print(f"💾 Saved: {output_path}")
         else:
-            print(f"⚠️ Skipped Q{i} due to repeated errors")
+            print(f"⚠️ Skipped Q{i} due to empty subtasks or parsing issues.")
             log_failed_question(i, question)
 
         time.sleep(DELAY_BETWEEN_REQUESTS)

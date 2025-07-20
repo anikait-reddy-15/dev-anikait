@@ -1,39 +1,40 @@
 {
-  "question": "Analyze the social media presence of companies across different sectors and their engagement metrics.",
+  "question": "What are the recent trends in IT budgeting and technology adoption among companies in the finance sector?",
   "subtasks": [
     {
       "step": 1,
-      "task": "Identify and retrieve data on companies from the CompanyInfo table, focusing on sectors they belong to and their social media presence.",
+      "task": "Identify all companies categorized within the finance sector and retrieve relevant details such as their ITBudget and technology-related performance metrics.",
       "table": [
         "CompanyInfo"
       ]
     },
     {
       "step": 2,
-      "task": "Extract engagement metrics such as likes, comments, and engagement rates from the social media detail tables (Facebook, Instagram, Twitter, YouTube) for the identified companies.",
+      "task": "Gather recent technology adoption data by querying the CompanyVendorProductDetail and CompanyTechStack tables to analyze which technologies are being adopted by the identified finance companies.",
       "table": [
-        "CompanyFacebookDetail",
-        "CompanyInstagramDetail",
-        "CompanyTwitterDetail",
-        "CompanyYoutubeDetail"
+        "CompanyVendorProductDetail",
+        "CompanyTechStack"
       ]
     },
     {
       "step": 3,
-      "task": "Compile and group the collected social media engagement metrics by sector to analyze performance and identify trends among different sectors.",
+      "task": "Analyze the IT budgeting trends over the past few years using the ITBudget column from the CompanyInfo table, focusing on how it differs across various subtypes within the finance sector.",
       "table": [
-        "CompanyInfo",
-        "CompanyFacebookDetail",
-        "CompanyInstagramDetail",
-        "CompanyTwitterDetail",
-        "CompanyYoutubeDetail"
+        "CompanyInfo"
       ]
     },
     {
       "step": 4,
-      "task": "Provide a summary report on the findings highlighting key metrics, top-performing companies, and insights into sector-specific trends in social media engagement.",
+      "task": "Compile a summary of any significant business deals or contracts that involve technology services for finance sector companies, using the CompanyDealMaster table to identify key contracts and their values.",
       "table": [
-        "CompanyInfo"
+        "CompanyDealMaster"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Review any executive statements or comments related to technology investments in the finance sector by querying the CompanyLeadershipExcerpt table to gain insights into strategic directions and priorities.",
+      "table": [
+        "CompanyLeadershipExcerpt"
       ]
     }
   ]

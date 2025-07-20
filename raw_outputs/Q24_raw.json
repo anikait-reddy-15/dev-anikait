@@ -1,0 +1,4 @@
+{
+  "question": "Analyze the technology adoption trends of companies in the healthcare industry based on their social media engagement and IT investments.",
+  "subtasks": "[{'step': 1, 'task': 'Identify all companies in the healthcare industry from the CompanyInfo table.', 'table': ['CompanyInfo']}, {'step': 2, 'task': 'Gather IT investment data from the CompanyInfo table, focusing on IT budget and IT strength.', 'table': ['CompanyInfo']}, {'step': 3, 'task': 'Collect social media engagement metrics for these healthcare companies from the CompanyFacebookDetail, CompanyTwitterDetail, and CompanyInstagramDetail tables.', 'table': ['CompanyFacebookDetail', 'CompanyTwitterDetail', 'CompanyInstagramDetail']}, {'step': 4, 'task': 'Analyze the collected data to identify patterns in technology adoption and social media engagement.', 'table': []}]}"
+}

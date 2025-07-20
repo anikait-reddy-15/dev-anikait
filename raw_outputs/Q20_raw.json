@@ -1,0 +1,4 @@
+{
+  "question": "What are the current technology focus areas and vendor partnerships for leading companies in the financial services industry?",
+  "subtasks": "[{\"step\":1,\"task\":\"Identify leading companies in the financial services industry based on revenue and market capitalization.\",\"table\":[\"CompanyInfo\"]},{\"step\":2,\"task\":\"Gather technology focus areas for the identified leading financial services companies to understand their strategic initiatives in technology adoption.\",\"table\":[\"CompanyFocusAreaDetail\"]},{\"step\":3,\"task\":\"Collect data on vendor partnerships for the identified companies to analyze their technology collaborations and vendor relationships.\",\"table\":[\"CompanyITPartnerDetail\"]},{\"step\":4,\"task\":\"Compile and summarize the data on technology focus areas and vendor partnerships in a structured format for analysis.\",\"table\":[]}]}"
+}

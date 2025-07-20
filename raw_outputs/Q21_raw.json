@@ -1,0 +1,4 @@
+{
+  "question": "What are the current hiring trends by industry across different companies?",
+  "subtasks": "[{\"step\":1,\"task\":\"Identify the industries with active hiring initiatives from the CompanyHiringDetail table.\",\"table\":[\"CompanyHiringDetail\"]},{\"step\":2,\"task\":\"Aggregate hiring data based on industry classifications from the CompanyHiringDetail table to understand the number of positions and roles being hired.\",\"table\":[\"CompanyHiringDetail\"]},{\"step\":3,\"task\":\"Cross-reference the hiring trends with the CompanyInfo table to obtain additional details about companies per industry such as total employees and IT budget.\",\"table\":[\"CompanyHiringDetail\",\"CompanyInfo\"]},{\"step\":4,\"task\":\"Generate a report summarizing the findings on hiring trends by industry, highlighting top hiring companies and common roles available.\",\"table\":[\"CompanyHiringDetail\",\"CompanyInfo\"]}]}"
+}

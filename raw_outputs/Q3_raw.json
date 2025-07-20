@@ -1,4 +1,4 @@
 {
-  "question": "Analyze the social media engagement metrics of companies in the tech industry for their latest posts.",
-  "subtasks": "[{"
+  "question": "What are the key technological trends being adopted by companies in various industries?",
+  "subtasks": "[{\"step\":1,\"task\":\"Identify the industries of interest to focus the analysis on technological trends.\",\"table\":[\"IndustryITTrend\"]},{\"step\":2,\"task\":\"Gather data on the specific technologies being adopted by companies within those industries.\",\"table\":[\"CompanyTechStack\"]},{\"step\":3,\"task\":\"Analyze the strategic focus areas related to technology for each identified industry.\",\"table\":[\"IndustryBusinessTrend\"]},{\"step\":4,\"task\":\"Compile a summary of technology adoption metrics from gathered data, comparing across industries.\",\"table\":[\"CompanyInfo\",\"CompanyVendorTechDetail\"]}]"
 }

@@ -1,34 +1,34 @@
 {
-  "question": "What are the current technology focus areas and strategic partnerships of companies in the healthcare industry?",
+  "question": "What are the current hiring trends in the technology sector, and how do they vary by geographic region?",
   "subtasks": [
     {
       "step": 1,
-      "task": "Identify all companies operating in the healthcare industry and retrieve their core information such as name, revenue, and headquarters location.",
+      "task": "Identify companies in the technology sector to analyze their hiring trends.",
       "table": [
         "CompanyInfo"
       ]
     },
     {
       "step": 2,
-      "task": "Gather details of all strategic technology focus areas for the identified companies, capturing their initiatives related to digital health, telemedicine, and other relevant technologies.",
+      "task": "Gather data on active hiring initiatives from identified companies, including roles, responsibilities, and required skills.",
       "table": [
-        "CompanyFocusAreaDetail"
+        "CompanyHiringDetail"
       ]
     },
     {
       "step": 3,
-      "task": "List current partnerships or collaborations with technology vendors that these healthcare companies engage in, including deal values and durations.",
+      "task": "Analyze the collected hiring data by geographic region to determine trends and patterns in job postings.",
       "table": [
-        "CompanyITPartnerDetail"
+        "CompanyHiringDetail",
+        "CompanyInfo"
       ]
     },
     {
       "step": 4,
-      "task": "Compile the selected data and create a summary report highlighting technology trends and strategic partnerships in healthcare.",
+      "task": "Generate a report summarizing the findings on hiring trends, highlighting key roles and regions with the most job postings.",
       "table": [
-        "CompanyInfo",
-        "CompanyFocusAreaDetail",
-        "CompanyITPartnerDetail"
+        "CompanyHiringDetail",
+        "CompanyInfo"
       ]
     }
   ]

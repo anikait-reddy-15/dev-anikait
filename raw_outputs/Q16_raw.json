@@ -1,0 +1,4 @@
+{
+  "question": "What are the key technology focus areas and recent hiring initiatives of companies in the technology industry?",
+  "subtasks": "[{\"step\":1,\"task\":\"Identify companies in the technology industry by filtering the CompanyInfo table based on the Industry column.\",\"table\":[\"CompanyInfo\"]},{\"step\":2,\"task\":\"Extract the technology focus areas for the identified companies from the CompanyFocusAreaDetail table linked to the corresponding CompanyInfoId.\",\"table\":[\"CompanyFocusAreaDetail\"]},{\"step\":3,\"task\":\"Retrieve recent hiring initiatives from the CompanyHiringDetail table for the companies identified in step 1, linking it through CompanyInfoId to get detailed job postings and skill requirements.\",\"table\":[\"CompanyHiringDetail\"]}]"
+}

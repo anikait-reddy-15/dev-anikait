@@ -1,0 +1,3 @@
+Q15: Which technology vendors are frequently mentioned by companies looking to enhance their cybersecurity solutions? **(Tables: CompanyVendorTechDetail, CompanyDealMaster)**
+Q22: Which companies have recent leadership changes and also signed new vendor deals in the past year? (Tables: CompanyLeadershipExcerpt, CompanyDealMaster, CompanyInfo)
+Q24: Which social media platforms are most frequently mentioned by companies that are shifting their focus area towards AI technologies? (Tables: SocialMediaInfo, CompanyFocusAreaDetail, CompanyInfo)

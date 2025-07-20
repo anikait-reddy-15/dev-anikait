@@ -1,0 +1,43 @@
+{
+  "question": "Analyze the technology adoption trends in companies within the IT services industry over the past 5 years.",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify and filter companies that are classified under the IT services industry using the CompanyInfo table.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Aggregate data on technology usage from the CompanyTechStack table for the identified companies, focusing on their technology adoption over the last 5 years.",
+      "table": [
+        "CompanyTechStack"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Examine the CompanyDealMaster table to analyze the contracts related to technology services for these companies and identify trends or patterns related to technology adoption.",
+      "table": [
+        "CompanyDealMaster"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Cross-reference the technology data with insights from the CompanyVendorTechDetail table to assess the external technology services provided to these companies in the same period.",
+      "table": [
+        "CompanyVendorTechDetail"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Compile the findings into a summary report that highlights the key trends in technology adoption within the IT services sector based on the analyses conducted in previous steps.",
+      "table": [
+        "CompanyInfo",
+        "CompanyTechStack",
+        "CompanyDealMaster",
+        "CompanyVendorTechDetail"
+      ]
+    }
+  ]
+}

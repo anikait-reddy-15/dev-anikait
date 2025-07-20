@@ -1,39 +1,42 @@
 {
-  "question": "What are the current social media engagement trends of technology companies in North America?",
+  "question": "What are the key social media engagement metrics for companies in the technology sector?",
   "subtasks": [
     {
       "step": 1,
-      "task": "Identify all technology companies located in North America.",
+      "task": "Identify all technology companies from the CompanyInfo table.",
       "table": [
         "CompanyInfo"
       ]
     },
     {
       "step": 2,
-      "task": "Retrieve social media engagement metrics for the identified companies across Facebook, Instagram, Twitter, and YouTube.",
+      "task": "Retrieve Facebook engagement metrics of these companies from the CompanyFacebookDetail table.",
       "table": [
-        "CompanyFacebookDetail",
-        "CompanyInstagramDetail",
-        "CompanyTwitterDetail",
-        "CompanyYoutubeDetail"
+        "CompanyFacebookDetail"
       ]
     },
     {
       "step": 3,
-      "task": "Aggregate and analyze the engagement metrics to determine trends over a specific time period (e.g., quarterly).",
+      "task": "Retrieve Instagram engagement metrics of these companies from the CompanyInstagramDetail table.",
       "table": [
-        "CompanyFacebookDetail",
-        "CompanyInstagramDetail",
-        "CompanyTwitterDetail",
-        "CompanyYoutubeDetail"
+        "CompanyInstagramDetail"
       ]
     },
     {
       "step": 4,
-      "task": "Create a visual report showcasing the engagement trends by social media platform for each technology company.",
+      "task": "Retrieve Twitter engagement metrics of these companies from the CompanyTwitterDetail table.",
       "table": [
-        "PageInfo",
-        "SectionData"
+        "CompanyTwitterDetail"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Compile and summarize the social media metrics for the identified technology companies.",
+      "table": [
+        "CompanyInfo",
+        "CompanyFacebookDetail",
+        "CompanyInstagramDetail",
+        "CompanyTwitterDetail"
       ]
     }
   ]
