@@ -1,3 +1,11 @@
 Q15: Which technology vendors are frequently mentioned by companies looking to enhance their cybersecurity solutions? **(Tables: CompanyVendorTechDetail, CompanyDealMaster)**
 Q22: Which companies have recent leadership changes and also signed new vendor deals in the past year? (Tables: CompanyLeadershipExcerpt, CompanyDealMaster, CompanyInfo)
 Q24: Which social media platforms are most frequently mentioned by companies that are shifting their focus area towards AI technologies? (Tables: SocialMediaInfo, CompanyFocusAreaDetail, CompanyInfo)
+Q31: What are the top technologies that companies in the healthcare sector are hiring for based on their job postings? (Tables: CompanyHiringDetail, CompanyTechStack, CompanyInfo)
+Q32: Which companies have recent leadership changes and also signed new vendor deals in the past year? (Tables: CompanyLeadershipExcerpt, CompanyDealMaster, CompanyInfo)
+Q33: What topics did data scientists discuss in their most recent LinkedIn posts across various industries? (Tables: PersonaLinkedinPost, PersonaUser, PersonaTitle)
+Q34: Which social media platforms are most frequently mentioned by companies that are shifting their focus area towards AI technologies? (Tables: SocialMediaInfo, CompanyFocusAreaDetail, CompanyInfo)
+Q35: What are the common traits of companies that have both increased their investment in cybersecurity and experienced recent positive business trends? (Tables: CompanyDealMaster, IndustryBusinessTrend, CompanyTechStack)
+Q36: Which organizations have engaged heavily on Twitter about cloud infrastructure after announcing their latest funding rounds? (Tables: PersonaTwitterTweets, CompanyInfo, CompanyDealMaster)
+Q31: What are the top technologies that companies in the healthcare sector are hiring for based on their job postings? (Tables: CompanyHiringDetail, CompanyTechStack, CompanyInfo)
+Q32: Which companies have recent leadership changes and also signed new vendor deals in the past year? (Tables: CompanyLeadershipExcerpt, CompanyDealMaster, CompanyInfo)
