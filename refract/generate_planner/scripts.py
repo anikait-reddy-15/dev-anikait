@@ -10,7 +10,7 @@ INPUT_FILE = r"C:\Work Repos\dev-anikait\generated_questions.json"
 TABLE_METADATA_FILE = r"C:\Work Repos\dev-anikait\refract\generate_planner\table_metada.json"
 OUTPUT_DIR = "question_plans"
 RAW_OUTPUT_LOG = "raw_responses"
-MODEL_NAME = "gpt-4o"
+MODEL_NAME = "gpt-4o-mini"
 MAX_RETRIES = 3
 TIMEOUT = 30
 
@@ -27,7 +27,7 @@ input_token_total = 0
 token_cache = {}
 
 # === Tokenizer ===
-def count_tokens(text, model="gpt-4o"):
+def count_tokens(text, model="gpt-4o-mini"):
     enc = tiktoken.encoding_for_model(model)
     return len(enc.encode(text))
 
