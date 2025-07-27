@@ -1,0 +1,41 @@
+{
+  "question": "What are the current hiring initiatives in the technology sector for companies located in the United States?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify all companies that operate in the technology sector based on their industry classification.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Filter the companies identified in step 1 to include only those located in the United States, based on the Geography column.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Retrieve current hiring initiatives for the filtered companies, focusing on active roles in the technology domain.",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Compile and summarize the job details, designations, and skills requirements from the CompanyHiringDetail table.",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Present the summarized hiring initiatives along with relevant company information, including company names and descriptions.",
+      "table": [
+        "CompanyInfo",
+        "CompanyHiringDetail"
+      ]
+    }
+  ]
+}

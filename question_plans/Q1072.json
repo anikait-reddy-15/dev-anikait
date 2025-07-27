@@ -1,0 +1,43 @@
+{
+  "question": "What are the recent technology adoption trends across major industries and how do they relate to company focus areas?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify key technology focus areas that companies are investing in, such as AI, IoT, and cloud computing, by reviewing the CompanyFocusAreaDetail table.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Gather insights on emerging IT trends across different industries using the IndustryITTrend table to understand how various sectors are adapting to technology changes.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze correlations between company strategies and the identified technology trends by fetching data from the CompanyInfo and CompanyTechStack tables to see the technologies being implemented by companies in specific sectors.",
+      "table": [
+        "CompanyInfo",
+        "CompanyTechStack"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Review historical data on company activity and engagement on social platforms using CompanyFacebookDetail and CompanyTwitterDetail to assess how social media reflects technology adoption trends.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyTwitterDetail"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Compile findings into a report structure using the PageInfo and SectionData tables to categorize insights based on defined sections such as industry-wise trends and company case studies.",
+      "table": [
+        "PageInfo",
+        "SectionData"
+      ]
+    }
+  ]
+}

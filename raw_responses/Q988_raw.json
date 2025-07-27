@@ -1,0 +1,4 @@
+{
+  "question": "What are the social media engagement trends for technology companies in the US over the past year?",
+  "subtasks": "[{\"step\":1,\"task\":\"Identify technology companies based in the US from the CompanyInfo table.\",\"table\":[\"CompanyInfo\"]},{\"step\":2,\"task\":\"Retrieve social media engagement metrics for the identified companies from the SocialMediaInfo table.\",\"table\":[\"SocialMediaInfo\"]},{\"step\":3,\"task\":\"Analyze the engagement data over the past year and categorize it by social media platform (e.g., Facebook, Twitter, Instagram).\",\"table\":[\"CompanyFacebookDetail\",\"CompanyTwitterDetail\",\"CompanyInstagramDetail\"]},{\"step\":4,\"task\":\"Summarize the engagement trends and provide insights on which platforms have the highest engagement for technology companies.\",\"table\":[\"SocialMediaInfo\"]}]"
+}

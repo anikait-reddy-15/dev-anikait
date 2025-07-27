@@ -1,0 +1,35 @@
+{
+  "question": "What are the current IT partnerships and technology focus areas of companies in the healthcare industry?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies operating in the healthcare industry and gather their basic information including names and profiles.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Retrieve the IT partnerships for each identified company in the healthcare industry, including details on deal values and timelines.",
+      "table": [
+        "CompanyITPartnerDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Collect the technology focus areas associated with the identified healthcare companies to understand their strategic priorities.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Combine and summarize the data from the above steps to create a comprehensive view of IT partnerships and focus areas in the healthcare sector.",
+      "table": [
+        "CompanyInfo",
+        "CompanyITPartnerDetail",
+        "CompanyFocusAreaDetail"
+      ]
+    }
+  ]
+}

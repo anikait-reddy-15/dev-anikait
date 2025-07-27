@@ -1,0 +1,34 @@
+{
+  "question": "What are the current technology focus areas for companies in the IT sector and how do they correlate with their recent hiring activities?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify all companies in the IT sector by querying the CompanyInfo table based on 'Industry' column.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Retrieve the strategic technology focus areas of the identified companies from the CompanyFocusAreaDetail table.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "List current job openings for identifiedIT companies from the CompanyHiringDetail table to analyze hiring trends.",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Combine the technology focus areas and hiring data to assess any correlations or trends in technology investment and current job postings.",
+      "table": [
+        "CompanyFocusAreaDetail",
+        "CompanyHiringDetail"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "question": "What technologies are companies in the finance industry adopting and how is this changing over time?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify all companies operating in the finance industry along with their financial metrics such as revenue and net income.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Fetch details of the technologies adopted by identified finance companies from the technology stacks they are using.",
+      "table": [
+        "CompanyTechStack"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze trends in technology adoption over a specified time frame, focusing on whether there's an increase or decrease in certain technologies like AI, blockchain, and cybersecurity within the finance industry.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Compile a report summarizing the technology adoption trends and their impact on financial metrics like revenue growth and market capitalization.",
+      "table": [
+        "CompanyInfo",
+        "CompanyTechStack",
+        "IndustryITTrend"
+      ]
+    }
+  ]
+}

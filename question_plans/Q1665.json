@@ -1,0 +1,33 @@
+{
+  "question": "What are the current trends in IT spending by companies in the technology industry?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Retrieve a list of companies operating in the technology industry along with their IT budgets and revenue data.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Analyze trends in IT spending by comparing current IT budgets with previous years' revenues and net incomes for the same companies.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Identify and summarize emerging IT trends from the IndustryITTrend table related to the technology sector to correlate with the spending data.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Correlate the IT focus areas from the CompanyFocusAreaDetail table for technology companies with their IT budgets and trends identified previously.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    }
+  ]
+}

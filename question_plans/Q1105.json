@@ -1,0 +1,41 @@
+{
+  "question": "What are the recent trends in the technology focus areas for companies in the software industry?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies operating in the software industry and retrieve their basic information including revenue and market capitalization.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Gather data on the strategic technology focus areas for these companies to analyze the main trends and innovations they are pursuing.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Compile recent industry trends related to software technology such as AI, cloud computing, and IoT from the IndustryITTrend table.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Cross-reference the technology focus areas with industry trends to identify alignments and gaps in technology adoption among software companies.",
+      "table": [
+        "CompanyFocusAreaDetail",
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Summarize the results into a report format to provide insights into the current status and future direction of technology for the software industry.",
+      "table": [
+        "PageInfo"
+      ]
+    }
+  ]
+}

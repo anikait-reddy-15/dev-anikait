@@ -1,0 +1,4 @@
+{
+  "question": "What are the emerging technology focus areas within the companies in the AI industry?",
+  "subtasks": "[{\"step\":1,\"task\":\"Retrieve a list of companies classified under the AI industry from the CompanyInfo table.\",\"table\":[\"CompanyInfo\"]},{\"step\":2,\"task\":\"Join the CompanyFocusAreaDetail table with the results from step 1 to find the strategic technology focus areas for each AI company.\",\"table\":[\"CompanyFocusAreaDetail\"]},{\"step\":3,\"task\":\"Extract and compile a summary of the technology focus areas including details and any specific initiatives related to AI from CompanyFocusAreaDetail.\",\"table\":[\"CompanyFocusAreaDetail\"]},{\"step\":4,\"task\":\"Analyze the data to identify trends and common themes in the technology focus areas among AI companies.\",\"table\":[\"CompanyFocusAreaDetail\"]}]}"
+}

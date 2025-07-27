@@ -1,0 +1,4 @@
+{
+  "question": "Analyze the social media engagement metrics for companies in the technology sector over the last year.",
+  "subtasks": "[{\"step\":1,\"task\":\"Identify all companies in the technology sector by filtering the CompanyInfo table by the 'Industry' column.\",\"table\":[\"CompanyInfo\"]},{\"step\":2,\"task\":\"Gather social media engagement metrics (likes, comments, engagement rate) from the relevant social media tables for those companies over the last year.\",\"table\":[\"CompanyFacebookDetail\",\"CompanyInstagramDetail\",\"CompanyTwitterDetail\",\"CompanyYoutubeDetail\"]},{\"step\":3,\"task\":\"Aggregate the collected engagement metrics to generate a report showing total engagement for each company along with their names and market capitalization from the CompanyInfo table.\",\"table\":[\"CompanyInfo\",\"CompanyFacebookDetail\",\"CompanyInstagramDetail\",\"CompanyTwitterDetail\",\"CompanyYoutubeDetail\"]}]"
+}

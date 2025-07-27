@@ -1,0 +1,4 @@
+{
+  "question": "Analyze the technology adoption trends across different companies in the retail industry.",
+  "subtasks": "[{\"step\":1,\"task\":\"Identify companies operating in the retail industry from the CompanyInfo table.\",\"table\":[\"CompanyInfo\"]},{\"step\":2,\"task\":\"Extract the technology stack used by the identified retail companies from the CompanyTechStack table.\",\"table\":[\"CompanyTechStack\"]},{\"step\":3,\"task\":\"Analyze the vendor products adopted by these companies and summarize the trends based on the CompanyVendorProductDetail table.\",\"table\":[\"CompanyVendorProductDetail\"]},{\"step\":4,\"task\":\"Compile and analyze the insights related to the companies' IT focus areas from the CompanyFocusAreaDetail table.\",\"table\":[\"CompanyFocusAreaDetail\"]}]"
+}

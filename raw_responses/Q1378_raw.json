@@ -1,0 +1,4 @@
+{
+  "question": "What are the social media engagement statistics for companies across different platforms?",
+  "subtasks": "[{\"step\":1,\"task\":\"Retrieve engagement data from Facebook for all companies, including likes, comments, and reposts.\",\"table\":[\"CompanyFacebookDetail\"]},{\"step\":2,\"task\":\"Collect engagement metrics from Instagram, including likes and comments for each company.\",\"table\":[\"CompanyInstagramDetail\"]},{\"step\":3,\"task\":\"Extract Twitter engagement data such as likes and retweets for all companies.\",\"table\":[\"CompanyTwitterDetail\"]},{\"step\":4,\"task\":\"Gather YouTube engagement metrics including likes, comments, and views for all companies.\",\"table\":[\"CompanyYoutubeDetail\"]},{\"step\":5,\"task\":\"Compile all engagement statistics across platforms into a single summary report for analysis.\",\"table\":[]}]"
+}

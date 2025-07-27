@@ -1,0 +1,43 @@
+{
+  "question": "What are the current trends in company hiring initiatives across different industries?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Analyze active hiring initiatives and extract unique job roles from the CompanyHiringDetail table.",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Link the job roles to their respective companies using CompanyInfo to understand the industry distribution of those roles.",
+      "table": [
+        "CompanyHiringDetail",
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Aggregate the data to identify the most in-demand roles and the companies that are hiring for specific industries.",
+      "table": [
+        "CompanyHiringDetail",
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Extract and summarize trends in hiring such as required skills and job locations from the CompanyHiringDetail table.",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Compare hiring trends against industry trends using the IndustryITTrend table to identify any correlations or significant shifts.",
+      "table": [
+        "CompanyHiringDetail",
+        "IndustryITTrend"
+      ]
+    }
+  ]
+}

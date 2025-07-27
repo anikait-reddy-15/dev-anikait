@@ -1,0 +1,35 @@
+{
+  "question": "Which companies are strategically focusing on cloud computing and what are their associated technology partnerships?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies involved in cloud computing based on their strategic technology focus areas.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Retrieve detailed company information for those identified to understand their profiles better.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Gather information on IT partners linked to the identified companies to analyze their partnerships in cloud computing.",
+      "table": [
+        "CompanyITPartnerDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Compile all data to provide a comprehensive view of companies focusing on cloud computing and their IT partnerships.",
+      "table": [
+        "CompanyFocusAreaDetail",
+        "CompanyInfo",
+        "CompanyITPartnerDetail"
+      ]
+    }
+  ]
+}

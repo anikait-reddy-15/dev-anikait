@@ -1,0 +1,4 @@
+{
+  "question": "Identify the latest technology trends and focus areas that companies in the finance industry are adopting and how they relate to their IT partnerships.",
+  "subtasks": "[\n    {\n        \"step\": 1,\n        \"task\": \"Retrieve the industry types and corresponding technology focus areas for finance companies.\",\n        \"table\": [\"IndustryITTrend\", \"CompanyInfo\"]\n    },\n    {\n        \"step\": 2,\n        \"task\": \"Collect data on IT partnerships related to the identified technology focus areas for finance companies.\",\n        \"table\": [\"CompanyITPartnerDetail\", \"CompanyInfo\"]\n    },\n    {\n        \"step\": 3,\n        \"task\": \"Analyze the gathered IT partnerships to determine the value and impact on the technology trends in the finance industry.\",\n        \"table\": [\"CompanyITPartnerDetail\", \"CompanyDealMaster\"]\n    }\n]"
+}

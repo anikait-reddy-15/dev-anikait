@@ -1,0 +1,4 @@
+{
+  "question": "What are the current IT budgets and focus areas of companies within the technology industry?",
+  "subtasks": "[\n    {\n        \"step\": 1,\n        \"task\": \"Identify all technology companies and retrieve their IT budgets and operational status.\",\n        \"table\": [\"CompanyInfo\"]\n    },\n    {\n        \"step\": 2,\n        \"task\": \"Extract strategic IT focus areas for the identified technology companies to understand their technology initiatives.\",\n        \"table\": [\"CompanyFocusAreaDetail\"]\n    },\n    {\n        \"step\": 3,\n        \"task\": \"Combine the company budget data with strategic focus areas to create a comprehensive overview of IT spending and priorities.\",\n        \"table\": [\"CompanyInfo\", \"CompanyFocusAreaDetail\"]\n    }\n]"
+}

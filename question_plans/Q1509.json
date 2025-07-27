@@ -1,0 +1,44 @@
+{
+  "question": "What are the current IT focus areas and strategic partnerships of leading companies in the technology sector?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify leading companies within the technology sector and gather their core information such as Name, ITBudget, and Industry.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Examine the IT focus areas for each identified leading company, including narratives about their technology initiatives and digital transformation strategies.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the strategic partnerships of these companies, including details about the partners and the technology services provided through these collaborations.",
+      "table": [
+        "CompanyITPartnerDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Aggregate social media engagement data related to these companies to analyze their online presence and communication trends in relation to their IT focus areas.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyTwitterDetail",
+        "CompanyInstagramDetail"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Compile a comprehensive report summarizing the findings about IT focus areas and strategic partnerships, highlighting trending technologies and market dynamics.",
+      "table": [
+        "CompanyInfo",
+        "CompanyFocusAreaDetail",
+        "CompanyITPartnerDetail"
+      ]
+    }
+  ]
+}

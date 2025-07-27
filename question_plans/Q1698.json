@@ -1,0 +1,42 @@
+{
+  "question": "Identify key technological trends adopted by companies in the healthcare industry and their significance.",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Retrieve a list of companies operating in the healthcare industry along with their core information such as revenue and founded year.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Gather data on specific technology focus areas that companies in the healthcare sector are investing in, such as telemedicine, AI, and data analytics.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze vendor product technologies adopted by healthcare companies to understand the types of technologies utilized for operations.",
+      "table": [
+        "CompanyVendorProductDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Compile insights on the strategic initiatives and trends capturing the attention of healthcare companies based on recent deals and contracts.",
+      "table": [
+        "CompanyDealMaster"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Evaluate the social media presence and engagement metrics of healthcare companies to assess their public communication about technological adoptions.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyInstagramDetail",
+        "CompanyTwitterDetail"
+      ]
+    }
+  ]
+}

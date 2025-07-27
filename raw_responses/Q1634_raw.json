@@ -1,0 +1,4 @@
+{
+  "question": "What are the recent trends in IT focused on cloud computing among various companies?",
+  "subtasks": "[{'step': 1, 'task': 'Identify companies that have reported cloud computing as part of their IT focus areas.', 'table': ['CompanyFocusAreaDetail']}, {'step': 2, 'task': 'Gather data on recent technology adoption trends related to cloud computing in different industries.', 'table': ['IndustryITTrend']}, {'step': 3, 'task': 'Analyze the B2B technology service contracts involving cloud services to find recent deals and trends.', 'table': ['CompanyDealMaster']}, {'step': 4, 'task': 'Collect data on social media engagement related to cloud computing initiatives from companies.', 'table': ['CompanyFacebookDetail', 'CompanyTwitterDetail', 'CompanyLinkedinPost']}, {'step': 5, 'task': 'Summarize the insights into a report highlighting major trends and activities in cloud computing across industries.', 'table': ['PageInfo', 'SectionData']}]"
+}

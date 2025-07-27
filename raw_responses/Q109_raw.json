@@ -1,0 +1,4 @@
+{
+  "question": "What are the current technology focus areas of companies in the digital transformation industry?",
+  "subtasks": "[{\"step\":1,\"task\":\"Identify companies operating in the digital transformation industry.\",\"table\":[\"CompanyInfo\"]},{\"step\":2,\"task\":\"Retrieve strategic technology focus areas linked to the identified companies.\",\"table\":[\"CompanyFocusAreaDetail\"]},{\"step\":3,\"task\":\"Gather company details including their technology usage and capabilities.\",\"table\":[\"CompanyTechStack\", \"CompanyInfo\"]},{\"step\":4,\"task\":\"Compile the data into a consolidated view showing companies and their technology focus areas within digital transformation.\",\"table\":[\"CompanyFocusAreaDetail\", \"CompanyInfo\"]}]"
+}

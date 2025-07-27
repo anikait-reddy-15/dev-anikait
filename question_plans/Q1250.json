@@ -1,0 +1,43 @@
+{
+  "question": "What technologies are companies in the technology sector predominantly adopting, and how does this vary by region and company size?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify all companies operating in the technology sector along with their size metrics such as 'Employees' and 'Revenue'.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Compile a list of technologies linked to these technology sector companies to understand what they are predominantly adopting. Gather data from relevant tech stack information. ",
+      "table": [
+        "CompanyTechStack"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Group the technology adoption data based on geographic data to observe regional variations in technology adoption. This involves correlating company locations with technology usage. ",
+      "table": [
+        "CompanyDataCenter"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Analyze the relationship between company size (number of employees and revenue) and the types of technologies they are adopting, to see if larger companies tend to adopt more advanced technologies compared to smaller ones.",
+      "table": [
+        "CompanyInfo",
+        "CompanyTechStack"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Generate insights or reports summarizing the key findings on technology adoption trends across different regions and company sizes using the collected data metrics.",
+      "table": [
+        "CompanyTechStack",
+        "CompanyDataCenter",
+        "CompanyInfo"
+      ]
+    }
+  ]
+}

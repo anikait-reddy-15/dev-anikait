@@ -1,0 +1,40 @@
+{
+  "question": "What are the recent trends in digital transformation initiatives among companies in the tech industry?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies in the tech industry from the CompanyInfo table and filter for active companies.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Retrieve the strategic focus areas related to digital transformation from the CompanyFocusAreaDetail table for the identified tech companies.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze recent deals related to digital transformation technologies in the CompanyDealMaster table and correlate them with the identified companies.",
+      "table": [
+        "CompanyDealMaster"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Compile social media engagement metrics from CompanyFacebookDetail, CompanyInstagramDetail, and CompanyTwitterDetail to understand public interaction with transformative digital initiatives.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyInstagramDetail",
+        "CompanyTwitterDetail"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Summarize findings to present a cohesive overview of recent trends in digital transformation across the tech sector using insights gathered from the previous tasks.",
+      "table": []
+    }
+  ]
+}

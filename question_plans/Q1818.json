@@ -1,0 +1,33 @@
+{
+  "question": "Identify the top 5 companies in the technology sector based on their IT budget and market capitalization in the last year.",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Filter companies in the technology sector from the CompanyInfo table.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract ITBudget and MarketCapitalization for the filtered technology companies from the CompanyInfo table.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Sort the extracted data by ITBudget and MarketCapitalization in descending order.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Select the top 5 companies from the sorted list.",
+      "table": [
+        "CompanyInfo"
+      ]
+    }
+  ]
+}

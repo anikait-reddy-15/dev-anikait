@@ -1,0 +1,4 @@
+{
+  "question": "What are the current technology trends being adopted by companies in the IT sector and how do they align with their focus areas?",
+  "subtasks": "[{\"step\":1,\"task\":\"Identify companies in the IT sector by filtering the CompanyInfo table based on Industry column.\",\"table\":[\"CompanyInfo\"]},{\"step\":2,\"task\":\"Retrieve technology focus areas for the identified IT companies from the CompanyFocusAreaDetail table.\",\"table\":[\"CompanyFocusAreaDetail\"]},{\"step\":3,\"task\":\"Gather information on emerging IT trends across industries from the IndustryITTrend table to relate them to the focus areas of the companies.\",\"table\":[\"IndustryITTrend\"]},{\"step\":4,\"task\":\"Analyze the alignment between the companies' focus areas and the emerging IT trends to find common themes and gaps in technology adoption.\",\"table\":[\"CompanyFocusAreaDetail\",\"IndustryITTrend\"]}]"
+}

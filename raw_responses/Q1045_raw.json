@@ -1,0 +1,4 @@
+{
+  "question": "What are the emerging technology trends across different industries?",
+  "subtasks": "[{\"step\":1,\"task\":\"Identify key emerging technology trends for different industries\",\"table\":[\"IndustryITTrend\"]},{\"step\":2,\"task\":\"Analyze how different sectors are adopting technologies like AI, IoT, and cybersecurity\",\"table\":[\"IndustryITTrend\"]},{\"step\":3,\"task\":\"Gather narrative insights and strategic focus areas relevant to these emerging trends\",\"table\":[\"IndustryBusinessTrend\"]},{\"step\":4,\"task\":\"Compile findings into a structured report to highlight trends per industry\",\"table\":[\"PageInfo\"]}]"
+}

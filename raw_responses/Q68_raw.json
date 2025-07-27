@@ -1,0 +1,4 @@
+{
+  "question": "Analyze the impact of technology focus areas on company hiring trends within the IT industry.",
+  "subtasks": "[{\"step\":1,\"task\":\"Identify companies in the IT industry and their associated technology focus areas.\",\"table\":[\"CompanyInfo\",\"CompanyFocusAreaDetail\"]},{\"step\":2,\"task\":\"Retrieve hiring data for identified IT companies, focusing on roles related to the specified technology areas.\",\"table\":[\"CompanyHiringDetail\"]},{\"step\":3,\"task\":\"Analyze the correlation between the technology focus areas and the number of hiring initiatives undertaken by the companies.\",\"table\":[\"CompanyHiringDetail\",\"CompanyFocusAreaDetail\"]}]"
+}

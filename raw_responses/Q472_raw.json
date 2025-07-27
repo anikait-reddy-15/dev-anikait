@@ -1,0 +1,4 @@
+{
+  "question": "What are the current hiring trends in technology companies based on active job postings?",
+  "subtasks": "[{\"step\":1,\"task\":\"Identify technology companies with active hiring campaigns and their corresponding job details.\",\"table\":[\"CompanyHiringDetail\",\"CompanyInfo\"]},{\"step\":2,\"task\":\"Aggregate hiring data by role designation and technology domain to identify the most sought-after positions.\",\"table\":[\"CompanyHiringDetail\"]},{\"step\":3,\"task\":\"Analyze geographic distribution of hiring initiatives to determine the cities with the highest demand for tech roles.\",\"table\":[\"CompanyHiringDetail\"]},{\"step\":4,\"task\":\"Examine historical hiring data to compare current trends with previous periods and identify growth areas.\",\"table\":[\"CompanyHiringDetail\"]}]"
+}

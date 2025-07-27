@@ -1,0 +1,46 @@
+{
+  "question": "Analyze the trends and focus areas of companies within the technology sector based on their IT investments and social media engagement.",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies in the technology sector and gather their IT budget data to analyze their financial commitment to IT investments.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Collect social media engagement data for identified technology companies, focusing on Facebook, Twitter, Instagram, and YouTube metrics such as likes, comments, and posts frequency.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyTwitterDetail",
+        "CompanyInstagramDetail",
+        "CompanyYoutubeDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Extract strategic technology focus areas from the companies, linking them to their respective IT investments to identify trends and priorities over time.",
+      "table": [
+        "CompanyFocusAreaDetail",
+        "CompanyTechStack"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Analyze vendor partnerships and contracts to evaluate how they influence technological advancements and focus areas in the tech sector.",
+      "table": [
+        "CompanyITPartnerDetail",
+        "CompanyDealMaster"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Aggregate data insights from the social media and focus area analyses to produce a comprehensive report on current trends in technology sector investments and engagement strategies.",
+      "table": [
+        "CompanyInfo",
+        "CompanySocialMediaInfo"
+      ]
+    }
+  ]
+}

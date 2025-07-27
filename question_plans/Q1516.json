@@ -1,0 +1,39 @@
+{
+  "question": "What are the key social media engagement metrics for major technology companies in the growth phase?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify major technology companies classified in the growth phase based on their revenue growth metrics.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Gather social media engagement metrics specifically focusing on Facebook, Twitter, Instagram, and YouTube for the identified companies.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyInstagramDetail",
+        "CompanyTwitterDetail",
+        "CompanyYoutubeDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the engagement metrics to assess which social media platform has the highest engagement for technology companies in the growth phase.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyInstagramDetail",
+        "CompanyTwitterDetail",
+        "CompanyYoutubeDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Compile a summary report of key findings highlighting the engagement trends and specify recommendations for enhancing social media strategies.",
+      "table": [
+        "SocialMediaInfo"
+      ]
+    }
+  ]
+}

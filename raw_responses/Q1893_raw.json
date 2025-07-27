@@ -1,0 +1,4 @@
+{
+  "question": "Analyze the social media engagement and hiring trends of technology companies in the last year.",
+  "subtasks": "[{\"step\":1,\"task\":\"Gather social media engagement data for technology companies from Facebook, Instagram, and Twitter for the last year.\",\"table\":[\"CompanyFacebookDetail\",\"CompanyInstagramDetail\",\"CompanyTwitterDetail\"]},{\"step\":2,\"task\":\"Collect hiring initiatives including roles, skills, and locations for technology companies in the last year.\",\"table\":[\"CompanyHiringDetail\"]},{\"step\":3,\"task\":\"Filter and aggregate findings to determine overall trends in social media engagement and hiring patterns among technology firms.\",\"table\":[\"CompanyInfo\",\"CompanyHiringDetail\",\"SocialMediaInfo\"]}]"
+}

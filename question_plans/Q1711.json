@@ -1,0 +1,44 @@
+{
+  "question": "What are the social media engagement metrics for each company and how do they correlate with their IT investments?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Extract social media engagement metrics (likes, comments, etc.) for all companies from Twitter, Facebook, Instagram, and YouTube.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyInstagramDetail",
+        "CompanyTwitterDetail",
+        "CompanyYoutubeDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Retrieve IT investment data (IT budget) for each company from the CompanyInfo table.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Combine the social media engagement metrics with IT budget data to analyze correlation patterns across companies.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyInstagramDetail",
+        "CompanyTwitterDetail",
+        "CompanyYoutubeDetail",
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Generate a summary report of findings including companies with high social media engagement and their corresponding IT budgets.",
+      "table": [
+        "CompanyInfo",
+        "CompanyFacebookDetail",
+        "CompanyInstagramDetail",
+        "CompanyTwitterDetail",
+        "CompanyYoutubeDetail"
+      ]
+    }
+  ]
+}

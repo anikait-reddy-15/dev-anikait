@@ -1,0 +1,4 @@
+{
+  "question": "What are the emerging technology trends followed by companies in the automotive industry?",
+  "subtasks": "[{\"step\":1,\"task\":\"Identify companies operating in the automotive industry and gather their financial metrics and core details.\",\"table\":[\"CompanyInfo\"]},{\"step\":2,\"task\":\"Analyze the technologies adopted by the identified automotive companies to determine the common trends in technology usage.\",\"table\":[\"CompanyTechStack\"]},{\"step\":3,\"task\":\"Examine strategic technology focus areas for these automotive companies to understand their future technology initiatives.\",\"table\":[\"CompanyFocusAreaDetail\"]},{\"step\":4,\"task\":\"Review social media engagement metrics for automotive companies to analyze how they communicate technology trends to their audience.\",\"table\":[\"CompanyFacebookDetail\",\"CompanyInstagramDetail\",\"CompanyTwitterDetail\",\"CompanyYoutubeDetail\"]}]"
+}

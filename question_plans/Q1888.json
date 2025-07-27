@@ -1,0 +1,33 @@
+{
+  "question": "What are the current IT trends among companies in the technology sector?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify technology companies and their associated industries from the CompanyInfo table.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Examine the IndustryITTrend table to collect relevant IT trends associated with the technology sector.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Cross-reference technology companies with their strategic technology focus areas from the CompanyFocusAreaDetail table to understand their current priorities.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Analyze the CompanyVendorTechDetail table to gather insights on the specific technologies adopted by these companies and their respective service providers.",
+      "table": [
+        "CompanyVendorTechDetail"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "question": "What are the current social media engagement levels and IT budget allocations for companies in the technology sector?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify all companies operating in the technology sector and extract their IT budget allocations.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Gather social media engagement metrics for the identified technology companies from various platforms (Facebook, Twitter, Instagram, etc.).",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyTwitterDetail",
+        "CompanyInstagramDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Compile the results into a report showing the relationship between IT budget allocations and social media engagement levels across companies in the technology sector.",
+      "table": [
+        "CompanyInfo",
+        "SocialMediaInfo"
+      ]
+    }
+  ]
+}

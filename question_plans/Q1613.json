@@ -1,0 +1,40 @@
+{
+  "question": "What are the emerging trends in technology adoption among companies in the manufacturing industry?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify all companies categorized under the manufacturing industry to analyze their technology adoption trends.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Gather data on the technology stacks used by the identified manufacturing companies to understand the technologies they have adopted.",
+      "table": [
+        "CompanyTechStack"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Extract insights regarding technology service contracts and the specific technologies outlined in those contracts for the manufacturing companies.",
+      "table": [
+        "CompanyDealMaster"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Review the leadership excerpts related to technology focus areas from the identified companies to assess their strategic technology initiatives.",
+      "table": [
+        "CompanyLeadershipExcerpt"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Analyze the emerging IT trends that might impact the manufacturing industry to provide context on technology adoption landscape.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    }
+  ]
+}

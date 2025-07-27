@@ -1,0 +1,4 @@
+{
+  "question": "What are the emerging IT trends across different industries, and how are companies adapting to them?",
+  "subtasks": "[{'step': 1, 'task': 'Identify the different industries to analyze their respective IT trends.', 'table': ['IndustryITTrend']}, {'step': 2, 'task': 'Gather data on specific IT trends and their details for each identified industry.', 'table': ['IndustryITTrend']}, {'step': 3, 'task': 'Analyze how companies are responding to these IT trends based on their technology focus and strategic initiatives.', 'table': ['CompanyFocusAreaDetail', 'CompanyTechStack']}, {'step': 4, 'task': 'Compile a summary of the adaptation strategies companies are undertaking with respect to the identified IT trends.', 'table': ['CompanyInfo', 'CompanyITPartnerDetail', 'CompanyVendorTechDetail']}]}"
+}

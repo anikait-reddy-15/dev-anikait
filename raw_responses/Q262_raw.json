@@ -1,0 +1,4 @@
+{
+  "question": "What are the industry trends and technology focus areas for companies across different sectors?",
+  "subtasks": "[{\"step\":1,\"task\":\"Identify unique industry types and their corresponding strategic focus areas from the IndustryBusinessTrend table.\",\"table\":[\"IndustryBusinessTrend\"]},{\"step\":2,\"task\":\"Collect emerging IT trends related to each industry from the IndustryITTrend table to understand their technological priorities.\",\"table\":[\"IndustryITTrend\"]},{\"step\":3,\"task\":\"Gather company-specific strategic technology focus areas from the CompanyFocusAreaDetail to analyze companies' own initiatives and technology investments.\",\"table\":[\"CompanyFocusAreaDetail\"]},{\"step\":4,\"task\":\"Compile a summary report linking industry trends with corresponding companies and their technology focus areas using CompanyInfo and CompanyTechStack tables.\",\"table\":[\"CompanyInfo\",\"CompanyTechStack\"]}]"
+}

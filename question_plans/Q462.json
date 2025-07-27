@@ -1,0 +1,4 @@
+{
+  "question": "What are the current trends in IT spending among companies in the technology sector?",
+  "subtasks": "[{\"step\":1,\"task\":\"Identify the active companies in the technology sector to analyze their IT budget metrics.\",\"table\":[\"CompanyInfo\"]},{\"step\":2,\"task\":\"Collect financial metrics such as ITBudget, Revenue, and NetIncome for the identified technology companies.\",\"table\":[\"CompanyInfo\"]},{\"step\":3,\"task\":\"Examine the recent IT partnership details of these companies to understand their spending on technology services.\",\"table\":[\"CompanyITPartnerDetail\"]},{\"step\":4,\"task\":\"Analyze the trends from the IT budgets and partnerships to summarize insights on IT spending patterns in the technology sector.\",\"table\":[\"CompanyITPartnerDetail\",\"CompanyInfo\"]},{\"step\":5,\"task\":\"Present the findings in a structured format, highlighting key trends and insights from the analysis.\",\"table\":[\"CompanyInfo\"]}]}"
+}

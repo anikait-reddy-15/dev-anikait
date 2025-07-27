@@ -1,0 +1,4 @@
+{
+  "question": "What are the top IT focus areas that companies in the technology industry are investing in, and how does this reflect on their hiring trends?",
+  "subtasks": "[{'step': 1, 'task': 'Fetch IT focus areas relevant to technology companies from the CompanyFocusAreaDetail table.', 'table': ['CompanyFocusAreaDetail']}, {'step': 2, 'task': 'Retrieve hiring data related to these focus areas from the CompanyHiringDetail table.', 'table': ['CompanyHiringDetail']}, {'step': 3, 'task': 'Gather company information including active status, industry, and financial metrics from the CompanyInfo table.', 'table': ['CompanyInfo']}, {'step': 4, 'task': 'Analyze and compile data to identify patterns in hiring trends with respect to the identified IT focus areas.', 'table': []}, {'step': 5, 'task': 'Present findings that showcase the correlation between IT focus areas and hiring trends.', 'table': []}]}"
+}

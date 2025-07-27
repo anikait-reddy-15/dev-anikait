@@ -1,0 +1,33 @@
+{
+  "question": "What are the current technology focus areas and social media engagement levels for companies in the software industry?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies in the software industry from the CompanyInfo table.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "For each identified company, retrieve their strategic technology focus areas from the CompanyFocusAreaDetail table.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Collect social media engagement metrics (likes, comments) from CompanyFacebookDetail, CompanyInstagramDetail, and CompanyTwitterDetail for each company.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyInstagramDetail",
+        "CompanyTwitterDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Aggregate and summarize the technology focus areas and social media metrics to analyze trends and engagement levels.",
+      "table": []
+    }
+  ]
+}

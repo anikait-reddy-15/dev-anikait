@@ -1,0 +1,42 @@
+{
+  "question": "What are the current technology trends among companies in various industries?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify and list the industries covered by the database to understand the scope of analysis.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Retrieve trends related to technology adoption for each industry, focusing on emerging technologies such as AI, IoT, and blockchain.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Correlate the identified industry trends with specific companies and their technology stacks to analyze which companies are leading in which technologies.",
+      "table": [
+        "CompanyTechStack"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Aggregate and summarize the technology usage data across industries to identify major technology trends and patterns.",
+      "table": [
+        "CompanyTechStack",
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Compile findings into a report highlighting key technology trends, supported by data from the relevant tables and industry comparisons.",
+      "table": [
+        "IndustryITTrend",
+        "CompanyTechStack"
+      ]
+    }
+  ]
+}

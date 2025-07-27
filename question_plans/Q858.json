@@ -1,0 +1,26 @@
+{
+  "question": "Identify the current technology partnerships and hiring trends of major tech companies in the AI industry.",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Retrieve a list of major tech companies in the AI industry along with their details such as revenue, employee count, and market capitalization.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract current technology partnerships specific to the identified companies, focusing on partnership details, deal values, and related technologies.",
+      "table": [
+        "CompanyITPartnerDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the current hiring trends by retrieving open positions related to AI within the major tech companies, including job titles, required skills, and locations.",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    }
+  ]
+}

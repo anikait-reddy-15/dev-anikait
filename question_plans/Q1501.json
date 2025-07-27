@@ -1,0 +1,42 @@
+{
+  "question": "How can we analyze the growth and market presence of technology firms in the cloud computing sector?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify technology firms operating in the cloud computing sector by querying the CompanyInfo table based on the industry column.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Fetch related contracts from CompanyDealMaster where cloud computing is mentioned in the product technology field to assess the market presence and deal value.",
+      "table": [
+        "CompanyDealMaster"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Collect data on the hiring trends within these companies by querying the CompanyHiringDetail, focusing on job roles related to cloud services.",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Analyze social media engagement and promotion efforts by extracting data from CompanyFacebookDetail, CompanyTwitterDetail, and CompanyInstagramDetail tables for the identified firms.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyTwitterDetail",
+        "CompanyInstagramDetail"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Review strategic technology focus areas of the identified companies by querying the CompanyFocusAreaDetail to understand their initiatives in cloud computing.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    }
+  ]
+}

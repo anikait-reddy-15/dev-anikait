@@ -1,0 +1,4 @@
+{
+  "question": "What are the social media engagement trends for companies in the technology sector?",
+  "subtasks": "+{\"step\":1,\"task\":\"Identify companies classified under the technology sector by filtering the CompanyInfo table by the Industry column.\",\"table\":[\"CompanyInfo\"]},"
+}

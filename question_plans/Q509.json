@@ -1,0 +1,4 @@
+{
+  "question": "Identify the top 5 companies in terms of IT budget within the technology industry that have active hiring initiatives.",
+  "subtasks": "[{\"step\":1,\"task\":\"Query the CompanyInfo table to filter for active companies in the technology industry, retrieving relevant columns including Id, ITBudget, and Name.\",\"table\":[\"CompanyInfo\"]},{\"step\":2,\"task\":\"Sort the filtered list from step 1 by ITBudget in descending order to identify the top companies based on their IT budget.\",\"table\":[\"CompanyInfo\"]},{\"step\":3,\"task\":\"Cross-reference the list from step 2 with the CompanyHiringDetail table to check for active hiring initiatives associated with these companies.\",\"table\":[\"CompanyHiringDetail\"]},{\"step\":4,\"task\":\"Select the top 5 companies that have active hiring initiatives, ensuring that the results display company names and their IT budgets.\",\"table\":[\"CompanyInfo\",\"CompanyHiringDetail\"]}]"
+}

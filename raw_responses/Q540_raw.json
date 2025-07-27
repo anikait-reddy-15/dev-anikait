@@ -1,0 +1,4 @@
+{
+  "question": "Analyze the impact of technology adoption on companies' financial performance in the IT industry.",
+  "subtasks": "[{\"step\":1,\"task\":\"Identify and retrieve financial metrics for companies operating in the IT industry, including Revenue and NetIncome.\",\"table\":[\"CompanyInfo\"]},{\"step\":2,\"task\":\"Gather information on the specific technologies adopted by these companies from their technology stack.\",\"table\":[\"CompanyTechStack\"]},{\"step\":3,\"task\":\"Analyze the data to determine correlations between the technologies adopted and the financial metrics obtained in step 1.\",\"table\":[\"CompanyTechStack\",\"CompanyInfo\"]},{\"step\":4,\"task\":\"Compile a report detailing findings on the financial performance trends in relation to technology adoption in the IT industry.\",\"table\":[\"CompanyInfo\"]}]"
+}

@@ -1,0 +1,41 @@
+{
+  "question": "What are the emerging technology trends and focus areas among companies in the finance sector?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify all companies operating in the finance sector and extract their details such as name, industry, and financial metrics (revenue and net income).",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Gather the strategic technology focus areas for each identified financial company to understand their initiatives related to emerging technologies such as AI, blockchain, or cloud computing.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the technology adoption trends by extracting the tech stack used by the finance companies to identify common technologies implemented across this sector.",
+      "table": [
+        "CompanyTechStack"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Compile and evaluate social media engagement data from companies in the finance sector to observe how they discuss or promote their technology initiatives on platforms like Facebook and Twitter.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyTwitterDetail"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Assess vendor relationships by extracting IT partner details for finance companies to see which vendors are popular in this sector for technology services and products.",
+      "table": [
+        "CompanyITPartnerDetail"
+      ]
+    }
+  ]
+}

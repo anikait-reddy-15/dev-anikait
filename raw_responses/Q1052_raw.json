@@ -1,0 +1,4 @@
+{
+  "question": "What are the latest technology trends being adopted in the healthcare industry by major companies?",
+  "subtasks": "[{\"step\":1,\"task\":\"Identify all companies operating in the healthcare industry from the CompanyInfo table.\",\"table\":[\"CompanyInfo\"]},{\"step\":2,\"task\":\"Retrieve the technology focus areas for the identified healthcare companies from the CompanyFocusAreaDetail table.\",\"table\":[\"CompanyFocusAreaDetail\"]},{\"step\":3,\"task\":\"Analyze the technology adoption patterns and trends in recent contracts using the CompanyDealMaster table to find recent deals made by healthcare companies.\",\"table\":[\"CompanyDealMaster\"]},{\"step\":4,\"task\":\"Join the technology focus areas with the latest deals to identify which technologies are being prioritized in the contracts by these companies.\",\"table\":[\"CompanyFocusAreaDetail\",\"CompanyDealMaster\"]}]"
+}

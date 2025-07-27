@@ -1,0 +1,46 @@
+{
+  "question": "What are the key technological trends and focus areas for companies in the IT industry?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify the companies operating in the IT industry and retrieve their details such as Id, Name, and Revenue from the CompanyInfo table.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract the strategic technology focus areas for each identified company by joining CompanyInfo with CompanyFocusAreaDetail to get their IT focus areas and descriptions.",
+      "table": [
+        "CompanyInfo",
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the industry-specific technological trends by referencing the IndustryITTrend table to correlate companies' focus areas with broader IT trends in the industry.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Gather data on previously signed contracts and vendor partnerships from the CompanyDealMaster and CompanyITPartnerDetail tables to understand the technology services and products being adopted in the industry.",
+      "table": [
+        "CompanyDealMaster",
+        "CompanyITPartnerDetail"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Compile a summary report that includes the key technology trends, focus areas, and partnership insights for companies within the IT industry based on the gathered data.",
+      "table": [
+        "CompanyInfo",
+        "CompanyFocusAreaDetail",
+        "IndustryITTrend",
+        "CompanyDealMaster",
+        "CompanyITPartnerDetail"
+      ]
+    }
+  ]
+}

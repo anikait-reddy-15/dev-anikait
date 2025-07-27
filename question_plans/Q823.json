@@ -1,0 +1,4 @@
+{
+  "question": "Analyze the IT budget trends of companies in the technology industry over the last five years.",
+  "subtasks": "[{\"step\":1,\"task\":\"Identify companies in the technology industry and their respective IT budgets\",\"table\":[\"CompanyInfo\"]},{\"step\":2,\"task\":\"Retrieve historical IT budget data for the identified companies for the last five years\",\"table\":[\"CompanyInfo\"]},{\"step\":3,\"task\":\"Analyze revenues and net income alongside IT budgets to assess investment strategies\",\"table\":[\"CompanyInfo\"]},{\"step\":4,\"task\":\"Examine the correlation between IT budget increases and company growth indicators such as market capitalization and employee count\",\"table\":[\"CompanyInfo\"]},{\"step\":5,\"task\":\"Generate a report summarizing the findings related to IT budget trends and their impact on company performance\",\"table\":[\"CompanyInfo\"]}}]}"
+}

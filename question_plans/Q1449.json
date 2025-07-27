@@ -1,0 +1,36 @@
+{
+  "question": "Identify the current technology focus areas and trends of major companies in the healthcare industry.",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Query the CompanyInfo table to filter companies in the healthcare industry and retrieve their IDs and names.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Find the technology focus areas linked to the identified companies by joining CompanyFocusAreaDetail with CompanyInfo to fetch detailed focus area descriptions.",
+      "table": [
+        "CompanyFocusAreaDetail",
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze technology adoption trends in the healthcare sector by referencing IndustryITTrend for insights on current technological advancements relevant to these companies.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Compile the data from CompanyFacebookDetail, CompanyTwitterDetail, and CompanyInstagramDetail to analyze the social media presence of identified healthcare companies and how it reflects their technology focus areas.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyTwitterDetail",
+        "CompanyInstagramDetail"
+      ]
+    }
+  ]
+}

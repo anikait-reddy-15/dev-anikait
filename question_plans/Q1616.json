@@ -1,0 +1,32 @@
+{
+  "question": "What are the current hiring trends across different industries based on company data?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify the industries represented in the company data by querying the CompanyInfo table to get distinct sectors.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Gather active hiring details from companies by querying the CompanyHiringDetail table for positions listed and link them to their respective industries based on CompanyInfoId.",
+      "table": [
+        "CompanyHiringDetail",
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the hiring data to identify trends, such as most in-demand job roles, number of positions per industry, and geographical distribution of roles.",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Summarize the findings and prepare a report highlighting the hiring trends and insights drawn from the data collected.",
+      "table": []
+    }
+  ]
+}

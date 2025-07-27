@@ -1,0 +1,4 @@
+{
+  "question": "What are the current IT focus areas of companies in the technology sector, and how does it relate to their revenue and market capitalization?",
+  "subtasks": "[{\"step\":1,\"task\":\"Identify all companies operating in the technology sector from the CompanyInfo table and filter based on the Industry column.\",\"table\":[\"CompanyInfo\"]},{\"step\":2,\"task\":\"Retrieve the IT focus areas of the identified technology companies using the CompanyFocusAreaDetail table by linking it to CompanyInfo.\",\"table\":[\"CompanyFocusAreaDetail\"]},{\"step\":3,\"task\":\"Collect revenue and market capitalization data for the identified companies using columns from the CompanyInfo table.\",\"table\":[\"CompanyInfo\"]},{\"step\":4,\"task\":\"Analyze the relationship between the IT focus areas retrieved and the revenue and market capitalization data to find trends or insights.\",\"table\":[\"CompanyFocusAreaDetail\",\"CompanyInfo\"]}]"
+}

@@ -1,0 +1,34 @@
+{
+  "question": "What are the current hiring trends among technology companies in terms of roles and skills being sought?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify technology companies based on their profile and operational data to focus the analysis on relevant businesses.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Gather data on active hiring initiatives from technology companies, capturing roles, skills, and locations to analyze trends.",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze and summarize the gathered hiring data to identify common roles and specific skills that are currently in demand across these technology companies.",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Cross-reference identified roles and skills with company profiles to understand which companies are leading in hiring for specific tech roles.",
+      "table": [
+        "CompanyInfo",
+        "CompanyHiringDetail"
+      ]
+    }
+  ]
+}

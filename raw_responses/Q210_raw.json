@@ -1,0 +1,4 @@
+{
+  "question": "Identify the social media engagement levels for companies within the technology industry located in North America.",
+  "subtasks": "1. Filter companies in the technology industry and located in North America.\n   - Relevant Tables: CompanyInfo\n2. For each company identified, gather social media engagement metrics from Facebook, Twitter, Instagram, and YouTube.\n   - Relevant Tables: CompanyFacebookDetail, CompanyTwitterDetail, CompanyInstagramDetail, CompanyYoutubeDetail\n3. Aggregate the engagement metrics to create a summary report for each company.\n   - Relevant Tables: CompanyFacebookDetail, CompanyTwitterDetail, CompanyInstagramDetail, CompanyYoutubeDetail\n4. Analyze and visualize the engagement levels to identify which technology companies have the highest interactions on social media platforms.\n   - Relevant Tables: CompanyFacebookDetail, CompanyTwitterDetail, CompanyInstagramDetail, CompanyYoutubeDetail"
+}

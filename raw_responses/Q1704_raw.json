@@ -1,0 +1,4 @@
+{
+  "question": "What are the current social media engagement metrics and technology focus areas for companies in the technology industry?",
+  "subtasks": "[\n    {\n        \"step\": 1,\n        \"task\": \"Gather current engagement metrics from social media platforms for technology companies.\",\n        \"table\": [\"SocialMediaInfo\", \"CompanyFacebookDetail\", \"CompanyInstagramDetail\", \"CompanyTwitterDetail\", \"CompanyYoutubeDetail\"]\n    },\n    {\n        \"step\": 2,\n        \"task\": \"Identify technology focus areas for companies in the technology industry based on strategic initiatives.\",\n        \"table\": [\"CompanyFocusAreaDetail\", \"CompanyInfo\"]\n    },\n    {\n        \"step\": 3,\n        \"task\": \"Combine social media metrics and technology focus areas into a comprehensive report for analysis.\",\n        \"table\": [\"SocialMediaInfo\", \"CompanyFocusAreaDetail\"]\n    }\n]"
+}

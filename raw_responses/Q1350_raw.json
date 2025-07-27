@@ -1,0 +1,4 @@
+{
+  "question": "What are the current technology focus areas and social media engagement metrics for each company in the database?",
+  "subtasks": "[{'step': 1, 'task': 'Retrieve current technology focus areas for each company.', 'table': ['CompanyFocusAreaDetail', 'CompanyInfo']}, {'step': 2, 'task': 'Gather social media engagement metrics from Facebook for each company.', 'table': ['CompanyFacebookDetail', 'CompanyInfo']}, {'step': 3, 'task': 'Compile social media engagement metrics from Twitter for each company.', 'table': ['CompanyTwitterDetail', 'CompanyInfo']}, {'step': 4, 'task': 'Compile social media engagement metrics from Instagram for each company.', 'table': ['CompanyInstagramDetail', 'CompanyInfo']}, {'step': 5, 'task': 'Combine the results from technology focus areas and social media metrics into a comprehensive overview for each company.', 'table': []}]"
+}

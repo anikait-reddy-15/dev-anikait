@@ -1,0 +1,35 @@
+{
+  "question": "What are the current technology focus areas of companies in the finance industry, and how do their hiring initiatives align with these technologies?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify all companies in the finance industry from the CompanyInfo table.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Retrieve technology focus areas related to the identified finance companies from the CompanyFocusAreaDetail table.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the hiring initiatives of these companies from the CompanyHiringDetail table to see how they align with specific technology focus areas.",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Compile a report on current technology focus areas and hiring initiatives indicating alignment and gaps.",
+      "table": [
+        "CompanyInfo",
+        "CompanyFocusAreaDetail",
+        "CompanyHiringDetail"
+      ]
+    }
+  ]
+}

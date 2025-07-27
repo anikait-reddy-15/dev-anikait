@@ -1,0 +1,40 @@
+{
+  "question": "What technology strategies are companies focusing on in the healthcare industry?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify all companies operating in the healthcare industry.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract technology focus areas for identified healthcare companies.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Gather insights from leadership excerpts related to IT strategies in healthcare companies.",
+      "table": [
+        "CompanyLeadershipExcerpt"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Analyze the hiring trends in healthcare focusing on technology roles and domains.",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Review partnership details involving IT service vendors in the healthcare sector.",
+      "table": [
+        "CompanyITPartnerDetail"
+      ]
+    }
+  ]
+}

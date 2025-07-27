@@ -1,0 +1,4 @@
+{
+  "question": "What are the key trends in IT spending by companies across different industries?",
+  "subtasks": "[{\"step\":1,\"task\":\"Identify the total IT budget per company segmented by industry.\",\"table\":[\"CompanyInfo\"]},{\"step\":2,\"task\":\"Analyze the IT service contracts from the CompanyDealMaster table to understand spending patterns based on contract values and categories.\",\"table\":[\"CompanyDealMaster\"]},{\"step\":3,\"task\":\"Gather information about technology focus areas from the CompanyFocusAreaDetail table to correlate with IT spending trends.\",\"table\":[\"CompanyFocusAreaDetail\"]},{\"step\":4,\"task\":\"Compile social media insights from SocialMediaInfo to assess how companies communicate about their IT investments.\",\"table\":[\"SocialMediaInfo\"]},{\"step\":5,\"task\":\"Summarize insights on how trends in IT budgets compare to the narratives captured in the IndustryITTrend table.\",\"table\":[\"IndustryITTrend\"]}]}"
+}

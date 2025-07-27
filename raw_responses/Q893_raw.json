@@ -1,0 +1,4 @@
+{
+  "question": "Analyze the social media engagement of companies within the technology industry.",
+  "subtasks": "[{\"step\":1,\"task\":\"Identify all companies in the technology industry from the CompanyInfo table.\",\"table\":[\"CompanyInfo\"]},{\"step\":2,\"task\":\"Extract social media activity metrics (likes, comments) for identified companies from the CompanyFacebookDetail, CompanyInstagramDetail, CompanyTwitterDetail, and CompanyYoutubeDetail tables.\",\"table\":[\"CompanyFacebookDetail\",\"CompanyInstagramDetail\",\"CompanyTwitterDetail\",\"CompanyYoutubeDetail\"]},{\"step\":3,\"task\":\"Aggregate the social media metrics to create a comparative analysis of engagement across different platforms for each technology company.\",\"table\":[\"CompanyFacebookDetail\",\"CompanyInstagramDetail\",\"CompanyTwitterDetail\",\"CompanyYoutubeDetail\"]}]"
+}

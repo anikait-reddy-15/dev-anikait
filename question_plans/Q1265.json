@@ -1,0 +1,40 @@
+{
+  "question": "Analyze the impact of social media activity on overall company performance metrics.",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies with active social media presence by retrieving data from social media related tables for Facebook, Twitter, Instagram, and YouTube.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyTwitterDetail",
+        "CompanyInstagramDetail",
+        "CompanyYoutubeDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Gather performance metrics for the identified companies from the CompanyInfo table, focusing on revenue, net income, and market capitalization.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the correlation between social media engagement metrics (likes, comments, engagement rate) and financial performance metrics (revenue, net income) across the identified companies.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyTwitterDetail",
+        "CompanyInstagramDetail",
+        "CompanyYoutubeDetail",
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Summarize findings in a structured report to highlight key insights into how social media impacts financial performance of these companies.",
+      "table": [
+        "CompanyInfo"
+      ]
+    }
+  ]
+}

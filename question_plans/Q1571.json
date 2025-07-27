@@ -1,0 +1,41 @@
+{
+  "question": "What are the latest technology trends and hiring initiatives in the AI industry across different companies?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify the latest AI technology trends relevant to the industry by analyzing the IndustryITTrend table.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract company names and their associated technology focus areas related to AI from the CompanyFocusAreaDetail table.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Gather data on active hiring initiatives in the tech field related to AI, focusing on specific designations and skill requirements from the CompanyHiringDetail table.",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Cross-reference the extracted focus areas with company information from the CompanyInfo table to understand company profiles in relation to AI.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Compile social media insights from the CompanyFacebookDetail and CompanyInstagramDetail to gauge public engagement with AI initiatives by these companies.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyInstagramDetail"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+{
+  "question": "What are the emerging technology trends among companies in the software industry?",
+  "subtasks": "[{'step': 1, 'task': 'Identify all the companies in the software industry.', 'table': ['CompanyInfo']}, {'step': 2, 'task': 'Gather technology focus areas and initiatives from the identified software companies.', 'table': ['CompanyFocusAreaDetail']}, {'step': 3, 'task': 'Analyze the technological adoption trends across the software companies by examining their partnership details.', 'table': ['CompanyITPartnerDetail']}]"
+}

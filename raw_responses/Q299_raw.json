@@ -1,0 +1,4 @@
+{
+  "question": "What are the current hiring trends in the IT industry based on recent job listings?",
+  "subtasks": "[{\"step\":1,\"task\":\"Identify all companies that are active in the IT industry from the CompanyInfo table.\",\"table\":[\"CompanyInfo\"]},{\"step\":2,\"task\":\"Extract current job listings from the CompanyHiringDetail table for the identified IT companies.\",\"table\":[\"CompanyHiringDetail\"]},{\"step\":3,\"task\":\"Analyze the data on job titles and domains from the job listings to identify trends in required skills and positions.\",\"table\":[\"CompanyHiringDetail\"]},{\"step\":4,\"task\":\"Assess the geographical distribution of hiring initiatives by analyzing city data in the CompanyHiringDetail table.\",\"table\":[\"CompanyHiringDetail\"]},{\"step\":5,\"task\":\"Summarize insights into the hiring trends, highlighting in-demand skills, job titles, and regions for IT companies.\",\"table\":[\"CompanyHiringDetail\"]}]}"
+}

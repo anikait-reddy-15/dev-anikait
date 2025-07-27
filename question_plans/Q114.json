@@ -1,0 +1,4 @@
+{
+  "question": "How are different companies adapting their technology stacks in response to current industry trends?",
+  "subtasks": "[{\"step\":1,\"task\":\"Identify the companies that are currently active in the system from the CompanyInfo table.\",\"table\":[\"CompanyInfo\"]},{\"step\":2,\"task\":\"Retrieve the technology details for each identified company from the CompanyTechStack table, focusing on the technologies they have adopted.\",\"table\":[\"CompanyTechStack\"]},{\"step\":3,\"task\":\"Analyze the recent industry trends captured in the IndustryITTrend table to see how these trends are influencing technology adaptation across companies.\",\"table\":[\"IndustryITTrend\"]},{\"step\":4,\"task\":\"Link the companies with their respective industry trends to understand specific adaptations or changes in the technology stacks as influenced by these trends.\",\"table\":[\"CompanyTechStack\",\"IndustryITTrend\"]}]"
+}

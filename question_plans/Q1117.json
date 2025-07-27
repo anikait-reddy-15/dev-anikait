@@ -1,0 +1,31 @@
+{
+  "question": "What are the current technology partnerships and hiring initiatives of companies in the technology industry?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Retrieve a list of companies operating in the technology industry along with their core information.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Get the technology partnerships related to the companies identified in step 1, including partner details and deal attributes.",
+      "table": [
+        "CompanyITPartnerDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Collect information on active hiring initiatives for the identified technology companies, detailing roles, requirements, and locations.",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Analyze the data collected on partnerships and hiring initiatives to summarize the current trends in the technology industry.",
+      "table": []
+    }
+  ]
+}

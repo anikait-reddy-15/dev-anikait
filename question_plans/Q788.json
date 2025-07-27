@@ -1,0 +1,4 @@
+{
+  "question": "What are the hiring trends in the technology sector for companies headquartered in the United States?",
+  "subtasks": "[{\"step\":1,\"task\":\"Identify all companies headquartered in the United States and retrieve their basic information including company name, industry, and size.\",\"table\":[\"CompanyInfo\"]},{\"step\":2,\"task\":\"Extract active hiring details from the CompanyHiringDetail table for the identified companies, focusing on job roles, domains, and locations.\",\"table\":[\"CompanyHiringDetail\"]},{\"step\":3,\"task\":\"Analyze the hiring data to identify trends in job roles, skills, or domains that are seeing increased demand within the technology sector.\",\"table\":[\"CompanyHiringDetail\"]},{\"step\":4,\"task\":\"Summarize the hiring trends by creating a report that highlights the most in-demand roles and skills based on the collected data.\",\"table\":[\"CompanyHiringDetail\"]}]}"
+}

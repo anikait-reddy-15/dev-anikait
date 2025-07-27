@@ -1,0 +1,40 @@
+{
+  "question": "Analyze the impact of social media presence on company revenue.",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Collect social media engagement metrics for companies, including likes and comments from Facebook, Instagram, Twitter and Youtube.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyInstagramDetail",
+        "CompanyTwitterDetail",
+        "CompanyYoutubeDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Gather revenue data for companies from the CompanyInfo table to understand their financial performance.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Merge social media metrics with revenue data to analyze the correlation between social media engagement and revenue generation for each company.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyInstagramDetail",
+        "CompanyTwitterDetail",
+        "CompanyYoutubeDetail",
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Generate insights or trends based on the merged data to showcase how social media presence impacts revenue across different industries.",
+      "table": [
+        "CompanyInfo"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+{
+  "question": "What are the current trends in technology adoption among companies in the finance industry?",
+  "subtasks": "[\n    {\"step\": 1, \"task\": \"Identify all companies operating in the finance industry from the CompanyInfo table.\", \"table\": [\"CompanyInfo\"]},\n    {\"step\": 2, \"task\": \"Gather the technologies used by these finance companies from the CompanyTechStack table.\", \"table\": [\"CompanyTechStack\"]},\n    {\"step\": 3, \"task\": \"Analyze the technology trends in the finance industry by collecting related insights from the IndustryITTrend table.\", \"table\": [\"IndustryITTrend\"]},\n    {\"step\": 4, \"task\": \"Compile the findings into a report summarizing the technology adoption trends and notable technologies used in the finance industry.\", \"table\": []}\n]"
+}

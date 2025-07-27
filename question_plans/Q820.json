@@ -1,0 +1,4 @@
+{
+  "question": "List the companies with the highest revenue in the technology sector and provide their social media engagement metrics.",
+  "subtasks": "[{\"step\":1,\"task\":\"Query to retrieve companies from the CompanyInfo table where the Industry is 'Technology' and sort by Revenue in descending order.\",\"table\":[\"CompanyInfo\"]},{\"step\":2,\"task\":\"Join the retrieved company list with the SocialMediaInfo table to get the engagement metrics for each company.\",\"table\":[\"CompanyInfo\",\"SocialMediaInfo\"]},{\"step\":3,\"task\":\"Aggregate data to combine revenue figures with total engagement metrics (such as likes, comments, etc.) from Social Media to present a comprehensive profile for each company.\",\"table\":[\"CompanyInfo\",\"SocialMediaInfo\"]}]"
+}

@@ -1,0 +1,4 @@
+{
+  "question": "Identify the key social media platforms used by a specific company and analyze their engagement metrics.",
+  "subtasks": "[{'step': 1, 'task': 'Fetch the social media presence data of the specified company from the SocialMediaInfo table.', 'table': ['SocialMediaInfo']}, {'step': 2, 'task': 'Retrieve specific engagement metrics for Facebook, Twitter, Instagram, and LinkedIn from the respective detail tables like CompanyFacebookDetail, CompanyTwitterDetail, CompanyInstagramDetail, and CompanyLinkedInDetail.', 'table': ['CompanyFacebookDetail', 'CompanyTwitterDetail', 'CompanyInstagramDetail', 'CompanyLinkedinDetail']}, {'step': 3, 'task': 'Compile the engagement metrics and social media counts to highlight the company\u2019s overall performance on each platform.', 'table': []}]"
+}

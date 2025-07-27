@@ -1,0 +1,4 @@
+{
+  "question": "Analyze the technology adoption trends across different companies in the healthcare industry based on their IT budget and technology focus areas.",
+  "subtasks": "[{\"step\":1,\"task\":\"Identify all companies in the healthcare industry and their associated IT budgets.\",\"table\":[\"CompanyInfo\"]},{\"step\":2,\"task\":\"Determine the specific technology focus areas for each identified healthcare company.\",\"table\":[\"CompanyFocusAreaDetail\"]},{\"step\":3,\"task\":\"Aggregate and analyze the data to identify common technology trends and priorities among healthcare companies based on their IT budgets and focus areas.\",\"table\":[\"CompanyTechStack\",\"CompanyFocusAreaDetail\"]},{\"step\":4,\"task\":\"Summarize the findings in a report highlighting key insights about technology adoption trends in the healthcare industry.\",\"table\":[\"CompanyInfo\",\"CompanyFocusAreaDetail\"]}]}"
+}

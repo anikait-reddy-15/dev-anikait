@@ -1,0 +1,4 @@
+{
+  "question": "Analyze the impact of IT spending on company revenue across different industries.",
+  "subtasks": "[{'step': 1, 'task': 'Gather company financial data including IT budget and revenue for each company.', 'table': ['CompanyInfo']}, {'step': 2, 'task': 'Identify and categorize companies by industry to understand industry-specific trends.', 'table': ['CompanyInfo']}, {'step': 3, 'task': 'Analyze the relationship between IT budget and revenue for each industry to assess the impact of IT spending.', 'table': ['CompanyInfo']}, {'step': 4, 'task': 'Summarize findings and highlight any significant trends or correlations observed between IT spending and revenue across industries.', 'table': []}]"
+}

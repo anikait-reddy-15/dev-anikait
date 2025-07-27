@@ -1,0 +1,4 @@
+{
+  "question": "What are the current technology focus areas and IT budgets of active companies in the finance industry?",
+  "subtasks": "[{\"step\":1,\"task\":\"Identify all active companies in the finance industry from the CompanyInfo table.\",\"table\":[\"CompanyInfo\"]},{\"step\":2,\"task\":\"Retrieve the IT budgets and technology focus areas of the identified companies from the CompanyFocusAreaDetail and CompanyITPartnerDetail tables.\",\"table\":[\"CompanyFocusAreaDetail\",\"CompanyInfo\"]},{\"step\":3,\"task\":\"Compile and summarize the technology focus areas along with the respective IT budgets for reporting.\",\"table\":[\"CompanyFocusAreaDetail\",\"CompanyInfo\"]},{\"step\":4,\"task\":\"Present the findings in a structured format, indicating the technology focus areas and their corresponding IT budgets for each company.\",\"table\":[\"CompanyFocusAreaDetail\",\"CompanyInfo\"]}]}"
+}

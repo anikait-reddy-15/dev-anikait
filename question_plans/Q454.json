@@ -1,0 +1,4 @@
+{
+  "question": "What are the key technologies adopted by companies in the finance industry based on their vendor partnerships?",
+  "subtasks": "[{\"step\":1,\"task\":\"Identify companies operating in the finance industry from the CompanyInfo table.\",\"table\":[\"CompanyInfo\"]},{\"step\":2,\"task\":\"Retrieve vendor partnerships associated with these finance companies using the CompanyITPartnerDetail table.\",\"table\":[\"CompanyITPartnerDetail\"]},{\"step\":3,\"task\":\"Analyze the technologies related to these partnerships by extracting data from CompanyVendorTechDetail table for the identified vendor partnerships.\",\"table\":[\"CompanyVendorTechDetail\"]},{\"step\":4,\"task\":\"Compile and summarize the key technologies adopted by the identified finance companies based on the information gathered in the previous steps.\",\"table\":[\"CompanyVendorTechDetail\"]}]}"
+}

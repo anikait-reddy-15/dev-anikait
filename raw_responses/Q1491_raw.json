@@ -1,0 +1,4 @@
+{
+  "question": "What are the current IT budget distributions and IT focus areas among companies in the technology sector?",
+  "subtasks": "[\n  {\n    \"step\": 1,\n    \"task\": \"Retrieve all companies in the technology sector along with their IT budgets.\",\n    \"table\": [\"CompanyInfo\"]\n  },\n  {\n    \"step\": 2,\n    \"task\": \"Identify the strategic IT focus areas for each technology company based on their initiatives.\",\n    \"table\": [\"CompanyFocusAreaDetail\"]\n  },\n  {\n    \"step\": 3,\n    \"task\": \"Aggregate the IT budgets of technology companies to analyze distribution across different IT focus areas.\",\n    \"table\": [\"CompanyFocusAreaDetail\", \"CompanyInfo\"]\n  },\n  {\n    \"step\": 4,\n    \"task\": \"Compile a report summarizing the findings of the IT budget distributions and associated focus areas.\",\n    \"table\": []\n  }\n]"
+}

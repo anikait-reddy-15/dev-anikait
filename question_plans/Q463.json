@@ -1,0 +1,4 @@
+{
+  "question": "What are the current technology focus areas and social media engagement metrics for the top 5 companies in the IT sector?",
+  "subtasks": "[{\"step\":1,\"task\":\"Identify the top 5 companies in the IT sector based on criteria such as revenue or market capitalization.\",\"table\":[\"CompanyInfo\"]},{\"step\":2,\"task\":\"Retrieve the technology focus areas for each of the top 5 companies identified in the previous step.\",\"table\":[\"CompanyFocusAreaDetail\"]},{\"step\":3,\"task\":\"Collect social media engagement metrics (likes, comments, and reposts) from Facebook, Instagram, Twitter, and Youtube for these companies.\",\"table\":[\"CompanyFacebookDetail\",\"CompanyInstagramDetail\",\"CompanyTwitterDetail\",\"CompanyYoutubeDetail\"]}]"
+}

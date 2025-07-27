@@ -1,0 +1,4 @@
+{
+  "question": "Analyze the social media presence of companies across different platforms.",
+  "subtasks": "[{\"step\":1,\"task\":\"Gather data on social media activity across all platforms used by companies.\",\"table\":[\"CompanyFacebookDetail\",\"CompanyInstagramDetail\",\"CompanyTwitterDetail\",\"CompanyYoutubeDetail\"]},{\"step\":2,\"task\":\"Determine engagement metrics such as likes, comments, shares, and reach from the collected social media data.\",\"table\":[\"CompanyFacebookDetail\",\"CompanyInstagramDetail\",\"CompanyTwitterDetail\",\"CompanyYoutubeDetail\"]},{\"step\":3,\"task\":\"Segment companies based on their social media engagement levels and identify trends across different industries.\",\"table\":[\"CompanyInfo\",\"SocialMediaInfo\"]},{\"step\":4,\"task\":\"Visualize the data to compare social media presence metrics of top-performing companies versus the average across their industry.\",\"table\":[\"CompanyInfo\",\"SocialMediaInfo\"]}]"
+}

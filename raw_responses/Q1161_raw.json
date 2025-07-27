@@ -1,0 +1,4 @@
+{
+  "question": "What are the current trends in social media engagement for companies in the tech industry?",
+  "subtasks": "[{'step': 1, 'task': 'Identify all companies operating in the tech industry from the CompanyInfo table.', 'table': ['CompanyInfo']}, {'step': 2, 'task': 'Gather the social media engagement metrics for each identified tech company from the SocialMediaInfo table.', 'table': ['SocialMediaInfo']}, {'step': 3, 'task': 'Analyze the social media engagement data to identify trends such as average engagement rates or platform preferences across the tech companies.', 'table': ['SocialMediaInfo']}]}"
+}

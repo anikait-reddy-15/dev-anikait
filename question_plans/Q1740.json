@@ -1,0 +1,35 @@
+{
+  "question": "Identify the technological focus areas and key trends for companies in the healthcare industry from our database.",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Extract healthcare-related companies from the CompanyInfo table by filtering on the industry column.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Fetch the technology focus areas related to the identified healthcare companies from the CompanyFocusAreaDetail table by linking it to the CompanyInfo table.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze emerging IT trends relevant to the healthcare industry from the IndustryITTrend table and correlate them with the extracted focus areas.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Compile a summary report combining the selected healthcare companies, their technological focus areas, and the relevant IT trends for healthcare.",
+      "table": [
+        "CompanyInfo",
+        "CompanyFocusAreaDetail",
+        "IndustryITTrend"
+      ]
+    }
+  ]
+}

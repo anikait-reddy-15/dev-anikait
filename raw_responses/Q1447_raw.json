@@ -1,0 +1,4 @@
+{
+  "question": "What are the current IT budget trends among companies in the finance industry?",
+  "subtasks": "[{\"step\":1,\"task\":\"Identify all companies operating in the finance industry from the CompanyInfo table. \",\"table\":[\"CompanyInfo\"]},{\"step\":2,\"task\":\"Retrieve the IT budget data for each company identified in step 1 from the CompanyInfo table. \",\"table\":[\"CompanyInfo\"]},{\"step\":3,\"task\":\"Analyze the IT budget data to identify any emerging trends or patterns specific to the finance industry. \",\"table\":[\"CompanyInfo\"]},{\"step\":4,\"task\":\"Compile the findings into a summary report highlighting the trends in IT budgets for finance companies. \",\"table\":[\"CompanyInfo\"]}]}"
+}

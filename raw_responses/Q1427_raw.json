@@ -1,0 +1,4 @@
+{
+  "question": "What are the current technology focus areas and hiring trends of companies in the cloud computing industry?",
+  "subtasks": "[{\"step\":1,\"task\":\"Identify companies operating in the cloud computing industry by filtering the CompanyInfo table based on Industry column for relevant values.\",\"table\":[\"CompanyInfo\"]},{\"step\":2,\"task\":\"Retrieve the strategic technology focus areas for the identified cloud computing companies by joining the CompanyFocusAreaDetail table with the filtered CompanyInfo results.\",\"table\":[\"CompanyFocusAreaDetail\"]},{\"step\":3,\"task\":\"Gather data on the active hiring initiatives of the cloud computing companies, including job roles and requirements, by accessing the CompanyHiringDetail table and linking it to the filtered CompanyInfo records.\",\"table\":[\"CompanyHiringDetail\"]}]"
+}

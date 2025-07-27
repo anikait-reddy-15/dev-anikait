@@ -1,0 +1,4 @@
+{
+  "question": "What are the current hiring trends among technology companies in the AI sector?",
+  "subtasks": "[{\"step\":1,\"task\":\"Identify technology companies that are currently active in the AI sector based on their focus areas and technologies used.\",\"table\":[\"CompanyInfo\",\"CompanyFocusAreaDetail\",\"CompanyTechStack\"]},{\"step\":2,\"task\":\"Gather data on active hiring initiatives of these companies, including job roles and their respective descriptions.\",\"table\":[\"CompanyHiringDetail\"]},{\"step\":3,\"task\":\"Analyze geographic distribution of hiring initiatives by collecting location data from the hiring initiatives.\",\"table\":[\"CompanyHiringDetail\"]},{\"step\":4,\"task\":\"Examine engagement metrics and social media presence of these companies to assess their brand visibility alongside hiring trends.\",\"table\":[\"CompanyFacebookDetail\",\"CompanyInstagramDetail\",\"CompanyTwitterDetail\"]}]"
+}

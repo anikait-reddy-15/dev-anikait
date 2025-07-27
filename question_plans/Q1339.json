@@ -1,0 +1,39 @@
+{
+  "question": "How can we analyze the impact of social media engagement on company performance and its correlation with technology adoption?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Gather social media engagement data such as likes, comments, and reposts from the Facebook, Instagram, and Twitter tables for various companies.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyInstagramDetail",
+        "CompanyTwitterDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Collect company performance metrics like revenue, net income, and market capitalization from the CompanyInfo table to evaluate overall performance.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Identify technology adoption initiatives by linking it with the CompanyTechStack table to understand the technologies companies are implementing.",
+      "table": [
+        "CompanyTechStack"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Analyze and correlate social media engagement metrics with company performance metrics and technology adoption to derive insights on how they impact each other.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyInstagramDetail",
+        "CompanyTwitterDetail",
+        "CompanyInfo",
+        "CompanyTechStack"
+      ]
+    }
+  ]
+}

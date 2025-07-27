@@ -1,0 +1,4 @@
+{
+  "question": "What is the current social media engagement status of companies in the technology sector?",
+  "subtasks": "[\n  {\n    \"step\": 1,\n    \"task\": \"Identify all companies operating in the technology sector.\",\n    \"table\": [\"CompanyInfo\"]\n  },\n  {\n    \"step\": 2,\n    \"task\": \"Gather social media engagement metrics for the identified technology companies from all relevant social media tables.\",\n    \"table\": [\"CompanyFacebookDetail\", \"CompanyInstagramDetail\", \"CompanyTwitterDetail\", \"CompanyYoutubeDetail\"]\n  },\n  {\n    \"step\": 3,\n    \"task\": \"Compile the collected social media metrics to summarize the overall engagement for each technology company.\",\n    \"table\": [\"SocialMediaInfo\"]\n  }\n]"
+}

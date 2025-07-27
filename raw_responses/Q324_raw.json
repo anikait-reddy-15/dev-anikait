@@ -1,0 +1,4 @@
+{
+  "question": "What are the key technology focus areas currently being pursued by the top companies in the IT industry, and how are these companies utilizing social media to communicate their strategies?",
+  "subtasks": "[ { \"step\": 1, \"task\": \"Identify the top companies in the IT industry based on market capitalization or revenue metrics.\", \"table\": [\"CompanyInfo\"] }, { \"step\": 2, \"task\": \"Gather strategic technology focus areas of these companies to analyze their current IT initiatives.\", \"table\": [\"CompanyFocusAreaDetail\"] }, { \"step\": 3, \"task\": \"Retrieve social media engagement data (e.g., Facebook, Twitter, Instagram) for the identified companies to understand how they communicate their strategies.\", \"table\": [\"CompanyFacebookDetail\", \"CompanyTwitterDetail\", \"CompanyInstagramDetail\"] } ]"
+}

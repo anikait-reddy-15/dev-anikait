@@ -1,0 +1,4 @@
+{
+  "question": "What are the latest social media engagement metrics for companies in the technology industry?",
+  "subtasks": "1. Identify technology companies from the CompanyInfo table. | Relevant Tables: ['CompanyInfo']\n2. Gather social media engagement data (likes, comments, ER) for these companies from the CompanyFacebookDetail, CompanyInstagramDetail, CompanyTwitterDetail, and CompanyYoutubeDetail tables. | Relevant Tables: ['CompanyFacebookDetail', 'CompanyInstagramDetail', 'CompanyTwitterDetail', 'CompanyYoutubeDetail']\n3. Compile and summarize the engagement metrics across all social media platforms for each technology company. | Relevant Tables: ['CompanyFacebookDetail', 'CompanyInstagramDetail', 'CompanyTwitterDetail', 'CompanyYoutubeDetail']"
+}

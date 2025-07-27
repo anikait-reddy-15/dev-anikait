@@ -1,0 +1,34 @@
+{
+  "question": "What are the current trends in IT spending among companies in the technology sector?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify technology sector companies and their IT budgets.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Analyze the IT focus areas of companies in the technology sector to understand spending priorities.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Gather information on recent technology adoption trends across the technology sector to correlate with IT budgets.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Summarize findings on IT budgets and spending trends, highlighting significant insights derived from the data.",
+      "table": [
+        "CompanyDealMaster",
+        "CompanyTechStack"
+      ]
+    }
+  ]
+}

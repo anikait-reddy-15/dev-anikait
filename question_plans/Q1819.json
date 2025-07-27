@@ -1,0 +1,44 @@
+{
+  "question": "What are the latest hiring trends in technology across various industries?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Retrieve the latest hiring data across technology domains from the CompanyHiringDetail table",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Aggregate the hiring data by industry to analyze trends and patterns in demands for specific roles within technology sectors",
+      "table": [
+        "CompanyHiringDetail",
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Identify the specific skills and designations that are most frequently appearing in the hiring data to highlight emerging skill trends in technology",
+      "table": [
+        "CompanyHiringDetail",
+        "LookUpValue"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Cross-reference the aggregated hiring data with the CompanyFocusAreaDetail table to correlate hiring trends with companies' strategic technology focus areas",
+      "table": [
+        "CompanyHiringDetail",
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Compile and format the findings into a comprehensive report detailing the latest hiring trends in technology across various industries",
+      "table": [
+        "CompanyHiringDetail",
+        "CompanyInfo"
+      ]
+    }
+  ]
+}

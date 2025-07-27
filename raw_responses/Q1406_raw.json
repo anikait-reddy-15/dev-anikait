@@ -1,0 +1,4 @@
+{
+  "question": "What are the social media engagement trends for different companies, and how do they relate to their technology investments?",
+  "subtasks": "[{'step': 1, 'task': 'Gather social media engagement metrics for companies across various platforms including Facebook, Instagram, Twitter, and YouTube.', 'table': ['CompanyFacebookDetail', 'CompanyInstagramDetail', 'CompanyTwitterDetail', 'CompanyYoutubeDetail']}, {'step': 2, 'task': 'Collect technology investment data for each company, focusing on IT budget and technology stack details.', 'table': ['CompanyInfo', 'CompanyTechStack']}, {'step': 3, 'task': 'Analyze the collected social media metrics in relation to the companies\u2019 technology investments to identify patterns or trends.', 'table': []}]"
+}

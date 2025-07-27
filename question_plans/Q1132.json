@@ -1,0 +1,43 @@
+{
+  "question": "What are the social media engagement metrics for companies across different platforms?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Retrieve engagement metrics for companies from Facebook, including likes, comments, and shares.",
+      "table": [
+        "CompanyFacebookDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Gather engagement data from Instagram, focusing on likes, comments, and engagement rates.",
+      "table": [
+        "CompanyInstagramDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Compile Twitter metrics such as likes, retweets, and engagement rates for each company.",
+      "table": [
+        "CompanyTwitterDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Collect YouTube video performance data including likes, comments, and views for the companies' channels.",
+      "table": [
+        "CompanyYoutubeDetail"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Aggregate all collected engagement metrics and summarize overall performance per company across social media platforms.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyInstagramDetail",
+        "CompanyTwitterDetail",
+        "CompanyYoutubeDetail"
+      ]
+    }
+  ]
+}

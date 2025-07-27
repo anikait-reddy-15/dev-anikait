@@ -1,0 +1,4 @@
+{
+  "question": "What are the current hiring trends in the technology sector for companies in the healthcare industry?",
+  "subtasks": "[{'step': 1, 'task': 'Identify all companies operating in the healthcare industry and extract their identifiers.', 'table': ['CompanyInfo']}, {'step': 2, 'task': 'Gather active hiring details linked to the identified healthcare companies, including job titles, locations, and skill requirements.', 'table': ['CompanyHiringDetail']}, {'step': 3, 'task': 'Analyze the job postings data to identify common skills, designations, and hiring patterns within the healthcare technology sector.', 'table': ['CompanyHiringDetail']}, {'step': 4, 'task': 'Summarize the findings and highlight key hiring trends such as in-demand skills and roles that are seeing the most growth.', 'table': []}]"
+}

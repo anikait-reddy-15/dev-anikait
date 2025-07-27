@@ -3,6 +3,8 @@ import requests
 import time
 import os
 import tiktoken
+import ast
+import re
 
 # === Configuration ===
 API_URL = "https://4vemmwmcpb.ap-south-1.awsapprunner.com/structured_output/text"
@@ -25,6 +27,26 @@ output_token_total = 0
 cached_input_token_total = 0
 input_token_total = 0
 token_cache = {}
+
+# === Subtask Parser ===
+def parse_subtasks(raw_subtasks):
+    if isinstance(raw_subtasks, list):
+        return raw_subtasks
+    if not isinstance(raw_subtasks, str):
+        return []
+    try:
+        cleaned = raw_subtasks.strip().strip('"')
+        cleaned = cleaned.replace('\\"', '"').replace("\\n", " ").replace("\\t", " ")
+        try:
+            return json.loads(cleaned)
+        except json.JSONDecodeError:
+            pass
+        match = re.search(r"\[.*\]", cleaned, re.DOTALL)
+        if match:
+            return json.loads(match.group(0))
+        return ast.literal_eval(cleaned.replace("'", '"'))
+    except Exception:
+        return []
 
 # === Tokenizer ===
 def count_tokens(text, model="gpt-4o-mini"):
@@ -64,7 +86,6 @@ def send_to_api(question_text, prompt_template, question_index):
     filled_prompt = prompt_template.replace("{{question}}", question_text)
     prompt_key = f"Q{question_index}"
 
-    # Reuse cached tokens if available
     if prompt_key in token_cache:
         input_tokens = token_cache[prompt_key]["input_tokens"]
         cached_input_token_total += input_tokens
@@ -118,9 +139,12 @@ def send_to_api(question_text, prompt_template, question_index):
                 with open(raw_path, "w", encoding="utf-8") as raw_file:
                     json.dump(data, raw_file, indent=2)
 
-            if not data or "subtasks" not in data or not data["subtasks"]:
-                print(f"⚠️ Skipped Q{question_index} due to empty subtasks or parsing issues.")
+            parsed_subtasks = parse_subtasks(data.get("subtasks", []))
+            if not parsed_subtasks:
+                print(f"⚠️ Skipped Q{question_index} due to empty or malformed subtasks.")
                 return None
+
+            data["subtasks"] = parsed_subtasks
 
             output_tokens = count_tokens(json.dumps(data), model=MODEL_NAME)
             output_token_total += output_tokens
@@ -145,7 +169,7 @@ if __name__ == "__main__":
 
     prompt_template = build_prompt_with_metadata(table_metadata)
 
-    start_index = 31
+    start_index = 1851
     os.makedirs(OUTPUT_DIR, exist_ok=True)
 
     for i, question in enumerate(questions["questions"], start=start_index):

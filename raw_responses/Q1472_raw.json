@@ -1,0 +1,4 @@
+{
+  "question": "What are the key technology trends and strategic focus areas for companies within the technology industry?",
+  "subtasks": "[{'step': 1, 'task': 'Identify all companies operating in the technology industry.', 'table': ['CompanyInfo']}, {'step': 2, 'task': 'Retrieve technology focus areas and strategic initiatives for each identified company.', 'table': ['CompanyFocusAreaDetail']}, {'step': 3, 'task': 'Analyze the latest emerging IT trends relevant to the technology industry.', 'table': ['IndustryITTrend']}, {'step': 4, 'task': 'Compile and summarize key findings on technology trends and strategic focuses from the data collected.', 'table': []}]"
+}

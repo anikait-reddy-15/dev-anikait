@@ -1,0 +1,40 @@
+{
+  "question": "What are the recent technology partnerships and investments of companies in the healthcare industry?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies operating in the healthcare industry.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Gather details of technology partnerships for the identified healthcare companies.",
+      "table": [
+        "CompanyITPartnerDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Collect information on recent hiring initiatives related to technology in the healthcare sector for the identified companies.",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Analyze IT focus areas reported by the healthcare companies to understand their strategic investments in technology.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Compile recent deals or contracts that healthcare companies have with technology vendors or service providers.",
+      "table": [
+        "CompanyDealMaster"
+      ]
+    }
+  ]
+}

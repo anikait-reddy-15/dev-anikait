@@ -1,0 +1,4 @@
+{
+  "question": "What are the current technology focus areas of companies in the finance industry, and how are they evolving over time?",
+  "subtasks": "[{\"step\":1,\"task\":\"Retrieve a list of companies in the finance industry from the CompanyInfo table.\",\"table\":[\"CompanyInfo\"]},{\"step\":2,\"task\":\"Get the strategic technology focus areas for these companies from the CompanyFocusAreaDetail table based on the company IDs obtained in step 1.\",\"table\":[\"CompanyFocusAreaDetail\"]},{\"step\":3,\"task\":\"Analyze the historical data in IndustryITTrend to identify technological evolution trends related to finance industry companies.\",\"table\":[\"IndustryITTrend\"]},{\"step\":4,\"task\":\"Compile the results into a structured report showing how technology focus areas have changed over time for the selected companies in the finance industry.\",\"table\":[\"CompanyFocusAreaDetail\",\"IndustryITTrend\"]}]"
+}

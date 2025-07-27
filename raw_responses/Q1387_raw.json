@@ -1,0 +1,4 @@
+{
+  "question": "What are the current hiring trends across different industries based on company data?",
+  "subtasks": "[{\"step\":1,\"task\":\"Identify and extract the total number of active hiring initiatives from the CompanyHiringDetail table categorized by industry.\",\"table\":[\"CompanyHiringDetail\"]},{\"step\":2,\"task\":\"Gather data on the industries represented in the CompanyInfo table to correlate hiring trends with specific industries.\",\"table\":[\"CompanyInfo\"]},{\"step\":3,\"task\":\"Analyze the extracted hiring data to identify trends such as popular designations, skill requirements, and geographic patterns within industries.\",\"table\":[\"CompanyHiringDetail\",\"CompanyInfo\"]},{\"step\":4,\"task\":\"Compile a report summarizing the findings, highlighting the major hiring trends per industry with visualizations if necessary.\",\"table\":[\"CompanyHiringDetail\",\"CompanyInfo\"]}]"
+}

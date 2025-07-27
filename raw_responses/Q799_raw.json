@@ -1,0 +1,4 @@
+{
+  "question": "What are the recent trends in technology adoption within the manufacturing industry?",
+  "subtasks": "[\n  {\n    \"step\": 1,\n    \"task\": \"Identify the relevant technology focus areas being adopted in the manufacturing sector.\",\n    \"table\": [\"IndustryITTrend\", \"CompanyFocusAreaDetail\"]\n  },\n  {\n    \"step\": 2,\n    \"task\": \"Gather data on companies operating in the manufacturing industry and their technology partnerships.\",\n    \"table\": [\"CompanyInfo\", \"CompanyITPartnerDetail\", \"CompanyVendorTechDetail\"]\n  },\n  {\n    \"step\": 3,\n    \"task\": \"Analyze recent company deals related to technology services in the manufacturing sector.\",\n    \"table\": [\"CompanyDealMaster\"]\n  },\n  {\n    \"step\": 4,\n    \"task\": \"Compile and summarize insights from leadership excerpts discussing technology strategies in manufacturing.\",\n    \"table\": [\"CompanyLeadershipExcerpt\"]\n  }\n]"
+}

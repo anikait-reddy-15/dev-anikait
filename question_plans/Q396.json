@@ -1,0 +1,4 @@
+{
+  "question": "What are the social media engagement metrics for technology companies in the healthcare industry?",
+  "subtasks": "[{\"step\":1,\"task\":\"Identify all technology companies operating in the healthcare industry and retrieve their company profiles and metrics.\",\"table\":[\"CompanyInfo\"]},{\"step\":2,\"task\":\"Gather social media engagement data for each identified healthcare technology company across platforms such as Facebook, Instagram, Twitter, and YouTube.\",\"table\":[\"CompanyFacebookDetail\",\"CompanyInstagramDetail\",\"CompanyTwitterDetail\",\"CompanyYoutubeDetail\"]},{\"step\":3,\"task\":\"Compile and summarize the collected engagement metrics (likes, comments, reposts) for each company into a comprehensive report.\",\"table\":[\"CompanyFacebookDetail\",\"CompanyInstagramDetail\",\"CompanyTwitterDetail\",\"CompanyYoutubeDetail\"]}]"
+}

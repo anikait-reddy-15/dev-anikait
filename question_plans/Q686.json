@@ -1,0 +1,4 @@
+{
+  "question": "What are the emerging IT trends across different industries?",
+  "subtasks": "[{'step': 1, 'task': 'Identify the distinct industries of interest for analyzing IT trends.', 'table': ['IndustryITTrend']}, {'step': 2, 'task': 'Extract detailed narratives of trending IT technologies for each identified industry.', 'table': ['IndustryITTrend']}, {'step': 3, 'task': 'Summarize key trends observed in data across industries and prepare a report.', 'table': ['IndustryITTrend']}]"
+}

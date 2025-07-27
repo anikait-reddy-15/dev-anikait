@@ -1,0 +1,34 @@
+{
+  "question": "What are the current IT focus areas and hiring trends for technology companies in the data centers industry?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify all companies in the data centers sector from the CompanyInfo table.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Retrieve and analyze the IT focus areas of the identified companies from the CompanyFocusAreaDetail table.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Gather data on active hiring initiatives of the identified companies from the CompanyHiringDetail table.",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Combine the focus areas and hiring details to evaluate trends and insights for technology companies in the data centers industry.",
+      "table": [
+        "CompanyFocusAreaDetail",
+        "CompanyHiringDetail"
+      ]
+    }
+  ]
+}

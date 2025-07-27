@@ -1,0 +1,36 @@
+{
+  "question": "What are the strategic technology focus areas of companies in the healthcare industry, including their active deals, social media engagement, and leadership statements?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify all companies within the healthcare industry and extract their strategic technology focus areas.",
+      "table": [
+        "CompanyInfo",
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Retrieve active deals associated with the healthcare companies, including information such as deal value and contract length.",
+      "table": [
+        "CompanyDealMaster"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Gather social media engagement data for the identified healthcare companies across platforms such as Facebook, Instagram, and Twitter.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyInstagramDetail",
+        "CompanyTwitterDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Collect leadership statements from executives of the healthcare companies to understand their IT strategies and directions.",
+      "table": [
+        "CompanyLeadershipExcerpt"
+      ]
+    }
+  ]
+}

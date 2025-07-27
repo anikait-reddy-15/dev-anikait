@@ -1,0 +1,4 @@
+{
+  "question": "What are the emerging technology trends across different industries over time?",
+  "subtasks": "[{'step': 1, 'task': 'Identify relevant technology focus areas within the IndustryITTrend table that show current technology adoption.', 'table': ['IndustryITTrend']}, {'step': 2, 'task': 'Gather emerging trends and strategic focus narratives from the IndustryBusinessTrend table that detail industry shifts.', 'table': ['IndustryBusinessTrend']}, {'step': 3, 'task': 'Analyze the relationship between technology focus areas and industry trends using the detail descriptions from both tables.', 'table': ['IndustryITTrend', 'IndustryBusinessTrend']}, {'step': 4, 'task': 'Compile insights into a structured report or presentation format, summarizing key findings on technology trends by industry.', 'table': ['PageInfo', 'SectionData']}]"
+}

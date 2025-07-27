@@ -1,0 +1,4 @@
+{
+  "question": "What are the current IT spending trends among companies in the technology sector?",
+  "subtasks": "[{'step': 1, 'task': 'Identify all companies in the technology sector based on the Industry column.', 'table': ['CompanyInfo']}, {'step': 2, 'task': 'Gather IT budget data for these identified technology companies.', 'table': ['CompanyInfo']}, {'step': 3, 'task': 'Analyze IT spending trends over the past few years by comparing IT budgets.', 'table': ['CompanyInfo']}, {'step': 4, 'task': 'Aggregate average IT spending for the technology sector to present a comprehensive view.', 'table': ['CompanyInfo']}]}"
+}

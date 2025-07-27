@@ -1,0 +1,40 @@
+{
+  "question": "Analyze the social media engagement trends of companies across different platforms over the past year.",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Collect engagement metrics for companies' Facebook activities in the last year.",
+      "table": [
+        "CompanyFacebookDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Gather engagement data for companies' Twitter posts over the past year.",
+      "table": [
+        "CompanyTwitterDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Retrieve engagement statistics for companies' Instagram interactions throughout the year.",
+      "table": [
+        "CompanyInstagramDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Combine the collected social media engagement data across platforms for comparative analysis.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyTwitterDetail",
+        "CompanyInstagramDetail"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Identify trends and insights based on the aggregated social media engagement metrics.",
+      "table": []
+    }
+  ]
+}

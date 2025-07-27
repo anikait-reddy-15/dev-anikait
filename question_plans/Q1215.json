@@ -1,0 +1,39 @@
+{
+  "question": "What are the current social media engagement levels and hiring trends for companies in the technology sector?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify all companies operating within the technology sector by filtering the CompanyInfo table based on the 'Industry' column.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Gather social media metrics (likes, engagement rates) for the identified companies from SocialMediaInfo and various social media detail tables (Facebook, Instagram, Twitter, Youtube).",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyInstagramDetail",
+        "CompanyTwitterDetail",
+        "CompanyYoutubeDetail",
+        "SocialMediaInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Retrieve active hiring initiatives for the technology companies by accessing the CompanyHiringDetail table and filtering by 'Active' status.",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Compile the social media engagement data and hiring data for technology companies to analyze trends and overall engagement levels.",
+      "table": [
+        "CompanyInfo",
+        "SocialMediaInfo",
+        "CompanyHiringDetail"
+      ]
+    }
+  ]
+}

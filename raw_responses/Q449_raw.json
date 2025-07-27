@@ -1,0 +1,4 @@
+{
+  "question": "What technology partnerships are companies forming in the healthcare industry?",
+  "subtasks": "[\n    {\n        \"step\": 1,\n        \"task\": \"Identify companies operating in the healthcare industry.\",\n        \"table\": [\"CompanyInfo\"]\n    },\n    {\n        \"step\": 2,\n        \"task\": \"Gather details of technology partners linked to these companies.\",\n        \"table\": [\"CompanyITPartnerDetail\"]\n    },\n    {\n        \"step\": 3,\n        \"task\": \"Analyze the deal values and strategic focus areas of these partnerships.\",\n        \"table\": [\"CompanyITPartnerDetail\", \"CompanyDealMaster\"]\n    },\n    {\n        \"step\": 4,\n        \"task\": \"Compile a report summarizing the partnerships and their impact on technology adoption in healthcare.\",\n        \"table\": [\"CompanyInfo\", \"CompanyITPartnerDetail\", \"CompanyDealMaster\"]\n    }\n]"
+}

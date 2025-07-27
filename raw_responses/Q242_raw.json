@@ -1,0 +1,4 @@
+{
+  "question": "What are the current technology focus areas for companies in the healthcare industry, and how are they represented on social media?",
+  "subtasks": "[{\"step\":1,\"task\":\"Identify the companies operating in the healthcare industry from the CompanyInfo table.\",\"table\":[\"CompanyInfo\"]},{\"step\":2,\"task\":\"Retrieve the strategic technology focus areas for these companies from the CompanyFocusAreaDetail table.\",\"table\":[\"CompanyFocusAreaDetail\"]},{\"step\":3,\"task\":\"Gather social media engagement metrics for the identified companies from the CompanyFacebookDetail, CompanyInstagramDetail, and CompanyTwitterDetail tables.\",\"table\":[\"CompanyFacebookDetail\",\"CompanyInstagramDetail\",\"CompanyTwitterDetail\"]},{\"step\":4,\"task\":\"Compile the information into a summary of technology focus areas along with corresponding social media activity metrics.\",\"table\":[]}]}"
+}

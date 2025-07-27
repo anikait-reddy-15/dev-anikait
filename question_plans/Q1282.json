@@ -1,0 +1,33 @@
+{
+  "question": "What are the current technology focus areas for companies in the finance industry, and how are they trending on social media?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies in the finance industry and their respective technology focus areas.",
+      "table": [
+        "CompanyInfo",
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Analyze social media engagement (likes, comments) related to these firms' technology focus areas on platforms (Facebook, Twitter, Instagram).",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyTwitterDetail",
+        "CompanyInstagramDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Compile a report summarizing the technology focus areas and corresponding social media performance metrics for each company.",
+      "table": [
+        "CompanyInfo",
+        "CompanyFocusAreaDetail",
+        "CompanyFacebookDetail",
+        "CompanyTwitterDetail",
+        "CompanyInstagramDetail"
+      ]
+    }
+  ]
+}

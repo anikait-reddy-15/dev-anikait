@@ -1,0 +1,35 @@
+{
+  "question": "Identify the current technological focus areas of companies in the IT industry and their investment trends.",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Query the CompanyFocusAreaDetail table to gather all technological focus areas associated with companies in the IT industry.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Join the results from CompanyFocusAreaDetail with CompanyInfo to filter only those companies that belong to the IT industry by using the Industry column.",
+      "table": [
+        "CompanyFocusAreaDetail",
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Retrieve financial metrics like ITBudget and Revenue from the CompanyInfo table to assess the investment trends related to technology focus areas of the identified IT companies.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Compile the findings to analyze and summarize the technological focus areas alongside their corresponding investment levels to identify investment trends in the IT industry.",
+      "table": [
+        "CompanyFocusAreaDetail",
+        "CompanyInfo"
+      ]
+    }
+  ]
+}

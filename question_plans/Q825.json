@@ -1,0 +1,4 @@
+{
+  "question": "What are the current trends in IT hiring and technology adoption among companies in the finance industry?",
+  "subtasks": "[{\"step\":1,\"task\":\"Identify all companies within the finance industry based on the CompanyInfo table.\",\"table\":[\"CompanyInfo\"]},{\"step\":2,\"task\":\"Gather data on current hiring initiatives from the CompanyHiringDetail table for finance companies identified in step 1.\",\"table\":[\"CompanyHiringDetail\"]},{\"step\":3,\"task\":\"Extract details on technology stacks used by these finance companies from the CompanyTechStack table.\",\"table\":[\"CompanyTechStack\"]},{\"step\":4,\"task\":\"Analyze the trends in IT focus areas and technology adoption from the CompanyFocusAreaDetail for the identified finance companies.\",\"table\":[\"CompanyFocusAreaDetail\"]},{\"step\":5,\"task\":\"Summarize the findings on hiring patterns and technology adoption trends in a structured report.\",\"table\":[]}]}"
+}

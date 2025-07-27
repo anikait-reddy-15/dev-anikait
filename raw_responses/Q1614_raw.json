@@ -1,0 +1,4 @@
+{
+  "question": "What are the technology focus areas and recent tech adoption trends of companies in the IT industry?",
+  "subtasks": "[{\"step\":1,\"task\":\"Identify companies that belong to the IT industry from the CompanyInfo table.\",\"table\":[\"CompanyInfo\"]},{\"step\":2,\"task\":\"Retrieve strategic technology focus areas for the identified companies using the CompanyFocusAreaDetail table.\",\"table\":[\"CompanyFocusAreaDetail\"]},{\"step\":3,\"task\":\"Analyze recent IT trends related to technology adoption using the IndustryITTrend table corresponding to the IT industry.\",\"table\":[\"IndustryITTrend\"]},{\"step\":4,\"task\":\"Compile a report listing each company's focus areas alongside industry trends to summarize the findings.\",\"table\":[\"CompanyInfo\",\"CompanyFocusAreaDetail\",\"IndustryITTrend\"]}]}"
+}

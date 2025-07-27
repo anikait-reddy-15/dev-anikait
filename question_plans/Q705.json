@@ -1,0 +1,4 @@
+{
+  "question": "What are the current trends in company hiring based on their technology focus areas?",
+  "subtasks": "[{\"step\":1,\"task\":\"Identify companies with active hiring initiatives by querying the CompanyHiringDetail table.\",\"table\":[\"CompanyHiringDetail\"]},{\"step\":2,\"task\":\"Link hiring data with company technology focus areas by joining CompanyHiringDetail with CompanyFocusAreaDetail.\",\"table\":[\"CompanyHiringDetail\",\"CompanyFocusAreaDetail\"]},{\"step\":3,\"task\":\"Analyze the combined data to identify trends in hiring based on technology focus areas, such as the number of roles related to cloud computing or AI.\",\"table\":[\"CompanyHiringDetail\",\"CompanyFocusAreaDetail\",\"CompanyInfo\"]},{\"step\":4,\"task\":\"Summarize findings and determine which focus areas have the highest demand for hiring, potentially identifying shifts in industry labor needs.\",\"table\":[\"CompanyHiringDetail\",\"CompanyFocusAreaDetail\"]}]"
+}

@@ -1,0 +1,46 @@
+{
+  "question": "List companies that have active technology partnerships and specify the technology focus areas involved.",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Query the CompanyITPartnerDetail table to identify companies with active partnerships and their associated details such as DealValue and Start/End dates.",
+      "table": [
+        "CompanyITPartnerDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Join the results from the previous step with the CompanyInfo table to get the names and other relevant metadata of those companies.",
+      "table": [
+        "CompanyInfo",
+        "CompanyITPartnerDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Link the results to the CompanyFocusAreaDetail table to extract the technology focus areas related to each company and partner detail identified earlier.",
+      "table": [
+        "CompanyFocusAreaDetail",
+        "CompanyITPartnerDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Filter the combined results to only include active entries where partnerships are currently active and associated IT focus areas are defined.",
+      "table": [
+        "CompanyFocusAreaDetail",
+        "CompanyITPartnerDetail",
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Format the results into a user-friendly report displaying company names, partnership details, and their respective technology focus areas.",
+      "table": [
+        "CompanyInfo",
+        "CompanyITPartnerDetail",
+        "CompanyFocusAreaDetail"
+      ]
+    }
+  ]
+}

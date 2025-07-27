@@ -1,0 +1,43 @@
+{
+  "question": "What technological trends are companies in the finance industry adopting?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies operating in the finance industry from the CompanyInfo table based on the Industry column.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Gather strategic IT focus areas related to technology trends from the CompanyFocusAreaDetail table for identified finance companies.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze vendor products and services adopted by finance companies by querying the CompanyVendorProductDetail and CompanyVendorTechDetail tables.",
+      "table": [
+        "CompanyVendorProductDetail",
+        "CompanyVendorTechDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Collect and summarize industry-level technological trends related to finance from the IndustryITTrend table to correlate with the companies' data.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Compile social media engagement insights from relevant social media tables (CompanyFacebookDetail, CompanyTwitterDetail, CompanyInstagramDetail) related to technology posts of finance companies.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyTwitterDetail",
+        "CompanyInstagramDetail"
+      ]
+    }
+  ]
+}

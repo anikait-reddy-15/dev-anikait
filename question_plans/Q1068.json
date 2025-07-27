@@ -1,0 +1,34 @@
+{
+  "question": "Identify the top 5 companies in the technology sector with the highest IT budgets and their active hiring initiatives in 2023.",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Query the 'CompanyInfo' table to retrieve companies in the technology sector ordered by IT budget in descending order, filtering for active companies.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "From the results of step 1, extract the top 5 companies' identifiers to use in subsequent queries.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Query the 'CompanyHiringDetail' table to get active hiring initiatives for the top 5 companies identified in step 2, focusing on the job roles and domains they're hiring for.",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Compile the data from steps 1 and 3 to create a report detailing the top 5 companies with their IT budgets and corresponding hiring details.",
+      "table": [
+        "CompanyInfo",
+        "CompanyHiringDetail"
+      ]
+    }
+  ]
+}

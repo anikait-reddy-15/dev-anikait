@@ -1,0 +1,4 @@
+{
+  "question": "What are the key IT focus areas and technology stack of companies in the technology industry?",
+  "subtasks": "[{\"step\":1,\"task\":\"Identify all companies classified under the technology industry by filtering the CompanyInfo table based on the industry column.\",\"table\":[\"CompanyInfo\"]},{\"step\":2,\"task\":\"Retrieve the strategic IT focus areas for each of the identified companies using the CompanyFocusAreaDetail table based on CompanyInfoId.\",\"table\":[\"CompanyFocusAreaDetail\"]},{\"step\":3,\"task\":\"Gather data on the technology stack utilized by these companies by linking to the CompanyTechStack table based on CompanyInfoId.\",\"table\":[\"CompanyTechStack\"]},{\"step\":4,\"task\":\"Compile the findings into a summary report that includes each company's name, their key IT focus areas, and the technologies in their stack.\",\"table\":[\"CompanyInfo\",\"CompanyFocusAreaDetail\",\"CompanyTechStack\"]}]"
+}

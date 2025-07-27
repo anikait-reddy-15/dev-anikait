@@ -1,0 +1,41 @@
+{
+  "question": "What are the current technology trends being adopted by companies in the finance industry, and how are these technologies impacting their revenue and hiring initiatives?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies within the finance industry that are currently active.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Fetch the technology adoption details for the identified finance companies.",
+      "table": [
+        "CompanyTechStack"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Retrieve revenue and financial metrics for the identified companies to analyze the impact of technology adoption.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Gather hiring initiatives from the finance companies to see if there is a correlation with technology trends and hiring needs.",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Analyze the trends and correlations between technology adoption and the financial performance metrics of the companies.",
+      "table": [
+        "CompanyTechStack",
+        "CompanyInfo"
+      ]
+    }
+  ]
+}

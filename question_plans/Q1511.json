@@ -1,0 +1,41 @@
+{
+  "question": "What are the trending technologies that companies within the IT industry are adopting, and how do they relate to their strategic focus areas?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify the companies categorized under the IT industry and retrieve their relevant details such as name, revenue, and IT budget.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Gather data on the IT focus areas for each of those companies to understand their strategic initiatives in technology adoption.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Collect information on the technologies used by these companies to determine which ones are prevalent or emerging in the market.",
+      "table": [
+        "CompanyTechStack"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Analyze the trends in technology adoption by comparing the focus areas with the technologies reported by the companies.",
+      "table": [
+        "CompanyFocusAreaDetail",
+        "CompanyTechStack"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Summarize the findings about trending technologies and their relation to strategic focuses for a comprehensive industry report.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    }
+  ]
+}

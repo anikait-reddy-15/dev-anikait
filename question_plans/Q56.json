@@ -1,0 +1,4 @@
+{
+  "question": "What are the current technology focus areas and IT partnerships of top companies in the AI industry?",
+  "subtasks": "[ { \"step\": 1, \"task\": \"Retrieve the list of top companies in the AI industry by filtering the CompanyInfo table on the Industry column for 'AI'.\", \"table\": [\"CompanyInfo\"] }, { \"step\": 2, \"task\": \"Gather the technology focus areas for each of the companies retrieved in step 1 by joining CompanyFocusAreaDetail on CompanyInfoId with the list of companies. \", \"table\": [\"CompanyFocusAreaDetail\"] }, { \"step\": 3, \"task\": \"Retrieve IT partnership details for each company in the top AI companies list by joining CompanyITPartnerDetail on CompanyInfoId with the list of companies. \", \"table\": [\"CompanyITPartnerDetail\"] }, { \"step\": 4, \"task\": \"Combine the results of steps 2 and 3 to create a comprehensive view of technology focus areas and IT partnerships for each company.\", \"table\": [] } ]"
+}

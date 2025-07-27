@@ -1,0 +1,38 @@
+{
+  "question": "Identify companies that are actively investing in IT and their associated focus areas, engagement on social media, and their financial metrics.",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Query the CompanyInfo table to extract companies with an active status and non-zero IT budget, along with their revenue and net income metrics.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Join the CompanyFocusAreaDetail table to identify the strategic IT focus areas for the companies obtained in step 1.",
+      "table": [
+        "CompanyInfo",
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Aggregate social media engagement metrics from CompanyFacebookDetail and CompanyTwitterDetail for the identified companies to assess their social media presence.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyTwitterDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Combine all gathered information into a single output to summarize the findings, detailing each company's IT investment, focus areas, and social media engagement alongside financial metrics.",
+      "table": [
+        "CompanyInfo",
+        "CompanyFocusAreaDetail",
+        "CompanyFacebookDetail",
+        "CompanyTwitterDetail"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "question": "Identify companies with the highest IT budget and analyze their social media engagement metrics.",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Extract a list of companies and their IT budgets from the CompanyInfo table, filtering for active companies.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Sort the companies by IT budget to identify those with the highest values.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "For the top companies identified, gather their social media engagement metrics from the CompanyFacebookDetail, CompanyTwitterDetail, CompanyInstagramDetail, and CompanyYoutubeDetail tables.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyTwitterDetail",
+        "CompanyInstagramDetail",
+        "CompanyYoutubeDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Analyze the social media metrics to generate insights on engagement rates, likes, comments, and overall presence across platforms.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyTwitterDetail",
+        "CompanyInstagramDetail",
+        "CompanyYoutubeDetail"
+      ]
+    }
+  ]
+}

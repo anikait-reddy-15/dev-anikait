@@ -1,0 +1,4 @@
+{
+  "question": "What are the recent trends in technology adoption across different industries?",
+  "subtasks": "[ {\"step\":1,\"task\":\"Identify the key industries to analyze for technology adoption trends.\",\"table\":[\"IndustryITTrend\"]},{\"step\":2,\"task\":\"Gather emerging IT technology focus areas reported for each industry.\",\"table\":[\"IndustryITTrend\"]},{\"step\":3,\"task\":\"Compile detailed narratives describing the adoption trends in technology as per the recent records.\",\"table\":[\"IndustryITTrend\"]},{\"step\":4,\"task\":\"Summarize the insights into a business intelligence report format.\",\"table\":[\"PageInfo\",\"SectionInfo\"]}]"
+}

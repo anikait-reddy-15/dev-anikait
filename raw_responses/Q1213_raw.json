@@ -1,0 +1,4 @@
+{
+  "question": "How can we analyze emerging technology trends across different industries?",
+  "subtasks": "[{'step': 1, 'task': 'Identify key emerging technology trends from the IndustryITTrend table.', 'table': ['IndustryITTrend']}, {'step': 2, 'task': 'Gather details on industry-specific narratives and focus areas from the IndustryBusinessTrend table.', 'table': ['IndustryBusinessTrend']}, {'step': 3, 'task': 'Compile data on company-specific technology stacks used within various industries from the CompanyTechStack table.', 'table': ['CompanyTechStack']}, {'step': 4, 'task': 'Link the analyzed technology trends with corresponding companies using the CompanyInfo table to provide context.', 'table': ['CompanyInfo']} ]"
+}

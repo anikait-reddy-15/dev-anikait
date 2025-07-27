@@ -1,0 +1,4 @@
+{
+  "question": "What are the emerging technology trends in the healthcare industry based on recent company activities?",
+  "subtasks": "[{'step': 1, 'task': 'Identify companies active in the healthcare industry.', 'table': ['CompanyInfo']}, {'step': 2, 'task': 'Analyze technology focus areas from companies in the healthcare sector to determine current technology investments.', 'table': ['CompanyFocusAreaDetail']}, {'step': 3, 'task': 'Review recent hiring initiatives in healthcare companies to identify skill trends and technology needs.', 'table': ['CompanyHiringDetail']}, {'step': 4, 'task': 'Extract recent company leadership statements related to technology trends in healthcare.', 'table': ['CompanyLeadershipExcerpt']}, {'step': 5, 'task': 'Compile insights on social media engagement of healthcare companies related to emerging technologies.', 'table': ['CompanyFacebookDetail', 'CompanyTwitterDetail', 'CompanyInstagramDetail']}]"
+}

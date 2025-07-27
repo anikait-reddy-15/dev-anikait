@@ -1,0 +1,40 @@
+{
+  "question": "Analyze the impact of social media presence on company revenue and market capitalization.",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Gather social media engagement data by extracting relevant metrics such as likes, comments, and follower counts for each company across all platforms.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyInstagramDetail",
+        "CompanyTwitterDetail",
+        "CompanyYoutubeDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Retrieve financial metrics of companies that include their revenue and market capitalization from the CompanyInfo table.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Combine the engagement metrics with financial metrics to compare and analyze correlation between social media presence and financial performance.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyInstagramDetail",
+        "CompanyTwitterDetail",
+        "CompanyYoutubeDetail",
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Perform statistical analysis to determine if there is a significant impact of social media engagement on the company's revenue and market capitalization.",
+      "table": [
+        "CompanyInfo"
+      ]
+    }
+  ]
+}

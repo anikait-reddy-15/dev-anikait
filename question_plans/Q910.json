@@ -1,0 +1,42 @@
+{
+  "question": "What are the current technological focus areas of companies in the IT sector?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Retrieve the list of companies in the IT sector along with their relevant identifiers and active status.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Join the CompanyInfo table with the CompanyFocusAreaDetail table to get the specific strategic technology focus areas for each IT company.",
+      "table": [
+        "CompanyInfo",
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Filter the results to show only active focus areas and include narrative details about their current initiatives and investments in technology.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Aggregate the data to summarize the number of companies involved in each technology focus area to identify trends.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Present the findings in a structured format, highlighting key focus areas and their corresponding companies.",
+      "table": [
+        "CompanyInfo",
+        "CompanyFocusAreaDetail"
+      ]
+    }
+  ]
+}

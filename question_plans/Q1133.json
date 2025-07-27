@@ -1,0 +1,42 @@
+{
+  "question": "What are the key factors influencing company hiring trends in the technology sector?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify the technology-related job roles that companies are hiring for in the technology sector.",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Analyze the geographical distribution and demand for technology job roles in various cities.",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Examine the company profiles to understand their operational scale, including employee count and IT budget for technology roles.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Investigate the strategic technology focus areas of companies to align hiring initiatives with industry trends.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Cross-reference hiring data with social media engagement to assess employer branding and talent attraction strategies.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyInstagramDetail",
+        "CompanyTwitterDetail"
+      ]
+    }
+  ]
+}

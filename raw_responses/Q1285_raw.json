@@ -1,0 +1,4 @@
+{
+  "question": "Analyze the social media presence and engagement metrics of a company in comparison to its competitors within the same industry.",
+  "subtasks": "[ { \"step\": 1, \"task\": \"Identify the company and its competitors within the same industry based on CompanyInfo table data.\", \"table\": [\"CompanyInfo\"] }, { \"step\": 2, \"task\": \"Retrieve social media engagement metrics for the identified company from the SocialMediaInfo table.\", \"table\": [\"SocialMediaInfo\"] }, { \"step\": 3, \"task\": \"Gather social media engagement metrics for the competitors based on their entries in the SocialMediaInfo table.\", \"table\": [\"SocialMediaInfo\"] }, { \"step\": 4, \"task\": \"Compile and compare the collected social media engagement data of the company with that of its competitors to analyze overall performance.\", \"table\": [] } ]"
+}

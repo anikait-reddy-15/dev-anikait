@@ -1,0 +1,46 @@
+{
+  "question": "What are the emerging social media trends for companies in the technology sector?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify and retrieve data regarding technology sector companies from the CompanyInfo table.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract social media engagement metrics from the SocialMediaInfo table to analyze presence across various platforms like Facebook, Twitter, Instagram, and LinkedIn.",
+      "table": [
+        "SocialMediaInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Compile and analyze engagement data from the CompanyFacebookDetail, CompanyTwitterDetail, and CompanyInstagramDetail tables to identify trends in content and audience interaction.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyTwitterDetail",
+        "CompanyInstagramDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Review CompanyTechStack table to understand the social media tools and technologies used by companies in the tech sector.",
+      "table": [
+        "CompanyTechStack"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Synthesize findings and generate insights regarding social media trends and best practices based on the analytics from the previous steps.",
+      "table": [
+        "CompanyInfo",
+        "SocialMediaInfo",
+        "CompanyFacebookDetail",
+        "CompanyTwitterDetail",
+        "CompanyInstagramDetail"
+      ]
+    }
+  ]
+}

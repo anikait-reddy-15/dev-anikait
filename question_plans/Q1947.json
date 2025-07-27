@@ -1,0 +1,43 @@
+{
+  "question": "How have social media engagement metrics changed for companies in the technology sector over the past year?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify the companies in the technology sector based on their industry classification.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Collect social media engagement metrics data (likes, comments, reposts) from Facebook, Twitter, Instagram, and YouTube for the identified technology companies.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyTwitterDetail",
+        "CompanyInstagramDetail",
+        "CompanyYoutubeDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Aggregate social media engagement metrics by month, analyzing trends and comparing to previous year's metrics to identify changes.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyTwitterDetail",
+        "CompanyInstagramDetail",
+        "CompanyYoutubeDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Generate a summary report detailing the changes in social media engagement metrics along with insights into possible factors affecting these changes.",
+      "table": [
+        "CompanyInfo",
+        "CompanyFacebookDetail",
+        "CompanyTwitterDetail",
+        "CompanyInstagramDetail",
+        "CompanyYoutubeDetail"
+      ]
+    }
+  ]
+}

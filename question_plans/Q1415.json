@@ -1,0 +1,37 @@
+{
+  "question": "How can we analyze the social media presence and engagement of different companies across various platforms?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Gather social media engagement data for each company, including like and comment counts from platforms like Facebook, Instagram, Twitter, and YouTube.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyInstagramDetail",
+        "CompanyTwitterDetail",
+        "CompanyYoutubeDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Compile a list of companies and their general information such as Name, Industry, and Revenue to provide context to the social media metrics.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the collected social media data to identify trends in engagement metrics across different platforms and industries.",
+      "table": [
+        "SocialMediaInfo"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Summarize the findings in a report format, highlighting key companies with strong social media presence and suggesting strategies for improvement based on best practices observed.",
+      "table": [
+        "SectionData",
+        "PageInfo"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+{
+  "question": "Analyze the technology adoption trends of companies across different industries.",
+  "subtasks": "[\n    {\n        \"step\": 1,\n        \"task\": \"Identify technology focus areas used by companies\",\n        \"table\": [\"CompanyFocusAreaDetail\", \"CompanyTechStack\"]\n    },\n    {\n        \"step\": 2,\n        \"task\": \"Gather industry information for each company\",\n        \"table\": [\"CompanyInfo\", \"IndustryITTrend\"]\n    },\n    {\n        \"step\": 3,\n        \"task\": \"Combine technology focus areas with corresponding industries\",\n        \"table\": [\"CompanyFocusAreaDetail\", \"CompanyInfo\", \"IndustryITTrend\"]\n    },\n    {\n        \"step\": 4,\n        \"task\": \"Analyze trends based on the combined data to identify patterns of technology adoption\",\n        \"table\": [\"CompanyFocusAreaDetail\", \"IndustryITTrend\"]\n    }\n]"
+}

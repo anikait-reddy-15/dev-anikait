@@ -8,7 +8,7 @@ SectionTitle, SocialMediaInfo, PersonaTitle.
 Each record contains rich, specific detail on individuals, companies, technologies, or business activities.
 
 Your Task:
-Generate **10 unique, highly specific, SQL-answerable business and IT strategy questions** using this data. These questions should help users:
+Generate **200 unique, highly specific, SQL-answerable business and IT strategy questions** using this data. These questions should help users:
 
 - Identify Data Scientists, their responsibilities, and how they influence business or technology decisions.
 - Understand company-wide IT priorities, technology investments, leadership viewpoints, and strategic areas of focus.

@@ -1,0 +1,44 @@
+{
+  "question": "What are the technology adoption trends among leading companies across various industries?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify leading companies by revenue and market capitalization to focus on their technological practices.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Gather data on technology services and products that these leading companies have adopted through their vendor relationships.",
+      "table": [
+        "CompanyVendorProductDetail",
+        "CompanyVendorTechDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the strategic technology focus areas of these companies to understand their investment priorities in technology adoption.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Examine the IT trends across industries to observe how technology adoption varies by sector.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Compile and summarize social media engagement that may reflect the companies' technological initiatives and public reception of these technologies.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyInstagramDetail",
+        "CompanyTwitterDetail",
+        "CompanyYoutubeDetail"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+{
+  "question": "What are the latest social media engagement metrics for companies in the technology industry?",
+  "subtasks": "[{\"step\":1,\"task\":\"Fetch the list of companies in the technology industry along with their identifiers and names.\",\"table\":[\"CompanyInfo\"]},{\"step\":2,\"task\":\"Retrieve latest engagement metrics for Facebook, Instagram, Twitter, and YouTube for the identified technology companies.\",\"table\":[\"CompanyFacebookDetail\",\"CompanyInstagramDetail\",\"CompanyTwitterDetail\",\"CompanyYoutubeDetail\"]},{\"step\":3,\"task\":\"Aggregate the engagement metrics to calculate total likes, comments, and shares for each platform per company.\",\"table\":[\"CompanyFacebookDetail\",\"CompanyInstagramDetail\",\"CompanyTwitterDetail\",\"CompanyYoutubeDetail\"]},{\"step\":4,\"task\":\"Compile the results into a summary report format, highlighting the top performing companies based on social media engagement metrics.\",\"table\":[]}]}"
+}

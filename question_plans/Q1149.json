@@ -1,0 +1,35 @@
+{
+  "question": "What are the emerging IT trends in the healthcare industry for technology adoption?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify the healthcare industry type from the IndustryBusinessTrend and IndustryITTrend tables.",
+      "table": [
+        "IndustryBusinessTrend",
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract details of emerging IT trends relevant to healthcare from the IndustryITTrend table, including specific technologies such as AI or IoT being adopted.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze technology adoption patterns in healthcare by cross-referencing with CompanyDealMaster to find technology service contracts related to healthcare companies.",
+      "table": [
+        "CompanyDealMaster"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Summarize the findings and highlight key technology adoption trends and relevant companies involved in these initiatives.",
+      "table": [
+        "CompanyInfo",
+        "IndustryITTrend"
+      ]
+    }
+  ]
+}

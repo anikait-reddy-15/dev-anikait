@@ -1,0 +1,4 @@
+{
+  "question": "Analyze the current hiring trends in the technology sector across different companies and their focus areas.",
+  "subtasks": "[{\"step\":1,\"task\":\"Identify technology companies and their active hiring initiatives.\",\"table\":[\"CompanyHiringDetail\",\"CompanyInfo\"]},{\"step\":2,\"task\":\"Extract details of strategic technology focus areas for these companies to understand hiring trends.\",\"table\":[\"CompanyFocusAreaDetail\",\"CompanyInfo\"]},{\"step\":3,\"task\":\"Analyze the geographical distribution of hiring initiatives to see where demand is highest.\",\"table\":[\"CompanyHiringDetail\"]},{\"step\":4,\"task\":\"Summarize findings on the relationship between hiring trends and specific IT focus areas to showcase potential growth sectors.\",\"table\":[\"CompanyHiringDetail\",\"CompanyFocusAreaDetail\"]}]"
+}

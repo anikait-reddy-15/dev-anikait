@@ -1,0 +1,35 @@
+{
+  "question": "What are the current IT spending trends and focus areas for companies in the finance industry?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify all companies in the finance industry and extract their records including IT budget and focus areas.",
+      "table": [
+        "CompanyInfo",
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Analyze the IT budgets of the identified companies to determine average and high-spending organizations.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Collect and summarize the technology focus areas for the identified companies, detailing specific investments or initiatives in technology trends like automation or cloud computing.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Compile the results into a comprehensive analysis that outlines the spending trends and strategic focus areas for the finance industry.",
+      "table": [
+        "CompanyInfo",
+        "CompanyFocusAreaDetail"
+      ]
+    }
+  ]
+}

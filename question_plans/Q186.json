@@ -1,0 +1,4 @@
+{
+  "question": "What are the latest trends in IT adoption across different industries?",
+  "subtasks": "[{'step': 1, 'task': 'Identify all industries and their associated focus areas regarding IT trends.', 'table': ['IndustryITTrend']}, {'step': 2, 'task': 'Gather details on emerging technologies and their adoption frequency within each industry.', 'table': ['IndustryITTrend']}, {'step': 3, 'task': 'Capture the narratives and summaries from the industry business trends that highlight strategic shifts and areas of focus.', 'table': ['IndustryBusinessTrend']}, {'step': 4, 'task': 'Cross-reference industry focus areas with companies to understand which sectors are leading in technology adoption.', 'table': ['CompanyFocusAreaDetail', 'CompanyInfo']}, {'step': 5, 'task': 'Compile findings into a report that summarizes the key IT trends and strategic initiatives undertaken by various industries.', 'table': ['IndustryBusinessTrend', 'IndustryITTrend']}]}"
+}

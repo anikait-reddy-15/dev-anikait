@@ -1,0 +1,4 @@
+{
+  "question": "What are the technology focus areas of companies in the healthcare industry?",
+  "subtasks": "[{\"step\":1,\"task\":\"Identify healthcare companies from the CompanyInfo table based on the 'Industry' column.\",\"table\":[\"CompanyInfo\"]},{\"step\":2,\"task\":\"Retrieve technology focus areas related to the identified healthcare companies from the CompanyFocusAreaDetail table.\",\"table\":[\"CompanyFocusAreaDetail\"]},{\"step\":3,\"task\":\"Analyze the retrieval results to summarize key trends or themes in technology focus areas relevant to the healthcare industry.\",\"table\":[\"CompanyFocusAreaDetail\"]}]"
+}

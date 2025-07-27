@@ -1,0 +1,41 @@
+{
+  "question": "What are the current industry trends affecting IT investments over the next year?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify and retrieve emerging IT trends and technology focus areas across industries.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Analyze companies' IT budgets and spending to understand current financial commitments in technology.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Gather detailed records of technology service contracts that capture vendor-client relationships, including service values and contract lengths for the past year.",
+      "table": [
+        "CompanyDealMaster"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Compile insights from leadership statements about technology priorities and strategic focuses of various companies.",
+      "table": [
+        "CompanyLeadershipExcerpt"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Synthesize this data to create a comprehensive report on the impact of trends on IT investments across different industries.",
+      "table": [
+        "IndustryBusinessTrend",
+        "CompanyInfo"
+      ]
+    }
+  ]
+}

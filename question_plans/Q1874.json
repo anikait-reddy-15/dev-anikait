@@ -1,0 +1,41 @@
+{
+  "question": "What are the key trends in the IT sector across different industries?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify the relevant industries to analyze for IT trends.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Gather detailed records of emerging IT trends for the selected industries.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the specific technology focus areas adopted by companies within these industries.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Summarize the findings into a report highlighting significant technology adoption and shifts in strategy.",
+      "table": [
+        "IndustryBusinessTrend"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Combine insights from both industry trends and company technology focus to draw conclusions on sector-wide shifts.",
+      "table": [
+        "IndustryITTrend",
+        "CompanyTechStack"
+      ]
+    }
+  ]
+}

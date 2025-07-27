@@ -1,0 +1,36 @@
+{
+  "question": "What are the current trends and focus areas for IT in the finance industry based on technology adoption and social media engagement by leading companies?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify leading companies in the finance industry and gather their operational metrics such as IT budget and technology focus areas.",
+      "table": [
+        "CompanyInfo",
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Analyze technology trends specific to the finance industry by checking for adoption of technologies like AI, blockchain, and cloud computing from the IndustryITTrend table.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Review social media engagement metrics of the identified finance companies to evaluate their digital presence and audience interaction on platforms like Facebook and Twitter.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyTwitterDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Compile the findings into a report detailing the connections between technology adoption trends and social media engagement for finance industry leaders.",
+      "table": [
+        "CompanyDealMaster",
+        "SocialMediaInfo"
+      ]
+    }
+  ]
+}

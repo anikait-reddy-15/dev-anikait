@@ -1,0 +1,4 @@
+{
+  "question": "What are the social media engagement metrics and recent hiring trends for companies in the technology industry?",
+  "subtasks": "[{\"step\":1,\"task\":\"Retrieve social media engagement metrics for all companies categorized under the technology industry.\",\"table\":[\"CompanyInfo\",\"SocialMediaInfo\"]},{\"step\":2,\"task\":\"Gather recent hiring initiatives from companies in the technology sector, focusing on job titles, skills required, and locations.\",\"table\":[\"CompanyHiringDetail\",\"CompanyInfo\"]},{\"step\":3,\"task\":\"Analyze the aggregated social media data and hiring trends to identify correlations between social media engagement and hiring practices in the technology industry.\",\"table\":[\"CompanyFacebookDetail\",\"CompanyInstagramDetail\",\"CompanyTwitterDetail\",\"CompanyHiringDetail\"]}]}"
+}

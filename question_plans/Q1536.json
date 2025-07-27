@@ -1,0 +1,44 @@
+{
+  "question": "What are the current technology focus areas and their associated metrics for companies in the technology sector?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify all companies within the technology sector from the CompanyInfo table by filtering based on the Industry column.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "For each identified company, retrieve their respective technology focus areas from the CompanyFocusAreaDetail table using the CompanyInfoId as a reference.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Gather relevant financial metrics (such as Revenue, NetIncome) and operational details (like ITBudget, ITStrength) for the identified technology companies from the CompanyInfo table.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Compile data on partnerships and vendor products associated with the technology focus areas using the CompanyITPartnerDetail and CompanyVendorProductDetail tables to understand strategic alignments.",
+      "table": [
+        "CompanyITPartnerDetail",
+        "CompanyVendorProductDetail"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Analyze social media engagement metrics obtained from CompanyFacebookDetail, CompanyInstagramDetail, CompanyTwitterDetail, and CompanyYoutubeDetail for the technology companies to assess their online presence and engagement in relation to their technology focus.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyInstagramDetail",
+        "CompanyTwitterDetail",
+        "CompanyYoutubeDetail"
+      ]
+    }
+  ]
+}

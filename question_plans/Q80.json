@@ -1,0 +1,4 @@
+{
+  "question": "What are the current hiring trends in technology companies based on their regions and focus areas?",
+  "subtasks": "[\n    {\n        \"step\": 1,\n        \"task\": \"Identify active technology companies and their geographical locations.\",\n        \"table\": [\"CompanyInfo\", \"CompanyDataCenter\"]\n    },\n    {\n        \"step\": 2,\n        \"task\": \"Gather hiring information, including job titles, skill requirements, and cities for technology companies.\",\n        \"table\": [\"CompanyHiringDetail\"]\n    },\n    {\n        \"step\": 3,\n        \"task\": \"Correlate hiring trends with the strategic technology focus areas of the identified companies.\",\n        \"table\": [\"CompanyFocusAreaDetail\"]\n    },\n    {\n        \"step\": 4,\n        \"task\": \"Analyze the gathered data to summarize the trends across different regions and focus areas.\",\n        \"table\": []\n    }\n]"
+}

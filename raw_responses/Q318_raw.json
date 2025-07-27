@@ -1,0 +1,4 @@
+{
+  "question": "What are the current IT focus areas and technology stacks of companies in the healthcare industry?",
+  "subtasks": "[{\"step\":1,\"task\":\"Identify companies operating within the healthcare industry by filtering the CompanyInfo table based on Industry column.\",\"table\":[\"CompanyInfo\"]},{\"step\":2,\"task\":\"Extract the IT focus areas for the identified healthcare companies from the CompanyFocusAreaDetail table using the CompanyInfoId to link to CompanyInfo.\",\"table\":[\"CompanyFocusAreaDetail\"]},{\"step\":3,\"task\":\"Retrieve the technology stacks of these healthcare companies by joining the CompanyTechStack table with the previously identified companies from CompanyInfo.\",\"table\":[\"CompanyTechStack\"]},{\"step\":4,\"task\":\"Compile a comprehensive list of the extracted IT focus areas and technology stacks for reporting, ensuring to format the data appropriately for analysis.\",\"table\":[]}]"
+}

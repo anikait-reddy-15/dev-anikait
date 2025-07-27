@@ -1,0 +1,44 @@
+{
+  "question": "What are the major IT trends being adopted by companies in the technology industry, and how do these trends reflect in their social media presence?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify technology companies from the CompanyInfo table and their corresponding IT trends from the IndustryITTrend table.",
+      "table": [
+        "CompanyInfo",
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Collect social media engagement metrics for the identified companies from the SocialMediaInfo, CompanyFacebookDetail, CompanyInstagramDetail, CompanyTwitterDetail, and CompanyYoutubeDetail tables.",
+      "table": [
+        "SocialMediaInfo",
+        "CompanyFacebookDetail",
+        "CompanyInstagramDetail",
+        "CompanyTwitterDetail",
+        "CompanyYoutubeDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the relationship between the identified IT trends and the social media metrics, focusing on engagement levels, to understand how these trends are reflected in their social media strategy.",
+      "table": [
+        "IndustryITTrend",
+        "SocialMediaInfo",
+        "CompanyFacebookDetail",
+        "CompanyInstagramDetail",
+        "CompanyTwitterDetail",
+        "CompanyYoutubeDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Compile the findings into a report highlighting key trends and social media behaviors of the technology companies.",
+      "table": [
+        "CompanyInfo",
+        "SocialMediaInfo"
+      ]
+    }
+  ]
+}

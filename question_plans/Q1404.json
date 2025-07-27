@@ -1,0 +1,38 @@
+{
+  "question": "What are the IT budget trends of companies within a specific industry and their associated social media engagement?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify all companies within the specified industry and gather their IT budget data.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract social media engagement metrics for companies identified in the previous step from different platforms like Facebook, Twitter, and Instagram.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyTwitterDetail",
+        "CompanyInstagramDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the IT budget trends of the identified companies over the past few years to understand their spending patterns.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Combine social media engagement data with IT budget data to see if there's a correlation between social media presence and IT spending.",
+      "table": [
+        "CompanyInfo",
+        "CompanyFacebookDetail",
+        "CompanyTwitterDetail",
+        "CompanyInstagramDetail"
+      ]
+    }
+  ]
+}

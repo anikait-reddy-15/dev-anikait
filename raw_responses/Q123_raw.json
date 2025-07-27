@@ -1,0 +1,4 @@
+{
+  "question": "Identify the strategic technology focus areas and partnerships of companies within the technology industry that have recently published their data.",
+  "subtasks": "[{\"step\":1,\"task\":\"Retrieve a list of companies that have published their data recently.\",\"table\":[\"CompanyInfo\"]},{\"step\":2,\"task\":\"Extract the strategic technology focus areas for the companies identified in step 1.\",\"table\":[\"CompanyFocusAreaDetail\"]},{\"step\":3,\"task\":\"Get the details of IT partner relationships for the companies identified in step 1.\",\"table\":[\"CompanyITPartnerDetail\"]},{\"step\":4,\"task\":\"Join the results from steps 2 and 3 to create a consolidated view of technology focus areas and partnerships for each company.\",\"table\":[\"CompanyFocusAreaDetail\",\"CompanyITPartnerDetail\"]},{\"step\":5,\"task\":\"Filter the final dataset to include only companies within the technology industry.\",\"table\":[\"CompanyInfo\"]}]}"
+}

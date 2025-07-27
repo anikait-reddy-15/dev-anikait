@@ -1,0 +1,4 @@
+{
+  "question": "What are the current technology focus areas and strategic IT initiatives of leading companies in the healthcare industry?",
+  "subtasks": "[{'step': 1, 'task': 'Identify and list all companies operating in the healthcare industry.', 'table': ['CompanyInfo']}, {'step': 2, 'task': 'Gather strategic technology focus areas related to the identified healthcare companies.', 'table': ['CompanyFocusAreaDetail']}, {'step': 3, 'task': 'Collect information on active hiring initiatives in technology domains for these healthcare companies.', 'table': ['CompanyHiringDetail']}, {'step': 4, 'task': 'Analyze technology trends within the healthcare industry to understand adoption of technologies.', 'table': ['IndustryITTrend']}, {'step': 5, 'task': 'Summarize leadership statements from these companies regarding their IT strategies.', 'table': ['CompanyLeadershipExcerpt']}]"
+}

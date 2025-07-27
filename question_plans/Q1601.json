@@ -1,0 +1,31 @@
+{
+  "question": "What are the current hiring trends in the technology sector among companies in the IT industry?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify and list all companies categorized under the IT industry from the CompanyInfo table.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Gather active hiring details for each identified company, focusing on job roles and domains from the CompanyHiringDetail table.",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the collected hiring data to identify trends such as in-demand job roles, geographic hiring patterns, and skill requirements.",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Compile the analysis results into a structured report summarizing the hiring trends in the IT sector.",
+      "table": []
+    }
+  ]
+}

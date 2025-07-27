@@ -1,0 +1,29 @@
+{
+  "question": "What are the key IT trends and technology focus areas that companies in the finance industry are adopting?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify the companies operating in the finance industry and retrieve their IDs and names.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "For the identified companies, gather their associated IT focus areas and trends using their CompanyInfoId.",
+      "table": [
+        "CompanyFocusAreaDetail",
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Compile the findings into a report that summarizes the IT trends and technology focus areas for the selected companies.",
+      "table": [
+        "CompanyInfo",
+        "CompanyFocusAreaDetail",
+        "IndustryITTrend"
+      ]
+    }
+  ]
+}

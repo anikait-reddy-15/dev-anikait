@@ -1,0 +1,4 @@
+{
+  "question": "What are the current IT partners and technologies adopted by companies in the technology industry?",
+  "subtasks": "[{\"step\":1,\"task\":\"Retrieve a list of companies that belong to the technology industry.\",\"table\":[\"CompanyInfo\"]},{\"step\":2,\"task\":\"Identify the IT partners associated with the companies in the technology industry.\",\"table\":[\"CompanyITPartnerDetail\"]},{\"step\":3,\"task\":\"Get the technologies adopted by the companies in the technology industry.\",\"table\":[\"CompanyTechStack\"]},{\"step\":4,\"task\":\"Compile the data on IT partners and technologies into a comprehensive report.\",\"table\":[\"CompanyITPartnerDetail\",\"CompanyTechStack\"]}]"
+}

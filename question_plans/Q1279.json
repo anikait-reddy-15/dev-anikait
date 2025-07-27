@@ -1,0 +1,39 @@
+{
+  "question": "What are the current social media engagement metrics for companies in the technology industry?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify all companies categorized under the technology industry from the CompanyInfo table.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "For the identified technology companies, query their associated social media presence data from the SocialMediaInfo table.",
+      "table": [
+        "SocialMediaInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Extract detailed engagement metrics from the Facebook, Instagram, Twitter, and YouTube tables for these companies to get a comprehensive view of social media activity.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyInstagramDetail",
+        "CompanyTwitterDetail",
+        "CompanyYoutubeDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Aggregate and summarize the engagement metrics data to calculate total likes, comments, shares for each platform across the technology companies.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyInstagramDetail",
+        "CompanyTwitterDetail",
+        "CompanyYoutubeDetail"
+      ]
+    }
+  ]
+}

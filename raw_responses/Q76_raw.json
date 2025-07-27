@@ -1,0 +1,4 @@
+{
+  "question": "What are the recent trends in IT investment by companies in the healthcare industry?",
+  "subtasks": "[{'step': 1, 'task': 'Identify all companies operating in the healthcare industry and extract their relevant IT investment data.', 'table': ['CompanyInfo']}, {'step': 2, 'task': 'Analyze the CompanyDealMaster table to find contracts related to IT services for the identified healthcare companies, focusing on the latest deals.', 'table': ['CompanyDealMaster']}, {'step': 3, 'task': 'Examine the CompanyFocusAreaDetail table for insights on specific IT initiatives or technology focus areas that healthcare companies have prioritized recently.', 'table': ['CompanyFocusAreaDetail']}, {'step': 4, 'task': 'Compile and summarize the findings on IT investment trends, including contract values and areas of focus, for a report.', 'table': []}]"
+}

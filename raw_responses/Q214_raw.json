@@ -1,0 +1,4 @@
+{
+  "question": "What are the recent hiring trends in companies focusing on cloud computing?",
+  "subtasks": "[{\"step\":1,\"task\":\"Identify companies that have mentioned cloud computing as a focus area in their technology initiatives.\",\"table\":[\"CompanyFocusAreaDetail\"]},{\"step\":2,\"task\":\"Gather details on active hiring initiatives for the identified companies, including job titles and locations.\",\"table\":[\"CompanyHiringDetail\"]},{\"step\":3,\"task\":\"Summarize the hiring data to identify trends, such as the most common job titles and cities for cloud computing roles.\",\"table\":[\"CompanyHiringDetail\"]},{\"step\":4,\"task\":\"Analyze the overall hiring activity and correlate it with industry-specific trends in cloud computing.\",\"table\":[\"IndustryITTrend\",\"CompanyHiringDetail\"]},{\"step\":5,\"task\":\"Prepare a report including insights on hiring trends and industry alignment for cloud computing roles.\",\"table\":[\"CompanyInfo\"]}]}"
+}

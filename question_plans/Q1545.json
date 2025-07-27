@@ -1,0 +1,39 @@
+{
+  "question": "Analyze the social media engagement metrics of companies to understand their online presence and audience interaction trends.",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Retrieve social media presence data for each company including engagement counts across different platforms such as Facebook, Instagram, Twitter, and YouTube.",
+      "table": [
+        "SocialMediaInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Aggregate the engagement data to identify which social media platform has the highest interaction metrics (likes, comments, shares, etc.) among companies.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyInstagramDetail",
+        "CompanyTwitterDetail",
+        "CompanyYoutubeDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Identify the companies with the highest engagement metrics and analyze their social media content strategies to see what types of content generate the most interaction.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyInstagramDetail",
+        "CompanyTwitterDetail",
+        "CompanyYoutubeDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Create a comparison report of companies based on their total engagement metrics across all social media platforms to determine the most impactful online presence.",
+      "table": [
+        "SocialMediaInfo"
+      ]
+    }
+  ]
+}

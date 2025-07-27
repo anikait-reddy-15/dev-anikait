@@ -1,0 +1,4 @@
+{
+  "question": "Identify key IT focus areas and hiring trends for top companies in the technology sector.",
+  "subtasks": "[{'step': 1, 'task': 'Retrieve a list of top companies in the technology sector based on their active status and revenue.', 'table': ['CompanyInfo']}, {'step': 2, 'task': 'Analyze the IT focus areas for these top companies to understand their strategic technology initiatives.', 'table': ['CompanyFocusAreaDetail']}, {'step': 3, 'task': 'Collect data on hiring trends such as positions, domains, and cities for these companies.', 'table': ['CompanyHiringDetail']}]"
+}

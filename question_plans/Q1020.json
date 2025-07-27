@@ -1,0 +1,36 @@
+{
+  "question": "What are the technology focus areas and social media engagement metrics of major companies in the technology industry?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Query technology focus areas for major companies in the technology industry to understand their strategic initiatives.",
+      "table": [
+        "CompanyFocusAreaDetail",
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Gather social media engagement metrics for companies engaged in technology, including their Facebook, Twitter, Instagram, and YouTube performance.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyTwitterDetail",
+        "CompanyInstagramDetail",
+        "CompanyYoutubeDetail",
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Combine data from technology focus areas and social media to analyze correlations between companies' technology initiatives and their online engagement levels.",
+      "table": [
+        "CompanyFocusAreaDetail",
+        "CompanyFacebookDetail",
+        "CompanyTwitterDetail",
+        "CompanyInstagramDetail",
+        "CompanyYoutubeDetail",
+        "CompanyInfo"
+      ]
+    }
+  ]
+}

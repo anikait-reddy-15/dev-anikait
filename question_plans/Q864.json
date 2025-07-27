@@ -1,0 +1,46 @@
+{
+  "question": "What are the key technological trends among companies in the financial industry and what is their impact on their market position?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify all companies operating in the financial industry and gather their basic information such as name, revenue, and market capitalization.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Retrieve technological focus areas and trends associated with the identified financial companies, including specific IT initiatives and technology partnerships.",
+      "table": [
+        "CompanyFocusAreaDetail",
+        "CompanyITPartnerDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze contracts and deals of these companies to understand their investments in technology services and products, linking them to their market position.",
+      "table": [
+        "CompanyDealMaster",
+        "CompanyVendorProductDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Evaluate the social media engagement metrics for companies in the financial industry to assess their brand influence and market positioning strategies.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyInstagramDetail",
+        "CompanyTwitterDetail"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Summarize the findings to identify the correlations between technological investments, social media presence, and overall market position in the financial sector.",
+      "table": [
+        "CompanyInfo",
+        "CompanyTechStack",
+        "SocialMediaInfo"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+{
+  "question": "What are the recent technology focus areas that companies in the healthcare industry are investing in?",
+  "subtasks": "[{\"step\":1,\"task\":\"Identify all companies operating in the healthcare industry by filtering the CompanyInfo table based on the Industry column for healthcare-related entries.\",\"table\":[\"CompanyInfo\"]},{\"step\":2,\"task\":\"Retrieve technology focus areas linked to the identified healthcare companies from the CompanyFocusAreaDetail table by joining it with CompanyInfo on CompanyInfoId.\",\"table\":[\"CompanyFocusAreaDetail\",\"CompanyInfo\"]},{\"step\":3,\"task\":\"Gather the details of any relevant contracts or partnerships associated with these focus areas from the CompanyITPartnerDetail and CompanyDealMaster tables for further analysis on investment trends.\",\"table\":[\"CompanyITPartnerDetail\",\"CompanyDealMaster\"]}]"
+}

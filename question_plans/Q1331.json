@@ -1,0 +1,29 @@
+{
+  "question": "What are the strategic technology focus areas and current hiring initiatives of companies in the technology sector?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Retrieve a list of companies operating in the technology sector along with their strategic technology focus areas.",
+      "table": [
+        "CompanyInfo",
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Fetch the active hiring details for the retrieved companies to understand their current talent demand in technology roles.",
+      "table": [
+        "CompanyInfo",
+        "CompanyHiringDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Compile and analyze the data to identify trends in technology focus areas and hiring initiatives across the technology sector companies.",
+      "table": [
+        "CompanyFocusAreaDetail",
+        "CompanyHiringDetail"
+      ]
+    }
+  ]
+}

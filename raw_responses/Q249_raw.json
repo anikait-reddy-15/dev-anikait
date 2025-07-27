@@ -1,0 +1,4 @@
+{
+  "question": "What are the trends in technology adoption among companies in the financial services industry?",
+  "subtasks": "[{\"step\":1,\"task\":\"Identify the companies operating in the financial services industry from the CompanyInfo table.\",\"table\":[\"CompanyInfo\"]},{\"step\":2,\"task\":\"Retrieve technology adoption records for the identified companies from the CompanyTechStack table.\",\"table\":[\"CompanyTechStack\"]},{\"step\":3,\"task\":\"Analyze emerging IT trends associated with the financial services industry from the IndustryITTrend table to correlate with the identified technology adoption.\",\"table\":[\"IndustryITTrend\"]},{\"step\":4,\"task\":\"Compile findings into a report identifying specific technologies being adopted and compare with industry trends.\",\"table\":[\"CompanyInfo\",\"CompanyTechStack\",\"IndustryITTrend\"]}]"
+}

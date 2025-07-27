@@ -1,0 +1,27 @@
+{
+  "question": "What are the current IT budgets and focus areas of companies within the technology industry?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify all technology companies and retrieve their IT budgets and operational status.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract strategic IT focus areas for the identified technology companies to understand their technology initiatives.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Combine the company budget data with strategic focus areas to create a comprehensive overview of IT spending and priorities.",
+      "table": [
+        "CompanyInfo",
+        "CompanyFocusAreaDetail"
+      ]
+    }
+  ]
+}

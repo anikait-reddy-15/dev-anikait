@@ -1,0 +1,4 @@
+{
+  "question": "What are the current technology focus areas and their associated deals from leading companies in the IT sector?",
+  "subtasks": "[{\"step\":1,\"task\":\"Identify the leading companies in the IT sector from the CompanyInfo table, filtering by industry and activity status.\",\"table\":[\"CompanyInfo\"]},{\"step\":2,\"task\":\"Retrieve the technology focus areas of the identified companies from the CompanyFocusAreaDetail table to understand their strategic initiatives.\",\"table\":[\"CompanyFocusAreaDetail\"]},{\"step\":3,\"task\":\"Correlate technology focus areas with current deals from the CompanyDealMaster table to analyze associated deal values and descriptions.\",\"table\":[\"CompanyDealMaster\"]},{\"step\":4,\"task\":\"Aggregate data to summarize and present the technology focus areas along with their respective deal values and descriptions for insight into market trends.\",\"table\":[\"CompanyFocusAreaDetail\",\"CompanyDealMaster\"]}]"
+}

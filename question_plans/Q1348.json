@@ -1,0 +1,37 @@
+{
+  "question": "What are the social media engagement metrics of companies across different platforms?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Gather social media info from companies, including engagement counts and platforms used.",
+      "table": [
+        "SocialMediaInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Compile engagement metrics from Facebook, Twitter, Instagram, and YouTube by company.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyTwitterDetail",
+        "CompanyInstagramDetail",
+        "CompanyYoutubeDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze trends in engagement metrics across different social media platforms for each company.",
+      "table": [
+        "SocialMediaInfo",
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Identify correlations between social media engagement and company performance metrics such as revenue and market capitalization.",
+      "table": [
+        "CompanyInfo"
+      ]
+    }
+  ]
+}

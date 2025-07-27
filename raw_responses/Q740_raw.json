@@ -1,0 +1,4 @@
+{
+  "question": "What are the technology adoption trends among companies in the healthcare industry?",
+  "subtasks": "[{'step': 1, 'task': 'Identify companies operating in the healthcare industry.', 'table': ['CompanyInfo']}, {'step': 2, 'task': 'Analyze the technology stack used by identified healthcare companies.', 'table': ['CompanyTechStack']}, {'step': 3, 'task': 'Examine strategic technology focus areas for healthcare companies.', 'table': ['CompanyFocusAreaDetail']}, {'step': 4, 'task': 'Review vendor partnerships specifically in the healthcare sector.', 'table': ['CompanyITPartnerDetail']}]}"
+}

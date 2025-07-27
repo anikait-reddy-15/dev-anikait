@@ -1,0 +1,28 @@
+{
+  "question": "Identify technology trends among companies in the healthcare industry based on their IT focus areas and contracts with vendors.",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Analyze and extract IT focus areas specific to healthcare companies to identify technological interests and priorities.",
+      "table": [
+        "CompanyInfo",
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Gather contract records for healthcare-related technology services from the CompanyDealMaster table to see trends in vendor engagement and service types.",
+      "table": [
+        "CompanyDealMaster"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Combine the results of the IT focus areas and vendor contracts to map out the prevalent technology trends in the healthcare sector.",
+      "table": [
+        "CompanyFocusAreaDetail",
+        "CompanyDealMaster"
+      ]
+    }
+  ]
+}

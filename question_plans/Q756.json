@@ -1,0 +1,4 @@
+{
+  "question": "Analyze the emerging IT trends across different industries and their impact on technology adoption by companies.",
+  "subtasks": "[{'step': 1, 'task': 'Identify the various industries covered in the database.', 'table': ['IndustryITTrend']}, {'step': 2, 'task': 'Extract information on specific IT trends that have been documented for each industry.', 'table': ['IndustryITTrend']}, {'step': 3, 'task': 'Gather data on how companies are adopting these IT trends based on their technology stack.', 'table': ['CompanyTechStack']}, {'step': 4, 'task': 'Compile the financial metrics of companies that are aligning with these IT trends to analyze the impact.', 'table': ['CompanyInfo']}]"
+}

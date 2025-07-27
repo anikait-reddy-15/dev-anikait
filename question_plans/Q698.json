@@ -1,0 +1,4 @@
+{
+  "question": "Analyze the hiring trends of companies in the technology sector over the past year.",
+  "subtasks": "[{\"step\":1,\"task\":\"Retrieve the list of companies in the technology sector, including their basic info and active status.\",\"table\":[\"CompanyInfo\"]},{\"step\":2,\"task\":\"Get hiring details for the identified companies, filtering for records from the past year and active positions only.\",\"table\":[\"CompanyHiringDetail\"]},{\"step\":3,\"task\":\"Compile and analyze the data to identify trends such as the number of positions opened, popular job titles, and skill requirements over the past year.\",\"table\":[\"CompanyHiringDetail\"]},{\"step\":4,\"task\":\"Summarize the findings and prepare a report highlighting the key trends in hiring practices in the technology sector.\",\"table\":[\"CompanyInfo\",\"SectionData\"]}]"
+}

@@ -1,0 +1,4 @@
+{
+  "question": "What are the current hiring trends among leading technology companies in the data analytics sector?",
+  "subtasks": "[{\"step\": 1, \"task\": \"Identify leading technology companies that operate in the data analytics sector to analyze their hiring trends.\", \"table\": [\"CompanyInfo\"]},{\"step\": 2, \"task\": \"Retrieve current hiring initiatives from the identified companies to assess which roles and domains are most in demand.\", \"table\": [\"CompanyHiringDetail\"]},{\"step\": 3, \"task\": \"Analyze the collected hiring data to identify patterns in job roles, locations, and required skills that indicate the hiring trends in data analytics.\", \"table\": [\"CompanyHiringDetail\"]},{\"step\": 4, \"task\": \"Cross-reference the hiring trends with the financial performance of the companies to determine if there is a correlation between revenue and hiring patterns.\", \"table\": [\"CompanyInfo\", \"CompanyHiringDetail\"]}]"
+}

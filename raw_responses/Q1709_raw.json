@@ -1,0 +1,4 @@
+{
+  "question": "What are the current IT budgeting trends among companies in the technology industry?",
+  "subtasks": "[{\"step\":1,\"task\":\"Identify all companies operating in the technology industry and gather their IT budget data.\",\"table\":[\"CompanyInfo\"]},{\"step\":2,\"task\":\"Analyze the IT budget data to determine the distribution of budgets among these companies, including averages and ranges.\",\"table\":[\"CompanyInfo\"]},{\"step\":3,\"task\":\"Examine the relationship between IT budgets and key performance indicators such as revenue and market capitalization for these companies.\",\"table\":[\"CompanyInfo\"]},{\"step\":4,\"task\":\"Research additional insights into the companies' technology focus areas to correlate with their budgeting trends.\",\"table\":[\"CompanyFocusAreaDetail\"]}]"
+}

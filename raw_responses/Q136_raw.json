@@ -1,0 +1,4 @@
+{
+  "question": "Analyze the impact of a company's IT budget on its revenue and net income over the past five years.",
+  "subtasks": "[{\"step\":1,\"task\":\"Retrieve the IT budget, revenue, and net income for companies over the past five years.\",\"table\":[\"CompanyInfo\"]},{\"step\":2,\"task\":\"Filter the data to include only those companies that have an active status and have public data published.\",\"table\":[\"CompanyInfo\"]},{\"step\":3,\"task\":\"Calculate the correlation between the IT budget and revenue/net income.\",\"table\":[\"CompanyInfo\"]},{\"step\":4,\"task\":\"Aggregate revenue and net income annually to identify trends related to the IT budget allocation.\",\"table\":[\"CompanyInfo\"]},{\"step\":5,\"task\":\"Create visualizations to present the findings on the relationship between IT budget, revenue, and net income.\",\"table\":[\"CompanyInfo\"]}]}"
+}

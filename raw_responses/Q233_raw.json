@@ -1,0 +1,4 @@
+{
+  "question": "Analyze the current social media engagement metrics and hiring trends of technology companies in the healthcare industry.",
+  "subtasks": "[{\"step\":1,\"task\":\"Identify technology companies operating in the healthcare industry and gather their key details such as name and ID.\",\"table\":[\"CompanyInfo\"]},{\"step\":2,\"task\":\"Collect social media engagement metrics such as likes and comments from Facebook, Instagram, Twitter, and YouTube for the identified healthcare companies.\",\"table\":[\"CompanyFacebookDetail\",\"CompanyInstagramDetail\",\"CompanyTwitterDetail\",\"CompanyYoutubeDetail\"]},{\"step\":3,\"task\":\"Gather hiring trends, current job openings, and demanded skill sets in technology roles within the identified healthcare companies.\",\"table\":[\"CompanyHiringDetail\"]}]"
+}

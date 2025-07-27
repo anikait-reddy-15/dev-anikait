@@ -1,0 +1,4 @@
+{
+  "question": "Identify and analyze the social media engagement of companies in the technology industry over the last year.",
+  "subtasks": "[{'step': 1, 'task': 'Retrieve a list of companies in the technology industry along with their active status and creation dates.', 'table': ['CompanyInfo']}, {'step': 2, 'task': 'Gather social media engagement data (likes, comments, reposts) from Facebook, Twitter, Instagram, and YouTube for each company collected in Step 1.', 'table': ['CompanyFacebookDetail', 'CompanyTwitterDetail', 'CompanyInstagramDetail', 'CompanyYoutubeDetail']}, {'step': 3, 'task': 'Select and filter engagement metrics from the data collected in Step 2 based on the last year.', 'table': []}, {'step': 4, 'task': 'Analyze trends and patterns in the aggregated social media engagement data for insights about company performance.', 'table': []}]}"
+}

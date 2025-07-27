@@ -1,0 +1,31 @@
+{
+  "question": "What are the key technological focus areas and hiring trends of companies in the IT industry?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify all companies that operate within the IT industry.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Gather detailed hiring information for the identified companies, including domains and designations relevant to the IT sector.",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Extract strategic technology focus areas for each company to understand their priorities and initiatives in the IT sector.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Compile and summarize the findings from both hiring trends and technological focus areas to create a comprehensive overview of the IT industry's company dynamics.",
+      "table": []
+    }
+  ]
+}

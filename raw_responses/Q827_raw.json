@@ -1,0 +1,4 @@
+{
+  "question": "What are the strategic IT focus areas of companies in the telecommunications industry?",
+  "subtasks": "[{\"step\":1,\"task\":\"Identify all companies in the telecommunications industry from the CompanyInfo table.\",\"table\":[\"CompanyInfo\"]},{\"step\":2,\"task\":\"Retrieve the strategic IT focus areas related to the identified companies from the CompanyFocusAreaDetail table.\",\"table\":[\"CompanyFocusAreaDetail\"]},{\"step\":3,\"task\":\"Aggregate and analyze the data to summarize the strategic focus areas of each company in telecommunications sector.\",\"table\":[\"CompanyInfo\",\"CompanyFocusAreaDetail\"]}]"
+}

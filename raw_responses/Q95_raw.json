@@ -1,0 +1,4 @@
+{
+  "question": "Analyze the impact of technology partnerships on company revenue within a specific industry.",
+  "subtasks": "[{\"step\":1,\"task\":\"Identify companies within the specified industry and gather their revenue data.\",\"table\":[\"CompanyInfo\"]},{\"step\":2,\"task\":\"List the technology partnerships for these companies, capturing details such as partner names and deal values.\",\"table\":[\"CompanyITPartnerDetail\"]},{\"step\":3,\"task\":\"Aggregate the revenue data and the partnership details to analyze the correlation between technology partnerships and company revenue.\",\"table\":[\"CompanyInfo\",\"CompanyITPartnerDetail\"]},{\"step\":4,\"task\":\"Perform statistical analysis to evaluate the impact of technology partnerships on revenue trends in the industry.\",\"table\":[\"CompanyInfo\",\"CompanyITPartnerDetail\"]}]}"
+}

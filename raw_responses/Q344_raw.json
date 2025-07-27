@@ -1,0 +1,4 @@
+{
+  "question": "What are the current IT budget allocations and hiring trends for companies in the technology industry?",
+  "subtasks": "[{\"step\":1,\"task\":\"Identify all companies within the technology industry and gather their IT budget allocations.\",\"table\":[\"CompanyInfo\"]},{\"step\":2,\"task\":\"Collect data on active hiring initiatives undertaken by technology companies, including specific roles and domains being hired for.\",\"table\":[\"CompanyHiringDetail\"]},{\"step\":3,\"task\":\"Analyze the IT budget allocations and hiring data to identify trends and insights related to hiring patterns in relation to IT budget allocations within the technology sector.\",\"table\":[\"CompanyInfo\",\"CompanyHiringDetail\"]}]}"
+}

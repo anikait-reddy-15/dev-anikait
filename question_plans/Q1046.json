@@ -1,0 +1,36 @@
+{
+  "question": "What are the latest trends in IT adoption by different industries based on company data?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify and aggregate data related to IT trends from the IndustryITTrend table to find patterns and emerging technologies across industries.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Combine IT trend data with the CompanyInfo table to correlate industry trends with specific companies and their IT budgets.",
+      "table": [
+        "CompanyInfo",
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze and summarize the findings to produce insights on how different industries are adopting technologies like AI, IoT, and blockchain.",
+      "table": [
+        "IndustryITTrend",
+        "CompanyDealMaster"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Create a report or visualization that highlights significant shifts in technology adoption across various industries over the past year.",
+      "table": [
+        "IndustryITTrend",
+        "SectionData"
+      ]
+    }
+  ]
+}

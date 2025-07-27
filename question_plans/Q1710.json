@@ -1,0 +1,42 @@
+{
+  "question": "What are the current technology focus areas and trends for companies in the finance industry?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Query the CompanyInfo table for all companies in the finance industry to gather their basic information and track record.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract the technology focus areas from the CompanyFocusAreaDetail table linked to the finance companies identified from the previous step.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze emerging IT trends from the IndustryITTrend table relevant to the finance sector and compile a list of trends noted in the data.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Cross-reference the extracted technology focus areas with the trends identified in the previous step to highlight any alignment or discrepancies in strategies across companies.",
+      "table": [
+        "CompanyFocusAreaDetail",
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Compile a report outlining the technology focus areas and trends, incorporating insights from both CompanyInfo and CompanyFocusAreaDetail tables as needed.",
+      "table": [
+        "CompanyInfo",
+        "CompanyFocusAreaDetail"
+      ]
+    }
+  ]
+}

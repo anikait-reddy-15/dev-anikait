@@ -1,0 +1,4 @@
+{
+  "question": "Analyze the social media engagement of companies in the technology industry and identify their strategic focus areas.",
+  "subtasks": "[{\"step\":1,\"task\":\"Identify all companies in the technology industry from the CompanyInfo table.\",\"table\":[\"CompanyInfo\"]},{\"step\":2,\"task\":\"Gather social media engagement metrics for these companies from Facebook, Twitter, and Instagram using respective tables.\",\"table\":[\"CompanyFacebookDetail\",\"CompanyTwitterDetail\",\"CompanyInstagramDetail\"]},{\"step\":3,\"task\":\"Retrieve strategic technology focus areas from the CompanyFocusAreaDetail table for the identified companies.\",\"table\":[\"CompanyFocusAreaDetail\"]},{\"step\":4,\"task\":\"Compile the collected data to analyze trends in social media engagement and focus areas in the technology sector.\",\"table\":[\"CompanyInfo\",\"CompanyFocusAreaDetail\",\"CompanyFacebookDetail\",\"CompanyTwitterDetail\",\"CompanyInstagramDetail\"]}]}"
+}

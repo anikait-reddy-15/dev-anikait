@@ -1,0 +1,4 @@
+{
+  "question": "What are the emerging IT trends across different industries in our market?",
+  "subtasks": "[{\"step\":1,\"task\":\"Identify the relevant industries we want to analyze for emerging IT trends.\",\"table\":[\"IndustryITTrend\"]},{\"step\":2,\"task\":\"Aggregate the IT trends data across identified industries to determine common themes and technologies being adopted.\",\"table\":[\"IndustryITTrend\"]},{\"step\":3,\"task\":\"Analyze the strategic focus areas within the emerging trends to understand the specific technological priorities for each industry.\",\"table\":[\"IndustryITTrend\"]},{\"step\":4,\"task\":\"Compile a summary of the findings into a structured report outlining key insights and trends in each industry.\",\"table\":[\"PageInfo\",\"SectionData\"]}]}"
+}

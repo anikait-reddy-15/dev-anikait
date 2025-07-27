@@ -1,0 +1,48 @@
+{
+  "question": "What are the trending technologies and focus areas among companies in the IT industry, especially those that have shown significant growth in recent years?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies in the IT industry from the CompanyInfo table based on the Industry column and filter for active companies only.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract the technology focus areas for the identified companies by linking to the CompanyFocusAreaDetail table and summarizing their focus areas.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze social media metrics to determine which technologies are being actively discussed or promoted by these companies using the CompanyFacebookDetail, CompanyInstagramDetail, CompanyTwitterDetail, and CompanyYoutubeDetail tables.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyInstagramDetail",
+        "CompanyTwitterDetail",
+        "CompanyYoutubeDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Cross-reference the identified focus areas with any recent company deals from the CompanyDealMaster table to understand which technologies lead to recent contract wins or deployments.",
+      "table": [
+        "CompanyDealMaster"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Compile and summarize insights from all gathered data into a report detailing the trending technologies, including mention frequency and engagement from social media insights for visual representation.",
+      "table": [
+        "CompanyFocusAreaDetail",
+        "CompanyDealMaster",
+        "CompanyFacebookDetail",
+        "CompanyInstagramDetail",
+        "CompanyTwitterDetail",
+        "CompanyYoutubeDetail"
+      ]
+    }
+  ]
+}

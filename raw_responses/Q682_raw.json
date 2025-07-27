@@ -1,0 +1,4 @@
+{
+  "question": "What are the IT investment strategies of major companies in the technology sector?",
+  "subtasks": "[{\"step\":1,\"task\":\"Identify major companies operating in the technology sector.\",\"table\":[\"CompanyInfo\"]},{\"step\":2,\"task\":\"Retrieve financial metrics and investment values (IT budget) of these companies.\",\"table\":[\"CompanyInfo\"]},{\"step\":3,\"task\":\"Analyze partnerships and vendor relationships for insights into IT investment strategies.\",\"table\":[\"CompanyITPartnerDetail\",\"CompanyVendorProductDetail\"]},{\"step\":4,\"task\":\"Examine the technology focus areas and IT trends relevant to these companies.\",\"table\":[\"CompanyFocusAreaDetail\",\"IndustryITTrend\"]},{\"step\":5,\"task\":\"Summarize findings to identify common IT investment strategies among major players in the tech industry.\",\"table\":[]}]}"
+}

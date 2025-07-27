@@ -1,0 +1,4 @@
+{
+  "question": "How can I analyze the social media engagement of companies over the last year?",
+  "subtasks": "[{'step': 1, 'task': 'Retrieve social media engagement data for each company for the last year.', 'table': ['SocialMediaInfo', 'CompanyInfo']}, {'step': 2, 'task': 'Aggregate the engagement metrics (likes, comments, shares) from the social media platforms (Facebook, Twitter, Instagram, YouTube) for each company.', 'table': ['CompanyFacebookDetail', 'CompanyTwitterDetail', 'CompanyInstagramDetail', 'CompanyYoutubeDetail']}, {'step': 3, 'task': 'Identify trends in engagement metrics by comparing the last year data with previous years', 'table': ['SocialMediaInfo', 'CompanyFacebookDetail', 'CompanyTwitterDetail', 'CompanyInstagramDetail', 'CompanyYoutubeDetail']}]}"
+}

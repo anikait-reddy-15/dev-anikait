@@ -1,0 +1,4 @@
+{
+  "question": "What are the current social media engagement metrics of the top 10 companies in the technology industry?",
+  "subtasks": "[\n    {\n        \"step\": 1,\n        \"task\": \"Identify the top 10 companies in the technology industry based on revenue or market capitalization.\",\n        \"table\": [\"CompanyInfo\"]\n    },\n    {\n        \"step\": 2,\n        \"task\": \"Gather their social media information including engagement metrics from various platforms such as Facebook, Twitter, and Instagram.\",\n        \"table\": [\"SocialMediaInfo\", \"CompanyFacebookDetail\", \"CompanyTwitterDetail\", \"CompanyInstagramDetail\"]\n    },\n    {\n        \"step\": 3,\n        \"task\": \"Compile the engagement metrics to form a comparative analysis report of social media activity for these companies.\",\n        \"table\": [\"SocialMediaInfo\", \"CompanyFacebookDetail\", \"CompanyTwitterDetail\", \"CompanyInstagramDetail\"]\n    }\n]"
+}

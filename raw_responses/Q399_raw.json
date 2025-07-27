@@ -1,0 +1,4 @@
+{
+  "question": "What are the technological focus areas of companies in the retail industry?",
+  "subtasks": "[{\"step\":1,\"task\":\"Identify all companies operating in the retail industry from the CompanyInfo table.\",\"table\":[\"CompanyInfo\"]},{\"step\":2,\"task\":\"Retrieve the technological focus areas for the identified retail companies using the CompanyFocusAreaDetail table.\",\"table\":[\"CompanyFocusAreaDetail\"]},{\"step\":3,\"task\":\"Compile a summary of the focus areas, their descriptions, and any related metrics from the CompanyLeadershipExcerpt for additional insights.\",\"table\":[\"CompanyLeadershipExcerpt\"]}]"
+}

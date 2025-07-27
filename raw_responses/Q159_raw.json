@@ -1,0 +1,4 @@
+{
+  "question": "What are the current trends in IT investments across different industries?",
+  "subtasks": "[{\"step\":1,\"task\":\"Identify the key industries represented in the dataset and their associated IT budgets.\",\"table\":[\"CompanyInfo\"]},{\"step\":2,\"task\":\"Analyze the ITFocusAreaDetail to determine the strategic technology focus areas for each industry.\",\"table\":[\"CompanyFocusAreaDetail\"]},{\"step\":3,\"task\":\"Collect data on emerging IT trends specific to each industry from the IndustryITTrend table.\",\"table\":[\"IndustryITTrend\"]},{\"step\":4,\"task\":\"Aggregate and compare IT investment levels with reported trends to identify correlations.\",\"table\":[\"CompanyInfo\",\"IndustryITTrend\"]},{\"step\":5,\"task\":\"Summarize findings and insights into a report format categorizing each industry's IT investment trends.\",\"table\":[\"CompanyInfo\",\"IndustryITTrend\"]}]}"
+}

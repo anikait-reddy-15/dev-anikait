@@ -1,0 +1,4 @@
+{
+  "question": "List the top 5 companies with the highest IT budgets in 2023 along with their industry and revenue details.",
+  "subtasks": "[{\"step\":1,\"task\":\"Retrieve company information along with their IT budget, industry, and revenue from the CompanyInfo table.\",\"table\":[\"CompanyInfo\"]},{\"step\":2,\"task\":\"Filter the results to include only companies that are active and have data published for the year 2023.\",\"table\":[\"CompanyInfo\"]},{\"step\":3,\"task\":\"Sort the filtered results by IT budget in descending order to identify the top 5 companies.\",\"table\":[\"CompanyInfo\"]},{\"step\":4,\"task\":\"Select the required fields: Company Name, IT Budget, Industry, and Revenue to output the final list of top 5 companies.\",\"table\":[\"CompanyInfo\"]}]}"
+}

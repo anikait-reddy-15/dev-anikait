@@ -1,0 +1,41 @@
+{
+  "question": "What are the latest technology adoption trends across different industries and how do they impact company funding and strategy?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify the latest IT trends from the IndustryITTrend table categorized by industry type.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract company funding details from the CompanyInfo table focusing on IT budgets and financial metrics.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the relationship between identified IT trends and companies' technology focus areas using the CompanyFocusAreaDetail table.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Compile a report summarizing how technology adoption trends correlate with funding strategies, utilizing data from the CompanyDealMaster table for B2B technology service contracts.",
+      "table": [
+        "CompanyDealMaster"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Integrate social media analysis, using CompanyFacebookDetail and CompanyInstagramDetail tables, to understand companies' engagement with their audience in relation to their tech trends.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyInstagramDetail"
+      ]
+    }
+  ]
+}

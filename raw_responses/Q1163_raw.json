@@ -1,0 +1,4 @@
+{
+  "question": "What are the emerging technologies being adopted by companies within the IT sector for 2024?",
+  "subtasks": "[{\"step\":1,\"task\":\"Identify the relevant companies operating within the IT sector by filtering on the 'Industry' column in the 'CompanyInfo' table.\",\"table\":[\"CompanyInfo\"]},{\"step\":2,\"task\":\"Gather records of technology adoption for identified IT companies from the 'CompanyTechStack' table to understand their technology usage.\",\"table\":[\"CompanyTechStack\"]},{\"step\":3,\"task\":\"Analyze and aggregate emerging technology trends in the IT sector by reviewing entries in the 'IndustryITTrend' table that are relevant to the identified companies.\",\"table\":[\"IndustryITTrend\"]},{\"step\":4,\"task\":\"Compile insights from leadership statements in the 'CompanyLeadershipExcerpt' table to understand the strategic focus of these companies in adopting new technologies.\",\"table\":[\"CompanyLeadershipExcerpt\"]}]"
+}

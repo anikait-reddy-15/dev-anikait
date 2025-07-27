@@ -1,0 +1,4 @@
+{
+  "question": "What are the current IT focus areas and hiring trends for technology companies in the automotive industry?",
+  "subtasks": "[\n    {\n        \"step\": 1,\n        \"task\": \"Identify companies in the automotive industry and gather relevant metadata regarding their IT focus areas.\",\n        \"table\": [\"CompanyInfo\", \"CompanyFocusAreaDetail\"]\n    },\n    {\n        \"step\": 2,\n        \"task\": \"Analyze the current hiring trends within these companies to determine active roles and their descriptions.\",\n        \"table\": [\"CompanyHiringDetail\", \"CompanyInfo\"]\n    },\n    {\n        \"step\": 3,\n        \"task\": \"Compile and summarize the technological focus areas alongside the hiring data to identify common skill requirements and initiatives.\",\n        \"table\": [\"CompanyFocusAreaDetail\", \"CompanyHiringDetail\", \"CompanyInfo\"]\n    }\n]"
+}

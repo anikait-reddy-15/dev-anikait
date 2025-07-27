@@ -1,0 +1,4 @@
+{
+  "question": "What are the emerging trends in IT for companies within the fintech industry?",
+  "subtasks": "[{\"step\":1,\"task\":\"Identify and filter companies operating in the fintech industry from the CompanyInfo table.\",\"table\":[\"CompanyInfo\"]},{\"step\":2,\"task\":\"Retrieve IT trends associated with the fintech industry from the IndustryITTrend table.\",\"table\":[\"IndustryITTrend\"]},{\"step\":3,\"task\":\"Analyze and compile a list of technologies being adopted by fintech companies from the CompanyTechStack table.\",\"table\":[\"CompanyTechStack\"]},{\"step\":4,\"task\":\"Collect insights from CompanyLeadershipExcerpt regarding statements made by fintech executives about IT trends.\",\"table\":[\"CompanyLeadershipExcerpt\"]},{\"step\":5,\"task\":\"Examine B2B contracts relevant to fintech in the CompanyDealMaster table to understand technology partnerships and vendor relationships.\",\"table\":[\"CompanyDealMaster\"]}]}"
+}

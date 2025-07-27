@@ -1,0 +1,44 @@
+{
+  "question": "What are the current technology trends in the manufacturing industry based on companies\u2019 activities and focus areas?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify all companies operating in the manufacturing industry from the CompanyInfo table.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Gather strategic technology focus areas from the CompanyFocusAreaDetail table for the identified manufacturing companies.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the technology stacks of the identified manufacturing companies to understand their current technology implementation trends.",
+      "table": [
+        "CompanyTechStack"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Compile social media engagement data (Facebook, LinkedIn, Instagram, Twitter, YouTube) from the respective social media detail tables to correlate technology focus areas with public engagement.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyLinkedInActivity",
+        "CompanyInstagramDetail",
+        "CompanyTwitterDetail",
+        "CompanyYoutubeDetail"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Review industry-level IT trends from the IndustryITTrend table and compare them with the data collected on manufacturing companies to identify common technology themes.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    }
+  ]
+}

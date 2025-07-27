@@ -1,0 +1,35 @@
+{
+  "question": "What is the current social media engagement performance of companies by industry?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify the list of companies and their associated industries from the CompanyInfo table.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Gather social media engagement metrics from SocialMediaInfo for each identified company. Include counts and messages where available.",
+      "table": [
+        "SocialMediaInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Aggregate and analyze the social media metrics by industry to provide insights on overall engagement performance.",
+      "table": [
+        "CompanyInfo",
+        "SocialMediaInfo"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Generate a report summarizing social media engagement performance trends per industry, highlighting top-performing companies. ",
+      "table": [
+        "CompanyInfo",
+        "SocialMediaInfo"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+{
+  "question": "What are the current IT focus areas of companies in the healthcare industry and how are they utilizing social media to promote them?",
+  "subtasks": "[{\"step\":1,\"task\":\"Identify all companies in the healthcare industry and their corresponding IT focus areas.\",\"table\":[\"CompanyInfo\",\"CompanyFocusAreaDetail\"]},{\"step\":2,\"task\":\"Gather social media metrics for the identified healthcare companies to analyze their engagement related to the IT focus areas.\",\"table\":[\"CompanyFacebookDetail\",\"CompanyInstagramDetail\",\"CompanyTwitterDetail\",\"CompanyYoutubeDetail\"]},{\"step\":3,\"task\":\"Compile the results to generate insights on the relationship between healthcare companies' IT focus areas and their social media strategies.\",\"table\":[\"CompanyInfo\",\"CompanyFocusAreaDetail\",\"SocialMediaInfo\"]}]"
+}

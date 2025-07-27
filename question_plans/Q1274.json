@@ -1,0 +1,45 @@
+{
+  "question": "Identify the top 5 companies in terms of IT budget and market capitalization in the technology sector based on their hiring initiatives and social media engagement.",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Retrieve data on companies operating in the technology sector along with their IT budget and market capitalization.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Aggregate and rank the retrieved companies based on their IT budget and market capitalization to select the top 5.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Fetch hiring detail data for the top 5 companies to understand their hiring initiatives and trends.",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Collect social media engagement data (likes, comments) for the top 5 companies across different platforms (Facebook, Twitter, Instagram).",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyTwitterDetail",
+        "CompanyInstagramDetail"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Analyze and summarize the trends observed in hiring initiatives and social media engagement for the top 5 companies.",
+      "table": [
+        "CompanyHiringDetail",
+        "CompanyFacebookDetail",
+        "CompanyTwitterDetail",
+        "CompanyInstagramDetail"
+      ]
+    }
+  ]
+}

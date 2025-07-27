@@ -1,0 +1,26 @@
+{
+  "question": "What are the current IT budgets, employee counts, and headquarters locations for companies in the technology industry?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Query the CompanyInfo table to retrieve all companies in the technology industry along with their IT budgets and employee counts.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract the headquarters locations of the identified technology companies from the CompanyInfo table.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Compile the results into a structured format showing the company name, IT budget, employee count, and headquarters location.",
+      "table": [
+        "CompanyInfo"
+      ]
+    }
+  ]
+}

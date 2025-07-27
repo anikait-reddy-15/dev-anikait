@@ -1,0 +1,4 @@
+{
+  "question": "Identify the top technology trends being adopted across different industries for 2023.",
+  "subtasks": "[{\"step\":1,\"task\":\"Gather data on emerging technology trends from the IndustryITTrend table for the year 2023.\",\"table\":[\"IndustryITTrend\"]},{\"step\":2,\"task\":\"Filter the trends by industry type and identify the most frequently mentioned technologies.\",\"table\":[\"IndustryITTrend\"]},{\"step\":3,\"task\":\"Analyze the trends to determine their adoption rates and key industries involved using the IndustryBusinessTrend table for context.\",\"table\":[\"IndustryBusinessTrend\"]},{\"step\":4,\"task\":\"Compile results to summarize the adoption of these technologies across the specified industries for 2023.\",\"table\":[\"IndustryITTrend\",\"IndustryBusinessTrend\"]}]}"
+}

@@ -1,0 +1,4 @@
+{
+  "question": "What are the latest technology trends adopted by companies across various industries?",
+  "subtasks": "[{'step': 1, 'task': 'Identify the specific technology trends relevant to different industries.', 'table': ['IndustryITTrend']}, {'step': 2, 'task': 'Fetch companies that are associated with each identified technology trend.', 'table': ['CompanyTechStack', 'CompanyInfo']}, {'step': 3, 'task': 'Analyze the implementation details of the technologies used by companies.', 'table': ['CompanyVendorTechDetail']}, {'step': 4, 'task': 'Compile data on the impact of these trends on company performance metrics such as revenue or market capitalization.', 'table': ['CompanyInfo']}, {'step': 5, 'task': 'Summarize findings to highlight significant technology adoption patterns across industries.', 'table': ['IndustryITTrend', 'CompanyInfo']} ]"
+}

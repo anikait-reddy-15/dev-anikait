@@ -1,0 +1,40 @@
+{
+  "question": "What are the current social media engagement metrics for different companies across various platforms?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Retrieve the list of companies along with their identifiers from the CompanyInfo table.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Query the CompanyFacebookDetail table to obtain engagement metrics like likes, comments, and shares for each company on Facebook.",
+      "table": [
+        "CompanyFacebookDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Query the CompanyTwitterDetail table to obtain metrics like tweet likes, retweets, and engagement rates for each company on Twitter.",
+      "table": [
+        "CompanyTwitterDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Query the CompanyInstagramDetail table to extract engagement metrics (likes, comments, engagement rates) for each company on Instagram.",
+      "table": [
+        "CompanyInstagramDetail"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Query the CompanyYoutubeDetail table to get video engagement metrics including views, likes, and comments for each company on YouTube.",
+      "table": [
+        "CompanyYoutubeDetail"
+      ]
+    }
+  ]
+}

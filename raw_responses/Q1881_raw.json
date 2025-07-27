@@ -1,0 +1,4 @@
+{
+  "question": "How can we analyze the impact of social media presence on company revenue?",
+  "subtasks": "[{\"step\": 1, \"task\": \"Identify companies with active social media presence and their corresponding revenue details.\", \"table\": [\"CompanyInfo\", \"SocialMediaInfo\"]}, {\"step\": 2, \"task\": \"Gather social media engagement metrics (likes, shares, comments) for each company from various platforms.\", \"table\": [\"CompanyFacebookDetail\", \"CompanyInstagramDetail\", \"CompanyTwitterDetail\", \"CompanyYoutubeDetail\"]}, {\"step\": 3, \"task\": \"Analyze the correlation between social media engagement metrics and revenue figures to determine impact.\", \"table\": [\"CompanyInfo\", \"SocialMediaInfo\", \"CompanyFacebookDetail\", \"CompanyInstagramDetail\", \"CompanyTwitterDetail\", \"CompanyYoutubeDetail\"]}]"
+}

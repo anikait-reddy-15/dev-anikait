@@ -1,0 +1,4 @@
+{
+  "question": "What are the current hiring trends and technology focus areas among large companies in the IT industry?",
+  "subtasks": "[{\"step\": 1, \"task\": \"Identify the large companies in the IT industry by filtering CompanyInfo table based on employee count and industry type.\", \"table\": [\"CompanyInfo\"]}, {\"step\": 2, \"task\": \"Gather active hiring initiatives by the identified large IT companies using the CompanyHiringDetail table.\", \"table\": [\"CompanyHiringDetail\"]}, {\"step\": 3, \"task\": \"Extract technology focus areas related to these companies from the CompanyFocusAreaDetail table.\", \"table\": [\"CompanyFocusAreaDetail\"]}, {\"step\": 4, \"task\": \"Analyze and compile the collected data into a report to highlight trends in hiring and technology focus areas.\", \"table\": []}]}"
+}

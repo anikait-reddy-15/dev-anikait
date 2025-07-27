@@ -1,0 +1,47 @@
+{
+  "question": "Analyze the impact of social media engagement on company growth metrics.",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Collect social media engagement data for companies, including likes, comments, and shares from various platforms like Facebook, Twitter, and Instagram.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyTwitterDetail",
+        "CompanyInstagramDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Retrieve company growth metrics such as revenue, net income, and market capitalization from the CompanyInfo table.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Aggregate the collected social media engagement data to determine average engagement rates across different companies and industries.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyTwitterDetail",
+        "CompanyInstagramDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Compare the aggregated average engagement data with the growth metrics retrieved in step 2 to analyze trends and correlations.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Identify any significant correlations or trends between social media engagement and the company growth metrics, providing insights for strategic decision-making.",
+      "table": [
+        "CompanyInfo",
+        "CompanyFacebookDetail",
+        "CompanyTwitterDetail",
+        "CompanyInstagramDetail"
+      ]
+    }
+  ]
+}

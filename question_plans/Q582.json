@@ -1,0 +1,4 @@
+{
+  "question": "What are the emerging technology trends in companies across different industries?",
+  "subtasks": "[{'step': 1, 'task': 'Identify and gather data on companies and their industry types.', 'table': ['CompanyInfo']}, {'step': 2, 'task': 'Analyze emerging IT trends specific to industry types.', 'table': ['IndustryITTrend']}, {'step': 3, 'task': 'Examine specific company technology focus areas to identify trends.', 'table': ['CompanyFocusAreaDetail']}, {'step': 4, 'task': 'Compile a summary report of the technology trends identified.', 'table': ['SectionData', 'SocialMediaInfo']}]}"
+}

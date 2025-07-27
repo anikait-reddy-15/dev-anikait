@@ -1,0 +1,4 @@
+{
+  "question": "What are the current technology partnerships and focus areas of companies operating in the finance industry?",
+  "subtasks": "[{'step': 1, 'task': 'Identify all companies within the finance industry using the CompanyInfo table.', 'table': ['CompanyInfo']}, {'step': 2, 'task': 'Retrieve technology focus areas associated with these companies from the CompanyFocusAreaDetail table.', 'table': ['CompanyFocusAreaDetail']}, {'step': 3, 'task': 'Gather details about technology partnerships for these companies from the CompanyITPartnerDetail table.', 'table': ['CompanyITPartnerDetail']}, {'step': 4, 'task': 'Compile and analyze the data to summarize technology partnerships and focus areas for all identified finance companies.', 'table': []}]}"
+}

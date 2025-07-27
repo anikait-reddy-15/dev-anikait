@@ -1,0 +1,40 @@
+{
+  "question": "How can we analyze the social media presence and engagement metrics of companies in the technology sector?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies in the technology sector from the CompanyInfo table based on their industry classification.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Gather social media engagement data for the identified technology companies from the SocialMediaInfo table, focusing on platforms like Facebook, Twitter, and Instagram.",
+      "table": [
+        "SocialMediaInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Collect detailed engagement metrics from the CompanyFacebookDetail, CompanyTwitterDetail, and CompanyInstagramDetail tables for in-depth analysis.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyTwitterDetail",
+        "CompanyInstagramDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Analyze the gathered data to identify trends, such as the most engaging content types or which platforms yield the highest interactions for technology companies.",
+      "table": []
+    },
+    {
+      "step": 5,
+      "task": "Visualize the social media engagement metrics to present findings in a clear and interpretable manner, potentially linking them back to CompanyInfo for profile context.",
+      "table": [
+        "CompanyInfo"
+      ]
+    }
+  ]
+}

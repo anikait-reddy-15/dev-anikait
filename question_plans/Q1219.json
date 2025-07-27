@@ -1,0 +1,31 @@
+{
+  "question": "What are the current technology focus areas and social media engagement levels for companies in the digital transformation sector?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify the companies operating in the digital transformation sector by filtering the CompanyInfo table based on the Industry column.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Gather the technology focus areas for the identified companies by extracting relevant information from the CompanyFocusAreaDetail table linked through CompanyInfoId.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Collect social media engagement metrics for the identified companies from the SocialMediaInfo table, focusing on quantitative data across different platforms.",
+      "table": [
+        "SocialMediaInfo"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Combine the information from steps 1, 2, and 3 to analyze and present the technology focus areas alongside social media engagement levels for each company.",
+      "table": []
+    }
+  ]
+}

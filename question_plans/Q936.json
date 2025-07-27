@@ -1,0 +1,41 @@
+{
+  "question": "What are the key IT trends and technology focus areas across various industries?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify the different industry types listed in the IndustryITTrend table.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract emerging IT trends corresponding to each identified industry from the IndustryITTrend table.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Compile a summary of technology focus areas in the IndustryBusinessTrend table and relate these to the identified industries.",
+      "table": [
+        "IndustryBusinessTrend"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Analyze how different sectors are adopting technologies like AI, IoT, and blockchain based on data from IndustryITTrend.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Create a comparative report on the strategic focus areas of various industries using the data from both IndustryITTrend and IndustryBusinessTrend tables.",
+      "table": [
+        "IndustryITTrend",
+        "IndustryBusinessTrend"
+      ]
+    }
+  ]
+}

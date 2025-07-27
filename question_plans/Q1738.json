@@ -1,0 +1,34 @@
+{
+  "question": "What are the current technology focus areas and social media engagement levels for top companies in the technology industry?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify top companies in the technology industry based on their ITStrength and Revenue metrics.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Retrieve the strategic technology focus areas for the identified companies from the CompanyFocusAreaDetail table.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Collect social media engagement metrics from Facebook, Twitter, Instagram, and YouTube for the selected technology companies.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyTwitterDetail",
+        "CompanyInstagramDetail",
+        "CompanyYoutubeDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Compile the data into a summary report that includes technology focus areas and social media engagement metrics for the top technology companies.",
+      "table": []
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+{
+  "question": "What are the current trends in technology focus areas among leading companies in the IT sector?",
+  "subtasks": "[{'step': 1, 'task': 'Identify leading companies in the IT sector based on revenue and market capitalization.', 'table': ['CompanyInfo']}, {'step': 2, 'task': 'Gather data on the strategic technology focus areas of these companies.', 'table': ['CompanyFocusAreaDetail']}, {'step': 3, 'task': 'Analyze the data to find common focus areas and emerging trends in technology adoption.', 'table': ['IndustryITTrend', 'CompanyFocusAreaDetail']}, {'step': 4, 'task': 'Compile the findings into a summary report highlighting key trends.', 'table': ['PageInfo', 'SectionInfo']}]}"
+}

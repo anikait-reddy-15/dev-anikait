@@ -1,0 +1,33 @@
+{
+  "question": "What are the latest social media engagement trends of companies in the tech industry?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify all companies operating in the tech industry by filtering the CompanyInfo table based on the 'Industry' column.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Retrieve social media data for the identified tech companies from the SocialMediaInfo table, focusing on engagement counts and post details.",
+      "table": [
+        "SocialMediaInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze engagement metrics such as likes, comments, and shares from Facebook, Instagram, and Twitter tables to determine the latest trends in social media engagement.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyInstagramDetail",
+        "CompanyTwitterDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Summarize the findings and highlight any significant increases or declines in engagement metrics for the tech companies over the past months.",
+      "table": []
+    }
+  ]
+}

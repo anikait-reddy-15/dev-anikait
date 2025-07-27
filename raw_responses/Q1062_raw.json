@@ -1,0 +1,4 @@
+{
+  "question": "Analyze the social media engagement trends for technology companies in 2023.",
+  "subtasks": "[{\"step\": 1, \"task\": \"Identify the technology companies from the CompanyInfo table\", \"table\": [\"CompanyInfo\"]}, {\"step\": 2, \"task\": \"Aggregate engagement metrics (likes, comments, shares) from the CompanyFacebookDetail, CompanyInstagramDetail, CompanyTwitterDetail, and CompanyYoutubeDetail tables for each company\", \"table\": [\"CompanyFacebookDetail\", \"CompanyInstagramDetail\", \"CompanyTwitterDetail\", \"CompanyYoutubeDetail\"]}, {\"step\": 3, \"task\": \"Compile and analyze the data to determine overall engagement trends and insights regarding social media performance in the technology sector during 2023\", \"table\": [\"CompanyInfo\", \"CompanyFacebookDetail\", \"CompanyInstagramDetail\", \"CompanyTwitterDetail\", \"CompanyYoutubeDetail\"]}]"
+}

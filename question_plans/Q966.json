@@ -1,0 +1,36 @@
+{
+  "question": "What are the current technology focus areas and hiring trends for companies in the technology industry?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Retrieve all companies classified under the technology industry category to analyze their current technology focus areas.",
+      "table": [
+        "CompanyInfo",
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract and summarize the technology focus areas from the CompanyFocusAreaDetail table for each relevant company in the technology industry.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Identify and aggregate the current hiring initiatives for technology companies, including the roles and locations for these positions.",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Combine the data from company technology focus areas and hiring trends to provide insights into the technological demands and workforce requirements in the technology industry.",
+      "table": [
+        "CompanyInfo",
+        "CompanyFocusAreaDetail",
+        "CompanyHiringDetail"
+      ]
+    }
+  ]
+}

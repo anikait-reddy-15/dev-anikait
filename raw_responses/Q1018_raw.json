@@ -1,0 +1,4 @@
+{
+  "question": "What are the current trends in the IT capabilities and partnerships of leading companies in the technology industry?",
+  "subtasks": "[{'step': 1, 'task': 'Identify leading companies in the technology industry based on revenue and market capitalization.', 'table': ['CompanyInfo']}, {'step': 2, 'task': 'Extract IT capabilities and focus areas for these identified companies to understand their strategic investments.', 'table': ['CompanyFocusAreaDetail', 'CompanyTechStack']}, {'step': 3, 'task': 'Analyze existing IT partnerships of these companies to see collaborations and technology vendors they are engaging with.', 'table': ['CompanyITPartnerDetail', 'CompanyVendorTechDetail']}, {'step': 4, 'task': 'Aggregate insights and summarize emerging trends in IT capabilities and partnerships based on the data collected.', 'table': []}]}"
+}

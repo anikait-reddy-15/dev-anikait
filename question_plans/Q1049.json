@@ -1,0 +1,38 @@
+{
+  "question": "What is the current technology focus of our major competitors and their social media engagement rates?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify the major competitors in the relevant industry using the CompanyInfo table, filtering by revenue and market capitalization to find top companies.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "For each identified competitor, retrieve their strategic technology focus areas from the CompanyFocusAreaDetail to understand their current IT priorities.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Gather social media engagement metrics from the CompanyFacebookDetail, CompanyInstagramDetail, and CompanyTwitterDetail tables for the identified competitors to assess their social media presence.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyInstagramDetail",
+        "CompanyTwitterDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Consolidate the technology focus data and social media engagement metrics into a single report to analyze competitors' strategies and communication effectiveness.",
+      "table": [
+        "CompanyFocusAreaDetail",
+        "CompanyFacebookDetail",
+        "CompanyInstagramDetail",
+        "CompanyTwitterDetail"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+{
+  "question": "What are the primary social media engagement metrics of companies in the technology industry?",
+  "subtasks": "[{'step': 1, 'task': 'Identify and list all companies in the technology industry', 'table': ['CompanyInfo']}, {'step': 2, 'task': 'Gather Facebook engagement metrics for identified companies', 'table': ['CompanyFacebookDetail']}, {'step': 3, 'task': 'Gather Twitter engagement metrics for identified companies', 'table': ['CompanyTwitterDetail']}, {'step': 4, 'task': 'Gather Instagram engagement metrics for identified companies', 'table': ['CompanyInstagramDetail']}, {'step': 5, 'task': 'Compile and summarize the engagement metrics from all social media platforms', 'table': []}]"
+}

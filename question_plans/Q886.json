@@ -1,0 +1,37 @@
+{
+  "question": "Analyze the impact of social media engagement on company revenue growth.",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies with available revenue and social media engagement data for analysis.",
+      "table": [
+        "CompanyInfo",
+        "SocialMediaInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Collect and summarize social media engagement metrics from various platforms (e.g., Facebook, Twitter, Instagram) for the identified companies.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyTwitterDetail",
+        "CompanyInstagramDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Correlate the summarized social media engagement metrics with the revenue data from the CompanyInfo table to identify trends or patterns in revenue growth.",
+      "table": [
+        "CompanyInfo",
+        "SocialMediaInfo"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Prepare a report that outlines the relationship between social media engagement and revenue growth, highlighting key findings from the analysis.",
+      "table": [
+        "CompanyInfo"
+      ]
+    }
+  ]
+}

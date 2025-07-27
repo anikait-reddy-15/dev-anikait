@@ -1,0 +1,42 @@
+{
+  "question": "What are the emerging IT trends across different industries indicated by companies' technology adoption, and how do these trends vary by geographic region?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify all unique industries represented in the CompanyInfo table to understand the landscape of industries for analysis.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract data from the IndustryITTrend table to get information on emerging IT trends correlated with each unique industry identified in step 1.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Link the trends identified in the IndustryITTrend table with respective company's data from the CompanyInfo table to see which companies are adopting which trends.",
+      "table": [
+        "CompanyInfo",
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Analyze the geographic regions of the companies utilizing CompanyInfo to correlate trends with specific regions to identify geographic variations.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Compile and summarize the findings regarding the trends across industries and the geographic breakdown of these trends to draft a report on the analysis.",
+      "table": [
+        "IndustryITTrend",
+        "CompanyInfo"
+      ]
+    }
+  ]
+}

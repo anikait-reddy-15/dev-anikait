@@ -1,0 +1,42 @@
+{
+  "question": "Identify the technology trends being adopted by companies in the healthcare industry and their impact on business operations.",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Gather a list of companies in the healthcare industry from the CompanyInfo table.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract technology focus areas for each healthcare company from the CompanyFocusAreaDetail table to identify specific technologies being prioritized.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze technology partnerships from CompanyITPartnerDetail to determine collaborations with technology vendors specific to healthcare companies.",
+      "table": [
+        "CompanyITPartnerDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Collect and evaluate B2B technology service contracts from CompanyDealMaster to understand the scope and value of technology investments in the healthcare sector.",
+      "table": [
+        "CompanyDealMaster"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Cross-reference social media engagement data from CompanyFacebookDetail, CompanyTwitterDetail, and CompanyInstagramDetail to gauge public sentiment and interaction concerning technology initiatives in healthcare.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyTwitterDetail",
+        "CompanyInstagramDetail"
+      ]
+    }
+  ]
+}

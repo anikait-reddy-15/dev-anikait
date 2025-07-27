@@ -1,0 +1,4 @@
+{
+  "question": "What are the trending technologies adopted by companies in the healthcare industry based on their IT spending and recent social media activity?",
+  "subtasks": "[{\"step\":1,\"task\":\"Identify companies in the healthcare industry and their respective IT budgets and spending metrics.\",\"table\":[\"CompanyInfo\"]},{\"step\":2,\"task\":\"Gather data on recent social media engagement metrics for healthcare companies to assess their online presence and popularity.\",\"table\":[\"CompanyFacebookDetail\",\"CompanyTwitterDetail\",\"CompanyInstagramDetail\"]},{\"step\":3,\"task\":\"Analyze the technology focus areas and tech stack of the identified healthcare companies to determine trending technologies.\",\"table\":[\"CompanyFocusAreaDetail\",\"CompanyTechStack\"]},{\"step\":4,\"task\":\"Compile the findings into a comprehensive report highlighting the trend analysis of technologies in the healthcare industry.\",\"table\":[]}]"
+}

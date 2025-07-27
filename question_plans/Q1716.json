@@ -1,0 +1,42 @@
+{
+  "question": "What are the current IT trends and technology focus areas across different industries?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify the industries from the IndustryITTrend table that capture emerging IT trends.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract the details of the various IT focus areas, such as AI, IoT, blockchain, and cybersecurity from the IndustryITTrend table.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Summarize the trends by industry type and highlight key areas of technological adoption and innovation.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Cross-reference the trends with the CompanyInfo table to find companies that are aligned with these emerging trends.",
+      "table": [
+        "CompanyInfo",
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Analyze the relationships between technology service contracts in the CompanyDealMaster table and the trends found in the previous steps for insights.",
+      "table": [
+        "CompanyDealMaster",
+        "IndustryITTrend"
+      ]
+    }
+  ]
+}

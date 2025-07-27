@@ -1,0 +1,4 @@
+{
+  "question": "What are the current technology trends and focus areas that companies in the finance industry are adopting?",
+  "subtasks": "[{\"step\":1,\"task\":\"Identify companies operating in the finance industry and gather their core details such as revenue, market capitalization, and employee count.\",\"table\":[\"CompanyInfo\"]},{\"step\":2,\"task\":\"Extract strategic technology focus areas for the identified finance companies to understand their current technology adoption and initiatives.\",\"table\":[\"CompanyFocusAreaDetail\"]},{\"step\":3,\"task\":\"Analyze any vendor partnerships that finance companies have formed to support their technology strategies, including the deal value and timelines.\",\"table\":[\"CompanyITPartnerDetail\",\"CompanyDealMaster\"]},{\"step\":4,\"task\":\"Research emerging IT trends specific to the finance industry to link them with the current technology focus areas of the companies.\",\"table\":[\"IndustryITTrend\"]}]"
+}

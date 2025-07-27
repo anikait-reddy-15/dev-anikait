@@ -1,0 +1,4 @@
+{
+  "question": "Analyze the impact of IT budgets on company revenue and market capitalization across different industries.",
+  "subtasks": "[{\"step\":1,\"task\":\"Collect IT budget data from the CompanyInfo table\",\"table\":[\"CompanyInfo\"]},{\"step\":2,\"task\":\"Gather revenue and market capitalization figures from the CompanyInfo table\",\"table\":[\"CompanyInfo\"]},{\"step\":3,\"task\":\"Segment the data by industry for analysis\",\"table\":[\"CompanyInfo\"]},{\"step\":4,\"task\":\"Analyze the correlation between IT budgets and revenue/market capitalization for each industry\",\"table\":[\"CompanyInfo\"]},{\"step\":5,\"task\":\"Provide visualizations of the findings by industry\",\"table\":[\"CompanyInfo\"]}]}"
+}

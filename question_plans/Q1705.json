@@ -1,0 +1,43 @@
+{
+  "question": "What are the top technology trends and hiring initiatives observed across companies in the IT industry?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify the top technology trends currently being adopted in the IT industry by analyzing the IndustryITTrend table for relevant records.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Gather information on specific IT focus areas from companies by exploring the CompanyFocusAreaDetail table to see what areas companies are prioritizing.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the active hiring initiatives of companies in the IT industry by examining the CompanyHiringDetail table to identify current job postings and domains of focus.",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Cross-reference the identified technology trends with hiring initiatives to see if there is a direct correlation between the types of technology companies are adopting and the roles they are hiring for.",
+      "table": [
+        "CompanyFocusAreaDetail",
+        "CompanyHiringDetail"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Compile the insights into a comprehensive report summarizing the technology trends and hiring initiatives, highlighting any significant patterns observed.",
+      "table": [
+        "IndustryITTrend",
+        "CompanyFocusAreaDetail",
+        "CompanyHiringDetail"
+      ]
+    }
+  ]
+}

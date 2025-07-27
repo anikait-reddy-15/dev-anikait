@@ -1,0 +1,4 @@
+{
+  "question": "Identify the key technology trends across different industries for the last year and analyze their potential impact on business strategies.",
+  "subtasks": "[{\"step\":1,\"task\":\"Retrieve the latest IT trends from the IndustryITTrend table for each industry type.\" ,\"table\":[\"IndustryITTrend\"]},{\"step\":2,\"task\":\"Filter the trends by those that were active in the last year based on the CreatedOn date.\" ,\"table\":[\"IndustryITTrend\"]},{\"step\":3,\"task\":\"Analyze the implications of these trends on existing business strategies by reviewing relevant SectionData that addresses technology focus areas and industry specifics.\" ,\"table\":[\"SectionData\"]}]"
+}

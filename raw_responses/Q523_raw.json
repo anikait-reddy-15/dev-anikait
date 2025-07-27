@@ -1,0 +1,4 @@
+{
+  "question": "What are the latest trends in technology adoption across different industries and how are companies responding to them?",
+  "subtasks": "1. Analyze the latest entries in the IndustryITTrend table to identify emerging technology trends across industries.\n2. Gather and summarize the strategic technology focus areas by querying the CompanyFocusAreaDetail table for companies involved in the identified trends.\n3. Link technology adoption trends from the IndustryITTrend table with company-specific data from the CompanyTechStack table to see how companies are implementing these technologies.\n4. Collect insights from leadership statements in the CompanyLeadershipExcerpt table to understand executive perspectives on these trends and their company's response."
+}

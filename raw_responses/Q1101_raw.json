@@ -1,0 +1,4 @@
+{
+  "question": "Analyze the social media engagement of companies in the technology sector to identify the most effective platforms for audience interaction.",
+  "subtasks": "[{\"step\":1,\"task\":\"Identify companies in the technology sector from the CompanyInfo table based on the Industry column.\",\"table\":[\"CompanyInfo\"]},{\"step\":2,\"task\":\"Extract social media engagement metrics from the SocialMediaInfo table for the identified technology companies.\",\"table\":[\"SocialMediaInfo\"]},{\"step\":3,\"task\":\"Analyze social media data across different platforms (Facebook, Instagram, Twitter, LinkedIn) in the SocialMediaInfo table to determine the most engaged platforms.\",\"table\":[\"SocialMediaInfo\"]},{\"step\":4,\"task\":\"Compile and summarize the findings on which platforms yield the highest engagement rates among technology companies.\",\"table\":[\"SocialMediaInfo\"]}]"
+}

@@ -1,0 +1,4 @@
+{
+  "question": "Analyze the social media presence of companies within the technology sector.",
+  "subtasks": "[\n    {\n        \"step\": 1,\n        \"task\": \"Identify technology companies from the CompanyInfo table based on their Industry field.\",\n        \"table\": [\"CompanyInfo\"]\n    },\n    {\n        \"step\": 2,\n        \"task\": \"Retrieve social media metrics from the SocialMediaInfo table for the identified technology companies.\",\n        \"table\": [\"SocialMediaInfo\"]\n    },\n    {\n        \"step\": 3,\n        \"task\": \"Analyze engagement levels across different social media platforms for these companies.\",\n        \"table\": [\"SocialMediaInfo\"]\n    },\n    {\n        \"step\": 4,\n        \"task\": \"Summarize findings, highlighting top companies with the highest social media engagement in the technology sector.\",\n        \"table\": [\"CompanyInfo\", \"SocialMediaInfo\"]\n    }\n]"
+}

@@ -1,0 +1,4 @@
+{
+  "question": "Analyze the impact of social media engagement on company revenue.",
+  "subtasks": "[{\"step\": 1, \"task\": \"Identify companies and their respective revenues to establish a baseline for analysis.\", \"table\": [\"CompanyInfo\"]}, {\"step\": 2, \"task\": \"Gather social media engagement data including likes, comments, and overall metrics from various platforms like Facebook, Instagram, and Twitter.\", \"table\": [\"CompanyFacebookDetail\", \"CompanyInstagramDetail\", \"CompanyTwitterDetail\"]}, {\"step\": 3, \"task\": \"Correlate the social media engagement data with the company revenue data to identify trends or insights regarding the impact of social media on revenue.\", \"table\": [\"CompanyInfo\", \"CompanyFacebookDetail\", \"CompanyInstagramDetail\", \"CompanyTwitterDetail\"]}]"
+}

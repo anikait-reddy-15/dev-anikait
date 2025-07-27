@@ -1,0 +1,39 @@
+{
+  "question": "Analyze the social media engagement activity of companies in the technology industry and compare it across various platforms.",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify the companies that are categorized under the technology industry from the CompanyInfo table.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Gather the social media engagement metrics (likes, comments, engagement rates) from the relevant social media tables for those identified companies.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyInstagramDetail",
+        "CompanyTwitterDetail",
+        "CompanyYoutubeDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Aggregate the social media engagement data by company and by platform to compare the levels of activity and interaction across the different platforms.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyInstagramDetail",
+        "CompanyTwitterDetail",
+        "CompanyYoutubeDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Generate a report summarizing the findings, including insights into which platforms see the highest engagement and how companies' social media strategies vary within the technology industry.",
+      "table": [
+        "SectionData"
+      ]
+    }
+  ]
+}

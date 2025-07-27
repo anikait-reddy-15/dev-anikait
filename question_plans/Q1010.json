@@ -1,0 +1,43 @@
+{
+  "question": "Analyze the social media engagement of top companies in the technology sector for the last year.",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify top companies in the technology sector based on their revenue and market capitalization.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Gather social media engagement metrics (likes, comments, shares) from Facebook, Twitter, Instagram, and YouTube for these companies over the last year.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyTwitterDetail",
+        "CompanyInstagramDetail",
+        "CompanyYoutubeDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Summarize the engagement data by company and determine the total engagement across platforms.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyTwitterDetail",
+        "CompanyInstagramDetail",
+        "CompanyYoutubeDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Compare social media engagement across different companies to highlight trends and insights in the technology sector.",
+      "table": [
+        "CompanyInfo",
+        "CompanyFacebookDetail",
+        "CompanyTwitterDetail",
+        "CompanyInstagramDetail",
+        "CompanyYoutubeDetail"
+      ]
+    }
+  ]
+}

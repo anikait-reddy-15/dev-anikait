@@ -1,0 +1,31 @@
+{
+  "question": "What are the current IT budget allocations among various companies in the technology sector and how do they compare in terms of IT strength?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Fetch the list of companies in the technology sector with their respective IT budget allocations.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Retrieve the IT strength data for these companies to analyze their technical capabilities.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Compare the IT budgets against IT strengths to identify trends or patterns across the technology sector.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Present the findings in a report format highlighting the IT budget allocations and relative strengths of each company.",
+      "table": []
+    }
+  ]
+}

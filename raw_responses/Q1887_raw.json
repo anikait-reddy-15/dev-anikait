@@ -1,0 +1,4 @@
+{
+  "question": "Analyze the impact of IT investments on company growth by examining their financial metrics and market trends.",
+  "subtasks": "[{\"step\":1,\"task\":\"Collect financial metrics such as Revenue and Net Income from the CompanyInfo table for companies with IT investments.\",\"table\":[\"CompanyInfo\"]},{\"step\":2,\"task\":\"Identify companies with active IT investments by checking the ITBudget and ITStrength fields in the CompanyInfo table.\",\"table\":[\"CompanyInfo\"]},{\"step\":3,\"task\":\"Gather industry trends related to IT investments from the IndustryITTrend table to see how they affect company growth in various sectors.\",\"table\":[\"IndustryITTrend\"]},{\"step\":4,\"task\":\"Relate financial metrics from the CompanyInfo table with industry trends to analyze the overall impact of IT investments on growth metrics.\",\"table\":[\"CompanyInfo\",\"IndustryITTrend\"]}]"
+}

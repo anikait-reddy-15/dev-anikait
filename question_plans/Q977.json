@@ -1,0 +1,40 @@
+{
+  "question": "Identify technology trends and focus areas across different industries based on company data.",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Extract industry types and their corresponding IT trends from the IndustryITTrend table.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Gather detailed company information, including their names and relevant sectors, from the CompanyInfo table.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Link companies to their technology investments and focus areas through the CompanyFocusAreaDetail table to analyze trends.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Compile a dataset that includes industry trends, company names, and their technology focus areas to identify common trends across industries.",
+      "table": [
+        "CompanyInfo",
+        "IndustryITTrend",
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Prepare a report summarizing technology trends across different industries based on the compiled dataset.",
+      "table": []
+    }
+  ]
+}

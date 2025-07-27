@@ -1,0 +1,43 @@
+{
+  "question": "How can we analyze the technology adoption trends across different companies in the healthcare industry?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify all companies operating in the healthcare industry by filtering the CompanyInfo table by the 'Industry' column.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Gather technology adoption data for the identified healthcare companies from the CompanyTechStack table to understand which technologies they are using.",
+      "table": [
+        "CompanyTechStack"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Investigate contract information related to technology services for these companies by checking the CompanyDealMaster table to assess the relationship between technology adoption and contract values.",
+      "table": [
+        "CompanyDealMaster"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Analyze the hiring pattern in IT roles within these companies by extracting data from the CompanyHiringDetail table to see if there's a correlation between tech adoption and hiring trends.",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Compile social media engagement metrics related to these companies from the CompanyFacebookDetail, CompanyInstagramDetail, CompanyTwitterDetail, and CompanyYoutubeDetail tables to gauge public sentiment towards their technology implementations.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyInstagramDetail",
+        "CompanyTwitterDetail",
+        "CompanyYoutubeDetail"
+      ]
+    }
+  ]
+}

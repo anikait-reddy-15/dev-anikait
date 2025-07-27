@@ -1,0 +1,43 @@
+{
+  "question": "Identify the top three companies based on their IT budget and analyze their technology adoption trends.",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Retrieve the top three companies based on IT budget sorted in descending order.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "For each of the top three companies, gather their technology stack information to analyze trends in technology adoption.",
+      "table": [
+        "CompanyTechStack"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Collect deal information related to these companies to further analyze the financial implications of technology adoption.",
+      "table": [
+        "CompanyDealMaster"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Examine the focus areas of these companies to understand their strategic technology initiatives.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Gather social media engagement metrics to evaluate how these companies communicate their technology strategies externally.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyLinkedinDetail",
+        "CompanyTwitterDetail",
+        "CompanyInstagramDetail"
+      ]
+    }
+  ]
+}

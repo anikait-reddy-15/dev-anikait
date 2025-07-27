@@ -1,0 +1,4 @@
+{
+  "question": "What is the impact of technology partnerships on companies' revenue across different industries?",
+  "subtasks": "[{\"step\":1,\"task\":\"Identify companies engaged in technology partnerships and gather relevant partnership details such as deal value, start date, and end date.\",\"table\":[\"CompanyInfo\",\"CompanyITPartnerDetail\"]},{\"step\":2,\"task\":\"Aggregate revenue data for the identified companies to analyze their financial performance, focusing on companies with active technology partnerships.\",\"table\":[\"CompanyInfo\"]},{\"step\":3,\"task\":\"Segment the companies by industry and compare revenue growth rates between companies with technology partnerships and those without.\",\"table\":[\"CompanyInfo\",\"CompanyDealMaster\"]},{\"step\":4,\"task\":\"Analyze how the value of the technology partnerships correlates with the revenue metrics across different industries.\",\"table\":[\"CompanyITPartnerDetail\",\"CompanyInfo\"]}]"
+}

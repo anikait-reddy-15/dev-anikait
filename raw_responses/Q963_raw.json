@@ -1,0 +1,4 @@
+{
+  "question": "What are the current IT budget allocations and technology focus areas for companies in the technology industry?",
+  "subtasks": "[{'step': 1, 'task': 'Query the CompanyInfo table to retrieve the IT budgets and technology focus areas for companies in the technology industry.', 'table': ['CompanyInfo']}, {'step': 2, 'task': 'Join the CompanyFocusAreaDetail table to get detailed descriptions of the technology focus areas for each company.', 'table': ['CompanyInfo', 'CompanyFocusAreaDetail']}, {'step': 3, 'task': 'Aggregate the IT budgets to find total allocations across different technology focus areas within the technology industry.', 'table': ['CompanyInfo', 'CompanyFocusAreaDetail']}, {'step': 4, 'task': 'Visualize the relationship between IT budget allocations and technology focus areas to highlight strategic priorities.', 'table': []}]"
+}

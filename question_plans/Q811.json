@@ -1,0 +1,4 @@
+{
+  "question": "What are the recent trends in IT strategies across different industries?",
+  "subtasks": "[{\"step\":1,\"task\":\"Identify industries of interest for analyzing IT strategies.\",\"table\":[\"IndustryBusinessTrend\",\"IndustryITTrend\"]},{\"step\":2,\"task\":\"Gather data on current IT focus areas adopted by companies in selected industries.\",\"table\":[\"CompanyFocusAreaDetail\",\"CompanyInfo\"]},{\"step\":3,\"task\":\"Extract detailed narratives on emerging IT trends affecting these industries.\",\"table\":[\"IndustryITTrend\"]},{\"step\":4,\"task\":\"Summarize the impact of digital transformation and technology adoption on these industries.\",\"table\":[\"IndustryBusinessTrend\"]}]"
+}

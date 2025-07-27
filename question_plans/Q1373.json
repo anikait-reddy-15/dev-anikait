@@ -1,0 +1,35 @@
+{
+  "question": "What technological trends are companies in the healthcare industry adopting?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies in the healthcare industry from the CompanyInfo table.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Examine the CompanyTechStack table to discover the technologies utilized by these healthcare companies.",
+      "table": [
+        "CompanyTechStack"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze trends over time from the IndustryITTrend table relevant to the healthcare sector, focusing on technological adoptions such as AI, IoT, and cybersecurity.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Compile the findings and summarize the key technological trends observed in the healthcare industry from the analysis.",
+      "table": [
+        "CompanyInfo",
+        "CompanyTechStack",
+        "IndustryITTrend"
+      ]
+    }
+  ]
+}

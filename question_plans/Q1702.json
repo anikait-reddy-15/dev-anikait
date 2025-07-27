@@ -1,0 +1,27 @@
+{
+  "question": "What are the financial performance and IT focus areas of companies in the technology industry?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Retrieve financial metrics (Revenue, Net Income, Market Capitalization) for companies in the technology industry.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Identify and collect the IT focus areas for companies that are categorized under the technology industry.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Aggregate the data to provide a summary of financial performance along with the related IT initiatives for the technology companies.",
+      "table": [
+        "CompanyInfo",
+        "CompanyFocusAreaDetail"
+      ]
+    }
+  ]
+}

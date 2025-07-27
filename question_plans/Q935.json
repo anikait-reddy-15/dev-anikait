@@ -1,0 +1,42 @@
+{
+  "question": "What are the hiring trends in the technology sector over the last year?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Retrieve a list of active hiring initiatives in the technology sector from the CompanyHiringDetail table.",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Join the CompanyHiringDetail table with the CompanyInfo table to get details about companies and their IT sectors.",
+      "table": [
+        "CompanyHiringDetail",
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Filter the results to include only hiring initiatives from the last year based on the creation date of the hiring records.",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Analyze the collected data to identify trends, such as the number of job openings by designation and technology focus area.",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Prepare a summary report of the hiring trends, categorizing by company, job title, and key technologies sought after.",
+      "table": [
+        "CompanyHiringDetail",
+        "CompanyInfo"
+      ]
+    }
+  ]
+}

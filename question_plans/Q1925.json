@@ -1,0 +1,43 @@
+{
+  "question": "What are the company trends in hiring technology specialists across different industries?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Fetch active hiring data for technology specialists including domains and designations from the CompanyHiringDetail table.",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Retrieve company information including industry classification and employee count from the CompanyInfo table to correlate with hiring initiatives.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Join the hiring data with industry information to analyze hiring trends across different sectors based on the data obtained from the CompanyHiringDetail and CompanyInfo tables.",
+      "table": [
+        "CompanyHiringDetail",
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Extract insights on technology focus areas from the CompanyFocusAreaDetail table to understand the specific technology needs of each industry.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Compile the findings into a report detailing trends, statistics, and recommendations for technology hiring across various industries.",
+      "table": [
+        "CompanyHiringDetail",
+        "CompanyInfo",
+        "CompanyFocusAreaDetail"
+      ]
+    }
+  ]
+}

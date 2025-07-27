@@ -1,0 +1,41 @@
+{
+  "question": "Analyze the social media engagement of companies in the technology industry and identify trends in hiring initiatives related to social media marketing roles.",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify technology companies that are currently active in the database.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Retrieve social media engagement metrics from Facebook, Instagram, Twitter, and YouTube for the identified technology companies.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyInstagramDetail",
+        "CompanyTwitterDetail",
+        "CompanyYoutubeDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze hiring details for marketing roles within the identified technology companies to see if there is a trend aligning with their social media engagement strategies.",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Compile and summarize the findings on engagement trends and hiring initiatives across the technology companies to draw correlations between performance on social media and hiring in the field.",
+      "table": [
+        "CompanyInfo",
+        "CompanyHiringDetail",
+        "CompanyFacebookDetail",
+        "CompanyInstagramDetail",
+        "CompanyTwitterDetail",
+        "CompanyYoutubeDetail"
+      ]
+    }
+  ]
+}

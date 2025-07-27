@@ -1,0 +1,4 @@
+{
+  "question": "What are the key technology focus areas and their trends across different industries for our market analysis?",
+  "subtasks": "[{'step': 1, 'task': 'Identify the key technology focus areas from the CompanyFocusAreaDetail table.', 'table': ['CompanyFocusAreaDetail']}, {'step': 2, 'task': 'Analyze the specific IT trends related to these focus areas from the IndustryITTrend table.', 'table': ['IndustryITTrend']}, {'step': 3, 'task': 'Extract industry information from the IndustryBusinessTrend table to correlate with technology focus areas.', 'table': ['IndustryBusinessTrend']}, {'step': 4, 'task': 'Compile the findings into a unified report listing key technology focus areas and emerging trends.', 'table': []}]}"
+}

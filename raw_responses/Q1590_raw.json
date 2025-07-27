@@ -1,0 +1,4 @@
+{
+  "question": "What are the emerging IT trends in the finance industry and which companies are investing in them?",
+  "subtasks": "[{\"step\":1,\"task\":\"Identify the relevant emerging IT trends in the finance industry by querying the IndustryITTrend table.\",\"table\":[\"IndustryITTrend\"]},{\"step\":2,\"task\":\"Gather data on companies operating in the finance industry by querying the CompanyInfo table for companies classified under the finance sector.\",\"table\":[\"CompanyInfo\"]},{\"step\":3,\"task\":\"Match the identified IT trends with the companies investing in those trends by analyzing their focus areas stored in the CompanyFocusAreaDetail table.\",\"table\":[\"CompanyFocusAreaDetail\"]},{\"step\":4,\"task\":\"Compile a report detailing the trends and the companies involved, showcasing their investments and initiatives related to those IT trends.\",\"table\":[\"IndustryITTrend\",\"CompanyInfo\",\"CompanyFocusAreaDetail\"]}]}"
+}

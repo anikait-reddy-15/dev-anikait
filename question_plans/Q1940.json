@@ -1,0 +1,40 @@
+{
+  "question": "What are the emerging technology focus areas for companies in the healthcare industry based on their recent activities?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify all companies in the healthcare industry from the CompanyInfo table.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Retrieve the technology focus areas for the identified healthcare companies from the CompanyFocusAreaDetail table.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Collect recent leadership excerpts related to technology innovation in the healthcare sector from the CompanyLeadershipExcerpt table.",
+      "table": [
+        "CompanyLeadershipExcerpt"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Analyze social media activity of healthcare companies to identify trending technologies discussed in posts from CompanyFacebookDetail, CompanyInstagramDetail, and CompanyTwitterDetail.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyInstagramDetail",
+        "CompanyTwitterDetail"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Compile and summarize findings into a report outlining the main technology focus areas and emerging trends for healthcare companies.",
+      "table": []
+    }
+  ]
+}

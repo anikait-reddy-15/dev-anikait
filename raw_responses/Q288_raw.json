@@ -1,0 +1,4 @@
+{
+  "question": "What is the current technology focus of companies in the healthcare sector?",
+  "subtasks": "[{\"step\":1,\"task\":\"Identify all companies classified under the healthcare sector based on their industry details from the CompanyInfo table.\",\"table\":[\"CompanyInfo\"]},{\"step\":2,\"task\":\"Extract the technology focus areas of the identified healthcare companies from the CompanyFocusAreaDetail table.\",\"table\":[\"CompanyFocusAreaDetail\"]},{\"step\":3,\"task\":\"Compile the relevant leadership excerpts related to technology focus from the CompanyLeadershipExcerpt for those healthcare companies.\",\"table\":[\"CompanyLeadershipExcerpt\"]}]"
+}

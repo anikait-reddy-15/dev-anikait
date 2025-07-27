@@ -1,0 +1,4 @@
+{
+  "question": "What are the current IT budgets, strengths, and hiring trends for companies in the technology industry?",
+  "subtasks": "[{\"step\":1,\"task\":\"Query the CompanyInfo table to retrieve active companies in the technology industry, including their IT budgets and strengths.\",\"table\":[\"CompanyInfo\"]},{\"step\":2,\"task\":\"Use the CompanyHiringDetail table to analyze hiring trends by linking it to the previously retrieved CompanyInfo records to filter based on their hiring details and designations.\",\"table\":[\"CompanyHiringDetail\"]},{\"step\":3,\"task\":\"Compile the results to present a summary of IT budgets, strengths, and current hiring trends for the technology companies found in the previous steps.\",\"table\":[\"CompanyInfo\",\"CompanyHiringDetail\"]}]}"
+}

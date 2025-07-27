@@ -1,0 +1,46 @@
+{
+  "question": "Analyze the market trends and strategic technology focus areas among companies in the finance industry.",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify all companies operating in the finance industry from the CompanyInfo table to gather relevant company profiles.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Retrieve strategic technology focus areas for the identified finance companies by joining the CompanyInfo table with the CompanyFocusAreaDetail table.",
+      "table": [
+        "CompanyInfo",
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze and summarize the emerging trends and technology focus areas specific to the finance industry from the IndustryITTrend table, linking them with the identified companies where applicable.",
+      "table": [
+        "CompanyInfo",
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Collect social media engagement metrics for the finance companies to assess their digital presence and influence in the market by joining with the SocialMediaInfo table.",
+      "table": [
+        "CompanyInfo",
+        "SocialMediaInfo"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Synthesize the data collected from all previous steps to create a comprehensive report on market trends and technology focus areas in the finance industry.",
+      "table": [
+        "CompanyInfo",
+        "CompanyFocusAreaDetail",
+        "IndustryITTrend",
+        "SocialMediaInfo"
+      ]
+    }
+  ]
+}

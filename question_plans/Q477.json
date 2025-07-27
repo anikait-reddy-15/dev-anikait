@@ -1,0 +1,4 @@
+{
+  "question": "What are the current trends in IT technology adoption across different industries, and how are companies responding to these trends?",
+  "subtasks": "[{\"step\":1,\"task\":\"Identify the latest IT trends and focus areas across various industries from the IndustryITTrend table.\",\"table\":[\"IndustryITTrend\"]},{\"step\":2,\"task\":\"Analyze specific technology focus areas that companies are investing in based on their records in the CompanyTechStack and CompanyFocusAreaDetail tables.\",\"table\":[\"CompanyTechStack\",\"CompanyFocusAreaDetail\"]},{\"step\":3,\"task\":\"Collect data on how companies are adapting their strategies in response to these trends by examining CompanyLeadershipExcerpt and CompanyManagementDetail for executive insights and organizational changes.\",\"table\":[\"CompanyLeadershipExcerpt\",\"CompanyManagementDetail\"]}]"
+}

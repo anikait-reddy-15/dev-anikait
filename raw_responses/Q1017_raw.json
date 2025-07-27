@@ -1,0 +1,4 @@
+{
+  "question": "Identify the top companies in the technology sector based on their IT budget and revenue for the current year.",
+  "subtasks": "[{\"step\":1,\"task\":\"Gather data on all companies that belong to the technology sector, retrieving their names, IT budgets, and revenues.\",\"table\":[\"CompanyInfo\"]},{\"step\":2,\"task\":\"Filter the gathered data to include only active companies that have published their data.\",\"table\":[\"CompanyInfo\"]},{\"step\":3,\"task\":\"Sort the filtered data based on IT budget and revenue in descending order to identify the top-performing companies.\",\"table\":[\"CompanyInfo\"]}]"
+}

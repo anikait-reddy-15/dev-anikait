@@ -1,0 +1,41 @@
+{
+  "question": "What are the current hiring trends in technology companies across different industries?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify technology companies and their respective industries from the CompanyInfo table.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract active hiring initiatives along with job roles and domains from the CompanyHiringDetail table.",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Combine data from the CompanyInfo and CompanyHiringDetail tables to analyze hiring trends in different industries.",
+      "table": [
+        "CompanyInfo",
+        "CompanyHiringDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Aggregate hiring data to summarize the number of roles per industry and identify key technology domains being targeted by companies.",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Identify any notable changes or emerging roles in hiring compared to past trends if historical data is available.",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    }
+  ]
+}

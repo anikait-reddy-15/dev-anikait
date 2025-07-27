@@ -1,0 +1,4 @@
+{
+  "question": "What are the key technologies being adopted by companies in the digital transformation sector?",
+  "subtasks": "[{\"step\":1,\"task\":\"Identify companies that are focusing on digital transformation initiatives.\",\"table\":[\"CompanyFocusAreaDetail\",\"CompanyInfo\"]},{\"step\":2,\"task\":\"Retrieve the technologies associated with these companies from the tech stack information.\",\"table\":[\"CompanyTechStack\"]},{\"step\":3,\"task\":\"Analyze the types and categories of technologies adopted by the identified companies in relation to their digital transformation focus.\",\"table\":[\"CompanyVendorProductDetail\",\"CompanyVendorTechDetail\"]},{\"step\":4,\"task\":\"Compile and summarize the findings to highlight trends in technology adoption among companies focused on digital transformation.\",\"table\":[\"IndustryITTrend\"]}]}"
+}

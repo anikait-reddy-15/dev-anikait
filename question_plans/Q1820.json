@@ -1,0 +1,33 @@
+{
+  "question": "What are the current technology focus areas and partnerships of leading companies in the fintech industry?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify leading companies in the fintech industry based on revenue and market capitalization.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Gather technology focus areas for the identified fintech companies to understand their strategic technology priorities.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Compile a list of partnerships these fintech companies have, including details on deal values and technologies involved.",
+      "table": [
+        "CompanyITPartnerDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Analyze the data to summarize the key technology trends and partnership strategies of these companies in the fintech space.",
+      "table": [
+        "CompanyDealMaster"
+      ]
+    }
+  ]
+}

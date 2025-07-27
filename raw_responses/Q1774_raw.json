@@ -1,0 +1,4 @@
+{
+  "question": "Analyze the hiring trends of technology companies in the fintech industry over the past year.",
+  "subtasks": "[{\"step\":1,\"task\":\"Identify all technology companies operating in the fintech industry by querying the CompanyInfo table.\",\"table\":[\"CompanyInfo\"]},{\"step\":2,\"task\":\"Gather detailed hiring information from the CompanyHiringDetail table for the identified fintech companies, filtering the records to the past year.\",\"table\":[\"CompanyHiringDetail\"]},{\"step\":3,\"task\":\"Analyze the hiring data to identify trends in job titles and required skills for positions advertised in the past year.\",\"table\":[\"CompanyHiringDetail\"]},{\"step\":4,\"task\":\"Summarize the findings and prepare insights on how hiring practices in fintech have evolved compared to previous years.\",\"table\":[\"CompanyHiringDetail\"]}]"
+}

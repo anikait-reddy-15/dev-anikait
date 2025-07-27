@@ -1,0 +1,43 @@
+{
+  "question": "Analyze the technology adoption trends across different industries based on recent vendor tech details and company focus areas.",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify the latest entries in the CompanyVendorTechDetail table to gather data on technology services provided by vendors.",
+      "table": [
+        "CompanyVendorTechDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract relevant industry types from the IndustryITTrend table to understand emerging IT trends across various sectors.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Map the extracted vendor technologies to their respective industries by analyzing the relationships between CompanyVendorTechDetail and IndustryITTrend.",
+      "table": [
+        "CompanyVendorTechDetail",
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Correlate the tech adoption data with company focus areas from the CompanyFocusAreaDetail table to identify strategic technology priorities within industries.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Generate a comprehensive report summarizing the technology adoption trends by industry, highlighting key findings from the analyzed data.",
+      "table": [
+        "CompanyVendorTechDetail",
+        "IndustryITTrend",
+        "CompanyFocusAreaDetail"
+      ]
+    }
+  ]
+}

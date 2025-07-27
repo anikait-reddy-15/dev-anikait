@@ -1,0 +1,38 @@
+{
+  "question": "Analyze the technology adoption trends of companies across different industries.",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify technology focus areas used by companies",
+      "table": [
+        "CompanyFocusAreaDetail",
+        "CompanyTechStack"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Gather industry information for each company",
+      "table": [
+        "CompanyInfo",
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Combine technology focus areas with corresponding industries",
+      "table": [
+        "CompanyFocusAreaDetail",
+        "CompanyInfo",
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Analyze trends based on the combined data to identify patterns of technology adoption",
+      "table": [
+        "CompanyFocusAreaDetail",
+        "IndustryITTrend"
+      ]
+    }
+  ]
+}

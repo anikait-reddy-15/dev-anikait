@@ -1,0 +1,4 @@
+{
+  "question": "How can we analyze the social media engagement trends of companies across different industries?",
+  "subtasks": "[{\"step\":1,\"task\":\"Gather social media engagement data for companies from the SocialMediaInfo table, focusing on counts and relevant media types (Facebook, Twitter, Instagram, LinkedIn).\",\"table\":[\"SocialMediaInfo\"]},{\"step\":2,\"task\":\"Retrieve the industry information for each company from the CompanyInfo table to categorize the social media engagement data by industry type.\",\"table\":[\"CompanyInfo\"]},{\"step\":3,\"task\":\"Integrate social media engagement data with industry data to analyze trends and patterns in engagement across different industries.\",\"table\":[\"SocialMediaInfo\",\"CompanyInfo\"]},{\"step\":4,\"task\":\"Visualize the findings to present insights on social media performance by industry. Use charts to show engagement levels.\",\"table\":[\"SocialMediaInfo\",\"CompanyInfo\"]}]"
+}

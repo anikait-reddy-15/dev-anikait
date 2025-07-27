@@ -1,0 +1,4 @@
+{
+  "question": "What are the latest trends in IT spending and technology adoption among companies in the healthcare industry?",
+  "subtasks": "[{ \"step\": 1, \"task\": \"Identify the companies within the healthcare industry and gather their IT budgets and financial metrics.\", \"table\": [\"CompanyInfo\"] }, { \"step\": 2, \"task\": \"Analyze the technology focus areas and adoption trends specifically for healthcare companies.\", \"table\": [\"CompanyFocusAreaDetail\", \"CompanyTechStack\"] }, { \"step\": 3, \"task\": \"Examine emerging IT trends relevant to healthcare and analyze how these trends influence IT spending.\", \"table\": [\"IndustryITTrend\"] }, { \"step\": 4, \"task\": \"Compile and summarize insights from leadership statements or management details regarding technology direction in healthcare.\", \"table\": [\"CompanyLeadershipExcerpt\", \"CompanyManagementDetail\"] }]"
+}

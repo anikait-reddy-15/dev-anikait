@@ -1,0 +1,4 @@
+{
+  "question": "What are the strategic technology focus areas of different companies in the finance industry?",
+  "subtasks": "[{\"step\":1,\"task\":\"Identify all companies operating in the finance industry by querying the CompanyInfo table for entries with Industry = 'Finance'.\",\"table\":[\"CompanyInfo\"]},{\"step\":2,\"task\":\"For the identified companies, retrieve their strategic technology focus areas from the CompanyFocusAreaDetail table using CompanyInfoId. \",\"table\":[\"CompanyFocusAreaDetail\"]},{\"step\":3,\"task\":\"Aggregate and summarize the strategic technology initiatives to highlight common trends or topics across the finance industry companies.\",\"table\":[\"CompanyFocusAreaDetail\"]}]"
+}

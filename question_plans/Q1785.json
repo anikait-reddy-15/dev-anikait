@@ -1,0 +1,38 @@
+{
+  "question": "What are the technology adoption trends among companies in the technology industry?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify all companies within the technology industry from the CompanyInfo table, focusing on their ITBudget and ITStrength metrics to gauge resources allocated toward technology adoption.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Analyze the CompanyTechStack table to gather data on the specific technologies used by the identified companies, noting the frequency of adoption for each technology type.",
+      "table": [
+        "CompanyTechStack"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Compile data from the CompanyVendorProductDetail table to assess partnerships and product engagements by the identified companies, which indicate technology adoption trends based on vendor collaborations.",
+      "table": [
+        "CompanyVendorProductDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Review the CompanyFocusAreaDetail table to understand strategic IT focus areas and initiatives, linking them back to the corresponding companies to identify common trends in technology adoption.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Summarize findings and create a report illustrating the technology adoption trends across the identified companies, with supporting charts or data visualizations based on the analyzed data.",
+      "table": []
+    }
+  ]
+}

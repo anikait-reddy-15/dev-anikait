@@ -1,0 +1,4 @@
+{
+  "question": "What are the current technology focus areas for companies in the financial services industry?",
+  "subtasks": "[{'step': 1, 'task': 'Identify all companies operating in the financial services industry.', 'table': ['CompanyInfo']}, {'step': 2, 'task': 'Retrieve the strategic technology focus areas linked to these financial services companies.', 'table': ['CompanyFocusAreaDetail']}, {'step': 3, 'task': 'Gather additional details about these focus areas, including descriptions and associated IT categories.', 'table': ['LookUpValue']}, {'step': 4, 'task': 'Compile a report summarizing the technology focus areas and their significance for the identified companies.', 'table': ['CompanyInfo', 'CompanyFocusAreaDetail']}]}"
+}

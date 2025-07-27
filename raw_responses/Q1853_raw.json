@@ -1,0 +1,4 @@
+{
+  "question": "What are the latest trends in technology focus areas for companies within the IT industry?",
+  "subtasks": "[{\"step\":1,\"task\":\"Identify all companies that are categorized under the IT industry in the CompanyInfo table.\",\"table\":[\"CompanyInfo\"]},{\"step\":2,\"task\":\"Gather the technology focus areas for the identified IT companies from the CompanyFocusAreaDetail table.\",\"table\":[\"CompanyFocusAreaDetail\"]},{\"step\":3,\"task\":\"Compile and analyze the trends in technology focus areas based on the details gathered from the previous step.\",\"table\":[\"CompanyFocusAreaDetail\"]},{\"step\":4,\"task\":\"Summarize findings by correlating technology trends with recent developments or changes in the IT industry using the IndustryITTrend table.\",\"table\":[\"IndustryITTrend\"]}]"
+}

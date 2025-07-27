@@ -1,0 +1,34 @@
+{
+  "question": "What are the current technology focus areas and IT budget allocations of major companies in the cloud computing industry?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify major companies operating in the cloud computing industry based on their industry classification.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Gather detailed financial metrics for these companies, specifically their IT budgets and revenue figures.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Extract the technology focus areas related to cloud computing for the identified companies to understand their strategic priorities.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Compile the overall findings into a report detailing each company's IT budget and specific technology focus areas related to cloud computing.",
+      "table": [
+        "CompanyInfo",
+        "CompanyFocusAreaDetail"
+      ]
+    }
+  ]
+}

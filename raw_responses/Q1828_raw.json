@@ -1,0 +1,4 @@
+{
+  "question": "Identify the top three companies in the technology sector that have the highest revenue and are actively hiring for multiple positions in 2023.",
+  "subtasks": "[{\"step\":1,\"task\":\"Filter companies in the technology sector based on their active status and revenue figures.\",\"table\":[\"CompanyInfo\"]},{\"step\":2,\"task\":\"Identify companies that have active positions listed in the hiring detail table to ascertain their hiring initiatives.\",\"table\":[\"CompanyHiringDetail\"]},{\"step\":3,\"task\":\"Join the filtered technology companies with the hiring details to find the companies actively hiring for multiple roles.\",\"table\":[\"CompanyHiringDetail\",\"CompanyInfo\"]},{\"step\":4,\"task\":\"Sort the active companies by their revenue and take the top three companies to present the final results.\",\"table\":[\"CompanyInfo\"]}]"
+}

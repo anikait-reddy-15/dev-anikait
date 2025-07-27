@@ -1,0 +1,28 @@
+{
+  "question": "What are the current technology focus areas of companies in the finance industry and how are they utilizing social media for engagement?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies operating in the finance industry based on the CompanyInfo table.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Retrieve technology focus areas from the CompanyFocusAreaDetail table for the identified finance companies.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Gather social media engagement metrics from the CompanyFacebookDetail, CompanyTwitterDetail, and CompanyInstagramDetail tables for the same companies.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyTwitterDetail",
+        "CompanyInstagramDetail"
+      ]
+    }
+  ]
+}

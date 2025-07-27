@@ -1,0 +1,4 @@
+{
+  "question": "What are the strategic technology focus areas of companies in the finance industry?",
+  "subtasks": "[{\"step\":1,\"task\":\"Identify all companies in the finance industry from the CompanyInfo table.\",\"table\":[\"CompanyInfo\"]},{\"step\":2,\"task\":\"Retrieve the strategic technology focus areas for the companies identified in Step 1 from the CompanyFocusAreaDetail table.\",\"table\":[\"CompanyFocusAreaDetail\"]},{\"step\":3,\"task\":\"Compile insights or narratives describing the technology initiatives for each finance company from the CompanyLeadershipExcerpt table.\",\"table\":[\"CompanyLeadershipExcerpt\"]},{\"step\":4,\"task\":\"Aggregate the information from Steps 2 and 3 to summarize the trends and focus areas in technology for finance companies.\",\"table\":[\"CompanyFocusAreaDetail\",\"CompanyLeadershipExcerpt\"]}]}"
+}

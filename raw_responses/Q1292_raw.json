@@ -1,0 +1,4 @@
+{
+  "question": "What are the emerging IT trends across various industries in the last year?",
+  "subtasks": "[{\"step\":1,\"task\":\"Identify all industries represented in the IndustryITTrend table.\",\"table\":[\"IndustryITTrend\"]},{\"step\":2,\"task\":\"Filter the IndustryITTrend data for the last year based on the CreatedOn date.\",\"table\":[\"IndustryITTrend\"]},{\"step\":3,\"task\":\"Aggregate the identified trends to summarize the key emerging IT technologies per industry.\",\"table\":[\"IndustryITTrend\"]},{\"step\":4,\"task\":\"Cross-reference the identified trends with the IndustryBusinessTrend table to provide context and insights on business implications.\",\"table\":[\"IndustryBusinessTrend\",\"IndustryITTrend\"]},{\"step\":5,\"task\":\"Present a report summarizing the key trends along with their respective industry insights.\",\"table\":[\"IndustryBusinessTrend\",\"IndustryITTrend\"]}]}"
+}

@@ -1,0 +1,4 @@
+{
+  "question": "How can we analyze the impact of technology partnerships on company revenue across different industries?",
+  "subtasks": "[{'step': 1, 'task': 'Identify companies with active IT partnerships and their respective revenue figures.', 'table': ['CompanyInfo', 'CompanyITPartnerDetail']}, {'step': 2, 'task': 'Segment these companies by their industry to understand distribution.', 'table': ['CompanyInfo', 'CompanyITPartnerDetail']}, {'step': 3, 'task': 'Analyze the revenue metrics before and after establishing partnerships to assess impact.', 'table': ['CompanyInfo', 'CompanyDealMaster']}, {'step': 4, 'task': 'Correlate the revenue changes with the types of technologies/services partnered on.', 'table': ['CompanyTechStack', 'CompanyITPartnerDetail']}, {'step': 5, 'task': 'Summarize findings and present insights on technology partnership effects by industry.', 'table': ['IndustryBusinessTrend', 'CompanyInfo']]}"
+}

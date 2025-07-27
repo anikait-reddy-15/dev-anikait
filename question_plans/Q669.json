@@ -1,0 +1,4 @@
+{
+  "question": "What are the technology focus areas of leading companies in the renewable energy sector?",
+  "subtasks": "[{\"step\":1,\"task\":\"Identify leading companies in the renewable energy sector and retrieve their details such as name, industry and revenue.\",\"table\":[\"CompanyInfo\"]},{\"step\":2,\"task\":\"Extract the technology focus areas for each identified company to understand their strategic initiatives in renewable energy.\",\"table\":[\"CompanyFocusAreaDetail\"]},{\"step\":3,\"task\":\"Gather relevant performance metrics from the CompanyInfo table to assess the impact of these technology focus areas on their revenue and growth potential.\",\"table\":[\"CompanyInfo\"]}]"
+}

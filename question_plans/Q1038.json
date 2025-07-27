@@ -1,0 +1,42 @@
+{
+  "question": "What are the key digital transformation strategies adopted by companies in the technology industry?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify and extract companies categorized under the technology industry from the CompanyInfo table, focusing on their digital transformation strategies.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Gather technology focus area details associated with identified companies using the CompanyFocusAreaDetail table to understand their strategic initiatives.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Compile data on technology services provided to these companies by vendors using the CompanyVendorTechDetail table to analyze vendor engagement in their transformation strategies.",
+      "table": [
+        "CompanyVendorTechDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Analyze leadership statements related to IT focus areas using the CompanyLeadershipExcerpt table to capture insights on digital transformation directions from executives.",
+      "table": [
+        "CompanyLeadershipExcerpt"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Evaluate social media engagement metrics related to digital transformation content using CompanyFacebookDetail, CompanyInstagramDetail, and CompanyTwitterDetail to assess public reception and interest.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyInstagramDetail",
+        "CompanyTwitterDetail"
+      ]
+    }
+  ]
+}

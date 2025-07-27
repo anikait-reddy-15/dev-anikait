@@ -1,0 +1,39 @@
+{
+  "question": "Analyze the technological focus areas and social media engagement of tech companies in the industry.",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify technological focus areas of companies in the tech industry.",
+      "table": [
+        "CompanyFocusAreaDetail",
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Gather social media engagement metrics from Facebook and Instagram for those tech companies.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyInstagramDetail",
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Combine the results of focus areas with social media engagement to analyze trends in tech company priorities.",
+      "table": [
+        "CompanyFocusAreaDetail",
+        "CompanyFacebookDetail",
+        "CompanyInstagramDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Review leadership statements to understand strategic direction in technology for these companies.",
+      "table": [
+        "CompanyLeadershipExcerpt",
+        "CompanyInfo"
+      ]
+    }
+  ]
+}

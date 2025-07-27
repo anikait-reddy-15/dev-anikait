@@ -1,0 +1,4 @@
+{
+  "question": "What are the recent trends in company technology adoption across different industries?",
+  "subtasks": "[{\"step\":1,\"task\":\"Identify the industries of interest for technology adoption trends\",\"table\":[\"IndustryBusinessTrend\",\"IndustryITTrend\"]},{\"step\":2,\"task\":\"Retrieve recent data on company technology usage from the CompanyTechStack table\",\"table\":[\"CompanyTechStack\"]},{\"step\":3,\"task\":\"Analyze the data from the CompanyDealMaster table to correlate technology adoption with vendor contracts in various industries\",\"table\":[\"CompanyDealMaster\"]},{\"step\":4,\"task\":\"Summarize key findings about technology trends observed in different industries based on gathered data\",\"table\":[\"IndustryITTrend\"]}]"
+}

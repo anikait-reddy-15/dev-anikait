@@ -1,0 +1,4 @@
+{
+  "question": "Analyze the social media engagement of various companies and identify trends based on industry.",
+  "subtasks": "[{\"step\":1,\"task\":\"Extract social media profiles and engagement metrics for all companies.\",\"table\":[\"SocialMediaInfo\"]},{\"step\":2,\"task\":\"Extract industry types and detailed metrics related to each company from CompanyInfo table.\",\"table\":[\"CompanyInfo\"]},{\"step\":3,\"task\":\"Combine social media metrics with industry data to identify engagement trends across different industries.\",\"table\":[\"SocialMediaInfo\",\"CompanyInfo\"]},{\"step\":4,\"task\":\"Analyze the extracted data to determine which industries have the highest social media engagement rates.\",\"table\":[\"SocialMediaInfo\",\"CompanyInfo\"]},{\"step\":5,\"task\":\"Generate a report summarizing the findings and trends observed from the analysis.\",\"table\":[\"SocialMediaInfo\",\"CompanyInfo\"]}]}"
+}

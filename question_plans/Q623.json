@@ -1,0 +1,4 @@
+{
+  "question": "Identify the strategic technology focus areas for companies in the 'Finance' industry and analyze their social media presence.",
+  "subtasks": "[{'step': 1, 'task': 'Query the CompanyInfo table to select companies operating in the Finance industry along with their IDs.', 'table': ['CompanyInfo']}, {'step': 2, 'task': 'Use the list of company IDs obtained to query the CompanyFocusAreaDetail table for strategic technology focus areas linked to those companies.', 'table': ['CompanyFocusAreaDetail']}, {'step': 3, 'task': 'With the company IDs, query the SocialMediaInfo table to gather social media engagement metrics for the identified finance companies.', 'table': ['SocialMediaInfo']}, {'step': 4, 'task': 'Compile the findings from the strategic focus areas and social media metrics into a summarized report.', 'table': []}]}"
+}

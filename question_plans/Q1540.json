@@ -1,0 +1,45 @@
+{
+  "question": "What are the current trends in social media engagement across different companies?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Collect social media engagement data across various platforms for each company, including likes, comments, and shares.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyInstagramDetail",
+        "CompanyTwitterDetail",
+        "CompanyYoutubeDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Aggregate the collected metrics to identify overall engagement trends per company over the last year.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyInstagramDetail",
+        "CompanyTwitterDetail",
+        "CompanyYoutubeDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the relationship between engagement levels and company financial metrics such as Revenue and Net Income to understand impact.",
+      "table": [
+        "CompanyInfo",
+        "CompanyFacebookDetail",
+        "CompanyInstagramDetail",
+        "CompanyTwitterDetail",
+        "CompanyYoutubeDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Identify and categorize trending content themes based on the analysis of post types and engagement data across all social media platforms.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyInstagramDetail",
+        "CompanyTwitterDetail"
+      ]
+    }
+  ]
+}

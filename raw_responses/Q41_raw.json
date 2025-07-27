@@ -1,0 +1,4 @@
+{
+  "question": "What are the social media engagement metrics for companies in the technology industry?",
+  "subtasks": "[{\"step\":1,\"task\":\"Identify all companies operating in the technology industry from the CompanyInfo table and extract their IDs and names.\",\"table\":[\"CompanyInfo\"]},{\"step\":2,\"task\":\"Gather social media engagement data across various platforms (Facebook, Instagram, Twitter, YouTube) for the identified technology companies from their respective detail tables.\",\"table\":[\"CompanyFacebookDetail\",\"CompanyInstagramDetail\",\"CompanyTwitterDetail\",\"CompanyYoutubeDetail\"]},{\"step\":3,\"task\":\"Compile and summarize the engagement metrics (likes, comments, reposts, views) by company to provide an overview of social media presence and performance for the technology industry.\",\"table\":[\"CompanyFacebookDetail\",\"CompanyInstagramDetail\",\"CompanyTwitterDetail\",\"CompanyYoutubeDetail\"]}]"
+}

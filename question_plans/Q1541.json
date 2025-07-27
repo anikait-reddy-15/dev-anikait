@@ -1,0 +1,41 @@
+{
+  "question": "What are the emerging IT trends in the technology industry that companies are adopting?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify the key IT focus areas relevant to the technology industry from the IndustryITTrend table.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Analyze the specific companies that are adopting these trends by cross-referencing IndustryITTrend with CompanyInfo to see which companies align with these IT trends.",
+      "table": [
+        "IndustryITTrend",
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Gather relevant data on the technologies used by these companies by querying the CompanyTechStack table for technology adoption patterns.",
+      "table": [
+        "CompanyTechStack"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Compile insights on how these trends are reflected in company activities, such as hiring in related fields, using the CompanyHiringDetail table to see talent demand related to emerging IT trends.",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Summarize the overall technological direction of the industry by fetching summaries or reports from the IndustryBusinessTrend table to see strategic initiatives linked to the trends identified.",
+      "table": [
+        "IndustryBusinessTrend"
+      ]
+    }
+  ]
+}

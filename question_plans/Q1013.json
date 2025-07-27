@@ -1,0 +1,42 @@
+{
+  "question": "Extract insights regarding the technology adoption trends across different industries over the last two years.",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify the relevant industries to analyze technology trends from the IndustryITTrend table.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Filter technology trends from the IndustryITTrend table that were marked active in the last two years.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Gather insights from the CompanyTechStack table to see which technologies companies are adopting and correlate with the identified trends from the previous step.",
+      "table": [
+        "CompanyTechStack"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Analyze the relationship between technology adoption and company performance by extracting metrics like Revenue and NetIncome from the CompanyInfo table.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Compile findings into a comprehensive report to highlight key observations on technology adoption trends and their impact on industry performance.",
+      "table": [
+        "IndustryITTrend",
+        "CompanyTechStack",
+        "CompanyInfo"
+      ]
+    }
+  ]
+}

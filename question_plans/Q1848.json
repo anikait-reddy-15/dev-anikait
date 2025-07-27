@@ -1,0 +1,44 @@
+{
+  "question": "Analyze the current social media engagement strategies of companies across various industries and geographic regions.",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify the companies and their respective industries and geographic regions.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Gather social media engagement metrics from different platforms (Facebook, Instagram, Twitter, YouTube) for each company.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyInstagramDetail",
+        "CompanyTwitterDetail",
+        "CompanyYoutubeDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the gathered data to identify trends in engagement strategies based on industry and region.",
+      "table": [
+        "CompanyInfo",
+        "CompanyFacebookDetail",
+        "CompanyInstagramDetail",
+        "CompanyTwitterDetail",
+        "CompanyYoutubeDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Compile a summary report of the analysis, highlighting the top-performing companies and their engagement tactics.",
+      "table": [
+        "CompanyInfo",
+        "CompanyFacebookDetail",
+        "CompanyInstagramDetail",
+        "CompanyTwitterDetail",
+        "CompanyYoutubeDetail"
+      ]
+    }
+  ]
+}

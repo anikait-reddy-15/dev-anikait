@@ -1,0 +1,4 @@
+{
+  "question": "What are the current IT focus areas for companies in the technology industry?",
+  "subtasks": "[{\"step\":1,\"task\":\"Identify all companies operating in the technology industry from CompanyInfo table.\",\"table\":[\"CompanyInfo\"]},{\"step\":2,\"task\":\"Gather the IT focus areas linked to the identified companies from the CompanyFocusAreaDetail table.\",\"table\":[\"CompanyFocusAreaDetail\"]},{\"step\":3,\"task\":\"Compile a summary of the IT focus areas including detailed descriptions and their respective companies.\",\"table\":[\"CompanyFocusAreaDetail\",\"CompanyInfo\"]}]"
+}

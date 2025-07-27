@@ -1,0 +1,52 @@
+{
+  "question": "Identify key social media engagement metrics for companies in the technology sector",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Select technology sector companies from the CompanyInfo table",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Join the CompanyInfo table with the SocialMediaInfo table to gather overall social media presence and engagement counts for each company",
+      "table": [
+        "CompanyInfo",
+        "SocialMediaInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Join the detailed social media engagement tables (CompanyFacebookDetail, CompanyInstagramDetail, CompanyTwitterDetail, CompanyYoutubeDetail) to extract specific metrics like likes, shares, comments, and engagement rates",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyInstagramDetail",
+        "CompanyTwitterDetail",
+        "CompanyYoutubeDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Filter and aggregate the engagement metrics to identify trends or average engagement across companies in the technology sector",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyInstagramDetail",
+        "CompanyTwitterDetail",
+        "CompanyYoutubeDetail"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Generate a summary report of the findings including top performing companies based on social media engagement",
+      "table": [
+        "CompanyInfo",
+        "SocialMediaInfo",
+        "CompanyFacebookDetail",
+        "CompanyInstagramDetail",
+        "CompanyTwitterDetail",
+        "CompanyYoutubeDetail"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+{
+  "question": "What companies are experiencing growth in hiring and investment in technology?",
+  "subtasks": "[{\"step\":1,\"task\":\"Identify companies with active hiring details and their respective job roles.\" ,\"table\":[\"CompanyHiringDetail\"]},{\"step\":2,\"task\":\"Retrieve financial metrics such as revenue and IT budget for identified companies to assess their investment capabilities.\" ,\"table\":[\"CompanyInfo\"]},{\"step\":3,\"task\":\"Examine the technology focus areas for these companies to determine the technologies they are investing in and their strategic direction.\",\"table\":[\"CompanyFocusAreaDetail\"]},{\"step\":4,\"task\":\"Analyze hiring trends by region or industry to identify patterns in technology roles across the companies.\",\"table\":[\"CompanyHiringDetail\",\"CompanyInfo\"]}]"
+}

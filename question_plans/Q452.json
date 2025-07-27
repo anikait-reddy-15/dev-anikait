@@ -1,0 +1,4 @@
+{
+  "question": "Identify the top three companies in the cloud computing industry based on their revenue and market capitalization, and analyze their IT budget and focus areas related to cloud technologies.",
+  "subtasks": "[{\"step\":1,\"task\":\"Query the CompanyInfo table to filter companies in the cloud computing industry and select their revenue and market capitalization metrics.\",\"table\":[\"CompanyInfo\"]},{\"step\":2,\"task\":\"Sort the filtered companies by revenue and market capitalization to identify the top three companies in the cloud computing sector.\",\"table\":[\"CompanyInfo\"]},{\"step\":3,\"task\":\"Retrieve the IT budget and technology focus areas related to cloud computing for the identified top three companies by joining with CompanyFocusAreaDetail and filtering for relevant focus areas.\",\"table\":[\"CompanyInfo\",\"CompanyFocusAreaDetail\"]}]"
+}

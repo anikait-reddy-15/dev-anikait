@@ -1,0 +1,4 @@
+{
+  "question": "Identify the top 5 companies in the technology sector based on their market capitalization and analyze their hiring trends in the last 6 months.",
+  "subtasks": "[{'step': 1, 'task': 'Query the CompanyInfo table to retrieve company names and market capitalization for technology industry companies.', 'table': ['CompanyInfo']}, {'step': 2, 'task': 'Filter the retrieved companies by market capitalization and sort them to identify the top 5.', 'table': ['CompanyInfo']}, {'step': 3, 'task': 'Cross-reference the top 5 companies with the CompanyHiringDetail table to extract hiring data for the last 6 months.', 'table': ['CompanyHiringDetail']}, {'step': 4, 'task': 'Analyze the hiring data to identify the roles and domains hiring trends within these companies.', 'table': ['CompanyHiringDetail']}, {'step': 5, 'task': 'Compile the results and present the analysis of hiring trends alongside the selected companies.', 'table': []}]}"
+}

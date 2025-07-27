@@ -1,0 +1,4 @@
+{
+  "question": "What are the emerging IT trends across different industries and which companies are adopting them?",
+  "subtasks": "1. Identify the emerging IT trends for various industries from the IndustryITTrend table. 2. Analyze company-specific data from the CompanyTechStack to determine which technologies each company is adopting related to the identified trends. 3. Cross-reference the companies from the CompanyInfo table with their respective industry types to compile a comprehensive list of companies aligning with current IT trends."
+}

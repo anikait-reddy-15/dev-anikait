@@ -1,0 +1,33 @@
+{
+  "question": "What are the current IT hiring trends across different companies in the technology sector?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify active companies in the technology sector and retrieve their details such as Name, Industry, and Active status from the CompanyInfo table.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Fetch active hiring details including job roles, skill requirements, and cities from the CompanyHiringDetail table and link them to the corresponding companies from step 1.",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Aggregate the collected hiring data to analyze trends in job roles, required skills, and geographic distribution across the technology sector.",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Cross-reference the hiring trends with the CompanyFocusAreaDetail to determine if hiring aligns with current IT focus areas like cloud computing, AI, or cybersecurity.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+{
+  "question": "What are the major technology trends adopted by companies in the finance industry over the past year?",
+  "subtasks": "[{\"step\":1,\"task\":\"Identify companies in the finance industry from the CompanyInfo table.\",\"table\":[\"CompanyInfo\"]},{\"step\":2,\"task\":\"Extract the technology trends adopted by these companies from the CompanyTechStack table.\",\"table\":[\"CompanyTechStack\"]},{\"step\":3,\"task\":\"Cross-reference the extracted trends with the CompanyDealMaster table to determine if these trends were part of recent B2B contracts in the past year.\",\"table\":[\"CompanyDealMaster\"]},{\"step\":4,\"task\":\"Compile a summary report detailing the technology trends identified along with their associated companies and contracts.\",\"table\":[\"CompanyInfo\",\"CompanyTechStack\",\"CompanyDealMaster\"]}]"
+}

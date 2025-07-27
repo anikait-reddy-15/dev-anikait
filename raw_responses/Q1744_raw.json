@@ -1,0 +1,4 @@
+{
+  "question": "Analyze the current IT budget distribution and its correlation with the company's technology adoption and hiring trends.",
+  "subtasks": "[{\"step\":1,\"task\":\"Retrieve the current IT budget for each company from the CompanyInfo table.\",\"table\":[\"CompanyInfo\"]},{\"step\":2,\"task\":\"Gather data on recent technology adopted by companies from the CompanyTechStack table to identify which technologies are currently being utilized.\",\"table\":[\"CompanyTechStack\"]},{\"step\":3,\"task\":\"Collect hiring detail from the CompanyHiringDetail table to evaluate how hiring trends correspond with the IT budget and technology adoption.\",\"table\":[\"CompanyHiringDetail\"]},{\"step\":4,\"task\":\"Analyze the relationships among IT budget, technology adoption, and hiring trends to provide insights into the effectiveness of IT investments.\",\"table\":[\"CompanyInfo\",\"CompanyTechStack\",\"CompanyHiringDetail\"]}]"
+}

@@ -1,0 +1,4 @@
+{
+  "question": "What are the technology trends in different industries based on current company data?",
+  "subtasks": "[{\"step\":1,\"task\":\"Identify the major industries available in the CompanyInfo table and make a list of them.\",\"table\":[\"CompanyInfo\"]},{\"step\":2,\"task\":\"Extract emerging IT trends and technology focus areas from the IndustryITTrend table related to the identified industries.\",\"table\":[\"IndustryITTrend\"]},{\"step\":3,\"task\":\"Analyze the CompanyTechStack table to find specific technologies currently being adopted by companies across these industries.\",\"table\":[\"CompanyTechStack\"]},{\"step\":4,\"task\":\"Compile and summarize the insights gathered from the IndustryITTrend and CompanyTechStack into a cohesive report that outlines the technology trends per industry.\",\"table\":[\"CompanyInfo\",\"IndustryITTrend\",\"CompanyTechStack\"]}]}"
+}

@@ -1,0 +1,4 @@
+{
+  "question": "What are the top companies in the technology sector based on their IT budget and revenue?",
+  "subtasks": "[\n    {\n        \"step\": 1,\n        \"task\": \"Identify all companies operating in the technology sector by filtering the Industry column in the CompanyInfo table.\",\n        \"table\": [\"CompanyInfo\"]\n    },\n    {\n        \"step\": 2,\n        \"task\": \"Retrieve the IT budget and revenue for the identified technology companies from the CompanyInfo table.\",\n        \"table\": [\"CompanyInfo\"]\n    },\n    {\n        \"step\": 3,\n        \"task\": \"Sort the companies based on their IT budget and revenue to find the top performers.\",\n        \"table\": [\"CompanyInfo\"]\n    },\n    {\n        \"step\": 4,\n        \"task\": \"Create a summary report that includes company names, IT budgets, and revenues for the top technology companies.\",\n        \"table\": [\"CompanyInfo\"]\n    }\n]"
+}

@@ -1,0 +1,43 @@
+{
+  "question": "What are the current trends in technology adoption among companies across various industries?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify the key technology focus areas being adopted by companies, such as AI, IoT, and Blockchain.",
+      "table": [
+        "CompanyFocusAreaDetail",
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Analyze current hiring trends to see which technology roles are in demand across companies in different industries.",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Gather data on recent vendor partnerships related to new technology solutions adopted by companies.",
+      "table": [
+        "CompanyITPartnerDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Look at social media engagement metrics from companies to see how they are communicating their technology initiatives and strategies.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyInstagramDetail",
+        "CompanyTwitterDetail"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Analyze financial metrics (like IT budget and revenue) to correlate technology adoption with financial performance across industries.",
+      "table": [
+        "CompanyInfo"
+      ]
+    }
+  ]
+}

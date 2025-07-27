@@ -1,0 +1,4 @@
+{
+  "question": "What are the current technology focus areas for top companies in the IT industry?",
+  "subtasks": "[{\"step\":1,\"task\":\"Identify and retrieve all companies operating in the IT industry and their associated metadata such as IT budget, strength, and revenue.\",\"table\":[\"CompanyInfo\"]},{\"step\":2,\"task\":\"Gather technology focus area details linked to each company identified in step 1 to understand their strategic initiatives in technology.\",\"table\":[\"CompanyFocusAreaDetail\"]},{\"step\":3,\"task\":\"Compile and summarize technology focus areas, highlighting specific initiatives, investments, and partnerships for each company in the IT industry.\",\"table\":[\"CompanyFocusAreaDetail\"]},{\"step\":4,\"task\":\"Analyze the overall trends in technology focus areas across the identified IT companies, comparing their strategies and priorities.\",\"table\":[\"IndustryITTrend\",\"CompanyFocusAreaDetail\"]}]"
+}

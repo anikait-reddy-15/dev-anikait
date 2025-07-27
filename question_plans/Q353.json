@@ -1,0 +1,4 @@
+{
+  "question": "What are the current technology focus areas and IT priorities of major companies in the automotive industry?",
+  "subtasks": "[{\"step\":1,\"task\":\"Identify all companies operating in the automotive industry from the CompanyInfo table.\",\"table\":[\"CompanyInfo\"]},{\"step\":2,\"task\":\"Retrieve the strategic technology focus areas for the identified automotive companies from the CompanyFocusAreaDetail table.\",\"table\":[\"CompanyFocusAreaDetail\"]},{\"step\":3,\"task\":\"Gather information on active IT partner relationships for these automotive companies from the CompanyITPartnerDetail table to understand their IT collaborations.\",\"table\":[\"CompanyITPartnerDetail\"]},{\"step\":4,\"task\":\"Compile the insights into a structured report summarizing the technology focus areas and partners relevant to the automotive industry.\",\"table\":[\"CompanyFocusAreaDetail\",\"CompanyITPartnerDetail\"]}]}"
+}

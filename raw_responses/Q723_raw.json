@@ -1,0 +1,4 @@
+{
+  "question": "Retrieve insights into companies' hiring initiatives in the technology sector",
+  "subtasks": "[{\"step\": 1,\"task\": \"Identify technology-related domains from the hiring detail table.\",\"table\": [\"CompanyHiringDetail\"]},{\"step\": 2,\"task\": \"Gather active hiring positions within the identified technology domains.\",\"table\": [\"CompanyHiringDetail\"]},{\"step\": 3,\"task\": \"Compile company information related to active hiring initiatives to understand which companies are expanding their tech staff.\",\"table\": [\"CompanyInfo\",\"CompanyHiringDetail\"]},{\"step\": 4,\"task\": \"Analyze demographic data of hired positions including designations and locations to identify trends.\",\"table\": [\"CompanyHiringDetail\"]},{\"step\": 5,\"task\": \"Summarize insights and prepare a report on companies' hiring trends in the technology sector.\",\"table\": [\"CompanyInfo\",\"CompanyHiringDetail\"]}]}"
+}

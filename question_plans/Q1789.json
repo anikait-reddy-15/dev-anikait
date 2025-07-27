@@ -1,0 +1,43 @@
+{
+  "question": "Analyze the impact of social media engagement on company revenue across different industries.",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify and retrieve data on company revenue and industry from the CompanyInfo table.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Fetch social media engagement metrics from the SocialMediaInfo table, linking them with the CompanyInfo table to gather insights on presence on different platforms.",
+      "table": [
+        "SocialMediaInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Join the retrieved revenue data with social media engagement metrics to analyze correlations between engagement levels and revenue for each industry.",
+      "table": [
+        "CompanyInfo",
+        "SocialMediaInfo"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Group the data by industry to summarize the average revenue and engagement levels, identifying trends across different sectors.",
+      "table": [
+        "CompanyInfo",
+        "SocialMediaInfo"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Prepare a final report or visualization that highlights the findings, showing how social media engagement correlates with revenue by industry.",
+      "table": [
+        "CompanyInfo",
+        "SocialMediaInfo"
+      ]
+    }
+  ]
+}

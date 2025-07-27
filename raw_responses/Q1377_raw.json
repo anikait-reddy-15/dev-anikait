@@ -1,0 +1,4 @@
+{
+  "question": "What are the current trends in technology adoption across different industries?",
+  "subtasks": "[{'step': 1, 'task': 'Identify the industry types present in the database.', 'table': ['IndustryITTrend']}, {'step': 2, 'task': 'Collect data on specific technology trends corresponding to each industry.', 'table': ['IndustryITTrend']}, {'step': 3, 'task': 'Analyze the focus areas and strategic technology initiatives among companies within each industry.', 'table': ['CompanyFocusAreaDetail', 'IndustryBusinessTrend']}, {'step': 4, 'task': 'Summarize the findings to understand emerging technology adoption trends.', 'table': []}]"
+}

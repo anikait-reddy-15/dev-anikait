@@ -1,0 +1,38 @@
+{
+  "question": "What are the emerging IT trends in the healthcare industry and which companies are actively investing in these technologies?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify the healthcare industry type from the IndustryITTrend table and extract relevant trends related to IT technologies such as AI, IoT, and blockchain.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Query the CompanyInfo table to find companies operating in the healthcare industry to understand their technological investments and focus areas.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the CompanyFocusAreaDetail table to extract details on specific IT focus areas for the identified healthcare companies, particularly those investing in emerging technologies.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Correlate findings with CompanyDealMaster to understand any B2B technology service contracts that healthcare companies have signed regarding emerging IT technologies.",
+      "table": [
+        "CompanyDealMaster"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Compile the insights into a structured report highlighting the trends, major players, and their respective technological investments in the healthcare sector.",
+      "table": []
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "question": "How can we analyze the technology adoption trends among companies in the healthcare industry?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify all companies operating within the healthcare industry and gather their metadata, including their focus on technology and innovations.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Retrieve and compile the technological stack used by each identified company to understand their adoption of various platforms and tools.",
+      "table": [
+        "CompanyTechStack"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Examine the strategic technology focus areas mentioned by each company to analyze specific tech trends such as AI, blockchain, or cloud computing.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Analyze the deals and partnerships related to technology between vendors and healthcare companies to gauge the level of external tech adoption and collaboration.",
+      "table": [
+        "CompanyDealMaster",
+        "CompanyITPartnerDetail"
+      ]
+    }
+  ]
+}

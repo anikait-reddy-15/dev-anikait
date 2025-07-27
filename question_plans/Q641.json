@@ -1,0 +1,4 @@
+{
+  "question": "What are the recent technology trends impacting companies in the healthcare industry?",
+  "subtasks": "[{\"step\":1,\"task\":\"Identify all companies within the healthcare industry using the CompanyInfo table.\",\"table\":[\"CompanyInfo\"]},{\"step\":2,\"task\":\"Fetch the latest entries related to technology trends specifically for the healthcare industry from the IndustryITTrend table.\",\"table\":[\"IndustryITTrend\"]},{\"step\":3,\"task\":\"Analyze which companies are actively adopting the identified technology trends by cross-referencing entries from the CompanyVendorTechDetail table that relate to the trends found in the previous step.\",\"table\":[\"CompanyVendorTechDetail\"]},{\"step\":4,\"task\":\"Determine if there are any recent deals or partnerships that align with these technology trends by checking the CompanyITPartnerDetail table for relevant partnerships involving healthcare companies.\",\"table\":[\"CompanyITPartnerDetail\"]}]"
+}

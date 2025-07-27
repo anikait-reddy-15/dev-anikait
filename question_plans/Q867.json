@@ -1,0 +1,33 @@
+{
+  "question": "What are the current hiring trends in the technology sector in terms of job roles and geographic distribution?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify technology companies currently hiring and gather active listings and positions being advertised.",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Analyze the collected hiring data to determine the most common job roles within the technology sector.",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Map the geographic distribution of the identified job roles to visualize regional hiring trends.",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Summarize the analysis of job roles and geographic distribution to report on overall hiring trends in the technology sector.",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    }
+  ]
+}

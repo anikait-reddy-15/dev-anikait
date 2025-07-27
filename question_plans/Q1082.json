@@ -1,0 +1,41 @@
+{
+  "question": "Analyze the current social media engagement for companies in the tech industry and identify trends in their tech investment strategies based on social interactions.",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Retrieve a list of active companies in the tech industry along with their social media engagement metrics.",
+      "table": [
+        "CompanyInfo",
+        "SocialMediaInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Gather detailed engagement data from social media platforms (Facebook, Twitter, Instagram, and YouTube) for the identified companies.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyTwitterDetail",
+        "CompanyInstagramDetail",
+        "CompanyYoutubeDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the tech investment strategies of these companies by reviewing their IT budget, focus areas, and partnerships.",
+      "table": [
+        "CompanyTechStack",
+        "CompanyITPartnerDetail",
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Identify trends and correlations between social media engagement levels and tech investment strategies across the collected data.",
+      "table": [
+        "CompanyInfo",
+        "CompanyFocusAreaDetail",
+        "SocialMediaInfo"
+      ]
+    }
+  ]
+}

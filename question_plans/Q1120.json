@@ -1,0 +1,35 @@
+{
+  "question": "What are the current tech investment trends and hiring initiatives of major companies in the IT sector?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify major companies in the IT sector by querying relevant data from the CompanyInfo table, focusing on those with active status and significant IT budgets.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Analyze the IT focus areas of these companies by extracting data from the CompanyFocusAreaDetail table, looking specifically at the strategic technology initiatives they are undertaking.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Compile the hiring initiatives of these major companies by querying the CompanyHiringDetail table to understand the demand for specific job roles in the IT sector.",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Aggregate the collected data to identify common technology investments and hiring trends across the selected companies, providing analysis on how these reflect overall market directions.",
+      "table": [
+        "CompanyInfo",
+        "CompanyFocusAreaDetail",
+        "CompanyHiringDetail"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+{
+  "question": "What are the emerging IT trends among different industries, and how are companies responding to these trends?",
+  "subtasks": "[{'step': 1, 'task': 'Identify and list the emerging IT trends for each industry from the IndustryITTrend table.', 'table': ['IndustryITTrend']}, {'step': 2, 'task': 'Gather information on how companies are addressing these trends by analyzing their technology focus areas from the CompanyFocusAreaDetail table.', 'table': ['CompanyFocusAreaDetail']}, {'step': 3, 'task': 'Review any relevant contracts or deals that focus on emerging IT technologies from the CompanyDealMaster table.', 'table': ['CompanyDealMaster']}, {'step': 4, 'task': 'Analyze the social media engagement of companies regarding these IT trends using the CompanyFacebookDetail, CompanyTwitterDetail, and CompanyInstagramDetail.', 'table': ['CompanyFacebookDetail', 'CompanyTwitterDetail', 'CompanyInstagramDetail']}]}"
+}

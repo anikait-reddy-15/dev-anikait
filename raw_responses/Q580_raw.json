@@ -1,0 +1,4 @@
+{
+  "question": "Identify companies with the highest market capitalization in the technology industry based on their operational and financial metrics.",
+  "subtasks": "[{'step': 1, 'task': 'Fetch all companies from the CompanyInfo table filtered by the Technology industry.', 'table': ['CompanyInfo']}, {'step': 2, 'task': 'Sort the fetched companies by MarketCapitalization in descending order.', 'table': ['CompanyInfo']}, {'step': 3, 'task': 'Select the top N companies with the highest market capitalization.', 'table': ['CompanyInfo']}]}"
+}

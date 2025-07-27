@@ -1,0 +1,40 @@
+{
+  "question": "How are companies leveraging social media to improve their brand engagement?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies with significant social media presence by retrieving data from the SocialMediaInfo table, focusing on engagement counts on various platforms.",
+      "table": [
+        "SocialMediaInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Analyze specific social media metrics (likes, comments, shares) by querying the respective Facebook, Instagram, Twitter, and YouTube details from the related tables to assess engagement levels.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyInstagramDetail",
+        "CompanyTwitterDetail",
+        "CompanyYoutubeDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Gather insights on recent posts and audience interactions from the CompanyFacebookDetail, CompanyInstagramDetail, CompanyTwitterDetail, and CompanyYoutubeDetail to evaluate engagement trends over time.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyInstagramDetail",
+        "CompanyTwitterDetail",
+        "CompanyYoutubeDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Link the social media data to each company's overall profile from the CompanyInfo table to understand the relationship between social media involvement and the companies' core business metrics.",
+      "table": [
+        "CompanyInfo",
+        "SocialMediaInfo"
+      ]
+    }
+  ]
+}

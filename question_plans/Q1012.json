@@ -1,0 +1,40 @@
+{
+  "question": "What are the current hiring trends among technology companies in the software development industry?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify all active technology companies in the software development industry and gather their profile data.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract active job positions and associated details from the hiring initiatives of the identified software development companies.",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the geographical distribution and skill requirements of the hiring initiatives to determine trends in technology roles being sought.",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Summarize common technologies being adopted by these companies and correlate them with the hiring trends.",
+      "table": [
+        "CompanyTechStack"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Compile the findings into a report detailing the hiring trends, including popular roles, skill sets required, and regional insights.",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    }
+  ]
+}

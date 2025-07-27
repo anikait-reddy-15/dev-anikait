@@ -1,0 +1,4 @@
+{
+  "question": "What are the key technology trends and hiring initiatives among top companies in the cloud computing industry?",
+  "subtasks": "[{\"step\":1,\"task\":\"Identify all companies operating in the cloud computing industry and gather their basic information such as name, revenue, and IT budget.\",\"table\":[\"CompanyInfo\"]},{\"step\":2,\"task\":\"Extract the strategic technology focus areas of these companies, particularly their investments and initiatives in cloud computing.\",\"table\":[\"CompanyFocusAreaDetail\"]},{\"step\":3,\"task\":\"Analyze the hiring details of these companies to identify the technology roles and domains for which they are currently hiring within the cloud computing sector.\",\"table\":[\"CompanyHiringDetail\"]},{\"step\":4,\"task\":\"Compile and summarize the technology trends and hiring patterns with respect to cloud computing in the identified companies.\",\"table\":[\"CompanyTechStack\",\"CompanyHiringDetail\"]}]}"
+}

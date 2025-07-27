@@ -1,0 +1,4 @@
+{
+  "question": "What are the latest technology trends adopted by companies in the industry of artificial intelligence?",
+  "subtasks": "[{\"step\":1,\"task\":\"Identify and list all companies operating in the artificial intelligence industry.\",\"table\":[\"CompanyInfo\"]},{\"step\":2,\"task\":\"Retrieve and analyze the technology stack used by these companies, focusing on recent technology adoption.\",\"table\":[\"CompanyTechStack\"]},{\"step\":3,\"task\":\"Examine industry IT trends related to artificial intelligence to understand overarching trends and insights.\",\"table\":[\"IndustryITTrend\"]},{\"step\":4,\"task\":\"Compile findings and identify significant technology implementations by the companies in the artificial intelligence sector.\",\"table\":[\"CompanyVendorTechDetail\"]}]"
+}

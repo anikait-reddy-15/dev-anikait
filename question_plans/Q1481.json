@@ -1,0 +1,43 @@
+{
+  "question": "What are the current technology adoption trends among leading companies in the software industry?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify leading companies in the software industry and gather their core information such as revenue, market capitalization, and IT budget from the CompanyInfo table.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Research the technologies adopted by these companies by collecting data from the CompanyTechStack table to ascertain which platforms and tools are currently in use.",
+      "table": [
+        "CompanyTechStack"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the strategic technology focus areas of these companies by extracting insights from the CompanyFocusAreaDetail table, detailing their initiatives in IT domains like AI, cloud computing, and automation.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Investigate vendor relationships and partnerships of leading companies by utilizing the CompanyITPartnerDetail table to understand their collaborative technology implementations.",
+      "table": [
+        "CompanyITPartnerDetail"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Summarize the findings into a report that outlines the trends in technology adoption, including common technologies, focus areas, and partnership strategies among these companies.",
+      "table": [
+        "CompanyInfo",
+        "CompanyTechStack",
+        "CompanyFocusAreaDetail",
+        "CompanyITPartnerDetail"
+      ]
+    }
+  ]
+}

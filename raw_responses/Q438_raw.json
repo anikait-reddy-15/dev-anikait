@@ -1,0 +1,4 @@
+{
+  "question": "What are the current technology focus areas of leading companies in the IT industry?",
+  "subtasks": "[{\"step\":1,\"task\":\"Identify leading companies in the IT industry based on revenue and market capitalization\",\"table\":[\"CompanyInfo\"]},{\"step\":2,\"task\":\"Retrieve technology focus areas of the identified companies from the CompanyFocusAreaDetail table\",\"table\":[\"CompanyFocusAreaDetail\"]},{\"step\":3,\"task\":\"Gather leadership statements or excerpts related to the focus areas for understanding company priorities\",\"table\":[\"CompanyLeadershipExcerpt\"]},{\"step\":4,\"task\":\"Compile and aggregate the data to create a summary of technology focus areas and leadership insights for the report\",\"table\":[\"CompanyInfo\",\"CompanyFocusAreaDetail\",\"CompanyLeadershipExcerpt\"]}]"
+}

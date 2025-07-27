@@ -1,0 +1,27 @@
+{
+  "question": "What are the emerging IT trends across different industries, and how are they impacting companies' strategic focus areas?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify emerging IT trends from the IndustryITTrend table, focusing on the types of technologies being adopted across various industries.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Analyze the strategic focus areas of companies by reviewing data from the CompanyFocusAreaDetail table to understand their technological priorities.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Correlate the trends identified in the first step with the strategic initiatives from the second step, assessing how these emerging IT trends are reflected in companies' focus areas.",
+      "table": [
+        "IndustryITTrend",
+        "CompanyFocusAreaDetail"
+      ]
+    }
+  ]
+}

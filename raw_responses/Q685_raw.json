@@ -1,0 +1,4 @@
+{
+  "question": "Identify the top three companies based on their revenue and analyze their social media presence.",
+  "subtasks": "[{\"step\":1,\"task\":\"Retrieve the top three companies based on their revenue from the CompanyInfo table.\",\"table\":[\"CompanyInfo\"]},{\"step\":2,\"task\":\"Gather social media engagement metrics for the identified top three companies from the SocialMediaInfo and related social media detail tables.\",\"table\":[\"SocialMediaInfo\",\"CompanyFacebookDetail\",\"CompanyTwitterDetail\",\"CompanyInstagramDetail\",\"CompanyYoutubeDetail\"]},{\"step\":3,\"task\":\"Analyze the collected social media data to summarize the engagement metrics such as likes, comments, and shares for each company.\",\"table\":[\"CompanyFacebookDetail\",\"CompanyTwitterDetail\",\"CompanyInstagramDetail\",\"CompanyYoutubeDetail\"]}]"
+}

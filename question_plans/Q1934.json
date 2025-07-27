@@ -1,0 +1,34 @@
+{
+  "question": "What are the current hiring trends in the technology sector, and how are they linked to specific IT focus areas?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify and retrieve data on active hiring initiatives in the technology sector, including job roles, designations, and required skills.",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Gather information on the strategic IT focus areas of companies and link these with the respective hiring initiatives to understand alignment between hiring and focus areas.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the collected data to identify trends in hiring for specific IT focus areas (such as cloud computing, AI, etc.) across the technology sector.",
+      "table": [
+        "CompanyHiringDetail",
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Aggregate and summarize key insights regarding the most in-demand roles and skills within the technology sector based on current hiring trends in line with IT strategies.",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    }
+  ]
+}

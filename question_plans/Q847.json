@@ -1,0 +1,4 @@
+{
+  "question": "What are the current social media engagement metrics for technology companies in the IT sector?",
+  "subtasks": "[{\"step\":1,\"task\":\"Identify all technology companies operating in the IT sector and gather their CompanyInfo data including their unique IDs.\",\"table\":[\"CompanyInfo\"]},{\"step\":2,\"task\":\"For each identified technology company, retrieve their social media engagement metrics from the SocialMediaInfo table, including counts for platforms such as Facebook, LinkedIn, Instagram, and Twitter.\",\"table\":[\"SocialMediaInfo\"]},{\"step\":3,\"task\":\"Compile and analyze the social media metrics to present an overview of engagement across various platforms for the identified companies.\",\"table\":[\"SocialMediaInfo\",\"CompanyInfo\"]}]}"
+}

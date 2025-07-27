@@ -1,0 +1,4 @@
+{
+  "question": "Identify the top 5 companies in the IT industry with the highest market capitalization and analyze their recent social media engagement.",
+  "subtasks": "[{\"step\":1,\"task\":\"Fetch the top 5 companies in the IT industry sorted by Market Capitalization.\",\"table\":[\"CompanyInfo\"]},{\"step\":2,\"task\":\"Retrieve social media engagement metrics (likes, comments, engagement rate) for the identified top 5 companies from all platforms (Facebook, Instagram, Twitter, YouTube).\",\"table\":[\"CompanyFacebookDetail\",\"CompanyInstagramDetail\",\"CompanyTwitterDetail\",\"CompanyYoutubeDetail\"]},{\"step\":3,\"task\":\"Calculate the total engagement metrics for each of the top 5 companies by summing up the likes, comments, and engagement rate from all social media platforms.\",\"table\":[\"CompanyFacebookDetail\",\"CompanyInstagramDetail\",\"CompanyTwitterDetail\",\"CompanyYoutubeDetail\"]}]"
+}

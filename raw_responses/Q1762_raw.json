@@ -1,0 +1,4 @@
+{
+  "question": "What are the current technology focus areas and social media presence metrics for all companies?",
+  "subtasks": "[{\"step\":1,\"task\":\"Fetch the strategic technology focus areas for all companies from the CompanyFocusAreaDetail table.\",\"table\":[\"CompanyFocusAreaDetail\"]},{\"step\":2,\"task\":\"Retrieve the social media presence data for all companies from the SocialMediaInfo table.\",\"table\":[\"SocialMediaInfo\"]},{\"step\":3,\"task\":\"Combine the technology focus areas and social media statistics by matching them with company identifiers to provide an overview for each company.\",\"table\":[\"CompanyFocusAreaDetail\",\"SocialMediaInfo\"]}]"
+}

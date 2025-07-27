@@ -1,0 +1,4 @@
+{
+  "question": "What are the top 5 industries that are currently investing the most in technology based on recent data?",
+  "subtasks": "[{\"step\":1,\"task\":\"Retrieve the investment data from the CompanyInfo table, focusing on ITBudget and Industry columns to get financial metrics and their associated industries.\",\"table\":[\"CompanyInfo\"]},{\"step\":2,\"task\":\"Aggregate the total IT budget for each industry by summing the ITBudget and grouping by Industry to find out which industries have the highest total investments.\",\"table\":[\"CompanyInfo\"]},{\"step\":3,\"task\":\"Sort the aggregated data by total IT budget in descending order and limit the results to the top 5 industries.\",\"table\":[\"CompanyInfo\"]}]"
+}

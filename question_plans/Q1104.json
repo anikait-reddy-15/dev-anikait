@@ -1,0 +1,35 @@
+{
+  "question": "What are the latest trends and technology focus areas across various industries?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify the different industry types present in the database.",
+      "table": [
+        "IndustryBusinessTrend",
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Analyze emerging trends captured in IndustryBusinessTrend table to understand business shifts relevant to specific industries.",
+      "table": [
+        "IndustryBusinessTrend"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Examine the IndustryITTrend table to track how different industries are adopting technologies like AI, IoT, and blockchain processes.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Compile and summarize the insights from both IndustryBusinessTrend and IndustryITTrend to present a comprehensive overview of trends and technology focus areas.",
+      "table": [
+        "IndustryBusinessTrend",
+        "IndustryITTrend"
+      ]
+    }
+  ]
+}

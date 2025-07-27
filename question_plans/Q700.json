@@ -1,0 +1,4 @@
+{
+  "question": "What are the current technology focus areas for companies in the financial services industry?",
+  "subtasks": "[{\"step\":1,\"task\":\"Identify all companies operating in the financial services industry.\",\"table\":[\"CompanyInfo\"]},{\"step\":2,\"task\":\"Gather details about the IT focus areas linked to each identified company.\",\"table\":[\"CompanyFocusAreaDetail\"]},{\"step\":3,\"task\":\"Compile a list of the specific technology trends or focus areas mentioned by the companies in the financial services sector.\",\"table\":[\"CompanyFocusAreaDetail\"]},{\"step\":4,\"task\":\"Summarize the key technology focus areas and any trends evident in the financial services industry based on the gathered data.\",\"table\":[\"CompanyFocusAreaDetail\"]}]"
+}

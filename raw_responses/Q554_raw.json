@@ -1,0 +1,4 @@
+{
+  "question": "What are the current trends in IT focus areas across different companies and industries?",
+  "subtasks": "[{\"step\":1,\"task\":\"Identify and list the unique IT focus areas present in the CompanyFocusAreaDetail table.\",\"table\":[\"CompanyFocusAreaDetail\"]},{\"step\":2,\"task\":\"Gather data on the industries associated with each IT focus area from the IndustryITTrend table.\",\"table\":[\"IndustryITTrend\"]},{\"step\":3,\"task\":\"Analyze and summarize the company-level data from CompanyInfo table to link companies with their respective IT focus areas and trends.\",\"table\":[\"CompanyInfo\",\"CompanyFocusAreaDetail\"]},{\"step\":4,\"task\":\"Compile engagement metrics from social media platforms for companies in relation to their IT focus areas to determine public interest and interaction trends.\",\"table\":[\"CompanyFacebookDetail\",\"CompanyTwitterDetail\",\"CompanyInstagramDetail\",\"CompanyYoutubeDetail\"]}]"
+}

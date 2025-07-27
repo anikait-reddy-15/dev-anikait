@@ -1,0 +1,43 @@
+{
+  "question": "What are the technology adoption trends in the retail industry based on company data?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify all companies that are classified under the retail industry from the CompanyInfo table.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Gather information on the specific technologies adopted by these companies by querying the CompanyTechStack table.",
+      "table": [
+        "CompanyTechStack"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the strategic technology focus areas for the identified retail companies from the CompanyFocusAreaDetail table.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Compile a summary of technology trends based on the technologies and focus areas extracted in previous steps, highlighting key technologies such as e-commerce platforms, automation tools, or data analytics solutions.",
+      "table": [
+        "CompanyTechStack",
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Cross-reference the technology trends with social media engagement data from CompanyFacebookDetail, CompanyTwitterDetail, and CompanyInstagramDetail to assess how these technologies influence market presence and customer engagement.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyTwitterDetail",
+        "CompanyInstagramDetail"
+      ]
+    }
+  ]
+}

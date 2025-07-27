@@ -1,0 +1,36 @@
+{
+  "question": "What are the current IT budgets and initiatives being undertaken by technology companies in the healthcare industry?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify all companies operating in the healthcare industry and their current IT budgets.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Retrieve details of current technology initiatives and focus areas from the healthcare companies identified in step 1.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Gather hiring data related to IT roles within the healthcare companies to understand staffing trends and needs.",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Compile social media engagement metrics to gauge the digital presence of these healthcare companies and their technology campaigns.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyInstagramDetail",
+        "CompanyTwitterDetail",
+        "CompanyYoutubeDetail"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+{
+  "question": "What are the current technology focus areas of our company's partners and how do they align with our own strategic initiatives?",
+  "subtasks": "[{\"step\":1,\"task\":\"Identify the technology focus areas of our company by querying the CompanyFocusAreaDetail table.\",\"table\":[\"CompanyFocusAreaDetail\"]},{\"step\":2,\"task\":\"Retrieve the list of technology partners and their respective focus areas from the CompanyITPartnerDetail table.\",\"table\":[\"CompanyITPartnerDetail\"]},{\"step\":3,\"task\":\"Analyze and compare our company's focus areas with those of our partners to identify alignment or gaps.\",\"table\":[\"CompanyFocusAreaDetail\",\"CompanyITPartnerDetail\"]},{\"step\":4,\"task\":\"Summarize insights on the strategic technology initiatives of both our company and its partners to support future decision-making.\",\"table\":[\"CompanyFocusAreaDetail\",\"CompanyITPartnerDetail\"]}]}"
+}

@@ -1,0 +1,34 @@
+{
+  "question": "What are the key technologies and social media engagement strategies used by companies in the technology industry?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies operating in the technology industry and gather their general information such as revenue, employees, and ownership status.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract technological focus areas of the identified companies to understand their strategic technology investments and initiatives.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Compile social media engagement data (Facebook, Twitter, Instagram, YouTube) for the identified technology companies to analyze their online presence and strategies.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyTwitterDetail",
+        "CompanyInstagramDetail",
+        "CompanyYoutubeDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Analyze the combined data to identify trends in technology adoption and social media strategies among these companies.",
+      "table": []
+    }
+  ]
+}

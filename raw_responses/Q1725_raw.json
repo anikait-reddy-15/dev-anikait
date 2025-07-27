@@ -1,0 +1,4 @@
+{
+  "question": "What are the current hiring trends in the technology sector for companies based in the US?",
+  "subtasks": "[{'step': 1, 'task': 'Retrieve a list of technology companies based in the US and their foundational information.', 'table': ['CompanyInfo']}, {'step': 2, 'task': 'Collect hiring data for the technology companies identified in step 1, focusing on roles and skills required.', 'table': ['CompanyHiringDetail']}, {'step': 3, 'task': 'Analyze the hiring data to identify trends, such as common job titles, required skills, and geographic distribution of job postings.', 'table': ['CompanyHiringDetail']}, {'step': 4, 'task': 'Aggregate findings into a summarized report detailing the hiring trends in the technology sector.', 'table': ['CompanyInfo', 'CompanyHiringDetail']}]}"
+}

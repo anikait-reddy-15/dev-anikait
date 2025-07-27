@@ -1,0 +1,4 @@
+{
+  "question": "What are the emerging technology focus areas and trends for companies in the Finance industry?",
+  "subtasks": "[{\"step\":1,\"task\":\"Retrieve companies categorized under the Finance industry from CompanyInfo table.\",\"table\":[\"CompanyInfo\"]},{\"step\":2,\"task\":\"Identify the strategic technology focus areas specific to the retrieved companies from CompanyFocusAreaDetail table.\",\"table\":[\"CompanyFocusAreaDetail\"]},{\"step\":3,\"task\":\"Analyze and summarize the emerging IT trends related to the Finance industry using the IndustryITTrend table.\",\"table\":[\"IndustryITTrend\"]},{\"step\":4,\"task\":\"Combine the data from CompanyFocusAreaDetail and IndustryITTrend tables to identify trends and focus areas collectively.\",\"table\":[\"CompanyFocusAreaDetail\",\"IndustryITTrend\"]}]"
+}

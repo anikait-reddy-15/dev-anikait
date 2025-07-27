@@ -1,0 +1,35 @@
+{
+  "question": "What are the technology focus areas and social media presence of companies in the cloud computing industry?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify all companies operating in the cloud computing industry by querying the CompanyInfo table for entries with Industry='Cloud Computing'.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Retrieve technology focus areas for the identified companies from the CompanyFocusAreaDetail table, linking it to the CompanyInfo table via CompanyInfoId to ensure relevance to the selected industry.",
+      "table": [
+        "CompanyFocusAreaDetail",
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Extract social media presence data for these companies from the SocialMediaInfo table by matching CompanyInfoId, focusing on engagement metrics and profile URLs across different platforms like Facebook, Twitter, and Instagram.",
+      "table": [
+        "SocialMediaInfo"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Compile and analyze the data obtained to generate insights on the technology focus areas and compare them against social media engagement metrics to understand the correlation between technology priorities and social media presence.",
+      "table": [
+        "CompanyFocusAreaDetail",
+        "SocialMediaInfo"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+{
+  "question": "What are the current social media engagement levels of technology companies in the software industry?",
+  "subtasks": "[{\"step\":1,\"task\":\"Identify technology companies classified under the software industry and retrieve their IDs and names.\",\"table\":[\"CompanyInfo\"]},{\"step\":2,\"task\":\"Gather social media engagement data (likes, comments, engagement metrics) for the identified technology companies from Facebook, Instagram, and Twitter details.\",\"table\":[\"CompanyFacebookDetail\",\"CompanyInstagramDetail\",\"CompanyTwitterDetail\"]},{\"step\":3,\"task\":\"Aggregate the social media engagement metrics to compute total engagement levels for each company across the three platforms.\",\"table\":[\"CompanyFacebookDetail\",\"CompanyInstagramDetail\",\"CompanyTwitterDetail\"]},{\"step\":4,\"task\":\"Compile the results into a summary table showing company names and their respective total engagement levels.\",\"table\":[\"CompanyInfo\"]}]"
+}

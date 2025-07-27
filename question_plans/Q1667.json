@@ -1,0 +1,35 @@
+{
+  "question": "What are the technological focus areas and vendor partnerships of companies within the technology industry?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify all companies operating in the technology industry from the CompanyInfo table.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Retrieve the strategic technology focus areas for these companies from the CompanyFocusAreaDetail table.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Extract information about vendor partnerships and collaborations from the CompanyITPartnerDetail table for the identified companies.",
+      "table": [
+        "CompanyITPartnerDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Compile the data from steps 1 to 3 to create a comprehensive overview of technological focus areas and vendor partnerships for each company.",
+      "table": [
+        "CompanyInfo",
+        "CompanyFocusAreaDetail",
+        "CompanyITPartnerDetail"
+      ]
+    }
+  ]
+}

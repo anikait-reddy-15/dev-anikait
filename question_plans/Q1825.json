@@ -1,0 +1,35 @@
+{
+  "question": "What are the key technology areas that companies are focusing on, and how does this relate to their financial performance?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies and their relevant financial metrics such as Revenue and Net Income from the CompanyInfo table.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract strategic technology focus areas for each company from the CompanyFocusAreaDetail table.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Join the CompanyInfo table with the CompanyFocusAreaDetail table to analyze the relationship between technology focus areas and financial performance.",
+      "table": [
+        "CompanyInfo",
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Summarize the findings by comparing the technology focus areas with the associated financial metrics (like Revenue and Net Income).",
+      "table": [
+        "CompanyInfo",
+        "CompanyFocusAreaDetail"
+      ]
+    }
+  ]
+}

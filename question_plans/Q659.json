@@ -1,0 +1,4 @@
+{
+  "question": "What are the current hiring initiatives by technology companies in the cloud computing industry?",
+  "subtasks": "[{'step': 1, 'task': 'Identify all technology companies that have a focus on cloud computing.', 'table': ['CompanyFocusAreaDetail', 'CompanyInfo']}, {'step': 2, 'task': 'Retrieve the active hiring details for the identified cloud computing companies.', 'table': ['CompanyHiringDetail']}, {'step': 3, 'task': 'Cross-reference hiring details with the corresponding company information for context.', 'table': ['CompanyInfo', 'CompanyHiringDetail']}, {'step': 4, 'task': 'Compile the findings into a structured list showing roles, locations, and company names.', 'table': []}]"
+}

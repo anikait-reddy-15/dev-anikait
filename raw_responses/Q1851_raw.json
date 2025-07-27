@@ -1,0 +1,4 @@
+{
+  "question": "Analyze the technology adoption trends among companies in the financial services industry.",
+  "subtasks": "[{'step': 1, 'task': 'Identify all companies in the financial services industry and gather their operational details.', 'table': ['CompanyInfo']}, {'step': 2, 'task': 'Collect data on the technology stack used by identified financial services companies.', 'table': ['CompanyTechStack']}, {'step': 3, 'task': 'Analyze the technology partnership details for these companies to see collaboration for tech adoption.', 'table': ['CompanyITPartnerDetail']}, {'step': 4, 'task': 'Review industry-level IT trends to provide context on technological focus areas and innovations.', 'table': ['IndustryITTrend']}]}"
+}

@@ -1,0 +1,46 @@
+{
+  "question": "Analyze the social media strategy of companies in the technology sector, focusing on their presence on Facebook, Instagram, and Twitter.",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify and extract metadata about companies operating in the technology sector from the CompanyInfo table, filtering by Industry and Active status.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Gather social media metrics and data for the identified technology companies from the CompanyFacebookDetail, CompanyInstagramDetail, and CompanyTwitterDetail tables to analyze engagement statistics.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyInstagramDetail",
+        "CompanyTwitterDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Aggregate the social media performance data to evaluate the engagement trends for each technology company, including likes, comments, and shares for Facebook and Twitter, and likes and comments for Instagram.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyInstagramDetail",
+        "CompanyTwitterDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Identify successful content strategies based on the engagement metrics collected, looking for correlations between the type of content posted and the level of engagement across social media platforms.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyInstagramDetail",
+        "CompanyTwitterDetail"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Generate a summary report highlighting the engagement levels and content strategies for technology companies based on the analysis conducted, aiming to identify key trends or actionable insights.",
+      "table": [
+        "SocialMediaInfo"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "question": "What are the major technology trends affecting the financial industry and how are companies responding to them?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify major technology trends specific to the financial industry from the IndustryITTrend table, focusing on technology adoption and digital transformation strategies.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Analyze the strategic responses of companies in the financial sector by reviewing their IT Focus Areas from the CompanyFocusAreaDetail table to see what technologies or initiatives they are prioritizing.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Gather insights on company investments and financial metrics from the CompanyInfo table to assess how financial firms are aligning their budgets with the identified technology trends.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Examine collaborations and partnerships within the financial sector by checking the CompanyITPartnerDetail table to understand how companies are leveraging partnerships to address technological challenges.",
+      "table": [
+        "CompanyITPartnerDetail"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Compile a summary report linking the identified trends, company focus areas, financial metrics, and partner collaborations to outline the overall impact of technology trends on the financial industry.",
+      "table": [
+        "IndustryITTrend",
+        "CompanyFocusAreaDetail",
+        "CompanyInfo",
+        "CompanyITPartnerDetail"
+      ]
+    }
+  ]
+}

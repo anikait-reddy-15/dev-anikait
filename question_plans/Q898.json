@@ -1,0 +1,26 @@
+{
+  "question": "What are the current technology focus areas and IT partnerships of companies within the finance industry?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies operating in the finance industry and retrieve their basic information.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "For each identified finance company, gather their specific technology focus areas started or highlighted in the last year.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Retrieve partnership details of these finance companies to understand their IT collaborations with vendors.",
+      "table": [
+        "CompanyITPartnerDetail"
+      ]
+    }
+  ]
+}

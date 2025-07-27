@@ -1,0 +1,42 @@
+{
+  "question": "What are the current technology adoption trends across different industries based on social media engagement?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify technology focus areas currently adopted by companies across various industries.",
+      "table": [
+        "CompanyFocusAreaDetail",
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Gather social media engagement data from Facebook, Twitter, Instagram, and YouTube for relevant companies in the defined industries.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyTwitterDetail",
+        "CompanyInstagramDetail",
+        "CompanyYoutubeDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the social media engagement metrics to determine which technology focus areas are driving the highest engagement across industries.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyTwitterDetail",
+        "CompanyInstagramDetail",
+        "CompanyYoutubeDetail",
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Summarize trends in technology adoption by correlating engagement metrics with technology focus areas across different industries.",
+      "table": [
+        "IndustryITTrend",
+        "CompanyFocusAreaDetail"
+      ]
+    }
+  ]
+}

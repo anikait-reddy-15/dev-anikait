@@ -1,0 +1,33 @@
+{
+  "question": "What are the latest trends in IT across various industries and how do they impact company technology adoption?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify the latest IT trends in different industries by querying the IndustryITTrend table to capture emerging technology focus areas and solutions being adopted.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Analyze technology adoption metrics by reviewing the CompanyTechStack table to assess which companies are utilizing specific technologies related to the identified trends.",
+      "table": [
+        "CompanyTechStack"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Map the relationship between identified trends and company strategies by linking data from CompanyFocusAreaDetail to understand how companies align their initiatives with these trends.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Summarize industry impacts by compiling data from the IndustryBusinessTrend table to understand how these IT trends are shifting overall business strategies within the industries.",
+      "table": [
+        "IndustryBusinessTrend"
+      ]
+    }
+  ]
+}

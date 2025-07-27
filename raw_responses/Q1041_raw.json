@@ -1,0 +1,4 @@
+{
+  "question": "What are the key technology focus areas, social media presence, and financial performance metrics of leading companies in the technology sector?",
+  "subtasks": "[{\"step\":1,\"task\":\"Identify leading companies in the technology sector based on their revenue and market capitalization.\",\"table\":[\"CompanyInfo\"]},{\"step\":2,\"task\":\"Gather the strategic technology focus areas for these leading companies to understand their IT development priorities.\",\"table\":[\"CompanyFocusAreaDetail\"]},{\"step\":3,\"task\":\"Analyze the social media presence of these companies, including their engagement metrics on platforms like Facebook, Twitter, and Instagram.\",\"table\":[\"CompanyFacebookDetail\",\"CompanyTwitterDetail\",\"CompanyInstagramDetail\"]},{\"step\":4,\"task\":\"Extract financial performance metrics such as revenue, net income, and IT budget for the selected companies.\",\"table\":[\"CompanyInfo\"]}]}"
+}

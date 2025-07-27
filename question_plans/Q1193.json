@@ -1,0 +1,34 @@
+{
+  "question": "What are the current technology focus areas and digital transformation trends among leading companies in the financial services industry?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify all companies operating in the financial services industry by querying the CompanyInfo table for relevant industry classifications.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "For the identified financial services companies, gather their specific technology focus areas from the CompanyFocusAreaDetail table to understand their strategic initiatives.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Retrieve any related deals or contracts relevant to technology services in the financial sector from the CompanyDealMaster table to analyze market trends and relationships with vendors.",
+      "table": [
+        "CompanyDealMaster"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Compile data on social media engagement and leadership statements related to the financial services companies to gauge public perception and strategic messaging regarding digital transformation.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyLeadershipExcerpt"
+      ]
+    }
+  ]
+}

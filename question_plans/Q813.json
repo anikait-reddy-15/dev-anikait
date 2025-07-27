@@ -1,0 +1,4 @@
+{
+  "question": "What are the hiring trends of technology companies in the last year?",
+  "subtasks": "[{'step': 1, 'task': 'Identify technology companies active in hiring during the last year.', 'table': ['CompanyHiringDetail', 'CompanyInfo']}, {'step': 2, 'task': 'Analyze the job domains and designations that are most frequently advertised.', 'table': ['CompanyHiringDetail', 'LookUpValue']}, {'step': 3, 'task': 'Determine the geographical locations of these companies to see if there are any patterns.', 'table': ['CompanyHiringDetail', 'CompanyDataCenter']}, {'step': 4, 'task': 'Compare hiring trends across different technology sectors or categories.', 'table': ['CompanyHiringDetail', 'CompanyFocusAreaDetail']}, {'step': 5, 'task': 'Summarize the findings in terms of total job postings, popular designations, and key regions.', 'table': ['CompanyHiringDetail', 'CompanyInfo']}]"
+}

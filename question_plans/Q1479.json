@@ -1,0 +1,26 @@
+{
+  "question": "What are the current IT budget allocations for companies across different industries and how do they correlate with their revenue and net income?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify all companies and their associated IT budget, revenue, and net income.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Group the data by industry to analyze the IT budgets across different sectors.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Calculate the correlation between the IT budget and financial metrics (revenue and net income) for insights into financial performance related to IT spending.",
+      "table": [
+        "CompanyInfo"
+      ]
+    }
+  ]
+}

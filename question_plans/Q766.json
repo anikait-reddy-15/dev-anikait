@@ -1,0 +1,4 @@
+{
+  "question": "What are the current IT focus areas and hiring trends for technology companies in the U.S.?",
+  "subtasks": "[{'step': 1, 'task': 'Identify the top technology companies based in the U.S.', 'table': ['CompanyInfo']},{'step': 2, 'task': 'Extract the IT focus areas for these companies to understand their strategic technology priorities.', 'table': ['CompanyFocusAreaDetail']},{'step': 3, 'task': 'Analyze the hiring trends by reviewing the active hiring initiatives at these companies, focusing on job roles related to technology.', 'table': ['CompanyHiringDetail']},{'step': 4, 'task': 'Compile and summarize the findings from focus areas and hiring trends for a comprehensive overview.', 'table': []}]"
+}

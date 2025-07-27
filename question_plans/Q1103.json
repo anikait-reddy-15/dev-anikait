@@ -1,0 +1,41 @@
+{
+  "question": "Identify current trends in IT focus areas among companies across different industries.",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Gather the list of companies and their associated IT focus areas.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Collect data on the industries of these companies to analyze trends based on sector.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Compile emerging trends in IT from the IndustryITTrend table to provide context for the analysis.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Analyze the relationship between company IT focus areas and the trends identified from IndustryITTrend to find patterns or gaps.",
+      "table": [
+        "CompanyFocusAreaDetail",
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Summarize findings to present an overview of current IT focus areas by industry and highlight significant trends.",
+      "table": [
+        "SectionData"
+      ]
+    }
+  ]
+}

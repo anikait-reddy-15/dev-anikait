@@ -1,0 +1,4 @@
+{
+  "question": "What are the current social media engagement metrics for each company, and how do they correlate with company revenue and IT budget?",
+  "subtasks": "[{\"step\":1,\"task\":\"Retrieve the social media metrics for each company including Facebook, Twitter, Instagram, and YouTube engagement statistics such as likes, comments, and shares.\",\"table\":[\"CompanyFacebookDetail\",\"CompanyTwitterDetail\",\"CompanyInstagramDetail\",\"CompanyYoutubeDetail\"]},{\"step\":2,\"task\":\"Fetch the revenue and IT budget information for all companies to analyze the financial context of their social media engagement.\",\"table\":[\"CompanyInfo\"]},{\"step\":3,\"task\":\"Aggregate the data to identify trends or correlations between social media engagement metrics and financial figures (revenue and IT budget) for each company.\",\"table\":[\"CompanyFacebookDetail\",\"CompanyTwitterDetail\",\"CompanyInstagramDetail\",\"CompanyYoutubeDetail\",\"CompanyInfo\"]}]"
+}

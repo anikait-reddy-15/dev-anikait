@@ -1,0 +1,4 @@
+{
+  "question": "Identify the top three technology focus areas that companies in the finance industry are investing in.",
+  "subtasks": "[{'step': 1, 'task': 'Retrieve all companies in the finance industry from the CompanyInfo table.', 'table': ['CompanyInfo']}, {'step': 2, 'task': 'Gather technology focus area details for the identified companies from the CompanyFocusAreaDetail table.', 'table': ['CompanyFocusAreaDetail']}, {'step': 3, 'task': 'Analyze and group the focus areas to find the top three based on the investment or description details.', 'table': ['CompanyFocusAreaDetail']}]}"
+}

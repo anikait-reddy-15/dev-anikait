@@ -1,0 +1,4 @@
+{
+  "question": "Which companies in the technology sector are currently expanding their IT capabilities and hiring more talent?",
+  "subtasks": "[{\"step\":1,\"task\":\"Identify technology sector companies from the CompanyInfo table with IT budgets indicating growth.\",\"table\":[\"CompanyInfo\"]},{\"step\":2,\"task\":\"Retrieve details of active hiring initiatives from the CompanyHiringDetail table for the identified technology companies.\",\"table\":[\"CompanyHiringDetail\"]},{\"step\":3,\"task\":\"Analyze social media presence by retrieving engagement metrics from CompanyFacebookDetail and CompanyTwitterDetail for the identified companies to assess their market visibility and engagement during their expansion.\",\"table\":[\"CompanyFacebookDetail\",\"CompanyTwitterDetail\"]},{\"step\":4,\"task\":\"Compile and summarize the results to highlight key findings on hiring trends and IT capability expansions across the targeted companies.\",\"table\":[]}]}"
+}

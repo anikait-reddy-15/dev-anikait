@@ -1,0 +1,4 @@
+{
+  "question": "What are the latest trends in technology focus areas among leading companies?",
+  "subtasks": "[{\"step\":1,\"task\":\"Identify leading companies by filtering active companies with substantial IT budgets and IT strengths from the CompanyInfo table.\",\"table\":[\"CompanyInfo\"]},{\"step\":2,\"task\":\"Extract the technology focus areas for these leading companies from the CompanyFocusAreaDetail table, linking them to their respective CompanyInfoId.\",\"table\":[\"CompanyFocusAreaDetail\"]},{\"step\":3,\"task\":\"Analyze the extracted focus areas to identify emerging trends in technology adoption and categorization, possibly grouping by technology domain or investment levels.\",\"table\":[\"CompanyFocusAreaDetail\"]},{\"step\":4,\"task\":\"Cross-reference identified trends with relevant industry-specific IT trends from the IndustryITTrend table to understand broader market implications.\",\"table\":[\"IndustryITTrend\"]}]"
+}

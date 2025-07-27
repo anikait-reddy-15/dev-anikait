@@ -1,0 +1,4 @@
+{
+  "question": "What are the current technology focus areas and hiring trends in the IT industry for the top companies?",
+  "subtasks": "[{\"step\":1,\"task\":\"Identify and list the top companies in the IT industry based on revenue or market capitalization.\",\"table\":[\"CompanyInfo\"]},{\"step\":2,\"task\":\"Gather details about the technology focus areas for the identified top IT companies to understand their strategic initiatives.\",\"table\":[\"CompanyFocusAreaDetail\"]},{\"step\":3,\"task\":\"Collect and analyze active hiring initiatives for these top IT companies, including roles, required skills, and locations to assess hiring trends.\",\"table\":[\"CompanyHiringDetail\"]},{\"step\":4,\"task\":\"Compile and analyze social media activity related to the technology focus areas and hiring announcements for the selected companies.\",\"table\":[\"CompanyFacebookDetail\",\"CompanyTwitterDetail\",\"CompanyInstagramDetail\",\"CompanyYoutubeDetail\"]}]"
+}

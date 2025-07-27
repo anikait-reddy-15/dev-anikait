@@ -1,0 +1,39 @@
+{
+  "question": "Analyze the social media engagement and IT investment trends of companies in the technology industry.",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify all companies in the technology industry along with their IT budget and strength metrics.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Retrieve social media engagement data (including likes, comments, and reposts) from Facebook, Instagram, Twitter, and YouTube for each company identified.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyInstagramDetail",
+        "CompanyTwitterDetail",
+        "CompanyYoutubeDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Aggregate and analyze the social media metrics to determine overall engagement trends per company.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyInstagramDetail",
+        "CompanyTwitterDetail",
+        "CompanyYoutubeDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Compare the aggregated social media engagement metrics against the IT budget and strength metrics to identify patterns and correlations.",
+      "table": [
+        "CompanyInfo"
+      ]
+    }
+  ]
+}

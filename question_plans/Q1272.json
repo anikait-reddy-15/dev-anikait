@@ -1,0 +1,43 @@
+{
+  "question": "What are the current trends and focus areas of top companies in the technology sector?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify the top technology companies based on their market capitalization or revenue metrics.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Gather data on the strategic focus areas for these companies regarding technology investments and innovations.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the technology stacks used by these companies to understand common trends and adopted technologies.",
+      "table": [
+        "CompanyTechStack"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Examine leadership excerpts from these companies to gain insights on their technological strategies and focus areas as articulated by executives.",
+      "table": [
+        "CompanyLeadershipExcerpt"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Compile social media activity related to these companies to determine public engagement and sentiment regarding their technological advancements.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyTwitterDetail",
+        "CompanyInstagramDetail",
+        "CompanyYoutubeDetail"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+{
+  "question": "What are the current technology focus areas for each company, and how are they reflected in their social media engagement?",
+  "subtasks": "[{\"step\":1,\"task\":\"Identify all companies alongside their technology focus areas from the `CompanyFocusAreaDetail` table.\",\"table\":[\"CompanyFocusAreaDetail\"]},{\"step\":2,\"task\":\"Gather social media engagement metrics from all relevant platforms (Facebook, Instagram, Twitter, YouTube) using the corresponding social media detail tables.\",\"table\":[\"CompanyFacebookDetail\",\"CompanyInstagramDetail\",\"CompanyTwitterDetail\",\"CompanyYoutubeDetail\"]},{\"step\":3,\"task\":\"Combine the data from both steps to produce a summary that links each company's technology focus with their social media engagement metrics.\",\"table\":[\"CompanyFocusAreaDetail\",\"CompanyFacebookDetail\",\"CompanyInstagramDetail\",\"CompanyTwitterDetail\",\"CompanyYoutubeDetail\"]}]"
+}

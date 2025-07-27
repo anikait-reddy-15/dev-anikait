@@ -1,0 +1,4 @@
+{
+  "question": "Identify the key technology trends and strategic focus areas adopted by companies in the manufacturing industry over the last year.",
+  "subtasks": "[{\"step\":1,\"task\":\"Retrieve a list of companies operating in the manufacturing industry including their financial metrics and IT budgets.\",\"table\":[\"CompanyInfo\"]},{\"step\":2,\"task\":\"Gather data on the strategic technology focus areas for the identified manufacturing companies to understand their innovations and initiatives.\",\"table\":[\"CompanyFocusAreaDetail\"]},{\"step\":3,\"task\":\"Analyze the emerging IT trends relevant to the manufacturing industry, including technological adoptions like AI, IoT, and automation.\",\"table\":[\"IndustryITTrend\"]},{\"step\":4,\"task\":\"Compile a summary report of the technology trends and focus areas from the data collected in previous steps.\",\"table\":[\"CompanyInfo\",\"CompanyFocusAreaDetail\",\"IndustryITTrend\"]}]"
+}

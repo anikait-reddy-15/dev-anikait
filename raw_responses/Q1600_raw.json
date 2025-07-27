@@ -1,0 +1,4 @@
+{
+  "question": "What are the latest trends in IT for companies in the healthcare industry?",
+  "subtasks": "[{\"step\":1,\"task\":\"Identify the healthcare companies from the CompanyInfo table.\",\"table\":[\"CompanyInfo\"]},{\"step\":2,\"task\":\"Gather recent IT trends from the IndustryITTrend table relevant to the healthcare industry.\",\"table\":[\"IndustryITTrend\"]},{\"step\":3,\"task\":\"Match the identified healthcare companies with their technology focus areas using the CompanyFocusAreaDetail table.\",\"table\":[\"CompanyFocusAreaDetail\"]},{\"step\":4,\"task\":\"Compile and analyze data to summarize key themes and technological innovations among healthcare companies based on the retrieved focus areas and trends.\",\"table\":[\"CompanyFocusAreaDetail\",\"IndustryITTrend\"]}]}"
+}

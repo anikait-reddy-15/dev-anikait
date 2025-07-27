@@ -1,0 +1,35 @@
+{
+  "question": "What are the key IT investment areas for companies in the technology sector, and how do they align with current industry trends?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify all companies within the technology sector from the CompanyInfo table, focusing on their IT budgets and active status.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Gather strategic technology focus areas of the identified companies using the CompanyFocusAreaDetail table to understand their investment priorities.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Extract emerging IT trends affecting the technology sector from the IndustryITTrend table to analyze how these trends align with the identified investment areas.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Compile the data to assess correlations between company IT investment areas and the identified industry trends, highlighting key insights about technological priorities.",
+      "table": [
+        "CompanyInfo",
+        "CompanyFocusAreaDetail",
+        "IndustryITTrend"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "question": "Analyze social media engagement trends for companies in the technology sector over the past year.",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify all companies operating in the technology sector and get their key information including active status, name, and industry type.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Gather social media engagement metrics from various platforms (Facebook, Instagram, Twitter, YouTube) for the identified technology companies over the past year.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyInstagramDetail",
+        "CompanyTwitterDetail",
+        "CompanyYoutubeDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Compile and aggregate engagement metrics (likes, comments, shares) from different social media tables to analyze overall trends in social media activity.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyInstagramDetail",
+        "CompanyTwitterDetail",
+        "CompanyYoutubeDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Prepare a summary report on the engagement trends found, highlighting the most engaging platforms and content types for technology companies.",
+      "table": [
+        "CompanyInfo"
+      ]
+    }
+  ]
+}

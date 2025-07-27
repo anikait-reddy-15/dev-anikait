@@ -1,0 +1,4 @@
+{
+  "question": "How can we analyze the impact of social media engagement on company revenue for the past year?",
+  "subtasks": "[{\"step\":1,\"task\":\"Identify the companies and their corresponding revenue for the past year.\",\"table\":[\"CompanyInfo\"]},{\"step\":2,\"task\":\"Gather social media engagement data (likes, comments) from various platforms for the identified companies over the past year.\",\"table\":[\"CompanyFacebookDetail\",\"CompanyInstagramDetail\",\"CompanyTwitterDetail\",\"CompanyYoutubeDetail\"]},{\"step\":3,\"task\":\"Correlate the social media engagement metrics with the revenue data to analyze trends and impact.\",\"table\":[\"CompanyInfo\",\"CompanyFacebookDetail\",\"CompanyInstagramDetail\",\"CompanyTwitterDetail\",\"CompanyYoutubeDetail\"]}]"
+}

@@ -1,0 +1,4 @@
+{
+  "question": "What are the current technology trends in the finance industry and how are companies adapting?",
+  "subtasks": "[{\"step\":1, \"task\":\"Identify the major technology trends relevant to the finance industry from the IndustryITTrend table.\", \"table\":[\"IndustryITTrend\"]}, {\"step\":2, \"task\":\"Aggregate insights from companies that have adopted these technologies by querying the CompanyTechStack table for relevant entries linked to finance-related companies.\", \"table\":[\"CompanyTechStack\",\"CompanyInfo\"]}, {\"step\":3, \"task\":\"Analyze the partnership engagements and deals related to technology in the finance industry by querying the CompanyITPartnerDetail and CompanyDealMaster tables. \", \"table\":[\"CompanyITPartnerDetail\",\"CompanyDealMaster\"]}]"
+}

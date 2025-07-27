@@ -1,0 +1,4 @@
+{
+  "question": "What are the technology focus areas and social media presence of companies in the tech industry?",
+  "subtasks": "[{\"step\":1,\"task\":\"Identify all companies operating in the tech industry from the CompanyInfo table, focusing on their IT focus areas.\",\"table\":[\"CompanyInfo\",\"CompanyFocusAreaDetail\"]},{\"step\":2,\"task\":\"For the identified companies, extract their social media presence metrics such as engagement counts from the SocialMediaInfo table.\",\"table\":[\"CompanyInfo\",\"SocialMediaInfo\"]},{\"step\":3,\"task\":\"Summarize the data to provide insights into the technology focus areas and social media engagement metrics for companies in the tech industry.\",\"table\":[\"CompanyInfo\",\"CompanyFocusAreaDetail\",\"SocialMediaInfo\"]}]"
+}

@@ -1,0 +1,41 @@
+{
+  "question": "What are the emerging IT trends across various industries, and how are companies aligning their strategies with these trends?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify the latest IT trends relevant across different industries from the IndustryITTrend table.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Gather data on how companies are focusing on specific IT trends from the CompanyFocusAreaDetail table.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the alignment of companies' IT strategies with the identified trends by reviewing the CompanyDealMaster table for technology service contracts related to these trends.",
+      "table": [
+        "CompanyDealMaster"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Summarize the relationship between the trends identified and the active focus areas of companies by merging data from CompanyInfo and CompanyFocusAreaDetail.",
+      "table": [
+        "CompanyInfo",
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Evaluate emerging technology investments by companies from the CompanyVendorProductDetail table to identify strategic alignments with the latest trends.",
+      "table": [
+        "CompanyVendorProductDetail"
+      ]
+    }
+  ]
+}

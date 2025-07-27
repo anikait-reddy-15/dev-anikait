@@ -1,0 +1,32 @@
+{
+  "question": "Identify the social media engagement trends for major technology companies in the last year.",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Extract social media engagement metrics from Facebook, Twitter, Instagram, and YouTube for major technology companies over the last year.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyTwitterDetail",
+        "CompanyInstagramDetail",
+        "CompanyYoutubeDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Analyze the engagement metrics by platform to identify which companies have the highest engagement rates (likes, comments, shares) in the past year.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyTwitterDetail",
+        "CompanyInstagramDetail",
+        "CompanyYoutubeDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Compare the social media engagement trends with the company revenue and market capitalization to assess the correlation between online presence and financial performance.",
+      "table": [
+        "CompanyInfo"
+      ]
+    }
+  ]
+}

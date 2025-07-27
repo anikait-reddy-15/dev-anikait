@@ -1,0 +1,41 @@
+{
+  "question": "Analyze the technology adoption trends across different companies in the IT industry.",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies operating in the IT industry from the CompanyInfo table.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Gather details about the technologies used by these companies from the CompanyTechStack table.",
+      "table": [
+        "CompanyTechStack"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Examine and compile the relationships between technology vendors and companies using CompanyVendorProductDetail and CompanyVendorTechDetail tables.",
+      "table": [
+        "CompanyVendorProductDetail",
+        "CompanyVendorTechDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Analyze the financial metrics associated with these companies to correlate technology adoption with financial performance from the CompanyInfo table.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Gather information on recent deals related to technology services from the CompanyDealMaster table to understand the market dynamics and partnerships.",
+      "table": [
+        "CompanyDealMaster"
+      ]
+    }
+  ]
+}

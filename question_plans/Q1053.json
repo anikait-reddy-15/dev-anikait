@@ -1,0 +1,43 @@
+{
+  "question": "What are the current technology trends in the financial sector based on company activities?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies operating in the financial sector from the CompanyInfo table by filtering industry type as 'Finance'.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Gather the technology focus areas of the identified financial companies from the CompanyFocusAreaDetail table to analyze their current technology investments and trends.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze hiring trends in the financial sector by collecting active hiring details from the CompanyHiringDetail table, focusing on positions related to technology roles. ",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Review social media engagement metrics of financial companies to understand public interactions about their technology initiatives through CompanyFacebookDetail, CompanyInstagramDetail, CompanyTwitterDetail, and CompanyYoutubeDetail tables.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyInstagramDetail",
+        "CompanyTwitterDetail",
+        "CompanyYoutubeDetail"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Summarize emerging IT trends and focus areas specific to the finance industry using information from the IndustryITTrend table to provide context on how these trends are aligning with company activities.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    }
+  ]
+}

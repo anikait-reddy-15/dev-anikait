@@ -1,0 +1,43 @@
+{
+  "question": "What are the current trends in technology adoption across different industries?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify the industries with the highest technology adoption rates based on recent data.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Analyze the specific technologies being adopted within these industries to understand common trends.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Compile reports on how these adoption trends align with company focus areas to identify strategic moves by leading organizations.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Review recent company deals to find insights on technology partnerships that indicate strong adoption trends.",
+      "table": [
+        "CompanyDealMaster"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Examine social media mentions related to tech adoption to gauge public sentiment and engagement with these technologies.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyTwitterDetail",
+        "CompanyInstagramDetail",
+        "CompanyYoutubeDetail"
+      ]
+    }
+  ]
+}

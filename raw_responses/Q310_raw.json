@@ -1,0 +1,4 @@
+{
+  "question": "Identify the top three companies in the technology industry with the highest market capitalization and their respective IT budgets.",
+  "subtasks": "[{\"step\":1,\"task\":\"Select companies from the CompanyInfo table that belong to the technology industry and are currently active.\",\"table\":[\"CompanyInfo\"]},{\"step\":2,\"task\":\"Retrieve the market capitalization and IT budget for the selected technology companies, sorting the results by market capitalization in descending order.\",\"table\":[\"CompanyInfo\"]},{\"step\":3,\"task\":\"Limit the results to the top three companies and prepare the output to display the company name, market capitalization, and IT budget.\",\"table\":[\"CompanyInfo\"]}]"
+}

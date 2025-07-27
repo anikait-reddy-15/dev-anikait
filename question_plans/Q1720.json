@@ -1,0 +1,32 @@
+{
+  "question": "What are the social media engagement trends for companies in the technology sector?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify all companies within the technology sector by filtering the CompanyInfo table based on the Industry column.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract social media engagement metrics from relevant social media detail tables such as CompanyFacebookDetail, CompanyInstagramDetail, CompanyTwitterDetail, and CompanyYoutubeDetail for the identified companies.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyInstagramDetail",
+        "CompanyTwitterDetail",
+        "CompanyYoutubeDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the collected social media engagement data to derive trends such as highest engagement platforms, average likes and comments, and overall social media presence of technology companies.",
+      "table": []
+    },
+    {
+      "step": 4,
+      "task": "Prepare a summary report detailing the social media engagement trends observed in the technology sector, including comparisons across different platforms.",
+      "table": []
+    }
+  ]
+}

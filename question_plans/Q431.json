@@ -1,0 +1,4 @@
+{
+  "question": "Identify the social media engagement trends for companies in the technology industry.",
+  "subtasks": "[{\"step\":1,\"task\":\"Query the CompanyInfo table to filter companies based on the technology industry and retrieve their details such as Id and Name.\",\"table\":[\"CompanyInfo\"]},{\"step\":2,\"task\":\"Join the SocialMediaInfo table with the filtered CompanyInfo results to gather all social media engagement counts for the identified technology companies.\",\"table\":[\"SocialMediaInfo\"]},{\"step\":3,\"task\":\"Aggregate the engagement counts for different social media platforms (e.g., Facebook, Twitter, Instagram) to analyze trends in social media interaction for the identified companies.\",\"table\":[\"SocialMediaInfo\"]},{\"step\":4,\"task\":\"Visualize the engagement trends using the aggregated data to identify which platforms are showing higher interaction levels for technology companies.\",\"table\":[]}]"
+}

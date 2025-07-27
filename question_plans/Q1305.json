@@ -1,0 +1,42 @@
+{
+  "question": "What are the current trends in technology adoption among companies in the IT industry based on their vendor collaborations?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify the companies within the IT industry by querying the CompanyInfo table filtering on the Industry column for 'IT'.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract records of vendor collaborations for the identified companies from the CompanyVendorTechDetail table to analyze current technology implementations. ",
+      "table": [
+        "CompanyVendorTechDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Summarize the data on technology types and values from the CompanyVendorTechDetail table to capture adoption trends and key technologies being utilized by these companies.",
+      "table": [
+        "CompanyVendorTechDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Analyze the relationship between vendor collaborations and company performance metrics found in the CompanyInfo table (such as Revenue and Market Capitalization) to assess impact.",
+      "table": [
+        "CompanyInfo",
+        "CompanyVendorTechDetail"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Compile all findings into a report detailing technology adoption trends, highlighting key vendors and technologies leveraged within the industry. ",
+      "table": [
+        "CompanyInfo",
+        "CompanyVendorTechDetail"
+      ]
+    }
+  ]
+}

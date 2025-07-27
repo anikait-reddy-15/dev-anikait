@@ -1,0 +1,4 @@
+{
+  "question": "What are the emerging IT trends and focus areas in the technology industry for the next year?",
+  "subtasks": "[{'step': 1, 'task': 'Analyze the IndustryITTrend table to extract records related to emerging IT trends specific to the technology industry.', 'table': ['IndustryITTrend']}, {'step': 2, 'task': 'Identify key focus areas from the IndustryBusinessTrend table that correlate with the emerging IT trends identified in step 1.', 'table': ['IndustryBusinessTrend']}, {'step': 3, 'task': 'Cross-reference the insights from the CompanyFocusAreaDetail table to understand how specific companies are aligning with these trends and focus areas.', 'table': ['CompanyFocusAreaDetail']}, {'step': 4, 'task': 'Compile a summary report that highlights the top emerging IT trends and focus areas in the technology industry, referencing data from the relevant tables analyzed.', 'table': []}]}"
+}

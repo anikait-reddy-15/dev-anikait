@@ -1,0 +1,4 @@
+{
+  "question": "What are the current technology focus areas and strategic goals of companies in the healthcare industry?",
+  "subtasks": "[{\"step\":1,\"task\":\"Identify companies operating in the healthcare industry from the CompanyInfo table.\",\"table\":[\"CompanyInfo\"]},{\"step\":2,\"task\":\"Retrieve the technology focus areas for the identified healthcare companies from the CompanyFocusAreaDetail table.\",\"table\":[\"CompanyFocusAreaDetail\"]},{\"step\":3,\"task\":\"Gather leadership insights related to technology strategies from the CompanyLeadershipExcerpt table for these healthcare companies.\",\"table\":[\"CompanyLeadershipExcerpt\"]},{\"step\":4,\"task\":\"Analyze hiring trends in technology roles within healthcare companies by examining the CompanyHiringDetail table.\",\"table\":[\"CompanyHiringDetail\"]}]"
+}

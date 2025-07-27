@@ -1,0 +1,34 @@
+{
+  "question": "What are the key social media metrics and hiring trends for major companies in the technology industry?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies in the technology industry and their details like Name, Active status, and Revenue.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Fetch social media metrics (likes, comments, engagement rates) from Facebook, Instagram, Twitter, and YouTube for the identified companies.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyInstagramDetail",
+        "CompanyTwitterDetail",
+        "CompanyYoutubeDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Gather active hiring initiatives from the companies, focusing on roles and domains relevant to the technology sector.",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Analyze the collected social media metrics and hiring data to identify trends unique to companies in the technology industry.",
+      "table": []
+    }
+  ]
+}

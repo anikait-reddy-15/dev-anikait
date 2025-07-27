@@ -1,0 +1,4 @@
+{
+  "question": "What are the current hiring trends in the technology sector across different companies?",
+  "subtasks": "+ step 1: Identify companies in the technology sector. \n  table: ['CompanyInfo']\n+ step 2: Extract active hiring details for identified companies, focusing on job roles related to technology. \n  table: ['CompanyHiringDetail']\n+ step 3: Analyze and summarize hiring initiatives based on position types and regions. \n  table: ['CompanyHiringDetail']\n+ step 4: Gather insights on the technology focus areas these companies are hiring for. \n  table: ['CompanyFocusAreaDetail', 'CompanyHiringDetail']\n+ step 5: Compile engagement metrics and activity presence on social media platforms for these companies to correlate hiring trends with social engagement. \n  table: ['SocialMediaInfo', 'CompanyFacebookDetail', 'CompanyInstagramDetail', 'CompanyTwitterDetail']"
+}

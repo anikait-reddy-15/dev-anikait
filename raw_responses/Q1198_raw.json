@@ -1,0 +1,4 @@
+{
+  "question": "What are the current IT budget allocations and focus areas of leading companies in the technology industry?",
+  "subtasks": "[{\"step\":1,\"task\":\"Identify the leading companies in the technology industry and retrieve their basic information including IT budget and focus areas.\",\"table\":[\"CompanyInfo\"]},{\"step\":2,\"task\":\"Retrieve data on the strategic technology focus areas of these companies, linking their focus areas to the respective company identifiers.\",\"table\":[\"CompanyFocusAreaDetail\"]},{\"step\":3,\"task\":\"Analyze the overall IT budget allocations of the leading companies and summarize the distribution across different technology focus areas.\",\"table\":[\"CompanyInfo\",\"CompanyFocusAreaDetail\"]},{\"step\":4,\"task\":\"Compile the findings into a report format for business intelligence insights, summarizing key budget insights and strategic focuses.\",\"table\":[\"CompanyInfo\",\"CompanyFocusAreaDetail\"]}]}"
+}

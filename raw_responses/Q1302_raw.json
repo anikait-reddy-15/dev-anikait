@@ -1,0 +1,4 @@
+{
+  "question": "What are the technological focus areas of companies in the healthcare industry?",
+  "subtasks": "[{'step': 1, 'task': 'Identify all companies operating in the healthcare industry.', 'table': ['CompanyInfo']}, {'step': 2, 'task': 'Retrieve technological focus areas associated with the identified healthcare companies.', 'table': ['CompanyFocusAreaDetail']}, {'step': 3, 'task': 'Summarize details about the technological initiatives taken by these companies.', 'table': ['CompanyFocusAreaDetail']}, {'step': 4, 'task': 'Identify the companies' financial metrics to understand their investment in technology.', 'table': ['CompanyInfo']}, {'step': 5, 'task': 'Compile and present the findings in a structured format for further analysis.', 'table': []}]"
+}

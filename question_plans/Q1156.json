@@ -1,0 +1,44 @@
+{
+  "question": "What are the current technology trends and focus areas of leading companies in the technology industry?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify leading companies in the technology industry and gather their profiles including financial metrics and operational details.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Analyze the strategic technology focus areas for each of the identified companies to understand their current technology trends.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Examine the contracts and vendor relationships of these companies to gather insights on technology adoption and partnership strategies.",
+      "table": [
+        "CompanyDealMaster",
+        "CompanyITPartnerDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Compile the social media engagement metrics from platforms like Facebook, Twitter, and LinkedIn to analyze public sentiment regarding these companies' technology initiatives.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyTwitterDetail",
+        "CompanyInstagramDetail",
+        "CompanyLinkedinActivity"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Review the latest industry trends by correlating the collected data with IndustryITTrend to highlight how these companies align with current business trends in technology.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    }
+  ]
+}

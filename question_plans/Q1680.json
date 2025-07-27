@@ -1,0 +1,35 @@
+{
+  "question": "What are the current trends and initiatives in the technology focus areas of companies across different industries?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify and extract the strategic technology focus areas for companies.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Link the identified technology focus areas with the companies to their respective industries.",
+      "table": [
+        "CompanyFocusAreaDetail",
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze emerging trends related to the identified industries from the IndustryITTrend table.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Compile and summarize the findings related to the technology focus areas and their trends across different industries.",
+      "table": [
+        "CompanyFocusAreaDetail",
+        "IndustryITTrend"
+      ]
+    }
+  ]
+}

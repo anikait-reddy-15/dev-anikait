@@ -1,0 +1,42 @@
+{
+  "question": "How can we analyze the social media engagement trends of tech companies over the last year?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Gather social media engagement data for tech companies for the past year.",
+      "table": [
+        "SocialMediaInfo",
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract specific metrics such as likes, comments, and shares from the Facebook, Instagram, Twitter, and YouTube details for these companies.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyInstagramDetail",
+        "CompanyTwitterDetail",
+        "CompanyYoutubeDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Aggregate the engagement metrics over time to identify trends and patterns in social media interactions.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyInstagramDetail",
+        "CompanyTwitterDetail",
+        "CompanyYoutubeDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Compare the engagement trends against historical company metrics such as revenue, market capitalization, or strategic focus areas to derive insights.",
+      "table": [
+        "CompanyInfo",
+        "CompanyVendorProductDetail",
+        "CompanyTechStack"
+      ]
+    }
+  ]
+}

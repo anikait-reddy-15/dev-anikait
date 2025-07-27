@@ -1,0 +1,26 @@
+{
+  "question": "What technology partnerships are currently active for companies in the IT sector, and what are their focus areas?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Retrieve a list of all companies in the IT sector that are currently active.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Fetch the active technology partnerships for each of the identified companies, including partnership details and deal values.",
+      "table": [
+        "CompanyITPartnerDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Collect information on the strategic technology focus areas of the companies to understand their IT initiatives and priorities.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    }
+  ]
+}

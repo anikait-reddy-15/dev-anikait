@@ -1,0 +1,4 @@
+{
+  "question": "What are the current hiring initiatives and technology focuses of the major companies in the tech industry?",
+  "subtasks": "[{\"step\":1,\"task\":\"Identify the major tech companies from the CompanyInfo table who are active in the industry.\",\"table\":[\"CompanyInfo\"]},{\"step\":2,\"task\":\"Extract the current hiring initiatives for the identified companies from the CompanyHiringDetail table.\",\"table\":[\"CompanyHiringDetail\"]},{\"step\":3,\"task\":\"Gather details on the technology focus areas from the CompanyFocusAreaDetail table for the identified companies.\",\"table\":[\"CompanyFocusAreaDetail\"]},{\"step\":4,\"task\":\"Compile and summarize the findings to understand the technology trends and hiring needs in the tech industry.\",\"table\":[\"CompanyHiringDetail\",\"CompanyFocusAreaDetail\"]}]}"
+}

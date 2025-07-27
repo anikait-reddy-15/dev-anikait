@@ -1,0 +1,43 @@
+{
+  "question": "What are the current IT trends adopted by companies in the technology sector?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify technology sector companies by filtering the CompanyInfo table based on the industry column.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Gather data on IT trends from the IndustryITTrend table that correspond to the identified technology companies.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze technology stacks utilized by the identified companies to understand their adoption of specific tools and technologies.",
+      "table": [
+        "CompanyTechStack"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Correlate the collected trends with the companies' adopted technologies from the CompanyVendorTechDetail table.",
+      "table": [
+        "CompanyVendorTechDetail"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Compile insights into a report summarizing the IT trends and technology usage among the companies in the technology sector.",
+      "table": [
+        "CompanyInfo",
+        "IndustryITTrend",
+        "CompanyTechStack",
+        "CompanyVendorTechDetail"
+      ]
+    }
+  ]
+}

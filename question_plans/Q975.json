@@ -1,0 +1,40 @@
+{
+  "question": "What are the recent trends in technology and social media engagement for companies in the tech industry?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify technology focus areas for tech companies based on industry trends.",
+      "table": [
+        "CompanyFocusAreaDetail",
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Analyze social media engagement metrics for tech companies, focusing on Facebook, Twitter, and Instagram.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyTwitterDetail",
+        "CompanyInstagramDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Gather and summarize insights on technology services and products used by tech companies.",
+      "table": [
+        "CompanyVendorProductDetail",
+        "CompanyVendorTechDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Cross-reference technology focus areas with recent social media engagement to identify potential correlations.",
+      "table": [
+        "CompanyFocusAreaDetail",
+        "CompanyFacebookDetail",
+        "CompanyTwitterDetail",
+        "CompanyInstagramDetail"
+      ]
+    }
+  ]
+}

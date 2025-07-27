@@ -1,0 +1,4 @@
+{
+  "question": "Analyze the impact of IT strengths on sales revenue of companies in the technology sector.",
+  "subtasks": "[{\"step\":1,\"task\":\"Identify companies in the technology sector and retrieve their IT strengths and sales revenue metrics.\",\"table\":[\"CompanyInfo\"]},{\"step\":2,\"task\":\"Analyze the relationship between IT strengths and sales revenue using statistical methods or data visualization tools.\",\"table\":[\"CompanyInfo\"]},{\"step\":3,\"task\":\"Evaluate any trends in sales revenue based on IT strength categories across different companies.\",\"table\":[\"CompanyInfo\",\"CompanyTechStack\"]},{\"step\":4,\"task\":\"Investigate specific case studies of companies that have significantly increased their sales revenue due to improvements in IT strengths.\",\"table\":[\"CompanyDealMaster\",\"CompanyTechStack\"]}]"
+}

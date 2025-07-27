@@ -1,0 +1,47 @@
+{
+  "question": "How are companies in the tech industry leveraging social media for engagement?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify tech companies in the database by filtering the CompanyInfo table based on industry type related to technology.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Collect and analyze data on social media presence for these tech companies by querying the SocialMediaInfo table to get counts and engagement metrics.",
+      "table": [
+        "SocialMediaInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Examine specific social media platforms utilized by these companies by extracting data from CompanyFacebookDetail, CompanyInstagramDetail, CompanyTwitterDetail, and CompanyYoutubeDetail tables.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyInstagramDetail",
+        "CompanyTwitterDetail",
+        "CompanyYoutubeDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Aggregate engagement metrics (likes, comments, shares) across all social media platforms to understand overall engagement levels.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyInstagramDetail",
+        "CompanyTwitterDetail",
+        "CompanyYoutubeDetail"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Create a summary report to visualize how different tech companies are employing social media strategies and identify trends in engagement tactics.",
+      "table": [
+        "CompanyInfo",
+        "SocialMediaInfo"
+      ]
+    }
+  ]
+}

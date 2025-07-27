@@ -1,0 +1,4 @@
+{
+  "question": "What are the recent hiring trends across different industries for technology-related positions?",
+  "subtasks": "[{\"step\":1,\"task\":\"Identify technology-related job openings from the hiring details of various companies.\",\"table\":[\"CompanyHiringDetail\"]},{\"step\":2,\"task\":\"Group the hiring data by industry to analyze trends and patterns in job postings.\",\"table\":[\"CompanyInfo\",\"CompanyHiringDetail\"]},{\"step\":3,\"task\":\"Summarize the findings by counting the number of job openings per industry and providing insights on hiring volume.\",\"table\":[\"CompanyInfo\",\"CompanyHiringDetail\"]},{\"step\":4,\"task\":\"Cross-reference the hiring trends with recent technology focus areas to highlight shifts or emerging demands in tech-related skills.\",\"table\":[\"CompanyFocusAreaDetail\",\"CompanyHiringDetail\"]}]"
+}

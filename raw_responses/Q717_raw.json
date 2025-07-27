@@ -1,0 +1,4 @@
+{
+  "question": "What are the major technology focus areas and hiring trends in the technology industry for companies founded after 2010?",
+  "subtasks": "[{\"step\":1,\"task\":\"Identify companies founded after 2010 along with their technology focus areas.\",\"table\":[\"CompanyInfo\",\"CompanyFocusAreaDetail\"]},{\"step\":2,\"task\":\"Gather active hiring trends related to technology roles for the identified companies.\",\"table\":[\"CompanyHiringDetail\",\"CompanyInfo\"]},{\"step\":3,\"task\":\"Analyze the relationship between technology focus areas and hiring initiatives by correlating data from focus areas and hiring details.\",\"table\":[\"CompanyHiringDetail\",\"CompanyFocusAreaDetail\"]},{\"step\":4,\"task\":\"Compile the findings into a report outlining key technology focus areas and hiring trends.\",\"table\":[\"CompanyInfo\",\"CompanyHiringDetail\",\"CompanyFocusAreaDetail\"]}]"
+}

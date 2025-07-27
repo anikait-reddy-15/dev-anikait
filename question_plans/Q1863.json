@@ -1,0 +1,35 @@
+{
+  "question": "Identify the emerging technology trends being adopted across different industries and how companies are planning to focus their IT investments in those areas.",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Gather data on emerging technology trends across different industries from the IndustryITTrend table.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Analyze the details of companies' strategic focus areas on technology from the CompanyFocusAreaDetail table.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Extract financial metrics and planned IT budgets of companies from the CompanyInfo table to correlate with emerging trends.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Cross-reference the technology focus areas and IT budgets to identify which industries are investing heavily in specific trends.",
+      "table": [
+        "IndustryITTrend",
+        "CompanyFocusAreaDetail",
+        "CompanyInfo"
+      ]
+    }
+  ]
+}

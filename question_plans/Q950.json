@@ -1,0 +1,43 @@
+{
+  "question": "What are the latest hiring trends in the technology industry and how do they relate to company growth?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify all active technology companies from the CompanyInfo table, retrieving their names and relevant growth metrics such as revenue and net income.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Pull the latest hiring initiatives from the CompanyHiringDetail table, filtering for entries related to technology roles and summarizing key hiring statistics.",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the correlation between hiring trends (from CompanyHiringDetail) and financial growth metrics (from CompanyInfo) to identify patterns and insights.",
+      "table": [
+        "CompanyInfo",
+        "CompanyHiringDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Review social media engagement metrics from the SocialMediaInfo table to see how hiring activities align with overall company presence and branding in technology sectors.",
+      "table": [
+        "SocialMediaInfo"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Compile findings into a report highlighting the latest hiring trends and their impacts on company growth, supported by data from the above tables.",
+      "table": [
+        "CompanyInfo",
+        "CompanyHiringDetail",
+        "SocialMediaInfo"
+      ]
+    }
+  ]
+}

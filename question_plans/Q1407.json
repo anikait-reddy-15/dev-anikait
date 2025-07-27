@@ -1,0 +1,26 @@
+{
+  "question": "What are the current IT strengths and budget allocations for companies in the technology industry?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Retrieve company IDs and names of companies that are active in the technology industry.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Fetch the IT budget and IT strength metrics for the retrieved companies.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Compile the results into a summary format detailing each company's IT strengths and budget allocation.",
+      "table": [
+        "CompanyInfo"
+      ]
+    }
+  ]
+}

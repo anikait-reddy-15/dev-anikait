@@ -1,0 +1,37 @@
+{
+  "question": "What are the key trends in technology adoption among companies in the fintech industry?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify all companies classified under the fintech industry and retrieve their metadata such as their revenue, market capitalization, and IT budget.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Gather records of technology products and services used by the identified fintech companies to analyze their tech stacks and partnerships with vendors.",
+      "table": [
+        "CompanyTechStack",
+        "CompanyVendorProductDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze both the focus areas of technology initiatives and the recent hiring trends of these companies to understand where they are investing their resources in the fintech space.",
+      "table": [
+        "CompanyFocusAreaDetail",
+        "CompanyHiringDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Summarize the social media engagement and activity of the identified fintech companies to assess how they communicate their technology trends and initiatives to their audience.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyInstagramDetail",
+        "CompanyTwitterDetail"
+      ]
+    }
+  ]
+}

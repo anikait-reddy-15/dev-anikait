@@ -1,0 +1,4 @@
+{
+  "question": "What are the current hiring trends among technology companies in the aerospace industry?",
+  "subtasks": "[{'step': 1, 'task': 'Identify all active companies within the aerospace industry.', 'table': ['CompanyInfo']}, {'step': 2, 'task': 'Extract active hiring data for identified aerospace companies, focusing on roles related to technology.', 'table': ['CompanyHiringDetail']}, {'step': 3, 'task': 'Analyze hiring details to identify key trends in designations and required skills.', 'table': ['CompanyHiringDetail']}, {'step': 4, 'task': 'Aggregate data on technology-related hiring trends specific to the aerospace industry.', 'table': ['CompanyHiringDetail', 'CompanyInfo']}, {'step': 5, 'task': 'Summarize findings and potentially compare them across other relevant industries for additional insights.', 'table': ['CompanyHiringDetail', 'CompanyInfo']}]"
+}

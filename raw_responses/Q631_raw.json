@@ -1,0 +1,4 @@
+{
+  "question": "What are the technology focus areas and financial metrics of companies in the technology industry?",
+  "subtasks": "[{\"step\":1,\"task\":\"Retrieve technology focus areas for companies in the technology industry.\",\"table\":[\"CompanyFocusAreaDetail\",\"CompanyInfo\"]},{\"step\":2,\"task\":\"Gather financial metrics such as IT budget, revenue, and net income for technology companies.\",\"table\":[\"CompanyInfo\"]},{\"step\":3,\"task\":\"Join the data from technology focus areas and financial metrics to create a comprehensive overview of each company.\",\"table\":[\"CompanyFocusAreaDetail\",\"CompanyInfo\"]}]"
+}

@@ -1,0 +1,42 @@
+{
+  "question": "What are the latest IT trends adopted by companies in the healthcare industry?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify the healthcare industry category to filter relevant companies.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Retrieve companies categorized under the healthcare industry along with their details such as revenue and employees.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the IndustryITTrend table to gather emerging IT trends related to the healthcare industry.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Cross-reference the trends with the companies in the healthcare industry to find specific implementations or partnerships.",
+      "table": [
+        "CompanyITPartnerDetail",
+        "CompanyVendorTechDetail"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Compile and summarize the findings on IT trends adopted by these healthcare companies, including any significant insights or strategic directions.",
+      "table": [
+        "CompanyFocusAreaDetail",
+        "CompanyDealMaster"
+      ]
+    }
+  ]
+}

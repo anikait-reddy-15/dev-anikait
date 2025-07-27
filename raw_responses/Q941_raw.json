@@ -1,0 +1,4 @@
+{
+  "question": "Identify the hiring trends of companies in the technology sector and how they correlate with their focus areas and social media presence.",
+  "subtasks": "[{'step': 1, 'task': 'Retrieve data on active hiring initiatives in the technology sector.', 'table': ['CompanyHiringDetail']}, {'step': 2, 'task': 'List the strategic technology focus areas for companies involved in hiring.', 'table': ['CompanyFocusAreaDetail']}, {'step': 3, 'task': 'Analyze the social media engagement metrics for technology companies.', 'table': ['CompanyFacebookDetail', 'CompanyTwitterDetail', 'CompanyInstagramDetail']}, {'step': 4, 'task': 'Combine hiring data with focus areas and social media metrics to identify trends.', 'table': ['CompanyHiringDetail', 'CompanyFocusAreaDetail', 'CompanyFacebookDetail', 'CompanyTwitterDetail', 'CompanyInstagramDetail']}]}"
+}

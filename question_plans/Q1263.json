@@ -1,0 +1,43 @@
+{
+  "question": "What are the emerging IT trends in the manufacturing industry and how are different companies adapting to these trends?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify the manufacturing companies in the CompanyInfo table and their respective identified IT trends from the IndustryITTrend table.",
+      "table": [
+        "CompanyInfo",
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Gather detailed records of technology services provided to manufacturing companies from the CompanyVendorTechDetail table including service type and technology stack used.",
+      "table": [
+        "CompanyVendorTechDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the social media engagement of the manufacturing companies on platforms such as Facebook, Twitter, and Instagram by retrieving their social media activity from the CompanyFacebookDetail, CompanyTwitterDetail, and CompanyInstagramDetail tables.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyTwitterDetail",
+        "CompanyInstagramDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Assess the strategic focus areas of manufacturing companies by retrieving data from the CompanyFocusAreaDetail table to understand their initiatives in digital transformation or technology adoption.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Compile insights or public statements from the leadership of manufacturing companies about their technology direction from the CompanyLeadershipExcerpt table to gather qualitative perspectives on IT trends.",
+      "table": [
+        "CompanyLeadershipExcerpt"
+      ]
+    }
+  ]
+}

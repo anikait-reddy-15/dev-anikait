@@ -1,0 +1,4 @@
+{
+  "question": "What are the emerging IT trends and technologies across different industries?",
+  "subtasks": "[{\"step\":1,\"task\":\"Identify distinct industry types from the IndustryITTrend table.\",\"table\":[\"IndustryITTrend\"]},{\"step\":2,\"task\":\"Retrieve records from the IndustryITTrend table that highlight IT focus areas and trends per industry type.\",\"table\":[\"IndustryITTrend\"]},{\"step\":3,\"task\":\"Analyze trends by correlating them with corresponding technologies mentioned in the CompanyTechStack table to identify specific technology adoption patterns.\",\"table\":[\"CompanyTechStack\",\"IndustryITTrend\"]},{\"step\":4,\"task\":\"Summarize and categorize trends data to present a coherent narrative about technological priorities in each industry.\",\"table\":[\"IndustryITTrend\"]}]"
+}

@@ -1,0 +1,42 @@
+{
+  "question": "What are the current hiring trends across different technology domains by companies in the software industry?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify all companies operating in the software industry to focus the analysis on relevant organizations.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Gather active hiring details from the CompanyHiringDetail table, linking to CompanyInfo to identify the associated companies and technology domains they are hiring for.",
+      "table": [
+        "CompanyHiringDetail",
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Aggregate the data to analyze trends in hiring by technology domain, such as the number of job listings and the types of positions available in the software industry.",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Analyze the geographic distribution of hiring based on city information from the CompanyHiringDetail table to identify hotspots for tech talent.",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Compile a report summarizing insights on technology hiring trends in the software industry, including statistics and visualizations for better interpretation.",
+      "table": [
+        "CompanyHiringDetail",
+        "CompanyInfo"
+      ]
+    }
+  ]
+}

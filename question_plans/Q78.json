@@ -1,0 +1,4 @@
+{
+  "question": "What are the social media engagement metrics for technology companies in the finance industry?",
+  "subtasks": "[{\"step\":1,\"task\":\"Identify all technology companies operating in the finance industry by querying the CompanyInfo table and filtering by the 'Industry' column.\",\"table\":[\"CompanyInfo\"]},{\"step\":2,\"task\":\"Gather social media engagement data for the identified finance technology companies by querying the SocialMediaInfo table to retrieve metrics related to their social media presence.\",\"table\":[\"SocialMediaInfo\"]},{\"step\":3,\"task\":\"Combine the results from CompanyInfo and SocialMediaInfo to create a comprehensive report detailing the social media engagement metrics for technology companies in the finance sector.\",\"table\":[\"CompanyInfo\",\"SocialMediaInfo\"]}]"
+}

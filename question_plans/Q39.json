@@ -1,0 +1,4 @@
+{
+  "question": "Analyze the impact of social media on company financial performance.",
+  "subtasks": "[{\"step\":1,\"task\":\"Collect social media metrics for companies, such as likes, comments, and engagement rates on their Facebook and Instagram profiles.\",\"table\":[\"CompanyFacebookDetail\",\"CompanyInstagramDetail\"]},{\"step\":2,\"task\":\"Gather financial performance data including revenue and net income from the CompanyInfo table for the same companies.\",\"table\":[\"CompanyInfo\"]},{\"step\":3,\"task\":\"Analyze the relationship between collected social media metrics and financial performance metrics on a company-by-company basis.\",\"table\":[\"CompanyInfo\",\"CompanyFacebookDetail\",\"CompanyInstagramDetail\"]},{\"step\":4,\"task\":\"Summarize findings to identify trends or correlations between social media engagement and financial outcomes across companies.\",\"table\":[\"CompanyInfo\",\"CompanyFacebookDetail\",\"CompanyInstagramDetail\"]}]}"
+}

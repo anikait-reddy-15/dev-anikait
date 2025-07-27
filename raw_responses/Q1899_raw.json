@@ -1,0 +1,4 @@
+{
+  "question": "What are the current technology trends being adopted by companies in the financial industry?",
+  "subtasks": "[{'step': 1, 'task': 'Identify companies operating in the financial industry and retrieve their details.', 'table': ['CompanyInfo']}, {'step': 2, 'task': 'Gather information on the technology focus areas of these companies.', 'table': ['CompanyFocusAreaDetail']}, {'step': 3, 'task': 'Analyze the CompanyITPartnerDetail to identify key technology partnerships in the financial sector.', 'table': ['CompanyITPartnerDetail']}, {'step': 4, 'task': 'Examine emerging IT trends in the financial industry from IndustryITTrend to contextualize the technology focus areas.', 'table': ['IndustryITTrend']}, {'step': 5, 'task': 'Compile a summary report detailing the technology trends and focus areas within the financial industry companies.', 'table': ['CompanyInfo', 'CompanyFocusAreaDetail', 'IndustryITTrend']}]}"
+}

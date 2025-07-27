@@ -1,0 +1,26 @@
+{
+  "question": "Identify the top 5 companies in the technology industry based on their IT budget and revenue, along with their headquarters locations and number of employees.",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Query the CompanyInfo table to filter out companies in the technology sector and select relevant columns (Id, Name, ITBudget, Revenue, Geography, Employees).",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Sort the filtered company data by ITBudget and Revenue in descending order to get the top 5 companies. Include additional fields for headquarters locations and number of employees in the selection. ",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Output the final results, showing the company names, their IT budgets, revenues, headquarters, and number of employees, ensuring the results are limited to the top 5 companies identified in step 2.",
+      "table": [
+        "CompanyInfo"
+      ]
+    }
+  ]
+}

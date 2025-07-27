@@ -1,0 +1,4 @@
+{
+  "question": "What are the current hiring trends and technology focus areas of different companies in the IT industry?",
+  "subtasks": "1. Identify all companies in the IT industry by filtering the CompanyInfo table on the Industry column. Relevant table: ['CompanyInfo'].\n2. Extract the active hiring initiatives for these companies from the CompanyHiringDetail table and categorize them by job domain and designation. Relevant tables: ['CompanyHiringDetail'].\n3. Gather information on the strategic technology focus areas for these companies from the CompanyFocusAreaDetail table. Relevant tables: ['CompanyFocusAreaDetail'].\n4. Merge the results from the hiring initiatives and technology focus areas to find correlations and trends showing how hiring aligns with strategic technology investments. Relevant tables: ['CompanyHiringDetail', 'CompanyFocusAreaDetail']."
+}

@@ -1,0 +1,38 @@
+{
+  "question": "Identify the technology adoption trends among companies in the healthcare industry and their social media engagement strategies.",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Query the CompanyInfo table to gather a list of companies operating in the healthcare industry along with their ITBudget and ITStrength metrics.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Analyze the CompanyTechStack table to determine the specific technologies adopted by the healthcare companies identified in step 1.",
+      "table": [
+        "CompanyTechStack"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Review the CompanyFacebookDetail, CompanyInstagramDetail, and CompanyTwitterDetail tables to assess the social media engagement metrics (likes, comments, engagement rate) of healthcare companies.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyInstagramDetail",
+        "CompanyTwitterDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Combine the insights from the technology adoption analysis and social media engagement metrics to identify correlations or trends in healthcare technology use and online presence.",
+      "table": [
+        "CompanyTechStack",
+        "CompanyFacebookDetail",
+        "CompanyInstagramDetail",
+        "CompanyTwitterDetail"
+      ]
+    }
+  ]
+}

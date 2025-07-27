@@ -1,0 +1,44 @@
+{
+  "question": "Analyze the impact of social media activity on company recruitment efforts.",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies with active hiring initiatives and their associated details such as job responsibilities and skill requirements.",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Gather social media engagement metrics (likes, comments, shares) from Facebook, Twitter, Instagram, and YouTube for the identified companies.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyTwitterDetail",
+        "CompanyInstagramDetail",
+        "CompanyYoutubeDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the correlation between social media engagement metrics and the number of job postings or hiring activity across the selected companies.",
+      "table": [
+        "CompanyHiringDetail",
+        "CompanyFacebookDetail",
+        "CompanyTwitterDetail",
+        "CompanyInstagramDetail",
+        "CompanyYoutubeDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Evaluate the effectiveness of specific social media platforms in attracting potential candidates by tracking engagement trends related to job postings.",
+      "table": [
+        "CompanyHiringDetail",
+        "CompanyFacebookDetail",
+        "CompanyTwitterDetail",
+        "CompanyInstagramDetail",
+        "CompanyYoutubeDetail"
+      ]
+    }
+  ]
+}

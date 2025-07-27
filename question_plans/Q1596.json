@@ -1,0 +1,36 @@
+{
+  "question": "What is the social media engagement level of companies in the technology industry?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Retrieve a list of companies operating in the technology industry.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Fetch social media presence data for the identified technology companies, focusing on engagement metrics across platforms like Facebook, Twitter, and Instagram.",
+      "table": [
+        "SocialMediaInfo",
+        "CompanyFacebookDetail",
+        "CompanyTwitterDetail",
+        "CompanyInstagramDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Aggregate engagement data (likes, comments, shares) for each company to calculate overall social media engagement levels.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyTwitterDetail",
+        "CompanyInstagramDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Present the summarized engagement levels in a formatted report or dashboard, highlighting key trends in the technology industry.",
+      "table": []
+    }
+  ]
+}

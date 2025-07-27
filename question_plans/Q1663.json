@@ -1,0 +1,31 @@
+{
+  "question": "Analyze the impact of social media engagement on company revenue.",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Retrieve social media engagement metrics for companies including likes, comments, and engagement rates across platforms like Facebook, Instagram, and Twitter.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyInstagramDetail",
+        "CompanyTwitterDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Gather the corresponding financial data for the same companies, focusing on their revenue and net income.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Identify the companies with the highest levels of social media engagement and analyze their revenue figures to find correlations.",
+      "table": [
+        "CompanyInfo",
+        "CompanyFacebookDetail",
+        "CompanyInstagramDetail",
+        "CompanyTwitterDetail"
+      ]
+    }
+  ]
+}

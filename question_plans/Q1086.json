@@ -1,0 +1,35 @@
+{
+  "question": "What are the emerging trends in the technology adoption across different industries?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify all industries relevant to technology adoption trends.",
+      "table": [
+        "IndustryBusinessTrend",
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Gather detailed narratives or data on technology focus areas specific to each identified industry.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the metrics or insights from the IndustryITTrend table to assess which technologies are being prioritized in different sectors.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Compile a summary of the trends and key technologies that are emerging across industries based on the analysis results.",
+      "table": [
+        "IndustryBusinessTrend",
+        "IndustryITTrend"
+      ]
+    }
+  ]
+}

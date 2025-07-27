@@ -1,0 +1,34 @@
+{
+  "question": "What are the emerging IT trends across different industries and which companies are leading in these areas?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Gather data on emerging IT trends for various industries including AI, IoT, blockchain, and cybersecurity.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Identify companies that are actively involved in each of the mentioned IT trends by linking them to the respective technologies and services they adopt.",
+      "table": [
+        "CompanyTechStack",
+        "CompanyVendorTechDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Compile a list of companies leading in tech adoption per industry along with relevant data such as their revenue, employees, and IT budgets from the CompanyInfo table.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Cross-reference identified companies with their strategic technology focus areas to highlight specific initiatives and investments made in emerging IT trends.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    }
+  ]
+}

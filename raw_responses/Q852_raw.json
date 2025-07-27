@@ -1,0 +1,4 @@
+{
+  "question": "What companies are adopting cloud computing technologies and what are their strategic focus areas?",
+  "subtasks": "[\n    {\n        \"step\": 1,\n        \"task\": \"Identify companies that have active cloud computing technologies in their tech stack.\",\n        \"table\": [\"CompanyTechStack\"]\n    },\n    {\n        \"step\": 2,\n        \"task\": \"Fetch strategic focus areas related to IT from companies adopting cloud technologies.\",\n        \"table\": [\"CompanyFocusAreaDetail\"]\n    },\n    {\n        \"step\": 3,\n        \"task\": \"Compile a list of companies and their relevant focus areas for cloud computing integration.\",\n        \"table\": [\"CompanyInfo\", \"CompanyFocusAreaDetail\"]\n    },\n    {\n        \"step\": 4,\n        \"task\": \"Analyze and summarize the key trends in cloud adoption across the identified companies.\",\n        \"table\": [\"IndustryITTrend\", \"CompanyTechStack\"]\n    }\n]"
+}

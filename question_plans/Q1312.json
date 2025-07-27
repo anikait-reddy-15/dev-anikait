@@ -1,0 +1,39 @@
+{
+  "question": "How can we analyze the social media engagement of companies in the technology sector?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies in the technology sector along with their industry classification and key details.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Gather social media metrics (likes, comments, shares) from relevant social media tables (Facebook, Twitter, Instagram, YouTube) for the identified technology companies.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyTwitterDetail",
+        "CompanyInstagramDetail",
+        "CompanyYoutubeDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Compile and compare the engagement metrics across different social media platforms to evaluate overall performance and trends.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyTwitterDetail",
+        "CompanyInstagramDetail",
+        "CompanyYoutubeDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Analyze the correlation between social media engagement metrics and company performance metrics (like revenue or market capitalization) to draw insights.",
+      "table": [
+        "CompanyInfo"
+      ]
+    }
+  ]
+}

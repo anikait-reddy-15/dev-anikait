@@ -1,0 +1,4 @@
+{
+  "question": "Analyze the current technology trends and focus areas among major companies in the finance industry.",
+  "subtasks": "[{\"step\":1,\"task\":\"Retrieve a list of companies categorized under the finance industry along with their latest financial metrics such as revenue and net income.\",\"table\":[\"CompanyInfo\"]},{\"step\":2,\"task\":\"Identify the technology focus areas for the finance companies obtained in step 1, detailing each company's initiatives in specific IT domains.\",\"table\":[\"CompanyFocusAreaDetail\"]},{\"step\":3,\"task\":\"Gather data on technology services provided to these finance companies by vendors, including details of service types and deal values.\",\"table\":[\"CompanyVendorTechDetail\"]},{\"step\":4,\"task\":\"Aggregate and analyze the social media presence and engagement statistics for these finance companies to complement the technology trend analysis.\",\"table\":[\"SocialMediaInfo\"]}]"
+}

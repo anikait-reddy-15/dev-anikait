@@ -1,0 +1,43 @@
+{
+  "question": "What is the current trend in technology adoption across the major industries and what are the key focus areas for companies in these industries?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify the current technology trends relevant to various industries from the IndustryITTrend table.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract the specific industry types and associated focus areas from the IndustryBusinessTrend table to understand how companies are strategizing their digital transformation.",
+      "table": [
+        "IndustryBusinessTrend"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Compile a list of companies and their respective technology focus areas from the CompanyFocusAreaDetail table to correlate their initiatives with identified trends.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Analyze the interrelationship between companies' technology stacks from the CompanyTechStack table and the focus areas extracted in previous steps to assess overall adoption trends.",
+      "table": [
+        "CompanyTechStack"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Summarize the findings into a coherent report highlighting the key trends in technology adoption and strategic focus areas for companies across the major industries.",
+      "table": [
+        "IndustryITTrend",
+        "IndustryBusinessTrend",
+        "CompanyFocusAreaDetail",
+        "CompanyTechStack"
+      ]
+    }
+  ]
+}

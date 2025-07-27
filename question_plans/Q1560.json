@@ -1,0 +1,43 @@
+{
+  "question": "Analyze the social media engagement trends across multiple platforms for companies in the tech industry.",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify all companies in the tech industry from the CompanyInfo table.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Gather social media engagement data (likes, comments, shares) from social media tables for the identified tech companies.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyInstagramDetail",
+        "CompanyTwitterDetail",
+        "CompanyYoutubeDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Calculate total engagement metrics for each platform and summarize findings to identify trends.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyInstagramDetail",
+        "CompanyTwitterDetail",
+        "CompanyYoutubeDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Generate a comparative analysis report of social media engagement across platforms for the tech companies identified in step 1.",
+      "table": [
+        "CompanyInfo",
+        "CompanyFacebookDetail",
+        "CompanyInstagramDetail",
+        "CompanyTwitterDetail",
+        "CompanyYoutubeDetail"
+      ]
+    }
+  ]
+}

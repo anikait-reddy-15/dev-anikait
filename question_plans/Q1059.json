@@ -1,0 +1,26 @@
+{
+  "question": "Identify the top companies in the cloud computing industry based on their IT budget and revenue.",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Query the CompanyInfo table to filter for companies in the cloud computing industry and retrieve their ITBudget and Revenue.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Rank the filtered companies based on Revenue and ITBudget to determine the top performers in the cloud computing sector.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Extract additional company details (Id, Name, Industry, Geography) from the CompanyInfo table for the top-ranked companies to provide a comprehensive overview.",
+      "table": [
+        "CompanyInfo"
+      ]
+    }
+  ]
+}

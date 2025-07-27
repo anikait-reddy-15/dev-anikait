@@ -1,0 +1,44 @@
+{
+  "question": "What are the current hiring trends in the technology sector, specifically for companies involved in AI and automation?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies actively involved in AI and automation technologies.",
+      "table": [
+        "CompanyTechStack",
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Analyze active hiring initiatives of identified companies to see which roles are being filled in the technology sector, focusing on AI and automation roles.",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Gather data on the geographic distribution of these hiring initiatives to identify trends in specific locations.",
+      "table": [
+        "CompanyHiringDetail",
+        "CompanyDataCenter"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Evaluate the required skills and qualifications for positions related to AI and automation that are currently being advertised by these companies.",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Compile engagement metrics from social media posts related to hiring announcements in AI and automation to assess public interest and response.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyTwitterDetail",
+        "CompanyLinkedinActivity"
+      ]
+    }
+  ]
+}

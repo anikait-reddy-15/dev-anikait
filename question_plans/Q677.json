@@ -1,0 +1,4 @@
+{
+  "question": "What are the top 5 companies in the technology sector by revenue and their IT strengths?",
+  "subtasks": "[{\"step\":1,\"task\":\"Identify all companies in the technology sector from the CompanyInfo table based on the Industry column.\",\"table\":[\"CompanyInfo\"]},{\"step\":2,\"task\":\"Retrieve revenue and IT strength details from the CompanyInfo table for the identified technology companies.\",\"table\":[\"CompanyInfo\"]},{\"step\":3,\"task\":\"Sort the retrieved technology companies by revenue in descending order to determine the top companies.\",\"table\":[\"CompanyInfo\"]},{\"step\":4,\"task\":\"Limit the results to the top 5 companies and select their names and IT strengths.\",\"table\":[\"CompanyInfo\"]}]"
+}

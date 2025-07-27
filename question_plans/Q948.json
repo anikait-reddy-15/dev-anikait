@@ -1,0 +1,34 @@
+{
+  "question": "What are the emerging technology trends in the banking industry and which companies are leading these initiatives?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify the relevant technology focus areas specific to the banking industry by querying the IndustryITTrend table.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Gather data about companies in the banking industry and their strategic technology initiatives by querying the CompanyFocusAreaDetail table and filtering by industry type.",
+      "table": [
+        "CompanyFocusAreaDetail",
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Extract company profiles that are actively pursuing these technology initiatives and analyze their financial metrics and market positioning by querying CompanyInfo for active companies with emphasis on ITBudget and Revenue.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Compile a list of technology service contracts related to the banking sector to understand vendor relationships by querying the CompanyDealMaster table.",
+      "table": [
+        "CompanyDealMaster"
+      ]
+    }
+  ]
+}

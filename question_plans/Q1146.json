@@ -1,0 +1,35 @@
+{
+  "question": "What are the key technology focus areas companies are investing in this year?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies with active records for the current year.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract technology focus areas linked to these companies from the focus area detail table.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the focus areas to determine trends in investment across different technologies.",
+      "table": [
+        "CompanyFocusAreaDetail",
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Summarize findings into a report highlighting key technology investments across companies in the current year.",
+      "table": [
+        "CompanyFocusAreaDetail",
+        "CompanyInfo"
+      ]
+    }
+  ]
+}

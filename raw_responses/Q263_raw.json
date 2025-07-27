@@ -1,0 +1,4 @@
+{
+  "question": "What are the recent trends in IT for companies in the finance industry?",
+  "subtasks": "[{\"step\":1,\"task\":\"Identify all companies within the finance industry\",\"table\":[\"CompanyInfo\"]},{\"step\":2,\"task\":\"Gather IT trends specific to the finance industry from the IndustryITTrend table\",\"table\":[\"IndustryITTrend\"]},{\"step\":3,\"task\":\"Analyze the collected IT trends against the relevant finance companies to understand technology adoption\",\"table\":[\"CompanyInfo\",\"IndustryITTrend\"]},{\"step\":4,\"task\":\"Compile the findings into a summary report of recent IT trends in finance companies\",\"table\":[\"CompanyInfo\",\"IndustryITTrend\"]}]"
+}

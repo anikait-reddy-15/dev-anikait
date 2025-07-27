@@ -1,0 +1,4 @@
+{
+  "question": "What are the key technology focus areas and social media engagement metrics for companies in the IT industry?",
+  "subtasks": "[{\"step\":1,\"task\":\"Identify all companies classified under the IT industry in the CompanyInfo table.\",\"table\":[\"CompanyInfo\"]},{\"step\":2,\"task\":\"Extract technology focus areas for each company identified in step 1 from the CompanyFocusAreaDetail table.\",\"table\":[\"CompanyFocusAreaDetail\"]},{\"step\":3,\"task\":\"Gather social media engagement metrics for each company from the SocialMediaInfo table, filtering by the companies identified in step 1.\",\"table\":[\"SocialMediaInfo\"]},{\"step\":4,\"task\":\"Compile and summarize the findings to present a comprehensive view of technology focus areas and social media engagement for the IT companies.\",\"table\":[\"CompanyInfo\",\"CompanyFocusAreaDetail\",\"SocialMediaInfo\"]}]}"
+}

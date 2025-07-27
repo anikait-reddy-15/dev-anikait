@@ -1,0 +1,4 @@
+{
+  "question": "Analyze the hiring trends of companies within a specific industry.",
+  "subtasks": "[{\"step\":1,\"task\":\"Identify the industry and gather all relevant companies in that industry from the CompanyInfo table.\",\"table\":[\"CompanyInfo\"]},{\"step\":2,\"task\":\"Extract active hiring details from the CompanyHiringDetail table for the identified companies.\",\"table\":[\"CompanyHiringDetail\"]},{\"step\":3,\"task\":\"Analyze the hiring details to identify trends related to job roles, skill requirements, and geographic patterns.\",\"table\":[\"CompanyHiringDetail\"]},{\"step\":4,\"task\":\"Compile insights on the demand trends for various job roles and skills across companies in the specific industry.\",\"table\":[\"CompanyHiringDetail\"]},{\"step\":5,\"task\":\"Create a summary report that highlights overall hiring trends, including top roles and skill sets being sought after in the industry.\",\"table\":[\"CompanyHiringDetail\"]}]"
+}

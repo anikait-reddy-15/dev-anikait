@@ -1,0 +1,4 @@
+{
+  "question": "What are the current trends in IT focus areas among companies in the technology sector?",
+  "subtasks": "[{\"step\":1,\"task\":\"Identify companies operating in the technology sector and retrieve their basic information such as name, industry, revenue, and employee count.\",\"table\":[\"CompanyInfo\"]},{\"step\":2,\"task\":\"Extract details of each company's strategic technology focus areas from the CompanyFocusAreaDetail table.\",\"table\":[\"CompanyFocusAreaDetail\"]},{\"step\":3,\"task\":\"Analyze the distribution of technology focus areas across the identified companies to determine prevailing trends and key areas of investment.\",\"table\":[\"CompanyFocusAreaDetail\"]},{\"step\":4,\"task\":\"Correlate trends with the financial performance of the companies to explore any relationships between IT focus areas and business success indicators like revenue and net income.\",\"table\":[\"CompanyInfo\",\"CompanyFocusAreaDetail\"]}]"
+}

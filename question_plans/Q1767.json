@@ -1,0 +1,27 @@
+{
+  "question": "What are the current hiring trends across different industries and how do they relate to companies' IT focus areas?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify the active hiring initiatives taken by companies in different industries, capturing relevant details such as domain, designation, and location.",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Analyze the strategic technology focus areas of the same companies to understand the correlation between hiring trends and IT focus areas.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Combine hiring data and IT focus area data to visualize trends and generate reports that show the relationship between hiring trends and IT strategies across industries.",
+      "table": [
+        "CompanyHiringDetail",
+        "CompanyFocusAreaDetail"
+      ]
+    }
+  ]
+}

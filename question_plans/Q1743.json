@@ -1,0 +1,45 @@
+{
+  "question": "What are the latest hiring trends in the technology sector across different industries?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify all companies operating in the technology sector and retrieve their hiring details such as job roles and locations.",
+      "table": [
+        "CompanyHiringDetail",
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Analyze the hiring details to categorize jobs based on specific roles and required skills, focusing on technology-related positions.",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Cross-reference hiring trends with industry sectors to determine which industries are hiring the most in technology roles.",
+      "table": [
+        "CompanyHiringDetail",
+        "CompanyDealMaster"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Research and summarize insights on how technology adoption is influencing hiring trends in various industries.",
+      "table": [
+        "IndustryITTrend",
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Prepare a report or data visualization to present the findings on technology sector hiring trends across different industries.",
+      "table": [
+        "CompanyInfo",
+        "CompanyHiringDetail",
+        "IndustryITTrend"
+      ]
+    }
+  ]
+}

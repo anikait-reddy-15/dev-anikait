@@ -1,0 +1,37 @@
+{
+  "question": "Analyze the impact of hiring initiatives on technology adoption trends in the company over the past year.",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify the companies that have active hiring initiatives in technology roles over the past year.",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Collect data on the technologies used by these companies to see if there is a correlation with recent hiring activities.",
+      "table": [
+        "CompanyTechStack",
+        "CompanyHiringDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the industry trends in technology to assess how the hiring initiatives align with broader industry movements and technology adoption over the past year.",
+      "table": [
+        "IndustryITTrend",
+        "CompanyHiringDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Compile insights and prepare a report that summarizes the findings of the impact of hiring on technology adoption across the selected companies.",
+      "table": [
+        "CompanyInfo",
+        "CompanyTechStack",
+        "CompanyHiringDetail"
+      ]
+    }
+  ]
+}
