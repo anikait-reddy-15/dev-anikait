@@ -1,0 +1,26 @@
+{
+  "question": "Identify the top companies in the technology sector based on their total revenue and market capitalization over the last 5 years.",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Retrieve companies classified as part of the technology sector from the CompanyInfo table.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Calculate the total revenue and market capitalization for each company over the last 5 years using financial metrics from the CompanyInfo table.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Sort the companies based on their total revenue and market capitalization to identify the top performers in the technology sector.",
+      "table": [
+        "CompanyInfo"
+      ]
+    }
+  ]
+}

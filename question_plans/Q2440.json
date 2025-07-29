@@ -1,0 +1,35 @@
+{
+  "question": "What are the recent technology partnerships and contracts of companies in the IT industry?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify all active companies operating in the IT industry and gather their basic information such as name and ID.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Retrieve details about the technology partnerships associated with the identified companies, including partner name, deal value, and partnership duration.",
+      "table": [
+        "CompanyITPartnerDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Collect records of recent B2B technology service contracts for those companies, focusing on signing dates, active status, and service contract values.",
+      "table": [
+        "CompanyDealMaster"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Compile and summarize the gathered information to present an overview of recent technology partnerships and contracts for those companies.",
+      "table": [
+        "CompanyInfo",
+        "CompanyITPartnerDetail",
+        "CompanyDealMaster"
+      ]
+    }
+  ]
+}

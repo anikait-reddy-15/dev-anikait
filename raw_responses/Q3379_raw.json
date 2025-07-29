@@ -1,0 +1,4 @@
+{
+  "question": "What are the latest technology trends that companies in the finance industry are focusing on?",
+  "subtasks": "[{'step': 1, 'task': 'Identify companies that belong to the finance industry.', 'table': ['CompanyInfo']}, {'step': 2, 'task': 'Retrieve strategic technology focus areas of the identified finance companies.', 'table': ['CompanyFocusAreaDetail']}, {'step': 3, 'task': 'Analyze and summarize the emerging IT trends relevant to the finance industry.', 'table': ['IndustryITTrend']}, {'step': 4, 'task': 'Compile and report the findings, creating a summary of technology trends for presentation.', 'table': ['CompanyInfo', 'CompanyFocusAreaDetail', 'IndustryITTrend']}]"
+}

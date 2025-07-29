@@ -1,0 +1,4 @@
+{
+  "question": "What are the current IT budgets and strategic focus areas for companies in the technology industry?",
+  "subtasks": "[\n    {\n        \"step\": 1,\n        \"task\": \"Retrieve current IT budgets for all companies in the technology industry.\",\n        \"table\": [\"CompanyInfo\"]\n    },\n    {\n        \"step\": 2,\n        \"task\": \"Identify and list the strategic technology focus areas for these companies.\",\n        \"table\": [\"CompanyFocusAreaDetail\"]\n    },\n    {\n        \"step\": 3,\n        \"task\": \"Combine the results from steps 1 and 2 to create a report on IT budgets and focus areas.\",\n        \"table\": [\"CompanyInfo\", \"CompanyFocusAreaDetail\"]\n    }\n]"
+}

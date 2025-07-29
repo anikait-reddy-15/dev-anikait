@@ -1,0 +1,41 @@
+{
+  "question": "How can we analyze the hiring trends across different companies in the IT sector?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies operating in the IT sector by filtering the CompanyInfo table based on the 'Industry' column.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Retrieve active hiring initiatives from the CompanyHiringDetail table for identified IT companies to extract details like designations, domains, and cities.",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Aggregate hiring data to analyze trends, such as the number of roles by designation and city, and prepare a summary report.",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Cross-reference hiring data with CompanyLeadershipExcerpt to correlate any comments from leadership about hiring initiatives or talent acquisition strategy.",
+      "table": [
+        "CompanyHiringDetail",
+        "CompanyLeadershipExcerpt"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Visualize hiring trends using the aggregated data to highlight significant findings, such as the most demanded skills or geographical hiring hotspots.",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    }
+  ]
+}

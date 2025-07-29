@@ -1,0 +1,34 @@
+{
+  "question": "What are the current technology focus areas and strategic partnerships of leading companies in the AI sector?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies that are classified under the AI sector by filtering the 'Industry' field in the CompanyInfo table.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Retrieve the technology focus areas of the identified companies by linking their IDs from the CompanyInfo table to the CompanyFocusAreaDetail table.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Find strategic partnerships related to the identified companies by joining the CompanyInfo table with the CompanyITPartnerDetail table to get partnership details and their descriptions.",
+      "table": [
+        "CompanyITPartnerDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Compile a report summarizing the technology focus areas and partnership details for the identified companies in the AI sector.",
+      "table": [
+        "CompanyFocusAreaDetail",
+        "CompanyITPartnerDetail"
+      ]
+    }
+  ]
+}

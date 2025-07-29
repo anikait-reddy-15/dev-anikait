@@ -1,0 +1,4 @@
+{
+  "question": "What are the social media engagement metrics for the top 10 companies by revenue?",
+  "subtasks": "[{\"step\":1,\"task\":\"Retrieve the top 10 companies by revenue from the CompanyInfo table\",\"table\":[\"CompanyInfo\"]},{\"step\":2,\"task\":\"Gather social media engagement metrics from the SocialMediaInfo table for the top 10 companies\",\"table\":[\"SocialMediaInfo\"]},{\"step\":3,\"task\":\"Analyze and compile the aggregated social media metrics (likes, reposts, comments) for the top 10 companies\",\"table\":[\"CompanyFacebookDetail\",\"CompanyInstagramDetail\",\"CompanyTwitterDetail\",\"CompanyYoutubeDetail\"]}]"
+}

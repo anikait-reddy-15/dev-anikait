@@ -1,0 +1,4 @@
+{
+  "question": "What are the current trends in technology adoption across different industries and how are companies aligning their strategies with these trends?",
+  "subtasks": "[{\"step\":1,\"task\":\"Identify and extract emerging IT trends and technologies across different industries.\",\"table\":[\"IndustryITTrend\"]},{\"step\":2,\"task\":\"Collect data on company-specific technology stacks and their alignment with identified trends.\",\"table\":[\"CompanyTechStack\"]},{\"step\":3,\"task\":\"Analyze the strategic focus areas of companies as reported in their leadership excerpts and focus area details.\",\"table\":[\"CompanyLeadershipExcerpt\",\"CompanyFocusAreaDetail\"]},{\"step\":4,\"task\":\"Summarize the relationship between technology adoption trends and company strategies based on the collected data.\",\"table\":[\"CompanyInfo\"]}]}"
+}

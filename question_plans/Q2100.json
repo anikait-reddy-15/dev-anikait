@@ -1,0 +1,45 @@
+{
+  "question": "Identify the technology trends and key social media metrics for companies within the IT industry.",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Retrieve a list of companies operating in the IT industry and their relevant details such as active status, revenue, and founded year.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Gather information on the technology stack adopted by the identified IT companies to analyze the technology trends in the industry.",
+      "table": [
+        "CompanyTechStack"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Collect social media engagement metrics (likes, comments, follower counts) for the identified companies across platforms such as Facebook, Twitter, LinkedIn, and Instagram.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyTwitterDetail",
+        "CompanyInstagramDetail",
+        "SocialMediaInfo"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Analyze emerging IT trends from the IndustryITTrend table to correlate these trends with the technology stack data from the IT companies.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Compile a report that summarizes the technology trends and social media metrics of the companies within the IT industry to identify key patterns.",
+      "table": [
+        "CompanyInfo",
+        "CompanyTechStack",
+        "SocialMediaInfo"
+      ]
+    }
+  ]
+}

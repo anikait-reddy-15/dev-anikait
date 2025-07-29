@@ -1,0 +1,36 @@
+{
+  "question": "What are the key technology partnerships and IT focus areas of companies within the financial services industry?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify all companies operating in the financial services industry from the CompanyInfo table based on the Industry column.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Retrieve the strategic technology focus areas for the identified companies by joining the CompanyFocusAreaDetail table with CompanyInfo on CompanyInfoId.",
+      "table": [
+        "CompanyFocusAreaDetail",
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Find the technology partnerships of the identified companies from the CompanyITPartnerDetail table, filtering by CompanyInfoId for each company in the financial services sector.",
+      "table": [
+        "CompanyITPartnerDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Compile a comprehensive report detailing each company's IT focus areas alongside their key technology partnerships to analyze strategic alignment in the financial services industry.",
+      "table": [
+        "CompanyFocusAreaDetail",
+        "CompanyITPartnerDetail",
+        "CompanyInfo"
+      ]
+    }
+  ]
+}

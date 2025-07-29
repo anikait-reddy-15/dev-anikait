@@ -1,0 +1,31 @@
+{
+  "question": "What are the current technology trends among companies in the healthcare industry, and how are these reflected in their social media activity?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify all companies in the healthcare industry and gather their technology focus areas to understand current trends in technology adoption.",
+      "table": [
+        "CompanyInfo",
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Analyze social media activity of the identified healthcare companies to examine how their engagement reflects their technology initiatives.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyInstagramDetail",
+        "CompanyTwitterDetail",
+        "CompanyYoutubeDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Compile and summarize insights regarding the technology trends and social media engagement patterns observed in the healthcare sector.",
+      "table": [
+        "IndustryITTrend",
+        "SocialMediaInfo"
+      ]
+    }
+  ]
+}

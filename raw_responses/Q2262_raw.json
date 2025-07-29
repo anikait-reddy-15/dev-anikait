@@ -1,0 +1,4 @@
+{
+  "question": "Analyze the impact of technology partnerships on company performance in the IT sector.",
+  "subtasks": "[{\"step\":1,\"task\":\"Identify companies in the IT sector and retrieve their financial metrics like Revenue, Net Income, and Market Capitalization.\",\"table\":[\"CompanyInfo\"]},{\"step\":2,\"task\":\"Fetch details of technology partnerships for the identified companies including deal values and partnership descriptions.\",\"table\":[\"CompanyITPartnerDetail\"]},{\"step\":3,\"task\":\"Analyze the correlation between the partnership deal values and company financial metrics to determine the impact on performance.\",\"table\":[\"CompanyITPartnerDetail\",\"CompanyInfo\"]},{\"step\":4,\"task\":\"Compile a report summarizing findings and insights regarding the effects of technology partnerships on company growth in the IT sector.\",\"table\":[\"CompanyInfo\",\"CompanyITPartnerDetail\"]}]"
+}

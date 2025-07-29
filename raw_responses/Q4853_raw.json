@@ -1,0 +1,4 @@
+{
+  "question": "What are the emerging technology trends and focus areas in the healthcare industry for the latest year?",
+  "subtasks": "[{'step': 1, 'task': 'Identify all entries related to the healthcare industry from the IndustryITTrend table to capture emerging technology trends.', 'table': ['IndustryITTrend']}, {'step': 2, 'task': 'Fetch the focus areas associated with the healthcare industry from the IndustryBusinessTrend table to understand strategic directions.', 'table': ['IndustryBusinessTrend']}, {'step': 3, 'task': 'Analyze technology focus areas from the CompanyFocusAreaDetail table specific to companies operating in the healthcare sector.', 'table': ['CompanyFocusAreaDetail']}, {'step': 4, 'task': 'Combine the findings from tasks 1 to 3 to compose a comprehensive report on emerging trends and focus areas in healthcare technology.', 'table': []}]}"
+}

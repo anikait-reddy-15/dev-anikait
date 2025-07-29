@@ -1,0 +1,4 @@
+{
+  "question": "Identify the social media engagement trends of companies in the technology sector.",
+  "subtasks": "[{'step': 1, 'task': 'Filter companies by industry type to select only those that belong to the technology sector.', 'table': ['CompanyInfo']}, {'step': 2, 'task': 'Extract Facebook engagement metrics (likes, comments, shares) for the selected companies.', 'table': ['CompanyFacebookDetail']}, {'step': 3, 'task': 'Extract Instagram engagement metrics (likes, comments, engagement rate) for the selected companies.', 'table': ['CompanyInstagramDetail']}, {'step': 4, 'task': 'Extract Twitter engagement metrics (likes, retweets) for the selected companies.', 'table': ['CompanyTwitterDetail']}, {'step': 5, 'task': 'Compile and analyze the collected social media metrics to identify trends in engagement.', 'table': []}]"
+}

@@ -1,0 +1,46 @@
+{
+  "question": "Analyze the social media engagement trends of different companies from various industries and identify the impact of their IT investments on these trends.",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Gather social media presence data for companies, including engagement metrics on platforms like Facebook, Instagram, and Twitter.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyInstagramDetail",
+        "CompanyTwitterDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Collect financial metrics from the CompanyInfo table, focusing on IT budget and revenue to assess the impact of IT investments.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Link the social media engagement metrics with the relevant company information to analyze correlations between IT investments and social media performance.",
+      "table": [
+        "SocialMediaInfo",
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Identify industry categorizations from the CompanyInfo table to segment the analysis by industry type, allowing for industry-specific insights on engagement trends.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Compile the analysis results into a comprehensive report that highlights engagement trends per industry and correlates these trends with IT budget allocations from the CompanyInfo table.",
+      "table": [
+        "CompanyInfo",
+        "CompanyFacebookDetail",
+        "CompanyInstagramDetail",
+        "CompanyTwitterDetail"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "question": "What are the emerging IT trends adopted by companies in the technology sector over the past year?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify the companies operating within the technology sector and gather their identifiers and relevant details.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract the IT trends captured in the IndustryITTrend table that relate specifically to the technology sector identified in step 1.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the specific IT focus areas from the CompanyFocusAreaDetail table linked to the companies from step 1, highlighting their investments in new technologies.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Compile and summarize data from the CompanyVendorTechDetail table to understand the technology services adopted by these companies, focusing on trends in technology implementations over the past year.",
+      "table": [
+        "CompanyVendorTechDetail"
+      ]
+    }
+  ]
+}

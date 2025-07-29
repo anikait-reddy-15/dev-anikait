@@ -1,0 +1,4 @@
+{
+  "question": "What are the emerging trends in the technology adoption strategies across different industries?",
+  "subtasks": "[{\"step\":1,\"task\":\"Identify the key emerging IT trends related to technology adoption across different industries.\",\"table\":[\"IndustryITTrend\"]},{\"step\":2,\"task\":\"Analyze specific companies that are adopting these trends and capture their strategic focus in technology areas.\",\"table\":[\"CompanyFocusAreaDetail\",\"CompanyInfo\"]},{\"step\":3,\"task\":\"Review the financial performances of these companies to correlate their technology adoption with revenue growth and market share.\",\"table\":[\"CompanyInfo\"]},{\"step\":4,\"task\":\"Document any collaborations or partnerships these companies have formed to support their technology strategies.\",\"table\":[\"CompanyITPartnerDetail\"]}]"
+}

@@ -1,0 +1,35 @@
+{
+  "question": "What are the technological focus areas and social media presence for each company in the technology industry?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Retrieve all companies within the technology industry along with their basic information such as Id, Name, and Active status.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Fetch the strategic technology focus areas for the identified companies to understand their technological direction.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Collect social media presence data (including engagement counts and profile URLs) for each identified company to analyze their social media strategy and effectiveness.",
+      "table": [
+        "SocialMediaInfo"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Compile the combined results to summarize each company's technological focus areas alongside their corresponding social media presence metrics.",
+      "table": [
+        "CompanyInfo",
+        "CompanyFocusAreaDetail",
+        "SocialMediaInfo"
+      ]
+    }
+  ]
+}

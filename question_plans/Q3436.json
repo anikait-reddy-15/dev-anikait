@@ -1,0 +1,44 @@
+{
+  "question": "What are the top 5 companies in the technology sector by revenue, and what is their social media engagement ratings?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Fetch the revenue data of companies from the technology sector.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Filter the companies by industry type as 'Technology' and sort them by revenue in descending order.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Select the top 5 companies after sorting and fetch their corresponding social media engagement data such as likes and comments from Facebook, Instagram, and Twitter.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyInstagramDetail",
+        "CompanyTwitterDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Aggregate the social media engagement metrics for these top 5 companies to calculate average engagement ratings.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyInstagramDetail",
+        "CompanyTwitterDetail"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Format and present the results showing company names, revenue, and calculated social media engagement ratings.",
+      "table": [
+        "CompanyInfo"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "question": "Identify the top 5 companies in the technology sector based on their market capitalization and analyze their social media engagement across platforms.",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Query the CompanyInfo table to filter and retrieve the technology companies sorted by MarketCapitalization in descending order.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Select the top 5 companies from the filtered results of the first task to focus on their profiles for further analysis.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Gather social media engagement data for the selected companies by querying the CompanyFacebookDetail, CompanyInstagramDetail, CompanyTwitterDetail, and CompanyYoutubeDetail tables.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyInstagramDetail",
+        "CompanyTwitterDetail",
+        "CompanyYoutubeDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Compile and summarize the social media metrics (likes, comments, engagement rates) for these companies to analyze their overall social media presence.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyInstagramDetail",
+        "CompanyTwitterDetail",
+        "CompanyYoutubeDetail"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Analyze the social media engagement data relative to the companies' market capitalization to uncover patterns or insights regarding their online presence and influence.",
+      "table": [
+        "CompanyInfo",
+        "CompanyFacebookDetail",
+        "CompanyInstagramDetail",
+        "CompanyTwitterDetail",
+        "CompanyYoutubeDetail"
+      ]
+    }
+  ]
+}

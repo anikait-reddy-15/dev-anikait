@@ -1,0 +1,4 @@
+{
+  "question": "What are the current hiring initiatives across companies in the technology sector?",
+  "subtasks": "[{\"step\":1,\"task\":\"Identify companies operating in the technology sector by querying the CompanyInfo table for companies with a specific industry classification.\",\"table\":[\"CompanyInfo\"]},{\"step\":2,\"task\":\"Retrieve active hiring initiatives from the CompanyHiringDetail table, linking them to the specific companies identified in step 1.\",\"table\":[\"CompanyHiringDetail\"]},{\"step\":3,\"task\":\"Aggregate hiring data to analyze positions, required skills, and geographic distribution of the roles within the technology sector.\",\"table\":[\"CompanyHiringDetail\"]},{\"step\":4,\"task\":\"Compile summary reports to visualize and present trends in hiring across the technology sector, including common designations and key locations for job postings.\",\"table\":[\"CompanyHiringDetail\",\"CompanyInfo\"]}]}"
+}

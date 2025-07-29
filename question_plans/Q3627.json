@@ -1,0 +1,33 @@
+{
+  "question": "How can we analyze the social media engagement and hiring trends of technology companies in the last year?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Retrieve social media engagement metrics for technology companies from the last year to measure their online presence and interaction levels.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyTwitterDetail",
+        "CompanyInstagramDetail",
+        "CompanyYoutubeDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Gather hiring statistics from technology companies to identify trends in job postings and demand for specific skills over the past year.",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Cross-reference social media engagement data with hiring trends to analyze any correlations or insights on how online engagement impacts job postings.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyTwitterDetail",
+        "CompanyInstagramDetail",
+        "CompanyYoutubeDetail",
+        "CompanyHiringDetail"
+      ]
+    }
+  ]
+}

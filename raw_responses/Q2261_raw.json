@@ -1,0 +1,4 @@
+{
+  "question": "What are the latest social media engagement trends for technology companies in the finance sector?",
+  "subtasks": "[{'step': 1, 'task': 'Identify technology companies in the finance sector by filtering the CompanyInfo table based on the industry.', 'table': ['CompanyInfo']}, {'step': 2, 'task': 'Extract social media engagement metrics for the identified technology companies from the SocialMediaInfo table.', 'table': ['SocialMediaInfo']}, {'step': 3, 'task': 'Analyze the engagement data from social media platforms (Facebook, Instagram, Twitter, LinkedIn) to identify trends and compare performance.', 'table': ['CompanyFacebookDetail', 'CompanyInstagramDetail', 'CompanyTwitterDetail', 'CompanyLinkedinActivity']}, {'step': 4, 'task': 'Compile a report summarizing the findings of the social media engagement trends, focusing on key metrics such as likes, comments, and shares.', 'table': []}]}"
+}

@@ -1,0 +1,4 @@
+{
+  "question": "What are the latest IT trends adopted by companies in the technology industry?",
+  "subtasks": "[{\"step\":1,\"task\":\"Identify companies belonging to the technology industry from the CompanyInfo table.\",\"table\":[\"CompanyInfo\"]},{\"step\":2,\"task\":\"Retrieve IT focus areas for the identified technology companies from the CompanyFocusAreaDetail table.\",\"table\":[\"CompanyFocusAreaDetail\"]},{\"step\":3,\"task\":\"Gather detailed records of IT trends by linking with IndustryITTrend for technology-related trends specific to the identified companies.\",\"table\":[\"IndustryITTrend\"]},{\"step\":4,\"task\":\"Compile the data to analyze and summarize the latest IT trends based on the retrieved information.\",\"table\":[\"CompanyInfo\",\"CompanyFocusAreaDetail\",\"IndustryITTrend\"]}]}"
+}

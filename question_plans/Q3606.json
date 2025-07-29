@@ -1,0 +1,43 @@
+{
+  "question": "What are the current trends in hiring and technology adoption among companies in the technology sector?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies operating in the technology sector from the CompanyInfo table and gather their relevant metadata such as industry, revenue, and employee count.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Analyze hiring trends by querying the CompanyHiringDetail table to gather active hiring initiatives linked to the identified technology companies, including roles, skill requirements, and geographical locations.",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Collect data on technology stacks used by the identified companies from the CompanyTechStack table, focusing on platforms and services adopted within the technology sector.",
+      "table": [
+        "CompanyTechStack"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Correlate the hiring trends with the technology stack data to understand how hiring initiatives align with the technologies being implemented in these companies.",
+      "table": [
+        "CompanyHiringDetail",
+        "CompanyTechStack"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Summarize the findings and identify key trends that reflect the current state of hiring and technology adoption within the technology sector based on the analysis performed.",
+      "table": [
+        "CompanyInfo",
+        "CompanyHiringDetail",
+        "CompanyTechStack"
+      ]
+    }
+  ]
+}

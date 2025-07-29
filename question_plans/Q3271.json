@@ -1,0 +1,31 @@
+{
+  "question": "Identify companies within the technology industry that have high market capitalization and analyze their social media activity.",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Query for companies in the technology industry and filter them based on high market capitalization.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract social media presence data for the identified technology companies, focusing on their engagement counts across platforms like Facebook, Twitter, and Instagram.",
+      "table": [
+        "SocialMediaInfo",
+        "CompanyFacebookDetail",
+        "CompanyTwitterDetail",
+        "CompanyInstagramDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the social media engagement metrics (likes, comments, shares) of the filtered technology companies to evaluate their online presence and impact.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyTwitterDetail",
+        "CompanyInstagramDetail"
+      ]
+    }
+  ]
+}

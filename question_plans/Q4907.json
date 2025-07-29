@@ -1,0 +1,31 @@
+{
+  "question": "What are the recent trends in the technology stack utilized by companies in the banking industry?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify all companies operating in the banking industry and gather relevant details about them.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract data regarding the technology stack used by the identified banking companies to analyze their technology adoption trends.",
+      "table": [
+        "CompanyTechStack"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Compile a list of recent industry trends highlighted in the IndustryITTrend table that are relevant to the banking sector.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Analyze the extracted technology stack data in conjunction with the identified industry trends to summarize the findings.",
+      "table": []
+    }
+  ]
+}

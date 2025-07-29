@@ -1,0 +1,35 @@
+{
+  "question": "What are the key technology focus areas for companies in the healthcare industry?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify all companies operating in the healthcare industry by querying the CompanyInfo table and filtering by the 'Industry' column.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "For each healthcare company identified, retrieve their strategic technology focus areas from the CompanyFocusAreaDetail table by linking it to the CompanyInfo table using CompanyInfoId.",
+      "table": [
+        "CompanyFocusAreaDetail",
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Aggregate the technology focus areas to find common trends and significant strategic initiatives within the healthcare industry from the information extracted in the previous step.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Analyze the engagement metrics and social media presence of healthcare companies using the SocialMediaInfo table to understand how these companies communicate their technology focus areas to their audience.",
+      "table": [
+        "SocialMediaInfo",
+        "CompanyInfo"
+      ]
+    }
+  ]
+}

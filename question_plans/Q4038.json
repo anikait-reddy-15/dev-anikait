@@ -1,0 +1,35 @@
+{
+  "question": "What are the recent hiring trends in the technology industry?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify technology companies currently hiring and extract their hiring details including designation and domain.",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Analyze the collected hiring data to determine the most common designations and domains for recent hires.",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Cross-reference hiring data with industry trends to see if there are correlations between technology focus areas and hiring patterns.",
+      "table": [
+        "CompanyFocusAreaDetail",
+        "CompanyHiringDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Summarize findings and present insights on hiring trends related to specific technologies or strategic initiatives within the industry.",
+      "table": [
+        "CompanyHiringDetail",
+        "IndustryITTrend"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "question": "What are the current hiring trends across companies in the IT sector?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Fetch the list of active companies in the IT sector from the CompanyInfo table.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Retrieve active hiring details for the identified IT companies from the CompanyHiringDetail table.",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the job roles, skills, and locations specified in the hiring details to identify common trends.",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Summarize findings on the demand for specific skills and roles in the IT sector across different companies.",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    }
+  ]
+}

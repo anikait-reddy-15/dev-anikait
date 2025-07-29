@@ -1,0 +1,4 @@
+{
+  "question": "What are the emerging technology focus areas of companies in the tech industry and their strategic initiatives?",
+  "subtasks": "1. Identify companies within the tech industry including their names, founded year, and revenue.\n2. Gather data on each company's strategic technology focus areas from the CompanyFocusAreaDetail table to understand their initiatives.\n3. Collect and analyze leadership excerpts related to technology focus areas from the CompanyLeadershipExcerpt table for insights on strategic direction.\n4. Compile data regarding hiring initiatives in the tech sector from CompanyHiringDetail to understand talent acquisition trends related to these technologies.\n5. Analyze B2B technology service contracts in the CompanyDealMaster table for insights on technology adoption trends and partnerships in the tech industry."
+}

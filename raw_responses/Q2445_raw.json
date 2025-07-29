@@ -1,0 +1,4 @@
+{
+  "question": "What are the latest trends in technology adoption across industries, and which companies are leading in those areas?",
+  "subtasks": "[\n  {\n    \"step\": 1,\n    \"task\": \"Identify the most recent technology trends across industries.\",\n    \"table\": [\"IndustryITTrend\"]\n  },\n  {\n    \"step\": 2,\n    \"task\": \"Extract specific technology focus areas detailed in the trends identified.\",\n    \"table\": [\"IndustryITTrend\", \"CompanyFocusAreaDetail\"]\n  },\n  {\n    \"step\": 3,\n    \"task\": \"List companies that are heavily involved in each technology focus area based on their profiles and strategic initiatives.\",\n    \"table\": [\"CompanyInfo\", \"CompanyFocusAreaDetail\"]\n  },\n  {\n    \"step\": 4,\n    \"task\": \"Analyze financial metrics of these companies to determine their market positioning in relation to the identified trends.\",\n    \"table\": [\"CompanyInfo\"]\n  }\n]"
+}

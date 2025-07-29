@@ -1,0 +1,4 @@
+{
+  "question": "Analyze the social media presence and engagement metrics of companies across Facebook, Twitter, and Instagram.",
+  "subtasks": "[{\"step\":1,\"task\":\"Fetch social media engagement metrics for each company on Facebook, including likes, comments, and posts.\",\"table\":[\"CompanyFacebookDetail\"]},{\"step\":2,\"task\":\"Retrieve Twitter engagement data for companies, including likes, retweets, and tweet content.\",\"table\":[\"CompanyTwitterDetail\"]},{\"step\":3,\"task\":\"Gather Instagram engagement metrics for companies, such as likes, comments, and post details.\",\"table\":[\"CompanyInstagramDetail\"]},{\"step\":4,\"task\":\"Compile the data from all three social media platforms into a comprehensive report to analyze overall engagement and trends.\",\"table\":[\"CompanyFacebookDetail\",\"CompanyTwitterDetail\",\"CompanyInstagramDetail\"]}]}"
+}

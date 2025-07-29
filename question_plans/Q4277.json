@@ -1,0 +1,39 @@
+{
+  "question": "What are the emerging IT trends and technology focus areas adopted by companies within the Finance industry, and how are they reflected in social media engagement?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify and retrieve a list of companies belonging to the Finance industry along with their core IT focus areas.",
+      "table": [
+        "CompanyInfo",
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Analyze the emerging IT trends from the IndustryITTrend table specifically for the Finance industry to match with the previously retrieved companies.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Extract social media engagement metrics for the identified Finance companies from the respective social media detail tables (like Facebook, Twitter, Instagram).",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyTwitterDetail",
+        "CompanyInstagramDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Combine insights from company focus areas and their social media engagement metrics to understand how effectively these companies are embracing IT trends in their public communications.",
+      "table": [
+        "CompanyFocusAreaDetail",
+        "CompanyFacebookDetail",
+        "CompanyTwitterDetail",
+        "CompanyInstagramDetail"
+      ]
+    }
+  ]
+}

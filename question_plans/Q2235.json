@@ -1,0 +1,40 @@
+{
+  "question": "How are technology adoption trends changing among companies in the healthcare industry?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies operating in the healthcare industry from the CompanyInfo table.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Analyze the technology stack used by the identified healthcare companies from the CompanyTechStack table.",
+      "table": [
+        "CompanyTechStack"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Retrieve details on strategic technology focus areas from the CompanyFocusAreaDetail table for the healthcare companies.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Examine hiring trends related to technology roles in the healthcare sector from the CompanyHiringDetail table.",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Compile insights on vendor partnerships of healthcare companies from the CompanyITPartnerDetail table to assess collaboration trends.",
+      "table": [
+        "CompanyITPartnerDetail"
+      ]
+    }
+  ]
+}

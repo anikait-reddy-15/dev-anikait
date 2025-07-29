@@ -1,0 +1,34 @@
+{
+  "question": "What are the recent hiring trends in the technology industry across different regions?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify the companies within the technology industry and retrieve their basic information such as name and location.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Collect active hiring initiatives from the CompanyHiringDetail table for the identified technology companies to understand the types of roles they are hiring for.",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the hiring data by region and categorize it to evaluate trends in job roles, skill demand, and geographic patterns.",
+      "table": [
+        "CompanyHiringDetail",
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Aggregate the hiring trends data over a specific time frame to outline insights on which skills or roles are increasing or decreasing in demand within the technology industry.",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+{
+  "question": "What are the key technology focus areas and their associated strategies for top companies in the IT industry?",
+  "subtasks": "[{'step': 1, 'task': 'Identify the top companies in the IT industry and gather their basic information.', 'table': ['CompanyInfo']}, {'step': 2, 'task': 'Extract the strategic technology focus areas for the identified top companies.', 'table': ['CompanyFocusAreaDetail']}, {'step': 3, 'task': 'Retrieve leadership statements or excerpts that highlight the companies' strategies regarding their focus areas.', 'table': ['CompanyLeadershipExcerpt']}, {'step': 4, 'task': 'Compile the technology partnerships and vendor relationships that align with the focus areas.', 'table': ['CompanyITPartnerDetail']}, {'step': 5, 'task': 'Analyze the combined data to summarize the technology focus areas and associated strategies for each top IT company.', 'table': []}]"
+}

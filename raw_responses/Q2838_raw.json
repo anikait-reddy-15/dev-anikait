@@ -1,0 +1,4 @@
+{
+  "question": "What are the current technology trends and focus areas for companies in the manufacturing sector?",
+  "subtasks": "[{\"step\":1,\"task\":\"Identify and list all companies in the manufacturing sector from the CompanyInfo table.\",\"table\":[\"CompanyInfo\"]},{\"step\":2,\"task\":\"Retrieve the strategic technology focus areas for these companies from the CompanyFocusAreaDetail table.\",\"table\":[\"CompanyFocusAreaDetail\"]},{\"step\":3,\"task\":\"Analyze the IT trends relevant to the manufacturing industry from the IndustryITTrend table.\",\"table\":[\"IndustryITTrend\"]},{\"step\":4,\"task\":\"Compile and summarize the technology focus areas and IT trends data collected in previous steps.\",\"table\":[\"CompanyFocusAreaDetail\",\"IndustryITTrend\"]}]"
+}

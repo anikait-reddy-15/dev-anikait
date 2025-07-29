@@ -1,0 +1,46 @@
+{
+  "question": "What are the current technology adoption trends among top companies in the IT industry?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify the top companies in the IT industry based on revenue and market capitalization.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Gather data on the technologies used by these companies to understand their technology stack and adoption practices.",
+      "table": [
+        "CompanyTechStack"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the focus areas and strategic technology initiatives declared by these companies through their leadership excerpts and focus area details.",
+      "table": [
+        "CompanyFocusAreaDetail",
+        "CompanyLeadershipExcerpt"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Correlate the technology usage data with social media engagement metrics to understand how technology trends relate to overall company performance and public perception.",
+      "table": [
+        "SocialMediaInfo",
+        "CompanyFacebookDetail",
+        "CompanyTwitterDetail",
+        "CompanyInstagramDetail",
+        "CompanyYoutubeDetail"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Compile findings into a report summarizing the key trends, identifying leading technologies, and illustrating their impact on company performance within the industry.",
+      "table": [
+        "PageInfo",
+        "SectionInfo"
+      ]
+    }
+  ]
+}

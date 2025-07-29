@@ -1,0 +1,4 @@
+{
+  "question": "What are the current hiring trends across major companies in the tech industry?",
+  "subtasks": "[{'step': 1, 'task': 'Identify major tech companies and their details such as revenue and market capitalization.', 'table': ['CompanyInfo']}, {'step': 2, 'task': 'Extract current hiring initiatives from companies, including roles, domains, and locations.', 'table': ['CompanyHiringDetail']}, {'step': 3, 'task': 'Analyze the extracted hiring data to find trends such as most requested roles, required skills, and geographical hiring patterns.', 'table': ['CompanyHiringDetail']}, {'step': 4, 'task': 'Group hiring trends by different tech domains and industries to get a comprehensive view.', 'table': ['CompanyInfo', 'CompanyHiringDetail']}, {'step': 5, 'task': 'Summarize findings on hiring trends to inform stakeholders about current demands and shifts within the tech industry.', 'table': ['CompanyHiringDetail', 'CompanyInfo']}]"
+}

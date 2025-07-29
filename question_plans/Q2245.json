@@ -1,0 +1,34 @@
+{
+  "question": "What are the current IT spending trends among companies in various industries?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Gather current IT budget information for companies across different industries.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Analyze revenue and net income figures to correlate with IT budget allocations.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Compile a list of industry-specific reports or trends that may impact IT budgets and spending strategies.",
+      "table": [
+        "IndustryBusinessTrend",
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Examine technology adoption data to identify which technologies are prioritized in budgets by companies in each industry.",
+      "table": [
+        "CompanyTechStack"
+      ]
+    }
+  ]
+}

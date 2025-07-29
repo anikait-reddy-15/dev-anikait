@@ -1,0 +1,4 @@
+{
+  "question": "What are the emerging IT trends across various industries and how do they relate to companies' strategic focus areas?",
+  "subtasks": "[{\"step\":1,\"task\":\"Identify the industries of interest and their specific IT trends based on the current data available.\",\"table\":[\"IndustryITTrend\"]},{\"step\":2,\"task\":\"Extract the strategic focus areas for different companies to understand how they align with the identified IT trends.\",\"table\":[\"CompanyFocusAreaDetail\"]},{\"step\":3,\"task\":\"Map the relationships between companies' focus areas and the prevalent IT trends to analyze industry-level adoption strategies.\",\"table\":[\"CompanyFocusAreaDetail\",\"IndustryITTrend\"]},{\"step\":4,\"task\":\"Compile a report or summary of the findings that highlight the connection between company strategies and emerging IT trends.\",\"table\":[\"SectionData\",\"PageInfo\"]}]}"
+}

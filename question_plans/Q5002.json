@@ -1,0 +1,28 @@
+{
+  "question": "How can we analyze the technology adoption trends of companies across different industries over the past five years?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify the relevant industries and their associated technology trends for the last five years.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Gather data on technology adoption from the CompanyTechStack table for companies in the identified industries.",
+      "table": [
+        "CompanyTechStack"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the technology adoption metrics and compare them across different industries to highlight trends over the past five years.",
+      "table": [
+        "CompanyInfo",
+        "CompanyDealMaster",
+        "IndustryITTrend"
+      ]
+    }
+  ]
+}

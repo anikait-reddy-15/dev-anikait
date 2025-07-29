@@ -1,0 +1,34 @@
+{
+  "question": "What are the current hiring trends in the technology sector among leading companies?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify leading companies in the technology sector based on revenue and market capitalization",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Retrieve the active hiring initiatives for identified technology companies, including job designations and domains",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the geographic distribution of the hiring initiatives to understand regional trends within the technology sector",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Summarize the technology focus areas linked to the hiring initiatives to identify skills and roles in demand",
+      "table": [
+        "CompanyFocusAreaDetail",
+        "CompanyHiringDetail"
+      ]
+    }
+  ]
+}

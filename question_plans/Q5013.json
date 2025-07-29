@@ -1,0 +1,39 @@
+{
+  "question": "What are the key technology strategies and social media engagement metrics of top companies in the technology industry?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify and filter technology companies from the CompanyInfo table based on the industry type (e.g., Technology).",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract key technology focus areas for these companies from the CompanyFocusAreaDetail table to understand their strategic technology initiatives.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Gather social media engagement metrics (likes, comments, shares) for each company across different platforms (Facebook, Twitter, Instagram) from their respective detail tables to analyze their outreach effectiveness.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyTwitterDetail",
+        "CompanyInstagramDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Compile and analyze the data collected on technology strategies and social media analytics to derive insights about trends and patterns within the technology industry.",
+      "table": [
+        "CompanyInfo",
+        "CompanyFocusAreaDetail",
+        "CompanyFacebookDetail",
+        "CompanyTwitterDetail",
+        "CompanyInstagramDetail"
+      ]
+    }
+  ]
+}

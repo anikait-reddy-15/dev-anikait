@@ -1,0 +1,4 @@
+{
+  "question": "What technologies are commonly adopted by companies in the finance industry, and how do they compare in terms of market capitalization?",
+  "subtasks": "[{\"step\":1,\"task\":\"Gather a list of companies in the finance industry along with their details such as name, market capitalization, and IT budget from the CompanyInfo table.\",\"table\":[\"CompanyInfo\"]},{\"step\":2,\"task\":\"Identify the technologies used by these finance companies by retrieving data from the CompanyTechStack table to see what technologies are commonly adopted.\",\"table\":[\"CompanyTechStack\"]},{\"step\":3,\"task\":\"Compile a summary of the technologies and their associated market capitalizations to analyze trends and patterns in technology adoption among finance companies.\",\"table\":[\"CompanyInfo\",\"CompanyTechStack\"]}]"
+}

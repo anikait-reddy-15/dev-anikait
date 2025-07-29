@@ -1,0 +1,36 @@
+{
+  "question": "What are the current technological focus areas and hiring trends among leading companies in the IT sector?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify leading companies in the IT sector along with their details such as name, industry, and revenue.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract and summarize the strategic technological focus areas of the identified companies.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Gather current hiring initiatives and job descriptions from the companies to understand hiring trends and demands in the IT sector.",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Compile the data from social media metrics to assess the online engagement of these companies in relation to their technological focus areas.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyTwitterDetail",
+        "CompanyInstagramDetail",
+        "CompanyYoutubeDetail"
+      ]
+    }
+  ]
+}

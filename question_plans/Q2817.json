@@ -1,0 +1,36 @@
+{
+  "question": "Analyze the hiring initiatives and social media presence of companies in the technology industry.",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify all companies in the technology industry from the CompanyInfo table.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Gather active hiring details for the identified technology companies from the CompanyHiringDetail table.",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Collect social media engagement metrics, specifically Facebook and Twitter, for the identified technology companies from the CompanyFacebookDetail and CompanyTwitterDetail tables.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyTwitterDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Aggregate and analyze hiring trends and social media engagement data to identify potential correlations or insights related to the technology industry's recruitment strategies.",
+      "table": [
+        "CompanyHiringDetail",
+        "CompanyFacebookDetail",
+        "CompanyTwitterDetail"
+      ]
+    }
+  ]
+}

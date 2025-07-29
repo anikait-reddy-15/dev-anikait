@@ -1,0 +1,42 @@
+{
+  "question": "What are the emerging technology trends and strategic initiatives in the cloud computing industry as seen in various companies' profiles?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies in the cloud computing industry from the CompanyInfo table by filtering on the Industry column.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Gather data on each identified company's technology focus areas related to cloud computing from the CompanyFocusAreaDetail table.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze relevant hiring trends for cloud-related positions from the CompanyHiringDetail table to understand workforce demand in the industry.",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Compile social media engagement metrics related to cloud computing from CompanyFacebookDetail, CompanyInstagramDetail, and CompanyTwitterDetail to assess public interest and engagement.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyInstagramDetail",
+        "CompanyTwitterDetail"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Review recent strategic deals and partnerships focused on cloud technology from the CompanyDealMaster table for additional insights and trends.",
+      "table": [
+        "CompanyDealMaster"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "question": "What is the social media engagement for companies across different platforms over the last year?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify all companies with active social media accounts recently updated in the last year and capture their IDs and names.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Gather social media engagement metrics from Facebook, Twitter, Instagram, and YouTube for each identified company, focusing on post interactions over the past year.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyTwitterDetail",
+        "CompanyInstagramDetail",
+        "CompanyYoutubeDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Summarize total likes, comments, and overall engagement rates for each company's posts across all social media platforms within the specified time frame.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyTwitterDetail",
+        "CompanyInstagramDetail",
+        "CompanyYoutubeDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Generate a report outlining the top companies based on social media engagement metrics, specifying each platform's contributions to overall engagement.",
+      "table": [
+        "CompanyInfo",
+        "CompanyFacebookDetail",
+        "CompanyTwitterDetail",
+        "CompanyInstagramDetail",
+        "CompanyYoutubeDetail"
+      ]
+    }
+  ]
+}

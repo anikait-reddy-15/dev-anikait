@@ -1,0 +1,41 @@
+{
+  "question": "What are the social media engagement levels and IT focus areas for companies in the technology industry?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Gather social media engagement data for companies operating in the technology sector by extracting metrics from relevant social media tables (likes, comments, engagement rates).",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyInstagramDetail",
+        "CompanyTwitterDetail",
+        "CompanyYoutubeDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Identify companies within the technology industry from the CompanyInfo table. This will involve filtering by the 'Industry' column to find relevant entries. ",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Extract and summarize the IT focus areas of the identified technology companies, pulling data from the CompanyFocusAreaDetail table. This may include analyzing details about their strategic technology initiatives and priorities.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Combine the social media engagement data and IT focus area summaries to generate a comprehensive report on technology companies' online presence and strategic direction in IT. ",
+      "table": [
+        "CompanyInfo",
+        "CompanyFocusAreaDetail",
+        "CompanyFacebookDetail",
+        "CompanyInstagramDetail",
+        "CompanyTwitterDetail",
+        "CompanyYoutubeDetail"
+      ]
+    }
+  ]
+}

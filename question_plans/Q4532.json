@@ -1,0 +1,43 @@
+{
+  "question": "What are the current marketing strategies employed by companies in the technology sector?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify technology sector companies from the CompanyInfo table based on the Industry column.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Gather social media engagement metrics for these companies from social media related tables such as CompanyFacebookDetail, CompanyInstagramDetail, CompanyTwitterDetail, and CompanyYoutubeDetail.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyInstagramDetail",
+        "CompanyTwitterDetail",
+        "CompanyYoutubeDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze hiring trends in the technology sector by reviewing the CompanyHiringDetail table for active job openings in relevant domains and designations.",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Review CompanyFocusAreaDetail for detailed narratives on specific IT initiatives and strategic focus areas for technology companies.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Compile insights from SectionData to gather any marketing-related content sections that reflect companies' strategies and initiatives in the technology space.",
+      "table": [
+        "SectionData"
+      ]
+    }
+  ]
+}

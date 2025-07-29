@@ -1,0 +1,38 @@
+{
+  "question": "What are the emerging IT trends among companies in the technology industry, and how are these reflected in their social media engagement?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify the key technology industry companies from the CompanyInfo table.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract IT trends specific to the technology industry from the IndustryITTrend table.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the social media engagement metrics from the CompanyFacebookDetail, CompanyTwitterDetail, and CompanyInstagramDetail tables for the identified companies.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyTwitterDetail",
+        "CompanyInstagramDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Correlate the IT trends with social media engagement metrics to find patterns or insights for the technology industry.",
+      "table": [
+        "IndustryITTrend",
+        "CompanyFacebookDetail",
+        "CompanyTwitterDetail",
+        "CompanyInstagramDetail"
+      ]
+    }
+  ]
+}

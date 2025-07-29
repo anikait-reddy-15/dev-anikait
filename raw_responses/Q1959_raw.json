@@ -1,0 +1,4 @@
+{
+  "question": "What are the recent trends in digital transformation across various industries?",
+  "subtasks": "[{'step': 1, 'task': 'Identify the different industries covered in the database.', 'table': ['IndustryITTrend']}, {'step': 2, 'task': 'Extract recent entries that highlight digital transformation trends by analyzing the corresponding industry types.', 'table': ['IndustryITTrend']}, {'step': 3, 'task': 'Compile the information related to emerging technologies mentioned in the trends, including AI, IoT, blockchain, and cybersecurity.', 'table': ['IndustryITTrend']}, {'step': 4, 'task': 'Summarize the insights gathered regarding the adoption of these technologies and their strategic focus areas.', 'table': ['IndustryITTrend']}, {'step': 5, 'task': 'Cross-reference these trends with specific examples from the CompanyInfo table to validate industry insights with company data.', 'table': ['CompanyInfo', 'IndustryITTrend']}]"
+}

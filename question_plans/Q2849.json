@@ -1,0 +1,42 @@
+{
+  "question": "What are the emerging IT trends and strategic focus areas for companies in the cloud computing industry?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies operating in the cloud computing industry and gather their basic information such as name, ownership, and revenue.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Analyze the industry IT trends related to cloud computing, focusing on specific technologies being adopted and their strategic focus areas.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Retrieve and analyze the Company's IT focus areas specific to cloud computing initiatives as mentioned in their detailed descriptions.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Gather data on any relevant technology partnerships that companies in the cloud computing space have established to enhance their service offerings.",
+      "table": [
+        "CompanyITPartnerDetail"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Compile data on social media mentions or engagement related to cloud computing initiatives of identified companies to understand public sentiment and engagement.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyTwitterDetail",
+        "CompanyInstagramDetail"
+      ]
+    }
+  ]
+}

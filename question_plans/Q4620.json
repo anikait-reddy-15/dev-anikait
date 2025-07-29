@@ -1,0 +1,41 @@
+{
+  "question": "What are the latest technology trends adopted by companies across various industries?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify the industries of interest based on recent trends",
+      "table": [
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract the latest technology focus areas and trends for each identified industry",
+      "table": [
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Compile a list of companies that are adopting these technologies and their respective IT focus areas",
+      "table": [
+        "CompanyTechStack",
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Analyze recent contracts to assess technology service adoption related to these trends",
+      "table": [
+        "CompanyDealMaster"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Summarize overall trends and key insights regarding technological innovations being implemented by companies",
+      "table": [
+        "CompanyInfo"
+      ]
+    }
+  ]
+}

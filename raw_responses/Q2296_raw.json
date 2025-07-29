@@ -1,0 +1,4 @@
+{
+  "question": "What are the current social media strategies used by companies in the technology sector?",
+  "subtasks": "[{\"step\":1,\"task\":\"Identify companies in the technology sector based on the Industry column in the CompanyInfo table.\",\"table\":[\"CompanyInfo\"]},{\"step\":2,\"task\":\"Retrieve the social media presence data for identified technology companies from the SocialMediaInfo table.\",\"table\":[\"SocialMediaInfo\"]},{\"step\":3,\"task\":\"Analyze the engagement metrics across different social media platforms for those companies to evaluate their strategies.\",\"table\":[\"CompanyFacebookDetail\",\"CompanyInstagramDetail\",\"CompanyTwitterDetail\",\"CompanyYoutubeDetail\"]}]"
+}

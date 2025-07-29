@@ -1,0 +1,29 @@
+{
+  "question": "What are the current technology focuses of companies in the healthcare industry and their associated social media engagement metrics?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies in the healthcare industry from CompanyInfo table.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Retrieve strategic technology focus areas for identified healthcare companies from CompanyFocusAreaDetail table.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Gather social media engagement metrics (likes, comments, engagement rates) for identified healthcare companies from relevant social media detail tables (Facebook, Twitter, Instagram, YouTube).",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyTwitterDetail",
+        "CompanyInstagramDetail",
+        "CompanyYoutubeDetail"
+      ]
+    }
+  ]
+}

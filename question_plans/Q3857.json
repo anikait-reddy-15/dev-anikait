@@ -1,0 +1,42 @@
+{
+  "question": "What are the technology trends and IT focus areas adopted by companies in the healthcare industry over the last five years?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies operating in the healthcare industry and extract their relevant information such as name, revenue, and employee count.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Gather detailed records of technology focus areas for each identified company, including descriptions of their initiatives and investments in IT.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the contracts and deals associated with these companies to find trends in the technologies adopted over the past five years.",
+      "table": [
+        "CompanyDealMaster"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Cross-reference social media engagement data for these companies to assess how public engagement relates to their technology focus areas.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyInstagramDetail",
+        "CompanyTwitterDetail"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Compile data on technology stacks from the identified companies to determine the most commonly used technologies in the healthcare sector.",
+      "table": [
+        "CompanyTechStack"
+      ]
+    }
+  ]
+}

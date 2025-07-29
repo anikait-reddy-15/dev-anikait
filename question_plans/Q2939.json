@@ -1,0 +1,34 @@
+{
+  "question": "What are the emerging technology focus areas and hiring trends in companies within the IT industry?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify and retrieve companies classified under the IT industry from the CompanyInfo table.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Gather data on the strategic technology focus areas of the identified IT companies from the CompanyFocusAreaDetail table.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze active hiring initiatives of the IT companies by extracting relevant data from the CompanyHiringDetail table.",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Compile a report summarizing the emerging technology focus areas and hiring trends found in the previous steps.",
+      "table": [
+        "CompanyFocusAreaDetail",
+        "CompanyHiringDetail"
+      ]
+    }
+  ]
+}

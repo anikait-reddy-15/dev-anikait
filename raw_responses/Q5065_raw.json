@@ -1,0 +1,4 @@
+{
+  "question": "What are the major IT trends impacting the industry and which companies are adopting them?",
+  "subtasks": "[{\"step\":1,\"task\":\"Identify major IT trends relevant to various industries by analyzing the IndustryITTrend table.\",\"table\":[\"IndustryITTrend\"]},{\"step\":2,\"task\":\"Compile a list of companies that are utilizing specific technologies as indicated in the CompanyTechStack table.\",\"table\":[\"CompanyTechStack\"]},{\"step\":3,\"task\":\"Cross-reference the companies from the CompanyTechStack with the IndustryITTrend findings to determine which organizations are adopting the identified trends.\",\"table\":[\"CompanyTechStack\",\"IndustryITTrend\",\"CompanyInfo\"]},{\"step\":4,\"task\":\"Gather additional insights about these companies from the CompanyInfo table to understand their profiles and relevancies to the identified IT trends.\",\"table\":[\"CompanyInfo\"]}]"
+}

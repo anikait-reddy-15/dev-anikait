@@ -1,0 +1,51 @@
+{
+  "question": "Analyze the social media presence of a specific company and its impact on engagement metrics.",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify the company for which social media presence needs to be analyzed and gather its basic information.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Retrieve the social media engagement metrics for the identified company from the relevant social media tables.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyInstagramDetail",
+        "CompanyTwitterDetail",
+        "CompanyYoutubeDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Compile the engagement metrics data to analyze trends across different platforms (likes, comments, engagement rates).",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyInstagramDetail",
+        "CompanyTwitterDetail",
+        "CompanyYoutubeDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Correlate the engagement metrics with the company profile to evaluate overall impact on visibility and presence in the market.",
+      "table": [
+        "CompanyInfo",
+        "SocialMediaInfo"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Generate insights or reports based on the analysis to determine how social media presence influences audience interaction.",
+      "table": [
+        "CompanyInfo",
+        "CompanyFacebookDetail",
+        "CompanyInstagramDetail",
+        "CompanyTwitterDetail",
+        "CompanyYoutubeDetail"
+      ]
+    }
+  ]
+}

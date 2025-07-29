@@ -1,0 +1,34 @@
+{
+  "question": "What are the current IT partnerships and hiring trends of companies in the technology sector?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies operating in the technology sector based on their industry classification.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Gather data on active IT partnerships that these identified technology companies have, including details about the partners and partnership metrics.",
+      "table": [
+        "CompanyITPartnerDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the current hiring trends in these technology companies by extracting data on their active hiring initiatives, including roles and locations.",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Compile insights on the interaction between the number of partnerships and hiring trends to identify any correlation between the two metrics.",
+      "table": [
+        "CompanyITPartnerDetail",
+        "CompanyHiringDetail"
+      ]
+    }
+  ]
+}

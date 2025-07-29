@@ -1,0 +1,4 @@
+{
+  "question": "What are the current technology focus areas and social media presence of major companies in the IT industry?",
+  "subtasks": "[{\"step\":1,\"task\":\"Fetch and summarize technology focus areas of companies in the IT industry.\",\"table\":[\"CompanyFocusAreaDetail\",\"CompanyInfo\"]},{\"step\":2,\"task\":\"Gather social media presence metrics for each major IT company, including Facebook, Twitter, and Instagram engagement metrics.\",\"table\":[\"SocialMediaInfo\",\"CompanyFacebookDetail\",\"CompanyTwitterDetail\",\"CompanyInstagramDetail\",\"CompanyInfo\"]},{\"step\":3,\"task\":\"Identify active companies in the IT industry and compile their technology adoption trends from the tech stack data.\",\"table\":[\"CompanyTechStack\",\"CompanyInfo\"]}]"
+}

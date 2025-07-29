@@ -1,0 +1,4 @@
+{
+  "question": "What are the recent trends in IT investments and technology focus areas among companies in the healthcare industry?",
+  "subtasks": "[{'step': 1, 'task': 'Identify companies operating in the healthcare industry and gather their IT budgets and strengths.', 'table': ['CompanyInfo']}, {'step': 2, 'task': 'Collect data on technology focus areas specific to healthcare companies, including investments and partnerships.', 'table': ['CompanyFocusAreaDetail']}, {'step': 3, 'task': 'Analyze industry IT trends relevant to healthcare and how companies are adopting these technologies.', 'table': ['IndustryITTrend']}, {'step': 4, 'task': 'Summarize the findings in terms of which technologies are being prioritized and the magnitude of investment.', 'table': []}]"
+}

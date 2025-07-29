@@ -1,0 +1,40 @@
+{
+  "question": "Analyze the impact of social media on company engagement and performance.",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Extract engagement metrics (likes, comments, shares) from social media data for each company.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyInstagramDetail",
+        "CompanyTwitterDetail",
+        "CompanyYoutubeDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Gather company performance metrics from the CompanyInfo table, including revenue and market capitalization.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Link social media engagement metrics with company performance metrics to identify patterns or correlations.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyInstagramDetail",
+        "CompanyTwitterDetail",
+        "CompanyYoutubeDetail",
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Compile and summarize the analysis results to assess the overall impact of social media presence on companies' financial performance.",
+      "table": [
+        "CompanyInfo"
+      ]
+    }
+  ]
+}

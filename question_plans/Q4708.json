@@ -1,0 +1,33 @@
+{
+  "question": "What are the top 5 companies in the technology industry that have the highest market capitalization, and how are they leveraging social media for engagement?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Query the CompanyInfo table to select the top 5 companies from the technology industry based on MarketCapitalization.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "For the selected companies, gather their Facebook, Twitter, Instagram, and YouTube engagement metrics from their respective social media detail tables.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyTwitterDetail",
+        "CompanyInstagramDetail",
+        "CompanyYoutubeDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Compile a report that summarizes the market capitalization of the top companies and their social media engagement metrics to identify trends and potential strategies.",
+      "table": [
+        "CompanyInfo",
+        "CompanyFacebookDetail",
+        "CompanyTwitterDetail",
+        "CompanyInstagramDetail",
+        "CompanyYoutubeDetail"
+      ]
+    }
+  ]
+}

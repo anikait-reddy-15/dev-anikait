@@ -1,0 +1,4 @@
+{
+  "question": "How are technology adoption trends different across industries and what specific technologies are being prioritized?",
+  "subtasks": "[{\"step\":1,\"task\":\"Identify the different industries present in the database and their respective technology priorities.\",\"table\":[\"IndustryITTrend\"]},{\"step\":2,\"task\":\"Gather data on specific technologies adopted by companies in each industry, alongside their adoption rates.\",\"table\":[\"CompanyTechStack\"]},{\"step\":3,\"task\":\"Analyze summarized trends reflecting how various industries prioritize certain technologies over others based on the collected data.\",\"table\":[\"IndustryBusinessTrend\",\"CompanyTechStack\"]},{\"step\":4,\"task\":\"Generate a report that details the findings of technology adoption trends across industries, providing insights and metrics.\",\"table\":[\"PageInfo\"]}]}"
+}

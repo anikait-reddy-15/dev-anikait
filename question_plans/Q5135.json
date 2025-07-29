@@ -1,0 +1,35 @@
+{
+  "question": "What are the current IT budget trends among companies in the finance industry?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify all companies operating in the finance industry and retrieve their names and IT budgets.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Analyze the retrieved IT budget data to identify trends such as increases or decreases over recent years.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Compare IT budgets of finance companies based on various parameters such as size (number of employees) and revenue to identify significant trends.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "If necessary, supplement the analysis with social media engagement data to infer market perception or investment in technology for finance companies.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyTwitterDetail",
+        "CompanyInstagramDetail"
+      ]
+    }
+  ]
+}

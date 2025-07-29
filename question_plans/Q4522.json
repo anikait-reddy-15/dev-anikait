@@ -1,0 +1,35 @@
+{
+  "question": "What are the current technological trends being adopted by companies in the financial industry?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies within the financial industry using the CompanyInfo table by filtering on the 'Industry' column for relevant financial terms.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract the technology focus areas for the identified financial companies from the CompanyFocusAreaDetail table to understand their current technology strategies.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Collect data on vendor technologies or products being adopted by these companies from the CompanyVendorProductDetail table to complement the focus areas.",
+      "table": [
+        "CompanyVendorProductDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Analyze the social media presence and engagement metrics of these financial companies from the CompanyFacebookDetail, CompanyTwitterDetail, and CompanyInstagramDetail tables to identify ongoing trends in technology adoption communication.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyTwitterDetail",
+        "CompanyInstagramDetail"
+      ]
+    }
+  ]
+}

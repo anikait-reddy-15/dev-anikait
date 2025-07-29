@@ -1,0 +1,4 @@
+{
+  "question": "What are the current technology trends across different industries, and how do they relate to specific companies?",
+  "subtasks": "[{'step': 1, 'task': 'Identify the emerging IT trends relevant to various industries.', 'table': ['IndustryITTrend']}, {'step': 2, 'task': 'Gather detailed company data that includes their technology focus areas and metrics.', 'table': ['CompanyFocusAreaDetail', 'CompanyInfo']}, {'step': 3, 'task': 'Analyze the relationship between the technology trends and the focus areas of different companies.', 'table': ['IndustryITTrend', 'CompanyFocusAreaDetail', 'CompanyInfo']}, {'step': 4, 'task': 'Compile a report summarizing industry trends and specific company focuses on technology.', 'table': ['IndustryITTrend', 'CompanyFocusAreaDetail', 'CompanyInfo']}]}"
+}

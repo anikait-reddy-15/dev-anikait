@@ -1,0 +1,4 @@
+{
+  "question": "What are the current technology focus areas for companies in the cybersecurity industry, and what partnerships are they engaging in related to these areas?",
+  "subtasks": "[{\"step\":1,\"task\":\"Identify all companies operating in the cybersecurity industry from the CompanyInfo table.\",\"table\":[\"CompanyInfo\"]},{\"step\":2,\"task\":\"Retrieve the technology focus areas from the CompanyFocusAreaDetail table for the identified cybersecurity companies.\",\"table\":[\"CompanyFocusAreaDetail\"]},{\"step\":3,\"task\":\"Gather all IT partnership details from the CompanyITPartnerDetail table related to the identified cybersecurity companies.\",\"table\":[\"CompanyITPartnerDetail\"]}]"
+}

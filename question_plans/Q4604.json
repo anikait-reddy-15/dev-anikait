@@ -1,0 +1,43 @@
+{
+  "question": "Analyze the social media presence and engagement metrics of technology companies in North America.",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify all technology companies located in North America and extract their names and social media links.",
+      "table": [
+        "CompanyInfo",
+        "SocialMediaInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Gather Facebook, Twitter, Instagram, and YouTube engagement metrics for the identified companies, including likes, comments, and shares.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyTwitterDetail",
+        "CompanyInstagramDetail",
+        "CompanyYoutubeDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Compile the total engagement metrics for each company across all social media platforms to compare their overall presence.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyTwitterDetail",
+        "CompanyInstagramDetail",
+        "CompanyYoutubeDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Analyze the trends in engagement metrics over time for the selected technology companies to identify patterns or spikes in activity.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyTwitterDetail",
+        "CompanyInstagramDetail",
+        "CompanyYoutubeDetail"
+      ]
+    }
+  ]
+}

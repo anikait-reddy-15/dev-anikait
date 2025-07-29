@@ -1,0 +1,44 @@
+{
+  "question": "What are the current hiring trends across different industries based on the available data?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Retrieve hiring details from the CompanyHiringDetail table to identify active positions, required skills, and designations",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Aggregate hiring data by industry using the CustomerIndustry from the CompanyDealMaster table to analyze trends in hiring across sectors",
+      "table": [
+        "CompanyDealMaster"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Combine hiring data with industry trends from the IndustryBusinessTrend to gain insights on strategic focus areas in relation to hiring initiatives",
+      "table": [
+        "IndustryBusinessTrend",
+        "CompanyHiringDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Identify which technology focus areas are prevalent in hiring initiatives by linking the CompanyFocusAreaDetail table for analysis",
+      "table": [
+        "CompanyFocusAreaDetail",
+        "CompanyHiringDetail"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Compile the findings into a comprehensive report detailing the current hiring trends, required skills, and technology focus areas across industries",
+      "table": [
+        "CompanyHiringDetail",
+        "IndustryBusinessTrend",
+        "CompanyFocusAreaDetail"
+      ]
+    }
+  ]
+}

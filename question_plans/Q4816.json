@@ -1,0 +1,40 @@
+{
+  "question": "Identify the social media engagement metrics across various platforms for each company in a specific industry.",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Filter the CompanyInfo table to select companies belonging to the specified industry.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Aggregate the social media engagement metrics (likes, comments, engagement rates) from the Facebook, Instagram, Twitter, and YouTube detail tables for the selected companies.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyInstagramDetail",
+        "CompanyTwitterDetail",
+        "CompanyYoutubeDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Join the aggregated engagement metrics with CompanyInfo to associate the metrics with the respective companies.",
+      "table": [
+        "CompanyInfo",
+        "CompanyFacebookDetail",
+        "CompanyInstagramDetail",
+        "CompanyTwitterDetail",
+        "CompanyYoutubeDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Prepare a summary report displaying the company names alongside their corresponding social media engagement metrics.",
+      "table": [
+        "CompanyInfo"
+      ]
+    }
+  ]
+}

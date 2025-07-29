@@ -1,0 +1,39 @@
+{
+  "question": "What are the current social media engagement statistics for companies in the technology sector?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify all companies categorized under the technology sector in the CompanyInfo table.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract social media engagement statistics including likes, comments, and engagement rates from relevant social media detail tables for the identified technology companies.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyInstagramDetail",
+        "CompanyTwitterDetail",
+        "CompanyYoutubeDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Aggregate and summarize the social media engagement data for a comparative analysis across the technology companies.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyInstagramDetail",
+        "CompanyTwitterDetail",
+        "CompanyYoutubeDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Generate a report or visualization on the summarized social media engagement statistics to present findings clearly.",
+      "table": [
+        "SocialMediaInfo"
+      ]
+    }
+  ]
+}

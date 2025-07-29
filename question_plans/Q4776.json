@@ -1,0 +1,27 @@
+{
+  "question": "What are the recent technology trends and hiring initiatives in the finance industry?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify the recent technology trends specific to the finance industry by querying the IndustryITTrend table for relevant entries.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Retrieve hiring initiatives in the finance industry by querying the CompanyHiringDetail table, focusing on roles linked to finance-related domains.",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Compile the findings into a report that showcases both technology trends and hiring patterns, summarizing key insights from the retrieved data.",
+      "table": [
+        "IndustryITTrend",
+        "CompanyHiringDetail"
+      ]
+    }
+  ]
+}

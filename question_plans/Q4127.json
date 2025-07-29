@@ -1,0 +1,39 @@
+{
+  "question": "What are the social media engagement metrics for companies in the technology industry and how do they relate to their overall IT budget?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify all companies within the technology industry along with their IT budgets.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Gather social media engagement metrics for the identified technology companies from all relevant social media platforms (Facebook, Instagram, Twitter, YouTube).",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyInstagramDetail",
+        "CompanyTwitterDetail",
+        "CompanyYoutubeDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Aggregate the social media engagement metrics (likes, comments, shares) for each company to get an overall engagement score.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyInstagramDetail",
+        "CompanyTwitterDetail",
+        "CompanyYoutubeDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Analyze the relationship between the overall engagement scores and IT budgets of the technology companies to identify any trends or insights.",
+      "table": [
+        "CompanyInfo"
+      ]
+    }
+  ]
+}

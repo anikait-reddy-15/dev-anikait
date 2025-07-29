@@ -1,0 +1,4 @@
+{
+  "question": "What are the current hiring trends in the technology sector, specifically regarding cloud computing and data analytics?",
+  "subtasks": "[{\"step\":1,\"task\":\"Identify all companies in the technology sector with a focus on cloud computing and data analytics hiring initiatives.\",\"table\":[\"CompanyHiringDetail\",\"CompanyInfo\"]},{\"step\":2,\"task\":\"Extract detailed descriptions of active hiring positions related to cloud computing and data analytics from the hiring detail table.\",\"table\":[\"CompanyHiringDetail\"]},{\"step\":3,\"task\":\"Analyze the geographical distribution of hiring trends for cloud computing and data analytics positions among the identified companies.\",\"table\":[\"CompanyHiringDetail\",\"CompanyDataCenter\"]},{\"step\":4,\"task\":\"Summarize the key roles and skills required for positions in cloud computing and data analytics based on the hiring data extracted.\",\"table\":[\"CompanyHiringDetail\"]}]"
+}

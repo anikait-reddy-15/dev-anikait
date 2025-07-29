@@ -1,0 +1,4 @@
+{
+  "question": "What are the current hiring trends among tech companies in the United States?",
+  "subtasks": "[{\"step\":1,\"task\":\"Identify tech companies based in the United States from the CompanyInfo table.\",\"table\":[\"CompanyInfo\"]},{\"step\":2,\"task\":\"Extract active hiring details from the CompanyHiringDetail table related to the identified tech companies.\",\"table\":[\"CompanyHiringDetail\"]},{\"step\":3,\"task\":\"Analyze the hiring domains and designations mentioned in the CompanyHiringDetail table to identify prevalent hiring trends.\",\"table\":[\"CompanyHiringDetail\"]},{\"step\":4,\"task\":\"Summarize the findings by detailing the most sought-after hiring roles and any specific skills that are trending based on the extracted data.\",\"table\":[\"CompanyHiringDetail\"]}]}"
+}

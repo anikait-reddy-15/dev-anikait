@@ -1,0 +1,4 @@
+{
+  "question": "What are the strategic technology focus areas for companies in the IT industry?",
+  "subtasks": "[{'step': 1, 'task': 'Identify all companies within the IT industry and gather their metadata such as Id, Name, and Description.', 'table': ['CompanyInfo']}, {'step': 2, 'task': 'Extract the strategic technology focus areas for each identified IT company based on their entries in the CompanyFocusAreaDetail table.', 'table': ['CompanyFocusAreaDetail']}, {'step': 3, 'task': 'Compile and summarize the focus areas, highlighting the most common technology trends and initiatives across the IT industry.', 'table': []}]"
+}

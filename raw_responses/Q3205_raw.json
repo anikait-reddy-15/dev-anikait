@@ -1,0 +1,4 @@
+{
+  "question": "What are the key technological focus areas for companies in the technology sector and their corresponding IT budget allocations?",
+  "subtasks": "[{\"step\":1,\"task\":\"Identify all companies in the technology sector from the CompanyInfo table.\",\"table\":[\"CompanyInfo\"]},{\"step\":2,\"task\":\"Retrieve the strategic technology focus areas for each identified company from the CompanyFocusAreaDetail table.\",\"table\":[\"CompanyFocusAreaDetail\"]},{\"step\":3,\"task\":\"Extract IT budget allocations for each technology-focused company from the CompanyInfo table.\",\"table\":[\"CompanyInfo\"]},{\"step\":4,\"task\":\"Combine the data from the previous steps to analyze the relationship between technology focus areas and IT budget allocations.\",\"table\":[\"CompanyFocusAreaDetail\",\"CompanyInfo\"]}]}"
+}

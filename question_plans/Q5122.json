@@ -1,0 +1,37 @@
+{
+  "question": "What are the latest technological trends companies are adopting in the IT sector?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify the various IT focus areas relevant to different companies in the IT sector.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Analyze emerging IT trends and technological focus areas recorded across industries and correlate them with specific companies.",
+      "table": [
+        "IndustryITTrend",
+        "CompanyTechStack"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Compile a summary of the technology services provided by vendors to these companies, focusing on recent contracts and implementations.",
+      "table": [
+        "CompanyVendorTechDetail",
+        "CompanyDealMaster"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Evaluate social media engagement metrics that reflect companies' adoption of new technologies based on their digital presence.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyInstagramDetail",
+        "CompanyTwitterDetail"
+      ]
+    }
+  ]
+}

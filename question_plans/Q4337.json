@@ -1,0 +1,41 @@
+{
+  "question": "What are the top trends in IT across different industries in 2023?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify the list of industries that are represented in the IT trends data for 2023.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract detailed information about the IT trends for each identified industry, focusing on the specific technologies and strategies being adopted.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the IndustryBusinessTrend data to correlate these IT trends with broader business shifts within the same industries.",
+      "table": [
+        "IndustryBusinessTrend"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Summarize the findings to highlight the top 3 IT trends that are shaping each industry in 2023.",
+      "table": [
+        "IndustryITTrend",
+        "IndustryBusinessTrend"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Review any available social media insights related to the industries in question to gauge public sentiment on the identified IT trends.",
+      "table": [
+        "SocialMediaInfo"
+      ]
+    }
+  ]
+}

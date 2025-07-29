@@ -1,0 +1,37 @@
+{
+  "question": "What are the emerging technology trends in the healthcare industry and how are companies adapting to them?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify the specific technology trends relevant to the healthcare industry, such as AI, IoT, and blockchain.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Gather data on companies in the healthcare sector, including their technological focus areas and strategies for adoption.",
+      "table": [
+        "CompanyFocusAreaDetail",
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the contracts and partnerships companies have in place that reflect their technology adoption and adaptation strategies.",
+      "table": [
+        "CompanyDealMaster",
+        "CompanyITPartnerDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Examine social media presence and engagement metrics of key healthcare companies to assess their outreach and innovation communication.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyTwitterDetail",
+        "CompanyInstagramDetail"
+      ]
+    }
+  ]
+}

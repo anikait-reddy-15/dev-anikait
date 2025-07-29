@@ -1,0 +1,4 @@
+{
+  "question": "What are the current technology focus areas and hiring initiatives for companies in the technology industry?",
+  "subtasks": "[{\"step\":1,\"task\":\"Identify all companies categorized under the technology industry to analyze their focus areas and hiring details.\",\"table\":[\"CompanyInfo\"]},{\"step\":2,\"task\":\"Extract technology focus areas for the selected technology companies, detailing their IT initiatives and strategic direction.\",\"table\":[\"CompanyFocusAreaDetail\"]},{\"step\":3,\"task\":\"Gather active hiring initiatives from technology companies, outlining job roles, skill requirements, and geographic hiring trends.\",\"table\":[\"CompanyHiringDetail\"]},{\"step\":4,\"task\":\"Consolidate data from focus areas and hiring initiatives to create a comprehensive overview of technology sector trends.\",\"table\":[\"CompanyFocusAreaDetail\",\"CompanyHiringDetail\"]}]}"
+}

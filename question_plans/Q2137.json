@@ -1,0 +1,43 @@
+{
+  "question": "Analyze the technology adoption trends across companies in the finance industry.",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify all companies operating in the finance industry from the CompanyInfo table.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Retrieve the technology stack used by the identified companies from the CompanyTechStack table.",
+      "table": [
+        "CompanyTechStack"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Compile the vendor product details related to the technologies retrieved from the CompanyVendorProductDetail table.",
+      "table": [
+        "CompanyVendorProductDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Analyze the social media engagement metrics of these finance companies to understand the impact of technology adoption on their market presence from the SocialMediaInfo table.",
+      "table": [
+        "SocialMediaInfo"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Summarize findings on technology trends, company engagement, and market performance based on the previous analyses.",
+      "table": [
+        "CompanyInfo",
+        "CompanyTechStack",
+        "CompanyVendorProductDetail",
+        "SocialMediaInfo"
+      ]
+    }
+  ]
+}

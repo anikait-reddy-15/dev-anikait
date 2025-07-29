@@ -1,0 +1,37 @@
+{
+  "question": "What are the current IT focus areas and hiring trends for technology companies in the healthcare industry?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies operating within the healthcare industry and retrieve their IT focus areas.",
+      "table": [
+        "CompanyInfo",
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Gather hiring data related to technology roles in healthcare companies, including job designations and locations.",
+      "table": [
+        "CompanyHiringDetail",
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the technological focus areas captured in the CompanyFocusAreaDetail table to understand key trends and initiatives of these healthcare companies.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Compile the findings into an overview report highlighting the technology hiring needs and strategic IT focus for healthcare companies.",
+      "table": [
+        "CompanyInfo",
+        "CompanyHiringDetail",
+        "CompanyFocusAreaDetail"
+      ]
+    }
+  ]
+}

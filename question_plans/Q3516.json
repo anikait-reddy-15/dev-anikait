@@ -1,0 +1,32 @@
+{
+  "question": "What are the major social media engagement metrics for companies in the IT industry?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify all companies operating in the IT industry from the CompanyInfo table.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Gather engagement metrics (likes, comments, engagement rates) from the Facebook, Instagram, Twitter, and YouTube details tables for the identified companies.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyInstagramDetail",
+        "CompanyTwitterDetail",
+        "CompanyYoutubeDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Summarize and group the aggregated social media metrics by company to provide an overview of engagement levels across the IT industry.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyInstagramDetail",
+        "CompanyTwitterDetail",
+        "CompanyYoutubeDetail"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+{
+  "question": "What are the latest trends in IT adoption across different industries based on companies' technology focus areas?",
+  "subtasks": "[{'step': 1, 'task': 'Identify the industries of interest and gather data on companies operating in those industries.', 'table': ['CompanyInfo']}, {'step': 2, 'task': 'Extract technology focus areas from the CompanyFocusAreaDetail table for the identified companies.', 'table': ['CompanyFocusAreaDetail']}, {'step': 3, 'task': 'Analyze the extracted data to determine the latest trends in technology adoption by summarizing the focus areas and categorizing them by industry.', 'table': ['IndustryITTrend']}], "
+}

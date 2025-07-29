@@ -1,0 +1,43 @@
+{
+  "question": "What are the recent technology trends among companies in the cloud computing industry?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies operating in the cloud computing industry by filtering the CompanyInfo table based on the Industry column.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Gather details on technology services provided by vendors to those companies from the CompanyVendorTechDetail table, focusing on cloud-related technologies.",
+      "table": [
+        "CompanyVendorTechDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the technology focus areas of the identified companies by examining the CompanyFocusAreaDetail table for cloud computing initiatives.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Review recent deals and contracts in the CompanyDealMaster table to assess cloud service adoption trends within those companies.",
+      "table": [
+        "CompanyDealMaster"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Summarize the insights gathered and highlight trends in cloud technology adoption and implementations across the identified companies.",
+      "table": [
+        "CompanyInfo",
+        "CompanyVendorTechDetail",
+        "CompanyFocusAreaDetail",
+        "CompanyDealMaster"
+      ]
+    }
+  ]
+}

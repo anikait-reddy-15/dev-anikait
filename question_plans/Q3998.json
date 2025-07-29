@@ -1,0 +1,33 @@
+{
+  "question": "What are the key strategic technology focus areas for companies in the technology sector in 2023?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify all companies that are classified under the technology sector from the CompanyInfo table.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Gather the strategic technology focus areas for the identified technology companies from the CompanyFocusAreaDetail table.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the extracted focus areas to determine the most common strategic themes and innovations mentioned by the companies in the current year (2023).",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Summarize findings and categorize the technology focus areas by type (e.g., AI, cloud computing, cybersecurity) based on the extracted data.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    }
+  ]
+}

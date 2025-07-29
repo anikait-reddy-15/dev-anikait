@@ -1,0 +1,4 @@
+{
+  "question": "Analyze the impact of social media presence on company revenue growth across different industries.",
+  "subtasks": "[{\"step\":1,\"task\":\"Gather revenue data of companies grouped by industry to assess growth rates.\",\"table\":[\"CompanyInfo\"]},{\"step\":2,\"task\":\"Collect social media engagement metrics from multiple platforms (Facebook, Twitter, Instagram, YouTube) for each company.\",\"table\":[\"CompanyFacebookDetail\",\"CompanyTwitterDetail\",\"CompanyInstagramDetail\",\"CompanyYoutubeDetail\"]},{\"step\":3,\"task\":\"Correlate social media engagement metrics with revenue data to identify trends and impacts across different industries.\",\"table\":[\"CompanyInfo\",\"CompanyFacebookDetail\",\"CompanyTwitterDetail\",\"CompanyInstagramDetail\",\"CompanyYoutubeDetail\"]}]"
+}

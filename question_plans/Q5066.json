@@ -1,0 +1,36 @@
+{
+  "question": "What are the current trends in hiring and technology adoption among companies in the IT sector?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify all companies classified under the IT sector to analyze their hiring trends.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Gather active hiring data for each identified IT company to summarize roles, required skills, and locations of hiring initiatives.",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Collect data on technology stack and IT focus areas for these companies to assess technology adoption trends.",
+      "table": [
+        "CompanyTechStack",
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Analyze and correlate the hiring trends and technology adoption data to identify common patterns and insights.",
+      "table": [
+        "CompanyHiringDetail",
+        "CompanyTechStack",
+        "CompanyFocusAreaDetail"
+      ]
+    }
+  ]
+}

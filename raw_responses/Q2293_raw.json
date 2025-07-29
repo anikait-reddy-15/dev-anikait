@@ -1,0 +1,4 @@
+{
+  "question": "What are the latest technology trends that companies in the financial sector are focusing on?",
+  "subtasks": "[{\"step\":1,\"task\":\"Identify the companies operating in the financial sector from the CompanyInfo table.\",\"table\":[\"CompanyInfo\"]},{\"step\":2,\"task\":\"Gather data on technology trends specific to the financial sector from the IndustryITTrend table.\",\"table\":[\"IndustryITTrend\"]},{\"step\":3,\"task\":\"Retrieve and analyze the technology focus areas of identified financial companies from the CompanyFocusAreaDetail table.\",\"table\":[\"CompanyFocusAreaDetail\"]},{\"step\":4,\"task\":\"Compile the collected data to identify and summarize key technology trends and focus areas in the financial sector.\",\"table\":[\"CompanyInfo\",\"IndustryITTrend\",\"CompanyFocusAreaDetail\"]}]}"
+}

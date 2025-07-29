@@ -1,0 +1,4 @@
+{
+  "question": "What are the emerging technology focus areas for companies in the finance industry and how are they being implemented?",
+  "subtasks": "[{\"step\":1,\"task\":\"Identify companies involved in the finance industry from the CompanyInfo table.\",\"table\":[\"CompanyInfo\"]},{\"step\":2,\"task\":\"Retrieve the technology focus areas for the identified finance companies from the CompanyFocusAreaDetail table.\",\"table\":[\"CompanyFocusAreaDetail\"]},{\"step\":3,\"task\":\"Gather data on partnerships or collaborations related to the technology focus areas from the CompanyITPartnerDetail table.\",\"table\":[\"CompanyITPartnerDetail\"]},{\"step\":4,\"task\":\"Analyze the implementation of chosen technologies by looking at related deals in the CompanyDealMaster table.\",\"table\":[\"CompanyDealMaster\"]}]"
+}

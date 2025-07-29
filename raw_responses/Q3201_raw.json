@@ -1,0 +1,4 @@
+{
+  "question": "What are the current IT budget allocations and technology focus areas for leading companies in the cloud computing industry?",
+  "subtasks": "[{\"step\":1,\"task\":\"Identify leading companies in the cloud computing industry and gather their IT budget information.\",\"table\":[\"CompanyInfo\"]},{\"step\":2,\"task\":\"Extract technology focus areas of the identified companies to analyze their strategic direction in cloud computing.\",\"table\":[\"CompanyFocusAreaDetail\"]},{\"step\":3,\"task\":\"Compile and summarize the data on IT budgets and focus areas of these companies into a comprehensive report.\",\"table\":[\"CompanyInfo\",\"CompanyFocusAreaDetail\"]}]"
+}

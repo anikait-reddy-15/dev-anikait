@@ -1,0 +1,43 @@
+{
+  "question": "What are the current hiring trends in the tech industry for companies in the geographical region of California?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify all companies located in California from the CompanyInfo table.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract hiring details, including job roles and skills, from the CompanyHiringDetail table for the identified companies in California.",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the data to find common roles and skill requirements that are being sought after by these companies.",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Identify any emerging trends in the types of technology or sectors these roles belong to by reviewing the CompanyTechStack and CompanyFocusAreaDetail tables.",
+      "table": [
+        "CompanyTechStack",
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Compile findings into a report summarizing the hiring trends, including key roles, skills, and technology focus areas relevant to California tech companies.",
+      "table": [
+        "CompanyHiringDetail",
+        "CompanyTechStack",
+        "CompanyFocusAreaDetail"
+      ]
+    }
+  ]
+}

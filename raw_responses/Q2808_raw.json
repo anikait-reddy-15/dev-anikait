@@ -1,0 +1,4 @@
+{
+  "question": "What are the current social media engagement metrics for companies across different industries?",
+  "subtasks": "1. Identify the list of companies to analyze based on their industry classification.\n2. Retrieve social media engagement data linked to each company from the SocialMediaInfo table.\n3. Aggregate social media engagement metrics (likes, comments, shares) for each company from their respective social media detail tables (Facebook, Instagram, Twitter, YouTube).\n4. Cross-reference the aggregated engagement data with the CompanyInfo table to contextualize the findings against the companies' business profiles."
+}

@@ -1,0 +1,37 @@
+{
+  "question": "What are the current technology trends among major industries based on company focus areas and hiring initiatives?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify key technology focus areas that companies are investing in across various industries.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Compile data on active hiring initiatives from companies to discover which tech roles are in demand across different industries.",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze market trends and emerging technologies relevant to specific industries and correlate them with company focus areas and hiring data.",
+      "table": [
+        "IndustryITTrend",
+        "CompanyFocusAreaDetail",
+        "CompanyHiringDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Summarize insights on technology adoption patterns among companies across major industries based on the compiled data.",
+      "table": [
+        "IndustryITTrend",
+        "CompanyFocusAreaDetail",
+        "CompanyHiringDetail"
+      ]
+    }
+  ]
+}

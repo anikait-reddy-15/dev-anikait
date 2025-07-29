@@ -1,0 +1,37 @@
+{
+  "question": "What are the recent hiring trends and technology focus areas for companies in the IT industry?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify and extract recent hiring details for companies in the IT industry, including job designations, domains, and geographic locations of job postings.",
+      "table": [
+        "CompanyHiringDetail",
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Analyze the extracted hiring data to pinpoint frequently listed job roles and skillsets sought in the IT industry, noting any patterns in hiring trends over the last year.",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Gather data on technology focus areas of companies in the IT sector, including key IT initiatives and projects mentioned in their strategic documents or focus area descriptions.",
+      "table": [
+        "CompanyFocusAreaDetail",
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Cross-reference hiring trends with technology focus areas to identify correlations between sought-after skills and strategic tech investments in the IT industry.",
+      "table": [
+        "CompanyHiringDetail",
+        "CompanyFocusAreaDetail",
+        "CompanyInfo"
+      ]
+    }
+  ]
+}

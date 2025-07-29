@@ -1,0 +1,4 @@
+{
+  "question": "What are the recent trends in IT spending across various industries?",
+  "subtasks": "[{\"step\":1,\"task\":\"Identify the industries with the highest IT spending based on the CompanyInfo table records.\",\"table\":[\"CompanyInfo\"]},{\"step\":2,\"task\":\"Analyze the ITBudget column in the CompanyInfo table to calculate average IT spending per industry.\",\"table\":[\"CompanyInfo\"]},{\"step\":3,\"task\":\"Gather data on emerging IT trends from the IndustryITTrend table linked to the identified industries.\",\"table\":[\"IndustryITTrend\"]},{\"step\":4,\"task\":\"Compile insights and trends into a report highlighting notable patterns in IT spending and emerging technologies per industry.\",\"table\":[\"IndustryITTrend\",\"CompanyInfo\"]}]}"
+}

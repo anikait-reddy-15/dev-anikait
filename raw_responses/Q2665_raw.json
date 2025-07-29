@@ -1,0 +1,4 @@
+{
+  "question": "How many companies are actively hiring in the technology sector and what are their focus areas?",
+  "subtasks": "[{\"step\":1,\"task\":\"Identify all active companies in the technology sector from the CompanyInfo table.\",\"table\":[\"CompanyInfo\"]},{\"step\":2,\"task\":\"Extract the hiring details of these companies from the CompanyHiringDetail table to determine their hiring status and roles offered.\",\"table\":[\"CompanyHiringDetail\"]},{\"step\":3,\"task\":\"Link the active hiring companies to their respective technology focus areas from the CompanyFocusAreaDetail table to assess their strategic interests.\",\"table\":[\"CompanyFocusAreaDetail\"]},{\"step\":4,\"task\":\"Compile and summarize the results to provide a list of companies along with their hiring initiatives and focus areas.\",\"table\":[\"CompanyInfo\",\"CompanyHiringDetail\",\"CompanyFocusAreaDetail\"]}]}"
+}

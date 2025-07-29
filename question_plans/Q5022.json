@@ -1,0 +1,33 @@
+{
+  "question": "What are the emerging IT trends across different industries and how are they being adopted?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify the different industry types reported in the IndustryITTrend table to understand the scope of analysis.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract emerging IT trends and focus areas from the IndustryITTrend table for each identified industry type.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Summarize the adoption patterns of technologies like AI, IoT, and cybersecurity across the industries based on the captured trends.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Analyze the narrative details related to each technology focus area to derive insights into the strategic directions of industries.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    }
+  ]
+}

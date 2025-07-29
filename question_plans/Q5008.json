@@ -1,0 +1,42 @@
+{
+  "question": "What are the current trends and focus areas of technology adoption in the healthcare industry by leading companies?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify technology adoption trends in the healthcare industry from the IndustryITTrend table.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Aggregate data from the CompanyInfo table to list leading healthcare companies, including their technology focus areas from the CompanyFocusAreaDetail table.",
+      "table": [
+        "CompanyInfo",
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze company vendor relationships and technology products being adopted in healthcare by reviewing CompanyVendorProductDetail and CompanyVendorTechDetail tables.",
+      "table": [
+        "CompanyVendorProductDetail",
+        "CompanyVendorTechDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Retrieve social media engagement data, focusing on healthcare companies from the SocialMediaInfo table to gauge public interaction around technology topics.",
+      "table": [
+        "SocialMediaInfo"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Compile leadership excerpts from the CompanyLeadershipExcerpt table that discuss technology strategies in healthcare organizations.",
+      "table": [
+        "CompanyLeadershipExcerpt"
+      ]
+    }
+  ]
+}

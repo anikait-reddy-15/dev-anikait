@@ -1,0 +1,35 @@
+{
+  "question": "Identify trends in IT spending among companies in the technology sector over the last five years.",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Aggregate IT budgets of companies classified under the technology sector over the last five years.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Correlate IT budget changes with industry-specific IT trends such as digital transformation and automation initiatives.",
+      "table": [
+        "IndustryITTrend",
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze revenue and market capitalization data to assess the financial impact of IT spending on technology companies.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Compile findings into a report highlighting the trends in IT spending and their effects on company performance.",
+      "table": [
+        "CompanyInfo",
+        "CompanyDealMaster"
+      ]
+    }
+  ]
+}

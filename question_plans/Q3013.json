@@ -1,0 +1,39 @@
+{
+  "question": "What is the impact of social media engagement on company financial metrics?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Analyze the social media engagement metrics of companies such as likes, comments, and reposts on various platforms.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyInstagramDetail",
+        "CompanyTwitterDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Gather financial metrics for these companies including revenue, net income, and market capitalization from the CompanyInfo table.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Merge the social media metrics with financial metrics to evaluate any correlation between social engagement and financial performance across different companies.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyInstagramDetail",
+        "CompanyTwitterDetail",
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Identify any industry trends related to financial metrics that may indicate a stronger or weaker correlation between social media activity and financial success.",
+      "table": [
+        "IndustryBusinessTrend",
+        "IndustryITTrend"
+      ]
+    }
+  ]
+}

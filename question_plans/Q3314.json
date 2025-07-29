@@ -1,0 +1,31 @@
+{
+  "question": "What trends are emerging in hiring practices across the tech industry in 2023?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify the companies in the tech industry from the CompanyInfo table.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Retrieve active hiring initiatives and details for these companies from the CompanyHiringDetail table.",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the hiring data to extract trends such as common roles, required skills, and geographical hiring patterns.",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Summarize the insights gained from the hiring data, including any noticeable shifts or patterns in hiring strategies during 2023.",
+      "table": []
+    }
+  ]
+}

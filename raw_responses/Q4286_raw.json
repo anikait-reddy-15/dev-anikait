@@ -1,0 +1,4 @@
+{
+  "question": "What are the key technology focus areas and hiring trends for companies in the AI industry, particularly in the US?",
+  "subtasks": "[{\"step\":1,\"task\":\"Identify all companies operating in the AI industry within the database including their IT focus areas.\",\"table\":[\"CompanyInfo\",\"CompanyFocusAreaDetail\"]},{\"step\":2,\"task\":\"Gather data on active hiring initiatives for the identified AI companies, focusing on roles and domains currently being recruited for.\",\"table\":[\"CompanyHiringDetail\"]},{\"step\":3,\"task\":\"Analyze the geographical distribution of these AI companies and their hiring trends specifically within the United States.\",\"table\":[\"CompanyInfo\",\"CompanyHiringDetail\"]},{\"step\":4,\"task\":\"Compile a summary report detailing the technology focus areas and current hiring demands of AI companies in the U.S.\",\"table\":[\"CompanyInfo\",\"CompanyFocusAreaDetail\",\"CompanyHiringDetail\"]}]}"
+}

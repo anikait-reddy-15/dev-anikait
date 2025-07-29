@@ -1,0 +1,4 @@
+{
+  "question": "What are the current IT budget allocations and technology focus areas for companies in the healthcare industry?",
+  "subtasks": "[{\"step\":1,\"task\":\"Query the 'CompanyInfo' table to retrieve companies in the healthcare industry and their IT budget allocations.\",\"table\":[\"CompanyInfo\"]},{\"step\":2,\"task\":\"Query the 'CompanyFocusAreaDetail' table to find the strategic technology focus areas associated with the identified healthcare companies.\",\"table\":[\"CompanyFocusAreaDetail\"]},{\"step\":3,\"task\":\"Join the results of the previous two queries to compile a comprehensive list of healthcare companies along with their IT budget and focus areas.\",\"table\":[\"CompanyInfo\",\"CompanyFocusAreaDetail\"]}]"
+}

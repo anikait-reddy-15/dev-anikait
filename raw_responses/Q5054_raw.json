@@ -1,0 +1,4 @@
+{
+  "question": "Retrieve details about companies that are actively hiring in the IT sector, including their hiring details, company information, and social media presence.",
+  "subtasks": "[{'step': 1, 'task': 'Identify companies involved in IT hiring initiatives.', 'table': ['CompanyHiringDetail', 'CompanyInfo']}, {'step': 2, 'task': 'Filter hiring initiatives to only include active job listings.', 'table': ['CompanyHiringDetail']}, {'step': 3, 'task': 'Gather additional company details such as revenue, industry, and IT budget.', 'table': ['CompanyInfo']}, {'step': 4, 'task': 'Compile and aggregate data on the social media presence of the identified companies.', 'table': ['SocialMediaInfo']}]}"
+}

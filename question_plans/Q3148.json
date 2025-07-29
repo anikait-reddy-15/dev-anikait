@@ -1,0 +1,33 @@
+{
+  "question": "What are the key technology partnership trends among companies in the IT industry?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify all companies operating in the IT industry and retrieve their details such as name, revenue, and ownership type from the CompanyInfo table.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Gather data on technology partnerships and collaborations from the CompanyITPartnerDetail table, focusing on partners, deal values, and timeframes for the companies identified in step 1.",
+      "table": [
+        "CompanyITPartnerDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the collected partnership data to identify trends in deal values, partnership durations, and common IT focus areas across the identified companies.",
+      "table": [
+        "CompanyITPartnerDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Cross-reference partnership trends with social media engagement metrics from the SocialMediaInfo table to assess any correlation between partnership activity and social media presence for IT firms.",
+      "table": [
+        "SocialMediaInfo"
+      ]
+    }
+  ]
+}

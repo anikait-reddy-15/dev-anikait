@@ -1,0 +1,4 @@
+{
+  "question": "What are the active companies in the technology industry that have recently hired for IT positions?",
+  "subtasks": "[{\"step\":1,\"task\":\"Identify active companies in the technology industry from the CompanyInfo table.\",\"table\":[\"CompanyInfo\"]},{\"step\":2,\"task\":\"Extract the hiring details for the identified technology companies from the CompanyHiringDetail table to find recent job listings.\",\"table\":[\"CompanyHiringDetail\"]},{\"step\":3,\"task\":\"Filter hiring details to include only the IT positions and those that are marked as active.\",\"table\":[\"CompanyHiringDetail\"]},{\"step\":4,\"task\":\"Combine the results from the CompanyInfo and CompanyHiringDetail tables to display the final list of technology companies and their active IT positions.\",\"table\":[\"CompanyInfo\",\"CompanyHiringDetail\"]}]}"
+}

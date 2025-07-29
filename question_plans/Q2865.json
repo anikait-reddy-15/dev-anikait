@@ -1,0 +1,35 @@
+{
+  "question": "What are the emerging IT trends in companies across different industries?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify the industries of interest to analyze emerging IT trends within those sectors.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract data reflecting how various industries are adopting technologies like AI, IoT, and blockchain.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Compile a summary of the trends and their implications on the companies operating within those industries.",
+      "table": [
+        "CompanyInfo",
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Analyze the CompanyInfo table to correlate the technology adoption with company metrics like revenue or market capitalization.",
+      "table": [
+        "CompanyInfo",
+        "IndustryITTrend"
+      ]
+    }
+  ]
+}

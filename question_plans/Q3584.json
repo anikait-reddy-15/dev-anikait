@@ -1,0 +1,38 @@
+{
+  "question": "What are the current technology trends adopted by companies in the software industry?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify all companies in the software industry and gather their core information such as name, revenue, and IT budget.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract technology focus areas for the identified companies, detailing specific technologies and focus categories they are engaging with.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze vendor product details that show which vendor technologies are being adopted by the software companies, including deal values and descriptions.",
+      "table": [
+        "CompanyVendorProductDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Review related industry IT trends to understand overarching technology shifts in the software sector based on the recorded data.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Summarize the findings to present a comprehensive view of the current technology trends in the software industry, including insights on major technologies and strategic focuses.",
+      "table": []
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "question": "What are the recent hiring trends among tech companies in the cloud computing sector?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify all active tech companies that focus on cloud computing by querying the CompanyFocusAreaDetail table for relevant ITFocusAreaId related to cloud technologies.",
+      "table": [
+        "CompanyFocusAreaDetail",
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Retrieve the hiring details of the identified companies, focusing on job titles and designated roles in their HiringDetail records to understand current demand in the sector.",
+      "table": [
+        "CompanyHiringDetail",
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the hiring data for trends or patterns over the last three quarters to see if there is an increase or decrease in hiring activity within the cloud computing domain.",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    }
+  ]
+}

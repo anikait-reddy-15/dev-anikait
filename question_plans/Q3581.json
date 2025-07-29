@@ -1,0 +1,41 @@
+{
+  "question": "Identify the top three industries in terms of IT budget investment of companies with a social media presence.",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Extract company information including IT budgets and industry classifications from the CompanyInfo table.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Retrieve social media presence data for each company from the SocialMediaInfo table to filter those with active accounts.",
+      "table": [
+        "SocialMediaInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Join the results from the first two steps to consolidate companies that have social media and their respective IT budgets.",
+      "table": [
+        "CompanyInfo",
+        "SocialMediaInfo"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Group the consolidated data by industry and sum the IT budgets to identify the top industries based on total investment.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Rank the industries based on the total IT budget and select the top three industries for final output.",
+      "table": [
+        "CompanyInfo"
+      ]
+    }
+  ]
+}

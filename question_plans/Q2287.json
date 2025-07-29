@@ -1,0 +1,35 @@
+{
+  "question": "What are the current technological focus areas and social media engagement levels of technology companies in the cloud computing industry?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify all companies operating in the cloud computing industry, retrieving their relevant information such as IT focus areas and general company profiles.",
+      "table": [
+        "CompanyInfo",
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Gather social media engagement data for these companies, including metrics from Facebook, Twitter, Instagram, and YouTube to understand their online presence.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyTwitterDetail",
+        "CompanyInstagramDetail",
+        "CompanyYoutubeDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the collected data to summarize the technological initiatives and social media engagement levels for the companies identified in step 1.",
+      "table": [
+        "CompanyInfo",
+        "CompanyFocusAreaDetail",
+        "CompanyFacebookDetail",
+        "CompanyTwitterDetail",
+        "CompanyInstagramDetail",
+        "CompanyYoutubeDetail"
+      ]
+    }
+  ]
+}

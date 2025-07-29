@@ -1,0 +1,28 @@
+{
+  "question": "Analyze the technology adoption trends of companies in the finance industry regarding cloud computing.",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies in the finance industry and retrieve their technology adoption records.",
+      "table": [
+        "CompanyInfo",
+        "CompanyTechStack"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Filter the technology records to focus specifically on cloud computing technologies.",
+      "table": [
+        "CompanyTechStack"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Aggregate the data to analyze trends in cloud computing adoption across the identified finance companies.",
+      "table": [
+        "CompanyInfo",
+        "CompanyTechStack"
+      ]
+    }
+  ]
+}

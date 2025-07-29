@@ -1,0 +1,36 @@
+{
+  "question": "What are the current hiring trends in the technology sector for 2023?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify and aggregate data regarding active hiring initiatives across technology companies in 2023.",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Filter the hiring data by technology-related designations and sectors to understand specific roles being targeted in the market.",
+      "table": [
+        "CompanyHiringDetail",
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze geographical patterns in hiring to determine which cities are seeing the most demand for tech roles.",
+      "table": [
+        "CompanyHiringDetail",
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Compile a report summarizing the key findings around technology hiring trends, including insights on roles, regions, and comparison with previous years.",
+      "table": [
+        "CompanyHiringDetail",
+        "CompanyInfo"
+      ]
+    }
+  ]
+}

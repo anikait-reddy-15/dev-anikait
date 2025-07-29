@@ -1,0 +1,41 @@
+{
+  "question": "How are technology adoption trends evolving across different industries?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify emerging technologies being adopted in various industries and their characteristics.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Analyze the strategic focus areas that different industries are emphasizing based on recent changes.",
+      "table": [
+        "IndustryBusinessTrend"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Gather detailed reports on technology service contracts to understand vendor relationships and technology partnerships across industries.",
+      "table": [
+        "CompanyDealMaster",
+        "CompanyITPartnerDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Examine the technology stacks utilized by companies within different industries to gauge adoption levels.",
+      "table": [
+        "CompanyTechStack"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Look into leadership insights from companies within varying industries to correlate their technology adoption strategies with executive perspectives.",
+      "table": [
+        "CompanyLeadershipExcerpt"
+      ]
+    }
+  ]
+}

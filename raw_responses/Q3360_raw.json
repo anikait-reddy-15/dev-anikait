@@ -1,0 +1,4 @@
+{
+  "question": "What are the emerging IT trends affecting the technology adoption in companies across different industries?",
+  "subtasks": "[{\"step\":1,\"task\":\"Identify the major industries from the IndustryITTrend table and list them out to understand the sectors to analyze\",\"table\":[\"IndustryITTrend\"]},{\"step\":2,\"task\":\"Gather emerging IT trends and technology focus areas from the IndustryITTrend table based on the identified industries\",\"table\":[\"IndustryITTrend\"]},{\"step\":3,\"task\":\"Analyze the impact of these trends on the technology adoption using the CompanyTechStack table to see what technologies companies are currently implementing\",\"table\":[\"CompanyTechStack\"]},{\"step\":4,\"task\":\"Correlate the data on technology adoption with CompanyInfo to understand which industries are most affected by specific IT trends\",\"table\":[\"CompanyInfo\",\"CompanyTechStack\"]}]"
+}

@@ -1,0 +1,43 @@
+{
+  "question": "Identify the top 5 companies in the technology sector based on their revenue and social media engagement metrics.",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Retrieve a list of technology companies including their revenues and active status from the CompanyInfo table.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Gather social media engagement metrics of the identified technology companies from the SocialMediaInfo table.",
+      "table": [
+        "SocialMediaInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Merge the revenue data from the CompanyInfo table with the social media engagement data from the SocialMediaInfo table based on company identity.",
+      "table": [
+        "CompanyInfo",
+        "SocialMediaInfo"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Sort the merged data based on revenue in descending order to identify the top 5 companies.",
+      "table": [
+        "CompanyInfo",
+        "SocialMediaInfo"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Present the names, revenue, and social media engagement of the top 5 companies identified in the previous step.",
+      "table": [
+        "CompanyInfo",
+        "SocialMediaInfo"
+      ]
+    }
+  ]
+}

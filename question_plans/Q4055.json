@@ -1,0 +1,40 @@
+{
+  "question": "How can we analyze the technology adoption trends among companies in the finance industry over the past year?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify all companies within the finance industry and gather their company profiles, including financial metrics and IT budgets.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Procure data on technology stacks used by the identified finance companies to calculate the prevalence of specific technologies adopted last year.",
+      "table": [
+        "CompanyTechStack"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Examine records of B2B technology contracts to understand the types of technology services that were contracted by finance companies over the past year.",
+      "table": [
+        "CompanyDealMaster"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Analyze the hiring trends in the finance sector related to specific technological focus areas to ascertain how companies are responding to technology adoption needs.",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Compile insights on leadership statements and public excerpts to gauge the strategic direction of finance companies regarding technology investments.",
+      "table": [
+        "CompanyLeadershipExcerpt"
+      ]
+    }
+  ]
+}

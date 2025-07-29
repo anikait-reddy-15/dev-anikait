@@ -1,0 +1,34 @@
+{
+  "question": "What are the current trends in IT adoption among companies in the finance industry?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Gather data on companies operating in the finance industry",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract information about the technology focus areas of these finance companies",
+      "table": [
+        "CompanyTechStack",
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze IT service contracts related to finance companies to identify common trends or technologies being adopted",
+      "table": [
+        "CompanyDealMaster"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Review the latest industry IT trends affecting finance companies to provide context around the findings",
+      "table": [
+        "IndustryITTrend"
+      ]
+    }
+  ]
+}

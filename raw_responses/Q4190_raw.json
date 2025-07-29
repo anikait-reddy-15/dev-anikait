@@ -1,0 +1,4 @@
+{
+  "question": "Which companies are actively hiring in the technology sector, and what roles are they looking to fill?",
+  "subtasks": "[{\"step\":1,\"task\":\"Identify companies listed in the CompanyInfo table that are tagged as active and belong to the technology industry.\",\"table\":[\"CompanyInfo\"]},{\"step\":2,\"task\":\"Retrieve active hiring details from the CompanyHiringDetail table for identified technology companies, filtering by 'Active' status to get the current hiring initiatives.\",\"table\":[\"CompanyHiringDetail\"]},{\"step\":3,\"task\":\"Compile the details of hiring roles and requirements from the CompanyHiringDetail table and correlate with the relevant companies from the CompanyInfo table.\",\"table\":[\"CompanyHiringDetail\",\"CompanyInfo\"]},{\"step\":4,\"task\":\"Summarize the roles being offered and the corresponding companies into a report format that displays the technology companies and their hiring needs.\",\"table\":[]}]}"
+}

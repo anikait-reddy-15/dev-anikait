@@ -1,0 +1,53 @@
+{
+  "question": "How can we analyze the social media engagement of companies in the technology sector over the past year?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies within the technology sector from the CompanyInfo table and note their active status and relevant metrics such as ITBudget and Industry.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Gather social media engagement data for the identified technology companies from the CompanyFacebookDetail, CompanyTwitterDetail, CompanyInstagramDetail, and CompanyYoutubeDetail tables for the past year.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyTwitterDetail",
+        "CompanyInstagramDetail",
+        "CompanyYoutubeDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Compile and aggregate engagement metrics such as likes, comments, and shares from the social media data collected to evaluate overall engagement levels for each company.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyTwitterDetail",
+        "CompanyInstagramDetail",
+        "CompanyYoutubeDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Analyze trends in social media engagement data over time to understand how engagement has evolved throughout the year for the technology sector companies.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyTwitterDetail",
+        "CompanyInstagramDetail",
+        "CompanyYoutubeDetail"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Generate a report summarizing the findings, highlighting the companies with the highest engagement and those showing growth or decline in social media activity.",
+      "table": [
+        "CompanyInfo",
+        "CompanyFacebookDetail",
+        "CompanyTwitterDetail",
+        "CompanyInstagramDetail",
+        "CompanyYoutubeDetail"
+      ]
+    }
+  ]
+}

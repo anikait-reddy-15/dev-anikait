@@ -1,0 +1,4 @@
+{
+  "question": "What are the current trends in IT spending across different industries?",
+  "subtasks": "[{\"step\":1,\"task\":\"Retrieve the latest IT budgets and spending details for companies in various industries.\",\"table\":[\"CompanyInfo\"]},{\"step\":2,\"task\":\"Analyze the financial performance of companies in relation to their IT budgets to identify spending trends.\",\"table\":[\"CompanyInfo\"]},{\"step\":3,\"task\":\"Compile industry-specific IT trends and focus areas from the IndustryITTrend table to complement the financial data.\",\"table\":[\"IndustryITTrend\"]},{\"step\":4,\"task\":\"Aggregate data to visualize the relationship between IT spending and industry trends, highlighting key sectors with increasing or decreasing budgets.\",\"table\":[\"CompanyInfo\",\"IndustryITTrend\"]}]"
+}

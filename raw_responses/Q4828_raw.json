@@ -1,0 +1,4 @@
+{
+  "question": "What are the recent IT partnerships and technological focus areas of leading companies in the technology sector?",
+  "subtasks": "[{\"step\":1,\"task\":\"Identify leading companies in the technology sector by filtering the CompanyInfo table based on the Industry column.\",\"table\":[\"CompanyInfo\"]},{\"step\":2,\"task\":\"Extract details about IT partnerships for the identified leading companies from the CompanyITPartnerDetail table, linking them to their respective CompanyInfoId.\",\"table\":[\"CompanyITPartnerDetail\"]},{\"step\":3,\"task\":\"Retrieve technological focus areas for the leading companies from the CompanyFocusAreaDetail table, again filtering based on their CompanyInfoId.\",\"table\":[\"CompanyFocusAreaDetail\"]},{\"step\":4,\"task\":\"Compile the extracted information about partnerships and focus areas for a comprehensive overview for each leading company.\",\"table\":[\"CompanyITPartnerDetail\",\"CompanyFocusAreaDetail\"]}]}"
+}

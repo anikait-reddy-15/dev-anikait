@@ -1,0 +1,4 @@
+{
+  "question": "Identify the technology trends adopted by companies in the healthcare industry in the last two years.",
+  "subtasks": "[{'step': 1, 'task': 'Filter companies in the healthcare industry.', 'table': ['CompanyInfo']}, {'step': 2, 'task': 'Retrieve records of technology focus areas related to these companies.', 'table': ['CompanyFocusAreaDetail']}, {'step': 3, 'task': 'Analyze technology trends mentioned in the CompanyFocusAreaDetail for the last two years.', 'table': ['CompanyFocusAreaDetail', 'CompanyInfo']}, {'step': 4, 'task': 'Summarize findings to identify key technology trends specific to the healthcare industry.', 'table': []}]"
+}

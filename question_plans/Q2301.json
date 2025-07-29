@@ -1,0 +1,33 @@
+{
+  "question": "What are the emerging technology focus areas for companies in the consulting industry based on their recent activities?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies operating in the consulting industry from CompanyInfo table",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract recent activities or focus areas for these companies from CompanyFocusAreaDetail table",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Aggregate data on specific technologies mentioned and summarize into emerging trends",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Provide visual representation of technology focus areas through industry-level insights from IndustryITTrend",
+      "table": [
+        "IndustryITTrend"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+{
+  "question": "What are the emerging IT trends in companies across different industries?",
+  "subtasks": "[{'step': 1, 'task': 'Identify all industry types present in the database.', 'table': ['IndustryITTrend']}, {'step': 2, 'task': 'Gather all IT trends associated with each industry type.', 'table': ['IndustryITTrend']}, {'step': 3, 'task': 'Analyze the adoption rates of technologies like AI, IoT, and blockchain among companies in these industries.', 'table': ['CompanyInfo', 'CompanyTechStack']}, {'step': 4, 'task': 'Summarize key findings related to IT trends and technologies adopted across industries.', 'table': ['IndustryITTrend', 'CompanyTechStack']}]"
+}

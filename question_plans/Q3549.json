@@ -1,0 +1,40 @@
+{
+  "question": "What are the latest trends in IT investments among companies in the tech industry?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify all companies within the tech industry along with their IT Budget metrics.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract the latest data regarding Company IT Focus Areas to see what technological advancements or investments they are pursuing.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze Company Deal Master records to pinpoint recent deals focusing on technology services indicating current investment trends.",
+      "table": [
+        "CompanyDealMaster"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Review Company IT Partner details to identify active technology partnerships that could indicate investment shifts or technological focus.",
+      "table": [
+        "CompanyITPartnerDetail"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Summarize the engagement metrics from Social Media Info to understand how companies are promoting their technological advancements in public platforms.",
+      "table": [
+        "SocialMediaInfo"
+      ]
+    }
+  ]
+}

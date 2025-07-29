@@ -1,0 +1,4 @@
+{
+  "question": "What are the key technology adoption trends and social media engagement metrics among top companies in the tech industry?",
+  "subtasks": "[{'step': 1, 'task': 'Identify companies in the technology industry segment from the CompanyInfo table.', 'table': ['CompanyInfo']}, {'step': 2, 'task': 'Gather technology adoption details including tech stack and partner details from the CompanyTechStack and CompanyITPartnerDetail tables.', 'table': ['CompanyTechStack', 'CompanyITPartnerDetail']}, {'step': 3, 'task': 'Collect social media engagement metrics from various social media tables (Facebook, Twitter, Instagram, Youtube) for the identified companies.', 'table': ['CompanyFacebookDetail', 'CompanyTwitterDetail', 'CompanyInstagramDetail', 'CompanyYoutubeDetail']}, {'step': 4, 'task': 'Aggregate and analyze the data to find correlations between technology adoption and social media engagement.', 'table': []}]}"
+}

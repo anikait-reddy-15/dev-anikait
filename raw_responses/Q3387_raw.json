@@ -1,0 +1,4 @@
+{
+  "question": "What is the current technology spending trend across different industries, and how does it impact hiring initiatives?",
+  "subtasks": "[{\"step\":1,\"task\":\"Retrieve average technology spending for each industry from the CompanyInfo table, focusing on the ITBudget column.\",\"table\":[\"CompanyInfo\"]},{\"step\":2,\"task\":\"Identify and summarize active hiring trends in various technology domains from the CompanyHiringDetail table, including the number of job postings per industry.\",\"table\":[\"CompanyHiringDetail\"]},{\"step\":3,\"task\":\"Analyze the correlation between technology spending and hiring initiatives by comparing data from the CompanyInfo and CompanyHiringDetail tables.\",\"table\":[\"CompanyInfo\",\"CompanyHiringDetail\"]}]"
+}

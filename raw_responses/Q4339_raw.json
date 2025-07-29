@@ -1,0 +1,4 @@
+{
+  "question": "What are the current social media engagement metrics of companies in the tech industry?",
+  "subtasks": "[\n  {\n    \"step\": 1,\n    \"task\": \"Query the CompanyInfo table to filter tech industry companies.\",\n    \"table\": [\"CompanyInfo\"]\n  },\n  {\n    \"step\": 2,\n    \"task\": \"For each tech company, join with the SocialMediaInfo table to retrieve social media presence data.\",\n    \"table\": [\"CompanyInfo\", \"SocialMediaInfo\"]\n  },\n  {\n    \"step\": 3,\n    \"task\": \"Aggregate the engagement metrics by social media type for each company.\",\n    \"table\": [\"SocialMediaInfo\"]\n  },\n  {\n    \"step\": 4,\n    \"task\": \"Format and present the metrics in a usable format for analysis.\",\n    \"table\": []\n  }\n]"
+}

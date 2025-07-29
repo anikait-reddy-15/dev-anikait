@@ -1,0 +1,41 @@
+{
+  "question": "What are the recent trends in IT investments among leading companies in the manufacturing industry?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies operating in the manufacturing industry and their associated IT budgets and metrics for the last two years.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Analyze recent company deals, specifically focusing on IT service contracts within the manufacturing sector to uncover investment patterns.",
+      "table": [
+        "CompanyDealMaster"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Review technology focus areas of identified companies to understand their strategic investments and priorities in IT.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Investigate social media engagement of these companies to gauge their outreach and influence in the tech community, particularly focusing on LinkedIn and Twitter.",
+      "table": [
+        "CompanyTwitterDetail",
+        "CompanyLinkedinActivity"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Summarize findings into insights on trends in IT investment and potential areas of growth for the manufacturing sector based on the collected data.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "question": "What are the latest tech trends being implemented by companies in the finance industry?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Query the CompanyInfo table to identify companies that belong to the finance industry.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Retrieve the latest entries from the CompanyTechStack table for the identified finance companies to find out which technologies they are currently using.",
+      "table": [
+        "CompanyTechStack"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze data in the IndustryITTrend table to correlate the trends observed with specific technologies adopted by finance companies.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Combine insights from CompanyDealMaster and CompanyFocusAreaDetail to explore if there are any strategic technology partnerships in the finance sector related to these trends.",
+      "table": [
+        "CompanyDealMaster",
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Compile findings into a report detailing which tech trends are prevalent in the finance industry along with examples of companies implementing them.",
+      "table": []
+    }
+  ]
+}

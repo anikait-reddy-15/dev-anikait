@@ -1,0 +1,41 @@
+{
+  "question": "What are the current technology focus areas of leading companies in the IT industry and how are they planning to invest in these areas?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify leading companies within the IT industry based on their revenue and market capitalization.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Gather technology focus areas for the identified companies to understand their strategic initiatives in IT.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Extract budget information related to IT investments for these companies to assess their financial commitment to the identified focus areas.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Compile a summary of public leadership statements that outline the companies' vision on technology adoption and investment plans.",
+      "table": [
+        "CompanyLeadershipExcerpt"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Aggregate data to analyze trends in technology focus areas and budget allocation to understand industry direction.",
+      "table": [
+        "CompanyInfo",
+        "CompanyFocusAreaDetail"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "question": "What technology focus areas are companies in the finance industry prioritizing in their recent initiatives?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies operating in the finance industry by querying 'CompanyInfo' table to filter based on the 'Industry' column.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract the related technology focus areas for the identified finance companies from 'CompanyFocusAreaDetail' table using their 'CompanyInfoId'.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze and aggregate the retrieved technology focus areas to determine the most common and prioritized initiatives among finance companies.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Provide a summary report of the findings, outlining the key technology focus areas and any relevant details derived from company initiatives in the finance sector.",
+      "table": []
+    }
+  ]
+}

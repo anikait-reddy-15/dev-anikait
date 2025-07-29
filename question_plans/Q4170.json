@@ -1,0 +1,34 @@
+{
+  "question": "Analyze the social media presence and engagement metrics for a list of companies based on their industry.",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Retrieve the list of companies along with their industry classification from the CompanyInfo table.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Gather social media engagement data for each company from the SocialMediaInfo table, including likes, shares, and comments across platforms.",
+      "table": [
+        "SocialMediaInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Compile social media activity data from specific social platforms such as Facebook, Twitter, Instagram, and LinkedIn for detailed engagement insights.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyTwitterDetail",
+        "CompanyInstagramDetail",
+        "CompanyLinkedinActivity"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Analyze the engagement data against industry classifications to identify trends and compare social media performance across different industries.",
+      "table": []
+    }
+  ]
+}

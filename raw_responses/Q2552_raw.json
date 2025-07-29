@@ -1,0 +1,4 @@
+{
+  "question": "What are the current social media engagement statistics for companies in the technology sector?",
+  "subtasks": "[{'step': 1, 'task': 'Identify all companies operating in the technology sector and their associated information.', 'table': ['CompanyInfo']}, {'step': 2, 'task': 'Gather social media engagement data for the identified technology companies from various platforms.', 'table': ['CompanyFacebookDetail', 'CompanyInstagramDetail', 'CompanyTwitterDetail', 'CompanyYoutubeDetail']}, {'step': 3, 'task': 'Compile and analyze the engagement statistics such as likes, comments, and reposts across platforms.', 'table': ['CompanyFacebookDetail', 'CompanyInstagramDetail', 'CompanyTwitterDetail', 'CompanyYoutubeDetail']}]"
+}

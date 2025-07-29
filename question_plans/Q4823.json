@@ -1,0 +1,42 @@
+{
+  "question": "Analyze the social media engagement trends of companies in the technology industry over the last year.",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Select company profiles from the CompanyInfo table that belong to the technology industry and are active.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Retrieve Facebook engagement metrics (likes, comments) from the CompanyFacebookDetail table for all selected companies in the last year.",
+      "table": [
+        "CompanyFacebookDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Retrieve Instagram engagement metrics (likes, comments) from the CompanyInstagramDetail table for the same companies in the last year.",
+      "table": [
+        "CompanyInstagramDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Collect Twitter engagement data (likes, retweets) from the CompanyTwitterDetail table for the selected companies over the past year.",
+      "table": [
+        "CompanyTwitterDetail"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Aggregate and analyze the data collected (from Facebook, Instagram, and Twitter) to find engagement trends and patterns across the technology companies over the specified time period.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyInstagramDetail",
+        "CompanyTwitterDetail"
+      ]
+    }
+  ]
+}

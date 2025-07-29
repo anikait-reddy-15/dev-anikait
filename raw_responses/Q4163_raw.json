@@ -1,0 +1,4 @@
+{
+  "question": "What are the key technology focus areas and social media engagement metrics for companies in the IT sector?",
+  "subtasks": "[{'step': 1, 'task': 'Identify companies operating in the IT sector by querying the CompanyInfo table based on the Industry column.', 'table': ['CompanyInfo']}, {'step': 2, 'task': 'Retrieve technology focus areas for each identified company from the CompanyFocusAreaDetail table.', 'table': ['CompanyFocusAreaDetail']}, {'step': 3, 'task': 'Gather social media engagement metrics (likes, comments, etc.) from Facebook, Instagram, Twitter, and YouTube using their respective detail tables.', 'table': ['CompanyFacebookDetail', 'CompanyInstagramDetail', 'CompanyTwitterDetail', 'CompanyYoutubeDetail']}]}"
+}

@@ -1,0 +1,4 @@
+{
+  "question": "What are the latest hiring trends among IT companies in the finance sector?",
+  "subtasks": "[{\"step\":1,\"task\":\"Identify the active companies in the finance sector based on industry classification.\",\"table\":[\"CompanyInfo\"]},{\"step\":2,\"task\":\"Extract the hiring details for the identified finance companies to determine current job openings, roles, and required skills.\",\"table\":[\"CompanyHiringDetail\"]},{\"step\":3,\"task\":\"Analyze the hiring trends over the past year, including job designations, skill requirements, and geographic distribution of hiring activities.\",\"table\":[\"CompanyHiringDetail\"]},{\"step\":4,\"task\":\"Present findings in terms of growth in specific roles, sectors, and the overall demand for IT skills within the finance sector.\",\"table\":[\"CompanyInfo\",\"CompanyHiringDetail\"]}]}"
+}

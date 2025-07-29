@@ -1,0 +1,36 @@
+{
+  "question": "What are the hiring trends across various industries in the tech sector for the past year?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Gather data on hiring details from companies in the tech sector for the past year, including active job postings and specific job roles being filled.",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Link the hiring data to company information to understand which industries the companies belong to and extract their relevant industry details.",
+      "table": [
+        "CompanyInfo",
+        "CompanyHiringDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze hiring trends by aggregating the data based on the number of job postings per industry and identify popular job roles in each sector.",
+      "table": [
+        "CompanyHiringDetail",
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Generate a report summarizing the findings on hiring trends, including the industries showing the most activity and the key roles being filled in each sector.",
+      "table": [
+        "CompanyHiringDetail",
+        "CompanyInfo"
+      ]
+    }
+  ]
+}

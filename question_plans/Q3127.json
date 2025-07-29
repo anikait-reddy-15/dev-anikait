@@ -1,0 +1,36 @@
+{
+  "question": "What are the key technology focus areas and social media engagement trends for companies in the technology industry based on their IT contracts?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies in the technology industry and retrieve their details such as name, industry, and IT budget.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Fetch the IT focus areas for the identified technology companies to understand their strategic technology initiatives.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Collect social media engagement metrics (likes, comments, and reposts) from Facebook, Instagram, Twitter, and YouTube for these companies to analyze their social media presence.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyInstagramDetail",
+        "CompanyTwitterDetail",
+        "CompanyYoutubeDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Analyze the company deal master data to correlate existing contracts with technology focus areas to understand trends in technology adoption within the contracts.",
+      "table": [
+        "CompanyDealMaster"
+      ]
+    }
+  ]
+}

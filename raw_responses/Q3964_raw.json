@@ -1,0 +1,4 @@
+{
+  "question": "What are the technology focus areas and social media engagement strategies of companies in the tech industry?",
+  "subtasks": "[{'step': 1, 'task': 'Identify all companies within the technology industry sector.', 'table': ['CompanyInfo']}, {'step': 2, 'task': 'Compile technology focus areas for each identified company.', 'table': ['CompanyFocusAreaDetail']}, {'step': 3, 'task': 'Gather social media engagement metrics (likes, comments, engagement rates) for the identified companies across social media platforms.', 'table': ['CompanyFacebookDetail', 'CompanyTwitterDetail', 'CompanyInstagramDetail', 'CompanyYoutubeDetail']}, {'step': 4, 'task': 'Analyze and report on the correlation between technology focus areas and social media engagement statistics.', 'table': ['CompanyInfo', 'CompanyFocusAreaDetail', 'CompanyFacebookDetail', 'CompanyTwitterDetail', 'CompanyInstagramDetail', 'CompanyYoutubeDetail']}]}"
+}

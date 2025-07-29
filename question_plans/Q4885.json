@@ -1,0 +1,39 @@
+{
+  "question": "Analyze the social media strategy of a company and its impact on its market presence.",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify the company's social media platforms and their engagement metrics across Facebook, Twitter, Instagram, and YouTube.",
+      "table": [
+        "SocialMediaInfo",
+        "CompanyFacebookDetail",
+        "CompanyTwitterDetail",
+        "CompanyInstagramDetail",
+        "CompanyYoutubeDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Gather data about the company's overall market presence, including revenue, market capitalization, and industry classification.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Review the leadership statements and strategic focus areas of the company to better understand their social media strategy and objectives.",
+      "table": [
+        "CompanyLeadershipExcerpt",
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Analyze recent hiring trends and technology adoptive strategies relevant to the company's market strategy and social media engagements.",
+      "table": [
+        "CompanyHiringDetail",
+        "CompanyTechStack"
+      ]
+    }
+  ]
+}

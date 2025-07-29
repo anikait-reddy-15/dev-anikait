@@ -1,0 +1,43 @@
+{
+  "question": "What are the key technology trends companies in the software industry are focusing on in 2023?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Retrieve records of companies within the software industry from the CompanyInfo table to analyze their profiles.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Determine the recent IT focus areas for each company by linking their entries with the CompanyFocusAreaDetail table to see what technology domains they are investing in.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Collect data on industry trends based on the IndustryITTrend table to identify broader technology trends affecting the software sector in 2023.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Cross-reference company hiring data from the CompanyHiringDetail table to see which specific roles relate to the emerging technology trends identified.",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Compile and summarize all the insights from the previous steps into a comprehensive analysis of technology trends within the software industry for 2023.",
+      "table": [
+        "CompanyInfo",
+        "CompanyFocusAreaDetail",
+        "IndustryITTrend",
+        "CompanyHiringDetail"
+      ]
+    }
+  ]
+}

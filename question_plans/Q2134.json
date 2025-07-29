@@ -1,0 +1,33 @@
+{
+  "question": "What are the social media engagement metrics for companies in the technology industry?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify all companies that fall under the technology industry category by querying the CompanyInfo table looking for relevant entries in the Industry column.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "For each identified technology company, collect their social media presence metrics from the SocialMediaInfo table where the CompanyInfoId matches the Id of the technology companies.",
+      "table": [
+        "SocialMediaInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Aggregate the engagement metrics such as 'Count' for different social media platforms represented in the SocialMediaInfo table for the technology companies identified in step 1.",
+      "table": [
+        "SocialMediaInfo"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Report on the cumulative social media engagement statistics per technology company, providing insights on which platforms have the highest engagement.",
+      "table": [
+        "SocialMediaInfo"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "question": "What are the current hiring trends across different industries based on technology focus areas?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify the active hiring initiatives of companies and categorize them by industry and technology focus areas.",
+      "table": [
+        "CompanyHiringDetail",
+        "CompanyFocusAreaDetail",
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Analyze the data to determine which technology focus areas are most commonly represented in hiring initiatives in different industries.",
+      "table": [
+        "CompanyHiringDetail",
+        "CompanyFocusAreaDetail",
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Aggregate the findings to create a report detailing hiring trends by industry and technology focus areas, including metrics like total job postings and skill requirements.",
+      "table": [
+        "CompanyHiringDetail",
+        "CompanyFocusAreaDetail",
+        "CompanyInfo"
+      ]
+    }
+  ]
+}

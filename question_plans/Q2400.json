@@ -1,0 +1,36 @@
+{
+  "question": "What are the current technology focus areas and spending trends among leading companies in the technology sector?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify the leading companies in the technology sector and gather their financial data such as IT budget and revenue.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Retrieve the technology focus areas of the identified companies, detailing their strategic initiatives in technology domains such as digitalization, automation, and cloud computing.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the current trends in technology spending by correlating IT budgets with the focus areas to see which areas receive more investment.",
+      "table": [
+        "CompanyInfo",
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Collect social media engagement data to see how companies are promoting their technology initiatives and whether there is a correlation with their IT spending.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyTwitterDetail",
+        "CompanyInstagramDetail"
+      ]
+    }
+  ]
+}

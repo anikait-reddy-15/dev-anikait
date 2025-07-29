@@ -1,0 +1,4 @@
+{
+  "question": "What are the current hiring trends in technology companies based on their focus areas and social media presence?",
+  "subtasks": "[{\"step\":1,\"task\":\"Identify the technology companies and their specific hiring details\",\"table\":[\"CompanyHiringDetail\",\"CompanyInfo\"]},{\"step\":2,\"task\":\"Analyze the technology focus areas of the identified companies\",\"table\":[\"CompanyFocusAreaDetail\",\"CompanyInfo\"]},{\"step\":3,\"task\":\"Gather and analyze the social media engagement data for these companies to see correlation with hiring trends\",\"table\":[\"CompanyFacebookDetail\",\"CompanyInstagramDetail\",\"CompanyTwitterDetail\",\"CompanyYoutubeDetail\"]},{\"step\":4,\"task\":\"Compile a report summarizing hiring trends in relation to technology focus and social media engagement metrics\",\"table\":[\"CompanyHiringDetail\",\"CompanyFocusAreaDetail\",\"SocialMediaInfo\"]}]}"
+}

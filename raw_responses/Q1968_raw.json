@@ -1,0 +1,4 @@
+{
+  "question": "What are the current hiring trends in the technology sector across different regions?",
+  "subtasks": "[{\"step\":1,\"task\":\"Identify technology-related companies and their active hiring details to analyze current recruitment activities in the sector.\",\"table\":[\"CompanyHiringDetail\",\"CompanyInfo\"]},{\"step\":2,\"task\":\"Aggregate data on the number of open positions by region to understand geographical trends in technology hiring.\",\"table\":[\"CompanyHiringDetail\",\"CompanyInfo\"]},{\"step\":3,\"task\":\"Analyze hiring initiatives to identify the most sought-after job titles and skills in the technology sector.\",\"table\":[\"CompanyHiringDetail\",\"PersonaTitle\"]},{\"step\":4,\"task\":\"Summarize findings into a report highlighting key insights about hiring trends and challenges in the technology sector.\",\"table\":[\"CompanyHiringDetail\",\"CompanyInfo\"]}]}"
+}

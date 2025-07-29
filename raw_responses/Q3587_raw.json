@@ -1,0 +1,4 @@
+{
+  "question": "What are the current technology focus areas and partnerships of top companies in the IT sector?",
+  "subtasks": "[{'step': 1, 'task': 'Query the CompanyInfo table to identify the top companies in the IT sector based on revenue or market capitalization.', 'table': ['CompanyInfo']}, {'step': 2, 'task': 'Retrieve technology focus areas for these companies from the CompanyFocusAreaDetail table.', 'table': ['CompanyFocusAreaDetail']}, {'step': 3, 'task': 'Fetch partnership details related to these companies from the CompanyITPartnerDetail table.', 'table': ['CompanyITPartnerDetail']}, {'step': 4, 'task': 'Aggregate the results to analyze the technology focus areas and partnerships for the top IT companies.', 'table': []}]}"
+}

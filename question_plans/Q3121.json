@@ -1,0 +1,36 @@
+{
+  "question": "What are the current IT trends in the healthcare industry and which companies are leading in those areas?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify and list healthcare companies from the CompanyInfo table to analyze their IT budgets and focus areas.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract IT trends specific to the healthcare industry from the IndustryITTrend table to understand the current technology focus areas.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Link companies from the CompanyInfo table with their respective focus areas from the CompanyFocusAreaDetail table to see which companies are investing in which IT trends.",
+      "table": [
+        "CompanyInfo",
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Compile a summary report comparing company IT budgets, focus areas, and the identified IT trends specific to healthcare from the previous steps.",
+      "table": [
+        "CompanyInfo",
+        "CompanyFocusAreaDetail",
+        "IndustryITTrend"
+      ]
+    }
+  ]
+}

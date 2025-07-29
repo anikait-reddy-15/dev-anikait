@@ -1,0 +1,4 @@
+{
+  "question": "What are the technology focus areas and social media engagement metrics of companies in the healthcare industry?",
+  "subtasks": "[{\"step\":1,\"task\":\"Retrieve the list of companies operating in the healthcare industry from CompanyInfo table.\",\"table\":[\"CompanyInfo\"]},{\"step\":2,\"task\":\"Fetch the technology focus areas for each company obtained in step 1 from CompanyFocusAreaDetail table.\",\"table\":[\"CompanyFocusAreaDetail\"]},{\"step\":3,\"task\":\"Gather social media engagement metrics for each company from the relevant social media tables including CompanyFacebookDetail, CompanyInstagramDetail, CompanyTwitterDetail, and CompanyYoutubeDetail.\",\"table\":[\"CompanyFacebookDetail\",\"CompanyInstagramDetail\",\"CompanyTwitterDetail\",\"CompanyYoutubeDetail\"]}]"
+}

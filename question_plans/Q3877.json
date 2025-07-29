@@ -1,0 +1,34 @@
+{
+  "question": "What are the current trends in IT investment across different industries and their impact on company performance?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify and analyze emerging IT trends by industry to understand the focus areas of investment for each sector.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Gather financial performance data of companies categorized by industry, focusing on metrics such as revenue, net income, and market capitalization to assess impact.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Compile data on active IT partnerships and technology stack for companies in each industry to see how they align with the identified trends.",
+      "table": [
+        "CompanyITPartnerDetail",
+        "CompanyTechStack"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Evaluate the social media presence and engagement of companies across industries to analyze how their investment in IT could correlate with their public perception and customer interaction.",
+      "table": [
+        "SocialMediaInfo"
+      ]
+    }
+  ]
+}

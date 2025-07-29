@@ -1,0 +1,4 @@
+{
+  "question": "What are the current trends in IT partnerships among companies in the healthcare industry?",
+  "subtasks": "[{\"step\":1,\"task\":\"Identify companies operating in the healthcare industry from the CompanyInfo table.\",\"table\":[\"CompanyInfo\"]},{\"step\":2,\"task\":\"Retrieve IT partnership details for the identified healthcare companies from the CompanyITPartnerDetail table.\",\"table\":[\"CompanyITPartnerDetail\"]},{\"step\":3,\"task\":\"Analyze the retrieved partnership details to identify trends, such as common partners, deal values, and technologies used in the healthcare sector.\",\"table\":[\"CompanyITPartnerDetail\"]},{\"step\":4,\"task\":\"Summarize findings and present insights about the strategic focus areas for IT partnerships within healthcare companies.\",\"table\":[\"CompanyFocusAreaDetail\"]}]"
+}

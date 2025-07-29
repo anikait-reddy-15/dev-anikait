@@ -1,0 +1,4 @@
+{
+  "question": "What are the trending technologies adopted by companies in the IT sector?",
+  "subtasks": "[{\"step\":1,\"task\":\"Identify all companies in the IT sector using the CompanyInfo table and filter by the Industry column.\",\"table\":[\"CompanyInfo\"]},{\"step\":2,\"task\":\"Retrieve the technology stacks used by identified IT sector companies from the CompanyTechStack table.\",\"table\":[\"CompanyTechStack\"]},{\"step\":3,\"task\":\"Analyze the data to find the most frequently used technologies among the companies in the IT sector.\",\"table\":[\"CompanyTechStack\"]},{\"step\":4,\"task\":\"Compile insights to understand the trends in technology adoption in the IT industry based on the analysis results.\",\"table\":[\"CompanyTechStack\"]}]}"
+}

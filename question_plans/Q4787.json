@@ -1,0 +1,37 @@
+{
+  "question": "What are the current social media engagement levels of the top tech companies in the industry?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify the top tech companies based on market capitalization or revenue data.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Retrieve social media engagement data for the identified companies including Facebook, Instagram, Twitter, and YouTube metrics.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyInstagramDetail",
+        "CompanyTwitterDetail",
+        "CompanyYoutubeDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze and summarize engagement metrics such as likes and comments to determine which companies have the highest social media engagement.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyInstagramDetail",
+        "CompanyTwitterDetail",
+        "CompanyYoutubeDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Present the compiled social media engagement levels in a structured format for reporting.",
+      "table": []
+    }
+  ]
+}

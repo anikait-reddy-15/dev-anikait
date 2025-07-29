@@ -1,0 +1,38 @@
+{
+  "question": "How are companies utilizing social media platforms to enhance their engagement with customers?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify the companies that have an active presence on social media platforms such as Facebook, Instagram, and Twitter.",
+      "table": [
+        "CompanyInfo",
+        "SocialMediaInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Analyze the engagement metrics (likes, comments, shares) recorded for each company's social media posts on different platforms.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyInstagramDetail",
+        "CompanyTwitterDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Cross-reference the social media engagement data with the financial performance of the companies to assess the impact of social media utilization on revenue and customer interaction.",
+      "table": [
+        "CompanyInfo",
+        "CompanyDealMaster"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Document insights and trends regarding how the social media strategies differ across industries and company sizes.",
+      "table": [
+        "CompanyInfo",
+        "IndustryBusinessTrend"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "question": "Identify the top 5 companies in the technology industry by revenue and their social media engagement metrics.",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Query the CompanyInfo table to retrieve the top 5 companies in the technology industry sorted by revenue.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract social media engagement metrics for the identified companies from the SocialMediaInfo table.",
+      "table": [
+        "SocialMediaInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Cross-reference and combine the results from the previous two steps to present the companies with their respective social media engagement metrics.",
+      "table": [
+        "CompanyInfo",
+        "SocialMediaInfo"
+      ]
+    }
+  ]
+}

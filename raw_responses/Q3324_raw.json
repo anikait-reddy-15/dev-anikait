@@ -1,0 +1,4 @@
+{
+  "question": "What are the current technology trends and focus areas of companies in the IT sector?",
+  "subtasks": "[{'step': 1, 'task': 'Identify companies in the IT sector and retrieve their details such as name, revenue, and IT budget.', 'table': ['CompanyInfo']}, {'step': 2, 'task': 'Fetch the strategic technology focus areas for the identified companies from the CompanyFocusAreaDetail table.', 'table': ['CompanyFocusAreaDetail']}, {'step': 3, 'task': 'Compile data on emerging IT trends relevant to the IT sector from the IndustryITTrend table.', 'table': ['IndustryITTrend']}, {'step': 4, 'task': 'Analyze the relationship between technology focus areas and current deals/contracts from CompanyDealMaster.', 'table': ['CompanyDealMaster']}]}"
+}

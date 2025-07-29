@@ -1,0 +1,4 @@
+{
+  "question": "What are the current trends in IT budgets and technology adoption for companies in the financial industry?",
+  "subtasks": "[{\"step\":1,\"task\":\"Identify companies in the financial industry and retrieve their IT budgets and technology focus areas.\",\"table\":[\"CompanyInfo\",\"CompanyFocusAreaDetail\"]},{\"step\":2,\"task\":\"Analyze the financial metrics of these companies, looking for correlations with their IT budgets and focus areas.\",\"table\":[\"CompanyInfo\"]},{\"step\":3,\"task\":\"Examine recent social media activity related to technology trends from the companies in the financial industry to gather qualitative data.\",\"table\":[\"CompanyFacebookDetail\",\"CompanyTwitterDetail\",\"CompanyInstagramDetail\"]},{\"step\":4,\"task\":\"Summarize the overall trends in IT spending and technology adoption based on the analysis and prepare insights for presentation.\",\"table\":[\"CompanyInfo\",\"CompanyTechStack\"]}]"
+}

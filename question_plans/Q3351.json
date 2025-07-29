@@ -1,0 +1,51 @@
+{
+  "question": "Analyze the social media presence and engagement metrics of companies within a specific industry over the past year.",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify all companies within the specified industry using the CompanyInfo table based on the 'Industry' column.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Gather social media engagement metrics for each identified company from the SocialMediaInfo table, specifically focusing on platforms like Facebook, Instagram, Twitter, and YouTube.",
+      "table": [
+        "SocialMediaInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Extract Facebook-related data such as likes, comments, and reposts from the CompanyFacebookDetail table for deeper analysis of engagement on that platform.",
+      "table": [
+        "CompanyFacebookDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Collect Twitter engagement metrics including tweet likes and retweets from the CompanyTwitterDetail table for the companies analyzed.",
+      "table": [
+        "CompanyTwitterDetail"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Compile Instagram activity statistics, including likes and comments, from the CompanyInstagramDetail table for a comprehensive social media analysis.",
+      "table": [
+        "CompanyInstagramDetail"
+      ]
+    },
+    {
+      "step": 6,
+      "task": "Synthesize the collected data to generate a comparative report outlining each company's social media performance, highlighting key insights and trends over the past year.",
+      "table": [
+        "CompanyInfo",
+        "SocialMediaInfo",
+        "CompanyFacebookDetail",
+        "CompanyTwitterDetail",
+        "CompanyInstagramDetail"
+      ]
+    }
+  ]
+}

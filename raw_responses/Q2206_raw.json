@@ -1,0 +1,4 @@
+{
+  "question": "What are the current industry trends impacting technology adoption in companies?",
+  "subtasks": "[{\"step\":1,\"task\":\"Identify the industries of interest to analyze technology trends\",\"table\":[\"IndustryITTrend\"]},{\"step\":2,\"task\":\"Gather detailed narratives and trends for each selected industry from the IndustryITTrend table\",\"table\":[\"IndustryITTrend\"]},{\"step\":3,\"task\":\"Analyze how these trends are being integrated into companies across various sectors by referencing the CompanyTechStack and CompanyVendorProductDetail tables\",\"table\":[\"CompanyTechStack\",\"CompanyVendorProductDetail\"]},{\"step\":4,\"task\":\"Compile and summarize the findings to provide insights on how these trends influence technology adoption strategies within companies\",\"table\":[\"CompanyInfo\"]}]"
+}

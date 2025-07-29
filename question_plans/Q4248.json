@@ -1,0 +1,33 @@
+{
+  "question": "What are the latest technology focus areas for companies in the technology industry?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies within the technology industry and retrieve their details.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Gather strategic technology focus areas for each identified company.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the latest entries in the technology focus areas to summarize trends and priorities.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Compile a report on the findings and highlight key technology trends across the identified companies in the industry.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    }
+  ]
+}

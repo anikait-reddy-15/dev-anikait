@@ -1,0 +1,43 @@
+{
+  "question": "What are the current technology trends and hiring demands across different industries?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify the industries of interest to analyze technology trends and hiring demands.",
+      "table": [
+        "IndustryBusinessTrend",
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract current technology trends being adopted by companies in those industries, focusing on technologies like AI, IoT, blockchain, and cloud computing.",
+      "table": [
+        "IndustryITTrend",
+        "CompanyTechStack"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Gather data on active hiring initiatives from companies within the identified industries by examining job roles and skill requirements.",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Analyze the collected hiring initiatives data to identify trends in talent demands for specific technologies or roles related to the current trends.",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Compile a report summarizing the technology trends and corresponding hiring demands across the selected industries.",
+      "table": [
+        "IndustryBusinessTrend",
+        "CompanyHiringDetail"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "question": "What are the current hiring initiatives and technology focus areas of top companies in the IT sector?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify top companies in the IT sector based on revenue and active status.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Retrieve active hiring details for the identified top companies, focusing on roles and designated areas of technology.",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Gather strategic technology focus areas for the same companies to analyze their IT priorities and initiatives.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Combine the hiring initiatives and focus areas data to generate an overview of the current landscape of the IT sector in terms of talent and technology adoption.",
+      "table": [
+        "CompanyHiringDetail",
+        "CompanyFocusAreaDetail"
+      ]
+    }
+  ]
+}

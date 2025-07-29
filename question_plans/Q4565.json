@@ -1,0 +1,34 @@
+{
+  "question": "What are the key technology focus areas and IT budget allocations for companies in the digital marketing sector?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies operating in the digital marketing sector and gather their specific details from the CompanyInfo table.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Retrieve the technology focus areas for the identified companies from the CompanyFocusAreaDetail table to understand their strategic IT initiatives.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Collect IT budget allocations for the companies from the CompanyInfo table to assess their financial commitment to technology development.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Analyze the relationships between technology focus areas and IT budget by aggregating data from CompanyFocusAreaDetail and CompanyInfo to derive insights.",
+      "table": [
+        "CompanyFocusAreaDetail",
+        "CompanyInfo"
+      ]
+    }
+  ]
+}

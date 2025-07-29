@@ -1,0 +1,4 @@
+{
+  "question": "What are the current technology focus areas for companies in the financial services industry and how do they compare in terms of revenue and IT budget?",
+  "subtasks": "[{\"step\":1,\"task\":\"Identify all companies operating in the financial services industry and retrieve their relevant information such as Id, Name, Revenue, and ITBudget.\",\"table\":[\"CompanyInfo\"]},{\"step\":2,\"task\":\"Retrieve the strategic technology focus areas for each company found in step 1 by linking them to their CompanyInfoId and fetching details from CompanyFocusAreaDetail.\",\"table\":[\"CompanyFocusAreaDetail\"]},{\"step\":3,\"task\":\"Compile the findings by combining the results from steps 1 and 2 to create a comparative analysis of technology focus areas against the Revenue and IT Budget for companies in the financial services industry.\",\"table\":[\"CompanyInfo\",\"CompanyFocusAreaDetail\"]}]"
+}

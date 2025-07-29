@@ -1,0 +1,33 @@
+{
+  "question": "What are the recent trends in IT and technology adoption across various industries, and how do they relate to company strategies?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify recent IT trends across different industries by querying the IndustryITTrend table to get the latest insights and focus areas.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Fetch the company profiles regarding their strategic technology focus areas from the CompanyFocusAreaDetail table, linking them to the trends identified in the previous step.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze financial data from the CompanyInfo table, such as IT budget and revenue, to assess how companies' financial metrics correlate with their technology adoption strategies.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Collect insights from leadership statements in the CompanyLeadershipExcerpt table to understand the company's perspective on technology adoption and strategies related to the identified trends.",
+      "table": [
+        "CompanyLeadershipExcerpt"
+      ]
+    }
+  ]
+}

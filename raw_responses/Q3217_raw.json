@@ -1,0 +1,4 @@
+{
+  "question": "What are the current technology focus areas and hiring trends for leading companies in the software industry?",
+  "subtasks": "[\n    {\n        \"step\": 1,\n        \"task\": \"Identify leading companies in the software industry based on revenue and market capitalization.\",\n        \"table\": [\"CompanyInfo\"]\n    },\n    {\n        \"step\": 2,\n        \"task\": \"Retrieve the technology focus areas for the identified leading software companies.\",\n        \"table\": [\"CompanyFocusAreaDetail\"]\n    },\n    {\n        \"step\": 3,\n        \"task\": \"Analyze current hiring trends by examining active hiring details for the identified companies in the software sector.\",\n        \"table\": [\"CompanyHiringDetail\"]\n    },\n    {\n        \"step\": 4,\n        \"task\": \"Aggregate the technology focus areas and hiring trends data to create a comprehensive overview for the software industry.\",\n        \"table\": []\n    }\n]"
+}

@@ -1,0 +1,4 @@
+{
+  "question": "What are the most active companies on social media, and how do they correlate with their business success metrics?",
+  "subtasks": "[{\"step\":1,\"task\":\"Identify active companies by checking the 'Active' status in the CompanyInfo table.\",\"table\":[\"CompanyInfo\"]},{\"step\":2,\"task\":\"Gather social media metrics such as engagement counts from the SocialMediaInfo table for identified companies.\",\"table\":[\"SocialMediaInfo\"]},{\"step\":3,\"task\":\"Collect business success metrics like Revenue and NetIncome from the CompanyInfo table for comparison with social media activity.\",\"table\":[\"CompanyInfo\"]},{\"step\":4,\"task\":\"Analyze the correlation between social media engagement metrics and business success metrics to outline findings.\",\"table\":[\"CompanyInfo\",\"SocialMediaInfo\"]}]}"
+}

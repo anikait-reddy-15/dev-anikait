@@ -1,0 +1,36 @@
+{
+  "question": "Analyze the technology adoption trends of companies across different industries and geographical regions.",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify and extract the industries represented in the CompanyInfo table, including their respective technology focus areas.",
+      "table": [
+        "CompanyInfo",
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Gather data on technology adoption by companies by analyzing the CompanyTechStack table to understand what technologies are being used by companies in different industries.",
+      "table": [
+        "CompanyTechStack"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the regional distribution of companies and their technology focus areas by extracting relevant data from CompanyInfo and CompanyDataCenter tables.",
+      "table": [
+        "CompanyInfo",
+        "CompanyDataCenter"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Compile data on emergent IT trends from the IndustryITTrend table and couple it with company-specific technology data to achieve a comprehensive view of technology adoption across industries and regions.",
+      "table": [
+        "IndustryITTrend",
+        "CompanyTechStack"
+      ]
+    }
+  ]
+}

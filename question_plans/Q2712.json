@@ -1,0 +1,32 @@
+{
+  "question": "What are the technology partnerships and IT focus areas of companies that have a strong social media presence?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies with high engagement metrics across various social media platforms (like Facebook, Instagram, and Twitter).",
+      "table": [
+        "SocialMediaInfo",
+        "CompanyFacebookDetail",
+        "CompanyInstagramDetail",
+        "CompanyTwitterDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Gather information on each of these companies' strategic IT focus areas and technology partnerships.",
+      "table": [
+        "CompanyFocusAreaDetail",
+        "CompanyITPartnerDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Compile the relevant data into a report that highlights the technology partnerships and IT focus areas for companies with a strong social media presence.",
+      "table": [
+        "CompanyInfo",
+        "CompanyITPartnerDetail",
+        "CompanyFocusAreaDetail"
+      ]
+    }
+  ]
+}

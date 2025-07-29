@@ -1,0 +1,38 @@
+{
+  "question": "What are the current hiring trends in the technology sector across different companies?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify all companies currently active in the technology sector.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Gather data on active hiring jobs linked with those identified companies, including job titles and specifications.",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the hiring data to determine the most frequently listed job titles and skills needed in the technology sector.",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Cross-reference the hiring trends with the financial performance of these companies to understand the relationship between hiring trends and company performance.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Compile the findings into a report detailing current hiring trends and their implications for the technology sector.",
+      "table": []
+    }
+  ]
+}

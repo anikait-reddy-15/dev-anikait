@@ -1,0 +1,4 @@
+{
+  "question": "What technologies are being adopted by companies in the healthcare industry in the last two years?",
+  "subtasks": "[{\"step\":1,\"task\":\"Identify healthcare companies from the CompanyInfo table based on industry criteria.\",\"table\":[\"CompanyInfo\"]},{\"step\":2,\"task\":\"Filter tech stack entries in the CompanyTechStack table that are linked to the identified healthcare companies and were recorded in the last two years.\",\"table\":[\"CompanyTechStack\"]},{\"step\":3,\"task\":\"Aggregate and analyze the technology adoption data from CompanyTechStack to identify trends and popular technologies in use by healthcare companies.\",\"table\":[\"CompanyTechStack\"]},{\"step\":4,\"task\":\"Combine results with any relevant CompanyFocusAreaDetail entries that discuss emerging technologies in healthcare, to provide context for adoption trends.\",\"table\":[\"CompanyFocusAreaDetail\"]}]"
+}

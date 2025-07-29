@@ -1,0 +1,35 @@
+{
+  "question": "Identify the key technology adoption and social media engagement trends across various industries for the last year.",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Gather a list of industries and their associated technology focus areas from the IndustryITTrend table for the past year.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Compile insights from the CompanyTechStack table to identify technologies adopted by companies in those industries in the last year.",
+      "table": [
+        "CompanyTechStack"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Collect social media engagement metrics from the SocialMediaInfo table for companies operating within those industries during the last year.",
+      "table": [
+        "SocialMediaInfo"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Analyze the data to find correlations between technology adoption trends and social media engagement levels by industry.",
+      "table": [
+        "IndustryITTrend",
+        "CompanyTechStack",
+        "SocialMediaInfo"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "question": "What are the current hiring trends in technology companies located in North America?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify and list all technology companies based in North America from the CompanyInfo table.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract active hiring details for the identified technology companies from the CompanyHiringDetail table.",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the hiring data to determine the most in-demand roles and skills across the selected companies.",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Gather and compile demographic details about the workforce from the CompanyInfo table, focusing on employee counts and founded years.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Cross-reference hiring trends with the CompanyTechStack table to identify which technologies are leading to job creation in these companies.",
+      "table": [
+        "CompanyTechStack"
+      ]
+    }
+  ]
+}

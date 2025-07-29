@@ -1,0 +1,4 @@
+{
+  "question": "What are the technology trends in companies within the finance industry for the year 2023?",
+  "subtasks": "[{\"step\":1,\"task\":\"Identify all companies in the finance industry from the CompanyInfo table.\",\"table\":[\"CompanyInfo\"]},{\"step\":2,\"task\":\"Extract the technology focus areas from the CompanyFocusAreaDetail table for the identified finance companies.\",\"table\":[\"CompanyFocusAreaDetail\"]},{\"step\":3,\"task\":\"Analyze the technology vendor products adopted by finance companies by querying the CompanyVendorProductDetail table.\",\"table\":[\"CompanyVendorProductDetail\"]},{\"step\":4,\"task\":\"Aggregate the emerging IT trends from the IndustryITTrend table specific to the finance industry for the year 2023.\",\"table\":[\"IndustryITTrend\"]}]"
+}

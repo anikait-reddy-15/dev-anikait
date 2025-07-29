@@ -1,0 +1,43 @@
+{
+  "question": "What are the current technology trends observed in various industries and how are companies responding to these trends?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify and list the technology trends across industries from the IndustryITTrend table.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Analyze how different companies are adapting to these trends by reviewing their focus areas in the CompanyFocusAreaDetail table.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Compile and summarize the strategic initiatives of companies listed in CompanyInfo in relation to the identified trends.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Examine technology partners and collaborations that support these trends using the CompanyITPartnerDetail table.",
+      "table": [
+        "CompanyITPartnerDetail"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Assess social media engagement metrics to determine public reception and organizational communication related to these trends using the various social media detail tables (CompanyFacebookDetail, CompanyInstagramDetail, CompanyTwitterDetail, CompanyYoutubeDetail).",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyInstagramDetail",
+        "CompanyTwitterDetail",
+        "CompanyYoutubeDetail"
+      ]
+    }
+  ]
+}

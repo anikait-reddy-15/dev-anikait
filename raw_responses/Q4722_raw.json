@@ -1,0 +1,4 @@
+{
+  "question": "How can we analyze the impact of social media engagement on a company's revenue and market capital?",
+  "subtasks": "[{\"step\":1,\"task\":\"Identify companies with social media presence metrics such as likes, followers, and engagement rates from Facebook, Instagram, Twitter, and YouTube.\",\"table\":[\"CompanyFacebookDetail\",\"CompanyInstagramDetail\",\"CompanyTwitterDetail\",\"CompanyYoutubeDetail\"]},{\"step\":2,\"task\":\"Gather financial data for the identified companies including revenue and market capitalization from the CompanyInfo table.\",\"table\":[\"CompanyInfo\"]},{\"step\":3,\"task\":\"Analyze the correlation between the social media engagement metrics and the financial metrics to assess the impact of social media on revenue and market cap.\",\"table\":[\"CompanyFacebookDetail\",\"CompanyInstagramDetail\",\"CompanyTwitterDetail\",\"CompanyYoutubeDetail\",\"CompanyInfo\"]}]"
+}

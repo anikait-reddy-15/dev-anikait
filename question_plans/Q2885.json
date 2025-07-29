@@ -1,0 +1,41 @@
+{
+  "question": "How can we analyze the impact of social media activity on company revenue?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Collect social media engagement metrics for each company, including likes, shares, comments, and overall engagement on platforms like Facebook, Twitter, Instagram, and YouTube.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyTwitterDetail",
+        "CompanyInstagramDetail",
+        "CompanyYoutubeDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Gather financial data related to company revenue, including total revenue, net income, and market capitalization from the CompanyInfo table.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Merge social media metrics with the financial data to establish a relationship between social media engagement and revenue figures for analysis.",
+      "table": [
+        "CompanyInfo",
+        "CompanyFacebookDetail",
+        "CompanyTwitterDetail",
+        "CompanyInstagramDetail",
+        "CompanyYoutubeDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Create visualizations or reports to present findings and correlations between social media activity and revenue changes over time.",
+      "table": [
+        "PageInfo",
+        "SectionData"
+      ]
+    }
+  ]
+}

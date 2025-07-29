@@ -1,0 +1,4 @@
+{
+  "question": "Provide an analysis of the hiring trends and strategies of the top 10 companies in the IT industry based on their revenue and employee count.",
+  "subtasks": "[{'step': 1, 'task': 'Identify the top 10 IT companies based on revenue and employee count.', 'table': ['CompanyInfo']}, {'step': 2, 'task': 'Retrieve hiring detail information for identified companies to analyze hiring trends.', 'table': ['CompanyHiringDetail']}, {'step': 3, 'task': 'Aggregate the hiring data to find patterns in roles, locations, and skill requirements.', 'table': ['CompanyHiringDetail']}, {'step': 4, 'task': 'Correlate hiring trends with the company revenue and employee counts to assess future workforce strategies.', 'table': ['CompanyInfo', 'CompanyHiringDetail']}, {'step': 5, 'task': 'Summarize the findings into a report format detailing trends and strategies.', 'table': ['SectionData']}]}"
+}

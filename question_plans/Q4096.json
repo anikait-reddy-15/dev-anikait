@@ -1,0 +1,28 @@
+{
+  "question": "What are the current technology focus areas and hiring trends of companies in the healthcare sector?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies operating in the healthcare sector by filtering the CompanyInfo table based on the Industry column.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Retrieve the technology focus areas for the identified healthcare companies by joining the CompanyFocusAreaDetail table with the CompanyInfo table based on the CompanyInfoId column.",
+      "table": [
+        "CompanyFocusAreaDetail",
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the hiring trends of identified healthcare companies by fetching data from the CompanyHiringDetail table linked to the relevant companies from the CompanyInfo table.",
+      "table": [
+        "CompanyHiringDetail",
+        "CompanyInfo"
+      ]
+    }
+  ]
+}

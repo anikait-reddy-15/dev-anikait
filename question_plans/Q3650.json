@@ -1,0 +1,37 @@
+{
+  "question": "Identify the key technology trends in the healthcare industry and how they impact company strategies.",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Gather data on technology focus areas relevant to the healthcare industry.",
+      "table": [
+        "CompanyFocusAreaDetail",
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Analyze the impact of recent technology partnerships in the healthcare sector.",
+      "table": [
+        "CompanyITPartnerDetail",
+        "CompanyDealMaster"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Collect and assess financial metrics of companies in the healthcare industry to see how tech trends affect their revenue and market capitalization.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Examine social media engagement metrics to understand how companies in the healthcare industry communicate their tech initiatives.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyTwitterDetail",
+        "CompanyInstagramDetail"
+      ]
+    }
+  ]
+}

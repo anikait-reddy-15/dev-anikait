@@ -1,0 +1,4 @@
+{
+  "question": "What are the current trends in the IT landscape across different industries?",
+  "subtasks": "[{'step': 1, 'task': 'Identify the main industries of interest for analyzing IT trends.', 'table': ['IndustryBusinessTrend', 'IndustryITTrend']}, {'step': 2, 'task': 'Extract specific IT trends from the IndustryITTrend table for each industry identified.', 'table': ['IndustryITTrend']}, {'step': 3, 'task': 'Capture detailed narratives and emerging trends specific to each industry from the IndustryBusinessTrend table.', 'table': ['IndustryBusinessTrend']}, {'step': 4, 'task': 'Compile and summarize the extracted data to identify common themes and trends in the IT landscape.', 'table': []}]"
+}

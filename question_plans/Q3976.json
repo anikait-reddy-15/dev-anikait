@@ -1,0 +1,48 @@
+{
+  "question": "How can we analyze the social media presence and engagement of companies in the technology sector?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify and retrieve a list of companies in the technology sector along with their social media presence metrics.",
+      "table": [
+        "CompanyInfo",
+        "SocialMediaInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Gather detailed social media engagement data, including likes, comments, and shares from platforms like Facebook, Instagram, Twitter, and YouTube.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyInstagramDetail",
+        "CompanyTwitterDetail",
+        "CompanyYoutubeDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the engagement metrics to determine the most effective social media platforms for technology companies and compare them against industry averages.",
+      "table": [
+        "SocialMediaInfo",
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Draft a report summarizing the findings on social media effectiveness and trends in engagement for technology companies.",
+      "table": [
+        "SectionData"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Identify potential improvements in social media strategies based on the engagement metrics collected.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyTwitterDetail",
+        "CompanyInstagramDetail",
+        "CompanyYoutubeDetail"
+      ]
+    }
+  ]
+}

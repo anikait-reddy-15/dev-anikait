@@ -1,0 +1,4 @@
+{
+  "question": "What are the key technology partnerships among companies in the cloud computing sector?",
+  "subtasks": "[{'step': 1, 'task': 'Identify companies in the cloud computing sector by filtering data from the CompanyInfo table based on the Industry column.', 'table': ['CompanyInfo']}, {'step': 2, 'task': 'Gather technology partnership details for these companies from the CompanyITPartnerDetail table.', 'table': ['CompanyITPartnerDetail']}, {'step': 3, 'task': 'Analyze the collected partnership data to identify the key partners and collaboration trends within the cloud computing sector.', 'table': ['CompanyITPartnerDetail', 'CompanyInfo']}, {'step': 4, 'task': 'Generate a summary report outlining the findings, including key partners and significant contracts.', 'table': ['CompanyDealMaster', 'CompanyITPartnerDetail']}]"
+}

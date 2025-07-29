@@ -1,0 +1,4 @@
+{
+  "question": "What are the current social media engagement levels of technology companies in the finance sector?",
+  "subtasks": "[{\"step\":1,\"task\":\"Identify active technology companies operating in the finance sector.\",\"table\":[\"CompanyInfo\"]},{\"step\":2,\"task\":\"Gather social media engagement data for the identified finance sector technology companies across all platforms (Facebook, Twitter, Instagram, YouTube).\",\"table\":[\"CompanyFacebookDetail\",\"CompanyTwitterDetail\",\"CompanyInstagramDetail\",\"CompanyYoutubeDetail\"]},{\"step\":3,\"task\":\"Aggregate the engagement metrics (likes, comments, shares) from social media tables to analyze overall engagement levels.\",\"table\":[\"CompanyFacebookDetail\",\"CompanyTwitterDetail\",\"CompanyInstagramDetail\",\"CompanyYoutubeDetail\"]}]"
+}

@@ -1,0 +1,37 @@
+{
+  "question": "What are the latest trends in IT adoption across different industries for companies with active social media presence?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify all companies that have an active social media presence across platforms such as Facebook, LinkedIn, Instagram, and Twitter.",
+      "table": [
+        "SocialMediaInfo",
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Gather the latest data on IT trends and technology focus areas for different industries from the IndustryITTrend table.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Compile a list of industries from the IndustryITTrend table that has the most significant IT adoption focus areas relevant to the identified companies.",
+      "table": [
+        "IndustryITTrend",
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Analyze the relationship between the active social media presence of companies and the IT trends in their respective industries to identify correlations or patterns.",
+      "table": [
+        "SocialMediaInfo",
+        "IndustryITTrend",
+        "CompanyInfo"
+      ]
+    }
+  ]
+}

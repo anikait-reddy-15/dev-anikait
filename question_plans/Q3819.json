@@ -1,0 +1,33 @@
+{
+  "question": "Analyze the social media engagement of companies in the IT sector over the last year.",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify all companies in the IT industry along with their social media profiles.",
+      "table": [
+        "CompanyInfo",
+        "SocialMediaInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Gather engagement metrics from Facebook, Instagram, Twitter, and YouTube for these companies over the past year.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyInstagramDetail",
+        "CompanyTwitterDetail",
+        "CompanyYoutubeDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Aggregate and analyze the engagement metrics to compare performance across different platforms and identify trends.",
+      "table": []
+    },
+    {
+      "step": 4,
+      "task": "Produce a report summarizing the social media performance of the identified IT companies including key statistics and insights.",
+      "table": []
+    }
+  ]
+}

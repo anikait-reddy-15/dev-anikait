@@ -1,0 +1,4 @@
+{
+  "question": "What are the top three IT and technology focus areas for companies in the finance industry based on their recent activities?",
+  "subtasks": "[{'step': 1, 'task': 'Identify companies operating in the finance industry.', 'table': ['CompanyInfo']}, {'step': 2, 'task': 'Extract recent strategic technology focus areas for identified finance companies.', 'table': ['CompanyFocusAreaDetail']}, {'step': 3, 'task': 'Analyze social media engagement related to identified focus areas to gauge popularity and recent activities.', 'table': ['CompanyFacebookDetail', 'CompanyInstagramDetail', 'CompanyTwitterDetail', 'CompanyYoutubeDetail']}]"
+}

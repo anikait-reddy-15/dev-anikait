@@ -1,0 +1,4 @@
+{
+  "question": "Analyze the social media presence of tech companies and their engagement metrics across different platforms.",
+  "subtasks": "[{'step': 1, 'task': 'Collect data on social media presence for all tech companies.', 'table': ['CompanyInfo', 'SocialMediaInfo']}, {'step': 2, 'task': 'Gather detailed Facebook engagement metrics for each tech company.', 'table': ['CompanyFacebookDetail']}, {'step': 3, 'task': 'Retrieve detailed Instagram engagement metrics for tech companies.', 'table': ['CompanyInstagramDetail']}, {'step': 4, 'task': 'Obtain detailed Twitter metrics for each tech company.', 'table': ['CompanyTwitterDetail']}, {'step': 5, 'task': 'Analyze the collected data to evaluate overall engagement across platforms.', 'table': []}]"
+}

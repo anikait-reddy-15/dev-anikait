@@ -1,0 +1,4 @@
+{
+  "question": "What are the recent hiring trends in the technology industry for companies based in North America?",
+  "subtasks": "[{\"step\":1,\"task\":\"Identify all companies located in North America by filtering the CompanyInfo table based on the Geography column.\",\"table\":[\"CompanyInfo\"]},{\"step\":2,\"task\":\"Extract active hiring initiatives from the CompanyHiringDetail table that are associated with the identified companies in North America.\",\"table\":[\"CompanyHiringDetail\"]},{\"step\":3,\"task\":\"Analyze the extracted hiring data to identify trends, such as the most sought-after positions and skills within the technology industry over the last year.\",\"table\":[\"CompanyHiringDetail\"]},{\"step\":4,\"task\":\"Generate a summary report of the hiring trends, including key insights and statistics, to provide an overview of the talent demand in the technology sector.\",\"table\":[\"CompanyHiringDetail\"]}]}"
+}

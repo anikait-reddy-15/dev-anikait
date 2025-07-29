@@ -1,0 +1,4 @@
+{
+  "question": "What are the recent hiring trends across different industries and how do they relate to technology adoption?",
+  "subtasks": "[{'step': 1, 'task': 'Query the CompanyHiringDetail table to extract the latest hiring initiatives and the associated industries.', 'table': ['CompanyHiringDetail']}, {'step': 2, 'task': 'Retrieve insights on technology focus areas from the CompanyFocusAreaDetail table that correlate with the hiring initiatives.', 'table': ['CompanyFocusAreaDetail']}, {'step': 3, 'task': 'Analyze the IndustryITTrend table to determine the current technology trends associated with the industries found in the hiring data.', 'table': ['IndustryITTrend']}, {'step': 4, 'task': 'Combine hiring trends and technology focus data to identify connections and draw conclusions on how hiring is influenced by technological advancements.', 'table': ['CompanyHiringDetail', 'CompanyFocusAreaDetail', 'IndustryITTrend']}]"
+}

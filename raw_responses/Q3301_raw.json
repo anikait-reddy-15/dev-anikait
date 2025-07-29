@@ -1,0 +1,4 @@
+{
+  "question": "What are the strategic technology focus areas of top companies in the cloud computing industry?",
+  "subtasks": "[{\"step\":1,\"task\":\"Identify all companies operating in the cloud computing industry from the CompanyInfo table.\",\"table\":[\"CompanyInfo\"]},{\"step\":2,\"task\":\"Retrieve technology focus areas for the identified companies from the CompanyFocusAreaDetail table.\",\"table\":[\"CompanyFocusAreaDetail\"]},{\"step\":3,\"task\":\"Filter the focus areas specifically related to cloud computing from the retrieved data.\",\"table\":[\"CompanyFocusAreaDetail\"]},{\"step\":4,\"task\":\"Summarize the findings to highlight key trends and strategic initiatives in cloud computing by these companies.\",\"table\":[\"CompanyFocusAreaDetail\"]}]}"
+}

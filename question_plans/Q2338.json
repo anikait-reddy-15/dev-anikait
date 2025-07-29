@@ -1,0 +1,36 @@
+{
+  "question": "What are the current trends in technology adoption across various industries and how do they correlate with company hiring and leadership focus areas?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify emerging technology trends and focus areas across different industries.",
+      "table": [
+        "IndustryITTrend",
+        "IndustryBusinessTrend"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Gather data on the current hiring initiatives from companies in various industries, detailing domains and designations being targeted.",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Extract leadership statements or excerpts from companies regarding their technology focus areas to understand strategic priorities.",
+      "table": [
+        "CompanyLeadershipExcerpt"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Analyze correlations between the identified technology trends, hiring data, and leadership focus statements to derive insights.",
+      "table": [
+        "CompanyInfo",
+        "CompanyFocusAreaDetail",
+        "CompanyManagementDetail"
+      ]
+    }
+  ]
+}

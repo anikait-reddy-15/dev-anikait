@@ -1,0 +1,33 @@
+{
+  "question": "What are the emerging trends in the IT sector for different industries?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify and list the various industries from the IndustryITTrend table.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract the emerging IT trends for each identified industry from the IndustryITTrend table.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the trends to find significant technology focus areas like AI, IoT, and blockchain, and their adoption rates across industries.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Compile a report detailing the findings on emerging trends by industry, including strategic focus areas and adoption metrics.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    }
+  ]
+}

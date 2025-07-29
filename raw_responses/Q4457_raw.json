@@ -1,0 +1,4 @@
+{
+  "question": "What are the current tech trends among companies in the digital transformation sector?",
+  "subtasks": "[{'step': 1, 'task': 'Identify companies involved in digital transformation initiatives.', 'table': ['CompanyFocusAreaDetail']}, {'step': 2, 'task': 'Analyze emerging IT trends related to digital transformation across different industries.', 'table': ['IndustryITTrend']}, {'step': 3, 'task': 'Gather financial metrics of identified companies to correlate tech trends with financial performance.', 'table': ['CompanyInfo']}, {'step': 4, 'task': 'Compile social media engagement data of these companies to assess market perception.', 'table': ['SocialMediaInfo', 'CompanyFacebookDetail', 'CompanyInstagramDetail', 'CompanyTwitterDetail']}, {'step': 5, 'task': 'Summarize findings and present a report on the digital transformation tech trends.', 'table': ['PageInfo', 'SectionData']}]}"
+}

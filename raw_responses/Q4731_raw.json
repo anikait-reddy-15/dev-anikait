@@ -1,0 +1,4 @@
+{
+  "question": "What are the current technology focus areas and associated vendor deals for companies in the biotechnology industry?",
+  "subtasks": "[{\"step\":1,\"task\":\"Retrieve all companies operating in the biotechnology industry and their relevant details.\",\"table\":[\"CompanyInfo\"]},{\"step\":2,\"task\":\"Find technology focus areas linked to the identified biotechnology companies.\",\"table\":[\"CompanyFocusAreaDetail\"]},{\"step\":3,\"task\":\"Gather details of vendor deals associated with the biotechnology companies, including contract values and descriptions.\",\"table\":[\"CompanyDealMaster\"]},{\"step\":4,\"task\":\"Compile data linking technology focus areas with vendor deals for a comprehensive overview.\",\"table\":[\"CompanyFocusAreaDetail\",\"CompanyDealMaster\"]}]"
+}

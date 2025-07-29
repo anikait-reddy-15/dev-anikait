@@ -1,0 +1,39 @@
+{
+  "question": "Analyze the social media presence of companies in the technology industry and identify the most engaging platforms.",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify all companies in the technology industry and gather their basic information such as name, description, and active status.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract social media engagement metrics for the identified technology companies, focusing on platforms like Facebook, Instagram, Twitter, and YouTube.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyInstagramDetail",
+        "CompanyTwitterDetail",
+        "CompanyYoutubeDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Aggregate the engagement metrics (likes, comments, engagement rate) for each social media platform and compare between them to identify the most engaging platform for technology companies.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyInstagramDetail",
+        "CompanyTwitterDetail",
+        "CompanyYoutubeDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Compile findings into a report summarizing the social media presence of the technology companies, highlighting engagement trends and platform preferences.",
+      "table": [
+        "SocialMediaInfo"
+      ]
+    }
+  ]
+}

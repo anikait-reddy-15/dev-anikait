@@ -1,0 +1,4 @@
+{
+  "question": "What are the emerging technology trends and focus areas across different industries, and which companies are adopting them?",
+  "subtasks": "[{'step': 1, 'task': 'Identify the industries of interest to analyze emerging technology trends.', 'table': ['IndustryITTrend']}, {'step': 2, 'task': 'Retrieve detailed narratives and focus areas related to the identified industries.', 'table': ['IndustryBusinessTrend']}, {'step': 3, 'task': 'List companies that are associated with the focus areas identified in the previous step.', 'table': ['CompanyFocusAreaDetail', 'CompanyInfo']}, {'step': 4, 'task': 'Analyze the technology stack of the identified companies to see what technologies are being adopted in relation to the focus areas.', 'table': ['CompanyTechStack']}]}"
+}

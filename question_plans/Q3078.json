@@ -1,0 +1,40 @@
+{
+  "question": "What are the technology and social media engagement trends in the companies within the software industry?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify all companies in the software industry from the CompanyInfo table, filtering by the Industry column.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Gather information on technology stacks used by the identified companies, focusing on the CompanyTechStack table to understand their technology adoption trends.",
+      "table": [
+        "CompanyTechStack"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Collect social media engagement metrics for the identified companies by retrieving data from the CompanyFacebookDetail, CompanyInstagramDetail, CompanyTwitterDetail, and CompanyYoutubeDetail tables.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyInstagramDetail",
+        "CompanyTwitterDetail",
+        "CompanyYoutubeDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Analyze the collected technology and social media data to identify trends and draw insights about their engagement and technology preferences across the software industry.",
+      "table": [
+        "CompanyTechStack",
+        "CompanyFacebookDetail",
+        "CompanyInstagramDetail",
+        "CompanyTwitterDetail",
+        "CompanyYoutubeDetail"
+      ]
+    }
+  ]
+}

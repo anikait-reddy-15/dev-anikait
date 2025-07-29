@@ -1,0 +1,4 @@
+{
+  "question": "Analyze the IT spending trends among technology companies across different industries and geographical regions.",
+  "subtasks": "[{\"step\":1,\"task\":\"Collect IT budget data for each company to identify overall spending in the sector.\",\"table\":[\"CompanyInfo\"]},{\"step\":2,\"task\":\"Group companies by industry to examine IT spending trends within specific sectors.\",\"table\":[\"CompanyInfo\"]},{\"step\":3,\"task\":\"Segment the companies by geographical region to understand regional variations in IT spending.\",\"table\":[\"CompanyInfo\"]},{\"step\":4,\"task\":\"Merge the collected data with the CompanyDealMaster to find relevant contracts that may indicate higher spending influence.\",\"table\":[\"CompanyDealMaster\"]},{\"step\":5,\"task\":\"Analyze the spending data in conjunction with CompanyFocusAreaDetail to determine focus areas that attract higher IT budgets.\",\"table\":[\"CompanyFocusAreaDetail\"]}]"
+}

@@ -1,0 +1,41 @@
+{
+  "question": "What are the key trends in technology adoption across different industries, and how are companies responding in their IT strategies?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify the various industries represented in the database and their corresponding technology focus areas.",
+      "table": [
+        "IndustryBusinessTrend",
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Gather data on companies involved in these industries, including their IT budgets and technology strengths.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the partnerships and vendor relationships of companies within these industries to understand their technology adoption strategies.",
+      "table": [
+        "CompanyITPartnerDetail",
+        "CompanyVendorTechDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Collect data on social media activity related to technology trends and company responses within these industries.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyTwitterDetail"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Aggregate and summarize findings into key insights about industry trends and company strategies for technology adoption.",
+      "table": []
+    }
+  ]
+}

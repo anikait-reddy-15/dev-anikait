@@ -1,0 +1,4 @@
+{
+  "question": "Analyze the social media engagement and technology investments of leading companies in the cloud computing sector.",
+  "subtasks": "[{'step': 1, 'task': 'Identify leading companies in the cloud computing sector by querying the CompanyInfo table for companies with industry classification as cloud computing.', 'table': ['CompanyInfo']}, {'step': 2, 'task': 'Collect social media engagement metrics for the identified companies by querying the CompanyFacebookDetail, CompanyTwitterDetail, and CompanyInstagramDetail tables.', 'table': ['CompanyFacebookDetail', 'CompanyTwitterDetail', 'CompanyInstagramDetail']}, {'step': 3, 'task': 'Gather information on technology investments of identified companies by querying the CompanyTechStack table.', 'table': ['CompanyTechStack']}, {'step': 4, 'task': 'Compile the data collected in steps 1 to 3 into a report format summarizing social media engagement and technology investments.', 'table': []}]}"
+}

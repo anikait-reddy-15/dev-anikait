@@ -1,0 +1,45 @@
+{
+  "question": "What are the latest technology adoption trends in the retail industry, and which companies are leading these innovations?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify the latest technology trends in the retail industry based on the IndustryITTrend table.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Find companies operating in the retail industry from the CompanyInfo table and their respective technology stacks from the CompanyTechStack table.",
+      "table": [
+        "CompanyInfo",
+        "CompanyTechStack"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Aggregate technology adoption data from the CompanyVendorTechDetail to analyze vendor engagement and technology services related to retail companies.",
+      "table": [
+        "CompanyVendorTechDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Cross-reference leadership excerpts from the CompanyLeadershipExcerpt table to capture company statements regarding their technology focus and initiatives in retail.",
+      "table": [
+        "CompanyLeadershipExcerpt"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Compile all gathered data into a cohesive report highlighting technology adoption trends, leading companies, and their strategic initiatives in the retail sector.",
+      "table": [
+        "CompanyInfo",
+        "CompanyTechStack",
+        "CompanyLeadershipExcerpt",
+        "CompanyVendorTechDetail",
+        "IndustryITTrend"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "question": "What are the current technology trends and focus areas for companies in the financial services industry?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies that are classified under the financial services industry by querying the CompanyInfo table to filter based on the Industry column.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Gather the strategic focus areas of the identified companies by accessing the CompanyFocusAreaDetail table and linking it via the CompanyInfoId to analyze their technology initiatives.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Review any partnerships and IT collaborations these companies have by examining the CompanyITPartnerDetail table to understand how they are working with technology vendors and service providers.",
+      "table": [
+        "CompanyITPartnerDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Analyze emerging IT trends relevant to the financial services industry by querying the IndustryITTrend table to see the specific technology focus areas that the industry is adopting.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Compile and summarize the findings from previous steps into a cohesive report outlining the current technology trends and focus areas for the financial services industry.",
+      "table": [
+        "CompanyInfo",
+        "CompanyFocusAreaDetail",
+        "CompanyITPartnerDetail",
+        "IndustryITTrend"
+      ]
+    }
+  ]
+}

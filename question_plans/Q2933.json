@@ -1,0 +1,31 @@
+{
+  "question": "Analyze the impact of social media engagement on company revenue for tech companies in North America.",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify all tech companies located in North America and retrieve their Revenue data.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Gather social media engagement metrics for the identified tech companies, including Facebook, Twitter, and Instagram engagements.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyTwitterDetail",
+        "CompanyInstagramDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Compile the data to correlate social media engagement levels with revenue figures to analyze the impact.",
+      "table": [
+        "CompanyInfo",
+        "CompanyFacebookDetail",
+        "CompanyTwitterDetail",
+        "CompanyInstagramDetail"
+      ]
+    }
+  ]
+}

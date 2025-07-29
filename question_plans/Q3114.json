@@ -1,0 +1,27 @@
+{
+  "question": "What are the financial metrics and technology focus areas of top companies in the cloud computing industry?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify and gather financial metrics for companies in the cloud computing industry, including Revenue and Net Income.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Fetch the technology focus areas for those companies to understand their strategic initiatives in cloud computing.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Combine the financial data with the technology focus areas to create a comprehensive overview of each company's performance and strategic direction in cloud computing.",
+      "table": [
+        "CompanyInfo",
+        "CompanyFocusAreaDetail"
+      ]
+    }
+  ]
+}

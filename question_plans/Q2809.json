@@ -1,0 +1,36 @@
+{
+  "question": "What are the current trends in IT investment for companies within the financial services industry?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify active companies within the financial services industry along with their IT budgets and financial metrics.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Analyze current IT investment trends and focus areas specific to the identified companies in the financial services industry.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Examine the vendor relationships that these companies have in place, especially concerning technology services and products used in their IT investments.",
+      "table": [
+        "CompanyVendorProductDetail",
+        "CompanyVendorTechDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Verify and compile social media engagement and IT leadership statements of the companies to support the trend analysis with qualitative insights.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyLinkedinActivity",
+        "CompanyLeadershipExcerpt"
+      ]
+    }
+  ]
+}

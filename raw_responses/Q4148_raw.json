@@ -1,0 +1,4 @@
+{
+  "question": "What are the emerging technology trends in the current market across different industries?",
+  "subtasks": "[{\"step\":1,\"task\":\"Identify the industries of interest to analyze technology trends and usage based on the market dynamics.\",\"table\":[\"IndustryBusinessTrend\",\"IndustryITTrend\"]},{\"step\":2,\"task\":\"Extract details of the latest technology adoption and patterns observed in specific industries from the IndustryITTrend table.\",\"table\":[\"IndustryITTrend\"]},{\"step\":3,\"task\":\"Combine and summarize the findings to showcase the overarching technological focus areas across different industries, identifying key trends such as AI, IoT, and blockchain adoption.\",\"table\":[\"IndustryBusinessTrend\",\"IndustryITTrend\"]}]}"
+}

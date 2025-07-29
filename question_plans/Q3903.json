@@ -1,0 +1,42 @@
+{
+  "question": "What are the emerging IT trends for the healthcare industry in relation to company investments and focus areas?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies operating in the healthcare industry and gather their general information such as revenue, IT budget, and focus areas.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Collect and analyze the IT focus areas for each healthcare company to understand what technologies they are investing in, such as AI, IoT, and cloud computing.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Review the IndustryITTrend table to extract insights on broad IT trends relevant to the healthcare sector, including specific emphasis on technologies being adopted by these companies.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Cross-reference the acquired company data with social media engagements to assess how healthcare companies are promoting their IT investments and trends on platforms like LinkedIn and Twitter.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyLinkedinActivity",
+        "CompanyTwitterDetail"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Compile a report summarizing the findings on emerging IT trends, specific company initiatives, and overall investment strategies in the healthcare sector.",
+      "table": [
+        "SectionData"
+      ]
+    }
+  ]
+}

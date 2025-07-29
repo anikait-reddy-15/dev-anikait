@@ -1,0 +1,43 @@
+{
+  "question": "What are the hiring trends and technology focus areas of major companies in the tech industry?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify major companies in the tech industry and gather their basic information such as name, revenue, and employee count.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Analyze hiring initiatives of the identified companies, focusing on the number of roles, job responsibilities, and required skills in the tech domain.",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Examine the technology focus areas of these companies, including their strategic investments and partnerships in specific IT domains.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Cross-reference hiring trends with technology focus areas to determine potential correlations or insights between staffing strategies and technology investments.",
+      "table": [
+        "CompanyHiringDetail",
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Compile a report summarizing the findings about hiring trends and technology focus areas, highlighting significant patterns or outliers among the companies analyzed.",
+      "table": [
+        "CompanyInfo",
+        "CompanyHiringDetail",
+        "CompanyFocusAreaDetail"
+      ]
+    }
+  ]
+}

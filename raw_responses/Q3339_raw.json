@@ -1,0 +1,4 @@
+{
+  "question": "Analyze the technology adoption trends of companies in the finance industry based on their social media presence and hiring initiatives.",
+  "subtasks": "[{\"step\":1,\"task\":\"Filter companies in the finance industry based on the CompanyInfo table and extract their identifiers.\",\"table\":[\"CompanyInfo\"]},{\"step\":2,\"task\":\"Gather social media metrics related to the filtered finance companies from the SocialMediaInfo table to assess their online engagement and presence.\",\"table\":[\"SocialMediaInfo\"]},{\"step\":3,\"task\":\"Retrieve hiring initiatives for the filtered companies from the CompanyHiringDetail table to understand their talent demand and technology focus areas.\",\"table\":[\"CompanyHiringDetail\"]},{\"step\":4,\"task\":\"Merge social media and hiring data to find correlations between social media engagement and hiring trends in the finance sector.\",\"table\":[\"SocialMediaInfo\",\"CompanyHiringDetail\"]}]"
+}

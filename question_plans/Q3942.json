@@ -1,0 +1,37 @@
+{
+  "question": "What are the current hiring trends in the technology sector, and how do companies align their recruitment strategies with their strategic focus areas?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Analyze the active hiring initiatives in the technology sector by extracting relevant hiring details including job designations, responsibilities, and skill requirements.",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Identify the strategic technology focus areas of companies by linking their hiring initiatives to predefined IT focus categories that reflect their direct strategic goals.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Evaluate company social media presence and engagement to understand how it may correlate with hiring trends and focus areas, potentially revealing relationships between brand visibility and recruitment success.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyInstagramDetail",
+        "CompanyTwitterDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Summarize the findings to highlight key insights regarding technology sector hiring trends, recruitment strategies, and their alignment with companies' strategic initiatives.",
+      "table": [
+        "CompanyInfo",
+        "CompanyHiringDetail",
+        "CompanyFocusAreaDetail"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "question": "Analyze the social media engagement trends of companies across different industries.",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify the companies and their relevant industries from the CompanyInfo table.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract Facebook engagement metrics such as likes and comments from the CompanyFacebookDetail table.",
+      "table": [
+        "CompanyFacebookDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Extract Instagram engagement metrics such as likes and comments from the CompanyInstagramDetail table.",
+      "table": [
+        "CompanyInstagramDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Extract Twitter engagement metrics such as likes and retweets from the CompanyTwitterDetail table.",
+      "table": [
+        "CompanyTwitterDetail"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Compile and analyze the aggregated engagement data across all social media platforms for each company by industry.",
+      "table": [
+        "CompanyInfo",
+        "CompanyFacebookDetail",
+        "CompanyInstagramDetail",
+        "CompanyTwitterDetail"
+      ]
+    }
+  ]
+}

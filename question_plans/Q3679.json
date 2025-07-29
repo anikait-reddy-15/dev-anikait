@@ -1,0 +1,34 @@
+{
+  "question": "What are the technology adoption trends in different industries over the past five years?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify and list the relevant industries from the IndustryITTrend table for the past five years.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Analyze the technology focus areas from the IndustryITTrend table based on the identified industries.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Aggregate the technology adoption data for each industry to establish trends and summarize findings.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Cross-reference the trends with CompanyInfo to find companies leading in technology adoption for each industry.",
+      "table": [
+        "CompanyInfo",
+        "IndustryITTrend"
+      ]
+    }
+  ]
+}

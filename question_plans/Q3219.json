@@ -1,0 +1,30 @@
+{
+  "question": "How can I analyze a company's technological focus and market activity over the past year?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify the company's current IT focus areas by retrieving data from the CompanyFocusAreaDetail table.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Gather the most recent social media activity data for the company over the past year using the CompanyFacebookDetail, CompanyTwitterDetail, CompanyInstagramDetail, and CompanyYoutubeDetail tables.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyTwitterDetail",
+        "CompanyInstagramDetail",
+        "CompanyYoutubeDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Extract vendor relationship details from the CompanyITPartnerDetail and CompanyVendorTechDetail tables to understand their technology partnerships over the past year.",
+      "table": [
+        "CompanyITPartnerDetail",
+        "CompanyVendorTechDetail"
+      ]
+    }
+  ]
+}

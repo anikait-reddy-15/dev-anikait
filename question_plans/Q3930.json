@@ -1,0 +1,27 @@
+{
+  "question": "What are the most popular technologies adopted by companies in the finance industry, and how do these technologies correlate with their revenue growth?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies operating in the finance industry and gather their core financial metrics such as revenue and net income.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "List the technologies adopted by the identified finance companies from the technology stack data.",
+      "table": [
+        "CompanyTechStack"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the relationship between the technologies adopted and the revenue growth of these finance companies to identify popular technologies that correlate with increased revenue.",
+      "table": [
+        "CompanyInfo",
+        "CompanyTechStack"
+      ]
+    }
+  ]
+}

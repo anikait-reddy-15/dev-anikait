@@ -1,0 +1,4 @@
+{
+  "question": "What are the key hiring trends in the technology sector for companies based in the US?",
+  "subtasks": "[{\"step\":1, \"task\":\"Gather data on technology companies based in the US from the CompanyInfo table.\", \"table\":[\"CompanyInfo\"]},{\"step\":2, \"task\":\"Extract information regarding active hiring initiatives from the CompanyHiringDetail table linked to the technology sector.\", \"table\":[\"CompanyHiringDetail\"]},{\"step\":3, \"task\":\"Analyze the retrieved hiring details to identify trends in technology roles and skill requirements in these companies.\", \"table\":[\"CompanyHiringDetail\"]},{\"step\":4, \"task\":\"Summarize the findings into key hiring trends report that includes popular designations and required skills in the tech sector.\", \"table\":[\"CompanyHiringDetail\"]}]}"
+}

@@ -1,0 +1,4 @@
+{
+  "question": "What are the current social media engagement metrics for each company across platforms like Facebook, Twitter, Instagram, and YouTube?",
+  "subtasks": "[{\"step\":1,\"task\":\"Retrieve social media engagement metrics from Facebook for all companies.\",\"table\":[\"CompanyFacebookDetail\"]},{\"step\":2,\"task\":\"Retrieve social media engagement metrics from Twitter for all companies.\",\"table\":[\"CompanyTwitterDetail\"]},{\"step\":3,\"task\":\"Retrieve social media engagement metrics from Instagram for all companies.\",\"table\":[\"CompanyInstagramDetail\"]},{\"step\":4,\"task\":\"Retrieve social media engagement metrics from YouTube for all companies.\",\"table\":[\"CompanyYoutubeDetail\"]},{\"step\":5,\"task\":\"Combine metrics from all platforms into a comprehensive report for each company.\",\"table\":[\"CompanyFacebookDetail\",\"CompanyTwitterDetail\",\"CompanyInstagramDetail\",\"CompanyYoutubeDetail\"]}]}"
+}

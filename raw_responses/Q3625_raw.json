@@ -1,0 +1,4 @@
+{
+  "question": "Analyze the social media presence of companies and their engagement metrics across different platforms.",
+  "subtasks": "[{'step': 1, 'task': 'Retrieve the list of companies and their social media profile URLs.', 'table': ['CompanyInfo', 'SocialMediaInfo']}, {'step': 2, 'task': 'Extract engagement metrics for each company from Facebook.', 'table': ['CompanyFacebookDetail']}, {'step': 3, 'task': 'Extract engagement metrics for each company from Instagram.', 'table': ['CompanyInstagramDetail']}, {'step': 4, 'task': 'Extract engagement metrics for each company from Twitter.', 'table': ['CompanyTwitterDetail']}, {'step': 5, 'task': 'Extract engagement metrics for each company from YouTube.', 'table': ['CompanyYoutubeDetail']}]"
+}

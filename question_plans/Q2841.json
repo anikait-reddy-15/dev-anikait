@@ -1,0 +1,40 @@
+{
+  "question": "What are the latest trends in technology adoption across industries and how are companies responding to them?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify the latest IT trends for various industries from the IndustryITTrend table.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Gather information on technology focus areas from the CompanyFocusAreaDetail table to see how companies are investing in these trends.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze CompanyDealMaster to track technology service contracts that reflect adoption of current trends, including deal values and involved industries.",
+      "table": [
+        "CompanyDealMaster"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Review SectionData for content related to companies\u2019 recent technological strategies and efforts in response to the identified trends.",
+      "table": [
+        "SectionData"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Compile social media insights from SocialMediaInfo to analyze companies' engagement and messaging regarding new technology adoptions.",
+      "table": [
+        "SocialMediaInfo"
+      ]
+    }
+  ]
+}

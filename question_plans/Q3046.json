@@ -1,0 +1,43 @@
+{
+  "question": "What are the current technology focus areas and digital transformation strategies of major companies in the finance industry?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify all companies operating in the finance industry and extract their details such as name, revenue, and employee count.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Gather data on the technology focus areas for the identified finance companies to understand their digital transformation strategies.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Compile information about partnerships and technology services these finance companies have with IT vendors to see how they are implementing their focus areas.",
+      "table": [
+        "CompanyITPartnerDetail",
+        "CompanyVendorTechDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Analyze social media presence of these companies to assess how they communicate their technology focus and digital transformation initiatives.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyInstagramDetail",
+        "CompanyTwitterDetail"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Summarize findings into a report that highlights key trends in technology focus areas and digital transformation strategies for finance companies.",
+      "table": [
+        "CompanyInfo"
+      ]
+    }
+  ]
+}

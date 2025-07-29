@@ -1,0 +1,29 @@
+{
+  "question": "What are the latest IT trends for companies in the technology industry, and how are companies engaging with their audiences on social media?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify technology companies from the CompanyInfo table to focus on the technology industry.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract the latest IT trends from the IndustryITTrend table relevant to the technology industry identified in step 1.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Gather social media engagement metrics (likes, comments, reposts) from the CompanyFacebookDetail, CompanyTwitterDetail, CompanyInstagramDetail, and CompanyYoutubeDetail tables for each company identified in step 1.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyTwitterDetail",
+        "CompanyInstagramDetail",
+        "CompanyYoutubeDetail"
+      ]
+    }
+  ]
+}

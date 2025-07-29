@@ -1,0 +1,29 @@
+{
+  "question": "What companies are leading in IT budget spending within the technology industry and their associated social media engagement levels?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies within the technology industry and their IT budgets",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Retrieve social media engagement data for the identified technology companies from Facebook and Twitter",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyTwitterDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Combine the IT budget data with social media engagement metrics to analyze the relationship between spending and engagement",
+      "table": [
+        "CompanyInfo",
+        "CompanyFacebookDetail",
+        "CompanyTwitterDetail"
+      ]
+    }
+  ]
+}

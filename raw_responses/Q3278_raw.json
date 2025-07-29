@@ -1,0 +1,4 @@
+{
+  "question": "What are the technology adoption trends among different industries based on recent contracts?",
+  "subtasks": "[{'step': 1, 'task': 'Identify the relevant technology services and products that have been contracted recently.', 'table': ['CompanyDealMaster', 'CompanyVendorProductDetail', 'CompanyVendorTechDetail']}, {'step': 2, 'task': 'Analyze the industries associated with these contracts to understand the sectors adopting new technologies.', 'table': ['CompanyDealMaster', 'IndustryITTrend']}, {'step': 3, 'task': 'Compile the data on technology trends by industry and summarize key findings.', 'table': ['IndustryITTrend', 'CompanyDealMaster']}]"
+}

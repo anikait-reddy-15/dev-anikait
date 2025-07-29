@@ -1,0 +1,33 @@
+{
+  "question": "What are the current technology trends and hiring initiatives among companies in the IT industry?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies in the IT industry and gather their details such as revenue, net income, and IT budget to understand their market position.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Analyze the technology focus areas of these companies to identify the current trends they are investing in or prioritizing.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Gather active hiring details from these companies to see which roles are being filled and in what technological domains, indicating demand for specific skills.",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Compile social media engagement data for these companies to gain insights into their outreach strategies and audience interaction related to their technology initiatives.",
+      "table": [
+        "SocialMediaInfo"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "question": "What are the key technological focus areas of companies and how do these relate to their social media presence?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify the strategic technology focus areas for each company.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Gather social media engagement data for each company on platforms such as Facebook, Instagram, and Twitter.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyInstagramDetail",
+        "CompanyTwitterDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Merge the technology focus areas data with social media data to analyze the relationship between tech initiatives and social media engagement metrics.",
+      "table": [
+        "CompanyFocusAreaDetail",
+        "CompanyFacebookDetail",
+        "CompanyInstagramDetail",
+        "CompanyTwitterDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Identify the industries represented by each company to contextualize the technology focus and social media presence across sectors.",
+      "table": [
+        "CompanyInfo"
+      ]
+    }
+  ]
+}

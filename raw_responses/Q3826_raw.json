@@ -1,0 +1,4 @@
+{
+  "question": "What are the current technology focus areas and IT partnerships of companies in the healthcare industry?",
+  "subtasks": "[{'step': 1, 'task': 'Identify all companies within the healthcare industry from the CompanyInfo table.', 'table': ['CompanyInfo']}, {'step': 2, 'task': 'Retrieve all technology focus areas associated with the identified healthcare companies from the CompanyFocusAreaDetail table.', 'table': ['CompanyFocusAreaDetail']}, {'step': 3, 'task': 'Find all IT partner details for the healthcare companies from the CompanyITPartnerDetail table.', 'table': ['CompanyITPartnerDetail']}, {'step': 4, 'task': 'Combine results from steps 1, 2, and 3 to present a comprehensive overview of technology focus areas and partnerships.', 'table': []}]"
+}

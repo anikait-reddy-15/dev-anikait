@@ -1,0 +1,4 @@
+{
+  "question": "What are the key technologies adopted by companies in the technology industry, and how do they utilize social media for engagement?",
+  "subtasks": "[{'step': 1, 'task': 'Identify the companies in the technology industry from the CompanyInfo table.', 'table': ['CompanyInfo']}, {'step': 2, 'task': 'Gather the key technologies adopted by these companies from the CompanyTechStack table.', 'table': ['CompanyTechStack']}, {'step': 3, 'task': 'Analyze social media engagement metrics from Facebook, Instagram, and Twitter for these companies using the respective social media detail tables.', 'table': ['CompanyFacebookDetail', 'CompanyInstagramDetail', 'CompanyTwitterDetail']}]"
+}

@@ -1,0 +1,4 @@
+{
+  "question": "What are the technology focus areas of companies and how are they performing on social media?",
+  "subtasks": "[{\"step\":1,\"task\":\"Identify all companies and their associated technology focus areas from the CompanyFocusAreaDetail table.\",\"table\":[\"CompanyFocusAreaDetail\",\"CompanyInfo\"]},{\"step\":2,\"task\":\"Gather social media performance data (likes, comments, engagement rates) from the CompanyFacebookDetail, CompanyInstagramDetail, CompanyTwitterDetail, and CompanyYoutubeDetail tables for the identified companies.\",\"table\":[\"CompanyFacebookDetail\",\"CompanyInstagramDetail\",\"CompanyTwitterDetail\",\"CompanyYoutubeDetail\"]},{\"step\":3,\"task\":\"Compile the results into a summarized report, correlating technology focus areas with social media performance statistics.\",\"table\":[\"CompanyFocusAreaDetail\",\"CompanyFacebookDetail\",\"CompanyInstagramDetail\",\"CompanyTwitterDetail\",\"CompanyYoutubeDetail\"]}]}"
+}

@@ -1,0 +1,4 @@
+{
+  "question": "What are the emerging IT trends across different industries, and how are companies aligning their IT strategy with these trends?",
+  "subtasks": "[{\"step\":1,\"task\":\"Identify the various emerging IT trends documented across industries.\",\"table\":[\"IndustryITTrend\"]},{\"step\":2,\"task\":\"Gather details of companies along with their IT focus areas to understand how they are aligning with identified IT trends.\",\"table\":[\"CompanyFocusAreaDetail\",\"CompanyInfo\"]},{\"step\":3,\"task\":\"Analyze the relationship between identified IT trends and specific companies' IT investments or partnerships in those areas.\",\"table\":[\"CompanyITPartnerDetail\",\"CompanyTechStack\"]},{\"step\":4,\"task\":\"Cross-reference companies' financial metrics such as IT budget and market capitalization to assess the impact of IT strategy on business outcomes.\",\"table\":[\"CompanyInfo\"]}]"
+}

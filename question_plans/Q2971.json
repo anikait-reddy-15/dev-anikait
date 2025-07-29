@@ -1,0 +1,35 @@
+{
+  "question": "What are the technology adoption trends and strategic focus areas of companies in the IT industry?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify all companies in the IT industry and capture their relevant business metrics such as IT budget, employees, revenue, and net income.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Gather the strategic technology focus areas of these identified IT companies, including details on digital transformation, cloud computing, and AI initiatives.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Collect detailed records of technology services and products that these companies have adopted, including vendor information and product categories.",
+      "table": [
+        "CompanyVendorProductDetail",
+        "CompanyVendorTechDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Analyze the trends in technology adoption across the IT sector by correlating focus areas with specific technologies utilized by these companies.",
+      "table": [
+        "CompanyTechStack",
+        "IndustryITTrend"
+      ]
+    }
+  ]
+}

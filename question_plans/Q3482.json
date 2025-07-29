@@ -1,0 +1,38 @@
+{
+  "question": "Identify the latest trends in technology adoption among companies in the banking industry for 2023.",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Filter companies belonging to the banking industry to gather relevant technology adoption data for analysis.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract technology stack information from the filtered banking companies to identify what technologies are currently being adopted.",
+      "table": [
+        "CompanyTechStack"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze vendor product details related to the technologies used by these banks to find insights on product selection and vendor influence.",
+      "table": [
+        "CompanyVendorProductDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Review leadership excerpts from the banking companies to understand strategic intentions and directions concerning technology adoption and innovations.",
+      "table": [
+        "CompanyLeadershipExcerpt"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Summarize the findings into trends based on the data analysis, categorizing key technologies and their impacts within the banking sector for 2023.",
+      "table": []
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "question": "What are the social media engagement metrics and hiring trends for technology companies in the US?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Retrieve social media engagement metrics for technology companies in the US, focusing on platforms like Facebook, Twitter, Instagram, and YouTube.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyTwitterDetail",
+        "CompanyInstagramDetail",
+        "CompanyYoutubeDetail",
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract hiring trends for technology companies in the US, including job titles and active recruitment details.",
+      "table": [
+        "CompanyHiringDetail",
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Combine social media metrics and hiring trends into a comprehensive report to analyze the correlation between social media engagement and recruitment activities.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyHiringDetail",
+        "CompanyTwitterDetail",
+        "CompanyInstagramDetail",
+        "CompanyYoutubeDetail",
+        "CompanyInfo"
+      ]
+    }
+  ]
+}

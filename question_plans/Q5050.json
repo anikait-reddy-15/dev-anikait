@@ -1,0 +1,34 @@
+{
+  "question": "What are the current strategic partnerships and hiring initiatives of the top technology companies in the cloud computing industry?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify top technology companies operating in the cloud computing industry based on their revenue and market capitalization.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Retrieve current strategic partnership details for the identified top technology companies to understand their collaborative efforts in cloud technology.",
+      "table": [
+        "CompanyITPartnerDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Gather hiring initiatives from the top technology companies to analyze their workforce strategies and demand for skills within the cloud sector.",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Compile social media engagement metrics from platforms such as LinkedIn and Twitter for the identified companies to understand their public positioning in cloud computing.",
+      "table": [
+        "CompanyLinkedInDetail",
+        "CompanyTwitterDetail"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+{
+  "question": "What are the latest technology trends being adopted in the healthcare industry?",
+  "subtasks": "[{\"step\":1,\"task\":\"Identify the healthcare industry type from the IndustryBusinessTrend table to get relevant entries.\",\"table\":[\"IndustryBusinessTrend\"]},{\"step\":2,\"task\":\"Extract technology focus areas related to healthcare from the IndustryITTrend table to see the current technological priorities.\",\"table\":[\"IndustryITTrend\"]},{\"step\":3,\"task\":\"Analyze deals and contracts related to healthcare technology services from the CompanyDealMaster table to understand vendor-client relationships.\",\"table\":[\"CompanyDealMaster\"]},{\"step\":4,\"task\":\"Review CompanyFocusAreaDetail to see which strategic technology focus areas are linked to healthcare companies and their initiatives.\",\"table\":[\"CompanyFocusAreaDetail\"]}]"
+}

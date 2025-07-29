@@ -1,0 +1,41 @@
+{
+  "question": "What are the emerging technology trends in the IT sector across various industries?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify all relevant industry types that are using emerging technologies such as AI, IoT, and blockchain.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Gather detailed trends, narratives, and strategic focus areas related to the identified industries.",
+      "table": [
+        "IndustryBusinessTrend"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze and summarize the specific technologies being adopted by companies within those industries.",
+      "table": [
+        "CompanyTechStack"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Compile data on companies that have specific technological focus areas or recent technology partnership deals.",
+      "table": [
+        "CompanyITPartnerDetail",
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Evaluate leadership insights from executives about their company's direction in terms of technology investments and innovation.",
+      "table": [
+        "CompanyLeadershipExcerpt"
+      ]
+    }
+  ]
+}

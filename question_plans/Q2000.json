@@ -1,0 +1,42 @@
+{
+  "question": "What are the emerging IT trends within the technology sector based on recent company activity?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies operating within the technology sector by filtering the Industry column in the CompanyInfo table to include only technology-related entries.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Review the CompanyFocusAreaDetail table to extract technology focus areas and initiatives for each identified technology company to understand current strategic focuses.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the CompanyITPartnerDetail table to assess partnerships and collaborations between companies and tech service providers, determining trends in technology implementation and service adoption.",
+      "table": [
+        "CompanyITPartnerDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Investigate the IndustryITTrend table for recorded IT trends related to the technology sector, matching them with companies to evaluate alignment and response to these trends.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Compile social media engagement data from the CompanyFacebookDetail, CompanyInstagramDetail, and CompanyTwitterDetail tables to analyze how companies communicate their technology initiatives and trends publicly.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyInstagramDetail",
+        "CompanyTwitterDetail"
+      ]
+    }
+  ]
+}

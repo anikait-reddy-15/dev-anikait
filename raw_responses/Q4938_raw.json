@@ -1,0 +1,4 @@
+{
+  "question": "What are the current strategic technology focus areas of companies in the healthcare industry?",
+  "subtasks": "[{\"step\":1,\"task\":\"Identify all companies operating in the healthcare industry by filtering the CompanyInfo table for the 'Industry' column.\",\"table\":[\"CompanyInfo\"]},{\"step\":2,\"task\":\"Retrieve the strategic technology focus areas associated with the identified healthcare companies by linking the CompanyInfo table to the CompanyFocusAreaDetail table using the 'Id' and 'CompanyInfoId' columns respectively.\",\"table\":[\"CompanyFocusAreaDetail\",\"CompanyInfo\"]},{\"step\":3,\"task\":\"Compile and summarize the focus areas retrieved from the CompanyFocusAreaDetail table to provide an overview of the current strategic IT initiatives in the healthcare sector.\",\"table\":[\"CompanyFocusAreaDetail\"]}]"
+}

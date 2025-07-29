@@ -1,0 +1,35 @@
+{
+  "question": "What are the current strategic focus areas and technology partnerships of leading companies in the finance industry?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify all companies in the finance industry and retrieve their core information including name, ownership, and revenue.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Retrieve the strategic technology focus areas for the identified finance companies to understand their current initiatives and innovations.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Gather data on existing technology partnerships for the identified companies to analyze their collaboration strategies and vendor relationships.",
+      "table": [
+        "CompanyITPartnerDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Compile results from the previous steps to provide a comprehensive overview of technological trends and focus areas across leading finance companies.",
+      "table": [
+        "CompanyInfo",
+        "CompanyFocusAreaDetail",
+        "CompanyITPartnerDetail"
+      ]
+    }
+  ]
+}

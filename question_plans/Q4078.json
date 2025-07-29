@@ -1,0 +1,43 @@
+{
+  "question": "How does Company XYZ engage with its audience across social media platforms?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Retrieve social media engagement metrics for Company XYZ from the relevant social media tables.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyInstagramDetail",
+        "CompanyTwitterDetail",
+        "CompanyYoutubeDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Analyze the total number of likes, comments, and shares across different platforms to assess engagement levels.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyInstagramDetail",
+        "CompanyTwitterDetail",
+        "CompanyYoutubeDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Identify the types of content posted by Company XYZ on each social media platform to understand engagement strategies.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyInstagramDetail",
+        "CompanyTwitterDetail",
+        "CompanyYoutubeDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Compare engagement metrics with industry averages to evaluate the effectiveness of Company XYZ's social media strategy.",
+      "table": [
+        "SocialMediaInfo",
+        "IndustryITTrend"
+      ]
+    }
+  ]
+}

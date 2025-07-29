@@ -1,0 +1,4 @@
+{
+  "question": "Analyze the social media engagement metrics of companies across different industries and identify trends in their digital marketing strategies.",
+  "subtasks": "[{'step': 1, 'task': 'Gather social media engagement metrics for all companies to compare their performance.', 'table': ['SocialMediaInfo']}, {'step': 2, 'task': 'Identify the industries of companies from CompanyInfo to segment social media data accordingly.', 'table': ['CompanyInfo']}, {'step': 3, 'task': 'Join social media engagement data with industry information to analyze trends within each industry.', 'table': ['SocialMediaInfo', 'CompanyInfo']}, {'step': 4, 'task': 'Compile the results into a report showcasing engagement trends and insights specific to each industry.', 'table': []}]"
+}

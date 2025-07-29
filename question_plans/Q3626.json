@@ -1,0 +1,35 @@
+{
+  "question": "What are the current hiring trends in the technology sector for companies operating in the cloud computing market?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies operating in the cloud computing market based on their industry classification and strategic focus areas.",
+      "table": [
+        "CompanyInfo",
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract active hiring details for the identified companies to analyze job roles, skills, and locations being targeted.",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Aggregate and summarize the hiring data, focusing on job designations, skill requirements, and geographic trends.",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Cross-reference hiring data with industry trends to identify any alignment or shifts in demand for technology roles related to cloud computing.",
+      "table": [
+        "IndustryITTrend",
+        "CompanyHiringDetail"
+      ]
+    }
+  ]
+}

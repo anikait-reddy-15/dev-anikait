@@ -1,0 +1,39 @@
+{
+  "question": "Identify the top 5 companies in the technology sector based on their IT budget and revenue, while analyzing their social media presence.",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Select the companies operating in the technology sector and order them by their IT budget and revenue in descending order.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Calculate the social media engagement metrics for the top companies identified in step 1 based on their presence on Facebook, Instagram, and Twitter.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyInstagramDetail",
+        "CompanyTwitterDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Combine the IT budget and revenue data with the calculated social media engagement metrics for a comprehensive analysis of company performance and public engagement.",
+      "table": [
+        "CompanyInfo",
+        "CompanyFacebookDetail",
+        "CompanyInstagramDetail",
+        "CompanyTwitterDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Generate a summary report detailing the top 5 companies along with their IT budget, revenue, and social media engagement metrics.",
+      "table": [
+        "CompanyInfo",
+        "SectionData"
+      ]
+    }
+  ]
+}

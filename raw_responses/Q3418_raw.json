@@ -1,0 +1,4 @@
+{
+  "question": "What are the current trends in technology adoption among different industries?",
+  "subtasks": "[\n    {\n        \"step\": 1,\n        \"task\": \"Identify the industries of interest for technology adoption trends.\",\n        \"table\": [\"IndustryITTrend\"]\n    },\n    {\n        \"step\": 2,\n        \"task\": \"Gather data on specific IT trends and their relevance to identified industries.\",\n        \"table\": [\"IndustryITTrend\"]\n    },\n    {\n        \"step\": 3,\n        \"task\": \"Analyze historical data and compare trends over time to assess growth or decline in technology adoption.\",\n        \"table\": [\"IndustryITTrend\"]\n    },\n    {\n        \"step\": 4,\n        \"task\": \"Create a report summarizing the findings and highlighting key technology trends across industries.\",\n        \"table\": [\"IndustryBusinessTrend\"]\n    }\n]"
+}

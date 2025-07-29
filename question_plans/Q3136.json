@@ -1,0 +1,33 @@
+{
+  "question": "What are the current hiring trends for IT roles in companies within the technology industry?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify all companies operating in the technology industry and extract their unique IDs, names, and relevant details.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Gather active hiring initiatives related to IT roles from the CompanyHiringDetail table, linking them to the identified companies.",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze job positions listed in the CompanyHiringDetail table to determine the types of IT roles being hired across these companies.",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Summarize the findings to provide insights on the most demanded IT roles, locations, and any notable skills or qualifications listed in the job descriptions.",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    }
+  ]
+}

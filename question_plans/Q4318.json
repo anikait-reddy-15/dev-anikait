@@ -1,0 +1,35 @@
+{
+  "question": "What technology trends are currently being adopted by companies in the banking industry?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies operating in the banking sector by querying the CompanyInfo table for the 'Industry' column where it equals 'Banking'.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract the technology stacks currently being used by the identified banking companies from the CompanyTechStack table, linking it to the CompanyInfo for better context on technology adoption.",
+      "table": [
+        "CompanyTechStack",
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the active technology partnerships for these banking companies by querying the CompanyITPartnerDetail table to see which partnerships are linked with them, including deal values and descriptions.",
+      "table": [
+        "CompanyITPartnerDetail",
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Gather emerging technology trends relevant to the banking industry from the IndustryITTrend table to correlate with the technology stacks and partnerships identified in previous steps.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    }
+  ]
+}

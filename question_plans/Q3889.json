@@ -1,0 +1,37 @@
+{
+  "question": "What are the current trends in IT adoption across different industries and which companies are leading in implementing these technologies?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify the list of industries with their corresponding IT trends from the IndustryITTrend table.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Find companies that are heavily investing in these IT trends by checking their focus areas from the CompanyFocusAreaDetail table.",
+      "table": [
+        "CompanyFocusAreaDetail",
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the details of technology adoption by extracting companies' tech stacks from the CompanyTechStack table.",
+      "table": [
+        "CompanyTechStack"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Combine the findings to list companies along with their respective IT trends and the technologies they are adopting, summarizing the insights from the various tables relevant to this question.",
+      "table": [
+        "CompanyTechStack",
+        "CompanyFocusAreaDetail",
+        "IndustryITTrend",
+        "CompanyInfo"
+      ]
+    }
+  ]
+}

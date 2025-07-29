@@ -1,0 +1,4 @@
+{
+  "question": "What are the recent industry trends affecting technology adoption in companies?",
+  "subtasks": "[{'step': 1, 'task': 'Identify and extract the most recent trends from the IndustryITTrend table.', 'table': ['IndustryITTrend']}, {'step': 2, 'task': 'Compile key technology focus areas relevant to different industries from IndustryBusinessTrend.', 'table': ['IndustryBusinessTrend']}, {'step': 3, 'task': 'Analyze the technology adoption strategies from the CompanyFocusAreaDetail for various companies.', 'table': ['CompanyFocusAreaDetail']}, {'step': 4, 'task': 'Summarize the relationships between companies and their technology partners from CompanyITPartnerDetail.', 'table': ['CompanyITPartnerDetail']}, {'step': 5, 'task': 'Correlate insights from social media activity to identify the influence of industry trends on company behavior.', 'table': ['CompanyFacebookDetail', 'CompanyTwitterDetail', 'CompanyInstagramDetail', 'CompanyYoutubeDetail']}]"
+}

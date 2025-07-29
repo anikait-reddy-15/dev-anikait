@@ -1,0 +1,4 @@
+{
+  "question": "What are the emerging IT trends across different industries and which companies are actively involved in those trends?",
+  "subtasks": "[{'step': 1, 'task': 'Identify the emerging IT trends relevant to various industries by querying the IndustryITTrend table.', 'table': ['IndustryITTrend']},{'step': 2, 'task': 'Select companies that have documented their IT focus areas with respect to the identified trends from the CompanyFocusAreaDetail table.', 'table': ['CompanyFocusAreaDetail']},{'step': 3, 'task': 'Compile a list of companies that are mentioned in both the CompanyFocusAreaDetail and IndustryITTrend tables to identify which companies are involved in the emerging IT trends.', 'table': ['CompanyFocusAreaDetail', 'IndustryITTrend']},{'step': 4, 'task': 'Gather additional information about the identified companies from the CompanyInfo table for a more comprehensive analysis.', 'table': ['CompanyInfo']}]}"
+}

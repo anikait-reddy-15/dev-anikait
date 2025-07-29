@@ -1,0 +1,33 @@
+{
+  "question": "Analyze the technological focus areas and trends of companies in the IT industry and how they are implementing these technologies in their operations.",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify the strategic technology focus areas for companies operating in the IT sector by analyzing the CompanyFocusAreaDetail table.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Gather data on emerging IT trends across the industry by investigating the IndustryITTrend table to understand how technologies like AI, IoT, and cybersecurity are being adopted.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Cross-reference the technological focus areas with data from the CompanyTechStack table to evaluate the actual technologies that companies are implementing in their operations.",
+      "table": [
+        "CompanyTechStack"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Compile insights from leadership excerpts in the CompanyLeadershipExcerpt table to understand strategic messaging related to technology adoption.",
+      "table": [
+        "CompanyLeadershipExcerpt"
+      ]
+    }
+  ]
+}

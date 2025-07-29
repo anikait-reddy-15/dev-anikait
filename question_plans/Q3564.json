@@ -1,0 +1,35 @@
+{
+  "question": "What are the current hiring trends at technology companies and how do these trends vary by location and specialization?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify active hiring positions at technology companies by querying the CompanyHiringDetail table to get job titles, domains, and cities.",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Analyze the frequency of job listings by domain and location to determine the most demanded roles and skills in various cities.",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Cross-reference hiring data with CompanyInfo to get insights on company size and industry focusing on technology to understand variations by company profiles.",
+      "table": [
+        "CompanyHiringDetail",
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Compile the findings into a report outlining key trends, including a breakdown of job types per location and any emerging areas of specialization within technology sectors.",
+      "table": [
+        "CompanyHiringDetail",
+        "CompanyInfo"
+      ]
+    }
+  ]
+}

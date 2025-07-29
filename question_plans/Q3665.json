@@ -1,0 +1,32 @@
+{
+  "question": "What are the key social media engagement metrics for each company in the database?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify all the companies recorded in the database.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Fetch social media metrics for each company including Facebook, Instagram, Twitter, and YouTube.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyInstagramDetail",
+        "CompanyTwitterDetail",
+        "CompanyYoutubeDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Consolidate the engagement metrics (likes, comments, engagement rate) from each social media platform for an aggregate view of social media presence for each company.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyInstagramDetail",
+        "CompanyTwitterDetail",
+        "CompanyYoutubeDetail"
+      ]
+    }
+  ]
+}

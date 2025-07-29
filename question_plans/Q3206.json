@@ -1,0 +1,33 @@
+{
+  "question": "What are the emerging technology focus areas of companies in the healthcare industry based on their social media engagement and hiring trends?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify all companies operating in the healthcare industry and gather their core information such as revenue and IT strengths.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Analyze social media engagement metrics (Facebook, Twitter, Instagram) for the identified healthcare companies to assess their online presence and audience interaction.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyTwitterDetail",
+        "CompanyInstagramDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Examine active hiring initiatives within the healthcare companies to identify trends in job postings related to technology focus areas such as AI, digital health, etc.",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Correlate the findings from social media engagement and hiring trends to determine how these aspects are influencing the companies' focus on emerging technologies.",
+      "table": []
+    }
+  ]
+}

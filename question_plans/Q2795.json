@@ -1,0 +1,44 @@
+{
+  "question": "What are the key IT trends shaping the growth strategies of companies in the healthcare industry?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify all companies operating in the healthcare industry and gather their basic information such as name, founded year, revenue, and net income.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Analyze the strategic IT focus areas for these healthcare companies, looking at the technology domains they are investing in or mentioning in their communications.",
+      "table": [
+        "CompanyFocusAreaDetail",
+        "CompanyLeadershipExcerpt"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Examine recent social media activity and engagement of these companies on platforms like Facebook, LinkedIn, and Twitter to gather insights about their marketing and outreach strategies.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyLinkedinActivity",
+        "CompanyTwitterDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Collect any relevant information on partnerships or vendor relationships that these healthcare companies have established for their IT services and products.",
+      "table": [
+        "CompanyITPartnerDetail",
+        "CompanyVendorProductDetail"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Compile industry-level IT trends and insights from the IndustryITTrend table that are pertinent to healthcare, to identify overarching patterns and technologies being adopted.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    }
+  ]
+}

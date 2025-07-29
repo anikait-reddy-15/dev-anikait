@@ -1,0 +1,27 @@
+{
+  "question": "How do the IT budgets of companies correlate with their hiring initiatives in the technology sector?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify the companies with their respective IT budgets from the CompanyInfo table.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Gather data on active hiring initiatives and their details from the CompanyHiringDetail table, linking them to the respective companies.",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the correlation between the IT budgets and the hiring details to determine the trends in technology sector hiring based on financial resources allocated.",
+      "table": [
+        "CompanyInfo",
+        "CompanyHiringDetail"
+      ]
+    }
+  ]
+}

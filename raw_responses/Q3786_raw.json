@@ -1,0 +1,4 @@
+{
+  "question": "Identify the top three companies by revenue in the technology industry and analyze their social media engagement across Facebook and Twitter.",
+  "subtasks": "[{\"step\":1,\"task\":\"Query the CompanyInfo table to find the top three companies based on revenue in the technology industry.\",\"table\":[\"CompanyInfo\"]},{\"step\":2,\"task\":\"Fetch the company IDs of the top three companies identified in step 1 from the CompanyFacebookDetail table to analyze their Facebook engagement metrics.\",\"table\":[\"CompanyFacebookDetail\"]},{\"step\":3,\"task\":\"Fetch the company IDs of the top three companies identified in step 1 from the CompanyTwitterDetail table to analyze their Twitter engagement metrics.\",\"table\":[\"CompanyTwitterDetail\"]}]"
+}

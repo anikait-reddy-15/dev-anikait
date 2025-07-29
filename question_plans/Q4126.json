@@ -1,0 +1,41 @@
+{
+  "question": "What are the current digital transformation strategies of companies in the technology industry, and how are they reflected in their social media engagement and IT partnerships?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify the companies operating within the technology industry by filtering the CompanyInfo table based on the Industry column.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract digital transformation strategies from the CompanyFocusAreaDetail table linked to the identified companies to understand their strategic IT initiatives.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Gather social media engagement metrics from the CompanyFacebookDetail, CompanyInstagramDetail, CompanyTwitterDetail, and CompanyYoutubeDetail for the identified technology companies to analyze their online presence and engagement rates.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyInstagramDetail",
+        "CompanyTwitterDetail",
+        "CompanyYoutubeDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Retrieve details about IT partnerships and collaborations from the CompanyITPartnerDetail table associated with the identified technology companies to understand their vendor relationships and partnerships.",
+      "table": [
+        "CompanyITPartnerDetail"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Compile a summary report combining insights from digital transformation strategies, social media engagement, and IT partnerships for the technology companies to assess their overall digital strategy and market positioning.",
+      "table": []
+    }
+  ]
+}

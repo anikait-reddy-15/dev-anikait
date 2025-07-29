@@ -1,0 +1,42 @@
+{
+  "question": "Analyze the social media engagement of technology companies in the healthcare industry.",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify all technology companies operating in the healthcare industry and gather their profiles including revenue, market capitalization, and active status.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Retrieve social media engagement metrics from Facebook, Twitter, Instagram, and YouTube for the identified healthcare technology companies.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyTwitterDetail",
+        "CompanyInstagramDetail",
+        "CompanyYoutubeDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Aggregate the engagement metrics to compare the performance of these companies on social media platforms and identify trends.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyTwitterDetail",
+        "CompanyInstagramDetail",
+        "CompanyYoutubeDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Analyze the influence of the firms in terms of their historical engagement data to ascertain which companies are driving conversations in the healthcare sector.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyTwitterDetail",
+        "CompanyInstagramDetail",
+        "CompanyYoutubeDetail"
+      ]
+    }
+  ]
+}

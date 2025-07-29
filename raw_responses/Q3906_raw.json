@@ -1,0 +1,4 @@
+{
+  "question": "What are the top companies in terms of IT budget and their technology focus areas?",
+  "subtasks": "[{\"step\": 1, \"task\": \"Identify the top companies based on their IT budget by sorting the CompanyInfo table in descending order of ITBudget and selecting the top N records.\", \"table\": [\"CompanyInfo\"]}, {\"step\": 2, \"task\": \"For the identified companies, retrieve their strategic technology focus areas from the CompanyFocusAreaDetail table to understand their initiatives in IT domains.\", \"table\": [\"CompanyFocusAreaDetail\"]}, {\"step\": 3, \"task\": \"Join the results from steps 1 and 2 to create a comprehensive list showcasing top companies alongside their respective IT budgets and focus areas.\", \"table\": [\"CompanyInfo\", \"CompanyFocusAreaDetail\"]}]"
+}

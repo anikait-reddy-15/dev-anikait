@@ -1,0 +1,43 @@
+{
+  "question": "How has the hiring trend changed over the past year for companies in the technology sector?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify the companies operating in the technology sector by filtering the CompanyInfo table based on the Industry column for technology-related designations.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract hiring data related to these technology companies from the CompanyHiringDetail table, ensuring to include details such as job titles, skills, and cities being targeted for hiring.",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Aggregate the hiring data from the last year to analyze the trends in job titles and requirements over time, focusing on growth or decline in specific roles to ascertain hiring patterns.",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Cross-reference the extracted hiring data with the IT trends recorded in the IndustryITTrend table to correlate hiring phases with emerging technology areas such as AI or cloud computing.",
+      "table": [
+        "CompanyHiringDetail",
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Summarize the findings into a report format detailing the trends, major insights, and recommendations for stakeholders interested in talent acquisition strategies over the coming periods.",
+      "table": [
+        "CompanyHiringDetail",
+        "CompanyInfo",
+        "IndustryITTrend"
+      ]
+    }
+  ]
+}

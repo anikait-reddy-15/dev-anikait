@@ -1,0 +1,4 @@
+{
+  "question": "What are the current hiring initiatives and technology focus areas of the company along with its social media engagement metrics?",
+  "subtasks": "[{\"step\":1,\"task\":\"Retrieve the current hiring initiatives for the companies, including job roles, responsibilities, and cities of interest.\",\"table\":[\"CompanyHiringDetail\"]},{\"step\":2,\"task\":\"Identify the technology focus areas of the companies, outlining their strategic efforts in IT domains like digitalization and cloud computing.\",\"table\":[\"CompanyFocusAreaDetail\"]},{\"step\":3,\"task\":\"Gather social media engagement metrics from various platforms (Facebook, Instagram, Twitter, and YouTube) for the companies to analyze their online presence.\",\"table\":[\"CompanyFacebookDetail\",\"CompanyInstagramDetail\",\"CompanyTwitterDetail\",\"CompanyYoutubeDetail\"]}]"
+}

@@ -1,0 +1,4 @@
+{
+  "question": "Analyze the social media presence and engagement metrics of companies in the technology industry.",
+  "subtasks": "[{'step': 1, 'task': 'Identify companies operating in the technology sector.', 'table': ['CompanyInfo']}, {'step': 2, 'task': 'Retrieve Facebook engagement metrics (likes, comments, etc.) for these companies.', 'table': ['CompanyFacebookDetail']}, {'step': 3, 'task': 'Retrieve Twitter engagement metrics (likes, retweets, etc.) for these companies.', 'table': ['CompanyTwitterDetail']}, {'step': 4, 'task': 'Retrieve Instagram engagement metrics (likes, comments, etc.) for these companies.', 'table': ['CompanyInstagramDetail']}, {'step': 5, 'task': 'Aggregate and compare all social media engagement metrics to assess overall presence.', 'table': ['CompanyInfo', 'CompanyFacebookDetail', 'CompanyTwitterDetail', 'CompanyInstagramDetail']}]"
+}

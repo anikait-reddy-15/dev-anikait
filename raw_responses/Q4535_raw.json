@@ -1,0 +1,4 @@
+{
+  "question": "What are the trends in technology adoption among companies in the digital transformation space?",
+  "subtasks": "[{\"step\":1,\"task\":\"Identify companies that are involved in digital transformation initiatives by examining their strategic focus areas.\",\"table\":[\"CompanyFocusAreaDetail\"]},{\"step\":2,\"task\":\"Gather financial and operational metrics for these companies to assess their investment levels in technology for digital transformation.\",\"table\":[\"CompanyInfo\"]},{\"step\":3,\"task\":\"Analyze the technology stack of the identified companies to find the specific technologies being adopted for digital transformation.\",\"table\":[\"CompanyTechStack\"]},{\"step\":4,\"task\":\"Review social media engagement metrics to evaluate how companies communicate their digital transformation efforts, specifically on platforms like LinkedIn and Twitter.\",\"table\":[\"CompanyLinkedInActivity\",\"CompanyTwitterDetail\"]}]"
+}

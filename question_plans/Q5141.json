@@ -1,0 +1,33 @@
+{
+  "question": "What are the current hiring trends in technology companies within the software industry?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify technology companies within the software industry and gather their information such as name, location, and size.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Collect data on active hiring initiatives of the identified companies, including job titles, responsibilities, and skill requirements.",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the collected hiring data to identify trends in job roles, skills in demand, and geographical hiring patterns within the software industry.",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Compare hiring trends against previous years to determine growth or decline in specific job areas within the technology sector.",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    }
+  ]
+}

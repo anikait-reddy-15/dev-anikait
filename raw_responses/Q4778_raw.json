@@ -1,0 +1,4 @@
+{
+  "question": "What social media platforms do companies primarily engage with, and how does it correlate with their revenue and industry?",
+  "subtasks": "[{\"step\":1,\"task\":\"Identify companies and their respective social media presence by retrieving records from the SocialMediaInfo table. Include company names and the types of social media platforms they are active on.\",\"table\":[\"CompanyInfo\",\"SocialMediaInfo\"]},{\"step\":2,\"task\":\"Fetch financial metrics such as revenue and industry information for the identified companies from the CompanyInfo table to understand the financial performance related to their social media engagement.\",\"table\":[\"CompanyInfo\"]},{\"step\":3,\"task\":\"Analyze the correlation between social media engagement and revenue across different industries by linking the data from the previous two steps and performing statistical analysis if possible.\",\"table\":[\"CompanyInfo\",\"SocialMediaInfo\"]}]"
+}

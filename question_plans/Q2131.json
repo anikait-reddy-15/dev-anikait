@@ -1,0 +1,40 @@
+{
+  "question": "What are the key technology trends driving major companies in the finance industry?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify key companies in the finance industry and extract their profiles for analysis.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Gather technology focus areas for the identified finance companies to understand their strategic technology investments.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze any active deals and service contracts that involve innovative technologies within the finance sector.",
+      "table": [
+        "CompanyDealMaster"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Review company leadership excerpts for insights on technology direction and strategy in finance companies.",
+      "table": [
+        "CompanyLeadershipExcerpt"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Summarize emerging IT trends that have been highlighted for the finance industry.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    }
+  ]
+}

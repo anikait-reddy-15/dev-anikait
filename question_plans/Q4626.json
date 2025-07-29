@@ -1,0 +1,40 @@
+{
+  "question": "What are the emerging technology trends in the healthcare industry?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify the relevant emerging IT trends that are specific to the healthcare industry.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Analyze the strategic focus areas for companies within the healthcare sector and how these align with current technological advancements.",
+      "table": [
+        "IndustryBusinessTrend"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Gather data on the technology adoption trends among companies in the healthcare industry to see which technologies are being implemented.",
+      "table": [
+        "CompanyTechStack"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Research partnerships and vendor relationships that healthcare companies have established for technological innovations.",
+      "table": [
+        "CompanyITPartnerDetail"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Examine leadership excerpts from healthcare companies for statements related to technology direction and innovation.",
+      "table": [
+        "CompanyLeadershipExcerpt"
+      ]
+    }
+  ]
+}

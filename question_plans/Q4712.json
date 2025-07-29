@@ -1,0 +1,40 @@
+{
+  "question": "What are the key technology trends adopted by companies in the IT sector, and how are they leveraging social media to enhance their market presence?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify and list the key technology focus areas from the companies in the IT sector.",
+      "table": [
+        "CompanyFocusAreaDetail",
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Analyze the IT trends prevalent in the industry and correlate with companies adopting these technologies.",
+      "table": [
+        "IndustryITTrend",
+        "CompanyTechStack"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Gather social media engagement metrics for companies in the IT industry to assess their online presence and marketing strategies.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyLinkedinActivity",
+        "CompanyInstagramDetail",
+        "CompanyTwitterDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Combine the insights from technology adoption and social media engagement to produce a comprehensive report on market strategies.",
+      "table": [
+        "CompanyInfo",
+        "SocialMediaInfo",
+        "CompanyFocusAreaDetail"
+      ]
+    }
+  ]
+}

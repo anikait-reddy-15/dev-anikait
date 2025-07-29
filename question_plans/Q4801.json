@@ -1,0 +1,39 @@
+{
+  "question": "Analyze the impact of social media presence on the revenue of companies within the technology sector.",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies operating in the technology sector and retrieve their revenue data.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Gather data on the social media presence of these companies, including engagement metrics from various platforms.",
+      "table": [
+        "SocialMediaInfo",
+        "CompanyFacebookDetail",
+        "CompanyInstagramDetail",
+        "CompanyTwitterDetail",
+        "CompanyYoutubeDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Compile and correlate revenue data with social media metrics to analyze trends and impacts.",
+      "table": [
+        "CompanyInfo",
+        "SocialMediaInfo"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Generate reports highlighting findings and insights regarding social media's impact on revenue for the technology sector.",
+      "table": [
+        "CompanyInfo",
+        "SocialMediaInfo"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+{
+  "question": "What are the trends in IT investments and hiring patterns among companies in the technology industry?",
+  "subtasks": "[{\"step\":1,\"task\":\"Identify and retrieve a list of companies operating in the technology industry and their IT budget data.\",\"table\":[\"CompanyInfo\"]},{\"step\":2,\"task\":\"Analyze the IT focus areas and technology stack used by these companies to identify investment trends.\",\"table\":[\"CompanyTechStack\",\"CompanyFocusAreaDetail\"]},{\"step\":3,\"task\":\"Collect and examine hiring data from companies in the technology industry to understand their talent acquisition strategies and patterns.\",\"table\":[\"CompanyHiringDetail\"]},{\"step\":4,\"task\":\"Review deals and vendor relationships of companies to evaluate how their IT investments correlate with partnerships.\",\"table\":[\"CompanyDealMaster\",\"CompanyITPartnerDetail\"]}]"
+}

@@ -1,0 +1,4 @@
+{
+  "question": "What are the major technology focus areas of companies in the finance industry, and how are they represented in social media?",
+  "subtasks": "[{\"step\":1,\"task\":\"Identify all companies in the finance industry along with their technology focus areas.\",\"table\":[\"CompanyInfo\",\"CompanyFocusAreaDetail\"]},{\"step\":2,\"task\":\"Retrieve social media engagement details for these finance companies, focusing on platforms like Facebook, Twitter, LinkedIn, and Instagram.\",\"table\":[\"CompanyFacebookDetail\",\"CompanyTwitterDetail\",\"CompanyInstagramDetail\",\"CompanyLinkedInProfile\"]},{\"step\":3,\"task\":\"Analyze the relationships between the identified companies and their respective IT partners or vendors to understand technology adoption patterns.\",\"table\":[\"CompanyITPartnerDetail\",\"CompanyVendorTechDetail\"]}]"
+}

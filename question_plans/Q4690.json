@@ -1,0 +1,50 @@
+{
+  "question": "What are the key social media engagement metrics and trends for companies in the technology industry?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify all companies in the technology industry from the CompanyInfo table.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Gather social media engagement metrics from the SocialMediaInfo table for each identified company in the technology industry.",
+      "table": [
+        "SocialMediaInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze Facebook, Instagram, Twitter, and YouTube engagement data from corresponding social media detail tables (CompanyFacebookDetail, CompanyInstagramDetail, CompanyTwitterDetail, CompanyYoutubeDetail) for these companies.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyInstagramDetail",
+        "CompanyTwitterDetail",
+        "CompanyYoutubeDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Compile and summarize key engagement metrics such as likes, comments, and shares for the identified technology companies across all social platforms.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyInstagramDetail",
+        "CompanyTwitterDetail",
+        "CompanyYoutubeDetail",
+        "SocialMediaInfo"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Identify trends in social media metrics over time by analyzing timestamps from engagement data in the various social media detail tables.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyInstagramDetail",
+        "CompanyTwitterDetail",
+        "CompanyYoutubeDetail"
+      ]
+    }
+  ]
+}

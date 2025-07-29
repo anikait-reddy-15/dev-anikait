@@ -1,0 +1,4 @@
+{
+  "question": "Identify the technology focus areas of leading companies in the finance industry and analyze their IT spending.",
+  "subtasks": "[{\"step\":1,\"task\":\"Query the CompanyInfo table to find companies within the Finance industry and check their active status.\",\"table\":[\"CompanyInfo\"]},{\"step\":2,\"task\":\"Join the CompanyFocusAreaDetail table with the CompanyInfo table to gather details about the technology focus areas for these companies.\",\"table\":[\"CompanyFocusAreaDetail\",\"CompanyInfo\"]},{\"step\":3,\"task\":\"Extract IT spending information from the CompanyInfo table for each of the finance companies identified in Step 1.\",\"table\":[\"CompanyInfo\"]},{\"step\":4,\"task\":\"Compile the data from Steps 2 and 3 to provide insights into the technology initiatives and compare relevant IT budgets across the finance sector.\",\"table\":[\"CompanyInfo\",\"CompanyFocusAreaDetail\"]}]"
+}

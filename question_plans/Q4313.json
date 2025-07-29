@@ -1,0 +1,47 @@
+{
+  "question": "Identify how companies are leveraging social media for marketing engagement and which platforms they are most active on.",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Compile a list of companies and their associated social media platforms and engagement metrics",
+      "table": [
+        "SocialMediaInfo",
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Analyze individual engagement metrics (likes, comments, shares) from various social media platforms to understand their effectiveness",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyInstagramDetail",
+        "CompanyTwitterDetail",
+        "CompanyYoutubeDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Identify trends within the collected social media engagement data across different platforms to report on marketing strategies",
+      "table": [
+        "SocialMediaInfo",
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Correlate social media activity with companies' overall business performance metrics like revenue and net income",
+      "table": [
+        "CompanyInfo",
+        "SocialMediaInfo"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Compile findings into a report detailing how companies use social media for marketing and its impact",
+      "table": [
+        "SectionData",
+        "CompanyInfo"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "question": "What are the top technology focus areas for companies based on their strategic investments?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify all companies and their associated IT focus areas from the database",
+      "table": [
+        "CompanyInfo",
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Aggregate the data to find the most mentioned IT focus areas across all companies",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the aggregated data to rank the focus areas by the number of companies that are involved in each area",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Cross-reference the top focus areas with the corresponding company revenue and investment metrics",
+      "table": [
+        "CompanyInfo",
+        "CompanyFocusAreaDetail"
+      ]
+    }
+  ]
+}

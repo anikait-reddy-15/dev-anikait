@@ -1,0 +1,4 @@
+{
+  "question": "What are the current tech stack and social media presence trends of companies in the financial services industry?",
+  "subtasks": "[{\"step\":1,\"task\":\"Identify companies operating in the financial services industry to gather relevant data.\",\"table\":[\"CompanyInfo\"]},{\"step\":2,\"task\":\"Extract the technology stack utilized by these companies to understand their IT capabilities and infrastructure.\",\"table\":[\"CompanyTechStack\"]},{\"step\":3,\"task\":\"Collect social media presence data from various platforms for these identified companies to analyze their online engagement metrics.\",\"table\":[\"SocialMediaInfo\"]},{\"step\":4,\"task\":\"Analyze the extracted tech stack and social media data to identify trends and insights specific to the financial services industry.\",\"table\":[\"CompanyInfo\",\"CompanyTechStack\",\"SocialMediaInfo\"]}]}"
+}

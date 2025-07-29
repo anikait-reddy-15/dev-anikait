@@ -1,0 +1,42 @@
+{
+  "question": "What are the recent trends in IT focus areas among leading companies across different industries?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify and list all leading companies from the CompanyInfo table based on their IT budget and market capitalization.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Retrieve recent IT focus areas for the identified companies from the CompanyFocusAreaDetail table, including details about their initiatives such as investments and partnerships.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze trends by grouping the focus areas retrieved in the previous step to find common themes or emerging trends in technology focus across industries.",
+      "table": [
+        "CompanyFocusAreaDetail",
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Cross-reference the focus areas with corresponding industries from the CompanyInfo table to categorize trends by specific industry types.",
+      "table": [
+        "CompanyInfo",
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Summarize findings into a report format outlining key trends, technology focus areas, and their relevance to each industry based on the analysis conducted in previous steps.",
+      "table": [
+        "PageInfo"
+      ]
+    }
+  ]
+}

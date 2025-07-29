@@ -1,0 +1,34 @@
+{
+  "question": "What are the emerging IT trends and technology focus areas across different industries?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify all industries from the IndustryITTrend table that are currently active and capture their identifying details.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Fetch the emerging IT trends associated with each identified industry from the IndustryITTrend table, ensuring to include details about technologies being adopted.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the extracted data to summarize key technology focus areas for each industry and prepare a report of findings.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Link the summarized trends with companies in CompanyInfo table to identify which companies are adopting these trends and how they align with industry standards.",
+      "table": [
+        "CompanyInfo",
+        "IndustryITTrend"
+      ]
+    }
+  ]
+}

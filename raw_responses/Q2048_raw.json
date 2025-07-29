@@ -1,0 +1,4 @@
+{
+  "question": "What are the strategic IT focus areas and technologies adopted by leading companies in the technology industry?",
+  "subtasks": "[{\"step\":1,\"task\":\"Identify leading companies in the technology industry based on Revenue and Market Capitalization from the CompanyInfo table.\",\"table\":[\"CompanyInfo\"]},{\"step\":2,\"task\":\"Extract strategic IT focus areas for the identified companies from the CompanyFocusAreaDetail table.\",\"table\":[\"CompanyFocusAreaDetail\"]},{\"step\":3,\"task\":\"Retrieve the technologies adopted by the leading technology companies from the CompanyTechStack table.\",\"table\":[\"CompanyTechStack\"]},{\"step\":4,\"task\":\"Combine the data from the above steps to create a comprehensive profile of strategic IT focus areas and technologies per company.\",\"table\":[\"CompanyFocusAreaDetail\",\"CompanyTechStack\"]}]"
+}

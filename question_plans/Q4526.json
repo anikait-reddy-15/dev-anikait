@@ -1,0 +1,42 @@
+{
+  "question": "What are the current hiring trends among leading technology companies?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify leading technology companies in the database and their active status.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract current hiring initiatives and job postings including required skills and positions from the hiring detail table.",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the collected hiring data to identify trends such as in-demand skills, popular roles, and hiring patterns by geography.",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Cross-reference hiring trends with the technology focus areas to see if they align with current market needs and company strategies.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Summarize findings into a report format highlighting major trends and insights in hiring across technology companies.",
+      "table": [
+        "CompanyInfo",
+        "CompanyHiringDetail",
+        "CompanyFocusAreaDetail"
+      ]
+    }
+  ]
+}

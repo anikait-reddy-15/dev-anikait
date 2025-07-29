@@ -1,0 +1,4 @@
+{
+  "question": "What are the key technology focus areas and hiring trends for companies in the IT industry?",
+  "subtasks": "[\n    {\n        \"step\": 1,\n        \"task\": \"Identify technology focus areas related to IT from the CompanyFocusAreaDetail table.\",\n        \"table\": [\"CompanyFocusAreaDetail\", \"CompanyInfo\"]\n    },\n    {\n        \"step\": 2,\n        \"task\": \"Analyze hiring initiatives for companies in the IT industry by reviewing records from the CompanyHiringDetail table.\",\n        \"table\": [\"CompanyHiringDetail\", \"CompanyInfo\"]\n    },\n    {\n        \"step\": 3,\n        \"task\": \"Combine insights from the IT focus areas and hiring trends to create a summary report.\",\n        \"table\": [\"CompanyFocusAreaDetail\", \"CompanyHiringDetail\"]\n    }\n]"
+}

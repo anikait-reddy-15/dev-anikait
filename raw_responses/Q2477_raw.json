@@ -1,0 +1,4 @@
+{
+  "question": "What are the current IT budget allocations and strategic technology focus areas for companies in the finance industry?",
+  "subtasks": "[{\"step\":1,\"task\":\"Identify and list all companies operating in the finance industry along with their IT budget allocations.\",\"table\":[\"CompanyInfo\"]},{\"step\":2,\"task\":\"Gather the strategic technology focus areas for each company identified in the previous step.\",\"table\":[\"CompanyFocusAreaDetail\"]},{\"step\":3,\"task\":\"Combine the IT budget data with corresponding strategic technology focus areas to provide a comprehensive view of finance companies' IT investments and priorities.\",\"table\":[\"CompanyInfo\",\"CompanyFocusAreaDetail\"]}]"
+}

@@ -1,0 +1,35 @@
+{
+  "question": "What are the current IT focus areas and technology trends across companies in the digital transformation industry?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies operating in the digital transformation industry and retrieve their basic information.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract the strategic IT focus areas for the identified companies to understand their current technology initiatives.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Gather and analyze emerging IT trends related to digital transformation across different industries to compare with the companies identified.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Compile the insights from the company's focus areas and industry trends into a report for strategic analysis.",
+      "table": [
+        "CompanyInfo",
+        "CompanyFocusAreaDetail",
+        "IndustryITTrend"
+      ]
+    }
+  ]
+}

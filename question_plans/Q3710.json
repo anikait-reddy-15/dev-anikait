@@ -1,0 +1,35 @@
+{
+  "question": "What are the current hiring trends among technology companies in the cloud computing industry?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify technology companies operating in the cloud computing industry by querying relevant details from CompanyInfo table, particularly focusing on the Industry and Active columns.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract hiring data for the identified cloud computing companies from the CompanyHiringDetail table, filtering for active positions and job domains related to cloud computing.",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the hiring data to determine trends such as the number of positions, job roles, and required skills related to cloud computing across the companies identified.",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Cross-reference the hiring trends with social media activity (from CompanyFacebookDetail, CompanyTwitterDetail, and CompanyInstagramDetail) to see how these companies are engaging with potential hires on social platforms.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyTwitterDetail",
+        "CompanyInstagramDetail"
+      ]
+    }
+  ]
+}

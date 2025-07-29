@@ -1,0 +1,42 @@
+{
+  "question": "What are the recent hiring trends among technology companies in the US?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify technology companies based in the US to analyze hiring trends",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract hiring data for the identified companies, focusing on job roles, skills, and hiring dates",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Aggregate and analyze the hiring data to identify trends in job roles and required skills over the recent quarters",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Cross-reference hiring trends with technological focus areas to understand alignment of skills with industry demands",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Compile insights into a report summarizing the hiring trends and technological focus areas among US technology companies",
+      "table": [
+        "CompanyInfo",
+        "CompanyHiringDetail",
+        "CompanyFocusAreaDetail"
+      ]
+    }
+  ]
+}

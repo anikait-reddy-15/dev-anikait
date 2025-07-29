@@ -1,0 +1,43 @@
+{
+  "question": "What are the current social media engagement metrics for our company across all platforms?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Query the social media engagement data for the company from various social media platforms including Facebook, Instagram, Twitter, and LinkedIn.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyInstagramDetail",
+        "CompanyTwitterDetail",
+        "SocialMediaInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Aggregate the engagement metrics such as likes, comments, and shares for each platform and sum them up to get the overall engagement for the company.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyInstagramDetail",
+        "CompanyTwitterDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Compare the current social media metrics against historical data to analyze trends in engagement over time.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyInstagramDetail",
+        "CompanyTwitterDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Generate a report summarizing the engagement metrics including highlights of the best-performing posts and any notable trends or patterns across platforms.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyInstagramDetail",
+        "CompanyTwitterDetail",
+        "SocialMediaInfo"
+      ]
+    }
+  ]
+}

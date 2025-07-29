@@ -1,0 +1,39 @@
+{
+  "question": "How can we analyze the technology adoption trends across different industries and companies?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify the industries represented in the database and their corresponding technology focus areas.",
+      "table": [
+        "IndustryITTrend",
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Gather data on the technology services and products adopted by companies, linking it with the respective industries.",
+      "table": [
+        "CompanyTechStack",
+        "CompanyVendorProductDetail",
+        "CompanyVendorTechDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Compile and summarize the technology adoption metrics and trends for each industry to identify patterns and key insights.",
+      "table": [
+        "IndustryBusinessTrend",
+        "CompanyDealMaster"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Analyze the social media engagement of companies and relate it to their technology adoption to understand the impact of technology on brand visibility.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyInstagramDetail",
+        "CompanyTwitterDetail"
+      ]
+    }
+  ]
+}

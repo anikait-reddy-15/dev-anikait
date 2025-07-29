@@ -1,0 +1,35 @@
+{
+  "question": "What are the emerging technology trends and hiring initiatives of companies in the healthcare industry?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies in the healthcare industry from the CompanyInfo table.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Gather and analyze the recent hiring initiatives of these healthcare companies from the CompanyHiringDetail table.",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Extract emerging technology trends related to healthcare from the IndustryITTrend table.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Compile the collected data into a report highlighting key trends and hiring initiatives for the healthcare sector.",
+      "table": [
+        "CompanyInfo",
+        "CompanyHiringDetail",
+        "IndustryITTrend"
+      ]
+    }
+  ]
+}

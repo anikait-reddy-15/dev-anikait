@@ -1,0 +1,34 @@
+{
+  "question": "What are the current technology focus areas of companies in the healthcare industry?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify all companies operating in the healthcare sector from the CompanyInfo table based on their Industry column.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Cross-reference the identified healthcare companies with the CompanyFocusAreaDetail table to extract their specific technology focus areas.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Pull details related to those focus areas including narrative descriptions and associated ITFocusAreaId for deeper insights on strategic initiatives.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Compile the findings into a report summarizing the technology trends and innovations being pursued by these healthcare companies.",
+      "table": [
+        "CompanyInfo",
+        "CompanyFocusAreaDetail"
+      ]
+    }
+  ]
+}

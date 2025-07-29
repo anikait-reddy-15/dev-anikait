@@ -1,0 +1,53 @@
+{
+  "question": "What are the current social media engagement trends and focus areas for technology companies?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify the list of technology companies from the CompanyInfo table, including their industries and social media presence data.",
+      "table": [
+        "CompanyInfo",
+        "SocialMediaInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract social media engagement metrics (likes, comments, engagement rate) for each company from the relevant social media detail tables (Facebook, Twitter, Instagram, and YouTube).",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyTwitterDetail",
+        "CompanyInstagramDetail",
+        "CompanyYoutubeDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the collected engagement metrics across various platforms to determine trends in social media activity for the technology sector.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyTwitterDetail",
+        "CompanyInstagramDetail",
+        "CompanyYoutubeDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Link social media engagement data with company strategic focus areas from CompanyFocusAreaDetail to assess how these initiatives correlate with social media activity.",
+      "table": [
+        "CompanyFocusAreaDetail",
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Summarize the findings to report on the social media engagement trends and technology focus areas, highlighting significant insights for stakeholders.",
+      "table": [
+        "CompanyFocusAreaDetail",
+        "CompanyInfo",
+        "CompanyFacebookDetail",
+        "CompanyTwitterDetail",
+        "CompanyInstagramDetail",
+        "CompanyYoutubeDetail"
+      ]
+    }
+  ]
+}

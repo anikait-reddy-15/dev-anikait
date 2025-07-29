@@ -1,0 +1,4 @@
+{
+  "question": "What are the current technology focus areas and IT budget trends among leading companies in the technology industry?",
+  "subtasks": "[{'step': 1, 'task': 'Identify technology companies in the IT industry from the CompanyInfo table.', 'table': ['CompanyInfo']}, {'step': 2, 'task': 'Gather the technology focus areas for these identified companies from the CompanyFocusAreaDetail table.', 'table': ['CompanyFocusAreaDetail']}, {'step': 3, 'task': 'Analyze and summarize the IT budget data of the identified technology companies from the CompanyInfo table.', 'table': ['CompanyInfo']}, {'step': 4, 'task': 'Cross-reference the technology focus areas with IT budget data to find correlations or trends.', 'table': ['CompanyFocusAreaDetail', 'CompanyInfo']}, {'step': 5, 'task': 'Create a report or visualization that highlights current technology focus areas and budget trends within the industry.', 'table': []}]"
+}

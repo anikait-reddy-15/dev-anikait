@@ -1,0 +1,4 @@
+{
+  "question": "What companies are leading in social media engagement and technology adoption in the IT sector?",
+  "subtasks": "[{'step': 1, 'task': 'Identify companies in the IT industry.', 'table': ['CompanyInfo']}, {'step': 2, 'task': 'Gather social media engagement data for these companies.', 'table': ['CompanyFacebookDetail', 'CompanyInstagramDetail', 'CompanyTwitterDetail', 'CompanyYoutubeDetail']}, {'step': 3, 'task': 'Collect data on technology stack and adoption for the identified companies.', 'table': ['CompanyTechStack']}, {'step': 4, 'task': 'Analyze the combined data to determine leading companies based on social media engagement and technology adoption.', 'table': []}]}"
+}

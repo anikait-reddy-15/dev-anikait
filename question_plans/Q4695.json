@@ -1,0 +1,42 @@
+{
+  "question": "How are companies in the technology industry using social media for marketing and engagement?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify technology companies and their social media presence",
+      "table": [
+        "CompanyInfo",
+        "SocialMediaInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Analyze social media engagement metrics for these companies",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyInstagramDetail",
+        "CompanyTwitterDetail",
+        "CompanyYoutubeDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Evaluate the content and strategies used by these companies on social media platforms",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyInstagramDetail",
+        "CompanyTwitterDetail",
+        "CompanyYoutubeDetail",
+        "SocialMediaInfo"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Summarize the overall impact of social media engagement on technology companies' marketing effectiveness",
+      "table": [
+        "CompanyInfo",
+        "CompanyDealMaster"
+      ]
+    }
+  ]
+}

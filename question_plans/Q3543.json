@@ -1,0 +1,33 @@
+{
+  "question": "What are the top 5 companies in the technology sector based on their IT budget and revenue?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify all companies in the technology sector by filtering the CompanyInfo table based on the Industry column.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Gather financial data such as IT budget and revenue for the identified companies from the CompanyInfo table.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Sort the companies based on IT budget and revenue to determine the top 5 companies in descending order.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Compile the final list of top 5 companies along with their IT budget and revenue details.",
+      "table": [
+        "CompanyInfo"
+      ]
+    }
+  ]
+}

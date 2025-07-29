@@ -1,0 +1,35 @@
+{
+  "question": "Identify the key technologies adopted by companies in the finance industry over the past year and their impact on market capitalizations.",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Query the CompanyInfo table to filter and retrieve companies operating in the finance industry, focusing on their revenue and market capitalization metrics.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Query the CompanyVendorProductDetail table to identify technology products adopted by the companies from step 1, focusing on those added in the last year.",
+      "table": [
+        "CompanyVendorProductDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Cross-reference the data obtained from the CompanyVendorProductDetail with the CompanyInfo table to analyze how the adoption of these technologies correlates with changes in market capitalization for each company.",
+      "table": [
+        "CompanyInfo",
+        "CompanyVendorProductDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Summarize the findings to illustrate the relationship between technology adoption and market capitalizations, including examples of specific technologies and their impact on companies' financial performance.",
+      "table": [
+        "CompanyVendorProductDetail",
+        "CompanyInfo"
+      ]
+    }
+  ]
+}

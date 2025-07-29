@@ -1,0 +1,41 @@
+{
+  "question": "What social media platforms are companies using to boost their engagement, and what trends can be observed in their strategies?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify the companies in the database and their associated social media presence metrics such as engagement counts and messages.",
+      "table": [
+        "CompanyInfo",
+        "SocialMediaInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Analyze the engagement metrics from social media platforms to determine which platforms are most prominent and effective for the companies listed.",
+      "table": [
+        "SocialMediaInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Examine the content shared on social media by companies, including types of posts and engagement rates, to evaluate the strategies being employed.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyTwitterDetail",
+        "CompanyInstagramDetail",
+        "CompanyYoutubeDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Compile insights into emerging trends and patterns observed in social media strategies as demonstrated by the companies' engagement activities.",
+      "table": [
+        "SocialMediaInfo",
+        "CompanyFacebookDetail",
+        "CompanyTwitterDetail",
+        "CompanyInstagramDetail",
+        "CompanyYoutubeDetail"
+      ]
+    }
+  ]
+}

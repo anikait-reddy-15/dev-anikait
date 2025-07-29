@@ -1,0 +1,4 @@
+{
+  "question": "What are the key technology focus areas for leading companies in the finance industry and their corresponding IT investments?",
+  "subtasks": "[{\"step\":1,\"task\":\"Identify finance companies from the CompanyInfo table.\",\"table\":[\"CompanyInfo\"]},{\"step\":2,\"task\":\"Extract technology focus areas related to these finance companies from the CompanyFocusAreaDetail table.\",\"table\":[\"CompanyFocusAreaDetail\"]},{\"step\":3,\"task\":\"Retrieve IT budget and financial metrics of these companies from CompanyInfo table to assess their investment levels.\",\"table\":[\"CompanyInfo\"]},{\"step\":4,\"task\":\"Compile and analyze the data to identify trends in technology focus areas and IT investments across the finance sector.\",\"table\":[\"CompanyInfo\",\"CompanyFocusAreaDetail\"]}]"
+}

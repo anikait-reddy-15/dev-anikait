@@ -1,0 +1,4 @@
+{
+  "question": "What are the current technology focus areas for companies in the healthcare industry?",
+  "subtasks": "[\n    {\n        \"step\": 1,\n        \"task\": \"Retrieve a list of companies in the healthcare industry.\",\n        \"table\": [\"CompanyInfo\"]\n    },\n    {\n        \"step\": 2,\n        \"task\": \"Identify the technology focus areas associated with each of the healthcare companies obtained in the previous step.\",\n        \"table\": [\"CompanyFocusAreaDetail\"]\n    },\n    {\n        \"step\": 3,\n        \"task\": \"Compile and summarize the technology focus areas to identify common trends and innovations present in the healthcare sector.\",\n        \"table\": [\"CompanyFocusAreaDetail\"]\n    }\n]"
+}

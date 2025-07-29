@@ -1,0 +1,48 @@
+{
+  "question": "Analyze the company profiles based on their technology adoption and social media engagement.",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Retrieve technology stack information for each company to understand their technology adoption trends.",
+      "table": [
+        "CompanyTechStack"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Collect social media engagement data for each company across different platforms including Facebook, Twitter, Instagram, and YouTube.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyInstagramDetail",
+        "CompanyTwitterDetail",
+        "CompanyYoutubeDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Compile financial metrics from the CompanyInfo table to correlate technology adoption and social media success with financial performance.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Analyze the strategic focus areas of companies in relation to their technology stack and social media activity.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Generate a summary report that encapsulates the findings from the technology adoption, social media engagement, and financial performance analysis.",
+      "table": [
+        "CompanyInfo",
+        "CompanyTechStack",
+        "CompanyFacebookDetail",
+        "CompanyInstagramDetail",
+        "CompanyTwitterDetail",
+        "CompanyYoutubeDetail"
+      ]
+    }
+  ]
+}

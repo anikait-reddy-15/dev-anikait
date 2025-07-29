@@ -1,0 +1,32 @@
+{
+  "question": "What are the social media engagement metrics for companies within the technology industry in 2023?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify all companies operating in the technology industry and gather their basic information such as name and ID.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Collect social media engagement metrics for these companies from their respective social media tables (Facebook, Twitter, Instagram, and YouTube).",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyTwitterDetail",
+        "CompanyInstagramDetail",
+        "CompanyYoutubeDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Compile the engagement metrics into a summarized report indicating likes, comments, and engagement rates for each platform per company.",
+      "table": []
+    },
+    {
+      "step": 4,
+      "task": "Filter the engagement metrics collected in step 2 by the year 2023 to ensure the data is relevant to the current year.",
+      "table": []
+    }
+  ]
+}

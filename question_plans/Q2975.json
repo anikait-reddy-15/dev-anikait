@@ -1,0 +1,44 @@
+{
+  "question": "What are the current hiring trends across different industries?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify the active hiring details of companies along with their industry classifications.",
+      "table": [
+        "CompanyHiringDetail",
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Group the hiring data by industry to observe trends and patterns in employment across sectors.",
+      "table": [
+        "CompanyHiringDetail",
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the job roles and designations that are currently being sought after in each industry to identify key areas of demand.",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Examine the geographical distribution of hiring practices to understand regional trends in recruitment.",
+      "table": [
+        "CompanyHiringDetail",
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Compile a report summarizing the findings of industry-specific hiring trends and geographical insights.",
+      "table": [
+        "CompanyHiringDetail",
+        "CompanyInfo"
+      ]
+    }
+  ]
+}

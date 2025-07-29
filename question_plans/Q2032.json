@@ -1,0 +1,43 @@
+{
+  "question": "What are the latest hiring trends and focus areas among tech companies?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Retrieve data on active hiring initiatives including job titles, domains, and details related to technology companies.",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Analyze the strategic technology focus areas for these companies to identify their primary initiatives and technological direction.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Combine data from the hiring initiatives and technology focus areas to determine any correlations or trends related to demand for specific skills in the tech industry.",
+      "table": [
+        "CompanyHiringDetail",
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Extract and summarize the relevant company information to provide a broader context for hiring trends, including company size, industry, and revenue metrics.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Gather and analyze any social media engagement data related to hiring announcements from tech companies to gauge public response and interest in these job postings.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyTwitterDetail",
+        "CompanyLinkedinActivity"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+{
+  "question": "What are the emerging technology trends across different industries for 2023?",
+  "subtasks": "[{\"step\":1,\"task\":\"Identify the list of industries to analyze for technology trends in 2023.\",\"table\":[\"IndustryITTrend\"]},{\"step\":2,\"task\":\"Gather data on specific emerging technology trends related to each identified industry for 2023.\",\"table\":[\"IndustryITTrend\"]},{\"step\":3,\"task\":\"Compile the detailed narratives and strategic focuses described in the IndustryITTrend table for each industry.\",\"table\":[\"IndustryITTrend\"]},{\"step\":4,\"task\":\"Analyze the collected trends to summarize how industries are adopting technologies like AI, IoT, and cybersecurity in 2023.\",\"table\":[\"IndustryITTrend\"]},{\"step\":5,\"task\":\"Generate a report or visualization to communicate the findings about emerging technology trends across specified industries.\",\"table\":[\"IndustryITTrend\"]}]}"
+}

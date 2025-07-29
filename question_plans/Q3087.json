@@ -1,0 +1,44 @@
+{
+  "question": "How are different companies leveraging social media to engage with their audience?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify the companies that have active social media presence and analyze their engagement metrics across platforms such as Facebook, Instagram, and Twitter.",
+      "table": [
+        "CompanyInfo",
+        "CompanyFacebookDetail",
+        "CompanyInstagramDetail",
+        "CompanyTwitterDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Examine the content types posted by these companies on social media platforms to determine what kind of posts generate the most engagement (likes, comments, shares).",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyInstagramDetail",
+        "CompanyTwitterDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the overall engagement trends of these companies to see how their social media strategies vary by industry and company size.",
+      "table": [
+        "CompanyInfo",
+        "CompanyFacebookDetail",
+        "CompanyInstagramDetail",
+        "CompanyTwitterDetail",
+        "IndustryBusinessTrend"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Compare the social media engagement metrics across different industries to identify which sectors are more effective in leveraging social media.",
+      "table": [
+        "CompanyInfo",
+        "SocialMediaInfo",
+        "IndustryBusinessTrend"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "question": "What are the current technology investments and vendor partnerships of leading companies in the cloud computing industry?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify the leading companies in the cloud computing industry along with their basic information including name, revenue, and IT budget.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Gather details about the technology investments made by these companies, focusing on relevant technologies associated with their investments in cloud computing.",
+      "table": [
+        "CompanyTechStack"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Compile information on partnerships these companies have with other IT vendors, including description, deal values, and duration of these partnerships.",
+      "table": [
+        "CompanyITPartnerDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Analyze the social media activity of these companies to correlate their technology investments and partnerships with public engagement and sentiment.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyTwitterDetail",
+        "CompanyInstagramDetail"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Summarize the findings into a report format, highlighting key insights on their technology focus areas and engagement metrics.",
+      "table": [
+        "PageInfo",
+        "SectionData"
+      ]
+    }
+  ]
+}

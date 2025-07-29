@@ -1,0 +1,38 @@
+{
+  "question": "What are the latest hiring trends in technology companies based on social media and public engagement?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Gather data on active hiring initiatives in technology companies to identify roles and skills in demand.",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Analyze social media engagement metrics (likes, comments) related to technology company activities on platforms like Facebook, Twitter, and Instagram to determine public interest and sentiment.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyTwitterDetail",
+        "CompanyInstagramDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Cross-reference hiring data with technology focus areas and strategic initiatives to understand how these trends align with current industry demands.",
+      "table": [
+        "CompanyFocusAreaDetail",
+        "CompanyTechStack"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Aggregate findings into a comprehensive report that illustrates hiring trends and public engagement levels, highlighting key insights from social media metrics.",
+      "table": [
+        "CompanyInfo",
+        "CompanyHiringDetail",
+        "SocialMediaInfo"
+      ]
+    }
+  ]
+}

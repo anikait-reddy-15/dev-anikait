@@ -1,0 +1,41 @@
+{
+  "question": "What social media platforms are companies actively using and how are they engaging with their audiences?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify all companies and their associated social media platform activity metrics such as likes, comments, and engagement rates.",
+      "table": [
+        "SocialMediaInfo",
+        "CompanyFacebookDetail",
+        "CompanyTwitterDetail",
+        "CompanyInstagramDetail",
+        "CompanyYoutubeDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Compile a list of companies along with their descriptive metadata, including names, industries, and active status to contextualize their social media engagement.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze differences in engagement metrics across social media platforms for each company to determine which platforms yield the most interaction.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyTwitterDetail",
+        "CompanyInstagramDetail",
+        "CompanyYoutubeDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Investigate the correlation between company industry and the type of social media engagement strategies used by the companies.",
+      "table": [
+        "CompanyInfo",
+        "SocialMediaInfo"
+      ]
+    }
+  ]
+}

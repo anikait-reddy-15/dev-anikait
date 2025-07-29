@@ -1,0 +1,53 @@
+{
+  "question": "Analyze how companies are engaging in social media and which platforms are most effective in driving engagement.",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Gather social media engagement metrics for companies across major platforms such as Facebook, Twitter, and Instagram.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyTwitterDetail",
+        "CompanyInstagramDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Identify the companies with the highest engagement rates and compare their strategies based on their social media activity metrics.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyTwitterDetail",
+        "CompanyInstagramDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Investigate the relationship between a company's revenue and social media engagement to find patterns or trends.",
+      "table": [
+        "CompanyInfo",
+        "CompanyFacebookDetail",
+        "CompanyTwitterDetail",
+        "CompanyInstagramDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Analyze the type of content shared by companies that lead to high engagement rates on social media platforms.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyTwitterDetail",
+        "CompanyInstagramDetail"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Report on industry-specific trends in social media engagement and how companies in different sectors are leveraging these platforms.",
+      "table": [
+        "CompanyInfo",
+        "IndustryITTrend",
+        "CompanyFacebookDetail",
+        "CompanyTwitterDetail",
+        "CompanyInstagramDetail"
+      ]
+    }
+  ]
+}

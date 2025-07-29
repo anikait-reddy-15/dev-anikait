@@ -1,0 +1,33 @@
+{
+  "question": "What are the emerging technology focus areas for companies within the IT industry, and how do they compare in terms of social media engagement?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify and extract emerging technology focus areas from the CompanyFocusAreaDetail table for companies in the IT industry.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Gather social media engagement data for the identified companies from the SocialMediaInfo, CompanyFacebookDetail, CompanyTwitterDetail, and CompanyInstagramDetail tables.",
+      "table": [
+        "SocialMediaInfo",
+        "CompanyFacebookDetail",
+        "CompanyTwitterDetail",
+        "CompanyInstagramDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze and summarize the findings to compare the technology focus areas with social media engagement metrics for each company.",
+      "table": [
+        "CompanyFocusAreaDetail",
+        "SocialMediaInfo",
+        "CompanyFacebookDetail",
+        "CompanyTwitterDetail",
+        "CompanyInstagramDetail"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "question": "Analyze the impact of social media presence on company revenue.",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Gather social media metrics (likes, comments, engagement rates) for relevant companies.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyInstagramDetail",
+        "CompanyTwitterDetail",
+        "CompanyYoutubeDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Collect revenue data, including total revenue and net income for the selected companies.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Join the social media metrics with revenue data to analyze trends and correlations.",
+      "table": [
+        "CompanyInfo",
+        "CompanyFacebookDetail",
+        "CompanyInstagramDetail",
+        "CompanyTwitterDetail",
+        "CompanyYoutubeDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Evaluate the effectiveness of different social media platforms on overall company growth and revenue.",
+      "table": [
+        "CompanyInfo",
+        "SocialMediaInfo"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Generate a report highlighting key findings from the analysis and potential areas for improvement in social media strategies.",
+      "table": [
+        "CompanyInfo",
+        "SocialMediaInfo"
+      ]
+    }
+  ]
+}

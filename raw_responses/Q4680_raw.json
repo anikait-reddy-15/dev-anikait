@@ -1,0 +1,4 @@
+{
+  "question": "Analyze the technology adoption trends across various industries in the last year.",
+  "subtasks": "[{'step': 1, 'task': 'Identify the industries of interest for the analysis.', 'table': ['IndustryBusinessTrend']}, {'step': 2, 'task': 'Collect data on IT trends and technological focus areas for the identified industries over the past year.', 'table': ['IndustryITTrend']}, {'step': 3, 'task': 'Extract detailed records of technology services provided by vendors to companies within these industries.', 'table': ['CompanyVendorTechDetail']}, {'step': 4, 'task': 'Aggregate and analyze the data to produce insights on technology adoption patterns.', 'table': ['CompanyTechStack', 'CompanyDealMaster']}]}"
+}

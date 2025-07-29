@@ -1,0 +1,35 @@
+{
+  "question": "What are the emerging technology trends in different industries based on recent company activities?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Retrieve latest entries from the IndustryITTrend table to identify the most recent technological focus areas across industries.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Get technology-focused sections from the SectionData table that highlight company activities and strategies in response to emerging trends.",
+      "table": [
+        "SectionData"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze data from the CompanyTechStack table to see which companies are adopting specific technologies and link this information to their respective industries.",
+      "table": [
+        "CompanyTechStack",
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Summarize company activities and technology adoption trends into a report format, linking them back to industry-level insights obtained in step 1.",
+      "table": [
+        "CompanyInfo",
+        "IndustryITTrend"
+      ]
+    }
+  ]
+}

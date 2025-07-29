@@ -1,0 +1,42 @@
+{
+  "question": "What are the current technology focus areas, financial metrics, and hiring trends of leading companies in the technology sector?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify leading companies in the technology sector by filtering the CompanyInfo table for companies whose Industry is 'Technology' and are currently Active.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract the strategic technology focus areas for the identified companies from the CompanyFocusAreaDetail table to understand their current technological initiatives.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Retrieve financial metrics such as Revenue, NetIncome, and ITBudget from the CompanyInfo table for each leading technology company identified in step 1.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Gather active hiring initiatives from the CompanyHiringDetail table related to the identified technology companies to analyze their talent demand trends.",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Compile data from social media platforms (e.g., Facebook, Twitter, Instagram) from their respective company detail tables to assess their online presence and engagement metrics for each company in the technology sector.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyTwitterDetail",
+        "CompanyInstagramDetail"
+      ]
+    }
+  ]
+}

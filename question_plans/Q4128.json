@@ -1,0 +1,35 @@
+{
+  "question": "What are the trends in technology adoption across different industries, and which companies are leading in these areas?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify key technology trends relevant to various industries and summarize the insights from the IndustryITTrend table.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract company information such as name and industry from the CompanyInfo table to understand which companies are operating in sectors related to the identified technology trends.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Cross-reference companies with their technology stacks by analyzing the CompanyTechStack table to determine which technologies are adopted by the leading companies in each identified industry trend.",
+      "table": [
+        "CompanyTechStack"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Compile and consolidate the data into a report that highlights technology adoption leaders, trends in specific industries, and any notable insights found during the analysis.",
+      "table": [
+        "IndustryITTrend",
+        "CompanyInfo",
+        "CompanyTechStack"
+      ]
+    }
+  ]
+}

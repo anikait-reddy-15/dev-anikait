@@ -1,0 +1,40 @@
+{
+  "question": "What technological innovations are companies focusing on in the IT sector?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify the companies involved in the IT sector and their basic information such as name, industry, and founding year.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract the specific IT focus areas for the identified companies, including details on their technology initiatives and investments.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Gather data on the technology stacks being used by these companies to identify the adoption of innovative technologies.",
+      "table": [
+        "CompanyTechStack"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Compile and analyze vendor product details to understand which external technologies or services are being integrated by these companies.",
+      "table": [
+        "CompanyVendorProductDetail"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Review leadership excerpts to gain insights on the strategic direction and thoughts of executives regarding technology adoption and innovation.",
+      "table": [
+        "CompanyLeadershipExcerpt"
+      ]
+    }
+  ]
+}

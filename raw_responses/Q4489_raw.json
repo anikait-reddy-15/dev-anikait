@@ -1,0 +1,4 @@
+{
+  "question": "Identify key technology trends and focus areas for the top companies in the IT industry.",
+  "subtasks": "[ { \"step\": 1, \"task\": \"Retrieve a list of top companies in the IT industry based on revenue and market capitalization.\", \"table\": [\"CompanyInfo\"] }, { \"step\": 2, \"task\": \"Extract strategic focus areas related to technology for the identified companies from CompanyFocusAreaDetail.\", \"table\": [\"CompanyFocusAreaDetail\"] }, { \"step\": 3, \"task\": \"Analyze emerging IT trends related to the identified companies from IndustryITTrend to see the alignment with their focus areas.\", \"table\": [\"IndustryITTrend\"] }, { \"step\": 4, \"task\": \"Compile the extracted focus areas and trends into a comprehensive report to present key insights and recommendations.\", \"table\": [] } ]"
+}

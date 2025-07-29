@@ -1,0 +1,40 @@
+{
+  "question": "What are the technology adoption trends among companies in the financial industry?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify all companies operating in the financial industry and gather their basic information such as Name, Description, and Founded Year.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Collect technology stack details for the identified financial companies to analyze the specific technologies they have adopted.",
+      "table": [
+        "CompanyTechStack"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Review hiring trends among these companies to identify if there is a demand for specific technology skills related to their tech stack.",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Examine any available records of partnerships or collaborations with technology vendors that these financial companies have engaged in.",
+      "table": [
+        "CompanyITPartnerDetail"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Analyze any industry-specific technology trends that might provide insights into the technology strategies of these financial companies.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    }
+  ]
+}

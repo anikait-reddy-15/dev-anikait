@@ -1,0 +1,4 @@
+{
+  "question": "What are the current hiring trends across different industries in terms of technology and skill demands?",
+  "subtasks": "[\n    {\n        \"step\": 1,\n        \"task\": \"Identify the relevant industries from the CompanyInfo table.\",\n        \"table\": [\"CompanyInfo\"]\n    },\n    {\n        \"step\": 2,\n        \"task\": \"Collect active hiring details for each industry from the CompanyHiringDetail table.\",\n        \"table\": [\"CompanyHiringDetail\"]\n    },\n    {\n        \"step\": 3,\n        \"task\": \"Analyze the technology focus areas linked to the hiring details from CompanyFocusAreaDetail table.\",\n        \"table\": [\"CompanyFocusAreaDetail\"]\n    },\n    {\n        \"step\": 4,\n        \"task\": \"Summarize the findings to identify skills that are in demand across the industries.\",\n        \"table\": []\n    }\n]"
+}

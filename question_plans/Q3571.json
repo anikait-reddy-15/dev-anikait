@@ -1,0 +1,36 @@
+{
+  "question": "What are the emerging technology trends in the industry and how are companies adapting their strategies based on those trends?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify current emerging technology trends within the industry using the IndustryITTrend table.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Analyze how different companies are adopting these technologies by extracting related details from the CompanyTechStack and CompanyFocusAreaDetail tables.",
+      "table": [
+        "CompanyTechStack",
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Summarize companies' strategic focus areas and technological initiatives based on leadership statements from the CompanyLeadershipExcerpt table.",
+      "table": [
+        "CompanyLeadershipExcerpt"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Correlate the findings from social media engagement in CompanyFacebookDetail, CompanyInstagramDetail, and CompanyTwitterDetail to evaluate public sentiment towards these tech initiatives.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyInstagramDetail",
+        "CompanyTwitterDetail"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "question": "What are the emerging IT trends across different industries for companies with significant social media engagement?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify the industries of interest and their associated trends from the IndustryITTrend table.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Retrieve company information that has significant social media engagement metrics from the SocialMediaInfo table.",
+      "table": [
+        "SocialMediaInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Cross-reference companies from the SocialMediaInfo data with the IndustryITTrend data to find trends relevant to those companies.",
+      "table": [
+        "IndustryITTrend",
+        "SocialMediaInfo"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Summarize the trends identified and the companies associated with each trend, highlighting significant social media engagement.",
+      "table": [
+        "SocialMediaInfo",
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Optionally, analyze specific social media platforms (like Facebook or Twitter) for detailed engagement metrics related to those companies.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyTwitterDetail"
+      ]
+    }
+  ]
+}

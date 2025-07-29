@@ -1,0 +1,4 @@
+{
+  "question": "Identify the key technology focus areas and social media presence of top technology companies in the United States.",
+  "subtasks": "[{'step': 1, 'task': 'Retrieve a list of active technology companies based in the United States and their ID', 'table': ['CompanyInfo']}, {'step': 2, 'task': 'Fetch technology focus areas for the identified technology companies based on their IDs', 'table': ['CompanyFocusAreaDetail']}, {'step': 3, 'task': 'Gather social media presence data for the same companies to analyze their engagement metrics', 'table': ['SocialMediaInfo', 'CompanyFacebookDetail', 'CompanyInstagramDetail', 'CompanyTwitterDetail', 'CompanyYoutubeDetail']}]"
+}

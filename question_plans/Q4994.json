@@ -1,0 +1,36 @@
+{
+  "question": "What are the current hiring trends across different industries in terms of IT job roles?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify the active hiring details for different companies along with job titles and their relevance to IT roles.",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Gather industry information from companies that are currently hiring for IT positions to analyze which sectors are most active in terms of recruitment.",
+      "table": [
+        "CompanyInfo",
+        "CompanyHiringDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Compile data to assess which specific IT roles are being in demand across various industries, capturing details such as job responsibilities and required skills.",
+      "table": [
+        "CompanyHiringDetail",
+        "LookUpValue"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Analyze geographic patterns in hiring by correlating city data with the active hiring initiatives of companies to identify hot spots for IT job markets.",
+      "table": [
+        "CompanyHiringDetail",
+        "CompanyDataCenter"
+      ]
+    }
+  ]
+}

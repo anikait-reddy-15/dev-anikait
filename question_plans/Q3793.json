@@ -1,0 +1,41 @@
+{
+  "question": "What are the current technological focus areas and social media engagement metrics for leading companies in the healthcare industry?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify leading companies in the healthcare industry and gather their basic information such as name, revenue, and number of employees.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Retrieve technological focus areas for the identified healthcare companies, including details about their initiatives related to digitalization, blockchain, automation, and cloud computing.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Collect social media engagement metrics (likes, comments, reposts, engagement rates) from Facebook, Instagram, Twitter, and YouTube for the identified healthcare companies.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyInstagramDetail",
+        "CompanyTwitterDetail",
+        "CompanyYoutubeDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Compile the gathered data into a comprehensive report analyzing the technological priorities and social media presence of these healthcare companies.",
+      "table": [
+        "CompanyInfo",
+        "CompanyFocusAreaDetail",
+        "CompanyFacebookDetail",
+        "CompanyInstagramDetail",
+        "CompanyTwitterDetail",
+        "CompanyYoutubeDetail"
+      ]
+    }
+  ]
+}

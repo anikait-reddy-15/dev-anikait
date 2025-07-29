@@ -1,0 +1,27 @@
+{
+  "question": "What are the current technology focus areas of companies in the healthcare industry?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies that belong to the healthcare industry by querying the CompanyInfo table for entries with 'Industry' as 'Healthcare'.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Retrieve the technology focus areas for the identified healthcare companies by joining the CompanyFocusAreaDetail table on CompanyInfoId with the list of company IDs obtained in step 1.",
+      "table": [
+        "CompanyFocusAreaDetail",
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Organize and present the retrieved technology focus areas, ensuring to include relevant details such as the specifics of each focus area and any associated descriptions from the CompanyFocusAreaDetail table.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    }
+  ]
+}

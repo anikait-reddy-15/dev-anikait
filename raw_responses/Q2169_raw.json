@@ -1,0 +1,4 @@
+{
+  "question": "What are the IT spending trends and social media strategies of leading companies in the tech industry?",
+  "subtasks": "[{\"step\":1,\"task\":\"Identify leading companies in the tech industry and gather their IT budget data\",\"table\":[\"CompanyInfo\"]},{\"step\":2,\"task\":\"Analyze the IT strength and financial metrics of these companies to understand their spending patterns\",\"table\":[\"CompanyInfo\"]},{\"step\":3,\"task\":\"Examine social media engagement metrics across platforms (Facebook, Instagram, Twitter) for the identified companies to assess their social media strategies\",\"table\":[\"CompanyFacebookDetail\",\"CompanyInstagramDetail\",\"CompanyTwitterDetail\"]},{\"step\":4,\"task\":\"Compile any available insights on strategic technology focus areas related to their IT budgets and social media presence\",\"table\":[\"CompanyFocusAreaDetail\",\"CompanyTechStack\"]}]"
+}

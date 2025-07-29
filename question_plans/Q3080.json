@@ -1,0 +1,34 @@
+{
+  "question": "What are the strategic technology focus areas and current IT hiring trends among top companies in the tech industry?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify the top companies in the tech industry based on their revenue and market capitalization.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract the strategic technology focus areas for these companies to understand their priorities and initiatives.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze active hiring trends by reviewing the roles and positions companies are currently looking to fill in the tech industry.",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Correlate the strategic technology focus areas with the hiring trends to discover if companies are hiring for roles aligned with their stated technological initiatives.",
+      "table": [
+        "CompanyFocusAreaDetail",
+        "CompanyHiringDetail"
+      ]
+    }
+  ]
+}

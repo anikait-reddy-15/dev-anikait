@@ -1,0 +1,4 @@
+{
+  "question": "What companies have seen significant growth in their digital technology investments over the past year?",
+  "subtasks": "[{\"step\":1,\"task\":\"Identify companies with updated IT budgets in the past year to track changes in investment levels.\",\"table\":[\"CompanyInfo\"]},{\"step\":2,\"task\":\"Filter companies with increased IT budgets compared to the previous year to focus on growth trends.\",\"table\":[\"CompanyInfo\"]},{\"step\":3,\"task\":\"Gather additional financial metrics such as Revenue and Net Income for these companies to analyze overall financial health alongside IT investment growth.\",\"table\":[\"CompanyInfo\"]},{\"step\":4,\"task\":\"Compile information regarding the specific focus areas in technology for these companies to understand where the growth in investment is directed.\",\"table\":[\"CompanyFocusAreaDetail\"]}]"
+}

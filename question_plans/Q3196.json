@@ -1,0 +1,35 @@
+{
+  "question": "What are the current hiring trends in technology companies based on location and job roles?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify technology companies and their geographic locations from the CompanyInfo table.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Gather hiring initiatives from the CompanyHiringDetail table along with the job roles and domains being hired for.",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Combine data from CompanyInfo and CompanyHiringDetail to analyze hiring trends by filtering job roles and locations.",
+      "table": [
+        "CompanyInfo",
+        "CompanyHiringDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Extract insights related to hiring trends, such as the most in-demand job roles and critical geographic regions for technology companies.",
+      "table": [
+        "CompanyInfo",
+        "CompanyHiringDetail"
+      ]
+    }
+  ]
+}

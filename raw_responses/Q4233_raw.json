@@ -1,0 +1,4 @@
+{
+  "question": "What are the latest IT trends adopted by companies in the finance industry?",
+  "subtasks": "[{'step': 1, 'task': 'Identify all companies operating in the finance industry and gather their basic information.', 'table': ['CompanyInfo']}, {'step': 2, 'task': 'Extract IT trends relevant to the finance industry from the IndustryITTrend table.', 'table': ['IndustryITTrend']}, {'step': 3, 'task': 'Analyze and correlate the finance companies from step 1 with the IT trends from step 2 to find which trends are currently being adopted.', 'table': ['CompanyInfo', 'IndustryITTrend']}, {'step': 4, 'task': 'Compile the findings into a report summarizing the latest IT trends specific to finance companies.', 'table': []}]"
+}

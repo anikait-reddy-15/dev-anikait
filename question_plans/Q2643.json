@@ -1,0 +1,34 @@
+{
+  "question": "What are the current strategic technology focus areas of major companies in the financial industry?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify all companies operating in the financial industry and retrieve their relevant data such as name and profile information.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Retrieve strategic technology focus areas linked to the identified companies in the financial sector.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Compile the focus areas into a report summarizing each company's technological initiatives and innovations in the financial industry.",
+      "table": [
+        "CompanyFocusAreaDetail",
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Analyze the collated data to highlight common trends and unique strategies across the major companies within the financial industry.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    }
+  ]
+}

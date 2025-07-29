@@ -1,0 +1,42 @@
+{
+  "question": "What are the key technology focus areas for companies in the software industry?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify all companies operating in the software industry from the CompanyInfo table.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Fetch the strategic technology focus areas related to these companies from the CompanyFocusAreaDetail table.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Compile the details of technology focus areas, including their descriptions and any associated initiatives for the identified companies.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Analyze and summarize the trends in technology focus areas among these software companies, looking for similarities or unique initiatives.",
+      "table": [
+        "CompanyFocusAreaDetail",
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Document the findings in a report format including relevant statistics and narratives on the software industry technology trends.",
+      "table": [
+        "CompanyInfo",
+        "CompanyFocusAreaDetail"
+      ]
+    }
+  ]
+}

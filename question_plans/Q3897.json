@@ -1,0 +1,43 @@
+{
+  "question": "Analyze the social media presence and engagement metrics of the top 5 companies in the technology industry based on their revenue.",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify the top 5 companies in the technology industry based on their revenue",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Gather social media engagement metrics (likes, comments, reposts) from Facebook, Instagram, Twitter, and YouTube for the identified companies",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyInstagramDetail",
+        "CompanyTwitterDetail",
+        "CompanyYoutubeDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Compile a report summarizing the social media engagement metrics for each company analyzed",
+      "table": [
+        "SocialMediaInfo"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Analyze trends in the engagement metrics to identify which platforms generate the highest interaction for these companies",
+      "table": [
+        "SocialMediaInfo"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Cross-reference the analysis with the companies' IT budgets and market capitalization to evaluate how investment relates to social media engagement",
+      "table": [
+        "CompanyInfo"
+      ]
+    }
+  ]
+}

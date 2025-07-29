@@ -1,0 +1,32 @@
+{
+  "question": "What are the latest technology trends adopted by companies in the manufacturing industry, and how do they relate to their hiring initiatives?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies in the manufacturing industry from the CompanyInfo table and their technological focus areas from CompanyFocusAreaDetail.",
+      "table": [
+        "CompanyInfo",
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Gather data on the latest technology trends from the IndustryITTrend table relevant to the manufacturing sector.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the active hiring initiatives of the identified companies in the manufacturing industry from the CompanyHiringDetail table to assess the correlation with their technology focus areas.",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Compile all findings into a report that outlines technology adoption, hiring trends, and strategic alignment for companies in the manufacturing sector.",
+      "table": []
+    }
+  ]
+}

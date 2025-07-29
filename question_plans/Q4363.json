@@ -1,0 +1,43 @@
+{
+  "question": "What are the current IT investment trends across different companies in the technology industry?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify all companies operating in the technology industry along with their IT budgets and strengths.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Analyze the strategic technology focus areas of companies in the technology industry and their corresponding investments.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Evaluate recent vendor contracts and deals in the technology sector to understand spending patterns and preferred technologies.",
+      "table": [
+        "CompanyDealMaster"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Review social media activity related to technology companies to gauge public engagement and interest in their services and products.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyTwitterDetail",
+        "CompanyInstagramDetail"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Summarize the findings and generate a report on the current trends in IT investments based on the data collected.",
+      "table": [
+        "PageInfo",
+        "SectionData"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+{
+  "question": "What are the current trends in technology focus areas among companies in the XYZ industry?",
+  "subtasks": "[{'step': 1, 'task': 'Identify the companies that belong to the XYZ industry and their profiles.', 'table': ['CompanyInfo']}, {'step': 2, 'task': 'Retrieve the strategic technology focus areas for the identified companies.', 'table': ['CompanyFocusAreaDetail']}, {'step': 3, 'task': 'Analyze the data to identify common trends in technology focus areas across these companies.', 'table': []}, {'step': 4, 'task': 'Summarize the findings and outline key trends related to technology focus areas.', 'table': []}]"
+}

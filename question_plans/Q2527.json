@@ -1,0 +1,36 @@
+{
+  "question": "What are the current social media engagement metrics and recent hiring initiatives for companies in the technology sector?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Query the CompanyInfo table to identify all companies in the technology sector, ensuring to filter by industry type.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "For each identified company, fetch the relevant social media engagement metrics from the SocialMediaInfo table to analyze their presence on platforms like Facebook, Instagram, and Twitter.",
+      "table": [
+        "SocialMediaInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Retrieve the latest hiring details from the CompanyHiringDetail table for the selected technology companies to understand their active talent acquisition strategies.",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Compile and extract the overall engagement metrics such as likes, shares, comments from various social media platforms along with details of job roles being hired by the technology companies.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyInstagramDetail",
+        "CompanyTwitterDetail",
+        "CompanyHiringDetail"
+      ]
+    }
+  ]
+}

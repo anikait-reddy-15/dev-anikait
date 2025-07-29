@@ -1,0 +1,35 @@
+{
+  "question": "What are the current trends in IT investment across different industries?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify all company records along with their IT budgets and industries.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Gather historical data on industry trends and emerging IT trends related to them.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the relationships between companies and their technology partners to understand funding allocations and service contracts relevant to emerging IT trends.",
+      "table": [
+        "CompanyITPartnerDetail",
+        "CompanyDealMaster"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Compile the data to provide a comprehensive report on IT investment trends segmented by industry.",
+      "table": [
+        "CompanyInfo",
+        "IndustryITTrend"
+      ]
+    }
+  ]
+}

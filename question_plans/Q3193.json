@@ -1,0 +1,30 @@
+{
+  "question": "What are the key technology focus areas and social media engagement metrics for companies in the Cloud Computing industry?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify all companies within the Cloud Computing industry from the CompanyInfo table.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Gather the technology focus areas for the identified companies by linking the CompanyInfo table with the CompanyFocusAreaDetail table.",
+      "table": [
+        "CompanyInfo",
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Collect social media engagement metrics (likes, comments, engagement rates) for the identified companies from the CompanyFacebookDetail, CompanyInstagramDetail, CompanyTwitterDetail, and CompanyYoutubeDetail tables.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyInstagramDetail",
+        "CompanyTwitterDetail",
+        "CompanyYoutubeDetail"
+      ]
+    }
+  ]
+}

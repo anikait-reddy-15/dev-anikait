@@ -1,0 +1,4 @@
+{
+  "question": "What are the latest trends in technology adoption among companies in the IT sector?",
+  "subtasks": "[{'step': 1, 'task': 'Identify companies operating within the IT sector.', 'table': ['CompanyInfo']}, {'step': 2, 'task': 'Fetch industry-specific technology trends from the IndustryITTrend table.', 'table': ['IndustryITTrend']}, {'step': 3, 'task': 'Analyze the latest technology focus areas based on entries in the CompanyFocusAreaDetail table.', 'table': ['CompanyFocusAreaDetail']}, {'step': 4, 'task': 'Compile a report detailing the technology adoption trends and strategic initiatives from the analyzed data.', 'table': []}]"
+}

@@ -1,0 +1,34 @@
+{
+  "question": "What are the latest hiring trends in the IT industry based on company data?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify all companies operating within the IT industry and extract their hiring details, focusing on active job listings and relevant qualifications.",
+      "table": [
+        "CompanyHiringDetail",
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Analyze the extracted hiring details to determine the most sought-after job roles and required skills in the IT sector.",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Examine historical hiring data to compare current trends with past hiring patterns and assess changes in job demand over time.",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Summarize the findings into a report that highlights key trends, insights, and predictions for future hiring in the IT industry.",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    }
+  ]
+}

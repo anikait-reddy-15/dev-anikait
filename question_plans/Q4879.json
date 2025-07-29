@@ -1,0 +1,34 @@
+{
+  "question": "What are the emerging IT trends in the finance industry and how are companies adapting to them?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify the relevant IT trends specific to the finance industry by querying the IndustryITTrend table.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Gather data on companies operating within the finance industry by querying the CompanyInfo table with the industry filter set to finance.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze how finance companies are adopting these IT trends, which can be gathered from the CompanyVendorTechDetail and CompanyTechStack tables, focusing on technologies used in their operations.",
+      "table": [
+        "CompanyVendorTechDetail",
+        "CompanyTechStack"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Compile the insights on company strategies regarding the emerging IT trends, using data from the CompanyFocusAreaDetail to understand their strategic initiatives.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    }
+  ]
+}

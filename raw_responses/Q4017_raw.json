@@ -1,0 +1,4 @@
+{
+  "question": "How can we analyze the technology adoption trends across different industries based on company data?",
+  "subtasks": "[{\"step\":1,\"task\":\"Identify the relevant industries and their associated companies to gather data on technology adoption trends.\",\"table\":[\"CompanyInfo\",\"IndustryITTrend\"]},{\"step\":2,\"task\":\"Collect data on the specific technologies adopted by companies within those industries to understand the trends in technology adoption.\",\"table\":[\"CompanyTechStack\"]},{\"step\":3,\"task\":\"Analyze the historical data on technology adoption rates over time for each industry to identify trends and patterns.\",\"table\":[\"IndustryITTrend\",\"CompanyDealMaster\"]},{\"step\":4,\"task\":\"Summarize the analysis findings and produce reports or visualizations to communicate the technology adoption trends across the selected industries.\",\"table\":[\"PageInfo\",\"SectionData\"]}]"
+}

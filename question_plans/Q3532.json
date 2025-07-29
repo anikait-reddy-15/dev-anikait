@@ -1,0 +1,50 @@
+{
+  "question": "Identify the top 5 companies in the technology industry with the highest IT budget and analyze their social media engagement.",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Query the CompanyInfo table to retrieve names, IT budgets, and filter by the technology industry, sorting the results in descending order based on IT budget.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "From the results of step 1, limit the output to the top 5 companies by IT budget.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Join the CompanyFacebookDetail, CompanyTwitterDetail, CompanyInstagramDetail, and CompanyYoutubeDetail tables with the result of step 2 to gather social media engagement metrics (likes, comments, etc.) for each of the top 5 companies.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyTwitterDetail",
+        "CompanyInstagramDetail",
+        "CompanyYoutubeDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Aggregate the social media engagement metrics to compare overall engagement across the different platforms for the top 5 companies.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyTwitterDetail",
+        "CompanyInstagramDetail",
+        "CompanyYoutubeDetail"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Compile a report summarizing each of the top 5 companies\u2019 IT budgets and their social media engagement summary, highlighting key findings or trends.",
+      "table": [
+        "CompanyInfo",
+        "CompanyFacebookDetail",
+        "CompanyTwitterDetail",
+        "CompanyInstagramDetail",
+        "CompanyYoutubeDetail"
+      ]
+    }
+  ]
+}

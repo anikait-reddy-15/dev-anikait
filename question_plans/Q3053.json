@@ -1,0 +1,27 @@
+{
+  "question": "What are the current technology focus areas for companies in the manufacturing industry?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies within the manufacturing industry by filtering the CompanyInfo table based on the Industry column",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract the technology focus areas related to the identified companies by joining the CompanyFocusAreaDetail table on CompanyInfoId",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Compile the details of the technology focus areas along with their respective company names and profiles for analysis",
+      "table": [
+        "CompanyFocusAreaDetail",
+        "CompanyInfo"
+      ]
+    }
+  ]
+}

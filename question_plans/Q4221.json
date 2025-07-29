@@ -1,0 +1,33 @@
+{
+  "question": "What are the latest technology focus areas for companies in the finance industry?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify all companies operating in the finance industry by querying the CompanyInfo table for the 'Industry' column with the value 'Finance'.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Retrieve the IT focus areas associated with the identified finance companies by joining the CompanyFocusAreaDetail table on CompanyInfoId and filtering based on active status for the selected companies.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Compile and summarize the latest focus areas for technology by extracting details from the CompanyFocusAreaDetail table, including detail descriptions and any relevant dates where applicable.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Analyze any leadership excerpts related to the technology focus areas for these finance companies by querying the CompanyLeadershipExcerpt table for any recent entries that correspond to the identified focus areas.",
+      "table": [
+        "CompanyLeadershipExcerpt"
+      ]
+    }
+  ]
+}

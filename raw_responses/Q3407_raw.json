@@ -1,0 +1,4 @@
+{
+  "question": "What are the current technology partnerships of companies in the finance industry?",
+  "subtasks": "[{\"step\":1,\"task\":\"Identify all companies in the finance industry from the CompanyInfo table.\",\"table\":[\"CompanyInfo\"]},{\"step\":2,\"task\":\"Retrieve current technology partnership details for the identified finance companies from the CompanyITPartnerDetail table.\",\"table\":[\"CompanyITPartnerDetail\"]},{\"step\":3,\"task\":\"Cross-reference the partnerships with the CompanyInfo table to get additional company details such as 'Name' and 'Active' status.\",\"table\":[\"CompanyITPartnerDetail\",\"CompanyInfo\"]},{\"step\":4,\"task\":\"Summarize the partnerships, including the company names and deal values for better insight into the partnerships within the finance industry.\",\"table\":[\"CompanyITPartnerDetail\",\"CompanyInfo\"]}]}"
+}

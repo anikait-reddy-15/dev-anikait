@@ -1,0 +1,45 @@
+{
+  "question": "What are the technology adoption trends of companies across different industries?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify and collect data on companies and their IT focus areas to understand their technology priorities.",
+      "table": [
+        "CompanyInfo",
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Analyze the existing technology stack of each company to determine which technologies are being adopted across the industries.",
+      "table": [
+        "CompanyTechStack"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Gather data on industry-specific technology trends to identify how different sectors are evolving with technology adoption.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Merge the data collected on company technology focus areas, tech stack, and industry trends for comprehensive analysis.",
+      "table": [
+        "CompanyFocusAreaDetail",
+        "CompanyTechStack",
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Create a report summarizing the technology adoption trends for companies by analyzing the merged data.",
+      "table": [
+        "CompanyInfo",
+        "CompanyTechStack",
+        "IndustryITTrend"
+      ]
+    }
+  ]
+}

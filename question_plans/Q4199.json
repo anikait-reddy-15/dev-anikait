@@ -1,0 +1,40 @@
+{
+  "question": "What are the technology focus areas and social media engagement trends for leading companies in the IT industry?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify leading companies in the IT industry based on revenue and market capitalization.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Gather technology focus areas for the identified leading companies to understand their strategic initiatives.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Collect social media engagement metrics for these companies across platforms like Facebook, Twitter, Instagram, and YouTube to analyze their online presence.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyTwitterDetail",
+        "CompanyInstagramDetail",
+        "CompanyYoutubeDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Analyze trends and insights from the technology focus areas and social media engagement to identify patterns in the IT sector.",
+      "table": [
+        "CompanyFocusAreaDetail",
+        "CompanyFacebookDetail",
+        "CompanyTwitterDetail",
+        "CompanyInstagramDetail",
+        "CompanyYoutubeDetail"
+      ]
+    }
+  ]
+}

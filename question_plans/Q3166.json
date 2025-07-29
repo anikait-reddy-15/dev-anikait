@@ -1,0 +1,41 @@
+{
+  "question": "What are the current trends in IT and business for the healthcare industry?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify the relevant IT trends specific to the healthcare industry from the IndustryITTrend table.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Summarize emerging strategic focus areas in the healthcare industry from the IndustryBusinessTrend table.",
+      "table": [
+        "IndustryBusinessTrend"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze healthcare companies' profiles from the CompanyInfo table for insights into their IT budgets and strategic technology focus areas.",
+      "table": [
+        "CompanyInfo",
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Collect and analyze social media engagement metrics of healthcare companies from the SocialMediaInfo table to assess their outreach and public sentiment.",
+      "table": [
+        "SocialMediaInfo"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Review recent health-tech service contracts from the CompanyDealMaster table to identify prevalent technologies and service models in the healthcare sector.",
+      "table": [
+        "CompanyDealMaster"
+      ]
+    }
+  ]
+}

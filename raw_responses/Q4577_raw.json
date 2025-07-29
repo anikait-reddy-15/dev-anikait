@@ -1,0 +1,4 @@
+{
+  "question": "What are the recent trends in IT spending for companies within the healthcare industry?",
+  "subtasks": "[{'step': 1, 'task': 'Identify all active companies in the healthcare industry and their IT budgets.', 'table': ['CompanyInfo']}, {'step': 2, 'task': 'Gather data on recent contracts related to IT services for healthcare companies, including service values and signing dates.', 'table': ['CompanyDealMaster']}, {'step': 3, 'task': 'Analyze the financial metrics (revenue and net income) of these identified healthcare companies to correlate spending trends.', 'table': ['CompanyInfo']}, {'step': 4, 'task': 'Review and summarize technology focus areas related to IT spending for healthcare companies.', 'table': ['CompanyFocusAreaDetail']}, {'step': 5, 'task': 'Compile findings into a report detailing the trends in IT spending and investments in healthcare.', 'table': ['PageInfo', 'SectionData']}]"
+}

@@ -1,0 +1,4 @@
+{
+  "question": "What are the technology focus areas of major companies in the cloud computing industry?",
+  "subtasks": "[\n    {\n        \"step\": 1,\n        \"task\": \"Identify all companies that belong to the cloud computing industry.\",\n        \"table\": [\"CompanyInfo\"]\n    },\n    {\n        \"step\": 2,\n        \"task\": \"Retrieve the technology focus areas associated with the identified companies.\",\n        \"table\": [\"CompanyFocusAreaDetail\"]\n    },\n    {\n        \"step\": 3,\n        \"task\": \"Compile and summarize the details of technology initiatives related to cloud computing for these companies.\",\n        \"table\": [\"CompanyFocusAreaDetail\", \"CompanyInfo\"]\n    },\n    {\n        \"step\": 4,\n        \"task\": \"Analyze the data for trends in technology adoption in the cloud computing sector.\",\n        \"table\": [\"CompanyFocusAreaDetail\"]\n    }\n]"
+}

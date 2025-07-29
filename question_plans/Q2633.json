@@ -1,0 +1,48 @@
+{
+  "question": "How can companies improve their social media engagement and presence?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Analyze current engagement metrics across different social media platforms for various companies to benchmark performance.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyInstagramDetail",
+        "CompanyTwitterDetail",
+        "SocialMediaInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Identify the most common strategies used by companies that have high engagement rates on social media, such as posting frequency and content types.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyInstagramDetail",
+        "CompanyTwitterDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Evaluate company focus areas and leadership initiatives to determine how they align with effective social media strategies and mix of content types.",
+      "table": [
+        "CompanyFocusAreaDetail",
+        "CompanyLeadershipExcerpt"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Assess how different industries perform on social media to understand trends and effective techniques that can be adapted by companies across sectors.",
+      "table": [
+        "IndustryBusinessTrend",
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Compile a report summarizing findings and recommendations for companies to enhance their social media engagement strategy.",
+      "table": [
+        "PageInfo",
+        "SectionInfo"
+      ]
+    }
+  ]
+}

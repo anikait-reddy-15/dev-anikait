@@ -1,0 +1,28 @@
+{
+  "question": "What are the current technology partnerships of companies in the finance industry?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify all companies in the finance industry by querying CompanyInfo table for industry field matching 'Finance'.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Retrieve the technology partnership details for the identified finance companies from the CompanyITPartnerDetail table by joining it with CompanyInfo using CompanyInfoId.",
+      "table": [
+        "CompanyITPartnerDetail",
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Compile the results to show each finance company with their respective technology partners and the details of the partnerships.",
+      "table": [
+        "CompanyITPartnerDetail",
+        "CompanyInfo"
+      ]
+    }
+  ]
+}

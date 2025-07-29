@@ -1,0 +1,4 @@
+{
+  "question": "What are the latest social media trends and engagement metrics for technology companies in the cloud computing sector?",
+  "subtasks": "[{'step': 1, 'task': 'Identify technology companies operating in the cloud computing sector.', 'table': ['CompanyInfo']}, {'step': 2, 'task': 'Gather social media activity and engagement data for these cloud computing companies from Facebook, Instagram, and Twitter.', 'table': ['CompanyFacebookDetail', 'CompanyInstagramDetail', 'CompanyTwitterDetail']}, {'step': 3, 'task': 'Analyze the engagement metrics for cloud computing companies to identify trends in social media performance.', 'table': ['CompanyFacebookDetail', 'CompanyInstagramDetail', 'CompanyTwitterDetail']}, {'step': 4, 'task': 'Compile and summarize the findings on the social media trends specific to the identified companies.', 'table': []}]}"
+}

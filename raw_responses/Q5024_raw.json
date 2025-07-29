@@ -1,0 +1,4 @@
+{
+  "question": "What are the latest trends and strategic focuses in technology across various industries?",
+  "subtasks": "[{\"step\":1,\"task\":\"Identify the latest IT trends from the IndustryITTrend table for all industries.\",\"table\":[\"IndustryITTrend\"]},{\"step\":2,\"task\":\"Gather emerging business trends related to specific industries from the IndustryBusinessTrend table.\",\"table\":[\"IndustryBusinessTrend\"]},{\"step\":3,\"task\":\"Combine and analyze the data from both IndustryITTrend and IndustryBusinessTrend to highlight strategic technology focuses across sectors.\",\"table\":[\"IndustryITTrend\",\"IndustryBusinessTrend\"]},{\"step\":4,\"task\":\"Prepare a summary report outlining the findings on technology trends and business strategies in various industries.\",\"table\":[\"PageInfo\"]}]}"
+}

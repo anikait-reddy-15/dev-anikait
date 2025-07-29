@@ -1,0 +1,49 @@
+{
+  "question": "What are the current technology trends in the healthcare industry and how are companies responding to them?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify the specific technology trends relevant to the healthcare industry by analyzing data from the IndustryITTrend table.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Gather insights into how companies are focusing on these technology trends by exploring the CompanyFocusAreaDetail table to extract details on companies' strategic initiatives in healthcare technology.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Review the CompanyDealMaster table to find any recent B2B technology contracts or agreements within healthcare, focusing on deal values and technologies adopted.",
+      "table": [
+        "CompanyDealMaster"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Analyze social media activity of healthcare companies by examining CompanyFacebookDetail, CompanyInstagramDetail, CompanyTwitterDetail, and CompanyYoutubeDetail to measure engagement regarding technology-related topics.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyInstagramDetail",
+        "CompanyTwitterDetail",
+        "CompanyYoutubeDetail"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Compile a summary report of the findings from the previous steps including insights on technology trends, company initiatives, and social media engagement metrics.",
+      "table": [
+        "IndustryITTrend",
+        "CompanyFocusAreaDetail",
+        "CompanyDealMaster",
+        "CompanyFacebookDetail",
+        "CompanyInstagramDetail",
+        "CompanyTwitterDetail",
+        "CompanyYoutubeDetail"
+      ]
+    }
+  ]
+}

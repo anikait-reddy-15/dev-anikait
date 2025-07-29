@@ -1,0 +1,45 @@
+{
+  "question": "Analyze the social media presence of companies in the technology industry and compare engagement metrics across different platforms including Facebook, Instagram, Twitter, and YouTube.",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Retrieve a list of companies in the technology industry from the CompanyInfo table.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Collect Facebook engagement metrics for the identified companies from the CompanyFacebookDetail table.",
+      "table": [
+        "CompanyFacebookDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Collect Instagram engagement metrics for the identified companies from the CompanyInstagramDetail table.",
+      "table": [
+        "CompanyInstagramDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Collect Twitter engagement metrics for the identified companies from the CompanyTwitterDetail table.",
+      "table": [
+        "CompanyTwitterDetail"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Collect YouTube engagement metrics for the identified companies from the CompanyYoutubeDetail table.",
+      "table": [
+        "CompanyYoutubeDetail"
+      ]
+    },
+    {
+      "step": 6,
+      "task": "Compare the collected engagement metrics across all platforms to analyze the social media presence of the companies.",
+      "table": []
+    }
+  ]
+}

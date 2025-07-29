@@ -1,0 +1,37 @@
+{
+  "question": "What are the latest technology focus areas that companies are investing in across different industries?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify the unique technology focus areas from CompanyFocusAreaDetail table that are currently marked as active.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Link the identified technology focus areas to the respective companies in the CompanyInfo table to gather company details such as industry and revenue.",
+      "table": [
+        "CompanyFocusAreaDetail",
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Aggregate and analyze the data to determine trends in technology focus areas by industry, highlighting which fields are receiving the most investment.",
+      "table": [
+        "CompanyFocusAreaDetail",
+        "CompanyInfo",
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Prepare insights on how these technology focus areas correlate with broader industry trends captured in the IndustryBusinessTrend and IndustryITTrend tables.",
+      "table": [
+        "IndustryBusinessTrend",
+        "IndustryITTrend"
+      ]
+    }
+  ]
+}

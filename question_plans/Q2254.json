@@ -1,0 +1,40 @@
+{
+  "question": "What are the current trends in technology adoption across different industries, particularly focusing on AI and cloud computing?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify the key industries where AI and cloud computing trends are prevalent by analyzing the IndustryITTrend table.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Gather detailed insights and narratives about technology adoption trends within these industries from the IndustryBusinessTrend table.",
+      "table": [
+        "IndustryBusinessTrend"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Extract specific examples of companies that are leading the way in AI and cloud technology adoption from the CompanyTechStack table.",
+      "table": [
+        "CompanyTechStack"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Compile social media engagement metrics from the SocialMediaInfo table to analyze the public discourse related to AI and cloud computing trends.",
+      "table": [
+        "SocialMediaInfo"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Summarize the findings into a report format detailing industry insights, leading companies, and social media perception of AI and cloud adoption trends.",
+      "table": [
+        "PageInfo"
+      ]
+    }
+  ]
+}

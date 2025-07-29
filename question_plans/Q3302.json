@@ -1,0 +1,42 @@
+{
+  "question": "Identify the major technology trends across different industries and their impact on company IT strategies.",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Gather data on emerging technology trends from the IndustryITTrend table to understand technological priorities across sectors.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Collect detailed records of company IT strategies and initiatives from CompanyFocusAreaDetail to analyze how companies are adapting to these trends.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze vendor relationships and technology services from the CompanyVendorTechDetail table to evaluate the influence of vendors in shaping company IT strategies regarding the identified trends.",
+      "table": [
+        "CompanyVendorTechDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Compile a comparative analysis of IT budget allocation from CompanyInfo to assess how financial resources are directed towards emerging technology areas based on current trends.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Summarize findings into a comprehensive report, linking industry trends to specific company strategies and vendor engagements for actionable insights.",
+      "table": [
+        "IndustryITTrend",
+        "CompanyFocusAreaDetail",
+        "CompanyVendorTechDetail"
+      ]
+    }
+  ]
+}

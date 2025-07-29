@@ -1,0 +1,4 @@
+{
+  "question": "What are the current hiring trends in the technology industry based on the company's active hiring initiatives?",
+  "subtasks": "[{'step': 1, 'task': 'Identify active hiring initiatives from companies in the technology industry.', 'table': ['CompanyHiringDetail', 'CompanyInfo']}, {'step': 2, 'task': 'Analyze the data for roles and domains that are currently in demand.', 'table': ['CompanyHiringDetail']}, {'step': 3, 'task': 'Extract geographic data to understand where these hiring trends are concentrated.', 'table': ['CompanyHiringDetail', 'CompanyInfo']}, {'step': 4, 'task': 'Aggregate and summarize findings to present overall trends in technology hiring.', 'table': []}]"
+}

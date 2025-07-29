@@ -1,0 +1,43 @@
+{
+  "question": "What are the current IT investments and strategic technology focus areas of leading companies in the technology industry?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify leading companies in the technology industry and their IT budgets.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Gather strategic technology focus areas and initiatives of these companies.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze current IT partner relationships and collaboration details of leading technology companies.",
+      "table": [
+        "CompanyITPartnerDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Collect insights about technology adoption and contracts from the CompanyDealMaster for further analysis.",
+      "table": [
+        "CompanyDealMaster"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Compile and summarize engagement metrics from various social media platforms related to these companies to understand their market presence.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyInstagramDetail",
+        "CompanyTwitterDetail",
+        "CompanyYoutubeDetail"
+      ]
+    }
+  ]
+}

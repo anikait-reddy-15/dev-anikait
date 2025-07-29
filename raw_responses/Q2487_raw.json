@@ -1,0 +1,4 @@
+{
+  "question": "What are the key tech trends in the industry and which companies are adopting them?",
+  "subtasks": "[{\"step\":1,\"task\":\"Identify the emerging IT trends relevant to different industries.\",\"table\":[\"IndustryITTrend\"]},{\"step\":2,\"task\":\"Gather a list of companies associated with each identified IT trend.\",\"table\":[\"CompanyTechStack\"]},{\"step\":3,\"task\":\"Analyze the technologies used by the companies to determine their alignment with the identified trends.\",\"table\":[\"CompanyTechStack\"]},{\"step\":4,\"task\":\"Compile a report summarizing the industry trends and companies adopting those technologies.\",\"table\":[\"IndustryITTrend\",\"CompanyInfo\"]}]"
+}

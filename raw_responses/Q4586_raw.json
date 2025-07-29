@@ -1,0 +1,4 @@
+{
+  "question": "What are the IT trends and technology focus areas across different industries, and how do these influence companies' strategic directions?",
+  "subtasks": "[{'step': 1, 'task': 'Identify the relevant IT trends across various industries.', 'table': ['IndustryITTrend']}, {'step': 2, 'task': 'Gather detailed narratives and strategic focus areas for each industry.', 'table': ['IndustryBusinessTrend']}, {'step': 3, 'task': 'Analyze how individual companies align their strategic directions with the identified IT trends.', 'table': ['CompanyTechStack', 'CompanyFocusAreaDetail']}, {'step': 4, 'task': 'Summarize the relationships between industry trends and companies adopting certain technologies.', 'table': ['CompanyInfo', 'CompanyVendorProductDetail']}, {'step': 5, 'task': 'Assess the impact of these trends on the companies\u2019 overall performance metrics (e.g., revenue, market capitalization).', 'table': ['CompanyInfo']}]}"
+}

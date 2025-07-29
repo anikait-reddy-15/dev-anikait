@@ -1,0 +1,4 @@
+{
+  "question": "What are the current technology trends among companies in the manufacturing industry?",
+  "subtasks": "[{\"step\":1,\"task\":\"Identify all companies classified under the manufacturing industry along with their technology usage records.\",\"table\":[\"CompanyInfo\",\"CompanyTechStack\"]},{\"step\":2,\"task\":\"Analyze the technology trends within the retrieved manufacturing companies, focusing on specific technologies adopted (e.g., AI, IoT, Automation).\",\"table\":[\"CompanyTechStack\"]},{\"step\":3,\"task\":\"Research the strategic technology focus areas declared by these manufacturing companies to correlate with technology trends identified in step 2.\",\"table\":[\"CompanyFocusAreaDetail\"]},{\"step\":4,\"task\":\"Gather any relevant industry business or IT trend information to provide a comprehensive view of the landscape impacting this sector.\",\"table\":[\"IndustryBusinessTrend\",\"IndustryITTrend\"]}]}"
+}

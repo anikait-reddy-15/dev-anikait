@@ -1,0 +1,4 @@
+{
+  "question": "What are the emerging IT trends across different industries based on the latest data?",
+  "subtasks": "[{'step': 1, 'task': 'Identify the industries of interest for emerging IT trends.', 'table': ['IndustryITTrend']}, {'step': 2, 'task': 'Gather data on specific IT focus areas adopted by these industries.', 'table': ['IndustryITTrend']}, {'step': 3, 'task': 'Analyze the detailed narratives and strategic focuses within the emerging IT trends.', 'table': ['IndustryITTrend']}, {'step': 4, 'task': 'Compile a report summarizing the trends, focus areas, and industry insights.', 'table': ['PageInfo', 'SectionInfo']}]}"
+}

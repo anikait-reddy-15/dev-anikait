@@ -1,0 +1,41 @@
+{
+  "question": "What are the recent trends in technology adoption among companies in the manufacturing industry?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify all companies operating in the manufacturing industry and their relevant IT budgets and technological investments.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Gather data on recent technology partnerships and vendor collaborations for these manufacturing companies to analyze their technology adoption strategies.",
+      "table": [
+        "CompanyITPartnerDetail",
+        "CompanyVendorTechDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Investigate emerging technology trends specific to the manufacturing sector from the IndustryITTrend table to correlate them with the technology adoption data of the identified companies.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Compile social media engagements to assess how companies in the manufacturing sector promote their technological advancements.",
+      "table": [
+        "SocialMediaInfo"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Analyze hiring trends within these companies to determine what skills they are seeking related to technology adoption in the manufacturing industry.",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    }
+  ]
+}

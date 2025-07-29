@@ -1,0 +1,35 @@
+{
+  "question": "What are the most impactful technology focus areas for companies in the last year?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify the key technology focus areas from companies' strategic initiatives based on the latest data.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Filter focus areas to find those that have data entries from the last year.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Gather related company information, including their financial metrics and market capitalization, to assess the impact of these focus areas.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Analyze the gathered data to determine which focus areas align with notable financial growth or significant market activities in the last year.",
+      "table": [
+        "CompanyDealMaster",
+        "CompanyFocusAreaDetail",
+        "CompanyInfo"
+      ]
+    }
+  ]
+}

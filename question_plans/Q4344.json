@@ -1,0 +1,33 @@
+{
+  "question": "What are the technology adoption trends among companies in the IT industry over the last few years?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify the companies operating in the IT industry by querying the CompanyInfo table for the specific industry type.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Gather data on the technologies used by these IT companies by analyzing the CompanyTechStack table for relevant records linked to the identified companies.",
+      "table": [
+        "CompanyTechStack"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the CompanyFocusAreaDetail table to determine the strategic focus areas related to technology for the IT companies identified, focusing on recent developments and trends.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Combine insights from CompanyDealMaster to review recent contracts and services adopted by IT companies, focusing on technological terms and innovations observed in the deals.",
+      "table": [
+        "CompanyDealMaster"
+      ]
+    }
+  ]
+}

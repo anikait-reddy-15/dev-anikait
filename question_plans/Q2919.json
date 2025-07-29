@@ -1,0 +1,45 @@
+{
+  "question": "Analyze how technology adoption trends vary across different industries and their impact on market strategies.",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Gather data on technology focus areas for various industries from the IndustryITTrend table to identify current adoption trends.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Collect detailed company-level information from CompanyInfo and CompanyFocusAreaDetail tables to understand how companies are aligning their strategies with technology trends.",
+      "table": [
+        "CompanyInfo",
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Combine insights from CompanyDealMaster and CompanyVendorTechDetail tables to assess how partnerships and vendor engagements play a role in technology adoption across industries.",
+      "table": [
+        "CompanyDealMaster",
+        "CompanyVendorTechDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Analyze social media engagement from CompanyFacebookDetail, CompanyInstagramDetail, and CompanyTwitterDetail to see if there's a correlation between social media presence and technology adoption in industries.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyInstagramDetail",
+        "CompanyTwitterDetail"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Summarize findings in a structured report format using data from PageInfo and SectionInfo for effective communication of the results.",
+      "table": [
+        "PageInfo",
+        "SectionInfo"
+      ]
+    }
+  ]
+}

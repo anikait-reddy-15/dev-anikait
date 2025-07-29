@@ -1,0 +1,4 @@
+{
+  "question": "What are the leading technology focus areas for companies in the financial industry?",
+  "subtasks": "[{\"step\":1,\"task\":\"Identify companies operating in the financial industry from the CompanyInfo table.\",\"table\":[\"CompanyInfo\"]},{\"step\":2,\"task\":\"Gather all the strategic technology focus areas for the identified companies from the CompanyFocusAreaDetail table.\",\"table\":[\"CompanyFocusAreaDetail\"]},{\"step\":3,\"task\":\"Analyze and summarize the technology focus areas to find which ones are leading or most common among these companies.\",\"table\":[\"CompanyFocusAreaDetail\"]},{\"step\":4,\"task\":\"Compile insights into a report detailing the prominent technology trends in the financial sector based on the findings.\",\"table\":[\"CompanyFocusAreaDetail\",\"CompanyInfo\"]}]}"
+}

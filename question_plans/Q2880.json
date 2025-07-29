@@ -1,0 +1,41 @@
+{
+  "question": "Analyze the digital transformation strategies of companies in the technology sector based on their IT investments, partnerships, and social media engagement.",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify technology companies and their IT budgets from the CompanyInfo table.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Gather strategic focus areas by examining partnerships through the CompanyITPartnerDetail table.",
+      "table": [
+        "CompanyITPartnerDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Collect social media engagement metrics from CompanyFacebookDetail, CompanyTwitterDetail, CompanyInstagramDetail, and CompanyYoutubeDetail.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyTwitterDetail",
+        "CompanyInstagramDetail",
+        "CompanyYoutubeDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Analyze the relationships between IT investments and social media engagement to derive insights on digital transformation trends.",
+      "table": [
+        "CompanyInfo",
+        "CompanyITPartnerDetail",
+        "CompanyFacebookDetail",
+        "CompanyTwitterDetail",
+        "CompanyInstagramDetail",
+        "CompanyYoutubeDetail"
+      ]
+    }
+  ]
+}

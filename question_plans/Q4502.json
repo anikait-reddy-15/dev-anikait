@@ -1,0 +1,27 @@
+{
+  "question": "What are the emerging technology trends companies are focusing on and how do these vary by industry?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify the list of industries represented in the database along with their respective technology trends.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract and summarize the technology focus areas from companies that correspond to each industry identified in the first step.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze and compile information on company initiatives related to emerging technologies and their respective impact across different industries.",
+      "table": [
+        "CompanyTechStack",
+        "IndustryBusinessTrend"
+      ]
+    }
+  ]
+}

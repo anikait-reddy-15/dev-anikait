@@ -1,0 +1,38 @@
+{
+  "question": "What are the current IT focus areas and social media presence of leading companies in the technology industry?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify leading companies in the technology industry based on revenue and market capitalization.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract the IT focus areas for each identified company to understand their strategic technology priorities.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Compile the social media presence data for each leading company, including Facebook, Twitter, Instagram, and LinkedIn metrics to assess their engagement levels.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyTwitterDetail",
+        "CompanyInstagramDetail",
+        "SocialMediaInfo"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Analyze the combined data to evaluate the relationship between IT focus areas and social media engagement for insights into their overall digital strategy.",
+      "table": [
+        "CompanyInfo",
+        "CompanyFocusAreaDetail",
+        "SocialMediaInfo"
+      ]
+    }
+  ]
+}

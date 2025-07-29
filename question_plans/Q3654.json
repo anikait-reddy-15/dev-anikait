@@ -1,0 +1,30 @@
+{
+  "question": "What are the key social media metrics for the top 5 companies in the technology industry?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify the top 5 companies in the technology industry based on their market capitalization or revenue.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Gather social media engagement metrics (likes, comments, reposts) for the identified companies from all relevant social media platforms (Facebook, Instagram, Twitter, YouTube).",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyInstagramDetail",
+        "CompanyTwitterDetail",
+        "CompanyYoutubeDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Compile the social media metrics into a summary report, highlighting key engagement statistics for each of the top 5 technology companies.",
+      "table": [
+        "CompanyInfo",
+        "SocialMediaInfo"
+      ]
+    }
+  ]
+}

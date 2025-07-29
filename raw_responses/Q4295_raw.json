@@ -1,0 +1,4 @@
+{
+  "question": "What are the current hiring trends in the technology industry based on company activity?",
+  "subtasks": "[{\"step\":1,\"task\":\"Collect data on active hiring initiatives from companies in the technology industry for the current year.\",\"table\":[\"CompanyHiringDetail\",\"CompanyInfo\"]},{\"step\":2,\"task\":\"Analyze the job roles and designations listed in the hiring data to identify which positions are in highest demand.\",\"table\":[\"CompanyHiringDetail\",\"PersonaTitle\"]},{\"step\":3,\"task\":\"Examine geographic patterns in hiring by linking job postings to their respective city locations and companies' headquarters.\",\"table\":[\"CompanyHiringDetail\",\"CompanyDataCenter\",\"CompanyInfo\"]},{\"step\":4,\"task\":\"Summarize the findings and identify trends such as popular tech domains or skills required by employers in the technology sector.\",\"table\":[\"CompanyHiringDetail\"]}]}"
+}

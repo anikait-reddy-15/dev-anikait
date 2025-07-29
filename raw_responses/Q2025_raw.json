@@ -1,0 +1,4 @@
+{
+  "question": "Analyze the technology adoption trends across different industries based on vendor engagements and social media presence.",
+  "subtasks": "[{\"step\":1,\"task\":\"Identify the technology focus areas adopted by companies in various industries by analyzing the CompanyTechStack and CompanyVendorProductDetail tables.\",\"table\":[\"CompanyTechStack\",\"CompanyVendorProductDetail\"]},{\"step\":2,\"task\":\"Gather data on social media engagement metrics for companies, focusing on platforms such as Facebook, Twitter, and Instagram to assess their digital presence and influence.\",\"table\":[\"CompanyFacebookDetail\",\"CompanyTwitterDetail\",\"CompanyInstagramDetail\"]},{\"step\":3,\"task\":\"Compile a list of companies along with their associated technology focus areas and social media engagement metrics to evaluate trends in technology adoption across industries.\",\"table\":[\"CompanyInfo\",\"CompanyFocusAreaDetail\",\"SocialMediaInfo\"]}]"
+}

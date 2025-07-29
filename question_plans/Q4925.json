@@ -1,0 +1,43 @@
+{
+  "question": "What are the latest IT trends across various industries, and which companies are leading the adoption of these technologies?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify and list the latest IT trends recorded in the IndustryITTrend table.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Find companies from the CompanyInfo table that are associated with these identified IT trends, focusing on their ITFocusAreaDetail entries to link them to specific technologies.",
+      "table": [
+        "CompanyInfo",
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze contract data from CompanyDealMaster to determine which companies have recently entered into agreements for new technologies aligned with the identified trends.",
+      "table": [
+        "CompanyDealMaster"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Compile an overview of companies leading in the adoption of tech solutions based on their ITBudget and NetIncome from CompanyInfo to see their economic ability to invest.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Summarize findings into a report detailing industry trends, leading companies, and their strategic focus areas.",
+      "table": [
+        "IndustryITTrend",
+        "CompanyFocusAreaDetail",
+        "CompanyInfo"
+      ]
+    }
+  ]
+}

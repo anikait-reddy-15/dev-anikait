@@ -1,0 +1,4 @@
+{
+  "question": "What are the current IT budget trends among companies in the technology sector?",
+  "subtasks": "[\n  {\n    \"step\": 1,\n    \"task\": \"Identify all companies in the technology sector from the CompanyInfo table.\",\n    \"table\": [\"CompanyInfo\"]\n  },\n  {\n    \"step\": 2,\n    \"task\": \"Retrieve the IT budgets of the identified technology companies.\",\n    \"table\": [\"CompanyInfo\"]\n  },\n  {\n    \"step\": 3,\n    \"task\": \"Analyze the IT budget data to find trends, including average, maximum, and minimum budgets.\",\n    \"table\": [\"CompanyInfo\"]\n  },\n  {\n    \"step\": 4,\n    \"task\": \"Compare the IT budgets across different geographic regions stored in the CompanyInfo table.\",\n    \"table\": [\"CompanyInfo\"]\n  },\n  {\n    \"step\": 5,\n    \"task\": \"Summarize findings and present them in a report format, highlighting key trends in the technology sector's IT budgets.\",\n    \"table\": []\n  }\n]"
+}

@@ -1,0 +1,41 @@
+{
+  "question": "What are the current technology focus areas and social media engagement metrics for companies in the IT industry?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Retrieve the current technology focus areas for companies in the IT industry.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract social media engagement metrics for companies in the IT industry including Facebook, Twitter, Instagram, and YouTube.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyTwitterDetail",
+        "CompanyInstagramDetail",
+        "CompanyYoutubeDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Filter the results to include only active companies in the IT sector.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Compile the data to create a report summarizing the technology focus areas along with the corresponding social media engagement metrics.",
+      "table": [
+        "CompanyInfo",
+        "CompanyFocusAreaDetail",
+        "CompanyFacebookDetail",
+        "CompanyTwitterDetail",
+        "CompanyInstagramDetail",
+        "CompanyYoutubeDetail"
+      ]
+    }
+  ]
+}

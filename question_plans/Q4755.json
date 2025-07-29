@@ -1,0 +1,34 @@
+{
+  "question": "What are the latest hiring trends across the technology sector based on company data?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify technology companies by filtering the CompanyInfo table for relevant industries and active companies.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Gather hiring data for the identified companies by querying the CompanyHiringDetail table to analyze job openings and requirements.",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the hiring data to determine trends such as in-demand roles, required skills, and geographic preferences for hiring in the technology sector.",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Compile a summary report of the findings, highlighting key insights and provide visual data representations based on the analyzed trends.",
+      "table": [
+        "CompanyHiringDetail",
+        "CompanyInfo"
+      ]
+    }
+  ]
+}

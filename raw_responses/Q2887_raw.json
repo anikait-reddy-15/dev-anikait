@@ -1,0 +1,4 @@
+{
+  "question": "What are the current trends among companies in the technology sector regarding their hiring practices and social media engagement?",
+  "subtasks": "[{'step': 1, 'task': 'Identify the technology sector companies and their hiring strategies.', 'table': ['CompanyInfo', 'CompanyHiringDetail']}, {'step': 2, 'task': 'Analyze the social media presence and engagement metrics of technology companies.', 'table': ['CompanyFacebookDetail', 'CompanyInstagramDetail', 'CompanyTwitterDetail', 'CompanyYoutubeDetail', 'SocialMediaInfo']}, {'step': 3, 'task': 'Evaluate the relationship between hiring trends and social media engagement across these companies.', 'table': ['CompanyHiringDetail', 'CompanyFacebookDetail', 'CompanyInstagramDetail', 'CompanyTwitterDetail', 'CompanyYoutubeDetail']}]}"
+}

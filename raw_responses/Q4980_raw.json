@@ -1,0 +1,4 @@
+{
+  "question": "How are companies leveraging social media platforms to enhance their brand awareness?",
+  "subtasks": "[{\"step\":1,\"task\":\"Identify companies with significant engagement metrics on social media platforms\",\"table\":[\"SocialMediaInfo\"]},{\"step\":2,\"task\":\"Extract social media engagement data including counts and types of platforms used by companies\",\"table\":[\"CompanyFacebookDetail\",\"CompanyInstagramDetail\",\"CompanyTwitterDetail\"]},{\"step\":3,\"task\":\"Analyze the correlation between social media engagement metrics and company revenue or market capitalization\",\"table\":[\"CompanyInfo\"]},{\"step\":4,\"task\":\"Gather leadership excerpts related to social media strategies from company executives\",\"table\":[\"CompanyLeadershipExcerpt\"]},{\"step\":5,\"task\":\"Compile overall insights and trends in social media strategies from the gathered data and metrics\",\"table\":[\"SectionData\"]}]}"
+}

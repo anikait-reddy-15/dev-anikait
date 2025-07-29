@@ -1,0 +1,4 @@
+{
+  "question": "Analyze the hiring trends across different companies and their IT focus areas for Q1 2024.",
+  "subtasks": "[{\"step\":1,\"task\":\"Identify companies that have active hiring initiatives in Q1 2024.\",\"table\":[\"CompanyHiringDetail\"]},{\"step\":2,\"task\":\"Gather IT focus areas of the companies identified in step 1 to understand their strategic technology priorities.\",\"table\":[\"CompanyFocusAreaDetail\"]},{\"step\":3,\"task\":\"Cross-reference the hiring initiatives data with the IT focus areas to analyze trends and correlations in hiring related to specific IT technologies or sectors.\",\"table\":[\"CompanyHiringDetail\",\"CompanyFocusAreaDetail\"]},{\"step\":4,\"task\":\"Compile the analysis results into a report summarizing hiring trends by company and their respective IT focus areas for Q1 2024.\",\"table\":[\"CompanyHiringDetail\",\"CompanyFocusAreaDetail\"]}]}"
+}

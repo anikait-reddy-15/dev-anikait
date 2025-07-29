@@ -1,0 +1,28 @@
+{
+  "question": "What are the key technology focus areas and their associated financial health metrics for companies in the technology industry?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Retrieve companies operating in the technology industry and their key technology focus areas.",
+      "table": [
+        "CompanyInfo",
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Collect financial metrics such as revenue, net income, and IT budget for the retrieved companies.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Consolidate the financial metrics with technology focus areas to analyze the relationship between them.",
+      "table": [
+        "CompanyFocusAreaDetail",
+        "CompanyInfo"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "question": "What are the recent trends in IT investment across different industries?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify the key IT focus areas and trends from the IndustryITTrend table to understand the technological priorities across industries.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Analyze financial metrics such as IT budgets and market capitalizations of companies from the CompanyInfo table to correlate with identified IT trends.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Compile data from the CompanyDealMaster table to identify the nature and value of recent technology service contracts that reflect investments in emerging IT trends.",
+      "table": [
+        "CompanyDealMaster"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Aggregate social media influences from CompanyFacebookDetail, CompanyInstagramDetail, and CompanyTwitterDetail to see how companies are communicating their IT investments and emerging trends.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyInstagramDetail",
+        "CompanyTwitterDetail"
+      ]
+    }
+  ]
+}

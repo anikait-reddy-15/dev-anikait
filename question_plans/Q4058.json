@@ -1,0 +1,43 @@
+{
+  "question": "What are the current trends in technology adoption across different companies in the manufacturing industry?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify all companies operating within the manufacturing industry and extract their details such as active status, revenue, and IT budget.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Collect data on technology stacks used by the identified manufacturing companies, including any specific tools or platforms they have adopted.",
+      "table": [
+        "CompanyTechStack"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the technology focus areas for these manufacturing companies to understand their strategic IT initiatives and priorities.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Examine partnerships and vendor relationships to determine how these companies are integrating external technologies into their operations.",
+      "table": [
+        "CompanyITPartnerDetail",
+        "CompanyVendorTechDetail"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Aggregate and summarize the findings into trends presentations, focusing on common technologies adopted and investment patterns across the manufacturing sector.",
+      "table": [
+        "CompanyInfo",
+        "CompanyTechStack",
+        "CompanyFocusAreaDetail"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+{
+  "question": "What are the current trends in IT investment across different industries, specifically focusing on digital transformation initiatives?",
+  "subtasks": "[{'step': 1, 'task': 'Identify all the industries represented in the CompanyInfo table and note their current IT budgets and strategic focus areas.', 'table': ['CompanyInfo', 'CompanyFocusAreaDetail']}, {'step': 2, 'task': 'Gather data on the recent IT trends from the IndustryITTrend table for each identified industry.', 'table': ['IndustryITTrend']}, {'step': 3, 'task': 'Analyze the CompanyDealMaster table for technology service contracts focusing on digital transformation services and categorize them by industry.', 'table': ['CompanyDealMaster']}, {'step': 4, 'task': 'Compile and summarize the findings from the collected data into a report that outlines the current trends in IT investments.', 'table': []}]}"
+}

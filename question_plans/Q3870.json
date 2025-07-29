@@ -1,0 +1,35 @@
+{
+  "question": "What are the current trends and hiring demands in the technology sector for companies in the USA?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies operating within the technology sector and located in the USA by filtering the CompanyInfo table based on the Industry and Geography fields.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Analyze the current hiring initiatives of the identified technology companies by extracting relevant data from the CompanyHiringDetail table to understand job roles, skills required, and geographic hiring patterns.",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Examine recent social media activities (Facebook, Twitter, Instagram) of these companies to identify trending topics, engagement metrics, and content themes by using the respective social media detail tables.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyTwitterDetail",
+        "CompanyInstagramDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Gather industry-wide trends on technology adoption by analyzing data in the IndustryITTrend table to correlate hiring demands with emerging technologies relevant to the identified companies.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    }
+  ]
+}

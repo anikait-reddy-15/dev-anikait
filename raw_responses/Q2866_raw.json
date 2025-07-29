@@ -1,0 +1,4 @@
+{
+  "question": "What are the top five companies in the technology industry based on revenue, and how do their social media metrics compare?",
+  "subtasks": "[{'step': 1, 'task': 'Identify companies in the technology industry and retrieve their revenue data.', 'table': ['CompanyInfo']}, {'step': 2, 'task': 'Sort the identified companies by revenue in descending order and select the top five.', 'table': ['CompanyInfo']}, {'step': 3, 'task': 'Gather social media metrics for the top five companies from the relevant social media detail tables.', 'table': ['CompanyFacebookDetail', 'CompanyInstagramDetail', 'CompanyTwitterDetail', 'CompanyYoutubeDetail']}, {'step': 4, 'task': 'Compare the social media metrics of the top five technology companies.', 'table': []}]}"
+}

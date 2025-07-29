@@ -1,0 +1,37 @@
+{
+  "question": "Analyze the social media engagement trends and overall market strategy of technology companies within the cloud computing sector.",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify technology companies operating in the cloud computing sector and their corresponding revenue and market capitalization metrics.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Gather social media engagement data (likes, comments, shares) for the identified companies from various platforms such as Facebook, Instagram, and Twitter.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyInstagramDetail",
+        "CompanyTwitterDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the strategic focus areas related to cloud computing for the identified companies, including partnerships and technology adoption patterns.",
+      "table": [
+        "CompanyFocusAreaDetail",
+        "CompanyVendorTechDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Compile overall findings into a report that includes social media metrics, financial performance, and strategic insights for each company.",
+      "table": [
+        "CompanyInfo",
+        "SocialMediaInfo"
+      ]
+    }
+  ]
+}

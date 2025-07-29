@@ -1,0 +1,4 @@
+{
+  "question": "What are the top IT focus areas for companies in the technology industry for 2023?",
+  "subtasks": "[{\"step\":1,\"task\":\"Identify all companies in the technology industry from the CompanyInfo table.\",\"table\":[\"CompanyInfo\"]},{\"step\":2,\"task\":\"Retrieve the corresponding IT focus areas for the identified technology companies from the CompanyFocusAreaDetail table.\",\"table\":[\"CompanyFocusAreaDetail\"]},{\"step\":3,\"task\":\"Aggregate and analyze the retrieved focus areas to determine the most prevalent IT trends for 2023.\",\"table\":[\"CompanyFocusAreaDetail\"]},{\"step\":4,\"task\":\"Generate a report summarizing the top IT focus areas along with insights on their significance and potential impact for technology companies in 2023.\",\"table\":[\"CompanyFocusAreaDetail\"]}]}"
+}

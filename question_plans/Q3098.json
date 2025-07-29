@@ -1,0 +1,41 @@
+{
+  "question": "What are the current technology adoption trends and social media engagement levels of companies in the technology industry?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify all companies within the technology industry and retrieve their relevant metadata such as name, IT budget, and founded year.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Analyze the technology stack of the identified technology companies to determine which trends are emerging in technology adoption.",
+      "table": [
+        "CompanyTechStack"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Compile social media engagement metrics for the identified companies, specifically focusing on their Facebook, Twitter, Instagram, and LinkedIn activities.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyTwitterDetail",
+        "CompanyInstagramDetail",
+        "SocialMediaInfo"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Summarize and compare the collected technology trends and social media engagement metrics across these companies to identify patterns and insights.",
+      "table": [
+        "CompanyInfo",
+        "CompanyTechStack",
+        "CompanyFacebookDetail",
+        "CompanyTwitterDetail",
+        "CompanyInstagramDetail",
+        "SocialMediaInfo"
+      ]
+    }
+  ]
+}

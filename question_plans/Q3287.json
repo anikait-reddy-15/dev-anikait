@@ -1,0 +1,39 @@
+{
+  "question": "What are the key social media engagement trends for companies in the IT industry over the past year?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies in the IT industry from the CompanyInfo table.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Gather social media engagement data for these companies using the SocialMediaInfo table to find metrics like count and active status.",
+      "table": [
+        "SocialMediaInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze Facebook, Twitter, Instagram, and YouTube engagement metrics by collecting data from respective social media detail tables.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyTwitterDetail",
+        "CompanyInstagramDetail",
+        "CompanyYoutubeDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Compile trends over the past year by comparing engagement data across different platforms for IT companies based on time stamps.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyTwitterDetail",
+        "CompanyInstagramDetail",
+        "CompanyYoutubeDetail"
+      ]
+    }
+  ]
+}

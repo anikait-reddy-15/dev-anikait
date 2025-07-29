@@ -1,0 +1,4 @@
+{
+  "question": "Identify the technology adoption trends among companies in the healthcare sector.",
+  "subtasks": "[{\"step\":1,\"task\":\"Gather a list of companies operating in the healthcare sector and their basic details such as revenue and employee count.\",\"table\":[\"CompanyInfo\"]},{\"step\":2,\"task\":\"Collect data on the technology stack used by the identified healthcare companies to understand what technologies they have adopted.\",\"table\":[\"CompanyTechStack\"]},{\"step\":3,\"task\":\"Analyze partnership details of healthcare companies to see how they collaborate with technology vendors.\",\"table\":[\"CompanyITPartnerDetail\"]},{\"step\":4,\"task\":\"Look into industry-specific IT trends to correlate them with the data gathered on technology adoption in the healthcare sector.\",\"table\":[\"IndustryITTrend\"]}]"
+}

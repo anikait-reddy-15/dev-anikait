@@ -1,0 +1,4 @@
+{
+  "question": "What are the recent hiring trends in the IT industry for companies in North America?",
+  "subtasks": "[{\"step\":1,\"task\":\"Identify the companies operating in the IT industry within North America and their active status.\",\"table\":[\"CompanyInfo\"]},{\"step\":2,\"task\":\"Extract recent hiring details including domains and designations for the identified companies in North America.\",\"table\":[\"CompanyHiringDetail\"]},{\"step\":3,\"task\":\"Analyze the hiring trends by aggregating data on the number of positions available and required skills across the companies.\",\"table\":[\"CompanyHiringDetail\"]},{\"step\":4,\"task\":\"Summarize the findings into insights about the common roles and skills being sought after in the IT sector in North America.\",\"table\":[\"CompanyHiringDetail\"]}]}"
+}

@@ -1,0 +1,43 @@
+{
+  "question": "What are the current IT focus areas and technology adoption trends of leading companies in the technology industry?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify leading companies in the technology industry based on their financial metrics such as revenue and market capitalization.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract strategic technology focus areas for the identified companies to understand their current initiatives and directions.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the technology stack being used by these companies to identify trends in technology adoption such as cloud computing, AI, or cybersecurity.",
+      "table": [
+        "CompanyTechStack"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Gather data on any partnerships or collaborations identified in the previous steps and their implications for technology trends.",
+      "table": [
+        "CompanyITPartnerDetail"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Compile all findings into a comprehensive report detailing both the focus areas and trends for the leading companies in the technology industry.",
+      "table": [
+        "CompanyInfo",
+        "CompanyFocusAreaDetail",
+        "CompanyTechStack",
+        "CompanyITPartnerDetail"
+      ]
+    }
+  ]
+}

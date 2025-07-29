@@ -1,0 +1,4 @@
+{
+  "question": "Analyze the hiring trends of companies in the 'Technology' industry over the past year.",
+  "subtasks": "[{\"step\":1,\"task\":\"Identify all companies operating in the 'Technology' industry and filter for those active in the last year.\",\"table\":[\"CompanyInfo\"]},{\"step\":2,\"task\":\"Retrieve hiring initiatives from the identified technology companies for the past year, including job designations and locations.\",\"table\":[\"CompanyHiringDetail\"]},{\"step\":3,\"task\":\"Aggregate hiring data to determine which roles are in highest demand within the technology industry based on the hiring initiatives collected.\",\"table\":[\"CompanyHiringDetail\"]},{\"step\":4,\"task\":\"Analyze hiring trends by comparing the current year data to previous periods to identify growth or decline in specific roles or skill sets.\",\"table\":[\"CompanyHiringDetail\"]}]"
+}

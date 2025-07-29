@@ -1,0 +1,41 @@
+{
+  "question": "What are the emerging IT trends among companies in the technology sector?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify and list all companies classified under the technology sector in the CompanyInfo table.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Retrieve records related to IT trends from the IndustryITTrend table that correspond to the technology sector identified in step 1.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the specific IT focus areas for the identified companies using the CompanyFocusAreaDetail table and summarize findings according to trend categories.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Cross-reference IT trends with company financial performance from the CompanyInfo table to see how emerging trends relate to revenue, net income, and market capitalization.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Compile and present a report summarizing the emerging IT trends, statistics, and insights based on collected data from previous steps.",
+      "table": [
+        "IndustryITTrend",
+        "CompanyFocusAreaDetail"
+      ]
+    }
+  ]
+}

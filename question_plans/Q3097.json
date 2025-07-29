@@ -1,0 +1,42 @@
+{
+  "question": "What are the current major trends in IT and how are companies responding to these trends across various industries?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify the major IT trends recorded across different industries since recent years.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Analyze the strategic technology focus areas of companies to understand how they align with identified IT trends.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Review company-level social media engagement to determine how companies communicate their responses to these IT trends.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyTwitterDetail",
+        "CompanyInstagramDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Collect financial metrics from companies to evaluate whether company investments in IT correlate with their identified strategic focus areas.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Summarize key findings into defined categories to display trends, company focus areas, and social media engagement metrics.",
+      "table": [
+        "SectionData"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+{
+  "question": "What are the technology focus areas and recent hiring trends of companies in the technology industry?",
+  "subtasks": "+ step: 1\n  task: Identify companies in the technology industry and extract their records.\n  table: ['CompanyInfo']\n+ step: 2\n  task: Collect and summarize technology focus areas for the identified companies.\n  table: ['CompanyFocusAreaDetail']\n+ step: 3\n  task: Gather hiring details for the technology companies, including job roles and skills.\n  table: ['CompanyHiringDetail']\n+ step: 4\n  task: Analyze and correlate the technology focus areas with active hiring trends.\n  table: ['CompanyFocusAreaDetail', 'CompanyHiringDetail']\n+ step: 5\n  task: Compile a report summarizing findings on technology focus areas and hiring trends.\n  table: []"
+}

@@ -1,0 +1,4 @@
+{
+  "question": "What are the latest trends in IT investments among companies in the technology sector?",
+  "subtasks": "[{\"step\":1,\"task\":\"Identify companies in the technology sector and their associated IT budgets\",\"table\":[\"CompanyInfo\"]},{\"step\":2,\"task\":\"Collect data on recent IT service contracts to see the values and types of services being contracted\",\"table\":[\"CompanyDealMaster\"]},{\"step\":3,\"task\":\"Analyze technology focus areas of these companies to identify priorities and emerging trends\",\"table\":[\"CompanyFocusAreaDetail\"]},{\"step\":4,\"task\":\"Gather engagement metrics from social media platforms related to these companies' IT investments\",\"table\":[\"CompanyFacebookDetail\", \"CompanyInstagramDetail\", \"CompanyTwitterDetail\", \"CompanyYoutubeDetail\"]},{\"step\":5,\"task\":\"Summarize findings and generate insights on the overall IT investment trends from the collected data\",\"table\":[]}]}"
+}

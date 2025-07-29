@@ -1,0 +1,4 @@
+{
+  "question": "Provide an analysis of the social media engagement trends for the top 10 companies in the technology industry.",
+  "subtasks": "1. Identify the top 10 companies in the technology industry based on revenue or market capitalization. Retrieve the relevant company details from the CompanyInfo table.\n2. For each of the top 10 companies identified, gather their social media metrics including likes, comments, and engagement rates. This will involve accessing the CompanyFacebookDetail, CompanyInstagramDetail, and CompanyTwitterDetail tables.\n3. Analyze the engagement data collected to identify trends in social media usage, comparing interactions across different platforms (Facebook, Instagram, Twitter) for each company. This will help in understanding which platforms yield higher engagement rates for technology companies."
+}

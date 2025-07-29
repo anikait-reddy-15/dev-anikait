@@ -1,0 +1,4 @@
+{
+  "question": "What are the top strategic technology focus areas being pursued by leading companies in the technology industry?",
+  "subtasks": "[{\"step\":1,\"task\":\"Identify and query companies within the technology industry to obtain their IDs and names from the CompanyInfo table.\",\"table\":[\"CompanyInfo\"]},{\"step\":2,\"task\":\"Link the CompanyInfo data with the CompanyFocusAreaDetail table to extract the strategic technology focus areas for each identified technology company.\",\"table\":[\"CompanyFocusAreaDetail\"]},{\"step\":3,\"task\":\"Aggregate the data to find the most frequently mentioned strategic technology focus areas across the selected technology companies.\",\"table\":[\"CompanyFocusAreaDetail\"]},{\"step\":4,\"task\":\"Generate a report summarizing the findings, highlighting the top strategic technology focus areas along with the companies that are pursuing them.\",\"table\":[\"CompanyInfo\",\"CompanyFocusAreaDetail\"]}]"
+}

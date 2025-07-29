@@ -1,0 +1,33 @@
+{
+  "question": "Analyze the impact of social media presence on company revenue and market capitalization.",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Gather social media engagement data for companies, including likes, comments, and followers from platforms like Facebook, Twitter, Instagram, and YouTube.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyTwitterDetail",
+        "CompanyInstagramDetail",
+        "CompanyYoutubeDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Collect financial metrics of each company, focusing on revenue and market capitalization from the CompanyInfo table.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Aggregate social media metrics and financial data to assess correlation and derive insights regarding marketing effectiveness and revenue impact.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyTwitterDetail",
+        "CompanyInstagramDetail",
+        "CompanyYoutubeDetail",
+        "CompanyInfo"
+      ]
+    }
+  ]
+}

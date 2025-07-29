@@ -1,0 +1,4 @@
+{
+  "question": "What are the current technology focus areas and IT budgets for companies in the finance industry?",
+  "subtasks": "[{'step': 1, 'task': 'Identify and retrieve companies within the finance industry along with their IT budgets.', 'table': ['CompanyInfo']}, {'step': 2, 'task': 'Gather specific technology focus areas for each company in the finance sector.', 'table': ['CompanyFocusAreaDetail']}, {'step': 3, 'task': 'Compile the information into a structured format for analysis, linking technology focus areas to respective companies and their IT budgets.', 'table': ['CompanyInfo', 'CompanyFocusAreaDetail']}]"
+}

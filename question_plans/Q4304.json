@@ -1,0 +1,33 @@
+{
+  "question": "What are the key trends in technology adoption for companies within the finance industry?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify all companies in the finance industry by querying the CompanyInfo table for the Industry column specifically related to finance.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Gather technology adoption details for the identified finance companies by retrieving records from the CompanyTechStack table that correlate with the company IDs obtained in the previous step.",
+      "table": [
+        "CompanyTechStack"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the technology focus areas of these companies by checking the CompanyFocusAreaDetail table for any associated technology strategies and initiatives linked to the finance companies.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Review any contracts that include technology services particularly for finance companies by examining the CompanyDealMaster table for relevant entries related to the Finance sector.",
+      "table": [
+        "CompanyDealMaster"
+      ]
+    }
+  ]
+}

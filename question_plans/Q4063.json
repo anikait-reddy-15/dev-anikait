@@ -1,0 +1,40 @@
+{
+  "question": "What are the current industry trends and technology focus areas for companies in the IT sector?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify all companies operating in the IT industry using the CompanyInfo table to filter by the Industry column for the IT sector.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Gather data on industry-specific trends by querying the IndustryITTrend table to find the latest technology focus areas and trends related to the IT sector.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Compile a report that links the identified companies with their respective technology focus areas using the CompanyFocusAreaDetail table to provide detailed insights on their strategic initiatives.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Analyze company-specific technology adoption trends from the CompanyTechStack table to understand what technologies are being deployed and how they align with industry trends.",
+      "table": [
+        "CompanyTechStack"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Summarize findings with a focus on how the identified companies plan to innovate and tackle future challenges within the IT landscape based on their reported strategies and technologies.",
+      "table": [
+        "CompanyLeadershipExcerpt"
+      ]
+    }
+  ]
+}

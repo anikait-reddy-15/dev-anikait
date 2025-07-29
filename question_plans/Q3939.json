@@ -1,0 +1,47 @@
+{
+  "question": "How are companies in the technology sector using social media to engage with their audience?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify the companies classified under the technology sector by filtering the relevant columns in the CompanyInfo table.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Collect social media engagement data for the identified technology companies by querying the SocialMediaInfo table based on their CompanyInfoId.",
+      "table": [
+        "SocialMediaInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Summarize engagement metrics from the social media platforms such as Facebook, Twitter, Instagram, and YouTube for each identified company.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyTwitterDetail",
+        "CompanyInstagramDetail",
+        "CompanyYoutubeDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Analyze the engagement data to compare interaction rates across different platforms and identify trends or patterns in audience engagement.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyTwitterDetail",
+        "CompanyInstagramDetail",
+        "CompanyYoutubeDetail"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Compile the findings into a comprehensive report that highlights the key insights regarding the social media strategies adopted by these technology companies.",
+      "table": [
+        "PageInfo",
+        "SectionData"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "question": "What are the emerging IT trends that companies in the technology sector are focusing on?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify the relevant technology sectors by examining the CompanyInfo table for companies and their respective industries.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Explore the IndustryITTrend table to retrieve information on emerging IT trends linked to the identified technology sectors.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Aggregate and summarize the trends discovered in step 2 to understand common themes across the technology sector companies.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    }
+  ]
+}

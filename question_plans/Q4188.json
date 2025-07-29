@@ -1,0 +1,35 @@
+{
+  "question": "What are the latest trends in IT technologies adopted by companies across different industries?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify and list the key IT focus areas relevant to various industries based on the IndustryITTrend table.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract the latest records of technology focus areas from the CompanyFocusAreaDetail table to understand individual company initiatives in IT.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the CompanyTechStack table to identify specific technologies utilized by companies and correlate them with the trends identified in the previous steps.",
+      "table": [
+        "CompanyTechStack"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Compile a report that highlights the prevalent IT technologies and focus areas, along with any significant changes in trends over time across different industries.",
+      "table": [
+        "IndustryBusinessTrend",
+        "IndustryITTrend",
+        "CompanyFocusAreaDetail"
+      ]
+    }
+  ]
+}

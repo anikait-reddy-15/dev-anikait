@@ -1,0 +1,4 @@
+{
+  "question": "What are the current technology focus areas and hiring initiatives of leading companies in the IT industry?",
+  "subtasks": "[{\"step\":1,\"task\":\"Identify leading companies in the IT industry based on revenue and market capitalization.\",\"table\":[\"CompanyInfo\"]},{\"step\":2,\"task\":\"Retrieve the technology focus areas for the identified leading companies.\",\"table\":[\"CompanyFocusAreaDetail\"]},{\"step\":3,\"task\":\"Gather information about current hiring initiatives of these leading companies to assess talent demand trends in the IT sector.\",\"table\":[\"CompanyHiringDetail\"]},{\"step\":4,\"task\":\"Compile and analyze the data on technology focus areas and hiring initiatives to identify trends and patterns in the IT industry.\",\"table\":[\"CompanyFocusAreaDetail\",\"CompanyHiringDetail\"]}]}"
+}

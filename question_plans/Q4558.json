@@ -1,0 +1,43 @@
+{
+  "question": "What are the technology adoption trends in different industries for the current year?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify the list of industries under observation and their corresponding IT trends for the current year.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Gather data on specific technologies adopted by companies in different industries, focusing on adoption metrics and trends.",
+      "table": [
+        "CompanyTechStack"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze company financial data to correlate technology adoption with revenue growth or market capitalization in different industries.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Collect insights on leadership statements related to technology focus areas from companies in relevant industries.",
+      "table": [
+        "CompanyLeadershipExcerpt"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Compile social media engagement data to assess public sentiment towards technology trends across different industries.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyTwitterDetail",
+        "CompanyInstagramDetail",
+        "CompanyYoutubeDetail"
+      ]
+    }
+  ]
+}

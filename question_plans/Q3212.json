@@ -1,0 +1,26 @@
+{
+  "question": "What are the current social media engagement metrics and hiring trends for technology companies in the finance industry?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Query the CompanyInfo table to identify active companies in the finance industry and gather relevant details such as their names and IDs.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "For each finance company identified, extract social media engagement metrics from the SocialMediaInfo table, focusing on platforms like Facebook, Instagram, LinkedIn, and Twitter.",
+      "table": [
+        "SocialMediaInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Determine the current hiring trends by querying the CompanyHiringDetail table for the identified finance companies, focusing on active listings and job roles specific to technology.",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    }
+  ]
+}

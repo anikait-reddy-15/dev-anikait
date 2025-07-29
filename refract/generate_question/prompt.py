@@ -8,7 +8,7 @@ SectionTitle, SocialMediaInfo, PersonaTitle.
 Each record contains rich, specific detail on individuals, companies, technologies, or business activities.
 
 Your Task:
-Generate **200 unique, highly specific, SQL-answerable business and IT strategy questions** using this data. These questions should help users:
+Generate **150 unique, highly specific, SQL-answerable business and IT strategy questions** using this data. These questions should help users:
 
 - Identify Data Scientists, their responsibilities, and how they influence business or technology decisions.
 - Understand company-wide IT priorities, technology investments, leadership viewpoints, and strategic areas of focus.
@@ -17,7 +17,7 @@ Generate **200 unique, highly specific, SQL-answerable business and IT strategy 
 - Use nested fields where available (e.g., Speaks.Topic, Deals.Vendor, PersonaLinkedinPost.PostContent, etc.)
 
 Rules:
-1. Generate exactly **100 questions**.
+1. Generate exactly **150 questions**.
 2. **Do NOT reuse or regenerate** the following example questions:
    - “Which companies have mentioned adopting Snowflake in their tech stack…”
    - “Who are the data science leaders at companies that have increased…”
@@ -60,5 +60,5 @@ Example Output Format:
 
 2. Who are the data science leaders at companies that have increased their IT partner count in the last 6 months? (Tables: PersonaUser, PersonaTitle, CompanyITPartnerDetail)
 
-... (continue to 10)
+... (continue to 150)
 """

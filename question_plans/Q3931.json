@@ -1,0 +1,40 @@
+{
+  "question": "What are the current technology trends and partnerships in the healthcare industry?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify the key technology focus areas relevant to the healthcare industry.",
+      "table": [
+        "IndustryITTrend",
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Gather information on companies actively involved in the healthcare sector, including their IT budgets and technological initiatives.",
+      "table": [
+        "CompanyInfo",
+        "CompanyDataCenter",
+        "CompanyTechStack"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze B2B technology service contracts related to healthcare to understand vendor partnerships and deal values.",
+      "table": [
+        "CompanyDealMaster",
+        "CompanyITPartnerDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Explore social media presence and engagement rates of healthcare companies to assess their market visibility and communication strategies.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyInstagramDetail",
+        "CompanyTwitterDetail",
+        "CompanyYoutubeDetail"
+      ]
+    }
+  ]
+}

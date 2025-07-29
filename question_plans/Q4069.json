@@ -1,0 +1,39 @@
+{
+  "question": "What are the current trends in social media engagement for companies across different industries?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify the industries of interest and gather relevant company data including social media presence and engagement metrics.",
+      "table": [
+        "CompanyInfo",
+        "SocialMediaInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Analyze the social media engagement across different platforms such as Facebook, Instagram, and Twitter by calculating metrics like average engagement rate and total likes/comments for each industry.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyInstagramDetail",
+        "CompanyTwitterDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Generate visual insights by creating reports that showcase trends in social media engagement categorized by industry and social media platform.",
+      "table": [
+        "IndustryBusinessTrend",
+        "IndustryITTrend",
+        "PageInfo"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Draft a summary report outlining the findings and potential implications for businesses based on current social media engagement trends.",
+      "table": [
+        "SectionData",
+        "SectionInfo"
+      ]
+    }
+  ]
+}

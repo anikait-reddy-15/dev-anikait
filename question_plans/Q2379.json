@@ -1,0 +1,51 @@
+{
+  "question": "Analyze the social media engagement strategies of technology companies and identify trends based on their activity across platforms like Facebook, Twitter, and Instagram.",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify technology companies with active social media presence by querying the CompanyInfo and SocialMediaInfo tables to gather company details and their engagement metrics.",
+      "table": [
+        "CompanyInfo",
+        "SocialMediaInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Aggregate social media engagement metrics (likes, comments, shares) from the CompanyFacebookDetail, CompanyTwitterDetail, and CompanyInstagramDetail tables to analyze performance across platforms.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyTwitterDetail",
+        "CompanyInstagramDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Identify key trends in social media engagement by analyzing the aggregated data and creating summary metrics such as average engagement per post and total engagement per platform.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyTwitterDetail",
+        "CompanyInstagramDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Cross-reference social media engagement metrics with CompanyTechStack table to assess how technology adoption influences social media strategies and engagement levels.",
+      "table": [
+        "CompanyTechStack",
+        "CompanyFacebookDetail",
+        "CompanyTwitterDetail",
+        "CompanyInstagramDetail"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Report findings and generate visualizations based on the trends identified in social media platforms, highlighting correlations with technological focus areas from CompanyFocusAreaDetail.",
+      "table": [
+        "CompanyFocusAreaDetail",
+        "CompanyFacebookDetail",
+        "CompanyTwitterDetail",
+        "CompanyInstagramDetail"
+      ]
+    }
+  ]
+}

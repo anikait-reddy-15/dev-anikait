@@ -1,0 +1,43 @@
+{
+  "question": "What are the current IT trends in the healthcare industry, and how are companies in this sector responding to them?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify the healthcare-related companies from the CompanyInfo table to focus on their IT trends and responses.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Examine the IndustryITTrend table to find the latest IT trends affecting the healthcare industry.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Gather data from CompanyFocusAreaDetail to see how identified healthcare companies are aligning their strategic focus areas with the identified IT trends.",
+      "table": [
+        "CompanyFocusAreaDetail",
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Analyze CompanyHiringDetail for trends in hiring initiatives in the healthcare sector related to IT roles to understand workforce responses to these trends.",
+      "table": [
+        "CompanyHiringDetail",
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Review CompanyVendorTechDetail to assess how partnerships and technology services from vendors are supporting the healthcare industry's adaptiveness to current IT trends.",
+      "table": [
+        "CompanyVendorTechDetail",
+        "CompanyInfo"
+      ]
+    }
+  ]
+}

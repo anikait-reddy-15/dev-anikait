@@ -1,0 +1,42 @@
+{
+  "question": "Identify the key technology focus areas for companies in the healthcare industry along with their financial metrics and social media engagement.",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Query the CompanyInfo table to find all companies in the healthcare industry and retrieve their financial metrics like Revenue, NetIncome, and ITBudget.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Retrieve technology focus areas for each healthcare company by joining the CompanyFocusAreaDetail with CompanyInfo based on CompanyInfoId and filtering for active records.",
+      "table": [
+        "CompanyFocusAreaDetail",
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Get the social media engagement data for these companies by querying CompanyFacebookDetail, CompanyInstagramDetail, CompanyTwitterDetail, and CompanyYoutubeDetail using the CompanyInfoId to link the data.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyInstagramDetail",
+        "CompanyTwitterDetail",
+        "CompanyYoutubeDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Compile and summarize the findings to provide a report that highlights the technology focus areas, financial metrics, and social media engagement for the healthcare companies.",
+      "table": [
+        "CompanyInfo",
+        "CompanyFocusAreaDetail",
+        "CompanyFacebookDetail",
+        "CompanyInstagramDetail",
+        "CompanyTwitterDetail",
+        "CompanyYoutubeDetail"
+      ]
+    }
+  ]
+}

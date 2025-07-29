@@ -1,0 +1,4 @@
+{
+  "question": "What are the current trends in the IT industry and how are companies adapting their technology stacks accordingly?",
+  "subtasks": "[{\"step\":1,\"task\":\"Identify and extract the latest IT trends from the IndustryITTrend table for various industries.\",\"table\":[\"IndustryITTrend\"]},{\"step\":2,\"task\":\"Analyze how companies from the CompanyTechStack table have adapted their technology stacks based on the identified IT trends.\",\"table\":[\"CompanyTechStack\"]},{\"step\":3,\"task\":\"Compile information on company focus areas from the CompanyFocusAreaDetail table to see how companies are aligning with these IT trends.\",\"table\":[\"CompanyFocusAreaDetail\"]},{\"step\":4,\"task\":\"Cross-reference the CompanyDealMaster table to find any significant contracts related to technology acquisitions that align with the trends identified in step 1.\",\"table\":[\"CompanyDealMaster\"]}]"
+}

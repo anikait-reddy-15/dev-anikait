@@ -1,0 +1,4 @@
+{
+  "question": "What are the strategic technology focus areas of companies in the finance industry and how do they compare in terms of revenue and IT budget?",
+  "subtasks": "[{\"step\":1,\"task\":\"Retrieve a list of companies operating in the finance industry and their associated IT focus areas.\",\"table\":[\"CompanyInfo\",\"CompanyFocusAreaDetail\"]},{\"step\":2,\"task\":\"Aggregate financial metrics such as revenue and IT budget for each company identified in the first step.\",\"table\":[\"CompanyInfo\"]},{\"step\":3,\"task\":\"Compare the IT budget and revenue figures across the companies to identify any trends or insights related to their technology focus areas.\",\"table\":[\"CompanyInfo\"]}]"
+}

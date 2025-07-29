@@ -1,0 +1,34 @@
+{
+  "question": "Analyze the current hiring trends among companies in the technology sector and their impact on industry growth.",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify the companies operating in the technology sector and gather their relevant metadata such as industry classification and operational details.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Collect data on active hiring initiatives from the identified technology companies, highlighting the roles being hired for and the locations of these positions.",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the correlation between the number of hires and the reported revenue or market capitalization of these companies to assess the impact on industry growth.",
+      "table": [
+        "CompanyInfo",
+        "CompanyHiringDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Summarize the hiring trends based on the collected data, emphasizing insights such as the demand for specific skills or roles in the technology sector.",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    }
+  ]
+}

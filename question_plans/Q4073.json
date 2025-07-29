@@ -1,0 +1,41 @@
+{
+  "question": "Analyze the impact of social media engagement on the revenue trends of companies in the tech industry.",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify the companies in the tech industry that are active in social media engagement.",
+      "table": [
+        "CompanyInfo",
+        "SocialMediaInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Collect social media engagement metrics (likes, comments, shares) from Facebook, Twitter, Instagram, and YouTube for the identified companies.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyTwitterDetail",
+        "CompanyInstagramDetail",
+        "CompanyYoutubeDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Extract revenue data from the CompanyInfo table for the identified tech companies to find revenue trends.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Analyze the correlation between social media engagement metrics and revenue trends across the selected companies to assess impact.",
+      "table": [
+        "CompanyInfo",
+        "CompanyFacebookDetail",
+        "CompanyTwitterDetail",
+        "CompanyInstagramDetail",
+        "CompanyYoutubeDetail"
+      ]
+    }
+  ]
+}

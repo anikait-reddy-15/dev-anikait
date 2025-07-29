@@ -1,0 +1,35 @@
+{
+  "question": "Identify companies that have a strong social media presence and are actively hiring in the technology sector.",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Extract companies from the CompanyInfo table that operate in the technology sector.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Gather social media presence data from the SocialMediaInfo table to identify companies with significant engagement counts.",
+      "table": [
+        "SocialMediaInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Determine active hiring initiatives from the CompanyHiringDetail table to find companies currently seeking to fill technology-related positions.",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Join the results from steps 1, 2, and 3 to find companies that meet both criteria (strong social media presence and active hiring).",
+      "table": [
+        "CompanyInfo",
+        "SocialMediaInfo",
+        "CompanyHiringDetail"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "question": "What are the current employment trends in the technology industry and how are companies adapting their strategies?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify the companies operating in the technology sector and gather their demographic information such as revenue, number of employees, and founded year.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Collect data on active hiring initiatives within the technology sector, focusing on job roles, skills required, and hiring locations.",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze technology focus areas of these companies to understand their strategic direction in terms of investments or technologies being prioritized.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Review social media activity to gauge public sentiment and engagement trends regarding their employment practices and technological innovations.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyInstagramDetail",
+        "CompanyTwitterDetail"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Evaluate partnerships or collaborations that technology companies have established with other vendors or service providers to enhance their capabilities and workforce.",
+      "table": [
+        "CompanyITPartnerDetail"
+      ]
+    }
+  ]
+}

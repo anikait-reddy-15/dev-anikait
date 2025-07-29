@@ -1,0 +1,4 @@
+{
+  "question": "What are the current technology partnerships and focus areas of major companies in the technology industry?",
+  "subtasks": "[{\"step\":1,\"task\":\"Identify companies in the technology industry from the CompanyInfo table and filter only active companies.\",\"table\":[\"CompanyInfo\"]},{\"step\":2,\"task\":\"Fetch partnerships details of the identified companies from the CompanyITPartnerDetail table to understand their current technology collaborations.\",\"table\":[\"CompanyITPartnerDetail\"]},{\"step\":3,\"task\":\"Retrieve the strategic technology focus areas for these companies from the CompanyFocusAreaDetail table to analyze their IT initiatives.\",\"table\":[\"CompanyFocusAreaDetail\"]},{\"step\":4,\"task\":\"Combine the results from the previous two steps to generate a comprehensive list of technology partnerships and focus areas for each company.\",\"table\":[\"CompanyITPartnerDetail\",\"CompanyFocusAreaDetail\"]}]"
+}

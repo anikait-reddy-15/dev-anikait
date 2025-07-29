@@ -1,0 +1,4 @@
+{
+  "question": "What are the recent IT service contracts signed by companies in the technology industry?",
+  "subtasks": "[{\"step\":1,\"task\":\"Identify all companies operating in the technology industry from the CompanyInfo table.\",\"table\":[\"CompanyInfo\"]},{\"step\":2,\"task\":\"Select recent IT service contracts from the CompanyDealMaster table that involve the identified technology companies.\",\"table\":[\"CompanyDealMaster\"]},{\"step\":3,\"task\":\"Filter the contracts based on the signing date to capture only recent contracts (e.g., signed within the last year).\",\"table\":[\"CompanyDealMaster\"]},{\"step\":4,\"task\":\"Compile the results including details such as contract value, signing date, and involved parties.\",\"table\":[\"CompanyDealMaster\"]},{\"step\":5,\"task\":\"Generate a summary report of the recent contracts highlighting key insights and trends in the technology industry.\",\"table\":[\"CompanyDealMaster\",\"CompanyInfo\"]}]}"
+}

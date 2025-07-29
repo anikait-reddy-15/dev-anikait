@@ -1,0 +1,4 @@
+{
+  "question": "What are the emerging technology focus areas and social media presence trends for companies in the digital space?",
+  "subtasks": "[{\"step\":1,\"task\":\"Identify and list companies operating in the digital space along with their respective technology focus areas.\",\"table\":[\"CompanyInfo\",\"CompanyFocusAreaDetail\"]},{\"step\":2,\"task\":\"Analyze the social media engagement metrics for these companies to identify trends in their online presence.\",\"table\":[\"CompanyFacebookDetail\",\"CompanyInstagramDetail\",\"CompanyTwitterDetail\",\"CompanyYoutubeDetail\"]},{\"step\":3,\"task\":\"Compile and summarize the emerging technologies these companies are focusing on based on the available trends in the digital space.\",\"table\":[\"IndustryITTrend\",\"CompanyTechStack\"]}]"
+}

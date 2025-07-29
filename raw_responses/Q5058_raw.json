@@ -1,0 +1,4 @@
+{
+  "question": "What are the latest technology trends across different industries and which companies are adopting them?",
+  "subtasks": "[{\"step\":1,\"task\":\"Identify the latest technology trends for different industries from the IndustryITTrend table.\",\"table\":[\"IndustryITTrend\"]},{\"step\":2,\"task\":\"List companies that are adopting these identified technology trends by linking them with their technology stack from the CompanyTechStack table.\",\"table\":[\"CompanyTechStack\"]},{\"step\":3,\"task\":\"Compile the findings to present which companies focus on specific technology trends and their respective industry types from the IndustryITTrend table.\",\"table\":[\"CompanyInfo\",\"IndustryITTrend\"]}]}"
+}

@@ -1,0 +1,4 @@
+{
+  "question": "Analyze the impact of recent social media engagement on company revenue.",
+  "subtasks": "[{\"step\":1,\"task\":\"Identify the companies and their associated recent social media engagement metrics from Facebook, Instagram, Twitter, and YouTube.\",\"table\":[\"CompanyFacebookDetail\",\"CompanyInstagramDetail\",\"CompanyTwitterDetail\",\"CompanyYoutubeDetail\"]},{\"step\":2,\"task\":\"Retrieve revenue data for the identified companies from the CompanyInfo table to assess any correlation with social media engagement metrics.\",\"table\":[\"CompanyInfo\"]},{\"step\":3,\"task\":\"Conduct an analysis to determine if there are patterns or correlations between social media engagement levels and revenue figures for each company.\",\"table\":[\"CompanyInfo\",\"CompanyFacebookDetail\",\"CompanyInstagramDetail\",\"CompanyTwitterDetail\",\"CompanyYoutubeDetail\"]}]"
+}

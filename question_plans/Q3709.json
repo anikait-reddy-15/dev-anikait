@@ -1,0 +1,31 @@
+{
+  "question": "Analyze the social media engagement of a company and its correlation with its market performance.",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Fetch the company's financial metrics including Revenue, Net Income, and Market Capitalization from the CompanyInfo table.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Retrieve social media engagement metrics such as Likes, Comments, and Engagement Rate from the CompanyFacebookDetail, CompanyInstagramDetail, and CompanyTwitterDetail tables.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyInstagramDetail",
+        "CompanyTwitterDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Combine the financial metrics from step 1 with the social media engagement metrics from step 2 to analyze the correlation between social media activity and market performance.",
+      "table": [
+        "CompanyInfo",
+        "CompanyFacebookDetail",
+        "CompanyInstagramDetail",
+        "CompanyTwitterDetail"
+      ]
+    }
+  ]
+}

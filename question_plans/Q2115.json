@@ -1,0 +1,42 @@
+{
+  "question": "What are the recent trends in IT partnerships for companies in the technology industry?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify technology companies from the CompanyInfo table based on industry type.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract recent IT partner details and their associated deal values from the CompanyITPartnerDetail table linked to identified companies.",
+      "table": [
+        "CompanyITPartnerDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze contract dates and values from the CompanyDealMaster table to determine trends in IT partnerships.",
+      "table": [
+        "CompanyDealMaster"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Summarize partnerships and deal values to highlight the most engaged partners and emerging trends in the technology sector.",
+      "table": [
+        "CompanyITPartnerDetail",
+        "CompanyDealMaster"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Compile findings into a structured report showing the trends in IT partnerships for the technology industry.",
+      "table": [
+        "CompanyInfo",
+        "CompanyITPartnerDetail"
+      ]
+    }
+  ]
+}

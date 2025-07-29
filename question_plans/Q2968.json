@@ -1,0 +1,36 @@
+{
+  "question": "What are the recent hiring trends in technology companies, and how do they align with their strategic IT focus areas?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify the active hiring initiatives of technology companies from the hiring detail table, focusing on technology domains and designations relevant to the IT sector.",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract the strategic IT focus areas of these technology companies from the focus area detail table to analyze their investment and innovation trends.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Link the hiring initiatives with the respective companies and their IT focus areas to analyze the alignment between hiring trends and strategic technology focuses.",
+      "table": [
+        "CompanyInfo",
+        "CompanyHiringDetail",
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Summarize the findings to identify patterns in hiring trends and focus areas among the selected technology companies.",
+      "table": [
+        "CompanyHiringDetail",
+        "CompanyFocusAreaDetail"
+      ]
+    }
+  ]
+}

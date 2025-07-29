@@ -1,0 +1,34 @@
+{
+  "question": "What are the emerging technology trends in the IT industry for companies with high revenue?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies with revenue above a specific threshold to focus on high-performing organizations.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract technology focus areas for the identified companies to understand their strategic priorities.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze industry trends related to the identified companies to find common emerging technologies being adopted.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Compile the findings into a summary report highlighting key emerging technology trends and their alignment with company revenue data.",
+      "table": [
+        "CompanyInfo",
+        "IndustryITTrend"
+      ]
+    }
+  ]
+}

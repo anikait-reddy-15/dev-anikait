@@ -1,0 +1,40 @@
+{
+  "question": "What are the latest technology trends across different industries and their impact on company strategies?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify the emerging IT trends across various industries by querying the IndustryITTrend table.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Analyze specific technology focus areas that companies are adopting by querying the CompanyFocusAreaDetail table. ",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Aggregate insights about companies' strategic initiatives related to technology trends by analyzing CompanyLeadershipExcerpt for leadership statements.",
+      "table": [
+        "CompanyLeadershipExcerpt"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Compile data on companies' technology stack usage by querying the CompanyTechStack table to understand what technologies are trending.",
+      "table": [
+        "CompanyTechStack"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Cross-reference trends and focus areas with CompanyInfo to evaluate how these insights align with companies' business profiles and strategies.",
+      "table": [
+        "CompanyInfo"
+      ]
+    }
+  ]
+}

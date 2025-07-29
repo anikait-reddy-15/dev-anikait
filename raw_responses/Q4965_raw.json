@@ -1,0 +1,4 @@
+{
+  "question": "What technologies are companies in the finance industry currently adopting, and how does this vary by geography?",
+  "subtasks": "[{\"step\":1,\"task\":\"Identify companies that belong to the finance industry by filtering the CompanyInfo table based on the Industry column.\",\"table\":[\"CompanyInfo\"]},{\"step\":2,\"task\":\"Extract the technology stacks currently used by the identified finance companies from the CompanyTechStack table.\",\"table\":[\"CompanyTechStack\"]},{\"step\":3,\"task\":\"Map the technologies to their respective geographic locations by linking CompanyInfo to CompanyDataCenter to get the geography associated with each finance company.\",\"table\":[\"CompanyInfo\",\"CompanyDataCenter\"]},{\"step\":4,\"task\":\"Analyze the data to identify patterns or trends in technology adoption across different geographic areas for finance companies.\",\"table\":[\"CompanyTechStack\",\"CompanyDataCenter\"]}]"
+}

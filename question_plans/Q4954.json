@@ -1,0 +1,32 @@
+{
+  "question": "What are the current hiring trends for IT positions across different companies in the technology sector?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies operating in the technology sector and gather their essential details such as name, industry, and employee size.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract active hiring initiatives related to IT positions from the CompanyHiringDetail table, linking the results to the companies identified in step 1.",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the collected hiring data to reveal trends in job roles, skills in demand, and geographical distribution of IT hiring across firms.",
+      "table": [
+        "CompanyHiringDetail",
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Summarize the findings into a structured format, highlighting key trends and insights regarding IT hiring across the technology sector.",
+      "table": []
+    }
+  ]
+}

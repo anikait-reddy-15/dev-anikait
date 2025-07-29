@@ -1,0 +1,40 @@
+{
+  "question": "What are the latest trends in IT investments for companies in the technology sector?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify all companies operating in the technology sector and gather their basic profiles, including financial metrics and operational details.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract the IT investment data for the identified companies, focusing on their IT budget and financial metrics to identify trends in spending.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the partnerships and vendor relations each technology company has to assess how they influence IT investment trends.",
+      "table": [
+        "CompanyITPartnerDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Review the company leadership statements to gain insights into strategic focuses or shifts related to IT investments in the technology sector.",
+      "table": [
+        "CompanyLeadershipExcerpt"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Identify specific technology focus areas across technology companies and categorize them to see emerging trends in IT investment priorities.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    }
+  ]
+}

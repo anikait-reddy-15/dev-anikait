@@ -1,0 +1,39 @@
+{
+  "question": "Analyze the social media engagement and IT focus areas of leading technology companies in the Cloud Computing industry.",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify the leading technology companies in the Cloud Computing industry and retrieve their basic information such as name, revenue, and market capitalization.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Gather social media engagement metrics for the identified technology companies, including likes, comments, and engagement rates from Facebook, Instagram, and Twitter.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyInstagramDetail",
+        "CompanyTwitterDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Explore the IT focus areas of these companies, including investments and technology initiatives related to Cloud Computing.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Compile and analyze the data to evaluate the relationship between social media engagement and IT focus areas within the Cloud Computing sector.",
+      "table": [
+        "CompanyInfo",
+        "CompanyFacebookDetail",
+        "CompanyInstagramDetail",
+        "CompanyTwitterDetail",
+        "CompanyFocusAreaDetail"
+      ]
+    }
+  ]
+}

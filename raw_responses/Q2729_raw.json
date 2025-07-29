@@ -1,0 +1,4 @@
+{
+  "question": "What are the emerging IT trends across different industries and how are companies adopting these technologies?",
+  "subtasks": "[{'step': 1, 'task': 'Identify the different industries and their specific emerging IT trends.', 'table': ['IndustryITTrend']}, {'step': 2, 'task': 'List companies that are adopting the identified IT trends and their corresponding focus areas.', 'table': ['CompanyFocusAreaDetail', 'CompanyInfo']}, {'step': 3, 'task': 'Analyze the adoption patterns to summarize how various companies implement these IT trends.', 'table': ['CompanyTechStack', 'CompanyVendorTechDetail']}]"
+}

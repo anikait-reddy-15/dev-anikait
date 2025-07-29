@@ -1,0 +1,38 @@
+{
+  "question": "Analyze how companies in the technology sector are engaging with social media platforms.",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify all companies within the technology sector from the CompanyInfo table.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Gather social media engagement metrics for the identified technology companies from the SocialMediaInfo table.",
+      "table": [
+        "SocialMediaInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Collect detailed Facebook interaction data including engagement metrics from CompanyFacebookDetail for technology companies.",
+      "table": [
+        "CompanyFacebookDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Collect detailed Twitter interaction data including engagement metrics from CompanyTwitterDetail for technology companies.",
+      "table": [
+        "CompanyTwitterDetail"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Combine and analyze all the collected metrics to assess overall social media engagement of technology companies.",
+      "table": []
+    }
+  ]
+}

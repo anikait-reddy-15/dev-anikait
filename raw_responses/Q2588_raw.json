@@ -1,0 +1,4 @@
+{
+  "question": "Identify the top 5 companies in the technology sector based on their revenue and analyze their IT focus areas and social media engagement.",
+  "subtasks": "[{\"step\":1,\"task\":\"Query the CompanyInfo table to retrieve the top 5 companies in the technology sector sorted by revenue.\",\"table\":[\"CompanyInfo\"]},{\"step\":2,\"task\":\"For the identified companies, fetch their IT focus areas from the CompanyFocusAreaDetail table to understand their strategic technology priorities.\",\"table\":[\"CompanyFocusAreaDetail\"]},{\"step\":3,\"task\":\"Analyze the social media engagement of these top companies by querying the CompanyFacebookDetail, CompanyInstagramDetail, and CompanyTwitterDetail tables to assess their online presence and audience interaction.\",\"table\":[\"CompanyFacebookDetail\",\"CompanyInstagramDetail\",\"CompanyTwitterDetail\"]}]}"
+}

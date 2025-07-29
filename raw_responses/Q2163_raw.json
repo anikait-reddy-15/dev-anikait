@@ -1,0 +1,4 @@
+{
+  "question": "Identify the top 5 companies by revenue in the technology industry that are actively hiring and have a significant presence on social media.",
+  "subtasks": "[{\"step\":1,\"task\":\"Retrieve the list of companies that belong to the technology industry and are actively hiring.\",\"table\":[\"CompanyInfo\",\"CompanyHiringDetail\"]},{\"step\":2,\"task\":\"Filter the companies from step 1 to only include those with active social media profiles on platforms like Facebook, Twitter, and Instagram.\",\"table\":[\"CompanyInfo\",\"SocialMediaInfo\"]},{\"step\":3,\"task\":\"Sort the filtered companies by their revenue in descending order and select the top 5 results.\",\"table\":[\"CompanyInfo\"]}]"
+}

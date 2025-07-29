@@ -1,0 +1,35 @@
+{
+  "question": "What are the key technology focus areas and recent hiring initiatives for companies in the software industry?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify all companies operating in the software industry including their details such as name and profile from the CompanyInfo table.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Retrieve the strategic technology focus areas for the identified companies from the CompanyFocusAreaDetail table.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "List active hiring details for the identified companies, including job titles and locations from the CompanyHiringDetail table.",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Combine the data from steps 1 to 3 to generate a comprehensive report on technology focus and hiring strategies for the software industry companies.",
+      "table": [
+        "CompanyInfo",
+        "CompanyFocusAreaDetail",
+        "CompanyHiringDetail"
+      ]
+    }
+  ]
+}

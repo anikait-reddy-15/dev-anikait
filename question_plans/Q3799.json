@@ -1,0 +1,40 @@
+{
+  "question": "Analyze the social media presence of a company and its impact on customer engagement.",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify the company for which the social media presence needs to be analyzed.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Collect engagement metrics from social media channels such as Facebook, Instagram, Twitter, and YouTube for the identified company.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyInstagramDetail",
+        "CompanyTwitterDetail",
+        "CompanyYoutubeDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Aggregate social media engagement metrics to evaluate customer interaction levels across platforms.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyInstagramDetail",
+        "CompanyTwitterDetail",
+        "CompanyYoutubeDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Correlate social media engagement data with historical revenue or customer feedback data to assess impact on customer engagement.",
+      "table": [
+        "CompanyInfo",
+        "CompanyDealMaster"
+      ]
+    }
+  ]
+}

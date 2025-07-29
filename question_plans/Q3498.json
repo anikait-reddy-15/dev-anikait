@@ -1,0 +1,37 @@
+{
+  "question": "Gather insights on a company's technology adoption and vendor engagement strategies across different social media platforms.",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify the companies and their associated technology stacks to understand what technologies they are currently using and adopting.",
+      "table": [
+        "CompanyTechStack"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Analyze the vendor products and services that companies have adopted, focusing on deal values and specific technologies being implemented.",
+      "table": [
+        "CompanyVendorProductDetail",
+        "CompanyVendorTechDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Collect data on the social media engagement metrics from platforms like Facebook, Instagram, and Twitter to assess overall digital presence and audience interaction.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyInstagramDetail",
+        "CompanyTwitterDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Determine the strategic IT focus areas by linking them to leadership insights, especially those relevant to current technology trends.",
+      "table": [
+        "CompanyFocusAreaDetail",
+        "CompanyLeadershipExcerpt"
+      ]
+    }
+  ]
+}

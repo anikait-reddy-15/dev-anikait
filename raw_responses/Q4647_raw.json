@@ -1,0 +1,4 @@
+{
+  "question": "What are the current technology trends and focus areas across different companies in the industry?",
+  "subtasks": "[{\"step\":1,\"task\":\"Identify the list of industries to focus on for technology trends.\",\"table\":[\"IndustryBusinessTrend\",\"IndustryITTrend\"]},{\"step\":2,\"task\":\"Extract technology focus areas from the 'CompanyFocusAreaDetail' table to understand current trends in technology investments by companies.\",\"table\":[\"CompanyFocusAreaDetail\"]},{\"step\":3,\"task\":\"Aggregate current technology adoption trends for each company by analyzing their tech stack data from the 'CompanyTechStack' table.\",\"table\":[\"CompanyTechStack\"]},{\"step\":4,\"task\":\"Combine data from the focus areas, industry trends, and company tech stacks to create a comprehensive view of technology trends in the industry.\",\"table\":[\"IndustryBusinessTrend\",\"CompanyFocusAreaDetail\",\"CompanyTechStack\"]}]"
+}

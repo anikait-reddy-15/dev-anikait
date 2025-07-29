@@ -1,0 +1,27 @@
+{
+  "question": "Identify the companies that have adopted blockchain technology as part of their IT strategy.",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Gather a list of companies that are associated with blockchain technology by checking their focus areas in the CompanyFocusAreaDetail table.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Retrieve the details of these companies by joining the CompanyFocusAreaDetail information with the CompanyInfo table to obtain company names, descriptions, and industry information.",
+      "table": [
+        "CompanyInfo",
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the financial metrics of the identified companies from the CompanyInfo table, focusing on revenue and market capitalization to evaluate their investment in blockchain technology.",
+      "table": [
+        "CompanyInfo"
+      ]
+    }
+  ]
+}

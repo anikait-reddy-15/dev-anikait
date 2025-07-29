@@ -1,0 +1,4 @@
+{
+  "question": "What are the current trends in technology adoption and social media engagement among major companies in the technology industry?",
+  "subtasks": "[{'step': 1, 'task': 'Identify major companies in the technology industry and gather their basic information.', 'table': ['CompanyInfo']}, {'step': 2, 'task': 'Analyze technology focus areas of these companies to determine current trends in technology adoption.', 'table': ['CompanyTechStack', 'CompanyFocusAreaDetail']}, {'step': 3, 'task': 'Gather social media engagement data for these companies to understand their social media presence.', 'table': ['CompanyFacebookDetail', 'CompanyInstagramDetail', 'CompanyTwitterDetail', 'SocialMediaInfo']}, {'step': 4, 'task': 'Examine industry-level trends and narratives related to technology across relevant industries.', 'table': ['IndustryITTrend', 'IndustryBusinessTrend']}]."
+}

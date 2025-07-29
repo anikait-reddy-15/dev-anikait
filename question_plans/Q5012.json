@@ -1,0 +1,38 @@
+{
+  "question": "What are the recent social media engagement trends for technology companies in the healthcare industry?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify technology companies operating in the healthcare industry and gather their information such as social media presence and engagement metrics.",
+      "table": [
+        "CompanyInfo",
+        "SocialMediaInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Retrieve recent social media engagement data from applicable platforms (Facebook, Instagram, Twitter) for the selected healthcare companies.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyInstagramDetail",
+        "CompanyTwitterDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the gathered social media engagement metrics to identify trends (likes, comments, engagement rates) for those healthcare technology companies.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyInstagramDetail",
+        "CompanyTwitterDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Summarize and report the findings highlighting key trends and notable insights related to social media engagement for technology companies in healthcare.",
+      "table": [
+        "SocialMediaInfo"
+      ]
+    }
+  ]
+}

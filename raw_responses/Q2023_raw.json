@@ -1,0 +1,4 @@
+{
+  "question": "What are the current hiring trends in technology companies based on their focus areas?",
+  "subtasks": "[{\"step\": 1, \"task\": \"Identify all technology companies and their IT focus areas.\", \"table\": [\"CompanyInfo\", \"CompanyFocusAreaDetail\"]}, {\"step\": 2, \"task\": \"Extract active hiring initiatives from technology companies to determine roles in demand.\", \"table\": [\"CompanyHiringDetail\"]}, {\"step\": 3, \"task\": \"Analyze the relationship between identified focus areas and the hiring positions to understand trends.\", \"table\": [\"CompanyHiringDetail\", \"CompanyFocusAreaDetail\"]}, {\"step\": 4, \"task\": \"Compile and summarize the results by focus area to present current hiring trends.\", \"table\": []}]"
+}

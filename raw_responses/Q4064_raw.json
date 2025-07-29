@@ -1,0 +1,4 @@
+{
+  "question": "What are the latest trends in IT for companies operating in the technology sector?",
+  "subtasks": "[{'step': 1, 'task': 'Identify the key technology companies and their industries from the CompanyInfo table.', 'table': ['CompanyInfo']}, {'step': 2, 'task': 'Analyze the IndustryITTrend table for emerging IT trends specifically related to the technology sector.', 'table': ['IndustryITTrend']}, {'step': 3, 'task': 'Compile a summary of the technological focus areas from the CompanyFocusAreaDetail table for these companies.', 'table': ['CompanyFocusAreaDetail']}, {'step': 4, 'task': 'Integrate data from the CompanyDealMaster table to observe the service contract trends for technology adopting companies.', 'table': ['CompanyDealMaster']}, {'step': 5, 'task': 'Cross-reference the technology stack being used by these companies from the CompanyTechStack table to identify common technologies.', 'table': ['CompanyTechStack']}]}"
+}

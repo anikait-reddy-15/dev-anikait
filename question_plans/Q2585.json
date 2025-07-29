@@ -1,0 +1,34 @@
+{
+  "question": "What are the current technology focus areas and IT budgets of companies in the technology industry?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify all companies that belong to the technology industry and retrieve their basic information such as ID, name, and description.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Fetch the technology focus areas for these identified companies to understand their strategic initiatives and areas of investment.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Collect data regarding the IT budgets of the same companies to analyze their financial investments in technology.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Combine the data obtained from the above steps to generate a summary report showing technology focus areas along with IT budgets for each company.",
+      "table": [
+        "CompanyInfo",
+        "CompanyFocusAreaDetail"
+      ]
+    }
+  ]
+}

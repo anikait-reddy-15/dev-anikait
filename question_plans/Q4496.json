@@ -1,0 +1,43 @@
+{
+  "question": "What are the current trends in technology adoption among companies in the software industry?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify all companies categorized under the software industry in the CompanyInfo table.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Collect data on the technology stacks used by these software companies from the CompanyTechStack table.",
+      "table": [
+        "CompanyTechStack"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the adoption trends for specific technologies from the CompanyVendorProductDetail table linked to these software companies.",
+      "table": [
+        "CompanyVendorProductDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Review industry-specific technology trends from the IndustryITTrend table to identify common patterns in adoption.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Compile a report summarizing the technology adoption patterns and trends among the identified software companies.",
+      "table": [
+        "CompanyInfo",
+        "CompanyTechStack",
+        "CompanyVendorProductDetail",
+        "IndustryITTrend"
+      ]
+    }
+  ]
+}

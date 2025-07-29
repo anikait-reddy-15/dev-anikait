@@ -1,0 +1,38 @@
+{
+  "question": "What are the current trends in IT hiring and social media engagement for companies within the tech industry?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies within the technology industry by querying the CompanyInfo table filtering by the Industry column.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract active hiring information for the identified tech companies from the CompanyHiringDetail table to analyze hiring trends in specific domains and designations.",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Gather social media engagement metrics from CompanyFacebookDetail, CompanyTwitterDetail, and CompanyInstagramDetail to analyze the social media presence of the tech companies.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyTwitterDetail",
+        "CompanyInstagramDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Compile and compare the hiring data against social media metrics to draw insights into the correlation between hiring trends and social media engagement for tech companies.",
+      "table": [
+        "CompanyHiringDetail",
+        "CompanyFacebookDetail",
+        "CompanyTwitterDetail",
+        "CompanyInstagramDetail"
+      ]
+    }
+  ]
+}

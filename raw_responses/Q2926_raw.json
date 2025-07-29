@@ -1,0 +1,4 @@
+{
+  "question": "What are the current IT hiring trends and preferences among companies in the technology sector?",
+  "subtasks": "[{\"step\":1,\"task\":\"Identify and extract data on active job listings from the CompanyHiringDetail table for technology companies.\",\"table\":[\"CompanyHiringDetail\"]},{\"step\":2,\"task\":\"Analyze the data to determine the most requested job titles, required skills, and hiring locations from the CompanyHiringDetail table.\",\"table\":[\"CompanyHiringDetail\"]},{\"step\":3,\"task\":\"Cross-reference the CompanyInfo table to filter companies based on industry, focusing specifically on technology sector companies.\",\"table\":[\"CompanyInfo\"]},{\"step\":4,\"task\":\"Summarize the findings into key trends including demand for specific roles or technologies, and report them based on geolocation and job responsibilities.\",\"table\":[\"CompanyHiringDetail\",\"CompanyInfo\"]}]"
+}

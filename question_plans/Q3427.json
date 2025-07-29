@@ -1,0 +1,38 @@
+{
+  "question": "What are the current trends in the technology adoption by companies in the financial sector, specifically focusing on cloud computing and digital transformation?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies operating in the financial sector by analyzing the CompanyInfo table for the 'Industry' column with relevant values such as 'Finance' or 'Banking'.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Gather information on technology focus areas relevant to cloud computing and digital transformation from the CompanyFocusAreaDetail table. Filter results based on IT focus areas related to these technologies. Be sure to correlate them with the companies identified in step 1.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Review the CompanyTechStack table to find technologies adopted by the identified companies that are related to cloud computing and digital transformation to understand their current tech stack. ",
+      "table": [
+        "CompanyTechStack"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Analyze trends over time by examining historical data of CompanyDealMaster to identify any significant contracts related to cloud computing services or digital transformation initiatives within the financial sector companies. ",
+      "table": [
+        "CompanyDealMaster"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Combine findings from the previous steps to create a comprehensive report on the technology adoption trends among financial sector companies, highlighting key insights about cloud computing and digital transformation initiatives.",
+      "table": []
+    }
+  ]
+}

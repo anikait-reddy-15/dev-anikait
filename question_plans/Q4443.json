@@ -1,0 +1,30 @@
+{
+  "question": "What are the technology focus areas and social media engagement metrics of the top 10 companies in the IT industry based on their revenue?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Retrieve information about the top 10 companies in the IT industry based on their revenue, including their Name and Revenue metric.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Gather technology focus areas for the top 10 IT companies by joining the CompanyFocusAreaDetail with CompanyInfo to get detailed initiatives related to each company.",
+      "table": [
+        "CompanyFocusAreaDetail",
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Collect social media engagement metrics from Facebook, Instagram, and Twitter for the top 10 IT companies by aggregating data from the respective social media detail tables and joining with CompanyInfo.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyInstagramDetail",
+        "CompanyTwitterDetail",
+        "CompanyInfo"
+      ]
+    }
+  ]
+}

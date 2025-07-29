@@ -1,0 +1,35 @@
+{
+  "question": "Identify key technology trends for companies in the healthcare industry and their financial performance metrics.",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Query the CompanyInfo table to fetch companies in the healthcare industry including their financial metrics like Revenue and NetIncome.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract data from the CompanyFocusAreaDetail table to find technology focus areas specifically for healthcare companies.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Join the CompanyDealMaster table to analyze any significant B2B technology service contracts relevant to the healthcare companies identified earlier.",
+      "table": [
+        "CompanyDealMaster"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Analyze the extracted data to summarize key technology trends and correlate them with financial performance metrics from the CompanyInfo table.",
+      "table": [
+        "CompanyInfo",
+        "CompanyFocusAreaDetail",
+        "CompanyDealMaster"
+      ]
+    }
+  ]
+}

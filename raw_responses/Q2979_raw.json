@@ -1,0 +1,4 @@
+{
+  "question": "What are the current IT budget allocations, company revenues, and employee counts for companies in the technology sector?",
+  "subtasks": "[{\"step\":1,\"task\":\"Identify companies classified within the technology sector and extract their IT budget allocations, revenues, and employee counts.\",\"table\":[\"CompanyInfo\"]},{\"step\":2,\"task\":\"Filter the results to only include active companies, ensuring that the data collected is current and relevant.\",\"table\":[\"CompanyInfo\"]},{\"step\":3,\"task\":\"Compile and summarize the data collected by grouping it by company and calculating total IT budgets, revenues, and employee counts as needed.\",\"table\":[\"CompanyInfo\"]}]"
+}

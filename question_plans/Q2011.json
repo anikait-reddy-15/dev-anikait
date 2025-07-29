@@ -1,0 +1,47 @@
+{
+  "question": "Analyze the social media engagement trends of companies based on their performance in different platforms.",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Retrieve a list of companies and their corresponding engagement metrics from social media platforms such as Facebook, Instagram, Twitter, and YouTube.",
+      "table": [
+        "CompanyInfo",
+        "CompanyFacebookDetail",
+        "CompanyInstagramDetail",
+        "CompanyTwitterDetail",
+        "CompanyYoutubeDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Calculate the average engagement rates (likes, comments, shares) for each social media platform per company to establish benchmark performance metrics.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyInstagramDetail",
+        "CompanyTwitterDetail",
+        "CompanyYoutubeDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Identify any trends in social media engagement over time (e.g., growth or decline in engagement metrics) for a selected set of companies.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyInstagramDetail",
+        "CompanyTwitterDetail",
+        "CompanyYoutubeDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Correlate social media engagement metrics with company performance indicators such as revenue, net income, and market capitalization to analyze their relationship.",
+      "table": [
+        "CompanyInfo",
+        "CompanyFacebookDetail",
+        "CompanyInstagramDetail",
+        "CompanyTwitterDetail",
+        "CompanyYoutubeDetail"
+      ]
+    }
+  ]
+}

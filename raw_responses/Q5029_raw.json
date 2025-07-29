@@ -1,0 +1,4 @@
+{
+  "question": "Identify the top five companies by revenue in the technology industry that are actively hiring employees.",
+  "subtasks": "[{'step': 1, 'task': 'Query the CompanyInfo table to filter for companies in the technology industry that are active.', 'table': ['CompanyInfo']}, {'step': 2, 'task': 'Sort the filtered companies by their revenue in descending order to identify the top earners.', 'table': ['CompanyInfo']}, {'step': 3, 'task': 'Join the result with the CompanyHiringDetail table to find active hiring initiatives for those companies.', 'table': ['CompanyInfo', 'CompanyHiringDetail']}, {'step': 4, 'task': 'Select the top five companies from the joined result set based on revenue.', 'table': ['CompanyInfo', 'CompanyHiringDetail']}, {'step': 5, 'task': 'Return the names and details of the top five companies that are hiring and their total revenue.', 'table': ['CompanyInfo', 'CompanyHiringDetail'] }]"
+}

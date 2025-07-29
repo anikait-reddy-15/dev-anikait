@@ -1,0 +1,39 @@
+{
+  "question": "What are the current technological focus areas and social media strategies of companies in the renewable energy industry?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify all companies in the renewable energy industry and retrieve their basic information.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Retrieve the strategic IT focus areas for the identified renewable energy companies to understand their technology priorities.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the social media activities of these companies by retrieving their engagement metrics from various platforms such as Facebook, Twitter, and Instagram.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyTwitterDetail",
+        "CompanyInstagramDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Compile the findings into a summary report detailing the technological focus areas and social media strategies of each company.",
+      "table": [
+        "CompanyInfo",
+        "CompanyFocusAreaDetail",
+        "CompanyFacebookDetail",
+        "CompanyTwitterDetail",
+        "CompanyInstagramDetail"
+      ]
+    }
+  ]
+}

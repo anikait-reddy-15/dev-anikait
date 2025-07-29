@@ -1,0 +1,4 @@
+{
+  "question": "What are the current technology focus areas for companies in the financial services industry, and how are they engaging on social media?",
+  "subtasks": "[{\"step\":1,\"task\":\"Identify all companies operating in the financial services industry and gather their core information such as name, description, and revenue.\",\"table\":[\"CompanyInfo\"]},{\"step\":2,\"task\":\"Extract the strategic technology focus areas for the identified companies, detailing their IT initiatives and investments in technology.\",\"table\":[\"CompanyFocusAreaDetail\"]},{\"step\":3,\"task\":\"Collect and analyze the companies' social media engagement metrics from Facebook, Instagram, and Twitter to evaluate their online presence and audience interaction.\",\"table\":[\"CompanyFacebookDetail\",\"CompanyInstagramDetail\",\"CompanyTwitterDetail\"]}]"
+}

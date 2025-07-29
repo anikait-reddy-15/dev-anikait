@@ -1,0 +1,4 @@
+{
+  "question": "What are the current hiring trends in the IT industry across different companies?",
+  "subtasks": "[{'step': 1, 'task': 'Identify companies in the IT industry from the CompanyInfo table.', 'table': ['CompanyInfo']}, {'step': 2, 'task': 'Gather active hiring initiatives from the CompanyHiringDetail table specifically for IT-related designations.', 'table': ['CompanyHiringDetail']}, {'step': 3, 'task': 'Analyze the hiring data to determine the most commonly sought skills and roles within the IT sector.', 'table': ['CompanyHiringDetail']}, {'step': 4, 'task': 'Cross-reference hiring initiatives with company revenue and employee count from CompanyInfo to correlate hiring trends with company size.', 'table': ['CompanyInfo', 'CompanyHiringDetail']}, {'step': 5, 'task': 'Compile findings into a report summarizing key insights on IT hiring trends across the identified companies.', 'table': []}]"
+}

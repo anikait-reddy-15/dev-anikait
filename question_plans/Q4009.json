@@ -1,0 +1,41 @@
+{
+  "question": "Analyze the technology adoption trends among companies in the finance industry over the past three years.",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies in the finance industry from the CompanyInfo table.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Gather technology adoption data for the identified finance companies from the CompanyTechStack table.",
+      "table": [
+        "CompanyTechStack"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Filter the technology adoption data to include only those records from the past three years.",
+      "table": [
+        "CompanyTechStack"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Analyze the trends by aggregating data based on technology categories and adoption rates.",
+      "table": [
+        "CompanyTechStack"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Prepare a summary report of findings, including visuals if applicable, showcasing the technology trends in the finance industry.",
+      "table": [
+        "CompanyInfo",
+        "CompanyTechStack"
+      ]
+    }
+  ]
+}

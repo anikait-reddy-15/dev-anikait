@@ -1,0 +1,4 @@
+{
+  "question": "What are the current social media engagement metrics for companies in the technology industry?",
+  "subtasks": "[{\"step\":1,\"task\":\"Query the CompanyInfo table to retrieve the list of companies in the technology industry and their identifiers.\",\"table\":[\"CompanyInfo\"]},{\"step\":2,\"task\":\"Fetch social media engagement metrics by querying the SocialMediaInfo table for the identified technology companies based on their CompanyInfoId.\",\"table\":[\"SocialMediaInfo\"]},{\"step\":3,\"task\":\"Combine the results from both queries to compile a comprehensive view of social media metrics along with company names and details.\",\"table\":[\"CompanyInfo\",\"SocialMediaInfo\"]}]"
+}

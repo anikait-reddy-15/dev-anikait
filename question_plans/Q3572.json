@@ -1,0 +1,37 @@
+{
+  "question": "What are the current technology partnerships of companies in the finance industry and their impact on market trends?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify all companies in the finance industry by filtering the CompanyInfo table using the 'Industry' column.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract technology partnership details for the identified companies from the CompanyITPartnerDetail table, linking with CompanyInfo to retrieve company names and partnership descriptions.",
+      "table": [
+        "CompanyITPartnerDetail",
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the extracted technology partnership data to determine the impact on market trends by correlating with data from the CompanyDealMaster table, focusing on service values and contract lengths.",
+      "table": [
+        "CompanyDealMaster",
+        "CompanyITPartnerDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Summarize the findings regarding technology partnerships and market trends in a report format, including insights and strategic implications.",
+      "table": [
+        "CompanyInfo",
+        "CompanyITPartnerDetail",
+        "CompanyDealMaster"
+      ]
+    }
+  ]
+}

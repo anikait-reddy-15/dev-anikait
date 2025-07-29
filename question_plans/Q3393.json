@@ -1,0 +1,34 @@
+{
+  "question": "What are the key IT service contracts for companies in the technology industry over the last year?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies operating in the technology industry and their relevant details such as revenue and IT budget.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Fetch IT service contract details for the identified technology companies, filtering contracts signed in the last year.",
+      "table": [
+        "CompanyDealMaster"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Aggregate service contract values and summarize key terms and conditions from the contracts for analysis.",
+      "table": [
+        "CompanyDealMaster"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Evaluate the performance metrics related to these contracts, analyzing the impact on each company's IT budget and strategy.",
+      "table": [
+        "CompanyInfo",
+        "CompanyITPartnerDetail"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "question": "What are the emerging technology trends for companies in the finance industry?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies operating in the finance industry by querying the CompanyInfo table for records where Industry is 'Finance'.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Retrieve the strategic technology focus areas for the identified finance companies from the CompanyFocusAreaDetail table using the CompanyInfoId to link the records. ",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the recent IT trends specific to the finance industry from the IndustryITTrend table, focusing on the adoption of technologies like AI, blockchain, and cybersecurity.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Compile insights about the technology focus areas and trends, highlighting key investments and strategic directions identified for finance companies.",
+      "table": [
+        "CompanyFocusAreaDetail",
+        "IndustryITTrend"
+      ]
+    }
+  ]
+}

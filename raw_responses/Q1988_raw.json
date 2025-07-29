@@ -1,0 +1,4 @@
+{
+  "question": "What are the current IT hiring trends among companies in the technology sector?",
+  "subtasks": "[\n    {\n        \"step\": 1,\n        \"task\": \"Identify technology sector companies based on industry classification.\",\n        \"table\": [\"CompanyInfo\"]\n    },\n    {\n        \"step\": 2,\n        \"task\": \"Gather hiring detail data for the identified technology companies, focusing on active hiring initiatives.\",\n        \"table\": [\"CompanyHiringDetail\"]\n    },\n    {\n        \"step\": 3,\n        \"task\": \"Analyze collected hiring data to extract trends, such as most in-demand designations and domains of hiring.\",\n        \"table\": [\"CompanyHiringDetail\"]\n    },\n    {\n        \"step\": 4,\n        \"task\": \"Compile findings and insights into a structured report to track current hiring trends.\",\n        \"table\": [\"CompanyInfo\", \"CompanyHiringDetail\"]\n    }\n]"
+}

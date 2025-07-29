@@ -1,0 +1,37 @@
+{
+  "question": "Analyze the current IT investment and technology focus areas of major companies in the healthcare industry to understand market trends and opportunities.",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify and retrieve all companies operating in the healthcare industry along with their IT budget and revenue metrics.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Gather detailed information on the strategic technology focus areas for the identified healthcare companies to determine their technology priorities and initiatives.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Compile data on technology services and partnerships for the healthcare companies to analyze their vendor relationships and technology adoption.",
+      "table": [
+        "CompanyITPartnerDetail",
+        "CompanyVendorTechDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Aggregate social media presence and engagement data for healthcare companies to gauge their outreach and public sentiment regarding their IT initiatives.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyTwitterDetail",
+        "CompanyInstagramDetail",
+        "CompanyYoutubeDetail"
+      ]
+    }
+  ]
+}

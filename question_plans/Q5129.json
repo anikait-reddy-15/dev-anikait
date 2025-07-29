@@ -1,0 +1,38 @@
+{
+  "question": "What are the current hiring trends in technology companies including their focus areas and leadership statements?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify active technology companies from the CompanyInfo table, filtering by industry and active status.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Gather hiring initiatives and job roles specified in the CompanyHiringDetail table for the identified tech companies.",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Compile the strategic technology focus areas from the CompanyFocusAreaDetail table for the same companies.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Collect leadership statements from the CompanyLeadershipExcerpt table that relate to the identified focus areas and current hiring trends.",
+      "table": [
+        "CompanyLeadershipExcerpt"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Analyze and summarize the gathered data to assess trends in hiring and strategic focus areas of technology companies.",
+      "table": []
+    }
+  ]
+}

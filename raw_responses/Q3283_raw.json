@@ -1,0 +1,4 @@
+{
+  "question": "What are the technology trends among companies in the finance industry based on their hiring practices and partnerships?",
+  "subtasks": "[{\"step\":1,\"task\":\"Identify companies operating in the finance industry from the CompanyInfo table.\",\"table\":[\"CompanyInfo\"]},{\"step\":2,\"task\":\"Extract active hiring details related to technology roles from the CompanyHiringDetail table for identified finance companies.\",\"table\":[\"CompanyHiringDetail\"]},{\"step\":3,\"task\":\"Gather partnership information from the CompanyITPartnerDetail table for the same finance companies to analyze technology collaborations.\",\"table\":[\"CompanyITPartnerDetail\"]},{\"step\":4,\"task\":\"Analyze the gathered data from hiring and partnerships to identify common technology trends or areas of focus in the finance industry.\",\"table\":[\"CompanyHiringDetail\",\"CompanyITPartnerDetail\"]}]}"
+}

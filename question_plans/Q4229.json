@@ -1,0 +1,34 @@
+{
+  "question": "What are the current trends in technology investments made by companies across different industries?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify and list the industries with significant technology investment trends.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Gather detailed technology investment data for each industry from the CompanyInfo table.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze specific IT focus areas and trends by extracting data from the CompanyFocusAreaDetail table.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Compile and summarize the findings into a report format to highlight key trends and observations.",
+      "table": [
+        "PageInfo",
+        "SectionInfo"
+      ]
+    }
+  ]
+}

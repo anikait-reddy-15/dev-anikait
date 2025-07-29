@@ -1,0 +1,48 @@
+{
+  "question": "What are the current trends in technology adoption and social media engagement among companies in the IT industry?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify and list IT companies from the CompanyInfo table along with their active status and foundational years.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Gather data on technology focus areas from the CompanyFocusAreaDetail table to understand which technologies are currently being prioritized by these companies.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze social media engagement metrics such as likes, comments, and engagement rates from the CompanyFacebookDetail, CompanyInstagramDetail, CompanyTwitterDetail, and CompanyYoutubeDetail tables to assess each company's activity in social media.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyInstagramDetail",
+        "CompanyTwitterDetail",
+        "CompanyYoutubeDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Compile insights on emerging IT trends from the IndustryITTrend table to compare the technology focus areas of companies with overarching industry trends.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Create a comprehensive report summarizing the technology adoption trends and correlating them with social media engagement across the selected companies.",
+      "table": [
+        "CompanyInfo",
+        "CompanyFocusAreaDetail",
+        "CompanyFacebookDetail",
+        "CompanyInstagramDetail",
+        "CompanyTwitterDetail",
+        "CompanyYoutubeDetail"
+      ]
+    }
+  ]
+}

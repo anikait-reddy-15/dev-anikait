@@ -1,0 +1,42 @@
+{
+  "question": "What are the latest trends in IT investments among companies in the tech industry?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies in the tech industry and gather relevant financial metrics such as IT budget and revenue.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Analyze historical contract data for B2B technology service contracts to determine investment patterns and areas of focus.",
+      "table": [
+        "CompanyDealMaster"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Assess technology focus areas of the identified companies to see which IT trends they are focusing on (e.g., cloud computing, AI, and automation).",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Compile data on how these companies are engaging with social media and their public messaging regarding IT investments to understand their strategic direction.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyTwitterDetail",
+        "CompanyInstagramDetail"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Synthesize the collected information to outline the latest trends in IT investments and create a comprehensive report on these findings.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    }
+  ]
+}

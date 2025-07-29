@@ -1,0 +1,4 @@
+{
+  "question": "What are the trending IT investment priorities for technology companies in 2024?",
+  "subtasks": "[\n    {\n        \"step\": 1,\n        \"task\": \"Identify the technology focus areas for companies based on their IT investments and strategy.\",\n        \"table\": [\"CompanyFocusAreaDetail\"]\n    },\n    {\n        \"step\": 2,\n        \"task\": \"Analyze the revenue and IT budget data for companies to understand their investment capabilities in IT.\",\n        \"table\": [\"CompanyInfo\"]\n    },\n    {\n        \"step\": 3,\n        \"task\": \"Examine the emerging IT trends across various industries that may influence investment decisions for technology companies.\",\n        \"table\": [\"IndustryITTrend\"]\n    },\n    {\n        \"step\": 4,\n        \"task\": \"Collect insights from leadership statements regarding strategic directions and technology adoption for 2024.\",\n        \"table\": [\"CompanyLeadershipExcerpt\"]\n    }\n]"
+}

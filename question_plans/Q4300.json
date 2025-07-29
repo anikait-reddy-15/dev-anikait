@@ -1,0 +1,35 @@
+{
+  "question": "What are the current technology trends across different industries, and how are companies adapting to them?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Retrieve the latest technology trends recorded in the IndustryITTrend table, grouped by IndustryType to get a quick overview of the emerging IT trends across industries.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "For each technology trend identified, gather corresponding company data from the CompanyTechStack table to see which companies are adopting these technologies and note the technologies they are using.",
+      "table": [
+        "CompanyTechStack"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the CompanyFocusAreaDetail table to extract descriptions of strategic technological initiatives companies are undertaking in response to the trends identified in step 1.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Compile and match the technological initiatives from step 3 with the trends from step 1, summarizing how companies are responding to these trends with their initiatives and technology stacks.",
+      "table": [
+        "IndustryITTrend",
+        "CompanyFocusAreaDetail",
+        "CompanyTechStack"
+      ]
+    }
+  ]
+}

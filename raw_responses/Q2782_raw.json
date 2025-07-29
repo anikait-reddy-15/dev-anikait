@@ -1,0 +1,4 @@
+{
+  "question": "Analyze the impact of technology partnerships on company revenues.",
+  "subtasks": "[{\"step\":1,\"task\":\"Identify companies that have active technology partnerships and their associated deal values.\",\"table\":[\"CompanyITPartnerDetail\"]},{\"step\":2,\"task\":\"Gather financial metrics such as revenues and net incomes for these companies to analyze their financial performance.\",\"table\":[\"CompanyInfo\"]},{\"step\":3,\"task\":\"Correlate the deal values from partnerships with the revenue metrics to assess the impact of technology partnerships on financial performance.\",\"table\":[\"CompanyITPartnerDetail\",\"CompanyInfo\"]},{\"step\":4,\"task\":\"Document and visualize the findings to present insights on how technology partnerships contribute to company revenues.\",\"table\":[\"CompanyITPartnerDetail\",\"CompanyInfo\"]}]}"
+}

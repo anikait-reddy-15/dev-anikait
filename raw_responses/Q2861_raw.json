@@ -1,0 +1,4 @@
+{
+  "question": "What are the current trends in IT spending across different industries?",
+  "subtasks": "[{\"step\":1,\"task\":\"Identify the industries with the highest IT budget allocation for the current year.\",\"table\":[\"CompanyInfo\"]},{\"step\":2,\"task\":\"Analyze recent contract values from the CompanyDealMaster to determine spending patterns on IT services by industry.\",\"table\":[\"CompanyDealMaster\"]},{\"step\":3,\"task\":\"Investigate the IT focus areas specified in the CompanyFocusAreaDetail table to correlate them with industry trends.\",\"table\":[\"CompanyFocusAreaDetail\"]},{\"step\":4,\"task\":\"Summarize findings in a report format linking IT budgets with focus areas and contract values for each industry.\",\"table\":[\"CompanyInfo\",\"CompanyDealMaster\",\"CompanyFocusAreaDetail\"]}]"
+}

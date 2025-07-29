@@ -1,0 +1,4 @@
+{
+  "question": "What are the market trends for companies in the technology sector, specifically regarding their social media engagement and hiring initiatives?",
+  "subtasks": "[{'step': 1, 'task': 'Identify technology companies and gather their profiles including industry metrics.', 'table': ['CompanyInfo']}, {'step': 2, 'task': 'Analyze social media engagement metrics of these technology companies on platforms like Facebook, Instagram, and Twitter.', 'table': ['CompanyFacebookDetail', 'CompanyInstagramDetail', 'CompanyTwitterDetail']}, {'step': 3, 'task': 'Collect and evaluate hiring initiatives specifically focusing on positions related to technology.', 'table': ['CompanyHiringDetail']}, {'step': 4, 'task': 'Aggregate and present the data to highlight trends in social media engagement and hiring in the technology sector.', 'table': []}]"
+}

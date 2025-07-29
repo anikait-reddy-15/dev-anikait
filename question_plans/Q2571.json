@@ -1,0 +1,34 @@
+{
+  "question": "What are the current trends in technology adoption across different industries, and how do they align with companies' strategic initiatives?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify the current emerging technology trends within various industries from the IndustryITTrend table.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Gather information on companies' strategic focus areas from the CompanyFocusAreaDetail table to understand their technology initiatives.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze technology-related social media engagement and activity of companies from the SocialMediaInfo table to gauge public interest and alignment with trends.",
+      "table": [
+        "SocialMediaInfo"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Combine the data from tables on industry trends and company initiatives to create a comprehensive overview report on technology adoption trends and strategic alignment.",
+      "table": [
+        "IndustryITTrend",
+        "CompanyFocusAreaDetail"
+      ]
+    }
+  ]
+}

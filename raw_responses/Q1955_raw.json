@@ -1,0 +1,4 @@
+{
+  "question": "What are the hiring trends in the technology industry based on recent job postings?",
+  "subtasks": ":[{\"step\":1,\"task\":\"Identify and gather data related to active hiring initiatives in the technology industry from the CompanyHiringDetail table.\",\"table\":[\"CompanyHiringDetail\"]},{\"step\":2,\"task\":\"Analyze the job postings by technology focus areas to determine the most in-demand skills and roles in the industry.\",\"table\":[\"CompanyHiringDetail\",\"CompanyFocusAreaDetail\"]},{\"step\":3,\"task\":\"Summarize and visualize the hiring trends over time, focusing on the number of job postings and types of roles being hired for in the technology sector.\",\"table\":[\"CompanyHiringDetail\"]},{\"step\":4,\"task\":\"Correlate hiring trends with company performance metrics like IT budget and industry focus to assess how hiring supports business strategies.\",\"table\":[\"CompanyHiringDetail\",\"CompanyInfo\"]}]}"
+}

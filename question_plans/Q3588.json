@@ -1,0 +1,35 @@
+{
+  "question": "What are the recent hiring trends and technology adoption strategies across industries?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify the recent job roles and hiring initiatives undertaken by companies across various industries to determine trends in skills demand.",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Analyze the technology focus areas of these companies to assess which technologies are being prioritized in hiring and investment strategies.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Collect data on the emerging IT trends related to industrial sectors to correlate hiring trends with technology adoption across different industries.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Aggregate and summarize the insights from the company hiring initiatives and technology focus areas to present a comprehensive view of the trends.",
+      "table": [
+        "CompanyInfo",
+        "CompanyHiringDetail",
+        "CompanyFocusAreaDetail"
+      ]
+    }
+  ]
+}

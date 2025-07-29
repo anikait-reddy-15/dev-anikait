@@ -1,0 +1,35 @@
+{
+  "question": "What are the technology adoption trends across different industries and how do they correlate with company revenues?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify different industries alongside their associated technology adoption trends such as AI, IoT, and blockchain.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Gather revenue data for companies within each identified industry to establish a correlation between technology adoption and financial performance.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the aggregated data to determine if there are significant trends or correlations between technology utilization and industry revenue growth.",
+      "table": [
+        "CompanyInfo",
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Summarize findings and visualize data to represent the relationship between technology trends and company revenue across industries.",
+      "table": [
+        "CompanyInfo",
+        "IndustryITTrend"
+      ]
+    }
+  ]
+}

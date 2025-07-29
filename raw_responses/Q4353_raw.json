@@ -1,0 +1,4 @@
+{
+  "question": "What are the current IT focus areas and technology trends among top companies in the technology industry?",
+  "subtasks": "[{\"step\":1,\"task\":\"Identify top companies in the technology industry based on their market capitalization and revenue.\",\"table\":[\"CompanyInfo\"]},{\"step\":2,\"task\":\"Collect data on the IT focus areas of the identified top companies to understand their strategic technological initiatives.\",\"table\":[\"CompanyFocusAreaDetail\"]},{\"step\":3,\"task\":\"Analyze emerging IT trends in the technology industry by examining related data in the IndustryITTrend table to see how companies are adopting specific technologies.\",\"table\":[\"IndustryITTrend\"]},{\"step\":4,\"task\":\"Compile the findings into a summary report highlighting the strategic focus and technology trends prevalent among the top technology companies.\",\"table\":[]}]}"
+}

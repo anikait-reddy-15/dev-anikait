@@ -1,0 +1,42 @@
+{
+  "question": "Identify trends in social media engagement for companies within the IT industry over the past year and correlate them with their revenue growth.",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Query the CompanyInfo table to retrieve the list of companies that belong to the IT industry, along with their revenue and active status.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Collect social media engagement data from the SocialMediaInfo table for the identified IT companies within the past year, focusing on platforms like Facebook, Twitter, and Instagram.",
+      "table": [
+        "SocialMediaInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Aggregate the engagement figures from the SocialMediaInfo table by company, summarizing likes, shares, and comments to assess overall engagement levels.",
+      "table": [
+        "SocialMediaInfo"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Join the aggregated social media engagement data with the revenue figures from the CompanyInfo table to analyze correlations between social media engagement and revenue growth.",
+      "table": [
+        "CompanyInfo",
+        "SocialMediaInfo"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Analyze the combined data to identify any observable trends between social media engagement levels and revenue growth within the past year, focusing on the IT industry. Report findings accordingly.",
+      "table": [
+        "CompanyInfo",
+        "SocialMediaInfo"
+      ]
+    }
+  ]
+}

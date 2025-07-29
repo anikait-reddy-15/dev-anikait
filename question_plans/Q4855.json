@@ -1,0 +1,41 @@
+{
+  "question": "What are the recent trends in IT spending by companies across different industries?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Gather recent financial metrics related to IT budgets from the CompanyInfo table for various companies.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Identify the industries of each company from the CompanyInfo table to categorize the IT budgets by industry.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the collected IT budget data and summarize average spending by industry using relevant financial metrics.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Research additional IT trends across various industries by analyzing emerging IT themes in the IndustryITTrend table.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Combine insights from both the financial metrics and industry trend analysis to deduce correlations between IT spending and adoption of technology trends.",
+      "table": [
+        "CompanyInfo",
+        "IndustryITTrend"
+      ]
+    }
+  ]
+}

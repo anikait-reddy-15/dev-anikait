@@ -1,0 +1,44 @@
+{
+  "question": "What are the current hiring trends and job focus areas in the IT sector across different companies?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify active IT hiring initiatives by querying the CompanyHiringDetail table to extract detailed information on job roles and responsibilities in the IT sector.",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Gather information regarding the strategic IT focus areas of companies by querying the CompanyFocusAreaDetail table to analyze their technology investments and priorities.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze hiring trends over time by correlating data from CompanyHiringDetail with other relevant tables, such as CompanyInfo for industry and company sizes, to identify patterns in the types of roles companies are focusing on.",
+      "table": [
+        "CompanyHiringDetail",
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Examine the social media presence of companies to complement hiring information with insights on their employee branding efforts, querying tables such as CompanyFacebookDetail and CompanyInstagramDetail.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyInstagramDetail"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Compile results into a comprehensive report summarizing the findings on hiring initiatives and focus areas across the IT sector, integrating insights from the gathered data across different tables.",
+      "table": [
+        "CompanyHiringDetail",
+        "CompanyFocusAreaDetail",
+        "CompanyInfo"
+      ]
+    }
+  ]
+}

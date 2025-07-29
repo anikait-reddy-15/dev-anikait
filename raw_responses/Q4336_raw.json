@@ -1,0 +1,4 @@
+{
+  "question": "Identify the top 5 companies in the technology industry with the highest IT budgets and analyze their social media presence.",
+  "subtasks": "1. Extract the top 5 companies from the CompanyInfo table that belong to the technology industry and have the highest IT budgets.\n   - tables: [CompanyInfo]\n\n2. Retrieve social media metrics for the identified companies from the SocialMediaInfo table, including counts from platforms like Facebook, Twitter, Instagram, and LinkedIn.\n   - tables: [SocialMediaInfo]\n\n3. Aggregate the social media engagement metrics to analyze the overall social media presence of these top companies.\n   - tables: [CompanyFacebookDetail, CompanyTwitterDetail, CompanyInstagramDetail, CompanyLinkedinActivity]"
+}

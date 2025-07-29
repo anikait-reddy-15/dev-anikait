@@ -1,0 +1,33 @@
+{
+  "question": "Identify which companies are investing in cloud computing technologies and analyze their recent hiring trends in related roles.",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Query companies from the CompanyFocusAreaDetail table that have a focus on cloud computing technologies.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Retrieve details about recent hiring initiatives from the CompanyHiringDetail table for the identified companies in cloud computing roles.",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Fetch financial metrics like IT budget and revenue from the CompanyInfo table for companies identified in step 1 and recent hiring trends from step 2.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Aggregate and analyze the hiring data to determine the demand trends for cloud computing roles across the identified companies.",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    }
+  ]
+}

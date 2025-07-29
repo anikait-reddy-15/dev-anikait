@@ -1,0 +1,40 @@
+{
+  "question": "Analyze the social media engagement strategies of companies across different industries.",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify relevant companies and their associated industry types from the CompanyInfo table.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Retrieve social media engagement metrics for the identified companies from the SocialMediaInfo table, focusing on different platforms like Facebook, Twitter, Instagram, and LinkedIn.",
+      "table": [
+        "SocialMediaInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the social media engagement data by grouping it based on industry types and creating summaries for each industry regarding engagement counts and strategies.",
+      "table": [
+        "SocialMediaInfo",
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Extract specific examples of successful engagement strategies from the CompanyFacebookDetail and CompanyInstagramDetail tables to support the analysis.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyInstagramDetail"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Compile findings into a report that highlights key trends in social media engagement strategies across different industries.",
+      "table": []
+    }
+  ]
+}

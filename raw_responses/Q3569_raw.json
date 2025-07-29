@@ -1,0 +1,4 @@
+{
+  "question": "What are the emerging trends and strategic focus areas for technology adoption within the healthcare industry?",
+  "subtasks": "[{'step': 1, 'task': 'Analyze the healthcare industry in context of technological innovations such as AI, IoT, and blockchain based on IndustryITTrend table.', 'table': ['IndustryITTrend']}, {'step': 2, 'task': 'Review the strategic technology focus areas adopted by healthcare companies using CompanyFocusAreaDetail.', 'table': ['CompanyFocusAreaDetail']}, {'step': 3, 'task': 'Compile a report on recent technology service contracts relevant to healthcare organizations gleaned from the CompanyDealMaster.', 'table': ['CompanyDealMaster']}, {'step': 4, 'task': 'Identify key market trends and narratives impacting healthcare by extracting data from IndustryBusinessTrend.', 'table': ['IndustryBusinessTrend']}]"
+}

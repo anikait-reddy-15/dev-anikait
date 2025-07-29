@@ -1,0 +1,4 @@
+{
+  "question": "What are the current social media engagement metrics for our company and how do they compare across different platforms?",
+  "subtasks": "[{\"step\":1,\"task\":\"Gather the company's social media engagement metrics such as likes, comments, and engagement rates from Facebook, Instagram, Twitter, and YouTube.\",\"table\":[\"CompanyFacebookDetail\",\"CompanyInstagramDetail\",\"CompanyTwitterDetail\",\"CompanyYoutubeDetail\"]},{\"step\":2,\"task\":\"Compile the metrics from each social media platform into a comparative format to assess performance across platforms.\",\"table\":[\"SocialMediaInfo\"]},{\"step\":3,\"task\":\"Analyze the engagement metrics to identify trends or insights regarding audience interaction and content effectiveness for each platform.\",\"table\":[\"SocialMediaInfo\"]}]"
+}

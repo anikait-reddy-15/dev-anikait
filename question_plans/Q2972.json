@@ -1,0 +1,43 @@
+{
+  "question": "What are the current trends in technology adoption among companies in the automotive industry?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies in the automotive industry along with their relevant technology focus areas.",
+      "table": [
+        "CompanyInfo",
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Gather information about the technologies adopted by the identified automotive companies, including details on specific products or platforms.",
+      "table": [
+        "CompanyTechStack"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze B2B technology service contracts involving automotive companies to identify trends in service types and vendor partnerships.",
+      "table": [
+        "CompanyDealMaster"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Examine social media engagement of automotive companies to see public sentiments regarding their technology initiatives.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyTwitterDetail",
+        "CompanyInstagramDetail"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Compile insights from industry-level trends related to technology adoption in the automotive sector to provide context for the findings.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    }
+  ]
+}

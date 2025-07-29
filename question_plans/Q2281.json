@@ -1,0 +1,40 @@
+{
+  "question": "What are the technology adoption trends across various industries and how are companies responding to them?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify the emerging IT trends for different industries",
+      "table": [
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Analyze technology focus areas of companies to see how they align with the identified trends",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Collect data on companies that have adopted specific technologies and identify the sectors they belong to",
+      "table": [
+        "CompanyTechStack"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Review company insights and leadership statements to understand strategic responses to technology trends",
+      "table": [
+        "CompanyLeadershipExcerpt"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Compile reports on technology adoption practices including challenges and successes noted by companies",
+      "table": [
+        "CompanyDealMaster"
+      ]
+    }
+  ]
+}

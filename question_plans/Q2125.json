@@ -1,0 +1,45 @@
+{
+  "question": "What are the current trends in technology adoption among companies across different industries?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify the key technology trends that have emerged recently across various industries.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Gather data on companies and their respective technology stacks to see which trends they are adopting.",
+      "table": [
+        "CompanyTechStack",
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the company's engagement on social media platforms to understand how they are communicating and promoting these technologies.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyTwitterDetail",
+        "CompanyInstagramDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Compile insights from company leadership statements regarding their focus on technology adoption.",
+      "table": [
+        "CompanyLeadershipExcerpt"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Combine findings to produce a comprehensive report on technology adoption trends and company strategies in different industries.",
+      "table": [
+        "IndustryITTrend",
+        "CompanyInfo",
+        "SectionData"
+      ]
+    }
+  ]
+}

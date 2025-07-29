@@ -1,0 +1,42 @@
+{
+  "question": "What are the latest trends in technology adoption among companies based on their industry and social media engagement?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify the latest technological trends and focus areas for different industries from the IndustryITTrend table.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Compile data on companies' social media engagement metrics from the CompanyFacebookDetail, CompanyInstagramDetail, CompanyTwitterDetail, and CompanyYoutubeDetail tables.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyInstagramDetail",
+        "CompanyTwitterDetail",
+        "CompanyYoutubeDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Join the trends from the IndustryITTrend table with company data from CompanyInfo to see which companies are adopting the latest technologies based on their industry type.",
+      "table": [
+        "IndustryITTrend",
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Analyze the combined data to identify patterns between industry types and social media engagement levels for companies using technology trends identified in previous steps.",
+      "table": [
+        "IndustryITTrend",
+        "CompanyFacebookDetail",
+        "CompanyInstagramDetail",
+        "CompanyTwitterDetail",
+        "CompanyYoutubeDetail",
+        "CompanyInfo"
+      ]
+    }
+  ]
+}

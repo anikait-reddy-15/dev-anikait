@@ -1,0 +1,32 @@
+{
+  "question": "Analyze the technological focus areas of companies in the 'Financial Services' industry based on their market trends and hiring initiatives.",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Retrieve a list of companies operating in the 'Financial Services' industry from the CompanyInfo table.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract the strategic technology focus areas for the identified companies by joining the CompanyFocusAreaDetail with CompanyInfo using CompanyInfoId.",
+      "table": [
+        "CompanyFocusAreaDetail",
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the hiring initiatives of these companies by retrieving data from the CompanyHiringDetail table linked by CompanyInfoId to find roles related to IT or technology sectors.",
+      "table": [
+        "CompanyHiringDetail",
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Summarize the findings to identify common technology focus areas and hiring trends in the 'Financial Services' sector."
+    }
+  ]
+}

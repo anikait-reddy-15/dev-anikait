@@ -1,0 +1,41 @@
+{
+  "question": "What are the emerging IT trends in the healthcare industry and how are companies in this sector responding?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify healthcare companies and their profiles, including financial metrics, active status, and created dates.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Explore recent entries in the IndustryITTrend table to gather information on emerging IT trends specifically related to healthcare.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the CompanyFocusAreaDetail table to determine how healthcare companies are aligning their strategies with identified IT trends.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Review the CompanyDealMaster table to find any relevant technology service contracts that healthcare companies have signed, focusing on the technologies involved.",
+      "table": [
+        "CompanyDealMaster"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Extract social media engagement data from CompanyFacebookDetail and CompanyTwitterDetail to assess how healthcare companies are communicating about these trends publicly.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyTwitterDetail"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+{
+  "question": "What are the current trends in IT across different industries?",
+  "subtasks": "[{\"step\":1,\"task\":\"Identify all industry types and their corresponding IT trends from the IndustryITTrend table.\",\"table\":[\"IndustryITTrend\"]},{\"step\":2,\"task\":\"Extract detailed narratives of emerging IT trends for each industry from the IndustryITTrend table.\",\"table\":[\"IndustryITTrend\"]},{\"step\":3,\"task\":\"Summarize key technology focus areas like AI, IoT, and cybersecurity from the IndustryITTrend table.\",\"table\":[\"IndustryITTrend\"]},{\"step\":4,\"task\":\"Link industry trends to specific companies or sectors in the CompanyInfo table to understand how they're adopting these trends.\",\"table\":[\"CompanyInfo\",\"IndustryITTrend\"]},{\"step\":5,\"task\":\"Analyze the collected data to illustrate how various industries are prioritizing different technologies based on their IT trends.\",\"table\":[\"IndustryITTrend\",\"CompanyInfo\"]}]}"
+}

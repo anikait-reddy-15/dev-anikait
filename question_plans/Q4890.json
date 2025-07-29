@@ -1,0 +1,38 @@
+{
+  "question": "How has the technology focus area of companies evolved over the last few years?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify the companies and their technology focus areas recorded within the last three years.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Gather metrics on companies' technology investments and partnerships from relevant tables to analyze trends.",
+      "table": [
+        "CompanyITPartnerDetail",
+        "CompanyDealMaster",
+        "CompanyVendorTechDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze social media data to gauge public interaction and engagement with companies focusing on emerging technologies.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyInstagramDetail",
+        "CompanyTwitterDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Summarize findings to demonstrate trends in technology focus areas over time, supported by quantitative data from contracts and technology adoption.",
+      "table": [
+        "IndustryITTrend",
+        "CompanyTechStack"
+      ]
+    }
+  ]
+}

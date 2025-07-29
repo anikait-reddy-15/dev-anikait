@@ -1,0 +1,4 @@
+{
+  "question": "What are the emerging technology trends that companies are investing in across different industries?",
+  "subtasks": "[{'step': 1, 'task': 'Identify key emerging technologies that companies are adopting based on their investment profiles.', 'table': ['CompanyFocusAreaDetail', 'IndustryITTrend']}, {'step': 2, 'task': 'Analyze the strategic technology focus areas related to specific companies to determine investment trends.', 'table': ['CompanyInfo', 'CompanyFocusAreaDetail']}, {'step': 3, 'task': 'Aggregate data on technology adoption trends across different industries to provide a comprehensive overview.', 'table': ['IndustryITTrend', 'CompanyInfo']}, {'step': 4, 'task': 'Compile and summarize findings into actionable insights regarding technology investments per industry.', 'table': ['IndustryBusinessTrend', 'CompanyInfo']}]"
+}

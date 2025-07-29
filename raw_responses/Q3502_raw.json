@@ -1,0 +1,4 @@
+{
+  "question": "What are the current hiring trends in the technology sector for major companies, and which skills are most in demand?",
+  "subtasks": "[{'step': 1, 'task': 'Identify technology companies based on their hiring details.', 'table': ['CompanyHiringDetail']}, {'step': 2, 'task': 'Aggregate the list of required skills and job designations from the hiring details.', 'table': ['CompanyHiringDetail']}, {'step': 3, 'task': 'Analyze trends over time in hiring initiatives and roles to assess changes in demand.', 'table': ['CompanyHiringDetail']}, {'step': 4, 'task': 'Correlate findings with technological focus areas to understand skills alignment with industry trends.', 'table': ['CompanyFocusAreaDetail', 'CompanyHiringDetail']}, {'step': 5, 'task': 'Generate a report summarizing the current hiring trends, including in-demand skills and roles.', 'table': ['CompanyHiringDetail']}]}"
+}

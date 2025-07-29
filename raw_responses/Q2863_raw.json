@@ -1,0 +1,4 @@
+{
+  "question": "Analyze the impact of social media engagement on the financial performance of companies operating in the technology sector.",
+  "subtasks": "[{\"step\":1,\"task\":\"Identify all companies in the technology sector and gather their financial metrics such as Revenue and Net Income.\",\"table\":[\"CompanyInfo\"]},{\"step\":2,\"task\":\"Collect social media engagement data for the identified technology companies, including metrics from Facebook, Twitter, Instagram, and YouTube.\",\"table\":[\"CompanyFacebookDetail\",\"CompanyTwitterDetail\",\"CompanyInstagramDetail\",\"CompanyYoutubeDetail\"]},{\"step\":3,\"task\":\"Analyze the correlation between social media engagement metrics (likes, comments, shares) and financial performance metrics (Revenue, Net Income) for the selected companies.\",\"table\":[\"CompanyInfo\",\"CompanyFacebookDetail\",\"CompanyTwitterDetail\",\"CompanyInstagramDetail\",\"CompanyYoutubeDetail\"]}]"
+}

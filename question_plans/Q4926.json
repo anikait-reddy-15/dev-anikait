@@ -1,0 +1,37 @@
+{
+  "question": "What are the current hiring trends across major industries, and how do they relate to the technologies being adopted by companies?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify active hiring initiatives by industry to determine hiring trends.",
+      "table": [
+        "CompanyHiringDetail",
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Analyze the technologies used by companies in the identified industries to correlate technology adoption with hiring needs.",
+      "table": [
+        "CompanyTechStack",
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Compile and summarize demographic details of the identified hires (like role, location, and technologies) to present a cohesive view of hiring trends.",
+      "table": [
+        "CompanyHiringDetail",
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Examine any leadership insights or strategic directions that inform the hiring processes and technology investments in these industries.",
+      "table": [
+        "CompanyLeadershipExcerpt",
+        "CompanyInfo"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+{
+  "question": "What are the recent trends and technologies being adopted by companies within the technology industry?",
+  "subtasks": "[{'step': 1, 'task': 'Identify companies categorized under the technology industry from the CompanyInfo table.', 'table': ['CompanyInfo']}, {'step': 2, 'task': 'Retrieve recent entries from the IndustryITTrend table that outlines emerging IT trends specific to the technology industry.', 'table': ['IndustryITTrend']}, {'step': 3, 'task': 'Compile data from the CompanyTechStack table to see what technologies these companies are currently adopting.', 'table': ['CompanyTechStack']}, {'step': 4, 'task': 'Cross-reference the gathered data to analyze which technologies align with the identified industry trends and assess the overall direction of technological adoption.', 'table': ['IndustryITTrend', 'CompanyTechStack']}]}"
+}

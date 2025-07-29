@@ -1,0 +1,4 @@
+{
+  "question": "What is the current market trend for technology companies and how is it impacting their social media presence?",
+  "subtasks": "[{'step': 1, 'task': 'Identify the latest technology industry trends by analyzing data from the IndustryITTrend table.', 'table': ['IndustryITTrend']}, {'step': 2, 'task': 'Extract details of company profiles including their revenue, market capitalization, and industry type from the CompanyInfo table.', 'table': ['CompanyInfo']}, {'step': 3, 'task': 'Gather social media engagement metrics from the SocialMediaInfo table to understand how these companies are interacting on various platforms.', 'table': ['SocialMediaInfo']}, {'step': 4, 'task': 'Combine insights from technology trends and social media presence to identify potential correlations between market trends and social media engagement.', 'table': []}]"
+}

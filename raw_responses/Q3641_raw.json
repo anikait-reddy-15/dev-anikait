@@ -1,0 +1,4 @@
+{
+  "question": "Identify the top three companies based on their IT budget and analyze their social media presence.",
+  "subtasks": "[{'step': 1, 'task': 'Retrieve the top three companies ordered by IT budget from the CompanyInfo table.', 'table': ['CompanyInfo']}, {'step': 2, 'task': 'For each of the top three companies, gather their social media engagement metrics from SocialMediaInfo table.', 'table': ['SocialMediaInfo']}, {'step': 3, 'task': 'Analyze social media presence by reviewing associated details in CompanyFacebookDetail, CompanyTwitterDetail, and CompanyInstagramDetail for each of the top three companies.', 'table': ['CompanyFacebookDetail', 'CompanyTwitterDetail', 'CompanyInstagramDetail']}]"
+}

@@ -1,0 +1,43 @@
+{
+  "question": "Analyze the impact of social media engagement on a company's brand presence in the market.",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Retrieve social media statistics for companies including engagement metrics such as likes, comments, and shares from Facebook, Instagram, Twitter, and YouTube.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyInstagramDetail",
+        "CompanyTwitterDetail",
+        "CompanyYoutubeDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Collect company information such as name, industry, and revenue to correlate with social media performance.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Examine trends in social media engagement over time to identify any patterns or correlations with significant changes in brand visibility or market presence.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyInstagramDetail",
+        "CompanyTwitterDetail",
+        "CompanyYoutubeDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Analyze the correlation between social media engagement metrics and financial outcomes like revenue and market capitalization across different companies.",
+      "table": [
+        "CompanyInfo",
+        "CompanyFacebookDetail",
+        "CompanyInstagramDetail",
+        "CompanyTwitterDetail",
+        "CompanyYoutubeDetail"
+      ]
+    }
+  ]
+}

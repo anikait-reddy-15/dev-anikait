@@ -1,0 +1,4 @@
+{
+  "question": "Analyze the impact of technology adoption trends on company revenue across different industries.",
+  "subtasks": "[{\"step\":1,\"task\":\"Identify the relevant technology trends for different industries.\",\"table\":[\"IndustryITTrend\"]},{\"step\":2,\"task\":\"Gather revenue data from companies categorized by their respective industries.\",\"table\":[\"CompanyInfo\"]},{\"step\":3,\"task\":\"Map the technology trends to companies and their revenue data to analyze the correlation.\",\"table\":[\"CompanyTechStack\",\"CompanyDealMaster\"]},{\"step\":4,\"task\":\"Analyze the results to determine how technology adoption impacts revenue across industries.\",\"table\":[\"CompanyInfo\",\"IndustryITTrend\"]}]"
+}

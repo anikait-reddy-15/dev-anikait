@@ -1,0 +1,42 @@
+{
+  "question": "What are the emerging technology trends in the healthcare industry, and which companies are leading these trends?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify the healthcare industry from the IndustryBusinessTrend table to gather information on current trends.",
+      "table": [
+        "IndustryBusinessTrend"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract technology focus areas related to healthcare companies from the IndustryITTrend table to understand technological priorities.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Cross-reference the CompanyInfo table to identify companies that are active in the healthcare sector based on their industry classification.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Aggregate the data from CompanyTechStack to analyze which specific technologies these leading companies are adopting.",
+      "table": [
+        "CompanyTechStack"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Compile and summarize the findings into a cohesive analysis of healthcare technology trends and company leadership in this space.",
+      "table": [
+        "CompanyInfo",
+        "IndustryITTrend",
+        "CompanyTechStack"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+{
+  "question": "What are the emerging technology trends across different industries and how are companies adapting to these trends?",
+  "subtasks": "[{\"step\":1,\"task\":\"Identify the emerging technology trends relevant to different industries from the IndustryITTrend table.\",\"table\":[\"IndustryITTrend\"]},{\"step\":2,\"task\":\"Analyze the focus areas of companies linked to these trends from the CompanyFocusAreaDetail table.\",\"table\":[\"CompanyFocusAreaDetail\"]},{\"step\":3,\"task\":\"For each trend, gather data on companies' technology stacks and partnerships by extracting relevant information from CompanyTechStack and CompanyITPartnerDetail tables.\",\"table\":[\"CompanyTechStack\",\"CompanyITPartnerDetail\"]},{\"step\":4,\"task\":\"Aggregate and summarize findings to understand how companies are implementing these trends in their strategies and operations.\",\"table\":[\"CompanyInfo\",\"CompanyVendorTechDetail\"]}]"
+}

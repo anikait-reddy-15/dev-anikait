@@ -1,0 +1,42 @@
+{
+  "question": "What are the recent trends in IT adoption across various industries and how do they align with company strategies?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify the emerging IT trends relevant to different industries from the IndustryITTrend table.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Aggregate data on company focus areas from the CompanyFocusAreaDetail table to understand company-specific strategies in IT adoption.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Cross-reference the IndustryITTrend data with the CompanyInfo and CompanyDealMaster to analyze how various companies are aligning their contracts with these IT trends.",
+      "table": [
+        "CompanyInfo",
+        "CompanyDealMaster"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Compile insights into social media engagement related to IT strategies from CompanyFacebookDetail and CompanyTwitterDetail for a broader perspective on company visibility in relation to industry trends.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyTwitterDetail"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Summarize the overall findings and report on how these trends are influencing the strategic decisions of companies towards technology investments.",
+      "table": [
+        "CompanyInfo"
+      ]
+    }
+  ]
+}

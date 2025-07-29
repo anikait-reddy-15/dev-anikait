@@ -1,0 +1,43 @@
+{
+  "question": "What are the key technology trends companies are focusing on in 2023 for digital transformation?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify the current technology focus areas of various companies to understand trends related to digital transformation.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Gather insights and emerging IT trends for different industries to recognize patterns in technology adoption.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Examine leadership statements from companies related to their IT strategies and digital transformation initiatives.",
+      "table": [
+        "CompanyLeadershipExcerpt"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Compile data on technology vendors and partnerships that align with digital transformation initiatives across companies.",
+      "table": [
+        "CompanyVendorTechDetail",
+        "CompanyITPartnerDetail"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Analyze social media engagement regarding technology trends over 2023 to see how companies are promoting their digital transformation.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyInstagramDetail",
+        "CompanyTwitterDetail"
+      ]
+    }
+  ]
+}

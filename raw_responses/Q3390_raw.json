@@ -1,0 +1,4 @@
+{
+  "question": "What are the emerging technology trends in the finance industry based on current data?",
+  "subtasks": "[{\"step\":1,\"task\":\"Identify and retrieve records related to the finance industry's emerging trends from the IndustryITTrend table.\",\"table\":[\"IndustryITTrend\"]},{\"step\":2,\"task\":\"Analyze the extracted trends and features to summarize key technology focus areas relevant to the finance industry.\",\"table\":[\"IndustryITTrend\"]},{\"step\":3,\"task\":\"Cross-reference the identified trends with financial metrics from the CompanyInfo table to understand which companies are aligned with these trends.\",\"table\":[\"CompanyInfo\",\"IndustryITTrend\"]},{\"step\":4,\"task\":\"Compile a report outlining the findings on technology trends and company alignments in the finance sector.\",\"table\":[\"IndustryITTrend\",\"CompanyInfo\"]}]}"
+}

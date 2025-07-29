@@ -1,0 +1,4 @@
+{
+  "question": "What are the key social media engagement metrics and trends for technology companies in the health sector?",
+  "subtasks": "[{'step': 1, 'task': 'Identify technology companies operating in the health sector and extract their basic information including names, revenues, and active status.', 'table': ['CompanyInfo']}, {'step': 2, 'task': 'Gather social media metrics (likes, comments, engagement rates) from Facebook, Instagram, Twitter, and YouTube for the identified health sector companies.', 'table': ['CompanyFacebookDetail', 'CompanyInstagramDetail', 'CompanyTwitterDetail', 'CompanyYoutubeDetail']}, {'step': 3, 'task': 'Analyze the collected social media metrics to identify trends and patterns in engagement across the health sector technology companies.', 'table': []}]"
+}

@@ -1,0 +1,4 @@
+{
+  "question": "Analyze the technology adoption trends and partnerships of major companies in the IT services industry.",
+  "subtasks": "[\n    {\n        \"step\": 1,\n        \"task\": \"Retrieve companies operating in the IT services industry.\",\n        \"table\": [\"CompanyInfo\"]\n    },\n    {\n        \"step\": 2,\n        \"task\": \"Collect data on IT technologies adopted by these companies to assess their technology stack.\",\n        \"table\": [\"CompanyTechStack\"]\n    },\n    {\n        \"step\": 3,\n        \"task\": \"Identify and extract information about partnership deals related to IT services between companies and their technology partners.\",\n        \"table\": [\"CompanyITPartnerDetail\"]\n    },\n    {\n        \"step\": 4,\n        \"task\": \"Analyze and summarize the findings to present the trends in technology adoption and partnerships in the IT services industry.\",\n        \"table\": []\n    }\n]"
+}

@@ -1,0 +1,4 @@
+{
+  "question": "What are the emerging IT trends in the finance industry affecting company technology adoption strategies?",
+  "subtasks": "[{\"step\":1,\"task\":\"Identify finance companies and their current technological standings through financial metrics and industry categorization.\",\"table\":[\"CompanyInfo\"]},{\"step\":2,\"task\":\"Analyze the recent IT trends and their impact specifically on the finance industry to understand technology adoption and strategic focus areas.\",\"table\":[\"IndustryITTrend\"]},{\"step\":3,\"task\":\"Collect data on technology partnerships and acquisitions by finance companies to gauge their response to emerging IT trends.\",\"table\":[\"CompanyITPartnerDetail\"]},{\"step\":4,\"task\":\"Examine the technology stack employed by finance companies to assess the adoption levels of identified IT trends.\",\"table\":[\"CompanyTechStack\"]}]"
+}

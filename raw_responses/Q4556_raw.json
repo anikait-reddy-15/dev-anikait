@@ -1,0 +1,4 @@
+{
+  "question": "Identify companies that are currently active in the technology sector with significant IT budgets and social media presence.",
+  "subtasks": "[{\"step\":1,\"task\":\"Query the CompanyInfo table to find active companies in the technology sector with significant IT budgets.\",\"table\":[\"CompanyInfo\"]},{\"step\":2,\"task\":\"Join the CompanyInfo table with the SocialMediaInfo table to identify the social media presence of the selected companies.\",\"table\":[\"CompanyInfo\",\"SocialMediaInfo\"]},{\"step\":3,\"task\":\"Filter the results to include only those companies that have a certain number of followers or engagement metrics across social media platforms.\",\"table\":[\"CompanyInfo\",\"SocialMediaInfo\"]},{\"step\":4,\"task\":\"Compile the final list of companies that meet both criteria (active in the technology sector with significant IT budgets and strong social media presence).\",\"table\":[\"CompanyInfo\",\"SocialMediaInfo\"]}]}"
+}

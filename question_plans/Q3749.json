@@ -1,0 +1,43 @@
+{
+  "question": "What are the key factors affecting the growth of companies in the technology sector?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies classified under the technology sector and gather relevant metadata such as their revenue, market capitalization, and IT budget to understand their financial health.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Analyze trends in social media engagement (Facebook, Twitter, Instagram) for technology companies to assess their public presence and potential market impact.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyTwitterDetail",
+        "CompanyInstagramDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Examine active hiring trends in technology roles across these companies to evaluate talent demand and organizational growth strategies.",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Review strategic technology focus areas and partnerships in the technology sector to identify investment directions and collaboration patterns.",
+      "table": [
+        "CompanyFocusAreaDetail",
+        "CompanyITPartnerDetail"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Gather insights from leadership statements regarding technology-oriented initiatives to understand strategic priorities in the technology sector.",
+      "table": [
+        "CompanyLeadershipExcerpt"
+      ]
+    }
+  ]
+}

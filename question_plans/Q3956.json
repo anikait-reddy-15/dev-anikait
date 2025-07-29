@@ -1,0 +1,33 @@
+{
+  "question": "What are the hiring trends in technology firms based on social media engagement?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Gather hiring data from technology firms, including positions and cities of active job listings.",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Collect social media engagement metrics from technology firms across platforms like Facebook, Instagram, Twitter, and YouTube.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyInstagramDetail",
+        "CompanyTwitterDetail",
+        "CompanyYoutubeDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the correlation between hiring trends (positions and cities) and social media engagement metrics to identify patterns or trends.",
+      "table": [
+        "CompanyHiringDetail",
+        "CompanyFacebookDetail",
+        "CompanyInstagramDetail",
+        "CompanyTwitterDetail",
+        "CompanyYoutubeDetail"
+      ]
+    }
+  ]
+}

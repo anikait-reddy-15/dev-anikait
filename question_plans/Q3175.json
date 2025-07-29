@@ -1,0 +1,43 @@
+{
+  "question": "What are the current focus areas and technology adoption trends for major companies in the technology sector?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify the technology sector companies from the CompanyInfo table that are currently active.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Retrieve the strategic technology focus areas for these companies from the CompanyFocusAreaDetail table.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Gather data on technology products and services utilized by these companies from the CompanyVendorProductDetail and CompanyVendorTechDetail tables.",
+      "table": [
+        "CompanyVendorProductDetail",
+        "CompanyVendorTechDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Analyze the current market trends in the technology sector based on data from the IndustryITTrend table to correlate with company data.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Summarize the findings in a report format linking company focus areas and technology trends reported. Include possible implications for business strategy.",
+      "table": [
+        "CompanyInfo",
+        "CompanyFocusAreaDetail",
+        "IndustryITTrend"
+      ]
+    }
+  ]
+}

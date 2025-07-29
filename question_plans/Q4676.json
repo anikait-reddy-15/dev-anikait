@@ -1,0 +1,43 @@
+{
+  "question": "Identify the trends and focus areas in technology for companies within the healthcare industry over the last three years.",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Query the CompanyInfo table to find all companies operating in the healthcare industry, filtering by the FoundedYear to include only those founded before 2021.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract and analyze data from the CompanyFocusAreaDetail table to determine the strategic technology focus areas of the identified healthcare companies over the last three years.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Compile insights from the IndustryITTrend table to highlight emerging IT trends relevant to the healthcare industry from the last three years.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Correlate findings from the CompanyDealMaster table to examine any significant technology service contracts or vendor relationships established by these healthcare companies during the same timeframe.",
+      "table": [
+        "CompanyDealMaster"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Summarize the results into a comprehensive report indicating the technology trends and focus areas identified in the healthcare sector based on the compiled data.",
+      "table": [
+        "CompanyInfo",
+        "CompanyFocusAreaDetail",
+        "IndustryITTrend",
+        "CompanyDealMaster"
+      ]
+    }
+  ]
+}

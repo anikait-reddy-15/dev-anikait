@@ -1,0 +1,44 @@
+{
+  "question": "What are the current IT trends among leading companies in the technology sector?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify key companies in the technology sector and their associated IT trends.",
+      "table": [
+        "CompanyInfo",
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Gather data on the technology stack used by these companies to understand their current capabilities and integrations.",
+      "table": [
+        "CompanyTechStack"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the focus areas these companies are investing in, highlighting strategic initiatives and technology partnerships.",
+      "table": [
+        "CompanyFocusAreaDetail",
+        "CompanyITPartnerDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Collect social media insights to gauge public engagement and sentiment around these companies' technology trends.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyInstagramDetail",
+        "CompanyTwitterDetail"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Summarize financial performance metrics of the companies to contextualize the impact of IT trends on their business outcomes.",
+      "table": [
+        "CompanyInfo"
+      ]
+    }
+  ]
+}

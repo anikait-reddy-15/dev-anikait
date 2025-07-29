@@ -1,0 +1,39 @@
+{
+  "question": "Identify the top three IT focus areas and initiatives of companies in the tech industry based on their hiring, partner collaborations, and revenue trends.",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Query the CompanyInfo table to filter companies in the tech industry and extract their Revenue and ITStrength metrics.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Join CompanyHiringDetail and CompanyFocusAreaDetail tables with CompanyInfo to identify hiring trends in specific IT focus areas and link them to the companies extracted in step 1.",
+      "table": [
+        "CompanyHiringDetail",
+        "CompanyFocusAreaDetail",
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Join CompanyITPartnerDetail to the companies identified in step 1 to analyze partnership initiatives related to the IT focus areas, and summarize the deal values associated with these partnerships.",
+      "table": [
+        "CompanyITPartnerDetail",
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Aggregate data from previous steps to identify the top three IT focus areas based on hiring trends, partnership initiatives, and associated revenues across the tech companies analyzed.",
+      "table": [
+        "CompanyHiringDetail",
+        "CompanyFocusAreaDetail",
+        "CompanyITPartnerDetail",
+        "CompanyInfo"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "question": "What are the companies that are actively hiring for positions related to digital transformation and automation technologies?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies that focus on digital transformation and automation technologies by analyzing their strategic technology focus areas.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Filter the list of identified companies to find those that have active hiring initiatives in relevant domains related to digital transformation and automation.",
+      "table": [
+        "CompanyHiringDetail",
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Compile a report of the selected companies, including their names, hiring details, and strategic focus areas for digital transformation and automation.",
+      "table": [
+        "CompanyInfo",
+        "CompanyFocusAreaDetail",
+        "CompanyHiringDetail"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "question": "What are the current hiring trends related to technology positions across various companies?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify active hiring initiatives specified by companies for technology positions in relevant domains such as software development, IT support, etc.",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract details of the companies hiring for technology positions, including company name, number of positions available, and specific skill requirements.",
+      "table": [
+        "CompanyInfo",
+        "CompanyHiringDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze geographic distribution of hiring initiatives to understand which regions are experiencing the highest demand for technology roles.",
+      "table": [
+        "CompanyHiringDetail",
+        "CompanyDataCenter"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Evaluate the IT focus areas of the companies to determine alignment between hiring trends and strategic technology initiatives.",
+      "table": [
+        "CompanyFocusAreaDetail",
+        "CompanyHiringDetail"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Aggregate and summarize the hiring trends to identify the most in-demand technology roles and skills across the companies analyzed.",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    }
+  ]
+}

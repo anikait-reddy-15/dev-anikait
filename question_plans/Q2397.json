@@ -1,0 +1,45 @@
+{
+  "question": "What are the technological trends across major industries, and how are companies adapting their IT strategies in response?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify emerging IT trends in various industries, such as adoption of AI, IoT, or cybersecurity.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Gather data on the strategic technology focus areas of major companies to understand how they align with these trends.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze company social media activity to gauge public engagement and perceptions regarding technology trends and transformations.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyTwitterDetail",
+        "CompanyInstagramDetail",
+        "CompanyYoutubeDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Evaluate how partnerships with technology vendors influence companies' IT strategies across different industries.",
+      "table": [
+        "CompanyITPartnerDetail",
+        "CompanyVendorTechDetail"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Compile a report summarizing findings and highlighting case studies of companies effectively adapting to technological trends.",
+      "table": [
+        "CompanyInfo",
+        "SectionData"
+      ]
+    }
+  ]
+}

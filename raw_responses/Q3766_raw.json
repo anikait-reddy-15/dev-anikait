@@ -1,0 +1,4 @@
+{
+  "question": "Analyze the impact of social media engagement on company performance in different industries.",
+  "subtasks": "[{\"step\":1,\"task\":\"Identify companies from various industries to analyze their performance metrics such as revenue and net income.\",\"table\":[\"CompanyInfo\"]},{\"step\":2,\"task\":\"Gather social media engagement data for the identified companies including engagement metrics from Facebook, Twitter, Instagram, and YouTube.\",\"table\":[\"CompanyFacebookDetail\",\"CompanyTwitterDetail\",\"CompanyInstagramDetail\",\"CompanyYoutubeDetail\"]},{\"step\":3,\"task\":\"Correlate social media engagement metrics with financial performance metrics to assess the impact on company performance.\",\"table\":[\"CompanyInfo\",\"CompanyFacebookDetail\",\"CompanyTwitterDetail\",\"CompanyInstagramDetail\",\"CompanyYoutubeDetail\"]}]"
+}

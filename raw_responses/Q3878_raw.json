@@ -1,0 +1,4 @@
+{
+  "question": "What are the emerging technology focus areas for companies in the financial sector?",
+  "subtasks": "[{\"step\":1,\"task\":\"Identify companies belonging to the financial sector based on their industry classification.\",\"table\":[\"CompanyInfo\"]},{\"step\":2,\"task\":\"Gather the technology focus areas associated with the identified companies from the respective tables.\",\"table\":[\"CompanyFocusAreaDetail\"]},{\"step\":3,\"task\":\"Compile and analyze the narratives detailing the initiatives in these focus areas to determine trends in technology adoption.\",\"table\":[\"CompanyFocusAreaDetail\"]},{\"step\":4,\"task\":\"Cross-reference the technology focus areas with the financial metrics of these companies to assess if there's a correlation between focus areas and financial performance.\",\"table\":[\"CompanyInfo\"]}]"
+}

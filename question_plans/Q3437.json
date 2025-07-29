@@ -1,0 +1,44 @@
+{
+  "question": "What are the emerging trends in technology investment among companies in the healthcare industry?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies in the healthcare industry and extract their relevant financial metrics such as IT budget and revenue.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Gather data on technology focus areas for the identified healthcare companies to understand their investment priorities.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the vendor contracts associated with healthcare companies to identify trends in contract values and technology adoption.",
+      "table": [
+        "CompanyDealMaster"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Review social media engagement metrics from healthcare companies to assess how they present their tech investments and innovations online.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyTwitterDetail",
+        "CompanyInstagramDetail"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Compile insights into a report summarizing key trends in technology investment for healthcare companies based on the collected data.",
+      "table": [
+        "CompanyInfo",
+        "CompanyTechStack",
+        "CompanyITPartnerDetail"
+      ]
+    }
+  ]
+}

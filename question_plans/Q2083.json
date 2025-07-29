@@ -1,0 +1,37 @@
+{
+  "question": "What are the current trends in technology adoption across different industries, and how do they relate to company focus areas?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify the various industries tracked in the database and their associated technological focus areas.",
+      "table": [
+        "IndustryITTrend",
+        "IndustryBusinessTrend"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Gather detailed insights on specific technology focus areas of companies, linking them with their industry types.",
+      "table": [
+        "CompanyFocusAreaDetail",
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze technology adoption patterns by extracting records from the CompanyTechStack table that are categorized by industry types.",
+      "table": [
+        "CompanyTechStack",
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Compile recent statistics on the commitments and investments companies are making concerning their identified focus areas to understand the depth of adoption.",
+      "table": [
+        "CompanyITPartnerDetail",
+        "CompanyVendorTechDetail"
+      ]
+    }
+  ]
+}

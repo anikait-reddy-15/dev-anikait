@@ -1,0 +1,38 @@
+{
+  "question": "What are the current trends in technology adoption across different industries, and how do they relate to company strategies?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify the emerging IT trends and technology focus areas across different industries from the IndustryITTrend table.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "List the strategic technology focus areas from the CompanyFocusAreaDetail table for companies to see how they align with identified trends.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the CompanyDealMaster table to find out the service contract values and technologies adopted by various companies, and link them to the defined trends.",
+      "table": [
+        "CompanyDealMaster"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Investigate the CompanyTechStack table to gather information on technologies used by companies and how they match with the trends identified earlier.",
+      "table": [
+        "CompanyTechStack"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Compile the findings from the above steps to provide a comprehensive report on tech adoption trends and company strategies in relation to those trends.",
+      "table": []
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+{
+  "question": "What are the recent social media engagement metrics for our company's profiles?",
+  "subtasks": "[{\"step\":1,\"task\":\"Identify the company's ID in the CompanyInfo table to retrieve its profile information.\",\"table\":[\"CompanyInfo\"]},{\"step\":2,\"task\":\"Fetch the most recent data from the CompanyFacebookDetail table to analyze engagement metrics like likes and comments.\",\"table\":[\"CompanyFacebookDetail\"]},{\"step\":3,\"task\":\"Collect recent metrics from the CompanyInstagramDetail table for Instagram engagement statistics.\",\"table\":[\"CompanyInstagramDetail\"]},{\"step\":4,\"task\":\"Gather data from the CompanyTwitterDetail table to evaluate Twitter engagement, including retweets and likes.\",\"table\":[\"CompanyTwitterDetail\"]},{\"step\":5,\"task\":\"Compile the results from all the social media tables and present a summary of engagement metrics for analysis.\",\"table\":[]}]"
+}

@@ -1,0 +1,47 @@
+{
+  "question": "Identify the top 5 companies in the technology sector with the highest revenue and analyze their social media engagement metrics.",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Query the CompanyInfo table to retrieve all companies in the technology sector and sort them by revenue in descending order.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Select the top 5 companies based on revenue from the previous result and extract their IDs for further analysis.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "For the top 5 companies identified, query the CompanyFacebookDetail, CompanyTwitterDetail, and CompanyInstagramDetail tables to gather their social media engagement metrics (likes, comments, shares).",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyTwitterDetail",
+        "CompanyInstagramDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Aggregate the engagement metrics for each company to create a summary report comparing their social media performance.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyTwitterDetail",
+        "CompanyInstagramDetail"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Compile the findings into a comprehensive report summarizing the top companies and their social media engagement metrics.",
+      "table": [
+        "CompanyInfo",
+        "CompanyFacebookDetail",
+        "CompanyTwitterDetail",
+        "CompanyInstagramDetail"
+      ]
+    }
+  ]
+}

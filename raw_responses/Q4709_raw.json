@@ -1,0 +1,4 @@
+{
+  "question": "What are the current IT budget and strategic IT focus areas of the companies in the technology sector?",
+  "subtasks": "[{\"step\":1,\"task\":\"Identify all companies within the technology sector from CompanyInfo table.\" ,\"table\":[\"CompanyInfo\"]},{\"step\":2,\"task\":\"Gather current IT budgets for the identified technology companies from the CompanyInfo table.\",\"table\":[\"CompanyInfo\"]},{\"step\":3,\"task\":\"Retrieve strategic IT focus areas for technology companies from the CompanyFocusAreaDetail table.\",\"table\":[\"CompanyFocusAreaDetail\"]},{\"step\":4,\"task\":\"Compile the results, correlating the IT budgets with the strategic focus areas and ensure the data is active and relevant.\",\"table\":[\"CompanyInfo\",\"CompanyFocusAreaDetail\"]}]}"
+}

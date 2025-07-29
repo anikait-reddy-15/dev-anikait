@@ -1,0 +1,4 @@
+{
+  "question": "What are the current strategic technology focus areas and their associated leadership statements for the top 10 companies in the technology sector?",
+  "subtasks": "[{\"step\":1,\"task\":\"Retrieve data of the top 10 companies in the technology sector based on market capitalization or revenue.\",\"table\":[\"CompanyInfo\"]},{\"step\":2,\"task\":\"Gather the strategic technology focus areas for the retrieved companies to understand their priorities and initiatives.\",\"table\":[\"CompanyFocusAreaDetail\"]},{\"step\":3,\"task\":\"Collect leadership statements from the same companies pertaining to their technology focus to analyze their vision and strategy.\",\"table\":[\"CompanyLeadershipExcerpt\"]}]}"
+}

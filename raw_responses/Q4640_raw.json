@@ -1,0 +1,4 @@
+{
+  "question": "What are the latest trends in IT investment across different industries?",
+  "subtasks": "[{\"step\":1,\"task\":\"Identify the industries of interest that are represented in the database.\",\"table\":[\"IndustryITTrend\"]},{\"step\":2,\"task\":\"Retrieve the latest records of IT trends for each identified industry, focusing on strategies like digital transformation and adoption of new technologies.\",\"table\":[\"IndustryITTrend\"]},{\"step\":3,\"task\":\"Analyze the trends for emerging technologies such as AI, IoT, and blockchain and categorize them by industry based on the retrieved data.\",\"table\":[\"IndustryITTrend\"]},{\"step\":4,\"task\":\"Summarize the findings into a structured format that can present the trends per industry, identifying areas of strength and focus for IT investments.\",\"table\":[\"IndustryITTrend\"]}]"
+}

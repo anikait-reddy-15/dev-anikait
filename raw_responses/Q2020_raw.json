@@ -1,0 +1,4 @@
+{
+  "question": "What are the recent trends in technology adoption across various industries, specifically focusing on AI and blockchain?",
+  "subtasks": "[{'step': 1, 'task': 'Identify industries that have adopted AI technology.', 'table': ['IndustryITTrend']}, {'step': 2, 'task': 'Gather technology adoption details for each identified industry and specifically filter for blockchain technologies.', 'table': ['IndustryITTrend']}, {'step': 3, 'task': 'Analyze the strategic focus areas of companies within these industries related to AI and blockchain.', 'table': ['CompanyFocusAreaDetail']}, {'step': 4, 'task': 'Compile emerging IT trends reported in various industries and summarize insights on AI and blockchain adoption.', 'table': ['IndustryBusinessTrend', 'IndustryITTrend']}]}"
+}

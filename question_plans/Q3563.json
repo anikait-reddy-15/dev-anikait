@@ -1,0 +1,44 @@
+{
+  "question": "Analyze the technology adoption trends of companies in the financial sector over the last five years.",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify all companies in the financial sector, including their relevant operational and financial details.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Gather records of technology service contracts that involve the identified financial companies over the last five years to understand their technology spending and partnerships.",
+      "table": [
+        "CompanyDealMaster"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Extract the technology stack used by the identified financial companies to analyze specific technologies adopted in their operational processes.",
+      "table": [
+        "CompanyTechStack"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Review the social media presence of the identified financial companies to assess their engagement strategies and technology-related content over the past five years.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyTwitterDetail",
+        "CompanyInstagramDetail",
+        "CompanyYoutubeDetail"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Investigate the strategic technology focus areas communicated by leadership within the financial companies to gain insight into their technology priorities and how it aligns with industry trends.",
+      "table": [
+        "CompanyLeadershipExcerpt",
+        "CompanyFocusAreaDetail"
+      ]
+    }
+  ]
+}

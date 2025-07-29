@@ -1,0 +1,35 @@
+{
+  "question": "What are the top 5 companies in terms of revenue that have recently hired for technology roles?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies and filter by revenue, sorting from highest to lowest.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Find technology roles listed in the hiring details of these companies.",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Combine the company revenue data with the hiring detail data to identify the top companies.",
+      "table": [
+        "CompanyInfo",
+        "CompanyHiringDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Rank and select the top 5 companies based on revenue and list the technology roles they are hiring for.",
+      "table": [
+        "CompanyInfo",
+        "CompanyHiringDetail"
+      ]
+    }
+  ]
+}

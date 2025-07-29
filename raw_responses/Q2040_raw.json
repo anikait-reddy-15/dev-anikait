@@ -1,0 +1,4 @@
+{
+  "question": "Analyze trends in technology adoption across different industries for the past two years.",
+  "subtasks": "[{\"step\":1,\"task\":\"Identify which industries have shown significant technology adoption trends over the past two years.\",\"table\":[\"IndustryITTrend\"]},{\"step\":2,\"task\":\"Gather detailed data on specific technologies that have been adopted by companies within those industries.\",\"table\":[\"CompanyTechStack\"]},{\"step\":3,\"task\":\"Compile company-specific insights and metrics related to technology adoption, such as investment amounts and market impact.\",\"table\":[\"CompanyInfo\",\"CompanyDealMaster\"]},{\"step\":4,\"task\":\"Analyze the outcomes and performance metrics associated with the technology adoption in the identified industries.\",\"table\":[\"IndustryBusinessTrend\"]}]}"
+}

@@ -1,0 +1,32 @@
+{
+  "question": "What are the strategic IT focus areas for companies in the technology industry, and what trends are influencing these strategies?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify all companies in the technology industry from the CompanyInfo table and their respective strategic IT focus areas.",
+      "table": [
+        "CompanyInfo",
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Analyze the trends documented in the IndustryITTrend table that relate to technology companies to understand the influencing factors behind their strategies.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Compile a list of strategic IT initiatives from the CompanyLeadershipExcerpt table, linking them to the corresponding companies identified in step 1.",
+      "table": [
+        "CompanyLeadershipExcerpt"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Integrate the data gathered from the technology companies and the pertinent industry trends to synthesize a comprehensive overview of their strategic focus areas and influencing factors.",
+      "table": []
+    }
+  ]
+}

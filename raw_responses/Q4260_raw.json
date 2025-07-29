@@ -1,0 +1,4 @@
+{
+  "question": "Analyze the impact of IT budget on company revenue and market capitalization within the technology industry.",
+  "subtasks": "[{\"step\":1,\"task\":\"Identify all technology companies from the CompanyInfo table, focusing on their industry type and filtering by the technology sector.\",\"table\":[\"CompanyInfo\"]},{\"step\":2,\"task\":\"Extract the IT budget, revenue, and market capitalization for each technology company identified in step 1 from the CompanyInfo table.\",\"table\":[\"CompanyInfo\"]},{\"step\":3,\"task\":\"Analyze the relationship between IT budget and company performance metrics (revenue and market capitalization) using the data extracted in step 2.\",\"table\":[\"CompanyInfo\"]},{\"step\":4,\"task\":\"Summarize the findings and prepare a report detailing the impact of IT budget on revenue and market capitalization trends in the technology industry.\",\"table\":[\"CompanyInfo\"]}]}"
+}

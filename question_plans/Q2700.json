@@ -1,0 +1,41 @@
+{
+  "question": "What is the current financial performance of major companies in the technology sector and how are they leveraging social media?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Retrieve financial metrics such as Revenue, NetIncome, and MarketCapitalization for all active technology companies.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Identify technology sector companies and their respective social media engagement metrics including likes and comments from platforms such as Facebook, Instagram, and Twitter.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyInstagramDetail",
+        "CompanyTwitterDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the correlation between social media engagement metrics and financial performance across the technology companies retrieved earlier.",
+      "table": [
+        "CompanyInfo",
+        "CompanyFacebookDetail",
+        "CompanyInstagramDetail",
+        "CompanyTwitterDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Summarize findings in terms of trends in financial performance related to social media strategies of these companies.",
+      "table": [
+        "CompanyInfo",
+        "CompanyFacebookDetail",
+        "CompanyInstagramDetail",
+        "CompanyTwitterDetail"
+      ]
+    }
+  ]
+}

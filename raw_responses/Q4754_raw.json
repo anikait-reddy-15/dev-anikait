@@ -1,0 +1,4 @@
+{
+  "question": "Analyze the social media presence of top tech companies and their engagement metrics over time.",
+  "subtasks": "[{\"step\":1,\"task\":\"Identify the top tech companies based on revenue and market capitalization\",\"table\":[\"CompanyInfo\"]},{\"step\":2,\"task\":\"Collect engagement metrics from Facebook, Twitter, Instagram, and YouTube for the identified companies\",\"table\":[\"CompanyFacebookDetail\",\"CompanyTwitterDetail\",\"CompanyInstagramDetail\",\"CompanyYoutubeDetail\"]},{\"step\":3,\"task\":\"Analyze engagement trends over time to assess social media effectiveness\",\"table\":[\"CompanyFacebookDetail\",\"CompanyTwitterDetail\",\"CompanyInstagramDetail\",\"CompanyYoutubeDetail\"]},{\"step\":4,\"task\":\"Compile a report summarizing metrics such as likes, comments, and engagement rates for each social media platform\",\"table\":[\"CompanyFacebookDetail\",\"CompanyTwitterDetail\",\"CompanyInstagramDetail\",\"CompanyYoutubeDetail\"]}]"
+}

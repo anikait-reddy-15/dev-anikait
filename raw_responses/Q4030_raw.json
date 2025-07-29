@@ -1,0 +1,4 @@
+{
+  "question": "What are the emerging IT trends and technology focus areas across different industries?",
+  "subtasks": "[\n    {\n        \"step\": 1,\n        \"task\": \"Identify relevant IT trends from the IndustryITTrend table for various industries.\",\n        \"table\": [\"IndustryITTrend\"]\n    },\n    {\n        \"step\": 2,\n        \"task\": \"Analyze emerging technology focus areas linked to specific industries using the IndustryBusinessTrend table.\",\n        \"table\": [\"IndustryBusinessTrend\"]\n    },\n    {\n        \"step\": 3,\n        \"task\": \"Extract detailed narratives and insights around technology adoption patterns from the IndustryITTrend and IndustryBusinessTrend tables.\",\n        \"table\": [\"IndustryITTrend\", \"IndustryBusinessTrend\"]\n    }\n]"
+}

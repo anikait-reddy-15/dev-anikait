@@ -1,0 +1,35 @@
+{
+  "question": "What are the most active companies in technology hiring across different sectors?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies that have active hiring initiatives in the technology sector.",
+      "table": [
+        "CompanyHiringDetail",
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Aggregate the hiring details to find out the total number of open positions for each company.",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Filter the companies based on the industry or sector they belong to, emphasizing the technology domain.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Rank the companies based on the number of active hiring initiatives to identify the most active ones.",
+      "table": [
+        "CompanyHiringDetail",
+        "CompanyInfo"
+      ]
+    }
+  ]
+}

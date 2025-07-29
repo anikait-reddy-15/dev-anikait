@@ -1,0 +1,33 @@
+{
+  "question": "How can we analyze the impact of social media engagement on company revenues?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies with available revenue data for analysis by querying the CompanyInfo table to get relevant metrics such as Revenue and NetIncome.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Gather social media engagement metrics for the identified companies from Facebook, Instagram, Twitter, and YouTube by querying the CompanyFacebookDetail, CompanyInstagramDetail, CompanyTwitterDetail, and CompanyYoutubeDetail tables.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyInstagramDetail",
+        "CompanyTwitterDetail",
+        "CompanyYoutubeDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Join the revenue data with the gathered social media metrics to analyze correlations using CompanyInfo as a primary reference and matching engagements from the social media tables.",
+      "table": [
+        "CompanyInfo",
+        "CompanyFacebookDetail",
+        "CompanyInstagramDetail",
+        "CompanyTwitterDetail",
+        "CompanyYoutubeDetail"
+      ]
+    }
+  ]
+}

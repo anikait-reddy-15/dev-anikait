@@ -1,0 +1,42 @@
+{
+  "question": "Analyze the social media engagement of companies across different platforms and its impact on their overall brand presence.",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Retrieve engagement metrics from the Facebook activity of companies, including likes, comments, and reposts.",
+      "table": [
+        "CompanyFacebookDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Gather Instagram post engagement data such as likes, comments, and overall engagement rate for each company.",
+      "table": [
+        "CompanyInstagramDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Collect Twitter metrics related to tweet engagements, like counts, retweet counts, and any associated hashtags from company tweets.",
+      "table": [
+        "CompanyTwitterDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Compile social media metrics across all three platforms (Facebook, Instagram, Twitter) into a summary report showing total engagements per company.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyInstagramDetail",
+        "CompanyTwitterDetail"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Analyze the correlation between social media engagement metrics and company revenue or market capitalization to assess brand presence impact.",
+      "table": [
+        "CompanyInfo"
+      ]
+    }
+  ]
+}

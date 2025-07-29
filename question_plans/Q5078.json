@@ -1,0 +1,48 @@
+{
+  "question": "What are the emerging IT trends in the technology industry, and which companies are adopting these trends?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify the latest IT trends relevant to the technology industry by querying the IndustryITTrend table to obtain the trends and their details.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "List the companies involved in IT trends by joining the IndustryITTrend table with CompanyFocusAreaDetail to find which companies are focusing on those trends.",
+      "table": [
+        "IndustryITTrend",
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Gather information about each identified company's relevant details, such as name, revenue, and technology focus, from the CompanyInfo table based on the results from the previous step.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Cross-check social media engagement regarding the identified trends by analyzing posts from CompanyFacebookDetail, CompanyTwitterDetail, and CompanyInstagramDetail to see how companies are portraying their alignment with these trends.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyTwitterDetail",
+        "CompanyInstagramDetail"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Compile the findings into summary insights that highlight key adopters of IT trends and their market approaches, collating data from all relevant tables used in previous steps.",
+      "table": [
+        "IndustryITTrend",
+        "CompanyFocusAreaDetail",
+        "CompanyInfo",
+        "CompanyFacebookDetail",
+        "CompanyTwitterDetail",
+        "CompanyInstagramDetail"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+{
+  "question": "What are the current trends in technology partnerships across different industries?",
+  "subtasks": "[{'step': 1, 'task': 'Identify all companies currently involved in technology partnerships.', 'table': ['CompanyITPartnerDetail']}, {'step': 2, 'task': 'Analyze the details of these partnerships to extract key technologies and services involved.', 'table': ['CompanyITPartnerDetail', 'CompanyVendorProductDetail', 'CompanyVendorTechDetail']}, {'step': 3, 'task': 'Gather information on the industries these companies belong to for a trend analysis.', 'table': ['CompanyInfo', 'CompanyDealMaster']}, {'step': 4, 'task': 'Summarize key findings to understand trends and focus areas in technology partnerships.', 'table': []}]"
+}

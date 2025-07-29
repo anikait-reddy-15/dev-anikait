@@ -1,0 +1,34 @@
+{
+  "question": "What are the technology trends in the IT sector for companies founded after 2000, and how do these companies engage on social media?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies founded after 2000 and gather their basic information including industry and geographical location.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract technology focus areas for the identified companies to understand their strategic technology trends.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the social media engagement of these companies on platforms like Facebook, Twitter, Instagram and LinkedIn to evaluate their digital presence and audience interaction.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyTwitterDetail",
+        "CompanyInstagramDetail",
+        "SocialMediaInfo"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Compile a report summarizing the technology trends and social media engagement metrics for these companies, highlighting any correlations between technology adoption and social media activity.",
+      "table": []
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+{
+  "question": "Which companies have the highest social media engagement across platforms?",
+  "subtasks": "[{\"step\":1,\"task\":\"Identify the social media platforms used by companies and retrieve engagement metrics from the SocialMediaInfo table.\",\"table\":[\"SocialMediaInfo\"]},{\"step\":2,\"task\":\"Aggregate the social media engagement metrics (likes, comments, shares) from each platform to determine the overall engagement for each company.\",\"table\":[\"CompanyFacebookDetail\",\"CompanyInstagramDetail\",\"CompanyTwitterDetail\",\"CompanyYoutubeDetail\"]},{\"step\":3,\"task\":\"Filter and sort the companies based on their total engagement scores to find those with the highest levels of engagement.\",\"table\":[\"CompanyInfo\"]}]"
+}

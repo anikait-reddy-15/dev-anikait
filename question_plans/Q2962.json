@@ -1,0 +1,36 @@
+{
+  "question": "What are the technology adoption trends in the retail industry for the past year?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify all companies within the retail industry and their IT focus areas from the database.",
+      "table": [
+        "CompanyInfo",
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Collect data on the technological products or services adopted by these companies from the CompanyVendorProductDetail table.",
+      "table": [
+        "CompanyVendorProductDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the historical differences in technology adoption among retail companies using data from the CompanyDealMaster table to identify contracts signed in the past year.",
+      "table": [
+        "CompanyDealMaster"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Compile a trends analysis report outlining the percentage of companies adopting various technologies and their respective contract values over the past year.",
+      "table": [
+        "CompanyDealMaster",
+        "CompanyInfo",
+        "CompanyVendorProductDetail"
+      ]
+    }
+  ]
+}

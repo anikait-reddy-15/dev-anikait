@@ -1,0 +1,42 @@
+{
+  "question": "What are the current technology trends among companies in the retail industry?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify all companies operating in the retail industry by querying the CompanyInfo table for the Industry column to filter for 'retail'.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Gather the strategic technology focus areas of the identified retail companies from the CompanyFocusAreaDetail table, linking it to the CompanyInfo table using CompanyInfoId. Determine what IT focus areas are currently prioritized by these companies.",
+      "table": [
+        "CompanyFocusAreaDetail",
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Extract data related to the technology stack utilized by these retail companies by querying the CompanyTechStack table to see what technologies are currently adopted and in use, again linking back to the CompanyInfo table where necessary.",
+      "table": [
+        "CompanyTechStack",
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Analyze the CompanyDealMaster table to collect recent technology service contracts signed by retail companies. Examine regions, contract values, and services specified to identify emerging technology trends in deals.",
+      "table": [
+        "CompanyDealMaster"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Review IndustryITTrend table to analyze specific industry-wide IT trends impacting retail companies, comparing them with previous data to assess the evolution of technology adoption in the sector.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    }
+  ]
+}

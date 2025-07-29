@@ -1,0 +1,39 @@
+{
+  "question": "What are the emerging technology trends in the healthcare industry based on social media engagement?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify healthcare companies from the CompanyInfo table that are active and their financial metrics.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Gather social media engagement data for identified healthcare companies from Facebook, Twitter, Instagram, and YouTube to assess their social media presence.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyTwitterDetail",
+        "CompanyInstagramDetail",
+        "CompanyYoutubeDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the social media engagement metrics (likes, comments, shares) to determine which emerging technologies are being discussed or promoted by these companies.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyTwitterDetail",
+        "CompanyInstagramDetail",
+        "CompanyYoutubeDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Cross-reference the findings with the IndustryITTrend table to identify matching technology focus areas within the healthcare sector.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "question": "What are the current trends in technology focus areas among companies in the industry, and how are these trends reflected in their social media presence?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify key technology focus areas of companies using the CompanyFocusAreaDetail table to gather insights on current trends.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Analyze social media presence of the identified companies through the SocialMediaInfo table to assess their engagement metrics and messages related to technology focus areas.",
+      "table": [
+        "SocialMediaInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Combine data from CompanyFocusAreaDetail and SocialMediaInfo to evaluate how technological priorities are communicated and engaged with on social media platforms.",
+      "table": [
+        "CompanyFocusAreaDetail",
+        "SocialMediaInfo"
+      ]
+    }
+  ]
+}

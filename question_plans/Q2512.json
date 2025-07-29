@@ -1,0 +1,32 @@
+{
+  "question": "What are the top technology focus areas for companies in the financial sector?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify all companies in the financial sector by querying the CompanyInfo table with the Industry column for 'Financial Services'.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract tech focus areas for the identified companies by joining CompanyFocusAreaDetail with CompanyInfo on the CompanyInfoId. Select relevant ITFocusAreaId and their details.",
+      "table": [
+        "CompanyFocusAreaDetail",
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Aggregate the tech focus areas to find the most prominent ones by counting their occurrences and ranking them in terms of popularity among the companies in the financial sector.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Summarize the findings into a report format that highlights the top technology focus areas and their relevance to the financial sector based on the previous aggregation step.",
+      "table": []
+    }
+  ]
+}

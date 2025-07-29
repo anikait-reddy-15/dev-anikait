@@ -1,0 +1,39 @@
+{
+  "question": "How can a company assess its social media engagement across different platforms?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify the list of companies to assess their social media engagement metrics.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Gather social media engagement data for the identified companies from Facebook, Instagram, Twitter, and YouTube.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyInstagramDetail",
+        "CompanyTwitterDetail",
+        "CompanyYoutubeDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Aggregate the engagement metrics (likes, comments, shares) for each platform to produce an overall score for each company.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyInstagramDetail",
+        "CompanyTwitterDetail",
+        "CompanyYoutubeDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Analyze the aggregated engagement scores to evaluate the companies' social media presence and effectiveness.",
+      "table": [
+        "SocialMediaInfo"
+      ]
+    }
+  ]
+}

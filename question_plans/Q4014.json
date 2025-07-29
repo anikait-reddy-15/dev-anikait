@@ -1,0 +1,44 @@
+{
+  "question": "What are the recent hiring trends in technology companies based on active job postings?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify technology companies with active hiring initiatives and their respective job postings.",
+      "table": [
+        "CompanyHiringDetail",
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Gather details about the job profiles being hired for, including domains and designations.",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the geographic distribution of hiring initiatives to understand regional trends.",
+      "table": [
+        "CompanyHiringDetail",
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Determine the tech domains or focus areas that are currently in demand based on the job postings.",
+      "table": [
+        "CompanyHiringDetail",
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Correlate hiring trends with the companies' IT budgets and revenue metrics to assess their hiring capacity.",
+      "table": [
+        "CompanyInfo",
+        "CompanyHiringDetail"
+      ]
+    }
+  ]
+}

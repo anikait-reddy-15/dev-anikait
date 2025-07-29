@@ -1,0 +1,4 @@
+{
+  "question": "Analyze the technology adoption trends across different industries based on the latest data.",
+  "subtasks": "[{\"step\":1,\"task\":\"Collect data on technology focus areas for each company across various industries.\",\"table\":[\"CompanyFocusAreaDetail\",\"CompanyInfo\"]},{\"step\":2,\"task\":\"Aggregate emerging IT trends and technology focus areas relevant to each industry type.\",\"table\":[\"IndustryITTrend\"]},{\"step\":3,\"task\":\"Correlate industry types with their respective technology focus areas and trends to identify patterns in technology adoption.\",\"table\":[\"IndustryBusinessTrend\",\"CompanyInfo\"]},{\"step\":4,\"task\":\"Visualize the data showing technology adoption trends over time per industry category.\",\"table\":[\"IndustryITTrend\",\"CompanyTechStack\"]}]"
+}

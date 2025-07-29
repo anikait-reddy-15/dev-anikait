@@ -1,0 +1,4 @@
+{
+  "question": "Identify the top five companies in the technology sector based on their revenue and the number of employees they have.",
+  "subtasks": "[{\"step\":1,\"task\":\"Select companies in the technology sector from the CompanyInfo table based on the Industry column.\",\"table\":[\"CompanyInfo\"]},{\"step\":2,\"task\":\"Filter the selected companies to include only those that have revenue and employee numbers available (not null).\",\"table\":[\"CompanyInfo\"]},{\"step\":3,\"task\":\"Sort the filtered companies first by Revenue in descending order and then by number of Employees in descending order to find the top five.\",\"table\":[\"CompanyInfo\"]},{\"step\":4,\"task\":\"Retrieve additional details for the top five companies such as their Id, Name, and Industry for display purposes.\",\"table\":[\"CompanyInfo\"]}]"
+}

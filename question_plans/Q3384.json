@@ -1,0 +1,43 @@
+{
+  "question": "What are the emerging technology trends among companies in the healthcare industry?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify all companies operating within the healthcare industry by querying the CompanyInfo table for records where Industry is 'Healthcare'.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Retrieve technology focus areas related to the identified healthcare companies from the CompanyFocusAreaDetail table by linking it to the CompanyInfo table using CompanyInfoId.",
+      "table": [
+        "CompanyFocusAreaDetail",
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the contracts linked to these healthcare companies in the CompanyDealMaster table to understand the types of technology services being adopted and their values.",
+      "table": [
+        "CompanyDealMaster",
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Collect data on social media activity from healthcare companies to assess their engagement with technology trends through CompanyFacebookDetail, CompanyInstagramDetail, CompanyTwitterDetail, and CompanyYoutubeDetail tables.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyInstagramDetail",
+        "CompanyTwitterDetail",
+        "CompanyYoutubeDetail"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Summarize the findings from the previous tasks to identify common technology themes and significant trends in healthcare technology adoption.",
+      "table": []
+    }
+  ]
+}

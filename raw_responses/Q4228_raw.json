@@ -1,0 +1,4 @@
+{
+  "question": "What are the current technology focus areas of leading companies in the renewable energy industry?",
+  "subtasks": "[{\"step\":1,\"task\":\"Identify companies that are classified within the renewable energy industry.\",\"table\":[\"CompanyInfo\"]},{\"step\":2,\"task\":\"Retrieve the technology focus areas of the identified companies.\",\"table\":[\"CompanyFocusAreaDetail\"]},{\"step\":3,\"task\":\"List the leadership excerpts or public statements related to technology initiatives from these companies.\",\"table\":[\"CompanyLeadershipExcerpt\"]},{\"step\":4,\"task\":\"Aggregate overall technology focus trends within the renewable energy sector based on collected data.\",\"table\":[\"CompanyFocusAreaDetail\",\"CompanyLeadershipExcerpt\"]}]"
+}

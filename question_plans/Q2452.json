@@ -1,0 +1,38 @@
+{
+  "question": "What are the emerging IT trends across various industries based on social media interactions?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify the key industries to analyze for emerging IT trends.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Gather social media interaction data for companies within the identified industries to assess engagement metrics.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyInstagramDetail",
+        "CompanyTwitterDetail",
+        "CompanyYoutubeDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze social media activity patterns and correlate them with identified IT trends from the selected industries.",
+      "table": [
+        "IndustryITTrend",
+        "SocialMediaInfo"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Compile a report on the relationship between social media interactions and IT trends, highlighting significant findings.",
+      "table": [
+        "SectionData",
+        "PageInfo"
+      ]
+    }
+  ]
+}

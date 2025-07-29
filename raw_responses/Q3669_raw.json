@@ -1,0 +1,4 @@
+{
+  "question": "What are the emerging IT trends and technological priorities across different industries?",
+  "subtasks": "[{'step': 1, 'task': 'Retrieve IT trends data and focus areas across different industries.', 'table': ['IndustryITTrend']}, {'step': 2, 'task': 'Analyze the strategic focus areas documented in the IndustryBusinessTrend table to understand industry-level shifts.', 'table': ['IndustryBusinessTrend']}, {'step': 3, 'task': 'Compile insights from both IT trends and business trends to identify correlations and technological priorities.', 'table': ['IndustryITTrend', 'IndustryBusinessTrend']}, {'step': 4, 'task': 'Group the compiled insights by industry type to visualize and summarize the trends.', 'table': ['IndustryITTrend', 'IndustryBusinessTrend']}]}"
+}

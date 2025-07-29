@@ -1,0 +1,4 @@
+{
+  "question": "What are the current technology focus areas and hiring trends for companies in the software industry?",
+  "subtasks": "[{\"step\":1,\"task\":\"Identify all companies operating in the software industry\",\"table\":[\"CompanyInfo\"]},{\"step\":2,\"task\":\"Retrieve technology focus areas for the identified software companies\",\"table\":[\"CompanyFocusAreaDetail\"]},{\"step\":3,\"task\":\"Analyze active hiring details of the software companies to determine current trends\",\"table\":[\"CompanyHiringDetail\"]},{\"step\":4,\"task\":\"Compile and summarize findings on technology focus areas and hiring trends\",\"table\":[\"CompanyFocusAreaDetail\",\"CompanyHiringDetail\"]}]"
+}

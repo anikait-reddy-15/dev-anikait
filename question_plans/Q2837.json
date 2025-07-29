@@ -1,0 +1,42 @@
+{
+  "question": "Analyze the social media engagement trends of different companies based on their Facebook, Instagram, and Twitter activity.",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Gather Facebook engagement metrics for all companies, including likes, comments, and reposts.",
+      "table": [
+        "CompanyFacebookDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Collect Instagram engagement data, focusing on likes, comments, and engagement rates for each company.",
+      "table": [
+        "CompanyInstagramDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Retrieve Twitter activity details, including tweet content, likes, and retweets for each company.",
+      "table": [
+        "CompanyTwitterDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Combine the data from Facebook, Instagram, and Twitter to analyze overall social media engagement trends across the companies.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyInstagramDetail",
+        "CompanyTwitterDetail"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Summarize the findings into a report that highlights key engagement insights and recommendations for improving social media strategies.",
+      "table": [
+        "SocialMediaInfo"
+      ]
+    }
+  ]
+}

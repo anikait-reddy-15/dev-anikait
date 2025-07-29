@@ -1,0 +1,4 @@
+{
+  "question": "What are the current technology focus areas and hiring trends of companies in the AI and cloud computing industries?",
+  "subtasks": "[{\"step\":1,\"task\":\"Identify and list companies operating in the AI and cloud computing industries.\",\"table\":[\"CompanyInfo\"]},{\"step\":2,\"task\":\"Gather details on strategic technology focus areas for the identified companies, specifically related to AI and cloud computing.\",\"table\":[\"CompanyFocusAreaDetail\"]},{\"step\":3,\"task\":\"Collect data on active hiring initiatives of these companies, focusing on roles related to AI and cloud computing.\",\"table\":[\"CompanyHiringDetail\"]},{\"step\":4,\"task\":\"Analyze social media presence and engagement of these companies to understand their market positioning in terms of AI and cloud computing.\",\"table\":[\"CompanyFacebookDetail\",\"CompanyTwitterDetail\",\"CompanyInstagramDetail\"]}]"
+}

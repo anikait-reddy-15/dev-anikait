@@ -1,0 +1,4 @@
+{
+  "question": "What social media platforms are most commonly used by technology companies, and how do their engagement metrics compare across these platforms?",
+  "subtasks": "[{\"step\":1,\"task\":\"Identify technology companies and retrieve their social media profiles from the database.\",\"table\":[\"CompanyInfo\",\"SocialMediaInfo\"]},{\"step\":2,\"task\":\"Extract engagement metrics such as likes, shares, and comments for each company across different social media platforms.\",\"table\":[\"CompanyFacebookDetail\",\"CompanyInstagramDetail\",\"CompanyTwitterDetail\",\"CompanyYoutubeDetail\"]},{\"step\":3,\"task\":\"Analyze and compare the engagement metrics of these social media platforms to determine trends and insights.\",\"table\":[\"CompanyFacebookDetail\",\"CompanyInstagramDetail\",\"CompanyTwitterDetail\",\"CompanyYoutubeDetail\"]}]"
+}

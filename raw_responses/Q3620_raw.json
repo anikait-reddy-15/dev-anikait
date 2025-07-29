@@ -1,0 +1,4 @@
+{
+  "question": "What are the current technology focus areas and IT hiring trends among the top companies in the finance industry?",
+  "subtasks": "[{\"step\":1,\"task\":\"Identify the companies in the finance industry with their corresponding technology focus areas.\",\"table\":[\"CompanyInfo\",\"CompanyFocusAreaDetail\"]},{\"step\":2,\"task\":\"Gather data on active hiring initiatives undertaken by these finance companies, including job roles and locations.\",\"table\":[\"CompanyHiringDetail\",\"CompanyInfo\"]},{\"step\":3,\"task\":\"Analyze trends in social media activity (Facebook and Twitter) of finance companies to see how they portray their technology strategies.\",\"table\":[\"CompanyFacebookDetail\",\"CompanyTwitterDetail\",\"CompanyInfo\"]}]"
+}

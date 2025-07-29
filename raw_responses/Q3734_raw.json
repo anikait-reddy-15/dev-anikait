@@ -1,0 +1,4 @@
+{
+  "question": "What are the latest trends in technology adoption by companies in the technology industry?",
+  "subtasks": "[\n    {\n        \"step\": 1,\n        \"task\": \"Identify technology companies from the CompanyInfo table that are currently active.\",\n        \"table\": [\"CompanyInfo\"]\n    },\n    {\n        \"step\": 2,\n        \"task\": \"Retrieve the IT focus areas for each company identified in step 1 from the CompanyFocusAreaDetail table.\",\n        \"table\": [\"CompanyFocusAreaDetail\"]\n    },\n    {\n        \"step\": 3,\n        \"task\": \"Analyze the retrieved IT focus areas to extract the latest technology adoption trends such as AI, IoT, etc.\",\n        \"table\": []\n    },\n    {\n        \"step\": 4,\n        \"task\": \"Summarize findings by grouping the trends and count the number of companies focusing on each technology trend.\",\n        \"table\": []\n    }\n]"
+}

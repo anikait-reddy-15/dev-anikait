@@ -1,0 +1,42 @@
+{
+  "question": "What are the current industry trends and technologies that companies are focusing on for growth?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify the industries with the most significant trends based on the IndustryBusinessTrend table.",
+      "table": [
+        "IndustryBusinessTrend"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Gather current technology focus areas from the IndustryITTrend table to see which technologies are being adopted across industries.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Compile a list of companies from the CompanyInfo table that are aligned with the identified trends and technologies.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Analyze the CompanyFocusAreaDetail table to see specific strategies companies are implementing related to identified industry shifts.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Summarize findings from the identified companies' focus areas, industry trends, and technology adoptions in a structured report.",
+      "table": [
+        "CompanyFocusAreaDetail",
+        "IndustryBusinessTrend",
+        "IndustryITTrend"
+      ]
+    }
+  ]
+}

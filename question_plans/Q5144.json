@@ -1,0 +1,42 @@
+{
+  "question": "What are the recent trends in IT and technology focus areas of leading companies in the software industry?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify leading companies in the software industry",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Gather technology focus areas for the identified companies",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze recent information from IndustryITTrend for the software industry",
+      "table": [
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Compile and summarize engagement metrics from the companies' social media profiles to assess their market presence and strategies related to IT trends",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyInstagramDetail",
+        "CompanyTwitterDetail"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Identify significant partnerships related to IT services within the software sector",
+      "table": [
+        "CompanyITPartnerDetail"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "question": "How are companies in the technology sector leveraging social media for engagement and customer interaction?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies in the technology sector by filtering the 'CompanyInfo' table based on industry type.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Gather social media engagement metrics for identified technology companies by querying 'SocialMediaInfo' for relevant counts and profiles.",
+      "table": [
+        "SocialMediaInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze Facebook engagement data by extracting details from 'CompanyFacebookDetail' to understand interaction styles and engagement rates specifically for technology companies.",
+      "table": [
+        "CompanyFacebookDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Examine Twitter activity and trends by accessing 'CompanyTwitterDetail' to derive insights from metrics like likes, retweets, and engagement rates related to technology companies.",
+      "table": [
+        "CompanyTwitterDetail"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Evaluate Instagram presence by pulling relevant data from 'CompanyInstagramDetail' to assess how technology companies create content and engage users visually.",
+      "table": [
+        "CompanyInstagramDetail"
+      ]
+    }
+  ]
+}

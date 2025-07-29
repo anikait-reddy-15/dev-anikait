@@ -1,0 +1,4 @@
+{
+  "question": "What are the emerging trends in the technology focus areas of companies across different industries?",
+  "subtasks": "[{'step': 1, 'task': 'Review the existing technology focus areas of companies to identify key narratives and areas of interest.', 'table': ['CompanyFocusAreaDetail']}, {'step': 2, 'task': 'Analyze industry-level technology trends to correlate them with the companies', 'table': ['IndustryITTrend']}, {'step': 3, 'task': 'Compile insights on technology focus from leadership excerpts to understand strategic priorities.', 'table': ['CompanyLeadershipExcerpt']}, {'step': 4, 'task': 'Aggregate data from the CompanyInfo table to identify companies that are active in key focus areas.', 'table': ['CompanyInfo']}, {'step': 5, 'task': 'Synthesize the findings into a report that outlines emerging trends in technology across industries.', 'table': []}]"
+}

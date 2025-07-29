@@ -1,0 +1,4 @@
+{
+  "question": "What are the latest trends in technology adoption across different industries and which companies are leading in these adoptions?",
+  "subtasks": "[{'step': 1, 'task': 'Analyze technology adoption trends across various industries.', 'table': ['IndustryITTrend']}, {'step': 2, 'task': 'Identify leading companies in technology adoption within each industry.', 'table': ['CompanyTechStack', 'CompanyInfo']}, {'step': 3, 'task': 'Collect recent strategic focus areas from companies related to technology initiatives.', 'table': ['CompanyFocusAreaDetail']}, {'step': 4, 'task': 'Gather data on recent technology service contracts to understand vendor-client relationships.', 'table': ['CompanyDealMaster']}, {'step': 5, 'task': 'Compile social media engagement metrics for leading companies to assess their market presence.', 'table': ['SocialMediaInfo', 'CompanyFacebookDetail', 'CompanyTwitterDetail', 'CompanyInstagramDetail', 'CompanyYoutubeDetail']}]"
+}

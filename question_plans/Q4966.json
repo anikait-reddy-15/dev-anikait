@@ -1,0 +1,43 @@
+{
+  "question": "Identify the technology trends observed in the top companies across varying industries and the respective IT initiatives they are pursuing.",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Gather a list of top companies from the CompanyInfo table based on their market capitalization or revenue.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Collect the technology focus areas and IT initiatives for these top companies using the CompanyFocusAreaDetail table.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the IndustryITTrend table to identify the specific technology trends that are emerging in the industries these top companies belong to.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Cross-reference the identified trends with the IT initiatives from the companies to see how they align or differ.",
+      "table": [
+        "CompanyFocusAreaDetail",
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Summarize the findings into a report that outlines key technology trends and the corresponding strategic initiatives taken by the top companies.",
+      "table": [
+        "CompanyInfo",
+        "CompanyFocusAreaDetail",
+        "IndustryITTrend"
+      ]
+    }
+  ]
+}

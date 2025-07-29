@@ -1,0 +1,41 @@
+{
+  "question": "What are the key technology adoption trends across different industries and how are companies aligning their strategies accordingly?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify and summarize the emerging IT trends relevant to different industries.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Gather data on company-level technology adoption by linking companies to specific technologies and products they are using.",
+      "table": [
+        "CompanyTechStack",
+        "CompanyVendorProductDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze company strategies by examining leadership excerpts or statements related to technology focus areas.",
+      "table": [
+        "CompanyLeadershipExcerpt"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Evaluate the investment trends by reviewing IT budgets and financial metrics of companies across various industries.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Compile and present a report analyzing the alignment of company strategies with identified IT trends.",
+      "table": [
+        "IndustryBusinessTrend"
+      ]
+    }
+  ]
+}

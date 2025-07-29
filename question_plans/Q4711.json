@@ -1,0 +1,43 @@
+{
+  "question": "What are the current IT investment priorities and challenges for companies in the technology industry?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify all active companies within the technology industry and retrieve their basic information such as name, description, and created dates.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Gather details about the IT budgets and strengths for the identified companies to evaluate their investment priorities.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the strategic technology focus areas of the companies to understand their investment challenges and priorities.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Review the company deal master records to identify any recent contracts that highlight investment trends or areas of focus within the industry.",
+      "table": [
+        "CompanyDealMaster"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Compile and summarize data from social media engagement to assess how companies are communicating their IT priorities and challenges publicly.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyTwitterDetail",
+        "CompanyInstagramDetail",
+        "CompanyYoutubeDetail"
+      ]
+    }
+  ]
+}

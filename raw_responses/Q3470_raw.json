@@ -1,0 +1,4 @@
+{
+  "question": "Analyze the social media engagement metrics for companies across different industries and their impacts on market trends.",
+  "subtasks": "[{'step': 1, 'task': 'Collect social media engagement metrics for each company from Facebook, Instagram, Twitter, and YouTube.', 'table': ['CompanyFacebookDetail', 'CompanyInstagramDetail', 'CompanyTwitterDetail', 'CompanyYoutubeDetail']}, {'step': 2, 'task': 'Identify the industry associated with each company using the CompanyInfo table.', 'table': ['CompanyInfo']}, {'step': 3, 'task': 'Aggregate the collected social media metrics by industry to identify trends.', 'table': []}, {'step': 4, 'task': 'Analyze the aggregated data to determine the impact of social media metrics on market trends.', 'table': []}]}"
+}

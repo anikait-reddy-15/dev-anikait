@@ -1,0 +1,35 @@
+{
+  "question": "What are the latest hiring trends in the technology sector, specifically focusing on cloud computing roles?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies that operate in the technology sector and focus on cloud computing with their active hiring initiatives.",
+      "table": [
+        "CompanyInfo",
+        "CompanyHiringDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Analyze the job roles and designations related to cloud computing being offered by the identified companies, noting specific skills and hiring numbers.",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Aggregate the hiring data over the last few months to identify trends in hiring volumes, roles, and skills required in the cloud computing sector.",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Cross-reference this hiring data with relevant company financial metrics to assess if there is a correlation between hiring trends and company revenue growth or IT budget increases.",
+      "table": [
+        "CompanyInfo",
+        "CompanyHiringDetail"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "question": "Which companies are leading in IT investments and what are their strategic focus areas?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies with the highest IT budgets from the CompanyInfo table in descending order.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Retrieve strategic technology focus areas for the leading companies based on their IT budgets from the CompanyFocusAreaDetail table.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Compile financial metrics (like Revenue and Net Income) of these leading companies from the CompanyInfo table to analyze their investment capacity.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Cross-reference hiring initiatives from the CompanyHiringDetail table to see if there is a correlation between focus areas and hiring trends in those companies.",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Gather and summarize social media engagement metrics from relevant tables (like CompanyFacebookDetail and CompanyInstagramDetail) to assess public interest and engagement in these leading companies and their strategic areas.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyInstagramDetail"
+      ]
+    }
+  ]
+}

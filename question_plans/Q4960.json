@@ -1,0 +1,30 @@
+{
+  "question": "Analyze the social media engagement metrics for technology companies in the software industry over the last year.",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify all technology companies in the software industry from the CompanyInfo table, filtering for relevant columns such as Name and Industry.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Retrieve and aggregate social media engagement metrics (likes, comments, engagement rates) for the identified software companies from the CompanyFacebookDetail, CompanyInstagramDetail, and CompanyTwitterDetail tables for the last year.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyInstagramDetail",
+        "CompanyTwitterDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the collected engagement metrics to identify trends or patterns in the social media presence of each company, focusing on platforms with the highest engagement.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyInstagramDetail",
+        "CompanyTwitterDetail"
+      ]
+    }
+  ]
+}

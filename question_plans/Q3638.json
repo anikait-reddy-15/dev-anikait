@@ -1,0 +1,40 @@
+{
+  "question": "What are the emerging IT trends in various industries, and how are companies adapting their strategies accordingly?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify the major IT trends relevant to various industries from the IndustryITTrend table.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Analyze and summarize the strategic initiatives companies are adopting in response to these trends using the CompanyFocusAreaDetail table.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Gather data about how companies are implementing vendor technologies or products that align with these trends from the CompanyVendorProductDetail table.",
+      "table": [
+        "CompanyVendorProductDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Compile insights on how leadership within these companies are articulating their strategies related to these IT trends using the CompanyLeadershipExcerpt table.",
+      "table": [
+        "CompanyLeadershipExcerpt"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Evaluate additional company information, such as financial performance and market capitalization, to understand their capacity to invest in emerging trends from CompanyInfo table.",
+      "table": [
+        "CompanyInfo"
+      ]
+    }
+  ]
+}

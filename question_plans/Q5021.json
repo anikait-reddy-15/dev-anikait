@@ -1,0 +1,44 @@
+{
+  "question": "What are the current hiring trends among technology companies in the USA?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Gather data on active hiring initiatives from technology companies in the USA.",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Filter hiring data to include only those categorized under technology sectors. Look for relevant domains and designations. ",
+      "table": [
+        "CompanyHiringDetail",
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the number of open positions by different domains and designations to identify trends in hiring. ",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Summarize and present the findings on current hiring trends, specifying the most in-demand roles, technologies, and geographical distribution across the USA.",
+      "table": [
+        "CompanyHiringDetail",
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Cross-reference the hiring trends with social media presence to see if companies with higher engagement are hiring more. ",
+      "table": [
+        "CompanyHiringDetail",
+        "SocialMediaInfo",
+        "CompanyInfo"
+      ]
+    }
+  ]
+}

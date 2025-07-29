@@ -1,0 +1,4 @@
+{
+  "question": "What are the emerging IT trends across different industries?",
+  "subtasks": "[\n    { \"step\": 1, \"task\": \"Identify all industries tracked in the IndustryITTrend table.\", \"table\": [\"IndustryITTrend\"] },\n    { \"step\": 2, \"task\": \"Fetch trend details associated with each industry from the IndustryITTrend table.\", \"table\": [\"IndustryITTrend\"] },\n    { \"step\": 3, \"task\": \"Analyze the trends to determine patterns and frequency of technology adoption across industries.\", \"table\": [\"IndustryITTrend\"] },\n    { \"step\": 4, \"task\": \"Compile a report summarizing the findings, highlighting key technologies and their impact on various industries.\", \"table\": [\"IndustryITTrend\"] }\n]"
+}

@@ -1,0 +1,4 @@
+{
+  "question": "What are the key technology focus areas for the top 10 companies in the technology sector based on their revenue?",
+  "subtasks": "[{\"step\":1,\"task\":\"Retrieve the names and revenues of the top 10 companies in the technology sector based on the CompanyInfo table.\",\"table\":[\"CompanyInfo\"]},{\"step\":2,\"task\":\"For the identified companies, fetch their strategic technology focus areas from the CompanyFocusAreaDetail table to assess their current tech initiatives.\",\"table\":[\"CompanyFocusAreaDetail\"]},{\"step\":3,\"task\":\"Compile the list of technology focus areas for these companies and analyze for common trends or themes across the top 10 companies.\",\"table\":[\"CompanyFocusAreaDetail\"]}]}"
+}

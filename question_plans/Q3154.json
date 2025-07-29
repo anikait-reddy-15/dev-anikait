@@ -1,0 +1,42 @@
+{
+  "question": "Analyze the impact of recent IT vendor partnerships on company profitability in the technology sector.",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies in the technology sector from the CompanyInfo table",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Gather data on recent vendor partnerships from the CompanyITPartnerDetail table",
+      "table": [
+        "CompanyITPartnerDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Retrieve financial performance metrics including profit and revenue from the CompanyInfo table",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Join the data from the CompanyITPartnerDetail and CompanyInfo tables to correlate partnership activities with financial outcomes",
+      "table": [
+        "CompanyITPartnerDetail",
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Analyze and visualize the trends in profitability pre and post partnership initiation within the technology sector",
+      "table": [
+        "CompanyITPartnerDetail",
+        "CompanyInfo"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "question": "What are the emerging IT trends in the healthcare industry based on the technology focus areas and social media engagement of key companies?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify the key technology focus areas relevant to the healthcare industry from the CompanyFocusAreaDetail table.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Gather social media engagement metrics from the CompanyFacebookDetail, CompanyInstagramDetail, and CompanyTwitterDetail tables for companies in the healthcare sector.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyInstagramDetail",
+        "CompanyTwitterDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the IndustryITTrend table to capture current IT trends specific to the healthcare industry and match them with the technology focus areas identified in step 1.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Compile the findings into a report that correlates the engagement metrics with technology focus areas and trends identified in the healthcare industry.",
+      "table": [
+        "CompanyFocusAreaDetail",
+        "CompanyFacebookDetail",
+        "CompanyInstagramDetail",
+        "CompanyTwitterDetail",
+        "IndustryITTrend"
+      ]
+    }
+  ]
+}

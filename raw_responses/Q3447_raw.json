@@ -1,0 +1,4 @@
+{
+  "question": "Analyze the impact of company hiring initiatives on their IT budget and revenue generation capabilities.",
+  "subtasks": "[{\"step\":1,\"task\":\"Identify the companies with active hiring initiatives and their relevant job roles and domains.\",\"table\":[\"CompanyHiringDetail\"]},{\"step\":2,\"task\":\"Retrieve the IT budget and revenue data for the identified companies to understand their financial commitments and performance.\",\"table\":[\"CompanyInfo\"]},{\"step\":3,\"task\":\"Analyze the relationship between the number of hiring initiatives and the IT budget/revenue data to assess if there's a correlation or impact.\",\"table\":[\"CompanyHiringDetail\",\"CompanyInfo\"]},{\"step\":4,\"task\":\"Compile a report summarizing the findings, highlighting companies that effectively balance hiring with budget and revenue growth.\",\"table\":[\"CompanyHiringDetail\",\"CompanyInfo\"]}]}"
+}

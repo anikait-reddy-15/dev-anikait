@@ -1,0 +1,4 @@
+{
+  "question": "What are the current trends in IT investment and adoption among companies in specific industries?",
+  "subtasks": "[{\"step\":1,\"task\":\"Identify the key industries of interest for analyzing IT investment trends.\",\"table\":[\"IndustryBusinessTrend\",\"IndustryITTrend\"]},{\"step\":2,\"task\":\"Gather information on IT budgets and strengths of companies within those key industries.\",\"table\":[\"CompanyInfo\"]},{\"step\":3,\"task\":\"Analyze technology focus areas and hiring initiatives for companies in the identified industries to understand current adoption patterns.\",\"table\":[\"CompanyFocusAreaDetail\",\"CompanyHiringDetail\"]},{\"step\":4,\"task\":\"Compile social media engagement metrics and content related to IT investments for these companies as a supplementary dataset.\",\"table\":[\"CompanyFacebookDetail\",\"CompanyInstagramDetail\",\"CompanyTwitterDetail\"]}]"
+}

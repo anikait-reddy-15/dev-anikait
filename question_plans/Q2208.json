@@ -1,0 +1,40 @@
+{
+  "question": "What are the current marketing trends in the technology industry, and how are companies adapting their strategies accordingly?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify the current marketing trends in the technology industry from the IndustryBusinessTrend table.",
+      "table": [
+        "IndustryBusinessTrend"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Analyze how different companies are focusing on specific IT trends using the IndustryITTrend table.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Extract marketing strategy adaptations from the CompanyFocusAreaDetail table by identifying company initiatives related to digital transformation and other trends.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Gather engagement metrics from the SocialMediaInfo table to see how companies' marketing strategies are performing on social media platforms.",
+      "table": [
+        "SocialMediaInfo"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Combine insights from the CompanyDealMaster table to understand how technology service contracts might reflect shifts in marketing strategies adapted by companies.",
+      "table": [
+        "CompanyDealMaster"
+      ]
+    }
+  ]
+}

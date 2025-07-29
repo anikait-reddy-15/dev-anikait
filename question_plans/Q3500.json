@@ -1,0 +1,37 @@
+{
+  "question": "What are the current trends in technology adoption across different industries, and which companies are leading these initiatives?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify the industries of interest for technology adoption trends.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Gather data on leading companies in each identified industry based on their technology focus areas and adoption metrics.",
+      "table": [
+        "CompanyFocusAreaDetail",
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the types of technologies being adopted by these companies and their strategic focus areas.",
+      "table": [
+        "CompanyTechStack",
+        "CompanyVendorProductDetail",
+        "IndustryBusinessTrend"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Compile engagement metrics related to technology initiatives, such as contracts or partnerships with technology vendors.",
+      "table": [
+        "CompanyDealMaster",
+        "CompanyITPartnerDetail"
+      ]
+    }
+  ]
+}

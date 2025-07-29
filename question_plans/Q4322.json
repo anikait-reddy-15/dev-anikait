@@ -1,0 +1,41 @@
+{
+  "question": "How can we analyze the technology adoption trends across different industries?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify all industries represented in the CompanyInfo table and gather their corresponding technology adoption data from the CompanyTechStack table.",
+      "table": [
+        "CompanyInfo",
+        "CompanyTechStack"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Gather emerging IT trends and categorize them based on the IndustryITTrend table to understand which technologies are being prioritized across different sectors.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze vendor products associated with each industry by using the CompanyVendorProductDetail table to determine prevalent products and services adopted within those sectors.",
+      "table": [
+        "CompanyVendorProductDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Compile and summarize findings to create a report highlighting key technology adoption trends per industry using the SectionData table for structured content presentation.",
+      "table": [
+        "SectionData"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Visualize the data to identify trends and patterns over time by leveraging the look-up values from the LookUpValue table to clarify any categorization needed in the reports.",
+      "table": [
+        "LookUpValue"
+      ]
+    }
+  ]
+}

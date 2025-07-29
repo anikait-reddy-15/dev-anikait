@@ -1,0 +1,4 @@
+{
+  "question": "What are the latest technology trends being adopted by companies in the healthcare industry?",
+  "subtasks": "[ {'step': 1, 'task': 'Identify all companies operating in the healthcare industry.', 'table': ['CompanyInfo']}, {'step': 2, 'task': 'Gather detailed records of technology focus areas related to those healthcare companies.', 'table': ['CompanyFocusAreaDetail']}, {'step': 3, 'task': 'Analyze emerging IT trends in the healthcare sector and correlate them with the companies identified.', 'table': ['IndustryITTrend', 'CompanyInfo']}, {'step': 4, 'task': 'Compile insights regarding vendor products and technologies adopted by these companies.', 'table': ['CompanyVendorProductDetail', 'CompanyVendorTechDetail']} ]"
+}

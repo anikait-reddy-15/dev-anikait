@@ -1,0 +1,4 @@
+{
+  "question": "What are the key technology focus areas of the leading technology companies in the industry based on recent digital transformation trends?",
+  "subtasks": "[{\"step\":1,\"task\":\"Identify the leading technology companies based on their market capitalization and recent financial metrics.\",\"table\":[\"CompanyInfo\"]},{\"step\":2,\"task\":\"Retrieve the strategic technology focus areas for each identified company to understand their initiatives in digital transformation.\",\"table\":[\"CompanyFocusAreaDetail\"]},{\"step\":3,\"task\":\"Analyze recent industry trends related to digital transformation and correlate these trends with each company's technology focus areas.\",\"table\":[\"IndustryITTrend\"]}]"
+}

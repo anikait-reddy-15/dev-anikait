@@ -1,0 +1,4 @@
+{
+  "question": "What are the recent trends in technology adoption across different industries, specifically looking at AI, IoT, and cloud computing?",
+  "subtasks": "[{\"step\":1,\"task\":\"Identify the recent technology trends related to AI, IoT, and cloud computing from the IndustryITTrend table.\",\"table\":[\"IndustryITTrend\"]},{\"step\":2,\"task\":\"Compile a list of industries that are currently adopting these technologies and their strategic focus from the IndustryBusinessTrend table.\",\"table\":[\"IndustryBusinessTrend\"]},{\"step\":3,\"task\":\"Cross-reference the identified technologies with the CompanyTechStack table to find companies that are implementing these technologies.\",\"table\":[\"CompanyTechStack\"]},{\"step\":4,\"task\":\"Summarize findings to establish a clear picture of technology adoption trends across industries based on the collected data.\",\"table\":[]}]}"
+}

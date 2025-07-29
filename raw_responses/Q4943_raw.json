@@ -1,0 +1,4 @@
+{
+  "question": "What are the emerging IT trends across different industries and how are companies adapting to them?",
+  "subtasks": "[  { \"step\": 1, \"task\": \"Identify distinct IT trends relevant to various industries based on historical data.\", \"table\": [\"IndustryITTrend\"] },  { \"step\": 2, \"task\": \"Extract data about companies, including their industry type and specific technology focus areas, that align with identified IT trends.\", \"table\": [\"CompanyInfo\", \"CompanyFocusAreaDetail\"] },  { \"step\": 3, \"task\": \"Compile a report summarizing the IT trends along with the responses and adaptations of companies across different industries.\", \"table\": [\"IndustryITTrend\", \"CompanyInfo\", \"CompanyFocusAreaDetail\"] } ]"
+}

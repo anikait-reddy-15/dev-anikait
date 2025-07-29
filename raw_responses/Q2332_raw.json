@@ -1,0 +1,4 @@
+{
+  "question": "What are the social media engagement trends of companies in the technology industry?",
+  "subtasks": "[{'step': 1, 'task': 'Identify companies in the technology industry by querying the CompanyInfo table.', 'table': ['CompanyInfo']}, {'step': 2, 'task': 'Retrieve social media engagement data for these companies from the SocialMediaInfo table.', 'table': ['SocialMediaInfo']}, {'step': 3, 'task': 'Analyze Facebook, Twitter, Instagram, and YouTube engagement metrics from the respective social media detail tables.', 'table': ['CompanyFacebookDetail', 'CompanyInstagramDetail', 'CompanyTwitterDetail', 'CompanyYoutubeDetail']}, {'step': 4, 'task': 'Aggregate the engagement metrics to identify trends and insights within the technology industry.', 'table': []}]"
+}

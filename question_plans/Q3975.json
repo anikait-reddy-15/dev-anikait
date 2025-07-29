@@ -1,0 +1,47 @@
+{
+  "question": "Analyze the IT technology adoption trends and partnerships of leading companies in the AI sector.",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify and retrieve the list of companies that are classified under the AI technology sector.",
+      "table": [
+        "CompanyTechStack",
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Gather information on the strategic technology focus areas related to AI for these companies.",
+      "table": [
+        "CompanyFocusAreaDetail",
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the partnerships related to AI technology, focusing on deal values and partnership descriptions.",
+      "table": [
+        "CompanyITPartnerDetail",
+        "CompanyDealMaster"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Compile social media engagement metrics to correlate public interaction with AI technology announcements and partnerships.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyTwitterDetail",
+        "CompanyInstagramDetail"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Summarize insights and trends observed from the technology adoption and partnership data for reporting.",
+      "table": [
+        "CompanyInfo",
+        "CompanyITPartnerDetail",
+        "CompanyFocusAreaDetail"
+      ]
+    }
+  ]
+}

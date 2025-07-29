@@ -1,0 +1,27 @@
+{
+  "question": "What are the emerging IT trends in companies across different industries?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify the various industries represented in the database and compile a list of them.",
+      "table": [
+        "IndustryBusinessTrend",
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract detailed records of IT trends specific to each identified industry, focusing on emerging technologies like AI, IoT, and cybersecurity.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze and summarize the data to highlight common themes and trends among the trends captured in the previous step.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    }
+  ]
+}

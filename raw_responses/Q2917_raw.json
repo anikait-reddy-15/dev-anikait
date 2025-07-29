@@ -1,0 +1,4 @@
+{
+  "question": "What is the hiring trend across different industries for technology roles in the last year?",
+  "subtasks": "[{\"step\":1,\"task\":\"Collect active hiring data for technology roles from companies within the last year.\",\"table\":[\"CompanyHiringDetail\"]},{\"step\":2,\"task\":\"Group the hiring details by industry to analyze which industries are hiring the most for technology roles.\",\"table\":[\"CompanyHiringDetail\",\"CompanyInfo\"]},{\"step\":3,\"task\":\"Identify the specific technology roles being hired for and highlight the demand trends based on the collected data.\",\"table\":[\"CompanyHiringDetail\"]},{\"step\":4,\"task\":\"Summarize the findings and present overall hiring trends with insights into the top industries and roles.\",\"table\":[\"CompanyHiringDetail\",\"CompanyInfo\"]}]}"
+}

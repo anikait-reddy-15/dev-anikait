@@ -1,0 +1,40 @@
+{
+  "question": "What are the current trends in IT investments and partnerships across companies in the technology sector?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies in the technology sector and retrieve their current IT budget and investment figures.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Analyze existing partnerships and collaborations between these companies and their IT service partners to assess partnership values and durations.",
+      "table": [
+        "CompanyITPartnerDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Extract and summarize the latest technological focus areas and trends from the companies' leadership statements or public excerpts to understand strategic direction.",
+      "table": [
+        "CompanyLeadershipExcerpt"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Investigate specific technology services utilized by these companies to identify patterns in technology adoption and market segmentation.",
+      "table": [
+        "CompanyVendorTechDetail"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Compile social media engagement metrics from companies to correlate their public sentiment and investment in technology with their social media strategy.",
+      "table": [
+        "SocialMediaInfo"
+      ]
+    }
+  ]
+}

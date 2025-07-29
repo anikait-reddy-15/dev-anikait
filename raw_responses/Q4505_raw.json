@@ -1,0 +1,4 @@
+{
+  "question": "Analyze the technology adoption trends of companies across various industries.",
+  "subtasks": "[{\"step\":1,\"task\":\"Identify the companies and their corresponding industries from the CompanyInfo table.\",\"table\":[\"CompanyInfo\"]},{\"step\":2,\"task\":\"Gather data on the technologies adopted by these companies from the CompanyTechStack table.\",\"table\":[\"CompanyTechStack\"]},{\"step\":3,\"task\":\"Analyze emerging IT trends relevant to each industry from the IndustryITTrend table.\",\"table\":[\"IndustryITTrend\"]},{\"step\":4,\"task\":\"Correlate the technology data with industry trends to identify key patterns and insights.\",\"table\":[\"CompanyTechStack\",\"IndustryITTrend\"]},{\"step\":5,\"task\":\"Prepare a summarized report on findings including any significant technology adoption statistics and industry comparisons.\",\"table\":[\"CompanyInfo\",\"CompanyTechStack\",\"IndustryITTrend\"]}]}"
+}

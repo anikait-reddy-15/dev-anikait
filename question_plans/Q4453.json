@@ -1,0 +1,40 @@
+{
+  "question": "What are the latest trends in IT investments across industries?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify the key IT focus areas and trends that companies are adopting in the latest fiscal periods.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Gather metadata on companies' IT budgets and strengths to assess their investment capabilities.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the deals made between vendors and customer organizations to understand the financial investments in technology services across different industries and geographic regions.",
+      "table": [
+        "CompanyDealMaster"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Compile insights from company leadership statements regarding their strategic technology focus to correlate with investment trends.",
+      "table": [
+        "CompanyLeadershipExcerpt"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Examine any recent hiring trends and initiatives within companies that reflect a shift in technological investments.",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    }
+  ]
+}

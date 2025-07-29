@@ -1,0 +1,34 @@
+{
+  "question": "What are the key technology focus areas of companies in the IT industry and how do these affect their hiring strategies?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify all companies within the IT industry and gather their core information such as name, revenue, and headquarters.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract technology focus areas for the identified IT companies to understand their strategic priorities.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the active hiring initiatives for these companies to determine the relationship between their technology focus areas and hiring trends.",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Combine the data from the previous steps to assess how the focus areas influence the types of roles companies are hiring for, such as skills and domains.",
+      "table": [
+        "CompanyFocusAreaDetail",
+        "CompanyHiringDetail"
+      ]
+    }
+  ]
+}

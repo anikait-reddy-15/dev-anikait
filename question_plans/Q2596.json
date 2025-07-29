@@ -1,0 +1,42 @@
+{
+  "question": "What are the current hiring trends among technology companies and which technologies are they prioritizing in their hiring strategies?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify the technology companies that have active hiring initiatives based on the CompanyHiringDetail table.",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Analyze the job roles and designations that companies are hiring for in the technology sector from the CompanyHiringDetail table.",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Gather information on the technologies utilized by these companies from the CompanyTechStack table to understand what technologies are being prioritized.",
+      "table": [
+        "CompanyTechStack"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Correlate the hiring trends with specific technology focus areas in the CompanyFocusAreaDetail table to see how they align with current technological priorities.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Summarize the findings to provide an overview of current hiring trends across technology companies, including job roles and the technologies most being targeted.",
+      "table": [
+        "CompanyHiringDetail",
+        "CompanyTechStack",
+        "CompanyFocusAreaDetail"
+      ]
+    }
+  ]
+}

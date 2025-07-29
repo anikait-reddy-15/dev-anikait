@@ -1,0 +1,4 @@
+{
+  "question": "What companies are actively investing in cloud computing technologies?",
+  "subtasks": "[{'step': 1, 'task': 'Identify companies with a focus on cloud computing technologies.', 'table': ['CompanyFocusAreaDetail']}, {'step': 2, 'task': 'Retrieve details of companies that are marked as active in the CompanyInfo table.', 'table': ['CompanyInfo']}, {'step': 3, 'task': 'Join the identified companies with their IT partnership details to see if they are engaging with specific cloud service providers.', 'table': ['CompanyITPartnerDetail']}, {'step': 4, 'task': 'Analyze financial metrics of these companies to evaluate their investment size in cloud computing.', 'table': ['CompanyInfo']}, {'step': 5, 'task': 'Check for any active hiring details related to cloud technologies in the CompanyHiringDetail table.', 'table': ['CompanyHiringDetail']}]"
+}

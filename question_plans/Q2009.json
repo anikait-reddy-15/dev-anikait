@@ -1,0 +1,43 @@
+{
+  "question": "Analyze the impact of digital transformation on companies in the technology sector for the past two years.",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies in the technology sector by examining the CompanyInfo table for relevant industry types and active companies.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract financial data for these companies over the past two years using metrics such as Revenue and Net Income from the CompanyInfo table.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Review technology focus areas for these companies by fetching data from the CompanyFocusAreaDetail table to identify their digital transformation initiatives.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Analyze social media engagement to gauge the public response to their digital transformation strategies by using the CompanyFacebookDetail, CompanyInstagramDetail, and CompanyTwitterDetail tables.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyInstagramDetail",
+        "CompanyTwitterDetail"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Compile insights into a report summarizing the relationship between revenue growth and digital transformation initiatives across the identified technology companies.",
+      "table": [
+        "CompanyInfo",
+        "CompanyFocusAreaDetail"
+      ]
+    }
+  ]
+}

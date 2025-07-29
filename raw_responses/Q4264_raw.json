@@ -1,0 +1,4 @@
+{
+  "question": "What are the emerging technology focus areas for companies in the IT industry?",
+  "subtasks": "[\n  {\n    \"step\": 1,\n    \"task\": \"Identify companies within the IT industry by querying the CompanyInfo table.\",\n    \"table\": [\"CompanyInfo\"]\n  },\n  {\n    \"step\": 2,\n    \"task\": \"Retrieve technology focus areas for the identified IT companies from the CompanyFocusAreaDetail table.\",\n    \"table\": [\"CompanyFocusAreaDetail\"]\n  },\n  {\n    \"step\": 3,\n    \"task\": \"Analyze the data to find emerging technology trends and summarize the details.\",\n    \"table\": [\"CompanyFocusAreaDetail\", \"CompanyInfo\"]\n  }\n]"
+}

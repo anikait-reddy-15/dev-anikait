@@ -1,0 +1,4 @@
+{
+  "question": "What are the current trends in technology adoption and hiring by companies in the IT industry?",
+  "subtasks": "[{'step': 1, 'task': 'Identify the companies that are classified under the IT industry.', 'table': ['CompanyInfo']}, {'step': 2, 'task': 'Analyze the CompanyFocusAreaDetail table to extract information on strategic technology focus areas for these companies.', 'table': ['CompanyFocusAreaDetail']}, {'step': 3, 'task': 'Review the CompanyHiringDetail table to summarize current hiring initiatives and trends among companies in the IT industry.', 'table': ['CompanyHiringDetail']}, {'step': 4, 'task': 'Compile the findings on technology focus areas and hiring trends to identify overarching trends in technology adoption and workforce needs.', 'table': []}]"
+}

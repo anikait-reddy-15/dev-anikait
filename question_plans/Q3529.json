@@ -1,0 +1,43 @@
+{
+  "question": "Analyze the hiring trends for technology companies in the last year.",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify technology companies that have active hiring initiatives in the last year.",
+      "table": [
+        "CompanyHiringDetail",
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract relevant hiring data including job titles, number of positions, and required skills for the identified companies.",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Summarize hiring trends by categorizing the positions and technologies in demand across the technology sector.",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Cross-reference hiring data with the financial status of these companies to understand if hiring correlates with revenue growth.",
+      "table": [
+        "CompanyHiringDetail",
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Generate a report that highlights the key findings of the hiring trends, along with insights on job roles and required skillsets.",
+      "table": [
+        "CompanyHiringDetail",
+        "CompanyInfo"
+      ]
+    }
+  ]
+}

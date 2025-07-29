@@ -1,0 +1,4 @@
+{
+  "question": "Analyze the social media presence and engagement metrics of a set of companies from different industries.",
+  "subtasks": "[{\"step\":1,\"task\":\"Retrieve a list of companies along with their industry information from the CompanyInfo table.\",\"table\":[\"CompanyInfo\"]},{\"step\":2,\"task\":\"Collect Facebook engagement metrics for each company using the CompanyFacebookDetail table.\",\"table\":[\"CompanyFacebookDetail\"]},{\"step\":3,\"task\":\"Gather Instagram engagement data for all companies from the CompanyInstagramDetail table.\",\"table\":[\"CompanyInstagramDetail\"]},{\"step\":4,\"task\":\"Extract Twitter engagement metrics from the CompanyTwitterDetail table for the same companies.\",\"table\":[\"CompanyTwitterDetail\"]},{\"step\":5,\"task\":\"Combine the collected metrics to analyze social media presence and potential engagement trends across different industries.\",\"table\":[]}]}"
+}

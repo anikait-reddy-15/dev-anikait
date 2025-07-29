@@ -1,0 +1,42 @@
+{
+  "question": "What technology trends are companies in the finance industry adopting in 2023?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify all companies operating in the finance industry based on their industry classification.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Gather data on technology focus areas for identified finance companies to understand their strategic technology initiatives.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze social media engagement and activity related to the finance companies to identify popular technologies being discussed or advertised.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyTwitterDetail",
+        "CompanyInstagramDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Review historical deal records to uncover which technology services or products finance companies are actively investing in through contracts.",
+      "table": [
+        "CompanyDealMaster"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Summarize the emerging IT trends in the finance industry based on the collated data from various sources, providing insights into specific technologies being adopted.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    }
+  ]
+}

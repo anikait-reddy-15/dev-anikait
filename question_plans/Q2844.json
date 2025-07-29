@@ -1,0 +1,45 @@
+{
+  "question": "What are the current hiring trends in the tech industry among major companies?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify major technology companies and their hiring details such as job roles and responsibilities.",
+      "table": [
+        "CompanyHiringDetail",
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Analyze the geographic distribution of hiring across different cities to see where demand is highest.",
+      "table": [
+        "CompanyHiringDetail",
+        "CompanyInfo",
+        "CompanyDataCenter"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Evaluate the required skills and designations being sought by companies in the tech industry.",
+      "table": [
+        "CompanyHiringDetail",
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Aggregate historical hiring data to identify trends over time regarding job roles and skill requirements in tech.",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Correlate hiring trends with emerging technologies to understand shifts in demand related to digital transformation efforts.",
+      "table": [
+        "CompanyFocusAreaDetail",
+        "CompanyHiringDetail"
+      ]
+    }
+  ]
+}

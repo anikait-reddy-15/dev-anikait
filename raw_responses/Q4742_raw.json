@@ -1,0 +1,4 @@
+{
+  "question": "What are the recent IT trends within the companies in the technology industry, along with their revenue and hiring patterns?",
+  "subtasks": "[{\"step\":1,\"task\":\"Fetch the latest records of IT trends prevalent in the Technology industry from the IndustryITTrend table.\",\"table\":[\"IndustryITTrend\"]},{\"step\":2,\"task\":\"Retrieve company details specific to the Technology industry including their revenues from CompanyInfo table.\",\"table\":[\"CompanyInfo\"]},{\"step\":3,\"task\":\"Get hiring details from the CompanyHiringDetail table for companies identified in the Technology sector to analyze their current hiring trends.\",\"table\":[\"CompanyHiringDetail\"]},{\"step\":4,\"task\":\"Join the data from the above three queries to present a comprehensive view of IT trends, company revenues, and hiring details.\",\"table\":[\"IndustryITTrend\",\"CompanyInfo\",\"CompanyHiringDetail\"]}]}"
+}

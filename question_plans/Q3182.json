@@ -1,0 +1,42 @@
+{
+  "question": "What are the current hiring trends in technology companies with a focus on digital transformation?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify technology companies that are focusing on digital transformation from the CompanyFocusAreaDetail table.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Gather active hiring initiatives related to technology positions from the CompanyHiringDetail table for the identified companies.",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze job roles and skill requirements from the gathered hiring initiatives to determine trends in technology hiring.",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Cross-reference hiring data with financial performance from the CompanyInfo table to assess the impact of hiring trends on company growth.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Summarize the findings in terms of active roles, skill demands, and their correlation with companies focusing on digital transformation.",
+      "table": [
+        "CompanyHiringDetail",
+        "CompanyFocusAreaDetail",
+        "CompanyInfo"
+      ]
+    }
+  ]
+}

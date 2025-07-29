@@ -1,0 +1,26 @@
+{
+  "question": "What are the emerging technology focus areas for companies in the financial services sector?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies in the financial services sector based on industry classification from the CompanyInfo table.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract the strategic technology focus areas for each identified company from the CompanyFocusAreaDetail table.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Compile and analyze the focus area details to summarize key technology trends and initiatives for the financial services sector.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+{
+  "question": "What strategic technology trends are companies in the healthcare industry focusing on in 2023?",
+  "subtasks": "[{'step': 1, 'task': 'Identify all companies operating in the healthcare industry for the year 2023.', 'table': ['CompanyInfo']}, {'step': 2, 'task': 'Extract the strategic technology focus areas for these healthcare companies.', 'table': ['CompanyFocusAreaDetail']}, {'step': 3, 'task': 'Analyze the leadership excerpts for insights on technology priorities and trends within healthcare companies.', 'table': ['CompanyLeadershipExcerpt']}, {'step': 4, 'task': 'Compile and present an aggregated report of technology trends using the data extracted from the previous steps.', 'table': []}]}"
+}

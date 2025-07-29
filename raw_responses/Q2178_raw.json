@@ -1,0 +1,4 @@
+{
+  "question": "What are the current hiring trends in the technology sector, specifically regarding job roles, skills, and geographical locations?",
+  "subtasks": "[{'step': 1, 'task': 'Identify the key job roles currently being hired by technology companies.', 'table': ['CompanyHiringDetail']}, {'step': 2, 'task': 'Analyze the required skills associated with these job roles from the hiring data.', 'table': ['CompanyHiringDetail']}, {'step': 3, 'task': 'Map the geographical locations where these technology companies are actively hiring.', 'table': ['CompanyHiringDetail', 'CompanyDataCenter']}, {'step': 4, 'task': 'Gather industry trends related to technology hiring patterns and skill requirements.', 'table': ['IndustryITTrend']}, {'step': 5, 'task': 'Compile and summarize the findings into a comprehensive report.', 'table': ['CompanyHiringDetail', 'IndustryITTrend']}]}"
+}

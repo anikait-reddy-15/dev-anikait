@@ -1,0 +1,4 @@
+{
+  "question": "What are the emerging IT trends across different industries based on technology adoption?",
+  "subtasks": "[{\"step\":1,\"task\":\"Identify all industries represented in the IndustryITTrend table.\",\"table\":[\"IndustryITTrend\"]},{\"step\":2,\"task\":\"Gather details of the technology focus areas listed in the IndustryITTrend table for each industry.\",\"table\":[\"IndustryITTrend\"]},{\"step\":3,\"task\":\"Analyze the adoption patterns of specific technologies such as AI, IoT, and blockchain across industries.\",\"table\":[\"IndustryITTrend\"]},{\"step\":4,\"task\":\"Summarize the findings to identify key trends and strategic focus areas for each industry.\",\"table\":[\"IndustryITTrend\"]}]"
+}

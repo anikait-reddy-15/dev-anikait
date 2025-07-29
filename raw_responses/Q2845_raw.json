@@ -1,0 +1,4 @@
+{
+  "question": "Identify the top 5 companies in the technology sector based on their revenue and analyze their social media engagement across platforms.",
+  "subtasks": "[{\"step\":1,\"task\":\"Query the CompanyInfo table to retrieve details of companies in the technology sector and order them by revenue, limiting results to the top 5.\",\"table\":[\"CompanyInfo\"]},{\"step\":2,\"task\":\"For the top 5 companies identified in step 1, gather their Twitter, Facebook, Instagram, and YouTube engagement metrics by querying respective social media detail tables.\",\"table\":[\"CompanyTwitterDetail\",\"CompanyFacebookDetail\",\"CompanyInstagramDetail\",\"CompanyYoutubeDetail\"]},{\"step\":3,\"task\":\"Compile and analyze the engagement data from social media tables to assess overall engagement across the platforms for the identified companies.\",\"table\":[\"CompanyTwitterDetail\",\"CompanyFacebookDetail\",\"CompanyInstagramDetail\",\"CompanyYoutubeDetail\"]}]}"
+}

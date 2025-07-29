@@ -1,0 +1,27 @@
+{
+  "question": "What are the key technology trends that companies in the finance industry are focusing on in their IT strategies?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify active companies in the finance industry and gather their technology focus areas from the database.",
+      "table": [
+        "CompanyInfo",
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Analyze the technology focus areas to determine the most common trends being adopted by finance industry companies.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Further investigate specific IT service contracts related to these technology trends to assess the market activity and investment levels.",
+      "table": [
+        "CompanyDealMaster"
+      ]
+    }
+  ]
+}

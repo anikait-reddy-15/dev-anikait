@@ -1,0 +1,31 @@
+{
+  "question": "What are the hiring trends based on sectors for companies in the technology industry?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify all companies operating in the technology industry from the CompanyInfo table.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract active hiring details related to the identified technology companies from the CompanyHiringDetail table.",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze and categorize the extracted hiring details based on different domains and designations to identify trends in hiring practices across sectors.",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Summarize the findings to present insights on the hiring trends in the technology industry, including the most sought-after roles and skills.",
+      "table": []
+    }
+  ]
+}

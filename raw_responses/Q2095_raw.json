@@ -1,0 +1,4 @@
+{
+  "question": "What are the current technology hiring trends across different companies and industries?",
+  "subtasks": "[{\"step\":1,\"task\":\"Identify the active hiring details for companies to understand current job openings and requirements.\" ,\"table\":[\"CompanyHiringDetail\"]},{\"step\":2,\"task\":\"Retrieve industry information related to the companies hiring to categorize trends by sector.\" ,\"table\":[\"CompanyInfo\", \"CompanyHiringDetail\"]},{\"step\":3,\"task\":\"Analyze the hiring data to find common designations, skillsets required, and geographical trends.\" ,\"table\":[\"CompanyHiringDetail\", \"CompanyInfo\"]},{\"step\":4,\"task\":\"Compile results by summarizing the key findings on technology hiring trends per industry and company size.\" ,\"table\":[\"CompanyHiringDetail\", \"CompanyInfo\"]}]}"
+}

@@ -1,0 +1,4 @@
+{
+  "question": "What are the current hiring trends in the technology industry based on company data?",
+  "subtasks": "[\n    {\n        \"step\": 1,\n        \"task\": \"Identify all companies classified in the technology industry from the CompanyInfo table.\",\n        \"table\": [\"CompanyInfo\"]\n    },\n    {\n        \"step\": 2,\n        \"task\": \"Retrieve active hiring details for the identified technology companies from the CompanyHiringDetail table.\",\n        \"table\": [\"CompanyHiringDetail\"]\n    },\n    {\n        \"step\": 3,\n        \"task\": \"Analyze the hiring data to determine trends, such as in-demand roles and skills within these companies.\",\n        \"table\": [\"CompanyHiringDetail\"]\n    },\n    {\n        \"step\": 4,\n        \"task\": \"Summarize findings on the most common roles and skill requirements based on the extracted hiring data.\",\n        \"table\": [\"CompanyHiringDetail\"]\n    }\n]"
+}

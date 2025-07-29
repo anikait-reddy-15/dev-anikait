@@ -1,0 +1,4 @@
+{
+  "question": "What are the current technology focus areas and social media engagement levels for companies in the technology industry?",
+  "subtasks": "[{\"step\":1,\"task\":\"Identify all companies in the technology industry from the CompanyInfo table.\",\"table\":[\"CompanyInfo\"]},{\"step\":2,\"task\":\"Retrieve technology focus areas for the identified companies using the CompanyFocusAreaDetail table.\",\"table\":[\"CompanyFocusAreaDetail\"]},{\"step\":3,\"task\":\"Gather social media engagement data for the identified companies from the SocialMediaInfo table.\",\"table\":[\"SocialMediaInfo\"]}]"
+}

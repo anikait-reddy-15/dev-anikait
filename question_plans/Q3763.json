@@ -1,0 +1,35 @@
+{
+  "question": "What are the recent hiring trends among technology companies, and how do they connect with their IT focus areas?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify the recent hiring initiatives of technology companies and gather details about job roles, requirements, and locations.",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Map the hiring data to the relevant companies to analyze the overall demand in relation to their operational focus areas in technology.",
+      "table": [
+        "CompanyInfo",
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the strategic technology focus areas of these companies to identify emerging patterns in hiring related to specific technologies or skills.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Compile and summarize the findings, linking hiring trends to the strategic IT initiatives of the companies involved.",
+      "table": [
+        "CompanyHiringDetail",
+        "CompanyFocusAreaDetail"
+      ]
+    }
+  ]
+}

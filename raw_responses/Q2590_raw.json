@@ -1,0 +1,4 @@
+{
+  "question": "What are the current social media engagement levels for each company and how do they compare across different industries?",
+  "subtasks": "[{\"step\":1,\"task\":\"Fetch the list of all companies along with their industries from the CompanyInfo table.\",\"table\":[\"CompanyInfo\"]},{\"step\":2,\"task\":\"Collect social media engagement metrics for each company from the SocialMediaInfo table, linking it to the respective company.\",\"table\":[\"SocialMediaInfo\"]},{\"step\":3,\"task\":\"Aggregate the social media engagement metrics data by industry to facilitate comparison across different industries and summarize the findings.\",\"table\":[\"CompanyInfo\",\"SocialMediaInfo\"]}]"
+}

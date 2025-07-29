@@ -1,0 +1,38 @@
+{
+  "question": "What are the current IT budget trends among companies in the technology sector?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify all companies in the technology sector from the CompanyInfo table.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Retrieve the IT budgets of the identified technology companies.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the IT budget data to find trends, including average, maximum, and minimum budgets.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Compare the IT budgets across different geographic regions stored in the CompanyInfo table.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Summarize findings and present them in a report format, highlighting key trends in the technology sector's IT budgets.",
+      "table": []
+    }
+  ]
+}

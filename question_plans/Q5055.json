@@ -1,0 +1,35 @@
+{
+  "question": "What are the current hiring trends across different companies in the technology sector and how do they relate to their IT budgets?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies in the technology sector and retrieve their IT budgets.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Gather active hiring initiatives for the identified technology companies to analyze the roles and domains they are hiring for.",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the hiring data in correlation with the IT budgets to understand any patterns or trends in hiring against the budget allocations.",
+      "table": [
+        "CompanyHiringDetail",
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Summarize findings into trends related to hiring practices and IT budget allocations in the technology sector.",
+      "table": [
+        "CompanyHiringDetail",
+        "CompanyInfo"
+      ]
+    }
+  ]
+}

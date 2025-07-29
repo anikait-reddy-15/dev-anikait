@@ -1,0 +1,39 @@
+{
+  "question": "What are the emerging technology trends and strategic focus areas across various industries?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify the industries of interest for analyzing technology trends.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Gather data on emerging technology trends relevant to the identified industries from the IndustryITTrend table.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Examine narrative details related to the strategic focus areas captured in the IndustryBusinessTrend table.",
+      "table": [
+        "IndustryBusinessTrend"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Combine insights from both the IndustryITTrend and IndustryBusinessTrend to summarize the key technology trends and strategic focus areas.",
+      "table": [
+        "IndustryITTrend",
+        "IndustryBusinessTrend"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Present the findings in a structured format highlighting the key trends per industry.",
+      "table": []
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+{
+  "question": "What are the current technology focus areas and strategic initiatives of major companies in the healthcare industry?",
+  "subtasks": "[{\"step\":1,\"task\":\"Identify major companies operating in the healthcare industry by querying the CompanyInfo table based on the 'Industry' column to filter for healthcare-related entries.\",\"table\":[\"CompanyInfo\"]},{\"step\":2,\"task\":\"For each identified healthcare company, extract their technology focus areas from the CompanyFocusAreaDetail table, linking it with the respective CompanyInfoId.\",\"table\":[\"CompanyFocusAreaDetail\"]},{\"step\":3,\"task\":\"Collect additional details about the strategic initiatives or investments made by those companies as indicated in the CompanyLeadershipExcerpt table, correlating with the CompanyInfoId for deeper insights on leadership messages related to tech initiatives.\",\"table\":[\"CompanyLeadershipExcerpt\"]}]"
+}

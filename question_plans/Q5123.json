@@ -1,0 +1,26 @@
+{
+  "question": "What are the top three industries represented by companies with the highest market capitalization, and what are their recent trends in technology adoption?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify the companies with the highest market capitalization from the CompanyInfo table.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Classify these companies by their respective industries to determine the top three industries based on representation.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Investigate the recent IT trends related to the identified industries from the IndustryITTrend table to understand their technology adoption patterns.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    }
+  ]
+}

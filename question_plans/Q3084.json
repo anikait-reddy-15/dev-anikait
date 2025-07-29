@@ -1,0 +1,42 @@
+{
+  "question": "What are the current trends in technology adoption across different industries, and how do they correlate with company financial metrics?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify the various industries relevant to the analysis by extracting distinct industry types from the IndustryITTrend table.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Gather the latest technology trends reported in the IndustryITTrend table to understand what technologies are gaining traction across industries.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Extract financial metrics such as Revenue, Net Income, and Market Capitalization from the CompanyInfo table for each company operating in the identified industries.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Analyze the relationship between the identified technology trends and the financial metrics extracted, focusing on correlations or trends over a specified period.",
+      "table": [
+        "CompanyInfo",
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Summarize findings and prepare a report or visualization that highlights key insights from technology adoption trends and their financial impact on companies across different industries.",
+      "table": [
+        "IndustryITTrend",
+        "CompanyInfo"
+      ]
+    }
+  ]
+}

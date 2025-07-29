@@ -1,0 +1,35 @@
+{
+  "question": "Analyze the digital transformation trends across different industries, focusing on technology adoption in recent B2B contracts.",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify the key industries for analysis based on recent digital transformation trends.",
+      "table": [
+        "IndustryBusinessTrend",
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Gather data on recent B2B technology service contracts to understand technology adoption trends and strategic values.",
+      "table": [
+        "CompanyDealMaster"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Evaluate technology focus areas reported by companies to link them with their B2B contracts for better insights on digital transformation investments.",
+      "table": [
+        "CompanyFocusAreaDetail",
+        "CompanyITPartnerDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Analyze the financial metrics of companies participating in these contracts to gauge the impact of digital transformation on business performance.",
+      "table": [
+        "CompanyInfo"
+      ]
+    }
+  ]
+}

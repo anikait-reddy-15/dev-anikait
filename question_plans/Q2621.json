@@ -1,0 +1,34 @@
+{
+  "question": "What are the current technology focus areas of companies within the IT industry and how do these align with their social media presence?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify all companies operating within the IT industry from the CompanyInfo table.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Retrieve the technology focus areas for the identified companies from the CompanyFocusAreaDetail table.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Gather social media presence data for the IT companies from the SocialMediaInfo table, focusing on engagement metrics.",
+      "table": [
+        "SocialMediaInfo"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Analyze the collected technology focus areas and social media data to identify any correlations between focus areas and social media engagement.",
+      "table": [
+        "CompanyFocusAreaDetail",
+        "SocialMediaInfo"
+      ]
+    }
+  ]
+}

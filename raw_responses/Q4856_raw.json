@@ -1,0 +1,4 @@
+{
+  "question": "What are the recent trends in technology focus areas among companies in the healthcare industry?",
+  "subtasks": "[{'step': 1, 'task': 'Identify all companies operating in the healthcare industry.', 'table': ['CompanyInfo']}, {'step': 2, 'task': 'Extract the strategic technology focus areas for the identified healthcare companies.', 'table': ['CompanyFocusAreaDetail']}, {'step': 3, 'task': 'Analyze the focus areas to determine the most recent trends in technology.', 'table': ['IndustryITTrend', 'CompanyFocusAreaDetail']}, {'step': 4, 'task': 'Compile a summary report of the findings including specific technology areas and companies engaged in those trends.', 'table': ['CompanyInfo', 'CompanyFocusAreaDetail', 'IndustryITTrend']}]}"
+}

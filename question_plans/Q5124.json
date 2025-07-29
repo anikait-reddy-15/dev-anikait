@@ -1,0 +1,43 @@
+{
+  "question": "How has technology adoption impacted the revenue growth of companies within the technology sector?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify and select technology sector companies from the CompanyInfo table to focus on their financial metrics and technology adoption patterns.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Gather data on technology adoption details of identified companies by accessing the CompanyTechStack table to understand the specific technologies they are using.",
+      "table": [
+        "CompanyTechStack"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the financial metrics from the CompanyInfo table, such as Revenue and NetIncome, correlating them with the data from CompanyTechStack to determine if there is a direct impact from technology adoption on revenue growth.",
+      "table": [
+        "CompanyInfo",
+        "CompanyTechStack"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Conduct a comparative analysis of technology adoption trends over multiple years using CompanyDealMaster to understand if there has been an increase in technology service contracts and its potential effect on revenue growth.",
+      "table": [
+        "CompanyDealMaster"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Compile findings and insights from technology adoption data and financial performance metrics in a structured report format to conclude the analysis on technology adoption impact on revenue growth.",
+      "table": [
+        "CompanyInfo",
+        "CompanyTechStack",
+        "CompanyDealMaster"
+      ]
+    }
+  ]
+}

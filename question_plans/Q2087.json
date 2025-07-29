@@ -1,0 +1,35 @@
+{
+  "question": "What are the current trends in the technology investments across different industries?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify and extract the major IT focus areas across various industries to understand trends in technological investments.",
+      "table": [
+        "IndustryITTrend",
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Analyze the financial metrics related to technology investments, such as IT budgets and revenue, from the CompanyInfo table to correlate with identified trends.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Evaluate the technology solutions and services adopted by companies through their vendor associations to map out what is trending in terms of technology partnerships.",
+      "table": [
+        "CompanyVendorTechDetail",
+        "CompanyITPartnerDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Gather additional data on emerging business trends from the IndustryBusinessTrend table to provide a comprehensive overview of technological priorities in different sectors.",
+      "table": [
+        "IndustryBusinessTrend"
+      ]
+    }
+  ]
+}

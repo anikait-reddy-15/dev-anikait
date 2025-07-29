@@ -1,0 +1,42 @@
+{
+  "question": "Analyze the social media engagement trends of technology companies over the last year.",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Retrieve the social media engagement data for technology companies from the last year, including metrics such as likes, comments, and engagement rates from platforms like Facebook, Twitter, and Instagram.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyTwitterDetail",
+        "CompanyInstagramDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Aggregate the engagement data by company to identify which technology companies have the highest levels of activity on each platform and overall.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyTwitterDetail",
+        "CompanyInstagramDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Compare the engagement rates across different social media platforms to assess which platform is driving the most interaction for technology companies.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyTwitterDetail",
+        "CompanyInstagramDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Identify correlations between the level of social media engagement and the companies' financial metrics such as revenue and market capitalization to determine the impact of social media presence on financial performance.",
+      "table": [
+        "CompanyInfo",
+        "CompanyFacebookDetail",
+        "CompanyTwitterDetail",
+        "CompanyInstagramDetail"
+      ]
+    }
+  ]
+}

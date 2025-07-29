@@ -1,0 +1,35 @@
+{
+  "question": "What technological trends are emerging in the IT industry, and how are companies adapting to these changes?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify the technological trends relevant to different industries by querying the IndustryITTrend table to collect emerging IT trends and technology focus areas.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Analyze how companies are reporting their technology stack by querying the CompanyTechStack table to extract data on the technologies adopted by various companies.",
+      "table": [
+        "CompanyTechStack"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Gather insights on companies' strategic technology investments by querying the CompanyFocusAreaDetail table to understand their focus areas and initiatives in technology.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Compile a report summarizing how the trends from the IndustryITTrend table correlate with the technology stacks and focus areas reported by companies, highlighting common themes and adaptations.",
+      "table": [
+        "IndustryITTrend",
+        "CompanyTechStack",
+        "CompanyFocusAreaDetail"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "question": "What are the key technology partnerships and their impact on company performance?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies with active technology partnerships by analyzing the CompanyITPartnerDetail table to extract partnership details, deal values, and timelines.",
+      "table": [
+        "CompanyITPartnerDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Link the identified partnerships to their respective companies by referencing the CompanyInfo table to retrieve financial metrics such as revenue and net income for performance analysis.",
+      "table": [
+        "CompanyITPartnerDetail",
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the impact of these partnerships on company performance metrics by comparing changes in revenue and net income before and after partnership initiation, using timestamps from CompanyDealMaster.",
+      "table": [
+        "CompanyDealMaster",
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Evaluate the technology focus areas of partner companies by extracting data from CompanyFocusAreaDetail to understand the strategic IT initiatives associated with the partnerships.",
+      "table": [
+        "CompanyITPartnerDetail",
+        "CompanyFocusAreaDetail"
+      ]
+    }
+  ]
+}

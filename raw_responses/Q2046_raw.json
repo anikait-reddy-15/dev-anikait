@@ -1,0 +1,4 @@
+{
+  "question": "Analyze the technology adoption trends of companies based on their social media engagement metrics and tech stack.",
+  "subtasks": "[{\"step\":1,\"task\":\"Identify all companies along with their technology stacks to analyze which technologies are currently in use.\",\"table\":[\"CompanyTechStack\"]},{\"step\":2,\"task\":\"Gather social media engagement metrics (likes, comments, engagement rates) for the identified companies on platforms such as Facebook, Twitter, and Instagram.\",\"table\":[\"CompanyFacebookDetail\",\"CompanyTwitterDetail\",\"CompanyInstagramDetail\"]},{\"step\":3,\"task\":\"Compile the data to assess if there is a correlation between specific technologies in the tech stack and the engagement metrics collected from social media.\",\"table\":[\"CompanyInfo\",\"CompanyTechStack\",\"CompanyFacebookDetail\",\"CompanyTwitterDetail\",\"CompanyInstagramDetail\"]}]"
+}

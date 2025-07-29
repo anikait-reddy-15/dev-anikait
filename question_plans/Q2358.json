@@ -1,0 +1,29 @@
+{
+  "question": "What are the key technology focus areas of leading companies in the IT industry, and how do they correlate with their social media engagement?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify leading companies in the IT industry based on their revenue and market capitalization from the CompanyInfo table.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Determine the strategic technology focus areas of these leading companies by extracting data from the CompanyFocusAreaDetail table.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Collect social media engagement data for the identified leading companies from the SocialMediaInfo and relevant social media detail tables (e.g., CompanyFacebookDetail, CompanyTwitterDetail, CompanyInstagramDetail).",
+      "table": [
+        "SocialMediaInfo",
+        "CompanyFacebookDetail",
+        "CompanyTwitterDetail",
+        "CompanyInstagramDetail"
+      ]
+    }
+  ]
+}

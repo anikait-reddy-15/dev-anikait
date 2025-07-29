@@ -1,0 +1,4 @@
+{
+  "question": "What are the recent technology focus areas for companies in the software industry?",
+  "subtasks": "[{\"step\":1,\"task\":\"Identify all companies operating in the software industry from the CompanyInfo table.\",\"table\":[\"CompanyInfo\"]},{\"step\":2,\"task\":\"Find the strategic technology focus areas linked to the identified software companies in the CompanyFocusAreaDetail table.\",\"table\":[\"CompanyFocusAreaDetail\"]},{\"step\":3,\"task\":\"Fetch the details of any recent contracts related to technology services for the identified companies from the CompanyDealMaster table.\",\"table\":[\"CompanyDealMaster\"]},{\"step\":4,\"task\":\"Compile the results to show recent trends and focus areas in technology for the software industry companies.\",\"table\":[\"CompanyFocusAreaDetail\",\"CompanyDealMaster\"]}]}"
+}

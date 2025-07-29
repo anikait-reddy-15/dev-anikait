@@ -1,0 +1,34 @@
+{
+  "question": "Identify the key technology trends being adopted by companies within the Healthcare industry and analyze their impact on their business performance metrics.",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Retrieve a list of companies categorized under the Healthcare industry from the CompanyInfo table.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract technology trends and focus areas linked to those companies from the CompanyFocusAreaDetail table.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Collect financial performance metrics (like Revenue, Net Income, and Market Capitalization) of the identified Healthcare companies from the CompanyInfo table.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Analyze the relationship between the adopted technology trends and the financial metrics to determine any positive or negative impact.",
+      "table": [
+        "CompanyFocusAreaDetail",
+        "CompanyInfo"
+      ]
+    }
+  ]
+}

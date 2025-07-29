@@ -1,0 +1,33 @@
+{
+  "question": "What are the current technology adoption trends among companies in the healthcare industry?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify all companies operating in the healthcare industry and gather their profiles.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Analyze the technology stack being used by the identified healthcare companies to determine common technologies being adopted.",
+      "table": [
+        "CompanyTechStack"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Aggregate and summarize industry trends related to healthcare technology adoption from the IndustryITTrend table to complement the analysis.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Compile hiring details from healthcare companies focusing on technology roles to understand talent demand related to technology adoption.",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    }
+  ]
+}

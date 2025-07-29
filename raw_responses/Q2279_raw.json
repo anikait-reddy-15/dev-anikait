@@ -1,0 +1,4 @@
+{
+  "question": "What are the current hiring trends within technology-focused companies in the sector?",
+  "subtasks": "[{'step': 1, 'task': 'Identify technology-focused companies and their profiles.', 'table': ['CompanyInfo']}, {'step': 2, 'task': 'Extract active hiring data related to technology positions.', 'table': ['CompanyHiringDetail']}, {'step': 3, 'task': 'Analyze job roles and skills requirements specified in hiring records.', 'table': ['CompanyHiringDetail']}, {'step': 4, 'task': 'Investigate the geographic distribution of the hiring initiatives.', 'table': ['CompanyHiringDetail']}, {'step': 5, 'task': 'Cross-reference hiring trends with company technological focus areas.', 'table': ['CompanyFocusAreaDetail', 'CompanyHiringDetail']}, {'step': 6, 'task': 'Compile engagement and insights from leadership about hiring strategies.', 'table': ['CompanyLeadershipExcerpt', 'CompanyHiringDetail']}]}"
+}

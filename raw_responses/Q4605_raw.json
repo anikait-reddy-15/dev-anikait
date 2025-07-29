@@ -1,0 +1,4 @@
+{
+  "question": "What are the current technology focus areas and hiring trends of companies in the financial services industry?",
+  "subtasks": "[{\"step\":1,\"task\":\"Identify companies operating in the financial services industry from the CompanyInfo table.\",\"table\":[\"CompanyInfo\"]},{\"step\":2,\"task\":\"Gather the strategic technology focus areas associated with the identified companies from the CompanyFocusAreaDetail table.\",\"table\":[\"CompanyFocusAreaDetail\"]},{\"step\":3,\"task\":\"Retrieve the active hiring initiatives of the identified companies from the CompanyHiringDetail table.\",\"table\":[\"CompanyHiringDetail\"]},{\"step\":4,\"task\":\"Analyze the technology focus areas and hiring data to identify trends in technology investments and talent needs in the financial services sector.\",\"table\":[\"CompanyFocusAreaDetail\",\"CompanyHiringDetail\"]}]"
+}

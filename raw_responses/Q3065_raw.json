@@ -1,0 +1,4 @@
+{
+  "question": "What are the current technology focus areas and strategic partnerships of top companies in the IT industry?",
+  "subtasks": "[{\"step\":1,\"task\":\"Identify top companies in the IT industry based on metrics such as revenue and market capitalization.\",\"table\":[\"CompanyInfo\"]},{\"step\":2,\"task\":\"Gather technology focus areas for these identified companies to understand their strategic technology initiatives.\",\"table\":[\"CompanyFocusAreaDetail\"]},{\"step\":3,\"task\":\"Analyze the partnerships of these top companies to identify key IT partnerships and collaborations.\",\"table\":[\"CompanyITPartnerDetail\"]},{\"step\":4,\"task\":\"Compile findings into a cohesive report highlighting the technology focus areas and strategic partnerships for the selected top companies.\",\"table\":[\"CompanyInfo\",\"CompanyFocusAreaDetail\",\"CompanyITPartnerDetail\"]}]}"
+}

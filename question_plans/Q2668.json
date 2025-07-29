@@ -1,0 +1,33 @@
+{
+  "question": "What social media platforms is the company active on, and what are their engagement metrics?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Retrieve the social media presence data for the specified company, including which platforms they are active on.",
+      "table": [
+        "SocialMediaInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Fetch engagement metrics (like counts, follow counts, interaction rates) for each social media platform of the company.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyInstagramDetail",
+        "CompanyTwitterDetail",
+        "CompanyYoutubeDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Compile and summarize the retrieved social media metrics for analysis, highlighting key engagement statistics.",
+      "table": [
+        "SocialMediaInfo",
+        "CompanyFacebookDetail",
+        "CompanyInstagramDetail",
+        "CompanyTwitterDetail",
+        "CompanyYoutubeDetail"
+      ]
+    }
+  ]
+}

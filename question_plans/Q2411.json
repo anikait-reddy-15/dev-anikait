@@ -1,0 +1,40 @@
+{
+  "question": "What are the top 5 companies in the tech industry based on their market capitalization and IT budget, and how do they utilize social media for engagement?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Retrieve company information for companies in the technology industry including their market capitalization and IT budget.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Identify the top 5 companies based on market capitalization and sort them accordingly.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Gather social media engagement metrics (likes, comments) for the identified top tech companies from Facebook, Twitter, Instagram, and YouTube.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyTwitterDetail",
+        "CompanyInstagramDetail",
+        "CompanyYoutubeDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Compile a report summarizing the market capitalization, IT budget, and social media engagement of the top 5 companies.",
+      "table": [
+        "CompanyInfo",
+        "CompanyFacebookDetail",
+        "CompanyTwitterDetail",
+        "CompanyInstagramDetail",
+        "CompanyYoutubeDetail"
+      ]
+    }
+  ]
+}

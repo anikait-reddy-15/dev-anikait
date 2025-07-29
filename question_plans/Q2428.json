@@ -1,0 +1,39 @@
+{
+  "question": "Analyze the impact of social media engagement on company revenue and market capitalization.",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Gather social media engagement metrics for companies, focusing on Facebook, Twitter, and Instagram metrics such as likes, comments, and engagement rates.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyTwitterDetail",
+        "CompanyInstagramDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Collect financial data including revenue and market capitalization for the companies in question from the CompanyInfo table.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Correlate social media engagement metrics with revenue and market capitalization data to identify trends and insights.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyTwitterDetail",
+        "CompanyInstagramDetail",
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Produce a report summarizing the findings, highlighting key trends between social media engagement and financial performance.",
+      "table": [
+        "SectionData",
+        "PageInfo"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "question": "What are the emerging technology focus areas across different industries and their impact on the market segments?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify the relevant technology focus areas captured for each industry in the IndustryITTrend table.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Analyze the connection between technology focus areas and specific industries from the IndustryBusinessTrend table, understanding how these areas influence market dynamics.",
+      "table": [
+        "IndustryBusinessTrend",
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Gather supplementary data about companies actively involved in these technology focus areas using the CompanyFocusAreaDetail table to correlate their initiatives with industry trends.",
+      "table": [
+        "CompanyFocusAreaDetail",
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Compile a report summarizing the identified technology focus areas, associated companies, and their impact on their respective market segments to inform strategic planning.",
+      "table": [
+        "CompanyFocusAreaDetail",
+        "CompanyInfo"
+      ]
+    }
+  ]
+}

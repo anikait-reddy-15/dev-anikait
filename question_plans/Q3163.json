@@ -1,0 +1,27 @@
+{
+  "question": "Identify the top 5 companies in the technology sector with the highest IT budgets and their associated social media engagement metrics.",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Query the CompanyInfo table to retrieve companies in the technology sector and sort by ITBudget in descending order to identify the top 5 companies.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "For the identified top 5 companies, retrieve social media engagement metrics from the SocialMediaInfo table to assess their online presence.",
+      "table": [
+        "SocialMediaInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Combine the results from the two previous steps to create a comprehensive view of the top companies that includes their IT budgets and social media metrics.",
+      "table": [
+        "CompanyInfo",
+        "SocialMediaInfo"
+      ]
+    }
+  ]
+}

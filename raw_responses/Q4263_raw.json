@@ -1,0 +1,4 @@
+{
+  "question": "What are the current hiring trends and job opportunities in technology companies?",
+  "subtasks": "[{\"step\":1,\"task\":\"Identify technology companies with active hiring initiatives.\",\"table\":[\"CompanyHiringDetail\",\"CompanyInfo\"]},{\"step\":2,\"task\":\"Analyze job roles and designations that are in high demand within the technology sector.\",\"table\":[\"CompanyHiringDetail\"]},{\"step\":3,\"task\":\"Examine geographic locations where technology companies are actively hiring.\",\"table\":[\"CompanyHiringDetail\",\"CompanyDataCenter\"]},{\"step\":4,\"task\":\"Aggregate and summarize job requirements and skills expected from candidates in technology companies.\",\"table\":[\"CompanyHiringDetail\"]},{\"step\":5,\"task\":\"Identify trends based on historical hiring data of specific technology fields or roles.\",\"table\":[\"CompanyHiringDetail\"]}]}"
+}

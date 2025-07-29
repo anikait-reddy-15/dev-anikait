@@ -1,0 +1,4 @@
+{
+  "question": "What are the current hiring trends in the technology sector for companies based in North America?",
+  "subtasks": "[ { \"step\": 1, \"task\": \"Identify all companies located in North America from the CompanyInfo table.\", \"table\": [\"CompanyInfo\"] }, { \"step\": 2, \"task\": \"Extract active hiring details from the CompanyHiringDetail table for the identified companies in North America.\", \"table\": [\"CompanyHiringDetail\"] }, { \"step\": 3, \"task\": \"Analyze the extracted hiring data to determine the common designations and domains for job openings within the technology sector.\", \"table\": [\"CompanyHiringDetail\"] }, { \"step\": 4, \"task\": \"Summarize the findings to highlight the most in-demand roles and skills mentioned in the hiring details within the technology sector in North America.\", \"table\": [\"CompanyHiringDetail\"] } ]"
+}

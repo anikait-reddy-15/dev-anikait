@@ -1,0 +1,4 @@
+{
+  "question": "Analyze the impact of social media presence on company revenue.",
+  "subtasks": "[\n  {\n    \"step\": 1,\n    \"task\": \"Identify companies with active social media accounts.\",\n    \"table\": [\"SocialMediaInfo\", \"CompanyInfo\"]\n  },\n  {\n    \"step\": 2,\n    \"task\": \"Gather details on the revenue of these companies from the CompanyInfo table.\",\n    \"table\": [\"CompanyInfo\"]\n  },\n  {\n    \"step\": 3,\n    \"task\": \"Extract engagement metrics from various social media tables like Facebook, Twitter, Instagram, and YouTube.\",\n    \"table\": [\"CompanyFacebookDetail\", \"CompanyTwitterDetail\", \"CompanyInstagramDetail\", \"CompanyYoutubeDetail\"]\n  },\n  {\n    \"step\": 4,\n    \"task\": \"Correlate the social media engagement metrics with revenue data to analyze the impact.\",\n    \"table\": [\"SocialMediaInfo\", \"CompanyInfo\"]\n  }\n]"
+}

@@ -1,0 +1,46 @@
+{
+  "question": "Analyze the digital marketing efforts of a company and correlate with their revenue and market trends.",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify the company profile including its revenue, market capitalization, and active status.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Gather social media engagement metrics from various platforms (Facebook, Twitter, Instagram, YouTube) related to the company.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyTwitterDetail",
+        "CompanyInstagramDetail",
+        "CompanyYoutubeDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Extract relevant industry trends that might impact digital marketing strategies and correlate them with the company's focus areas.",
+      "table": [
+        "IndustryITTrend",
+        "IndustryBusinessTrend",
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Analyze the historical revenue data of the company alongside the collected social media metrics and industry trends to find correlations.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Create a report summarizing insights regarding the effectiveness of digital marketing efforts based on the revenue and market trends.",
+      "table": [
+        "PageInfo",
+        "SectionData"
+      ]
+    }
+  ]
+}

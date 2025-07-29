@@ -1,0 +1,42 @@
+{
+  "question": "What are the recent trends in technology adoption among companies in the finance industry?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify all companies in the finance industry and gather their basic information such as name, headquarters, and revenue.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Analyze the latest technology focus areas for each identified finance company to understand their strategic investments in technology.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Gather and summarize recent deal information related to technology services contracts that finance companies have signed, focusing on service types and deal values.",
+      "table": [
+        "CompanyDealMaster"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Investigate social media engagement metrics from companies in the finance industry to analyze public sentiment about their technology initiatives.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyTwitterDetail"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Compile a report on the findings, highlighting key trends in technology adoption within the finance sector based on the collected data.",
+      "table": [
+        "PageInfo",
+        "SectionData"
+      ]
+    }
+  ]
+}

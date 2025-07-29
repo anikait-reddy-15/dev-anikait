@@ -1,0 +1,34 @@
+{
+  "question": "What are the current technology focus areas of companies in the healthcare industry, and how do they differ across geographical regions?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify all companies operating in the healthcare industry, collecting relevant details such as their names, active status, and fundamental metrics (like revenue and employee count).",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Gather data related to the strategic technology focus areas of these identified healthcare companies and their specific initiatives in technology, detailing their IT focus descriptions. ",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze and compile the locations of the identified healthcare companies, including their data centers or operational facilities and corresponding geographical identifiers. ",
+      "table": [
+        "CompanyDataCenter"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Cross-reference the geographical data of the companies with their technology focus areas to identify differences and trends across regions within the healthcare industry. ",
+      "table": [
+        "CompanyFocusAreaDetail",
+        "CompanyDataCenter"
+      ]
+    }
+  ]
+}

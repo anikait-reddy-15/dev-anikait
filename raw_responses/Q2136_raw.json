@@ -1,0 +1,4 @@
+{
+  "question": "Analyze the impact of social media presence on the revenue growth of technology companies.",
+  "subtasks": "[{'step': 1, 'task': 'Retrieve the list of technology companies and their associated revenue data.', 'table': ['CompanyInfo']}, {'step': 2, 'task': 'Extract social media engagement metrics for each company from platforms like Facebook, Twitter, Instagram, and YouTube.', 'table': ['SocialMediaInfo', 'CompanyFacebookDetail', 'CompanyTwitterDetail', 'CompanyInstagramDetail', 'CompanyYoutubeDetail']}, {'step': 3, 'task': 'Analyze the relationship between social media engagement metrics and revenue to determine potential correlations.', 'table': ['CompanyInfo', 'SocialMediaInfo']}, {'step': 4, 'task': 'Summarize findings and create a report detailing how social media presence impacts revenue growth for the analyzed companies.', 'table': []}]}"
+}

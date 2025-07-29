@@ -1,0 +1,4 @@
+{
+  "question": "What are the current IT budget trends across different industries and how do they correlate with company revenue and net income?",
+  "subtasks": "[{\"step\":1,\"task\":\"Retrieve the latest IT budget information from the CompanyInfo table for all companies and group by industry to identify trends.\",\"table\":[\"CompanyInfo\"]},{\"step\":2,\"task\":\"Gather company revenue and net income figures from the CompanyInfo table, also grouped by industry for comparative analysis.\",\"table\":[\"CompanyInfo\"]},{\"step\":3,\"task\":\"Analyze the relationship between IT budgets, company revenue, and net income across industries to determine correlations and trends.\",\"table\":[\"CompanyInfo\"]},{\"step\":4,\"task\":\"Compile the findings into a report format summarizing key trends in IT budgeting across industries, including visualizations if applicable.\",\"table\":[\"CompanyInfo\"]}]}"
+}

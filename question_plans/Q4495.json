@@ -1,0 +1,35 @@
+{
+  "question": "What are the current trends in IT adoption among companies in the technology industry?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies operating within the technology industry and gather their IT budget and strength metrics.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Analyze the technology focus areas for each company to determine specific trends in IT adoption.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Examine the vendor technologies used by these companies to identify popular tools and platforms being adopted.",
+      "table": [
+        "CompanyVendorProductDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Assess the indicators of social media presence and engagement metrics to see how these companies are communicating their IT trends and strategies to the public.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyInstagramDetail",
+        "CompanyTwitterDetail"
+      ]
+    }
+  ]
+}

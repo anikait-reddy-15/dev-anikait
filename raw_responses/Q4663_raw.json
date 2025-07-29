@@ -1,0 +1,4 @@
+{
+  "question": "What are the current hiring trends and technology focus areas for companies in the IT industry?",
+  "subtasks": "[{'step': 1, 'task': 'Identify the companies operating in the IT industry.', 'table': ['CompanyInfo']}, {'step': 2, 'task': 'Gather data on active hiring initiatives including job roles and required skills from the companies identified.', 'table': ['CompanyHiringDetail']}, {'step': 3, 'task': 'Collect information on the strategic technology focus areas of the identified companies.', 'table': ['CompanyFocusAreaDetail']}, {'step': 4, 'task': 'Analyze the combinations of hiring data and technology focus areas to identify emerging trends.', 'table': []}]"
+}

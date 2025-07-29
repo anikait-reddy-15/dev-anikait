@@ -1,0 +1,4 @@
+{
+  "question": "What are the current technologies being adopted by companies in the cloud computing sector along with their IT budgets?",
+  "subtasks": "[{\"step\":1,\"task\":\"Identify companies in the cloud computing sector by filtering the CompanyInfo table based on the industry column.\",\"table\":[\"CompanyInfo\"]},{\"step\":2,\"task\":\"Retrieve IT budgets for the identified cloud computing companies by selecting the ITBudget column from the CompanyInfo table.\",\"table\":[\"CompanyInfo\"]},{\"step\":3,\"task\":\"Determine the technologies used by the identified companies by referencing the CompanyTechStack table for each company's ID.\",\"table\":[\"CompanyTechStack\"]},{\"step\":4,\"task\":\"Compile a list of current technologies along with their respective IT budgets, creating a comprehensive overview for analysis.\",\"table\":[\"CompanyInfo\",\"CompanyTechStack\"]}]}"
+}

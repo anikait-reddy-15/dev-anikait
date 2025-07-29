@@ -1,0 +1,33 @@
+{
+  "question": "What are the current industry trends affecting technology investments for companies in the healthcare sector?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify all companies operating in the healthcare sector from the CompanyInfo table.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Gather detailed B2B deals and contracts within the healthcare sector from the CompanyDealMaster table to understand the financial metrics and technology services involved.",
+      "table": [
+        "CompanyDealMaster"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze emerging IT trends specifically related to healthcare from the IndustryITTrend table to correlate with the identified companies and their contracts.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Collect and review leadership excerpts from the CompanyLeadershipExcerpt table that reflect strategic technological investments or focus areas in healthcare companies.",
+      "table": [
+        "CompanyLeadershipExcerpt"
+      ]
+    }
+  ]
+}

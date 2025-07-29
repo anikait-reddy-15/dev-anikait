@@ -1,0 +1,43 @@
+{
+  "question": "What are the technology trends and hiring patterns for companies in the IT industry?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify the relevant technology trends in the IT industry by analyzing the IndustryITTrend table for emerging technologies and focus areas.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Gather data on companies operating in the IT industry to understand their technological adoption and key strategic areas by querying the CompanyInfo table.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the hiring patterns of IT companies by examining the CompanyHiringDetail table to find roles, skill requirements, and geographical trends in hiring.",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Combine data from the CompanyTechStack table to relate technology adoption trends with the hiring patterns identified in the previous steps to see how they align.",
+      "table": [
+        "CompanyTechStack"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Visualize the gathered insights by preparing a summary report that links technology trends with hiring information across various IT companies.",
+      "table": [
+        "CompanyInfo",
+        "IndustryITTrend",
+        "CompanyHiringDetail",
+        "CompanyTechStack"
+      ]
+    }
+  ]
+}

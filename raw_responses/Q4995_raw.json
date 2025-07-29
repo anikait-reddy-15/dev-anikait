@@ -1,0 +1,4 @@
+{
+  "question": "What are the latest hiring trends in the IT industry for companies with significant digital transformation investments?",
+  "subtasks": "[{\"step\":1,\"task\":\"Identify companies with significant digital transformation investments by analyzing their focus areas and IT budgets.\",\"table\":[\"CompanyInfo\",\"CompanyFocusAreaDetail\"]},{\"step\":2,\"task\":\"Gather data on active hiring initiatives in the IT sector by reviewing hiring details and associated domains for those companies.\",\"table\":[\"CompanyHiringDetail\"]},{\"step\":3,\"task\":\"Compile statistics on job roles and skills being targeted in these companies to understand the demand trends.\",\"table\":[\"CompanyHiringDetail\"]},{\"step\":4,\"task\":\"Analyze hiring data in relation to the companies' reported IT budget and focus areas to draw insights on alignment with digital transformation efforts.\",\"table\":[\"CompanyInfo\",\"CompanyHiringDetail\",\"CompanyFocusAreaDetail\"]}]}"
+}

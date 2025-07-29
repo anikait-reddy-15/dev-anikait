@@ -1,0 +1,4 @@
+{
+  "question": "What are the top technology focus areas for companies in the healthcare industry, along with their revenue and market capitalization?",
+  "subtasks": "[{\"step\":1,\"task\":\"Identify the companies within the healthcare industry and extract their relevant financial metrics such as revenue and market capitalization.\",\"table\":[\"CompanyInfo\"]},{\"step\":2,\"task\":\"Gather the technology focus areas for the identified healthcare companies from the CompanyFocusAreaDetail table.\",\"table\":[\"CompanyFocusAreaDetail\"]},{\"step\":3,\"task\":\"Combine the financial metrics and technology focus area data to generate a report summarizing each company's technology focus areas, revenue, and market capitalization.\",\"table\":[\"CompanyInfo\",\"CompanyFocusAreaDetail\"]}]"
+}

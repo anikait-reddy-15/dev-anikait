@@ -1,0 +1,4 @@
+{
+  "question": "What are the top three companies in terms of revenue and their IT budget within the technology industry?",
+  "subtasks": "[{'step': 1, 'task': 'Select companies from the CompanyInfo table that belong to the Technology industry and are currently active.', 'table': ['CompanyInfo']}, {'step': 2, 'task': 'Sort the selected companies by their Revenue in descending order and calculate the top three companies.', 'table': ['CompanyInfo']}, {'step': 3, 'task': 'Retrieve additional information regarding the IT budget of the top three companies identified in the previous step.', 'table': ['CompanyInfo']}]"
+}

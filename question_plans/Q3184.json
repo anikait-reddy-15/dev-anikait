@@ -1,0 +1,29 @@
+{
+  "question": "Identify the strategic technology focus areas and social media presence of the leading technology companies in the cloud computing industry.",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Query the CompanyInfo table to find all companies in the cloud computing industry and their basic information.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Retrieve the strategic technology focus areas for the identified cloud computing companies from the CompanyFocusAreaDetail table.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Gather social media presence data (Facebook, Instagram, Twitter) for the identified companies from the SocialMediaInfo and related social media detail tables.",
+      "table": [
+        "SocialMediaInfo",
+        "CompanyFacebookDetail",
+        "CompanyInstagramDetail",
+        "CompanyTwitterDetail"
+      ]
+    }
+  ]
+}

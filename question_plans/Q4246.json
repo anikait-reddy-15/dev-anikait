@@ -1,0 +1,43 @@
+{
+  "question": "What are the recent digital transformation initiatives undertaken by companies in the technology industry?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies within the technology industry from the CompanyInfo table based on their industry classification.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Gather details about specific IT focus areas from the CompanyFocusAreaDetail table for the identified technology companies to understand their digital transformation initiatives.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Examine recent leadership excerpts from the CompanyLeadershipExcerpt table to find statements about digital transformation from executives of these technology companies.",
+      "table": [
+        "CompanyLeadershipExcerpt"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Analyze social media engagement data from the CompanyFacebookDetail and CompanyTwitterDetail tables to assess public sentiment and interaction related to these digital initiatives.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyTwitterDetail"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Compile and summarize the findings to report on the recent digital transformation trends and initiatives observed in the technology sector.",
+      "table": [
+        "CompanyInfo",
+        "CompanyFocusAreaDetail",
+        "CompanyLeadershipExcerpt"
+      ]
+    }
+  ]
+}

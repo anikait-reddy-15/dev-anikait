@@ -1,0 +1,33 @@
+{
+  "question": "What are the strategic technology focus areas and recent hiring trends of companies in the finance industry?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify all companies operating in the finance industry and gather their core information such as name and location.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract the strategic technology focus areas for these companies to understand their IT priorities and initiatives.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze current hiring trends by fetching active job openings from the identified companies, including job titles and necessary skills.",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Compile social media engagement metrics for these companies to understand their overall market presence and brand strategies.",
+      "table": [
+        "SocialMediaInfo"
+      ]
+    }
+  ]
+}

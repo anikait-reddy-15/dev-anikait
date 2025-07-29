@@ -1,0 +1,4 @@
+{
+  "question": "What technologies are companies in the finance industry investing in and how are they performing in terms of social media engagement?",
+  "subtasks": "[{\"step\":1,\"task\":\"Identify companies operating in the finance industry along with their respective technology investments.\",\"table\":[\"CompanyInfo\",\"CompanyTechStack\"]},{\"step\":2,\"task\":\"Gather engagement metrics from social media platforms for identified finance companies.\",\"table\":[\"SocialMediaInfo\",\"CompanyFacebookDetail\",\"CompanyTwitterDetail\",\"CompanyInstagramDetail\",\"CompanyYoutubeDetail\"]},{\"step\":3,\"task\":\"Analyze the financial metrics of the finance companies to correlate technology investment with performance outcomes.\",\"table\":[\"CompanyInfo\"]}]"
+}

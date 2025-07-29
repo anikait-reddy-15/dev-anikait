@@ -1,0 +1,4 @@
+{
+  "question": "What are the latest technology trends in the healthcare industry and how do they impact company strategy?",
+  "subtasks": "[{\"step\":1,\"task\":\"Identify the latest trends in technology specific to the healthcare industry from the IndustryITTrend table.\",\"table\":[\"IndustryITTrend\"]},{\"step\":2,\"task\":\"Analyze data from CompanyInfo to find healthcare companies that are actively implementing these technology trends and their strategic responses.\",\"table\":[\"CompanyInfo\"]},{\"step\":3,\"task\":\"Review CompanyFocusAreaDetail to understand the strategic initiatives undertaken by these healthcare companies in relation to identified technology trends.\",\"table\":[\"CompanyFocusAreaDetail\"]},{\"step\":4,\"task\":\"Gather financial metrics from CompanyInfo to evaluate how these technology investments are impacting revenue and market capitalization in healthcare companies.\",\"table\":[\"CompanyInfo\"]}]"
+}

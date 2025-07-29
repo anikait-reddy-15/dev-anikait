@@ -1,0 +1,27 @@
+{
+  "question": "What are the recent trends and focus areas in technology across different industries?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify the distinct industry types present in the IndustryITTrend table.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract the emerging IT trends and technology focus areas for each identified industry from the IndustryITTrend table.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Summarize the findings and provide a report on the strategic focus areas observed across industries.",
+      "table": [
+        "IndustryBusinessTrend",
+        "IndustryITTrend"
+      ]
+    }
+  ]
+}

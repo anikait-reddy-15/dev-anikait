@@ -1,0 +1,32 @@
+{
+  "question": "What are the current technology focus areas for companies and how are they leveraging social media to engage with their audience?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify the strategic technology focus areas for each company, including details on investments, partnerships, and innovations in specific IT domains.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Gather social media engagement metrics for each company on various platforms like Facebook, Twitter, and Instagram to understand their outreach strategies.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyTwitterDetail",
+        "CompanyInstagramDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Compile a list of companies to see which technology focus areas correlate with higher social media engagement metrics, analyzing the relationships between technology strategies and audience interactions.",
+      "table": [
+        "CompanyInfo",
+        "CompanyFocusAreaDetail",
+        "CompanyFacebookDetail",
+        "CompanyTwitterDetail",
+        "CompanyInstagramDetail"
+      ]
+    }
+  ]
+}

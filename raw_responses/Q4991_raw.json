@@ -1,0 +1,4 @@
+{
+  "question": "Retrieve information about companies that are actively hiring in the technology sector, their headquarter locations, and social media engagement metrics.",
+  "subtasks": "[ { \"step\": 1, \"task\": \"Select all companies that are actively hiring in the technology sector based on their hiring details.\", \"table\": [\"CompanyHiringDetail\", \"CompanyInfo\"] }, { \"step\": 2, \"task\": \"Retrieve the headquarter locations of the identified companies from their company information records.\", \"table\": [\"CompanyInfo\"] }, { \"step\": 3, \"task\": \"Collect social media engagement metrics for these companies from their social media details. Focus on platforms like Facebook and Twitter.\", \"table\": [\"CompanyFacebookDetail\", \"CompanyTwitterDetail\"] } ]"
+}

@@ -1,0 +1,51 @@
+{
+  "question": "Analyze the technology adoption trends of companies in the IT sector based on their social media engagement.",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify all companies within the IT sector from the CompanyInfo table where the Industry is 'IT'.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Retrieve the social media engagement metrics (likes, comments, engagement rate) for the identified companies from the CompanyFacebookDetail, CompanyInstagramDetail, CompanyTwitterDetail, and CompanyYoutubeDetail tables.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyInstagramDetail",
+        "CompanyTwitterDetail",
+        "CompanyYoutubeDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Aggregate and analyze the retrieved social media metrics to determine overall engagement levels and trends for the IT sector companies identified in Step 1.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyInstagramDetail",
+        "CompanyTwitterDetail",
+        "CompanyYoutubeDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Cross-reference the technology stack data from the CompanyTechStack table for the IT sector companies to understand which technologies correlate with higher social media engagement metrics.",
+      "table": [
+        "CompanyTechStack"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Summarize insights into a report that outlines the technology adoption trends based on engagement metrics, highlighting key correlations between tech usage and social media performance.",
+      "table": [
+        "CompanyInfo",
+        "CompanyTechStack",
+        "CompanyFacebookDetail",
+        "CompanyInstagramDetail",
+        "CompanyTwitterDetail",
+        "CompanyYoutubeDetail"
+      ]
+    }
+  ]
+}

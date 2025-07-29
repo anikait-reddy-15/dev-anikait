@@ -1,0 +1,4 @@
+{
+  "question": "What are the key technology focus areas and social media engagement metrics for leading technology companies?",
+  "subtasks": "[{\"step\":1,\"task\":\"Identify leading technology companies by their revenue and market capitalization to focus on the top players in the industry.\",\"table\":[\"CompanyInfo\"]},{\"step\":2,\"task\":\"For the identified leading companies, retrieve their strategic technology focus areas from the CompanyFocusAreaDetail table to understand their investment priorities and technology direction.\",\"table\":[\"CompanyFocusAreaDetail\"]},{\"step\":3,\"task\":\"Collect social media engagement metrics such as likes, comments, and engagement rates from the CompanyFacebookDetail, CompanyInstagramDetail, and CompanyTwitterDetail tables to evaluate their online presence and audience interaction.\",\"table\":[\"CompanyFacebookDetail\",\"CompanyInstagramDetail\",\"CompanyTwitterDetail\"]}]"
+}

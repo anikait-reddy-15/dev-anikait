@@ -1,0 +1,51 @@
+{
+  "question": "Analyze the social media presence of major technology companies and their engagement metrics across different platforms including Facebook, Twitter, Instagram, and LinkedIn.",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Collect social media presence data for major technology companies, including engagement metrics such as likes, comments, and shares.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyInstagramDetail",
+        "CompanyTwitterDetail",
+        "SocialMediaInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Aggregate the engagement metrics from each social media platform to identify which company has the highest interaction rates across platforms.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyInstagramDetail",
+        "CompanyTwitterDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze how engagement metrics vary by industry to determine if certain industries perform better on social media platforms.",
+      "table": [
+        "CompanyInfo",
+        "CompanyFacebookDetail",
+        "CompanyInstagramDetail",
+        "CompanyTwitterDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Identify trends in social media usage and engagement over time for the selected companies based on available dates in the social media tables.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyInstagramDetail",
+        "CompanyTwitterDetail"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Create a report summarizing the findings on social media engagement metrics and trends for major technology companies.",
+      "table": [
+        "CompanyInfo",
+        "SocialMediaInfo"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+{
+  "question": "Identify the top five companies with the highest revenue from the technology industry and analyze their social media engagement across multiple platforms.",
+  "subtasks": "[{'step': 1, 'task': 'Query the CompanyInfo table to filter for companies in the technology industry and retrieve their names and revenues.', 'table': ['CompanyInfo']}, {'step': 2, 'task': 'Sort the companies by revenue in descending order and limit the results to the top five entries.', 'table': ['CompanyInfo']}, {'step': 3, 'task': 'For the top five companies identified, retrieve their social media engagement metrics from the CompanyFacebookDetail, CompanyTwitterDetail, and CompanyInstagramDetail tables.', 'table': ['CompanyFacebookDetail', 'CompanyTwitterDetail', 'CompanyInstagramDetail']}]}"
+}

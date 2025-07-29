@@ -1,0 +1,35 @@
+{
+  "question": "Analyze the impact of social media presence on company growth in 2022.",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify the companies with available social media engagement data for the year 2022.",
+      "table": [
+        "SocialMediaInfo",
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Gather financial metrics (revenue, net income, market capitalization) for the selected companies for the year 2022.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the correlation between social media engagement metrics and financial growth indicators of the companies for 2022.",
+      "table": [
+        "SocialMediaInfo",
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Summarize findings and trends observed from the analysis to present a report on the impact of social media on company growth.",
+      "table": [
+        "CompanyInfo"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "question": "Identify the top social media platforms used by companies and analyze their engagement metrics over the past year.",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Fetch the list of companies along with their corresponding social media data from different platforms such as Facebook, Twitter, Instagram, and YouTube.",
+      "table": [
+        "CompanyInfo",
+        "SocialMediaInfo",
+        "CompanyFacebookDetail",
+        "CompanyTwitterDetail",
+        "CompanyInstagramDetail",
+        "CompanyYoutubeDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Aggregate the engagement metrics (likes, comments, engagement rates) per social media platform to find the top platforms used by the companies.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyTwitterDetail",
+        "CompanyInstagramDetail",
+        "CompanyYoutubeDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Compare engagement metrics for each platform over the past year to determine trends in social media usage by companies.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyTwitterDetail",
+        "CompanyInstagramDetail",
+        "CompanyYoutubeDetail"
+      ]
+    }
+  ]
+}

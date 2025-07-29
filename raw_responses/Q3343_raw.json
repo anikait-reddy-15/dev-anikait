@@ -1,0 +1,4 @@
+{
+  "question": "What are the recent hiring trends among tech companies in different geographic regions?",
+  "subtasks": "[{'step': 1, 'task': 'Collect active hiring details from tech companies, focusing on roles, skill requirements, and locations.', 'table': ['CompanyHiringDetail']}, {'step': 2, 'task': 'Aggregate the number of hiring initiatives per geographic region and analyze which regions have the most demand for tech roles.', 'table': ['CompanyHiringDetail']}, {'step': 3, 'task': 'Identify the industries related to the companies hiring to understand if certain sectors are driving hiring trends.', 'table': ['CompanyInfo', 'CompanyHiringDetail']}, {'step': 4, 'task': 'Visualize the hiring trends data by region to showcase the demand across different tech roles.', 'table': []}]"
+}

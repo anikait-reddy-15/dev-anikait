@@ -1,0 +1,4 @@
+{
+  "question": "Analyze the technological focus areas of companies and their corresponding leadership insights.",
+  "subtasks": "[{\"step\":1,\"task\":\"Gather data on companies' technological focus areas from the CompanyFocusAreaDetail table.\",\"table\":[\"CompanyFocusAreaDetail\"]},{\"step\":2,\"task\":\"Collect leadership statements related to IT focus areas from the CompanyLeadershipExcerpt table.\",\"table\":[\"CompanyLeadershipExcerpt\"]},{\"step\":3,\"task\":\"Combine findings from both collections to provide insights into companies' technological priorities and leadership outlooks.\",\"table\":[\"CompanyFocusAreaDetail\",\"CompanyLeadershipExcerpt\"]}]"
+}

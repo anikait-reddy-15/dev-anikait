@@ -1,0 +1,30 @@
+{
+  "question": "What are the current digital transformation strategies being implemented by companies in the retail industry?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify and list companies operating in the retail industry along with their active statuses and technological focus areas.",
+      "table": [
+        "CompanyInfo",
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Gather data on recent technological initiatives or partnerships related to digital transformation for the listed retail companies.",
+      "table": [
+        "CompanyITPartnerDetail",
+        "CompanyVendorTechDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze social media activity for those retail companies to gauge engagement related to digital transformation messages and initiatives.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyTwitterDetail",
+        "CompanyInstagramDetail"
+      ]
+    }
+  ]
+}

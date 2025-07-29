@@ -1,0 +1,40 @@
+{
+  "question": "What are the social media engagement trends for the top 10 companies in the tech industry based on their revenue?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify the top 10 companies in the tech industry based on revenue by querying the CompanyInfo table.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Gather social media engagement metrics (likes, comments, engagement rates) for the identified companies by querying the respective social media detail tables (Facebook, Instagram, Twitter, YouTube).",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyInstagramDetail",
+        "CompanyTwitterDetail",
+        "CompanyYoutubeDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the engagement trends by calculating average likes, comments, and engagement rates for each of the top companies across all social media channels.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyInstagramDetail",
+        "CompanyTwitterDetail",
+        "CompanyYoutubeDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Generate a report summarizing the findings, including visual representations (charts or tables) of engagement trends by company.",
+      "table": [
+        "SectionData",
+        "SectionInfo"
+      ]
+    }
+  ]
+}

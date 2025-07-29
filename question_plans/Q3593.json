@@ -1,0 +1,31 @@
+{
+  "question": "Identify companies that significantly invested in cloud computing technologies over the past year and analyze their financial performance metrics. Also, examine the hiring trends in cloud computing roles in these companies.",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Retrieve records of companies with investments or focus areas in cloud computing from the CompanyFocusAreaDetail table.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Gather financial metrics such as Revenue, Net Income, and Market Capitalization for the identified companies from the CompanyInfo table.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze hiring trends and recent job postings related to cloud computing roles from the CompanyHiringDetail table for the identified companies.",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Compile a summary report combining investment data, financial performance metrics, and hiring trends for cloud computing in the identified companies.",
+      "table": []
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "question": "What are the current hiring trends in technology companies, and which specific roles are most in demand?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify all active hiring initiatives within the technology sector by filtering companies in the relevant industry.",
+      "table": [
+        "CompanyHiringDetail",
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Aggregate data on job designations and their corresponding hiring counts to determine which roles are most frequently listed.",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the geographical distribution of hiring initiatives to see if certain regions have a higher demand for specific roles.",
+      "table": [
+        "CompanyHiringDetail",
+        "CompanyDataCenter"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Examine correlated trends among identified job designations and company focus areas to understand strategic technology orientations in hiring.",
+      "table": [
+        "CompanyHiringDetail",
+        "CompanyFocusAreaDetail"
+      ]
+    }
+  ]
+}

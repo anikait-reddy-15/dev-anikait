@@ -1,0 +1,4 @@
+{
+  "question": "What are the current social media engagement metrics for each company along with their IT budget and industry type?",
+  "subtasks": "[{\"step\":1,\"task\":\"Retrieve the list of companies along with their IT budget and industry type.\",\"table\":[\"CompanyInfo\"]},{\"step\":2,\"task\":\"Extract social media engagement metrics from social media detail tables for each company, including Facebook, Twitter, Instagram, and YouTube.\",\"table\":[\"CompanyFacebookDetail\",\"CompanyTwitterDetail\",\"CompanyInstagramDetail\",\"CompanyYoutubeDetail\"]},{\"step\":3,\"task\":\"Consolidate the social media metrics and company information into a single dataset for analysis.\",\"table\":[\"CompanyInfo\",\"CompanyFacebookDetail\",\"CompanyTwitterDetail\",\"CompanyInstagramDetail\",\"CompanyYoutubeDetail\"]}]"
+}

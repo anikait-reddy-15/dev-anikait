@@ -1,0 +1,4 @@
+{
+  "question": "Analyze the current financial metrics and technology focus areas of companies in the IT industry to understand market trends.",
+  "subtasks": "[{\"step\": 1, \"task\": \"Retrieve financial metrics including Revenue, Net Income, and Market Capitalization for companies in the IT industry.\", \"table\": [\"CompanyInfo\"]}, {\"step\": 2, \"task\": \"Extract strategic technology focus areas from the CompanyFocusAreaDetail table related to companies operating in the IT sector.\", \"table\": [\"CompanyFocusAreaDetail\"]}, {\"step\": 3, \"task\": \"Compile the collected financial metrics and technological focus areas into a comprehensive report summarizing the trends observed in the IT industry.\", \"table\": []}]}"
+}

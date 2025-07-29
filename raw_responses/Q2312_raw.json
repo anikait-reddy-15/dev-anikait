@@ -1,0 +1,4 @@
+{
+  "question": "Analyze the impact of social media engagement on companies' revenue growth.",
+  "subtasks": "[{\"step\":1,\"task\":\"Identify companies with active social media presence and their engagement metrics.\",\"table\":[\"CompanyInfo\",\"SocialMediaInfo\"]},{\"step\":2,\"task\":\"Retrieve revenue data for the identified companies to correlate with social media metrics.\",\"table\":[\"CompanyInfo\"]},{\"step\":3,\"task\":\"Analyze the relationship between engagement metrics (likes, comments) and revenue growth to determine impact.\",\"table\":[\"CompanyFacebookDetail\",\"CompanyTwitterDetail\",\"CompanyInstagramDetail\",\"CompanyYoutubeDetail\"]}]"
+}

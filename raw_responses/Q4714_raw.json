@@ -1,0 +1,4 @@
+{
+  "question": "What are the current hiring trends in the technology sector, particularly regarding the roles companies are targeting and the skills they are seeking?",
+  "subtasks": "[{\"step\":1,\"task\":\"Identify companies in the technology sector and their active hiring initiatives.\",\"table\":[\"CompanyHiringDetail\",\"CompanyInfo\"]},{\"step\":2,\"task\":\"Analyze the roles and designations being targeted by technology companies through hiring initiatives.\",\"table\":[\"CompanyHiringDetail\"]},{\"step\":3,\"task\":\"Examine the detailed skill requirements specified in the company's hiring initiatives to understand the focus areas for talent acquisition.\",\"table\":[\"CompanyHiringDetail\"]},{\"step\":4,\"task\":\"Summarize the findings into key themes and trends around the sought roles and skills in the technology sector.\",\"table\":[\"CompanyHiringDetail\"]}]}"
+}

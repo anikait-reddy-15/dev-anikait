@@ -1,0 +1,26 @@
+{
+  "question": "What are the current IT budgets and revenue figures for companies in the technology sector?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify all technology sector companies from the CompanyInfo table along with their IT budgets and revenue figures.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Filter the companies identified in step 1 to include only those that are currently active.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Retrieve and summarize the IT budgets and revenue figures of the active technology companies to analyze their financial status.",
+      "table": [
+        "CompanyInfo"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "question": "What are the current technology and IT partnership trends for companies in the healthcare industry?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify all companies operating in the healthcare industry and retrieve their core information such as revenue, net income, and active IT budgets.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Compile a list of all technology focus areas for the identified healthcare companies to understand their strategic IT initiatives and priorities.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Extract data on IT partnerships and vendor relationships for these healthcare companies, including deal values and technological collaborations.",
+      "table": [
+        "CompanyITPartnerDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Analyze social media presence and engagement metrics of the identified healthcare companies to gauge their public outreach and digital marketing effectiveness.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyInstagramDetail",
+        "CompanyTwitterDetail",
+        "CompanyYoutubeDetail"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Review emerging IT trends specific to the healthcare industry, capturing data that reflects technological adoption such as AI, IoT, or telehealth services.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    }
+  ]
+}

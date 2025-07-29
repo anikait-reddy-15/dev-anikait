@@ -1,0 +1,4 @@
+{
+  "question": "What are the recent trends in technology investments among companies across different industries?",
+  "subtasks": "[{\"step\":1,\"task\":\"Identify the key companies and their respective industries to analyze\",\"table\":[\"CompanyInfo\"]},{\"step\":2,\"task\":\"Gather data on the recent technology focus areas and IT budgets of these companies\",\"table\":[\"CompanyFocusAreaDetail\",\"CompanyInfo\"]},{\"step\":3,\"task\":\"Analyze the emerging IT trends relevant to various industries and correlate them with the companies' tech investments\",\"table\":[\"IndustryITTrend\",\"CompanyFocusAreaDetail\"]},{\"step\":4,\"task\":\"Compile summarized insights on technology investments and trends across identified industries\",\"table\":[\"IndustryBusinessTrend\",\"CompanyFocusAreaDetail\"]}]}"
+}

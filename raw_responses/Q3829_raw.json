@@ -1,0 +1,4 @@
+{
+  "question": "What are the technology adoption trends among companies in the 'Finance' industry?",
+  "subtasks": "[{'step': 1, 'task': 'Identify all companies operating in the Finance industry from the CompanyInfo table.', 'table': ['CompanyInfo']},{'step': 2, 'task': 'Gather technology usage records for the identified companies from the CompanyTechStack table.', 'table': ['CompanyTechStack']},{'step': 3, 'task': 'Analyze and summarize the different types of technologies adopted by the companies in the Finance industry.', 'table': ['CompanyTechStack']},{'step': 4, 'task': 'Determine the impact of the adopted technologies on company performance by comparing financial metrics from the CompanyInfo table.', 'table': ['CompanyInfo']},{'step': 5, 'task': 'Cross-reference findings with industry-level technology trends from the IndustryITTrend table to understand broader adoption patterns.', 'table': ['IndustryITTrend']}]"
+}

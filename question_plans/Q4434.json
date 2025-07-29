@@ -1,0 +1,42 @@
+{
+  "question": "What are the current social media engagement metrics of tech companies in the cloud services industry?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Retrieve a list of tech companies operating in the cloud services industry along with their identifiers and engagement metrics.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Gather Facebook engagement details including likes, comments, and shares for the identified companies.",
+      "table": [
+        "CompanyFacebookDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Collect Instagram engagement metrics such as likes and comments for the chosen companies in the cloud services sector.",
+      "table": [
+        "CompanyInstagramDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Extract Twitter engagement data including retweets and likes for the identified tech companies in cloud services.",
+      "table": [
+        "CompanyTwitterDetail"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Integrate the engagement metrics from all platforms to create a comprehensive report of social media interactions for cloud services companies.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyInstagramDetail",
+        "CompanyTwitterDetail"
+      ]
+    }
+  ]
+}

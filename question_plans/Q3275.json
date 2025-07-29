@@ -1,0 +1,33 @@
+{
+  "question": "Identify the top 5 companies in the technology sector based on their revenue and market capitalization.",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Retrieve the companies operating in the technology sector from the CompanyInfo table.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Filter the companies to select relevant columns, namely Id, Name, Revenue, and MarketCapitalization.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Sort the filtered companies by Revenue and MarketCapitalization in descending order to find the top 5 companies.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Aggregate and present the top 5 companies along with their revenue and market capitalization details.",
+      "table": [
+        "CompanyInfo"
+      ]
+    }
+  ]
+}

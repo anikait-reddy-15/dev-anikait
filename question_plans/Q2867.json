@@ -1,0 +1,44 @@
+{
+  "question": "What are the current hiring trends and technological focuses in companies across different industries?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Gather information about active hiring initiatives of companies across different industries to analyze trends in job roles and sectors being targeted for recruitment.",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Identify the strategic technology focus areas of these companies to understand their technological priorities and areas of innovation they are investing in.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Combine the hiring initiatives data with the technology focus areas data to correlate hiring trends with technological investments in specific industries.",
+      "table": [
+        "CompanyHiringDetail",
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Analyze hiring details by geographic location to detect regional trends in recruitment for technological roles, highlighting the cities or regions most active in hiring.",
+      "table": [
+        "CompanyHiringDetail",
+        "CompanyDataCenter"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Summarize insights regarding industry-specific hiring and technology focus trends to provide a comprehensive overview for stakeholders.",
+      "table": [
+        "CompanyHiringDetail",
+        "CompanyFocusAreaDetail",
+        "IndustryBusinessTrend"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+{
+  "question": "What are the current IT partnerships and technology initiatives of companies in the healthcare industry?",
+  "subtasks": "[{'step': 1, 'task': 'Identify all companies operating in the healthcare industry from the CompanyInfo table.', 'table': ['CompanyInfo']}, {'step': 2, 'task': 'Extract details of active IT partnerships for each identified company from the CompanyITPartnerDetail table.', 'table': ['CompanyITPartnerDetail']}, {'step': 3, 'task': 'Gather information on technology focus areas of the identified companies from the CompanyFocusAreaDetail table.', 'table': ['CompanyFocusAreaDetail']}, {'step': 4, 'task': 'Combine the data from the previous steps to summarize current IT partnerships and technology initiatives for healthcare companies.', 'table': ['CompanyInfo', 'CompanyITPartnerDetail', 'CompanyFocusAreaDetail']}]}"
+}

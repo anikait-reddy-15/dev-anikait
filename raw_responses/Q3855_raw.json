@@ -1,0 +1,4 @@
+{
+  "question": "What are the current technology adoption trends among companies in the healthcare industry?",
+  "subtasks": "[{'step': 1, 'task': 'Identify companies operating in the healthcare industry.', 'table': ['CompanyInfo']}, {'step': 2, 'task': 'Gather data on technology focus areas related to healthcare from the CompanyFocusAreaDetail table.', 'table': ['CompanyFocusAreaDetail']}, {'step': 3, 'task': 'Analyze vendor technology details adopted by healthcare companies from the CompanyVendorTechDetail.','table': ['CompanyVendorTechDetail']}, {'step': 4, 'task': 'Compile social media engagement metrics of healthcare companies to understand their digital presence.', 'table': ['CompanyFacebookDetail', 'CompanyTwitterDetail', 'CompanyInstagramDetail', 'CompanyYoutubeDetail']}, {'step': 5, 'task': 'Summarize findings into actionable insights on technology trends in the healthcare industry.', 'table': []}]}"
+}

@@ -1,0 +1,31 @@
+{
+  "question": "What are the current technology focus areas and associated IT partnerships of major companies in the finance industry?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify all companies within the finance industry by querying the CompanyInfo table for companies with the Industry column set to 'Finance'.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Retrieve the technology focus areas of the identified companies by joining the result from step 1 with the CompanyFocusAreaDetail table based on CompanyInfoId.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Fetch the IT partnerships associated with the identified finance companies by querying the CompanyITPartnerDetail table, using the CompanyInfoId from step 1 as the link.",
+      "table": [
+        "CompanyITPartnerDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Combine the results from steps 2 and 3 for a comprehensive view of technology focus areas and IT partnerships for the finance industry companies.",
+      "table": []
+    }
+  ]
+}

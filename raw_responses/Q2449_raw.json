@@ -1,0 +1,4 @@
+{
+  "question": "What are the technology areas where companies are currently investing, and how does that relate to their market performance?",
+  "subtasks": "[{\"step\":1,\"task\":\"Gather data on companies' strategic technology focus areas and initiatives, including investments and partnerships.\",\"table\":[\"CompanyFocusAreaDetail\"]},{\"step\":2,\"task\":\"Collect financial performance metrics such as revenue and net income from the CompanyInfo table to evaluate market performance.\",\"table\":[\"CompanyInfo\"]},{\"step\":3,\"task\":\"Analyze the relationship between the technology focus areas and financial metrics to determine if there's a correlation between technology investments and market performance.\",\"table\":[\"CompanyFocusAreaDetail\",\"CompanyInfo\"]}]"
+}

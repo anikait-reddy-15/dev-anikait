@@ -1,0 +1,38 @@
+{
+  "question": "Analyze the social media engagement strategies of leading technology companies in the banking sector.",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify the leading technology companies operating in the banking sector and extract their profiles including key metrics such as revenue and industry classification.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Gather detailed social media engagement data for the identified companies from various platforms including Facebook, Twitter, LinkedIn, and Instagram.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyTwitterDetail",
+        "CompanyInstagramDetail",
+        "CompanyLinkedInProfile"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze engagement metrics (likes, comments, shares) from the social media data to evaluate the effectiveness of their strategies.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyTwitterDetail",
+        "CompanyInstagramDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Compile findings into a report that discusses strengths, weaknesses, and opportunities in the social media strategies of these companies.",
+      "table": [
+        "SocialMediaInfo"
+      ]
+    }
+  ]
+}

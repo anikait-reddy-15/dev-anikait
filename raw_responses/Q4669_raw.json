@@ -1,0 +1,4 @@
+{
+  "question": "What are the current strategic technology focus areas for companies across different industries?",
+  "subtasks": "[{\"step\":1,\"task\":\"Identify companies and their corresponding industries from the CompanyInfo table.\",\"table\":[\"CompanyInfo\"]},{\"step\":2,\"task\":\"Extract strategic technology focus areas for each identified company from the CompanyFocusAreaDetail table.\",\"table\":[\"CompanyFocusAreaDetail\"]},{\"step\":3,\"task\":\"Compile a list of current focus areas and associate them with their respective industries to understand the technological landscape.\",\"table\":[\"CompanyFocusAreaDetail\",\"CompanyInfo\"]},{\"step\":4,\"task\":\"Summarize the findings into a report detailing the strategic technology focus areas segmented by industry.\",\"table\":[\"CompanyFocusAreaDetail\",\"CompanyInfo\"]}]}"
+}

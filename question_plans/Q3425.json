@@ -1,0 +1,33 @@
+{
+  "question": "What are the current IT budget allocations and financial performance metrics for companies in the technology industry?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Retrieve a list of companies in the technology industry along with their IT budget allocations and financial metrics such as revenue, net income, and market capitalization.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Filter the data to include only active companies and sort them by IT budget allocations to identify the top spenders in technology.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Compile financial performance metrics to analyze the correlation between IT budget allocations and financial success, specifically focusing on revenue and net income.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Create a summary report that highlights key findings regarding IT budget allocation trends within the technology sector, including averages and medians.",
+      "table": [
+        "CompanyInfo"
+      ]
+    }
+  ]
+}

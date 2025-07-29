@@ -1,0 +1,4 @@
+{
+  "question": "What are the latest hiring trends across the technology industry for 2023?",
+  "subtasks": "[{\"step\":1,\"task\":\"Identify the technology companies active in 2023.\",\"table\":[\"CompanyInfo\"]},{\"step\":2,\"task\":\"Retrieve active hiring initiatives from the CompanyHiringDetail table related to technology roles for 2023.\",\"table\":[\"CompanyHiringDetail\"]},{\"step\":3,\"task\":\"Analyze the collected hiring data to determine trends in job roles, skills, and geographic locations being targeted.\",\"table\":[\"CompanyHiringDetail\"]},{\"step\":4,\"task\":\"Compile findings into a report that summarizes hiring trends for tech companies in 2023.\",\"table\":[\"CompanyInfo\",\"CompanyHiringDetail\"]}]}"
+}

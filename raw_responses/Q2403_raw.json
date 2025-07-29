@@ -1,0 +1,4 @@
+{
+  "question": "What are the strategic IT focus areas of our company and how do they align with industry trends?",
+  "subtasks": "[{\"step\":1,\"task\":\"Identify the company's IT focus areas by retrieving records from the CompanyFocusAreaDetail table for the respective company.\",\"table\":[\"CompanyFocusAreaDetail\"]},{\"step\":2,\"task\":\"Extract emerging IT trends relevant to the industry by querying the IndustryITTrend table for trends that align with the identified focus areas.\",\"table\":[\"IndustryITTrend\"]},{\"step\":3,\"task\":\"Combine the focus areas from the CompanyFocusAreaDetail with the corresponding trends from the IndustryITTrend to evaluate alignment and strategic direction.\",\"table\":[\"CompanyFocusAreaDetail\",\"IndustryITTrend\"]}]"
+}

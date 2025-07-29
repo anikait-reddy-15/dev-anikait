@@ -1,0 +1,35 @@
+{
+  "question": "What are the recent trends in technology adoption across various industries, and how are companies responding through their IT focus areas?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Analyze the emerging IT trends by industry to identify key technology focus areas and shifts across sectors.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Examine strategic technology focus areas of companies to understand their initiatives and responses to emerging IT trends.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Cross-reference the technology trends with company focus areas to highlight specific examples of technology adoption and innovations.",
+      "table": [
+        "IndustryITTrend",
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Aggregate the findings to summarize the overall response patterns of companies concerning industry trends and technology advancements.",
+      "table": [
+        "IndustryITTrend",
+        "CompanyFocusAreaDetail"
+      ]
+    }
+  ]
+}

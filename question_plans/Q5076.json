@@ -1,0 +1,38 @@
+{
+  "question": "What are the latest technology trends adopted by companies in the IT industry?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies in the IT industry by filtering for the relevant industry type from the CompanyInfo table.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Gather detailed records of technology services provided to the identified companies from the CompanyVendorTechDetail table.",
+      "table": [
+        "CompanyVendorTechDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Review and analyze emerging IT trends from the IndustryITTrend table related to the identified companies.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Compile data on companies' strategic technology focus areas by assessing information from the CompanyFocusAreaDetail table.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Synthesize the findings to outline the latest technology trends and focus areas in a report format.",
+      "table": []
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "question": "Analyze technology adoption trends across different industries using social media engagement data.",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify the relevant industries to be analyzed based on current technology trends.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Gather technology-related social media engagement data for companies operating within the identified industries.",
+      "table": [
+        "SocialMediaInfo",
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Compile recent posts and engagement metrics from social media platforms associated with these companies to assess their technology focus and public sentiment.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyTwitterDetail",
+        "CompanyInstagramDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Analyze the collected data to identify patterns in technology adoption across the different industries.",
+      "table": [
+        "CompanyTechStack",
+        "CompanyVendorProductDetail"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Create a report summarizing the findings, highlighting key technology trends and social media engagement comparisons between industries.",
+      "table": [
+        "SectionData",
+        "PageInfo"
+      ]
+    }
+  ]
+}

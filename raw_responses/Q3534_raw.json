@@ -1,0 +1,4 @@
+{
+  "question": "What are the current trends in IT that companies are focusing on, and what technologies are they adopting?",
+  "subtasks": "[{'step': 1, 'task': 'Identify and list current IT trends across various industries.', 'table': ['IndustryITTrend']}, {'step': 2, 'task': 'Aggregate data on technology adoption by companies linked to identified IT trends.', 'table': ['CompanyTechStack', 'CompanyVendorTechDetail']}, {'step': 3, 'task': 'Evaluate the impact of technology adoption on companies by analyzing metrics like revenue and net income.', 'table': ['CompanyInfo']}, {'step': 4, 'task': 'Compile findings into a report detailing technology trends and company strategies.', 'table': ['SectionData', 'CompanyInfo']}]}"
+}

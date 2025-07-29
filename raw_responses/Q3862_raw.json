@@ -1,0 +1,4 @@
+{
+  "question": "What are the current IT focus areas and financial metrics of the leading companies in the technology industry?",
+  "subtasks": "[{\"step\":1,\"task\":\"Identify the leading companies in the technology industry based on their market capitalization and revenue.\",\"table\":[\"CompanyInfo\"]},{\"step\":2,\"task\":\"Gather the current IT focus areas for the identified leading companies to understand their strategic priorities.\",\"table\":[\"CompanyFocusAreaDetail\"]},{\"step\":3,\"task\":\"Extract financial metrics such as IT budget, revenue, and net income for these companies to analyze their financial strength.\",\"table\":[\"CompanyInfo\"]},{\"step\":4,\"task\":\"Compile all the gathered data into a report format for easy analysis and presentation.\",\"table\":[\"CompanyInfo\",\"CompanyFocusAreaDetail\"]}]}"
+}

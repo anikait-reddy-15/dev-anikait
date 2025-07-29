@@ -1,0 +1,48 @@
+{
+  "question": "What are the recent hiring trends in the technology industry based on companies' social media presence and IT focus areas?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify and extract companies operating within the technology industry from the CompanyInfo table.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Gather social media engagement metrics for the identified technology companies from the CompanyFacebookDetail, CompanyInstagramDetail, CompanyTwitterDetail, and CompanyYoutubeDetail tables.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyInstagramDetail",
+        "CompanyTwitterDetail",
+        "CompanyYoutubeDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze hiring details from the CompanyHiringDetail table for the retrieved technology companies to observe hiring trends and roles being actively recruited.",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Compare and correlate the hiring data with the IT focus areas from the CompanyFocusAreaDetail table to understand the skills and technologies in demand.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Compile findings into a summary report highlighting the trends in hiring and social media engagement within the technology sector.",
+      "table": [
+        "CompanyHiringDetail",
+        "CompanyFacebookDetail",
+        "CompanyInstagramDetail",
+        "CompanyTwitterDetail",
+        "CompanyYoutubeDetail",
+        "CompanyFocusAreaDetail"
+      ]
+    }
+  ]
+}

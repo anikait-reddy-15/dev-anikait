@@ -1,0 +1,4 @@
+{
+  "question": "What are the current hiring trends and requirements in the technology sector across different companies?",
+  "subtasks": "[{\"step\":1,\"task\":\"Identify technology companies currently active in the market.\",\"table\":[\"CompanyInfo\"]},{\"step\":2,\"task\":\"Retrieve current job openings and their requirements from technology companies.\",\"table\":[\"CompanyHiringDetail\"]},{\"step\":3,\"task\":\"Analyze the geographical distribution of job openings by city and state.\",\"table\":[\"CompanyHiringDetail\",\"CompanyDataCenter\"]},{\"step\":4,\"task\":\"Examine the specific technologies and skills being sought in current job postings.\",\"table\":[\"CompanyHiringDetail\",\"CompanyTechStack\"]},{\"step\":5,\"task\":\"Compile a report providing insights into job trends, demand for skills, and geographic hiring patterns.\",\"table\":[\"CompanyHiringDetail\",\"CompanyInfo\"]}]}"
+}

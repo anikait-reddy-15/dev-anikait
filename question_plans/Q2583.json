@@ -1,0 +1,44 @@
+{
+  "question": "What are the current technology trends being adopted by companies in the financial services industry?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify the companies that operate in the financial services industry and gather their core information such as revenue and IT budget.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Examine the current technology focus areas for the identified financial services companies to see which technologies they are investing in or adopting based on their strategic goals.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze vendor and product details related to the technologies being used by these companies to understand the specific tools and platforms being integrated into their operations.",
+      "table": [
+        "CompanyVendorProductDetail",
+        "CompanyVendorTechDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Review the latest social media and public communications from these companies to gather insights on their marketing strategies and technology narrative.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyTwitterDetail",
+        "CompanyInstagramDetail"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Compile a report summarizing the technology trends, key partners, and overall strategic direction found in the previous analysis steps for the financial services sector.",
+      "table": [
+        "SectionData",
+        "SectionInfo"
+      ]
+    }
+  ]
+}

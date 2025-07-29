@@ -1,0 +1,4 @@
+{
+  "question": "What are the current hiring trends in the tech industry for companies involved in digital transformation?",
+  "subtasks": "[{\"step\":1,\"task\":\"Identify and filter companies in the tech industry that are focused on digital transformation initiatives.\",\"table\":[\"CompanyInfo\",\"CompanyFocusAreaDetail\"]},{\"step\":2,\"task\":\"Gather information about active hiring initiatives from the identified companies, including job titles and skills required.\",\"table\":[\"CompanyHiringDetail\"]},{\"step\":3,\"task\":\"Analyze the geographic distribution of these hiring initiatives to understand regional trends in tech hiring.\",\"table\":[\"CompanyHiringDetail\"]},{\"step\":4,\"task\":\"Compile and summarize the data to find patterns in terms of designations and skills that are being prioritized by companies in the digital transformation space.\",\"table\":[\"CompanyHiringDetail\",\"CompanyInfo\"]}]"
+}

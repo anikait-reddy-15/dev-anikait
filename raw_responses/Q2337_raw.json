@@ -1,0 +1,4 @@
+{
+  "question": "What are the current technology focus areas and partnerships of companies in the software industry?",
+  "subtasks": "[{'step': 1, 'task': 'Identify all companies in the software industry by filtering the CompanyInfo table based on the Industry column.', 'table': ['CompanyInfo']}, {'step': 2, 'task': 'Gather technology focus areas related to the identified software companies by joining CompanyFocusAreaDetail with CompanyInfo using CompanyInfoId.', 'table': ['CompanyFocusAreaDetail', 'CompanyInfo']}, {'step': 3, 'task': 'List all active IT partners of the identified software companies by joining CompanyITPartnerDetail with CompanyInfo using CompanyInfoId.', 'table': ['CompanyITPartnerDetail', 'CompanyInfo']}, {'step': 4, 'task': 'Aggregate the technology focus areas and partnerships to analyze trends in technology investments and collaborative strategies.', 'table': ['CompanyFocusAreaDetail', 'CompanyITPartnerDetail']}]}"
+}

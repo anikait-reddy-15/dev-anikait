@@ -1,0 +1,45 @@
+{
+  "question": "What are the current trends in technology adoption for leading companies across different industries?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify leading companies in various industries based on market capitalization or revenue.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Gather data on technology adoption trends for these companies, focusing on technologies such as AI, IoT, and blockchain.",
+      "table": [
+        "CompanyTechStack",
+        "CompanyVendorTechDetail",
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the financial performance (revenue and net income) of these companies to see if there's a correlation between technology adoption and financial growth.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Compile insights on strategic focus areas and technology investments of these companies to identify overarching industry trends.",
+      "table": [
+        "CompanyFocusAreaDetail",
+        "CompanyITPartnerDetail",
+        "IndustryBusinessTrend"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Summarize findings and prepare a report on technology adoption trends observed across the analyzed companies.",
+      "table": [
+        "PageInfo",
+        "SectionData"
+      ]
+    }
+  ]
+}

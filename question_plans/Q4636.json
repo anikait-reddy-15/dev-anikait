@@ -1,0 +1,32 @@
+{
+  "question": "What are the recent hiring trends in technology companies by geographic region?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify technology companies from the CompanyInfo table that are currently active.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract hiring data related to technology roles from the CompanyHiringDetail table, ensuring to filter by active status and technology domain.",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Join the active CompanyHiringDetail records with geographical identifiers from the CompanyInfo table to evaluate trends by region.",
+      "table": [
+        "CompanyHiringDetail",
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Aggregate and analyze the data to present hiring trends based on regions, including number of roles posted over a specified period.",
+      "table": []
+    }
+  ]
+}

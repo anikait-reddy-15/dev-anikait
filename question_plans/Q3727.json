@@ -1,0 +1,36 @@
+{
+  "question": "What are the current technology trends each company is adopting in our industry?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify the industries relevant to our analysis from the IndustryITTrend table.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Retrieve the list of companies linked to each industry and their associated technological focuses from the CompanyFocusAreaDetail and CompanyInfo tables.",
+      "table": [
+        "CompanyFocusAreaDetail",
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the gathered data to determine the emerging technology trends each identified company is adopting in the IndustryITTrend table.",
+      "table": [
+        "IndustryITTrend",
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Summarize and categorize the technology trends per industry, making sure to highlight any significant patterns or insights.",
+      "table": [
+        "IndustryITTrend",
+        "CompanyFocusAreaDetail"
+      ]
+    }
+  ]
+}

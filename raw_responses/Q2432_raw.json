@@ -1,0 +1,4 @@
+{
+  "question": "How can we analyze the hiring trends of technology companies across different geographical locations over the last year?",
+  "subtasks": "[{\"step\":1,\"task\":\"Identify and extract hiring initiatives data for technology companies from the last year.\",\"table\":[\"CompanyHiringDetail\"]},{\"step\":2,\"task\":\"Filter the hiring data by geographical locations to group the companies based on their city identifiers and regions.\",\"table\":[\"CompanyHiringDetail\",\"CompanyDataCenter\"]},{\"step\":3,\"task\":\"Analyze the trends by mapping the hiring roles and domains to specific technology sectors and geographical regions.\",\"table\":[\"CompanyHiringDetail\",\"CompanyDataCenter\",\"CompanyInfo\"]},{\"step\":4,\"task\":\"Aggregate insights on skill demand trends by analyzing the details linked to the specific job roles in the hiring data.\",\"table\":[\"CompanyHiringDetail\"]}]"
+}

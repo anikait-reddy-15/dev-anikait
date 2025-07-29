@@ -1,0 +1,33 @@
+{
+  "question": "Identify key social media engagement metrics for technology companies in the healthcare sector.",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Retrieve a list of technology companies operating in the healthcare sector along with their basic metadata such as name and industry.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Gather social media engagement data for the identified healthcare technology companies from their respective social media profiles on Facebook, Instagram, Twitter, and YouTube.",
+      "table": [
+        "SocialMediaInfo",
+        "CompanyFacebookDetail",
+        "CompanyInstagramDetail",
+        "CompanyTwitterDetail",
+        "CompanyYoutubeDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Compile and analyze the engagement metrics such as likes, comments, and engagement rates to identify trends in social media performance across companies.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyInstagramDetail",
+        "CompanyTwitterDetail",
+        "CompanyYoutubeDetail"
+      ]
+    }
+  ]
+}

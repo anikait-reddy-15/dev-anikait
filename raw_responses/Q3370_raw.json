@@ -1,0 +1,4 @@
+{
+  "question": "What are the key technology trends for companies in the healthcare industry over the last year?",
+  "subtasks": "[{\"step\":1,\"task\":\"Identify all companies in the healthcare industry\",\"table\":[\"CompanyInfo\"]},{\"step\":2,\"task\":\"Gather IT trends relevant to the healthcare industry from the IndustryITTrend table\",\"table\":[\"IndustryITTrend\"]},{\"step\":3,\"task\":\"Analyze contract data from CompanyDealMaster related to healthcare technology services for the last year\",\"table\":[\"CompanyDealMaster\"]},{\"step\":4,\"task\":\"Extract hiring trends in technology roles from CompanyHiringDetail for healthcare companies\",\"table\":[\"CompanyHiringDetail\"]}]"
+}

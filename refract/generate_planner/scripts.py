@@ -169,7 +169,7 @@ if __name__ == "__main__":
 
     prompt_template = build_prompt_with_metadata(table_metadata)
 
-    start_index = 1851
+    start_index = 5017
     os.makedirs(OUTPUT_DIR, exist_ok=True)
 
     for i, question in enumerate(questions["questions"], start=start_index):

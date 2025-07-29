@@ -1,0 +1,40 @@
+{
+  "question": "What are the latest industry IT trends affecting technology adoption across companies?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify the key industry types relevant to technology adoption trends.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract recent entries from the IndustryITTrend table that highlight emerging IT trends and their focus areas.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the specific technology focus areas mentioned in the trends to understand the impact on companies' technology adoption strategies.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Correlate the identified trends with company-level technology stacks to see which companies are adapting to these trends.",
+      "table": [
+        "CompanyTechStack"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Compile a report summarizing the identified trends and the companies that are aligning with these trends in their technology strategies.",
+      "table": [
+        "CompanyInfo"
+      ]
+    }
+  ]
+}

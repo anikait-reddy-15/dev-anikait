@@ -1,0 +1,36 @@
+{
+  "question": "What are the emerging IT trends within the industry and how are they affecting company strategies?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify the list of emerging IT trends from the IndustryITTrend table.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Gather data about specific companies that are adopting these trends by linking them to their respective industries in the CompanyInfo table.",
+      "table": [
+        "CompanyInfo",
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze how these trends are reflected in the strategic focus areas of individual companies using the CompanyFocusAreaDetail table.",
+      "table": [
+        "CompanyFocusAreaDetail",
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Assess the impact of emerging IT trends on specific service contracts or technologies being adopted as indicated in the CompanyDealMaster and CompanyVendorTechDetail tables.",
+      "table": [
+        "CompanyDealMaster",
+        "CompanyVendorTechDetail"
+      ]
+    }
+  ]
+}

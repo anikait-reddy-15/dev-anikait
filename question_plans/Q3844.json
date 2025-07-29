@@ -1,0 +1,40 @@
+{
+  "question": "Analyze the digital presence and social media engagement of companies in the technology sector.",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies in the technology sector from the CompanyInfo table, filtering by the Industry column.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Gather social media engagement metrics from the SocialMediaInfo table for the identified technology companies.",
+      "table": [
+        "SocialMediaInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Extract Facebook engagement details from the CompanyFacebookDetail table for the technology companies to analyze interactions.",
+      "table": [
+        "CompanyFacebookDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Pull Instagram engagement details from the CompanyInstagramDetail table to evaluate visual content impact and audience interaction.",
+      "table": [
+        "CompanyInstagramDetail"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Collect Twitter engagement data from the CompanyTwitterDetail table to assess public sentiment and trends for the technology companies.",
+      "table": [
+        "CompanyTwitterDetail"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "question": "Analyze the social media engagement of companies in the technology sector for the year 2023.",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies active in the technology sector and collect their basic information such as name and active status.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Retrieve social media engagement data (likes, comments, engagement rates) for each identified company from relevant social media detail tables such as Facebook, Twitter, Instagram, and YouTube.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyTwitterDetail",
+        "CompanyInstagramDetail",
+        "CompanyYoutubeDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Aggregate the engagement metrics by company to summarize overall social media activity per company for 2023.",
+      "table": [
+        "CompanyInfo",
+        "CompanyFacebookDetail",
+        "CompanyTwitterDetail",
+        "CompanyInstagramDetail",
+        "CompanyYoutubeDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Analyze trends in social media engagement across the technology sector, focusing on key metrics such as increases or decreases in engagement rates compared to the last year.",
+      "table": [
+        "CompanyInfo",
+        "CompanyFacebookDetail",
+        "CompanyTwitterDetail",
+        "CompanyInstagramDetail",
+        "CompanyYoutubeDetail"
+      ]
+    }
+  ]
+}

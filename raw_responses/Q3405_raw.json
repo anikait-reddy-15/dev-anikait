@@ -1,0 +1,4 @@
+{
+  "question": "What are the strategic technology focus areas of companies in the IT industry, and how are they represented in their hiring initiatives?",
+  "subtasks": "[{'step': 1, 'task': 'Identify all companies operating in the IT industry.', 'table': ['CompanyInfo']}, {'step': 2, 'task': 'Gather the strategic technology focus areas for each identified IT company.', 'table': ['CompanyFocusAreaDetail']}, {'step': 3, 'task': 'Analyze current hiring initiatives of these companies, focusing on technology-related roles.', 'table': ['CompanyHiringDetail']}, {'step': 4, 'task': 'Compile a report linking technology focus areas with corresponding hiring initiatives.', 'table': []}]"
+}

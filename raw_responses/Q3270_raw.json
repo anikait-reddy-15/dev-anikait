@@ -1,0 +1,4 @@
+{
+  "question": "What are the current hiring trends in the IT industry based on the companies in our database?",
+  "subtasks": "[{'step': 1, 'task': 'Identify companies within the IT industry from the CompanyInfo table, noting their hiring statuses.', 'table': ['CompanyInfo']}, {'step': 2, 'task': 'Extract active hiring initiatives from the CompanyHiringDetail table, linking them to their respective companies.', 'table': ['CompanyHiringDetail']}, {'step': 3, 'task': 'Analyze the extracted hiring data to determine trends in job titles and skill requirements across the IT sector.', 'table': ['CompanyHiringDetail']}, {'step': 4, 'task': 'Summarize the findings of job roles and demand trends in a report format, highlighting key insights.', 'table': ['CompanyHiringDetail', 'CompanyInfo']}]"
+}

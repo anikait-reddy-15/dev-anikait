@@ -1,0 +1,26 @@
+{
+  "question": "What are the current technology focus areas and their corresponding leadership messages for companies in the finance industry?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies operating in the finance industry by filtering the CompanyInfo table based on the 'Industry' column.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "For the identified companies, retrieve their technology focus areas from the CompanyFocusAreaDetail table to understand their strategic IT initiatives.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Fetch associated leadership excerpts for the technology focus areas from the CompanyLeadershipExcerpt table to gain insights into executive perspectives on these technologies.",
+      "table": [
+        "CompanyLeadershipExcerpt"
+      ]
+    }
+  ]
+}

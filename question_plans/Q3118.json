@@ -1,0 +1,42 @@
+{
+  "question": "How can we analyze the impact of technology adoption on company revenue and employee growth across different industries?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify and extract company data along with their revenue and employee count from the CompanyInfo table.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Compile a list of technologies adopted by companies from the CompanyTechStack table to correlate with revenue and employee data.",
+      "table": [
+        "CompanyTechStack"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Gather industry information to categorize the data by industry from the CompanyInfo table to observe trends.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Analyze the relationship between technology adoption, revenue growth, and employee growth by joining CompanyInfo and CompanyTechStack data on CompanyInfoId.",
+      "table": [
+        "CompanyInfo",
+        "CompanyTechStack"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Generate a report that summarizes the findings, highlighting industries and technologies that correlate with substantial revenue and employee growth.",
+      "table": [
+        "CompanyInfo",
+        "CompanyTechStack"
+      ]
+    }
+  ]
+}

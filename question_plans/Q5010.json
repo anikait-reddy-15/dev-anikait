@@ -1,0 +1,33 @@
+{
+  "question": "What are the key technology focus areas and hiring initiatives of the top IT companies in the cloud computing industry?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify the companies operating in the cloud computing industry and list their details such as revenue and market capitalization.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Gather the strategic technology focus areas for the identified companies to understand their investment and innovation priorities in cloud computing.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Compile the active hiring initiatives from the identified companies, focusing on job titles, domains, and skill requirements relevant to cloud computing.",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Analyze the technology adoption trends among these companies by examining their tech stack to see which other tools and platforms are being utilized alongside cloud technologies.",
+      "table": [
+        "CompanyTechStack"
+      ]
+    }
+  ]
+}

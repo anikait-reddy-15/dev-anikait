@@ -1,0 +1,28 @@
+{
+  "question": "What are the key technology focus areas and social media strategies of the top 10 companies in the technology industry?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify the top 10 companies in the technology industry based on their revenue or market capitalization.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract the technology focus areas for these top 10 companies from the CompanyFocusAreaDetail table.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Gather social media engagement metrics (e.g., likes, comments) for these companies from their Facebook, Instagram, and Twitter profiles.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyInstagramDetail",
+        "CompanyTwitterDetail"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "question": "What are the current hiring trends among companies in the technology sector, and how do these trends correlate with their financial performance?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify technology companies and their hiring details including active job postings and related descriptions.",
+      "table": [
+        "CompanyHiringDetail",
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Collect financial metrics of identified technology companies including revenue, net income, and IT budget to analyze their financial performance.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the correlation between the number of job postings in the technology sector and the financial metrics collected from the companies.",
+      "table": [
+        "CompanyHiringDetail",
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Summarize key hiring trends observed, categorizing them by job titles and technology focus areas within the technology sector.",
+      "table": [
+        "CompanyHiringDetail",
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Provide insights based on leadership statements or excerpts from company executives regarding the importance of hiring in relation to their financial strategies.",
+      "table": [
+        "CompanyLeadershipExcerpt"
+      ]
+    }
+  ]
+}

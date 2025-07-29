@@ -1,0 +1,4 @@
+{
+  "question": "Analyze the social media presence of companies in the technology industry.",
+  "subtasks": "[{\"step\":1,\"task\":\"Identify all companies operating in the technology industry and gather their profiles including their social media information.\",\"table\":[\"CompanyInfo\",\"CompanyFacebookDetail\",\"CompanyInstagramDetail\",\"CompanyTwitterDetail\",\"CompanyYoutubeDetail\"]},{\"step\":2,\"task\":\"Collect social media engagement metrics from each platform for the identified technology companies to understand their reach and audience interaction.\",\"table\":[\"SocialMediaInfo\"]},{\"step\":3,\"task\":\"Analyze the collected data to identify trends in social media presence, such as the most engaging platforms and types of content shared by technology companies.\",\"table\":[\"CompanyFacebookDetail\",\"CompanyInstagramDetail\",\"CompanyTwitterDetail\",\"CompanyYoutubeDetail\"]}]"
+}

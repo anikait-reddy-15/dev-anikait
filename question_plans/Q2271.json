@@ -1,0 +1,33 @@
+{
+  "question": "What are the current IT budget allocations and strategic focus areas of leading companies in the technology sector?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify leading companies in the technology sector based on revenue and market capitalization.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Retrieve the current IT budget allocations for the identified leading companies.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Examine the strategic technology focus areas of these companies to understand their priorities and initiatives.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Analyze the relationships between these companies and their IT partners to evaluate collaboration trends.",
+      "table": [
+        "CompanyITPartnerDetail"
+      ]
+    }
+  ]
+}

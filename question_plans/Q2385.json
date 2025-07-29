@@ -1,0 +1,33 @@
+{
+  "question": "Analyze the social media engagement and overall financial health of the top tech companies in the AI sector.",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify the top tech companies operating in the AI sector and retrieve their basic information including financial metrics such as Revenue, NetIncome, and MarketCapitalization.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Gather social media engagement data for the identified tech companies across platforms like Facebook, Twitter, Instagram, and YouTube, focusing on likes, comments, and overall engagement rates.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyTwitterDetail",
+        "CompanyInstagramDetail",
+        "CompanyYoutubeDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Correlate the social media engagement data with financial metrics to analyze trends in financial health relative to engagement performance.",
+      "table": [
+        "CompanyInfo",
+        "CompanyFacebookDetail",
+        "CompanyTwitterDetail",
+        "CompanyInstagramDetail",
+        "CompanyYoutubeDetail"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "question": "How can we analyze the social media engagement of companies across different platforms?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Collect engagement metrics from Facebook for each company such as likes, comments, and engagement rates.",
+      "table": [
+        "CompanyFacebookDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Gather engagement data from Instagram, including likes, comments, and post reach for each company.",
+      "table": [
+        "CompanyInstagramDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Compile Twitter engagement statistics, such as likes and retweets for company tweets.",
+      "table": [
+        "CompanyTwitterDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Analyze the combined social media presence across Facebook, Instagram, and Twitter to identify trends and compare engagement rates among different companies.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyInstagramDetail",
+        "CompanyTwitterDetail"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Extract overall insights on how active the companies are on social media based on the total counts and activity from each platform.",
+      "table": [
+        "SocialMediaInfo"
+      ]
+    }
+  ]
+}

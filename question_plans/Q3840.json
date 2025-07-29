@@ -1,0 +1,35 @@
+{
+  "question": "Identify the top companies in the technology sector with a strong social media presence and significant IT budgets.",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Query the CompanyInfo table to find companies categorized under the technology sector and filter those with an active status and significant IT budgets.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Join the filtered companies with the SocialMediaInfo table to retrieve their social media counts for platforms like Facebook, LinkedIn, Instagram, and Twitter.",
+      "table": [
+        "CompanyInfo",
+        "SocialMediaInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Aggregate the social media counts to identify companies with the highest engagement metrics and rank them accordingly.",
+      "table": [
+        "CompanyInfo",
+        "SocialMediaInfo"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Compile a list of the identified companies, including their names, social media engagements, and IT budget details for reporting.",
+      "table": [
+        "CompanyInfo"
+      ]
+    }
+  ]
+}

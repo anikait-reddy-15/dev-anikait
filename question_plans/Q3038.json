@@ -1,0 +1,39 @@
+{
+  "question": "What are the technology focus areas and social media presence of tech companies in the AI industry?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies operating in the AI industry and retrieve their details such as Name, Description, and IT Budget.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Gather the technology focus areas for each identified company to understand their strategic initiatives in AI.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Collect social media presence data including counts and engagement metrics from platforms such as Facebook, Twitter, and Instagram for the identified companies.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyTwitterDetail",
+        "CompanyInstagramDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Compile the data retrieved to create a comprehensive overview of the AI companies including their technology focus and social media engagement metrics.",
+      "table": [
+        "CompanyInfo",
+        "CompanyFocusAreaDetail",
+        "CompanyFacebookDetail",
+        "CompanyTwitterDetail",
+        "CompanyInstagramDetail"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "question": "What are the key social media metrics and engagement trends for the top five technology companies in the finance industry?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify the top five technology companies in the finance industry based on market capitalization or revenue.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Gather social media metrics for the identified companies, including data from Facebook, Twitter, Instagram, and LinkedIn.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyTwitterDetail",
+        "CompanyInstagramDetail",
+        "CompanyLinkedinActivity"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze engagement trends by comparing likes, shares, and interaction rates across different social media platforms for the identified companies.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyTwitterDetail",
+        "CompanyInstagramDetail",
+        "CompanyLinkedinActivity"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Compile a summary report of the findings, highlighting key engagement insights for each company.",
+      "table": [
+        "CompanyInfo",
+        "CompanyFacebookDetail",
+        "CompanyTwitterDetail",
+        "CompanyInstagramDetail",
+        "CompanyLinkedInActivity"
+      ]
+    }
+  ]
+}

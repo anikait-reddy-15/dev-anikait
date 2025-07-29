@@ -1,0 +1,31 @@
+{
+  "question": "What technology trends are companies in the healthcare industry focusing on?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify healthcare companies and their profiles from the CompanyInfo table",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Gather strategic technology focus areas for identified healthcare companies from the CompanyFocusAreaDetail table",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze emerging IT trends related to the healthcare industry from the IndustryITTrend table",
+      "table": [
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Combine findings to summarize the key technology trends and focus areas pertinent to healthcare companies",
+      "table": []
+    }
+  ]
+}

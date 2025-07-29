@@ -1,0 +1,31 @@
+{
+  "question": "What are the key technology focus areas and strategic initiatives for companies in the finance industry?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify all companies in the finance industry from the CompanyInfo table and extract their basic details such as Name, Id, and FoundedYear.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "For each identified company, fetch related technology focus areas from the CompanyFocusAreaDetail table to understand their strategic IT initiatives.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Gather insights from CompanyLeadershipExcerpt to find executive statements regarding technology adoption or strategic directions in the finance industry.",
+      "table": [
+        "CompanyLeadershipExcerpt"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Compile all gathered data into a structured format to analyze trends and common technology strategies across the finance industry companies.",
+      "table": []
+    }
+  ]
+}

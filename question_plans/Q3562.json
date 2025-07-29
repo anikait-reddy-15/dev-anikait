@@ -1,0 +1,34 @@
+{
+  "question": "What are the strategic technology focus areas for companies in the telecommunications industry?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify all companies operating in the telecommunications industry by querying the CompanyInfo table and filtering for the Industry column with a value related to telecommunications.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Gather the strategic technology focus areas for the identified telecommunications companies by relating the CompanyInfo table to the CompanyFocusAreaDetail table using the CompanyInfoId column.",
+      "table": [
+        "CompanyFocusAreaDetail",
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Compile and analyze the details of each company's strategic technology initiatives, including narratives on their IT investments, partnerships, and innovations in technologies such as digitalization or cloud computing.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Summarize the findings into a report that describes the technological directions and priorities of telecommunications companies, highlighting trends and common focus areas.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    }
+  ]
+}

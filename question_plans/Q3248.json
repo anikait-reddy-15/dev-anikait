@@ -1,0 +1,42 @@
+{
+  "question": "What are the current IT focus areas and technological investments of major companies within the cloud computing industry?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify all companies that operate within the cloud computing industry.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Gather details regarding the IT focus areas of these companies, particularly those related to cloud computing and any associated investments or initiatives.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Extract financial metrics, such as IT budget or revenue, for each identified company to understand their commitment to cloud computing.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Find any recent technology-related contracts or deals these companies have signed that specify cloud computing services or technologies.",
+      "table": [
+        "CompanyDealMaster"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Compile social media engagement related to the companies' cloud computing initiatives, focusing on their posts and news related to this technology.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyTwitterDetail",
+        "CompanyInstagramDetail"
+      ]
+    }
+  ]
+}

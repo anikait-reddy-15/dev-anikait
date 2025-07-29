@@ -1,0 +1,4 @@
+{
+  "question": "What are the current trends in technology adoption across different industries?",
+  "subtasks": "[{\"step\":1,\"task\":\"Identify the list of industries from the IndustryITTrend table that have emerging technology trends documented.\",\"table\":[\"IndustryITTrend\"]},{\"step\":2,\"task\":\"Gather detailed narratives on technology focus areas from the IndustryITTrend table to understand how industries are adopting new technologies like AI, IoT, and blockchain.\",\"table\":[\"IndustryITTrend\"]},{\"step\":3,\"task\":\"Analyze the alignment between the technology trends identified and specific strategic focus areas from the IndustryBusinessTrend table to see broader business implications.\",\"table\":[\"IndustryBusinessTrend\"]},{\"step\":4,\"task\":\"Compile overall findings on technology adoption to create a summary report highlighting key trends across industries.\",\"table\":[\"IndustryITTrend\",\"IndustryBusinessTrend\"]}]}"
+}

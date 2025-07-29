@@ -1,0 +1,33 @@
+{
+  "question": "What are the current hiring trends in the tech industry for companies in the finance sector?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify all companies categorized under the finance sector in the CompanyInfo table.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract current hiring initiatives from the CompanyHiringDetail table that are linked to the identified finance companies.",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the roles and associated details being offered in the hiring initiatives to determine trends such as skill requirements and job designations.",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Aggregate data to outline the overall number of positions being hired for, along with common skills or technologies mentioned across the sector.",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "question": "What are the top companies in the tech industry based on their IT budget and revenue?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies that are categorized under the tech industry by querying the CompanyInfo table for companies whose Industry column indicates 'Technology'.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "From the identified tech companies, retrieve their IT budgets and revenues, sorting the results to find the highest values. Extract the ITBudget and Revenue fields from the CompanyInfo table. ",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Compile the company names, IT budgets, and revenues into a readable format or list for further reporting or presentation. This can involve consolidating data from step 2 into a summary table or report format.",
+      "table": [
+        "CompanyInfo"
+      ]
+    }
+  ]
+}

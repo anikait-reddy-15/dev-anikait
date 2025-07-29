@@ -1,0 +1,4 @@
+{
+  "question": "What are the current trends in IT investment across different industries?",
+  "subtasks": "[{\"step\":1,\"task\":\"Identify key financial metrics for different companies, including IT budget and revenue.\" ,\"table\":[\"CompanyInfo\"]},{\"step\":2,\"task\":\"Gather data on emerging IT trends from various industries to understand technology adoption patterns.\" ,\"table\":[\"IndustryITTrend\"]},{\"step\":3,\"task\":\"Analyze deal records related to technology service contracts to identify which technologies companies are investing in.\",\"table\":[\"CompanyDealMaster\"]},{\"step\":4,\"task\":\"Collect insights from company leadership related to IT focus areas to understand strategic initiatives being emphasized.\",\"table\":[\"CompanyLeadershipExcerpt\"]}]"
+}

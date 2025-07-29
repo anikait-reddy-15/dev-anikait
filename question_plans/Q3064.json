@@ -1,0 +1,38 @@
+{
+  "question": "What are the current market trends for technology services across different industries?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify the key technology service contracts recorded in the database, focusing on the latest deals, values, and industries involved.",
+      "table": [
+        "CompanyDealMaster"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Analyze the emerging IT trends across various industries to understand how they might be influencing current market behaviors and priorities.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Extract data on strategic technology focus areas from companies to evaluate their investments and innovations in technology services.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Aggregate insights from the CompanyInfo table to link financial metrics and operational details to the identified trends in technology service contracts.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Compile a report summarizing the findings to highlight key trends and recommendations for market strategy enhancements in technology services.",
+      "table": []
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+{
+  "question": "Analyze the current social media engagement of companies in the technology sector.",
+  "subtasks": "[{\"step\":1,\"task\":\"Identify companies operating in the technology sector and retrieve their basic information including name and industry type.\",\"table\":[\"CompanyInfo\"]},{\"step\":2,\"task\":\"Gather social media engagement data for the identified technology companies from various platforms such as Facebook, Instagram, Twitter, and LinkedIn.\",\"table\":[\"SocialMediaInfo\",\"CompanyFacebookDetail\",\"CompanyInstagramDetail\",\"CompanyTwitterDetail\"]},{\"step\":3,\"task\":\"Analyze the collected engagement metrics to assess overall social media performance across the platforms for technology sector companies.\",\"table\":[\"SocialMediaInfo\",\"CompanyFacebookDetail\",\"CompanyInstagramDetail\",\"CompanyTwitterDetail\"]}]"
+}

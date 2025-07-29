@@ -1,0 +1,34 @@
+{
+  "question": "What are the emerging technology trends in the financial services industry according to recent data?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify financial services companies from the CompanyInfo table.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Gather information on technology adoption for these financial services companies from the CompanyVendorTechDetail table.",
+      "table": [
+        "CompanyVendorTechDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze recent industry trends that impact financial services by reviewing data from the IndustryITTrend table. Include technology focus areas relevant to financial services.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Compile the collected data into a report summarizing the emerging technology trends in the financial services sector.",
+      "table": [
+        "CompanyVendorTechDetail",
+        "IndustryITTrend"
+      ]
+    }
+  ]
+}

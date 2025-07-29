@@ -1,0 +1,26 @@
+{
+  "question": "What are the current IT focus areas and technology trends among companies in the technology industry?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies operating in the technology industry and gather relevant metadata about these companies such as their IT budget and active status.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Retrieve the IT focus areas for the identified technology companies, including details on their specific initiatives or investments in technology domains.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze emerging IT trends within the technology industry using data from the IndustryITTrend table, focusing on how companies are adopting new technologies like AI and cloud computing.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    }
+  ]
+}

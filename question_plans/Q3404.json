@@ -1,0 +1,26 @@
+{
+  "question": "What are the current IT budget allocations for companies in the technology sector, and how do these relate to their employee count and revenue?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify all companies in the technology sector and retrieve their IT budget allocations, employee counts, and revenue figures",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Filter the retrieved data to ensure only active companies are included in the analysis",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the relationship between IT budget allocations, employee counts, and revenues for the filtered companies",
+      "table": [
+        "CompanyInfo"
+      ]
+    }
+  ]
+}

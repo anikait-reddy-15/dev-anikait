@@ -1,0 +1,44 @@
+{
+  "question": "What are the current hiring trends in IT across different industries?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify the active hiring initiatives related to IT roles by extracting data from the CompanyHiringDetail table.",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Link the hiring initiatives to their respective companies by referencing the CompanyInfo table to gather company-specific details such as industry, size, and location.",
+      "table": [
+        "CompanyHiringDetail",
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the hiring data by aggregating the number of positions, designations, and domains for each industry found in the CompanyInfo table.",
+      "table": [
+        "CompanyHiringDetail",
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Investigate whether there are trends based on IT focus areas by cross-referencing with the CompanyFocusAreaDetail table to determine which technologies or sectors are most in demand.",
+      "table": [
+        "CompanyHiringDetail",
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Compile a report summarizing the trends in IT hiring across industries, including key metrics such as total job openings, predominant technologies in demand, and geographical distribution of hiring.",
+      "table": [
+        "CompanyHiringDetail",
+        "CompanyInfo"
+      ]
+    }
+  ]
+}

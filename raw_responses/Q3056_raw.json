@@ -1,0 +1,4 @@
+{
+  "question": "What are the recent technology trends in companies across different industries?",
+  "subtasks": "[{\"step\":1,\"task\":\"Identify the relevant industry types from the IndustryITTrend table that have recorded recent technology trends.\",\"table\":[\"IndustryITTrend\"]},{\"step\":2,\"task\":\"Extract narratives and details from the IndustryITTrend table for each relevant industry type found in step 1.\",\"table\":[\"IndustryITTrend\"]},{\"step\":3,\"task\":\"Analyze the extracted trend details and categorize them into specific technology focus areas such as AI, IoT, blockchain, etc.\",\"table\":[\"IndustryITTrend\"]},{\"step\":4,\"task\":\"Compile the summarized technology trends by industry to create a comprehensive report that highlights the most significant trends observed.\",\"table\":[\"IndustryITTrend\"]}]}"
+}

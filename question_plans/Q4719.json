@@ -1,0 +1,36 @@
+{
+  "question": "What are the current focus areas and technological trends in companies within the technology industry?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Analyze the current focus areas of companies in the technology industry by retrieving data for all companies classified under 'Technology' in the CompanyInfo table.",
+      "table": [
+        "CompanyInfo",
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Retrieve and summarize emerging IT trends related to the technology industry using the IndustryITTrend table to identify key technologies being adopted by industry players.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Collect data on social media engagement related to companies in the technology sector by sourcing information from CompanyFacebookDetail, CompanyTwitterDetail, and CompanyInstagramDetail to understand the interaction patterns in technology marketing.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyTwitterDetail",
+        "CompanyInstagramDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Evaluate hiring trends in the technology sector by analyzing the CompanyHiringDetail table to see what positions are currently being offered, aligned with the focus areas and trends identified earlier.",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    }
+  ]
+}

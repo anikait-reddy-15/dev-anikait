@@ -1,0 +1,40 @@
+{
+  "question": "What are the current trends in technology adoption across different industries, and how are companies positioning themselves strategically in their respective markets?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify the different industries represented in the database and gather the corresponding technology trends for each industry.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Collect detailed records of companies' strategic focus areas related to technology adoption, linking these to the identified industry trends.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the specific technologies adopted by companies, including vendor products and technology services, to assess their alignment with industry trends.",
+      "table": [
+        "CompanyTechStack",
+        "CompanyVendorProductDetail",
+        "CompanyVendorTechDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Examine the revenue and market capitalization of companies to understand their positioning and investment in technology within their respective markets.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Summarize the findings and present how these trends shape the future strategy of companies across different industries.",
+      "table": []
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "question": "How can we analyze the social media engagement and technology adoption trends of companies in the finance industry?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Retrieve a list of companies in the finance industry along with their social media presence metrics such as Facebook, Twitter, Instagram, and LinkedIn engagement counts.",
+      "table": [
+        "CompanyInfo",
+        "SocialMediaInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Gather technology stacks of the identified finance companies to understand what technologies they have adopted, looking specifically for any trends related to digital transformation technologies like AI, cloud, or fintech solutions.",
+      "table": [
+        "CompanyInfo",
+        "CompanyTechStack"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the relationship between social media engagement metrics and the technology adoption to identify if companies with higher engagement also tend to adopt newer technologies more rapidly.",
+      "table": [
+        "SocialMediaInfo",
+        "CompanyTechStack"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Provide insights on any emerging technology trends or social engagement strategies being used by finance companies based on the data collected.",
+      "table": [
+        "CompanyInfo",
+        "IndustryITTrend"
+      ]
+    }
+  ]
+}

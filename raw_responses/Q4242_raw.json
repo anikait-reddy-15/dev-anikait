@@ -1,0 +1,4 @@
+{
+  "question": "What are the trending industries in technology and their focus areas?",
+  "subtasks": "[{'step': 1, 'task': 'Identify and list all unique technology focus areas of companies.', 'table': ['CompanyFocusAreaDetail']}, {'step': 2, 'task': 'Gather industry types from the IndustryBusinessTrend table.', 'table': ['IndustryBusinessTrend']}, {'step': 3, 'task': 'Analyze the technology adoption patterns by industries from the IndustryITTrend table.', 'table': ['IndustryITTrend']}, {'step': 4, 'task': 'Combine the data from the previous steps to summarize trending industries and their associated technology focus areas.', 'table': []}]"
+}

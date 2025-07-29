@@ -1,0 +1,4 @@
+{
+  "question": "What is the current hiring trend across different technology domains in the company?",
+  "subtasks": "[{\"step\":1,\"task\":\"Analyze hiring data to identify technology domains with active job listings and their respective demand trends.\",\"table\":[\"CompanyHiringDetail\"]},{\"step\":2,\"task\":\"Aggregate the hiring data by technology domain to summarize the number of positions available and identify the most sought-after areas.\",\"table\":[\"CompanyHiringDetail\"]},{\"step\":3,\"task\":\"Cross-reference the hiring trends with the company profile to analyze if certain domains are more favored by specific types of companies (e.g., by size, industry, or revenue).\",\"table\":[\"CompanyInfo\",\"CompanyHiringDetail\"]},{\"step\":4,\"task\":\"Review the leadership statements related to technology to understand if hiring trends align with strategic priorities expressed by company executives.\",\"table\":[\"CompanyLeadershipExcerpt\"]}]"
+}

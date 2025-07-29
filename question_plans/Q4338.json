@@ -1,0 +1,35 @@
+{
+  "question": "What are the top social media platforms where a company's presence is most active?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Gather social media presence data for each company including counts and engagement metrics from different platforms like Facebook, Instagram, Twitter, and LinkedIn.",
+      "table": [
+        "SocialMediaInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Analyze the engagement metrics such as likes, comments, and shares from the detailed tables for Facebook, Instagram, and Twitter to determine which platforms have the highest activity level.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyInstagramDetail",
+        "CompanyTwitterDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Aggregate the social media data to rank the platforms by total engagement counts and determine the top platforms for each company.",
+      "table": [
+        "SocialMediaInfo"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Prepare a report summarizing the findings, highlighting the most active social media platforms across the companies analyzed.",
+      "table": [
+        "CompanyInfo"
+      ]
+    }
+  ]
+}

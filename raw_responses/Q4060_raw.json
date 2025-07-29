@@ -1,0 +1,4 @@
+{
+  "question": "What are the current social media engagement metrics for companies by industry?",
+  "subtasks": "[{\"step\":1,\"task\":\"Identify all active companies and their associated industry types.\",\"table\":[\"CompanyInfo\"]},{\"step\":2,\"task\":\"Gather social media engagement metrics for each company across relevant platforms (Facebook, Twitter, Instagram, YouTube).\",\"table\":[\"CompanyFacebookDetail\",\"CompanyTwitterDetail\",\"CompanyInstagramDetail\",\"CompanyYoutubeDetail\"]},{\"step\":3,\"task\":\"Aggregate the engagement metrics by industry to analyze overall social media performance per industry.\",\"table\":[\"CompanyInfo\",\"CompanyFacebookDetail\",\"CompanyTwitterDetail\",\"CompanyInstagramDetail\",\"CompanyYoutubeDetail\"]},{\"step\":4,\"task\":\"Summarize findings in a report or dashboard format for presentation to stakeholders.\",\"table\":[\"PageInfo\",\"SectionData\"]}]}"
+}

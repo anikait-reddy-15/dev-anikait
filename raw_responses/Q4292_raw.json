@@ -1,0 +1,4 @@
+{
+  "question": "What are the emerging technology trends and focus areas in the IT industry for companies?",
+  "subtasks": "[{'step': 1,'task': 'Identify the major technology focus areas relevant to the IT industry.','table': ['IndustryITTrend', 'CompanyFocusAreaDetail']},{'step': 2,'task': 'Gather data on specific companies that are adopting these technology trends.','table': ['CompanyInfo', 'CompanyTechStack']},{'step': 3,'task': 'Analyze and summarize the emerging trends captured within the IndustryITTrend table.','table': ['IndustryITTrend']},{'step': 4,'task': 'Evaluate companies' investments in IT initiatives and examine their financial metrics.','table': ['CompanyInfo', 'CompanyDealMaster']},{'step': 5,'task': 'Collect leadership statements or public excerpts from companies regarding their technology focus areas and future direction.','table': ['CompanyLeadershipExcerpt']}]}"
+}

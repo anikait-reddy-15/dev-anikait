@@ -1,0 +1,41 @@
+{
+  "question": "What are the emerging IT trends across different industries?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify distinct industries and their corresponding IT trends by analyzing the IndustryITTrend table.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Determine additional emerging trends within respective industries by including data from IndustryBusinessTrend table for a holistic view.",
+      "table": [
+        "IndustryBusinessTrend"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Compile a summary report highlighting key IT trends and their relationship with business strategies from the earlier analysis.",
+      "table": [
+        "IndustryITTrend",
+        "IndustryBusinessTrend"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Correlate these trends with specific companies using CompanyFocusAreaDetail to analyze their strategic focus on these IT trends.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Review and extract insights from leadership statements in CompanyLeadershipExcerpt to understand how trends are influencing executive strategies in various industries.",
+      "table": [
+        "CompanyLeadershipExcerpt"
+      ]
+    }
+  ]
+}

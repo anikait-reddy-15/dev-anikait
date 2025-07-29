@@ -1,0 +1,42 @@
+{
+  "question": "What are the emerging IT trends in the technology sector and how are companies adapting to them?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify the prominent IT trends within the technology sector by querying IndustryITTrend for relevant entries.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Fetch companies that are actively engaging with the identified trends by analyzing the CompanyFocusAreaDetail for specific IT focus areas related to the technology sector.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Examine the strategic technology partnerships companies have by checking CompanyITPartnerDetail to see how they are collaborating to adapt to these trends.",
+      "table": [
+        "CompanyITPartnerDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Gather financial data of companies in the technology sector to correlate their IT investments and adaptations to the trends found in step 1 by looking into CompanyInfo for key financial metrics like ITBudget and Revenue.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Analyze social media activity (from CompanyFacebookDetail, CompanyInstagramDetail, CompanyTwitterDetail) of companies to observe their engagement related to the identified IT trends.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyInstagramDetail",
+        "CompanyTwitterDetail"
+      ]
+    }
+  ]
+}

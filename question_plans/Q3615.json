@@ -1,0 +1,44 @@
+{
+  "question": "What are the top 5 trending technologies that companies in the finance industry are adopting in their IT strategy?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies operating in the finance industry and retrieve their profiles, including their IT strategies and IT focus areas.",
+      "table": [
+        "CompanyInfo",
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Collect data on technology trends from the IndustryITTrend table specified for the finance industry to find emerging technologies being adopted.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Cross-reference companies identified in step 1 with their adoption of technologies from VendorProductDetail and TechStack to identify the most frequently mentioned technologies.",
+      "table": [
+        "CompanyVendorProductDetail",
+        "CompanyTechStack"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Analyze the collected data for frequency of technology mentions and trends in the context of the finance industry's IT strategy.",
+      "table": [
+        "CompanyFocusAreaDetail",
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Summarize the findings to highlight the top 5 trending technologies. Provide insights into why these technologies are gaining traction among finance companies.",
+      "table": [
+        "CompanyInfo",
+        "IndustryITTrend"
+      ]
+    }
+  ]
+}

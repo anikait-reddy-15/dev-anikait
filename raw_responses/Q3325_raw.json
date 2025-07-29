@@ -1,0 +1,4 @@
+{
+  "question": "What are the current technology focus areas and social media presence for top companies in the technology industry?",
+  "subtasks": "[{\"step\":1,\"task\":\"Identify the top companies in the technology industry based on revenue and market capitalization.\",\"table\":[\"CompanyInfo\"]},{\"step\":2,\"task\":\"Gather the technology focus areas of the identified companies to understand their strategic technology initiatives.\",\"table\":[\"CompanyFocusAreaDetail\"]},{\"step\":3,\"task\":\"Collect social media engagement metrics (likes, comments, etc.) for the identified companies to analyze their online presence.\",\"table\":[\"CompanyFacebookDetail\",\"CompanyTwitterDetail\",\"CompanyInstagramDetail\",\"CompanyYoutubeDetail\"]},{\"step\":4,\"task\":\"Compile the data into a report highlighting key technology initiatives and social media performance for each company.\",\"table\":[\"CompanyInfo\"]}]}"
+}

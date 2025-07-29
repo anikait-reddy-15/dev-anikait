@@ -1,0 +1,33 @@
+{
+  "question": "Analyze the social media presence and engagement metrics of companies across different platforms.",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Retrieve company names and their associated social media accounts from the SocialMediaInfo table.",
+      "table": [
+        "SocialMediaInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Gather detailed engagement metrics such as counts of likes, comments, and shares from the CompanyFacebookDetail, CompanyInstagramDetail, CompanyTwitterDetail, and CompanyYoutubeDetail tables.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyInstagramDetail",
+        "CompanyTwitterDetail",
+        "CompanyYoutubeDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Compile all retrieved data into a summary report that highlights overall social media engagement per company and platform.",
+      "table": [
+        "SocialMediaInfo",
+        "CompanyFacebookDetail",
+        "CompanyInstagramDetail",
+        "CompanyTwitterDetail",
+        "CompanyYoutubeDetail"
+      ]
+    }
+  ]
+}

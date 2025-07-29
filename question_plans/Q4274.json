@@ -1,0 +1,35 @@
+{
+  "question": "Identify companies that are actively hiring in the field of cloud computing and their related technology partnerships.",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Query the CompanyHiringDetail table to find companies with active hiring initiatives specifically related to cloud computing roles.",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract unique CompanyInfoIds from the results of step 1 to find out which companies are associated with cloud computing hiring.",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Use the CompanyITPartnerDetail table to find and list all technology partnerships related to the identified companies from step 2.",
+      "table": [
+        "CompanyITPartnerDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Combine results from steps 1 and 3 to provide a comprehensive view of companies that are hiring in cloud computing and their technology partnerships.",
+      "table": [
+        "CompanyHiringDetail",
+        "CompanyITPartnerDetail",
+        "CompanyInfo"
+      ]
+    }
+  ]
+}

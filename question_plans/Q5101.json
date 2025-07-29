@@ -1,0 +1,41 @@
+{
+  "question": "What are the current hiring trends in the technology sector based on social media activity and company focus areas?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies that are actively hiring in the technology sector and extract their relevant details such as job roles, domains, and cities.",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Collect social media engagement metrics for the identified companies to analyze their market presence and audience interaction.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyInstagramDetail",
+        "CompanyTwitterDetail",
+        "CompanyYoutubeDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Determine the strategic technology focus areas of the identified companies to understand their investment priorities and initiatives.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Analyze the collected data to identify trends in hiring, social media engagement, and focus areas in relation to each other.",
+      "table": [
+        "CompanyHiringDetail",
+        "CompanyFocusAreaDetail",
+        "CompanyFacebookDetail",
+        "CompanyInstagramDetail",
+        "CompanyTwitterDetail",
+        "CompanyYoutubeDetail"
+      ]
+    }
+  ]
+}

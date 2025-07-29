@@ -1,0 +1,4 @@
+{
+  "question": "Analyze the impact of social media presence on the hiring initiatives of companies in the technology sector.",
+  "subtasks": "[{\"step\":1,\"task\":\"Identify companies in the technology sector along with their active hiring initiatives.\",\"table\":[\"CompanyInfo\",\"CompanyHiringDetail\"]},{\"step\":2,\"task\":\"Gather social media presence data for these technology companies, including engagement metrics from platforms like Facebook, Instagram, Twitter, and LinkedIn.\",\"table\":[\"SocialMediaInfo\",\"CompanyFacebookDetail\",\"CompanyInstagramDetail\",\"CompanyTwitterDetail\"]},{\"step\":3,\"task\":\"Analyze the correlation between social media engagement metrics and the number of active job openings reported by these companies to determine trends in hiring initiatives.\",\"table\":[\"CompanyHiringDetail\",\"SocialMediaInfo\"]}]"
+}

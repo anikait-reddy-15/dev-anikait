@@ -1,0 +1,4 @@
+{
+  "question": "What technology trends are influencing companies in the healthcare industry?",
+  "subtasks": "[{\"step\": 1, \"task\": \"Identify healthcare companies from the CompanyInfo table. \", \"table\": [\"CompanyInfo\"]}, {\"step\": 2, \"task\": \"Gather IT trend data specific to the healthcare industry from the IndustryITTrend table. \",\"table\": [\"IndustryITTrend\"]}, {\"step\": 3, \"task\": \"Analyze technology focus areas for healthcare companies using CompanyFocusAreaDetail. \", \"table\": [\"CompanyFocusAreaDetail\"]}, {\"step\": 4, \"task\": \"Compile data on partnerships and vendor relationships in the healthcare sector from CompanyITPartnerDetail. \", \"table\": [\"CompanyITPartnerDetail\"]}, {\"step\": 5, \"task\": \"Cross-reference with social media presence to understand public engagement with technology trends via SocialMediaInfo. \", \"table\": [\"SocialMediaInfo\"]}]"
+}

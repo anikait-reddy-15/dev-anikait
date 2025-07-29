@@ -1,0 +1,4 @@
+{
+  "question": "What are the emerging technology trends being adopted by companies in different industries?",
+  "subtasks": "[{\"step\":1,\"task\":\"Identify and collect data on industry types from the IndustryITTrend table to understand the sectors involved in technology adoption.\",\"table\":[\"IndustryITTrend\"]},{\"step\":2,\"task\":\"Extract emerging technology trends from the IndustryITTrend table that are relevant to specific industries, focusing on new technologies like AI, IoT, etc.\",\"table\":[\"IndustryITTrend\"]},{\"step\":3,\"task\":\"Compile a summary report linking each industry type with its corresponding technology trends and adoption rates as found in the IndustryITTrend table.\",\"table\":[\"IndustryITTrend\"]},{\"step\":4,\"task\":\"Analyze the gathered trends to identify patterns in technology adoption across various industries over time.\",\"table\":[\"IndustryITTrend\"]}]"
+}

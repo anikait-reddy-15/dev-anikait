@@ -1,0 +1,4 @@
+{
+  "question": "What are the latest technology trends adopted by companies in the IT industry compared to other industries?",
+  "subtasks": "[{\"step\":1,\"task\":\"Identify the technology trends from the IndustryITTrend table for the IT industry.\",\"table\":[\"IndustryITTrend\"]},{\"step\":2,\"task\":\"Extract similar technology trend data from the IndustryITTrend table for other industries to compare with the IT industry.\",\"table\":[\"IndustryITTrend\"]},{\"step\":3,\"task\":\"Compile and analyze the results to determine the differences and similarities in technology adoption between the IT industry and others.\",\"table\":[\"IndustryITTrend\"]},{\"step\":4,\"task\":\"Document findings and create a summary report highlighting key trends and insights across different industries.\",\"table\":[\"IndustryITTrend\"]}]}"
+}

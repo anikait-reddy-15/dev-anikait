@@ -1,0 +1,29 @@
+{
+  "question": "What are the most common social media platforms used by companies in the technology sector, and how engaged are they with their audiences?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify all companies that belong to the technology sector from the CompanyInfo table based on the 'Industry' column.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Gather social media presence data for the identified companies from the SocialMediaInfo table to learn which platforms they are active on.",
+      "table": [
+        "SocialMediaInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze engagement metrics (like counts, comments, etc.) for each social media platform from the corresponding social media detail tables (e.g., CompanyFacebookDetail, CompanyTwitterDetail, etc.) to determine how engaged companies are with their audience.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyTwitterDetail",
+        "CompanyInstagramDetail",
+        "CompanyYoutubeDetail"
+      ]
+    }
+  ]
+}

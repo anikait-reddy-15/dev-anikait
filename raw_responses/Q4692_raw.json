@@ -1,0 +1,4 @@
+{
+  "question": "What are the current trends in social media presence for companies in the technology industry?",
+  "subtasks": "[{\"step\": 1, \"task\": \"Identify all companies in the technology industry from the CompanyInfo table.\", \"table\": [\"CompanyInfo\"]}, {\"step\": 2, \"task\": \"Gather social media presence data for these technology companies from SocialMediaInfo table.\", \"table\": [\"SocialMediaInfo\"]}, {\"step\": 3, \"task\": \"Analyze engagement metrics (like counts, shares) for each social media platform (LinkedIn, Facebook, Twitter, Instagram) from the respective dedicated social media tables.\", \"table\": [\"CompanyFacebookDetail\", \"CompanyTwitterDetail\", \"CompanyInstagramDetail\", \"CompanyLinkedinActivity\"]}, {\"step\": 4, \"task\": \"Aggregate the data to identify overall social media trends (engagement levels, preferred platforms) across technology companies.\", \"table\": []}]"
+}

@@ -1,0 +1,42 @@
+{
+  "question": "Identify the top technology trends companies in the finance industry are adopting based on their vendor partnerships and digital presence.",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Gather a list of companies in the finance industry from the CompanyInfo table.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Analyze partnerships and technology relationships by extracting data from the CompanyITPartnerDetail and CompanyVendorTechDetail tables related to the identified finance companies.",
+      "table": [
+        "CompanyITPartnerDetail",
+        "CompanyVendorTechDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Compile social media engagement metrics for the finance companies by reviewing data from the CompanyFacebookDetail, CompanyTwitterDetail, CompanyInstagramDetail, and CompanyYoutubeDetail tables.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyTwitterDetail",
+        "CompanyInstagramDetail",
+        "CompanyYoutubeDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Integrate insights from technology stack used by these companies by analyzing CompanyTechStack for technologies adopted in digital transformation.",
+      "table": [
+        "CompanyTechStack"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Summarize findings to identify the top technology trends and present a report based on the analysis from all collected data.",
+      "table": []
+    }
+  ]
+}

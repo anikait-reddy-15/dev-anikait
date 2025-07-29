@@ -1,0 +1,4 @@
+{
+  "question": "What are the recent technology focus areas for companies in the finance industry and their associated IT service partners?",
+  "subtasks": "[{\"step\":1,\"task\":\"Identify companies in the Finance industry from the CompanyInfo table.\",\"table\":[\"CompanyInfo\"]},{\"step\":2,\"task\":\"Extract the strategic technology focus areas for these companies using CompanyFocusAreaDetail linked to the identified companies.\",\"table\":[\"CompanyFocusAreaDetail\"]},{\"step\":3,\"task\":\"Fetch details of IT service partners for the identified companies using CompanyITPartnerDetail to understand collaborations.\",\"table\":[\"CompanyITPartnerDetail\"]},{\"step\":4,\"task\":\"Compile a summary report that includes the companies, their technology focus areas, and their IT service partners.\",\"table\":[\"CompanyInfo\",\"CompanyFocusAreaDetail\",\"CompanyITPartnerDetail\"]}]"
+}

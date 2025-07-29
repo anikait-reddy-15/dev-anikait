@@ -1,0 +1,38 @@
+{
+  "question": "What are the current hiring trends in the technology sector among companies in North America?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies in the technology sector located in North America.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract active hiring data from these companies, focusing on designations and domains related to technology.",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the collected hiring data to determine the most common roles and skill requirements in the technology sector.",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Compile demographic information such as company size and revenue to correlate with hiring trends.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Present findings on current hiring trends in the technology sector, highlighting significant shifts or demands.",
+      "table": []
+    }
+  ]
+}

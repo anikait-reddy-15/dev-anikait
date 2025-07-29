@@ -1,0 +1,35 @@
+{
+  "question": "What are the hiring trends in technology sectors among companies in the last year?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify the technology sectors of interest by querying the CompanyHiringDetail table to extract technology-related job postings from the last year.",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Aggregate hiring data from the CompanyHiringDetail table by counting the number of job postings per technology sector per company for the last year to understand trends.",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Cross-reference the aggregated hiring data with the CompanyInfo table to identify companies by industry and revenue size to see how hiring trends vary by company profile.",
+      "table": [
+        "CompanyHiringDetail",
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Analyze the results to determine which technology sectors have seen the highest growth in hiring and prepare a summary of the findings.",
+      "table": [
+        "CompanyHiringDetail",
+        "CompanyInfo"
+      ]
+    }
+  ]
+}

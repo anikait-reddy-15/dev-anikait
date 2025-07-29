@@ -1,0 +1,36 @@
+{
+  "question": "What are the key technology investments and hiring trends in the software industry for the last year?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies operating in the software industry along with their recent IT budget allocations.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Retrieve hiring details for the past year to analyze trends in specific domains and designations related to technology roles.",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Extract data on technology focus areas and partner collaborations of these companies to understand their strategic investments in IT solutions.",
+      "table": [
+        "CompanyFocusAreaDetail",
+        "CompanyITPartnerDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Compile and analyze the social media engagement metrics of these software companies to correlate their investment and hiring trends with public perception and outreach.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyTwitterDetail",
+        "CompanyInstagramDetail"
+      ]
+    }
+  ]
+}

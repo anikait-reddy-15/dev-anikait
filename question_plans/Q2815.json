@@ -1,0 +1,43 @@
+{
+  "question": "What are the emerging technology trends across different industries for the next year?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify the relevant industries to analyze for technology trends.",
+      "table": [
+        "IndustryBusinessTrend",
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Gather data on current technology trends documented in the IndustryITTrend table.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Compile insights and narratives from the IndustryBusinessTrend table, focusing on technology-related shifts.",
+      "table": [
+        "IndustryBusinessTrend"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Analyze the collected data to extract emerging trends and anticipated developments in technology for the next year.",
+      "table": [
+        "IndustryBusinessTrend",
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Summarize findings by comparing data from both IndustryITTrend and IndustryBusinessTrend to highlight key trends across sectors.",
+      "table": [
+        "IndustryBusinessTrend",
+        "IndustryITTrend"
+      ]
+    }
+  ]
+}

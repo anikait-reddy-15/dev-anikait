@@ -1,0 +1,36 @@
+{
+  "question": "What are the current hiring trends in technology companies across different regions?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify and gather data on active hiring initiatives from technology companies.",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Group the hiring data by region to analyze trends based on geographical distribution.",
+      "table": [
+        "CompanyInfo",
+        "CompanyHiringDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the hiring data to find common roles, skills, and trends in technology hiring across regions.",
+      "table": [
+        "CompanyHiringDetail",
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Visualize the findings in a report to clearly show hiring trends by region and role type.",
+      "table": [
+        "CompanyHiringDetail",
+        "CompanyInfo"
+      ]
+    }
+  ]
+}

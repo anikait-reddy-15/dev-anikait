@@ -1,0 +1,41 @@
+{
+  "question": "How are companies leveraging social media platforms for engagement and branding?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Gather metrics on social media presence for each company, including total engagement counts and platform differences.",
+      "table": [
+        "SocialMediaInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Analyze social media activity data, such as posts and engagement metrics, for deeper insights into company branding strategies on specific platforms.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyInstagramDetail",
+        "CompanyTwitterDetail",
+        "CompanyYoutubeDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Identify trends in social media engagement across different industries to determine which sectors are more active or effective in their social media use.",
+      "table": [
+        "CompanyInfo",
+        "SocialMediaInfo",
+        "IndustryBusinessTrend"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Compile detailed reports on key findings and metrics related to social media engagement strategies and effectiveness for various companies.",
+      "table": [
+        "CompanyInfo",
+        "SocialMediaInfo",
+        "SectionData",
+        "PageInfo"
+      ]
+    }
+  ]
+}

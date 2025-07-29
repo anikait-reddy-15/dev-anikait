@@ -1,0 +1,37 @@
+{
+  "question": "Analyze the social media presence and engagement trends of companies in the technology industry for the past year.",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify all companies operating in the technology industry and extract their basic information such as name, ID, and active status.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Gather social media metrics from Facebook, Twitter, Instagram, and YouTube for the identified technology companies, focusing on engagement metrics like likes, comments, shares, and overall activity over the past year.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyTwitterDetail",
+        "CompanyInstagramDetail",
+        "CompanyYoutubeDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Organize and summarize the collected social media engagement metrics to compare the performance of different companies within the technology industry across various platforms.",
+      "table": [
+        "SocialMediaInfo"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Explore emerging trends in the technology sector by analyzing relevant IT trends and focus areas, and correlate these findings with the social media performance of the companies.",
+      "table": [
+        "IndustryITTrend",
+        "CompanyFocusAreaDetail"
+      ]
+    }
+  ]
+}

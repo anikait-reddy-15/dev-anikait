@@ -1,0 +1,31 @@
+{
+  "question": "Which companies are actively hiring in the technology sector and what are their key strategic IT focus areas?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify all companies within the technology sector based on their industry classification.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Retrieve active hiring details for the identified technology companies, including job roles and skill requirements.",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Gather the strategic IT focus areas for the identified technology companies to understand their technological priorities and initiatives.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Compile and present the data on hiring initiatives and IT focus areas into a structured report for analysis.",
+      "table": []
+    }
+  ]
+}

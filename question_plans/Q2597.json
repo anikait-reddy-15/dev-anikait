@@ -1,0 +1,33 @@
+{
+  "question": "What are the emerging trends in the technology adoption strategies of companies in the healthcare sector?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify all companies operating in the healthcare sector by filtering the CompanyInfo table based on the Industry column.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Retrieve the technology focus areas for the identified healthcare companies from the CompanyFocusAreaDetail table to understand their strategic technologies.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the technology service contracts related to healthcare in the CompanyDealMaster table to capture information on technology adoption trends and relevant metrics like deal value and service contract value.",
+      "table": [
+        "CompanyDealMaster"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Examine the IndustryITTrend table for documented trends in technology adoption relevant to the healthcare industry, sharing insights on how companies are progressing in digital transformation strategies.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    }
+  ]
+}

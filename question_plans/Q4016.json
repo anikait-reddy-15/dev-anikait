@@ -1,0 +1,41 @@
+{
+  "question": "What technology trends are companies in the finance industry focusing on?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify all companies operating in the finance industry and gather their core information such as revenue, IT budget, and key focus areas.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract strategic technology focus areas for the identified finance companies to understand their technology priorities.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze current hiring trends for technology positions in finance companies to identify demand for specific skill sets.",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Review technology stacks used by the finance companies to assess the types of technologies being adopted.",
+      "table": [
+        "CompanyTechStack"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Compile data on recent IT contracts and vendor partnerships entered by finance companies to understand their collaboration landscape.",
+      "table": [
+        "CompanyDealMaster",
+        "CompanyITPartnerDetail"
+      ]
+    }
+  ]
+}

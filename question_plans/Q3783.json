@@ -1,0 +1,33 @@
+{
+  "question": "Provide an analysis of the impact of IT spending on company revenue and net income in the technology industry.",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify all companies in the technology industry along with their IT budgets, revenues, and net incomes.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Correlate IT spending with revenue and net income for the identified technology companies to analyze the financial impact.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Compile the data to provide a summarized report on the relationship between IT budgets and the financial metrics (revenue and net income).",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Visualize the findings in graphs or charts to illustrate the correlation between IT spending and company performance metrics.",
+      "table": [
+        "CompanyInfo"
+      ]
+    }
+  ]
+}

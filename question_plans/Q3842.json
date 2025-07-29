@@ -1,0 +1,43 @@
+{
+  "question": "What are the current technology partnerships and focus areas of leading companies in the IT industry?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify leading companies in the IT industry based on their revenue and market capitalization.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract strategic technology focus areas for the identified leading companies to understand their technological priorities.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Gather data on technology partnerships for these companies to identify their collaborative strategies and key partners.",
+      "table": [
+        "CompanyITPartnerDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Compile statistics on deal values and types of technologies involved in these partnerships to analyze their significance.",
+      "table": [
+        "CompanyDealMaster",
+        "CompanyVendorProductDetail"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Analyze the outcomes or impacts of these partnerships and focus areas based on social media engagement or public statements from company leadership.",
+      "table": [
+        "CompanyLeadershipExcerpt",
+        "CompanyFacebookDetail",
+        "CompanyTwitterDetail"
+      ]
+    }
+  ]
+}

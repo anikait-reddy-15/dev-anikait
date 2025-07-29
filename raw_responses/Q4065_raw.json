@@ -1,0 +1,4 @@
+{
+  "question": "What are the current hiring initiatives in the technology sector among companies?",
+  "subtasks": "[{'step': 1, 'task': 'Identify companies operating in the technology sector.', 'table': ['CompanyInfo']}, {'step': 2, 'task': 'Extract active hiring data for these companies, including job roles and responsibilities.', 'table': ['CompanyHiringDetail']}, {'step': 3, 'task': 'Analyze the geographic distribution of the hiring initiatives.', 'table': ['CompanyHiringDetail', 'CompanyInfo']}, {'step': 4, 'task': 'Compile the findings into a summary report of current hiring initiatives.', 'table': []}]"
+}

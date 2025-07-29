@@ -1,0 +1,35 @@
+{
+  "question": "What are the key technology focus areas for companies in the banking industry, and how are they planning to hire talent for these focus areas?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify all companies operating in the banking industry and collect their core information such as name, ID, and active status from the CompanyInfo table.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract the technology focus areas linked to the identified banking companies from the CompanyFocusAreaDetail table, including descriptions of their initiatives.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Retrieve details of active hiring initiatives for the banking companies from the CompanyHiringDetail table, focusing on job roles and required skills relevant to the identified technology focus areas.",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Analyze the retrieved data to summarize key technology focus areas in the banking industry and corresponding hiring trends, including specific designations and domains.",
+      "table": [
+        "CompanyInfo",
+        "CompanyFocusAreaDetail",
+        "CompanyHiringDetail"
+      ]
+    }
+  ]
+}

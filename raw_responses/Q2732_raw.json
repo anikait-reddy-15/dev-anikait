@@ -1,0 +1,4 @@
+{
+  "question": "Identify the companies that are actively hiring in the field of AI and their social media engagement metrics.",
+  "subtasks": "[{\"step\":1,\"task\":\"Retrieve a list of companies that have active hiring initiatives specifically for AI-related roles.\",\"table\":[\"CompanyHiringDetail\",\"CompanyInfo\"]},{\"step\":2,\"task\":\"Find the social media engagement metrics (likes, comments, engagement rates) for the identified companies on platforms like Facebook, Instagram, and Twitter.\",\"table\":[\"CompanyFacebookDetail\",\"CompanyInstagramDetail\",\"CompanyTwitterDetail\",\"CompanyInfo\"]},{\"step\":3,\"task\":\"Compile the data into a summary report that outlines each company's hiring status in AI, along with their social media engagement metrics.\",\"table\":[\"CompanyHiringDetail\",\"CompanyFacebookDetail\",\"CompanyInstagramDetail\",\"CompanyTwitterDetail\",\"CompanyInfo\"]}]}"
+}

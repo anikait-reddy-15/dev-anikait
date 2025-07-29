@@ -1,0 +1,4 @@
+{
+  "question": "What are the latest trends in the technology adoption across different industries based on company profiles?",
+  "subtasks": "[{\"step\": 1, \"task\": \"Gather data on companies categorized by their industry, focusing on their technology stack and innovations.\", \"table\": [\"CompanyInfo\", \"CompanyTechStack\"]}, {\"step\": 2, \"task\": \"Analyze the tech stack data to identify specific technologies being adopted by companies in different industries.\", \"table\": [\"CompanyTechStack\", \"IndustryITTrend\"]}, {\"step\": 3, \"task\": \"Compile the results into a report that highlights emerging technology trends across various industries, supported by recent company activities.\", \"table\": [\"IndustryITTrend\", \"CompanyFocusAreaDetail\"]}]"
+}

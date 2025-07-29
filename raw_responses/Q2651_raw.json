@@ -1,0 +1,4 @@
+{
+  "question": "What are the current technology focus areas and social media engagement metrics for top companies in the IT industry?",
+  "subtasks": "[\n    {\n        \"step\": 1,\n        \"task\": \"Identify top companies in the IT industry based on their IT budget and revenue.\",\n        \"table\": [\"CompanyInfo\"]\n    },\n    {\n        \"step\": 2,\n        \"task\": \"Retrieve technology focus areas for the identified top IT companies.\",\n        \"table\": [\"CompanyFocusAreaDetail\"]\n    },\n    {\n        \"step\": 3,\n        \"task\": \"Gather social media engagement metrics (likes, comments, engagement rates) from Facebook, Instagram, and Twitter for these companies.\",\n        \"table\": [\"CompanyFacebookDetail\", \"CompanyInstagramDetail\", \"CompanyTwitterDetail\"]\n    }\n]"
+}

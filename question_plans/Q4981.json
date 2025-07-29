@@ -1,0 +1,36 @@
+{
+  "question": "What are the current social media engagement levels of technology companies in the finance industry?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify technology companies operating in the finance industry by filtering the CompanyInfo table based on the 'Industry' column.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Retrieve social media engagement data from the SocialMediaInfo table for the identified finance technology companies to get their engagement counts.",
+      "table": [
+        "SocialMediaInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the retrieved social media data to summarize engagement levels across different social media platforms (Facebook, Twitter, Instagram, LinkedIn).",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyTwitterDetail",
+        "CompanyInstagramDetail",
+        "CompanyLinkedInActivity"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Compile a report summarizing the findings to present the social media engagement levels, including any insights or trends observed from the data.",
+      "table": [
+        "SocialMediaInfo"
+      ]
+    }
+  ]
+}

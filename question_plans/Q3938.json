@@ -1,0 +1,43 @@
+{
+  "question": "What are the key strategies and technology focus areas implemented by top companies in the IT sector?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify top companies in the IT sector based on market capitalization or revenue.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Gather technology focus areas for the identified companies to understand their strategic investments and priorities.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze leadership excerpts related to technology adoption in these companies to understand their vision and direction.",
+      "table": [
+        "CompanyLeadershipExcerpt"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Examine the technologies tracked in the tech stack for these companies to identify common tools and platforms used.",
+      "table": [
+        "CompanyTechStack"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Compile and summarize the findings into a report detailing the technology focus areas and leadership strategies of these top IT companies.",
+      "table": [
+        "CompanyInfo",
+        "CompanyFocusAreaDetail",
+        "CompanyLeadershipExcerpt",
+        "CompanyTechStack"
+      ]
+    }
+  ]
+}

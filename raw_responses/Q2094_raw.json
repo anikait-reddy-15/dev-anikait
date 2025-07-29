@@ -1,0 +1,4 @@
+{
+  "question": "What are the current technology focus areas for companies in the finance industry?",
+  "subtasks": "[{\"step\":1,\"task\":\"Identify all companies operating in the finance industry from the CompanyInfo table.\",\"table\":[\"CompanyInfo\"]},{\"step\":2,\"task\":\"Retrieve technology focus areas for these identified companies from the CompanyFocusAreaDetail table.\",\"table\":[\"CompanyFocusAreaDetail\"]},{\"step\":3,\"task\":\"Aggregate and summarize the focus areas to determine the predominant technologies being emphasized within the finance industry.\",\"table\":[\"CompanyFocusAreaDetail\"]},{\"step\":4,\"task\":\"Map the retrieved focus areas to specific companies to provide a clear view of which companies are focusing on what technologies.\",\"table\":[\"CompanyFocusAreaDetail\",\"CompanyInfo\"]}]"
+}

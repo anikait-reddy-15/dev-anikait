@@ -1,0 +1,40 @@
+{
+  "question": "What are the emerging IT trends and company strategies in the technology sector?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify key emerging IT trends relevant to the technology sector from the IndustryITTrend table.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Analyze the strategic technology focus areas of major technology companies using the CompanyFocusAreaDetail table to correlate trends and strategies.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Gather metadata about technology service contracts from the CompanyDealMaster table to identify prevalent service agreements aligning with the identified trends.",
+      "table": [
+        "CompanyDealMaster"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Collect and review leadership statements from the CompanyLeadershipExcerpt table to understand executive perspectives on emerging trends and strategies.",
+      "table": [
+        "CompanyLeadershipExcerpt"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Analyze the technology stacks used by major companies through the CompanyTechStack table to see which technologies are being adopted in correlation to the identified trends.",
+      "table": [
+        "CompanyTechStack"
+      ]
+    }
+  ]
+}

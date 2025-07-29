@@ -1,0 +1,35 @@
+{
+  "question": "Identify the technology focus areas and partnerships of companies within the technology industry.",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Query the CompanyInfo table to filter companies operating in the technology industry and retrieve their basic information such as Name, Id, and Industry.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "From the filtered companies, retrieve technology focus areas from the CompanyFocusAreaDetail table using CompanyInfoId to understand their strategic technology initiatives.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Retrieve details of IT partnerships these companies have through the CompanyITPartnerDetail table, linking to CompanyInfoId, to analyze their collaboration landscapes.",
+      "table": [
+        "CompanyITPartnerDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Compile and summarize the findings to illustrate the alignment of technology focus areas with existing partnerships for each company in the technology sector.",
+      "table": [
+        "CompanyInfo",
+        "CompanyFocusAreaDetail",
+        "CompanyITPartnerDetail"
+      ]
+    }
+  ]
+}

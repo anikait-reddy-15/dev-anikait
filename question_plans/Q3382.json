@@ -1,0 +1,41 @@
+{
+  "question": "Identify the key social media metrics for companies in the technology industry that are actively hiring in the United States.",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Retrieve all companies in the technology industry with active hiring initiatives in the United States.",
+      "table": [
+        "CompanyInfo",
+        "CompanyHiringDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Gather Facebook engagement metrics for the identified companies from the previous step.",
+      "table": [
+        "CompanyFacebookDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Collect Instagram engagement metrics for the identified companies from step 1.",
+      "table": [
+        "CompanyInstagramDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Compile Twitter engagement metrics for the identified companies from step 1.",
+      "table": [
+        "CompanyTwitterDetail"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Compile YouTube engagement metrics for the identified companies from step 1.",
+      "table": [
+        "CompanyYoutubeDetail"
+      ]
+    }
+  ]
+}

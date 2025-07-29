@@ -1,0 +1,4 @@
+{
+  "question": "What are the current technology focus areas and their corresponding IT budgets of companies in the healthcare industry?",
+  "subtasks": "[{'step': 1, 'task': 'Identify all companies operating in the healthcare industry.', 'table': ['CompanyInfo']}, {'step': 2, 'task': 'Fetch the IT budget and focus areas of identified healthcare companies.', 'table': ['CompanyInfo', 'CompanyFocusAreaDetail']}, {'step': 3, 'task': 'Compile and display the results for analysis.', 'table': []}]"
+}

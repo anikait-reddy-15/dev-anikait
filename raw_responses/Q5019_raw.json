@@ -1,0 +1,4 @@
+{
+  "question": "What are the technology trends companies are focusing on in the IT industry?",
+  "subtasks": "[{\"step\":1,\"task\":\"Identify the relevant technology focus areas from companies to analyze trends in the IT industry.\",\"table\":[\"CompanyFocusAreaDetail\",\"IndustryITTrend\"]},{\"step\":2,\"task\":\"Gather information about the companies' technology stacks to understand the tools and platforms they are adopting.\",\"table\":[\"CompanyTechStack\"]},{\"step\":3,\"task\":\"Analyze companies' social media data to see how they discuss or promote their technology initiatives.\",\"table\":[\"CompanyFacebookDetail\",\"CompanyInstagramDetail\",\"CompanyTwitterDetail\",\"CompanyYoutubeDetail\"]},{\"step\":4,\"task\":\"Aggregate and summarize vendor-related technology details to identify technology service trends.\",\"table\":[\"CompanyVendorTechDetail\",\"CompanyVendorProductDetail\"]}]"
+}

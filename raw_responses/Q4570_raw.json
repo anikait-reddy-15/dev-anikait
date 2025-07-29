@@ -1,0 +1,4 @@
+{
+  "question": "What are the emerging IT trends in various industries, and how are different companies adopting these technologies?",
+  "subtasks": "[{'step': 1, 'task': 'Analyze emerging IT trends across different industries by aggregating data on technology adoptions like AI, IoT, and blockchain.', 'table': ['IndustryITTrend']}, {'step': 2, 'task': 'Gather company-specific reports on technology implementations to understand how companies are adopting the identified IT trends.', 'table': ['CompanyTechStack', 'CompanyVendorTechDetail']}, {'step': 3, 'task': 'Compile and compare the focus areas of various companies to evaluate their strategic priorities and investments in technology.', 'table': ['CompanyFocusAreaDetail', 'CompanyLeadershipExcerpt']}, {'step': 4, 'task': 'Summarize the findings into a report or presentation that describes the technological innovation patterns within the industry.', 'table': ['SectionData', 'PageInfo']}]"
+}

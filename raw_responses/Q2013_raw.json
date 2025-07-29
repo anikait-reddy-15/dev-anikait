@@ -1,0 +1,4 @@
+{
+  "question": "What are the major technology focus areas for companies in the finance industry?",
+  "subtasks": "1. Identify companies in the finance industry by querying the CompanyInfo table to filter based on the 'Industry' column.\n2. For each identified finance company, retrieve their respective strategic technology focus areas from the CompanyFocusAreaDetail table, linking it to the CompanyInfo table.\n3. Aggregate and summarize the technology focus areas to find trends and major themes prevalent in the finance industry."
+}

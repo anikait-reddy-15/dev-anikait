@@ -1,0 +1,35 @@
+{
+  "question": "What are the current hiring trends in the technology sector among companies, and which companies are focusing on emerging technologies?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify and list companies operating in the technology sector by querying the CompanyInfo table for industries related to technology.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Gather active hiring initiatives from identified technology companies to determine hiring trends, focusing on job domains, designations, and cities from the CompanyHiringDetail table.",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the CompanyFocusAreaDetail table to find specific strategic IT initiatives related to emerging technologies such as AI, cloud computing, blockchain, etc., for the listed technology companies.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Combine the results from the previous analyses to produce a report summarizing current hiring trends and companies focusing on emerging technologies, including the number of hires and technology initiatives per company.",
+      "table": [
+        "CompanyInfo",
+        "CompanyHiringDetail",
+        "CompanyFocusAreaDetail"
+      ]
+    }
+  ]
+}

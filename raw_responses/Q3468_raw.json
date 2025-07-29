@@ -1,0 +1,4 @@
+{
+  "question": "Analyze the IT budget trend among companies in the technology industry and how it correlates with their hiring initiatives.",
+  "subtasks": "[{\"step\":1,\"task\":\"Identify all companies in the technology industry and retrieve their IT budgets and hiring details.\",\"table\":[\"CompanyInfo\",\"CompanyHiringDetail\"]},{\"step\":2,\"task\":\"Aggregate the IT budgets to find the total and average for technology companies.\",\"table\":[\"CompanyInfo\"]},{\"step\":3,\"task\":\"Analyze the hiring details to extract the number of hiring initiatives and job roles within the technology sector.\",\"table\":[\"CompanyHiringDetail\"]},{\"step\":4,\"task\":\"Correlate the IT budget data with the hiring data to identify trends or insights on how budget size affects hiring strategies.\",\"table\":[\"CompanyInfo\",\"CompanyHiringDetail\"]}]"
+}

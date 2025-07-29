@@ -1,0 +1,34 @@
+{
+  "question": "Analyze the recent hiring trends in technology companies in the healthcare sector.",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify technology companies operating in the healthcare sector.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract active hiring initiatives from the relevant companies identified in step 1.",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the extracted hiring data to identify trends in skills and roles being hired for within these companies.",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Summarize insights on the hiring trends and potential impacts on the healthcare technology sector.",
+      "table": [
+        "CompanyInfo",
+        "CompanyHiringDetail"
+      ]
+    }
+  ]
+}

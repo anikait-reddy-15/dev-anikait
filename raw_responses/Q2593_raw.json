@@ -1,0 +1,4 @@
+{
+  "question": "What are the current trends in IT adoption across various industries, and how are companies responding to these trends?",
+  "subtasks": "[{\"step\":1,\"task\":\"Identify the most recent IT trends affecting various industries from the IndustryITTrend table.\",\"table\":[\"IndustryITTrend\"]},{\"step\":2,\"task\":\"Analyze the strategic technology focus areas of companies related to the identified IT trends using the CompanyFocusAreaDetail table.\",\"table\":[\"CompanyFocusAreaDetail\"]},{\"step\":3,\"task\":\"Compile and summarize the insights from the CompanyTechStack table to understand technology adoption among companies in response to IT trends.\",\"table\":[\"CompanyTechStack\"]},{\"step\":4,\"task\":\"Match the findings from the CompanyDealMaster table to investigate how companies are using technology service contracts to align with these trends.\",\"table\":[\"CompanyDealMaster\"]}]"
+}

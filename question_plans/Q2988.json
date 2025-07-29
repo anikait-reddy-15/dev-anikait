@@ -1,0 +1,38 @@
+{
+  "question": "Analyze the technology hiring trends in the IT industry over the past year.",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies in the IT industry in the CompanyInfo table",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Retrieve hiring details from the CompanyHiringDetail table linked to the identified companies",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Filter hiring data to capture only the last year's hiring initiatives",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Analyze the collected hiring details to determine trends in job roles and required skills within the IT industry",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Summarize findings to identify significant hiring trends in the IT sector over the past year",
+      "table": []
+    }
+  ]
+}

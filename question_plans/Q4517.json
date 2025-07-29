@@ -1,0 +1,31 @@
+{
+  "question": "What are the top five companies in terms of revenue in the technology industry, and what are their social media engagement statistics?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify the top five companies in the technology industry based on their revenue.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Fetch the social media engagement statistics for the identified top five companies from relevant social media tables.",
+      "table": [
+        "SocialMediaInfo",
+        "CompanyFacebookDetail",
+        "CompanyInstagramDetail",
+        "CompanyTwitterDetail",
+        "CompanyYoutubeDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Compile the results to present the company names, revenue, and the corresponding social media engagement metrics.",
+      "table": [
+        "CompanyInfo",
+        "SocialMediaInfo"
+      ]
+    }
+  ]
+}

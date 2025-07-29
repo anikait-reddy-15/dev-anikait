@@ -1,0 +1,4 @@
+{
+  "question": "What are the recent IT budget trends across different industries and how does it correlate with hiring trends in the same sectors?",
+  "subtasks": "[{\"step\":1,\"task\":\"Identify and aggregate IT budget data from the CompanyInfo table for various companies and their respective industries.\",\"table\":[\"CompanyInfo\"]},{\"step\":2,\"task\":\"Retrieve hiring trend data by analyzing the CompanyHiringDetail table to capture active positions and hiring initiatives by industry.\",\"table\":[\"CompanyHiringDetail\"]},{\"step\":3,\"task\":\"Analyze the correlation between IT budget allocations and the number of hiring positions across different industries to identify significant trends.\",\"table\":[\"CompanyInfo\",\"CompanyHiringDetail\"]},{\"step\":4,\"task\":\"Compile and summarize insights regarding the trends observed in IT budgets and hiring data across multiple industries.\",\"table\":[\"CompanyInfo\",\"CompanyHiringDetail\"]}]}"
+}

@@ -1,0 +1,4 @@
+{
+  "question": "What are the current IT budgets of companies in the technology sector, and how does it correlate with their hiring trends?",
+  "subtasks": "[ { \"step\": 1, \"task\": \"Retrieve current IT budgets for companies classified under the technology sector.\", \"table\": [\"CompanyInfo\"] }, { \"step\": 2, \"task\": \"Identify active hiring initiatives in technology domains from the hiring detail records.\", \"table\": [\"CompanyHiringDetail\"] }, { \"step\": 3, \"task\": \"Analyze the relationship between IT budgets and hiring trends in the technology sector by comparing the retrieved records.\", \"table\": [\"CompanyInfo\", \"CompanyHiringDetail\"] }, { \"step\": 4, \"task\": \"Compile a report that outlines each company's IT budget alongside their active hiring initiatives in technology domains.\", \"table\": [\"CompanyInfo\", \"CompanyHiringDetail\"] } ]"
+}

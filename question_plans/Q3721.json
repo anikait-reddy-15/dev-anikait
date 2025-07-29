@@ -1,0 +1,38 @@
+{
+  "question": "What are the current hiring trends among leading technology companies in the digital transformation space?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify leading technology companies that are focusing on digital transformation initiatives.",
+      "table": [
+        "CompanyFocusAreaDetail",
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Analyze the active hiring initiatives of identified companies to determine the roles and skills being targeted.",
+      "table": [
+        "CompanyHiringDetail",
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Summarize and categorize the hiring trends based on roles, skills, and companies engaged in digital transformation.",
+      "table": [
+        "CompanyHiringDetail",
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Compare hiring trends across different geographic regions for these companies engaged in digital transformation.",
+      "table": [
+        "CompanyHiringDetail",
+        "CompanyInfo",
+        "CompanyDataCenter"
+      ]
+    }
+  ]
+}

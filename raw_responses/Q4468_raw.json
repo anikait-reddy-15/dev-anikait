@@ -1,0 +1,4 @@
+{
+  "question": "Which companies have a focus on digital transformation and how are they engaging on social media?",
+  "subtasks": "[\n    {\n        \"step\": 1,\n        \"task\": \"Identify companies that have a strategic focus on digital transformation from the CompanyFocusAreaDetail table.\",\n        \"table\": [\"CompanyFocusAreaDetail\"]\n    },\n    {\n        \"step\": 2,\n        \"task\": \"Collect social media engagement metrics for the identified companies from the SocialMediaInfo table.\",\n        \"table\": [\"SocialMediaInfo\"]\n    },\n    {\n        \"step\": 3,\n        \"task\": \"Combine the results from CompanyFocusAreaDetail and SocialMediaInfo to present a comprehensive overview of companies focusing on digital transformation and their social media engagement.\",\n        \"table\": [\"CompanyFocusAreaDetail\", \"SocialMediaInfo\"]\n    }\n]"
+}

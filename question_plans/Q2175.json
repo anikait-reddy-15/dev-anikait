@@ -1,0 +1,29 @@
+{
+  "question": "What are the emerging technology trends in the IT industry based on social media engagement?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies with active social media engagement metrics such as likes and comments across Facebook, Twitter, Instagram, and LinkedIn to provide insights on their popularity and influence in the IT industry.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyTwitterDetail",
+        "CompanyInstagramDetail",
+        "CompanyLinkedinActivity"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Analyze the technology focus areas of these companies by reviewing their records in the CompanyFocusAreaDetail table to understand what emerging technologies they are prioritizing in their business strategies.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Extract and analyze trends from the IndustryITTrend table to correlate emerging technologies with companies' social media engagement metrics, thus identifying how engagement relates to technological focus and strategy within the IT sector.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    }
+  ]
+}

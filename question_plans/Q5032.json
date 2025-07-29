@@ -1,0 +1,43 @@
+{
+  "question": "What are the current industry trends influencing IT investment decisions for companies in the technology sector?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify the relevant companies in the technology sector by filtering the CompanyInfo table based on the Industry column.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Collect and analyze industry-specific IT trends from the IndustryITTrend table to understand which technologies are gaining traction in the technology sector.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Examine the CompanyDealMaster table for records of recent contracts or deals related to IT services to see how companies are spending their budgets on new technologies or partners in the industry.",
+      "table": [
+        "CompanyDealMaster"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Extract social media insights from the SocialMediaInfo table to gauge the companies' engagement with their audiences and how they communicate about their IT investments.",
+      "table": [
+        "SocialMediaInfo"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Compile the findings to summarize the current trends influencing IT investments in the technology sector based on the analyzed data from all relevant tables.",
+      "table": [
+        "CompanyInfo",
+        "IndustryITTrend",
+        "CompanyDealMaster",
+        "SocialMediaInfo"
+      ]
+    }
+  ]
+}

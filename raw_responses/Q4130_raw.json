@@ -1,0 +1,4 @@
+{
+  "question": "Analyze the impact of social media presence on company revenue for companies in the tech industry.",
+  "subtasks": "[{\"step\":1,\"task\":\"Identify all active companies in the technology industry along with their revenue and other financial metrics.\",\"table\":[\"CompanyInfo\"]},{\"step\":2,\"task\":\"Gather social media engagement data (likes, comments, shares, etc.) for the identified tech companies from their respective social media detail tables.\",\"table\":[\"CompanyFacebookDetail\",\"CompanyTwitterDetail\",\"CompanyInstagramDetail\",\"CompanyYoutubeDetail\"]},{\"step\":3,\"task\":\"Compile the collected social media metrics and revenue data to analyze the correlation between social media engagement levels and company revenue.\",\"table\":[\"CompanyInfo\",\"CompanyFacebookDetail\",\"CompanyTwitterDetail\",\"CompanyInstagramDetail\",\"CompanyYoutubeDetail\"]}]"
+}

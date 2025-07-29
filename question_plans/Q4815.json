@@ -1,0 +1,42 @@
+{
+  "question": "What are the current strategies that companies are adopting in the IT sector?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify technology focus areas from companies that highlight their strategic initiatives in IT",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Analyze leadership excerpts that provide insights into companies' strategies for technology adoption and transformation",
+      "table": [
+        "CompanyLeadershipExcerpt"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Review B2B technology service contracts to understand the types of services that companies are prioritizing in their IT strategies",
+      "table": [
+        "CompanyDealMaster"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Examine industry IT trends data to gather information on how different sectors are adapting their strategies based on technological advancements",
+      "table": [
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Gather details from company social media activity to assess their engagement on IT-related topics and initiatives",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyTwitterDetail",
+        "CompanyInstagramDetail"
+      ]
+    }
+  ]
+}

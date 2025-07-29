@@ -1,0 +1,4 @@
+{
+  "question": "How can we analyze the growth of technology adoption across different industries over the past five years?",
+  "subtasks": "[{'step': 1, 'task': 'Identify the industries to be analyzed by extracting unique industry types from the IndustryITTrend table.', 'table': ['IndustryITTrend']}, {'step': 2, 'task': 'Gather technology adoption metrics over the past five years from the IndustryITTrend table, focusing on emerging technologies implemented in various sectors.', 'table': ['IndustryITTrend']}, {'step': 3, 'task': 'Summarize the findings into a comparative analysis showing trends in technology adoption across selected industries.', 'table': ['IndustryITTrend', 'CompanyInfo']}, {'step': 4, 'task': 'Visualize the growth patterns identified in the previous steps, creating charts or graphs to represent the adoption rates.', 'table': ['IndustryITTrend']}]}"
+}

@@ -1,0 +1,4 @@
+{
+  "question": "What are the emerging technology focus areas and trends among companies in the healthcare industry?",
+  "subtasks": "[{\"step\":1,\"task\":\"Identify all companies in the healthcare industry and their associated profiles.\",\"table\":[\"CompanyInfo\"]},{\"step\":2,\"task\":\"Gather data on the technology focus areas for each identified healthcare company.\",\"table\":[\"CompanyFocusAreaDetail\"]},{\"step\":3,\"task\":\"Analyze the technology trends reported in the IndustryITTrend table that are specific to the healthcare industry.\",\"table\":[\"IndustryITTrend\"]},{\"step\":4,\"task\":\"Combine the focus areas and trends data to summarize the emerging technology initiatives in healthcare.\",\"table\":[\"CompanyFocusAreaDetail\",\"IndustryITTrend\"]}]"
+}

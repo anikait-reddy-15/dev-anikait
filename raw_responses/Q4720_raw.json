@@ -1,0 +1,4 @@
+{
+  "question": "What are the current IT focus areas and vendor partnerships of companies in the technology industry?",
+  "subtasks": "[ { \"step\": 1, \"task\": \"Identify all companies operating in the technology industry from the CompanyInfo table.\", \"table\": [\"CompanyInfo\"] }, { \"step\": 2, \"task\": \"Retrieve IT focus areas for each identified company from the CompanyFocusAreaDetail table.\", \"table\": [\"CompanyFocusAreaDetail\"] }, { \"step\": 3, \"task\": \"Gather vendor partnership details linked to each company from the CompanyITPartnerDetail table.\", \"table\": [\"CompanyITPartnerDetail\"] } ]"
+}

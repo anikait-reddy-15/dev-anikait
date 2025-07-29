@@ -1,0 +1,4 @@
+{
+  "question": "What are the key technology focus areas and trends in our industry for the next year?",
+  "subtasks": "[{'step': 1, 'task': 'Identify the primary industries related to our company and assess their current IT focus areas.', 'table': ['CompanyInfo', 'CompanyFocusAreaDetail', 'IndustryITTrend']},{'step': 2, 'task': 'Analyze emerging IT trends for each identified industry, focusing on key technologies like AI, cloud computing, and automation.', 'table': ['IndustryITTrend']},{'step': 3, 'task': 'Compile a report summarizing the strategic technology focus areas for each industry and anticipated adoption trends for the coming year.', 'table': ['CompanyFocusAreaDetail', 'IndustryITTrend']}]"
+}

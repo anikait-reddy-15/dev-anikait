@@ -1,0 +1,35 @@
+{
+  "question": "What are the current technology partnerships and focus areas for the top 10 companies by market capitalization?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify the top 10 companies by market capitalization from the CompanyInfo table.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "For each of the top 10 companies, gather details on their strategic technology focus areas from CompanyFocusAreaDetail.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Retrieve current technology partnerships and deal values for the top 10 companies from CompanyITPartnerDetail.",
+      "table": [
+        "CompanyITPartnerDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Compile a report summarizing the technology partnerships and focus areas for analysis and review.",
+      "table": [
+        "CompanyInfo",
+        "CompanyFocusAreaDetail",
+        "CompanyITPartnerDetail"
+      ]
+    }
+  ]
+}

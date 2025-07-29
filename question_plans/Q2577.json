@@ -1,0 +1,44 @@
+{
+  "question": "What are the technology adoption trends across different industries and how are companies prioritizing their IT investments?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify and categorize current IT focus areas relevant to various industries.",
+      "table": [
+        "IndustryITTrend",
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Analyze technology adoption in contracts between vendors and companies to understand prevalent technologies across industries.",
+      "table": [
+        "CompanyDealMaster",
+        "CompanyVendorTechDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Evaluate financial metrics of companies to see how IT budget correlates with technology investments and focus areas.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Aggregate insights from social media activities to observe how companies communicate their technology priorities.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyTwitterDetail",
+        "CompanyInstagramDetail"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Review leadership excerpts for insights on strategic directions and technology investments.",
+      "table": [
+        "CompanyLeadershipExcerpt"
+      ]
+    }
+  ]
+}

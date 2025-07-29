@@ -1,0 +1,4 @@
+{
+  "question": "Identify the current social media engagement metrics for companies in the technology industry.",
+  "subtasks": "1. Retrieve a list of all companies within the technology industry to identify the target companies. Table: ['CompanyInfo']\n2. Collect social media engagement metrics, including likes, comments, and engagement rates from various platforms for the identified companies. Table: ['CompanyFacebookDetail', 'CompanyInstagramDetail', 'CompanyTwitterDetail', 'CompanyYoutubeDetail']\n3. Compile and aggregate the engagement metrics retrieved from the social media tables for each company to present a comprehensive overview. Table: ['CompanyFacebookDetail', 'CompanyInstagramDetail', 'CompanyTwitterDetail', 'CompanyYoutubeDetail']"
+}

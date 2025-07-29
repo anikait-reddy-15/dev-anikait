@@ -1,0 +1,30 @@
+{
+  "question": "What are the key trends in technology adoption across different industries based on social media engagement?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify the relevant industries for technology adoption trends.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Gather social media engagement metrics for companies within those industries to correlate technology trends with social presence.",
+      "table": [
+        "SocialMediaInfo",
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the extracted social media engagement data to identify patterns or correlations with the identified technology trends for each industry.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyInstagramDetail",
+        "CompanyTwitterDetail",
+        "CompanyYoutubeDetail"
+      ]
+    }
+  ]
+}

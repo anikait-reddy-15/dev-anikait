@@ -1,0 +1,4 @@
+{
+  "question": "What are the most popular social media platforms used by companies, and how much engagement do they receive?",
+  "subtasks": "[{'step': 1, 'task': 'Identify all companies and their associated social media presence from the SocialMediaInfo table.', 'table': ['SocialMediaInfo']}, {'step': 2, 'task': 'Aggregate the engagement counts for each social media platform to determine popularity.', 'table': ['SocialMediaInfo']}, {'step': 3, 'task': 'Cross-reference the aggregated data with individual company information to provide context on industry and size.', 'table': ['SocialMediaInfo', 'CompanyInfo']}, {'step': 4, 'task': 'Prepare a report summarizing the findings regarding platform popularity and engagement levels for presentation.', 'table': ['SocialMediaInfo', 'CompanyInfo']}]}"
+}

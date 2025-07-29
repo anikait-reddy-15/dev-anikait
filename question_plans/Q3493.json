@@ -1,0 +1,33 @@
+{
+  "question": "What are the current IT trends and focuses across various companies and industries?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify the relevant IT trends currently being tracked across different industries.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Retrieve the strategic IT focus areas for companies, detailing their current initiatives and technological directions.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Compile statistics regarding the adoption of specific technologies by companies, linking to their tech stack records for deeper insights.",
+      "table": [
+        "CompanyTechStack"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Gather data on social media engagement that may reflect trends in technology interest and company initiatives related to IT.",
+      "table": [
+        "SocialMediaInfo"
+      ]
+    }
+  ]
+}

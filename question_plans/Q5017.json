@@ -1,0 +1,47 @@
+{
+  "question": "Analyze the social media engagement metrics for companies in the technology industry and identify trends over the last year.",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Retrieve engagement metrics from Facebook and Instagram for technology companies over the last year.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyInstagramDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Aggregate the retrieved engagement metrics by company to identify top-performing companies in terms of social media engagement.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyInstagramDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze trends in the engagement data over the last 12 months to identify patterns or shifts in social media activity among technology companies.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyInstagramDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Cross-reference engagement data with industry-specific innovations or announcements to correlate spikes in engagement with market activities.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyInstagramDetail",
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Compile the findings into a report summarizing social media engagement trends and their implications for marketing strategies in the technology sector.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyInstagramDetail",
+        "IndustryITTrend"
+      ]
+    }
+  ]
+}

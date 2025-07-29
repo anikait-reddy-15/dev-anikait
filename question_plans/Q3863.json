@@ -1,0 +1,34 @@
+{
+  "question": "What are the key technology focus areas for companies in the IT industry and their recent engagements in social media?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify all companies operating within the IT industry and gather their basic details for analysis.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract the strategic technology focus areas for the identified companies to understand their current technological initiatives.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Compile recent social media engagement data (Facebook, Twitter, Instagram, and YouTube) for each identified company to analyze their online activity and audience interaction.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyTwitterDetail",
+        "CompanyInstagramDetail",
+        "CompanyYoutubeDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Analyze the collected data to provide insights on the relationship between technology focus areas and social media engagement trends.",
+      "table": []
+    }
+  ]
+}

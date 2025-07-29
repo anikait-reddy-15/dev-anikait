@@ -1,0 +1,36 @@
+{
+  "question": "What are the technology trends across different industries and how are companies adapting their IT strategies in response?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify emerging IT trends across various industries",
+      "table": [
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Analyze technology adoption and implementation by companies",
+      "table": [
+        "CompanyTechStack",
+        "CompanyVendorTechDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Examine strategic focus areas and narratives from companies regarding their IT initiatives",
+      "table": [
+        "CompanyFocusAreaDetail",
+        "CompanyLeadershipExcerpt"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Assess company performance metrics in relation to their IT spending",
+      "table": [
+        "CompanyInfo",
+        "CompanyDealMaster"
+      ]
+    }
+  ]
+}

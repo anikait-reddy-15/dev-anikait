@@ -1,0 +1,38 @@
+{
+  "question": "What are the trends in technology adoption among companies in the finance industry based on their social media engagement?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify all companies in the finance industry from the CompanyInfo table to analyze their technology adoption trends.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Gather social media engagement metrics (likes, comments, engagement rate) from the CompanyFacebookDetail, CompanyTwitterDetail, and CompanyInstagramDetail tables for the identified finance companies.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyTwitterDetail",
+        "CompanyInstagramDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Extract technology usage information from the CompanyTechStack table for each company in the finance industry to assess how technology correlates with social media engagement.",
+      "table": [
+        "CompanyTechStack"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Analyze and summarize the relationship between technology adoption and social media engagement for the finance companies using comparative statistics.",
+      "table": [
+        "CompanyTechStack",
+        "CompanyFacebookDetail",
+        "CompanyTwitterDetail",
+        "CompanyInstagramDetail"
+      ]
+    }
+  ]
+}

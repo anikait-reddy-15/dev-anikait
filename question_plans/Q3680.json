@@ -1,0 +1,33 @@
+{
+  "question": "What are the latest social media engagement metrics for the top 10 companies, and how do they correlate with their market capitalization?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify the top 10 companies by market capitalization from the CompanyInfo table.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Retrieve the latest engagement metrics (likes, comments, reposts) for these companies from Facebook, Instagram, Twitter, and Youtube tables.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyInstagramDetail",
+        "CompanyTwitterDetail",
+        "CompanyYoutubeDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Calculate correlations between the market capitalization and social media engagement metrics for these top 10 companies.",
+      "table": [
+        "CompanyInfo",
+        "CompanyFacebookDetail",
+        "CompanyInstagramDetail",
+        "CompanyTwitterDetail",
+        "CompanyYoutubeDetail"
+      ]
+    }
+  ]
+}

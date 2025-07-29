@@ -1,0 +1,47 @@
+{
+  "question": "Analyze a company's technology adoption trends and social media engagement.",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify the technology stack used by the company to analyze the technologies they have adopted.",
+      "table": [
+        "CompanyTechStack"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Gather social media engagement metrics from different platforms to evaluate the company's presence and audience interaction.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyTwitterDetail",
+        "CompanyInstagramDetail",
+        "CompanyYoutubeDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Correlate the technology stack with social media engagement data to see if there are any patterns between technology adoption and social media activity.",
+      "table": [
+        "CompanyTechStack",
+        "CompanyFacebookDetail",
+        "CompanyTwitterDetail",
+        "CompanyInstagramDetail",
+        "CompanyYoutubeDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Examine any partnerships with IT vendors that may influence technology adoption and social media strategies.",
+      "table": [
+        "CompanyITPartnerDetail"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Review leadership excerpts to understand the strategic vision driving technology adoption and social media engagement tactics.",
+      "table": [
+        "CompanyLeadershipExcerpt"
+      ]
+    }
+  ]
+}

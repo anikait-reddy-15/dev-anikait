@@ -1,0 +1,4 @@
+{
+  "question": "What are the emerging IT trends among companies in the financial services industry?",
+  "subtasks": "[{\"step\":1,\"task\":\"Identify all companies classified under the financial services industry from the CompanyInfo table.\",\"table\":[\"CompanyInfo\"]},{\"step\":2,\"task\":\"Retrieve the emerging IT trends relevant to the financial services industry from the IndustryITTrend table.\",\"table\":[\"IndustryITTrend\"]},{\"step\":3,\"task\":\"Link the identified companies with the trends to determine which companies are adopting specific IT trends based on the IndustryITTrend table.\",\"table\":[\"CompanyInfo\",\"IndustryITTrend\"]},{\"step\":4,\"task\":\"Analyze the data to summarize the IT adoption trends for each company found in the financial services sector.\",\"table\":[\"CompanyInfo\",\"IndustryITTrend\"]}]}"
+}

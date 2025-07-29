@@ -1,0 +1,36 @@
+{
+  "question": "What are the emerging technology trends in the industry sectors that companies are focusing on?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify the industries with the latest emerging technology trends from the IndustryITTrend table.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Gather details about the technology focus areas of companies from the CompanyFocusAreaDetail table.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Cross-reference the identified industry trends with the technology focus areas to see which companies are aligning their strategies accordingly.",
+      "table": [
+        "IndustryITTrend",
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Summarize the findings to present a cohesive view of the sector-specific technology trends and the companies leading those initiatives.",
+      "table": [
+        "CompanyInfo",
+        "IndustryITTrend",
+        "CompanyFocusAreaDetail"
+      ]
+    }
+  ]
+}

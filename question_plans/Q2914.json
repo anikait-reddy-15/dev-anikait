@@ -1,0 +1,38 @@
+{
+  "question": "Analyze the technology trends and focus areas of companies across different industries.",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Gather information on the industries and their respective focus areas to understand where companies are investing their resources.",
+      "table": [
+        "IndustryITTrend",
+        "IndustryBusinessTrend"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Identify the technology focus areas of individual companies to see their specific strategies and initiatives in IT.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Compile data on the technology stacks and vendor technologies of companies to evaluate the tools they are adopting. ",
+      "table": [
+        "CompanyTechStack",
+        "CompanyVendorProductDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Analyze social media engagement metrics of companies to see how their technology focus areas are impacting their outreach and presence online.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyInstagramDetail",
+        "CompanyTwitterDetail",
+        "CompanyYoutubeDetail"
+      ]
+    }
+  ]
+}

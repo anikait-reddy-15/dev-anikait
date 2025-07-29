@@ -1,0 +1,4 @@
+{
+  "question": "What are the current social media engagement levels and technology focus areas of tech companies in the AI sector?",
+  "subtasks": "[{\"step\":1,\"task\":\"Identify tech companies operating in the AI sector by filtering the CompanyInfo table based on the Industry column.\",\"table\":[\"CompanyInfo\"]},{\"step\":2,\"task\":\"Gather social media engagement data for the identified companies from the SocialMediaInfo and Facebook, Twitter, Instagram, and YouTube detail tables.\",\"table\":[\"SocialMediaInfo\",\"CompanyFacebookDetail\",\"CompanyTwitterDetail\",\"CompanyInstagramDetail\",\"CompanyYoutubeDetail\"]},{\"step\":3,\"task\":\"Identify and gather data on technology focus areas specific to the AI sector from the CompanyFocusAreaDetail table linked to the identified companies.\",\"table\":[\"CompanyFocusAreaDetail\"]}]"
+}

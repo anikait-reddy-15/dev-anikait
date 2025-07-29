@@ -1,0 +1,4 @@
+{
+  "question": "What are the current social media metrics for companies in the technology industry?",
+  "subtasks": "[{\"step\":1,\"task\":\"Retrieve the list of technology companies from the CompanyInfo table, including their names and IDs.\",\"table\":[\"CompanyInfo\"]},{\"step\":2,\"task\":\"For each technology company retrieved in step 1, gather their respective social media metrics from the SocialMediaInfo table, including engagement count and platform type.\",\"table\":[\"SocialMediaInfo\"]},{\"step\":3,\"task\":\"Compile the social media metrics and company details into a summarized report showing the social media presence of each technology company.\",\"table\":[\"CompanyInfo\",\"SocialMediaInfo\"]}]"
+}

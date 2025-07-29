@@ -1,0 +1,43 @@
+{
+  "question": "What are the emerging technology trends and hiring demands in the IT industry for companies of different sizes?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Analyze the IT budget and employee count of companies to categorize them into different size segments (small, medium, large).",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Identify current hiring initiatives and job roles from the Company's hiring detail to assess the demand for specific technologies and skills in different company size segments.",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Review the strategic focus areas from the CompanyFocusAreaDetail to identify which emerging technologies companies are prioritizing based on their size category.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Compile and analyze data from IndustryITTrend to extract insights on the overall trends affecting the IT sector, and correlate findings with company size and hiring data.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Synthesize all findings into a report highlighting key trends, demands, and strategic initiatives tailored to each company size. Include actionable recommendations based on the analysis.",
+      "table": [
+        "CompanyInfo",
+        "CompanyHiringDetail",
+        "IndustryITTrend",
+        "CompanyFocusAreaDetail"
+      ]
+    }
+  ]
+}

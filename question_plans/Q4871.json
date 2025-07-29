@@ -1,0 +1,35 @@
+{
+  "question": "What are the latest trends in IT adoption across different industries and how does our company compare?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Retrieve a list of emerging IT trends and their descriptions for various industries.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract data about our company's IT focus areas from the CompanyFocusAreaDetail table.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze how our company's technology stack aligns with industry trends by comparing our tech stack with the technologies mentioned in the IndustryITTrend.",
+      "table": [
+        "CompanyTechStack",
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Summarize key findings regarding IT adoption trends and our company's standing in comparison to other companies in the same industry.",
+      "table": [
+        "CompanyInfo",
+        "IndustryITTrend"
+      ]
+    }
+  ]
+}

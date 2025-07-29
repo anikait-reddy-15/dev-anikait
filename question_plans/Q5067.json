@@ -1,0 +1,33 @@
+{
+  "question": "What are the current IT technology trends being adopted across different industries?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify the list of industries for which IT trends are tracked.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Gather details of emerging IT technology trends associated with the identified industries.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the collected IT trend data to summarize the most prevalent technologies being adopted.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Compile insights from the analysis to determine the overall impact on industry standards and practices.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "question": "What are the emerging IT trends across different industries and how are companies adapting their business strategies accordingly?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify the key emerging IT trends reported in the IndustryITTrend table, focusing on specific technologies and strategies being adopted.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Analyze the CompanyInfo table to identify the companies that are classified under industries showing the most significant IT trends based on the findings from the previous step.",
+      "table": [
+        "CompanyInfo",
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Examine the CompanyFocusAreaDetail table to gather data on specific strategic technology focus areas each identified company is pursuing, in response to the IT trends discovered.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Summarize how these companies are adjusting their business strategies by cross-referencing insights from the CompanyDealMaster and CompanyLeadershipExcerpt tables, focusing on contracts and leadership statements related to the emerging trends.",
+      "table": [
+        "CompanyDealMaster",
+        "CompanyLeadershipExcerpt"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Prepare a comprehensive report that includes the identified IT trends, the companies responding to them, and the strategic initiatives they are implementing based on the analysis from the previous steps.",
+      "table": [
+        "CompanyInfo",
+        "IndustryITTrend",
+        "CompanyFocusAreaDetail",
+        "CompanyDealMaster",
+        "CompanyLeadershipExcerpt"
+      ]
+    }
+  ]
+}
