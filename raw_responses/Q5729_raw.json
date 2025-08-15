@@ -1,0 +1,4 @@
+{
+  "question": "What are the latest trends in technology adoption across various industries, and how are companies positioning themselves in this landscape?",
+  "subtasks": "[{'step': 1, 'task': 'Identify emerging IT trends specific to various industries.', 'table': ['IndustryITTrend']}, {'step': 2, 'task': 'Gather data on company technology focus areas and initiatives to understand positioning.', 'table': ['CompanyFocusAreaDetail']}, {'step': 3, 'task': 'Analyze company tech stacks to track technology adoption trends across organizations.', 'table': ['CompanyTechStack']}, {'step': 4, 'task': 'Evaluate how companies are communicating their tech initiatives in leadership excerpts and social media.', 'table': ['CompanyLeadershipExcerpt', 'CompanyFacebookDetail', 'CompanyTwitterDetail', 'CompanyInstagramDetail']}]"
+}

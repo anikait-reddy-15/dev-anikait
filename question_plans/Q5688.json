@@ -1,0 +1,42 @@
+{
+  "question": "Analyze the impact of technology adoption on company revenue across various industries.",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies that have adopted specific technologies in their tech stack",
+      "table": [
+        "CompanyTechStack"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Retrieve revenue information for the identified companies",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Categorize these companies by industry to analyze trends",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Evaluate the relationship between technology adoption and revenue growth by correlating data",
+      "table": [
+        "CompanyTechStack",
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Summarize findings by industry, highlighting which technologies correlate with higher revenues",
+      "table": [
+        "CompanyInfo",
+        "IndustryITTrend"
+      ]
+    }
+  ]
+}

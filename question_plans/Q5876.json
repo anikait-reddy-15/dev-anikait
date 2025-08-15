@@ -1,0 +1,40 @@
+{
+  "question": "What are the technology adoption trends and vendor relationships of companies in the healthcare industry?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies that belong to the healthcare industry by querying the CompanyInfo table for entries with the appropriate industry classification.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "For the identified healthcare companies, retrieve their associated technology stack data from the CompanyTechStack table to understand what technologies they are currently using.",
+      "table": [
+        "CompanyTechStack"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Examine the vendor product details for these healthcare companies by querying the CompanyVendorProductDetail table to analyze their vendor relationships and the products they have adopted based on contractual agreements.",
+      "table": [
+        "CompanyVendorProductDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Gather insights on ongoing IT partnerships and collaborations of healthcare companies by utilizing the CompanyITPartnerDetail table to identify active collaborations and their details.",
+      "table": [
+        "CompanyITPartnerDetail"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Analyze emerging IT trends specific to the healthcare industry by querying the IndustryITTrend table to understand the broader technology adoption trends and strategic focus areas for healthcare firms.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "question": "What are the IT spending trends for companies in the healthcare industry?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify all companies within the healthcare industry along with their IT budgets based on the CompanyInfo table.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Gather financial metrics such as revenue and net income for the identified healthcare companies to analyze their financial capacity for IT spending.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze contract data from the CompanyDealMaster table to find trends relating to IT service contracts specific to healthcare companies, including duration and deal values.",
+      "table": [
+        "CompanyDealMaster"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Review strategic technology focus areas from the CompanyFocusAreaDetail table to understand any emerging IT technology trends being pursued by healthcare companies.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Compile social media engagement data from CompanyFacebookDetail and other social media tables to assess how healthcare companies are promoting their IT initiatives online.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyInstagramDetail",
+        "CompanyTwitterDetail",
+        "CompanyYoutubeDetail"
+      ]
+    }
+  ]
+}

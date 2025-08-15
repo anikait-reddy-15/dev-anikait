@@ -1,0 +1,40 @@
+{
+  "question": "What are the current technology focus areas for companies within the fintech industry?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies operating in the fintech industry from the CompanyInfo table.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract strategic technology focus areas associated with identified fintech companies from the CompanyFocusAreaDetail table.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Compile a list of technology focus areas along with descriptions for each fintech company.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Analyze the extracted data to identify common trends or unique focus areas among fintech companies.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Summarize findings into actionable insights relevant to technology investments in the fintech sector.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    }
+  ]
+}

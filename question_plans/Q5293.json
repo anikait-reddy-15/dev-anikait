@@ -1,0 +1,41 @@
+{
+  "question": "What are the current hiring trends in technology across different companies and regions?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify the companies that are actively hiring in the technology sector.",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Analyze the job roles and designations that are most frequently listed in the hiring data.",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Geographically classify the hiring data to identify which regions are seeing the most demand for tech roles.",
+      "table": [
+        "CompanyHiringDetail",
+        "CompanyDataCenter"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Examine the skill requirements and domains linked to technology hiring initiatives across companies.",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Aggregate and visualize the hiring trends over time to understand seasonal or strategic shifts in technology recruitment practices.",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    }
+  ]
+}

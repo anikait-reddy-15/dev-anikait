@@ -1,0 +1,4 @@
+{
+  "question": "How can we analyze the hiring trends and technology adoption among leading companies in the IT sector?",
+  "subtasks": "[{'step': 1, 'task': 'Identify leading companies in the IT sector based on revenue and market capitalization.', 'table': ['CompanyInfo']}, {'step': 2, 'task': 'Extract and analyze active hiring initiatives of these companies, focusing on the job roles and required technologies.', 'table': ['CompanyHiringDetail']}, {'step': 3, 'task': 'Review the technology stacks adopted by these companies to identify common tools and platforms.', 'table': ['CompanyTechStack']}, {'step': 4, 'task': 'Analyze the strategic technology focus areas for these companies to understand their investment directions.', 'table': ['CompanyFocusAreaDetail']}, {'step': 5, 'task': 'Cross-reference hiring data with the technology focus areas to identify skills in demand.', 'table': ['CompanyHiringDetail', 'CompanyFocusAreaDetail']}]"
+}

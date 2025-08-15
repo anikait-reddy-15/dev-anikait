@@ -1,0 +1,34 @@
+{
+  "question": "What are the recent trends in technology adoption among companies in the software industry?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify all companies operating in the software industry and extract their corresponding information such as revenue, market capitalization, and IT budget from the CompanyInfo table.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Gather detailed records of technology services utilized by these companies, focusing on the type of technologies being adopted from the CompanyVendorTechDetail table.",
+      "table": [
+        "CompanyVendorTechDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the recent social media activity of these companies to determine how they are communicating their technology adoption trends via their posts across platforms like Twitter and Facebook, using tables like CompanyTwitterDetail and CompanyFacebookDetail.",
+      "table": [
+        "CompanyTwitterDetail",
+        "CompanyFacebookDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Compile and summarize findings regarding the focus areas and strategic directions utilized by these companies towards technology adoption based on the CompanyFocusAreaDetail table.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    }
+  ]
+}

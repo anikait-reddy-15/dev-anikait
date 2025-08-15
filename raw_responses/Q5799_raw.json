@@ -1,0 +1,4 @@
+{
+  "question": "What are the technology focus areas and social media engagement trends for companies in the finance industry?",
+  "subtasks": "[{\"step\":1,\"task\":\"Retrieve a list of companies operating in the finance industry along with their CompanyInfo specifics such as Name, Active status, and FoundedYear.\",\"table\":[\"CompanyInfo\"]},{\"step\":2,\"task\":\"Extract technology focus areas for each company identified in the previous step, detailing their investments and initiatives in IT domains.\",\"table\":[\"CompanyFocusAreaDetail\"]},{\"step\":3,\"task\":\"Gather social media engagement metrics for the companies from their Facebook, Twitter, Instagram, and YouTube data to analyze engagement trends.\",\"table\":[\"CompanyFacebookDetail\",\"CompanyTwitterDetail\",\"CompanyInstagramDetail\",\"CompanyYoutubeDetail\"]}]"
+}

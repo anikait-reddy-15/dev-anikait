@@ -1,0 +1,36 @@
+{
+  "question": "What are the emerging IT trends across different industries and how are companies responding to them?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify and list the emerging IT trends from the IndustryITTrend table.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Analyze the technology adoption strategies of various companies using CompanyTechStack and CompanyFocusAreaDetail to see how they are responding to identified IT trends.",
+      "table": [
+        "CompanyTechStack",
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Examine the detailed narratives and focus areas for specific industries from the IndustryBusinessTrend table and correlate them with companies in those sectors from CompanyInfo.",
+      "table": [
+        "IndustryBusinessTrend",
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Compile and summarize the connections between the trends identified and the current company's IT strategies and focus areas, and prepare insights on their responses.",
+      "table": [
+        "CompanyFocusAreaDetail",
+        "CompanyTechStack"
+      ]
+    }
+  ]
+}

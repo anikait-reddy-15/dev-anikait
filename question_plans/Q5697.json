@@ -1,0 +1,36 @@
+{
+  "question": "What are the latest technological trends and focus areas being adopted by companies across different industries, and how is this reflected in their social media engagement?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify the latest technological trends in different industries based on historical data and emerging IT trends.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Gather data on companies and their respective IT focus areas to understand their strategic initiatives in technology.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Compile social media engagement metrics for companies to analyze the impact of selected technological trends on their online presence.",
+      "table": [
+        "SocialMediaInfo"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Analyze how different industries are utilizing social media to promote their technological advancements and engage with their audience.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyInstagramDetail",
+        "CompanyTwitterDetail",
+        "CompanyYoutubeDetail"
+      ]
+    }
+  ]
+}

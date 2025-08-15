@@ -1,0 +1,38 @@
+{
+  "question": "What are the social media engagement metrics for technology companies involved in cloud computing?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify all technology companies that focus on cloud computing from the CompanyFocusAreaDetail table.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract the CompanyInfoId for the identified cloud computing companies to gather their social media engagement metrics.",
+      "table": [
+        "CompanyFocusAreaDetail",
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Retrieving social media engagement data including likes, comments, and reposts on Facebook, Instagram, and Twitter for each identified company from the respective social media detail tables.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyInstagramDetail",
+        "CompanyTwitterDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Compile and summarize the engagement metrics by company, categorizing them by platform and presenting total counts of engagement activities.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyInstagramDetail",
+        "CompanyTwitterDetail"
+      ]
+    }
+  ]
+}

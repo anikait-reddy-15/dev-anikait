@@ -1,0 +1,38 @@
+{
+  "question": "What are the social media engagement trends for companies across different industries?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify all active companies and their associated industries.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Retrieve social media engagement metrics for the identified companies, focusing on Facebook, Twitter, Instagram, and YouTube.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyTwitterDetail",
+        "CompanyInstagramDetail",
+        "CompanyYoutubeDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Aggregate the engagement metrics to analyze trends across different industries.",
+      "table": [
+        "SocialMediaInfo",
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Visualize the social media engagement trends by industry, highlighting key performance indicators (KPIs).",
+      "table": [
+        "SocialMediaInfo",
+        "IndustryITTrend"
+      ]
+    }
+  ]
+}

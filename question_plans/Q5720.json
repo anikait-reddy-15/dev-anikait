@@ -1,0 +1,34 @@
+{
+  "question": "What are the emerging IT trends and technology focus areas across different industries for 2023?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify the latest entries in the IndustryITTrend table for 2023 to understand the current technology focus areas in various industries.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Analyze the IndustryBusinessTrend table to find emerging business trends that may influence IT decisions in 2023.",
+      "table": [
+        "IndustryBusinessTrend"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Compile data from both the IndustryITTrend and IndustryBusinessTrend tables to identify correlations between business trends and IT focus areas.",
+      "table": [
+        "IndustryITTrend",
+        "IndustryBusinessTrend"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Summarize the findings into a report format, highlighting key trends and focus areas for 2023, which may include visual data presentation if applicable.",
+      "table": [
+        "PageInfo"
+      ]
+    }
+  ]
+}

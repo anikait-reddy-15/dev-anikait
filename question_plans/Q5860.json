@@ -1,0 +1,22 @@
+{
+  "question": "Identify the top 5 companies with the highest IT budgets and provide their primary industry and headquarters location.",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Fetch the companies with their IT budgets, primary industries, and headquarters locations sorted by IT budget in descending order.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Limit the fetched results to the top 5 companies based on the IT budget.",
+      "table": []
+    },
+    {
+      "step": 3,
+      "task": "Format and return the list of the top 5 companies showing their names, IT budgets, primary industry, and headquarters location.",
+      "table": []
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "question": "Analyze the social media performance of a company and its correlation with hiring trends in the technology sector.",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify the company of interest from the CompanyInfo table based on the company's name or criteria such as Industry or Geography.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Collect social media engagement metrics for the identified company from the Facebook, Twitter, Instagram, and YouTube detail tables to assess overall social media performance.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyTwitterDetail",
+        "CompanyInstagramDetail",
+        "CompanyYoutubeDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Examine the active hiring initiatives of the company and categorize them by domain and designation from the CompanyHiringDetail table.",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Analyze the hiring patterns over time and compare them with social media engagement trends to identify potential correlations between hiring initiatives and social media performance.",
+      "table": [
+        "CompanyHiringDetail",
+        "CompanyFacebookDetail",
+        "CompanyTwitterDetail",
+        "CompanyInstagramDetail",
+        "CompanyYoutubeDetail"
+      ]
+    }
+  ]
+}

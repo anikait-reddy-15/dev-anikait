@@ -1,0 +1,4 @@
+{
+  "question": "What are the current technology focus areas and digital transformation strategies of companies in the healthcare industry?",
+  "subtasks": "[{'step': 1, 'task': 'Identify all companies operating in the healthcare industry.', 'table': ['CompanyInfo']}, {'step': 2, 'task': 'Gather details on technology focus areas related to each identified healthcare company.', 'table': ['CompanyFocusAreaDetail']}, {'step': 3, 'task': 'Analyze the latest social media interactions of these companies to understand their public communication on technology initiatives.', 'table': ['CompanyFacebookDetail', 'CompanyInstagramDetail', 'CompanyTwitterDetail', 'CompanyYoutubeDetail']}, {'step': 4, 'task': 'Identify and aggregate data on technology adoption trends and digital transformation strategies specific to the healthcare industry.', 'table': ['IndustryITTrend']}]"
+}

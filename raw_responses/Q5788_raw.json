@@ -1,0 +1,4 @@
+{
+  "question": "What are the emerging IT trends observed in companies within the technology industry?",
+  "subtasks": "[{\"step\": 1, \"task\": \"Identify all companies that belong to the technology industry based on their industry classification.\", \"table\": [\"CompanyInfo\"]}, {\"step\": 2, \"task\": \"Extract information on IT trends relevant to the technology sector from the IndustryITTrend table.\", \"table\": [\"IndustryITTrend\"]}, {\"step\": 3, \"task\": \"Cross-reference the identified companies with their specific technology focus areas from the CompanyFocusAreaDetail table to understand their strategic alignment with the identified IT trends.\", \"table\": [\"CompanyFocusAreaDetail\", \"CompanyInfo\"]}, {\"step\": 4, \"task\": \"Aggregate and summarize the data to outline the key IT trends and the companies actively engaging with these trends.\", \"table\": [\"CompanyInfo\", \"IndustryITTrend\", \"CompanyFocusAreaDetail\"]}]"
+}

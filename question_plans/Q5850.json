@@ -1,0 +1,35 @@
+{
+  "question": "What are the current IT budget allocations across different companies and how do they relate to their technology focus areas?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Retrieve the IT budget allocations for each company from the CompanyInfo table.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Gather strategic technology focus areas for each company from the CompanyFocusAreaDetail table.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Combine the data from IT budget allocations and technology focus areas to analyze any correlations or patterns.",
+      "table": [
+        "CompanyInfo",
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Summarize findings and prepare insights about the relationship between IT budget allocations and technology focus areas for each company.",
+      "table": [
+        "CompanyInfo",
+        "CompanyFocusAreaDetail"
+      ]
+    }
+  ]
+}

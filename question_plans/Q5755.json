@@ -1,0 +1,40 @@
+{
+  "question": "Identify trends in social media engagement for tech companies in the financial sector.",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Query the CompanyInfo table to find financial sector tech companies",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Join CompanyInfo with SocialMediaInfo to retrieve social media engagement metrics for the identified companies",
+      "table": [
+        "CompanyInfo",
+        "SocialMediaInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the engagement metrics (likes, comments, shares) from Facebook, Twitter, Instagram, and YouTube for the identified companies",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyTwitterDetail",
+        "CompanyInstagramDetail",
+        "CompanyYoutubeDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Summarize findings and identify trends based on the aggregated engagement data from social media platforms",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyTwitterDetail",
+        "CompanyInstagramDetail",
+        "CompanyYoutubeDetail"
+      ]
+    }
+  ]
+}

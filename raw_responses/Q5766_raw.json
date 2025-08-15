@@ -1,0 +1,4 @@
+{
+  "question": "What are the technology focus areas and their corresponding hires for companies in the IT industry?",
+  "subtasks": "[{\"step\":1,\"task\":\"Identify all companies operating in the IT industry by querying the CompanyInfo table with a filter on the Industry column.\",\"table\":[\"CompanyInfo\"]},{\"step\":2,\"task\":\"Extract the technology focus areas associated with the identified IT companies from the CompanyFocusAreaDetail table.\",\"table\":[\"CompanyFocusAreaDetail\"]},{\"step\":3,\"task\":\"Determine the active hiring details for the identified IT companies by querying the CompanyHiringDetail table for the relevant CompanyInfoId entries.\",\"table\":[\"CompanyHiringDetail\"]},{\"step\":4,\"task\":\"Compile the results into a comprehensive report or dataset that outlines the technology focus areas alongside the respective hiring initiatives for each company.\",\"table\":[\"CompanyFocusAreaDetail\",\"CompanyHiringDetail\"]}]}"
+}

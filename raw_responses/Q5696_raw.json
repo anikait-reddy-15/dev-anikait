@@ -1,0 +1,4 @@
+{
+  "question": "What are the current technology focus areas of companies in the cloud computing industry?",
+  "subtasks": "[{\"step\":1,\"task\":\"Identify companies that operate in the cloud computing industry.\",\"table\":[\"CompanyInfo\"]},{\"step\":2,\"task\":\"Extract technology focus areas related to cloud computing from the CompanyFocusAreaDetail table for identified companies.\",\"table\":[\"CompanyFocusAreaDetail\"]},{\"step\":3,\"task\":\"Compile and summarize the details of technology focus areas relevant to cloud computing for the identified companies.\",\"table\":[\"CompanyInfo\",\"CompanyFocusAreaDetail\"]}]"
+}

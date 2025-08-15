@@ -1,0 +1,4 @@
+{
+  "question": "Analyze the impact of a company's IT budget on job hiring in technology sectors.",
+  "subtasks": "[{'step': 1, 'task': 'Retrieve IT budget information for all companies.', 'table': ['CompanyInfo']}, {'step': 2, 'task': 'Gather data on active job hiring initiatives within technology sectors for those companies.', 'table': ['CompanyHiringDetail']}, {'step': 3, 'task': 'Analyze the relationship between the IT budget and the number of hiring initiatives by technology domains.', 'table': ['CompanyInfo', 'CompanyHiringDetail']}, {'step': 4, 'task': 'Collect industry trends related to IT payroll and technology adoption.', 'table': ['IndustryITTrend']}]"
+}

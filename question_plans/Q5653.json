@@ -1,0 +1,43 @@
+{
+  "question": "What are the current trends and technology focus areas in the retail industry?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Extract the current trends relevant to the retail industry from the IndustryBusinessTrend table.",
+      "table": [
+        "IndustryBusinessTrend"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Retrieve the emerging IT trends and technology focus areas for the retail industry from the IndustryITTrend table.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the strategic technology focus areas of leading retail companies from the CompanyFocusAreaDetail table to understand their investment priorities.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Summarize the findings from social media engagement related to retail companies using the SocialMediaInfo table to gauge public sentiment on technology adoption.",
+      "table": [
+        "SocialMediaInfo"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Combine and synthesize the extracted trends and technology focus areas to identify key insights and recommendations for retail stakeholders.",
+      "table": [
+        "IndustryBusinessTrend",
+        "IndustryITTrend",
+        "CompanyFocusAreaDetail",
+        "SocialMediaInfo"
+      ]
+    }
+  ]
+}

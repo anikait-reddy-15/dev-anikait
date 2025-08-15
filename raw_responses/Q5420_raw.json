@@ -1,0 +1,4 @@
+{
+  "question": "What are the current technology focus areas of companies in the IT industry and their related financial performance?",
+  "subtasks": "[{\"step\":1,\"task\":\"Query the CompanyInfo table to filter companies that belong to the IT industry and are currently active.\",\"table\":[\"CompanyInfo\"]},{\"step\":2,\"task\":\"Join the CompanyFocusAreaDetail table with the previously filtered CompanyInfo data to extract technology focus areas related to those companies.\",\"table\":[\"CompanyFocusAreaDetail\"]},{\"step\":3,\"task\":\"Combine the results with financial metrics such as revenue, net income, and market capitalization from the CompanyInfo table for a comprehensive view.\",\"table\":[\"CompanyInfo\"]},{\"step\":4,\"task\":\"Aggregate the financial data to identify any trends or averages in financial performance based on the technology focus areas identified.\",\"table\":[\"CompanyFocusAreaDetail\",\"CompanyInfo\"]}]"
+}

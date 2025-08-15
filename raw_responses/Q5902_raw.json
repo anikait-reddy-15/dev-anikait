@@ -1,0 +1,4 @@
+{
+  "question": "Analyze the technology adoption trends among companies in the finance sector.",
+  "subtasks": "[\n    {\"step\": 1, \"task\": \"Identify companies in the finance sector based on their industry classification.\", \"table\": [\"CompanyInfo\"]},\n    {\"step\": 2, \"task\": \"Gather data on the technologies adopted by identified finance companies.\", \"table\": [\"CompanyTechStack\"]},\n    {\"step\": 3, \"task\": \"Analyze the technology stack for trends such as emerging technologies or tools commonly adopted in finance.\", \"table\": [\"CompanyTechStack\"]},\n    {\"step\": 4, \"task\": \"Compile financial metrics to correlate technology adoption with performance indicators like revenue or net income.\", \"table\": [\"CompanyInfo\"]},\n    {\"step\": 5, \"task\": \"Generate a report summarizing findings on technology adoption trends within the finance sector.\", \"table\": [\"CompanyInfo\", \"CompanyTechStack\"]}\n]"
+}

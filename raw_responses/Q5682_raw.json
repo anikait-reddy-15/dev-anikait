@@ -1,0 +1,4 @@
+{
+  "question": "How can we analyze the technology focus areas and social media presence of companies in the technology industry?",
+  "subtasks": "[{'step': 1, 'task': 'Identify all companies in the technology industry.', 'table': ['CompanyInfo']}, {'step': 2, 'task': 'Gather detailed technology focus areas for each identified company.', 'table': ['CompanyFocusAreaDetail']}, {'step': 3, 'task': 'Collect social media engagement data (Facebook, Instagram, Twitter, LinkedIn, and YouTube) for these companies.', 'table': ['CompanyFacebookDetail', 'CompanyInstagramDetail', 'CompanyTwitterDetail', 'CompanyLinkedinActivity', 'CompanyYoutubeDetail']}, {'step': 4, 'task': 'Analyze the data to assess the technology focus areas and corresponding social media engagement.', 'table': []}]}"
+}

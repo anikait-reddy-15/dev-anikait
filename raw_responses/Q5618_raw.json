@@ -1,0 +1,4 @@
+{
+  "question": "Analyze the technology adoption trends across companies in the healthcare industry.",
+  "subtasks": "[{\"step\":1,\"task\":\"Identify all companies in the healthcare industry from the CompanyInfo table.\",\"table\":[\"CompanyInfo\"]},{\"step\":2,\"task\":\"Extract the technology stack for each company identified in step 1 from the CompanyTechStack table.\",\"table\":[\"CompanyTechStack\"]},{\"step\":3,\"task\":\"Compile technology adoption metrics such as technology type, deal values, and adoption dates from the CompanyVendorTechDetail and CompanyVendorProductDetail tables.\",\"table\":[\"CompanyVendorTechDetail\",\"CompanyVendorProductDetail\"]},{\"step\":4,\"task\":\"Analyze trends in technology adoption based on the extracted data to identify popular technologies and their adoption rates across the healthcare sector.\",\"table\":[\"CompanyTechStack\",\"CompanyVendorTechDetail\",\"CompanyVendorProductDetail\"]}]}"
+}

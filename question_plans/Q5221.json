@@ -1,0 +1,35 @@
+{
+  "question": "What are the upcoming hiring trends and skills required in the IT industry based on recent job postings?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify active hiring initiatives in the IT industry by querying the CompanyHiringDetail table to extract relevant job postings.",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Aggregate the collected data to analyze the most commonly requested designations and skills related to IT jobs from the CompanyHiringDetail table.",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Cross-reference the hiring information with CompanyInfo to filter companies based on their IT focus areas and capabilities to understand context behind hiring trends.",
+      "table": [
+        "CompanyHiringDetail",
+        "CompanyFocusAreaDetail",
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Generate insights by summarizing the findings into a report, highlighting key skills that are trending, and job roles that are in demand within the IT sector.",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    }
+  ]
+}

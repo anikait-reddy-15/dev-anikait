@@ -1,0 +1,31 @@
+{
+  "question": "Identify the top 5 companies based on their IT budget and analyze their technology adoption trends in 2023.",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Retrieve the top 5 companies ordered by the highest IT budget for the year 2023.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "For the identified companies, extract their relevant technology adoption information from the CompanyTechStack table.",
+      "table": [
+        "CompanyTechStack"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the technology focus areas from the CompanyFocusAreaDetail table for the top companies to identify trends in technology adoption.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Compile the findings regarding the companies' IT budgets and technology adoption trends into a summary report.",
+      "table": []
+    }
+  ]
+}

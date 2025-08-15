@@ -1,0 +1,43 @@
+{
+  "question": "What are the latest technology focus areas and trends adopted by companies in the finance industry?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Retrieve all companies in the finance industry from the CompanyInfo table.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Fetch the technology focus areas for the retrieved companies from the CompanyFocusAreaDetail table.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the latest technology trends related to the finance industry from the IndustryITTrend table.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Combine the data obtained to identify specific technology initiatives mentioned in the leadership excerpts for these finance companies from the CompanyLeadershipExcerpt table.",
+      "table": [
+        "CompanyLeadershipExcerpt"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Provide a summary of all findings regarding technology adoption and focus areas for the finance industry based on the gathered data.",
+      "table": [
+        "CompanyInfo",
+        "CompanyFocusAreaDetail",
+        "IndustryITTrend",
+        "CompanyLeadershipExcerpt"
+      ]
+    }
+  ]
+}

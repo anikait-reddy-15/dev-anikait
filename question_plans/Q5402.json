@@ -1,0 +1,28 @@
+{
+  "question": "Identify the key technology focus areas of companies operating in the blockchain industry and analyze their financial metrics.",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Query the CompanyInfo table to filter companies that belong to the blockchain industry and retrieve their financial metrics such as Revenue and Net Income.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Join the CompanyFocusAreaDetail table with the filtered data from step 1 to extract the technology focus areas for these blockchain companies.",
+      "table": [
+        "CompanyInfo",
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Aggregate the financial metrics from step 1 by corresponding technology focus areas to analyze trends and insights regarding their financial performance in the context of blockchain.",
+      "table": [
+        "CompanyInfo",
+        "CompanyFocusAreaDetail"
+      ]
+    }
+  ]
+}

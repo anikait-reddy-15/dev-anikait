@@ -1,0 +1,42 @@
+{
+  "question": "What are the trends in social media engagement for companies across different industries?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Aggregate social media engagement metrics (likes, comments, shares) across different platforms (Facebook, Twitter, Instagram, YouTube) for companies categorized by industry.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyTwitterDetail",
+        "CompanyInstagramDetail",
+        "CompanyYoutubeDetail",
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Analyze the collected engagement metrics to identify trends in social media activity based on industry differences (e.g., sector having highest engagement levels).",
+      "table": [
+        "SocialMediaInfo",
+        "IndustryBusinessTrend",
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Cross-reference social media trends with company financial performance (like revenue, market capitalization) to determine if there's a correlation between social engagement and financial success across industries.",
+      "table": [
+        "CompanyInfo",
+        "CompanyFacebookDetail",
+        "CompanyDealMaster"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Create a report summarizing the findings on social media engagement trends, including visual representation of data by industry to aid in understanding the influence of social media on business performance.",
+      "table": [
+        "SectionData",
+        "PageInfo"
+      ]
+    }
+  ]
+}

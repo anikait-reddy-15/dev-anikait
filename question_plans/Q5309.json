@@ -1,0 +1,34 @@
+{
+  "question": "What are the key technology focus areas for companies in the finance industry based on their IT hiring trends?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify all companies that operate in the finance industry and gather their profiles.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract hiring initiatives for the identified companies to analyze their IT hiring trends.",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Link the hiring data to the respective companies and analyze the IT focus areas related to their hiring trends.",
+      "table": [
+        "CompanyFocusAreaDetail",
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Compile the findings to summarize the technology focus areas based on the hiring trends in the finance industry.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "question": "What are the IT expenditure trends across different industries for companies with an active social media presence?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies with an active social media presence by analyzing the SocialMediaInfo table for companies that have engagement count greater than zero.",
+      "table": [
+        "SocialMediaInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Gather IT budget data from the CompanyInfo table for the identified companies to analyze their IT expenditure.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Correlate the IT budget data with industry data from CompanyInfo to identify trends in IT expenditure across different industries.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Examine the CompanyFocusAreaDetail table to understand the strategic focus areas of these companies in conjunction with their IT budgets to identify spending patterns related to specific technology investments.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Summarize findings and prepare a report on the IT expenditure trends based on the analysis from the above steps, focusing on the relationship between social media presence and IT budgets across industries.",
+      "table": []
+    }
+  ]
+}

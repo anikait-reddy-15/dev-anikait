@@ -1,0 +1,32 @@
+{
+  "question": "What are the key trends in technology adoption across different industries in companies associated with significant revenue?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies with significant revenue (e.g., above a certain threshold).",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Retrieve the details of technology focus areas for the identified companies to understand their areas of emphasis in technology adoption.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze industry-specific technology trends by linking companies to their respective industries and categorizing based on the technology focus areas identified in the previous step.",
+      "table": [
+        "IndustryITTrend",
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Compile and summarize the findings to highlight key trends in technology adoption across the industries represented by the significant revenue companies.",
+      "table": []
+    }
+  ]
+}

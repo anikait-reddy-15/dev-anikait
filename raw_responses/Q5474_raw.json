@@ -1,0 +1,4 @@
+{
+  "question": "What are the latest strategic technology focus areas adopted by companies in the IT industry?",
+  "subtasks": "[{'step': 1, 'task': 'Retrieve a list of all companies in the IT industry along with their strategic technology focus areas.', 'table': ['CompanyInfo', 'CompanyFocusAreaDetail']}, {'step': 2, 'task': 'Filter the retrieved data to include only active focus areas and companies.', 'table': ['CompanyInfo', 'CompanyFocusAreaDetail']}, {'step': 3, 'task': 'Sort the filtered technology focus areas by their creation date to identify the latest ones.', 'table': ['CompanyFocusAreaDetail']}, {'step': 4, 'task': 'Compile a summary report showing the company names and their latest strategic focus areas.', 'table': ['CompanyInfo', 'CompanyFocusAreaDetail']}]"
+}

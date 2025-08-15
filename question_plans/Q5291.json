@@ -1,0 +1,33 @@
+{
+  "question": "Analyze the recent trends in technology adoption among companies in the healthcare industry.",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies operating in the healthcare industry",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Gather technology adoption data for the identified healthcare companies",
+      "table": [
+        "CompanyTechStack"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the trends in technology focus areas for the healthcare companies over the past year",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Compile and summarize key insights on technology adoption trends in the healthcare sector",
+      "table": [
+        "IndustryITTrend"
+      ]
+    }
+  ]
+}

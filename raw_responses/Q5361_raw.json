@@ -1,0 +1,4 @@
+{
+  "question": "What are the current IT spending trends among major companies in the technology industry?",
+  "subtasks": "[{\"step\":1,\"task\":\"Identify technology companies and their IT budgets\",\"table\":[\"CompanyInfo\"]},{\"step\":2,\"task\":\"Analyze revenue and net income data to correlate with IT budgets\",\"table\":[\"CompanyInfo\"]},{\"step\":3,\"task\":\"Evaluate company focus areas related to IT investments and spending trends\",\"table\":[\"CompanyFocusAreaDetail\"]},{\"step\":4,\"task\":\"Examine recent company deals that involve technology services to understand spending patterns\",\"table\":[\"CompanyDealMaster\"]},{\"step\":5,\"task\":\"Analyze social media data for technology companies to gather insights on their engagement and market positioning\",\"table\":[\"CompanyFacebookDetail\",\"CompanyInstagramDetail\",\"CompanyTwitterDetail\"]}]}"
+}

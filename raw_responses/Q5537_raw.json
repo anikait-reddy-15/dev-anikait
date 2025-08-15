@@ -1,0 +1,4 @@
+{
+  "question": "What are the current technology trends and focus areas across different industries?",
+  "subtasks": "[{\"step\": 1, \"task\": \"Identify all the industries we have data for in the IndustryBusinessTrend table.\", \"table\": [\"IndustryBusinessTrend\"]}, {\"step\": 2, \"task\": \"Extract emerging IT trends specific to each industry from the IndustryITTrend table.\", \"table\": [\"IndustryITTrend\"]}, {\"step\": 3, \"task\": \"Consolidate the focus areas and trends derived from the previous steps for a comprehensive view.\", \"table\": [\"IndustryBusinessTrend\", \"IndustryITTrend\"]}]"
+}

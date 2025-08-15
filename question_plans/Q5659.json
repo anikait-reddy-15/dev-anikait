@@ -1,0 +1,42 @@
+{
+  "question": "What are the current hiring trends in the technology sector and how are companies adapting to them?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Gather data on active hiring initiatives from technology companies to identify volume and key roles being hired.",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Analyze the geographical distribution of hiring activities to determine which regions are seeing the most demand for technology roles.",
+      "table": [
+        "CompanyHiringDetail",
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Investigate the strategic IT focus areas of companies to understand how they are adapting their deployment and hiring based on technology trends.",
+      "table": [
+        "CompanyFocusAreaDetail",
+        "CompanyHiringDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Examine company financials and IT budgets to correlate hiring trends with financial health and investment capacity.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Review leadership insights on hiring and technology investments to gain context on company strategies amidst market trends.",
+      "table": [
+        "CompanyLeadershipExcerpt"
+      ]
+    }
+  ]
+}

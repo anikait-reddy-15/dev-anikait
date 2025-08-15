@@ -1,0 +1,26 @@
+{
+  "question": "What are the current IT budget allocations for companies in the technology industry, and how do they correlate with their market capitalization?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Retrieve current IT budget allocations from the CompanyInfo table for companies classified under the technology industry.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Gather market capitalization data from the CompanyInfo table for companies in the technology industry.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the correlation between IT budget allocations and market capitalization for the retrieved companies.",
+      "table": [
+        "CompanyInfo"
+      ]
+    }
+  ]
+}

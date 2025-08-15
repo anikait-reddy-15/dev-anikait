@@ -1,0 +1,4 @@
+{
+  "question": "What are the current technology trends among companies in the healthcare industry?",
+  "subtasks": "[{\"step\":1,\"task\":\"Identify all companies in the healthcare industry and their basic information such as name, revenue, and technology focus areas.\",\"table\":[\"CompanyInfo\",\"CompanyFocusAreaDetail\"]},{\"step\":2,\"task\":\"Analyze the technology stack of the identified healthcare companies to determine commonly used technologies and platforms.\",\"table\":[\"CompanyTechStack\"]},{\"step\":3,\"task\":\"Review the most recent industry IT trends that are relevant to healthcare to match them with technologies being adopted by companies.\",\"table\":[\"IndustryITTrend\"]},{\"step\":4,\"task\":\"Compile analytics on social media activity of these healthcare companies to gauge their engagement with new technology initiatives or trends.\",\"table\":[\"CompanyFacebookDetail\",\"CompanyTwitterDetail\",\"CompanyInstagramDetail\"]}]"
+}

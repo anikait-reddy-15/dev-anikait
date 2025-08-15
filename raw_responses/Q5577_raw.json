@@ -1,0 +1,4 @@
+{
+  "question": "Analyze the impact of social media engagement on the overall revenue growth of companies in the technology sector.",
+  "subtasks": "[{\"step\":1,\"task\":\"Identify companies in the technology sector and extract their revenue details.\",\"table\":[\"CompanyInfo\"]},{\"step\":2,\"task\":\"Gather social media engagement metrics from all available social media platforms for the identified technology companies.\",\"table\":[\"CompanyFacebookDetail\",\"CompanyInstagramDetail\",\"CompanyTwitterDetail\",\"CompanyYoutubeDetail\"]},{\"step\":3,\"task\":\"Analyze the correlation between the collected social media engagement metrics and the revenue details from the technology companies.\",\"table\":[\"CompanyInfo\",\"CompanyFacebookDetail\",\"CompanyInstagramDetail\",\"CompanyTwitterDetail\",\"CompanyYoutubeDetail\"]}]"
+}

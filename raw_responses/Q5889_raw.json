@@ -1,0 +1,4 @@
+{
+  "question": "What are the emerging technology focus areas of companies in the retail industry, and how do they relate to their IT budgets and revenue?",
+  "subtasks": "[{\"step\":1,\"task\":\"Identify all companies in the retail industry along with their IT budgets and revenue data.\",\"table\":[\"CompanyInfo\"]},{\"step\":2,\"task\":\"Extract the strategic technology focus areas for the identified retail companies to understand their technological direction.\",\"table\":[\"CompanyFocusAreaDetail\"]},{\"step\":3,\"task\":\"Link the technology focus areas with financial metrics such as IT budgets and revenue to analyze trends and correlations.\",\"table\":[\"CompanyInfo\",\"CompanyFocusAreaDetail\"]},{\"step\":4,\"task\":\"Generate summary reports that categorize retail companies based on their emerging focus areas, IT budgets, and revenue performance.\",\"table\":[\"CompanyInfo\",\"CompanyFocusAreaDetail\"]}]}"
+}

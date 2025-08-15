@@ -1,0 +1,43 @@
+{
+  "question": "What are the current hiring trends for technology roles across different industries?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify the active technology hiring initiatives and roles listed by companies.",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Link the hiring data to the corresponding companies to understand their industry classifications.",
+      "table": [
+        "CompanyInfo",
+        "CompanyHiringDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the hiring trends over time to identify peaks in recruitment activity within specific technology roles.",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Investigate the distribution of these roles across various industries to determine focus areas for technology hiring.",
+      "table": [
+        "CompanyInfo",
+        "CompanyHiringDetail"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Summarize findings in a report highlighting key trends and insights related to technology hiring initiatives across industries.",
+      "table": [
+        "CompanyInfo",
+        "CompanyHiringDetail"
+      ]
+    }
+  ]
+}

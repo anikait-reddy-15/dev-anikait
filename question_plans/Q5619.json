@@ -1,0 +1,42 @@
+{
+  "question": "What are the key technology focus areas for companies in the manufacturing sector?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify all companies in the manufacturing sector from the CompanyInfo table based on the Industry column.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Retrieve the strategic technology focus areas for the identified manufacturing companies from the CompanyFocusAreaDetail table.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Summarize the details of the technology focus areas, including any notable initiatives or investments mentioned in the focus area details.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Cross-reference the technology focus areas with current hiring initiatives in the CompanyHiringDetail table to see which technologies drive talent demand in the manufacturing sector.",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Analyze the summarized findings and prepare a report detailing key technology trends and hiring initiatives for manufacturing companies.",
+      "table": [
+        "CompanyInfo",
+        "CompanyFocusAreaDetail",
+        "CompanyHiringDetail"
+      ]
+    }
+  ]
+}

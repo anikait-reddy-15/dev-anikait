@@ -1,0 +1,36 @@
+{
+  "question": "What are the current hiring trends for IT companies in the United States?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify IT companies operating in the United States including their hiring details.",
+      "table": [
+        "CompanyInfo",
+        "CompanyHiringDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Collect data about active job positions, domains, and required skills from the hiring details of the identified companies.",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze job roles, locations, and trends to summarize the current hiring initiatives and common skills required in the IT sector.",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Compile a report highlighting the engagement metrics from social media to understand companies' visibility while hiring in the IT domain.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyTwitterDetail",
+        "CompanyLinkedinActivity"
+      ]
+    }
+  ]
+}

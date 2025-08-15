@@ -1,0 +1,4 @@
+{
+  "question": "What are the current technological focus areas and social media engagement levels for companies in the healthcare industry?",
+  "subtasks": "[{\"step\":1,\"task\":\"Identify companies operating in the healthcare industry and extract their IDs from the CompanyInfo table.\",\"table\":[\"CompanyInfo\"]},{\"step\":2,\"task\":\"Gather technological focus areas for the identified healthcare companies from the CompanyFocusAreaDetail table.\",\"table\":[\"CompanyFocusAreaDetail\"]},{\"step\":3,\"task\":\"Retrieve social media engagement metrics for these companies from the SocialMediaInfo table, linking it to their IDs.\",\"table\":[\"SocialMediaInfo\"]},{\"step\":4,\"task\":\"Compile a summary report that includes the technological focus areas and social media engagement levels for each healthcare company identified.\",\"table\":[\"CompanyInfo\",\"CompanyFocusAreaDetail\",\"SocialMediaInfo\"]}]}"
+}

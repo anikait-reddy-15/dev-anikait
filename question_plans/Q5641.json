@@ -1,0 +1,41 @@
+{
+  "question": "What are the current market trends and technology focus areas in the IT industry?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Analyze the latest emerging trends in the IT industry based on the IndustryITTrend table.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Investigate strategic focus areas linked to specific industry types using the IndustryBusinessTrend table.",
+      "table": [
+        "IndustryBusinessTrend"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Compile and summarize relevant technology focus areas from the CompanyFocusAreaDetail table, highlighting current company initiatives in the IT sector.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Aggregate social media engagement metrics from the SocialMediaInfo table to gauge public interaction with companies focused on these trends.",
+      "table": [
+        "SocialMediaInfo"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Generate a report linking technology focus areas with specific companies using CompanyInfo and CompanyTechStack tables, examining their tech adoption trends.",
+      "table": [
+        "CompanyInfo",
+        "CompanyTechStack"
+      ]
+    }
+  ]
+}

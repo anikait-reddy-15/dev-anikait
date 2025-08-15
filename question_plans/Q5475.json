@@ -1,0 +1,31 @@
+{
+  "question": "What are the recent trends in IT adoption for companies in the healthcare industry?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify all companies in the healthcare industry by querying the CompanyInfo table.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Retrieve the technology focus areas associated with these healthcare companies from the CompanyFocusAreaDetail table.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the vendor technology details for the healthcare companies to identify current technology trends by querying the CompanyVendorTechDetail table.",
+      "table": [
+        "CompanyVendorTechDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Summarize the findings of technology adoption trends in the healthcare sector, focusing on specific technologies highlighted in previous steps.",
+      "table": []
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "question": "What are the strategic technology focus areas of companies in the IT industry, along with their social media engagement metrics?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify all companies in the IT industry and gather their strategic focus areas.",
+      "table": [
+        "CompanyInfo",
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Collect social media engagement metrics for the identified IT companies across various platforms (Facebook, Instagram, Twitter, Youtube).",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyInstagramDetail",
+        "CompanyTwitterDetail",
+        "CompanyYoutubeDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Compile a report detailing the strategic focus areas and corresponding social media engagement metrics for each company.",
+      "table": [
+        "CompanyInfo",
+        "CompanyFocusAreaDetail",
+        "CompanyFacebookDetail",
+        "CompanyInstagramDetail",
+        "CompanyTwitterDetail",
+        "CompanyYoutubeDetail"
+      ]
+    }
+  ]
+}

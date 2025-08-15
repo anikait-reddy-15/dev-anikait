@@ -1,0 +1,26 @@
+{
+  "question": "What are the current technology partnerships and hiring trends for technology companies in the cybersecurity industry?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify all companies operating in the cybersecurity sector and retrieve their general information such as names and financial metrics.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Fetch details about current technology partnerships for each identified cybersecurity company, including partner names and deal values.",
+      "table": [
+        "CompanyITPartnerDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the latest hiring initiatives by these companies, focusing on job titles and domains related to cybersecurity roles.",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "question": "What are the current IT trends and challenges for companies in the technology industry?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify the relevant technology companies and gather their active status and foundational details such as founding year and industry classification to establish a profile for analysis.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Analyze the emerging IT trends related to the technology industry by correlating the IndustryITTrend table with relevant companies to extract insights on technology adoption.",
+      "table": [
+        "IndustryITTrend",
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Capture technology focus areas for companies by reviewing data from CompanyFocusAreaDetail to understand strategic initiatives undertaken in the technology domain.",
+      "table": [
+        "CompanyFocusAreaDetail",
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Aggregate current hiring trends within the technology companies to identify which areas have increasing demand for talent from the CompanyHiringDetail table.",
+      "table": [
+        "CompanyHiringDetail",
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Summarize insights on how social media presence reflects companies' focus on IT trends and engagement with their audience by analyzing records from CompanyFacebookDetail, CompanyInstagramDetail, and CompanyTwitterDetail.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyInstagramDetail",
+        "CompanyTwitterDetail"
+      ]
+    }
+  ]
+}

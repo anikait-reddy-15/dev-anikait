@@ -1,0 +1,4 @@
+{
+  "question": "Identify the top 5 companies in the technology sector based on revenue and analyze their social media presence.",
+  "subtasks": "[{\"step\":1,\"task\":\"Query the CompanyInfo table to retrieve details of companies within the technology sector and order them by revenue in descending order.\",\"table\":[\"CompanyInfo\"]},{\"step\":2,\"task\":\"Retrieve the top 5 companies from the results of the first task to focus on their social media performance.\",\"table\":[]},{\"step\":3,\"task\":\"Query the SocialMediaInfo table for the selected top 5 companies to get their social media presence data including engagement metrics across different platforms.\",\"table\":[\"SocialMediaInfo\"]},{\"step\":4,\"task\":\"Compile and visualize the social media engagement metrics for the top 5 companies to analyze their online presence and audience interaction trends.\",\"table\":[]}]}"
+}

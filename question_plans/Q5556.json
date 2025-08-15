@@ -1,0 +1,33 @@
+{
+  "question": "What are the current hiring initiatives in the IT sector across different companies?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify all companies that are active in the IT sector by filtering the CompanyInfo table where the Industry field indicates IT.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract current hiring details from the CompanyHiringDetail table for the identified IT companies, ensuring to filter by the Active status.",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Compile a list of job details such as designations, responsibilities, and locations from the hiring initiatives found in step 2.",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Analyze the collected data to identify trends or common roles being hired in the IT sector across these companies.",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+{
+  "question": "What are the current technology focus areas and hiring trends of companies in the cybersecurity sector?",
+  "subtasks": "[{\"step\":1,\"task\":\"Identify companies operating in the cybersecurity sector and gather relevant information about them, including their technology focus areas and hiring details.\",\"table\":[\"CompanyInfo\",\"CompanyFocusAreaDetail\",\"CompanyHiringDetail\"]},{\"step\":2,\"task\":\"Extract and analyze the technology focus areas of the identified companies to understand their strategic initiatives in cybersecurity.\",\"table\":[\"CompanyFocusAreaDetail\"]},{\"step\":3,\"task\":\"Review hiring initiatives of these companies to determine the demand for skills related to cybersecurity and the roles they are currently hiring for.\",\"table\":[\"CompanyHiringDetail\"]}]"
+}

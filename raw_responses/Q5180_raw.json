@@ -1,0 +1,4 @@
+{
+  "question": "What technology focus areas and industries are companies investing in the most?",
+  "subtasks": "[{\"step\":1,\"task\":\"Identify all companies along with their respective industry types from the CompanyInfo table.\",\"table\":[\"CompanyInfo\"]},{\"step\":2,\"task\":\"Extract the strategic technology focus areas for each company from the CompanyFocusAreaDetail table.\",\"table\":[\"CompanyFocusAreaDetail\"]},{\"step\":3,\"task\":\"Link the companies with their technology focus areas to analyze investment trends across different industries.\",\"table\":[\"CompanyFocusAreaDetail\",\"CompanyInfo\"]},{\"step\":4,\"task\":\"Aggregate and summarize the data to determine which technology focus areas are most commonly associated with high investment industries.\",\"table\":[\"CompanyFocusAreaDetail\",\"CompanyInfo\"]}]"
+}

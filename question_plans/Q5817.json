@@ -1,0 +1,35 @@
+{
+  "question": "What are the current hiring trends in technology companies based on their job postings and focus areas?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify technology companies with active hiring initiatives by querying the CompanyHiringDetail table to fetch details about job listings, including designation and domain.",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Gather information on the strategic technology focus areas of these companies by linking the CompanyFocusAreaDetail to the CompanyHiringDetail to assess alignment between hiring needs and IT focus areas.",
+      "table": [
+        "CompanyFocusAreaDetail",
+        "CompanyHiringDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the geographical trends by examining the cities from the CompanyHiringDetail table to understand where the demand for technology roles is highest, categorizing findings by city and job domain.",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Summarize the findings into an overview report that includes key insights on hiring patterns, frequently sought designations, and alignment with technological focus areas across companies.",
+      "table": [
+        "CompanyHiringDetail",
+        "CompanyFocusAreaDetail"
+      ]
+    }
+  ]
+}

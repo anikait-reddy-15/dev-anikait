@@ -1,0 +1,4 @@
+{
+  "question": "What are the latest technologies adopted by companies in the finance industry and their impact on revenue?",
+  "subtasks": "[\n  {\n    \"step\": 1,\n    \"task\": \"Identify companies in the finance industry and gather their basic information.\",\n    \"table\": [\"CompanyInfo\"]\n  },\n  {\n    \"step\": 2,\n    \"task\": \"Extract information on technologies used by the identified finance companies.\",\n    \"table\": [\"CompanyTechStack\"]\n  },\n  {\n    \"step\": 3,\n    \"task\": \"Analyze the revenue changes of finance companies based on their technology adoption using previous and current revenue metrics.\",\n    \"table\": [\"CompanyInfo\"]\n  },\n  {\n    \"step\": 4,\n    \"task\": \"Cross-reference the technology stack data with financial performance indicators to determine the impact of specific technologies.\",\n    \"table\": [\"CompanyInfo\", \"CompanyVendorProductDetail\"]\n  }\n]"
+}

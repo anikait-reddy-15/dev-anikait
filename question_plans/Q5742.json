@@ -1,0 +1,45 @@
+{
+  "question": "How can we analyze the current IT trends across different companies in the technology industry?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify the major IT trends relevant to the technology industry from the IndustryITTrend table and categorize them by their focus areas.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Gather detailed information on companies within the technology industry from the CompanyInfo table to understand their profiles and operational metrics.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Link identified trends to specific companies by correlating data from CompanyTechStack and CompanyFocusAreaDetail to see alignment in technology focus and adoption.",
+      "table": [
+        "CompanyTechStack",
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Compile engagement statistics related to their IT initiatives by reviewing CompanyVendorTechDetail to analyze vendor relationships and technology implementations.",
+      "table": [
+        "CompanyVendorTechDetail"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Combine insights from all collected data to generate a comprehensive report on the landscape of IT trends in the technology industry, highlighting key players and their strategies.",
+      "table": [
+        "IndustryITTrend",
+        "CompanyInfo",
+        "CompanyTechStack",
+        "CompanyFocusAreaDetail",
+        "CompanyVendorTechDetail"
+      ]
+    }
+  ]
+}

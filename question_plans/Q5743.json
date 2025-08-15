@@ -1,0 +1,26 @@
+{
+  "question": "What are the recent trends in IT technology adoption among companies across different industries?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify the recent IT trends from the IndustryITTrend table.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Gather information about companies using technologies from the CompanyTechStack table to see which companies are adopting the identified trends.",
+      "table": [
+        "CompanyTechStack"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the details from CompanyInfo to understand the industry and relevance of each company, linking back to the identified trends.",
+      "table": [
+        "CompanyInfo"
+      ]
+    }
+  ]
+}

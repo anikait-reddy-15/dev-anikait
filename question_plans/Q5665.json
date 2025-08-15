@@ -1,0 +1,40 @@
+{
+  "question": "What are the emerging technology trends and focus areas among different companies in the fintech industry?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify all companies within the fintech industry and retrieve their core information such as names, revenues, and founding years.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Gather data on the strategic technology focus areas of the identified fintech companies to understand their key initiatives and investments in technology.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the emerging technology trends specifically related to fintech by reviewing the entries in the IndustryITTrend table to identify current and future directions.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Compile social media engagement metrics from fintech companies to assess how actively they are promoting their technological advancements on platforms like Facebook, LinkedIn, and Twitter.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyLinkedInDetail",
+        "CompanyTwitterDetail"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Synthesize the collected data to generate a report that outlines key trends, company initiatives, and technological focus areas within the fintech sector.",
+      "table": []
+    }
+  ]
+}

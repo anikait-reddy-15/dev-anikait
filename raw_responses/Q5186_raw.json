@@ -1,0 +1,4 @@
+{
+  "question": "Analyze the impact of social media engagement on company growth in the technology industry.",
+  "subtasks": "[{\"step\":1,\"task\":\"Identify companies in the technology industry from CompanyInfo table.\",\"table\":[\"CompanyInfo\"]},{\"step\":2,\"task\":\"Extract social media engagement metrics (likes, comments, etc.) for these companies from Facebook, Twitter, Instagram, and YouTube tables.\",\"table\":[\"CompanyFacebookDetail\",\"CompanyTwitterDetail\",\"CompanyInstagramDetail\",\"CompanyYoutubeDetail\"]},{\"step\":3,\"task\":\"Gather financial growth indicators such as Revenue and Net Income from the CompanyInfo table for these companies.\",\"table\":[\"CompanyInfo\"]},{\"step\":4,\"task\":\"Compile and analyze the relationship between social media engagement metrics and financial growth indicators using statistical methods.\",\"table\":[]}]}"
+}

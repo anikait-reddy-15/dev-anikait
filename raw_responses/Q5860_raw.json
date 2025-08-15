@@ -1,0 +1,4 @@
+{
+  "question": "Identify the top 5 companies with the highest IT budgets and provide their primary industry and headquarters location.",
+  "subtasks": "[\n  {\n    \"step\": 1,\n    \"task\": \"Fetch the companies with their IT budgets, primary industries, and headquarters locations sorted by IT budget in descending order.\",\n    \"table\": [\"CompanyInfo\"]\n  },\n  {\n    \"step\": 2,\n    \"task\": \"Limit the fetched results to the top 5 companies based on the IT budget.\",\n    \"table\": []\n  },\n  {\n    \"step\": 3,\n    \"task\": \"Format and return the list of the top 5 companies showing their names, IT budgets, primary industry, and headquarters location.\",\n    \"table\": []\n  }\n]"
+}

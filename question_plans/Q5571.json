@@ -1,0 +1,34 @@
+{
+  "question": "What are the key social media metrics for companies in the technology industry and how do they compare to their financial performance?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify all companies in the technology industry and retrieve their social media metrics including Facebook, Instagram, Twitter, and YouTube engagement data.",
+      "table": [
+        "CompanyInfo",
+        "CompanyFacebookDetail",
+        "CompanyInstagramDetail",
+        "CompanyTwitterDetail",
+        "CompanyYoutubeDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Gather financial performance metrics for the identified technology companies, including revenue, net income, and market capitalization.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Merge social media engagement data with financial performance data to analyze the correlation between social media metrics and financial success.",
+      "table": [
+        "CompanyInfo",
+        "CompanyFacebookDetail",
+        "CompanyInstagramDetail",
+        "CompanyTwitterDetail",
+        "CompanyYoutubeDetail"
+      ]
+    }
+  ]
+}

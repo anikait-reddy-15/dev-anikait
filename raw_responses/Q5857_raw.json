@@ -1,0 +1,4 @@
+{
+  "question": "What are the current IT budget trends and technology focus areas for companies in the finance industry?",
+  "subtasks": "[{\"step\":1,\"task\":\"Identify all companies in the finance industry and retrieve their IT budget data.\",\"table\":[\"CompanyInfo\"]},{\"step\":2,\"task\":\"Gather data on technology focus areas for identified finance companies to analyze their strategic priorities.\",\"table\":[\"CompanyFocusAreaDetail\"]},{\"step\":3,\"task\":\"Analyze and summarize trends in IT budgets and focus areas over the last few years for these companies.\",\"table\":[\"CompanyInfo\",\"CompanyFocusAreaDetail\"]},{\"step\":4,\"task\":\"Cross-reference the IT budget data with company deal records to evaluate technology spending versus contract values.\",\"table\":[\"CompanyInfo\",\"CompanyDealMaster\"]}]"
+}

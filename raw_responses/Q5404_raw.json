@@ -1,0 +1,4 @@
+{
+  "question": "What are the current IT focus areas and technology partnerships of companies in the renewable energy industry?",
+  "subtasks": "[{\"step\":1,\"task\":\"Identify companies in the renewable energy sector from the CompanyInfo table.\",\"table\":[\"CompanyInfo\"]},{\"step\":2,\"task\":\"Extract current IT focus areas for the identified renewable energy companies from the CompanyFocusAreaDetail table.\",\"table\":[\"CompanyFocusAreaDetail\"]},{\"step\":3,\"task\":\"List the technology partnerships for the identified renewable energy companies from the CompanyITPartnerDetail table.\",\"table\":[\"CompanyITPartnerDetail\"]},{\"step\":4,\"task\":\"Compile the collected data to understand the overall IT strategies and partnerships in the renewable energy industry.\",\"table\":[]}]}"
+}

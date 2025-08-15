@@ -1,0 +1,37 @@
+{
+  "question": "What are the current technology investment trends among companies in the finance industry?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify all companies operating in the finance industry by querying the CompanyInfo table.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Gather IT budget and technology focus areas of the identified finance companies from the CompanyFocusAreaDetail and CompanyTechStack tables.",
+      "table": [
+        "CompanyFocusAreaDetail",
+        "CompanyTechStack"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the collected data to find common technology investments and focus areas among the finance companies.",
+      "table": []
+    },
+    {
+      "step": 4,
+      "task": "Review existing deals related to technology services in the CompanyDealMaster table that involve finance companies to assess further trends.",
+      "table": [
+        "CompanyDealMaster"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Compile the findings into a summary report that highlights key technology trends and investments in the finance industry.",
+      "table": []
+    }
+  ]
+}

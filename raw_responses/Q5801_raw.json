@@ -1,0 +1,4 @@
+{
+  "question": "What are the current IT trends and hiring initiatives in the technology industry over the last year?",
+  "subtasks": "[{\"step\":1,\"task\":\"Identify and extract the latest IT trends specific to the technology industry for the past year.\",\"table\":[\"IndustryITTrend\"]},{\"step\":2,\"task\":\"Gather data on the hiring initiatives, job roles, and required skills from companies in the technology sector for the past year.\",\"table\":[\"CompanyHiringDetail\"]},{\"step\":3,\"task\":\"Analyze the relationship between the identified IT trends and the current hiring initiatives to understand how they align with industry demands.\",\"table\":[\"IndustryITTrend\",\"CompanyHiringDetail\"]}]"
+}

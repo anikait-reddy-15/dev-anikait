@@ -1,0 +1,33 @@
+{
+  "question": "What are the emerging IT trends across different industries from the last year?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify the industries of interest based on the latest IT trends available in the database.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Fetch the emerging IT trends recorded in the last year from the IndustryITTrend table.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Compile descriptive narratives and specific technology focus areas associated with the identified industries.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Analyze the data to identify patterns and highlight key technologies being adopted across these industries.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    }
+  ]
+}

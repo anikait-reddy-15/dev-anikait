@@ -1,0 +1,32 @@
+{
+  "question": "What are the key trends in technology adoption across different industries that companies are focusing on?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify the main technology focus areas that companies are investing in by consulting the CompanyFocusAreaDetail table.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Gather and summarize emerging IT trends reported for various industries from the IndustryITTrend table to understand the overall technology landscape.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the relationship between technology focus areas identified in step 1 and the industry-specific trends captured in step 2 to highlight key adoption trends.",
+      "table": [
+        "CompanyFocusAreaDetail",
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Compile a report that summarizes the findings from steps 1-3, including insights on how different industries are approaching technology adoption.",
+      "table": []
+    }
+  ]
+}

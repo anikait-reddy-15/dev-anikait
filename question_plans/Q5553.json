@@ -1,0 +1,43 @@
+{
+  "question": "What are the current hiring initiatives of companies in the technology sector, and how do they align with their IT focus areas?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify all companies operating in the technology sector by filtering the CompanyInfo table based on the 'Industry' column.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Retrieve the current hiring initiatives from the CompanyHiringDetail table for the identified companies, focusing only on active initiatives.",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Extract and analyze the IT focus areas linked to the identified companies from the CompanyFocusAreaDetail table to determine alignment with hiring initiatives.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Aggregate and summarize how the hiring initiatives correspond with the strategic IT focus areas for each company.",
+      "table": [
+        "CompanyHiringDetail",
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Compile insights into a structured report outlining company names, hiring details, and their related IT focus areas for presentation.",
+      "table": [
+        "CompanyInfo",
+        "CompanyHiringDetail",
+        "CompanyFocusAreaDetail"
+      ]
+    }
+  ]
+}

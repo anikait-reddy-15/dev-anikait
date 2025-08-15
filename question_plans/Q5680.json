@@ -1,0 +1,35 @@
+{
+  "question": "What are the current trends in technology adoption across different industries, and how do these trends reflect in company strategies and hiring initiatives?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify the emerging IT trends and technology focus areas across various industries by analyzing the IndustryITTrend table.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Gather company-level details about their technology strategies and focus areas from the CompanyFocusAreaDetail table to correlate with the identified trends.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the active hiring initiatives of companies to understand how job openings align with the identified IT trends using the CompanyHiringDetail table.",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Compile a summary report that connects the emerging IT trends with company strategies and hiring practices, providing insights into how businesses are adapting to technological changes.",
+      "table": [
+        "CompanyFocusAreaDetail",
+        "CompanyHiringDetail",
+        "IndustryITTrend"
+      ]
+    }
+  ]
+}

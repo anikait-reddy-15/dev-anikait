@@ -1,0 +1,36 @@
+{
+  "question": "What are the current technology trends companies are investing in, and how do those trends vary by industry?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify the technology focus areas companies are currently engaged in, including specific areas like digitalization, blockchain, and AI.",
+      "table": [
+        "CompanyFocusAreaDetail",
+        "CompanyTechStack"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Analyze the trends captured in the IndustryITTrend table to assess the technology adoption patterns across different industries.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Cross-reference the technology focus areas with industry trends to highlight correlations and discover how certain technologies are prioritized in specific sectors.",
+      "table": [
+        "CompanyFocusAreaDetail",
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Aggregate the findings to summarize insights on which technology trends are predominant in which industries and how this aligns with current market strategies.",
+      "table": [
+        "IndustryITTrend",
+        "CompanyFocusAreaDetail"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "question": "What are the technology adoption trends among companies in the banking industry?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify all companies operating in the banking industry and gather their relevant metadata such as name, revenue, market capitalization, and headquarter location.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract technology adoption information for each identified company, including the technologies they are currently using and details about their IT partners or vendor relationships.",
+      "table": [
+        "CompanyTechStack",
+        "CompanyITPartnerDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the strategic technology focus areas for companies in the banking sector and gather insights into recent innovations or investments made by these companies.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Collect social media engagement data to gauge how companies in the banking industry communicate their technology initiatives and innovations to their audience.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyTwitterDetail",
+        "CompanyInstagramDetail"
+      ]
+    }
+  ]
+}

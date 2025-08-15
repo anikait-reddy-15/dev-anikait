@@ -1,0 +1,45 @@
+{
+  "question": "What are the key trends in IT investment among companies in the technology sector?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify technology companies by filtering active companies in CompanyInfo based on their industry (Technology).",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Analyze IT investment metrics by retrieving ITBudget and ITStrength from the filtered company dataset in CompanyInfo to assess financial commitment to IT initiatives.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Examine the strategic technology focus areas for the identified companies to understand their priorities, by linking CompanyFocusAreaDetail with CompanyInfo using CompanyInfoId.",
+      "table": [
+        "CompanyFocusAreaDetail",
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Compile data on recent technology partnerships or vendor collaborations by linking CompanyITPartnerDetail and CompanyInfo to identify vendor relationships supporting IT strategies.",
+      "table": [
+        "CompanyITPartnerDetail",
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Summarize the findings and identify common trends in IT investments and strategic priorities across the analyzed companies, incorporating insights from partnerships, hiring initiatives, and focus areas.",
+      "table": [
+        "CompanyHiringDetail",
+        "CompanyFocusAreaDetail",
+        "CompanyITPartnerDetail",
+        "CompanyInfo"
+      ]
+    }
+  ]
+}

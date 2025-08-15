@@ -1,0 +1,4 @@
+{
+  "question": "What are the current technology trends that companies in the healthcare industry are focusing on?",
+  "subtasks": "[\n    {\n        \"step\": 1,\n        \"task\": \"Identify and list all companies operating in the healthcare industry.\",\n        \"table\": [\"CompanyInfo\"]\n    },\n    {\n        \"step\": 2,\n        \"task\": \"Extract the strategic technology focus areas for the identified healthcare companies.\",\n        \"table\": [\"CompanyFocusAreaDetail\"]\n    },\n    {\n        \"step\": 3,\n        \"task\": \"Analyze the data for any emerging IT trends specific to healthcare companies and aggregate findings.\",\n        \"table\": [\"IndustryITTrend\"]\n    },\n    {\n        \"step\": 4,\n        \"task\": \"Summarize the technology trends identified and their implications for the healthcare sector.\",\n        \"table\": []\n    }\n]"
+}

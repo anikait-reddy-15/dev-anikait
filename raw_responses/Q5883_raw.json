@@ -1,0 +1,4 @@
+{
+  "question": "What are the current IT partnerships and technology trends for companies in the finance industry?",
+  "subtasks": "[{\"step\":1,\"task\":\"Identify companies operating in the finance industry to gather their relevant details.\",\"table\":[\"CompanyInfo\"]},{\"step\":2,\"task\":\"Extract the IT partnership details for each identified finance company, including partner names and deal values.\",\"table\":[\"CompanyITPartnerDetail\"]},{\"step\":3,\"task\":\"Analyze the technology trends associated with these companies, focusing on their reported technologies and IT focus areas.\",\"table\":[\"CompanyTechStack\",\"CompanyFocusAreaDetail\"]},{\"step\":4,\"task\":\"Compile a summary of the partnerships and technology focus areas to present a comprehensive overview of the finance sector's IT landscape.\",\"table\":[\"CompanyInfo\",\"CompanyITPartnerDetail\",\"CompanyFocusAreaDetail\"]}]}"
+}

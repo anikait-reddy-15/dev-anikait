@@ -1,0 +1,4 @@
+{
+  "question": "What are the key technology focus areas for major companies in the healthcare industry, and how are they utilizing social media to promote these initiatives?",
+  "subtasks": "[{'step': 1, 'task': 'Identify major companies in the healthcare industry.', 'table': ['CompanyInfo']}, {'step': 2, 'task': 'Gather strategic technology focus areas for these healthcare companies.', 'table': ['CompanyFocusAreaDetail']}, {'step': 3, 'task': 'Analyze social media presence and engagement metrics for these healthcare companies.', 'table': ['CompanyFacebookDetail', 'CompanyTwitterDetail', 'CompanyInstagramDetail', 'CompanyYoutubeDetail']}, {'step': 4, 'task': 'Link technology focus areas with their respective promotional social media content.', 'table': ['CompanyFocusAreaDetail', 'CompanyFacebookDetail', 'CompanyTwitterDetail', 'CompanyInstagramDetail', 'CompanyYoutubeDetail']}]"
+}

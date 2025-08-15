@@ -1,0 +1,44 @@
+{
+  "question": "What are the latest technology trends companies are focusing on in the IT sector?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify the key technology focus areas currently being emphasized by companies in the IT sector.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Analyze emerging IT trends across different industries to understand how these trends correlate with technology focus areas.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Extract and summarize insights from leadership excerpts regarding technology adoption and strategic directions.",
+      "table": [
+        "CompanyLeadershipExcerpt"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Gather data on social media engagement related to IT trends mentioned in company posts to assess public interest and engagement levels.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyTwitterDetail",
+        "CompanyInstagramDetail",
+        "CompanyYoutubeDetail"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Compile and integrate findings into a comprehensive report outlining current technology trends in the IT sector.",
+      "table": [
+        "SectionData",
+        "PageInfo"
+      ]
+    }
+  ]
+}

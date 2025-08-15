@@ -1,0 +1,4 @@
+{
+  "question": "Analyze the IT investment trends across various industries based on company data.",
+  "subtasks": "[{'step': 1, 'task': 'Gather IT budget data for companies across different industries.', 'table': ['CompanyInfo']}, {'step': 2, 'task': 'Identify relevant technology focus areas for each company.', 'table': ['CompanyFocusAreaDetail']}, {'step': 3, 'task': 'Analyze emerging IT trends per industry using IndustryITTrend data.', 'table': ['IndustryITTrend']}, {'step': 4, 'task': 'Compile the analysis to highlight correlations between IT budgets and technology adoption in various industries.', 'table': ['CompanyInfo', 'CompanyFocusAreaDetail', 'IndustryITTrend']}]"
+}

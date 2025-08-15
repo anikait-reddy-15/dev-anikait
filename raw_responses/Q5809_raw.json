@@ -1,0 +1,4 @@
+{
+  "question": "What are the current IT budget allocations and strength ratings for companies in the healthcare industry?",
+  "subtasks": "[{\"step\":1,\"task\":\"Query the CompanyInfo table to find companies in the healthcare industry and retrieve their ITBudget and ITStrength columns.\",\"table\":[\"CompanyInfo\"]},{\"step\":2,\"task\":\"Filter the results from step 1 to include only those entries where ITBudget and ITStrength are not null or zero.\",\"table\":[\"CompanyInfo\"]},{\"step\":3,\"task\":\"Sort the filtered results by ITBudget in descending order to see which companies have the highest allocations.\",\"table\":[\"CompanyInfo\"]},{\"step\":4,\"task\":\"Group the results by ITStrength to provide a summary of how many companies fall into each strength category (e.g., high, medium, low).\",\"table\":[\"CompanyInfo\"]}]"
+}

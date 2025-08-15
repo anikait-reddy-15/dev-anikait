@@ -1,0 +1,40 @@
+{
+  "question": "Analyze the impact of social media engagement on company revenue among tech firms.",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify tech firms from the CompanyInfo table by filtering on the industry column for technology related sectors.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract social media engagement metrics for the identified tech firms from the SocialMediaInfo table, focusing on platforms like Facebook, Twitter, Instagram, and LinkedIn.",
+      "table": [
+        "SocialMediaInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Correlate the social media engagement data with the financial metrics of the tech firms, specifically revenue, from the CompanyInfo table to assess the relationship.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Analyze additional social media details from CompanyFacebookDetail, CompanyTwitterDetail, and CompanyInstagramDetail for deeper insights into engagement types and their potential effects on revenue.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyTwitterDetail",
+        "CompanyInstagramDetail"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Summarize findings to understand overall trends and produce recommendations regarding social media strategies for enhancing revenue growth in tech firms.",
+      "table": []
+    }
+  ]
+}

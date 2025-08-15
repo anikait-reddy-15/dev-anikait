@@ -1,0 +1,36 @@
+{
+  "question": "What are the key IT focus areas and related trends for companies in the technology sector?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify and retrieve all companies within the technology sector from the CompanyInfo table, filtering by Industry column.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Gather IT focus areas for the identified technology companies using the CompanyFocusAreaDetail table, linking it to CompanyInfo for details.",
+      "table": [
+        "CompanyFocusAreaDetail",
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Collect emerging IT trends related to the technology sector from the IndustryITTrend table, ensuring the relevance to the identified companies.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Compile a report that summarizes the key IT focus areas and associated trends for the technology sector companies, including any relevant metrics or insights from CompanyLeadershipExcerpt if available.",
+      "table": [
+        "CompanyLeadershipExcerpt",
+        "CompanyFocusAreaDetail",
+        "IndustryITTrend"
+      ]
+    }
+  ]
+}

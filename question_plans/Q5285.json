@@ -1,0 +1,35 @@
+{
+  "question": "What are the latest trends in IT adoption and talent demand among companies in the technology sector?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify technology-focused companies from the CompanyInfo table and filter by the technology sector.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract relevant data on IT trends from the IndustryITTrend table focusing on technologies like AI, IoT, and cybersecurity that are being adopted by companies in the technology sector.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze active hiring initiatives from the CompanyHiringDetail table to identify talent demand trends in technology roles for these companies.",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Cross-reference the CompanyInfo, CompanyHiringDetail, and IndustryITTrend tables to compile a report summarizing the relationships between IT trends and hiring practices among technology companies.",
+      "table": [
+        "CompanyInfo",
+        "CompanyHiringDetail",
+        "IndustryITTrend"
+      ]
+    }
+  ]
+}

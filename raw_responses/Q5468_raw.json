@@ -1,0 +1,4 @@
+{
+  "question": "What are the latest trends in IT across different industries?",
+  "subtasks": "[{\"step\":1,\"task\":\"Identify the various industries represented in the IndustryITTrend table and list them with their corresponding identifiers.\",\"table\":[\"IndustryITTrend\"]},{\"step\":2,\"task\":\"Extract the latest IT trends for each industry by querying the IndustryITTrend table for the most recent entries ordered by creation date.\",\"table\":[\"IndustryITTrend\"]},{\"step\":3,\"task\":\"Summarize the collected IT trends into a report format highlighting key technological advancements and focus areas for each industry.\",\"table\":[\"IndustryITTrend\"]}]"
+}

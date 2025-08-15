@@ -1,0 +1,37 @@
+{
+  "question": "What are the emerging technology trends in the healthcare industry based on recent vendor engagements?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify healthcare companies and their associated metadata including contracts, budgets, revenues, and technological areas of focus.",
+      "table": [
+        "CompanyInfo",
+        "CompanyDealMaster",
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Examine the details of technology services provided by vendors to healthcare companies, focusing on service types and associated deal values.",
+      "table": [
+        "CompanyVendorTechDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze industry-level trends specific to the healthcare sector, leveraging data on strategic focus and emerging technologies being adopted.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Cross-reference healthcare company social media engagement to further gauge public interest and conversations surrounding these technology trends.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyTwitterDetail",
+        "CompanyInstagramDetail"
+      ]
+    }
+  ]
+}

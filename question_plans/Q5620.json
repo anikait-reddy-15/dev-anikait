@@ -1,0 +1,41 @@
+{
+  "question": "What are the current social media strategies and engagement levels of companies in the technology industry?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify all companies operating in the technology industry by querying the CompanyInfo table for the Industry column.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Retrieve social media engagement metrics for the identified technology companies from the SocialMediaInfo table, linking it to the CompanyInfo table by CompanyInfoId.",
+      "table": [
+        "SocialMediaInfo",
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Collect detailed Facebook, Twitter, Instagram, and YouTube engagement data for each technology company from their respective social media detail tables (CompanyFacebookDetail, CompanyTwitterDetail, CompanyInstagramDetail, CompanyYoutubeDetail).",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyTwitterDetail",
+        "CompanyInstagramDetail",
+        "CompanyYoutubeDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Analyze the gathered metrics to identify trends, such as which platforms have the highest engagement for technology companies, and summarize findings into actionable insights.",
+      "table": [
+        "SocialMediaInfo",
+        "CompanyFacebookDetail",
+        "CompanyTwitterDetail",
+        "CompanyInstagramDetail",
+        "CompanyYoutubeDetail"
+      ]
+    }
+  ]
+}

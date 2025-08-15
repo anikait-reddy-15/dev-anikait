@@ -1,0 +1,44 @@
+{
+  "question": "What are the current technology trends and focus areas among leading companies in the IT industry?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify and list leading companies within the IT industry and their unique attributes such as revenue, market capitalization, and core business focus.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Analyze the technology focus areas of these companies to find common trends, including investments in specific IT domains like cloud computing, AI, and automation.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Review partnerships and vendor relationships of the identified companies to assess their technological collaborations and deal trends in the IT sector.",
+      "table": [
+        "CompanyITPartnerDetail",
+        "CompanyVendorTechDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Examine social media engagement and content from these companies to understand how they present their technology initiatives and strategic focus areas to their audience.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyInstagramDetail",
+        "CompanyTwitterDetail"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Compile the findings into a report that illustrates technology trends specific to the IT industry, outlining significant focus areas, partnerships, and social media presence of leading firms.",
+      "table": [
+        "IndustryITTrend",
+        "SectionData"
+      ]
+    }
+  ]
+}

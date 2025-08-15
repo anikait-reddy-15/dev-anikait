@@ -1,0 +1,4 @@
+{
+  "question": "What are the recent hiring trends in the technology sector and how do they correlate with companies' IT budgets?",
+  "subtasks": "[{\"step\":1,\"task\":\"Identify technology companies that have active hiring initiatives and retrieve relevant information about job roles and designations.\" ,\"table\":[\"CompanyHiringDetail\"]},{\"step\":2,\"task\":\"Gather IT budget data for these technology companies to analyze the correlation between their hiring activities and budget allocations.\" ,\"table\":[\"CompanyInfo\"]},{\"step\":3,\"task\":\"Analyze the data to find trends in hiring patterns over the recent months and identify any relationships with their IT budgets.\" ,\"table\":[\"CompanyHiringDetail\",\"CompanyInfo\"]}]}"
+}

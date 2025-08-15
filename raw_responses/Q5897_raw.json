@@ -1,0 +1,4 @@
+{
+  "question": "What are the current industry trends in technology and how do they influence company strategies?",
+  "subtasks": "[{\"step\":1,\"task\":\"Identify the current IT trends across different industries\",\"table\":[\"IndustryITTrend\"]},{\"step\":2,\"task\":\"Gather strategic focus areas from companies related to the identified IT trends\",\"table\":[\"CompanyFocusAreaDetail\"]},{\"step\":3,\"task\":\"Analyze the impact of these technological trends on company strategies by examining company leadership quotes or statements\",\"table\":[\"CompanyLeadershipExcerpt\"]},{\"step\":4,\"task\":\"Aggregate data on technology adoption from various companies to assess overall industry impact\",\"table\":[\"CompanyTechStack\"]},{\"step\":5,\"task\":\"Provide a summary report on how these trends are influencing market dynamics and company positioning\",\"table\":[\"CompanyInfo\"]}]}"
+}

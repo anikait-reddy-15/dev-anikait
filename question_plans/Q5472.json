@@ -1,0 +1,43 @@
+{
+  "question": "What are the current technology trends in the financial services industry and how are companies adopting them?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify the financial services companies present in the database and retrieve their basic information including name, industry, and revenue.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Gather data on the technology focus areas for the identified financial services companies from the CompanyFocusAreaDetail table, highlighting specific technologies they are investing in.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze technology service contracts related to these companies from the CompanyDealMaster table, focusing on contract values and service descriptions relevant to emerging tech trends.",
+      "table": [
+        "CompanyDealMaster"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Check the IndustryITTrend table to find industry-wide adoption trends and technologies specifically impacting the financial services sector.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Compile and synthesize findings into a report summarizing the technology adoption patterns and trends in the financial services industry.",
+      "table": [
+        "CompanyInfo",
+        "CompanyFocusAreaDetail",
+        "CompanyDealMaster",
+        "IndustryITTrend"
+      ]
+    }
+  ]
+}

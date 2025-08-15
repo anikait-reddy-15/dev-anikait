@@ -1,0 +1,39 @@
+{
+  "question": "Analyze the social media engagement of companies in the technology sector and assess the correlation with their IT budget.",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify all companies in the technology sector and retrieve their IT budget allocation from the CompanyInfo table.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Collect social media engagement data (likes, comments, engagement rates) from the relevant social media detail tables for each identified company.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyInstagramDetail",
+        "CompanyTwitterDetail",
+        "CompanyYoutubeDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Aggregate the social media engagement metrics for each company to summarize total engagement across different platforms.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyInstagramDetail",
+        "CompanyTwitterDetail",
+        "CompanyYoutubeDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Perform a correlation analysis between the aggregated social media engagement metrics and the IT budget allocations of the companies in the technology sector.",
+      "table": [
+        "CompanyInfo"
+      ]
+    }
+  ]
+}

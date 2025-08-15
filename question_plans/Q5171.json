@@ -1,0 +1,37 @@
+{
+  "question": "Analyze the social media presence and engagement metrics of top companies in the technology sector for the last year.",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify the top companies in the technology sector based on revenue and market capitalization.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Retrieve the engagement metrics of the identified companies from their social media platforms (Facebook, Instagram, Twitter).",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyInstagramDetail",
+        "CompanyTwitterDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Aggregate and analyze the engagement metrics (likes, comments, shares) to derive insights about their social media performance over the last year.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyInstagramDetail",
+        "CompanyTwitterDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Create a report summarizing the findings on social media presence and engagement trends for the top companies.",
+      "table": [
+        "CompanyInfo"
+      ]
+    }
+  ]
+}

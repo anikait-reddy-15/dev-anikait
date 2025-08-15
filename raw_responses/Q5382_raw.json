@@ -1,0 +1,4 @@
+{
+  "question": "Analyze the social media presence and engagement trends of tech companies in the healthcare industry.",
+  "subtasks": "[{\"step\":1,\"task\":\"Identify all tech companies operating in the healthcare industry from the CompanyInfo table.\",\"table\":[\"CompanyInfo\"]},{\"step\":2,\"task\":\"Gather social media data for the identified healthcare tech companies from the SocialMediaInfo table.\",\"table\":[\"SocialMediaInfo\"]},{\"step\":3,\"task\":\"Analyze engagement metrics (likes, comments, shares) from individual company profiles on Facebook, LinkedIn, Instagram, and Twitter to determine trends in social media presence.\",\"table\":[\"CompanyFacebookDetail\",\"CompanyInstagramDetail\",\"CompanyTwitterDetail\",\"CompanyLinkedinPost\"]}]"
+}

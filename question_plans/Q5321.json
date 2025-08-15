@@ -1,0 +1,34 @@
+{
+  "question": "What are the technology adoption trends across different industries for the past year?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify the industries to analyze for technology adoption trends.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Gather data on technology adoption specifics (e.g., AI, IoT, Blockchain) for each identified industry.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Collect time-bound data related to the adoption trends over the past year and summarize insights.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Compile findings in a report format to present to stakeholders, highlighting critical trends and patterns.",
+      "table": [
+        "IndustryITTrend",
+        "PageInfo"
+      ]
+    }
+  ]
+}

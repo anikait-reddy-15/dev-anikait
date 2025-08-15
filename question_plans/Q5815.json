@@ -1,0 +1,10 @@
+{
+  "question": "What are the current social media engagement metrics for companies in the technology industry?",
+  "subtasks": [
+    "1. Retrieve the list of active companies in the technology industry from the CompanyInfo table.",
+    "2. For each company, aggregate engagement metrics (likes, comments, reposts) from social media-related tables such as CompanyFacebookDetail, CompanyInstagramDetail, CompanyTwitterDetail, and CompanyYoutubeDetail.",
+    "3. Compile the engagement data into a summary report highlighting total engagement metrics per company.",
+    "4. Filter the summary to include only companies with significant social media activity (based on defined thresholds).",
+    "5. Format the findings into a presentable structure for reporting purposes."
+  ]
+}

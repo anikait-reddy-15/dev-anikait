@@ -1,0 +1,4 @@
+{
+  "question": "What are the current trends in hiring for IT roles across different industries, and how do they relate to companies' technology focuses?",
+  "subtasks": "[{\"step\":1,\"task\":\"Identify active hiring initiatives in IT roles from various companies across different industries.\",\"table\":[\"CompanyHiringDetail\",\"CompanyInfo\"]},{\"step\":2,\"task\":\"Analyze the strategic technology focus areas of these companies to determine how they align with hiring trends.\",\"table\":[\"CompanyFocusAreaDetail\",\"CompanyInfo\"]},{\"step\":3,\"task\":\"Gather and summarize industry-specific technological trends that could impact hiring practices in IT roles.\",\"table\":[\"IndustryITTrend\"]},{\"step\":4,\"task\":\"Combine the insights from hiring trends and technology focuses to provide a holistic view of IT role demands within the context of industry trends.\",\"table\":[\"CompanyHiringDetail\",\"CompanyFocusAreaDetail\",\"IndustryITTrend\"]}]"
+}

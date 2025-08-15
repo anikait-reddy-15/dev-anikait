@@ -1,0 +1,4 @@
+{
+  "question": "What are the current IT budgeting trends and hiring initiatives among leading companies in the technology sector?",
+  "subtasks": "[{'step': 1, 'task': 'Identify leading companies in the technology sector based on their market capitalization or revenue.', 'table': ['CompanyInfo']}, {'step': 2, 'task': 'Retrieve IT budget details and active hiring initiatives from the identified companies.', 'table': ['CompanyInfo', 'CompanyHiringDetail']}, {'step': 3, 'task': 'Analyze the data to identify trends in IT budgeting and hiring practices.', 'table': ['CompanyInfo', 'CompanyHiringDetail']}, {'step': 4, 'task': 'Summarize findings on IT budget allocation and key roles being hired within these companies.', 'table': ['CompanyInfo', 'CompanyHiringDetail']}, {'step': 5, 'task': 'Create a report outlining the analysis for stakeholders.', 'table': ['CompanyInfo', 'CompanyHiringDetail']}]"
+}

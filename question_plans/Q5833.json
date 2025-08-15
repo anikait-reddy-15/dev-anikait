@@ -1,0 +1,41 @@
+{
+  "question": "What are the current IT trends and hiring patterns among major companies in the tech industry?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify major technology companies and gather their core information including revenue, market capitalization, and industry type from the CompanyInfo table.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Analyze current hiring initiatives and job postings related to technology roles by examining the CompanyHiringDetail table to identify trends in locations and skill sets being demanded.",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Compile and review data on the strategic IT focus areas for these companies from the CompanyFocusAreaDetail to understand their current technology investments and trends.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Extract and analyze social media engagement data from CompanyFacebookDetail, CompanyTwitterDetail, CompanyInstagramDetail, and CompanyYoutubeDetail to assess how these companies communicate their technology initiatives and hiring trends publicly.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyTwitterDetail",
+        "CompanyInstagramDetail",
+        "CompanyYoutubeDetail"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Combine insights from IT focus areas, hiring trends, and social media engagement into a cohesive report that outlines the current landscape of IT trends and hiring patterns among the selected companies.",
+      "table": []
+    }
+  ]
+}

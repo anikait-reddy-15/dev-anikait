@@ -1,0 +1,4 @@
+{
+  "question": "What is the social media engagement trend for companies in the technology sector over the last year?",
+  "subtasks": "[{\"step\": 1, \"task\": \"Identify companies in the technology sector by querying the CompanyInfo table, focusing on the Industry column.\", \"table\": [\"CompanyInfo\"]},{\"step\": 2, \"task\": \"Gather social media engagement metrics for the identified technology companies from the SocialMediaInfo table, filtering records based on the last year.\", \"table\": [\"SocialMediaInfo\"]},{\"step\": 3, \"task\": \"Calculate the overall engagement trends by summarizing the collected metrics, such as total likes, comments, and shares for each company on each platform.\", \"table\": [\"SocialMediaInfo\"]},{\"step\": 4, \"task\": \"Visualize the engagement trends over time to identify patterns and anomalies in the social media activity of these companies.\", \"table\": []}]"
+}

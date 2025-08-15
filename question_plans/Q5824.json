@@ -1,0 +1,35 @@
+{
+  "question": "What are the emerging technology trends based on companies' focus areas and industry shifts?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify key technology focus areas of companies from the CompanyFocusAreaDetail table.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Gather insights on industry-specific technological priorities by analyzing the IndustryITTrend table.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Combine data from CompanyFocusAreaDetail and IndustryITTrend tables to identify correlations between company strategies and industry trends.",
+      "table": [
+        "CompanyFocusAreaDetail",
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Summarize findings on emerging technology trends by comparing company focus areas with the current narrative from the IndustryBusinessTrend table.",
+      "table": [
+        "IndustryBusinessTrend",
+        "CompanyFocusAreaDetail"
+      ]
+    }
+  ]
+}

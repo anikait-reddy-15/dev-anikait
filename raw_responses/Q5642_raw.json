@@ -1,0 +1,4 @@
+{
+  "question": "What areas of technology should our company focus on to enhance digital transformation and innovation?",
+  "subtasks": "[{'step': 1, 'task': 'Identify the current strategic technology focus areas of our company.', 'table': ['CompanyFocusAreaDetail']}, {'step': 2, 'task': 'Analyze the emerging IT trends relevant to our industry to align with technology focus areas.', 'table': ['IndustryITTrend']}, {'step': 3, 'task': 'Review technology adoption trends in our industry to understand commonly adopted technologies.', 'table': ['IndustryBusinessTrend']}, {'step': 4, 'task': 'Gather insights from leadership statements regarding our company\u2019s technology direction.', 'table': ['CompanyLeadershipExcerpt']}]}"
+}

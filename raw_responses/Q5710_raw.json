@@ -1,0 +1,4 @@
+{
+  "question": "Analyze the technological focus areas of companies in the financial sector and their associated IT budgets.",
+  "subtasks": "[{'step': 1, 'task': 'Identify all companies operating in the financial sector.', 'table': ['CompanyInfo']}, {'step': 2, 'task': 'Gather the IT budgets of the identified companies.', 'table': ['CompanyInfo']}, {'step': 3, 'task': 'Explore the strategic technology focus areas associated with these companies.', 'table': ['CompanyFocusAreaDetail']}, {'step': 4, 'task': 'Link the focus areas with the respective companies to understand their technological strategies.', 'table': ['CompanyFocusAreaDetail', 'CompanyInfo']}, {'step': 5, 'task': 'Compile and analyze the data to summarize trends and insights about IT budgets and technology focus.', 'table': []}]}"
+}

@@ -1,0 +1,4 @@
+{
+  "question": "What are the most popular social media platforms used by companies and their engagement metrics?",
+  "subtasks": "[{\"step\":1,\"task\":\"Identify all companies in the CompanyInfo table that are active and have social media presence.\",\"table\":[\"CompanyInfo\"]},{\"step\":2,\"task\":\"Gather data from the SocialMediaInfo table to capture the engagement metrics for each social media platform associated with the identified companies.\",\"table\":[\"SocialMediaInfo\"]},{\"step\":3,\"task\":\"Compile the information to evaluate which social media platforms have the highest engagement metrics across the companies.\",\"table\":[\"SocialMediaInfo\"]},{\"step\":4,\"task\":\"Visualize the engagement metrics of the popular social media platforms to provide insights on their usage across companies.\",\"table\":[\"SocialMediaInfo\"]}]}"
+}

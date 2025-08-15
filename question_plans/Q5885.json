@@ -1,0 +1,39 @@
+{
+  "question": "What are the key technology trends among companies in the finance industry based on their social media engagement and technology usage?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify all companies operating in the finance industry and gather their core information such as their name, revenue, and IT budget.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "For the identified finance companies, retrieve their social media engagement metrics from platforms like Facebook, Twitter, and Instagram to assess their online presence.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyTwitterDetail",
+        "CompanyInstagramDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Compile data on the technology stack used by the finance companies to understand their digital transformation efforts.",
+      "table": [
+        "CompanyTechStack"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Analyze the data collected to identify common technology trends and their correlation with social media engagement metrics.",
+      "table": [
+        "CompanyInfo",
+        "CompanyTechStack",
+        "CompanyFacebookDetail",
+        "CompanyTwitterDetail",
+        "CompanyInstagramDetail"
+      ]
+    }
+  ]
+}

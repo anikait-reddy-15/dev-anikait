@@ -1,0 +1,4 @@
+{
+  "question": "What are the latest technology focus areas and social media engagement metrics for companies in the Tech industry?",
+  "subtasks": "1. Identify the companies classified under the Tech industry from the CompanyInfo table. Fetch their basic information including Id, Name, and Industry.\n2. Retrieve the latest entries from the CompanyFocusAreaDetail table that link to the identified Tech companies, focusing on ITFocusAreaId and Detail to detail their technology focus initiatives.\n3. Gather the most recent Facebook, Instagram, and Twitter engagement metrics for the identified Tech companies by querying the CompanyFacebookDetail, CompanyInstagramDetail, and CompanyTwitterDetail tables to aggregate likes, comments, and engagement rates."
+}

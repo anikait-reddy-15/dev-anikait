@@ -1,0 +1,36 @@
+{
+  "question": "What are the key technology investment trends among companies in the tech industry for the current year?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify tech companies and filter based on their IT investment metrics and trends from the last year to summarize key investments.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Analyze technology focus areas for selected companies to determine their recent strategic initiatives in terms of technology adoption.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Review and compile data on active technology service contracts from vendors to determine the volume and value of investments in technology services by these companies.",
+      "table": [
+        "CompanyDealMaster"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Collect and summarize engagement metrics from social media platforms of the identified companies to see how technology investments are being communicated and perceived in the market.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyInstagramDetail",
+        "CompanyTwitterDetail",
+        "CompanyYoutubeDetail"
+      ]
+    }
+  ]
+}

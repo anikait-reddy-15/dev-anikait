@@ -1,0 +1,35 @@
+{
+  "question": "Analyze the impact of technological focus areas on company revenue and hiring trends within the IT industry.",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies in the IT industry and extract their revenue data from the CompanyInfo table.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract the technological focus areas for these companies from the CompanyFocusAreaDetail table, linking them to CompanyInfo using the CompanyInfoId.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze hiring trends by extracting data from the CompanyHiringDetail table for the identified companies, linking the data back to CompanyInfo using CompanyInfoId.",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Combine insights from revenue, hiring trends, and technological focus areas to identify correlations between technology focus and business performance in the IT industry.",
+      "table": [
+        "CompanyFocusAreaDetail",
+        "CompanyInfo",
+        "CompanyHiringDetail"
+      ]
+    }
+  ]
+}

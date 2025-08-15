@@ -1,0 +1,44 @@
+{
+  "question": "How are companies in the technology sector positioning themselves in social media to enhance their market presence?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify all companies that belong to the technology sector in the CompanyInfo table based on the Industry column.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Gather social media engagement metrics for the identified technology companies from the SocialMediaInfo table, focusing on platforms like Facebook, LinkedIn, Instagram, and Twitter.",
+      "table": [
+        "SocialMediaInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Correlate the social media metrics with company details such as revenue and net income from the CompanyInfo table to analyze market presence relative to financial performance.",
+      "table": [
+        "CompanyInfo",
+        "SocialMediaInfo"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Review Facebook and Instagram engagement details for these companies from CompanyFacebookDetail and CompanyInstagramDetail, respectively, to analyze their social media strategies and effectiveness.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyInstagramDetail"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Compile insights on the strategic messages or themes present in social media posts from each company to evaluate their market positioning and engagement tactics.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyInstagramDetail",
+        "CompanyTwitterDetail"
+      ]
+    }
+  ]
+}

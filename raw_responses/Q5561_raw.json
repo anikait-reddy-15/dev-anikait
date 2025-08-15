@@ -1,0 +1,4 @@
+{
+  "question": "What are the current hiring trends in technology companies, focusing on job designations and locations?",
+  "subtasks": "[{'step': 1, 'task': 'Identify active hiring initiatives in technology companies and extract job designations along with corresponding details.', 'table': ['CompanyHiringDetail']}, {'step': 2, 'task': 'Group hiring data by technology domains and analyze the distribution of job designations.', 'table': ['CompanyHiringDetail']}, {'step': 3, 'task': 'Determine geographic patterns in hiring by analyzing the cities of listed positions.', 'table': ['CompanyHiringDetail']}, {'step': 4, 'task': 'Summarize the findings to highlight key trends in designations and specific locations.', 'table': ['CompanyHiringDetail']}]"
+}

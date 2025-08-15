@@ -1,0 +1,39 @@
+{
+  "question": "What are the current technology focus areas for leading companies in the financial industry with active social media engagement?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify the leading companies in the financial industry based on their revenue and market capitalization.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Gather technology focus areas for the identified companies that describe their strategic initiatives in the IT domain.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Collect social media engagement metrics from the identified companies' Facebook, Twitter, and Instagram profiles to assess their current engagement status.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyTwitterDetail",
+        "CompanyInstagramDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Combine the data on companies, their technology focus, and social media engagement metrics to generate a summary report for further analysis.",
+      "table": [
+        "CompanyInfo",
+        "CompanyFocusAreaDetail",
+        "CompanyFacebookDetail",
+        "CompanyTwitterDetail",
+        "CompanyInstagramDetail"
+      ]
+    }
+  ]
+}

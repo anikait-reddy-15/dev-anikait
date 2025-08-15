@@ -1,0 +1,4 @@
+{
+  "question": "What are the emerging IT trends in the technology companies and how are they affecting hiring practices?",
+  "subtasks": "[{\"step\":1,\"task\":\"Identify the emerging IT trends by analyzing the IndustryITTrend table to gather data on different sectors adopting new technologies and their strategic focus areas.\",\"table\":[\"IndustryITTrend\"]},{\"step\":2,\"task\":\"Analyze the hiring initiatives of technology companies as recorded in the CompanyHiringDetail table to determine which skills and roles are in demand related to the identified IT trends.\",\"table\":[\"CompanyHiringDetail\"]},{\"step\":3,\"task\":\"Cross-reference the trends identified in step 1 with the hiring data from step 2 to assess the relationship between emerging technologies and the hiring decisions made by companies.\",\"table\":[\"IndustryITTrend\",\"CompanyHiringDetail\"]}]"
+}

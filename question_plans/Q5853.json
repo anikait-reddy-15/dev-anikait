@@ -1,0 +1,38 @@
+{
+  "question": "What are the recent trends in IT investments across different industries?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Gather all relevant metadata about companies including their industries and IT budgets.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Identify emerging IT trends from different industries, including digital transformation and technology adoption patterns.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the IT partnership details of companies to assess collaborative investments in technology solutions.",
+      "table": [
+        "CompanyITPartnerDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Compile social media engagement metrics of companies to gauge market sentiment towards their IT strategies.",
+      "table": [
+        "SocialMediaInfo"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Summarize the overall findings in relation to industry-specific investment trends and provide insights on future directions.",
+      "table": []
+    }
+  ]
+}

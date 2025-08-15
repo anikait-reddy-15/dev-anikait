@@ -1,0 +1,35 @@
+{
+  "question": "What are the key technology trends and hiring initiatives in the IT industry based on current company data?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify the current technology trends in the IT industry by analyzing the IndustryITTrend table for emerging technologies such as AI, IoT, and blockchain.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Determine the focus areas of companies within the IT sector using the CompanyFocusAreaDetail table to find out what technologies they are investing in or prioritizing.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Examine active hiring initiatives within companies in the IT sector by analyzing the CompanyHiringDetail table to identify trending job roles and required skills.",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Combine insights from technology trends and hiring initiatives to summarize the overall impact on the IT industry, focusing on how these trends may influence job market demands.",
+      "table": [
+        "IndustryITTrend",
+        "CompanyHiringDetail",
+        "CompanyFocusAreaDetail"
+      ]
+    }
+  ]
+}

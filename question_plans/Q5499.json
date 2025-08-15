@@ -1,0 +1,42 @@
+{
+  "question": "What technologies are companies in a specific industry investing in, and how do these align with emerging IT trends?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify the specific industry of interest.",
+      "table": [
+        "IndustryBusinessTrend"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Retrieve all companies associated with the identified industry, including their profiles and financial details.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Gather the records of technology services and products adopted by these companies, linked to the relevant vendors.",
+      "table": [
+        "CompanyVendorProductDetail",
+        "CompanyVendorTechDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Analyze emerging IT trends related to the identified industry and how they influence technology adoption within that sector.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Cross-reference the technology investments of companies with emerging IT trends to identify alignment or gaps.",
+      "table": [
+        "CompanyTechStack",
+        "IndustryITTrend"
+      ]
+    }
+  ]
+}

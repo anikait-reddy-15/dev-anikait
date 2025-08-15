@@ -1,0 +1,42 @@
+{
+  "question": "What are the key IT trends that companies in the technology sector are focusing on, and how does their social media presence reflect these trends?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies in the technology sector and extract their IT focus areas that reflect key trends such as AI, cloud computing, cybersecurity, etc.",
+      "table": [
+        "CompanyInfo",
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Analyze the social media presence of these companies by extracting relevant engagement metrics from platforms like Facebook, Instagram, and Twitter.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyInstagramDetail",
+        "CompanyTwitterDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Correlate the identified IT trends from the focus areas with the social media engagement metrics to assess how effectively these companies promote their tech focus on social media.",
+      "table": [
+        "CompanyFocusAreaDetail",
+        "CompanyFacebookDetail",
+        "CompanyInstagramDetail",
+        "CompanyTwitterDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Summarize the findings, highlighting the most significant IT trends and corresponding social media engagement strategies used by companies in the technology sector.",
+      "table": [
+        "CompanyInfo",
+        "CompanyFacebookDetail",
+        "CompanyInstagramDetail",
+        "CompanyTwitterDetail"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "question": "What are the current hiring trends in the technology sector for companies based in North America?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify and list all technology companies in North America along with their hiring details.",
+      "table": [
+        "CompanyInfo",
+        "CompanyHiringDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Analyze active job listings to determine the most common roles and required skills within the technology sector.",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Aggregate data on the number of job postings by each company to identify which companies are hiring the most.",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Compare hiring trends over the last few quarters to see if there are increases or decreases in hiring activity in the technology sector.",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Review and summarize findings to identify key insights related to hiring trends in the North American technology sector.",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    }
+  ]
+}

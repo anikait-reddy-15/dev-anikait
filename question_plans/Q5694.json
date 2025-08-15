@@ -1,0 +1,51 @@
+{
+  "question": "Analyze the social media engagement of companies in the technology sector and identify trends in their digital marketing strategies.",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify all companies in the technology sector from the CompanyInfo table.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Gather social media engagement metrics for each identified technology company from the SocialMediaInfo table.",
+      "table": [
+        "SocialMediaInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze Facebook engagement details of technology companies from the CompanyFacebookDetail table to assess the effectiveness of their posts.",
+      "table": [
+        "CompanyFacebookDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Review Instagram engagements for technology sector companies from the CompanyInstagramDetail table to understand audience interaction.",
+      "table": [
+        "CompanyInstagramDetail"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Examine Twitter engagement metrics of technology companies from the CompanyTwitterDetail table to identify popular content themes and audience response.",
+      "table": [
+        "CompanyTwitterDetail"
+      ]
+    },
+    {
+      "step": 6,
+      "task": "Aggregate the gathered social media metrics to identify overall trends in digital marketing strategies utilized by the technology sector companies.",
+      "table": [
+        "CompanyInfo",
+        "CompanyFacebookDetail",
+        "CompanyInstagramDetail",
+        "CompanyTwitterDetail",
+        "SocialMediaInfo"
+      ]
+    }
+  ]
+}

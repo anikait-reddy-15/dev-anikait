@@ -1,0 +1,43 @@
+{
+  "question": "What are the key social media engagement metrics for companies across different industries?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify all the companies listed in the database along with their respective industries.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Gather social media engagement metrics for each company from various platforms (Facebook, Twitter, Instagram, LinkedIn, and YouTube).",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyTwitterDetail",
+        "CompanyInstagramDetail",
+        "CompanyLinkedinActivity",
+        "CompanyYoutubeDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Aggregate the metrics by industry to analyze which industry has the highest engagement across social media platforms.",
+      "table": [
+        "CompanyInfo",
+        "CompanyFacebookDetail",
+        "CompanyTwitterDetail",
+        "CompanyInstagramDetail",
+        "CompanyLinkedinActivity",
+        "CompanyYoutubeDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Create a report summarizing the overall social media presence and engagement metrics per industry, highlighting top performers.",
+      "table": [
+        "SectionData",
+        "SocialMediaInfo"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+{
+  "question": "What are the current trends in IT adoption among companies in the financial industry?",
+  "subtasks": ":[{\"step\":1,\"task\":\"Identify all companies operating in the financial industry from the CompanyInfo table.\",\"table\":[\"CompanyInfo\"]},{\"step\":2,\"task\":\"Gather data on emerging IT trends affecting the financial industry from the IndustryITTrend table.\",\"table\":[\"IndustryITTrend\"]},{\"step\":3,\"task\":\"Link the companies identified in step 1 with their relevant IT partnerships and technologies from the CompanyITPartnerDetail and CompanyVendorTechDetail tables.\",\"table\":[\"CompanyITPartnerDetail\",\"CompanyVendorTechDetail\"]},{\"step\":4,\"task\":\"Analyze the collected data to extract insights about technology adoption rates, innovative practices, and strategic focus areas in the financial sector.\",\"table\":[\"IndustryITTrend\",\"CompanyITPartnerDetail\",\"CompanyVendorTechDetail\"]}]}"
+}

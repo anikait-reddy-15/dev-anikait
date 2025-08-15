@@ -1,0 +1,4 @@
+{
+  "question": "What are the current hiring trends in technology across different companies?",
+  "subtasks": "[{'step': 1, 'task': 'Identify companies that are actively hiring for technology roles.', 'table': ['CompanyHiringDetail', 'CompanyInfo']}, {'step': 2, 'task': 'Gather details about the designated roles and domains for these technology positions.', 'table': ['CompanyHiringDetail']}, {'step': 3, 'task': 'Analyze the geographic distribution of hiring efforts for technology positions.', 'table': ['CompanyHiringDetail', 'CompanyDataCenter']}, {'step': 4, 'task': 'Determine the skill requirements and job responsibilities associated with technology roles.', 'table': ['CompanyHiringDetail']}, {'step': 5, 'task': 'Summarize trends in hiring practices, such as the demand for specific technologies or platforms.', 'table': ['CompanyHiringDetail', 'CompanyTechStack']}]"
+}

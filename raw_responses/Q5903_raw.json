@@ -1,0 +1,4 @@
+{
+  "question": "What are the current IT spending trends across different industries and how are companies adapting their technology focus areas?",
+  "subtasks": "[{\"step\":1,\"task\":\"Gather metadata about company IT budgets and spending across different industries.\",\"table\":[\"CompanyInfo\"]},{\"step\":2,\"task\":\"Analyze emerging IT trends and technology focus areas reported by companies based on their industry type.\",\"table\":[\"IndustryITTrend\",\"CompanyFocusAreaDetail\"]},{\"step\":3,\"task\":\"Identify and compile quarterly or annual growth trends by examining revenue and budget changes over time for various companies.\",\"table\":[\"CompanyInfo\"]},{\"step\":4,\"task\":\"Evaluate the relationship between IT spending and company growth or market capitalization to find any significant correlations.\",\"table\":[\"CompanyInfo\"]}]"
+}

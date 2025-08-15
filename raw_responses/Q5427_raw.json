@@ -1,0 +1,4 @@
+{
+  "question": "What are the current social media engagement statistics and hiring trends of technology companies in the cloud computing industry?",
+  "subtasks": "1. Retrieve the list of technology companies that operate in the cloud computing industry. Relevant tables: ['CompanyInfo']\n2. Get the social media engagement statistics (likes, comments, shares) for the identified technology companies from their respective social media platforms. Relevant tables: ['CompanyFacebookDetail', 'CompanyInstagramDetail', 'CompanyTwitterDetail', 'CompanyYoutubeDetail']\n3. Extract current hiring trends (job titles, skills, locations) for the technology companies in the cloud computing sector. Relevant tables: ['CompanyHiringDetail']\n4. Consolidate the retrieved data into a structured format for analysis. Relevant tables: []"
+}

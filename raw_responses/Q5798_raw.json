@@ -1,0 +1,4 @@
+{
+  "question": "What are the current trends in technology adoption across different industries, particularly focusing on AI, IoT, and cloud computing?",
+  "subtasks": "[{'step': 1, 'task': 'Identify the relevant industries adopting AI, IoT, and cloud computing.', 'table': ['IndustryITTrend']}, {'step': 2, 'task': 'Analyze the specific IT trends associated with each identified industry.', 'table': ['IndustryITTrend']}, {'step': 3, 'task': 'Gather insights from CompanyFocusAreaDetail to understand how companies are prioritizing these technologies.', 'table': ['CompanyFocusAreaDetail']}, {'step': 4, 'task': 'Collect data on contract details related to technology adoption across industries from CompanyDealMaster.', 'table': ['CompanyDealMaster']}, {'step': 5, 'task': 'Compile social media activity of companies focusing on AI, IoT, and cloud computing from SocialMediaInfo.', 'table': ['SocialMediaInfo']}]}"
+}

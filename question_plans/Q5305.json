@@ -1,0 +1,49 @@
+{
+  "question": "What are the social media strategies of the top companies in the technology sector?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify top companies in the technology sector based on market capitalization and revenue",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Gather social media engagement metrics from Facebook, Instagram, Twitter, and YouTube for the identified companies",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyInstagramDetail",
+        "CompanyTwitterDetail",
+        "CompanyYoutubeDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the type of content shared by these companies across different social media platforms",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyInstagramDetail",
+        "CompanyTwitterDetail",
+        "CompanyYoutubeDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Evaluate the engagement rates and interactions (likes, comments, shares) to determine the effectiveness of their social media strategies",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyInstagramDetail",
+        "CompanyTwitterDetail",
+        "CompanyYoutubeDetail"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Summarize the findings to highlight effective strategies and suggest improvements for future social media efforts",
+      "table": [
+        "SocialMediaInfo"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "question": "What are the current strategic technology focus areas and social media engagement metrics for the top companies in the technology sector?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify the top companies in the technology sector based on revenue and market capitalization.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Retrieve the strategic technology focus areas for these identified companies.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Collect social media engagement metrics (likes, comments, shares) from platforms like Facebook, Instagram, and Twitter for the top companies.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyInstagramDetail",
+        "CompanyTwitterDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Summarize the data to analyze trends in strategic focus areas and compare them with social media engagement metrics.",
+      "table": []
+    }
+  ]
+}

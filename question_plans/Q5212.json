@@ -1,0 +1,41 @@
+{
+  "question": "What are the emerging technology trends across different industries, and how are companies adopting them?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify the relevant emerging technology trends across different industries by analyzing the IndustryITTrend table.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Gather data on the companies operating within those industries by querying the CompanyInfo table for companies that match the identified technology trends.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Examine the technology stack utilized by the companies identified from the previous step by referencing the CompanyTechStack table to understand their tech adoption practices.",
+      "table": [
+        "CompanyTechStack"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Compile how each company is implementing these emerging technologies by analyzing their partnership data in the CompanyITPartnerDetail table.",
+      "table": [
+        "CompanyITPartnerDetail"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Aggregate findings to generate insights on the overall technology adoption trends and the impact of those technologies on business operations and industry evolution.",
+      "table": [
+        "CompanyDealMaster",
+        "IndustryBusinessTrend"
+      ]
+    }
+  ]
+}

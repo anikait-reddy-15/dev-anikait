@@ -1,0 +1,34 @@
+{
+  "question": "What are the top technology focus areas for companies in the healthcare industry based on recent trends and their partnerships?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies in the healthcare industry from the CompanyInfo table to target",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract technology focus areas of identified healthcare companies from the CompanyFocusAreaDetail table",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Gather partnership details for these healthcare companies from the CompanyITPartnerDetail table to analyze collaboration patterns",
+      "table": [
+        "CompanyITPartnerDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Compile and summarize the data to find common technology focus areas and key partnerships for these companies",
+      "table": [
+        "CompanyFocusAreaDetail",
+        "CompanyITPartnerDetail"
+      ]
+    }
+  ]
+}

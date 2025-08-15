@@ -1,0 +1,4 @@
+{
+  "question": "What are the current trends in IT focus areas across different industries, and how do companies align their technology strategies accordingly?",
+  "subtasks": "[{'step': 1, 'task': 'Identify and extract the latest IT trends from the IndustryITTrend table.', 'table': ['IndustryITTrend']}, {'step': 2, 'task': 'Gather data on companies along with their IT focus areas from the CompanyFocusAreaDetail table.', 'table': ['CompanyFocusAreaDetail']}, {'step': 3, 'task': 'Map the identified IT trends to the respective companies based on their focus areas, and analyze the alignment.', 'table': ['CompanyFocusAreaDetail', 'IndustryITTrend']}, {'step': 4, 'task': 'Compile insights about technology strategies of key companies from the CompanyTechStack table.', 'table': ['CompanyTechStack']}, {'step': 5, 'task': 'Integrate findings to summarize how companies are adjusting their strategies in response to identified IT trends across industries.', 'table': []}]}"
+}

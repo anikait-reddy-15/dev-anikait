@@ -1,0 +1,4 @@
+{
+  "question": "What are the latest trends in IT and social media for companies across various industries?",
+  "subtasks": "[{'step': 1, 'task': 'Identify the latest emerging IT trends across different industries.', 'table': ['IndustryITTrend']}, {'step': 2, 'task': 'Gather data on companies and their specific technology focus areas.', 'table': ['CompanyFocusAreaDetail', 'CompanyInfo']}, {'step': 3, 'task': 'Collect and analyze social media engagement metrics for each company.', 'table': ['CompanyFacebookDetail', 'CompanyTwitterDetail', 'CompanyInstagramDetail', 'CompanyYoutubeDetail']}, {'step': 4, 'task': 'Summarize recent organizational initiatives or strategies from company leadership related to IT.', 'table': ['CompanyLeadershipExcerpt', 'CompanyInfo']}, {'step': 5, 'task': 'Analyze industry-specific digital transformation strategies among companies.', 'table': ['IndustryBusinessTrend']}]}"
+}

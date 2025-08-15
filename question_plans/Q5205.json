@@ -1,0 +1,45 @@
+{
+  "question": "What are the current trends in technology adoption among large companies in the finance sector?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify large companies in the finance sector by filtering the CompanyInfo table based on industry and employee count criteria.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Analyze the technology stack used by the identified companies by examining the CompanyTechStack table to understand what technologies are currently in use.",
+      "table": [
+        "CompanyTechStack"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Explore any recent technology focus areas and initiatives reported by these companies by querying the CompanyFocusAreaDetail table for insights on their strategic technology investments.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Examine any partnerships or vendor collaborations that these companies have established related to technology services by analyzing the CompanyITPartnerDetail and CompanyVendorTechDetail tables.",
+      "table": [
+        "CompanyITPartnerDetail",
+        "CompanyVendorTechDetail"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Compile and summarize the findings from the analysis to identify overall trends regarding technology adoption in the finance sector among large companies.",
+      "table": [
+        "CompanyInfo",
+        "CompanyTechStack",
+        "CompanyFocusAreaDetail",
+        "CompanyITPartnerDetail",
+        "CompanyVendorTechDetail"
+      ]
+    }
+  ]
+}

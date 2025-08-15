@@ -1,0 +1,4 @@
+{
+  "question": "How are companies in the IT sector utilizing social media to engage with their audience?",
+  "subtasks": "[{'step': 1, 'task': 'Identify companies operating in the IT sector from the CompanyInfo table.', 'table': ['CompanyInfo']}, {'step': 2, 'task': 'Gather social media presence data for the identified IT companies from the SocialMediaInfo table.', 'table': ['SocialMediaInfo']}, {'step': 3, 'task': 'Analyze engagement metrics from social media activity across platforms like Facebook, Twitter, and Instagram using the corresponding social media detail tables.', 'table': ['CompanyFacebookDetail', 'CompanyTwitterDetail', 'CompanyInstagramDetail']}, {'step': 4, 'task': 'Compile and summarize the social media engagement findings to understand overall strategies employed by these companies.', 'table': []}]}"
+}

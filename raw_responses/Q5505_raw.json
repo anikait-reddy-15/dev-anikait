@@ -1,0 +1,4 @@
+{
+  "question": "What are the current technology focus areas and their corresponding partnerships for companies in the cloud computing industry?",
+  "subtasks": "[{\"step\":1,\"task\":\"Retrieve a list of companies operating in the cloud computing industry including their ID and names.\",\"table\":[\"CompanyInfo\"]},{\"step\":2,\"task\":\"For each company identified, gather their strategic technology focus areas related to cloud computing from the CompanyFocusAreaDetail table.\",\"table\":[\"CompanyFocusAreaDetail\"]},{\"step\":3,\"task\":\"Collect partnership details associated with the identified companies from the CompanyITPartnerDetail table, specifically focusing on partnerships that mention cloud computing.\",\"table\":[\"CompanyITPartnerDetail\"]},{\"step\":4,\"task\":\"Compile the results into a single report that highlights technology focus areas and partnerships for cloud computing for each company.\",\"table\":[]}]}"
+}

@@ -1,0 +1,4 @@
+{
+  "question": "What are the current hiring trends within technology companies in the US based on their social media engagement?",
+  "subtasks": "[{\"step\":1,\"task\":\"Identify technology companies based in the US from the CompanyInfo table.\",\"table\":[\"CompanyInfo\"]},{\"step\":2,\"task\":\"Extract active hiring details from CompanyHiringDetail table for the identified companies.\",\"table\":[\"CompanyHiringDetail\"]},{\"step\":3,\"task\":\"Gather social media engagement metrics (likes, comments) from CompanyFacebookDetail, CompanyTwitterDetail, and CompanyInstagramDetail for the identified companies.\",\"table\":[\"CompanyFacebookDetail\",\"CompanyTwitterDetail\",\"CompanyInstagramDetail\"]},{\"step\":4,\"task\":\"Analyze the hiring data in conjunction with the social media engagement data to identify trends and insights.\",\"table\":[\"CompanyHiringDetail\",\"CompanyFacebookDetail\",\"CompanyTwitterDetail\",\"CompanyInstagramDetail\"]}]"
+}

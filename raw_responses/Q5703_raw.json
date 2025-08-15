@@ -1,0 +1,4 @@
+{
+  "question": "What are the current technology partnerships and hiring trends of leading companies in the healthcare industry?",
+  "subtasks": "[{\"step\":1,\"task\":\"Identify leading companies in the healthcare industry based on their revenue and market capitalization.\",\"table\":[\"CompanyInfo\"]},{\"step\":2,\"task\":\"Retrieve current technology partnerships of identified healthcare companies along with details like deal values and timelines.\",\"table\":[\"CompanyITPartnerDetail\"]},{\"step\":3,\"task\":\"Analyze active hiring trends by these companies, including job roles and required skills in healthcare technology roles.\",\"table\":[\"CompanyHiringDetail\"]},{\"step\":4,\"task\":\"Compile the gathered data into a summary report highlighting key insights on partnerships and hiring in the healthcare sector.\",\"table\":[\"CompanyInfo\",\"CompanyITPartnerDetail\",\"CompanyHiringDetail\"]}]}"
+}

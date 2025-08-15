@@ -1,0 +1,4 @@
+{
+  "question": "Identify top 5 companies in the technology sector that are increasing their IT budgets in the last year, along with their key financial metrics and IT focus areas.",
+  "subtasks": "[{'step': 1, 'task': 'Filter companies in the technology sector and identify those with increased IT budgets.', 'table': ['CompanyInfo']}, {'step': 2, 'task': 'Retrieve the key financial metrics (Revenue, Net Income, IT Budget) for the filtered companies.', 'table': ['CompanyInfo']}, {'step': 3, 'task': 'Gather information on the IT focus areas for the selected companies.', 'table': ['CompanyFocusAreaDetail']}, {'step': 4, 'task': 'Sort the companies based on their IT budget increase and select the top 5.', 'table': ['CompanyInfo']}, {'step': 5, 'task': 'Compile and present the information of these companies, including their financial metrics and IT focus areas.', 'table': ['CompanyInfo', 'CompanyFocusAreaDetail']}]}"
+}

@@ -1,0 +1,42 @@
+{
+  "question": "What are the current technology investments and hiring trends of top companies in the IT industry?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify the top companies in the IT industry based on revenue and market capitalization.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Analyze the current hiring initiatives of these companies by checking their job postings and required skill sets.",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Examine the technology focus areas of these companies to assess their investment strategies in emerging technologies.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Retrieve details on the vendors and products these companies are partnering with for their technological investments.",
+      "table": [
+        "CompanyVendorProductDetail"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Compile social media presence and engagement data of these companies to understand their outreach and marketing strategies related to technology adoption.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyInstagramDetail",
+        "CompanyTwitterDetail"
+      ]
+    }
+  ]
+}

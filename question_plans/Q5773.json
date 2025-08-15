@@ -1,0 +1,33 @@
+{
+  "question": "What are the hiring trends in technology companies over the past year?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify and retrieve hiring data for technology companies from the hiring detail table for the past year.",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Classify retrieved hiring data by technology domains to determine the most in-demand areas within the technology sector.",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the geographic distribution of hiring initiatives to identify location-based trends in technology job demands.",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Summarize the overall findings and create a report detailing the hiring trends and insights derived from the analysis.",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    }
+  ]
+}

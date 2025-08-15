@@ -1,0 +1,42 @@
+{
+  "question": "Analyze the social media engagement metrics of companies in the technology sector to identify top performers and their strategies.",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Select companies from the CompanyInfo table that belong to the technology sector.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Aggregate social media engagement metrics from the SocialMediaInfo table for the selected technology companies.",
+      "table": [
+        "SocialMediaInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze engagement metrics like likes, comments, and shares from the CompanyFacebookDetail, CompanyInstagramDetail, and CompanyTwitterDetail tables to compute overall performance scores.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyInstagramDetail",
+        "CompanyTwitterDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Identify top-performing companies based on performance scores and extract their social media strategies from CompanyFocusAreaDetail table.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Compile a report summarizing the findings, insights, and recommendations for improving social media engagement strategies based on the analysis.",
+      "table": [
+        "SectionData"
+      ]
+    }
+  ]
+}

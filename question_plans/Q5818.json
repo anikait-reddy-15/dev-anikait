@@ -1,0 +1,34 @@
+{
+  "question": "What are the emerging technology trends in the financial services sector and how are companies adopting them?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify the relevant industry type for the financial services sector within the IndustryITTrend table.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Retrieve detailed insights on the current technology focus areas specific to financial services from the IndustryBusinessTrend table.",
+      "table": [
+        "IndustryBusinessTrend"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze and summarize the technology adoption data from CompanyTechStack for companies classified under the financial services sector in CompanyInfo table.",
+      "table": [
+        "CompanyInfo",
+        "CompanyTechStack"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Assess how companies in the financial services sector are enhancing their IT capabilities and strategic focus using the CompanyFocusAreaDetail table.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    }
+  ]
+}

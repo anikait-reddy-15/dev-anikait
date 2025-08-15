@@ -1,0 +1,42 @@
+{
+  "question": "What are the emerging technology adoption trends among companies in the IT sector?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify the companies operating in the IT sector by querying the CompanyInfo table to filter on the 'Industry' column with a value indicating IT sector.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract technology focus areas for the identified IT companies from the CompanyFocusAreaDetail table to understand their strategic technology adoption agendas.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Collect data on specific technologies adopted by these companies from the CompanyTechStack table to analyze patterns in their technology choices.",
+      "table": [
+        "CompanyTechStack"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Analyze social media engagement metrics from CompanyFacebookDetail, CompanyTwitterDetail, and CompanyInstagramDetail to gauge the public interaction related to technology initiatives of these IT companies.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyTwitterDetail",
+        "CompanyInstagramDetail"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Review recent contracts from the CompanyDealMaster to understand which technology services companies are investing in and how these relate to their strategic focus areas.",
+      "table": [
+        "CompanyDealMaster"
+      ]
+    }
+  ]
+}

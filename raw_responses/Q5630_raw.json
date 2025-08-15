@@ -1,0 +1,4 @@
+{
+  "question": "What are the technology trends across different industries, and how are companies adapting to them?",
+  "subtasks": "[{\"step\":1,\"task\":\"Identify key technology trends from the IndustryITTrend table.\",\"table\":[\"IndustryITTrend\"]},{\"step\":2,\"task\":\"Gather data on companies and their technology focus areas from the CompanyFocusAreaDetail table.\",\"table\":[\"CompanyFocusAreaDetail\"]},{\"step\":3,\"task\":\"Analyze company engagement with technology through the CompanyTechStack table to understand what technologies are being adopted.\",\"table\":[\"CompanyTechStack\"]},{\"step\":4,\"task\":\"Compile and summarize insights on how different industries are adapting to these technology trends based on the analysis from the previous steps.\",\"table\":[\"IndustryITTrend\",\"CompanyFocusAreaDetail\",\"CompanyTechStack\"]}]}"
+}

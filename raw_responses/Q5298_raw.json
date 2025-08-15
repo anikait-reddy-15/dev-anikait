@@ -1,0 +1,4 @@
+{
+  "question": "What are the recent hiring trends and social media engagement metrics for technology companies operating in the cloud computing sector?",
+  "subtasks": "[{'step': 1, 'task': 'Identify technology companies focusing on cloud computing by analyzing the CompanyFocusAreaDetail table.', 'table': ['CompanyFocusAreaDetail']}, {'step': 2, 'task': 'Extract recent hiring initiatives by these technology companies from the CompanyHiringDetail table.', 'table': ['CompanyHiringDetail']}, {'step': 3, 'task': 'Retrieve social media engagement metrics from Facebook, Instagram, Twitter, and YouTube for these companies using respective social media detail tables.', 'table': ['CompanyFacebookDetail', 'CompanyInstagramDetail', 'CompanyTwitterDetail', 'CompanyYoutubeDetail']}, {'step': 4, 'task': 'Compile and compare the recent hiring data with social media engagement metrics for analysis.', 'table': []}]"
+}

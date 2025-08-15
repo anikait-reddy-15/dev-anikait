@@ -1,0 +1,43 @@
+{
+  "question": "Analyze the social media presence and engagement of companies in the tech industry during the last quarter.",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Retrieve list of companies classified in the tech industry along with their corresponding company details such as revenue and market capitalization.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Gather social media engagement data (likes, comments, etc.) from Facebook, Instagram, Twitter, and YouTube for these companies during the last quarter.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyInstagramDetail",
+        "CompanyTwitterDetail",
+        "CompanyYoutubeDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Compile and summarize the gathered engagement metrics by company to evaluate overall social media performance and trends.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyInstagramDetail",
+        "CompanyTwitterDetail",
+        "CompanyYoutubeDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Prepare a comparative analysis report focusing on the engagement differences in social media presence among the companies in the tech industry.",
+      "table": [
+        "CompanyInfo",
+        "CompanyFacebookDetail",
+        "CompanyInstagramDetail",
+        "CompanyTwitterDetail",
+        "CompanyYoutubeDetail"
+      ]
+    }
+  ]
+}

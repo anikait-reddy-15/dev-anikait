@@ -1,0 +1,34 @@
+{
+  "question": "Identify the top 5 companies in the technology industry with the highest revenue and their key technology focus areas.",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Retrieve all companies in the technology industry along with their revenue details.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Sort the retrieved companies by revenue in descending order and limit the results to the top 5 companies.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "For each of the top 5 technology companies identified, retrieve their key technology focus areas from the relevant table.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Compile the results into a summary showing each company's name, revenue, and associated technology focus areas.",
+      "table": [
+        "CompanyInfo",
+        "CompanyFocusAreaDetail"
+      ]
+    }
+  ]
+}

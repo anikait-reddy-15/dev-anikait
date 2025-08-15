@@ -1,0 +1,4 @@
+{
+  "question": "What are the current trends in IT investments among companies in the technology industry?",
+  "subtasks": "[{'step': 1, 'task': 'Identify companies operating in the technology industry and their corresponding IT budgets.', 'table': ['CompanyInfo']}, {'step': 2, 'task': 'Analyze the strategic technology focus areas of these companies to understand priorities in IT investments.', 'table': ['CompanyFocusAreaDetail']}, {'step': 3, 'task': 'Capture emerging IT trends from the IndustryITTrend table to correlate with IT investments.', 'table': ['IndustryITTrend']}, {'step': 4, 'task': 'Compile social media engagement data to assess public perception of IT investment trends.', 'table': ['CompanyFacebookDetail', 'CompanyTwitterDetail', 'CompanyInstagramDetail']}, {'step': 5, 'task': 'Summarize findings and create a report or visual presentation to convey insights about the IT investment trends.', 'table': ['SectionData', 'PageInfo']}]"
+}

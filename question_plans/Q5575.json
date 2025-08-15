@@ -1,0 +1,41 @@
+{
+  "question": "Analyze the technology adoption trends across different industries.",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify the industries represented in the database and their corresponding technology trends.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract detailed records of technology services adopted by companies, including service type and deal values.",
+      "table": [
+        "CompanyVendorTechDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Gather data on specific technologies used by companies, including vendor identification and technology stack details.",
+      "table": [
+        "CompanyTechStack"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Compile and summarize the emerging trends from the 'IndustryITTrend' and 'CompanyVendorTechDetail' tables to create comprehensive insights on technology adoption.",
+      "table": [
+        "IndustryITTrend",
+        "CompanyVendorTechDetail"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Analyze geographic distribution of technology adoption trends based on companies' data center locations.",
+      "table": [
+        "CompanyDataCenter"
+      ]
+    }
+  ]
+}

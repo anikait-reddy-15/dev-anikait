@@ -1,0 +1,46 @@
+{
+  "question": "What are the current technology trends being adopted in the marketing department of companies across different industries?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies that have a marketing department based on their hiring details or technology stacks.",
+      "table": [
+        "CompanyHiringDetail",
+        "CompanyTechStack"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Gather and analyze data on technology focus areas relevant to marketing such as digital marketing, automation tools, and analytics frameworks.",
+      "table": [
+        "CompanyFocusAreaDetail",
+        "CompanyVendorProductDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Review current industry IT trends affecting marketing to understand how companies are adapting their strategies.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Collect engagement metrics from social media platforms to assess how technological adoption is affecting marketing outreach and effectiveness.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyInstagramDetail",
+        "CompanyTwitterDetail",
+        "CompanyYoutubeDetail"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Compile insights into a structured report to summarize the identified trends and metrics for a comprehensive view of technology adoption in marketing departments.",
+      "table": [
+        "SectionData",
+        "PageInfo"
+      ]
+    }
+  ]
+}

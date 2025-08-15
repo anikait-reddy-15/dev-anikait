@@ -1,0 +1,4 @@
+{
+  "question": "What are the current hiring trends in the technology sector for companies based in the United States?",
+  "subtasks": "[{\"step\":1,\"task\":\"Identify all companies that are classified under the technology sector in the CompanyInfo table, filtering by geography to include only those in the United States.\",\"table\":[\"CompanyInfo\"]},{\"step\":2,\"task\":\"Review the CompanyHiringDetail table to extract active hiring initiatives and job postings related to the identified technology companies from step 1.\",\"table\":[\"CompanyHiringDetail\"]},{\"step\":3,\"task\":\"Analyze the extracted hiring data to determine common designations, skill requirements, and geographical locations for these job postings.\",\"table\":[\"CompanyHiringDetail\"]},{\"step\":4,\"task\":\"Summarize the findings to highlight key trends and report on the demand for specific roles within the technology sector in the United States.\",\"table\":[\"CompanyHiringDetail\"]}]"
+}

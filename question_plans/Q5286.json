@@ -1,0 +1,33 @@
+{
+  "question": "Analyze the current IT budget and strength across different industries and their geographical distributions.",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Retrieve a list of all companies including their IT budget and strength along with associated industry and geography details.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Group the company data by industry and calculate average IT budget and strength for each industry.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the geographical distribution of companies per industry and summarize the findings with regards to their IT budgets and strengths.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Identify any trends or patterns in IT budgets and strengths across different industries and geographical locations.",
+      "table": [
+        "CompanyInfo"
+      ]
+    }
+  ]
+}

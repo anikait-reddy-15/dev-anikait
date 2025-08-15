@@ -1,0 +1,4 @@
+{
+  "question": "Identify the top 5 companies in the technology sector with the highest market capitalization, and analyze their IT budgets and employee count.",
+  "subtasks": "[{\"step\":1,\"task\":\"Fetch companies from the CompanyInfo table filtered by 'Industry' as 'Technology'.\",\"table\":[\"CompanyInfo\"]},{\"step\":2,\"task\":\"Sort the filtered companies by 'MarketCapitalization' in descending order and limit the results to the top 5 companies.\",\"table\":[\"CompanyInfo\"]},{\"step\":3,\"task\":\"Retrieve the 'ITBudget' and 'Employees' data for the top 5 companies obtained in the previous step.\",\"table\":[\"CompanyInfo\"]},{\"step\":4,\"task\":\"Compile and analyze the retrieved data to compare IT budgets and employee counts for the top 5 companies.\",\"table\":[\"CompanyInfo\"]}]}"
+}

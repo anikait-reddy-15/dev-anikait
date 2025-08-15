@@ -1,0 +1,32 @@
+{
+  "question": "What are the current IT trends and strategic technology focus areas in the finance industry?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify and retrieve information about the finance industry from the 'IndustryBusinessTrend' and 'IndustryITTrend' tables to understand current trends affecting this sector.",
+      "table": [
+        "IndustryBusinessTrend",
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Gather data from the 'CompanyInfo' table to identify companies operating in the finance industry and their respective IT budgets and strengths.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze the IT focus areas from the 'CompanyFocusAreaDetail' table to determine specific technologies companies in the finance industry are investing in or focusing on.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Compile and summarize the findings to highlight significant trends and strategies related to IT and technology investments within the finance industry, preparing visualization or reporting based on the collected data.",
+      "table": []
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "question": "What are the current hiring trends in the technology sector for companies based on their social media presence?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify technology companies from the CompanyInfo table and their current status on hiring initiatives.",
+      "table": [
+        "CompanyInfo",
+        "CompanyHiringDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Analyze social media engagement data of these companies from Facebook and Twitter to correlate with their hiring activities.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyTwitterDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Compile insights on engineering or tech-focused roles being hired by these companies per their social media engagement metrics.",
+      "table": [
+        "CompanyHiringDetail",
+        "SocialMediaInfo"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Examine geographical hiring patterns by intersecting hiring data with company locations from CompanyDataCenter table.",
+      "table": [
+        "CompanyDataCenter",
+        "CompanyHiringDetail"
+      ]
+    }
+  ]
+}

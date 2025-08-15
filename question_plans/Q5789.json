@@ -1,0 +1,42 @@
+{
+  "question": "What are the key technology focus areas for companies in the technology sector and how do they compare based on their social media engagement?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify all companies in the technology sector based on their industry from the CompanyInfo table.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Gather the strategic technology focus areas for these companies from the CompanyFocusAreaDetail table.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Collect the social media engagement metrics for these companies from the SocialMediaInfo table, focusing on platforms like Facebook, Instagram, LinkedIn, and Twitter.",
+      "table": [
+        "SocialMediaInfo"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Analyze the collected data to compare technology focus areas with social media engagement metrics for each company.",
+      "table": [
+        "CompanyFocusAreaDetail",
+        "SocialMediaInfo"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Summarize findings to highlight key technology trends and their relationship with social media activity for the technology sector.",
+      "table": [
+        "CompanyFocusAreaDetail",
+        "SocialMediaInfo"
+      ]
+    }
+  ]
+}

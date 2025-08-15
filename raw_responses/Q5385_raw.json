@@ -1,0 +1,4 @@
+{
+  "question": "What are the current technology trends companies are focusing on across different industries?",
+  "subtasks": "[{\"step\":1,\"task\":\"Identify the industries present in the IndustryITTrend table to understand the scope of analysis.\",\"table\":[\"IndustryITTrend\"]},{\"step\":2,\"task\":\"Extract emerging technology trends and focus areas from the IndustryITTrend table for each industry identified.\",\"table\":[\"IndustryITTrend\"]},{\"step\":3,\"task\":\"Cross-reference the identified technology trends with the CompanyInfo table to find which companies are adopting these technologies.\",\"table\":[\"CompanyInfo\",\"IndustryITTrend\"]},{\"step\":4,\"task\":\"Document the findings about specific companies and their corresponding technology trends along with industry type.\",\"table\":[\"CompanyInfo\",\"IndustryITTrend\"]}]}"
+}

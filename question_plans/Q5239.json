@@ -1,0 +1,38 @@
+{
+  "question": "How are companies leveraging social media for marketing and engagement?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies with active social media presence and engagement metrics.",
+      "table": [
+        "CompanyInfo",
+        "SocialMediaInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Analyze the social media activity data to determine the level of engagement (likes, comments, shares) across platforms like Facebook, Twitter, and Instagram.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyTwitterDetail",
+        "CompanyInstagramDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Examine the strategic focus areas of companies to understand how social media fits into their broader marketing strategies.",
+      "table": [
+        "CompanyFocusAreaDetail",
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Aggregate insights on social media performance and correlate with revenue or market impact for companies that are active on these platforms.",
+      "table": [
+        "CompanyInfo",
+        "CompanyDealMaster"
+      ]
+    }
+  ]
+}

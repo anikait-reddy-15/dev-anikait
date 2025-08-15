@@ -1,0 +1,4 @@
+{
+  "question": "Identify the technology focus areas and social media engagement metrics of companies in the cloud computing industry.",
+  "subtasks": "[{\"step\":1,\"task\":\"Retrieve a list of companies with their details that belong to the cloud computing industry.\",\"table\":[\"CompanyInfo\"]},{\"step\":2,\"task\":\"Gather the strategic technology focus areas related to the identified companies, specifically looking for cloud computing initiatives.\",\"table\":[\"CompanyFocusAreaDetail\"]},{\"step\":3,\"task\":\"Collect social media engagement metrics (likes, comments) for the identified companies from Facebook, Twitter, and Instagram.\",\"table\":[\"CompanyFacebookDetail\",\"CompanyTwitterDetail\",\"CompanyInstagramDetail\"]}]"
+}

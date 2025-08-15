@@ -1,0 +1,42 @@
+{
+  "question": "Identify the key technology trends among companies in the pharmaceutical industry based on their IT budget and social media engagement.",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Fetch companies from the CompanyInfo table that are classified under the pharmaceutical industry.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Retrieve the IT budget and key focus technology areas from the CompanyFocusAreaDetail for the identified pharmaceutical companies.",
+      "table": [
+        "CompanyFocusAreaDetail",
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Collect social media engagement data (Facebook, Twitter, Instagram, and YouTube) from the corresponding tables for the identified companies to analyze their presence and activity.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyTwitterDetail",
+        "CompanyInstagramDetail",
+        "CompanyYoutubeDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Compile and analyze the data to identify correlations between the IT budget and the level of social media engagement in the pharmaceutical industry.",
+      "table": [
+        "CompanyInfo",
+        "CompanyFocusAreaDetail",
+        "CompanyFacebookDetail",
+        "CompanyTwitterDetail",
+        "CompanyInstagramDetail",
+        "CompanyYoutubeDetail"
+      ]
+    }
+  ]
+}

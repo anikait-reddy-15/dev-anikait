@@ -1,0 +1,43 @@
+{
+  "question": "What are the current hiring trends in the technology industry across different regions?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify active hiring initiatives in the technology sector.",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Filter hiring initiatives by technology-related job roles and identify the regions where hiring is occurring.",
+      "table": [
+        "CompanyHiringDetail",
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Aggregate the data to find trends such as the number of job openings, required skills, and salary ranges by region.",
+      "table": [
+        "CompanyHiringDetail",
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Analyze and report the findings on current hiring trends in the technology industry by region.",
+      "table": [
+        "CompanyHiringDetail",
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Investigate any specified demographics of hires (such as education level or years of experience) if available in the hiring detail records.",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    }
+  ]
+}

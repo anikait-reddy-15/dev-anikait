@@ -1,0 +1,34 @@
+{
+  "question": "What are the current technology focus areas and financial metrics of companies in the IT industry?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify all companies operating in the IT industry and retrieve their basic information such as name and profile.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Fetch the technology focus areas for the identified IT companies to understand their strategic initiatives.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Gather financial metrics including revenue, net income, and IT budget for the identified companies to analyze their financial health.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Combine technology focus areas with financial metrics to generate a comprehensive overview of the IT companies' strategies and performance.",
+      "table": [
+        "CompanyInfo",
+        "CompanyFocusAreaDetail"
+      ]
+    }
+  ]
+}

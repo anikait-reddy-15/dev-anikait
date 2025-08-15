@@ -1,0 +1,4 @@
+{
+  "question": "What are the current social media engagement levels for various companies in the technology sector?",
+  "subtasks": "[\n    {\n        \"step\": 1,\n        \"task\": \"Identify all companies in the technology sector along with relevant company details such as their Id and Name.\",\n        \"table\": [\"CompanyInfo\"]\n    },\n    {\n        \"step\": 2,\n        \"task\": \"Fetch social media engagement metrics from the SocialMediaInfo table for the identified technology companies.\",\n        \"table\": [\"SocialMediaInfo\"]\n    },\n    {\n        \"step\": 3,\n        \"task\": \"Aggregate and analyze the social media engagement data for these companies to determine engagement levels across platforms.\",\n        \"table\": [\"CompanyFacebookDetail\", \"CompanyInstagramDetail\", \"CompanyTwitterDetail\", \"CompanyYoutubeDetail\"]\n    }\n]"
+}

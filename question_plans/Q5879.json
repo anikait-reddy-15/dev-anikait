@@ -1,0 +1,40 @@
+{
+  "question": "What are the current trends in IT spending and technology focus for companies in the finance industry?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies in the finance industry and their IT budgets.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Analyze the technology focus areas for finance companies to determine strategic IT investments.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Review historical and current IT spending trends in finance to assess changes over time.",
+      "table": [
+        "CompanyDealMaster"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Aggregate social media presence metrics of finance companies to understand brand engagement in relation to IT investments.",
+      "table": [
+        "SocialMediaInfo"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Explore the hiring details of finance companies to see trends in talent acquisition related to technology roles.",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    }
+  ]
+}

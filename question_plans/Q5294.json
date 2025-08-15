@@ -1,0 +1,29 @@
+{
+  "question": "Analyze the technology adoption trends across different industries and their impact on hiring demand.",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify key technologies adopted by companies in various industries.",
+      "table": [
+        "CompanyTechStack",
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Analyze the correlation between technology adoption and hiring trends in specific industries.",
+      "table": [
+        "CompanyHiringDetail",
+        "CompanyTechStack"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Compile insights on technology adoption across multiple industries and its effects on job roles being filled.",
+      "table": [
+        "CompanyHiringDetail",
+        "IndustryITTrend"
+      ]
+    }
+  ]
+}

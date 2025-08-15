@@ -1,0 +1,43 @@
+{
+  "question": "Analyze the social media engagement performance of companies across different platforms (Facebook, Twitter, Instagram, and YouTube) to identify trends and insights.",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Retrieve engagement metrics (likes, comments, shares, etc.) from Facebook for all companies.",
+      "table": [
+        "CompanyFacebookDetail"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Retrieve engagement metrics (likes, retweets, and hashtags) from Twitter for all companies.",
+      "table": [
+        "CompanyTwitterDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Retrieve engagement metrics (likes, comments, and views) from Instagram for all companies.",
+      "table": [
+        "CompanyInstagramDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Retrieve engagement metrics (likes, comments, and views) from YouTube for all companies.",
+      "table": [
+        "CompanyYoutubeDetail"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Combine and analyze the engagement data from all retrieved social media tables to identify overall trends and platform performance comparisons.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyTwitterDetail",
+        "CompanyInstagramDetail",
+        "CompanyYoutubeDetail"
+      ]
+    }
+  ]
+}

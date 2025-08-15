@@ -1,0 +1,40 @@
+{
+  "question": "What is the current technology adoption trend and hiring demand in the healthcare industry?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify key technology trends in the healthcare industry based on the IndustryITTrend table.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Analyze the technology focus areas and adoption in healthcare companies from the CompanyFocusAreaDetail table.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Gather data on active hiring initiatives in healthcare companies from the CompanyHiringDetail table to assess talent demand.",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Combine insights from the CompanyDataCenter table to understand the geographical distribution of technology infrastructure in healthcare.",
+      "table": [
+        "CompanyDataCenter"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Aggregate technology usage data from the CompanyTechStack table for healthcare entities to evaluate their technology adoption status.",
+      "table": [
+        "CompanyTechStack"
+      ]
+    }
+  ]
+}

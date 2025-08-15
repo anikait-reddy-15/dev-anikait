@@ -1,0 +1,4 @@
+{
+  "question": "What are the latest technology trends adopted by companies in the finance industry?",
+  "subtasks": "step\": 1,\n    \"task\": \"Identify finance companies in the CompanyInfo table.\",\n    \"table\": [\"CompanyInfo\"]\n  },\n  {\n    \"step\": 2,\n    \"task\": \"Analyze technology focus areas for finance companies by joining CompanyFocusAreaDetail with CompanyInfo.\",\n    \"table\": [\"CompanyFocusAreaDetail\", \"CompanyInfo\"]\n  },\n  {\n    \"step\": 3,\n    \"task\": \"Gather data on technology trends from IndustryITTrend that relates to finance to understand emerging tools and strategies.\",\n    \"table\": [\"IndustryITTrend\"]\n  },\n  {\n    \"step\": 4,\n    \"task\": \"Compile a report to summarize the key technology focus areas and trends for the finance industry companies.\",\n    \"table\": []\n  }\n]"
+}

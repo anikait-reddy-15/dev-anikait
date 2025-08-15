@@ -1,0 +1,43 @@
+{
+  "question": "What are the trends in technology adoption among companies across different industries?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Analyze company technology stacks across various industries to identify common tools and platforms being utilized.",
+      "table": [
+        "CompanyTechStack",
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Review industry-specific technology trends recorded in the IndustryITTrend table to correlate technology usage with industry growth areas.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Examine partnership details in CompanyITPartnerDetail to see how collaborations influence technology adoption in different sectors.",
+      "table": [
+        "CompanyITPartnerDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Investigate any emerging business trends affecting technology priorities in the IndustryBusinessTrend to understand strategic directions.",
+      "table": [
+        "IndustryBusinessTrend"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Summarize social media engagement metrics from CompanyFacebookDetail, CompanyTwitterDetail, and CompanyInstagramDetail to gauge public sentiment towards technology initiatives in respective industries.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyTwitterDetail",
+        "CompanyInstagramDetail"
+      ]
+    }
+  ]
+}

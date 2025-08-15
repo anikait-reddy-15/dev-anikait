@@ -1,0 +1,29 @@
+{
+  "question": "What are the emerging IT trends across different industries, and how are companies adopting these technologies?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify all industries that are currently being tracked for IT trends.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Gather data on the specific IT technologies or trends being adopted by companies related to each industry.",
+      "table": [
+        "CompanyTechStack",
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze and summarize the relationship between industries and the specific IT trends they are adopting, along with the companies involved.",
+      "table": [
+        "CompanyInfo",
+        "IndustryITTrend",
+        "CompanyTechStack"
+      ]
+    }
+  ]
+}

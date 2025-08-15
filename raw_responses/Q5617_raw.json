@@ -1,0 +1,4 @@
+{
+  "question": "Identify the key technology vendors of the companies in the IT industry and analyze their partnerships and product usage.",
+  "subtasks": "[{\"step\":1,\"task\":\"Fetch companies that operate in the IT industry from the CompanyInfo table.\",\"table\":[\"CompanyInfo\"]},{\"step\":2,\"task\":\"Retrieve details of technology vendors used by the identified companies from the CompanyVendorProductDetail and CompanyVendorTechDetail tables.\",\"table\":[\"CompanyVendorProductDetail\",\"CompanyVendorTechDetail\"]},{\"step\":3,\"task\":\"Analyze partnership details and deal values for these technology vendors by querying the CompanyITPartnerDetail table.\",\"table\":[\"CompanyITPartnerDetail\"]},{\"step\":4,\"task\":\"Compile the findings into a report that highlights key vendors, partnerships, and product usage across IT companies.\",\"table\":[]}]"
+}

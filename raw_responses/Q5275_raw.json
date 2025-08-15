@@ -1,0 +1,4 @@
+{
+  "question": "What are the latest IT trends and technology focus areas across various companies in different industries?",
+  "subtasks": ":[{\"step\":1,\"task\":\"Identify all active companies and their associated industries from CompanyInfo table.\",\"table\":[\"CompanyInfo\"]},{\"step\":2,\"task\":\"Gather emerging IT trends and technology focus areas from the IndustryITTrend table for each industry identified in step 1.\",\"table\":[\"IndustryITTrend\"]},{\"step\":3,\"task\":\"List the companies that have adopted the technologies identified in the previous step by cross-referencing with CompanyTechStack table.\",\"table\":[\"CompanyTechStack\"]},{\"step\":4,\"task\":\"Compile the results into a comprehensive report summarizing the companies, their industries, and adopted IT trends.\",\"table\":[\"CompanyInfo\",\"IndustryITTrend\",\"CompanyTechStack\"]}]}"
+}

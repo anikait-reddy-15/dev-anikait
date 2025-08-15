@@ -1,0 +1,27 @@
+{
+  "question": "Identify the top companies in terms of revenue that are actively hiring in the technology sector.",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Query the CompanyInfo table to retrieve companies in the technology sector and their revenue, filtering for active companies.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Join the CompanyHiringDetail table with the filtered company data to identify which of these companies are actively hiring, along with details of the job roles.",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Sort the results by revenue in descending order to find the top companies that meet the criteria.",
+      "table": [
+        "CompanyInfo",
+        "CompanyHiringDetail"
+      ]
+    }
+  ]
+}

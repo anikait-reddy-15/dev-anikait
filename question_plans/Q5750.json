@@ -1,0 +1,42 @@
+{
+  "question": "What are the strategic technology focus areas for companies in the technology industry?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify all companies in the technology industry by querying the CompanyInfo table for records where Industry is 'Technology'.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "For the identified companies, fetch their corresponding strategic technology focus areas from the CompanyFocusAreaDetail table using the CompanyInfoId field to link to the CompanyInfo table records.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Aggregate and analyze the focus areas data to summarize the trends and key areas of interest across the technology companies. This may involve grouping by ITFocusAreaId and counting occurrences to identify predominant strategies.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Cross-reference the focus areas with existing reports or qualitative data in the SectionData table to provide context or narratives on how these areas are being approached by different companies.",
+      "table": [
+        "SectionData"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Compile the findings into a comprehensive report that showcases the technology focus trends in the industry, integrating insights from the focus areas, market demands, and sector-specific challenges identified in the analysis.",
+      "table": [
+        "CompanyInfo",
+        "CompanyFocusAreaDetail",
+        "SectionData"
+      ]
+    }
+  ]
+}

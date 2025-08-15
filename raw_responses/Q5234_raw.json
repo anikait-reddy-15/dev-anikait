@@ -1,0 +1,4 @@
+{
+  "question": "What are the key technology trends for companies in the financial services industry and how are they adopting these technologies?",
+  "subtasks": "[{'step': 1, 'task': 'Identify companies in the financial services industry from the CompanyInfo table.', 'table': ['CompanyInfo']}, {'step': 2, 'task': 'Gather their technology adoptions from the CompanyTechStack table.', 'table': ['CompanyTechStack']}, {'step': 3, 'task': 'Analyze the technology focus areas from the CompanyFocusAreaDetail table for these companies.', 'table': ['CompanyFocusAreaDetail']}, {'step': 4, 'task': 'Collect data on technology contracts and vendor relationships from the CompanyDealMaster and CompanyVendorProductDetail tables.', 'table': ['CompanyDealMaster', 'CompanyVendorProductDetail']}, {'step': 5, 'task': 'Compile emerging IT trends specific to the financial services sector from the IndustryITTrend table.', 'table': ['IndustryITTrend']}]"
+}

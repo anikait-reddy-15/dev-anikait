@@ -1,0 +1,4 @@
+{
+  "question": "What are the current technology focus areas and IT budgets of companies in the healthcare industry?",
+  "subtasks": "[\n  {\n    \"step\": 1,\n    \"task\": \"Identify companies operating in the healthcare industry and retrieve their profiles.\",\n    \"table\": [\"CompanyInfo\"]\n  },\n  {\n    \"step\": 2,\n    \"task\": \"Collect detailed information about the technology focus areas associated with the identified healthcare companies.\",\n    \"table\": [\"CompanyFocusAreaDetail\"]\n  },\n  {\n    \"step\": 3,\n    \"task\": \"Extract the IT budgets of the identified healthcare companies to analyze their investment in technology.\",\n    \"table\": [\"CompanyInfo\"]\n  },\n  {\n    \"step\": 4,\n    \"task\": \"Compile and summarize the technology focus areas and corresponding IT budgets to generate insights on healthcare companies' technology investments.\",\n    \"table\": []\n  }\n]"
+}

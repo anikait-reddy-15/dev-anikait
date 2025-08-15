@@ -1,0 +1,4 @@
+{
+  "question": "What are the key technology trends that companies in the finance industry are focusing on, and how do these trends relate to their social media presence?",
+  "subtasks": "[{\"step\":1,\"task\":\"Identify companies that operate in the finance industry.\",\"table\":[\"CompanyInfo\"]},{\"step\":2,\"task\":\"Extract the technology focus areas for these finance companies to determine their key technology trends.\",\"table\":[\"CompanyFocusAreaDetail\"]},{\"step\":3,\"task\":\"Analyze the social media presence and engagement metrics of identified finance companies to relate their technology trends to social media activity.\",\"table\":[\"SocialMediaInfo\",\"CompanyFacebookDetail\",\"CompanyTwitterDetail\",\"CompanyInstagramDetail\",\"CompanyYoutubeDetail\"]}]"
+}

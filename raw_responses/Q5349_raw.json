@@ -1,0 +1,4 @@
+{
+  "question": "What are the latest trends in IT spending and hiring within the technology industry?",
+  "subtasks": "[{\"step\":1,\"task\":\"Retrieve the latest IT spending data for companies in the technology industry, specifically looking at the 'ITBudget' and 'Industry' columns.\",\"table\":[\"CompanyInfo\"]},{\"step\":2,\"task\":\"Collect recent hiring initiatives from technology companies to analyze hiring trends, focusing on roles, required skills, and locations from active hiring entries.\",\"table\":[\"CompanyHiringDetail\"]},{\"step\":3,\"task\":\"Analyze industry-level IT trends for technology companies, focusing on adoption of new technologies and their strategic focus areas.\",\"table\":[\"IndustryITTrend\"]},{\"step\":4,\"task\":\"Compile a summary of technology adoption trends from the 'CompanyTechStack' table, identifying popular technologies across the industry.\",\"table\":[\"CompanyTechStack\"]}]"
+}

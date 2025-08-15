@@ -1,0 +1,33 @@
+{
+  "question": "What are the hiring trends and social media engagement metrics for technology companies in the last year?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify technology companies active in the last year by filtering the CompanyInfo table on the 'Active' and 'LastUpdatedOn' dates.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Gather hiring details from the CompanyHiringDetail table for the identified technology companies, focusing on job roles and cities relevant to IT positions.",
+      "table": [
+        "CompanyHiringDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze social media engagement metrics for the identified technology companies from the CompanyFacebookDetail, CompanyTwitterDetail, and CompanyInstagramDetail tables to assess their online presence and interactions in the last year.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyTwitterDetail",
+        "CompanyInstagramDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Compile the hiring data and social media engagement metrics into a summary report that outlines trends and notable statistics for the technology sector.",
+      "table": []
+    }
+  ]
+}

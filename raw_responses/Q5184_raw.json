@@ -1,0 +1,4 @@
+{
+  "question": "What are the current hiring trends in technology companies regarding specific roles and geographical location?",
+  "subtasks": "[{\"step\":1,\"task\":\"Identify the technology companies contributing to active hiring initiatives.\",\"table\":[\"CompanyHiringDetail\",\"CompanyInfo\"]},{\"step\":2,\"task\":\"Analyze the roles being hired for within these companies, focusing on technology-specific designations.\",\"table\":[\"CompanyHiringDetail\"]},{\"step\":3,\"task\":\"Gather geographical data on where these hiring initiatives are taking place, correlating with company locations.\",\"table\":[\"CompanyHiringDetail\",\"CompanyDataCenter\"]},{\"step\":4,\"task\":\"Summarize the findings to reflect overall trends in hiring demands and geographic locations across the technology sector.\",\"table\":[\"CompanyHiringDetail\",\"CompanyInfo\",\"CompanyDataCenter\"]}]}"
+}

@@ -1,0 +1,38 @@
+{
+  "question": "What are the current leading technology trends for companies in the finance industry?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify all companies operating in the finance industry by querying the CompanyInfo table to filter by the 'Industry' column.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Gather current IT trends and focus areas as recorded in the IndustryITTrend table for the finance industry to understand prevalent technologies.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze technology stacks used by the identified finance industry companies by referencing the CompanyTechStack table to see what technologies they have adopted.",
+      "table": [
+        "CompanyTechStack"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Cross-reference insights from the CompanyVendorTechDetail table to discover what technology services are being provided to finance companies and their impact on technology adoption.",
+      "table": [
+        "CompanyVendorTechDetail"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Compile and summarize the results to present a cohesive report on the leading technology trends for the finance industry based on the collected data from the previous steps.",
+      "table": []
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "question": "Identify key trends in technology adoption across different industries in the past year.",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Gather data on industries and their respective technology focus areas for the last year.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract key technology trends and their descriptions from the IndustryITTrend table.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze and summarize the extracted data to highlight the most significant technology adoptions in different industries.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Cross-reference technology trends with relevant companies to identify leading adopters.",
+      "table": [
+        "CompanyTechStack",
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Compile findings into a comprehensive report detailing technology adoption trends across identified industries.",
+      "table": [
+        "IndustryITTrend",
+        "CompanyTechStack"
+      ]
+    }
+  ]
+}

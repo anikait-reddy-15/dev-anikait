@@ -1,0 +1,45 @@
+{
+  "question": "What are the technological focus areas for companies in the IT industry over the last year?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify all companies operating in the IT industry and retrieve their basic information such as name, founded year, and active status.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Extract the technological focus areas for each identified IT company, including details of their strategic initiatives and investments in technology.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Compile the extracted focus areas and cross-reference them with social media engagement data to correlate any trends in technological investments with public interactions.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyInstagramDetail",
+        "CompanyTwitterDetail",
+        "CompanyYoutubeDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Analyze any also available leadership statements from the IT companies to understand executive perspectives on technological focuses in the past year.",
+      "table": [
+        "CompanyLeadershipExcerpt"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Summarize findings into a report that outlines key technological focus areas and trends in the IT industry based on the compiled data.",
+      "table": [
+        "CompanyInfo",
+        "CompanyFocusAreaDetail",
+        "CompanyLeadershipExcerpt"
+      ]
+    }
+  ]
+}

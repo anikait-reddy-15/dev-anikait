@@ -1,0 +1,35 @@
+{
+  "question": "What are the current trends and focus areas in the IT industry for companies located in North America?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify and list all companies located in North America from the CompanyInfo table including their industry and IT focus areas.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Analyze the CompanyFocusAreaDetail table to extract current IT focus areas linked to the identified companies and their descriptions.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Extract emerging IT trends from the IndustryITTrend table that relate to the industries represented by the companies identified in step 1.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Compile the data collected from the previous steps into a coherent overview of the current IT trends and focus areas in the North American market.",
+      "table": [
+        "CompanyInfo",
+        "CompanyFocusAreaDetail",
+        "IndustryITTrend"
+      ]
+    }
+  ]
+}

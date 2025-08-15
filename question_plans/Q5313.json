@@ -1,0 +1,42 @@
+{
+  "question": "What are the current technology focus areas of companies in the healthcare industry, and how are they leveraging social media for engagement?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Query the CompanyInfo table to get the list of companies in the healthcare industry, including their IDs and names.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Join the CompanyFocusAreaDetail table with the CompanyInfo table to extract the technology focus areas for the identified healthcare companies.",
+      "table": [
+        "CompanyInfo",
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Join the relevant social media activity tables (CompanyFacebookDetail, CompanyInstagramDetail, CompanyTwitterDetail, CompanyYoutubeDetail) with the CompanyInfo table to analyze the social media engagement metrics for these companies.",
+      "table": [
+        "CompanyInfo",
+        "CompanyFacebookDetail",
+        "CompanyInstagramDetail",
+        "CompanyTwitterDetail",
+        "CompanyYoutubeDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Aggregate and summarize the technology focus areas and social media engagement metrics to illustrate trends and key findings for healthcare companies.",
+      "table": [
+        "CompanyFocusAreaDetail",
+        "CompanyFacebookDetail",
+        "CompanyInstagramDetail",
+        "CompanyTwitterDetail",
+        "CompanyYoutubeDetail"
+      ]
+    }
+  ]
+}

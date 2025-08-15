@@ -1,0 +1,37 @@
+{
+  "question": "What are the key technology trends in the healthcare industry and which companies are actively adopting them?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify key technology focus areas relevant to the healthcare industry, such as AI, telemedicine, and data analytics.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Fetch companies operating in the healthcare industry from the CompanyInfo table and link them to their technology focus areas.",
+      "table": [
+        "CompanyInfo",
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Analyze social media engagement and technology partnerships of identified healthcare companies to illustrate their adoption of the latest technology trends.",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyInstagramDetail",
+        "CompanyITPartnerDetail",
+        "CompanyTwitterDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Gather and summarize insights from leadership statements regarding technology strategies from companies in the healthcare sector.",
+      "table": [
+        "CompanyLeadershipExcerpt"
+      ]
+    }
+  ]
+}

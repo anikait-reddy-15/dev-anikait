@@ -1,0 +1,29 @@
+{
+  "question": "Identify the top five companies in the technology industry based on their revenue and IT budget, and analyze their latest social media engagement metrics.",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Retrieve technology companies from the CompanyInfo table and filter them by industry type.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Sort the filtered companies based on revenue and IT budget to find the top five companies.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Fetch the latest social media engagement metrics (likes, comments, engagement rate) for each of the top five companies from their respective social media detail tables (Facebook, Twitter, Instagram, YouTube).",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyTwitterDetail",
+        "CompanyInstagramDetail",
+        "CompanyYoutubeDetail"
+      ]
+    }
+  ]
+}

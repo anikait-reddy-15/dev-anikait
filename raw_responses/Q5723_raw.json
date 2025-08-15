@@ -1,0 +1,4 @@
+{
+  "question": "Identify the top 5 companies in the technology industry with the highest revenue and analyze their social media engagement.",
+  "subtasks": "[{\"step\":1,\"task\":\"Query the CompanyInfo table to retrieve companies in the technology industry along with their Revenue data.\",\"table\":[\"CompanyInfo\"]},{\"step\":2,\"task\":\"Sort the companies by Revenue in descending order and limit the results to the top 5 entries.\",\"table\":[\"CompanyInfo\"]},{\"step\":3,\"task\":\"For the top 5 companies found, retrieve their corresponding social media engagement data from the SocialMediaInfo table.\",\"table\":[\"SocialMediaInfo\"]},{\"step\":4,\"task\":\"Analyze the social media data to identify key engagement metrics (likes, shares, etc.) for each of the top 5 companies.\",\"table\":[\"SocialMediaInfo\"]}]"
+}

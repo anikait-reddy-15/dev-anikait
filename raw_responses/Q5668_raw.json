@@ -1,0 +1,4 @@
+{
+  "question": "What are the emerging IT trends and technology focus areas across different industries?",
+  "subtasks": "[{'step':1,'task':'Identify the different industries for which to analyze IT trends.','table':['IndustryITTrend']},{'step':2,'task':'Gather data on emerging IT trends for each industry from the IndustryITTrend table.','table':['IndustryITTrend']},{'step':3,'task':'Analyze the captured trends to find common focus areas and technologies being adopted.','table':['IndustryITTrend']},{'step':4,'task':'Prepare insights or reports summarizing the findings for each industry.','table':['IndustryITTrend']}]}"
+}

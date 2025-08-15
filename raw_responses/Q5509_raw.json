@@ -1,0 +1,4 @@
+{
+  "question": "What are the current trends and focus areas for IT adopted by companies in the healthcare industry?",
+  "subtasks": "[{'step': 1, 'task': 'Retrieve a list of companies in the healthcare industry from CompanyInfo table.', 'table': ['CompanyInfo']}, {'step': 2, 'task': 'Analyze the IT focus areas related to these healthcare companies from CompanyFocusAreaDetail.', 'table': ['CompanyFocusAreaDetail']}, {'step': 3, 'task': 'Extract emerging IT trends associated with the healthcare industry from IndustryITTrend.', 'table': ['IndustryITTrend']}, {'step': 4, 'task': 'Compile and summarize the findings to identify the most common and significant technology initiatives and trends.', 'table': ['CompanyInfo', 'CompanyFocusAreaDetail', 'IndustryITTrend']}]"
+}

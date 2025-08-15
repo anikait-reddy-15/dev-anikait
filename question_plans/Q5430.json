@@ -1,0 +1,38 @@
+{
+  "question": "What are the current trends in IT investments among major companies by industry?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify key industries and their related IT investment metrics from the CompanyInfo table.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Analyze the strategic technology focus areas from the CompanyFocusAreaDetail table to correlate with IT investments.",
+      "table": [
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Examine the CompanyDealMaster table to find B2B contracts that reflect IT investment trends and values by industry.",
+      "table": [
+        "CompanyDealMaster"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Review IndustryITTrend records for emerging IT trends linked to the identified industries from step 1.",
+      "table": [
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Consolidate the findings to create a summary report showing the trends in IT investments categorized by industry.",
+      "table": []
+    }
+  ]
+}

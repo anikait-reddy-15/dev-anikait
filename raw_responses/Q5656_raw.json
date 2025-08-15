@@ -1,0 +1,4 @@
+{
+  "question": "What are the latest technological trends adopted by companies in the finance industry?",
+  "subtasks": "[{\"step\":1,\"task\":\"Identify the companies operating in the finance industry.\",\"table\":[\"CompanyInfo\"]},{\"step\":2,\"task\":\"Gather data regarding technological focus areas from the identified companies.\",\"table\":[\"CompanyFocusAreaDetail\"]},{\"step\":3,\"task\":\"Analyze the latest IT trends specific to the finance industry to correlate with the focus areas identified.\",\"table\":[\"IndustryITTrend\"]},{\"step\":4,\"task\":\"Compile the findings to present a comprehensive overview of technology adoption trends in the finance sector.\",\"table\":[\"SectionData\"]}]"
+}

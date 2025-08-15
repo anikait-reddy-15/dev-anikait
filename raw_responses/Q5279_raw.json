@@ -1,0 +1,4 @@
+{
+  "question": "What are the current technology focus areas and hiring trends for companies in the finance sector?",
+  "subtasks": "[\n    {\n        \"step\": 1,\n        \"task\": \"Query to identify all companies in the finance sector and their associated tech focus areas.\",\n        \"table\": [\"CompanyInfo\", \"CompanyFocusAreaDetail\"]\n    },\n    {\n        \"step\": 2,\n        \"task\": \"Retrieve active hiring initiatives for the identified companies, focusing on the finance sector roles.\",\n        \"table\": [\"CompanyHiringDetail\", \"CompanyInfo\"]\n    },\n    {\n        \"step\": 3,\n        \"task\": \"Analyze the collected data on technology focus areas and correlate it with the hiring trends to identify any gaps or opportunities.\",\n        \"table\": [\"CompanyFocusAreaDetail\", \"CompanyHiringDetail\"]\n    }\n]"
+}

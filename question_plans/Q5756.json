@@ -1,0 +1,41 @@
+{
+  "question": "How are companies in the technology sector adapting to emerging IT trends?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify relevant companies operating in the technology sector",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Gather data on emerging IT trends relevant to various industries",
+      "table": [
+        "IndustryITTrend"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Link the identified companies with the IT trends to analyze their adaptation strategies",
+      "table": [
+        "CompanyTechStack",
+        "CompanyFocusAreaDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Analyze the social media presence of these companies to gauge audience engagement regarding their adaptation stories",
+      "table": [
+        "CompanyFacebookDetail",
+        "CompanyTwitterDetail",
+        "CompanyInstagramDetail"
+      ]
+    },
+    {
+      "step": 5,
+      "task": "Summarize key insights on the adaptation processes and technologies being leveraged by these companies",
+      "table": []
+    }
+  ]
+}

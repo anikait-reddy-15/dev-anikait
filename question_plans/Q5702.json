@@ -1,0 +1,33 @@
+{
+  "question": "What are the major technology partnerships that companies in the healthcare industry have engaged in over the past year?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies in the healthcare industry from the CompanyInfo table.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Retrieve technology partnerships and related deal values from the CompanyITPartnerDetail table for the identified healthcare companies.",
+      "table": [
+        "CompanyITPartnerDetail"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Filter the partnerships to include only those that have been active in the past year using created or updated timestamps.",
+      "table": [
+        "CompanyITPartnerDetail"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Compile summaries of the partnerships, including partner names, deal value, and partnership details.",
+      "table": [
+        "CompanyITPartnerDetail"
+      ]
+    }
+  ]
+}

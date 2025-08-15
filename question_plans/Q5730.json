@@ -1,0 +1,34 @@
+{
+  "question": "What are the recent trends in IT investments among companies in the technology sector?",
+  "subtasks": [
+    {
+      "step": 1,
+      "task": "Identify companies operating in the technology sector by filtering the CompanyInfo table for the Industry column.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 2,
+      "task": "Analyze the ITBudget and ITStrength of the identified technology companies to ascertain their investment levels and capabilities in IT.",
+      "table": [
+        "CompanyInfo"
+      ]
+    },
+    {
+      "step": 3,
+      "task": "Examine recent CompanyDealMaster records to identify B2B technology service contracts that indicate IT investment trends within the technology sector.",
+      "table": [
+        "CompanyDealMaster"
+      ]
+    },
+    {
+      "step": 4,
+      "task": "Aggregate the findings to outline common themes in IT budget allocations, preferred service providers, and technology focus areas for the identified companies.",
+      "table": [
+        "CompanyDealMaster",
+        "CompanyFocusAreaDetail"
+      ]
+    }
+  ]
+}
